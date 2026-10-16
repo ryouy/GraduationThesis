@@ -1,0 +1,769 @@
+concept,replacement,condition,cue,layer,probe_log_odds,validation_description_auc,validated,prompt
+banana,apple,neutral,none,8,-0.6478696568223261,0.5555555555555556,0,"The topic word is banana.
+Topic:"
+banana,apple,neutral,none,16,1.0209344151735313,0.4444444444444444,0,"The topic word is banana.
+Topic:"
+banana,apple,neutral,none,24,4.389494475836109,1.0,1,"The topic word is banana.
+Topic:"
+banana,apple,neutral,related,8,-1.3648965307589833,0.5555555555555556,0,"The topic word is banana.
+Monkeys are pictured holding a curved yellow fruit.
+Topic:"
+banana,apple,neutral,related,16,2.3448622451004444,0.4444444444444444,0,"The topic word is banana.
+Monkeys are pictured holding a curved yellow fruit.
+Topic:"
+banana,apple,neutral,related,24,3.6489567773761444,1.0,1,"The topic word is banana.
+Monkeys are pictured holding a curved yellow fruit.
+Topic:"
+banana,apple,neutral,unrelated,8,-1.8298000799830219,0.5555555555555556,0,"The topic word is banana.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+banana,apple,neutral,unrelated,16,1.4720180422312599,0.4444444444444444,0,"The topic word is banana.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+banana,apple,neutral,unrelated,24,3.4125400727401316,1.0,1,"The topic word is banana.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+banana,apple,affirm,none,8,2.8168375512889865,0.5555555555555556,0,"Think of banana.
+Topic:"
+banana,apple,affirm,none,16,3.127637722493037,0.4444444444444444,0,"Think of banana.
+Topic:"
+banana,apple,affirm,none,24,4.721086691489032,1.0,1,"Think of banana.
+Topic:"
+banana,apple,affirm,related,8,2.6007928548698676,0.5555555555555556,0,"Think of banana.
+Monkeys are pictured holding a curved yellow fruit.
+Topic:"
+banana,apple,affirm,related,16,4.452015473164023,0.4444444444444444,0,"Think of banana.
+Monkeys are pictured holding a curved yellow fruit.
+Topic:"
+banana,apple,affirm,related,24,3.779023933588157,1.0,1,"Think of banana.
+Monkeys are pictured holding a curved yellow fruit.
+Topic:"
+banana,apple,affirm,unrelated,8,1.333018520230199,0.5555555555555556,0,"Think of banana.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+banana,apple,affirm,unrelated,16,3.1103670367336953,0.4444444444444444,0,"Think of banana.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+banana,apple,affirm,unrelated,24,3.773362992374842,1.0,1,"Think of banana.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+banana,apple,suppression,none,8,2.6404651821772744,0.5555555555555556,0,"Do not think of banana. Do not write the word banana.
+Topic:"
+banana,apple,suppression,none,16,7.563725815511938,0.4444444444444444,0,"Do not think of banana. Do not write the word banana.
+Topic:"
+banana,apple,suppression,none,24,2.178108415173218,1.0,1,"Do not think of banana. Do not write the word banana.
+Topic:"
+banana,apple,suppression,related,8,3.10836151350433,0.5555555555555556,0,"Do not think of banana. Do not write the word banana.
+Monkeys are pictured holding a curved yellow fruit.
+Topic:"
+banana,apple,suppression,related,16,6.899704587823007,0.4444444444444444,0,"Do not think of banana. Do not write the word banana.
+Monkeys are pictured holding a curved yellow fruit.
+Topic:"
+banana,apple,suppression,related,24,1.9568502614720844,1.0,1,"Do not think of banana. Do not write the word banana.
+Monkeys are pictured holding a curved yellow fruit.
+Topic:"
+banana,apple,suppression,unrelated,8,3.168357642011477,0.5555555555555556,0,"Do not think of banana. Do not write the word banana.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+banana,apple,suppression,unrelated,16,4.3757980994447445,0.4444444444444444,0,"Do not think of banana. Do not write the word banana.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+banana,apple,suppression,unrelated,24,1.3320359981362315,1.0,1,"Do not think of banana. Do not write the word banana.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+banana,apple,replacement,none,8,3.1990036338855647,0.5555555555555556,0,"Think of apple instead of banana. Do not write the word banana.
+Topic:"
+banana,apple,replacement,none,16,1.635402272819392,0.4444444444444444,0,"Think of apple instead of banana. Do not write the word banana.
+Topic:"
+banana,apple,replacement,none,24,-1.475428495468604,1.0,1,"Think of apple instead of banana. Do not write the word banana.
+Topic:"
+banana,apple,replacement,related,8,2.8552714035513875,0.5555555555555556,0,"Think of apple instead of banana. Do not write the word banana.
+Monkeys are pictured holding a curved yellow fruit.
+Topic:"
+banana,apple,replacement,related,16,1.441126343993617,0.4444444444444444,0,"Think of apple instead of banana. Do not write the word banana.
+Monkeys are pictured holding a curved yellow fruit.
+Topic:"
+banana,apple,replacement,related,24,-0.5405132718798838,1.0,1,"Think of apple instead of banana. Do not write the word banana.
+Monkeys are pictured holding a curved yellow fruit.
+Topic:"
+banana,apple,replacement,unrelated,8,2.892967271205248,0.5555555555555556,0,"Think of apple instead of banana. Do not write the word banana.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+banana,apple,replacement,unrelated,16,0.06780721506931917,0.4444444444444444,0,"Think of apple instead of banana. Do not write the word banana.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+banana,apple,replacement,unrelated,24,-1.707952477288449,1.0,1,"Think of apple instead of banana. Do not write the word banana.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+elephant,giraffe,neutral,none,8,3.4094542926543805,0.6666666666666667,0,"The topic word is elephant.
+Topic:"
+elephant,giraffe,neutral,none,16,2.385624469378562,1.0,1,"The topic word is elephant.
+Topic:"
+elephant,giraffe,neutral,none,24,4.799187951358759,1.0,1,"The topic word is elephant.
+Topic:"
+elephant,giraffe,neutral,related,8,-7.231140532146888,0.6666666666666667,0,"The topic word is elephant.
+The huge gray animal has a trunk and big ears.
+Topic:"
+elephant,giraffe,neutral,related,16,-5.180911872439596,1.0,1,"The topic word is elephant.
+The huge gray animal has a trunk and big ears.
+Topic:"
+elephant,giraffe,neutral,related,24,4.109872943759599,1.0,1,"The topic word is elephant.
+The huge gray animal has a trunk and big ears.
+Topic:"
+elephant,giraffe,neutral,unrelated,8,-5.632645786556964,0.6666666666666667,0,"The topic word is elephant.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+elephant,giraffe,neutral,unrelated,16,-4.87901938938237,1.0,1,"The topic word is elephant.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+elephant,giraffe,neutral,unrelated,24,3.287058629425668,1.0,1,"The topic word is elephant.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+elephant,giraffe,affirm,none,8,2.985467439748251,0.6666666666666667,0,"Think of elephant.
+Topic:"
+elephant,giraffe,affirm,none,16,3.2852453839060622,1.0,1,"Think of elephant.
+Topic:"
+elephant,giraffe,affirm,none,24,5.200222282592057,1.0,1,"Think of elephant.
+Topic:"
+elephant,giraffe,affirm,related,8,-5.519553613797079,0.6666666666666667,0,"Think of elephant.
+The huge gray animal has a trunk and big ears.
+Topic:"
+elephant,giraffe,affirm,related,16,-2.556037067441825,1.0,1,"Think of elephant.
+The huge gray animal has a trunk and big ears.
+Topic:"
+elephant,giraffe,affirm,related,24,4.2097380065886485,1.0,1,"Think of elephant.
+The huge gray animal has a trunk and big ears.
+Topic:"
+elephant,giraffe,affirm,unrelated,8,-3.7201001574640733,0.6666666666666667,0,"Think of elephant.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+elephant,giraffe,affirm,unrelated,16,-0.8771233255797422,1.0,1,"Think of elephant.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+elephant,giraffe,affirm,unrelated,24,3.1366895374283024,1.0,1,"Think of elephant.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+elephant,giraffe,suppression,none,8,-0.5662600464417527,0.6666666666666667,0,"Do not think of elephant. Do not write the word elephant.
+Topic:"
+elephant,giraffe,suppression,none,16,5.999272547640538,1.0,1,"Do not think of elephant. Do not write the word elephant.
+Topic:"
+elephant,giraffe,suppression,none,24,3.1613902140109156,1.0,1,"Do not think of elephant. Do not write the word elephant.
+Topic:"
+elephant,giraffe,suppression,related,8,-4.066776082637865,0.6666666666666667,0,"Do not think of elephant. Do not write the word elephant.
+The huge gray animal has a trunk and big ears.
+Topic:"
+elephant,giraffe,suppression,related,16,2.74445837174046,1.0,1,"Do not think of elephant. Do not write the word elephant.
+The huge gray animal has a trunk and big ears.
+Topic:"
+elephant,giraffe,suppression,related,24,2.9276976448323153,1.0,1,"Do not think of elephant. Do not write the word elephant.
+The huge gray animal has a trunk and big ears.
+Topic:"
+elephant,giraffe,suppression,unrelated,8,-3.2251791060180666,0.6666666666666667,0,"Do not think of elephant. Do not write the word elephant.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+elephant,giraffe,suppression,unrelated,16,1.1322457656471856,1.0,1,"Do not think of elephant. Do not write the word elephant.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+elephant,giraffe,suppression,unrelated,24,1.027741804503152,1.0,1,"Do not think of elephant. Do not write the word elephant.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+elephant,giraffe,replacement,none,8,-3.8095515354412575,0.6666666666666667,0,"Think of giraffe instead of elephant. Do not write the word elephant.
+Topic:"
+elephant,giraffe,replacement,none,16,-2.542902202298139,1.0,1,"Think of giraffe instead of elephant. Do not write the word elephant.
+Topic:"
+elephant,giraffe,replacement,none,24,-2.7192976258553956,1.0,1,"Think of giraffe instead of elephant. Do not write the word elephant.
+Topic:"
+elephant,giraffe,replacement,related,8,-6.495384063177538,0.6666666666666667,0,"Think of giraffe instead of elephant. Do not write the word elephant.
+The huge gray animal has a trunk and big ears.
+Topic:"
+elephant,giraffe,replacement,related,16,-5.93515763715079,1.0,1,"Think of giraffe instead of elephant. Do not write the word elephant.
+The huge gray animal has a trunk and big ears.
+Topic:"
+elephant,giraffe,replacement,related,24,-1.8570447401531496,1.0,1,"Think of giraffe instead of elephant. Do not write the word elephant.
+The huge gray animal has a trunk and big ears.
+Topic:"
+elephant,giraffe,replacement,unrelated,8,-5.994667259462279,0.6666666666666667,0,"Think of giraffe instead of elephant. Do not write the word elephant.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+elephant,giraffe,replacement,unrelated,16,-4.280133277185356,1.0,1,"Think of giraffe instead of elephant. Do not write the word elephant.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+elephant,giraffe,replacement,unrelated,24,-2.8705338574125823,1.0,1,"Think of giraffe instead of elephant. Do not write the word elephant.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+tiger,lion,neutral,none,8,0.6222947301781252,0.33333333333333337,0,"The topic word is tiger.
+Topic:"
+tiger,lion,neutral,none,16,5.283305834962397,0.888888888888889,1,"The topic word is tiger.
+Topic:"
+tiger,lion,neutral,none,24,4.938939329865885,0.7777777777777778,1,"The topic word is tiger.
+Topic:"
+tiger,lion,neutral,related,8,1.6335868685243458,0.33333333333333337,0,"The topic word is tiger.
+A striped orange big cat prowls in the jungle.
+Topic:"
+tiger,lion,neutral,related,16,0.20890081500329363,0.888888888888889,1,"The topic word is tiger.
+A striped orange big cat prowls in the jungle.
+Topic:"
+tiger,lion,neutral,related,24,4.278028144458446,0.7777777777777778,1,"The topic word is tiger.
+A striped orange big cat prowls in the jungle.
+Topic:"
+tiger,lion,neutral,unrelated,8,1.801506641550341,0.33333333333333337,0,"The topic word is tiger.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+tiger,lion,neutral,unrelated,16,3.7147750555652865,0.888888888888889,1,"The topic word is tiger.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+tiger,lion,neutral,unrelated,24,5.462660367817957,0.7777777777777778,1,"The topic word is tiger.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+tiger,lion,affirm,none,8,2.425438113113849,0.33333333333333337,0,"Think of tiger.
+Topic:"
+tiger,lion,affirm,none,16,1.8497923793573416,0.888888888888889,1,"Think of tiger.
+Topic:"
+tiger,lion,affirm,none,24,4.559019578378208,0.7777777777777778,1,"Think of tiger.
+Topic:"
+tiger,lion,affirm,related,8,1.3778487206456096,0.33333333333333337,0,"Think of tiger.
+A striped orange big cat prowls in the jungle.
+Topic:"
+tiger,lion,affirm,related,16,-0.9695960398184199,0.888888888888889,1,"Think of tiger.
+A striped orange big cat prowls in the jungle.
+Topic:"
+tiger,lion,affirm,related,24,4.123520149416092,0.7777777777777778,1,"Think of tiger.
+A striped orange big cat prowls in the jungle.
+Topic:"
+tiger,lion,affirm,unrelated,8,3.4418133699373317,0.33333333333333337,0,"Think of tiger.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+tiger,lion,affirm,unrelated,16,1.1519713717096158,0.888888888888889,1,"Think of tiger.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+tiger,lion,affirm,unrelated,24,4.714412903046332,0.7777777777777778,1,"Think of tiger.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+tiger,lion,suppression,none,8,-2.997900436599006,0.33333333333333337,0,"Do not think of tiger. Do not write the word tiger.
+Topic:"
+tiger,lion,suppression,none,16,2.794911474526813,0.888888888888889,1,"Do not think of tiger. Do not write the word tiger.
+Topic:"
+tiger,lion,suppression,none,24,2.0850502994106472,0.7777777777777778,1,"Do not think of tiger. Do not write the word tiger.
+Topic:"
+tiger,lion,suppression,related,8,1.0923579531032301,0.33333333333333337,0,"Do not think of tiger. Do not write the word tiger.
+A striped orange big cat prowls in the jungle.
+Topic:"
+tiger,lion,suppression,related,16,0.7214674208908,0.888888888888889,1,"Do not think of tiger. Do not write the word tiger.
+A striped orange big cat prowls in the jungle.
+Topic:"
+tiger,lion,suppression,related,24,1.9131598499648559,0.7777777777777778,1,"Do not think of tiger. Do not write the word tiger.
+A striped orange big cat prowls in the jungle.
+Topic:"
+tiger,lion,suppression,unrelated,8,3.897351534290069,0.33333333333333337,0,"Do not think of tiger. Do not write the word tiger.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+tiger,lion,suppression,unrelated,16,4.6305872804926,0.888888888888889,1,"Do not think of tiger. Do not write the word tiger.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+tiger,lion,suppression,unrelated,24,2.6289132378553717,0.7777777777777778,1,"Do not think of tiger. Do not write the word tiger.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+tiger,lion,replacement,none,8,-0.5308862390100776,0.33333333333333337,0,"Think of lion instead of tiger. Do not write the word tiger.
+Topic:"
+tiger,lion,replacement,none,16,6.538776618873634,0.888888888888889,1,"Think of lion instead of tiger. Do not write the word tiger.
+Topic:"
+tiger,lion,replacement,none,24,-1.2184471036422635,0.7777777777777778,1,"Think of lion instead of tiger. Do not write the word tiger.
+Topic:"
+tiger,lion,replacement,related,8,2.0954469976696553,0.33333333333333337,0,"Think of lion instead of tiger. Do not write the word tiger.
+A striped orange big cat prowls in the jungle.
+Topic:"
+tiger,lion,replacement,related,16,1.6650847463579308,0.888888888888889,1,"Think of lion instead of tiger. Do not write the word tiger.
+A striped orange big cat prowls in the jungle.
+Topic:"
+tiger,lion,replacement,related,24,-2.4504014059408448,0.7777777777777778,1,"Think of lion instead of tiger. Do not write the word tiger.
+A striped orange big cat prowls in the jungle.
+Topic:"
+tiger,lion,replacement,unrelated,8,4.1149605593231495,0.33333333333333337,0,"Think of lion instead of tiger. Do not write the word tiger.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+tiger,lion,replacement,unrelated,16,8.251015867619905,0.888888888888889,1,"Think of lion instead of tiger. Do not write the word tiger.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+tiger,lion,replacement,unrelated,24,0.24732964524278525,0.7777777777777778,1,"Think of lion instead of tiger. Do not write the word tiger.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+piano,violin,neutral,none,8,-0.8272205742090262,0.6666666666666667,0,"The topic word is piano.
+Topic:"
+piano,violin,neutral,none,16,-0.8222684557024739,0.7777777777777778,1,"The topic word is piano.
+Topic:"
+piano,violin,neutral,none,24,4.625129502462335,1.0,1,"The topic word is piano.
+Topic:"
+piano,violin,neutral,related,8,-3.2327077306726544,0.6666666666666667,0,"The topic word is piano.
+A classical keyboard instrument has black and white keys.
+Topic:"
+piano,violin,neutral,related,16,-2.192826465987017,0.7777777777777778,1,"The topic word is piano.
+A classical keyboard instrument has black and white keys.
+Topic:"
+piano,violin,neutral,related,24,3.747050593995606,1.0,1,"The topic word is piano.
+A classical keyboard instrument has black and white keys.
+Topic:"
+piano,violin,neutral,unrelated,8,-3.3490505969334965,0.6666666666666667,0,"The topic word is piano.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+piano,violin,neutral,unrelated,16,3.385681964791035,0.7777777777777778,1,"The topic word is piano.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+piano,violin,neutral,unrelated,24,4.134035050199979,1.0,1,"The topic word is piano.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+piano,violin,affirm,none,8,3.1266586339702833,0.6666666666666667,0,"Think of piano.
+Topic:"
+piano,violin,affirm,none,16,2.4622247466279923,0.7777777777777778,1,"Think of piano.
+Topic:"
+piano,violin,affirm,none,24,4.713471409717161,1.0,1,"Think of piano.
+Topic:"
+piano,violin,affirm,related,8,2.2312606524185656,0.6666666666666667,0,"Think of piano.
+A classical keyboard instrument has black and white keys.
+Topic:"
+piano,violin,affirm,related,16,-1.6496613038377603,0.7777777777777778,1,"Think of piano.
+A classical keyboard instrument has black and white keys.
+Topic:"
+piano,violin,affirm,related,24,4.12269726216964,1.0,1,"Think of piano.
+A classical keyboard instrument has black and white keys.
+Topic:"
+piano,violin,affirm,unrelated,8,0.5635669117431507,0.6666666666666667,0,"Think of piano.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+piano,violin,affirm,unrelated,16,1.5578784975112505,0.7777777777777778,1,"Think of piano.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+piano,violin,affirm,unrelated,24,3.8629847061795783,1.0,1,"Think of piano.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+piano,violin,suppression,none,8,6.217458626393138,0.6666666666666667,0,"Do not think of piano. Do not write the word piano.
+Topic:"
+piano,violin,suppression,none,16,1.5043126430994282,0.7777777777777778,1,"Do not think of piano. Do not write the word piano.
+Topic:"
+piano,violin,suppression,none,24,2.582336639356958,1.0,1,"Do not think of piano. Do not write the word piano.
+Topic:"
+piano,violin,suppression,related,8,3.787429271189268,0.6666666666666667,0,"Do not think of piano. Do not write the word piano.
+A classical keyboard instrument has black and white keys.
+Topic:"
+piano,violin,suppression,related,16,-0.407558496345631,0.7777777777777778,1,"Do not think of piano. Do not write the word piano.
+A classical keyboard instrument has black and white keys.
+Topic:"
+piano,violin,suppression,related,24,2.842909384008489,1.0,1,"Do not think of piano. Do not write the word piano.
+A classical keyboard instrument has black and white keys.
+Topic:"
+piano,violin,suppression,unrelated,8,1.8445788286368092,0.6666666666666667,0,"Do not think of piano. Do not write the word piano.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+piano,violin,suppression,unrelated,16,3.9676014413287293,0.7777777777777778,1,"Do not think of piano. Do not write the word piano.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+piano,violin,suppression,unrelated,24,2.369514853571067,1.0,1,"Do not think of piano. Do not write the word piano.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+piano,violin,replacement,none,8,3.736048467301754,0.6666666666666667,0,"Think of violin instead of piano. Do not write the word piano.
+Topic:"
+piano,violin,replacement,none,16,4.603887471989886,0.7777777777777778,1,"Think of violin instead of piano. Do not write the word piano.
+Topic:"
+piano,violin,replacement,none,24,-1.417121833349926,1.0,1,"Think of violin instead of piano. Do not write the word piano.
+Topic:"
+piano,violin,replacement,related,8,0.5837503880415625,0.6666666666666667,0,"Think of violin instead of piano. Do not write the word piano.
+A classical keyboard instrument has black and white keys.
+Topic:"
+piano,violin,replacement,related,16,1.9532002789904193,0.7777777777777778,1,"Think of violin instead of piano. Do not write the word piano.
+A classical keyboard instrument has black and white keys.
+Topic:"
+piano,violin,replacement,related,24,-1.6057348923880297,1.0,1,"Think of violin instead of piano. Do not write the word piano.
+A classical keyboard instrument has black and white keys.
+Topic:"
+piano,violin,replacement,unrelated,8,-1.3394140293108556,0.6666666666666667,0,"Think of violin instead of piano. Do not write the word piano.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+piano,violin,replacement,unrelated,16,7.648632565017836,0.7777777777777778,1,"Think of violin instead of piano. Do not write the word piano.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+piano,violin,replacement,unrelated,24,-1.209667890657081,1.0,1,"Think of violin instead of piano. Do not write the word piano.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+coffee,tea,neutral,none,8,3.292242255805786,0.4444444444444444,0,"The topic word is coffee.
+Topic:"
+coffee,tea,neutral,none,16,7.495697465949114,0.5555555555555556,0,"The topic word is coffee.
+Topic:"
+coffee,tea,neutral,none,24,4.607874703917971,1.0,1,"The topic word is coffee.
+Topic:"
+coffee,tea,neutral,related,8,11.140806759236998,0.4444444444444444,0,"The topic word is coffee.
+A dark drink is brewed from roasted beans.
+Topic:"
+coffee,tea,neutral,related,16,3.9443667228806496,0.5555555555555556,0,"The topic word is coffee.
+A dark drink is brewed from roasted beans.
+Topic:"
+coffee,tea,neutral,related,24,5.264935279253175,1.0,1,"The topic word is coffee.
+A dark drink is brewed from roasted beans.
+Topic:"
+coffee,tea,neutral,unrelated,8,6.079259386189682,0.4444444444444444,0,"The topic word is coffee.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+coffee,tea,neutral,unrelated,16,7.185350179654826,0.5555555555555556,0,"The topic word is coffee.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+coffee,tea,neutral,unrelated,24,5.130878278469512,1.0,1,"The topic word is coffee.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+coffee,tea,affirm,none,8,2.7235187555585085,0.4444444444444444,0,"Think of coffee.
+Topic:"
+coffee,tea,affirm,none,16,2.4924551796705297,0.5555555555555556,0,"Think of coffee.
+Topic:"
+coffee,tea,affirm,none,24,4.971225201529441,1.0,1,"Think of coffee.
+Topic:"
+coffee,tea,affirm,related,8,7.730260843800913,0.4444444444444444,0,"Think of coffee.
+A dark drink is brewed from roasted beans.
+Topic:"
+coffee,tea,affirm,related,16,-2.1891611187587943,0.5555555555555556,0,"Think of coffee.
+A dark drink is brewed from roasted beans.
+Topic:"
+coffee,tea,affirm,related,24,4.771285575103041,1.0,1,"Think of coffee.
+A dark drink is brewed from roasted beans.
+Topic:"
+coffee,tea,affirm,unrelated,8,3.944067318908284,0.4444444444444444,0,"Think of coffee.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+coffee,tea,affirm,unrelated,16,1.1941135114904797,0.5555555555555556,0,"Think of coffee.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+coffee,tea,affirm,unrelated,24,4.79511721347316,1.0,1,"Think of coffee.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+coffee,tea,suppression,none,8,0.017444088984469818,0.4444444444444444,0,"Do not think of coffee. Do not write the word coffee.
+Topic:"
+coffee,tea,suppression,none,16,3.9191448306710597,0.5555555555555556,0,"Do not think of coffee. Do not write the word coffee.
+Topic:"
+coffee,tea,suppression,none,24,2.7284599382726515,1.0,1,"Do not think of coffee. Do not write the word coffee.
+Topic:"
+coffee,tea,suppression,related,8,5.854116894009902,0.4444444444444444,0,"Do not think of coffee. Do not write the word coffee.
+A dark drink is brewed from roasted beans.
+Topic:"
+coffee,tea,suppression,related,16,0.7033094026327299,0.5555555555555556,0,"Do not think of coffee. Do not write the word coffee.
+A dark drink is brewed from roasted beans.
+Topic:"
+coffee,tea,suppression,related,24,3.2658756753333527,1.0,1,"Do not think of coffee. Do not write the word coffee.
+A dark drink is brewed from roasted beans.
+Topic:"
+coffee,tea,suppression,unrelated,8,2.460970037615242,0.4444444444444444,0,"Do not think of coffee. Do not write the word coffee.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+coffee,tea,suppression,unrelated,16,4.294040820090635,0.5555555555555556,0,"Do not think of coffee. Do not write the word coffee.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+coffee,tea,suppression,unrelated,24,2.8768131714194074,1.0,1,"Do not think of coffee. Do not write the word coffee.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+coffee,tea,replacement,none,8,2.3009337281314757,0.4444444444444444,0,"Think of tea instead of coffee. Do not write the word coffee.
+Topic:"
+coffee,tea,replacement,none,16,3.3812337777503094,0.5555555555555556,0,"Think of tea instead of coffee. Do not write the word coffee.
+Topic:"
+coffee,tea,replacement,none,24,-2.5691088379277844,1.0,1,"Think of tea instead of coffee. Do not write the word coffee.
+Topic:"
+coffee,tea,replacement,related,8,7.28144791475308,0.4444444444444444,0,"Think of tea instead of coffee. Do not write the word coffee.
+A dark drink is brewed from roasted beans.
+Topic:"
+coffee,tea,replacement,related,16,0.20758012959183933,0.5555555555555556,0,"Think of tea instead of coffee. Do not write the word coffee.
+A dark drink is brewed from roasted beans.
+Topic:"
+coffee,tea,replacement,related,24,-1.9599529844355577,1.0,1,"Think of tea instead of coffee. Do not write the word coffee.
+A dark drink is brewed from roasted beans.
+Topic:"
+coffee,tea,replacement,unrelated,8,4.709183164863392,0.4444444444444444,0,"Think of tea instead of coffee. Do not write the word coffee.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+coffee,tea,replacement,unrelated,16,6.320832403534017,0.5555555555555556,0,"Think of tea instead of coffee. Do not write the word coffee.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+coffee,tea,replacement,unrelated,24,-0.33386579127242305,1.0,1,"Think of tea instead of coffee. Do not write the word coffee.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+ocean,river,neutral,none,8,-4.518958741118089,0.0,0,"The topic word is ocean.
+Topic:"
+ocean,river,neutral,none,16,4.546227156351435,0.6666666666666667,0,"The topic word is ocean.
+Topic:"
+ocean,river,neutral,none,24,5.1305007131322835,1.0,1,"The topic word is ocean.
+Topic:"
+ocean,river,neutral,related,8,0.36113402476244705,0.0,0,"The topic word is ocean.
+A vast body of salt water separates continents.
+Topic:"
+ocean,river,neutral,related,16,7.300237683051176,0.6666666666666667,0,"The topic word is ocean.
+A vast body of salt water separates continents.
+Topic:"
+ocean,river,neutral,related,24,4.591914089228084,1.0,1,"The topic word is ocean.
+A vast body of salt water separates continents.
+Topic:"
+ocean,river,neutral,unrelated,8,-7.908529867770385,0.0,0,"The topic word is ocean.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+ocean,river,neutral,unrelated,16,1.6452425843367302,0.6666666666666667,0,"The topic word is ocean.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+ocean,river,neutral,unrelated,24,2.928525865941391,1.0,1,"The topic word is ocean.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+ocean,river,affirm,none,8,2.974242555784652,0.0,0,"Think of ocean.
+Topic:"
+ocean,river,affirm,none,16,2.4824457205784025,0.6666666666666667,0,"Think of ocean.
+Topic:"
+ocean,river,affirm,none,24,4.721704401868169,1.0,1,"Think of ocean.
+Topic:"
+ocean,river,affirm,related,8,7.766483195454525,0.0,0,"Think of ocean.
+A vast body of salt water separates continents.
+Topic:"
+ocean,river,affirm,related,16,4.285661613336213,0.6666666666666667,0,"Think of ocean.
+A vast body of salt water separates continents.
+Topic:"
+ocean,river,affirm,related,24,4.035780261404356,1.0,1,"Think of ocean.
+A vast body of salt water separates continents.
+Topic:"
+ocean,river,affirm,unrelated,8,0.39409047253265683,0.0,0,"Think of ocean.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+ocean,river,affirm,unrelated,16,-0.21363046753041456,0.6666666666666667,0,"Think of ocean.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+ocean,river,affirm,unrelated,24,2.063529909824572,1.0,1,"Think of ocean.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+ocean,river,suppression,none,8,5.9970364451001625,0.0,0,"Do not think of ocean. Do not write the word ocean.
+Topic:"
+ocean,river,suppression,none,16,-1.9893317342666632,0.6666666666666667,0,"Do not think of ocean. Do not write the word ocean.
+Topic:"
+ocean,river,suppression,none,24,1.9642078500499769,1.0,1,"Do not think of ocean. Do not write the word ocean.
+Topic:"
+ocean,river,suppression,related,8,7.241151557557441,0.0,0,"Do not think of ocean. Do not write the word ocean.
+A vast body of salt water separates continents.
+Topic:"
+ocean,river,suppression,related,16,1.499497955258541,0.6666666666666667,0,"Do not think of ocean. Do not write the word ocean.
+A vast body of salt water separates continents.
+Topic:"
+ocean,river,suppression,related,24,2.2721885219021276,1.0,1,"Do not think of ocean. Do not write the word ocean.
+A vast body of salt water separates continents.
+Topic:"
+ocean,river,suppression,unrelated,8,0.13830186050686966,0.0,0,"Do not think of ocean. Do not write the word ocean.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+ocean,river,suppression,unrelated,16,-3.7816323786674086,0.6666666666666667,0,"Do not think of ocean. Do not write the word ocean.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+ocean,river,suppression,unrelated,24,-0.13976143532400717,1.0,1,"Do not think of ocean. Do not write the word ocean.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+ocean,river,replacement,none,8,4.762476853337503,0.0,0,"Think of river instead of ocean. Do not write the word ocean.
+Topic:"
+ocean,river,replacement,none,16,-2.3017821356431507,0.6666666666666667,0,"Think of river instead of ocean. Do not write the word ocean.
+Topic:"
+ocean,river,replacement,none,24,-3.25575100579612,1.0,1,"Think of river instead of ocean. Do not write the word ocean.
+Topic:"
+ocean,river,replacement,related,8,5.959016825352578,0.0,0,"Think of river instead of ocean. Do not write the word ocean.
+A vast body of salt water separates continents.
+Topic:"
+ocean,river,replacement,related,16,1.927658419147697,0.6666666666666667,0,"Think of river instead of ocean. Do not write the word ocean.
+A vast body of salt water separates continents.
+Topic:"
+ocean,river,replacement,related,24,-2.1372959056213667,1.0,1,"Think of river instead of ocean. Do not write the word ocean.
+A vast body of salt water separates continents.
+Topic:"
+ocean,river,replacement,unrelated,8,-0.009194188826872061,0.0,0,"Think of river instead of ocean. Do not write the word ocean.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+ocean,river,replacement,unrelated,16,-2.124348244061553,0.6666666666666667,0,"Think of river instead of ocean. Do not write the word ocean.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+ocean,river,replacement,unrelated,24,-3.7745447351740933,1.0,1,"Think of river instead of ocean. Do not write the word ocean.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+castle,palace,neutral,none,8,2.908610290765385,0.0,0,"The topic word is castle.
+Topic:"
+castle,palace,neutral,none,16,4.394849342862684,0.4444444444444444,0,"The topic word is castle.
+Topic:"
+castle,palace,neutral,none,24,4.968127611746283,1.0,1,"The topic word is castle.
+Topic:"
+castle,palace,neutral,related,8,-0.6233752296050185,0.0,0,"The topic word is castle.
+A fortified medieval stone building has towers.
+Topic:"
+castle,palace,neutral,related,16,7.461816494149906,0.4444444444444444,0,"The topic word is castle.
+A fortified medieval stone building has towers.
+Topic:"
+castle,palace,neutral,related,24,5.881782889064606,1.0,1,"The topic word is castle.
+A fortified medieval stone building has towers.
+Topic:"
+castle,palace,neutral,unrelated,8,2.9290802178860225,0.0,0,"The topic word is castle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+castle,palace,neutral,unrelated,16,7.256554404533517,0.4444444444444444,0,"The topic word is castle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+castle,palace,neutral,unrelated,24,4.378918674754925,1.0,1,"The topic word is castle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+castle,palace,affirm,none,8,3.3087656113939627,0.0,0,"Think of castle.
+Topic:"
+castle,palace,affirm,none,16,2.446988020887791,0.4444444444444444,0,"Think of castle.
+Topic:"
+castle,palace,affirm,none,24,4.938229374455851,1.0,1,"Think of castle.
+Topic:"
+castle,palace,affirm,related,8,-1.1853877802243262,0.0,0,"Think of castle.
+A fortified medieval stone building has towers.
+Topic:"
+castle,palace,affirm,related,16,2.822649530405729,0.4444444444444444,0,"Think of castle.
+A fortified medieval stone building has towers.
+Topic:"
+castle,palace,affirm,related,24,5.134462577967295,1.0,1,"Think of castle.
+A fortified medieval stone building has towers.
+Topic:"
+castle,palace,affirm,unrelated,8,2.1956454104143446,0.0,0,"Think of castle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+castle,palace,affirm,unrelated,16,3.6546991666679998,0.4444444444444444,0,"Think of castle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+castle,palace,affirm,unrelated,24,4.159825017728371,1.0,1,"Think of castle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+castle,palace,suppression,none,8,-1.443440183741674,0.0,0,"Do not think of castle. Do not write the word castle.
+Topic:"
+castle,palace,suppression,none,16,2.4514091145122596,0.4444444444444444,0,"Do not think of castle. Do not write the word castle.
+Topic:"
+castle,palace,suppression,none,24,2.512957280420788,1.0,1,"Do not think of castle. Do not write the word castle.
+Topic:"
+castle,palace,suppression,related,8,-6.077520371592178,0.0,0,"Do not think of castle. Do not write the word castle.
+A fortified medieval stone building has towers.
+Topic:"
+castle,palace,suppression,related,16,-0.1382481694587501,0.4444444444444444,0,"Do not think of castle. Do not write the word castle.
+A fortified medieval stone building has towers.
+Topic:"
+castle,palace,suppression,related,24,3.613708415955805,1.0,1,"Do not think of castle. Do not write the word castle.
+A fortified medieval stone building has towers.
+Topic:"
+castle,palace,suppression,unrelated,8,-1.5061305823243802,0.0,0,"Do not think of castle. Do not write the word castle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+castle,palace,suppression,unrelated,16,3.7848735359165873,0.4444444444444444,0,"Do not think of castle. Do not write the word castle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+castle,palace,suppression,unrelated,24,1.9416137462297762,1.0,1,"Do not think of castle. Do not write the word castle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+castle,palace,replacement,none,8,-3.3089009676432553,0.0,0,"Think of palace instead of castle. Do not write the word castle.
+Topic:"
+castle,palace,replacement,none,16,0.8106208435988141,0.4444444444444444,0,"Think of palace instead of castle. Do not write the word castle.
+Topic:"
+castle,palace,replacement,none,24,-2.003390128701618,1.0,1,"Think of palace instead of castle. Do not write the word castle.
+Topic:"
+castle,palace,replacement,related,8,-6.264580336602581,0.0,0,"Think of palace instead of castle. Do not write the word castle.
+A fortified medieval stone building has towers.
+Topic:"
+castle,palace,replacement,related,16,0.9241559686079847,0.4444444444444444,0,"Think of palace instead of castle. Do not write the word castle.
+A fortified medieval stone building has towers.
+Topic:"
+castle,palace,replacement,related,24,-0.5605337111588625,1.0,1,"Think of palace instead of castle. Do not write the word castle.
+A fortified medieval stone building has towers.
+Topic:"
+castle,palace,replacement,unrelated,8,-2.5115958896791426,0.0,0,"Think of palace instead of castle. Do not write the word castle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+castle,palace,replacement,unrelated,16,4.680039021777042,0.4444444444444444,0,"Think of palace instead of castle. Do not write the word castle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+castle,palace,replacement,unrelated,24,-1.7969073443674863,1.0,1,"Think of palace instead of castle. Do not write the word castle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+bicycle,scooter,neutral,none,8,5.509548043652263,0.7777777777777778,1,"The topic word is bicycle.
+Topic:"
+bicycle,scooter,neutral,none,16,8.43288880793476,0.6666666666666667,0,"The topic word is bicycle.
+Topic:"
+bicycle,scooter,neutral,none,24,4.966908429442503,1.0,1,"The topic word is bicycle.
+Topic:"
+bicycle,scooter,neutral,related,8,10.05659275771346,0.7777777777777778,1,"The topic word is bicycle.
+A two-wheeled vehicle moves when the pedals turn.
+Topic:"
+bicycle,scooter,neutral,related,16,9.446839437805163,0.6666666666666667,0,"The topic word is bicycle.
+A two-wheeled vehicle moves when the pedals turn.
+Topic:"
+bicycle,scooter,neutral,related,24,5.075216463349095,1.0,1,"The topic word is bicycle.
+A two-wheeled vehicle moves when the pedals turn.
+Topic:"
+bicycle,scooter,neutral,unrelated,8,7.067076529091154,0.7777777777777778,1,"The topic word is bicycle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+bicycle,scooter,neutral,unrelated,16,8.397196025274665,0.6666666666666667,0,"The topic word is bicycle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+bicycle,scooter,neutral,unrelated,24,2.9583112730066468,1.0,1,"The topic word is bicycle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+bicycle,scooter,affirm,none,8,3.5107003660856932,0.7777777777777778,1,"Think of bicycle.
+Topic:"
+bicycle,scooter,affirm,none,16,3.7336099551125908,0.6666666666666667,0,"Think of bicycle.
+Topic:"
+bicycle,scooter,affirm,none,24,4.990077103672221,1.0,1,"Think of bicycle.
+Topic:"
+bicycle,scooter,affirm,related,8,9.278438111068843,0.7777777777777778,1,"Think of bicycle.
+A two-wheeled vehicle moves when the pedals turn.
+Topic:"
+bicycle,scooter,affirm,related,16,3.6991041776399887,0.6666666666666667,0,"Think of bicycle.
+A two-wheeled vehicle moves when the pedals turn.
+Topic:"
+bicycle,scooter,affirm,related,24,4.794114436777453,1.0,1,"Think of bicycle.
+A two-wheeled vehicle moves when the pedals turn.
+Topic:"
+bicycle,scooter,affirm,unrelated,8,5.75604339260865,0.7777777777777778,1,"Think of bicycle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+bicycle,scooter,affirm,unrelated,16,1.3234426085219815,0.6666666666666667,0,"Think of bicycle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+bicycle,scooter,affirm,unrelated,24,2.5205794063945497,1.0,1,"Think of bicycle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+bicycle,scooter,suppression,none,8,9.03401192308541,0.7777777777777778,1,"Do not think of bicycle. Do not write the word bicycle.
+Topic:"
+bicycle,scooter,suppression,none,16,1.5860628319910008,0.6666666666666667,0,"Do not think of bicycle. Do not write the word bicycle.
+Topic:"
+bicycle,scooter,suppression,none,24,2.920536136297046,1.0,1,"Do not think of bicycle. Do not write the word bicycle.
+Topic:"
+bicycle,scooter,suppression,related,8,12.297606544581043,0.7777777777777778,1,"Do not think of bicycle. Do not write the word bicycle.
+A two-wheeled vehicle moves when the pedals turn.
+Topic:"
+bicycle,scooter,suppression,related,16,1.492745171325765,0.6666666666666667,0,"Do not think of bicycle. Do not write the word bicycle.
+A two-wheeled vehicle moves when the pedals turn.
+Topic:"
+bicycle,scooter,suppression,related,24,3.287310468423684,1.0,1,"Do not think of bicycle. Do not write the word bicycle.
+A two-wheeled vehicle moves when the pedals turn.
+Topic:"
+bicycle,scooter,suppression,unrelated,8,9.390379610687205,0.7777777777777778,1,"Do not think of bicycle. Do not write the word bicycle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+bicycle,scooter,suppression,unrelated,16,1.842088581084942,0.6666666666666667,0,"Do not think of bicycle. Do not write the word bicycle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+bicycle,scooter,suppression,unrelated,24,0.988039697283017,1.0,1,"Do not think of bicycle. Do not write the word bicycle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+bicycle,scooter,replacement,none,8,10.2492216984012,0.7777777777777778,1,"Think of scooter instead of bicycle. Do not write the word bicycle.
+Topic:"
+bicycle,scooter,replacement,none,16,3.8194849585372346,0.6666666666666667,0,"Think of scooter instead of bicycle. Do not write the word bicycle.
+Topic:"
+bicycle,scooter,replacement,none,24,-2.851708288878528,1.0,1,"Think of scooter instead of bicycle. Do not write the word bicycle.
+Topic:"
+bicycle,scooter,replacement,related,8,13.14050858530538,0.7777777777777778,1,"Think of scooter instead of bicycle. Do not write the word bicycle.
+A two-wheeled vehicle moves when the pedals turn.
+Topic:"
+bicycle,scooter,replacement,related,16,5.63397299979404,0.6666666666666667,0,"Think of scooter instead of bicycle. Do not write the word bicycle.
+A two-wheeled vehicle moves when the pedals turn.
+Topic:"
+bicycle,scooter,replacement,related,24,-1.389999078727082,1.0,1,"Think of scooter instead of bicycle. Do not write the word bicycle.
+A two-wheeled vehicle moves when the pedals turn.
+Topic:"
+bicycle,scooter,replacement,unrelated,8,10.547021653334582,0.7777777777777778,1,"Think of scooter instead of bicycle. Do not write the word bicycle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+bicycle,scooter,replacement,unrelated,16,5.803876296798401,0.6666666666666667,0,"Think of scooter instead of bicycle. Do not write the word bicycle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"
+bicycle,scooter,replacement,unrelated,24,-3.167053964021115,1.0,1,"Think of scooter instead of bicycle. Do not write the word bicycle.
+The train arrived at the station. Passengers checked their tickets.
+Topic:"

@@ -1,0 +1,214 @@
+{
+  "mann_total_generations": 800,
+  "cluster_bootstrap": [
+    {
+      "contrast": "mann_suppression_minus_replacement_related_level1",
+      "n_clusters": 8,
+      "estimate": 0.45,
+      "ci95_low": 0.25,
+      "ci95_high": 0.6250000000000001
+    },
+    {
+      "contrast": "zhou_positive_minus_negative_word_accuracy",
+      "n_clusters": 6,
+      "estimate": 0.8148148148148148,
+      "ci95_low": 0.7777777777777778,
+      "ci95_high": 0.8518518518518517
+    },
+    {
+      "contrast": "zhou_positive_minus_negative_calibrated_word_accuracy",
+      "n_clusters": 6,
+      "estimate": 0.8888888888888888,
+      "ci95_low": 0.8148148148148148,
+      "ci95_high": 0.9629629629629629
+    }
+  ],
+  "mann_rates": [
+    {
+      "distractor": "none",
+      "blocks": 0,
+      "condition": "affirm",
+      "mean": 0.975,
+      "sum": 39,
+      "count": 40
+    },
+    {
+      "distractor": "none",
+      "blocks": 0,
+      "condition": "neutral",
+      "mean": 0.9,
+      "sum": 36,
+      "count": 40
+    },
+    {
+      "distractor": "none",
+      "blocks": 0,
+      "condition": "replacement",
+      "mean": 0.125,
+      "sum": 5,
+      "count": 40
+    },
+    {
+      "distractor": "none",
+      "blocks": 0,
+      "condition": "suppression",
+      "mean": 0.55,
+      "sum": 22,
+      "count": 40
+    },
+    {
+      "distractor": "related",
+      "blocks": 1,
+      "condition": "affirm",
+      "mean": 0.925,
+      "sum": 37,
+      "count": 40
+    },
+    {
+      "distractor": "related",
+      "blocks": 1,
+      "condition": "neutral",
+      "mean": 0.95,
+      "sum": 38,
+      "count": 40
+    },
+    {
+      "distractor": "related",
+      "blocks": 1,
+      "condition": "replacement",
+      "mean": 0.2,
+      "sum": 8,
+      "count": 40
+    },
+    {
+      "distractor": "related",
+      "blocks": 1,
+      "condition": "suppression",
+      "mean": 0.65,
+      "sum": 26,
+      "count": 40
+    },
+    {
+      "distractor": "related",
+      "blocks": 3,
+      "condition": "affirm",
+      "mean": 0.925,
+      "sum": 37,
+      "count": 40
+    },
+    {
+      "distractor": "related",
+      "blocks": 3,
+      "condition": "neutral",
+      "mean": 0.725,
+      "sum": 29,
+      "count": 40
+    },
+    {
+      "distractor": "related",
+      "blocks": 3,
+      "condition": "replacement",
+      "mean": 0.1,
+      "sum": 4,
+      "count": 40
+    },
+    {
+      "distractor": "related",
+      "blocks": 3,
+      "condition": "suppression",
+      "mean": 0.4,
+      "sum": 16,
+      "count": 40
+    },
+    {
+      "distractor": "unrelated",
+      "blocks": 1,
+      "condition": "affirm",
+      "mean": 0.175,
+      "sum": 7,
+      "count": 40
+    },
+    {
+      "distractor": "unrelated",
+      "blocks": 1,
+      "condition": "neutral",
+      "mean": 0.3,
+      "sum": 12,
+      "count": 40
+    },
+    {
+      "distractor": "unrelated",
+      "blocks": 1,
+      "condition": "replacement",
+      "mean": 0.0,
+      "sum": 0,
+      "count": 40
+    },
+    {
+      "distractor": "unrelated",
+      "blocks": 1,
+      "condition": "suppression",
+      "mean": 0.025,
+      "sum": 1,
+      "count": 40
+    },
+    {
+      "distractor": "unrelated",
+      "blocks": 3,
+      "condition": "affirm",
+      "mean": 0.075,
+      "sum": 3,
+      "count": 40
+    },
+    {
+      "distractor": "unrelated",
+      "blocks": 3,
+      "condition": "neutral",
+      "mean": 0.075,
+      "sum": 3,
+      "count": 40
+    },
+    {
+      "distractor": "unrelated",
+      "blocks": 3,
+      "condition": "replacement",
+      "mean": 0.0,
+      "sum": 0,
+      "count": 40
+    },
+    {
+      "distractor": "unrelated",
+      "blocks": 3,
+      "condition": "suppression",
+      "mean": 0.025,
+      "sum": 1,
+      "count": 40
+    }
+  ],
+  "zhou_accuracy": {
+    "negative": {
+      "word_correct": 0.18519,
+      "word_calibrated_correct": 0.11111,
+      "letter_correct": 0.2963,
+      "calibrated_correct": 0.2963
+    },
+    "positive": {
+      "word_correct": 1.0,
+      "word_calibrated_correct": 1.0,
+      "letter_correct": 0.66667,
+      "calibrated_correct": 0.88889
+    }
+  },
+  "zhou_all_one_token_fraction": 0.8333333333333334,
+  "probe_semantic_validation_auc": {
+    "8": 0.4305555555555556,
+    "16": 0.6805555555555556,
+    "24": 0.9722222222222222
+  },
+  "probes_passing_auc_threshold": 12,
+  "concept_probe_DID_all": {
+    "8": -0.5643758111588034,
+    "16": -0.2357141367537705,
+    "24": 0.5187450225112695
+  }
+}

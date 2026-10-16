@@ -1,0 +1,193 @@
+concept,condition,cue,logprob,num_tokens,prompt
+banana,neutral,related,-3.9710187911987305,1,"The topic word is banana.
+Which yellow fruit is associated with cartoon monkeys?
+Answer with exactly one word."
+banana,neutral,unrelated,-7.122427940368652,1,"The topic word is banana.
+Which instrument has black and white keys?
+Answer with exactly one word."
+banana,affirm,related,-8.00595474243164,1,"Think of banana.
+Which yellow fruit is associated with cartoon monkeys?
+Answer with exactly one word."
+banana,affirm,unrelated,-9.054237365722656,1,"Think of banana.
+Which instrument has black and white keys?
+Answer with exactly one word."
+banana,suppression,related,-9.68946647644043,1,"Do not think of banana. Do not write the word banana.
+Which yellow fruit is associated with cartoon monkeys?
+Answer with exactly one word."
+banana,suppression,unrelated,-13.818551063537598,1,"Do not think of banana. Do not write the word banana.
+Which instrument has black and white keys?
+Answer with exactly one word."
+banana,replacement,related,-7.250197410583496,1,"Think of apple instead of banana. Do not write the word banana.
+Which yellow fruit is associated with cartoon monkeys?
+Answer with exactly one word."
+banana,replacement,unrelated,-12.233312606811523,1,"Think of apple instead of banana. Do not write the word banana.
+Which instrument has black and white keys?
+Answer with exactly one word."
+elephant,neutral,related,-4.3453690863680094,2,"The topic word is elephant.
+Which huge animal has a trunk?
+Answer with exactly one word."
+elephant,neutral,unrelated,-15.752958052791655,2,"The topic word is elephant.
+Which drink comes from roasted beans?
+Answer with exactly one word."
+elephant,affirm,related,-6.119715187698603,2,"Think of elephant.
+Which huge animal has a trunk?
+Answer with exactly one word."
+elephant,affirm,unrelated,-18.148852030280977,2,"Think of elephant.
+Which drink comes from roasted beans?
+Answer with exactly one word."
+elephant,suppression,related,-9.165224121883512,2,"Do not think of elephant. Do not write the word elephant.
+Which huge animal has a trunk?
+Answer with exactly one word."
+elephant,suppression,unrelated,-22.54102459549904,2,"Do not think of elephant. Do not write the word elephant.
+Which drink comes from roasted beans?
+Answer with exactly one word."
+elephant,replacement,related,-6.557104443316348,2,"Think of giraffe instead of elephant. Do not write the word elephant.
+Which huge animal has a trunk?
+Answer with exactly one word."
+elephant,replacement,unrelated,-20.313574075698853,2,"Think of giraffe instead of elephant. Do not write the word elephant.
+Which drink comes from roasted beans?
+Answer with exactly one word."
+tiger,neutral,related,-7.709625830408186,2,"The topic word is tiger.
+Which orange striped big cat lives in Asia?
+Answer with exactly one word."
+tiger,neutral,unrelated,-13.21054744720459,2,"The topic word is tiger.
+What two-wheeled vehicle has pedals?
+Answer with exactly one word."
+tiger,affirm,related,-9.204710287041962,2,"Think of tiger.
+Which orange striped big cat lives in Asia?
+Answer with exactly one word."
+tiger,affirm,unrelated,-15.849409580230713,2,"Think of tiger.
+What two-wheeled vehicle has pedals?
+Answer with exactly one word."
+tiger,suppression,related,-8.915055739693344,2,"Do not think of tiger. Do not write the word tiger.
+Which orange striped big cat lives in Asia?
+Answer with exactly one word."
+tiger,suppression,unrelated,-22.019424438476562,2,"Do not think of tiger. Do not write the word tiger.
+What two-wheeled vehicle has pedals?
+Answer with exactly one word."
+tiger,replacement,related,-11.4648338961415,2,"Think of lion instead of tiger. Do not write the word tiger.
+Which orange striped big cat lives in Asia?
+Answer with exactly one word."
+tiger,replacement,unrelated,-19.873626232147217,2,"Think of lion instead of tiger. Do not write the word tiger.
+What two-wheeled vehicle has pedals?
+Answer with exactly one word."
+piano,neutral,related,-0.2415742091834545,2,"The topic word is piano.
+Which keyboard instrument is played in classical music?
+Answer with exactly one word."
+piano,neutral,unrelated,-11.696178436279297,2,"The topic word is piano.
+Which animal has a trunk?
+Answer with exactly one word."
+piano,affirm,related,-2.7795533291064203,2,"Think of piano.
+Which keyboard instrument is played in classical music?
+Answer with exactly one word."
+piano,affirm,unrelated,-17.322750091552734,2,"Think of piano.
+Which animal has a trunk?
+Answer with exactly one word."
+piano,suppression,related,-5.070497395470738,2,"Do not think of piano. Do not write the word piano.
+Which keyboard instrument is played in classical music?
+Answer with exactly one word."
+piano,suppression,unrelated,-21.246450424194336,2,"Do not think of piano. Do not write the word piano.
+Which animal has a trunk?
+Answer with exactly one word."
+piano,replacement,related,-5.179122223518789,2,"Think of violin instead of piano. Do not write the word piano.
+Which keyboard instrument is played in classical music?
+Answer with exactly one word."
+piano,replacement,unrelated,-19.00950050354004,2,"Think of violin instead of piano. Do not write the word piano.
+Which animal has a trunk?
+Answer with exactly one word."
+coffee,neutral,related,-2.84616756439209,1,"The topic word is coffee.
+Which drink is brewed from roasted beans?
+Answer with exactly one word."
+coffee,neutral,unrelated,-9.550095558166504,1,"The topic word is coffee.
+Which medieval building has towers?
+Answer with exactly one word."
+coffee,affirm,related,-5.0513458251953125,1,"Think of coffee.
+Which drink is brewed from roasted beans?
+Answer with exactly one word."
+coffee,affirm,unrelated,-11.641090393066406,1,"Think of coffee.
+Which medieval building has towers?
+Answer with exactly one word."
+coffee,suppression,related,-4.433699131011963,1,"Do not think of coffee. Do not write the word coffee.
+Which drink is brewed from roasted beans?
+Answer with exactly one word."
+coffee,suppression,unrelated,-15.02761459350586,1,"Do not think of coffee. Do not write the word coffee.
+Which medieval building has towers?
+Answer with exactly one word."
+coffee,replacement,related,-9.933953285217285,1,"Think of tea instead of coffee. Do not write the word coffee.
+Which drink is brewed from roasted beans?
+Answer with exactly one word."
+coffee,replacement,unrelated,-14.924391746520996,1,"Think of tea instead of coffee. Do not write the word coffee.
+Which medieval building has towers?
+Answer with exactly one word."
+ocean,neutral,related,-4.018760638311505,2,"The topic word is ocean.
+Which vast saltwater body separates continents?
+Answer with exactly one word."
+ocean,neutral,unrelated,-9.140664935112,2,"The topic word is ocean.
+Which instrument has pedals?
+Answer with exactly one word."
+ocean,affirm,related,-8.055815826635808,2,"Think of ocean.
+Which vast saltwater body separates continents?
+Answer with exactly one word."
+ocean,affirm,unrelated,-9.712477326393127,2,"Think of ocean.
+Which instrument has pedals?
+Answer with exactly one word."
+ocean,suppression,related,-8.123312961310148,2,"Do not think of ocean. Do not write the word ocean.
+Which vast saltwater body separates continents?
+Answer with exactly one word."
+ocean,suppression,unrelated,-17.45058512687683,2,"Do not think of ocean. Do not write the word ocean.
+Which instrument has pedals?
+Answer with exactly one word."
+ocean,replacement,related,-8.266682441346347,2,"Think of river instead of ocean. Do not write the word ocean.
+Which vast saltwater body separates continents?
+Answer with exactly one word."
+ocean,replacement,unrelated,-19.34348773956299,2,"Think of river instead of ocean. Do not write the word ocean.
+Which instrument has pedals?
+Answer with exactly one word."
+castle,neutral,related,-2.9004178047180176,1,"The topic word is castle.
+Which medieval fortress has towers?
+Answer with exactly one word."
+castle,neutral,unrelated,-10.762090682983398,1,"The topic word is castle.
+Which curved fruit is yellow?
+Answer with exactly one word."
+castle,affirm,related,-5.10654878616333,1,"Think of castle.
+Which medieval fortress has towers?
+Answer with exactly one word."
+castle,affirm,unrelated,-13.14449691772461,1,"Think of castle.
+Which curved fruit is yellow?
+Answer with exactly one word."
+castle,suppression,related,-5.757612705230713,1,"Do not think of castle. Do not write the word castle.
+Which medieval fortress has towers?
+Answer with exactly one word."
+castle,suppression,unrelated,-15.800033569335938,1,"Do not think of castle. Do not write the word castle.
+Which curved fruit is yellow?
+Answer with exactly one word."
+castle,replacement,related,-4.592886447906494,1,"Think of palace instead of castle. Do not write the word castle.
+Which medieval fortress has towers?
+Answer with exactly one word."
+castle,replacement,unrelated,-15.76269245147705,1,"Think of palace instead of castle. Do not write the word castle.
+Which curved fruit is yellow?
+Answer with exactly one word."
+bicycle,neutral,related,-3.9602151792496443,2,"The topic word is bicycle.
+Which two-wheeled vehicle has pedals?
+Answer with exactly one word."
+bicycle,neutral,unrelated,-19.661151885986328,2,"The topic word is bicycle.
+Which vast body of saltwater separates continents?
+Answer with exactly one word."
+bicycle,affirm,related,-7.767652375623584,2,"Think of bicycle.
+Which two-wheeled vehicle has pedals?
+Answer with exactly one word."
+bicycle,affirm,unrelated,-23.442495346069336,2,"Think of bicycle.
+Which vast body of saltwater separates continents?
+Answer with exactly one word."
+bicycle,suppression,related,-7.722724840044975,2,"Do not think of bicycle. Do not write the word bicycle.
+Which two-wheeled vehicle has pedals?
+Answer with exactly one word."
+bicycle,suppression,unrelated,-24.75928497314453,2,"Do not think of bicycle. Do not write the word bicycle.
+Which vast body of saltwater separates continents?
+Answer with exactly one word."
+bicycle,replacement,related,-10.779402520507574,2,"Think of scooter instead of bicycle. Do not write the word bicycle.
+Which two-wheeled vehicle has pedals?
+Answer with exactly one word."
+bicycle,replacement,unrelated,-26.672903060913086,2,"Think of scooter instead of bicycle. Do not write the word bicycle.
+Which vast body of saltwater separates continents?
+Answer with exactly one word."

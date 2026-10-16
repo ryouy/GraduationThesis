@@ -1,0 +1,1189 @@
+set_id,rotation,gold,polarity,correct_word,options,word_prediction,word_correct,word_calibrated_prediction,word_calibrated_correct,word_p_gold,word_token_counts,all_one_token,letter_prediction,letter_correct,calibrated_prediction,calibrated_correct,label_p_A,label_p_B,label_p_C,calibrated_p_A,calibrated_p_B,calibrated_p_C,prompt_word,prompt_letter
+0,0,0,positive,gas,gas|liquid|solid,gas,1,gas,1,0.9334724896785449,1|1|1,1,A,1,A,1,0.7690111255177874,0.007193878362293243,0.22379499611991938,0.7131681429936454,0.242643240213683,0.04418861679267167,"Choose based on the statement.
+The correct option is gas.
+A) gas
+B) liquid
+C) solid
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is gas.
+A) gas
+B) liquid
+C) solid
+Reply with ONLY one letter: A, B or C."
+0,0,0,negative,gas,gas|liquid|solid,liquid,0,liquid,0,0.34015440101276906,1|1|1,1,A,1,A,1,0.6092173838111059,0.00954411902676097,0.381238497162133,0.5871921890300745,0.33457202412549,0.07823578684443551,"Choose based on the statement.
+The correct option is not liquid and not solid. Exactly one option is correct.
+A) gas
+B) liquid
+C) solid
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not liquid and not solid. Exactly one option is correct.
+A) gas
+B) liquid
+C) solid
+Reply with ONLY one letter: A, B or C."
+0,0,1,positive,liquid,gas|liquid|solid,liquid,1,liquid,1,0.994049652228954,1|1|1,1,C,0,B,1,0.4500645507708015,0.03994549974304877,0.5099899494861498,0.2237486469444273,0.7222694797890787,0.05398187326649399,"Choose based on the statement.
+The correct option is liquid.
+A) gas
+B) liquid
+C) solid
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is liquid.
+A) gas
+B) liquid
+C) solid
+Reply with ONLY one letter: A, B or C."
+0,0,1,negative,liquid,gas|liquid|solid,gas,0,gas,0,0.23731024741095555,1|1|1,1,A,0,A,0,0.5920881189237271,0.013496163681785214,0.3944157173944877,0.5073928978766702,0.42064348669769386,0.07196361542563588,"Choose based on the statement.
+The correct option is not gas and not solid. Exactly one option is correct.
+A) gas
+B) liquid
+C) solid
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not gas and not solid. Exactly one option is correct.
+A) gas
+B) liquid
+C) solid
+Reply with ONLY one letter: A, B or C."
+0,0,2,positive,solid,gas|liquid|solid,solid,1,solid,1,0.9795972374983857,1|1|1,1,C,1,A,0,0.4506903330877454,0.005673354020198497,0.543636312892056,0.5832078360976656,0.26701200421214283,0.14978015969019146,"Choose based on the statement.
+The correct option is solid.
+A) gas
+B) liquid
+C) solid
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is solid.
+A) gas
+B) liquid
+C) solid
+Reply with ONLY one letter: A, B or C."
+0,0,2,negative,solid,gas|liquid|solid,gas,0,liquid,0,0.2059689428763431,1|1|1,1,A,0,A,0,0.665214733712429,0.010585497419718214,0.32419976886785284,0.5943463070280309,0.3439812527071274,0.06167244026484169,"Choose based on the statement.
+The correct option is not gas and not liquid. Exactly one option is correct.
+A) gas
+B) liquid
+C) solid
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not gas and not liquid. Exactly one option is correct.
+A) gas
+B) liquid
+C) solid
+Reply with ONLY one letter: A, B or C."
+0,1,0,positive,liquid,liquid|solid|gas,liquid,1,liquid,1,0.9566523426911596,1|1|1,1,A,1,A,1,0.8309496729242378,0.005426634969873348,0.1636236921058888,0.8428555790928614,0.13129157661556742,0.025852844291571173,"Choose based on the statement.
+The correct option is liquid.
+A) liquid
+B) solid
+C) gas
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is liquid.
+A) liquid
+B) solid
+C) gas
+Reply with ONLY one letter: A, B or C."
+0,1,0,negative,liquid,liquid|solid|gas,solid,0,liquid,1,0.31403369244332313,1|1|1,1,A,1,A,1,0.5709623623154902,0.0177888755371341,0.4112487621473757,0.5389865725655022,0.40054080996043095,0.06047261747406695,"Choose based on the statement.
+The correct option is not solid and not gas. Exactly one option is correct.
+A) liquid
+B) solid
+C) gas
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not solid and not gas. Exactly one option is correct.
+A) liquid
+B) solid
+C) gas
+Reply with ONLY one letter: A, B or C."
+0,1,1,positive,solid,liquid|solid|gas,solid,1,solid,1,0.9642624836802037,1|1|1,1,A,0,A,0,0.5574914222634727,0.008333821522143537,0.43417475621438384,0.6766473300355159,0.24126603556110496,0.08208663440337913,"Choose based on the statement.
+The correct option is solid.
+A) liquid
+B) solid
+C) gas
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is solid.
+A) liquid
+B) solid
+C) gas
+Reply with ONLY one letter: A, B or C."
+0,1,1,negative,solid,liquid|solid|gas,solid,1,liquid,0,0.5786686742830434,1|1|1,1,A,0,A,0,0.5877746287773098,0.008254170518701429,0.4039712007039887,0.6934730698622741,0.23228438230246368,0.07424254783526223,"Choose based on the statement.
+The correct option is not liquid and not gas. Exactly one option is correct.
+A) liquid
+B) solid
+C) gas
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not liquid and not gas. Exactly one option is correct.
+A) liquid
+B) solid
+C) gas
+Reply with ONLY one letter: A, B or C."
+0,1,2,positive,gas,liquid|solid|gas,gas,1,gas,1,0.972629196162678,1|1|1,1,C,1,B,0,0.16107781499323398,0.00801959218761428,0.8309025928191518,0.3343305347280396,0.3970273335444462,0.2686421317275143,"Choose based on the statement.
+The correct option is gas.
+A) liquid
+B) solid
+C) gas
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is gas.
+A) liquid
+B) solid
+C) gas
+Reply with ONLY one letter: A, B or C."
+0,1,2,negative,gas,liquid|solid|gas,liquid,0,liquid,0,0.012515581802017192,1|1|1,1,A,0,A,0,0.7036473792559045,0.007576318146044381,0.28877630259805104,0.7571460764400996,0.1944511942720345,0.04840272928786588,"Choose based on the statement.
+The correct option is not liquid and not solid. Exactly one option is correct.
+A) liquid
+B) solid
+C) gas
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not liquid and not solid. Exactly one option is correct.
+A) liquid
+B) solid
+C) gas
+Reply with ONLY one letter: A, B or C."
+0,2,0,positive,solid,solid|gas|liquid,solid,1,solid,1,0.9585643844091863,1|1|1,1,A,1,A,1,0.7393482549902092,0.005139825151251501,0.25551191985853927,0.6170561042272689,0.30072912734891294,0.08221476842381809,"Choose based on the statement.
+The correct option is solid.
+A) solid
+B) gas
+C) liquid
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is solid.
+A) solid
+B) gas
+C) liquid
+Reply with ONLY one letter: A, B or C."
+0,2,0,negative,solid,solid|gas|liquid,solid,1,solid,1,0.8057172713395565,1|1|1,1,A,1,B,0,0.5232009683695621,0.01507579761503835,0.46172323401539944,0.2975935048600605,0.6011554045027699,0.10125109063716957,"Choose based on the statement.
+The correct option is not gas and not liquid. Exactly one option is correct.
+A) solid
+B) gas
+C) liquid
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not gas and not liquid. Exactly one option is correct.
+A) solid
+B) gas
+C) liquid
+Reply with ONLY one letter: A, B or C."
+0,2,1,positive,gas,solid|gas|liquid,gas,1,gas,1,0.936644801835771,1|1|1,1,A,0,B,1,0.5015326812052079,0.04181661598674084,0.4566507028080513,0.13896111977848494,0.8122589393725042,0.04877994084901081,"Choose based on the statement.
+The correct option is gas.
+A) solid
+B) gas
+C) liquid
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is gas.
+A) solid
+B) gas
+C) liquid
+Reply with ONLY one letter: A, B or C."
+0,2,1,negative,gas,solid|gas|liquid,solid,0,solid,0,0.07637437211236034,1|1|1,1,A,0,B,1,0.5934574930129128,0.01121458979242554,0.3953279171946617,0.38735577793897047,0.5131630308191111,0.09948119124191851,"Choose based on the statement.
+The correct option is not solid and not liquid. Exactly one option is correct.
+A) solid
+B) gas
+C) liquid
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not solid and not liquid. Exactly one option is correct.
+A) solid
+B) gas
+C) liquid
+Reply with ONLY one letter: A, B or C."
+0,2,2,positive,liquid,solid|gas|liquid,liquid,1,liquid,1,0.9919060716726368,1|1|1,1,C,1,C,1,0.13974404392281006,0.0042199044753224125,0.8560360516018676,0.18252557806989303,0.3864066518062016,0.43106777012390546,"Choose based on the statement.
+The correct option is liquid.
+A) solid
+B) gas
+C) liquid
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is liquid.
+A) solid
+B) gas
+C) liquid
+Reply with ONLY one letter: A, B or C."
+0,2,2,negative,liquid,solid|gas|liquid,solid,0,solid,0,0.10390789907119924,1|1|1,1,A,0,A,0,0.7175658741445967,0.01007684032893935,0.2723572855264639,0.46930096623565365,0.4620251291421965,0.06867390462214991,"Choose based on the statement.
+The correct option is not solid and not gas. Exactly one option is correct.
+A) solid
+B) gas
+C) liquid
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not solid and not gas. Exactly one option is correct.
+A) solid
+B) gas
+C) liquid
+Reply with ONLY one letter: A, B or C."
+1,0,0,positive,red,red|blue|green,red,1,red,1,0.8878557932236506,1|1|1,1,A,1,A,1,0.5849409945181785,0.006704379556989959,0.40835462592483146,0.6185060259873129,0.22753565120138225,0.1539583228113049,"Choose based on the statement.
+The correct option is red.
+A) red
+B) blue
+C) green
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is red.
+A) red
+B) blue
+C) green
+Reply with ONLY one letter: A, B or C."
+1,0,0,negative,red,red|blue|green,red,1,red,1,0.49526005311494586,1|1|1,1,A,1,A,1,0.5884117745185007,0.007179121340562895,0.4044091041409365,0.6109981502773115,0.23927031353771158,0.14973153618497684,"Choose based on the statement.
+The correct option is not blue and not green. Exactly one option is correct.
+A) red
+B) blue
+C) green
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not blue and not green. Exactly one option is correct.
+A) red
+B) blue
+C) green
+Reply with ONLY one letter: A, B or C."
+1,0,1,positive,blue,red|blue|green,blue,1,blue,1,0.9930894600306113,1|1|1,1,C,0,B,1,0.4811129420455539,0.02250195173644814,0.49638510621799803,0.3485465488975937,0.5232303414717249,0.12822310963068154,"Choose based on the statement.
+The correct option is blue.
+A) red
+B) blue
+C) green
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is blue.
+A) red
+B) blue
+C) green
+Reply with ONLY one letter: A, B or C."
+1,0,1,negative,blue,red|blue|green,red,0,green,0,0.37128548244760595,1|1|1,1,A,0,A,0,0.8203240771811408,0.0022683994127063777,0.17740752340615276,0.8577309427644596,0.07612794896892715,0.0661411082666133,"Choose based on the statement.
+The correct option is not red and not green. Exactly one option is correct.
+A) red
+B) blue
+C) green
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not red and not green. Exactly one option is correct.
+A) red
+B) blue
+C) green
+Reply with ONLY one letter: A, B or C."
+1,0,2,positive,green,red|blue|green,green,1,green,1,0.9284533666191073,1|1|1,1,C,1,C,1,0.17935873202755392,0.004152717295074334,0.8164885506773717,0.2970623108276725,0.22075796437985123,0.48217972479247634,"Choose based on the statement.
+The correct option is green.
+A) red
+B) blue
+C) green
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is green.
+A) red
+B) blue
+C) green
+Reply with ONLY one letter: A, B or C."
+1,0,2,negative,green,red|blue|green,red,0,red,0,0.040760400122968984,1|1|1,1,A,0,A,0,0.8461039822651234,0.0021979327566272427,0.1516980849782494,0.8716074235465398,0.07267257805424099,0.05571999839921917,"Choose based on the statement.
+The correct option is not red and not blue. Exactly one option is correct.
+A) red
+B) blue
+C) green
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not red and not blue. Exactly one option is correct.
+A) red
+B) blue
+C) green
+Reply with ONLY one letter: A, B or C."
+1,1,0,positive,blue,blue|green|red,blue,1,blue,1,0.9903751931282613,1|1|1,1,A,1,A,1,0.6897239647795448,0.008957950540512915,0.3013180846799424,0.6302499212854755,0.2668646073402101,0.10288547137431439,"Choose based on the statement.
+The correct option is blue.
+A) blue
+B) green
+C) red
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is blue.
+A) blue
+B) green
+C) red
+Reply with ONLY one letter: A, B or C."
+1,1,0,negative,blue,blue|green|red,green,0,green,0,0.22306609632157332,1|1|1,1,A,1,A,1,0.8886718171345249,0.0035200599044646645,0.10780812296101047,0.8514482706256972,0.10995418151941722,0.03859754785488565,"Choose based on the statement.
+The correct option is not green and not red. Exactly one option is correct.
+A) blue
+B) green
+C) red
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not green and not red. Exactly one option is correct.
+A) blue
+B) green
+C) red
+Reply with ONLY one letter: A, B or C."
+1,1,1,positive,green,blue|green|red,green,1,green,1,0.901356404286077,1|1|1,1,A,0,B,1,0.6271020553497385,0.0211255729567959,0.3517723716934656,0.4332949887926889,0.4758814475608561,0.0908235636464549,"Choose based on the statement.
+The correct option is green.
+A) blue
+B) green
+C) red
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is green.
+A) blue
+B) green
+C) red
+Reply with ONLY one letter: A, B or C."
+1,1,1,negative,green,blue|green|red,blue,0,blue,0,0.09185147749065936,1|1|1,1,A,0,A,0,0.7765022811342557,0.004475193452035409,0.21902252541370906,0.773219596404689,0.14528365771821927,0.08149674587709192,"Choose based on the statement.
+The correct option is not blue and not red. Exactly one option is correct.
+A) blue
+B) green
+C) red
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not blue and not red. Exactly one option is correct.
+A) blue
+B) green
+C) red
+Reply with ONLY one letter: A, B or C."
+1,1,2,positive,red,blue|green|red,red,1,red,1,0.9067067115971417,1|1|1,1,C,1,C,1,0.22974766339365915,0.005075787021190057,0.7651765495851508,0.33729166603275756,0.24294207340754928,0.4197662605596932,"Choose based on the statement.
+The correct option is red.
+A) blue
+B) green
+C) red
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is red.
+A) blue
+B) green
+C) red
+Reply with ONLY one letter: A, B or C."
+1,1,2,negative,red,blue|green|red,blue,0,blue,0,0.1821381438478065,1|1|1,1,A,0,A,0,0.7121482968508138,0.004578681945203965,0.2832730212039823,0.7362425075186515,0.15432481328058711,0.10943267920076144,"Choose based on the statement.
+The correct option is not blue and not green. Exactly one option is correct.
+A) blue
+B) green
+C) red
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not blue and not green. Exactly one option is correct.
+A) blue
+B) green
+C) red
+Reply with ONLY one letter: A, B or C."
+1,2,0,positive,green,green|red|blue,green,1,green,1,0.9624652486645251,1|1|1,1,A,1,A,1,0.8075866279491146,0.0035686070177357717,0.1888447650331495,0.8091217630719172,0.10950272297824536,0.08137551394983741,"Choose based on the statement.
+The correct option is green.
+A) green
+B) red
+C) blue
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is green.
+A) green
+B) red
+C) blue
+Reply with ONLY one letter: A, B or C."
+1,2,0,negative,green,green|red|blue,red,0,green,1,0.36613675114911043,1|1|1,1,A,1,A,1,0.8512080817311634,0.003167385908211143,0.14562453236062553,0.8420738836382496,0.09596588446777927,0.06196023189397103,"Choose based on the statement.
+The correct option is not red and not blue. Exactly one option is correct.
+A) green
+B) red
+C) blue
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not red and not blue. Exactly one option is correct.
+A) green
+B) red
+C) blue
+Reply with ONLY one letter: A, B or C."
+1,2,1,positive,red,green|red|blue,red,1,red,1,0.9566620268484157,1|1|1,1,C,0,A,0,0.4136280833528197,0.012106193978520455,0.5742657226686597,0.40103925632805454,0.35948926600573716,0.23947147766620833,"Choose based on the statement.
+The correct option is red.
+A) green
+B) red
+C) blue
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is red.
+A) green
+B) red
+C) blue
+Reply with ONLY one letter: A, B or C."
+1,2,1,negative,red,green|red|blue,green,0,green,0,0.3093300026676302,1|1|1,1,A,0,A,0,0.7212358413521626,0.005013910687345806,0.2737502479604917,0.7266608531257355,0.15471502352552324,0.1186241233487413,"Choose based on the statement.
+The correct option is not green and not blue. Exactly one option is correct.
+A) green
+B) red
+C) blue
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not green and not blue. Exactly one option is correct.
+A) green
+B) red
+C) blue
+Reply with ONLY one letter: A, B or C."
+1,2,2,positive,blue,green|red|blue,blue,1,blue,1,0.9942242456544463,1|1|1,1,C,1,C,1,0.2322821176510609,0.006094140021630798,0.7616237423273083,0.3111631063236872,0.250026580030292,0.43881031364602074,"Choose based on the statement.
+The correct option is blue.
+A) green
+B) red
+C) blue
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is blue.
+A) green
+B) red
+C) blue
+Reply with ONLY one letter: A, B or C."
+1,2,2,negative,blue,green|red|blue,green,0,green,0,0.1628912750924906,1|1|1,1,A,0,A,0,0.8794141500531676,0.0015700868671020673,0.11901576307973047,0.8985635207369274,0.049133810374207706,0.052302668888864944,"Choose based on the statement.
+The correct option is not green and not red. Exactly one option is correct.
+A) green
+B) red
+C) blue
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not green and not red. Exactly one option is correct.
+A) green
+B) red
+C) blue
+Reply with ONLY one letter: A, B or C."
+2,0,0,positive,metal,metal|wood|plastic,metal,1,metal,1,0.9984184789210487,1|1|2,0,A,1,A,1,0.8338969104457998,0.004444799611357869,0.1616582899428424,0.5350219674455277,0.3914304332129295,0.07354759934154285,"Choose based on the statement.
+The correct option is metal.
+A) metal
+B) wood
+C) plastic
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is metal.
+A) metal
+B) wood
+C) plastic
+Reply with ONLY one letter: A, B or C."
+2,0,0,negative,metal,metal|wood|plastic,wood,0,wood,0,0.009001949979180714,1|1|2,0,A,1,B,0,0.5517307550081423,0.01181429412182411,0.43645495087003355,0.2222166613400149,0.6531310889623102,0.12465224969767481,"Choose based on the statement.
+The correct option is not wood and not plastic. Exactly one option is correct.
+A) metal
+B) wood
+C) plastic
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not wood and not plastic. Exactly one option is correct.
+A) metal
+B) wood
+C) plastic
+Reply with ONLY one letter: A, B or C."
+2,0,1,positive,wood,metal|wood|plastic,wood,1,wood,1,0.9999587897676843,1|1|2,0,A,0,B,1,0.7933461402158695,0.012236026854472911,0.19441783292965759,0.3038798811878343,0.6433137135229029,0.05280640528926271,"Choose based on the statement.
+The correct option is wood.
+A) metal
+B) wood
+C) plastic
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is wood.
+A) metal
+B) wood
+C) plastic
+Reply with ONLY one letter: A, B or C."
+2,0,1,negative,wood,metal|wood|plastic,wood,1,plastic,0,0.6340960028652372,1|1|2,0,A,0,B,1,0.6232291519721435,0.010393330177675426,0.3663775178501812,0.26984109049467825,0.617672407529459,0.11248650197586274,"Choose based on the statement.
+The correct option is not metal and not plastic. Exactly one option is correct.
+A) metal
+B) wood
+C) plastic
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not metal and not plastic. Exactly one option is correct.
+A) metal
+B) wood
+C) plastic
+Reply with ONLY one letter: A, B or C."
+2,0,2,positive,plastic,metal|wood|plastic,plastic,1,plastic,1,0.998329101844393,1|1|2,0,C,1,C,1,0.12721984538661135,0.003390294042823902,0.8693898605705647,0.10522207353479499,0.38488635264214627,0.5098915738230587,"Choose based on the statement.
+The correct option is plastic.
+A) metal
+B) wood
+C) plastic
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is plastic.
+A) metal
+B) wood
+C) plastic
+Reply with ONLY one letter: A, B or C."
+2,0,2,negative,plastic,metal|wood|plastic,wood,0,metal,0,0.0031816724302158356,1|1|2,0,A,0,B,0,0.7259364210676528,0.007006494023982341,0.26705708490836494,0.38674989524000025,0.5123603666539377,0.10088973810606197,"Choose based on the statement.
+The correct option is not metal and not wood. Exactly one option is correct.
+A) metal
+B) wood
+C) plastic
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not metal and not wood. Exactly one option is correct.
+A) metal
+B) wood
+C) plastic
+Reply with ONLY one letter: A, B or C."
+2,1,0,positive,wood,wood|plastic|metal,wood,1,wood,1,0.9999530684627992,1|2|1,0,A,1,A,1,0.8700423317534974,0.0026423452303759145,0.12731532301612666,0.6958664499524766,0.24427209799117114,0.05986145205635235,"Choose based on the statement.
+The correct option is wood.
+A) wood
+B) plastic
+C) metal
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is wood.
+A) wood
+B) plastic
+C) metal
+Reply with ONLY one letter: A, B or C."
+2,1,0,negative,wood,wood|plastic|metal,wood,1,plastic,0,0.8780951894144077,1|2|1,0,A,1,B,0,0.6826971229289851,0.009587175405996785,0.30771570166501805,0.34624434188296777,0.5620100409739668,0.09174561714306538,"Choose based on the statement.
+The correct option is not plastic and not metal. Exactly one option is correct.
+A) wood
+B) plastic
+C) metal
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not plastic and not metal. Exactly one option is correct.
+A) wood
+B) plastic
+C) metal
+Reply with ONLY one letter: A, B or C."
+2,1,1,positive,plastic,wood|plastic|metal,plastic,1,plastic,1,0.9811930027104814,1|2|1,0,C,0,B,1,0.36204810743169336,0.03163541106327631,0.6063164815050304,0.08275310536649537,0.8357767572490568,0.08147013738444783,"Choose based on the statement.
+The correct option is plastic.
+A) wood
+B) plastic
+C) metal
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is plastic.
+A) wood
+B) plastic
+C) metal
+Reply with ONLY one letter: A, B or C."
+2,1,1,negative,plastic,wood|plastic|metal,wood,0,wood,0,0.0049501072627812885,1|2|1,0,A,0,B,1,0.6345588559542864,0.009485886310766122,0.35595525773494757,0.3270528228178204,0.5650966031290251,0.10785057405315451,"Choose based on the statement.
+The correct option is not wood and not metal. Exactly one option is correct.
+A) wood
+B) plastic
+C) metal
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not wood and not metal. Exactly one option is correct.
+A) wood
+B) plastic
+C) metal
+Reply with ONLY one letter: A, B or C."
+2,1,2,positive,metal,wood|plastic|metal,metal,1,metal,1,0.9997081120723555,1|2|1,0,C,1,C,1,0.17482752960063766,0.0040478057445017795,0.8211246646548606,0.15534638615470878,0.4157284875283467,0.42892512631694457,"Choose based on the statement.
+The correct option is metal.
+A) wood
+B) plastic
+C) metal
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is metal.
+A) wood
+B) plastic
+C) metal
+Reply with ONLY one letter: A, B or C."
+2,1,2,negative,metal,wood|plastic|metal,wood,0,wood,0,0.002245804672891414,1|2|1,0,A,0,B,0,0.6567818854477042,0.0077667513691658,0.3354513631831301,0.3749401421676339,0.5124824119838192,0.11257744584854687,"Choose based on the statement.
+The correct option is not wood and not plastic. Exactly one option is correct.
+A) wood
+B) plastic
+C) metal
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not wood and not plastic. Exactly one option is correct.
+A) wood
+B) plastic
+C) metal
+Reply with ONLY one letter: A, B or C."
+2,2,0,positive,plastic,plastic|metal|wood,plastic,1,plastic,1,0.9985202255572059,2|1|1,0,A,1,A,1,0.7538231859089268,0.005240452444947674,0.24093636164612553,0.6080711838619769,0.32043099655923907,0.07149781957878398,"Choose based on the statement.
+The correct option is plastic.
+A) plastic
+B) metal
+C) wood
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is plastic.
+A) plastic
+B) metal
+C) wood
+Reply with ONLY one letter: A, B or C."
+2,2,0,negative,plastic,plastic|metal|wood,wood,0,metal,0,0.12135969914303076,2|1|1,0,A,1,B,0,0.5855754552293764,0.0119648124683304,0.4024597323022933,0.35692998735680126,0.5528239789093119,0.09024603373388691,"Choose based on the statement.
+The correct option is not metal and not wood. Exactly one option is correct.
+A) plastic
+B) metal
+C) wood
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not metal and not wood. Exactly one option is correct.
+A) plastic
+B) metal
+C) wood
+Reply with ONLY one letter: A, B or C."
+2,2,1,positive,metal,plastic|metal|wood,metal,1,metal,1,0.9994522870195518,2|1|1,0,A,0,B,1,0.47890556844411475,0.07817918493771377,0.4429152466181715,0.07291513823609057,0.9022767354110316,0.024808126352877866,"Choose based on the statement.
+The correct option is metal.
+A) plastic
+B) metal
+C) wood
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is metal.
+A) plastic
+B) metal
+C) wood
+Reply with ONLY one letter: A, B or C."
+2,2,1,negative,metal,plastic|metal|wood,plastic,0,plastic,0,0.037337954846502874,2|1|1,0,A,0,A,0,0.6251191092646509,0.00739232430940655,0.3674885664259427,0.47333707106785955,0.42429660829087973,0.10236632064126086,"Choose based on the statement.
+The correct option is not plastic and not wood. Exactly one option is correct.
+A) plastic
+B) metal
+C) wood
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not plastic and not wood. Exactly one option is correct.
+A) plastic
+B) metal
+C) wood
+Reply with ONLY one letter: A, B or C."
+2,2,2,positive,wood,plastic|metal|wood,wood,1,wood,1,0.9999262525902978,2|1|1,0,C,1,A,0,0.29637733587817283,0.0036729987475523605,0.6999496653742748,0.35609642721223067,0.33452163534437757,0.30938193744339165,"Choose based on the statement.
+The correct option is wood.
+A) plastic
+B) metal
+C) wood
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is wood.
+A) plastic
+B) metal
+C) wood
+Reply with ONLY one letter: A, B or C."
+2,2,2,negative,wood,plastic|metal|wood,plastic,0,plastic,0,0.40172821024245486,2|1|1,0,A,0,A,0,0.7330960672356845,0.005510480109877076,0.2613934526544385,0.5879052790082824,0.3349783305475606,0.07711639044415694,"Choose based on the statement.
+The correct option is not plastic and not metal. Exactly one option is correct.
+A) plastic
+B) metal
+C) wood
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not plastic and not metal. Exactly one option is correct.
+A) plastic
+B) metal
+C) wood
+Reply with ONLY one letter: A, B or C."
+3,0,0,positive,banana,banana|apple|orange,banana,1,banana,1,0.995938389725766,1|1|1,1,A,1,A,1,0.7178487734760376,0.005395870425352639,0.27675535609860985,0.733693826753786,0.15379058077005833,0.11251559247615556,"Choose based on the statement.
+The correct option is banana.
+A) banana
+B) apple
+C) orange
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is banana.
+A) banana
+B) apple
+C) orange
+Reply with ONLY one letter: A, B or C."
+3,0,0,negative,banana,banana|apple|orange,banana,1,apple,0,0.48769696567749177,1|1|1,1,C,0,B,0,0.2623656844434455,0.03550733421572144,0.7021269813408332,0.17127818822949753,0.6463971294667122,0.18232468230379023,"Choose based on the statement.
+The correct option is not apple and not orange. Exactly one option is correct.
+A) banana
+B) apple
+C) orange
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not apple and not orange. Exactly one option is correct.
+A) banana
+B) apple
+C) orange
+Reply with ONLY one letter: A, B or C."
+3,0,1,positive,apple,banana|apple|orange,apple,1,apple,1,0.9886143035553172,1|1|1,1,C,0,B,1,0.2926731929756828,0.047777585368851586,0.6595492216554656,0.15507098535372524,0.7059242817579914,0.13900473288828358,"Choose based on the statement.
+The correct option is apple.
+A) banana
+B) apple
+C) orange
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is apple.
+A) banana
+B) apple
+C) orange
+Reply with ONLY one letter: A, B or C."
+3,0,1,negative,apple,banana|apple|orange,banana,0,banana,0,0.06282273275788457,1|1|1,1,C,0,B,1,0.41001526116938525,0.020734923025014087,0.5692498158056007,0.337555194082717,0.47602912291984867,0.18641568299743433,"Choose based on the statement.
+The correct option is not banana and not orange. Exactly one option is correct.
+A) banana
+B) apple
+C) orange
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not banana and not orange. Exactly one option is correct.
+A) banana
+B) apple
+C) orange
+Reply with ONLY one letter: A, B or C."
+3,0,2,positive,orange,banana|apple|orange,orange,1,orange,1,0.9997745038495544,1|1|1,1,C,1,C,1,0.09094166584657601,0.004819731717835303,0.9042386024355886,0.1554489299276889,0.22973862571239675,0.6148124443599142,"Choose based on the statement.
+The correct option is orange.
+A) banana
+B) apple
+C) orange
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is orange.
+A) banana
+B) apple
+C) orange
+Reply with ONLY one letter: A, B or C."
+3,0,2,negative,orange,banana|apple|orange,banana,0,banana,0,0.018525516872341503,1|1|1,1,A,0,B,0,0.5001154497559224,0.02267105433279776,0.4772134959112799,0.37826123084337354,0.47816699997904105,0.14357176917758543,"Choose based on the statement.
+The correct option is not banana and not apple. Exactly one option is correct.
+A) banana
+B) apple
+C) orange
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not banana and not apple. Exactly one option is correct.
+A) banana
+B) apple
+C) orange
+Reply with ONLY one letter: A, B or C."
+3,1,0,positive,apple,apple|orange|banana,apple,1,apple,1,0.9977392164784735,1|1|1,1,A,1,A,1,0.625532922081404,0.006735243487334766,0.36773183443126123,0.6379570851033082,0.20074210335839712,0.1613008115382947,"Choose based on the statement.
+The correct option is apple.
+A) apple
+B) orange
+C) banana
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is apple.
+A) apple
+B) orange
+C) banana
+Reply with ONLY one letter: A, B or C."
+3,1,0,negative,apple,apple|orange|banana,orange,0,orange,0,0.12052525863440727,1|1|1,1,C,0,B,0,0.3806396979114446,0.029814005100366588,0.5895462969881888,0.2528338626210871,0.5787424752243924,0.16842366215452054,"Choose based on the statement.
+The correct option is not orange and not banana. Exactly one option is correct.
+A) apple
+B) orange
+C) banana
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not orange and not banana. Exactly one option is correct.
+A) apple
+B) orange
+C) banana
+Reply with ONLY one letter: A, B or C."
+3,1,1,positive,orange,apple|orange|banana,orange,1,orange,1,0.9978367162896171,1|1|1,1,C,0,B,1,0.34683614672544855,0.025124726199487482,0.6280391270750639,0.25668663553872995,0.5434056116997429,0.19990775276152717,"Choose based on the statement.
+The correct option is orange.
+A) apple
+B) orange
+C) banana
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is orange.
+A) apple
+B) orange
+C) banana
+Reply with ONLY one letter: A, B or C."
+3,1,1,negative,orange,apple|orange|banana,banana,0,apple,0,0.26598655931853443,1|1|1,1,C,0,B,1,0.2766515710185043,0.03862921471308355,0.6847192142684121,0.1627307841445548,0.6640431978382084,0.17322601801723683,"Choose based on the statement.
+The correct option is not apple and not banana. Exactly one option is correct.
+A) apple
+B) orange
+C) banana
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not apple and not banana. Exactly one option is correct.
+A) apple
+B) orange
+C) banana
+Reply with ONLY one letter: A, B or C."
+3,1,2,positive,banana,apple|orange|banana,banana,1,banana,1,0.9999107017321942,1|1|1,1,C,1,C,1,0.0818501294916578,0.01024474494555639,0.9079051255627858,0.10606049619578711,0.3879531753070225,0.5059863284971904,"Choose based on the statement.
+The correct option is banana.
+A) apple
+B) orange
+C) banana
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is banana.
+A) apple
+B) orange
+C) banana
+Reply with ONLY one letter: A, B or C."
+3,1,2,negative,banana,apple|orange|banana,orange,0,apple,0,0.11191663985739586,1|1|1,1,C,1,B,0,0.3708179979827036,0.027284980085354057,0.6018970219319424,0.2598448438464288,0.5587542199876805,0.18140093616589062,"Choose based on the statement.
+The correct option is not apple and not orange. Exactly one option is correct.
+A) apple
+B) orange
+C) banana
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not apple and not orange. Exactly one option is correct.
+A) apple
+B) orange
+C) banana
+Reply with ONLY one letter: A, B or C."
+3,2,0,positive,orange,orange|banana|apple,orange,1,orange,1,0.9952306593054122,1|1|1,1,A,1,A,1,0.6969619845184146,0.0032784012103530893,0.29975961427123216,0.6980397691229656,0.15333898777984592,0.14862124309718863,"Choose based on the statement.
+The correct option is orange.
+A) orange
+B) banana
+C) apple
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is orange.
+A) orange
+B) banana
+C) apple
+Reply with ONLY one letter: A, B or C."
+3,2,0,negative,orange,orange|banana|apple,banana,0,banana,0,0.11847933540347022,1|1|1,1,C,0,B,0,0.38046107057739803,0.030269295861548733,0.5892696335610533,0.18240927629172254,0.6777326802053832,0.13985804350289419,"Choose based on the statement.
+The correct option is not banana and not apple. Exactly one option is correct.
+A) orange
+B) banana
+C) apple
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not banana and not apple. Exactly one option is correct.
+A) orange
+B) banana
+C) apple
+Reply with ONLY one letter: A, B or C."
+3,2,1,positive,banana,orange|banana|apple,banana,1,banana,1,0.9998679331692829,1|1|1,1,C,0,B,1,0.37879177940691583,0.07006943362807007,0.5511387869650141,0.09653483606078223,0.8339337299002083,0.06953143403900945,"Choose based on the statement.
+The correct option is banana.
+A) orange
+B) banana
+C) apple
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is banana.
+A) orange
+B) banana
+C) apple
+Reply with ONLY one letter: A, B or C."
+3,2,1,negative,banana,orange|banana|apple,orange,0,orange,0,0.09928672887212697,1|1|1,1,C,0,B,1,0.32951285359367183,0.015172587755609137,0.6553145586507191,0.24184765691633694,0.5200541865514228,0.23809815653224015,"Choose based on the statement.
+The correct option is not orange and not apple. Exactly one option is correct.
+A) orange
+B) banana
+C) apple
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not orange and not apple. Exactly one option is correct.
+A) orange
+B) banana
+C) apple
+Reply with ONLY one letter: A, B or C."
+3,2,2,positive,apple,orange|banana|apple,apple,1,apple,1,0.9996175849925695,1|1|1,1,C,1,C,1,0.104850349988223,0.003423485195972765,0.8917261648158042,0.1484786469515149,0.22640290020312745,0.6251184528453577,"Choose based on the statement.
+The correct option is apple.
+A) orange
+B) banana
+C) apple
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is apple.
+A) orange
+B) banana
+C) apple
+Reply with ONLY one letter: A, B or C."
+3,2,2,negative,apple,orange|banana|apple,orange,0,orange,0,0.04856221863676594,1|1|1,1,C,1,B,0,0.4178004659772293,0.011134005285001861,0.5710655287377688,0.34233046794927946,0.4260371508638551,0.23163238118686544,"Choose based on the statement.
+The correct option is not orange and not banana. Exactly one option is correct.
+A) orange
+B) banana
+C) apple
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not orange and not banana. Exactly one option is correct.
+A) orange
+B) banana
+C) apple
+Reply with ONLY one letter: A, B or C."
+4,0,0,positive,cat,cat|dog|bird,cat,1,cat,1,0.998171654655389,1|1|1,1,A,1,A,1,0.7461567686886469,0.0077868446293038514,0.24605638668204935,0.738700468108542,0.19573613813275512,0.06556339375870285,"Choose based on the statement.
+The correct option is cat.
+A) cat
+B) dog
+C) bird
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is cat.
+A) cat
+B) dog
+C) bird
+Reply with ONLY one letter: A, B or C."
+4,0,0,negative,cat,cat|dog|bird,dog,0,dog,0,0.11314595674734995,1|1|1,1,A,1,A,1,0.6063371453055258,0.0201093760561202,0.37355347863835403,0.4980326013071819,0.41938549777048684,0.08258190092233135,"Choose based on the statement.
+The correct option is not dog and not bird. Exactly one option is correct.
+A) cat
+B) dog
+C) bird
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not dog and not bird. Exactly one option is correct.
+A) cat
+B) dog
+C) bird
+Reply with ONLY one letter: A, B or C."
+4,0,1,positive,dog,cat|dog|bird,dog,1,dog,1,0.9980636698256846,1|1|1,1,C,0,B,1,0.3525924198921727,0.11810366691737599,0.5293039131904513,0.100920516605007,0.8583039086995974,0.04077557469539562,"Choose based on the statement.
+The correct option is dog.
+A) cat
+B) dog
+C) bird
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is dog.
+A) cat
+B) dog
+C) bird
+Reply with ONLY one letter: A, B or C."
+4,0,1,negative,dog,cat|dog|bird,cat,0,cat,0,0.12820098803756755,1|1|1,1,A,0,B,1,0.506422479874007,0.02521329062851039,0.46836422949748274,0.3979247224613281,0.503023982480543,0.09905129505812889,"Choose based on the statement.
+The correct option is not cat and not bird. Exactly one option is correct.
+A) cat
+B) dog
+C) bird
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not cat and not bird. Exactly one option is correct.
+A) cat
+B) dog
+C) bird
+Reply with ONLY one letter: A, B or C."
+4,0,2,positive,bird,cat|dog|bird,bird,1,bird,1,0.9983955331629758,1|1|1,1,C,1,B,0,0.15403637063262982,0.013250877113258468,0.8327127522541117,0.21555476716778818,0.47081489722305464,0.31363033560915715,"Choose based on the statement.
+The correct option is bird.
+A) cat
+B) dog
+C) bird
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is bird.
+A) cat
+B) dog
+C) bird
+Reply with ONLY one letter: A, B or C."
+4,0,2,negative,bird,cat|dog|bird,cat,0,cat,0,0.007755679763094842,1|1|1,1,A,0,B,0,0.5498113053040407,0.02199521958366106,0.42819347511229816,0.44936567851691617,0.45644215827105883,0.09419216321202507,"Choose based on the statement.
+The correct option is not cat and not dog. Exactly one option is correct.
+A) cat
+B) dog
+C) bird
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not cat and not dog. Exactly one option is correct.
+A) cat
+B) dog
+C) bird
+Reply with ONLY one letter: A, B or C."
+4,1,0,positive,dog,dog|bird|cat,dog,1,dog,1,0.9989633892560345,1|1|1,1,A,1,A,1,0.7997900541747656,0.007251615422513561,0.19295833040272095,0.742358190777367,0.19670533815423288,0.060936471068400166,"Choose based on the statement.
+The correct option is dog.
+A) dog
+B) bird
+C) cat
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is dog.
+A) dog
+B) bird
+C) cat
+Reply with ONLY one letter: A, B or C."
+4,1,0,negative,dog,dog|bird|cat,dog,1,bird,0,0.40749532643358266,1|1|1,1,A,1,B,0,0.5330597441231303,0.03861471834901981,0.42832553752784985,0.2949517703523132,0.6244129027357848,0.08063532691190199,"Choose based on the statement.
+The correct option is not bird and not cat. Exactly one option is correct.
+A) dog
+B) bird
+C) cat
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not bird and not cat. Exactly one option is correct.
+A) dog
+B) bird
+C) cat
+Reply with ONLY one letter: A, B or C."
+4,1,1,positive,bird,dog|bird|cat,bird,1,bird,1,0.9996656668164704,1|1|1,1,A,0,B,1,0.49307435329596305,0.057976339097302855,0.44894930760673396,0.21070305111228627,0.7240241886331839,0.0652727602545299,"Choose based on the statement.
+The correct option is bird.
+A) dog
+B) bird
+C) cat
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is bird.
+A) dog
+B) bird
+C) cat
+Reply with ONLY one letter: A, B or C."
+4,1,1,negative,bird,dog|bird|cat,dog,0,dog,0,0.012224289113201278,1|1|1,1,A,0,A,0,0.5953429508176507,0.01422160983851191,0.3904354393438374,0.5204964554984007,0.36336508702955106,0.11613845747204822,"Choose based on the statement.
+The correct option is not dog and not cat. Exactly one option is correct.
+A) dog
+B) bird
+C) cat
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not dog and not cat. Exactly one option is correct.
+A) dog
+B) bird
+C) cat
+Reply with ONLY one letter: A, B or C."
+4,1,2,positive,cat,dog|bird|cat,cat,1,cat,1,0.9997070028450948,1|1|1,1,C,1,C,1,0.13958846495433974,0.005328520168242847,0.8550830148774174,0.23810886766576725,0.26562963694240177,0.49626149539183095,"Choose based on the statement.
+The correct option is cat.
+A) dog
+B) bird
+C) cat
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is cat.
+A) dog
+B) bird
+C) cat
+Reply with ONLY one letter: A, B or C."
+4,1,2,negative,cat,dog|bird|cat,dog,0,dog,0,0.07977002662930577,1|1|1,1,A,0,A,0,0.7183968230833218,0.013157896790407976,0.26844528012627034,0.6015409693837233,0.3219816785850299,0.07647735203124682,"Choose based on the statement.
+The correct option is not dog and not bird. Exactly one option is correct.
+A) dog
+B) bird
+C) cat
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not dog and not bird. Exactly one option is correct.
+A) dog
+B) bird
+C) cat
+Reply with ONLY one letter: A, B or C."
+4,2,0,positive,bird,bird|cat|dog,bird,1,bird,1,0.9997512758534621,1|1|1,1,A,1,A,1,0.797910803347998,0.009584256610974194,0.19250494004102767,0.7717440142064432,0.17491111090992176,0.0533448748836351,"Choose based on the statement.
+The correct option is bird.
+A) bird
+B) cat
+C) dog
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is bird.
+A) bird
+B) cat
+C) dog
+Reply with ONLY one letter: A, B or C."
+4,2,0,negative,bird,bird|cat|dog,cat,0,cat,0,0.02546420812571847,1|1|1,1,A,1,B,0,0.48979440104172545,0.03548058740819931,0.47472501155007524,0.3781393251377997,0.5168551766481989,0.10500549821400133,"Choose based on the statement.
+The correct option is not cat and not dog. Exactly one option is correct.
+A) bird
+B) cat
+C) dog
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not cat and not dog. Exactly one option is correct.
+A) bird
+B) cat
+C) dog
+Reply with ONLY one letter: A, B or C."
+4,2,1,positive,cat,bird|cat|dog,cat,1,cat,1,0.9977905314206507,1|1|1,1,A,0,B,1,0.4628411822106289,0.09551267643892929,0.44164614135044183,0.19353051753280828,0.7535611831542317,0.05290829931295983,"Choose based on the statement.
+The correct option is cat.
+A) bird
+B) cat
+C) dog
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is cat.
+A) bird
+B) cat
+C) dog
+Reply with ONLY one letter: A, B or C."
+4,2,1,negative,cat,bird|cat|dog,cat,1,bird,0,0.4119158368746373,1|1|1,1,A,0,B,1,0.48379391419981227,0.032412171600375364,0.48379391419981227,0.3920610392427715,0.4956115923521832,0.11232736840504529,"Choose based on the statement.
+The correct option is not bird and not dog. Exactly one option is correct.
+A) bird
+B) cat
+C) dog
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not bird and not dog. Exactly one option is correct.
+A) bird
+B) cat
+C) dog
+Reply with ONLY one letter: A, B or C."
+4,2,2,positive,dog,bird|cat|dog,dog,1,dog,1,0.9963170414462525,1|1|1,1,C,1,C,1,0.09707580383941859,0.010231714448394371,0.8926924817121871,0.17782878513066253,0.35365476815964686,0.46851644670969067,"Choose based on the statement.
+The correct option is dog.
+A) bird
+B) cat
+C) dog
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is dog.
+A) bird
+B) cat
+C) dog
+Reply with ONLY one letter: A, B or C."
+4,2,2,negative,dog,bird|cat|dog,bird,0,bird,0,0.04411071299019639,1|1|1,1,A,0,A,0,0.5780766460748497,0.02461747275846271,0.3973058811666875,0.49989146134308216,0.401674073583579,0.09843446507333892,"Choose based on the statement.
+The correct option is not bird and not cat. Exactly one option is correct.
+A) bird
+B) cat
+C) dog
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not bird and not cat. Exactly one option is correct.
+A) bird
+B) cat
+C) dog
+Reply with ONLY one letter: A, B or C."
+5,0,0,positive,summer,summer|winter|spring,summer,1,summer,1,0.989818689278239,1|1|1,1,A,1,A,1,0.7403983810419089,0.011599226259236435,0.2480023926988546,0.7232563692704604,0.20400382634777822,0.07273980438176135,"Choose based on the statement.
+The correct option is summer.
+A) summer
+B) winter
+C) spring
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is summer.
+A) summer
+B) winter
+C) spring
+Reply with ONLY one letter: A, B or C."
+5,0,0,negative,summer,summer|winter|spring,winter,0,summer,1,0.13431079293718,1|1|1,1,A,1,B,0,0.5731993173578633,0.032846937211773286,0.3939537454303635,0.4468065475660908,0.46098970987874843,0.09220374255516078,"Choose based on the statement.
+The correct option is not winter and not spring. Exactly one option is correct.
+A) summer
+B) winter
+C) spring
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not winter and not spring. Exactly one option is correct.
+A) summer
+B) winter
+C) spring
+Reply with ONLY one letter: A, B or C."
+5,0,1,positive,winter,summer|winter|spring,winter,1,winter,1,0.9989279621625672,1|1|1,1,C,0,B,1,0.41184650512665927,0.05933211451669197,0.5288213803566487,0.25129814433946124,0.651817790390336,0.09688406527020281,"Choose based on the statement.
+The correct option is winter.
+A) summer
+B) winter
+C) spring
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is winter.
+A) summer
+B) winter
+C) spring
+Reply with ONLY one letter: A, B or C."
+5,0,1,negative,winter,summer|winter|spring,summer,0,summer,0,0.09243719670660833,1|1|1,1,A,0,A,0,0.6035221695494303,0.01880330730466555,0.37767452314590433,0.5718064231056323,0.3207543331894287,0.10743924370493901,"Choose based on the statement.
+The correct option is not summer and not spring. Exactly one option is correct.
+A) summer
+B) winter
+C) spring
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not summer and not spring. Exactly one option is correct.
+A) summer
+B) winter
+C) spring
+Reply with ONLY one letter: A, B or C."
+5,0,2,positive,spring,summer|winter|spring,spring,1,spring,1,0.9998650701512364,1|1|1,1,C,1,C,1,0.18196658582829978,0.002515755298275666,0.8155176588734245,0.3854208007971157,0.09593882286367758,0.5186403763392067,"Choose based on the statement.
+The correct option is spring.
+A) summer
+B) winter
+C) spring
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is spring.
+A) summer
+B) winter
+C) spring
+Reply with ONLY one letter: A, B or C."
+5,0,2,negative,spring,summer|winter|spring,spring,1,summer,0,0.4271347409163559,1|1|1,1,A,0,A,0,0.628844808875458,0.01840522330331761,0.3527499678212244,0.5898346305373895,0.3108210082705495,0.0993443611920609,"Choose based on the statement.
+The correct option is not summer and not winter. Exactly one option is correct.
+A) summer
+B) winter
+C) spring
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not summer and not winter. Exactly one option is correct.
+A) summer
+B) winter
+C) spring
+Reply with ONLY one letter: A, B or C."
+5,1,0,positive,winter,winter|spring|summer,winter,1,winter,1,0.998466779953422,1|1|1,1,A,1,A,1,0.7094023366100747,0.012791716795751472,0.2778059465941738,0.8295193706478383,0.1140311277492873,0.056449501602874375,"Choose based on the statement.
+The correct option is winter.
+A) winter
+B) spring
+C) summer
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is winter.
+A) winter
+B) spring
+C) summer
+Reply with ONLY one letter: A, B or C."
+5,1,0,negative,winter,winter|spring|summer,spring,0,winter,1,0.07520800057300372,1|1|1,1,C,0,A,1,0.38433014800941095,0.029636358748683412,0.5860334932419056,0.5397110500276053,0.31727975856024676,0.14300919141214782,"Choose based on the statement.
+The correct option is not spring and not summer. Exactly one option is correct.
+A) winter
+B) spring
+C) summer
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not spring and not summer. Exactly one option is correct.
+A) winter
+B) spring
+C) summer
+Reply with ONLY one letter: A, B or C."
+5,1,1,positive,spring,winter|spring|summer,spring,1,spring,1,0.99971607435601,1|1|1,1,C,0,B,1,0.3602640661649224,0.1549476440727299,0.48478828976234767,0.22159622922095237,0.7265860630667061,0.05181770771234149,"Choose based on the statement.
+The correct option is spring.
+A) winter
+B) spring
+C) summer
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is spring.
+A) winter
+B) spring
+C) summer
+Reply with ONLY one letter: A, B or C."
+5,1,1,negative,spring,winter|spring|summer,winter,0,winter,0,0.40096654202195275,1|1|1,1,A,0,A,0,0.5259307975003112,0.024216752370731252,0.4498524501289575,0.6668134787338086,0.2340735459084463,0.09911297535774519,"Choose based on the statement.
+The correct option is not winter and not summer. Exactly one option is correct.
+A) winter
+B) spring
+C) summer
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not winter and not summer. Exactly one option is correct.
+A) winter
+B) spring
+C) summer
+Reply with ONLY one letter: A, B or C."
+5,1,2,positive,summer,winter|spring|summer,summer,1,summer,1,0.9969945170803194,1|1|1,1,C,1,C,1,0.03385841128918931,0.007097108557059361,0.9590444801537514,0.13297575338756876,0.2124946488670924,0.6545295977453388,"Choose based on the statement.
+The correct option is summer.
+A) winter
+B) spring
+C) summer
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is summer.
+A) winter
+B) spring
+C) summer
+Reply with ONLY one letter: A, B or C."
+5,1,2,negative,summer,winter|spring|summer,winter,0,winter,0,0.024311483519090002,1|1|1,1,A,0,A,0,0.6211521372544856,0.019352585719370638,0.35949527702614376,0.7473319529447647,0.1775068975996489,0.07516114945558641,"Choose based on the statement.
+The correct option is not winter and not spring. Exactly one option is correct.
+A) winter
+B) spring
+C) summer
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not winter and not spring. Exactly one option is correct.
+A) winter
+B) spring
+C) summer
+Reply with ONLY one letter: A, B or C."
+5,2,0,positive,spring,spring|summer|winter,spring,1,spring,1,0.9998751796869131,1|1|1,1,A,1,A,1,0.692241049094093,0.01002978565948323,0.2977291652464236,0.7606283010666073,0.16971911463042016,0.06965258430297247,"Choose based on the statement.
+The correct option is spring.
+A) spring
+B) summer
+C) winter
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is spring.
+A) spring
+B) summer
+C) winter
+Reply with ONLY one letter: A, B or C."
+5,2,0,negative,spring,spring|summer|winter,spring,1,summer,0,0.843400159481895,1|1|1,1,A,1,A,1,0.5212997666006578,0.03280891391101951,0.44589131948832267,0.464825111841969,0.45052394661642003,0.08465094154161086,"Choose based on the statement.
+The correct option is not summer and not winter. Exactly one option is correct.
+A) spring
+B) summer
+C) winter
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not summer and not winter. Exactly one option is correct.
+A) spring
+B) summer
+C) winter
+Reply with ONLY one letter: A, B or C."
+5,2,1,positive,summer,spring|summer|winter,summer,1,summer,1,0.9869365792199059,1|1|1,1,C,0,B,1,0.20761565710483754,0.33176887539204125,0.4606154675031213,0.038341087253033354,0.9435478655329088,0.018111047214057825,"Choose based on the statement.
+The correct option is summer.
+A) spring
+B) summer
+C) winter
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is summer.
+A) spring
+B) summer
+C) winter
+Reply with ONLY one letter: A, B or C."
+5,2,1,negative,summer,spring|summer|winter,spring,0,spring,0,0.004098791014045588,1|1|1,1,A,0,A,0,0.566642557359267,0.0187928916503993,0.4145645509903337,0.6000528120993525,0.30647698765837217,0.0934702002422755,"Choose based on the statement.
+The correct option is not spring and not winter. Exactly one option is correct.
+A) spring
+B) summer
+C) winter
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not spring and not winter. Exactly one option is correct.
+A) spring
+B) summer
+C) winter
+Reply with ONLY one letter: A, B or C."
+5,2,2,positive,winter,spring|summer|winter,winter,1,winter,1,0.9979326581873117,1|1|1,1,C,1,C,1,0.07414801768502954,0.00831917702250777,0.9175328052924627,0.18648039007529313,0.3222092201308523,0.4913103897938545,"Choose based on the statement.
+The correct option is winter.
+A) spring
+B) summer
+C) winter
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is winter.
+A) spring
+B) summer
+C) winter
+Reply with ONLY one letter: A, B or C."
+5,2,2,negative,winter,spring|summer|winter,spring,0,spring,0,0.019870049981657395,1|1|1,1,A,0,A,0,0.6463451519054899,0.01833540063241687,0.33531944746209313,0.6462766033524927,0.2823373381811877,0.07138605846631953,"Choose based on the statement.
+The correct option is not spring and not summer. Exactly one option is correct.
+A) spring
+B) summer
+C) winter
+Reply with ONLY the exact option WORD, not the letter.","Choose based on the statement.
+The correct option is not spring and not summer. Exactly one option is correct.
+A) spring
+B) summer
+C) winter
+Reply with ONLY one letter: A, B or C."
