@@ -1,0 +1,178 @@
+{
+  "banana": {
+    "x_train": [
+      "a curved yellow fruit with a soft interior",
+      "a tropical edible plant product with a peel",
+      "a long sweet fruit often eaten at breakfast"
+    ],
+    "x_test": [
+      "a yellow fruit that is peeled by hand",
+      "a curved produce item with a soft center",
+      "a popular tropical fruit rich in potassium"
+    ],
+    "y_train": [
+      "a crisp round fruit grown in orchards",
+      "a hard fleshed red or green fruit",
+      "a pome fruit usually containing small brown seeds"
+    ],
+    "y_test": [
+      "a sweet round orchard produce item",
+      "a red fruit with a firm white interior",
+      "a fruit that can be baked into a pie"
+    ]
+  },
+  "elephant": {
+    "x_train": [
+      "an enormous gray land mammal with a trunk",
+      "a heavy tusked herbivore with wide ears",
+      "a giant mammal using its elongated nose to grasp"
+    ],
+    "x_test": [
+      "a very large land animal with a flexible nose",
+      "a tusked savanna mammal with huge ears",
+      "a gray herbivore that sprays water through its trunk"
+    ],
+    "y_train": [
+      "a tall spotted hoofed animal with a long neck",
+      "an African browsing mammal that reaches high leaves",
+      "a long legged spotted savanna herbivore"
+    ],
+    "y_test": [
+      "an extremely tall mammal with patterned patches",
+      "a leaf eating herbivore with a long neck",
+      "a tall African ungulate reaching tree branches"
+    ]
+  },
+  "tiger": {
+    "x_train": [
+      "an orange wild cat with vertical black stripes",
+      "a solitary striped predator from Asian forests",
+      "a large carnivorous feline with dark body bands"
+    ],
+    "x_test": [
+      "a striped orange jungle predator",
+      "a huge solitary Asian cat with banded fur",
+      "a wild feline recognized by black stripes"
+    ],
+    "y_train": [
+      "a large social wild cat with a thick mane",
+      "a tawny predator living in a group called a pride",
+      "an African feline known for its mane and roaring"
+    ],
+    "y_test": [
+      "a maned social carnivore of African grassland",
+      "a large tawny cat that lives in prides",
+      "a big wild feline whose adult males have a mane"
+    ]
+  },
+  "piano": {
+    "x_train": [
+      "a keyboard instrument with white and black keys",
+      "a large acoustic instrument whose hammers strike strings",
+      "a concert instrument played by pressing a broad keyboard"
+    ],
+    "x_test": [
+      "an instrument with a row of black and white keys",
+      "a stringed keyboard instrument used for solo recitals",
+      "an acoustic instrument whose keys trigger internal hammers"
+    ],
+    "y_train": [
+      "a small four string orchestral instrument played with a bow",
+      "a bowed instrument held near the shoulder",
+      "a high pitched acoustic string instrument for classical music"
+    ],
+    "y_test": [
+      "a shoulder held instrument played with horsehair bow",
+      "a small wooden bowed string instrument",
+      "a classical instrument with four strings and a bow"
+    ]
+  },
+  "coffee": {
+    "x_train": [
+      "a dark drink brewed from ground roasted beans",
+      "a bitter caffeinated beverage prepared with an espresso machine",
+      "an aromatic roasted bean infusion sold in cafes"
+    ],
+    "x_test": [
+      "a strong dark beverage made from roasted beans",
+      "an espresso based hot drink",
+      "a brewed beverage whose aroma comes from ground beans"
+    ],
+    "y_train": [
+      "a warm beverage made by steeping dried leaves",
+      "a leaf based infusion served in a cup",
+      "a brewed drink prepared from a plant's leaves"
+    ],
+    "y_test": [
+      "a hot drink made by infusing dried plant leaves",
+      "a brewed beverage that can be green or black",
+      "a light drink prepared by steeping leaves in water"
+    ]
+  },
+  "ocean": {
+    "x_train": [
+      "an enormous interconnected body of saltwater",
+      "a vast expanse of seawater between continents",
+      "a deep saline area traversed by large ships"
+    ],
+    "x_test": [
+      "a massive saltwater expanse beyond the horizon",
+      "the vast salty body of water between landmasses",
+      "an endless looking area of open sea"
+    ],
+    "y_train": [
+      "a flowing freshwater channel that has banks",
+      "a stream of water running through the landscape",
+      "an inland watercourse flowing toward the sea"
+    ],
+    "y_test": [
+      "a long channel carrying water across land",
+      "a flowing waterway between two banks",
+      "an inland moving current fed by rainfall"
+    ]
+  },
+  "castle": {
+    "x_train": [
+      "a medieval fortress protected by thick walls",
+      "a defensible stone stronghold with battlements",
+      "a fortified historic building with towers and moats"
+    ],
+    "x_test": [
+      "a protective medieval stronghold made of stone",
+      "a military fortification with a keep and ramparts",
+      "an old walled fortress designed for defense"
+    ],
+    "y_train": [
+      "a luxurious royal residence with grand halls",
+      "an opulent ceremonial home of a monarch",
+      "an ornate courtly residence with lavish rooms"
+    ],
+    "y_test": [
+      "an elaborate building used as a ruler's home",
+      "a richly decorated residence of royalty",
+      "an impressive court residence with large ceremonial rooms"
+    ]
+  },
+  "bicycle": {
+    "x_train": [
+      "a pedal powered vehicle with two wheels",
+      "a human powered ride with chain and handlebars",
+      "a two wheeled machine moved by rotating pedals"
+    ],
+    "x_test": [
+      "a two wheel road vehicle with a saddle and pedals",
+      "a pedal operated vehicle often used for commuting",
+      "a human powered cycle using foot pedals"
+    ],
+    "y_train": [
+      "a light standing vehicle with a narrow footboard",
+      "a wheeled kick powered ride with handlebars",
+      "a small two wheeled vehicle with a deck for standing"
+    ],
+    "y_test": [
+      "a compact standing ride propelled by kicking the ground",
+      "a narrow platform on wheels with a handlebar",
+      "a lightweight footboard vehicle steered while standing"
+    ]
+  }
+}
