@@ -1,3 +1,11 @@
+## 改善版（推奨：全24層・同一系列の前後測定）
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1019/semantic_distance_layer_probe_v2.ipynb)
+
+新しいノートブック：[`semantic_distance_layer_probe_v2.ipynb`](semantic_distance_layer_probe_v2.ipynb) ／ [改善内容・実行方法](README_v2.md)。結果は `1019/results_v2/<UTC実行ID>/` に保存されます。旧版と旧結果は以下に残しています。
+
+---
+
 # 1019 — Semantic distance × Suppression（層別 Concept Probe 実験）
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1019/semantic_distance_layer_probe.ipynb)
