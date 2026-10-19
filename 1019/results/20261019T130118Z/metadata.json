@@ -1,0 +1,59 @@
+{
+  "title": "1019 semantic distance / suppressed concept layer probe",
+  "run_id": "20261019T130118Z",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "semantic_distance_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "seed": 42,
+  "conditions": [
+    "neutral",
+    "affirm",
+    "suppression",
+    "replacement"
+  ],
+  "layers": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+  ],
+  "n_concepts": 8,
+  "n_cues_each_level": 2,
+  "levels_are_proposed": [
+    "near",
+    "medium",
+    "far",
+    "unrelated"
+  ],
+  "distance_formula": "1 - cosine(MiniLM sentence embeddings)",
+  "semantic_order_pass_count": 4,
+  "validation_description_examples_per_pair": 12,
+  "auc_cutoff": 0.75,
+  "probe_accepted_by_layer": {
+    "4": 4,
+    "8": 2,
+    "12": 2,
+    "16": 3,
+    "20": 4,
+    "24": 7
+  },
+  "run_generation": true,
+  "generation_repeats": 1,
+  "device": "cuda",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.57.6",
+  "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+  "completed_utc": "2026-10-19T13:04:43.774118+00:00",
+  "limitations": [
+    "Probe is relative X/Y discriminability, not absolute concept activation.",
+    "Target X appears in every instruction; lexical persistence is not tested.",
+    "Related/unrelated comparisons are between separate prompts, not temporal neural reactivation.",
+    "Suppression repeats X twice while the neutral instruction names X once.",
+    "Preselected levels are subjective and may disagree with independent MiniLM distances.",
+    "Only 8 target concepts; bootstrap treats concepts, not cue texts, as sampling units.",
+    "Description evaluation uses only three distinct semantic descriptions per class.",
+    "No causal steering, no tested external model generalization.",
+    "Behavior mode uses different final instructions than probe mode."
+  ]
+}
