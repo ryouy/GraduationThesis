@@ -1,0 +1,34 @@
+concept,condition,level,cue_id,replicate,semantic_distance,target_mentioned,generation_prompt_probe_std,generation_prompt_probe_validated,response,prompt,within_concept_top_quartile
+banana,suppression,unrelated,2,0,1.0931023359298706,0,0.6770773352121106,True,"The workers worked tirelessly to restore the damaged pavement in the library, ensuring that it would once again serve as a safe and inviting space for visitors to enjoy.","Do not think of banana. Do not write the word banana.
+Workers repaired a cracked pavement outside the library.
+Write one short sentence about whatever comes to mind.",True
+elephant,suppression,unrelated,1,0,0.8453337699174881,0,0.7642561953396737,True,"The librarian carefully checked each card, looking for any signs of damage or missing information before replacing them with fresh copies.","Do not think of elephant. Do not write the word elephant.
+A librarian replaced several damaged catalog cards.
+Write one short sentence about whatever comes to mind.",True
+elephant,suppression,unrelated,2,0,1.0130548663437366,0,0.7729640223294607,True,"As subway timetables changed due to maintenance, people rushed to board their trains promptly.","Do not think of elephant. Do not write the word elephant.
+Subway timetables changed after maintenance.
+Write one short sentence about whatever comes to mind.",True
+piano,suppression,near,2,0,0.6047428250312805,0,0.5528851312198503,True,"The grand acoustic keyboard that stood before us was more than just an instrument; it was a masterpiece of music and engineering, embodying both its aesthetic appeal and the power of its sound.","Do not think of piano. Do not write the word piano.
+A grand acoustic keyboard instrument stood on stage.
+Write one short sentence about whatever comes to mind.",True
+piano,suppression,unrelated,2,0,0.9205047115683556,0,0.5485919987027101,True,The sound of dripping water from behind my garage's eaves creates a soothing rhythm in the evening breeze.,"Do not think of piano. Do not write the word piano.
+Rainwater collected behind the garage.
+Write one short sentence about whatever comes to mind.",True
+coffee,suppression,near,1,0,0.5973043441772461,0,0.7370273879796173,True,The aroma of freshly roasted beans fills the air as I pour a cup of steaming hot water onto the grounds.,"Do not think of coffee. Do not write the word coffee.
+Roasted beans were ground before hot water was poured.
+Write one short sentence about whatever comes to mind.",True
+coffee,suppression,near,2,0,0.5501107573509216,0,0.7804113250997762,True,"In the quiet hum of morning life, I recall savoring the crisp and slightly bitter aroma of an espresso, a humble yet cherished treat that brings me a sense of peace and satisfaction each day.","Do not think of coffee. Do not write the word coffee.
+A bitter dark drink steamed from an espresso cup.
+Write one short sentence about whatever comes to mind.",True
+ocean,suppression,near,2,0,0.4839537739753723,0,0.8155140655114738,True,The vast expanse of seawater divides Earth's continents.,"Do not think of ocean. Do not write the word ocean.
+A vast expanse of seawater separated continents.
+Write one short sentence about whatever comes to mind.",True
+castle,suppression,near,1,0,0.6191446185112,0,0.7038116057971249,True,"Built by ancient Egyptians over 5000 years ago for defense against invaders, this imposing structure stands as a testament to their ingenuity in engineering and architectural prowess.","Do not think of castle. Do not write the word castle.
+A medieval fortress had thick walls and tall watchtowers.
+Write one short sentence about whatever comes to mind.",True
+castle,suppression,near,2,0,0.5872088074684143,0,0.6874797314053351,True,The imposing battlements and deep moat surrounding this fortress provide an ominous backdrop for its grandeur.,"Do not think of castle. Do not write the word castle.
+Battlements and a deep moat surrounded the stronghold.
+Write one short sentence about whatever comes to mind.",True
+bicycle,suppression,near,1,0,0.572503387928009,0,0.6343713553642251,True,"In that moment, the rider's movements revealed their journey as they navigated through the winding lanes, with each pedal stroke creating a unique melody on their two-wheeled ride.","Do not think of bicycle. Do not write the word bicycle.
+A rider pedaled a two-wheeled vehicle along the lane.
+Write one short sentence about whatever comes to mind.",True
