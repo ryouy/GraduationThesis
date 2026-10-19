@@ -120,4 +120,4 @@ Suppression-specific selectivity
 
 ---
 
-研究設計の記録は[1019/README.md](README.md)にも掲載。**既存のノートブックと実測結果は上書きせず保存している。**
+リポジトリ全体の概要は[ルートREADME](../README.md)にも掲載。**既存のノートブックと実測結果は上書きせず保存している。**
