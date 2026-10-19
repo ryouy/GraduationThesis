@@ -1,0 +1,97 @@
+concept,replacement,proposed_level,cue_id,cue_text,semantic_similarity,semantic_distance,distance_rank,measured_bin,word_count
+banana,apple,medium,2,A smoothie recipe called for ripe tropical fruit.,0.42966604232788086,0.5703339576721191,1,near,8
+banana,apple,near,1,The shopper peeled a long yellow fruit for a snack.,0.364657998085022,0.635342001914978,2,near,10
+banana,apple,near,2,A curved yellow fruit lay beside the cereal bowl.,0.35764050483703613,0.6423594951629639,3,near,9
+banana,apple,medium,3,A monkey hunted for a sweet snack among leaves.,0.35059654712677,0.64940345287323,4,medium,9
+banana,apple,medium,1,A monkey searched the canopy for something sweet to eat.,0.3419889807701111,0.6580110192298889,5,medium,10
+banana,apple,near,3,A yellow curved snack was taken from its skin.,0.3066628575325012,0.6933371424674988,6,medium,9
+banana,apple,far,3,Rainforest crops ripened during the wet season.,0.2745993137359619,0.7254006862640381,7,far,7
+banana,apple,far,2,A stall displayed imported produce in the morning.,0.2155200093984604,0.7844799906015396,8,far,8
+banana,apple,far,1,The rainforest canopy was full of small birds.,0.19518661499023438,0.8048133850097656,9,far,8
+banana,apple,unrelated,1,A clerk stamped documents at a railway office.,0.041005782783031464,0.9589942172169685,10,unrelated,8
+banana,apple,unrelated,3,The accountant mailed a tax form on Friday.,-0.05731261521577835,1.0573126152157784,11,unrelated,8
+banana,apple,unrelated,2,Workers repaired a cracked pavement outside the library.,-0.07635340094566345,1.0763534009456635,12,unrelated,8
+bicycle,scooter,near,2,A metal frame with pedals and handlebars leaned against a wall.,0.44039130210876465,0.5596086978912354,1,near,11
+bicycle,scooter,near,1,A rider pedaled a two-wheeled vehicle along the lane.,0.4260414242744446,0.5739585757255554,2,near,9
+bicycle,scooter,medium,3,A helmeted commuter followed the cycle route.,0.4037507474422455,0.5962492525577545,3,near,7
+bicycle,scooter,near,3,A pedal driven two wheeler rolled along the path.,0.3989981412887573,0.6010018587112427,4,medium,9
+bicycle,scooter,medium,2,The repair shop adjusted a chain and brake cables.,0.24938534200191498,0.750614657998085,5,medium,9
+bicycle,scooter,medium,1,A commuter wore a helmet on the morning ride.,0.2366526573896408,0.7633473426103592,6,medium,9
+bicycle,scooter,far,1,A city built lanes beside a busy street.,0.23033097386360168,0.7696690261363983,7,far,8
+bicycle,scooter,far,2,A fitness club hosted an outdoor endurance event.,0.19139006733894348,0.8086099326610565,8,far,8
+bicycle,scooter,unrelated,3,An analyst updated quarterly expenditure reports.,0.17025306820869446,0.8297469317913055,9,far,6
+bicycle,scooter,far,3,A city worker repainted the road markings.,0.13902436196804047,0.8609756380319595,10,unrelated,7
+bicycle,scooter,unrelated,2,A violinist rehearsed a short piece backstage.,-0.035655442625284195,1.0356554426252842,11,unrelated,7
+bicycle,scooter,unrelated,1,A chef simmered vegetables in a soup pot.,-0.058345977216959,1.058345977216959,12,unrelated,8
+castle,palace,near,2,Battlements and a deep moat surrounded the stronghold.,0.42597442865371704,0.574025571346283,1,near,8
+castle,palace,near,1,A medieval fortress had thick walls and tall watchtowers.,0.4065261781215668,0.5934738218784332,2,near,9
+castle,palace,medium,3,A knight approached a fortified medieval building.,0.33444592356681824,0.6655540764331818,3,near,7
+castle,palace,near,3,Thick stone walls guarded a moat and watchtower.,0.29725125432014465,0.7027487456798553,4,medium,8
+castle,palace,medium,1,Knights returned to a fortified royal residence.,0.2844478487968445,0.7155521512031555,5,medium,7
+castle,palace,far,1,A medieval village held a street festival.,0.2472882866859436,0.7527117133140564,6,medium,7
+castle,palace,far,3,An ancient village hosted a historical procession.,0.20245248079299927,0.7975475192070007,7,far,7
+castle,palace,far,2,An ancient hillside settlement welcomed tourists.,0.08765843510627747,0.9123415648937225,8,far,6
+castle,palace,unrelated,3,The pharmacist counted boxes in storage.,0.052448879927396774,0.9475511200726032,9,far,6
+castle,palace,medium,2,Visitors toured an old stone keep guarded by soldiers.,0.04566378891468048,0.9543362110853195,10,unrelated,9
+castle,palace,unrelated,2,A gardener planted seedlings in spring.,0.04426433518528938,0.9557356648147106,11,unrelated,6
+castle,palace,unrelated,1,A dentist checked the appointment register.,-0.10052073001861572,1.1005207300186157,12,unrelated,6
+coffee,tea,near,2,A bitter dark drink steamed from an espresso cup.,0.4757089614868164,0.5242910385131836,1,near,9
+coffee,tea,medium,3,Cafe customers requested a strong hot morning drink.,0.4603905975818634,0.5396094024181366,2,near,8
+coffee,tea,near,3,A small dark espresso was made with roasted beans.,0.45565909147262573,0.5443409085273743,3,near,9
+coffee,tea,medium,2,Freshly brewed drinks filled a small shop with aroma.,0.4125283360481262,0.5874716639518738,4,medium,9
+coffee,tea,near,1,Roasted beans were ground before hot water was poured.,0.4032871723175049,0.5967128276824951,5,medium,9
+coffee,tea,medium,1,A barista prepared an order in the morning cafe.,0.383645623922348,0.616354376077652,6,medium,9
+coffee,tea,far,2,A commuter stopped for breakfast on the way to work.,0.22451543807983398,0.775484561920166,7,far,10
+coffee,tea,far,3,The breakfast service began before the workday.,0.20560036599636078,0.7943996340036392,8,far,7
+coffee,tea,far,1,Two friends sat at a table downtown.,0.08927924185991287,0.9107207581400871,9,far,7
+coffee,tea,unrelated,1,An engineer inspected a bridge's steel supports.,0.07260902971029282,0.9273909702897072,10,unrelated,7
+coffee,tea,unrelated,2,Children sorted pebbles by a dry creek.,0.064192995429039,0.935807004570961,11,unrelated,7
+coffee,tea,unrelated,3,A surveyor mapped the boundary of the property.,0.048113174736499786,0.9518868252635002,12,unrelated,8
+elephant,giraffe,near,3,The giant animal used a trunk to collect leaves.,0.4087255001068115,0.5912744998931885,1,near,9
+elephant,giraffe,medium,1,A safari guide discussed the world's largest land mammals.,0.37419188022613525,0.6258081197738647,2,near,9
+elephant,giraffe,medium,2,A herd of enormous herbivores crossed the savanna.,0.3090554475784302,0.6909445524215698,3,near,8
+elephant,giraffe,near,2,Huge ears flapped as a tusked animal crossed the plain.,0.3020705580711365,0.6979294419288635,4,medium,10
+elephant,giraffe,near,1,A giant gray mammal swung its trunk by a waterhole.,0.28007984161376953,0.7199201583862305,5,medium,10
+elephant,giraffe,medium,3,An enormous herbivore moved slowly across the plains.,0.2651147246360779,0.7348852753639221,6,medium,8
+elephant,giraffe,far,2,Grasslands stretched toward distant rocky hills.,0.1617811620235443,0.8382188379764557,7,far,6
+elephant,giraffe,far,1,Tourists visited a wildlife reserve before lunch.,0.15294703841209412,0.8470529615879059,8,far,7
+elephant,giraffe,far,3,A grassland reserve opened to tourists at dawn.,0.1476542055606842,0.8523457944393158,9,far,8
+elephant,giraffe,unrelated,1,A librarian replaced several damaged catalog cards.,0.1132361963391304,0.8867638036608696,10,unrelated,7
+elephant,giraffe,unrelated,2,Subway timetables changed after maintenance.,-0.012462704442441463,1.0124627044424415,11,unrelated,5
+elephant,giraffe,unrelated,3,A mechanic inspected the steering wheel.,-0.09576720744371414,1.0957672074437141,12,unrelated,6
+ocean,river,near,2,A vast expanse of seawater separated continents.,0.5646456480026245,0.4353543519973755,1,near,7
+ocean,river,near,3,An enormous field of seawater filled the horizon.,0.5179106593132019,0.4820893406867981,2,near,8
+ocean,river,near,1,Saltwater waves rolled toward an endless horizon.,0.44875550270080566,0.5512444972991943,3,near,7
+ocean,river,medium,2,A sailor studied tides before departing from port.,0.40875157713890076,0.5912484228610992,4,medium,8
+ocean,river,medium,1,A ship sailed beyond the coastline toward open water.,0.3953199088573456,0.6046800911426544,5,medium,9
+ocean,river,medium,3,A cargo ship crossed large offshore swells.,0.29509612917900085,0.7049038708209991,6,medium,7
+ocean,river,far,1,A coastal village prepared for tourist season.,0.28474563360214233,0.7152543663978577,7,far,7
+ocean,river,far,3,Tourists visited the rocky coast on holiday.,0.18213987350463867,0.8178601264953613,8,far,7
+ocean,river,far,2,An old lighthouse stood on a rocky cliff.,0.17204450070858002,0.82795549929142,9,far,8
+ocean,river,unrelated,3,A chemist recorded measurements in the lab.,0.12629321217536926,0.8737067878246307,10,unrelated,7
+ocean,river,unrelated,2,A bakery sold fresh bread at dawn.,0.026467513293027878,0.9735324867069721,11,unrelated,7
+ocean,river,unrelated,1,A teacher rearranged desks before class.,-0.0020453259348869324,1.002045325934887,12,unrelated,6
+piano,violin,medium,3,A music tutor introduced classical chord patterns.,0.4955165386199951,0.5044834613800049,1,near,7
+piano,violin,far,2,A composer examined pages of printed notation.,0.4780426025390625,0.5219573974609375,2,near,7
+piano,violin,near,1,A musician pressed black and white keys across the keyboard.,0.4471888542175293,0.5528111457824707,3,near,10
+piano,violin,near,2,A grand acoustic keyboard instrument stood on stage.,0.4226965606212616,0.5773034393787384,4,medium,8
+piano,violin,medium,1,A student practiced chords in the music room.,0.382474422454834,0.617525577545166,5,medium,8
+piano,violin,near,3,A long keyboard sounded as its keys were pressed.,0.36390912532806396,0.636090874671936,6,medium,9
+piano,violin,medium,2,The hall hosted a classical solo performance.,0.27697259187698364,0.7230274081230164,7,far,7
+piano,violin,far,3,The auditorium prepared seats for an evening program.,0.20703867077827454,0.7929613292217255,8,far,8
+piano,violin,unrelated,1,A mechanic repaired the engine of a bus.,0.07960153371095657,0.9203984662890434,9,far,8
+piano,violin,unrelated,2,Rainwater collected behind the garage.,0.07400820404291153,0.9259917959570885,10,unrelated,5
+piano,violin,far,1,The audience entered the theater before the lights dimmed.,0.059243664145469666,0.9407563358545303,11,unrelated,9
+piano,violin,unrelated,3,The carpenter replaced a broken window frame.,0.05186348408460617,0.9481365159153938,12,unrelated,7
+tiger,lion,medium,1,A powerful wild feline prowled through an Asian jungle.,0.41308727860450745,0.5869127213954926,1,near,9
+tiger,lion,medium,3,A lone predator prowled the deep Asian forest.,0.3237936794757843,0.6762063205242157,2,near,8
+tiger,lion,near,2,A solitary striped big cat stalked prey in dense forest.,0.31293103098869324,0.6870689690113068,3,near,10
+tiger,lion,near,1,Orange fur with black stripes moved between the trees.,0.26645252108573914,0.7335474789142609,4,medium,9
+tiger,lion,near,3,The wild cat had black bands over orange fur.,0.2658277750015259,0.7341722249984741,5,medium,9
+tiger,lion,medium,2,Zookeepers fed a large carnivorous cat.,0.24202272295951843,0.7579772770404816,6,medium,6
+tiger,lion,far,2,A wildlife photographer adjusted a forest camera.,0.18035638332366943,0.8196436166763306,7,far,7
+tiger,lion,far,1,The rainforest path was damp after a storm.,0.17546509206295013,0.8245349079370499,8,far,8
+tiger,lion,far,3,A traveler followed a trail through a tropical reserve.,0.12472015619277954,0.8752798438072205,9,far,9
+tiger,lion,unrelated,1,A passenger checked the terminal departure board.,0.055716268718242645,0.9442837312817574,10,unrelated,7
+tiger,lion,unrelated,3,The cashier scanned items at the supermarket.,-0.021497352048754692,1.0214973520487547,11,unrelated,7
+tiger,lion,unrelated,2,A contractor installed pipes beneath a road.,-0.05281921848654747,1.0528192184865475,12,unrelated,7
