@@ -1,51 +1,123 @@
-## 改善版（推奨：全24層・同一系列の前後測定）
+# Graduation Thesis｜LLMにおける抑制概念と意味的距離の内部表現解析
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1019/semantic_distance_layer_probe_v2.ipynb)
+**研究テーマ（仮題）：** *Effects of Semantic Distance on Suppressed Concept Representations in Large Language Models*  
+**モデル：** `Qwen/Qwen2.5-0.5B-Instruct`  
+**研究状況：** 予備実験・層別解析を実施済み／新たなX/Y対照実験v3は**未実行**（2026年10月19日時点）
 
-新しいノートブック：[`semantic_distance_layer_probe_v2.ipynb`](semantic_distance_layer_probe_v2.ipynb) ／ [改善内容・実行方法](README_v2.md)。結果は `1019/results_v2/<UTC実行ID>/` に保存されます。旧版と旧結果は以下に残しています。
+[![Open the latest v3 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1019/concept_specificity_control_v3.ipynb)
+
+## 1. 研究で知りたいこと
+
+例えばLLMに「**象について考えないで**」と指示してから、「長い鼻を持つ大きな動物」の話を与えると、LLMの回答や内部状態はどう変わるのか。
+
+本研究では、**禁止した概念と後から与える言葉の意味的距離が、LLMの内部表現に与える影響**を調べる。
+
+主な問い：
+
+1. 対象概念Xに近い手がかりは、内部から読み取れるX関連情報を変えるか。
+2. 通常の指示と抑制指示では、その反応の大きさや方向が違うか。
+3. 差が現れるのはTransformerのどの層か。
+4. その差は**Xに特異的**なのか、それとも単に文章を読み進めた影響なのか。
+
+### 用語を正確に使うために
+
+**Hidden State：** 各Transformer層で得られる数値ベクトル。  
+**Concept Probe：** Hidden Stateから概念Xと比較概念Yのどちらに近い情報を読み取れるかを予測する小さな線形分類器。**概念の絶対的な活性量、意識、忘却を直接測るものではない**。  
+**意味的距離：** 手がかり文と概念との意味的な近さ。現在はQwenとは別のMiniLM文埋め込みモデルで推定しており、人手評価による妥当性確認は未実施。  
+**DID（差の差）：** 2つの条件差をもう一度差し引き、抑制条件固有の反応を調べる探索的な指標。DIDが正であっても、抑制条件の絶対スコアが通常条件より高いとは限らない。
+
+## 2. これまでに実施した実験
+
+| 日付・場所 | 実験内容 | 実測結果・わかったこと | 主な限界 |
+|---|---|---|---|
+| **10/15：予備実験v3** | 8概念、4指示条件、関連／無関連Cue、Concept Probe | 抑制指示で禁止語に言及した割合は、関連Cue **65%**／無関連Cue **2.5%**。最終層Probeの説明文評価の平均ROC-AUC **0.972**。 | 各概念のProbe検証例は6件のみ。関連Cueで通常条件は**95%**だったため、抑制で通常より禁止語が増える「厳密な白熊効果」は確認していない。 |
+| **10/19：初回距離実験v1** | 8概念、64 Cue、6層、4指示条件、MiniLM距離 | 最終層Probeは **7/8概念**でAUC≥0.75。Near−FarのDID差に探索的な傾向。 | 想定したCueの距離順が正しかったのは**4/8概念**。中間層Probeも不安定。 |
+| **10/19：前後比較v2** | 8概念、96 Cue、**全24層**、同一入力中のCue前後を測定。通常／抑制を比較 | 最終層Probeは**8/8概念**でAUC≥0.75。想定Cue距離順は**6/8概念**。Layer 21〜24で抑制条件の距離依存性に探索的なパターン。 | 距離効果は明確に確立しておらず、**Xに特有の反応かどうか未検証**。 |
+| **10/19：X/Y対照v3（新規）** | 禁止対象をXとYで入れ替え、X Cue／Y Cue／無関係Cueを全24層で比較 | **ノートブック・事前固定Cueを作成済み。結果は未測定。** | Colab実行と得られた結果の検証が必要。 |
+
+### 10/15の出力結果の読み方
+
+- 抑制下で禁止語が出力されることは観測されたが、出力への言及はHidden Stateそのものの測定ではない。
+- 関連1回の条件では**Neutral 95% ＞ Suppression 65% ＞ Replacement 20%**。したがって「禁止すると通常よりかえって語が出やすい」とは言えない。
+- Probeは最終層で高いX/Y識別性能を示した。しかし説明文評価は少数で、別プロンプト間の比較では「同一推論内で忘却後に再活性化した瞬間」を観測していない。
+
+### 10/19 v2：どの層で差が出た？
+
+v2では、`STATE:` という固定マーカーを同一入力の**Cue前とCue後**に配置し、Transformerの因果マスク下で2箇所のHidden Stateを取得した。これは**別々のトークン位置の比較**であって、時間経過による記憶の変化そのものではない。
+
+**Probe検証：** Layer 21〜24はいずれも8/8概念で説明文ROC-AUC≥0.75。  
+**実測DID（各概念で距離順位により4等分、最遠距離群を基準0としたもの）：**
+
+| Layer | Near | Medium | Far |
+|---|---:|---:|---:|
+| 21 | −0.077 | −0.071 | −0.050 |
+| **22** | **−0.093** | **−0.103** | −0.050 |
+| **23** | **−0.076** | **−0.087** | −0.031 |
+| 24 | −0.031 | −0.037 | −0.019 |
+
+v2の距離効果をトークン数で調整した探索的な回帰では、Layer 22の傾きが **+0.229**（概念Bootstrap 95%区間 **+0.020〜+0.439**）、Layer 23が **+0.209**（**+0.021〜+0.420**）だった。ただし調整なしの推定や事前指定のLayer 24では、同様に明瞭とは限らない。**24層を探索した後の見かけの効果なので、多重比較・概念数8・入力文面の違いに注意が必要。**
+
+**現時点の結論：** 後半層で抑制指示と意味的Cueの相互作用が異なる**可能性**はあるが、当初の「近いほど抑制概念の内部表現が強まる」という単純な仮説は確立していない。さらにX/Yの概念固有性を確認する必要がある。
+
+## 3. 次の実験：v3で何を検証する？
+
+**目的：** これまでのProbeスコア変化が、禁止した概念に**特異的**なものか確認する。
+
+各X/Y概念ペアについて、**どちらの概念を禁止するか（X/Y）**を入れ替える。各条件で、次の3種類のCueを同じ文型の組（3組）で提示する。
+
+- **禁止対象のCue：** 現在禁止されている対象を連想させる。
+- **比較概念のCue：** もう一方の概念を連想させる（強い意味的対照）。
+- **無関係Cue：** いずれとも直接関係の薄い文（一般的な文脈変化の対照）。
+
+指示は`You may think about X.` と `Do not think about X.`（後続文は共通）で、対象語の**直接出現回数を各1回に統一**。Xを禁止する場合とYを禁止する場合で、Probeスコアの符号を揃えて比較する。**288入力×24層**を計測し、概念ペアを独立単位（n=8）にした探索的Bootstrapを行う。Layer 22・23を既存v2の結果に基づく事前指定の主な確認対象とする。
+
+**主要な統計量：**
+
+```text
+Target specificity under Neutral
+   = Δ(target-related cue) − Δ(comparison-related cue)
+
+Target specificity under Suppression
+   = Δ(target-related cue) − Δ(comparison-related cue)
+
+Suppression-specific selectivity
+   = Target specificity under Suppression − under Neutral
+```
+
+ここで`Δ`は、**その入力系列内のCue後−Cue前**の相対X/Y Probeスコア（禁止対象Yのとき符号を反転）。Layer 22/23の差が**両方向の禁止対象で再現するか**を優先的に見る。
+
+**実験に期待すること：** X CueとY Cueで反対方向の反応が見られるなら、一般的な文章変化だけでなく**概念識別に関係した内部反応**という解釈を強められる。一方で差が消えたり方向が一致しなければ、Probeの妥当性や刺激設計を再検討する必要がある。どちらも有効な研究結果である。
+
+## 4. Colabノートブックと実測データ
+
+| 実験・資料 | ノートブック／解説 | 実測結果 |
+|---|---|---|
+| 10/15予備実験 | [1015/white_bear_and_zhou_pilot_v3.ipynb](../1015/white_bear_and_zhou_pilot_v3.ipynb) | [10/16実行結果](../1015/results_v3/20261016T054754Z/) |
+| 10/16考察ノート | [研究概要](../1016/00_一ページでわかる研究の流れと予備実験.md) ／ [Concept Probe解説](../1016/04_ConceptProbe_内部表現.md) ／ [研究展望](../1016/05_研究展望_意味的距離と再活性化.md) | 説明資料 |
+| 10/19距離実験v1 | [1019/semantic_distance_layer_probe.ipynb](semantic_distance_layer_probe.ipynb) | [v1実測結果](results/20261019T130118Z/) |
+| 10/19前後比較v2 | [1019/semantic_distance_layer_probe_v2.ipynb](semantic_distance_layer_probe_v2.ipynb) | [v2実測結果](results_v2/20261019T133851060426Z/) |
+| **新規：X/Y対照v3** | **[1019/concept_specificity_control_v3.ipynb](concept_specificity_control_v3.ipynb)** | **未実行**。実行後`1019/results_v3/<日時>/`へ保存 |
+| v3刺激・学習資料 | [X/Y/無関係の72 Cue](specificity_cues_v3.csv) ／ [Probe学習・評価用記述](probe_description_bank_v2.json) | 入力データ（結果ではない） |
+
+### Colabで実行する
+
+1. 上部の**Open in Colab**ボタンからv3ノートブックを開く。
+2. ColabのランタイムをGPU（T4）へ変更し「すべてのセルを実行」する。
+3. GitHubへCSV・PNG・JSONを自動アップロードするには、Colab Secrets `GITHUB_RESULTS_TOKEN` に、対象リポジトリに`Contents: Read and write`権限のあるトークンを設定してノートブックアクセスを許可する。
+4. 実行のたびにUTC実行ID別の`1019/results_v3/`フォルダが作られる。GitHubアップロードできない場合もローカルZIPで結果を取得できる。
+
+## 5. まだ言えないことと今後の課題
+
+- **「LLMが意識的に禁止概念を考えた／完全に忘れた」** とは言えない。
+- **「禁止すると通常より概念が必ず強くなる」** とは言えない。条件・層・比較指標が必要。
+- **「特定の抑制回路を発見した」** とは言えない。因果介入（Activation Patching / Steering等）はまだ行っていない。
+- 8概念ペア・英語Cue・MiniLM距離を別概念／別モデル／人手評定で検証する必要がある。
+- Cueの長さ、文法、意味的関係タイプ、X/Yで学習したProbeの汎化可能性が交絡しうる。
+- 層ごとに独立して訓練したProbeの点数と検証通過概念は必ずしも比較可能でない。AUCと各層の概念数を一緒に報告する。
+- 先行研究との新規性の境界は継続調査が必要。
+
+**今後の判断基準：** v3で**禁止対象の入替え（X→Y）に対しても、意味的に特異的な反応が再現するか**。これが確認できれば距離・層依存の分析を新たな概念セットで再検証し、必要に応じて因果介入へ進む。
 
 ---
 
-# 1019 — Semantic distance × Suppression（層別 Concept Probe 実験）
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1019/semantic_distance_layer_probe.ipynb)
-
-
-## 何を調べるか
-
-LLMに概念Xを考えるなと指示したあと、意味的距離の異なる手がかりを与えると、モデル内部のX/Y識別スコアが各層でどう変化するか。通常指示（neutral）と抑制指示（suppression）の相違を中心に検証する。
-
-- モデル：Qwen/Qwen2.5-0.5B-Instruct（1015 v3と同じ）
-- 概念：既存の8組の X / Y
-- 条件：neutral、affirm、suppression、replacement（4種類）、および手がかりなしの基準
-- 手がかり：near / medium / far / unrelated（暫定4群）×各2例／概念、計64例
-- 独立の意味的距離指標：MiniLM埋め込みによる1 − cosine類似度（人手評定ではない）
-- Hidden State：指定した6層（4、8、12、16、20、24）で共通のassistant開始境界から読み出す
-- Probe：X/Y二値の正則化ロジスティック回帰。学習16例／ペアと、語形なし説明文12例／ペアの評価を分離
-- 主要比較：SuppressionとNeutralの手がかり効果の差の差（DID）。Concept単位の探索的Bootstrap
-- 出力：CSV 10件以上、図4件以上、設定JSON、結果README。オプションの自由生成が有効なら追加CSVと図
-
-## 使い方
-
-1. 上のリンクをColabで開く。
-2. 「ランタイムのタイプを変更」→ GPU（T4）を選ぶ。
-3. 結果をGitHubへ反映させる場合、Colabの「シークレット」に `GITHUB_RESULTS_TOKEN` を設定し、ノートブックのアクセスを許可する。トークンには対象リポジトリの **Contents: Read and write** 権限が必要。
-4. 「すべてのセルを実行」する。
-5. Colab内の `/content/GraduationThesis/1019/results/<UTC実行ID>/` にCSV・PNG・JSON等を生成する。
-6. トークンが有効なら最後のセルで `main/1019/results/<UTC実行ID>/` にファイルごとにアップロードする。トークンがない場合も、`1019/results/<UTC実行ID>_results.zip` をダウンロードできる。
-
-各実行はUTCタイムスタンプ別ディレクトリを使用。既存の1015/1016のファイルは書き換えない。
-
-**注意：このノートブックはGitHubに配置した実験コードであり、Colab上の実測はまだ実施していない。結果フォルダはノートブック実行時に生成される。**
-
-## 研究上の解釈と限界
-
-- Probeが読むのは**X対Yの相対的識別可能性**であって、絶対的な概念活性や「忘却」を直接測定するわけではない。
-- 禁止概念Xは指示文に明示されており、neutralとsuppressionではX出現回数と入力長も異なる。文面の交絡を認めたうえで結果を読む。
-- 距離帯4群の順序は暫定的。MiniLM距離で順序が崩れれば診断CSVに残し、連続的な測定距離で分析する。将来的に人手関連度評定が必要。
-- 層別Probeは held-out description AUC≥0.75 を主図の探索的基準にするが、全層の生スコアは保存する。
-- 比較は別プロンプトの読み出しであり、単一推論過程における時系列の「再活性化」は証明できない。
-- 自由生成の同一プロンプト読み出しは、Probe学習時の `Topic:` 終端とは分布が違うため**補助的**に扱う。
-- 母集団への一般化や因果効果は、この探索的8概念の実験のみから断定できない。
-
-背景：[1015 v3](../1015/white_bear_and_zhou_pilot_v3.ipynb) ／ [1016 研究の流れ](../1016/00_一ページでわかる研究の流れと予備実験.md)
+研究設計の記録は[1019/README.md](README.md)にも掲載。**既存のノートブックと実測結果は上書きせず保存している。**
