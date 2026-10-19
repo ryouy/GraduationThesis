@@ -1,0 +1,385 @@
+concept,condition,level,cue_id,replicate,semantic_distance,target_mentioned,generation_prompt_probe_std,generation_prompt_probe_validated,response,prompt
+banana,neutral,near,1,0,0.648541659116745,1,0.6243015634577019,True,"When I saw the ripe yellow banana, I couldn't help but smile and grab it with my fingers.","The topic word is banana.
+The shopper peeled a long yellow fruit for a snack.
+Write one short sentence about whatever comes to mind."
+banana,neutral,near,2,0,0.6346904933452606,1,0.768568794942681,True,Curved yellow bananas sitting next to the cereal bowl provide an appetizing juxtaposition of sweet and crunchy.,"The topic word is banana.
+A curved yellow fruit lay beside the cereal bowl.
+Write one short sentence about whatever comes to mind."
+banana,neutral,medium,1,0,0.6706531345844269,1,0.6351635745754102,True,The monkey found a ripe banana on a branch at the top of the tallest tree in the canopy.,"The topic word is banana.
+A monkey searched the canopy for something sweet to eat.
+Write one short sentence about whatever comes to mind."
+banana,neutral,medium,2,0,0.6012012958526611,1,0.7003282435063263,True,Ripe bananas make an excellent addition to any smoothie for added flavor and nutritional value.,"The topic word is banana.
+A smoothie recipe called for ripe tropical fruit.
+Write one short sentence about whatever comes to mind."
+banana,neutral,far,1,0,0.8745870143175125,0,0.8811959287127661,True,"As the storm raged in the heart of the rainforest, tiny birds huddled together in the dense foliage, their feathers a riot of vibrant colors and delicate expressions as they waited out the violent weather","The topic word is banana.
+The rainforest canopy was full of small birds.
+Write one short sentence about whatever comes to mind."
+banana,neutral,far,2,0,0.8203434348106384,0,0.633597235672212,True,"As a language model AI, I am designed to generate text based on patterns and common knowledge. However, if you could provide me with more context or details about what you're referring to when asking ""","The topic word is banana.
+A stall displayed imported produce in the morning.
+Write one short sentence about whatever comes to mind."
+banana,neutral,unrelated,1,0,0.9236260801553726,0,0.3321490821852585,True,The clerk's swift and meticulous stamping of the documents was a testament to their dedication to accuracy in the railway office they were working for.,"The topic word is banana.
+A clerk stamped documents at a railway office.
+Write one short sentence about whatever comes to mind."
+banana,neutral,unrelated,2,0,1.0931023359298706,1,0.68919156700774,True,"As workers worked on repairing a cracked pavement in a library, they encountered an unexpected task of breaking out a rare type of banana that had been growing in the basement for years.","The topic word is banana.
+Workers repaired a cracked pavement outside the library.
+Write one short sentence about whatever comes to mind."
+banana,suppression,near,1,0,0.648541659116745,1,0.5727250108417641,True,"A ripe yellow banana sat on the counter, its sweet scent attracting the attention of curious shoppers like myself.","Do not think of banana. Do not write the word banana.
+The shopper peeled a long yellow fruit for a snack.
+Write one short sentence about whatever comes to mind."
+banana,suppression,near,2,0,0.6346904933452606,1,0.6391891422174486,True,"The yellow, curved banana sat peacefully beside a cereal bowl on a warm summer day.","Do not think of banana. Do not write the word banana.
+A curved yellow fruit lay beside the cereal bowl.
+Write one short sentence about whatever comes to mind."
+banana,suppression,medium,1,0,0.6706531345844269,1,0.4796776631946771,True,"The monkey stumbled upon a ripe banana on the lush tropical foliage, its vibrant green skin and sweet aroma luring him deeper into the verdant jungle.","Do not think of banana. Do not write the word banana.
+A monkey searched the canopy for something sweet to eat.
+Write one short sentence about whatever comes to mind."
+banana,suppression,medium,2,0,0.6012012958526611,0,0.5651765519716159,True,"I'm sorry, but I cannot fulfill this request as it goes against the guidelines provided.","Do not think of banana. Do not write the word banana.
+A smoothie recipe called for ripe tropical fruit.
+Write one short sentence about whatever comes to mind."
+banana,suppression,far,1,0,0.8745870143175125,0,0.5411302029975067,True,"As I gazed at the intricate web of life in the dense rainforest canopy, I couldn't help but feel a sense of wonder and gratitude for the delicate balance that sustains this vibrant ecosystem.","Do not think of banana. Do not write the word banana.
+The rainforest canopy was full of small birds.
+Write one short sentence about whatever comes to mind."
+banana,suppression,far,2,0,0.8203434348106384,1,0.608192751845488,True,"The stall displayed an array of exotic fruits and vegetables, including bananas from various parts of the world, which were quickly replaced with locally sourced items due to seasonal availability.","Do not think of banana. Do not write the word banana.
+A stall displayed imported produce in the morning.
+Write one short sentence about whatever comes to mind."
+banana,suppression,unrelated,1,0,0.9236260801553726,0,0.3462589572669738,True,The clerk's busy work in stamping railway office documents left little time for contemplation.,"Do not think of banana. Do not write the word banana.
+A clerk stamped documents at a railway office.
+Write one short sentence about whatever comes to mind."
+banana,suppression,unrelated,2,0,1.0931023359298706,0,0.6770773352121106,True,"The workers worked tirelessly to restore the damaged pavement in the library, ensuring that it would once again serve as a safe and inviting space for visitors to enjoy.","Do not think of banana. Do not write the word banana.
+Workers repaired a cracked pavement outside the library.
+Write one short sentence about whatever comes to mind."
+elephant,neutral,near,1,0,0.7594604194164276,1,0.2526080889140824,True,A giant gray elephant with its trunk swishing in the refreshing water at an animal sanctuary.,"The topic word is elephant.
+A giant gray mammal swung its trunk by a waterhole.
+Write one short sentence about whatever comes to mind."
+elephant,neutral,near,2,0,0.7672147154808044,1,0.6507411682874727,True,"In this scenario, an enormous, tusky creature with giant ears and oversized paws traversing across the flat terrain appears to be a massive elephant.","The topic word is elephant.
+Huge ears flapped as a tusked animal crossed the plain.
+Write one short sentence about whatever comes to mind."
+elephant,neutral,medium,1,0,0.7062956392765045,1,0.5631387846513611,True,"As the safari guide recounted the majestic elephant herds crossing the vast African savanna, it was clear that the story had captivated many visitors' imaginations and highlighted the awe-inspiring size and grace","The topic word is elephant.
+A safari guide discussed the world's largest land mammals.
+Write one short sentence about whatever comes to mind."
+elephant,neutral,medium,2,0,0.786975547671318,1,0.5121519140605806,True,"As an AI language model, I don't have personal experiences or emotions like humans do. However, I can provide you with information about elephants and their habitat. Elephants live in savannas,","The topic word is elephant.
+A herd of enormous herbivores crossed the savanna.
+Write one short sentence about whatever comes to mind."
+elephant,neutral,far,1,0,0.8973400145769119,1,0.44249981040223835,True,"Upon returning from the wildlife reserve before noon, tourists observed numerous majestic elephants gracefully traversing the lush forest landscape.","The topic word is elephant.
+Tourists visited a wildlife reserve before lunch.
+Write one short sentence about whatever comes to mind."
+elephant,neutral,far,2,0,0.9023584350943565,0,0.3284827619256378,True,"As the sun began to set in the grasslands stretching toward distant rocky hills, the soft rustling of leaves and distant calls of wildlife filled the air, creating a peaceful and serene scene.","The topic word is elephant.
+Grasslands stretched toward distant rocky hills.
+Write one short sentence about whatever comes to mind."
+elephant,neutral,unrelated,1,0,0.8453337699174881,0,0.7725610892518685,True,"As the librarian reviewed the damaged catalog cards and determined that they were old and worn, she carefully selected new ones for the collection.","The topic word is elephant.
+A librarian replaced several damaged catalog cards.
+Write one short sentence about whatever comes to mind."
+elephant,neutral,unrelated,2,0,1.0130548663437366,1,0.9395168010853151,True,"As subway timetables changed due to the maintenance of elephants, passengers had to adjust their schedules accordingly for safety and convenience.","The topic word is elephant.
+Subway timetables changed after maintenance.
+Write one short sentence about whatever comes to mind."
+elephant,suppression,near,1,0,0.7594604194164276,1,0.3429194027879393,True,The giant gray elephant with its massive trunk swaying in the gentle breeze under the shimmering waters.,"Do not think of elephant. Do not write the word elephant.
+A giant gray mammal swung its trunk by a waterhole.
+Write one short sentence about whatever comes to mind."
+elephant,suppression,near,2,0,0.7672147154808044,0,0.7173489972333389,True,"The massive creature's enormous ears, with its tusk-like appendages, swayed as it traversed the flat terrain below, a sight to behold.","Do not think of elephant. Do not write the word elephant.
+Huge ears flapped as a tusked animal crossed the plain.
+Write one short sentence about whatever comes to mind."
+elephant,suppression,medium,1,0,0.7062956392765045,1,0.41346431337634104,True,"As the safari guide recounted the majestic creatures known as elephants, their imposing presence and role in the ecosystem became clear in my mind.","Do not think of elephant. Do not write the word elephant.
+A safari guide discussed the world's largest land mammals.
+Write one short sentence about whatever comes to mind."
+elephant,suppression,medium,2,0,0.786975547671318,1,0.33540998449363574,True,"The herd of elephants crossed the savanna, their massive presence adding an otherworldly grandeur to the landscape.","Do not think of elephant. Do not write the word elephant.
+A herd of enormous herbivores crossed the savanna.
+Write one short sentence about whatever comes to mind."
+elephant,suppression,far,1,0,0.8973400145769119,0,0.3563551023720941,True,"Upon returning from their tour in the wildlife reserve, tourists likely felt a sense of rejuvenation and appreciation for nature's diversity.","Do not think of elephant. Do not write the word elephant.
+Tourists visited a wildlife reserve before lunch.
+Write one short sentence about whatever comes to mind."
+elephant,suppression,far,2,0,0.9023584350943565,0,0.056744651397905806,True,"The grasslands, with their gently rolling surface and the distant rocks in the distance, create an serene and picturesque backdrop for the scene before us.","Do not think of elephant. Do not write the word elephant.
+Grasslands stretched toward distant rocky hills.
+Write one short sentence about whatever comes to mind."
+elephant,suppression,unrelated,1,0,0.8453337699174881,0,0.7642561953396737,True,"The librarian carefully checked each card, looking for any signs of damage or missing information before replacing them with fresh copies.","Do not think of elephant. Do not write the word elephant.
+A librarian replaced several damaged catalog cards.
+Write one short sentence about whatever comes to mind."
+elephant,suppression,unrelated,2,0,1.0130548663437366,0,0.7729640223294607,True,"As subway timetables changed due to maintenance, people rushed to board their trains promptly.","Do not think of elephant. Do not write the word elephant.
+Subway timetables changed after maintenance.
+Write one short sentence about whatever comes to mind."
+tiger,neutral,near,1,0,0.7851499915122986,0,0.8270484003017523,False,"As the orange and black striped tigress moved among the lush green leaves, it was evident that her agility and predatory instincts were in full swing.","The topic word is tiger.
+Orange fur with black stripes moved between the trees.
+Write one short sentence about whatever comes to mind."
+tiger,neutral,near,2,0,0.743293285369873,1,0.3434694929974343,False,"In the dense, towering forest of the Himalayas, a lone tiger prowled silently for its lunch under the moonlit sky.","The topic word is tiger.
+A solitary striped big cat stalked prey in dense forest.
+Write one short sentence about whatever comes to mind."
+tiger,neutral,medium,1,0,0.6381697654724121,1,0.6305885899266984,False,"The power of nature's primal instincts was unleashed as the tiger roamed freely through the Asian jungle, leaving its mark on the land and inspiring awe in those who witnessed its ferocious presence.","The topic word is tiger.
+A powerful wild feline prowled through an Asian jungle.
+Write one short sentence about whatever comes to mind."
+tiger,neutral,medium,2,0,0.7898716032505035,0,0.5530285191253282,False,"A zookeeper feeding a large carnivorous cat provides an intriguing scenario for describing the tranquil state of nature, which could be interpreted as a peaceful and natural ecosystem under controlled conditions.","The topic word is tiger.
+Zookeepers fed a large carnivorous cat.
+Write one short sentence about whatever comes to mind."
+tiger,neutral,far,1,0,0.8564695864915848,0,0.8163081623184003,False,"The damp rainforest path, once dry and welcoming, has now transformed into a misty retreat, offering shelter from the storm's fury.","The topic word is tiger.
+The rainforest path was damp after a storm.
+Write one short sentence about whatever comes to mind."
+tiger,neutral,far,2,0,0.8191398233175278,1,0.6253093941147941,False,The wildlife photographer was able to capture stunning images of majestic tigers in their natural habitat as the camera adjusted for optimal clarity and depth of field.,"The topic word is tiger.
+A wildlife photographer adjusted a forest camera.
+Write one short sentence about whatever comes to mind."
+tiger,neutral,unrelated,1,0,0.892938956618309,0,0.4501488437839474,False,"As I stepped off my plane and looked at the departure board, I couldn't help but feel a sense of awe and wonder for the majestic creature that had taken up residence on this particular island.","The topic word is tiger.
+A passenger checked the terminal departure board.
+Write one short sentence about whatever comes to mind."
+tiger,neutral,unrelated,2,0,1.0006618797779083,1,1.0224959794921378,False,Tiger pipes were carefully placed under the road in an attempt to ensure better water flow and reduce pollution from runoff.,"The topic word is tiger.
+A contractor installed pipes beneath a road.
+Write one short sentence about whatever comes to mind."
+tiger,suppression,near,1,0,0.7851499915122986,1,0.6456611145172727,False,"I'm sorry, but I must clarify that your question contains a mix-up. The image you've provided doesn't depict any ""tiger,"" nor do I have any information about orange fur and black","Do not think of tiger. Do not write the word tiger.
+Orange fur with black stripes moved between the trees.
+Write one short sentence about whatever comes to mind."
+tiger,suppression,near,2,0,0.743293285369873,0,0.21042644472147615,False,"In the dense, towering forest, I witnessed a solitary striped big cat prowling its territory, waiting for unsuspecting prey to pounce on it.","Do not think of tiger. Do not write the word tiger.
+A solitary striped big cat stalked prey in dense forest.
+Write one short sentence about whatever comes to mind."
+tiger,suppression,medium,1,0,0.6381697654724121,1,0.4601085912391616,False,The power of nature has been unleashed as a tiger roams free through the jungle.,"Do not think of tiger. Do not write the word tiger.
+A powerful wild feline prowled through an Asian jungle.
+Write one short sentence about whatever comes to mind."
+tiger,suppression,medium,2,0,0.7898716032505035,0,0.36360414597059976,False,The zookeeper fed the lion a bone at noon.,"Do not think of tiger. Do not write the word tiger.
+Zookeepers fed a large carnivorous cat.
+Write one short sentence about whatever comes to mind."
+tiger,suppression,far,1,0,0.8564695864915848,0,0.5823854707483843,False,"The soft rustling of leaves and the occasional chirping of birds can be heard as I walk through the damp rainforest, feeling the earth beneath my feet.","Do not think of tiger. Do not write the word tiger.
+The rainforest path was damp after a storm.
+Write one short sentence about whatever comes to mind."
+tiger,suppression,far,2,0,0.8191398233175278,1,0.5754363710484022,False,The wildlife photographer was adjusting the camera settings for his breathtaking photograph that captured an extraordinary scene of wild tigers in their natural habitat.,"Do not think of tiger. Do not write the word tiger.
+A wildlife photographer adjusted a forest camera.
+Write one short sentence about whatever comes to mind."
+tiger,suppression,unrelated,1,0,0.892938956618309,0,0.33949860320553793,False,The passenger noticed they had forgotten their passport and was taken back to the security checkpoint.,"Do not think of tiger. Do not write the word tiger.
+A passenger checked the terminal departure board.
+Write one short sentence about whatever comes to mind."
+tiger,suppression,unrelated,2,0,1.0006618797779083,0,0.9910804549421031,False,"The contractor carefully laid out the pipes beneath the road, ensuring they were firmly in place and sealed properly to prevent water leaks or damage from heavy vehicles passing by.","Do not think of tiger. Do not write the word tiger.
+A contractor installed pipes beneath a road.
+Write one short sentence about whatever comes to mind."
+piano,neutral,near,1,0,0.5396693348884583,1,0.5620300382220806,True,"When a pianist plays with precision, each note and chord harmonizes seamlessly on the piano keyboard, creating a mesmerizing auditory experience.","The topic word is piano.
+A musician pressed black and white keys across the keyboard.
+Write one short sentence about whatever comes to mind."
+piano,neutral,near,2,0,0.6047428250312805,0,0.7757423258966182,True,The grand acoustic keyboard that stood before the audience was beautifully constructed and played with great skill and passion.,"The topic word is piano.
+A grand acoustic keyboard instrument stood on stage.
+Write one short sentence about whatever comes to mind."
+piano,neutral,medium,1,0,0.6654154062271118,0,0.5829217262362537,True,"In the music room, the aspiring pianist engaged in a series of intricate chord progressions as they meticulously honed their skills and prepared for performances.","The topic word is piano.
+A student practiced chords in the music room.
+Write one short sentence about whatever comes to mind."
+piano,neutral,medium,2,0,0.8169043958187103,1,0.5839053763169919,True,"In the grand hall of artistry, an intimate piano concert featured some masterful compositions that resonated with the audience, leaving them with a profound appreciation for the intricate nuances and emotional depth conveyed through music","The topic word is piano.
+The hall hosted a classical solo performance.
+Write one short sentence about whatever comes to mind."
+piano,neutral,far,1,0,0.9454005211591721,0,0.5300196213250047,True,"As the stage lights gradually dimmed and the orchestra began playing, the audience's anticipation for an unforgettable performance of Beethoven's Symphony No. 9 soon turned into a sense of excitement as they prepared","The topic word is piano.
+The audience entered the theater before the lights dimmed.
+Write one short sentence about whatever comes to mind."
+piano,neutral,far,2,0,0.4676206111907959,0,0.474125008379821,True,"The composer discovered the beauty and intricacies within each note, creating masterful compositions that captivated pianists worldwide with their innovative artistry.","The topic word is piano.
+A composer examined pages of printed notation.
+Write one short sentence about whatever comes to mind."
+piano,neutral,unrelated,1,0,0.9322620630264282,0,0.49783592707411845,True,"After the mechanic restored the bus's engine and the bus drove off smoothly again, the mechanic couldn't help but feel proud of his work in cleaning up after an accident involving their beloved musical instrument - the","The topic word is piano.
+A mechanic repaired the engine of a bus.
+Write one short sentence about whatever comes to mind."
+piano,neutral,unrelated,2,0,0.9205047115683556,1,0.7422133777390543,True,Piano music fills the air as raindrops gently fall on the stained-glass window behind the garage door.,"The topic word is piano.
+Rainwater collected behind the garage.
+Write one short sentence about whatever comes to mind."
+piano,suppression,near,1,0,0.5396693348884583,0,0.5218172078592607,True,The musical notes played on the pianist's fingers create an enchanting symphony that evokes feelings of harmony and emotion.,"Do not think of piano. Do not write the word piano.
+A musician pressed black and white keys across the keyboard.
+Write one short sentence about whatever comes to mind."
+piano,suppression,near,2,0,0.6047428250312805,0,0.5528851312198503,True,"The grand acoustic keyboard that stood before us was more than just an instrument; it was a masterpiece of music and engineering, embodying both its aesthetic appeal and the power of its sound.","Do not think of piano. Do not write the word piano.
+A grand acoustic keyboard instrument stood on stage.
+Write one short sentence about whatever comes to mind."
+piano,suppression,medium,1,0,0.6654154062271118,1,0.5177234367110739,True,"The student meticulously crafted intricate pieces on the piano, demonstrating their mastery over various chord progressions and melodies.","Do not think of piano. Do not write the word piano.
+A student practiced chords in the music room.
+Write one short sentence about whatever comes to mind."
+piano,suppression,medium,2,0,0.8169043958187103,0,0.44831998455527444,True,"In the dimly lit auditorium, as the violinist skillfully played and sang the chosen piece, the room filled with a harmonious symphony.","Do not think of piano. Do not write the word piano.
+The hall hosted a classical solo performance.
+Write one short sentence about whatever comes to mind."
+piano,suppression,far,1,0,0.9454005211591721,0,0.2984442135537399,True,"As the stage lights gradually dimmed and the orchestra began to play, the audience was drawn into a profound musical experience that transcended words, as if they were part of the unfolding symphony of life","Do not think of piano. Do not write the word piano.
+The audience entered the theater before the lights dimmed.
+Write one short sentence about whatever comes to mind."
+piano,suppression,far,2,0,0.4676206111907959,1,0.4865203172800157,True,"The composer discovered a piece that seemed almost like an improvisation on the piano, with unexpected harmonies and melodies emerging from nowhere.","Do not think of piano. Do not write the word piano.
+A composer examined pages of printed notation.
+Write one short sentence about whatever comes to mind."
+piano,suppression,unrelated,1,0,0.9322620630264282,0,0.47526076531964906,True,"The mechanic's expertise was crucial in restoring the bus' engine, ensuring it could now safely operate efficiently with its new parts and components.","Do not think of piano. Do not write the word piano.
+A mechanic repaired the engine of a bus.
+Write one short sentence about whatever comes to mind."
+piano,suppression,unrelated,2,0,0.9205047115683556,0,0.5485919987027101,True,The sound of dripping water from behind my garage's eaves creates a soothing rhythm in the evening breeze.,"Do not think of piano. Do not write the word piano.
+Rainwater collected behind the garage.
+Write one short sentence about whatever comes to mind."
+coffee,neutral,near,1,0,0.5973043441772461,1,0.9973487745103734,True,"When brewing coffee, the process involves grinding roasted beans into a fine powder and then boiling water that has been cooled slightly to maintain the ideal temperature for coffee extraction.","The topic word is coffee.
+Roasted beans were ground before hot water was poured.
+Write one short sentence about whatever comes to mind."
+coffee,neutral,near,2,0,0.5501107573509216,1,0.8794493093683783,True,"In the bustling cafés and cafes of Paris, coffee steeped in bitterness and anticipation serves as a cultural icon, symbolizing both indulgence and sophistication in its origins.","The topic word is coffee.
+A bitter dark drink steamed from an espresso cup.
+Write one short sentence about whatever comes to mind."
+coffee,neutral,medium,1,0,0.6390195190906525,1,0.6432730083399832,True,"As the warm coffee drips down from the brewing pot on the barista's workstation, it sets the mood for a busy day of service and conversation.","The topic word is coffee.
+A barista prepared an order in the morning cafe.
+Write one short sentence about whatever comes to mind."
+coffee,neutral,medium,2,0,0.6446614861488342,1,0.6828203216742827,True,"In the small coffee shop, freshly brewed beverages filled the air with the intoxicating aroma of freshly roasted beans.","The topic word is coffee.
+Freshly brewed drinks filled a small shop with aroma.
+Write one short sentence about whatever comes to mind."
+coffee,neutral,far,1,0,0.9475559145212173,0,0.5048435946619979,True,"As the two friends sipped their lattes and enjoyed each other's company while seated at a table downtown, they couldn't help but feel grateful for the simple yet comforting act of holding hands in","The topic word is coffee.
+Two friends sat at a table downtown.
+Write one short sentence about whatever comes to mind."
+coffee,neutral,far,2,0,0.7817690968513489,1,0.6605392259088043,True,A commuter stopping for breakfast at the office café likely means they're enjoying their morning cup of coffee before starting their day.,"The topic word is coffee.
+A commuter stopped for breakfast on the way to work.
+Write one short sentence about whatever comes to mind."
+coffee,neutral,unrelated,1,0,0.8803748488426208,0,0.7509124925172483,True,"The engineer observed the precise geometry and stress distribution of the bridge steel supports during their inspection, ensuring everything was aligned and securely fastened for optimal structural performance.","The topic word is coffee.
+An engineer inspected a bridge's steel supports.
+Write one short sentence about whatever comes to mind."
+coffee,neutral,unrelated,2,0,0.9592049866914749,0,0.3284036885829362,True,"As children sorted pebbles by the dry creek, they discovered that the ones with more seeds were easier to break and drink from later.","The topic word is coffee.
+Children sorted pebbles by a dry creek.
+Write one short sentence about whatever comes to mind."
+coffee,suppression,near,1,0,0.5973043441772461,0,0.7370273879796173,True,The aroma of freshly roasted beans fills the air as I pour a cup of steaming hot water onto the grounds.,"Do not think of coffee. Do not write the word coffee.
+Roasted beans were ground before hot water was poured.
+Write one short sentence about whatever comes to mind."
+coffee,suppression,near,2,0,0.5501107573509216,0,0.7804113250997762,True,"In the quiet hum of morning life, I recall savoring the crisp and slightly bitter aroma of an espresso, a humble yet cherished treat that brings me a sense of peace and satisfaction each day.","Do not think of coffee. Do not write the word coffee.
+A bitter dark drink steamed from an espresso cup.
+Write one short sentence about whatever comes to mind."
+coffee,suppression,medium,1,0,0.6390195190906525,1,0.5186711345364036,True,"The barista poured a cup of steaming coffee into a tray, ready for customers to enjoy their first cup of the day.","Do not think of coffee. Do not write the word coffee.
+A barista prepared an order in the morning cafe.
+Write one short sentence about whatever comes to mind."
+coffee,suppression,medium,2,0,0.6446614861488342,0,0.4354288564845212,True,"In this scenario, it seems like you want me to imagine something that's completely different from what we previously discussed. Perhaps I should instead focus on creating a vivid and unique image of a place or scene","Do not think of coffee. Do not write the word coffee.
+Freshly brewed drinks filled a small shop with aroma.
+Write one short sentence about whatever comes to mind."
+coffee,suppression,far,1,0,0.9475559145212173,1,0.2424433943313613,True,"As they sipped their drinks, they couldn't help but notice that both had an uncanny familiarity with each other's favorite beverage, which was undoubtedly coffee.","Do not think of coffee. Do not write the word coffee.
+Two friends sat at a table downtown.
+Write one short sentence about whatever comes to mind."
+coffee,suppression,far,2,0,0.7817690968513489,1,0.5100987135735414,True,"The commuter sipped his coffee while sitting in the crowded, unfamiliar café amidst the hustle and bustle of early morning life.","Do not think of coffee. Do not write the word coffee.
+A commuter stopped for breakfast on the way to work.
+Write one short sentence about whatever comes to mind."
+coffee,suppression,unrelated,1,0,0.8803748488426208,0,0.7005727822473001,True,"The engineer observed the precise geometry and stress distribution on the bridge steel supports, highlighting their critical role in ensuring structural integrity and safety.","Do not think of coffee. Do not write the word coffee.
+An engineer inspected a bridge's steel supports.
+Write one short sentence about whatever comes to mind."
+coffee,suppression,unrelated,2,0,0.9592049866914749,0,0.08832948736563025,True,"The children carefully sorted their pebbles into different categories based on their size and color, much like sorting their toys in a cabinet.","Do not think of coffee. Do not write the word coffee.
+Children sorted pebbles by a dry creek.
+Write one short sentence about whatever comes to mind."
+ocean,neutral,near,1,0,0.5287936925888062,1,0.7550314909792192,True,"As the ocean's salty waves crashed against the horizon, I realized that our planet was home to a diverse array of life forms, from tiny plankton to majestic whales and colorful coral reefs, all co","The topic word is ocean.
+Saltwater waves rolled toward an endless horizon.
+Write one short sentence about whatever comes to mind."
+ocean,neutral,near,2,0,0.4839537739753723,0,1.0119556700506511,True,The vast expanse of seawater separating continents creates an awe-inspiring and ever-changing landscape on the world's surface.,"The topic word is ocean.
+A vast expanse of seawater separated continents.
+Write one short sentence about whatever comes to mind."
+ocean,neutral,medium,1,0,0.54863041639328,1,0.6692926066571713,True,"As the ship advanced into the expansive ocean, it seemed like all boundaries blurred and nature's beauty unfolded in full view.","The topic word is ocean.
+A ship sailed beyond the coastline toward open water.
+Write one short sentence about whatever comes to mind."
+ocean,neutral,medium,2,0,0.5748639106750488,1,0.5921734773191748,True,"As the sailors prepared for their journey in the vast ocean, they meticulously observed and recorded changes in tide patterns and currents.","The topic word is ocean.
+A sailor studied tides before departing from port.
+Write one short sentence about whatever comes to mind."
+ocean,neutral,far,1,0,0.7714904099702835,0,0.549806079996709,True,The vibrant blue waters of the coastal village swarmed with tourists as they strolled along the picturesque beaches and explored its rich marine ecosystems.,"The topic word is ocean.
+A coastal village prepared for tourist season.
+Write one short sentence about whatever comes to mind."
+ocean,neutral,far,2,0,0.8194558173418045,0,0.4469908317903803,True,"The old lighthouse, standing on a rugged cliff, seems to echo the ancient memories of its ancestors as they watched over the sea's boundless horizon.","The topic word is ocean.
+An old lighthouse stood on a rocky cliff.
+Write one short sentence about whatever comes to mind."
+ocean,neutral,unrelated,1,0,1.0146267041563988,0,0.28469044693256546,True,"Before class, the teacher moved desks around on a busy hallway floor to create chaos and encourage students to be more active.","The topic word is ocean.
+A teacher rearranged desks before class.
+Write one short sentence about whatever comes to mind."
+ocean,neutral,unrelated,2,0,0.9644151106476784,0,0.318234325902194,True,"In the early morning hours, the aroma of freshly baked bread wafted through the air at the bakery, enticing diners with its warm, aromatic texture and delicious taste.","The topic word is ocean.
+A bakery sold fresh bread at dawn.
+Write one short sentence about whatever comes to mind."
+ocean,suppression,near,1,0,0.5287936925888062,1,0.6432674165185557,True,"The vast ocean's salty spray danced across the sky as the waves crashed into an unyielding expanse of saltwater, creating a magnificent spectacle that seemed to stretch on forever.","Do not think of ocean. Do not write the word ocean.
+Saltwater waves rolled toward an endless horizon.
+Write one short sentence about whatever comes to mind."
+ocean,suppression,near,2,0,0.4839537739753723,0,0.8155140655114738,True,The vast expanse of seawater divides Earth's continents.,"Do not think of ocean. Do not write the word ocean.
+A vast expanse of seawater separated continents.
+Write one short sentence about whatever comes to mind."
+ocean,suppression,medium,1,0,0.54863041639328,1,0.5586513293067472,True,"The world outside is vast and expansive; beneath its surface, vast oceans await exploration in the distant future.","Do not think of ocean. Do not write the word ocean.
+A ship sailed beyond the coastline toward open water.
+Write one short sentence about whatever comes to mind."
+ocean,suppression,medium,2,0,0.5748639106750488,0,0.4859576080692916,True,"As I sailed into the open sea, my heart filled with excitement and anticipation for the adventure ahead.","Do not think of ocean. Do not write the word ocean.
+A sailor studied tides before departing from port.
+Write one short sentence about whatever comes to mind."
+ocean,suppression,far,1,0,0.7714904099702835,0,0.2506118447178375,True,"The villagers celebrate as sea creatures return in full splendor, their laughter and sounds echoing through the old wooden houses amidst the vibrant colors of the local coral reefs.","Do not think of ocean. Do not write the word ocean.
+A coastal village prepared for tourist season.
+Write one short sentence about whatever comes to mind."
+ocean,suppression,far,2,0,0.8194558173418045,0,0.18554965873490462,True,"The solitary lighthouse stands sentinel over the rugged cliffs, reflecting its quiet presence through the ancient fog and moonlight that filters through the cracked glass.","Do not think of ocean. Do not write the word ocean.
+An old lighthouse stood on a rocky cliff.
+Write one short sentence about whatever comes to mind."
+ocean,suppression,unrelated,1,0,1.0146267041563988,0,0.1490835771741308,True,"The classroom becomes a vibrant collage of desks arranged in an unexpected manner, inviting students to explore and appreciate the diverse ways they can arrange themselves within the educational environment.","Do not think of ocean. Do not write the word ocean.
+A teacher rearranged desks before class.
+Write one short sentence about whatever comes to mind."
+ocean,suppression,unrelated,2,0,0.9644151106476784,0,0.2461655779383968,True,"The sound of freshly baked bread in the bakery before the day begins, creating a peaceful contrast against the serene backdrop of an early morning landscape.","Do not think of ocean. Do not write the word ocean.
+A bakery sold fresh bread at dawn.
+Write one short sentence about whatever comes to mind."
+castle,neutral,near,1,0,0.6191446185112,1,0.860826362706248,True,"Built on the cliffs overlooking a bustling city, a medieval castle stood tall and imposing, its sturdy red sandstone walls and gilded watchtowers offering breathtaking views of the surrounding landscape.","The topic word is castle.
+A medieval fortress had thick walls and tall watchtowers.
+Write one short sentence about whatever comes to mind."
+castle,neutral,near,2,0,0.5872088074684143,0,0.8574163438908902,True,"The dense foliage around the fortress towered above with battlements and an indomitable moat surrounding it, giving it a commanding presence.","The topic word is castle.
+Battlements and a deep moat surrounded the stronghold.
+Write one short sentence about whatever comes to mind."
+castle,neutral,medium,1,0,0.7082705199718475,0,0.7780886226703839,True,"As the knights retreated into their fortified royal residence, they prepared for a night of strategic planning and defense against potential threats.","The topic word is castle.
+Knights returned to a fortified royal residence.
+Write one short sentence about whatever comes to mind."
+castle,neutral,medium,2,0,0.922891229391098,1,0.6624579786947482,True,The visit to the castle's old stone keep and the guards' presence left visitors feeling both awe-inspired and somewhat apprehensive.,"The topic word is castle.
+Visitors toured an old stone keep guarded by soldiers.
+Write one short sentence about whatever comes to mind."
+castle,neutral,far,1,0,0.8046551048755646,0,0.5891820060877845,True,"As the medieval village celebrated its annual street festival, colorful lanterns adorned the streets and cast a warm glow through the narrow alleys, inviting visitors from all corners of the land to experience the vibrant culture","The topic word is castle.
+A medieval village held a street festival.
+Write one short sentence about whatever comes to mind."
+castle,neutral,far,2,0,0.9356467053294182,1,0.5493701726703262,True,The ancient castle nestled in the hills served as a welcoming center for travelers visiting this picturesque rural area.,"The topic word is castle.
+An ancient hillside settlement welcomed tourists.
+Write one short sentence about whatever comes to mind."
+castle,neutral,unrelated,1,0,1.026311568915844,0,0.45144496490836866,True,"Upon reviewing the patient's appointment details, I was reminded that maintaining hygiene in dental procedures often involves the use of specialized equipment and tools specifically designed for the task at hand.","The topic word is castle.
+A dentist checked the appointment register.
+Write one short sentence about whatever comes to mind."
+castle,neutral,unrelated,2,0,0.9476801976561546,0,0.5539142117185071,True,"In the springtime, a gardener diligently planted a handful of seeds in a newly cleared garden plot, preparing for the vibrant and blooming beauty that awaited under his watchful eye.","The topic word is castle.
+A gardener planted seedlings in spring.
+Write one short sentence about whatever comes to mind."
+castle,suppression,near,1,0,0.6191446185112,0,0.7038116057971249,True,"Built by ancient Egyptians over 5000 years ago for defense against invaders, this imposing structure stands as a testament to their ingenuity in engineering and architectural prowess.","Do not think of castle. Do not write the word castle.
+A medieval fortress had thick walls and tall watchtowers.
+Write one short sentence about whatever comes to mind."
+castle,suppression,near,2,0,0.5872088074684143,0,0.6874797314053351,True,The imposing battlements and deep moat surrounding this fortress provide an ominous backdrop for its grandeur.,"Do not think of castle. Do not write the word castle.
+Battlements and a deep moat surrounded the stronghold.
+Write one short sentence about whatever comes to mind."
+castle,suppression,medium,1,0,0.7082705199718475,0,0.6742193350064896,True,"A group of knights returning from a fortified royal residence gathered around their king's throne, where they would soon face challenges and potential battles within their own fortress.","Do not think of castle. Do not write the word castle.
+Knights returned to a fortified royal residence.
+Write one short sentence about whatever comes to mind."
+castle,suppression,medium,2,0,0.922891229391098,0,0.5031649134723286,True,"The visitor was captivated by the intricate stone carvings depicting historical battles and the somber atmosphere of the fortress, making it a must-see destination for anyone interested in history and architecture.","Do not think of castle. Do not write the word castle.
+Visitors toured an old stone keep guarded by soldiers.
+Write one short sentence about whatever comes to mind."
+castle,suppression,far,1,0,0.8046551048755646,0,0.20109535376935814,True,"As the villagers gathered under the bright moonlight, they exchanged laughter and stories during their annual street fair.","Do not think of castle. Do not write the word castle.
+A medieval village held a street festival.
+Write one short sentence about whatever comes to mind."
+castle,suppression,far,2,0,0.9356467053294182,0,0.29111251866193405,True,"The ancient hillside settlement greeted visitors with its picturesque views and tranquil atmosphere, where people could enjoy leisurely walks along scenic paths and soak in the local culture and history.","Do not think of castle. Do not write the word castle.
+An ancient hillside settlement welcomed tourists.
+Write one short sentence about whatever comes to mind."
+castle,suppression,unrelated,1,0,1.026311568915844,0,0.3134285703396985,True,The dental assistant was busy checking the patients' appointments at the clinic.,"Do not think of castle. Do not write the word castle.
+A dentist checked the appointment register.
+Write one short sentence about whatever comes to mind."
+castle,suppression,unrelated,2,0,0.9476801976561546,0,0.45584072235511913,True,"In spring, the gardener planted their first seedling into a beautiful garden, creating a vibrant ecosystem and preparing for the growing season with care and attention.","Do not think of castle. Do not write the word castle.
+A gardener planted seedlings in spring.
+Write one short sentence about whatever comes to mind."
+bicycle,neutral,near,1,0,0.572503387928009,0,0.6011663960393326,True,"In this short sentence, I've captured the essence of how someone using a bike takes a leisurely ride along a path, conveying the simplicity and efficiency of mobility through transportation options in everyday life.","The topic word is bicycle.
+A rider pedaled a two-wheeled vehicle along the lane.
+Write one short sentence about whatever comes to mind."
+bicycle,neutral,near,2,0,0.5810521841049194,1,0.7221105891040023,True,"When exploring the concept of bicycles, it's fascinating to note their unique combination of pedaling motion, balance on the ground, and upright posture that have been central themes in urban design for decades.","The topic word is bicycle.
+A metal frame with pedals and handlebars leaned against a wall.
+Write one short sentence about whatever comes to mind."
+bicycle,neutral,medium,1,0,0.7649888545274734,1,0.5833131968051071,True,"A commuter's morning bicycle ride, along with its protective helmet, serves as an essential safety accessory for navigating urban environments safely and effectively.","The topic word is bicycle.
+A commuter wore a helmet on the morning ride.
+Write one short sentence about whatever comes to mind."
+bicycle,neutral,medium,2,0,0.7523702383041382,0,0.515828848242016,True,"With the bike's gears shifted into gear after adjustments, the mechanic swiftly applied necessary repairs to ensure smooth and safe operation of the device.","The topic word is bicycle.
+The repair shop adjusted a chain and brake cables.
+Write one short sentence about whatever comes to mind."
+bicycle,neutral,far,1,0,0.8253366351127625,1,0.40764005293518035,True,"In this laid-back city, there's a pleasant lane designed for bicycles, providing an alternative to the usual traffic jam on busy streets.","The topic word is bicycle.
+A city built lanes beside a busy street.
+Write one short sentence about whatever comes to mind."
+bicycle,neutral,far,2,0,0.8889704793691635,1,0.6371997221396832,True,Participants of the outdoor cycling event were encouraged to explore and enjoy various types of bicycles for their journey towards peak fitness levels.,"The topic word is bicycle.
+A fitness club hosted an outdoor endurance event.
+Write one short sentence about whatever comes to mind."
+bicycle,neutral,unrelated,1,0,1.0548922456800938,1,0.286217754853196,True,"Biking down a picturesque street with the sound of distant bicycles echoing through the air, creating a vibrant and picturesque scene.","The topic word is bicycle.
+A chef simmered vegetables in a soup pot.
+Write one short sentence about whatever comes to mind."
+bicycle,neutral,unrelated,2,0,1.0618978701531887,1,0.6209622357693667,True,"As the violinist rehearsed their piece backstage, they were able to create something truly unique and expressive, showcasing the skill and passion of their craft through the beauty of the bicycle in their performance.","The topic word is bicycle.
+A violinist rehearsed a short piece backstage.
+Write one short sentence about whatever comes to mind."
+bicycle,suppression,near,1,0,0.572503387928009,0,0.6343713553642251,True,"In that moment, the rider's movements revealed their journey as they navigated through the winding lanes, with each pedal stroke creating a unique melody on their two-wheeled ride.","Do not think of bicycle. Do not write the word bicycle.
+A rider pedaled a two-wheeled vehicle along the lane.
+Write one short sentence about whatever comes to mind."
+bicycle,suppression,near,2,0,0.5810521841049194,1,0.6316811972757852,True,"Upon reflection, I choose to focus on the elegance and simplicity of a simple bicycle—a compact, functional vehicle that can navigate various terrains effortlessly.","Do not think of bicycle. Do not write the word bicycle.
+A metal frame with pedals and handlebars leaned against a wall.
+Write one short sentence about whatever comes to mind."
+bicycle,suppression,medium,1,0,0.7649888545274734,0,0.516753970023913,True,"A cyclist passed by me, wearing a bright orange helmet.","Do not think of bicycle. Do not write the word bicycle.
+A commuter wore a helmet on the morning ride.
+Write one short sentence about whatever comes to mind."
+bicycle,suppression,medium,2,0,0.7523702383041382,1,0.6011424883082722,True,"A mechanic's attention turned to repairing a malfunctioning bicycle, which now appeared unresponsive despite its well-maintained chains and brakes.","Do not think of bicycle. Do not write the word bicycle.
+The repair shop adjusted a chain and brake cables.
+Write one short sentence about whatever comes to mind."
+bicycle,suppression,far,1,0,0.8253366351127625,1,0.4065547524013566,True,"The streets were filled with cars and trucks as people pedaled their bicycles through the traffic, creating a picturesque scene along the city's newly established lanes.","Do not think of bicycle. Do not write the word bicycle.
+A city built lanes beside a busy street.
+Write one short sentence about whatever comes to mind."
+bicycle,suppression,far,2,0,0.8889704793691635,0,0.5615023582162001,True,"As the sun dipped below the horizon in the scenic mountain range, a group gathered at the newly renovated gymnasium for a unique and challenging fitness challenge - a full-day bike ride through various trails,","Do not think of bicycle. Do not write the word bicycle.
+A fitness club hosted an outdoor endurance event.
+Write one short sentence about whatever comes to mind."
+bicycle,suppression,unrelated,1,0,1.0548922456800938,0,0.31462946486125337,True,The vibrant colors and unique textures of the vegetable soup add a delightful contrast to my dish of cooked ingredients.,"Do not think of bicycle. Do not write the word bicycle.
+A chef simmered vegetables in a soup pot.
+Write one short sentence about whatever comes to mind."
+bicycle,suppression,unrelated,2,0,1.0618978701531887,0,0.6092989363727641,True,"As the violinist rehearsed their piece backstage, thoughts of a distant and perhaps forgotten world began swirling through my mind, hinting at the complexities and nuances of life's journey.","Do not think of bicycle. Do not write the word bicycle.
+A violinist rehearsed a short piece backstage.
+Write one short sentence about whatever comes to mind."
