@@ -1,6 +1,7 @@
 # 1019 — Semantic distance × Suppression（層別 Concept Probe 実験）
 
-[Colabノートブックを開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1019/semantic_distance_layer_probe.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1019/semantic_distance_layer_probe.ipynb)
+
 
 ## 何を調べるか
 
