@@ -1,0 +1,13 @@
+target_role,condition,cue_role,mean_cue_tokens,mean_prompt_tokens,min_prompt_tokens,max_prompt_tokens
+X,neutral,other,11.708333333333334,50.708333333333336,49,53
+X,neutral,target,11.875,50.875,49,53
+X,neutral,unrelated,10.875,49.875,49,51
+X,suppression,other,11.708333333333334,50.708333333333336,49,53
+X,suppression,target,11.875,50.875,49,53
+X,suppression,unrelated,10.875,49.875,49,51
+Y,neutral,other,11.875,51.0,49,54
+Y,neutral,target,11.708333333333334,50.833333333333336,49,53
+Y,neutral,unrelated,10.875,50.0,49,51
+Y,suppression,other,11.875,51.0,49,54
+Y,suppression,target,11.708333333333334,50.833333333333336,49,53
+Y,suppression,unrelated,10.875,50.0,49,51
