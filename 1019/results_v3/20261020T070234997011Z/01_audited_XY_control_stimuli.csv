@@ -1,0 +1,73 @@
+concept,comparison,triplet,cue_type,cue_text,sim_X,sim_Y,X_minus_Y_similarity,independent_expected_direction,cue_token_count
+banana,apple,1,X,A shopper noticed a long curved yellow fruit on the counter.,0.3419879972934723,0.1758173704147339,0.1661706268787384,True,12
+banana,apple,1,Y,A shopper noticed a round crisp red fruit on the counter.,0.32380932569503784,0.1607016772031784,0.16310764849185944,False,12
+banana,apple,1,unrelated,A shopper noticed a metal kitchen timer on the counter.,0.14844635128974915,0.10953804105520248,0.03890831023454666,True,11
+banana,apple,2,X,A child ate a soft tropical fruit after peeling its skin.,0.30058881640434265,0.10511770099401474,0.1954711154103279,True,13
+banana,apple,2,Y,A child ate a firm orchard fruit after slicing its skin.,0.27352017164230347,0.15496760606765747,0.118552565574646,False,13
+banana,apple,2,unrelated,A child used a blue measuring tape beside a desk.,0.03446337953209877,0.07911631464958191,-0.04465293511748314,True,11
+banana,apple,3,X,A recipe featured a sweet elongated yellow produce item.,0.2810656726360321,0.08114167302846909,0.19992399960756302,True,11
+banana,apple,3,Y,A recipe featured a tart round red produce item.,0.2736361026763916,0.06446720659732819,0.20916889607906342,False,10
+banana,apple,3,unrelated,A recipe featured an empty ceramic bowl on the table.,0.18576711416244507,0.03906205669045448,0.14670505747199059,True,11
+elephant,giraffe,1,X,A traveler spotted a massive gray animal waving its trunk.,0.29120123386383057,0.2929286062717438,-0.001727372407913208,False,11
+elephant,giraffe,1,Y,A traveler spotted a towering spotted animal stretching its neck.,0.27430474758148193,0.2914411425590515,-0.01713639497756958,True,11
+elephant,giraffe,1,unrelated,A traveler spotted a parked blue car beside the road.,0.01698591560125351,0.056749314069747925,-0.039763398468494415,True,11
+elephant,giraffe,2,X,A guide described a tusked mammal with enormous ears.,0.31999456882476807,0.312386691570282,0.007607877254486084,True,13
+elephant,giraffe,2,Y,A guide described a long necked mammal eating tall leaves.,0.3035769760608673,0.2730889320373535,0.030488044023513794,False,13
+elephant,giraffe,2,unrelated,A guide described a wooden sign beside a footpath.,0.1366046965122223,0.09640343487262726,0.04020126163959503,True,11
+elephant,giraffe,3,X,A documentary showed a huge herbivore spraying water with its nose.,0.28910574316978455,0.29094868898391724,-0.0018429458141326904,False,14
+elephant,giraffe,3,Y,A documentary showed a tall herbivore browsing above the trees.,0.29076912999153137,0.32406580448150635,-0.033296674489974976,True,13
+elephant,giraffe,3,unrelated,A documentary showed a stone bridge over a small canal.,0.05057553946971893,0.08075979351997375,-0.030184254050254822,True,11
+tiger,lion,1,X,A visitor saw an orange wild cat covered in dark stripes.,0.23462620377540588,0.20861075818538666,0.026015445590019226,True,12
+tiger,lion,1,Y,A visitor saw a golden wild cat with a thick mane.,0.18856623768806458,0.2042938470840454,-0.015727609395980835,True,12
+tiger,lion,1,unrelated,A visitor saw a silver train waiting beside the platform.,0.06006774678826332,0.11708855628967285,-0.05702080950140953,True,11
+tiger,lion,2,X,A guide discussed a solitary striped predator from Asian forests.,0.29980209469795227,0.2614409327507019,0.038361161947250366,True,11
+tiger,lion,2,Y,A guide discussed a social maned predator from African plains.,0.21556979417800903,0.26716703176498413,-0.0515972375869751,True,12
+tiger,lion,2,unrelated,A guide discussed a repaired radio inside the station.,0.08334903419017792,0.11081410199403763,-0.02746506780385971,True,10
+tiger,lion,3,X,A report described black stripes on a powerful feline body.,0.29599738121032715,0.2763887047767639,0.019608676433563232,True,12
+tiger,lion,3,Y,A report described a thick golden mane on a powerful feline body.,0.2731316089630127,0.3022792637348175,-0.02914765477180481,True,14
+tiger,lion,3,unrelated,A report described new curtains inside a public office.,-0.00724322535097599,0.02141409181058407,-0.02865731716156006,True,10
+piano,violin,1,X,A musician played a large keyboard with black and white keys.,0.469137966632843,0.24653713405132294,0.22260083258152008,True,12
+piano,violin,1,Y,A musician played a small wooden instrument with a bow.,0.31212711334228516,0.432381272315979,-0.12025415897369385,True,11
+piano,violin,1,unrelated,A musician carried a folded map in a shoulder bag.,0.29750335216522217,0.17462164163589478,0.12288171052932739,True,11
+piano,violin,2,X,An instructor explained how hammers strike strings inside a keyboard.,0.43682408332824707,0.29368677735328674,0.14313730597496033,True,12
+piano,violin,2,Y,An instructor explained how a bow draws sound across four strings.,0.2504838705062866,0.4044201970100403,-0.15393632650375366,True,12
+piano,violin,2,unrelated,An instructor explained how to arrange files inside a cabinet.,0.18881776928901672,0.1401495635509491,0.04866820573806763,True,11
+piano,violin,3,X,A recital featured chords produced by pressing rows of keys.,0.5508030652999878,0.3285704255104065,0.2222326397895813,True,12
+piano,violin,3,Y,A recital featured melodies produced by drawing a bow.,0.3776273727416992,0.38422077894210815,-0.0065934062004089355,True,11
+piano,violin,3,unrelated,A recital featured a printed schedule pinned to a wall.,0.35924383997917175,0.26314979791641235,0.0960940420627594,True,12
+coffee,tea,1,X,A server brought a strong dark drink brewed from roasted beans.,0.4802343547344208,0.3253406286239624,0.15489372611045837,True,12
+coffee,tea,1,Y,A server brought a light warm drink steeped from dried leaves.,0.31754565238952637,0.4082036018371582,-0.09065794944763184,True,13
+coffee,tea,1,unrelated,A server brought a clean glass bowl filled with smooth stones.,0.15743136405944824,0.23639777302742004,-0.0789664089679718,True,12
+coffee,tea,2,X,A customer ordered an aromatic espresso made from ground beans.,0.43504798412323,0.21531981229782104,0.21972817182540894,True,11
+coffee,tea,2,Y,A customer ordered a fragrant infusion made from dried leaves.,0.18760186433792114,0.2788536250591278,-0.09125176072120667,True,12
+coffee,tea,2,unrelated,A customer ordered a replacement metal hinge for a cabinet.,0.16755571961402893,0.09215455502271652,0.07540116459131241,True,11
+coffee,tea,3,X,A kitchen worker prepared a bitter roasted bean beverage.,0.5032577514648438,0.2995653450489044,0.20369240641593933,True,10
+coffee,tea,3,Y,A kitchen worker prepared a gentle leafy herbal beverage.,0.3440508246421814,0.3822205662727356,-0.0381697416305542,True,11
+coffee,tea,3,unrelated,A kitchen worker prepared a labeled cardboard storage box.,0.14038780331611633,0.027938224375247955,0.11244957894086838,True,10
+ocean,river,1,X,A traveler watched endless saltwater waves reach the horizon.,0.39685431122779846,0.23629926145076752,0.16055504977703094,True,11
+ocean,river,1,Y,A traveler watched a freshwater current wind between banks.,0.28207775950431824,0.42611265182495117,-0.14403489232063293,True,10
+ocean,river,1,unrelated,A traveler watched a delivery truck stop by the warehouse.,-0.04404453933238983,0.018395133316516876,-0.06243967264890671,True,11
+ocean,river,2,X,A map displayed a vast saline expanse between continents.,0.42559078335762024,0.2040993571281433,0.22149142622947693,True,11
+ocean,river,2,Y,A map displayed a winding watercourse crossing the countryside.,0.23914454877376556,0.4231366515159607,-0.18399210274219513,True,11
+ocean,river,2,unrelated,A map displayed a grid of numbered city parking spaces.,0.014180440455675125,0.10548185557126999,-0.09130141511559486,True,11
+ocean,river,3,X,A captain navigated a deep open body of seawater.,0.4638347625732422,0.24053925275802612,0.22329550981521606,True,12
+ocean,river,3,Y,A captain navigated a narrow inland flowing waterway.,0.3245532512664795,0.34274521470069885,-0.01819196343421936,True,11
+ocean,river,3,unrelated,A captain inspected a sealed metal toolbox on the deck.,0.1161356121301651,0.061797283589839935,0.054338328540325165,True,11
+castle,palace,1,X,A historian visited a medieval fortress with battlements and a moat.,0.39818209409713745,0.24781930446624756,0.1503627896308899,True,14
+castle,palace,1,Y,A historian visited a royal residence with grand decorated halls.,0.2154051959514618,0.33674779534339905,-0.12134259939193726,True,11
+castle,palace,1,unrelated,A historian visited a municipal warehouse with steel shelves.,0.180379256606102,0.24445830285549164,-0.06407904624938965,True,10
+castle,palace,2,X,A guide described a fortified stronghold built for defensive warfare.,0.3671107590198517,0.254655659198761,0.1124550998210907,True,11
+castle,palace,2,Y,A guide described an ornate royal residence built for ceremony.,0.3332042694091797,0.4376634955406189,-0.10445922613143921,True,12
+castle,palace,2,unrelated,A guide described a public archive built for document storage.,0.09677109867334366,0.16156670451164246,-0.0647956058382988,True,11
+castle,palace,3,X,A visitor noticed thick ramparts around an old stone keep.,0.08615332841873169,0.10696694254875183,-0.02081361413002014,False,12
+castle,palace,3,Y,A visitor noticed lavish chambers inside a royal residence.,0.20648027956485748,0.33981990814208984,-0.13333962857723236,True,10
+castle,palace,3,unrelated,A visitor noticed plastic containers inside a local workshop.,0.07000061869621277,0.08428002893924713,-0.014279410243034363,True,10
+bicycle,scooter,1,X,A commuter rode a two wheeled vehicle by turning foot pedals.,0.334561824798584,0.3701077103614807,-0.03554588556289673,False,13
+bicycle,scooter,1,Y,A commuter rode a small footboard vehicle by kicking the road.,0.16430017352104187,0.3086724877357483,-0.14437231421470642,True,13
+bicycle,scooter,1,unrelated,A commuter rode an elevator between office building floors.,0.08986687660217285,0.1015610545873642,-0.011694177985191345,True,10
+bicycle,scooter,2,X,A mechanic repaired a metal chain connecting pedals to wheels.,0.28249165415763855,0.17603909969329834,0.10645255446434021,True,11
+bicycle,scooter,2,Y,A mechanic repaired a narrow standing platform with handlebars.,0.18321871757507324,0.16381044685840607,0.019408270716667175,False,11
+bicycle,scooter,2,unrelated,A mechanic repaired a broken desk lamp in the workshop.,0.04592158645391464,0.04526972398161888,0.0006518624722957611,True,11
+bicycle,scooter,3,X,A traveler parked a saddle equipped ride beside the bike lane.,0.34133225679397583,0.28095224499702454,0.060380011796951294,True,12
+bicycle,scooter,3,Y,A traveler parked a narrow deck equipped ride beside the curb.,0.24632439017295837,0.24802929162979126,-0.0017049014568328857,True,12
+bicycle,scooter,3,unrelated,A traveler parked a wheeled suitcase beside the reception desk.,0.2535887658596039,0.17350146174430847,0.08008730411529541,True,12
