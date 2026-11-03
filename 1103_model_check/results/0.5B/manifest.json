@@ -1,0 +1,27 @@
+{
+  "status": "COMPLETED",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "precision": "float32",
+  "evaluation_reused": true,
+  "code_sha256": "72017be77481fceae110ac4e63632f3a6771a45313517de206feabc816009676",
+  "plan_sha256": "14857462d188b3dc426bc7c8a60e28d855e2c9f8b8645f9b48f8e40c772a2269",
+  "source_commit": "69317f26a7bd41f15cac4c927996db3f30fe6c4d",
+  "layers": [
+    12,
+    18,
+    23,
+    24
+  ],
+  "primary_layer": 23,
+  "positions": [
+    "context_end",
+    "assistant_start"
+  ],
+  "behavior_contexts": 144,
+  "seconds": 63.670607566833496,
+  "torch": "2.11.0+cu130",
+  "transformers": "4.57.6",
+  "sklearn": "1.6.1",
+  "gpu": "Tesla T4"
+}

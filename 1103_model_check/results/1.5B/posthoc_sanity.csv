@@ -1,0 +1,31 @@
+model,target,mode,prompt,answer,exact_name_correct,post_hoc
+1.5B,banana,direct,"What fruit is long, yellow, curved, and peeled before eating? Answer with the specific name only.",Peach,False,True
+1.5B,banana,context,"Context:
+A long yellow curved fruit that is peeled before eating.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,False,True
+1.5B,apple,direct,What round red or green fruit grows in orchards and is used to make cider? Answer with the specific name only.,Apple,True,True
+1.5B,apple,context,"Context:
+A round red or green orchard fruit used to make cider.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,True,True
+1.5B,elephant,direct,"What very large animal has a long trunk, big ears, and ivory tusks? Answer with the specific name only.",Elephant,True,True
+1.5B,elephant,context,"Context:
+A very large animal with a long trunk, big ears, and ivory tusks.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,True,True
+1.5B,giraffe,direct,What spotted African animal has a very long neck and eats leaves from tall trees? Answer with the specific name only.,Giraffe,True,True
+1.5B,giraffe,context,"Context:
+A spotted African animal with a very long neck that eats leaves from tall trees.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,True,True
+1.5B,piano,direct,What musical instrument has 88 black and white keys and foot pedals? Answer with the specific name only.,Piano,True,True
+1.5B,piano,context,"Context:
+A musical instrument with 88 black and white keys and foot pedals.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Piano,True,True
+1.5B,violin,direct,What small four-stringed instrument is held under the chin and played with a bow? Answer with the specific name only.,Balalaika,False,True
+1.5B,violin,context,"Context:
+A small four-stringed instrument held under the chin and played with a bow.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,True,True

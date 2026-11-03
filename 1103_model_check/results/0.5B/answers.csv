@@ -1,0 +1,577 @@
+model,concept,target,task,split,level,text,prompt,answer,mentions,correct,tokens,truncated
+0.5B,banana,banana,naming,clear,clear,a bent golden fruit opened along several lengthwise seams,"Context:
+a bent golden fruit opened along several lengthwise seams
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Bent Golden Fruit,,False,5,False
+0.5B,banana,banana,naming,clear,clear,an elongated tropical fruit sold in connected hands,"Context:
+an elongated tropical fruit sold in connected hands
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Mango,,False,3,False
+0.5B,banana,banana,naming,clear,clear,a soft seedless snack enclosed in a curved rind,"Context:
+a soft seedless snack enclosed in a curved rind
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Strawberry,,False,4,False
+0.5B,banana,banana,naming,clear,clear,At lunch she removed three long strips of skin from the crescent fruit.,"Context:
+At lunch she removed three long strips of skin from the crescent fruit.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Crescent fruit,,False,5,False
+0.5B,banana,banana,naming,clear,clear,The green fingers ripened together on a stalk until their flesh became creamy.,"Context:
+The green fingers ripened together on a stalk until their flesh became creamy.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Watermelon,,False,3,False
+0.5B,banana,banana,naming,clear,clear,He packed the long yellow fruit in a special curved lunch container.,"Context:
+He packed the long yellow fruit in a special curved lunch container.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Yellow Plum Peach,,False,4,False
+0.5B,banana,apple,naming,clear,clear,a crunchy spherical orchard fruit with a central core,"Context:
+a crunchy spherical orchard fruit with a central core
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Orchid,,False,4,False
+0.5B,banana,apple,naming,clear,clear,a red skinned pome whose white flesh browns after cutting,"Context:
+a red skinned pome whose white flesh browns after cutting
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Peach,,False,3,False
+0.5B,banana,apple,naming,clear,clear,a round green fruit with seeds arranged around its center,"Context:
+a round green fruit with seeds arranged around its center
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Watermelon,,False,3,False
+0.5B,banana,apple,naming,clear,clear,She twisted a red fruit off the branch and bit through its crisp skin.,"Context:
+She twisted a red fruit off the branch and bit through its crisp skin.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Strawberry,,False,4,False
+0.5B,banana,apple,naming,clear,clear,The farmer pressed the round orchard harvest to make fresh cider.,"Context:
+The farmer pressed the round orchard harvest to make fresh cider.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,apple,True,2,False
+0.5B,banana,apple,naming,clear,clear,He cut away the seeded core from a firm green sphere before baking.,"Context:
+He cut away the seeded core from a firm green sphere before baking.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Strawberry,,False,4,False
+0.5B,banana,,naming,cue,medium,A smoothie recipe called for ripe tropical fruit.,"Context:
+A smoothie recipe called for ripe tropical fruit.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Avocado,,,3,False
+0.5B,banana,,naming,cue,near,The shopper peeled a long yellow fruit for a snack.,"Context:
+The shopper peeled a long yellow fruit for a snack.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Yellow apple,apple,,3,False
+0.5B,banana,,naming,cue,near,A curved yellow fruit lay beside the cereal bowl.,"Context:
+A curved yellow fruit lay beside the cereal bowl.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Yellow banana,banana,,3,False
+0.5B,banana,,naming,cue,medium,A monkey hunted for a sweet snack among leaves.,"Context:
+A monkey hunted for a sweet snack among leaves.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,apple,,2,False
+0.5B,banana,,naming,cue,medium,A monkey searched the canopy for something sweet to eat.,"Context:
+A monkey searched the canopy for something sweet to eat.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,apple,,2,False
+0.5B,banana,,naming,cue,near,A yellow curved snack was taken from its skin.,"Context:
+A yellow curved snack was taken from its skin.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Strawberry,,,4,False
+0.5B,banana,,naming,cue,far,Rainforest crops ripened during the wet season.,"Context:
+Rainforest crops ripened during the wet season.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Durian,,,3,False
+0.5B,banana,,naming,cue,far,A stall displayed imported produce in the morning.,"Context:
+A stall displayed imported produce in the morning.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apples,apple,,3,False
+0.5B,banana,,naming,cue,far,The rainforest canopy was full of small birds.,"Context:
+The rainforest canopy was full of small birds.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Banana,banana,,3,False
+0.5B,banana,,naming,cue,unrelated,A clerk stamped documents at a railway office.,"Context:
+A clerk stamped documents at a railway office.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,apple,,2,False
+0.5B,banana,,naming,cue,unrelated,The accountant mailed a tax form on Friday.,"Context:
+The accountant mailed a tax form on Friday.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Strawberry,,,4,False
+0.5B,banana,,naming,cue,unrelated,Workers repaired a cracked pavement outside the library.,"Context:
+Workers repaired a cracked pavement outside the library.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Strawberry,,,4,False
+0.5B,banana,banana,association,clear,clear,a bent golden fruit opened along several lengthwise seams,"Context:
+a bent golden fruit opened along several lengthwise seams
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Golden apple,apple,False,3,False
+0.5B,banana,banana,association,clear,clear,an elongated tropical fruit sold in connected hands,"Context:
+an elongated tropical fruit sold in connected hands
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Banana,banana,True,3,False
+0.5B,banana,banana,association,clear,clear,a soft seedless snack enclosed in a curved rind,"Context:
+a soft seedless snack enclosed in a curved rind
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Peanut butter,,False,5,False
+0.5B,banana,banana,association,clear,clear,At lunch she removed three long strips of skin from the crescent fruit.,"Context:
+At lunch she removed three long strips of skin from the crescent fruit.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Crescent fruit,,False,5,False
+0.5B,banana,banana,association,clear,clear,The green fingers ripened together on a stalk until their flesh became creamy.,"Context:
+The green fingers ripened together on a stalk until their flesh became creamy.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Stalk,,False,3,False
+0.5B,banana,banana,association,clear,clear,He packed the long yellow fruit in a special curved lunch container.,"Context:
+He packed the long yellow fruit in a special curved lunch container.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Lunch container,,False,4,False
+0.5B,banana,apple,association,clear,clear,a crunchy spherical orchard fruit with a central core,"Context:
+a crunchy spherical orchard fruit with a central core
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Orchid,,False,4,False
+0.5B,banana,apple,association,clear,clear,a red skinned pome whose white flesh browns after cutting,"Context:
+a red skinned pome whose white flesh browns after cutting
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Pomegranate,,False,5,False
+0.5B,banana,apple,association,clear,clear,a round green fruit with seeds arranged around its center,"Context:
+a round green fruit with seeds arranged around its center
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Watermelon,,False,3,False
+0.5B,banana,apple,association,clear,clear,She twisted a red fruit off the branch and bit through its crisp skin.,"Context:
+She twisted a red fruit off the branch and bit through its crisp skin.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Red fruit,,False,3,False
+0.5B,banana,apple,association,clear,clear,The farmer pressed the round orchard harvest to make fresh cider.,"Context:
+The farmer pressed the round orchard harvest to make fresh cider.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Apple tree,apple,True,3,False
+0.5B,banana,apple,association,clear,clear,He cut away the seeded core from a firm green sphere before baking.,"Context:
+He cut away the seeded core from a firm green sphere before baking.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",The single object that comes to mind is a seed.,,False,12,False
+0.5B,banana,,association,cue,medium,A smoothie recipe called for ripe tropical fruit.,"Context:
+A smoothie recipe called for ripe tropical fruit.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Ripe tropical fruit,,,5,False
+0.5B,banana,,association,cue,near,The shopper peeled a long yellow fruit for a snack.,"Context:
+The shopper peeled a long yellow fruit for a snack.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",A banana,banana,,3,False
+0.5B,banana,,association,cue,near,A curved yellow fruit lay beside the cereal bowl.,"Context:
+A curved yellow fruit lay beside the cereal bowl.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Cereal bowl,,,4,False
+0.5B,banana,,association,cue,medium,A monkey hunted for a sweet snack among leaves.,"Context:
+A monkey hunted for a sweet snack among leaves.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Leaves,,,3,False
+0.5B,banana,,association,cue,medium,A monkey searched the canopy for something sweet to eat.,"Context:
+A monkey searched the canopy for something sweet to eat.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Canopy,,,3,False
+0.5B,banana,,association,cue,near,A yellow curved snack was taken from its skin.,"Context:
+A yellow curved snack was taken from its skin.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Yellow curved snack,,,4,False
+0.5B,banana,,association,cue,far,Rainforest crops ripened during the wet season.,"Context:
+Rainforest crops ripened during the wet season.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Crops,,,3,False
+0.5B,banana,,association,cue,far,A stall displayed imported produce in the morning.,"Context:
+A stall displayed imported produce in the morning.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Stall,,,3,False
+0.5B,banana,,association,cue,far,The rainforest canopy was full of small birds.,"Context:
+The rainforest canopy was full of small birds.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Birds,,,3,False
+0.5B,banana,,association,cue,unrelated,A clerk stamped documents at a railway office.,"Context:
+A clerk stamped documents at a railway office.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",clerk stamp machine,,,5,False
+0.5B,banana,,association,cue,unrelated,The accountant mailed a tax form on Friday.,"Context:
+The accountant mailed a tax form on Friday.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Taxi,,,3,False
+0.5B,banana,,association,cue,unrelated,Workers repaired a cracked pavement outside the library.,"Context:
+Workers repaired a cracked pavement outside the library.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Pavement,,,4,False
+0.5B,elephant,elephant,naming,clear,clear,a massive tusked mammal with a prehensile nose,"Context:
+a massive tusked mammal with a prehensile nose
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Tiger,,False,3,False
+0.5B,elephant,elephant,naming,clear,clear,a gray pachyderm with broad ears and columnar legs,"Context:
+a gray pachyderm with broad ears and columnar legs
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Pachyderm,,False,6,False
+0.5B,elephant,elephant,naming,clear,clear,a land giant that drinks using a flexible trunk,"Context:
+a land giant that drinks using a flexible trunk
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Land Giant,,False,3,False
+0.5B,elephant,elephant,naming,clear,clear,The keeper offered hay and the giant curled its long nose around it.,"Context:
+The keeper offered hay and the giant curled its long nose around it.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giant Panda,,False,4,False
+0.5B,elephant,elephant,naming,clear,clear,The huge gray calf sheltered beneath its mother's broad flapping ears.,"Context:
+The huge gray calf sheltered beneath its mother's broad flapping ears.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Gray wolf,,False,3,False
+0.5B,elephant,elephant,naming,clear,clear,A heavy tusked animal used its muscular snout to lift a branch.,"Context:
+A heavy tusked animal used its muscular snout to lift a branch.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,elephant,True,3,False
+0.5B,elephant,giraffe,naming,clear,clear,a spotted ruminant with an extremely elongated neck,"Context:
+a spotted ruminant with an extremely elongated neck
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Bison,,False,3,False
+0.5B,elephant,giraffe,naming,clear,clear,a towering hoofed browser bearing two small ossicones,"Context:
+a towering hoofed browser bearing two small ossicones
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Tiger,,False,3,False
+0.5B,elephant,giraffe,naming,clear,clear,a long legged patterned mammal reaching high foliage,"Context:
+a long legged patterned mammal reaching high foliage
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Lion,,False,3,False
+0.5B,elephant,giraffe,naming,clear,clear,The animal's patchwork coat and towering neck rose above the safari truck.,"Context:
+The animal's patchwork coat and towering neck rose above the safari truck.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Lion,,False,3,False
+0.5B,elephant,giraffe,naming,clear,clear,She watched the tallest zoo mammal curl its tongue around acacia leaves.,"Context:
+She watched the tallest zoo mammal curl its tongue around acacia leaves.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Tiger,,False,3,False
+0.5B,elephant,giraffe,naming,clear,clear,The long necked browser splayed its thin forelegs to lower its head to water.,"Context:
+The long necked browser splayed its thin forelegs to lower its head to water.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Lion,,False,3,False
+0.5B,elephant,,naming,cue,near,The giant animal used a trunk to collect leaves.,"Context:
+The giant animal used a trunk to collect leaves.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giant panda,,,4,False
+0.5B,elephant,,naming,cue,medium,A safari guide discussed the world's largest land mammals.,"Context:
+A safari guide discussed the world's largest land mammals.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Lion,,,3,False
+0.5B,elephant,,naming,cue,medium,A herd of enormous herbivores crossed the savanna.,"Context:
+A herd of enormous herbivores crossed the savanna.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Lion,,,3,False
+0.5B,elephant,,naming,cue,near,Huge ears flapped as a tusked animal crossed the plain.,"Context:
+Huge ears flapped as a tusked animal crossed the plain.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Tiger,,,3,False
+0.5B,elephant,,naming,cue,near,A giant gray mammal swung its trunk by a waterhole.,"Context:
+A giant gray mammal swung its trunk by a waterhole.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giant panda,,,4,False
+0.5B,elephant,,naming,cue,medium,An enormous herbivore moved slowly across the plains.,"Context:
+An enormous herbivore moved slowly across the plains.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,giraffe,,4,False
+0.5B,elephant,,naming,cue,far,Grasslands stretched toward distant rocky hills.,"Context:
+Grasslands stretched toward distant rocky hills.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Duck,,,3,False
+0.5B,elephant,,naming,cue,far,Tourists visited a wildlife reserve before lunch.,"Context:
+Tourists visited a wildlife reserve before lunch.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Lion,,,3,False
+0.5B,elephant,,naming,cue,far,A grassland reserve opened to tourists at dawn.,"Context:
+A grassland reserve opened to tourists at dawn.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Lion,,,3,False
+0.5B,elephant,,naming,cue,unrelated,A librarian replaced several damaged catalog cards.,"Context:
+A librarian replaced several damaged catalog cards.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Cat,,,2,False
+0.5B,elephant,,naming,cue,unrelated,Subway timetables changed after maintenance.,"Context:
+Subway timetables changed after maintenance.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Dog,,,2,False
+0.5B,elephant,,naming,cue,unrelated,A mechanic inspected the steering wheel.,"Context:
+A mechanic inspected the steering wheel.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Rabbit,,,3,False
+0.5B,elephant,elephant,association,clear,clear,a massive tusked mammal with a prehensile nose,"Context:
+a massive tusked mammal with a prehensile nose
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Tusked elephant,elephant,True,5,False
+0.5B,elephant,elephant,association,clear,clear,a gray pachyderm with broad ears and columnar legs,"Context:
+a gray pachyderm with broad ears and columnar legs
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Gray rhino,,False,4,False
+0.5B,elephant,elephant,association,clear,clear,a land giant that drinks using a flexible trunk,"Context:
+a land giant that drinks using a flexible trunk
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Trunk,,False,3,False
+0.5B,elephant,elephant,association,clear,clear,The keeper offered hay and the giant curled its long nose around it.,"Context:
+The keeper offered hay and the giant curled its long nose around it.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Hay,,False,2,False
+0.5B,elephant,elephant,association,clear,clear,The huge gray calf sheltered beneath its mother's broad flapping ears.,"Context:
+The huge gray calf sheltered beneath its mother's broad flapping ears.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Gray calf,,False,3,False
+0.5B,elephant,elephant,association,clear,clear,A heavy tusked animal used its muscular snout to lift a branch.,"Context:
+A heavy tusked animal used its muscular snout to lift a branch.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Branch,,False,2,False
+0.5B,elephant,giraffe,association,clear,clear,a spotted ruminant with an extremely elongated neck,"Context:
+a spotted ruminant with an extremely elongated neck
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Rabbit,,False,3,False
+0.5B,elephant,giraffe,association,clear,clear,a towering hoofed browser bearing two small ossicones,"Context:
+a towering hoofed browser bearing two small ossicones
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",A unicorn,,False,3,False
+0.5B,elephant,giraffe,association,clear,clear,a long legged patterned mammal reaching high foliage,"Context:
+a long legged patterned mammal reaching high foliage
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Lion,,False,3,False
+0.5B,elephant,giraffe,association,clear,clear,The animal's patchwork coat and towering neck rose above the safari truck.,"Context:
+The animal's patchwork coat and towering neck rose above the safari truck.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Safari truck,,False,4,False
+0.5B,elephant,giraffe,association,clear,clear,She watched the tallest zoo mammal curl its tongue around acacia leaves.,"Context:
+She watched the tallest zoo mammal curl its tongue around acacia leaves.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Acacia leaf,,False,4,False
+0.5B,elephant,giraffe,association,clear,clear,The long necked browser splayed its thin forelegs to lower its head to water.,"Context:
+The long necked browser splayed its thin forelegs to lower its head to water.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Water,,False,2,False
+0.5B,elephant,,association,cue,near,The giant animal used a trunk to collect leaves.,"Context:
+The giant animal used a trunk to collect leaves.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Trunk,,,3,False
+0.5B,elephant,,association,cue,medium,A safari guide discussed the world's largest land mammals.,"Context:
+A safari guide discussed the world's largest land mammals.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.","The answer is a lion. The safari guide mentioned that the world's largest land mammal is a lion, which aligns with the context provided.",,,31,False
+0.5B,elephant,,association,cue,medium,A herd of enormous herbivores crossed the savanna.,"Context:
+A herd of enormous herbivores crossed the savanna.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Herbivore,,,5,False
+0.5B,elephant,,association,cue,near,Huge ears flapped as a tusked animal crossed the plain.,"Context:
+Huge ears flapped as a tusked animal crossed the plain.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Tusked animal,,,5,False
+0.5B,elephant,,association,cue,near,A giant gray mammal swung its trunk by a waterhole.,"Context:
+A giant gray mammal swung its trunk by a waterhole.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Trunk,,,3,False
+0.5B,elephant,,association,cue,medium,An enormous herbivore moved slowly across the plains.,"Context:
+An enormous herbivore moved slowly across the plains.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",A herd of cattle.,,,6,False
+0.5B,elephant,,association,cue,far,Grasslands stretched toward distant rocky hills.,"Context:
+Grasslands stretched toward distant rocky hills.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Grasslands and distant rocky hills suggest the concept of a vast expanse of open land stretching out towards mountains. The most appropriate single object that fits this description,,,32,True
+0.5B,elephant,,association,cue,far,Tourists visited a wildlife reserve before lunch.,"Context:
+Tourists visited a wildlife reserve before lunch.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Lion,,,3,False
+0.5B,elephant,,association,cue,far,A grassland reserve opened to tourists at dawn.,"Context:
+A grassland reserve opened to tourists at dawn.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Sunlight,,,3,False
+0.5B,elephant,,association,cue,unrelated,A librarian replaced several damaged catalog cards.,"Context:
+A librarian replaced several damaged catalog cards.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Catalog card,,,3,False
+0.5B,elephant,,association,cue,unrelated,Subway timetables changed after maintenance.,"Context:
+Subway timetables changed after maintenance.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Train,,,2,False
+0.5B,elephant,,association,cue,unrelated,A mechanic inspected the steering wheel.,"Context:
+A mechanic inspected the steering wheel.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Steering wheel,,,4,False
+0.5B,piano,piano,naming,clear,clear,a large keyboard instrument with hammers and sustaining pedals,"Context:
+a large keyboard instrument with hammers and sustaining pedals
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Harpsichord,,False,5,False
+0.5B,piano,piano,naming,clear,clear,an upright stringed instrument played from a bench with both hands,"Context:
+an upright stringed instrument played from a bench with both hands
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",violin,violin,False,3,False
+0.5B,piano,piano,naming,clear,clear,a concert instrument with eighty eight black and white keys,"Context:
+a concert instrument with eighty eight black and white keys
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Harmonica,,False,4,False
+0.5B,piano,piano,naming,clear,clear,The technician adjusted felt hammers behind the instrument's broad keyboard.,"Context:
+The technician adjusted felt hammers behind the instrument's broad keyboard.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Harmonica,,False,4,False
+0.5B,piano,piano,naming,clear,clear,She held the right pedal while striking a chord on the grand's keys.,"Context:
+She held the right pedal while striking a chord on the grand's keys.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Piano,piano,True,3,False
+0.5B,piano,piano,naming,clear,clear,Two movers wheeled the heavy upright keyboard cabinet into the classroom.,"Context:
+Two movers wheeled the heavy upright keyboard cabinet into the classroom.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",keyboard cabinet,,False,3,False
+0.5B,piano,violin,naming,clear,clear,a small four string instrument bowed beneath the chin,"Context:
+a small four string instrument bowed beneath the chin
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Bowed stringed instrument,,False,6,False
+0.5B,piano,violin,naming,clear,clear,a treble string instrument with a chinrest and carved scroll,"Context:
+a treble string instrument with a chinrest and carved scroll
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Cello,,False,3,False
+0.5B,piano,violin,naming,clear,clear,a compact wooden fiddle played with a horsehair bow,"Context:
+a compact wooden fiddle played with a horsehair bow
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Hammer drum,,False,4,False
+0.5B,piano,violin,naming,clear,clear,She tightened the bow and tucked the small instrument under her jaw.,"Context:
+She tightened the bow and tucked the small instrument under her jaw.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Piano,piano,False,3,False
+0.5B,piano,violin,naming,clear,clear,The soloist rubbed rosin on horsehair before bowing the four strings.,"Context:
+The soloist rubbed rosin on horsehair before bowing the four strings.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,violin,True,3,False
+0.5B,piano,violin,naming,clear,clear,He turned four pegs beside the scroll while supporting the instrument at his shoulder.,"Context:
+He turned four pegs beside the scroll while supporting the instrument at his shoulder.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Harpsichord,,False,5,False
+0.5B,piano,,naming,cue,medium,A music tutor introduced classical chord patterns.,"Context:
+A music tutor introduced classical chord patterns.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,violin,,3,False
+0.5B,piano,,naming,cue,far,A composer examined pages of printed notation.,"Context:
+A composer examined pages of printed notation.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",violin,violin,,3,False
+0.5B,piano,,naming,cue,near,A musician pressed black and white keys across the keyboard.,"Context:
+A musician pressed black and white keys across the keyboard.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Harmonica,,,4,False
+0.5B,piano,,naming,cue,near,A grand acoustic keyboard instrument stood on stage.,"Context:
+A grand acoustic keyboard instrument stood on stage.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Grand Piano,piano,,3,False
+0.5B,piano,,naming,cue,medium,A student practiced chords in the music room.,"Context:
+A student practiced chords in the music room.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Guitar,,,3,False
+0.5B,piano,,naming,cue,near,A long keyboard sounded as its keys were pressed.,"Context:
+A long keyboard sounded as its keys were pressed.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Piano,piano,,3,False
+0.5B,piano,,naming,cue,medium,The hall hosted a classical solo performance.,"Context:
+The hall hosted a classical solo performance.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,violin,,3,False
+0.5B,piano,,naming,cue,far,The auditorium prepared seats for an evening program.,"Context:
+The auditorium prepared seats for an evening program.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",violin,violin,,3,False
+0.5B,piano,,naming,cue,unrelated,A mechanic repaired the engine of a bus.,"Context:
+A mechanic repaired the engine of a bus.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Bicycle,,,3,False
+0.5B,piano,,naming,cue,unrelated,Rainwater collected behind the garage.,"Context:
+Rainwater collected behind the garage.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Drum,,,3,False
+0.5B,piano,,naming,cue,far,The audience entered the theater before the lights dimmed.,"Context:
+The audience entered the theater before the lights dimmed.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,violin,,3,False
+0.5B,piano,,naming,cue,unrelated,The carpenter replaced a broken window frame.,"Context:
+The carpenter replaced a broken window frame.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,violin,,3,False
+0.5B,piano,piano,association,clear,clear,a large keyboard instrument with hammers and sustaining pedals,"Context:
+a large keyboard instrument with hammers and sustaining pedals
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Hammered piano,piano,True,5,False
+0.5B,piano,piano,association,clear,clear,an upright stringed instrument played from a bench with both hands,"Context:
+an upright stringed instrument played from a bench with both hands
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",violin,violin,False,3,False
+0.5B,piano,piano,association,clear,clear,a concert instrument with eighty eight black and white keys,"Context:
+a concert instrument with eighty eight black and white keys
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Violin,violin,False,3,False
+0.5B,piano,piano,association,clear,clear,The technician adjusted felt hammers behind the instrument's broad keyboard.,"Context:
+The technician adjusted felt hammers behind the instrument's broad keyboard.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",felt hammers,,False,4,False
+0.5B,piano,piano,association,clear,clear,She held the right pedal while striking a chord on the grand's keys.,"Context:
+She held the right pedal while striking a chord on the grand's keys.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.","The instrument that comes to mind is a guitar. The phrase ""holding the right pedal while striking a chord"" typically refers to playing a guitar, where pressing down",,False,32,True
+0.5B,piano,piano,association,clear,clear,Two movers wheeled the heavy upright keyboard cabinet into the classroom.,"Context:
+Two movers wheeled the heavy upright keyboard cabinet into the classroom.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",keyboard,,False,2,False
+0.5B,piano,violin,association,clear,clear,a small four string instrument bowed beneath the chin,"Context:
+a small four string instrument bowed beneath the chin
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Bowtie,,False,4,False
+0.5B,piano,violin,association,clear,clear,a treble string instrument with a chinrest and carved scroll,"Context:
+a treble string instrument with a chinrest and carved scroll
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Violin,violin,True,3,False
+0.5B,piano,violin,association,clear,clear,a compact wooden fiddle played with a horsehair bow,"Context:
+a compact wooden fiddle played with a horsehair bow
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Horsehair bow,,False,5,False
+0.5B,piano,violin,association,clear,clear,She tightened the bow and tucked the small instrument under her jaw.,"Context:
+She tightened the bow and tucked the small instrument under her jaw.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Pen,,False,2,False
+0.5B,piano,violin,association,clear,clear,The soloist rubbed rosin on horsehair before bowing the four strings.,"Context:
+The soloist rubbed rosin on horsehair before bowing the four strings.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Horsehair,,False,4,False
+0.5B,piano,violin,association,clear,clear,He turned four pegs beside the scroll while supporting the instrument at his shoulder.,"Context:
+He turned four pegs beside the scroll while supporting the instrument at his shoulder.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Scalpel,,False,4,False
+0.5B,piano,,association,cue,medium,A music tutor introduced classical chord patterns.,"Context:
+A music tutor introduced classical chord patterns.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Chord patterns,,,4,False
+0.5B,piano,,association,cue,far,A composer examined pages of printed notation.,"Context:
+A composer examined pages of printed notation.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Notebook,,,3,False
+0.5B,piano,,association,cue,near,A musician pressed black and white keys across the keyboard.,"Context:
+A musician pressed black and white keys across the keyboard.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",keyboard,,,2,False
+0.5B,piano,,association,cue,near,A grand acoustic keyboard instrument stood on stage.,"Context:
+A grand acoustic keyboard instrument stood on stage.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Acoustic keyboard,,,4,False
+0.5B,piano,,association,cue,medium,A student practiced chords in the music room.,"Context:
+A student practiced chords in the music room.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Chordophone,,,4,False
+0.5B,piano,,association,cue,near,A long keyboard sounded as its keys were pressed.,"Context:
+A long keyboard sounded as its keys were pressed.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Keyboard,,,2,False
+0.5B,piano,,association,cue,medium,The hall hosted a classical solo performance.,"Context:
+The hall hosted a classical solo performance.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",A violin,violin,,3,False
+0.5B,piano,,association,cue,far,The auditorium prepared seats for an evening program.,"Context:
+The auditorium prepared seats for an evening program.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Auditorium seat,,,5,False
+0.5B,piano,,association,cue,unrelated,A mechanic repaired the engine of a bus.,"Context:
+A mechanic repaired the engine of a bus.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Engine,,,2,False
+0.5B,piano,,association,cue,unrelated,Rainwater collected behind the garage.,"Context:
+Rainwater collected behind the garage.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Garage door,,,4,False
+0.5B,piano,,association,cue,far,The audience entered the theater before the lights dimmed.,"Context:
+The audience entered the theater before the lights dimmed.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Light source,,,3,False
+0.5B,piano,,association,cue,unrelated,The carpenter replaced a broken window frame.,"Context:
+The carpenter replaced a broken window frame.
+
+What single object, animal, or instrument comes to mind from this context? Answer with one name only.",Carpenter's hammer,,,6,False

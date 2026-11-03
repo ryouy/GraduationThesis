@@ -1,0 +1,17 @@
+LOAD Qwen/Qwen2.5-0.5B-Instruct 7ae557604adf67be50417f59c2c2f167def9a775
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793712642.900471    1488 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793712645.864099    1488 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+CHECK 0.5B banana naming
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+CHECK 0.5B banana association
+CHECK 0.5B elephant naming
+CHECK 0.5B elephant association
+CHECK 0.5B piano naming
+CHECK 0.5B piano association
+model        task  n  correct  min_correct_per_concept  behavior_pass  min_primary_auc  probe_pass
+ 0.5B association 36        5                        0          False         1.000000        True
+ 0.5B      naming 36        4                        0          False         0.944444        True
+CHECK COMPLETED 0.5B
