@@ -82,6 +82,17 @@ def probe_plan():
     return plan
 
 
+def prefix_difference(reference, candidate):
+    absolute=float(np.max(np.abs(reference-candidate)))
+    relative=float(np.max(np.linalg.norm(reference-candidate,axis=-1)/
+                          np.maximum(np.linalg.norm(reference,axis=-1),1e-12)))
+    # T4 FP32/eager can choose different kernels for different suffix lengths.
+    # Check both absolute and layer-wise relative error; never silently disable it.
+    if absolute > 1e-3 or relative > 1e-5:
+        raise ValueError(f"Pre-cue mismatch: absolute={absolute:.8g}, relative={relative:.8g}")
+    return absolute,relative
+
+
 def analyze(measurements,design,out):
     from audit_saved_results import summarize as full_summary
     def summarize(values):
@@ -207,13 +218,14 @@ def main():
                                  for l in LAYERS]) for p in positions])
         assert np.isfinite(states).all()
         temp=file.with_suffix('.tmp.npz')
-        np.savez_compressed(temp,states=states,positions=positions,tokens=len(ids));temp.replace(file)
+        np.savez_compressed(temp,states=states,positions=positions,tokens=len(ids),
+                            prefix_hash=hashlib.sha256(np.array(ids[:positions[0]+1],dtype=np.int64).tobytes()).hexdigest());temp.replace(file)
         return states,np.asarray(positions),len(ids)
 
     # Test causal masking with a fixed prefix and two different suffixes.
     a,_,_=read(prompt('banana','neutral','The room contained a wooden table.',0,0))
     b,_,_=read(prompt('banana','neutral','The room contained a curved yellow fruit.',0,0))
-    assert np.max(np.abs(a[0]-b[0]))<1e-5
+    prefix_difference(a[0],b[0])
     # Audit equal instruction token counts and actual readout positions, not word counts.
     diagnostics=[]
     for target in sorted(set(design.apply(lambda r:r.concept if r.target_role=='X' else r.comparison,axis=1))):
@@ -279,13 +291,21 @@ def main():
                 auc=roc_auc_score([e['label'] for e in held],clf.decision_function(ev))
                 shuffle_controls.append(dict(concept=x,repeat=repeat,layer=layer,auc=float(auc)))
         pd.DataFrame(shuffle_controls).to_csv(out/'probe_label_shuffle_controls.csv',index=False)
-        states=[];metadata=[];references={}
+        states=[];metadata=[];references={};prefix_audit=[]
         for r in g.itertuples():
             h,pos,n=read(r.prompt);assert h.shape[0]==2
             group=(r.target_role,r.condition,r.instruction_frame,r.context_frame)
+            with np.load(cache/(r.feature_key+'.npz')) as saved:
+                prefix_hash=str(saved['prefix_hash'])
             if group in references:
-                assert np.max(np.abs(references[group]-h[0]))<1e-5
-            else:references[group]=h[0].copy()
+                ref,expected_hash=references[group]
+                assert prefix_hash==expected_hash, 'Actual pre-cue input tokens differ.'
+                absolute,relative=prefix_difference(ref,h[0])
+            else:
+                references[group]=(h[0].copy(),prefix_hash)
+                absolute,relative=0.,0.
+            prefix_audit.append(dict(design_row=r.design_row,absolute=absolute,relative=relative,
+                                     token_prefix_identical=True))
             states.append(h);metadata.append((r.design_row,r.target_role,pos,n))
         features=np.stack(states) # prompt x pre/post x layer x hidden
         records=[]
@@ -311,6 +331,7 @@ def main():
                         delta_target_std=sign*(raw[i,1]-raw[i,0]),
                         pre_pos=int(pos[0]),post_pos=int(pos[1]),prompt_tokens=n))
         file=out/f'measurements_{x}.csv';pd.DataFrame(records).to_csv(file,index=False);fragments.append(file)
+        pd.DataFrame(prefix_audit).to_csv(out/f'prefix_invariance_{x}.csv',index=False)
         pd.DataFrame(all_validation).to_csv(out/'probe_validation.csv',index=False)
         del features,states,records
     measurements=pd.concat([pd.read_csv(f) for f in fragments],ignore_index=True)

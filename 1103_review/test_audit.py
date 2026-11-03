@@ -5,10 +5,19 @@ import unittest
 import numpy as np
 import pandas as pd
 from audit_saved_results import holm, summarize, rebuild_v3, ROOT
-from run_robustness import make_design, probe_plan, analyze
+from run_robustness import make_design, probe_plan, analyze, prefix_difference
 
 
 class AuditTests(unittest.TestCase):
+    def test_prefix_roundoff_guard(self):
+        reference=np.ones((24,896))*10
+        a,r=prefix_difference(reference,reference+1e-6)
+        self.assertLess(a,1e-3)
+        with self.assertRaises(ValueError):
+            prefix_difference(reference,reference+.1)
+        with self.assertRaises(ValueError):
+            prefix_difference(np.ones((24,896))*1e-5,np.ones((24,896))*2e-5)
+
     def test_holm_known_values(self):
         np.testing.assert_allclose(holm([.01,.04,.03]),[.03,.06,.06])
 
