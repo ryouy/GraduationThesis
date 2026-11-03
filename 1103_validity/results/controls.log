@@ -1,0 +1,34 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793700749.792970    3863 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793700752.961020    3863 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+Legacy controlled check: banana
+Legacy controlled check: elephant
+Legacy controlled check: piano
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+ concept  layer       split  n_prompts  n_unique_descriptions      auc
+  banana     22 old_holdout         12                      6 0.777778
+  banana     22 new_holdout         48                     24 0.526042
+  banana     23 old_holdout         12                      6 0.805556
+  banana     23 new_holdout         48                     24 0.494792
+  banana     24 old_holdout         12                      6 0.805556
+  banana     24 new_holdout         48                     24 0.508681
+elephant     22 old_holdout         12                      6 1.000000
+elephant     22 new_holdout         48                     24 0.652778
+elephant     23 old_holdout         12                      6 1.000000
+elephant     23 new_holdout         48                     24 0.682292
+elephant     24 old_holdout         12                      6 0.888889
+elephant     24 new_holdout         48                     24 0.748264
+   piano     22 old_holdout         12                      6 0.972222
+   piano     22 new_holdout         48                     24 0.904514
+   piano     23 old_holdout         12                      6 1.000000
+   piano     23 new_holdout         48                     24 0.953125
+   piano     24 old_holdout         12                      6 1.000000
+   piano     24 new_holdout         48                     24 0.954861
+                 sum  count
+question_mode              
+original           0      9
+specific_naming    3      9
+CONTROLS COMPLETED

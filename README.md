@@ -1,5 +1,7 @@
 # Graduation Thesis｜LLMにおける抑制概念と意味的距離の内部表現解析
 
+**最新：** [本実験前の測定妥当性パイロット](1103_validity/README.md)を実行済み。新しい説明へのProbeの汎化と命名課題に弱さが見られたため、本実験前に測定・刺激設計を改善する。
+
 **研究テーマ（仮題）：** *Effects of Semantic Distance on Suppressed Concept Representations in Large Language Models*  
 **モデル：** `Qwen/Qwen2.5-0.5B-Instruct`  
 **研究状況：** 予備実験・層別解析・X/Y対照実験v3を実施済み（v3実行日：2026年10月20日）。2026年11月3日に保存データの再解析とコード監査を実施。追加推論実験（4,608入力・20 Probe学習構成）もT4 GPUで実行済み。

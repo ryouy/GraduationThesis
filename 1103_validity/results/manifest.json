@@ -1,0 +1,30 @@
+{
+  "status": "COMPLETED",
+  "contexts": 216,
+  "concept_pairs": {
+    "banana": "apple",
+    "elephant": "giraffe",
+    "piano": "violin"
+  },
+  "layers": [
+    22,
+    23,
+    24
+  ],
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "heldout_descriptions_per_class": 12,
+  "decision_rules": "See PLAN.md. Diagnostic pilot, not confirmatory inference.",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.57.6",
+  "sklearn": "1.6.1",
+  "code_sha256": "2bacd38c5f561acf8cd170eec2229fac955758978a62ebff53b6733ce093020b",
+  "plan_sha256": "3e0de6141c18244bbc467ba2179dea6c7bee60d2578b6dab03530024a2a982b9",
+  "heldout_sha256": "a02e4803668932e75c33df6bf26ffe9405d1b62f97e4d91227fa4caf329d2239",
+  "caveats": [
+    "Three purposively chosen concept pairs; no population-level significance claim.",
+    "Probe score differences across positions use separate fitted probes.",
+    "Lowercase candidate token-sequence log probabilities are not concept-activation probabilities.",
+    "Greedy output counts summarize different cues, not repeated random trials."
+  ]
+}

@@ -1,0 +1,33 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793700933.736655    4693 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793700936.333332    4693 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+Legacy controlled check: banana
+Legacy controlled check: elephant
+Legacy controlled check: piano
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+ concept  layer       split  n_prompts  n_unique_descriptions      auc
+  banana     22 old_holdout         12                      6 0.833333
+  banana     22 new_holdout         48                     24 0.571181
+  banana     23 old_holdout         12                      6 0.805556
+  banana     23 new_holdout         48                     24 0.534722
+  banana     24 old_holdout         12                      6 0.777778
+  banana     24 new_holdout         48                     24 0.564236
+elephant     22 old_holdout         12                      6 0.861111
+elephant     22 new_holdout         48                     24 0.697917
+elephant     23 old_holdout         12                      6 0.944444
+elephant     23 new_holdout         48                     24 0.701389
+elephant     24 old_holdout         12                      6 0.833333
+elephant     24 new_holdout         48                     24 0.762153
+   piano     22 old_holdout         12                      6 0.972222
+   piano     22 new_holdout         48                     24 0.951389
+   piano     23 old_holdout         12                      6 0.972222
+   piano     23 new_holdout         48                     24 0.963542
+   piano     24 old_holdout         12                      6 1.000000
+   piano     24 new_holdout         48                     24 0.968750
+                 sum  count
+question_mode              
+original           0      9
+specific_naming    3      9
+CONTROLS COMPLETED

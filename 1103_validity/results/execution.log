@@ -1,0 +1,22 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793700430.703674    2382 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793700433.233133    2382 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+Probe: banana markers
+Probe: banana natural
+Probe: elephant markers
+Probe: elephant natural
+Probe: piano markers
+Probe: piano natural
+Contexts: 0 / 216
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Contexts: 24 / 216
+Contexts: 48 / 216
+Contexts: 72 / 216
+Contexts: 96 / 216
+Contexts: 120 / 216
+Contexts: 144 / 216
+Contexts: 168 / 216
+Contexts: 192 / 216
+COMPLETED /content/validity-pilot-20261103

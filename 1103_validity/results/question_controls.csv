@@ -1,0 +1,19 @@
+concept,cue,question_mode,question,answer,target_mention
+banana,The shopper peeled a long yellow fruit for a snack.,original,"What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",fruit,False
+banana,The shopper peeled a long yellow fruit for a snack.,specific_naming,"Which specific fruit is described? Answer with its specific name, not a part or a broad category.",Yellow fruit,False
+banana,A curved yellow fruit lay beside the cereal bowl.,original,"What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",cereal bowl,False
+banana,A curved yellow fruit lay beside the cereal bowl.,specific_naming,"Which specific fruit is described? Answer with its specific name, not a part or a broad category.",Yellow banana,True
+banana,A yellow curved snack was taken from its skin.,original,"What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",snack,False
+banana,A yellow curved snack was taken from its skin.,specific_naming,"Which specific fruit is described? Answer with its specific name, not a part or a broad category.",Strawberry,False
+elephant,A giant gray mammal swung its trunk by a waterhole.,original,"What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",trunk,False
+elephant,A giant gray mammal swung its trunk by a waterhole.,specific_naming,"Which specific animal is described? Answer with its specific name, not a part or a broad category.",The giant gray mammal in the context is a rhin,False
+elephant,Huge ears flapped as a tusked animal crossed the plain.,original,"What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",tusk,False
+elephant,Huge ears flapped as a tusked animal crossed the plain.,specific_naming,"Which specific animal is described? Answer with its specific name, not a part or a broad category.",Tusked elephant,True
+elephant,The giant animal used a trunk to collect leaves.,original,"What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",trunk,False
+elephant,The giant animal used a trunk to collect leaves.,specific_naming,"Which specific animal is described? Answer with its specific name, not a part or a broad category.",Giant panda,False
+piano,A musician pressed black and white keys across the keyboard.,original,"What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",keyboard,False
+piano,A musician pressed black and white keys across the keyboard.,specific_naming,"Which specific musical instrument is described? Answer with its specific name, not a part or a broad category.",Violin,False
+piano,A grand acoustic keyboard instrument stood on stage.,original,"What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",keyboard,False
+piano,A grand acoustic keyboard instrument stood on stage.,specific_naming,"Which specific musical instrument is described? Answer with its specific name, not a part or a broad category.",Acoustic keyboard,False
+piano,A long keyboard sounded as its keys were pressed.,original,"What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",keyboard,False
+piano,A long keyboard sounded as its keys were pressed.,specific_naming,"Which specific musical instrument is described? Answer with its specific name, not a part or a broad category.",The specific musical instrument described in the given context is a piano,True

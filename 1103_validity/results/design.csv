@@ -1,0 +1,973 @@
+input_id,concept,comparison,cue,proposed_level,distance,format,condition,content,context_end_char
+0,banana,apple,A smoothie recipe called for ripe tropical fruit.,medium,0.5703339576721191,markers,cue_only,"Read the following context.
+STATE:
+A smoothie recipe called for ripe tropical fruit.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",91
+1,banana,apple,A smoothie recipe called for ripe tropical fruit.,medium,0.5703339576721191,markers,neutral,"You may think about banana. Read the following context.
+STATE:
+A smoothie recipe called for ripe tropical fruit.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",119
+2,banana,apple,A smoothie recipe called for ripe tropical fruit.,medium,0.5703339576721191,markers,suppression,"Do not think about banana. Read the following context.
+STATE:
+A smoothie recipe called for ripe tropical fruit.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",118
+3,banana,apple,A smoothie recipe called for ripe tropical fruit.,medium,0.5703339576721191,natural,cue_only,"Read the following context.
+Context:
+A smoothie recipe called for ripe tropical fruit.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",86
+4,banana,apple,A smoothie recipe called for ripe tropical fruit.,medium,0.5703339576721191,natural,neutral,"You may think about banana. Read the following context.
+Context:
+A smoothie recipe called for ripe tropical fruit.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",114
+5,banana,apple,A smoothie recipe called for ripe tropical fruit.,medium,0.5703339576721191,natural,suppression,"Do not think about banana. Read the following context.
+Context:
+A smoothie recipe called for ripe tropical fruit.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",113
+6,banana,apple,The shopper peeled a long yellow fruit for a snack.,near,0.635342001914978,markers,cue_only,"Read the following context.
+STATE:
+The shopper peeled a long yellow fruit for a snack.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",93
+7,banana,apple,The shopper peeled a long yellow fruit for a snack.,near,0.635342001914978,markers,neutral,"You may think about banana. Read the following context.
+STATE:
+The shopper peeled a long yellow fruit for a snack.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",121
+8,banana,apple,The shopper peeled a long yellow fruit for a snack.,near,0.635342001914978,markers,suppression,"Do not think about banana. Read the following context.
+STATE:
+The shopper peeled a long yellow fruit for a snack.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",120
+9,banana,apple,The shopper peeled a long yellow fruit for a snack.,near,0.635342001914978,natural,cue_only,"Read the following context.
+Context:
+The shopper peeled a long yellow fruit for a snack.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",88
+10,banana,apple,The shopper peeled a long yellow fruit for a snack.,near,0.635342001914978,natural,neutral,"You may think about banana. Read the following context.
+Context:
+The shopper peeled a long yellow fruit for a snack.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",116
+11,banana,apple,The shopper peeled a long yellow fruit for a snack.,near,0.635342001914978,natural,suppression,"Do not think about banana. Read the following context.
+Context:
+The shopper peeled a long yellow fruit for a snack.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",115
+12,banana,apple,A curved yellow fruit lay beside the cereal bowl.,near,0.6423594951629639,markers,cue_only,"Read the following context.
+STATE:
+A curved yellow fruit lay beside the cereal bowl.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",91
+13,banana,apple,A curved yellow fruit lay beside the cereal bowl.,near,0.6423594951629639,markers,neutral,"You may think about banana. Read the following context.
+STATE:
+A curved yellow fruit lay beside the cereal bowl.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",119
+14,banana,apple,A curved yellow fruit lay beside the cereal bowl.,near,0.6423594951629639,markers,suppression,"Do not think about banana. Read the following context.
+STATE:
+A curved yellow fruit lay beside the cereal bowl.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",118
+15,banana,apple,A curved yellow fruit lay beside the cereal bowl.,near,0.6423594951629639,natural,cue_only,"Read the following context.
+Context:
+A curved yellow fruit lay beside the cereal bowl.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",86
+16,banana,apple,A curved yellow fruit lay beside the cereal bowl.,near,0.6423594951629639,natural,neutral,"You may think about banana. Read the following context.
+Context:
+A curved yellow fruit lay beside the cereal bowl.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",114
+17,banana,apple,A curved yellow fruit lay beside the cereal bowl.,near,0.6423594951629639,natural,suppression,"Do not think about banana. Read the following context.
+Context:
+A curved yellow fruit lay beside the cereal bowl.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",113
+18,banana,apple,A monkey hunted for a sweet snack among leaves.,medium,0.64940345287323,markers,cue_only,"Read the following context.
+STATE:
+A monkey hunted for a sweet snack among leaves.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",89
+19,banana,apple,A monkey hunted for a sweet snack among leaves.,medium,0.64940345287323,markers,neutral,"You may think about banana. Read the following context.
+STATE:
+A monkey hunted for a sweet snack among leaves.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",117
+20,banana,apple,A monkey hunted for a sweet snack among leaves.,medium,0.64940345287323,markers,suppression,"Do not think about banana. Read the following context.
+STATE:
+A monkey hunted for a sweet snack among leaves.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",116
+21,banana,apple,A monkey hunted for a sweet snack among leaves.,medium,0.64940345287323,natural,cue_only,"Read the following context.
+Context:
+A monkey hunted for a sweet snack among leaves.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",84
+22,banana,apple,A monkey hunted for a sweet snack among leaves.,medium,0.64940345287323,natural,neutral,"You may think about banana. Read the following context.
+Context:
+A monkey hunted for a sweet snack among leaves.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",112
+23,banana,apple,A monkey hunted for a sweet snack among leaves.,medium,0.64940345287323,natural,suppression,"Do not think about banana. Read the following context.
+Context:
+A monkey hunted for a sweet snack among leaves.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",111
+24,banana,apple,A monkey searched the canopy for something sweet to eat.,medium,0.6580110192298889,markers,cue_only,"Read the following context.
+STATE:
+A monkey searched the canopy for something sweet to eat.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",98
+25,banana,apple,A monkey searched the canopy for something sweet to eat.,medium,0.6580110192298889,markers,neutral,"You may think about banana. Read the following context.
+STATE:
+A monkey searched the canopy for something sweet to eat.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",126
+26,banana,apple,A monkey searched the canopy for something sweet to eat.,medium,0.6580110192298889,markers,suppression,"Do not think about banana. Read the following context.
+STATE:
+A monkey searched the canopy for something sweet to eat.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",125
+27,banana,apple,A monkey searched the canopy for something sweet to eat.,medium,0.6580110192298889,natural,cue_only,"Read the following context.
+Context:
+A monkey searched the canopy for something sweet to eat.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",93
+28,banana,apple,A monkey searched the canopy for something sweet to eat.,medium,0.6580110192298889,natural,neutral,"You may think about banana. Read the following context.
+Context:
+A monkey searched the canopy for something sweet to eat.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",121
+29,banana,apple,A monkey searched the canopy for something sweet to eat.,medium,0.6580110192298889,natural,suppression,"Do not think about banana. Read the following context.
+Context:
+A monkey searched the canopy for something sweet to eat.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",120
+30,banana,apple,A yellow curved snack was taken from its skin.,near,0.6933371424674988,markers,cue_only,"Read the following context.
+STATE:
+A yellow curved snack was taken from its skin.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",88
+31,banana,apple,A yellow curved snack was taken from its skin.,near,0.6933371424674988,markers,neutral,"You may think about banana. Read the following context.
+STATE:
+A yellow curved snack was taken from its skin.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",116
+32,banana,apple,A yellow curved snack was taken from its skin.,near,0.6933371424674988,markers,suppression,"Do not think about banana. Read the following context.
+STATE:
+A yellow curved snack was taken from its skin.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",115
+33,banana,apple,A yellow curved snack was taken from its skin.,near,0.6933371424674988,natural,cue_only,"Read the following context.
+Context:
+A yellow curved snack was taken from its skin.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",83
+34,banana,apple,A yellow curved snack was taken from its skin.,near,0.6933371424674988,natural,neutral,"You may think about banana. Read the following context.
+Context:
+A yellow curved snack was taken from its skin.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",111
+35,banana,apple,A yellow curved snack was taken from its skin.,near,0.6933371424674988,natural,suppression,"Do not think about banana. Read the following context.
+Context:
+A yellow curved snack was taken from its skin.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",110
+36,banana,apple,Rainforest crops ripened during the wet season.,far,0.7254006862640381,markers,cue_only,"Read the following context.
+STATE:
+Rainforest crops ripened during the wet season.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",89
+37,banana,apple,Rainforest crops ripened during the wet season.,far,0.7254006862640381,markers,neutral,"You may think about banana. Read the following context.
+STATE:
+Rainforest crops ripened during the wet season.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",117
+38,banana,apple,Rainforest crops ripened during the wet season.,far,0.7254006862640381,markers,suppression,"Do not think about banana. Read the following context.
+STATE:
+Rainforest crops ripened during the wet season.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",116
+39,banana,apple,Rainforest crops ripened during the wet season.,far,0.7254006862640381,natural,cue_only,"Read the following context.
+Context:
+Rainforest crops ripened during the wet season.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",84
+40,banana,apple,Rainforest crops ripened during the wet season.,far,0.7254006862640381,natural,neutral,"You may think about banana. Read the following context.
+Context:
+Rainforest crops ripened during the wet season.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",112
+41,banana,apple,Rainforest crops ripened during the wet season.,far,0.7254006862640381,natural,suppression,"Do not think about banana. Read the following context.
+Context:
+Rainforest crops ripened during the wet season.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",111
+42,banana,apple,A stall displayed imported produce in the morning.,far,0.7844799906015396,markers,cue_only,"Read the following context.
+STATE:
+A stall displayed imported produce in the morning.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",92
+43,banana,apple,A stall displayed imported produce in the morning.,far,0.7844799906015396,markers,neutral,"You may think about banana. Read the following context.
+STATE:
+A stall displayed imported produce in the morning.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",120
+44,banana,apple,A stall displayed imported produce in the morning.,far,0.7844799906015396,markers,suppression,"Do not think about banana. Read the following context.
+STATE:
+A stall displayed imported produce in the morning.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",119
+45,banana,apple,A stall displayed imported produce in the morning.,far,0.7844799906015396,natural,cue_only,"Read the following context.
+Context:
+A stall displayed imported produce in the morning.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",87
+46,banana,apple,A stall displayed imported produce in the morning.,far,0.7844799906015396,natural,neutral,"You may think about banana. Read the following context.
+Context:
+A stall displayed imported produce in the morning.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",115
+47,banana,apple,A stall displayed imported produce in the morning.,far,0.7844799906015396,natural,suppression,"Do not think about banana. Read the following context.
+Context:
+A stall displayed imported produce in the morning.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",114
+48,banana,apple,The rainforest canopy was full of small birds.,far,0.8048133850097656,markers,cue_only,"Read the following context.
+STATE:
+The rainforest canopy was full of small birds.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",88
+49,banana,apple,The rainforest canopy was full of small birds.,far,0.8048133850097656,markers,neutral,"You may think about banana. Read the following context.
+STATE:
+The rainforest canopy was full of small birds.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",116
+50,banana,apple,The rainforest canopy was full of small birds.,far,0.8048133850097656,markers,suppression,"Do not think about banana. Read the following context.
+STATE:
+The rainforest canopy was full of small birds.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",115
+51,banana,apple,The rainforest canopy was full of small birds.,far,0.8048133850097656,natural,cue_only,"Read the following context.
+Context:
+The rainforest canopy was full of small birds.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",83
+52,banana,apple,The rainforest canopy was full of small birds.,far,0.8048133850097656,natural,neutral,"You may think about banana. Read the following context.
+Context:
+The rainforest canopy was full of small birds.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",111
+53,banana,apple,The rainforest canopy was full of small birds.,far,0.8048133850097656,natural,suppression,"Do not think about banana. Read the following context.
+Context:
+The rainforest canopy was full of small birds.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",110
+54,banana,apple,A clerk stamped documents at a railway office.,unrelated,0.9589942172169684,markers,cue_only,"Read the following context.
+STATE:
+A clerk stamped documents at a railway office.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",88
+55,banana,apple,A clerk stamped documents at a railway office.,unrelated,0.9589942172169684,markers,neutral,"You may think about banana. Read the following context.
+STATE:
+A clerk stamped documents at a railway office.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",116
+56,banana,apple,A clerk stamped documents at a railway office.,unrelated,0.9589942172169684,markers,suppression,"Do not think about banana. Read the following context.
+STATE:
+A clerk stamped documents at a railway office.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",115
+57,banana,apple,A clerk stamped documents at a railway office.,unrelated,0.9589942172169684,natural,cue_only,"Read the following context.
+Context:
+A clerk stamped documents at a railway office.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",83
+58,banana,apple,A clerk stamped documents at a railway office.,unrelated,0.9589942172169684,natural,neutral,"You may think about banana. Read the following context.
+Context:
+A clerk stamped documents at a railway office.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",111
+59,banana,apple,A clerk stamped documents at a railway office.,unrelated,0.9589942172169684,natural,suppression,"Do not think about banana. Read the following context.
+Context:
+A clerk stamped documents at a railway office.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",110
+60,banana,apple,The accountant mailed a tax form on Friday.,unrelated,1.0573126152157784,markers,cue_only,"Read the following context.
+STATE:
+The accountant mailed a tax form on Friday.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",85
+61,banana,apple,The accountant mailed a tax form on Friday.,unrelated,1.0573126152157784,markers,neutral,"You may think about banana. Read the following context.
+STATE:
+The accountant mailed a tax form on Friday.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",113
+62,banana,apple,The accountant mailed a tax form on Friday.,unrelated,1.0573126152157784,markers,suppression,"Do not think about banana. Read the following context.
+STATE:
+The accountant mailed a tax form on Friday.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",112
+63,banana,apple,The accountant mailed a tax form on Friday.,unrelated,1.0573126152157784,natural,cue_only,"Read the following context.
+Context:
+The accountant mailed a tax form on Friday.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",80
+64,banana,apple,The accountant mailed a tax form on Friday.,unrelated,1.0573126152157784,natural,neutral,"You may think about banana. Read the following context.
+Context:
+The accountant mailed a tax form on Friday.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",108
+65,banana,apple,The accountant mailed a tax form on Friday.,unrelated,1.0573126152157784,natural,suppression,"Do not think about banana. Read the following context.
+Context:
+The accountant mailed a tax form on Friday.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",107
+66,banana,apple,Workers repaired a cracked pavement outside the library.,unrelated,1.0763534009456637,markers,cue_only,"Read the following context.
+STATE:
+Workers repaired a cracked pavement outside the library.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",98
+67,banana,apple,Workers repaired a cracked pavement outside the library.,unrelated,1.0763534009456637,markers,neutral,"You may think about banana. Read the following context.
+STATE:
+Workers repaired a cracked pavement outside the library.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",126
+68,banana,apple,Workers repaired a cracked pavement outside the library.,unrelated,1.0763534009456637,markers,suppression,"Do not think about banana. Read the following context.
+STATE:
+Workers repaired a cracked pavement outside the library.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",125
+69,banana,apple,Workers repaired a cracked pavement outside the library.,unrelated,1.0763534009456637,natural,cue_only,"Read the following context.
+Context:
+Workers repaired a cracked pavement outside the library.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",93
+70,banana,apple,Workers repaired a cracked pavement outside the library.,unrelated,1.0763534009456637,natural,neutral,"You may think about banana. Read the following context.
+Context:
+Workers repaired a cracked pavement outside the library.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",121
+71,banana,apple,Workers repaired a cracked pavement outside the library.,unrelated,1.0763534009456637,natural,suppression,"Do not think about banana. Read the following context.
+Context:
+Workers repaired a cracked pavement outside the library.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",120
+72,elephant,giraffe,The giant animal used a trunk to collect leaves.,near,0.5912744998931885,markers,cue_only,"Read the following context.
+STATE:
+The giant animal used a trunk to collect leaves.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",90
+73,elephant,giraffe,The giant animal used a trunk to collect leaves.,near,0.5912744998931885,markers,neutral,"You may think about elephant. Read the following context.
+STATE:
+The giant animal used a trunk to collect leaves.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",120
+74,elephant,giraffe,The giant animal used a trunk to collect leaves.,near,0.5912744998931885,markers,suppression,"Do not think about elephant. Read the following context.
+STATE:
+The giant animal used a trunk to collect leaves.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",119
+75,elephant,giraffe,The giant animal used a trunk to collect leaves.,near,0.5912744998931885,natural,cue_only,"Read the following context.
+Context:
+The giant animal used a trunk to collect leaves.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",85
+76,elephant,giraffe,The giant animal used a trunk to collect leaves.,near,0.5912744998931885,natural,neutral,"You may think about elephant. Read the following context.
+Context:
+The giant animal used a trunk to collect leaves.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",115
+77,elephant,giraffe,The giant animal used a trunk to collect leaves.,near,0.5912744998931885,natural,suppression,"Do not think about elephant. Read the following context.
+Context:
+The giant animal used a trunk to collect leaves.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",114
+78,elephant,giraffe,A safari guide discussed the world's largest land mammals.,medium,0.6258081197738647,markers,cue_only,"Read the following context.
+STATE:
+A safari guide discussed the world's largest land mammals.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",100
+79,elephant,giraffe,A safari guide discussed the world's largest land mammals.,medium,0.6258081197738647,markers,neutral,"You may think about elephant. Read the following context.
+STATE:
+A safari guide discussed the world's largest land mammals.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",130
+80,elephant,giraffe,A safari guide discussed the world's largest land mammals.,medium,0.6258081197738647,markers,suppression,"Do not think about elephant. Read the following context.
+STATE:
+A safari guide discussed the world's largest land mammals.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",129
+81,elephant,giraffe,A safari guide discussed the world's largest land mammals.,medium,0.6258081197738647,natural,cue_only,"Read the following context.
+Context:
+A safari guide discussed the world's largest land mammals.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",95
+82,elephant,giraffe,A safari guide discussed the world's largest land mammals.,medium,0.6258081197738647,natural,neutral,"You may think about elephant. Read the following context.
+Context:
+A safari guide discussed the world's largest land mammals.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",125
+83,elephant,giraffe,A safari guide discussed the world's largest land mammals.,medium,0.6258081197738647,natural,suppression,"Do not think about elephant. Read the following context.
+Context:
+A safari guide discussed the world's largest land mammals.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",124
+84,elephant,giraffe,A herd of enormous herbivores crossed the savanna.,medium,0.6909445524215698,markers,cue_only,"Read the following context.
+STATE:
+A herd of enormous herbivores crossed the savanna.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",92
+85,elephant,giraffe,A herd of enormous herbivores crossed the savanna.,medium,0.6909445524215698,markers,neutral,"You may think about elephant. Read the following context.
+STATE:
+A herd of enormous herbivores crossed the savanna.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",122
+86,elephant,giraffe,A herd of enormous herbivores crossed the savanna.,medium,0.6909445524215698,markers,suppression,"Do not think about elephant. Read the following context.
+STATE:
+A herd of enormous herbivores crossed the savanna.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",121
+87,elephant,giraffe,A herd of enormous herbivores crossed the savanna.,medium,0.6909445524215698,natural,cue_only,"Read the following context.
+Context:
+A herd of enormous herbivores crossed the savanna.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",87
+88,elephant,giraffe,A herd of enormous herbivores crossed the savanna.,medium,0.6909445524215698,natural,neutral,"You may think about elephant. Read the following context.
+Context:
+A herd of enormous herbivores crossed the savanna.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",117
+89,elephant,giraffe,A herd of enormous herbivores crossed the savanna.,medium,0.6909445524215698,natural,suppression,"Do not think about elephant. Read the following context.
+Context:
+A herd of enormous herbivores crossed the savanna.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",116
+90,elephant,giraffe,Huge ears flapped as a tusked animal crossed the plain.,near,0.6979294419288635,markers,cue_only,"Read the following context.
+STATE:
+Huge ears flapped as a tusked animal crossed the plain.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",97
+91,elephant,giraffe,Huge ears flapped as a tusked animal crossed the plain.,near,0.6979294419288635,markers,neutral,"You may think about elephant. Read the following context.
+STATE:
+Huge ears flapped as a tusked animal crossed the plain.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",127
+92,elephant,giraffe,Huge ears flapped as a tusked animal crossed the plain.,near,0.6979294419288635,markers,suppression,"Do not think about elephant. Read the following context.
+STATE:
+Huge ears flapped as a tusked animal crossed the plain.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",126
+93,elephant,giraffe,Huge ears flapped as a tusked animal crossed the plain.,near,0.6979294419288635,natural,cue_only,"Read the following context.
+Context:
+Huge ears flapped as a tusked animal crossed the plain.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",92
+94,elephant,giraffe,Huge ears flapped as a tusked animal crossed the plain.,near,0.6979294419288635,natural,neutral,"You may think about elephant. Read the following context.
+Context:
+Huge ears flapped as a tusked animal crossed the plain.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",122
+95,elephant,giraffe,Huge ears flapped as a tusked animal crossed the plain.,near,0.6979294419288635,natural,suppression,"Do not think about elephant. Read the following context.
+Context:
+Huge ears flapped as a tusked animal crossed the plain.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",121
+96,elephant,giraffe,A giant gray mammal swung its trunk by a waterhole.,near,0.7199201583862305,markers,cue_only,"Read the following context.
+STATE:
+A giant gray mammal swung its trunk by a waterhole.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",93
+97,elephant,giraffe,A giant gray mammal swung its trunk by a waterhole.,near,0.7199201583862305,markers,neutral,"You may think about elephant. Read the following context.
+STATE:
+A giant gray mammal swung its trunk by a waterhole.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",123
+98,elephant,giraffe,A giant gray mammal swung its trunk by a waterhole.,near,0.7199201583862305,markers,suppression,"Do not think about elephant. Read the following context.
+STATE:
+A giant gray mammal swung its trunk by a waterhole.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",122
+99,elephant,giraffe,A giant gray mammal swung its trunk by a waterhole.,near,0.7199201583862305,natural,cue_only,"Read the following context.
+Context:
+A giant gray mammal swung its trunk by a waterhole.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",88
+100,elephant,giraffe,A giant gray mammal swung its trunk by a waterhole.,near,0.7199201583862305,natural,neutral,"You may think about elephant. Read the following context.
+Context:
+A giant gray mammal swung its trunk by a waterhole.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",118
+101,elephant,giraffe,A giant gray mammal swung its trunk by a waterhole.,near,0.7199201583862305,natural,suppression,"Do not think about elephant. Read the following context.
+Context:
+A giant gray mammal swung its trunk by a waterhole.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",117
+102,elephant,giraffe,An enormous herbivore moved slowly across the plains.,medium,0.7348852753639221,markers,cue_only,"Read the following context.
+STATE:
+An enormous herbivore moved slowly across the plains.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",95
+103,elephant,giraffe,An enormous herbivore moved slowly across the plains.,medium,0.7348852753639221,markers,neutral,"You may think about elephant. Read the following context.
+STATE:
+An enormous herbivore moved slowly across the plains.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",125
+104,elephant,giraffe,An enormous herbivore moved slowly across the plains.,medium,0.7348852753639221,markers,suppression,"Do not think about elephant. Read the following context.
+STATE:
+An enormous herbivore moved slowly across the plains.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",124
+105,elephant,giraffe,An enormous herbivore moved slowly across the plains.,medium,0.7348852753639221,natural,cue_only,"Read the following context.
+Context:
+An enormous herbivore moved slowly across the plains.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",90
+106,elephant,giraffe,An enormous herbivore moved slowly across the plains.,medium,0.7348852753639221,natural,neutral,"You may think about elephant. Read the following context.
+Context:
+An enormous herbivore moved slowly across the plains.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",120
+107,elephant,giraffe,An enormous herbivore moved slowly across the plains.,medium,0.7348852753639221,natural,suppression,"Do not think about elephant. Read the following context.
+Context:
+An enormous herbivore moved slowly across the plains.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",119
+108,elephant,giraffe,Grasslands stretched toward distant rocky hills.,far,0.8382188379764557,markers,cue_only,"Read the following context.
+STATE:
+Grasslands stretched toward distant rocky hills.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",90
+109,elephant,giraffe,Grasslands stretched toward distant rocky hills.,far,0.8382188379764557,markers,neutral,"You may think about elephant. Read the following context.
+STATE:
+Grasslands stretched toward distant rocky hills.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",120
+110,elephant,giraffe,Grasslands stretched toward distant rocky hills.,far,0.8382188379764557,markers,suppression,"Do not think about elephant. Read the following context.
+STATE:
+Grasslands stretched toward distant rocky hills.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",119
+111,elephant,giraffe,Grasslands stretched toward distant rocky hills.,far,0.8382188379764557,natural,cue_only,"Read the following context.
+Context:
+Grasslands stretched toward distant rocky hills.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",85
+112,elephant,giraffe,Grasslands stretched toward distant rocky hills.,far,0.8382188379764557,natural,neutral,"You may think about elephant. Read the following context.
+Context:
+Grasslands stretched toward distant rocky hills.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",115
+113,elephant,giraffe,Grasslands stretched toward distant rocky hills.,far,0.8382188379764557,natural,suppression,"Do not think about elephant. Read the following context.
+Context:
+Grasslands stretched toward distant rocky hills.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",114
+114,elephant,giraffe,Tourists visited a wildlife reserve before lunch.,far,0.8470529615879059,markers,cue_only,"Read the following context.
+STATE:
+Tourists visited a wildlife reserve before lunch.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",91
+115,elephant,giraffe,Tourists visited a wildlife reserve before lunch.,far,0.8470529615879059,markers,neutral,"You may think about elephant. Read the following context.
+STATE:
+Tourists visited a wildlife reserve before lunch.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",121
+116,elephant,giraffe,Tourists visited a wildlife reserve before lunch.,far,0.8470529615879059,markers,suppression,"Do not think about elephant. Read the following context.
+STATE:
+Tourists visited a wildlife reserve before lunch.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",120
+117,elephant,giraffe,Tourists visited a wildlife reserve before lunch.,far,0.8470529615879059,natural,cue_only,"Read the following context.
+Context:
+Tourists visited a wildlife reserve before lunch.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",86
+118,elephant,giraffe,Tourists visited a wildlife reserve before lunch.,far,0.8470529615879059,natural,neutral,"You may think about elephant. Read the following context.
+Context:
+Tourists visited a wildlife reserve before lunch.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",116
+119,elephant,giraffe,Tourists visited a wildlife reserve before lunch.,far,0.8470529615879059,natural,suppression,"Do not think about elephant. Read the following context.
+Context:
+Tourists visited a wildlife reserve before lunch.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",115
+120,elephant,giraffe,A grassland reserve opened to tourists at dawn.,far,0.8523457944393158,markers,cue_only,"Read the following context.
+STATE:
+A grassland reserve opened to tourists at dawn.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",89
+121,elephant,giraffe,A grassland reserve opened to tourists at dawn.,far,0.8523457944393158,markers,neutral,"You may think about elephant. Read the following context.
+STATE:
+A grassland reserve opened to tourists at dawn.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",119
+122,elephant,giraffe,A grassland reserve opened to tourists at dawn.,far,0.8523457944393158,markers,suppression,"Do not think about elephant. Read the following context.
+STATE:
+A grassland reserve opened to tourists at dawn.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",118
+123,elephant,giraffe,A grassland reserve opened to tourists at dawn.,far,0.8523457944393158,natural,cue_only,"Read the following context.
+Context:
+A grassland reserve opened to tourists at dawn.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",84
+124,elephant,giraffe,A grassland reserve opened to tourists at dawn.,far,0.8523457944393158,natural,neutral,"You may think about elephant. Read the following context.
+Context:
+A grassland reserve opened to tourists at dawn.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",114
+125,elephant,giraffe,A grassland reserve opened to tourists at dawn.,far,0.8523457944393158,natural,suppression,"Do not think about elephant. Read the following context.
+Context:
+A grassland reserve opened to tourists at dawn.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",113
+126,elephant,giraffe,A librarian replaced several damaged catalog cards.,unrelated,0.8867638036608696,markers,cue_only,"Read the following context.
+STATE:
+A librarian replaced several damaged catalog cards.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",93
+127,elephant,giraffe,A librarian replaced several damaged catalog cards.,unrelated,0.8867638036608696,markers,neutral,"You may think about elephant. Read the following context.
+STATE:
+A librarian replaced several damaged catalog cards.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",123
+128,elephant,giraffe,A librarian replaced several damaged catalog cards.,unrelated,0.8867638036608696,markers,suppression,"Do not think about elephant. Read the following context.
+STATE:
+A librarian replaced several damaged catalog cards.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",122
+129,elephant,giraffe,A librarian replaced several damaged catalog cards.,unrelated,0.8867638036608696,natural,cue_only,"Read the following context.
+Context:
+A librarian replaced several damaged catalog cards.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",88
+130,elephant,giraffe,A librarian replaced several damaged catalog cards.,unrelated,0.8867638036608696,natural,neutral,"You may think about elephant. Read the following context.
+Context:
+A librarian replaced several damaged catalog cards.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",118
+131,elephant,giraffe,A librarian replaced several damaged catalog cards.,unrelated,0.8867638036608696,natural,suppression,"Do not think about elephant. Read the following context.
+Context:
+A librarian replaced several damaged catalog cards.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",117
+132,elephant,giraffe,Subway timetables changed after maintenance.,unrelated,1.0124627044424417,markers,cue_only,"Read the following context.
+STATE:
+Subway timetables changed after maintenance.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",86
+133,elephant,giraffe,Subway timetables changed after maintenance.,unrelated,1.0124627044424417,markers,neutral,"You may think about elephant. Read the following context.
+STATE:
+Subway timetables changed after maintenance.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",116
+134,elephant,giraffe,Subway timetables changed after maintenance.,unrelated,1.0124627044424417,markers,suppression,"Do not think about elephant. Read the following context.
+STATE:
+Subway timetables changed after maintenance.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",115
+135,elephant,giraffe,Subway timetables changed after maintenance.,unrelated,1.0124627044424417,natural,cue_only,"Read the following context.
+Context:
+Subway timetables changed after maintenance.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",81
+136,elephant,giraffe,Subway timetables changed after maintenance.,unrelated,1.0124627044424417,natural,neutral,"You may think about elephant. Read the following context.
+Context:
+Subway timetables changed after maintenance.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",111
+137,elephant,giraffe,Subway timetables changed after maintenance.,unrelated,1.0124627044424417,natural,suppression,"Do not think about elephant. Read the following context.
+Context:
+Subway timetables changed after maintenance.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",110
+138,elephant,giraffe,A mechanic inspected the steering wheel.,unrelated,1.095767207443714,markers,cue_only,"Read the following context.
+STATE:
+A mechanic inspected the steering wheel.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",82
+139,elephant,giraffe,A mechanic inspected the steering wheel.,unrelated,1.095767207443714,markers,neutral,"You may think about elephant. Read the following context.
+STATE:
+A mechanic inspected the steering wheel.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",112
+140,elephant,giraffe,A mechanic inspected the steering wheel.,unrelated,1.095767207443714,markers,suppression,"Do not think about elephant. Read the following context.
+STATE:
+A mechanic inspected the steering wheel.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",111
+141,elephant,giraffe,A mechanic inspected the steering wheel.,unrelated,1.095767207443714,natural,cue_only,"Read the following context.
+Context:
+A mechanic inspected the steering wheel.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",77
+142,elephant,giraffe,A mechanic inspected the steering wheel.,unrelated,1.095767207443714,natural,neutral,"You may think about elephant. Read the following context.
+Context:
+A mechanic inspected the steering wheel.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",107
+143,elephant,giraffe,A mechanic inspected the steering wheel.,unrelated,1.095767207443714,natural,suppression,"Do not think about elephant. Read the following context.
+Context:
+A mechanic inspected the steering wheel.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",106
+144,piano,violin,A music tutor introduced classical chord patterns.,medium,0.5044834613800049,markers,cue_only,"Read the following context.
+STATE:
+A music tutor introduced classical chord patterns.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",92
+145,piano,violin,A music tutor introduced classical chord patterns.,medium,0.5044834613800049,markers,neutral,"You may think about piano. Read the following context.
+STATE:
+A music tutor introduced classical chord patterns.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",119
+146,piano,violin,A music tutor introduced classical chord patterns.,medium,0.5044834613800049,markers,suppression,"Do not think about piano. Read the following context.
+STATE:
+A music tutor introduced classical chord patterns.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",118
+147,piano,violin,A music tutor introduced classical chord patterns.,medium,0.5044834613800049,natural,cue_only,"Read the following context.
+Context:
+A music tutor introduced classical chord patterns.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",87
+148,piano,violin,A music tutor introduced classical chord patterns.,medium,0.5044834613800049,natural,neutral,"You may think about piano. Read the following context.
+Context:
+A music tutor introduced classical chord patterns.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",114
+149,piano,violin,A music tutor introduced classical chord patterns.,medium,0.5044834613800049,natural,suppression,"Do not think about piano. Read the following context.
+Context:
+A music tutor introduced classical chord patterns.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",113
+150,piano,violin,A composer examined pages of printed notation.,far,0.5219573974609375,markers,cue_only,"Read the following context.
+STATE:
+A composer examined pages of printed notation.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",88
+151,piano,violin,A composer examined pages of printed notation.,far,0.5219573974609375,markers,neutral,"You may think about piano. Read the following context.
+STATE:
+A composer examined pages of printed notation.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",115
+152,piano,violin,A composer examined pages of printed notation.,far,0.5219573974609375,markers,suppression,"Do not think about piano. Read the following context.
+STATE:
+A composer examined pages of printed notation.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",114
+153,piano,violin,A composer examined pages of printed notation.,far,0.5219573974609375,natural,cue_only,"Read the following context.
+Context:
+A composer examined pages of printed notation.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",83
+154,piano,violin,A composer examined pages of printed notation.,far,0.5219573974609375,natural,neutral,"You may think about piano. Read the following context.
+Context:
+A composer examined pages of printed notation.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",110
+155,piano,violin,A composer examined pages of printed notation.,far,0.5219573974609375,natural,suppression,"Do not think about piano. Read the following context.
+Context:
+A composer examined pages of printed notation.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",109
+156,piano,violin,A musician pressed black and white keys across the keyboard.,near,0.5528111457824707,markers,cue_only,"Read the following context.
+STATE:
+A musician pressed black and white keys across the keyboard.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",102
+157,piano,violin,A musician pressed black and white keys across the keyboard.,near,0.5528111457824707,markers,neutral,"You may think about piano. Read the following context.
+STATE:
+A musician pressed black and white keys across the keyboard.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",129
+158,piano,violin,A musician pressed black and white keys across the keyboard.,near,0.5528111457824707,markers,suppression,"Do not think about piano. Read the following context.
+STATE:
+A musician pressed black and white keys across the keyboard.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",128
+159,piano,violin,A musician pressed black and white keys across the keyboard.,near,0.5528111457824707,natural,cue_only,"Read the following context.
+Context:
+A musician pressed black and white keys across the keyboard.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",97
+160,piano,violin,A musician pressed black and white keys across the keyboard.,near,0.5528111457824707,natural,neutral,"You may think about piano. Read the following context.
+Context:
+A musician pressed black and white keys across the keyboard.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",124
+161,piano,violin,A musician pressed black and white keys across the keyboard.,near,0.5528111457824707,natural,suppression,"Do not think about piano. Read the following context.
+Context:
+A musician pressed black and white keys across the keyboard.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",123
+162,piano,violin,A grand acoustic keyboard instrument stood on stage.,near,0.5773034393787384,markers,cue_only,"Read the following context.
+STATE:
+A grand acoustic keyboard instrument stood on stage.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",94
+163,piano,violin,A grand acoustic keyboard instrument stood on stage.,near,0.5773034393787384,markers,neutral,"You may think about piano. Read the following context.
+STATE:
+A grand acoustic keyboard instrument stood on stage.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",121
+164,piano,violin,A grand acoustic keyboard instrument stood on stage.,near,0.5773034393787384,markers,suppression,"Do not think about piano. Read the following context.
+STATE:
+A grand acoustic keyboard instrument stood on stage.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",120
+165,piano,violin,A grand acoustic keyboard instrument stood on stage.,near,0.5773034393787384,natural,cue_only,"Read the following context.
+Context:
+A grand acoustic keyboard instrument stood on stage.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",89
+166,piano,violin,A grand acoustic keyboard instrument stood on stage.,near,0.5773034393787384,natural,neutral,"You may think about piano. Read the following context.
+Context:
+A grand acoustic keyboard instrument stood on stage.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",116
+167,piano,violin,A grand acoustic keyboard instrument stood on stage.,near,0.5773034393787384,natural,suppression,"Do not think about piano. Read the following context.
+Context:
+A grand acoustic keyboard instrument stood on stage.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",115
+168,piano,violin,A student practiced chords in the music room.,medium,0.617525577545166,markers,cue_only,"Read the following context.
+STATE:
+A student practiced chords in the music room.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",87
+169,piano,violin,A student practiced chords in the music room.,medium,0.617525577545166,markers,neutral,"You may think about piano. Read the following context.
+STATE:
+A student practiced chords in the music room.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",114
+170,piano,violin,A student practiced chords in the music room.,medium,0.617525577545166,markers,suppression,"Do not think about piano. Read the following context.
+STATE:
+A student practiced chords in the music room.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",113
+171,piano,violin,A student practiced chords in the music room.,medium,0.617525577545166,natural,cue_only,"Read the following context.
+Context:
+A student practiced chords in the music room.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",82
+172,piano,violin,A student practiced chords in the music room.,medium,0.617525577545166,natural,neutral,"You may think about piano. Read the following context.
+Context:
+A student practiced chords in the music room.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",109
+173,piano,violin,A student practiced chords in the music room.,medium,0.617525577545166,natural,suppression,"Do not think about piano. Read the following context.
+Context:
+A student practiced chords in the music room.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",108
+174,piano,violin,A long keyboard sounded as its keys were pressed.,near,0.636090874671936,markers,cue_only,"Read the following context.
+STATE:
+A long keyboard sounded as its keys were pressed.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",91
+175,piano,violin,A long keyboard sounded as its keys were pressed.,near,0.636090874671936,markers,neutral,"You may think about piano. Read the following context.
+STATE:
+A long keyboard sounded as its keys were pressed.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",118
+176,piano,violin,A long keyboard sounded as its keys were pressed.,near,0.636090874671936,markers,suppression,"Do not think about piano. Read the following context.
+STATE:
+A long keyboard sounded as its keys were pressed.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",117
+177,piano,violin,A long keyboard sounded as its keys were pressed.,near,0.636090874671936,natural,cue_only,"Read the following context.
+Context:
+A long keyboard sounded as its keys were pressed.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",86
+178,piano,violin,A long keyboard sounded as its keys were pressed.,near,0.636090874671936,natural,neutral,"You may think about piano. Read the following context.
+Context:
+A long keyboard sounded as its keys were pressed.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",113
+179,piano,violin,A long keyboard sounded as its keys were pressed.,near,0.636090874671936,natural,suppression,"Do not think about piano. Read the following context.
+Context:
+A long keyboard sounded as its keys were pressed.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",112
+180,piano,violin,The hall hosted a classical solo performance.,medium,0.7230274081230164,markers,cue_only,"Read the following context.
+STATE:
+The hall hosted a classical solo performance.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",87
+181,piano,violin,The hall hosted a classical solo performance.,medium,0.7230274081230164,markers,neutral,"You may think about piano. Read the following context.
+STATE:
+The hall hosted a classical solo performance.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",114
+182,piano,violin,The hall hosted a classical solo performance.,medium,0.7230274081230164,markers,suppression,"Do not think about piano. Read the following context.
+STATE:
+The hall hosted a classical solo performance.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",113
+183,piano,violin,The hall hosted a classical solo performance.,medium,0.7230274081230164,natural,cue_only,"Read the following context.
+Context:
+The hall hosted a classical solo performance.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",82
+184,piano,violin,The hall hosted a classical solo performance.,medium,0.7230274081230164,natural,neutral,"You may think about piano. Read the following context.
+Context:
+The hall hosted a classical solo performance.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",109
+185,piano,violin,The hall hosted a classical solo performance.,medium,0.7230274081230164,natural,suppression,"Do not think about piano. Read the following context.
+Context:
+The hall hosted a classical solo performance.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",108
+186,piano,violin,The auditorium prepared seats for an evening program.,far,0.7929613292217255,markers,cue_only,"Read the following context.
+STATE:
+The auditorium prepared seats for an evening program.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",95
+187,piano,violin,The auditorium prepared seats for an evening program.,far,0.7929613292217255,markers,neutral,"You may think about piano. Read the following context.
+STATE:
+The auditorium prepared seats for an evening program.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",122
+188,piano,violin,The auditorium prepared seats for an evening program.,far,0.7929613292217255,markers,suppression,"Do not think about piano. Read the following context.
+STATE:
+The auditorium prepared seats for an evening program.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",121
+189,piano,violin,The auditorium prepared seats for an evening program.,far,0.7929613292217255,natural,cue_only,"Read the following context.
+Context:
+The auditorium prepared seats for an evening program.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",90
+190,piano,violin,The auditorium prepared seats for an evening program.,far,0.7929613292217255,natural,neutral,"You may think about piano. Read the following context.
+Context:
+The auditorium prepared seats for an evening program.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",117
+191,piano,violin,The auditorium prepared seats for an evening program.,far,0.7929613292217255,natural,suppression,"Do not think about piano. Read the following context.
+Context:
+The auditorium prepared seats for an evening program.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",116
+192,piano,violin,A mechanic repaired the engine of a bus.,unrelated,0.9203984662890434,markers,cue_only,"Read the following context.
+STATE:
+A mechanic repaired the engine of a bus.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",82
+193,piano,violin,A mechanic repaired the engine of a bus.,unrelated,0.9203984662890434,markers,neutral,"You may think about piano. Read the following context.
+STATE:
+A mechanic repaired the engine of a bus.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",109
+194,piano,violin,A mechanic repaired the engine of a bus.,unrelated,0.9203984662890434,markers,suppression,"Do not think about piano. Read the following context.
+STATE:
+A mechanic repaired the engine of a bus.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",108
+195,piano,violin,A mechanic repaired the engine of a bus.,unrelated,0.9203984662890434,natural,cue_only,"Read the following context.
+Context:
+A mechanic repaired the engine of a bus.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",77
+196,piano,violin,A mechanic repaired the engine of a bus.,unrelated,0.9203984662890434,natural,neutral,"You may think about piano. Read the following context.
+Context:
+A mechanic repaired the engine of a bus.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",104
+197,piano,violin,A mechanic repaired the engine of a bus.,unrelated,0.9203984662890434,natural,suppression,"Do not think about piano. Read the following context.
+Context:
+A mechanic repaired the engine of a bus.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",103
+198,piano,violin,Rainwater collected behind the garage.,unrelated,0.9259917959570884,markers,cue_only,"Read the following context.
+STATE:
+Rainwater collected behind the garage.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",80
+199,piano,violin,Rainwater collected behind the garage.,unrelated,0.9259917959570884,markers,neutral,"You may think about piano. Read the following context.
+STATE:
+Rainwater collected behind the garage.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",107
+200,piano,violin,Rainwater collected behind the garage.,unrelated,0.9259917959570884,markers,suppression,"Do not think about piano. Read the following context.
+STATE:
+Rainwater collected behind the garage.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",106
+201,piano,violin,Rainwater collected behind the garage.,unrelated,0.9259917959570884,natural,cue_only,"Read the following context.
+Context:
+Rainwater collected behind the garage.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",75
+202,piano,violin,Rainwater collected behind the garage.,unrelated,0.9259917959570884,natural,neutral,"You may think about piano. Read the following context.
+Context:
+Rainwater collected behind the garage.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",102
+203,piano,violin,Rainwater collected behind the garage.,unrelated,0.9259917959570884,natural,suppression,"Do not think about piano. Read the following context.
+Context:
+Rainwater collected behind the garage.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",101
+204,piano,violin,The audience entered the theater before the lights dimmed.,far,0.9407563358545304,markers,cue_only,"Read the following context.
+STATE:
+The audience entered the theater before the lights dimmed.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",100
+205,piano,violin,The audience entered the theater before the lights dimmed.,far,0.9407563358545304,markers,neutral,"You may think about piano. Read the following context.
+STATE:
+The audience entered the theater before the lights dimmed.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",127
+206,piano,violin,The audience entered the theater before the lights dimmed.,far,0.9407563358545304,markers,suppression,"Do not think about piano. Read the following context.
+STATE:
+The audience entered the theater before the lights dimmed.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",126
+207,piano,violin,The audience entered the theater before the lights dimmed.,far,0.9407563358545304,natural,cue_only,"Read the following context.
+Context:
+The audience entered the theater before the lights dimmed.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",95
+208,piano,violin,The audience entered the theater before the lights dimmed.,far,0.9407563358545304,natural,neutral,"You may think about piano. Read the following context.
+Context:
+The audience entered the theater before the lights dimmed.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",122
+209,piano,violin,The audience entered the theater before the lights dimmed.,far,0.9407563358545304,natural,suppression,"Do not think about piano. Read the following context.
+Context:
+The audience entered the theater before the lights dimmed.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",121
+210,piano,violin,The carpenter replaced a broken window frame.,unrelated,0.9481365159153938,markers,cue_only,"Read the following context.
+STATE:
+The carpenter replaced a broken window frame.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",87
+211,piano,violin,The carpenter replaced a broken window frame.,unrelated,0.9481365159153938,markers,neutral,"You may think about piano. Read the following context.
+STATE:
+The carpenter replaced a broken window frame.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",114
+212,piano,violin,The carpenter replaced a broken window frame.,unrelated,0.9481365159153938,markers,suppression,"Do not think about piano. Read the following context.
+STATE:
+The carpenter replaced a broken window frame.
+STATE:
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",113
+213,piano,violin,The carpenter replaced a broken window frame.,unrelated,0.9481365159153938,natural,cue_only,"Read the following context.
+Context:
+The carpenter replaced a broken window frame.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",82
+214,piano,violin,The carpenter replaced a broken window frame.,unrelated,0.9481365159153938,natural,neutral,"You may think about piano. Read the following context.
+Context:
+The carpenter replaced a broken window frame.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",109
+215,piano,violin,The carpenter replaced a broken window frame.,unrelated,0.9481365159153938,natural,suppression,"Do not think about piano. Read the following context.
+Context:
+The carpenter replaced a broken window frame.
+What single object, animal, or instrument is most associated with this context? Answer with one lowercase English noun.",108
