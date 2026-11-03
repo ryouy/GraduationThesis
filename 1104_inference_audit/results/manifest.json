@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "torch": "2.11.0+cu130",
+  "cuda": "13.0",
+  "transformers": "4.57.6",
+  "gpu": "Tesla T4",
+  "hashes": {
+    "run.py": "0797d3947f54ca8cb1e23374d8b7cecabf5474d065bede4b2dc79b85ab334928",
+    "PLAN.md": "0169e56d6f9ace3b73307b90dadf975a856b3bbca8d42815bac8dfe87782dc71"
+  },
+  "previous_answers_hash": "cbbf9c38472fc90e02f4e0ce0aeee093759e6430148f95bd3f3a41297d1bab5a",
+  "purpose": "Implementation diagnostic on reused data; not a new validation set.",
+  "errors": 0
+}

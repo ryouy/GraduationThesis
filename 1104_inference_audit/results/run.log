@@ -1,0 +1,55 @@
+MODE legacy_fp32_eager
+`torch_dtype` is deprecated! Use `dtype` instead!
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793721723.144894     904 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793721725.607579     904 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+legacy_fp32_eager 0 /42 Mango
+legacy_fp32_eager 12 /42 Elephant
+legacy_fp32_eager 24 /42 Piano
+legacy_fp32_eager 36 /42 None
+MODE DONE legacy_fp32_eager 44.3 s
+MODE official_input_only_fp32_eager
+official_input_only_fp32_eager 0 /42 Mango
+official_input_only_fp32_eager 12 /42 Elephant
+official_input_only_fp32_eager 24 /42 Piano
+official_input_only_fp32_eager 36 /42 None
+MODE DONE official_input_only_fp32_eager 9.4 s
+MODE official_fp32_eager
+official_fp32_eager 0 /42 Mango
+official_fp32_eager 12 /42 Elephant
+official_fp32_eager 24 /42 Piano
+official_fp32_eager 36 /42 None
+MODE DONE official_fp32_eager 8.9 s
+MODE official_fp32_sdpa
+official_fp32_sdpa 0 /42 Mango
+official_fp32_sdpa 12 /42 Elephant
+official_fp32_sdpa 24 /42 Piano
+official_fp32_sdpa 36 /42 None
+MODE DONE official_fp32_sdpa 9.5 s
+MODE official_auto_sdpa
+`torch_dtype` is deprecated! Use `dtype` instead!
+official_auto_sdpa 0 /42 Mango
+official_auto_sdpa 12 /42 Elephant
+official_auto_sdpa 24 /42 Piano
+official_auto_sdpa 36 /42 None
+MODE DONE official_auto_sdpa 20.8 s
+MODE official_fp16_sdpa
+official_fp16_sdpa 0 /42 Mango
+official_fp16_sdpa 12 /42 Elephant
+official_fp16_sdpa 24 /42 Piano
+official_fp16_sdpa 36 /42 None
+MODE DONE official_fp16_sdpa 6.5 s
+CPU CHECK
+CPU ANSWER Mango
+                          mode  n  correct  clear_n  banana_correct  none_correct  matches_old
+             legacy_fp32_eager 42       25       36               0             5           42
+            official_auto_sdpa 42       25       36               1             5           40
+            official_fp16_sdpa 42       25       36               0             5           41
+           official_fp32_eager 42       25       36               0             5           42
+            official_fp32_sdpa 42       25       36               0             5           42
+official_input_only_fp32_eager 42       25       36               0             5           42
+INPUT IDS EQUAL 42 /42
+INFERENCE AUDIT COMPLETED

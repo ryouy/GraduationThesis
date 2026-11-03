@@ -1,0 +1,1009 @@
+mode,item_id,target,prompt,answer,old_answer,matches_old,tokens,found,negated,correct
+legacy_fp32_eager,banana_0,banana,"Context:
+This tropical fruit has a long curved shape and a yellow peel. People remove the peel in strips to eat the soft flesh.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Mango,Mango,True,3,,False,False
+legacy_fp32_eager,banana_1,banana,"Context:
+A bunch contains several curved yellow fruits joined at one end. Each fruit has soft pale flesh inside a thick peel.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+legacy_fp32_eager,banana_2,banana,"Context:
+The snack is a sweet yellow fruit shaped like a crescent. Its skin is peeled downward before the inside is eaten.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Watermelon,Watermelon,True,3,,False,False
+legacy_fp32_eager,banana_3,banana,"Context:
+These long fruits grow in bunches in warm countries. When ripe, their yellow skins develop brown spots and their flesh is soft.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+legacy_fp32_eager,banana_4,banana,"Context:
+A yellow fruit bends in a curve and has no hard central core. Its thick skin can be pulled off in long strips by hand.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+legacy_fp32_eager,banana_5,banana,"Context:
+The fruit is long and curved, with creamy pale flesh. It hangs in a bunch and changes from green to yellow as it ripens.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+legacy_fp32_eager,apple_0,apple,"Context:
+This round fruit grows on orchard trees and may have red or green skin. It has crunchy flesh and a seed-filled core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+legacy_fp32_eager,apple_1,apple,"Context:
+The fruit is firm and round, with a small stalk at the top. It is commonly pressed into cider and baked in pies.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+legacy_fp32_eager,apple_2,apple,"Context:
+A red-skinned orchard fruit makes a crisp crunch when bitten. Several small brown seeds sit inside its central core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+legacy_fp32_eager,apple_3,apple,"Context:
+These round fruits grow on trees in temperate orchards. Their skin can be green, red, or yellow, and their center contains a hard seeded core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+legacy_fp32_eager,apple_4,apple,"Context:
+The cook cuts a round green fruit into wedges and removes the core. Its crisp white flesh is used for a cinnamon pie.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",apple,apple,True,2,apple,False,True
+legacy_fp32_eager,apple_5,apple,"Context:
+A shiny red fruit has crunchy white flesh under its thin skin. The seeds are grouped in a core at the center.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+legacy_fp32_eager,elephant_0,elephant,"Context:
+This huge land animal has a long flexible trunk and two ivory tusks. Its large ears spread out on either side of its head.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+legacy_fp32_eager,elephant_1,elephant,"Context:
+The gray mammal picks up food with a trunk instead of using its mouth directly. It has thick legs, a massive body, and large ears.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+legacy_fp32_eager,elephant_2,elephant,"Context:
+A very large African animal sprays water over its back using its long trunk. Curved ivory tusks grow beside the trunk.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+legacy_fp32_eager,elephant_3,elephant,"Context:
+This enormous herbivore has broad ears and four thick legs. Its nose forms a long trunk that can grasp branches.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+legacy_fp32_eager,elephant_4,elephant,"Context:
+The zoo animal has wrinkled gray skin, a long trunk, and ivory tusks. It uses the tip of its trunk to lift small pieces of food.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+legacy_fp32_eager,elephant_5,elephant,"Context:
+A herd of huge gray mammals walks with their calves. The adults have long trunks and broad ears, and some have large white tusks.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+legacy_fp32_eager,giraffe_0,giraffe,"Context:
+This African animal has an exceptionally long neck and a spotted coat. It reaches leaves high in trees while standing on four long legs.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+legacy_fp32_eager,giraffe_1,giraffe,"Context:
+The tallest living land animal has brown patches on a pale body. Its very long neck lets it eat leaves above other animals.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Grizzly Bear,Grizzly Bear,True,4,,False,False
+legacy_fp32_eager,giraffe_2,giraffe,"Context:
+A tall spotted animal stretches its long neck to reach an acacia tree. Two small horn-like knobs stand on top of its head.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",elephant,elephant,True,3,elephant,False,False
+legacy_fp32_eager,giraffe_3,giraffe,"Context:
+This zoo mammal has a very long neck, long thin legs, and a patchy brown coat. Its head rises far above a nearby person.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+legacy_fp32_eager,giraffe_4,giraffe,"Context:
+The animal's neck is much longer than those of other hoofed mammals. It has a spotted coat and feeds on leaves in tall African trees.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+legacy_fp32_eager,giraffe_5,giraffe,"Context:
+A very tall African herbivore has a long dark tongue and a long neck. Brown patches cover its body, and small horn-like knobs sit above its ears.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+legacy_fp32_eager,piano_0,piano,"Context:
+This large musical instrument has 88 black and white keys. Pressing the keys makes internal hammers hit strings, and foot pedals control the sound.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Piano,Piano,True,3,piano,False,True
+legacy_fp32_eager,piano_1,piano,"Context:
+A musician sits at a bench to play this instrument with both hands. Its long keyboard has black and white keys and pedals beneath it.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",piano,piano,True,3,piano,False,True
+legacy_fp32_eager,piano_2,piano,"Context:
+The instrument has a wide keyboard, strings inside a wooden case, and felt-covered hammers. It is made in grand and upright forms.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Piano,Piano,True,3,piano,False,True
+legacy_fp32_eager,piano_3,piano,"Context:
+This acoustic keyboard instrument has 88 keys and a heavy wooden body. A player presses a pedal to let the notes continue ringing.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Acoustic Piano,Acoustic Piano,True,4,piano,False,True
+legacy_fp32_eager,piano_4,piano,"Context:
+The concert instrument has black and white keys at the front and strings under a large lid. The performer sits down and plays the keys with both hands.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",piano,piano,True,3,piano,False,True
+legacy_fp32_eager,piano_5,piano,"Context:
+An upright musical instrument stands against a wall with a bench in front. Its black and white keys move hammers that strike strings inside.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",piano,piano,True,3,piano,False,True
+legacy_fp32_eager,violin_0,violin,"Context:
+This small wooden instrument has four strings and is held under the chin. A musician draws a bow across its strings to play it.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Guqin,Guqin,True,4,,False,False
+legacy_fp32_eager,violin_1,violin,"Context:
+The player rests a small string instrument on the shoulder and beneath the chin. It has four tuning pegs and is normally played with a bow.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+legacy_fp32_eager,violin_2,violin,"Context:
+A high-pitched orchestral string instrument has four strings and a chinrest. The musician holds it under the jaw while moving a horsehair bow.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+legacy_fp32_eager,violin_3,violin,"Context:
+This small bowed instrument is the highest standard member of the orchestral string family. It has four strings and is held between the chin and shoulder.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+legacy_fp32_eager,violin_4,violin,"Context:
+The instrument has a small wooden body, four strings, and a carved scroll. A shoulder rest supports it while the player bows the strings beneath the chin.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Guqin,Guqin,True,4,,False,False
+legacy_fp32_eager,violin_5,violin,"Context:
+A musician tucks this four-stringed instrument under the chin. One hand presses the strings along its neck while the other moves a bow.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+legacy_fp32_eager,none_fruit_0,none,"Context:
+A worker sends an invoice to the head office.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+legacy_fp32_eager,none_fruit_1,none,"Context:
+A train stops at a station beside a bridge.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+legacy_fp32_eager,none_animal_0,none,"Context:
+The accountant opens a spreadsheet and checks the total.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",cow,cow,True,2,,False,False
+legacy_fp32_eager,none_animal_1,none,"Context:
+A carpenter measures a wooden shelf with a ruler.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+legacy_fp32_eager,none_instrument_0,none,"Context:
+A passenger puts a suitcase on the luggage rack.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",none,none,True,2,,False,True
+legacy_fp32_eager,none_instrument_1,none,"Context:
+The office printer runs out of paper during a meeting.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+official_input_only_fp32_eager,banana_0,banana,"Context:
+This tropical fruit has a long curved shape and a yellow peel. People remove the peel in strips to eat the soft flesh.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Mango,Mango,True,3,,False,False
+official_input_only_fp32_eager,banana_1,banana,"Context:
+A bunch contains several curved yellow fruits joined at one end. Each fruit has soft pale flesh inside a thick peel.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_input_only_fp32_eager,banana_2,banana,"Context:
+The snack is a sweet yellow fruit shaped like a crescent. Its skin is peeled downward before the inside is eaten.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Watermelon,Watermelon,True,3,,False,False
+official_input_only_fp32_eager,banana_3,banana,"Context:
+These long fruits grow in bunches in warm countries. When ripe, their yellow skins develop brown spots and their flesh is soft.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_input_only_fp32_eager,banana_4,banana,"Context:
+A yellow fruit bends in a curve and has no hard central core. Its thick skin can be pulled off in long strips by hand.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_input_only_fp32_eager,banana_5,banana,"Context:
+The fruit is long and curved, with creamy pale flesh. It hangs in a bunch and changes from green to yellow as it ripens.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_input_only_fp32_eager,apple_0,apple,"Context:
+This round fruit grows on orchard trees and may have red or green skin. It has crunchy flesh and a seed-filled core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+official_input_only_fp32_eager,apple_1,apple,"Context:
+The fruit is firm and round, with a small stalk at the top. It is commonly pressed into cider and baked in pies.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+official_input_only_fp32_eager,apple_2,apple,"Context:
+A red-skinned orchard fruit makes a crisp crunch when bitten. Several small brown seeds sit inside its central core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+official_input_only_fp32_eager,apple_3,apple,"Context:
+These round fruits grow on trees in temperate orchards. Their skin can be green, red, or yellow, and their center contains a hard seeded core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+official_input_only_fp32_eager,apple_4,apple,"Context:
+The cook cuts a round green fruit into wedges and removes the core. Its crisp white flesh is used for a cinnamon pie.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",apple,apple,True,2,apple,False,True
+official_input_only_fp32_eager,apple_5,apple,"Context:
+A shiny red fruit has crunchy white flesh under its thin skin. The seeds are grouped in a core at the center.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_input_only_fp32_eager,elephant_0,elephant,"Context:
+This huge land animal has a long flexible trunk and two ivory tusks. Its large ears spread out on either side of its head.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_input_only_fp32_eager,elephant_1,elephant,"Context:
+The gray mammal picks up food with a trunk instead of using its mouth directly. It has thick legs, a massive body, and large ears.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_input_only_fp32_eager,elephant_2,elephant,"Context:
+A very large African animal sprays water over its back using its long trunk. Curved ivory tusks grow beside the trunk.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_input_only_fp32_eager,elephant_3,elephant,"Context:
+This enormous herbivore has broad ears and four thick legs. Its nose forms a long trunk that can grasp branches.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_input_only_fp32_eager,elephant_4,elephant,"Context:
+The zoo animal has wrinkled gray skin, a long trunk, and ivory tusks. It uses the tip of its trunk to lift small pieces of food.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_input_only_fp32_eager,elephant_5,elephant,"Context:
+A herd of huge gray mammals walks with their calves. The adults have long trunks and broad ears, and some have large white tusks.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_input_only_fp32_eager,giraffe_0,giraffe,"Context:
+This African animal has an exceptionally long neck and a spotted coat. It reaches leaves high in trees while standing on four long legs.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+official_input_only_fp32_eager,giraffe_1,giraffe,"Context:
+The tallest living land animal has brown patches on a pale body. Its very long neck lets it eat leaves above other animals.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Grizzly Bear,Grizzly Bear,True,4,,False,False
+official_input_only_fp32_eager,giraffe_2,giraffe,"Context:
+A tall spotted animal stretches its long neck to reach an acacia tree. Two small horn-like knobs stand on top of its head.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",elephant,elephant,True,3,elephant,False,False
+official_input_only_fp32_eager,giraffe_3,giraffe,"Context:
+This zoo mammal has a very long neck, long thin legs, and a patchy brown coat. Its head rises far above a nearby person.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+official_input_only_fp32_eager,giraffe_4,giraffe,"Context:
+The animal's neck is much longer than those of other hoofed mammals. It has a spotted coat and feeds on leaves in tall African trees.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+official_input_only_fp32_eager,giraffe_5,giraffe,"Context:
+A very tall African herbivore has a long dark tongue and a long neck. Brown patches cover its body, and small horn-like knobs sit above its ears.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+official_input_only_fp32_eager,piano_0,piano,"Context:
+This large musical instrument has 88 black and white keys. Pressing the keys makes internal hammers hit strings, and foot pedals control the sound.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Piano,Piano,True,3,piano,False,True
+official_input_only_fp32_eager,piano_1,piano,"Context:
+A musician sits at a bench to play this instrument with both hands. Its long keyboard has black and white keys and pedals beneath it.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",piano,piano,True,3,piano,False,True
+official_input_only_fp32_eager,piano_2,piano,"Context:
+The instrument has a wide keyboard, strings inside a wooden case, and felt-covered hammers. It is made in grand and upright forms.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Piano,Piano,True,3,piano,False,True
+official_input_only_fp32_eager,piano_3,piano,"Context:
+This acoustic keyboard instrument has 88 keys and a heavy wooden body. A player presses a pedal to let the notes continue ringing.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Acoustic Piano,Acoustic Piano,True,4,piano,False,True
+official_input_only_fp32_eager,piano_4,piano,"Context:
+The concert instrument has black and white keys at the front and strings under a large lid. The performer sits down and plays the keys with both hands.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",piano,piano,True,3,piano,False,True
+official_input_only_fp32_eager,piano_5,piano,"Context:
+An upright musical instrument stands against a wall with a bench in front. Its black and white keys move hammers that strike strings inside.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",piano,piano,True,3,piano,False,True
+official_input_only_fp32_eager,violin_0,violin,"Context:
+This small wooden instrument has four strings and is held under the chin. A musician draws a bow across its strings to play it.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Guqin,Guqin,True,4,,False,False
+official_input_only_fp32_eager,violin_1,violin,"Context:
+The player rests a small string instrument on the shoulder and beneath the chin. It has four tuning pegs and is normally played with a bow.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+official_input_only_fp32_eager,violin_2,violin,"Context:
+A high-pitched orchestral string instrument has four strings and a chinrest. The musician holds it under the jaw while moving a horsehair bow.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+official_input_only_fp32_eager,violin_3,violin,"Context:
+This small bowed instrument is the highest standard member of the orchestral string family. It has four strings and is held between the chin and shoulder.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+official_input_only_fp32_eager,violin_4,violin,"Context:
+The instrument has a small wooden body, four strings, and a carved scroll. A shoulder rest supports it while the player bows the strings beneath the chin.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Guqin,Guqin,True,4,,False,False
+official_input_only_fp32_eager,violin_5,violin,"Context:
+A musician tucks this four-stringed instrument under the chin. One hand presses the strings along its neck while the other moves a bow.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+official_input_only_fp32_eager,none_fruit_0,none,"Context:
+A worker sends an invoice to the head office.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+official_input_only_fp32_eager,none_fruit_1,none,"Context:
+A train stops at a station beside a bridge.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+official_input_only_fp32_eager,none_animal_0,none,"Context:
+The accountant opens a spreadsheet and checks the total.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",cow,cow,True,2,,False,False
+official_input_only_fp32_eager,none_animal_1,none,"Context:
+A carpenter measures a wooden shelf with a ruler.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+official_input_only_fp32_eager,none_instrument_0,none,"Context:
+A passenger puts a suitcase on the luggage rack.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",none,none,True,2,,False,True
+official_input_only_fp32_eager,none_instrument_1,none,"Context:
+The office printer runs out of paper during a meeting.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+official_fp32_eager,banana_0,banana,"Context:
+This tropical fruit has a long curved shape and a yellow peel. People remove the peel in strips to eat the soft flesh.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Mango,Mango,True,3,,False,False
+official_fp32_eager,banana_1,banana,"Context:
+A bunch contains several curved yellow fruits joined at one end. Each fruit has soft pale flesh inside a thick peel.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_fp32_eager,banana_2,banana,"Context:
+The snack is a sweet yellow fruit shaped like a crescent. Its skin is peeled downward before the inside is eaten.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Watermelon,Watermelon,True,3,,False,False
+official_fp32_eager,banana_3,banana,"Context:
+These long fruits grow in bunches in warm countries. When ripe, their yellow skins develop brown spots and their flesh is soft.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_fp32_eager,banana_4,banana,"Context:
+A yellow fruit bends in a curve and has no hard central core. Its thick skin can be pulled off in long strips by hand.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_fp32_eager,banana_5,banana,"Context:
+The fruit is long and curved, with creamy pale flesh. It hangs in a bunch and changes from green to yellow as it ripens.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_fp32_eager,apple_0,apple,"Context:
+This round fruit grows on orchard trees and may have red or green skin. It has crunchy flesh and a seed-filled core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+official_fp32_eager,apple_1,apple,"Context:
+The fruit is firm and round, with a small stalk at the top. It is commonly pressed into cider and baked in pies.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+official_fp32_eager,apple_2,apple,"Context:
+A red-skinned orchard fruit makes a crisp crunch when bitten. Several small brown seeds sit inside its central core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+official_fp32_eager,apple_3,apple,"Context:
+These round fruits grow on trees in temperate orchards. Their skin can be green, red, or yellow, and their center contains a hard seeded core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+official_fp32_eager,apple_4,apple,"Context:
+The cook cuts a round green fruit into wedges and removes the core. Its crisp white flesh is used for a cinnamon pie.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",apple,apple,True,2,apple,False,True
+official_fp32_eager,apple_5,apple,"Context:
+A shiny red fruit has crunchy white flesh under its thin skin. The seeds are grouped in a core at the center.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_fp32_eager,elephant_0,elephant,"Context:
+This huge land animal has a long flexible trunk and two ivory tusks. Its large ears spread out on either side of its head.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_fp32_eager,elephant_1,elephant,"Context:
+The gray mammal picks up food with a trunk instead of using its mouth directly. It has thick legs, a massive body, and large ears.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_fp32_eager,elephant_2,elephant,"Context:
+A very large African animal sprays water over its back using its long trunk. Curved ivory tusks grow beside the trunk.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_fp32_eager,elephant_3,elephant,"Context:
+This enormous herbivore has broad ears and four thick legs. Its nose forms a long trunk that can grasp branches.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_fp32_eager,elephant_4,elephant,"Context:
+The zoo animal has wrinkled gray skin, a long trunk, and ivory tusks. It uses the tip of its trunk to lift small pieces of food.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_fp32_eager,elephant_5,elephant,"Context:
+A herd of huge gray mammals walks with their calves. The adults have long trunks and broad ears, and some have large white tusks.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_fp32_eager,giraffe_0,giraffe,"Context:
+This African animal has an exceptionally long neck and a spotted coat. It reaches leaves high in trees while standing on four long legs.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+official_fp32_eager,giraffe_1,giraffe,"Context:
+The tallest living land animal has brown patches on a pale body. Its very long neck lets it eat leaves above other animals.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Grizzly Bear,Grizzly Bear,True,4,,False,False
+official_fp32_eager,giraffe_2,giraffe,"Context:
+A tall spotted animal stretches its long neck to reach an acacia tree. Two small horn-like knobs stand on top of its head.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",elephant,elephant,True,3,elephant,False,False
+official_fp32_eager,giraffe_3,giraffe,"Context:
+This zoo mammal has a very long neck, long thin legs, and a patchy brown coat. Its head rises far above a nearby person.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+official_fp32_eager,giraffe_4,giraffe,"Context:
+The animal's neck is much longer than those of other hoofed mammals. It has a spotted coat and feeds on leaves in tall African trees.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+official_fp32_eager,giraffe_5,giraffe,"Context:
+A very tall African herbivore has a long dark tongue and a long neck. Brown patches cover its body, and small horn-like knobs sit above its ears.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+official_fp32_eager,piano_0,piano,"Context:
+This large musical instrument has 88 black and white keys. Pressing the keys makes internal hammers hit strings, and foot pedals control the sound.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Piano,Piano,True,3,piano,False,True
+official_fp32_eager,piano_1,piano,"Context:
+A musician sits at a bench to play this instrument with both hands. Its long keyboard has black and white keys and pedals beneath it.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",piano,piano,True,3,piano,False,True
+official_fp32_eager,piano_2,piano,"Context:
+The instrument has a wide keyboard, strings inside a wooden case, and felt-covered hammers. It is made in grand and upright forms.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Piano,Piano,True,3,piano,False,True
+official_fp32_eager,piano_3,piano,"Context:
+This acoustic keyboard instrument has 88 keys and a heavy wooden body. A player presses a pedal to let the notes continue ringing.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Acoustic Piano,Acoustic Piano,True,4,piano,False,True
+official_fp32_eager,piano_4,piano,"Context:
+The concert instrument has black and white keys at the front and strings under a large lid. The performer sits down and plays the keys with both hands.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",piano,piano,True,3,piano,False,True
+official_fp32_eager,piano_5,piano,"Context:
+An upright musical instrument stands against a wall with a bench in front. Its black and white keys move hammers that strike strings inside.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",piano,piano,True,3,piano,False,True
+official_fp32_eager,violin_0,violin,"Context:
+This small wooden instrument has four strings and is held under the chin. A musician draws a bow across its strings to play it.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Guqin,Guqin,True,4,,False,False
+official_fp32_eager,violin_1,violin,"Context:
+The player rests a small string instrument on the shoulder and beneath the chin. It has four tuning pegs and is normally played with a bow.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+official_fp32_eager,violin_2,violin,"Context:
+A high-pitched orchestral string instrument has four strings and a chinrest. The musician holds it under the jaw while moving a horsehair bow.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+official_fp32_eager,violin_3,violin,"Context:
+This small bowed instrument is the highest standard member of the orchestral string family. It has four strings and is held between the chin and shoulder.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+official_fp32_eager,violin_4,violin,"Context:
+The instrument has a small wooden body, four strings, and a carved scroll. A shoulder rest supports it while the player bows the strings beneath the chin.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Guqin,Guqin,True,4,,False,False
+official_fp32_eager,violin_5,violin,"Context:
+A musician tucks this four-stringed instrument under the chin. One hand presses the strings along its neck while the other moves a bow.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+official_fp32_eager,none_fruit_0,none,"Context:
+A worker sends an invoice to the head office.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+official_fp32_eager,none_fruit_1,none,"Context:
+A train stops at a station beside a bridge.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+official_fp32_eager,none_animal_0,none,"Context:
+The accountant opens a spreadsheet and checks the total.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",cow,cow,True,2,,False,False
+official_fp32_eager,none_animal_1,none,"Context:
+A carpenter measures a wooden shelf with a ruler.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+official_fp32_eager,none_instrument_0,none,"Context:
+A passenger puts a suitcase on the luggage rack.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",none,none,True,2,,False,True
+official_fp32_eager,none_instrument_1,none,"Context:
+The office printer runs out of paper during a meeting.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+official_fp32_sdpa,banana_0,banana,"Context:
+This tropical fruit has a long curved shape and a yellow peel. People remove the peel in strips to eat the soft flesh.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Mango,Mango,True,3,,False,False
+official_fp32_sdpa,banana_1,banana,"Context:
+A bunch contains several curved yellow fruits joined at one end. Each fruit has soft pale flesh inside a thick peel.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_fp32_sdpa,banana_2,banana,"Context:
+The snack is a sweet yellow fruit shaped like a crescent. Its skin is peeled downward before the inside is eaten.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Watermelon,Watermelon,True,3,,False,False
+official_fp32_sdpa,banana_3,banana,"Context:
+These long fruits grow in bunches in warm countries. When ripe, their yellow skins develop brown spots and their flesh is soft.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_fp32_sdpa,banana_4,banana,"Context:
+A yellow fruit bends in a curve and has no hard central core. Its thick skin can be pulled off in long strips by hand.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_fp32_sdpa,banana_5,banana,"Context:
+The fruit is long and curved, with creamy pale flesh. It hangs in a bunch and changes from green to yellow as it ripens.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_fp32_sdpa,apple_0,apple,"Context:
+This round fruit grows on orchard trees and may have red or green skin. It has crunchy flesh and a seed-filled core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+official_fp32_sdpa,apple_1,apple,"Context:
+The fruit is firm and round, with a small stalk at the top. It is commonly pressed into cider and baked in pies.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+official_fp32_sdpa,apple_2,apple,"Context:
+A red-skinned orchard fruit makes a crisp crunch when bitten. Several small brown seeds sit inside its central core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+official_fp32_sdpa,apple_3,apple,"Context:
+These round fruits grow on trees in temperate orchards. Their skin can be green, red, or yellow, and their center contains a hard seeded core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+official_fp32_sdpa,apple_4,apple,"Context:
+The cook cuts a round green fruit into wedges and removes the core. Its crisp white flesh is used for a cinnamon pie.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",apple,apple,True,2,apple,False,True
+official_fp32_sdpa,apple_5,apple,"Context:
+A shiny red fruit has crunchy white flesh under its thin skin. The seeds are grouped in a core at the center.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_fp32_sdpa,elephant_0,elephant,"Context:
+This huge land animal has a long flexible trunk and two ivory tusks. Its large ears spread out on either side of its head.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_fp32_sdpa,elephant_1,elephant,"Context:
+The gray mammal picks up food with a trunk instead of using its mouth directly. It has thick legs, a massive body, and large ears.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_fp32_sdpa,elephant_2,elephant,"Context:
+A very large African animal sprays water over its back using its long trunk. Curved ivory tusks grow beside the trunk.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_fp32_sdpa,elephant_3,elephant,"Context:
+This enormous herbivore has broad ears and four thick legs. Its nose forms a long trunk that can grasp branches.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_fp32_sdpa,elephant_4,elephant,"Context:
+The zoo animal has wrinkled gray skin, a long trunk, and ivory tusks. It uses the tip of its trunk to lift small pieces of food.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_fp32_sdpa,elephant_5,elephant,"Context:
+A herd of huge gray mammals walks with their calves. The adults have long trunks and broad ears, and some have large white tusks.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_fp32_sdpa,giraffe_0,giraffe,"Context:
+This African animal has an exceptionally long neck and a spotted coat. It reaches leaves high in trees while standing on four long legs.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+official_fp32_sdpa,giraffe_1,giraffe,"Context:
+The tallest living land animal has brown patches on a pale body. Its very long neck lets it eat leaves above other animals.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Grizzly Bear,Grizzly Bear,True,4,,False,False
+official_fp32_sdpa,giraffe_2,giraffe,"Context:
+A tall spotted animal stretches its long neck to reach an acacia tree. Two small horn-like knobs stand on top of its head.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",elephant,elephant,True,3,elephant,False,False
+official_fp32_sdpa,giraffe_3,giraffe,"Context:
+This zoo mammal has a very long neck, long thin legs, and a patchy brown coat. Its head rises far above a nearby person.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+official_fp32_sdpa,giraffe_4,giraffe,"Context:
+The animal's neck is much longer than those of other hoofed mammals. It has a spotted coat and feeds on leaves in tall African trees.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+official_fp32_sdpa,giraffe_5,giraffe,"Context:
+A very tall African herbivore has a long dark tongue and a long neck. Brown patches cover its body, and small horn-like knobs sit above its ears.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+official_fp32_sdpa,piano_0,piano,"Context:
+This large musical instrument has 88 black and white keys. Pressing the keys makes internal hammers hit strings, and foot pedals control the sound.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Piano,Piano,True,3,piano,False,True
+official_fp32_sdpa,piano_1,piano,"Context:
+A musician sits at a bench to play this instrument with both hands. Its long keyboard has black and white keys and pedals beneath it.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",piano,piano,True,3,piano,False,True
+official_fp32_sdpa,piano_2,piano,"Context:
+The instrument has a wide keyboard, strings inside a wooden case, and felt-covered hammers. It is made in grand and upright forms.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Piano,Piano,True,3,piano,False,True
+official_fp32_sdpa,piano_3,piano,"Context:
+This acoustic keyboard instrument has 88 keys and a heavy wooden body. A player presses a pedal to let the notes continue ringing.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Acoustic Piano,Acoustic Piano,True,4,piano,False,True
+official_fp32_sdpa,piano_4,piano,"Context:
+The concert instrument has black and white keys at the front and strings under a large lid. The performer sits down and plays the keys with both hands.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",piano,piano,True,3,piano,False,True
+official_fp32_sdpa,piano_5,piano,"Context:
+An upright musical instrument stands against a wall with a bench in front. Its black and white keys move hammers that strike strings inside.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",piano,piano,True,3,piano,False,True
+official_fp32_sdpa,violin_0,violin,"Context:
+This small wooden instrument has four strings and is held under the chin. A musician draws a bow across its strings to play it.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Guqin,Guqin,True,4,,False,False
+official_fp32_sdpa,violin_1,violin,"Context:
+The player rests a small string instrument on the shoulder and beneath the chin. It has four tuning pegs and is normally played with a bow.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+official_fp32_sdpa,violin_2,violin,"Context:
+A high-pitched orchestral string instrument has four strings and a chinrest. The musician holds it under the jaw while moving a horsehair bow.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+official_fp32_sdpa,violin_3,violin,"Context:
+This small bowed instrument is the highest standard member of the orchestral string family. It has four strings and is held between the chin and shoulder.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+official_fp32_sdpa,violin_4,violin,"Context:
+The instrument has a small wooden body, four strings, and a carved scroll. A shoulder rest supports it while the player bows the strings beneath the chin.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Guqin,Guqin,True,4,,False,False
+official_fp32_sdpa,violin_5,violin,"Context:
+A musician tucks this four-stringed instrument under the chin. One hand presses the strings along its neck while the other moves a bow.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+official_fp32_sdpa,none_fruit_0,none,"Context:
+A worker sends an invoice to the head office.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+official_fp32_sdpa,none_fruit_1,none,"Context:
+A train stops at a station beside a bridge.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+official_fp32_sdpa,none_animal_0,none,"Context:
+The accountant opens a spreadsheet and checks the total.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",cow,cow,True,2,,False,False
+official_fp32_sdpa,none_animal_1,none,"Context:
+A carpenter measures a wooden shelf with a ruler.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+official_fp32_sdpa,none_instrument_0,none,"Context:
+A passenger puts a suitcase on the luggage rack.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",none,none,True,2,,False,True
+official_fp32_sdpa,none_instrument_1,none,"Context:
+The office printer runs out of paper during a meeting.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+official_auto_sdpa,banana_0,banana,"Context:
+This tropical fruit has a long curved shape and a yellow peel. People remove the peel in strips to eat the soft flesh.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Mango,Mango,True,3,,False,False
+official_auto_sdpa,banana_1,banana,"Context:
+A bunch contains several curved yellow fruits joined at one end. Each fruit has soft pale flesh inside a thick peel.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_auto_sdpa,banana_2,banana,"Context:
+The snack is a sweet yellow fruit shaped like a crescent. Its skin is peeled downward before the inside is eaten.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Watermelon,Watermelon,True,3,,False,False
+official_auto_sdpa,banana_3,banana,"Context:
+These long fruits grow in bunches in warm countries. When ripe, their yellow skins develop brown spots and their flesh is soft.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Bananas,None,False,3,banana,False,True
+official_auto_sdpa,banana_4,banana,"Context:
+A yellow fruit bends in a curve and has no hard central core. Its thick skin can be pulled off in long strips by hand.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_auto_sdpa,banana_5,banana,"Context:
+The fruit is long and curved, with creamy pale flesh. It hangs in a bunch and changes from green to yellow as it ripens.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_auto_sdpa,apple_0,apple,"Context:
+This round fruit grows on orchard trees and may have red or green skin. It has crunchy flesh and a seed-filled core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+official_auto_sdpa,apple_1,apple,"Context:
+The fruit is firm and round, with a small stalk at the top. It is commonly pressed into cider and baked in pies.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+official_auto_sdpa,apple_2,apple,"Context:
+A red-skinned orchard fruit makes a crisp crunch when bitten. Several small brown seeds sit inside its central core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+official_auto_sdpa,apple_3,apple,"Context:
+These round fruits grow on trees in temperate orchards. Their skin can be green, red, or yellow, and their center contains a hard seeded core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,Apple,False,2,,False,False
+official_auto_sdpa,apple_4,apple,"Context:
+The cook cuts a round green fruit into wedges and removes the core. Its crisp white flesh is used for a cinnamon pie.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",apple,apple,True,2,apple,False,True
+official_auto_sdpa,apple_5,apple,"Context:
+A shiny red fruit has crunchy white flesh under its thin skin. The seeds are grouped in a core at the center.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_auto_sdpa,elephant_0,elephant,"Context:
+This huge land animal has a long flexible trunk and two ivory tusks. Its large ears spread out on either side of its head.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_auto_sdpa,elephant_1,elephant,"Context:
+The gray mammal picks up food with a trunk instead of using its mouth directly. It has thick legs, a massive body, and large ears.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_auto_sdpa,elephant_2,elephant,"Context:
+A very large African animal sprays water over its back using its long trunk. Curved ivory tusks grow beside the trunk.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_auto_sdpa,elephant_3,elephant,"Context:
+This enormous herbivore has broad ears and four thick legs. Its nose forms a long trunk that can grasp branches.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_auto_sdpa,elephant_4,elephant,"Context:
+The zoo animal has wrinkled gray skin, a long trunk, and ivory tusks. It uses the tip of its trunk to lift small pieces of food.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_auto_sdpa,elephant_5,elephant,"Context:
+A herd of huge gray mammals walks with their calves. The adults have long trunks and broad ears, and some have large white tusks.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_auto_sdpa,giraffe_0,giraffe,"Context:
+This African animal has an exceptionally long neck and a spotted coat. It reaches leaves high in trees while standing on four long legs.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+official_auto_sdpa,giraffe_1,giraffe,"Context:
+The tallest living land animal has brown patches on a pale body. Its very long neck lets it eat leaves above other animals.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Grizzly Bear,Grizzly Bear,True,4,,False,False
+official_auto_sdpa,giraffe_2,giraffe,"Context:
+A tall spotted animal stretches its long neck to reach an acacia tree. Two small horn-like knobs stand on top of its head.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",elephant,elephant,True,3,elephant,False,False
+official_auto_sdpa,giraffe_3,giraffe,"Context:
+This zoo mammal has a very long neck, long thin legs, and a patchy brown coat. Its head rises far above a nearby person.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+official_auto_sdpa,giraffe_4,giraffe,"Context:
+The animal's neck is much longer than those of other hoofed mammals. It has a spotted coat and feeds on leaves in tall African trees.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+official_auto_sdpa,giraffe_5,giraffe,"Context:
+A very tall African herbivore has a long dark tongue and a long neck. Brown patches cover its body, and small horn-like knobs sit above its ears.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+official_auto_sdpa,piano_0,piano,"Context:
+This large musical instrument has 88 black and white keys. Pressing the keys makes internal hammers hit strings, and foot pedals control the sound.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Piano,Piano,True,3,piano,False,True
+official_auto_sdpa,piano_1,piano,"Context:
+A musician sits at a bench to play this instrument with both hands. Its long keyboard has black and white keys and pedals beneath it.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",piano,piano,True,3,piano,False,True
+official_auto_sdpa,piano_2,piano,"Context:
+The instrument has a wide keyboard, strings inside a wooden case, and felt-covered hammers. It is made in grand and upright forms.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Piano,Piano,True,3,piano,False,True
+official_auto_sdpa,piano_3,piano,"Context:
+This acoustic keyboard instrument has 88 keys and a heavy wooden body. A player presses a pedal to let the notes continue ringing.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Acoustic Piano,Acoustic Piano,True,4,piano,False,True
+official_auto_sdpa,piano_4,piano,"Context:
+The concert instrument has black and white keys at the front and strings under a large lid. The performer sits down and plays the keys with both hands.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",piano,piano,True,3,piano,False,True
+official_auto_sdpa,piano_5,piano,"Context:
+An upright musical instrument stands against a wall with a bench in front. Its black and white keys move hammers that strike strings inside.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",piano,piano,True,3,piano,False,True
+official_auto_sdpa,violin_0,violin,"Context:
+This small wooden instrument has four strings and is held under the chin. A musician draws a bow across its strings to play it.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Guqin,Guqin,True,4,,False,False
+official_auto_sdpa,violin_1,violin,"Context:
+The player rests a small string instrument on the shoulder and beneath the chin. It has four tuning pegs and is normally played with a bow.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+official_auto_sdpa,violin_2,violin,"Context:
+A high-pitched orchestral string instrument has four strings and a chinrest. The musician holds it under the jaw while moving a horsehair bow.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+official_auto_sdpa,violin_3,violin,"Context:
+This small bowed instrument is the highest standard member of the orchestral string family. It has four strings and is held between the chin and shoulder.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+official_auto_sdpa,violin_4,violin,"Context:
+The instrument has a small wooden body, four strings, and a carved scroll. A shoulder rest supports it while the player bows the strings beneath the chin.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Guqin,Guqin,True,4,,False,False
+official_auto_sdpa,violin_5,violin,"Context:
+A musician tucks this four-stringed instrument under the chin. One hand presses the strings along its neck while the other moves a bow.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+official_auto_sdpa,none_fruit_0,none,"Context:
+A worker sends an invoice to the head office.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+official_auto_sdpa,none_fruit_1,none,"Context:
+A train stops at a station beside a bridge.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+official_auto_sdpa,none_animal_0,none,"Context:
+The accountant opens a spreadsheet and checks the total.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",cow,cow,True,2,,False,False
+official_auto_sdpa,none_animal_1,none,"Context:
+A carpenter measures a wooden shelf with a ruler.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+official_auto_sdpa,none_instrument_0,none,"Context:
+A passenger puts a suitcase on the luggage rack.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",none,none,True,2,,False,True
+official_auto_sdpa,none_instrument_1,none,"Context:
+The office printer runs out of paper during a meeting.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+official_fp16_sdpa,banana_0,banana,"Context:
+This tropical fruit has a long curved shape and a yellow peel. People remove the peel in strips to eat the soft flesh.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Mango,Mango,True,3,,False,False
+official_fp16_sdpa,banana_1,banana,"Context:
+A bunch contains several curved yellow fruits joined at one end. Each fruit has soft pale flesh inside a thick peel.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_fp16_sdpa,banana_2,banana,"Context:
+The snack is a sweet yellow fruit shaped like a crescent. Its skin is peeled downward before the inside is eaten.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Watermelon,Watermelon,True,3,,False,False
+official_fp16_sdpa,banana_3,banana,"Context:
+These long fruits grow in bunches in warm countries. When ripe, their yellow skins develop brown spots and their flesh is soft.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_fp16_sdpa,banana_4,banana,"Context:
+A yellow fruit bends in a curve and has no hard central core. Its thick skin can be pulled off in long strips by hand.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_fp16_sdpa,banana_5,banana,"Context:
+The fruit is long and curved, with creamy pale flesh. It hangs in a bunch and changes from green to yellow as it ripens.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_fp16_sdpa,apple_0,apple,"Context:
+This round fruit grows on orchard trees and may have red or green skin. It has crunchy flesh and a seed-filled core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+official_fp16_sdpa,apple_1,apple,"Context:
+The fruit is firm and round, with a small stalk at the top. It is commonly pressed into cider and baked in pies.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+official_fp16_sdpa,apple_2,apple,"Context:
+A red-skinned orchard fruit makes a crisp crunch when bitten. Several small brown seeds sit inside its central core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+official_fp16_sdpa,apple_3,apple,"Context:
+These round fruits grow on trees in temperate orchards. Their skin can be green, red, or yellow, and their center contains a hard seeded core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",Apple,Apple,True,2,apple,False,True
+official_fp16_sdpa,apple_4,apple,"Context:
+The cook cuts a round green fruit into wedges and removes the core. Its crisp white flesh is used for a cinnamon pie.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",apple,apple,True,2,apple,False,True
+official_fp16_sdpa,apple_5,apple,"Context:
+A shiny red fruit has crunchy white flesh under its thin skin. The seeds are grouped in a core at the center.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,False
+official_fp16_sdpa,elephant_0,elephant,"Context:
+This huge land animal has a long flexible trunk and two ivory tusks. Its large ears spread out on either side of its head.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_fp16_sdpa,elephant_1,elephant,"Context:
+The gray mammal picks up food with a trunk instead of using its mouth directly. It has thick legs, a massive body, and large ears.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_fp16_sdpa,elephant_2,elephant,"Context:
+A very large African animal sprays water over its back using its long trunk. Curved ivory tusks grow beside the trunk.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_fp16_sdpa,elephant_3,elephant,"Context:
+This enormous herbivore has broad ears and four thick legs. Its nose forms a long trunk that can grasp branches.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_fp16_sdpa,elephant_4,elephant,"Context:
+The zoo animal has wrinkled gray skin, a long trunk, and ivory tusks. It uses the tip of its trunk to lift small pieces of food.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_fp16_sdpa,elephant_5,elephant,"Context:
+A herd of huge gray mammals walks with their calves. The adults have long trunks and broad ears, and some have large white tusks.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Elephant,Elephant,True,3,elephant,False,True
+official_fp16_sdpa,giraffe_0,giraffe,"Context:
+This African animal has an exceptionally long neck and a spotted coat. It reaches leaves high in trees while standing on four long legs.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+official_fp16_sdpa,giraffe_1,giraffe,"Context:
+The tallest living land animal has brown patches on a pale body. Its very long neck lets it eat leaves above other animals.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Grizzly Bear,Grizzly Bear,True,4,,False,False
+official_fp16_sdpa,giraffe_2,giraffe,"Context:
+A tall spotted animal stretches its long neck to reach an acacia tree. Two small horn-like knobs stand on top of its head.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",antelope,elephant,False,3,,False,False
+official_fp16_sdpa,giraffe_3,giraffe,"Context:
+This zoo mammal has a very long neck, long thin legs, and a patchy brown coat. Its head rises far above a nearby person.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+official_fp16_sdpa,giraffe_4,giraffe,"Context:
+The animal's neck is much longer than those of other hoofed mammals. It has a spotted coat and feeds on leaves in tall African trees.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+official_fp16_sdpa,giraffe_5,giraffe,"Context:
+A very tall African herbivore has a long dark tongue and a long neck. Brown patches cover its body, and small horn-like knobs sit above its ears.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",Giraffe,Giraffe,True,4,giraffe,False,True
+official_fp16_sdpa,piano_0,piano,"Context:
+This large musical instrument has 88 black and white keys. Pressing the keys makes internal hammers hit strings, and foot pedals control the sound.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Piano,Piano,True,3,piano,False,True
+official_fp16_sdpa,piano_1,piano,"Context:
+A musician sits at a bench to play this instrument with both hands. Its long keyboard has black and white keys and pedals beneath it.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",piano,piano,True,3,piano,False,True
+official_fp16_sdpa,piano_2,piano,"Context:
+The instrument has a wide keyboard, strings inside a wooden case, and felt-covered hammers. It is made in grand and upright forms.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Piano,Piano,True,3,piano,False,True
+official_fp16_sdpa,piano_3,piano,"Context:
+This acoustic keyboard instrument has 88 keys and a heavy wooden body. A player presses a pedal to let the notes continue ringing.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Acoustic Piano,Acoustic Piano,True,4,piano,False,True
+official_fp16_sdpa,piano_4,piano,"Context:
+The concert instrument has black and white keys at the front and strings under a large lid. The performer sits down and plays the keys with both hands.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",piano,piano,True,3,piano,False,True
+official_fp16_sdpa,piano_5,piano,"Context:
+An upright musical instrument stands against a wall with a bench in front. Its black and white keys move hammers that strike strings inside.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",piano,piano,True,3,piano,False,True
+official_fp16_sdpa,violin_0,violin,"Context:
+This small wooden instrument has four strings and is held under the chin. A musician draws a bow across its strings to play it.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Guqin,Guqin,True,4,,False,False
+official_fp16_sdpa,violin_1,violin,"Context:
+The player rests a small string instrument on the shoulder and beneath the chin. It has four tuning pegs and is normally played with a bow.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+official_fp16_sdpa,violin_2,violin,"Context:
+A high-pitched orchestral string instrument has four strings and a chinrest. The musician holds it under the jaw while moving a horsehair bow.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+official_fp16_sdpa,violin_3,violin,"Context:
+This small bowed instrument is the highest standard member of the orchestral string family. It has four strings and is held between the chin and shoulder.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+official_fp16_sdpa,violin_4,violin,"Context:
+The instrument has a small wooden body, four strings, and a carved scroll. A shoulder rest supports it while the player bows the strings beneath the chin.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Guqin,Guqin,True,4,,False,False
+official_fp16_sdpa,violin_5,violin,"Context:
+A musician tucks this four-stringed instrument under the chin. One hand presses the strings along its neck while the other moves a bow.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",Violin,Violin,True,3,violin,False,True
+official_fp16_sdpa,none_fruit_0,none,"Context:
+A worker sends an invoice to the head office.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+official_fp16_sdpa,none_fruit_1,none,"Context:
+A train stops at a station beside a bridge.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+official_fp16_sdpa,none_animal_0,none,"Context:
+The accountant opens a spreadsheet and checks the total.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",cow,cow,True,2,,False,False
+official_fp16_sdpa,none_animal_1,none,"Context:
+A carpenter measures a wooden shelf with a ruler.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True
+official_fp16_sdpa,none_instrument_0,none,"Context:
+A passenger puts a suitcase on the luggage rack.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",none,none,True,2,,False,True
+official_fp16_sdpa,none_instrument_1,none,"Context:
+The office printer runs out of paper during a meeting.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.",None,None,True,2,,False,True

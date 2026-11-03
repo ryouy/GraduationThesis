@@ -1,0 +1,7 @@
+mode,n,correct,clear_n,banana_correct,none_correct,matches_old
+legacy_fp32_eager,42,25,36,0,5,42
+official_auto_sdpa,42,25,36,1,5,40
+official_fp16_sdpa,42,25,36,0,5,41
+official_fp32_eager,42,25,36,0,5,42
+official_fp32_sdpa,42,25,36,0,5,42
+official_input_only_fp32_eager,42,25,36,0,5,42
