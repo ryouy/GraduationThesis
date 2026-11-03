@@ -41,7 +41,7 @@ for x,y in PAIRS.items():
                 training.append((read(frame.format(phrase)),label))
         for split,phrases in [('old_holdout',bank[x][k+'_test']),('new_holdout',held[x][k])]:
             for phrase in phrases:
-                for fi,frame in enumerate(['A curator wrote about {}.\nSTATE:\n','An observer reported {}.\nSTATE:\n']):
+                for fi,frame in enumerate(['A curator wrote: "{}".\nSTATE:\n','An observer reported: "{}".\nSTATE:\n']):
                     tests.append((read(frame.format(phrase)),label,split,phrase,fi))
     assert len(training)==16
     for li,layer in enumerate(LAYERS):
@@ -60,9 +60,9 @@ for r in cues.itertuples():
     for mode,q in [('original',QUESTION),('specific_naming',f'Which specific {category[r.concept]} is described? Answer with its specific name, not a part or a broad category.')]:
         content='Read the following context.\nContext:\n'+r.cue_text+'\n'+q
         b=tok.apply_chat_template([{'role':'user','content':content}],add_generation_prompt=True,return_tensors='pt').cuda()
-        with torch.inference_mode():g=model.generate(input_ids=b,max_new_tokens=12,do_sample=False,pad_token_id=tok.eos_token_id)
+        with torch.inference_mode():g=model.generate(input_ids=b,attention_mask=torch.ones_like(b),max_new_tokens=12,do_sample=False,pad_token_id=tok.eos_token_id)
         answer=tok.decode(g[0,b.shape[1]:],skip_special_tokens=True)
         answers.append(dict(concept=r.concept,cue=r.cue_text,question_mode=mode,question=q,answer=answer,target_mention=bool(re.search(r'\b'+r.concept+r's?\b',answer,re.I))))
 pd.DataFrame(answers).to_csv(out/'question_controls.csv',index=False)
-(out/'controls_manifest.json').write_text(json.dumps({'status':'COMPLETED','post_hoc':True,'purpose':'Disentangle changed probe scaffolding from new holdout text; diagnose ambiguous answer task.','question_contexts':18,'revision':REVISION},indent=2)+'\n')
+(out/'controls_manifest.json').write_text(json.dumps({'status':'COMPLETED','post_hoc':True,'purpose':'Disentangle changed probe scaffolding from new holdout text; diagnose ambiguous answer task.','question_contexts':18,'evaluation_note':'Both holdout banks use identical quoted frames to accommodate complete sentences grammatically.','revision':REVISION},indent=2)+'\n')
 print(pd.DataFrame(results).to_string(index=False));print(pd.DataFrame(answers).groupby('question_mode').target_mention.agg(['sum','count']).to_string());print('CONTROLS COMPLETED',flush=True)
