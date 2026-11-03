@@ -1,0 +1,401 @@
+{
+  "manifest": {
+    "status": "COMPLETED",
+    "contexts": 4608,
+    "unique_prompts": 4608,
+    "probe_variants": 20,
+    "n_concept_pairs": 8,
+    "focus_layers": [
+      22,
+      23
+    ],
+    "limitation": "Repeated frames/probe fits are sensitivity variants, not independent participants or concepts.",
+    "new_cues_note": "72 newly authored sentences; not human validated or length matched yet.",
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "model_sha": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+    "encoder_sha": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "dtype": "torch.float32",
+    "device": "cuda",
+    "torch": "2.11.0+cu130",
+    "transformers": "4.57.6",
+    "extraction_script_sha256": "97031e9e3dcb72e08156258570fd263ba53a402996142c2a11645283d0e602d8",
+    "python": "3.13.16",
+    "sklearn": "1.6.1",
+    "git_commit": "570cb56792c3dfd8b91709cf3cb93ecaf6dd865e",
+    "input_hashes": {
+      "1103_review/run_robustness.py": "97031e9e3dcb72e08156258570fd263ba53a402996142c2a11645283d0e602d8",
+      "1103_review/additional_cues.csv": "b2ebc2c2456d5de64e559b4ea18cfdbf6f4149fa4a747a9eb1117849bc450a3b",
+      "1019/stimuli_v2.csv": "4149a83c8a4ef04dc9873eda916ef76d11c21b788d1484ee301ef0cdb78204ca",
+      "1019/specificity_cues_v3.csv": "9c2c35aa8f4da94850d0a263d968ac4eb1e18fe7e9767a40fefe249e0db47615",
+      "1019/probe_description_bank_v2.json": "6bbd18c0bbfed924e05c7fef2575fd820613b0b13f573d3678592550abae7265"
+    },
+    "label_shuffle_control_fits": 240,
+    "caution": "Exploratory sensitivity analysis. 8 pairs only. 20 probes/6 frames do not increase independent n. No human cue validation."
+  },
+  "baseline_v3": [
+    {
+      "probe_variant": "original",
+      "target_role": "X",
+      "cue_source": "new_authored",
+      "instruction_frame": 0,
+      "context_frame": 0,
+      "n_pairs": 8,
+      "estimate": -0.1387496174740507,
+      "ci_low": -0.1852771150789617,
+      "ci_high": -0.101712411143438,
+      "signflip_p": 0.0078125,
+      "n_negative": 8,
+      "leave_one_pair_out_min": -0.1470159361480252,
+      "leave_one_pair_out_max": -0.1200750191160284
+    },
+    {
+      "probe_variant": "original",
+      "target_role": "X",
+      "cue_source": "original",
+      "instruction_frame": 0,
+      "context_frame": 0,
+      "n_pairs": 8,
+      "estimate": -0.1089851476340409,
+      "ci_low": -0.1443461081640705,
+      "ci_high": -0.0692272057781161,
+      "signflip_p": 0.0078125,
+      "n_negative": 8,
+      "leave_one_pair_out_min": -0.123991811502606,
+      "leave_one_pair_out_max": -0.0993780782471387
+    },
+    {
+      "probe_variant": "original",
+      "target_role": "Y",
+      "cue_source": "new_authored",
+      "instruction_frame": 0,
+      "context_frame": 0,
+      "n_pairs": 8,
+      "estimate": -0.1444200094883477,
+      "ci_low": -0.2096315942550473,
+      "ci_high": -0.0958890425171749,
+      "signflip_p": 0.0078125,
+      "n_negative": 8,
+      "leave_one_pair_out_min": -0.1549037043245097,
+      "leave_one_pair_out_max": -0.118179886430201
+    },
+    {
+      "probe_variant": "original",
+      "target_role": "Y",
+      "cue_source": "original",
+      "instruction_frame": 0,
+      "context_frame": 0,
+      "n_pairs": 8,
+      "estimate": -0.1125270148230172,
+      "ci_low": -0.1365568065436734,
+      "ci_high": -0.0829699802283145,
+      "signflip_p": 0.0078125,
+      "n_negative": 8,
+      "leave_one_pair_out_min": -0.1242769326013553,
+      "leave_one_pair_out_max": -0.1072578969896517
+    }
+  ],
+  "v3_sensitivity_ranges": [
+    {
+      "cue_source": "new_authored",
+      "target_role": "X",
+      "configurations": 120,
+      "negative_configurations": 118,
+      "minimum": -0.1387496174740507,
+      "maximum": 0.0024303882062794,
+      "median": -0.028309560907011852
+    },
+    {
+      "cue_source": "new_authored",
+      "target_role": "Y",
+      "configurations": 120,
+      "negative_configurations": 118,
+      "minimum": -0.1444200094883477,
+      "maximum": 0.0014167787250511,
+      "median": -0.0337912924486712
+    },
+    {
+      "cue_source": "original",
+      "target_role": "X",
+      "configurations": 120,
+      "negative_configurations": 117,
+      "minimum": -0.1089851476340409,
+      "maximum": 0.0021337867197439,
+      "median": -0.02559096727382285
+    },
+    {
+      "cue_source": "original",
+      "target_role": "Y",
+      "configurations": 120,
+      "negative_configurations": 118,
+      "minimum": -0.1125270148230172,
+      "maximum": 0.0026469528517523,
+      "median": -0.02866142765689625
+    }
+  ],
+  "probe_auc": [
+    {
+      "probe_variant": "description_only",
+      "mean_auc": 0.9635416666666667,
+      "min_auc": 0.7777777777777779,
+      "below_075": 0
+    },
+    {
+      "probe_variant": "names_0_omit_0_0",
+      "mean_auc": 0.8871527777777778,
+      "min_auc": 0.6666666666666666,
+      "below_075": 4
+    },
+    {
+      "probe_variant": "names_0_omit_0_1",
+      "mean_auc": 0.857638888888889,
+      "min_auc": 0.5555555555555556,
+      "below_075": 5
+    },
+    {
+      "probe_variant": "names_0_omit_0_2",
+      "mean_auc": 0.9270833333333334,
+      "min_auc": 0.6944444444444444,
+      "below_075": 2
+    },
+    {
+      "probe_variant": "names_0_omit_1_0",
+      "mean_auc": 0.8854166666666667,
+      "min_auc": 0.6666666666666667,
+      "below_075": 5
+    },
+    {
+      "probe_variant": "names_0_omit_1_1",
+      "mean_auc": 0.8350694444444444,
+      "min_auc": 0.3333333333333333,
+      "below_075": 6
+    },
+    {
+      "probe_variant": "names_0_omit_1_2",
+      "mean_auc": 0.8958333333333334,
+      "min_auc": 0.4166666666666666,
+      "below_075": 2
+    },
+    {
+      "probe_variant": "names_0_omit_2_0",
+      "mean_auc": 0.9479166666666666,
+      "min_auc": 0.75,
+      "below_075": 0
+    },
+    {
+      "probe_variant": "names_0_omit_2_1",
+      "mean_auc": 0.9270833333333334,
+      "min_auc": 0.5833333333333333,
+      "below_075": 1
+    },
+    {
+      "probe_variant": "names_0_omit_2_2",
+      "mean_auc": 0.951388888888889,
+      "min_auc": 0.8055555555555556,
+      "below_075": 0
+    },
+    {
+      "probe_variant": "names_1_omit_0_0",
+      "mean_auc": 0.935763888888889,
+      "min_auc": 0.7222222222222222,
+      "below_075": 1
+    },
+    {
+      "probe_variant": "names_1_omit_0_1",
+      "mean_auc": 0.920138888888889,
+      "min_auc": 0.6944444444444444,
+      "below_075": 1
+    },
+    {
+      "probe_variant": "names_1_omit_0_2",
+      "mean_auc": 0.9652777777777778,
+      "min_auc": 0.7777777777777778,
+      "below_075": 0
+    },
+    {
+      "probe_variant": "names_1_omit_1_0",
+      "mean_auc": 0.9027777777777778,
+      "min_auc": 0.7222222222222223,
+      "below_075": 2
+    },
+    {
+      "probe_variant": "names_1_omit_1_1",
+      "mean_auc": 0.8697916666666666,
+      "min_auc": 0.5277777777777778,
+      "below_075": 5
+    },
+    {
+      "probe_variant": "names_1_omit_1_2",
+      "mean_auc": 0.9375,
+      "min_auc": 0.6944444444444445,
+      "below_075": 1
+    },
+    {
+      "probe_variant": "names_1_omit_2_0",
+      "mean_auc": 0.9739583333333334,
+      "min_auc": 0.8611111111111112,
+      "below_075": 0
+    },
+    {
+      "probe_variant": "names_1_omit_2_1",
+      "mean_auc": 0.9600694444444444,
+      "min_auc": 0.7222222222222222,
+      "below_075": 1
+    },
+    {
+      "probe_variant": "names_1_omit_2_2",
+      "mean_auc": 0.9583333333333334,
+      "min_auc": 0.8611111111111112,
+      "below_075": 0
+    },
+    {
+      "probe_variant": "original",
+      "mean_auc": 0.9704861111111112,
+      "min_auc": 0.7777777777777779,
+      "below_075": 0
+    }
+  ],
+  "baseline_v2": [
+    {
+      "probe_variant": "original",
+      "instruction_frame": 0,
+      "context_frame": 0,
+      "layer": 22,
+      "metric": "slope_simple",
+      "n_pairs": 8,
+      "estimate": 0.2201242174123623,
+      "ci_low": -0.0386266261742752,
+      "ci_high": 0.4540671348578742,
+      "signflip_p": 0.140625,
+      "n_negative": 2,
+      "leave_one_pair_out_min": 0.1534998545064597,
+      "leave_one_pair_out_max": 0.3260321682182665
+    },
+    {
+      "probe_variant": "original",
+      "instruction_frame": 0,
+      "context_frame": 0,
+      "layer": 22,
+      "metric": "slope_length_adjusted",
+      "n_pairs": 8,
+      "estimate": 0.229820483744213,
+      "ci_low": 0.0194168995948376,
+      "ci_high": 0.4426158912653672,
+      "signflip_p": 0.0859375,
+      "n_negative": 2,
+      "leave_one_pair_out_min": 0.1664803280845954,
+      "leave_one_pair_out_max": 0.2994473633904471
+    },
+    {
+      "probe_variant": "original",
+      "instruction_frame": 0,
+      "context_frame": 0,
+      "layer": 23,
+      "metric": "slope_simple",
+      "n_pairs": 8,
+      "estimate": 0.1715350550043302,
+      "ci_low": -0.0755044960767077,
+      "ci_high": 0.3916603394637791,
+      "signflip_p": 0.1953125,
+      "n_negative": 1,
+      "leave_one_pair_out_min": 0.104367163682367,
+      "leave_one_pair_out_max": 0.2724655455086888
+    },
+    {
+      "probe_variant": "original",
+      "instruction_frame": 0,
+      "context_frame": 0,
+      "layer": 23,
+      "metric": "slope_length_adjusted",
+      "n_pairs": 8,
+      "estimate": 0.2081150364736883,
+      "ci_low": -0.0027859566650878,
+      "ci_high": 0.4267871418990505,
+      "signflip_p": 0.1328125,
+      "n_negative": 2,
+      "leave_one_pair_out_min": 0.1364272336345934,
+      "leave_one_pair_out_max": 0.2748938711878479
+    },
+    {
+      "probe_variant": "original",
+      "instruction_frame": 0,
+      "context_frame": 0,
+      "layer": 24,
+      "metric": "slope_simple",
+      "n_pairs": 8,
+      "estimate": 0.0557451493440148,
+      "ci_low": -0.0978896807024244,
+      "ci_high": 0.1871656867394522,
+      "signflip_p": 0.5234375,
+      "n_negative": 2,
+      "leave_one_pair_out_min": 0.0153112694310293,
+      "leave_one_pair_out_max": 0.1231759424554177
+    },
+    {
+      "probe_variant": "original",
+      "instruction_frame": 0,
+      "context_frame": 0,
+      "layer": 24,
+      "metric": "slope_length_adjusted",
+      "n_pairs": 8,
+      "estimate": 0.1022448319067548,
+      "ci_low": -0.0114724174518596,
+      "ci_high": 0.2286804774087936,
+      "signflip_p": 0.15625,
+      "n_negative": 2,
+      "leave_one_pair_out_min": 0.0496056035493649,
+      "leave_one_pair_out_max": 0.1345341449901041
+    }
+  ],
+  "prefix_checks": [
+    {
+      "file": "prefix_invariance_banana.csv",
+      "n": 576,
+      "max_absolute": 0.0,
+      "max_relative": 0.0
+    },
+    {
+      "file": "prefix_invariance_bicycle.csv",
+      "n": 576,
+      "max_absolute": 0.0003585815429687,
+      "max_relative": 3.3630958569119684e-06
+    },
+    {
+      "file": "prefix_invariance_castle.csv",
+      "n": 576,
+      "max_absolute": 0.000162124633789,
+      "max_relative": 2.7671007956087124e-06
+    },
+    {
+      "file": "prefix_invariance_coffee.csv",
+      "n": 576,
+      "max_absolute": 0.0,
+      "max_relative": 0.0
+    },
+    {
+      "file": "prefix_invariance_elephant.csv",
+      "n": 576,
+      "max_absolute": 0.0002269744873046,
+      "max_relative": 2.784169055303209e-06
+    },
+    {
+      "file": "prefix_invariance_ocean.csv",
+      "n": 576,
+      "max_absolute": 0.0,
+      "max_relative": 0.0
+    },
+    {
+      "file": "prefix_invariance_piano.csv",
+      "n": 576,
+      "max_absolute": 0.00018310546875,
+      "max_relative": 3.3082935715356143e-06
+    },
+    {
+      "file": "prefix_invariance_tiger.csv",
+      "n": 576,
+      "max_absolute": 0.0,
+      "max_relative": 0.0
+    }
+  ],
+  "interpretation": "Exploratory robustness of eight selected pairs; configurations are not independent replications."
+}
