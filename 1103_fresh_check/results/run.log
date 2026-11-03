@@ -1,0 +1,23 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793713755.930735    6472 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793713760.800712    6472 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+PAIR banana apple
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+PAIR elephant giraffe
+PAIR piano violin
+ index   target  sum  count
+     0    apple    5      6
+     1   banana    0      6
+     2 elephant    6      6
+     3  giraffe    4      6
+     4     none    5      6
+     5    piano    6      6
+     6   violin    4      6
+    pair        position  layer  auc
+  banana assistant_start     27  1.0
+elephant assistant_start     27  1.0
+   piano assistant_start     27  1.0
+{"status": "COMPLETED", "model": "Qwen/Qwen2.5-1.5B-Instruct", "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306", "layers": [14, 21, 27, 28], "position": ["context_end", "assistant_start"], "contexts": 42, "behavior_correct": 25, "behavior_n": 36, "behavior_pass": false, "none_correct": 5, "none_pass": true, "probe_pass": false, "source_commit": "f251f3308dd660d23738cbce4801cca3a4f3b361", "hashes": {"run.py": "48e584b01e7e579659d488e19d161c8f1e9b17c0bfeea30cfbeec73af4985bd7", "PLAN.md": "b914aa5d04e20d2cc135c39873cdf55ad8e689289bcb332c9fead7a587c8b899", "items.json": "3b8f4f540df2ddbd1529650247fe30b2722a1db65bf59d63804648312c7a9793", "rules.json": "030532cc9813398cc24c99aa2364403f776f8b790ddd666d0cc1737c462e8b8a"}, "training_hash": "cc09a4be55fabdf39cf85a9ad7dab1407ec7d70607d4b43dc1abfaefbbc597b7", "torch": "2.11.0+cu130", "transformers": "4.57.6", "sklearn": "1.6.1", "gpu": "Tesla T4"}
+FRESH CHECK COMPLETED
