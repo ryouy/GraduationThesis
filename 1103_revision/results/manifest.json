@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETED",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "embedding": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "behavior_contexts": 108,
+  "fresh_descriptions": 36,
+  "layers": [
+    22,
+    23,
+    24
+  ],
+  "torch": "2.11.0+cu130",
+  "transformers": "4.57.6",
+  "sklearn": "1.6.1",
+  "source_commit": "d2671c296a0ff8e78bd6105cd72d741585ed55b7",
+  "hashes": {
+    "run_revision.py": "eae0b7f8d185d0de98e2cfc2bc0b07017cd3069841f0b10748191310ea4be19b",
+    "PLAN.md": "9494e44ee74100f9d078c0c2aff9fe0abd044597b5c3f6b15c2e93abf9340424",
+    "fresh_holdout.json": "ed15fc1a4ac8fcfb1aa0c17d27dcf13daaa2c01a9d02848c1139ca0b43ad33b5"
+  }
+}

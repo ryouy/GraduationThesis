@@ -1,6 +1,6 @@
 # Graduation Thesis｜LLMにおける抑制概念と意味的距離の内部表現解析
 
-**最新：** [本実験前の測定妥当性パイロット](1103_validity/README.md)を実行済み。新しい説明へのProbeの汎化と命名課題に弱さが見られたため、本実験前に測定・刺激設計を改善する。
+**最新：** [質問・Probe・比較概念の追加診断](1103_revision/README.md)をColab T4で実行済み（108行動入力・新評価説明36件）。拡張ProbeのゾウAUCは0.903→1.000。一方、二択順序で16/36件の回答分類が変わり、X/Y類似度も強く共変動。本実験前に課題・刺激の再設計が必要。
 
 **研究テーマ（仮題）：** *Effects of Semantic Distance on Suppressed Concept Representations in Large Language Models*  
 **モデル：** `Qwen/Qwen2.5-0.5B-Instruct`  

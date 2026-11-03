@@ -1,0 +1,325 @@
+concept,comparison,cue,level,mode,prompt,answer,target_mention,choice,logp_X,logp_Y,margin
+banana,apple,A smoothie recipe called for ripe tropical fruit.,medium,free,"Identify the specific fruit from this description.
+Description: A smoothie recipe called for ripe tropical fruit.
+Answer with the specific name only.",Avocado,False,other,-5.454233169555664,-10.218174934387207,4.763941764831543
+banana,apple,A smoothie recipe called for ripe tropical fruit.,medium,xy,"Identify the specific fruit from this description. Choose one of: banana, apple.
+Description: A smoothie recipe called for ripe tropical fruit.
+Answer with the specific name only.",Banana,True,X,-2.94632625579834,-6.52205753326416,3.5757312774658203
+banana,apple,A smoothie recipe called for ripe tropical fruit.,medium,yx,"Identify the specific fruit from this description. Choose one of: apple, banana.
+Description: A smoothie recipe called for ripe tropical fruit.
+Answer with the specific name only.",Banana,True,X,-2.4612784385681152,-7.135959148406982,4.674680709838867
+banana,apple,The shopper peeled a long yellow fruit for a snack.,near,free,"Identify the specific fruit from this description.
+Description: The shopper peeled a long yellow fruit for a snack.
+Answer with the specific name only.",Watermelon,False,other,-6.070655345916748,-5.8635573387146,-0.20709800720214844
+banana,apple,The shopper peeled a long yellow fruit for a snack.,near,xy,"Identify the specific fruit from this description. Choose one of: banana, apple.
+Description: The shopper peeled a long yellow fruit for a snack.
+Answer with the specific name only.",Banana,True,X,-3.665922164916992,-4.114583969116211,0.44866180419921875
+banana,apple,The shopper peeled a long yellow fruit for a snack.,near,yx,"Identify the specific fruit from this description. Choose one of: apple, banana.
+Description: The shopper peeled a long yellow fruit for a snack.
+Answer with the specific name only.",Banana,True,X,-3.077613353729248,-5.409352779388428,2.3317394256591797
+banana,apple,A curved yellow fruit lay beside the cereal bowl.,near,free,"Identify the specific fruit from this description.
+Description: A curved yellow fruit lay beside the cereal bowl.
+Answer with the specific name only.",Apple,False,Y,-6.735912799835205,-6.2526774406433105,-0.48323535919189453
+banana,apple,A curved yellow fruit lay beside the cereal bowl.,near,xy,"Identify the specific fruit from this description. Choose one of: banana, apple.
+Description: A curved yellow fruit lay beside the cereal bowl.
+Answer with the specific name only.",Banana,True,X,-3.7028846740722656,-4.68626594543457,0.9833812713623047
+banana,apple,A curved yellow fruit lay beside the cereal bowl.,near,yx,"Identify the specific fruit from this description. Choose one of: apple, banana.
+Description: A curved yellow fruit lay beside the cereal bowl.
+Answer with the specific name only.",Banana,True,X,-3.357408285140991,-5.5602216720581055,2.2028133869171143
+banana,apple,A monkey hunted for a sweet snack among leaves.,medium,free,"Identify the specific fruit from this description.
+Description: A monkey hunted for a sweet snack among leaves.
+Answer with the specific name only.",Apple,False,Y,-6.8749165534973145,-3.929518222808838,-2.9453983306884766
+banana,apple,A monkey hunted for a sweet snack among leaves.,medium,xy,"Identify the specific fruit from this description. Choose one of: banana, apple.
+Description: A monkey hunted for a sweet snack among leaves.
+Answer with the specific name only.",Apple,False,Y,-4.692958831787109,-2.462122917175293,-2.2308359146118164
+banana,apple,A monkey hunted for a sweet snack among leaves.,medium,yx,"Identify the specific fruit from this description. Choose one of: apple, banana.
+Description: A monkey hunted for a sweet snack among leaves.
+Answer with the specific name only.",Banana,True,X,-3.544050455093384,-4.007299423217773,0.46324896812438965
+banana,apple,A monkey searched the canopy for something sweet to eat.,medium,free,"Identify the specific fruit from this description.
+Description: A monkey searched the canopy for something sweet to eat.
+Answer with the specific name only.",Apple,False,Y,-5.321788311004639,-4.40775728225708,-0.9140310287475586
+banana,apple,A monkey searched the canopy for something sweet to eat.,medium,xy,"Identify the specific fruit from this description. Choose one of: banana, apple.
+Description: A monkey searched the canopy for something sweet to eat.
+Answer with the specific name only.",Apple,False,Y,-3.7954721450805664,-3.370295524597168,-0.42517662048339844
+banana,apple,A monkey searched the canopy for something sweet to eat.,medium,yx,"Identify the specific fruit from this description. Choose one of: apple, banana.
+Description: A monkey searched the canopy for something sweet to eat.
+Answer with the specific name only.",Banana,True,X,-2.747441291809082,-4.484992027282715,1.7375507354736328
+banana,apple,A yellow curved snack was taken from its skin.,near,free,"Identify the specific fruit from this description.
+Description: A yellow curved snack was taken from its skin.
+Answer with the specific name only.",Strawberry,False,other,-6.385074138641357,-5.333373546600342,-1.0517005920410156
+banana,apple,A yellow curved snack was taken from its skin.,near,xy,"Identify the specific fruit from this description. Choose one of: banana, apple.
+Description: A yellow curved snack was taken from its skin.
+Answer with the specific name only.",Banana,True,X,-3.4401323795318604,-3.449587106704712,0.009454727172851562
+banana,apple,A yellow curved snack was taken from its skin.,near,yx,"Identify the specific fruit from this description. Choose one of: apple, banana.
+Description: A yellow curved snack was taken from its skin.
+Answer with the specific name only.",Banana,True,X,-2.7537002563476562,-4.6512603759765625,1.8975601196289062
+banana,apple,Rainforest crops ripened during the wet season.,far,free,"Identify the specific fruit from this description.
+Description: Rainforest crops ripened during the wet season.
+Answer with the specific name only.",Cocoa.,False,other,-5.626985549926758,-9.014314651489258,3.3873291015625
+banana,apple,Rainforest crops ripened during the wet season.,far,xy,"Identify the specific fruit from this description. Choose one of: banana, apple.
+Description: Rainforest crops ripened during the wet season.
+Answer with the specific name only.",Banana,True,X,-2.422285795211792,-5.600496768951416,3.178210973739624
+banana,apple,Rainforest crops ripened during the wet season.,far,yx,"Identify the specific fruit from this description. Choose one of: apple, banana.
+Description: Rainforest crops ripened during the wet season.
+Answer with the specific name only.",Banana,True,X,-1.6399457454681396,-6.809443950653076,5.1694982051849365
+banana,apple,A stall displayed imported produce in the morning.,far,free,"Identify the specific fruit from this description.
+Description: A stall displayed imported produce in the morning.
+Answer with the specific name only.",Apples,False,Y,-5.076506614685059,-5.051021575927734,-0.02548503875732422
+banana,apple,A stall displayed imported produce in the morning.,far,xy,"Identify the specific fruit from this description. Choose one of: banana, apple.
+Description: A stall displayed imported produce in the morning.
+Answer with the specific name only.",Apple,False,Y,-3.399718999862671,-3.2619874477386475,-0.13773155212402344
+banana,apple,A stall displayed imported produce in the morning.,far,yx,"Identify the specific fruit from this description. Choose one of: apple, banana.
+Description: A stall displayed imported produce in the morning.
+Answer with the specific name only.",Banana,True,X,-2.141554594039917,-5.737603187561035,3.596048593521118
+banana,apple,The rainforest canopy was full of small birds.,far,free,"Identify the specific fruit from this description.
+Description: The rainforest canopy was full of small birds.
+Answer with the specific name only.",Cassava,False,other,-6.542469024658203,-6.3560028076171875,-0.18646621704101562
+banana,apple,The rainforest canopy was full of small birds.,far,xy,"Identify the specific fruit from this description. Choose one of: banana, apple.
+Description: The rainforest canopy was full of small birds.
+Answer with the specific name only.",Banana,True,X,-2.9028029441833496,-2.4995064735412598,-0.40329647064208984
+banana,apple,The rainforest canopy was full of small birds.,far,yx,"Identify the specific fruit from this description. Choose one of: apple, banana.
+Description: The rainforest canopy was full of small birds.
+Answer with the specific name only.",Banana,True,X,-2.0523910522460938,-3.8550424575805664,1.8026514053344727
+banana,apple,A clerk stamped documents at a railway office.,unrelated,free,"Identify the specific fruit from this description.
+Description: A clerk stamped documents at a railway office.
+Answer with the specific name only.",Penknife,False,other,-9.402527809143066,-7.256691932678223,-2.1458358764648438
+banana,apple,A clerk stamped documents at a railway office.,unrelated,xy,"Identify the specific fruit from this description. Choose one of: banana, apple.
+Description: A clerk stamped documents at a railway office.
+Answer with the specific name only.",Apple,False,Y,-3.317134141921997,-1.4312670230865479,-1.8858671188354492
+banana,apple,A clerk stamped documents at a railway office.,unrelated,yx,"Identify the specific fruit from this description. Choose one of: apple, banana.
+Description: A clerk stamped documents at a railway office.
+Answer with the specific name only.",banana,True,X,-0.6844697594642639,-4.079691410064697,3.3952216506004333
+banana,apple,The accountant mailed a tax form on Friday.,unrelated,free,"Identify the specific fruit from this description.
+Description: The accountant mailed a tax form on Friday.
+Answer with the specific name only.",Tax Form,False,other,-9.023472785949707,-6.855686664581299,-2.167786121368408
+banana,apple,The accountant mailed a tax form on Friday.,unrelated,xy,"Identify the specific fruit from this description. Choose one of: banana, apple.
+Description: The accountant mailed a tax form on Friday.
+Answer with the specific name only.",apple,False,Y,-3.32098650932312,-1.0924041271209717,-2.2285823822021484
+banana,apple,The accountant mailed a tax form on Friday.,unrelated,yx,"Identify the specific fruit from this description. Choose one of: apple, banana.
+Description: The accountant mailed a tax form on Friday.
+Answer with the specific name only.",Tax Form,False,other,-1.5533559322357178,-2.285581350326538,0.7322254180908203
+banana,apple,Workers repaired a cracked pavement outside the library.,unrelated,free,"Identify the specific fruit from this description.
+Description: Workers repaired a cracked pavement outside the library.
+Answer with the specific name only.",Pavement,False,other,-8.175260543823242,-7.7710418701171875,-0.4042186737060547
+banana,apple,Workers repaired a cracked pavement outside the library.,unrelated,xy,"Identify the specific fruit from this description. Choose one of: banana, apple.
+Description: Workers repaired a cracked pavement outside the library.
+Answer with the specific name only.",Pavement,False,other,-4.15841817855835,-4.669482707977295,0.5110645294189453
+banana,apple,Workers repaired a cracked pavement outside the library.,unrelated,yx,"Identify the specific fruit from this description. Choose one of: apple, banana.
+Description: Workers repaired a cracked pavement outside the library.
+Answer with the specific name only.",Banana,True,X,-1.544332504272461,-7.862981796264648,6.3186492919921875
+elephant,giraffe,The giant animal used a trunk to collect leaves.,near,free,"Identify the specific animal from this description.
+Description: The giant animal used a trunk to collect leaves.
+Answer with the specific name only.",Giant Squirrel,False,other,-9.54687786102295,-10.270584106445312,0.7237062454223633
+elephant,giraffe,The giant animal used a trunk to collect leaves.,near,xy,"Identify the specific animal from this description. Choose one of: elephant, giraffe.
+Description: The giant animal used a trunk to collect leaves.
+Answer with the specific name only.",Giraffe,False,Y,-10.023334503173828,-6.29094934463501,-3.7323851585388184
+elephant,giraffe,The giant animal used a trunk to collect leaves.,near,yx,"Identify the specific animal from this description. Choose one of: giraffe, elephant.
+Description: The giant animal used a trunk to collect leaves.
+Answer with the specific name only.",Giraffe,False,Y,-6.710309028625488,-7.331308841705322,0.620999813079834
+elephant,giraffe,A safari guide discussed the world's largest land mammals.,medium,free,"Identify the specific animal from this description.
+Description: A safari guide discussed the world's largest land mammals.
+Answer with the specific name only.",Lion,False,other,-8.035362243652344,-8.854937553405762,0.819575309753418
+elephant,giraffe,A safari guide discussed the world's largest land mammals.,medium,xy,"Identify the specific animal from this description. Choose one of: elephant, giraffe.
+Description: A safari guide discussed the world's largest land mammals.
+Answer with the specific name only.",Giraffe,False,Y,-5.567047119140625,-5.1518659591674805,-0.41518115997314453
+elephant,giraffe,A safari guide discussed the world's largest land mammals.,medium,yx,"Identify the specific animal from this description. Choose one of: giraffe, elephant.
+Description: A safari guide discussed the world's largest land mammals.
+Answer with the specific name only.",Giraffe,False,Y,-5.223362922668457,-4.873888969421387,-0.3494739532470703
+elephant,giraffe,A herd of enormous herbivores crossed the savanna.,medium,free,"Identify the specific animal from this description.
+Description: A herd of enormous herbivores crossed the savanna.
+Answer with the specific name only.",African Buffalo,False,other,-7.816917419433594,-11.318123817443848,3.501206398010254
+elephant,giraffe,A herd of enormous herbivores crossed the savanna.,medium,xy,"Identify the specific animal from this description. Choose one of: elephant, giraffe.
+Description: A herd of enormous herbivores crossed the savanna.
+Answer with the specific name only.",Giraffe,False,Y,-6.621645927429199,-7.0284271240234375,0.4067811965942383
+elephant,giraffe,A herd of enormous herbivores crossed the savanna.,medium,yx,"Identify the specific animal from this description. Choose one of: giraffe, elephant.
+Description: A herd of enormous herbivores crossed the savanna.
+Answer with the specific name only.",Elephant,True,X,-5.534845352172852,-8.058239936828613,2.5233945846557617
+elephant,giraffe,Huge ears flapped as a tusked animal crossed the plain.,near,free,"Identify the specific animal from this description.
+Description: Huge ears flapped as a tusked animal crossed the plain.
+Answer with the specific name only.",Tiger,False,other,-8.276368141174316,-11.359468460083008,3.0831003189086914
+elephant,giraffe,Huge ears flapped as a tusked animal crossed the plain.,near,xy,"Identify the specific animal from this description. Choose one of: elephant, giraffe.
+Description: Huge ears flapped as a tusked animal crossed the plain.
+Answer with the specific name only.",Giraffe,False,Y,-8.507850646972656,-6.083802223205566,-2.42404842376709
+elephant,giraffe,Huge ears flapped as a tusked animal crossed the plain.,near,yx,"Identify the specific animal from this description. Choose one of: giraffe, elephant.
+Description: Huge ears flapped as a tusked animal crossed the plain.
+Answer with the specific name only.",Elephant,True,X,-6.3998799324035645,-9.404539108276367,3.0046591758728027
+elephant,giraffe,A giant gray mammal swung its trunk by a waterhole.,near,free,"Identify the specific animal from this description.
+Description: A giant gray mammal swung its trunk by a waterhole.
+Answer with the specific name only.",Giant Gray Water Buffalo,False,other,-10.059701919555664,-9.594955444335938,-0.46474647521972656
+elephant,giraffe,A giant gray mammal swung its trunk by a waterhole.,near,xy,"Identify the specific animal from this description. Choose one of: elephant, giraffe.
+Description: A giant gray mammal swung its trunk by a waterhole.
+Answer with the specific name only.",Giraffe,False,Y,-8.798344612121582,-5.576566696166992,-3.22177791595459
+elephant,giraffe,A giant gray mammal swung its trunk by a waterhole.,near,yx,"Identify the specific animal from this description. Choose one of: giraffe, elephant.
+Description: A giant gray mammal swung its trunk by a waterhole.
+Answer with the specific name only.",Giraffe,False,Y,-7.263276100158691,-6.149402141571045,-1.1138739585876465
+elephant,giraffe,An enormous herbivore moved slowly across the plains.,medium,free,"Identify the specific animal from this description.
+Description: An enormous herbivore moved slowly across the plains.
+Answer with the specific name only.",Giraffe,False,Y,-7.559855937957764,-8.824864387512207,1.2650084495544434
+elephant,giraffe,An enormous herbivore moved slowly across the plains.,medium,xy,"Identify the specific animal from this description. Choose one of: elephant, giraffe.
+Description: An enormous herbivore moved slowly across the plains.
+Answer with the specific name only.",Giraffe,False,Y,-7.813374042510986,-5.266175746917725,-2.5471982955932617
+elephant,giraffe,An enormous herbivore moved slowly across the plains.,medium,yx,"Identify the specific animal from this description. Choose one of: giraffe, elephant.
+Description: An enormous herbivore moved slowly across the plains.
+Answer with the specific name only.",Elephant,True,X,-4.696190357208252,-7.069112777709961,2.372922420501709
+elephant,giraffe,Grasslands stretched toward distant rocky hills.,far,free,"Identify the specific animal from this description.
+Description: Grasslands stretched toward distant rocky hills.
+Answer with the specific name only.",Grassmiller,False,other,-9.257718086242676,-10.991291999816895,1.7335739135742188
+elephant,giraffe,Grasslands stretched toward distant rocky hills.,far,xy,"Identify the specific animal from this description. Choose one of: elephant, giraffe.
+Description: Grasslands stretched toward distant rocky hills.
+Answer with the specific name only.",Giraffe,False,Y,-7.365095615386963,-4.783491134643555,-2.581604480743408
+elephant,giraffe,Grasslands stretched toward distant rocky hills.,far,yx,"Identify the specific animal from this description. Choose one of: giraffe, elephant.
+Description: Grasslands stretched toward distant rocky hills.
+Answer with the specific name only.",Elephant,True,X,-4.539882183074951,-7.136620998382568,2.596738815307617
+elephant,giraffe,Tourists visited a wildlife reserve before lunch.,far,free,"Identify the specific animal from this description.
+Description: Tourists visited a wildlife reserve before lunch.
+Answer with the specific name only.",Lion,False,other,-7.639394283294678,-9.525293350219727,1.8858990669250488
+elephant,giraffe,Tourists visited a wildlife reserve before lunch.,far,xy,"Identify the specific animal from this description. Choose one of: elephant, giraffe.
+Description: Tourists visited a wildlife reserve before lunch.
+Answer with the specific name only.",Giraffe,False,Y,-8.467791557312012,-6.194136142730713,-2.273655414581299
+elephant,giraffe,Tourists visited a wildlife reserve before lunch.,far,yx,"Identify the specific animal from this description. Choose one of: giraffe, elephant.
+Description: Tourists visited a wildlife reserve before lunch.
+Answer with the specific name only.",Elephant,True,X,-5.8576741218566895,-9.134121894836426,3.2764477729797363
+elephant,giraffe,A grassland reserve opened to tourists at dawn.,far,free,"Identify the specific animal from this description.
+Description: A grassland reserve opened to tourists at dawn.
+Answer with the specific name only.",Gazelle,False,other,-11.999411582946777,-11.931364059448242,-0.06804752349853516
+elephant,giraffe,A grassland reserve opened to tourists at dawn.,far,xy,"Identify the specific animal from this description. Choose one of: elephant, giraffe.
+Description: A grassland reserve opened to tourists at dawn.
+Answer with the specific name only.",Giraffe,False,Y,-7.848995208740234,-6.145102024078369,-1.7038931846618652
+elephant,giraffe,A grassland reserve opened to tourists at dawn.,far,yx,"Identify the specific animal from this description. Choose one of: giraffe, elephant.
+Description: A grassland reserve opened to tourists at dawn.
+Answer with the specific name only.",Giraffe,False,Y,-6.273077487945557,-7.34147834777832,1.0684008598327637
+elephant,giraffe,A librarian replaced several damaged catalog cards.,unrelated,free,"Identify the specific animal from this description.
+Description: A librarian replaced several damaged catalog cards.
+Answer with the specific name only.",Catalog Card Reader,False,other,-12.983144760131836,-15.632173538208008,2.649028778076172
+elephant,giraffe,A librarian replaced several damaged catalog cards.,unrelated,xy,"Identify the specific animal from this description. Choose one of: elephant, giraffe.
+Description: A librarian replaced several damaged catalog cards.
+Answer with the specific name only.",Giraffe,False,Y,-5.324995517730713,-5.824568271636963,0.49957275390625
+elephant,giraffe,A librarian replaced several damaged catalog cards.,unrelated,yx,"Identify the specific animal from this description. Choose one of: giraffe, elephant.
+Description: A librarian replaced several damaged catalog cards.
+Answer with the specific name only.",Elephant,True,X,-3.397017240524292,-9.09980583190918,5.702788591384888
+elephant,giraffe,Subway timetables changed after maintenance.,unrelated,free,"Identify the specific animal from this description.
+Description: Subway timetables changed after maintenance.
+Answer with the specific name only.",Bicycle,False,other,-7.057761192321777,-12.12364673614502,5.065885543823242
+elephant,giraffe,Subway timetables changed after maintenance.,unrelated,xy,"Identify the specific animal from this description. Choose one of: elephant, giraffe.
+Description: Subway timetables changed after maintenance.
+Answer with the specific name only.",Giraffe,False,Y,-6.766449451446533,-6.1100006103515625,-0.6564488410949707
+elephant,giraffe,Subway timetables changed after maintenance.,unrelated,yx,"Identify the specific animal from this description. Choose one of: giraffe, elephant.
+Description: Subway timetables changed after maintenance.
+Answer with the specific name only.",Elephant,True,X,-4.9401068687438965,-9.630261421203613,4.690154552459717
+elephant,giraffe,A mechanic inspected the steering wheel.,unrelated,free,"Identify the specific animal from this description.
+Description: A mechanic inspected the steering wheel.
+Answer with the specific name only.",Steering Wheel Mechanic,False,other,-11.550700187683105,-16.27716827392578,4.726468086242676
+elephant,giraffe,A mechanic inspected the steering wheel.,unrelated,xy,"Identify the specific animal from this description. Choose one of: elephant, giraffe.
+Description: A mechanic inspected the steering wheel.
+Answer with the specific name only.",Giraffe,False,Y,-5.417241096496582,-6.635350704193115,1.2181096076965332
+elephant,giraffe,A mechanic inspected the steering wheel.,unrelated,yx,"Identify the specific animal from this description. Choose one of: giraffe, elephant.
+Description: A mechanic inspected the steering wheel.
+Answer with the specific name only.",Elephant,True,X,-3.8925862312316895,-8.387572288513184,4.494986057281494
+piano,violin,A music tutor introduced classical chord patterns.,medium,free,"Identify the specific musical instrument from this description.
+Description: A music tutor introduced classical chord patterns.
+Answer with the specific name only.",Piano,True,X,-7.125249862670898,-4.84415864944458,-2.2810912132263184
+piano,violin,A music tutor introduced classical chord patterns.,medium,xy,"Identify the specific musical instrument from this description. Choose one of: piano, violin.
+Description: A music tutor introduced classical chord patterns.
+Answer with the specific name only.",violin,False,Y,-3.6025190353393555,-0.7460862994194031,-2.8564327359199524
+piano,violin,A music tutor introduced classical chord patterns.,medium,yx,"Identify the specific musical instrument from this description. Choose one of: violin, piano.
+Description: A music tutor introduced classical chord patterns.
+Answer with the specific name only.",violin,False,Y,-2.972853183746338,-0.9240633845329285,-2.0487897992134094
+piano,violin,A composer examined pages of printed notation.,far,free,"Identify the specific musical instrument from this description.
+Description: A composer examined pages of printed notation.
+Answer with the specific name only.",Piano,True,X,-7.170888423919678,-2.9442737102508545,-4.226614713668823
+piano,violin,A composer examined pages of printed notation.,far,xy,"Identify the specific musical instrument from this description. Choose one of: piano, violin.
+Description: A composer examined pages of printed notation.
+Answer with the specific name only.",violin,False,Y,-4.9152727127075195,-0.8424692749977112,-4.072803437709808
+piano,violin,A composer examined pages of printed notation.,far,yx,"Identify the specific musical instrument from this description. Choose one of: violin, piano.
+Description: A composer examined pages of printed notation.
+Answer with the specific name only.",violin,False,Y,-5.220785140991211,-0.5956361293792725,-4.6251490116119385
+piano,violin,A musician pressed black and white keys across the keyboard.,near,free,"Identify the specific musical instrument from this description.
+Description: A musician pressed black and white keys across the keyboard.
+Answer with the specific name only.",Piano,True,X,-5.316435813903809,-8.389881134033203,3.0734453201293945
+piano,violin,A musician pressed black and white keys across the keyboard.,near,xy,"Identify the specific musical instrument from this description. Choose one of: piano, violin.
+Description: A musician pressed black and white keys across the keyboard.
+Answer with the specific name only.",Violin,False,Y,-3.196237564086914,-2.420292854309082,-0.775944709777832
+piano,violin,A musician pressed black and white keys across the keyboard.,near,yx,"Identify the specific musical instrument from this description. Choose one of: violin, piano.
+Description: A musician pressed black and white keys across the keyboard.
+Answer with the specific name only.",Piano,True,X,-2.283723831176758,-2.5134341716766357,0.22971034049987793
+piano,violin,A grand acoustic keyboard instrument stood on stage.,near,free,"Identify the specific musical instrument from this description.
+Description: A grand acoustic keyboard instrument stood on stage.
+Answer with the specific name only.",Grand Piano,True,X,-8.118803977966309,-9.696418762207031,1.5776147842407227
+piano,violin,A grand acoustic keyboard instrument stood on stage.,near,xy,"Identify the specific musical instrument from this description. Choose one of: piano, violin.
+Description: A grand acoustic keyboard instrument stood on stage.
+Answer with the specific name only.",Piano,True,X,-2.8648502826690674,-4.075139999389648,1.210289716720581
+piano,violin,A grand acoustic keyboard instrument stood on stage.,near,yx,"Identify the specific musical instrument from this description. Choose one of: violin, piano.
+Description: A grand acoustic keyboard instrument stood on stage.
+Answer with the specific name only.",Piano,True,X,-3.2110886573791504,-2.831662893295288,-0.3794257640838623
+piano,violin,A student practiced chords in the music room.,medium,free,"Identify the specific musical instrument from this description.
+Description: A student practiced chords in the music room.
+Answer with the specific name only.",Piano,True,X,-6.3423333168029785,-5.437844753265381,-0.9044885635375977
+piano,violin,A student practiced chords in the music room.,medium,xy,"Identify the specific musical instrument from this description. Choose one of: piano, violin.
+Description: A student practiced chords in the music room.
+Answer with the specific name only.",violin,False,Y,-2.9624714851379395,-1.00350821018219,-1.9589632749557495
+piano,violin,A student practiced chords in the music room.,medium,yx,"Identify the specific musical instrument from this description. Choose one of: violin, piano.
+Description: A student practiced chords in the music room.
+Answer with the specific name only.",violin,False,Y,-3.013653516769409,-0.9042882323265076,-2.1093652844429016
+piano,violin,A long keyboard sounded as its keys were pressed.,near,free,"Identify the specific musical instrument from this description.
+Description: A long keyboard sounded as its keys were pressed.
+Answer with the specific name only.",Piano,True,X,-6.0937652587890625,-7.249180793762207,1.1554155349731445
+piano,violin,A long keyboard sounded as its keys were pressed.,near,xy,"Identify the specific musical instrument from this description. Choose one of: piano, violin.
+Description: A long keyboard sounded as its keys were pressed.
+Answer with the specific name only.",Piano,True,X,-2.9246673583984375,-2.2268261909484863,-0.6978411674499512
+piano,violin,A long keyboard sounded as its keys were pressed.,near,yx,"Identify the specific musical instrument from this description. Choose one of: violin, piano.
+Description: A long keyboard sounded as its keys were pressed.
+Answer with the specific name only.",Piano,True,X,-2.70902681350708,-2.0947043895721436,-0.6143224239349365
+piano,violin,The hall hosted a classical solo performance.,medium,free,"Identify the specific musical instrument from this description.
+Description: The hall hosted a classical solo performance.
+Answer with the specific name only.",Violin,False,Y,-7.401078224182129,-3.5468814373016357,-3.854196786880493
+piano,violin,The hall hosted a classical solo performance.,medium,xy,"Identify the specific musical instrument from this description. Choose one of: piano, violin.
+Description: The hall hosted a classical solo performance.
+Answer with the specific name only.",violin,False,Y,-3.3245041370391846,-0.5713850259780884,-2.753119111061096
+piano,violin,The hall hosted a classical solo performance.,medium,yx,"Identify the specific musical instrument from this description. Choose one of: violin, piano.
+Description: The hall hosted a classical solo performance.
+Answer with the specific name only.",violin,False,Y,-3.8503730297088623,-0.37901484966278076,-3.4713581800460815
+piano,violin,The auditorium prepared seats for an evening program.,far,free,"Identify the specific musical instrument from this description.
+Description: The auditorium prepared seats for an evening program.
+Answer with the specific name only.",Violin,False,Y,-8.697144508361816,-4.361701488494873,-4.335443019866943
+piano,violin,The auditorium prepared seats for an evening program.,far,xy,"Identify the specific musical instrument from this description. Choose one of: piano, violin.
+Description: The auditorium prepared seats for an evening program.
+Answer with the specific name only.",violin,False,Y,-4.845588684082031,-0.2817596197128296,-4.563829064369202
+piano,violin,The auditorium prepared seats for an evening program.,far,yx,"Identify the specific musical instrument from this description. Choose one of: violin, piano.
+Description: The auditorium prepared seats for an evening program.
+Answer with the specific name only.",violin,False,Y,-3.5400288105010986,-0.31858381628990173,-3.221444994211197
+piano,violin,A mechanic repaired the engine of a bus.,unrelated,free,"Identify the specific musical instrument from this description.
+Description: A mechanic repaired the engine of a bus.
+Answer with the specific name only.",Bicycle,False,other,-10.416168212890625,-11.420740127563477,1.0045719146728516
+piano,violin,A mechanic repaired the engine of a bus.,unrelated,xy,"Identify the specific musical instrument from this description. Choose one of: piano, violin.
+Description: A mechanic repaired the engine of a bus.
+Answer with the specific name only.",Violin,False,Y,-5.177108287811279,-2.801086664199829,-2.37602162361145
+piano,violin,A mechanic repaired the engine of a bus.,unrelated,yx,"Identify the specific musical instrument from this description. Choose one of: violin, piano.
+Description: A mechanic repaired the engine of a bus.
+Answer with the specific name only.",Violin,False,Y,-3.889119863510132,-2.944803237915039,-0.9443166255950928
+piano,violin,Rainwater collected behind the garage.,unrelated,free,"Identify the specific musical instrument from this description.
+Description: Rainwater collected behind the garage.
+Answer with the specific name only.",Drum,False,other,-9.114967346191406,-10.131061553955078,1.0160942077636719
+piano,violin,Rainwater collected behind the garage.,unrelated,xy,"Identify the specific musical instrument from this description. Choose one of: piano, violin.
+Description: Rainwater collected behind the garage.
+Answer with the specific name only.",Violin,False,Y,-2.891613006591797,-1.3368501663208008,-1.554762840270996
+piano,violin,Rainwater collected behind the garage.,unrelated,yx,"Identify the specific musical instrument from this description. Choose one of: violin, piano.
+Description: Rainwater collected behind the garage.
+Answer with the specific name only.",Rainwater collector.,False,other,-1.7998812198638916,-2.0662035942077637,0.26632237434387207
+piano,violin,The audience entered the theater before the lights dimmed.,far,free,"Identify the specific musical instrument from this description.
+Description: The audience entered the theater before the lights dimmed.
+Answer with the specific name only.",Violin,False,Y,-9.367411613464355,-7.470812797546387,-1.8965988159179688
+piano,violin,The audience entered the theater before the lights dimmed.,far,xy,"Identify the specific musical instrument from this description. Choose one of: piano, violin.
+Description: The audience entered the theater before the lights dimmed.
+Answer with the specific name only.",violin,False,Y,-4.878933906555176,-0.8057973980903625,-4.073136508464813
+piano,violin,The audience entered the theater before the lights dimmed.,far,yx,"Identify the specific musical instrument from this description. Choose one of: violin, piano.
+Description: The audience entered the theater before the lights dimmed.
+Answer with the specific name only.",violin,False,Y,-3.191999673843384,-1.0048869848251343,-2.1871126890182495
+piano,violin,The carpenter replaced a broken window frame.,unrelated,free,"Identify the specific musical instrument from this description.
+Description: The carpenter replaced a broken window frame.
+Answer with the specific name only.",Hammer drum,False,other,-7.514854907989502,-5.337477207183838,-2.177377700805664
+piano,violin,The carpenter replaced a broken window frame.,unrelated,xy,"Identify the specific musical instrument from this description. Choose one of: piano, violin.
+Description: The carpenter replaced a broken window frame.
+Answer with the specific name only.",Violin,False,Y,-4.542097091674805,-0.8711804747581482,-3.6709166169166565
+piano,violin,The carpenter replaced a broken window frame.,unrelated,yx,"Identify the specific musical instrument from this description. Choose one of: violin, piano.
+Description: The carpenter replaced a broken window frame.
+Answer with the specific name only.",Violin,False,Y,-2.2286736965179443,-1.2351698875427246,-0.9935038089752197

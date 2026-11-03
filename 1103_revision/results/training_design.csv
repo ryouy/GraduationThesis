@@ -1,0 +1,577 @@
+concept,label,description,frame,in_baseline,prompt
+banana,1,banana,{},True,"Identify the specific fruit from this description.
+Description: banana
+Answer with the specific name only."
+banana,1,banana,"A note says: ""{}"".",True,"Identify the specific fruit from this description.
+Description: A note says: ""banana"".
+Answer with the specific name only."
+banana,1,a curved yellow fruit with a soft interior,{},True,"Identify the specific fruit from this description.
+Description: a curved yellow fruit with a soft interior
+Answer with the specific name only."
+banana,1,a curved yellow fruit with a soft interior,"A note says: ""{}"".",True,"Identify the specific fruit from this description.
+Description: A note says: ""a curved yellow fruit with a soft interior"".
+Answer with the specific name only."
+banana,1,a tropical edible plant product with a peel,{},True,"Identify the specific fruit from this description.
+Description: a tropical edible plant product with a peel
+Answer with the specific name only."
+banana,1,a tropical edible plant product with a peel,"A note says: ""{}"".",True,"Identify the specific fruit from this description.
+Description: A note says: ""a tropical edible plant product with a peel"".
+Answer with the specific name only."
+banana,1,a long sweet fruit often eaten at breakfast,{},True,"Identify the specific fruit from this description.
+Description: a long sweet fruit often eaten at breakfast
+Answer with the specific name only."
+banana,1,a long sweet fruit often eaten at breakfast,"A note says: ""{}"".",True,"Identify the specific fruit from this description.
+Description: A note says: ""a long sweet fruit often eaten at breakfast"".
+Answer with the specific name only."
+banana,1,Several pale slices turned a milkshake thick and sweet.,{},False,"Identify the specific fruit from this description.
+Description: Several pale slices turned a milkshake thick and sweet.
+Answer with the specific name only."
+banana,1,Several pale slices turned a milkshake thick and sweet.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""Several pale slices turned a milkshake thick and sweet."".
+Answer with the specific name only."
+banana,1,A bunch of long fruits hung above the plantation worker.,{},False,"Identify the specific fruit from this description.
+Description: A bunch of long fruits hung above the plantation worker.
+Answer with the specific name only."
+banana,1,A bunch of long fruits hung above the plantation worker.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""A bunch of long fruits hung above the plantation worker."".
+Answer with the specific name only."
+banana,1,The shopper separated one crescent-shaped piece from the bunch.,{},False,"Identify the specific fruit from this description.
+Description: The shopper separated one crescent-shaped piece from the bunch.
+Answer with the specific name only."
+banana,1,The shopper separated one crescent-shaped piece from the bunch.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""The shopper separated one crescent-shaped piece from the bunch."".
+Answer with the specific name only."
+banana,1,The athlete unwrapped a soft snack by pulling strips downward.,{},False,"Identify the specific fruit from this description.
+Description: The athlete unwrapped a soft snack by pulling strips downward.
+Answer with the specific name only."
+banana,1,The athlete unwrapped a soft snack by pulling strips downward.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""The athlete unwrapped a soft snack by pulling strips downward."".
+Answer with the specific name only."
+banana,1,The grocer weighed a cluster of elongated produce.,{},False,"Identify the specific fruit from this description.
+Description: The grocer weighed a cluster of elongated produce.
+Answer with the specific name only."
+banana,1,The grocer weighed a cluster of elongated produce.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""The grocer weighed a cluster of elongated produce."".
+Answer with the specific name only."
+banana,1,A dark-spotted peel lay beside the lunch box.,{},False,"Identify the specific fruit from this description.
+Description: A dark-spotted peel lay beside the lunch box.
+Answer with the specific name only."
+banana,1,A dark-spotted peel lay beside the lunch box.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""A dark-spotted peel lay beside the lunch box."".
+Answer with the specific name only."
+banana,1,A baker mashed overripe pulp for a loaf.,{},False,"Identify the specific fruit from this description.
+Description: A baker mashed overripe pulp for a loaf.
+Answer with the specific name only."
+banana,1,A baker mashed overripe pulp for a loaf.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""A baker mashed overripe pulp for a loaf."".
+Answer with the specific name only."
+banana,1,The plant bore a hanging hand of starchy edible fingers.,{},False,"Identify the specific fruit from this description.
+Description: The plant bore a hanging hand of starchy edible fingers.
+Answer with the specific name only."
+banana,1,The plant bore a hanging hand of starchy edible fingers.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""The plant bore a hanging hand of starchy edible fingers."".
+Answer with the specific name only."
+banana,1,A traveler ate the soft center and discarded the thick outer skin.,{},False,"Identify the specific fruit from this description.
+Description: A traveler ate the soft center and discarded the thick outer skin.
+Answer with the specific name only."
+banana,1,A traveler ate the soft center and discarded the thick outer skin.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""A traveler ate the soft center and discarded the thick outer skin."".
+Answer with the specific name only."
+banana,1,Small brown spots covered a long breakfast fruit.,{},False,"Identify the specific fruit from this description.
+Description: Small brown spots covered a long breakfast fruit.
+Answer with the specific name only."
+banana,1,Small brown spots covered a long breakfast fruit.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""Small brown spots covered a long breakfast fruit."".
+Answer with the specific name only."
+banana,1,The produce became sweeter as its green skin turned yellow.,{},False,"Identify the specific fruit from this description.
+Description: The produce became sweeter as its green skin turned yellow.
+Answer with the specific name only."
+banana,1,The produce became sweeter as its green skin turned yellow.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""The produce became sweeter as its green skin turned yellow."".
+Answer with the specific name only."
+banana,1,A frozen peeled crescent was blended into a dessert.,{},False,"Identify the specific fruit from this description.
+Description: A frozen peeled crescent was blended into a dessert.
+Answer with the specific name only."
+banana,1,A frozen peeled crescent was blended into a dessert.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""A frozen peeled crescent was blended into a dessert."".
+Answer with the specific name only."
+banana,0,apple,{},True,"Identify the specific fruit from this description.
+Description: apple
+Answer with the specific name only."
+banana,0,apple,"A note says: ""{}"".",True,"Identify the specific fruit from this description.
+Description: A note says: ""apple"".
+Answer with the specific name only."
+banana,0,a crisp round fruit grown in orchards,{},True,"Identify the specific fruit from this description.
+Description: a crisp round fruit grown in orchards
+Answer with the specific name only."
+banana,0,a crisp round fruit grown in orchards,"A note says: ""{}"".",True,"Identify the specific fruit from this description.
+Description: A note says: ""a crisp round fruit grown in orchards"".
+Answer with the specific name only."
+banana,0,a hard fleshed red or green fruit,{},True,"Identify the specific fruit from this description.
+Description: a hard fleshed red or green fruit
+Answer with the specific name only."
+banana,0,a hard fleshed red or green fruit,"A note says: ""{}"".",True,"Identify the specific fruit from this description.
+Description: A note says: ""a hard fleshed red or green fruit"".
+Answer with the specific name only."
+banana,0,a pome fruit usually containing small brown seeds,{},True,"Identify the specific fruit from this description.
+Description: a pome fruit usually containing small brown seeds
+Answer with the specific name only."
+banana,0,a pome fruit usually containing small brown seeds,"A note says: ""{}"".",True,"Identify the specific fruit from this description.
+Description: A note says: ""a pome fruit usually containing small brown seeds"".
+Answer with the specific name only."
+banana,0,The baker removed a seeded core before making a pie.,{},False,"Identify the specific fruit from this description.
+Description: The baker removed a seeded core before making a pie.
+Answer with the specific name only."
+banana,0,The baker removed a seeded core before making a pie.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""The baker removed a seeded core before making a pie."".
+Answer with the specific name only."
+banana,0,A round red snack crunched loudly when bitten.,{},False,"Identify the specific fruit from this description.
+Description: A round red snack crunched loudly when bitten.
+Answer with the specific name only."
+banana,0,A round red snack crunched loudly when bitten.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""A round red snack crunched loudly when bitten."".
+Answer with the specific name only."
+banana,0,A person polished the shiny skin of an orchard harvest.,{},False,"Identify the specific fruit from this description.
+Description: A person polished the shiny skin of an orchard harvest.
+Answer with the specific name only."
+banana,0,A person polished the shiny skin of an orchard harvest.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""A person polished the shiny skin of an orchard harvest."".
+Answer with the specific name only."
+banana,0,The grower picked round produce from a temperate tree.,{},False,"Identify the specific fruit from this description.
+Description: The grower picked round produce from a temperate tree.
+Answer with the specific name only."
+banana,0,The grower picked round produce from a temperate tree.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""The grower picked round produce from a temperate tree."".
+Answer with the specific name only."
+banana,0,Thin slices of a crisp green snack filled the lunch box.,{},False,"Identify the specific fruit from this description.
+Description: Thin slices of a crisp green snack filled the lunch box.
+Answer with the specific name only."
+banana,0,Thin slices of a crisp green snack filled the lunch box.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""Thin slices of a crisp green snack filled the lunch box."".
+Answer with the specific name only."
+banana,0,The fruit press squeezed a harvest into cider.,{},False,"Identify the specific fruit from this description.
+Description: The fruit press squeezed a harvest into cider.
+Answer with the specific name only."
+banana,0,The fruit press squeezed a harvest into cider.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""The fruit press squeezed a harvest into cider."".
+Answer with the specific name only."
+banana,0,A small stem protruded from the top of a glossy sphere.,{},False,"Identify the specific fruit from this description.
+Description: A small stem protruded from the top of a glossy sphere.
+Answer with the specific name only."
+banana,0,A small stem protruded from the top of a glossy sphere.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""A small stem protruded from the top of a glossy sphere."".
+Answer with the specific name only."
+banana,0,A worm had tunneled toward the seeded center of the crop.,{},False,"Identify the specific fruit from this description.
+Description: A worm had tunneled toward the seeded center of the crop.
+Answer with the specific name only."
+banana,0,A worm had tunneled toward the seeded center of the crop.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""A worm had tunneled toward the seeded center of the crop."".
+Answer with the specific name only."
+banana,0,The child held a firm round snack by its short stalk.,{},False,"Identify the specific fruit from this description.
+Description: The child held a firm round snack by its short stalk.
+Answer with the specific name only."
+banana,0,The child held a firm round snack by its short stalk.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""The child held a firm round snack by its short stalk."".
+Answer with the specific name only."
+banana,0,A kitchen tool removed the core while leaving a circular hole.,{},False,"Identify the specific fruit from this description.
+Description: A kitchen tool removed the core while leaving a circular hole.
+Answer with the specific name only."
+banana,0,A kitchen tool removed the core while leaving a circular hole.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""A kitchen tool removed the core while leaving a circular hole."".
+Answer with the specific name only."
+banana,0,The orchard sold red and green varieties with crunchy flesh.,{},False,"Identify the specific fruit from this description.
+Description: The orchard sold red and green varieties with crunchy flesh.
+Answer with the specific name only."
+banana,0,The orchard sold red and green varieties with crunchy flesh.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""The orchard sold red and green varieties with crunchy flesh."".
+Answer with the specific name only."
+banana,0,The cook sprinkled cinnamon over wedges of a pome.,{},False,"Identify the specific fruit from this description.
+Description: The cook sprinkled cinnamon over wedges of a pome.
+Answer with the specific name only."
+banana,0,The cook sprinkled cinnamon over wedges of a pome.,"A note says: ""{}"".",False,"Identify the specific fruit from this description.
+Description: A note says: ""The cook sprinkled cinnamon over wedges of a pome."".
+Answer with the specific name only."
+elephant,1,elephant,{},True,"Identify the specific animal from this description.
+Description: elephant
+Answer with the specific name only."
+elephant,1,elephant,"A note says: ""{}"".",True,"Identify the specific animal from this description.
+Description: A note says: ""elephant"".
+Answer with the specific name only."
+elephant,1,an enormous gray land mammal with a trunk,{},True,"Identify the specific animal from this description.
+Description: an enormous gray land mammal with a trunk
+Answer with the specific name only."
+elephant,1,an enormous gray land mammal with a trunk,"A note says: ""{}"".",True,"Identify the specific animal from this description.
+Description: A note says: ""an enormous gray land mammal with a trunk"".
+Answer with the specific name only."
+elephant,1,a heavy tusked herbivore with wide ears,{},True,"Identify the specific animal from this description.
+Description: a heavy tusked herbivore with wide ears
+Answer with the specific name only."
+elephant,1,a heavy tusked herbivore with wide ears,"A note says: ""{}"".",True,"Identify the specific animal from this description.
+Description: A note says: ""a heavy tusked herbivore with wide ears"".
+Answer with the specific name only."
+elephant,1,a giant mammal using its elongated nose to grasp,{},True,"Identify the specific animal from this description.
+Description: a giant mammal using its elongated nose to grasp
+Answer with the specific name only."
+elephant,1,a giant mammal using its elongated nose to grasp,"A note says: ""{}"".",True,"Identify the specific animal from this description.
+Description: A note says: ""a giant mammal using its elongated nose to grasp"".
+Answer with the specific name only."
+elephant,1,The zookeeper watched a massive animal grasp food with its nose.,{},False,"Identify the specific animal from this description.
+Description: The zookeeper watched a massive animal grasp food with its nose.
+Answer with the specific name only."
+elephant,1,The zookeeper watched a massive animal grasp food with its nose.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""The zookeeper watched a massive animal grasp food with its nose."".
+Answer with the specific name only."
+elephant,1,A huge herbivore flapped its broad ears in the heat.,{},False,"Identify the specific animal from this description.
+Description: A huge herbivore flapped its broad ears in the heat.
+Answer with the specific name only."
+elephant,1,A huge herbivore flapped its broad ears in the heat.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""A huge herbivore flapped its broad ears in the heat."".
+Answer with the specific name only."
+elephant,1,Ivory tusks curved beside a dangling muscular nose.,{},False,"Identify the specific animal from this description.
+Description: Ivory tusks curved beside a dangling muscular nose.
+Answer with the specific name only."
+elephant,1,Ivory tusks curved beside a dangling muscular nose.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""Ivory tusks curved beside a dangling muscular nose."".
+Answer with the specific name only."
+elephant,1,The heavy animal sprayed itself with water held in its trunk.,{},False,"Identify the specific animal from this description.
+Description: The heavy animal sprayed itself with water held in its trunk.
+Answer with the specific name only."
+elephant,1,The heavy animal sprayed itself with water held in its trunk.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""The heavy animal sprayed itself with water held in its trunk."".
+Answer with the specific name only."
+elephant,1,A herd of giant gray mammals crossed the dusty trail.,{},False,"Identify the specific animal from this description.
+Description: A herd of giant gray mammals crossed the dusty trail.
+Answer with the specific name only."
+elephant,1,A herd of giant gray mammals crossed the dusty trail.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""A herd of giant gray mammals crossed the dusty trail."".
+Answer with the specific name only."
+elephant,1,The calf walked between enormous pillar-like legs.,{},False,"Identify the specific animal from this description.
+Description: The calf walked between enormous pillar-like legs.
+Answer with the specific name only."
+elephant,1,The calf walked between enormous pillar-like legs.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""The calf walked between enormous pillar-like legs."".
+Answer with the specific name only."
+elephant,1,The animal lifted a log using its long flexible snout.,{},False,"Identify the specific animal from this description.
+Description: The animal lifted a log using its long flexible snout.
+Answer with the specific name only."
+elephant,1,The animal lifted a log using its long flexible snout.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""The animal lifted a log using its long flexible snout."".
+Answer with the specific name only."
+elephant,1,A huge pachyderm reached down to collect grass.,{},False,"Identify the specific animal from this description.
+Description: A huge pachyderm reached down to collect grass.
+Answer with the specific name only."
+elephant,1,A huge pachyderm reached down to collect grass.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""A huge pachyderm reached down to collect grass."".
+Answer with the specific name only."
+elephant,1,The reserve protected large tusked animals from poachers.,{},False,"Identify the specific animal from this description.
+Description: The reserve protected large tusked animals from poachers.
+Answer with the specific name only."
+elephant,1,The reserve protected large tusked animals from poachers.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""The reserve protected large tusked animals from poachers."".
+Answer with the specific name only."
+elephant,1,A gray giant scooped water and showered its own back.,{},False,"Identify the specific animal from this description.
+Description: A gray giant scooped water and showered its own back.
+Answer with the specific name only."
+elephant,1,A gray giant scooped water and showered its own back.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""A gray giant scooped water and showered its own back."".
+Answer with the specific name only."
+elephant,1,The circus photograph showed a huge animal balancing on thick legs.,{},False,"Identify the specific animal from this description.
+Description: The circus photograph showed a huge animal balancing on thick legs.
+Answer with the specific name only."
+elephant,1,The circus photograph showed a huge animal balancing on thick legs.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""The circus photograph showed a huge animal balancing on thick legs."".
+Answer with the specific name only."
+elephant,1,The mammal used the finger-like tip of its trunk to pick up food.,{},False,"Identify the specific animal from this description.
+Description: The mammal used the finger-like tip of its trunk to pick up food.
+Answer with the specific name only."
+elephant,1,The mammal used the finger-like tip of its trunk to pick up food.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""The mammal used the finger-like tip of its trunk to pick up food."".
+Answer with the specific name only."
+elephant,0,giraffe,{},True,"Identify the specific animal from this description.
+Description: giraffe
+Answer with the specific name only."
+elephant,0,giraffe,"A note says: ""{}"".",True,"Identify the specific animal from this description.
+Description: A note says: ""giraffe"".
+Answer with the specific name only."
+elephant,0,a tall spotted hoofed animal with a long neck,{},True,"Identify the specific animal from this description.
+Description: a tall spotted hoofed animal with a long neck
+Answer with the specific name only."
+elephant,0,a tall spotted hoofed animal with a long neck,"A note says: ""{}"".",True,"Identify the specific animal from this description.
+Description: A note says: ""a tall spotted hoofed animal with a long neck"".
+Answer with the specific name only."
+elephant,0,an African browsing mammal that reaches high leaves,{},True,"Identify the specific animal from this description.
+Description: an African browsing mammal that reaches high leaves
+Answer with the specific name only."
+elephant,0,an African browsing mammal that reaches high leaves,"A note says: ""{}"".",True,"Identify the specific animal from this description.
+Description: A note says: ""an African browsing mammal that reaches high leaves"".
+Answer with the specific name only."
+elephant,0,a long legged spotted savanna herbivore,{},True,"Identify the specific animal from this description.
+Description: a long legged spotted savanna herbivore
+Answer with the specific name only."
+elephant,0,a long legged spotted savanna herbivore,"A note says: ""{}"".",True,"Identify the specific animal from this description.
+Description: A note says: ""a long legged spotted savanna herbivore"".
+Answer with the specific name only."
+elephant,0,A towering browser reached foliage above the other animals.,{},False,"Identify the specific animal from this description.
+Description: A towering browser reached foliage above the other animals.
+Answer with the specific name only."
+elephant,0,A towering browser reached foliage above the other animals.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""A towering browser reached foliage above the other animals."".
+Answer with the specific name only."
+elephant,0,The spotted herbivore lowered its long neck to drink.,{},False,"Identify the specific animal from this description.
+Description: The spotted herbivore lowered its long neck to drink.
+Answer with the specific name only."
+elephant,0,The spotted herbivore lowered its long neck to drink.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""The spotted herbivore lowered its long neck to drink."".
+Answer with the specific name only."
+elephant,0,Small horn-like knobs stood above a patterned face.,{},False,"Identify the specific animal from this description.
+Description: Small horn-like knobs stood above a patterned face.
+Answer with the specific name only."
+elephant,0,Small horn-like knobs stood above a patterned face.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""Small horn-like knobs stood above a patterned face."".
+Answer with the specific name only."
+elephant,0,The tallest animal in the enclosure walked on slender legs.,{},False,"Identify the specific animal from this description.
+Description: The tallest animal in the enclosure walked on slender legs.
+Answer with the specific name only."
+elephant,0,The tallest animal in the enclosure walked on slender legs.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""The tallest animal in the enclosure walked on slender legs."".
+Answer with the specific name only."
+elephant,0,The calf already stood taller than the nearby keeper.,{},False,"Identify the specific animal from this description.
+Description: The calf already stood taller than the nearby keeper.
+Answer with the specific name only."
+elephant,0,The calf already stood taller than the nearby keeper.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""The calf already stood taller than the nearby keeper."".
+Answer with the specific name only."
+elephant,0,A long dark tongue pulled leaves from a thorny branch.,{},False,"Identify the specific animal from this description.
+Description: A long dark tongue pulled leaves from a thorny branch.
+Answer with the specific name only."
+elephant,0,A long dark tongue pulled leaves from a thorny branch.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""A long dark tongue pulled leaves from a thorny branch."".
+Answer with the specific name only."
+elephant,0,The savanna browser had a very long neck and patchy coat.,{},False,"Identify the specific animal from this description.
+Description: The savanna browser had a very long neck and patchy coat.
+Answer with the specific name only."
+elephant,0,The savanna browser had a very long neck and patchy coat.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""The savanna browser had a very long neck and patchy coat."".
+Answer with the specific name only."
+elephant,0,The animal spread its front legs before reaching the water.,{},False,"Identify the specific animal from this description.
+Description: The animal spread its front legs before reaching the water.
+Answer with the specific name only."
+elephant,0,The animal spread its front legs before reaching the water.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""The animal spread its front legs before reaching the water."".
+Answer with the specific name only."
+elephant,0,A patterned mammal peered over a high fence.,{},False,"Identify the specific animal from this description.
+Description: A patterned mammal peered over a high fence.
+Answer with the specific name only."
+elephant,0,A patterned mammal peered over a high fence.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""A patterned mammal peered over a high fence."".
+Answer with the specific name only."
+elephant,0,The browser reached the treetop without standing on its hind legs.,{},False,"Identify the specific animal from this description.
+Description: The browser reached the treetop without standing on its hind legs.
+Answer with the specific name only."
+elephant,0,The browser reached the treetop without standing on its hind legs.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""The browser reached the treetop without standing on its hind legs."".
+Answer with the specific name only."
+elephant,0,A pair of very tall ungulates moved through the acacias.,{},False,"Identify the specific animal from this description.
+Description: A pair of very tall ungulates moved through the acacias.
+Answer with the specific name only."
+elephant,0,A pair of very tall ungulates moved through the acacias.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""A pair of very tall ungulates moved through the acacias."".
+Answer with the specific name only."
+elephant,0,The animal had a sloping back and unusually elongated neck.,{},False,"Identify the specific animal from this description.
+Description: The animal had a sloping back and unusually elongated neck.
+Answer with the specific name only."
+elephant,0,The animal had a sloping back and unusually elongated neck.,"A note says: ""{}"".",False,"Identify the specific animal from this description.
+Description: A note says: ""The animal had a sloping back and unusually elongated neck."".
+Answer with the specific name only."
+piano,1,piano,{},True,"Identify the specific musical instrument from this description.
+Description: piano
+Answer with the specific name only."
+piano,1,piano,"A note says: ""{}"".",True,"Identify the specific musical instrument from this description.
+Description: A note says: ""piano"".
+Answer with the specific name only."
+piano,1,a keyboard instrument with white and black keys,{},True,"Identify the specific musical instrument from this description.
+Description: a keyboard instrument with white and black keys
+Answer with the specific name only."
+piano,1,a keyboard instrument with white and black keys,"A note says: ""{}"".",True,"Identify the specific musical instrument from this description.
+Description: A note says: ""a keyboard instrument with white and black keys"".
+Answer with the specific name only."
+piano,1,a large acoustic instrument whose hammers strike strings,{},True,"Identify the specific musical instrument from this description.
+Description: a large acoustic instrument whose hammers strike strings
+Answer with the specific name only."
+piano,1,a large acoustic instrument whose hammers strike strings,"A note says: ""{}"".",True,"Identify the specific musical instrument from this description.
+Description: A note says: ""a large acoustic instrument whose hammers strike strings"".
+Answer with the specific name only."
+piano,1,a concert instrument played by pressing a broad keyboard,{},True,"Identify the specific musical instrument from this description.
+Description: a concert instrument played by pressing a broad keyboard
+Answer with the specific name only."
+piano,1,a concert instrument played by pressing a broad keyboard,"A note says: ""{}"".",True,"Identify the specific musical instrument from this description.
+Description: A note says: ""a concert instrument played by pressing a broad keyboard"".
+Answer with the specific name only."
+piano,1,A performer pressed eighty-eight keys during the recital.,{},False,"Identify the specific musical instrument from this description.
+Description: A performer pressed eighty-eight keys during the recital.
+Answer with the specific name only."
+piano,1,A performer pressed eighty-eight keys during the recital.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""A performer pressed eighty-eight keys during the recital."".
+Answer with the specific name only."
+piano,1,The tuner worked beneath the raised lid of a grand instrument.,{},False,"Identify the specific musical instrument from this description.
+Description: The tuner worked beneath the raised lid of a grand instrument.
+Answer with the specific name only."
+piano,1,The tuner worked beneath the raised lid of a grand instrument.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""The tuner worked beneath the raised lid of a grand instrument."".
+Answer with the specific name only."
+piano,1,Foot pedals sustained the sound after the hands left the keyboard.,{},False,"Identify the specific musical instrument from this description.
+Description: Foot pedals sustained the sound after the hands left the keyboard.
+Answer with the specific name only."
+piano,1,Foot pedals sustained the sound after the hands left the keyboard.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""Foot pedals sustained the sound after the hands left the keyboard."".
+Answer with the specific name only."
+piano,1,A row of black and white keys stretched across the wooden case.,{},False,"Identify the specific musical instrument from this description.
+Description: A row of black and white keys stretched across the wooden case.
+Answer with the specific name only."
+piano,1,A row of black and white keys stretched across the wooden case.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""A row of black and white keys stretched across the wooden case."".
+Answer with the specific name only."
+piano,1,Felt hammers struck stretched wires inside a heavy cabinet.,{},False,"Identify the specific musical instrument from this description.
+Description: Felt hammers struck stretched wires inside a heavy cabinet.
+Answer with the specific name only."
+piano,1,Felt hammers struck stretched wires inside a heavy cabinet.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""Felt hammers struck stretched wires inside a heavy cabinet."".
+Answer with the specific name only."
+piano,1,The performer used both hands on a broad horizontal keyboard.,{},False,"Identify the specific musical instrument from this description.
+Description: The performer used both hands on a broad horizontal keyboard.
+Answer with the specific name only."
+piano,1,The performer used both hands on a broad horizontal keyboard.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""The performer used both hands on a broad horizontal keyboard."".
+Answer with the specific name only."
+piano,1,The mover struggled to carry the upright instrument upstairs.,{},False,"Identify the specific musical instrument from this description.
+Description: The mover struggled to carry the upright instrument upstairs.
+Answer with the specific name only."
+piano,1,The mover struggled to carry the upright instrument upstairs.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""The mover struggled to carry the upright instrument upstairs."".
+Answer with the specific name only."
+piano,1,A concert grand occupied the center of the stage.,{},False,"Identify the specific musical instrument from this description.
+Description: A concert grand occupied the center of the stage.
+Answer with the specific name only."
+piano,1,A concert grand occupied the center of the stage.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""A concert grand occupied the center of the stage."".
+Answer with the specific name only."
+piano,1,The teacher asked the student to play middle C on the keyboard.,{},False,"Identify the specific musical instrument from this description.
+Description: The teacher asked the student to play middle C on the keyboard.
+Answer with the specific name only."
+piano,1,The teacher asked the student to play middle C on the keyboard.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""The teacher asked the student to play middle C on the keyboard."".
+Answer with the specific name only."
+piano,1,A bench stood in front of a large stringed keyboard instrument.,{},False,"Identify the specific musical instrument from this description.
+Description: A bench stood in front of a large stringed keyboard instrument.
+Answer with the specific name only."
+piano,1,A bench stood in front of a large stringed keyboard instrument.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""A bench stood in front of a large stringed keyboard instrument."".
+Answer with the specific name only."
+piano,1,Pressing a key activated a hammer rather than a bow.,{},False,"Identify the specific musical instrument from this description.
+Description: Pressing a key activated a hammer rather than a bow.
+Answer with the specific name only."
+piano,1,Pressing a key activated a hammer rather than a bow.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""Pressing a key activated a hammer rather than a bow."".
+Answer with the specific name only."
+piano,1,The player opened the lid and placed sheet music above the keys.,{},False,"Identify the specific musical instrument from this description.
+Description: The player opened the lid and placed sheet music above the keys.
+Answer with the specific name only."
+piano,1,The player opened the lid and placed sheet music above the keys.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""The player opened the lid and placed sheet music above the keys."".
+Answer with the specific name only."
+piano,0,violin,{},True,"Identify the specific musical instrument from this description.
+Description: violin
+Answer with the specific name only."
+piano,0,violin,"A note says: ""{}"".",True,"Identify the specific musical instrument from this description.
+Description: A note says: ""violin"".
+Answer with the specific name only."
+piano,0,a small four string orchestral instrument played with a bow,{},True,"Identify the specific musical instrument from this description.
+Description: a small four string orchestral instrument played with a bow
+Answer with the specific name only."
+piano,0,a small four string orchestral instrument played with a bow,"A note says: ""{}"".",True,"Identify the specific musical instrument from this description.
+Description: A note says: ""a small four string orchestral instrument played with a bow"".
+Answer with the specific name only."
+piano,0,a bowed instrument held near the shoulder,{},True,"Identify the specific musical instrument from this description.
+Description: a bowed instrument held near the shoulder
+Answer with the specific name only."
+piano,0,a bowed instrument held near the shoulder,"A note says: ""{}"".",True,"Identify the specific musical instrument from this description.
+Description: A note says: ""a bowed instrument held near the shoulder"".
+Answer with the specific name only."
+piano,0,a high pitched acoustic string instrument for classical music,{},True,"Identify the specific musical instrument from this description.
+Description: a high pitched acoustic string instrument for classical music
+Answer with the specific name only."
+piano,0,a high pitched acoustic string instrument for classical music,"A note says: ""{}"".",True,"Identify the specific musical instrument from this description.
+Description: A note says: ""a high pitched acoustic string instrument for classical music"".
+Answer with the specific name only."
+piano,0,A musician held a small instrument under the chin.,{},False,"Identify the specific musical instrument from this description.
+Description: A musician held a small instrument under the chin.
+Answer with the specific name only."
+piano,0,A musician held a small instrument under the chin.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""A musician held a small instrument under the chin."".
+Answer with the specific name only."
+piano,0,The performer drew horsehair across four taut strings.,{},False,"Identify the specific musical instrument from this description.
+Description: The performer drew horsehair across four taut strings.
+Answer with the specific name only."
+piano,0,The performer drew horsehair across four taut strings.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""The performer drew horsehair across four taut strings."".
+Answer with the specific name only."
+piano,0,A bow moved back and forth above a small wooden sound box.,{},False,"Identify the specific musical instrument from this description.
+Description: A bow moved back and forth above a small wooden sound box.
+Answer with the specific name only."
+piano,0,A bow moved back and forth above a small wooden sound box.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""A bow moved back and forth above a small wooden sound box."".
+Answer with the specific name only."
+piano,0,The soloist adjusted a chinrest before beginning.,{},False,"Identify the specific musical instrument from this description.
+Description: The soloist adjusted a chinrest before beginning.
+Answer with the specific name only."
+piano,0,The soloist adjusted a chinrest before beginning.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""The soloist adjusted a chinrest before beginning."".
+Answer with the specific name only."
+piano,0,The player used a shoulder rest and a wooden bow.,{},False,"Identify the specific musical instrument from this description.
+Description: The player used a shoulder rest and a wooden bow.
+Answer with the specific name only."
+piano,0,The player used a shoulder rest and a wooden bow.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""The player used a shoulder rest and a wooden bow."".
+Answer with the specific name only."
+piano,0,Four tuning pegs protruded beside the carved scroll.,{},False,"Identify the specific musical instrument from this description.
+Description: Four tuning pegs protruded beside the carved scroll.
+Answer with the specific name only."
+piano,0,Four tuning pegs protruded beside the carved scroll.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""Four tuning pegs protruded beside the carved scroll."".
+Answer with the specific name only."
+piano,0,A small bowed instrument led the string quartet.,{},False,"Identify the specific musical instrument from this description.
+Description: A small bowed instrument led the string quartet.
+Answer with the specific name only."
+piano,0,A small bowed instrument led the string quartet.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""A small bowed instrument led the string quartet."".
+Answer with the specific name only."
+piano,0,The musician changed pitch by pressing strings against a fingerboard.,{},False,"Identify the specific musical instrument from this description.
+Description: The musician changed pitch by pressing strings against a fingerboard.
+Answer with the specific name only."
+piano,0,The musician changed pitch by pressing strings against a fingerboard.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""The musician changed pitch by pressing strings against a fingerboard."".
+Answer with the specific name only."
+piano,0,A young player applied rosin to the bow before rehearsal.,{},False,"Identify the specific musical instrument from this description.
+Description: A young player applied rosin to the bow before rehearsal.
+Answer with the specific name only."
+piano,0,A young player applied rosin to the bow before rehearsal.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""A young player applied rosin to the bow before rehearsal."".
+Answer with the specific name only."
+piano,0,A small spruce instrument rested between the jaw and shoulder.,{},False,"Identify the specific musical instrument from this description.
+Description: A small spruce instrument rested between the jaw and shoulder.
+Answer with the specific name only."
+piano,0,A small spruce instrument rested between the jaw and shoulder.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""A small spruce instrument rested between the jaw and shoulder."".
+Answer with the specific name only."
+piano,0,The orchestral player bowed a bright high melody.,{},False,"Identify the specific musical instrument from this description.
+Description: The orchestral player bowed a bright high melody.
+Answer with the specific name only."
+piano,0,The orchestral player bowed a bright high melody.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""The orchestral player bowed a bright high melody."".
+Answer with the specific name only."
+piano,0,The soloist plucked four strings while holding a compact instrument.,{},False,"Identify the specific musical instrument from this description.
+Description: The soloist plucked four strings while holding a compact instrument.
+Answer with the specific name only."
+piano,0,The soloist plucked four strings while holding a compact instrument.,"A note says: ""{}"".",False,"Identify the specific musical instrument from this description.
+Description: A note says: ""The soloist plucked four strings while holding a compact instrument."".
+Answer with the specific name only."
