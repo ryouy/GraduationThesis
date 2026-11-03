@@ -2,7 +2,9 @@
 
 **研究テーマ（仮題）：** *Effects of Semantic Distance on Suppressed Concept Representations in Large Language Models*  
 **モデル：** `Qwen/Qwen2.5-0.5B-Instruct`  
-**研究状況：** 予備実験・層別解析を実施済み／新たなX/Y対照実験v3は**未実行**（2026年10月19日時点）
+**研究状況：** 予備実験・層別解析・X/Y対照実験v3を実施済み（v3実行日：2026年10月20日）。2026年11月3日に保存データの再解析とコード監査を実施。追加推論実験は準備済み・未実行。
+
+**最新の検証：** [内部表現実験v2/v3の監査・追加検証](1103_review/README.md)。v2の距離効果は未確立。v3の探索的な傾向は複数の感度分析でも同方向。以下の10月19日時点の記録には古い「未実行」表記が残るため、現状はこの検証記録を参照。
 
 [![Open the latest v3 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1019/concept_specificity_control_v3.ipynb)
 

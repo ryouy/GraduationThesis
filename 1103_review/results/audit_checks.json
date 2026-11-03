@@ -1,0 +1,18 @@
+{
+  "v2": {
+    "rows": 4608,
+    "unique_inputs": 192,
+    "score_arithmetic_and_unique_keys": "pass",
+    "precue_score_invariance": "pass"
+  },
+  "v3": {
+    "rows": 6912,
+    "unique_inputs": 288,
+    "score_arithmetic_and_unique_keys": "pass",
+    "precue_score_invariance": "pass"
+  },
+  "shared_probe_bank": "identical: v3 is a follow-up, not independent probe replication",
+  "new_model_inference": "NOT RUN: no GPU/model dependencies or model endpoint access",
+  "bootstrap_draws": 100000,
+  "signflip_null": "symmetric independent concept-pair effect distribution; exploratory"
+}
