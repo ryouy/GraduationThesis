@@ -1,6 +1,6 @@
 # Phi：質問形式の対比較とGitHub自動保存
 
-**状態：準備・ローカル検証完了、モデル推論は未実行。**
+**状態：144入力の推論・GitHub自動保存・原回答点検完了。** [結果の解釈と採点上の訂正](results/phi-prompt-20261104T015128731641Z/REVIEW.md)。命名の内容確認はA44/60、B47/60。none内容は両方12/12で、自動図のB5/12は字句採点の誤判定。元の集計は残し、事後点検を別に保存した。
 
 [Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1104_phi_prompt_diagnostic/phi_prompt_diagnostic.ipynb) / [事前計画](PLAN.md) / [144入力](questions.csv) / [採点](grade.py)
 
@@ -48,6 +48,6 @@ python 1104_phi_prompt_diagnostic/test_github_save.py
 python 1104_phi_prompt_diagnostic/test_analysis.py
 ```
 
-実際のColabシークレットを用いた認証・自動書込みと、モデル推論はまだ未確認。こちらのクラウドブラウザがColabへの接続を拒否されているため、ユーザーのColab実行で確認する。
+ユーザーのColab実行により、144入力の推論とmainへの自動保存を確認済み。原回答点検で固定字句採点の誤判定を発見したため、自動グラフだけで内容判断せずREVIEW.mdを参照する。元の規則・SHA・一次集計は変更していない。
 
 GitHub API仕様：[tree](https://docs.github.com/en/rest/git/trees)、[refs](https://docs.github.com/en/rest/git/refs)。
