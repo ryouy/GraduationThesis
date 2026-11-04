@@ -1,0 +1,26 @@
+LOAD Qwen/Qwen2.5-7B-Instruct a09a35458c702b33eeacc393d103063234e8bc28
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793751553.526617    3407 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793751557.241170    3407 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]
+Fetching 4 files:  25%|██▌       | 1/4 [06:41<20:03, 401.16s/it]
+Fetching 4 files: 100%|██████████| 4/4 [06:41<00:00, 100.29s/it]
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:16<00:49, 16.53s/it]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:32<00:32, 16.30s/it]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:49<00:16, 16.40s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:03<00:00, 15.74s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:03<00:00, 15.98s/it]
+WARNING:accelerate.big_modeling:Some parameters are on the meta device because they were offloaded to the cpu.
+qwen7b 0 /42 banana 'None'
+qwen7b 6 /42 apple 'Apple'
+qwen7b 12 /42 elephant 'Elephant'
+qwen7b 18 /42 giraffe 'Giraffe'
+qwen7b 24 /42 piano 'Piano'
+qwen7b 30 /42 violin 'Fiddle'
+qwen7b 36 /42 none 'none'
+MODEL COMPLETED qwen7b {"correct": 28, "clear_n": 36, "min_per_concept": 1, "none_correct": 6, "all_pass": false, "truncations": 0}

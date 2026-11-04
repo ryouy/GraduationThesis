@@ -1,0 +1,25 @@
+model,item_id,text,answer,correct,none_prefix_diagnostic
+Qwen2.5 1.5B,none_fruit_0,A worker sends an invoice to the head office.,Apple,False,False
+Qwen2.5 1.5B,none_fruit_1,A train stops at a station beside a bridge.,None,True,True
+Qwen2.5 1.5B,none_animal_0,The accountant opens a spreadsheet and checks the total.,cow,False,False
+Qwen2.5 1.5B,none_animal_1,A carpenter measures a wooden shelf with a ruler.,Ruler,False,False
+Qwen2.5 1.5B,none_instrument_0,A passenger puts a suitcase on the luggage rack.,none,True,True
+Qwen2.5 1.5B,none_instrument_1,The office printer runs out of paper during a meeting.,none,True,True
+Qwen2.5 3B,none_fruit_0,A worker sends an invoice to the head office.,none,True,True
+Qwen2.5 3B,none_fruit_1,A train stops at a station beside a bridge.,none,True,True
+Qwen2.5 3B,none_animal_0,The accountant opens a spreadsheet and checks the total.,none,True,True
+Qwen2.5 3B,none_animal_1,A carpenter measures a wooden shelf with a ruler.,none,True,True
+Qwen2.5 3B,none_instrument_0,A passenger puts a suitcase on the luggage rack.,none,True,True
+Qwen2.5 3B,none_instrument_1,The office printer runs out of paper during a meeting.,none,True,True
+Phi-3.5 mini,none_fruit_0,A worker sends an invoice to the head office.,None. The context does not describe a specific fruit.,False,True
+Phi-3.5 mini,none_fruit_1,A train stops at a station beside a bridge.,None. The context provided does not describe a specific fruit.,False,True
+Phi-3.5 mini,none_animal_0,The accountant opens a spreadsheet and checks the total.,None. The context does not describe a specific animal.,False,True
+Phi-3.5 mini,none_animal_1,A carpenter measures a wooden shelf with a ruler.,"None. The context describes a carpenter, not an animal.",False,True
+Phi-3.5 mini,none_instrument_0,A passenger puts a suitcase on the luggage rack.,"None. The context describes an action related to luggage, not a musical instrument.",False,True
+Phi-3.5 mini,none_instrument_1,The office printer runs out of paper during a meeting.,None. The context provided does not describe a musical instrument.,False,True
+Qwen2.5 7B,none_fruit_0,A worker sends an invoice to the head office.,none,True,True
+Qwen2.5 7B,none_fruit_1,A train stops at a station beside a bridge.,None,True,True
+Qwen2.5 7B,none_animal_0,The accountant opens a spreadsheet and checks the total.,None,True,True
+Qwen2.5 7B,none_animal_1,A carpenter measures a wooden shelf with a ruler.,none,True,True
+Qwen2.5 7B,none_instrument_0,A passenger puts a suitcase on the luggage rack.,none,True,True
+Qwen2.5 7B,none_instrument_1,The office printer runs out of paper during a meeting.,none,True,True

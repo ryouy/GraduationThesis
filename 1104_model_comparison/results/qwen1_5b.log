@@ -1,0 +1,14 @@
+LOAD Qwen/Qwen2.5-1.5B-Instruct 989aa7980e4cf806f80c7fef2b1adb7bc71aa306
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793751200.390479    1683 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793751202.864768    1683 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+qwen1_5b 0 /42 banana 'Mango'
+qwen1_5b 6 /42 apple 'Apple'
+qwen1_5b 12 /42 elephant 'Elephant'
+qwen1_5b 18 /42 giraffe 'Giraffe'
+qwen1_5b 24 /42 piano 'Piano'
+qwen1_5b 30 /42 violin 'Guqin'
+qwen1_5b 36 /42 none 'Apple'
+MODEL COMPLETED qwen1_5b {"correct": 27, "clear_n": 36, "min_per_concept": 1, "none_correct": 3, "all_pass": false, "truncations": 0}

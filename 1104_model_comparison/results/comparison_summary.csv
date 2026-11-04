@@ -1,0 +1,5 @@
+key,label,correct,clear_n,min_per_concept,none_correct,all_pass,truncations,load_seconds,generation_seconds,peak_vram_bytes
+qwen1_5b,Qwen2.5 1.5B,27,36,1,3,False,0,40.69904242200005,6.0121555599999965,3105025536
+qwen3b,Qwen2.5 3B,26,36,0,6,False,0,76.50922441799997,7.422559822000039,6192947712
+phi3_5mini,Phi-3.5 mini,34,36,5,0,False,0,183.240355347,9.720694807999962,7689950720
+qwen7b,Qwen2.5 7B,28,36,1,6,False,0,473.85498700200003,54.27413165799999,14781940736
