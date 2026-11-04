@@ -1,0 +1,8 @@
+{
+ "version":"phi-validation-v1",
+ "aliases":{"banana":["banana","bananas"],"apple":["apple","apples"],"elephant":["elephant","elephants"],"giraffe":["giraffe","giraffes"],"piano":["piano","pianos"],"violin":["violin","violins","fiddle","fiddles"]},
+ "none_answers":["none","no specific fruit","no specific animal","no specific musical instrument"],
+ "clear_total":60,"clear_min":54,"per_concept_min":8,"none_total":12,"none_min":10,
+ "primary":"Frozen answer-prefix content rule; format adherence is a separate secondary measure. Explanation after a sentence boundary is allowed. Conservative contradiction checks apply. This is a lexical content proxy, not unrestricted semantic grading.",
+ "manual_review":"Review every raw answer; flag disputes and report them separately. Do not change primary scores, aliases, or gates after reading results. Truncations or unresolved disputes block unconditional advancement."
+}
