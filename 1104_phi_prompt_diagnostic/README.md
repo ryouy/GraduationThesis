@@ -2,6 +2,8 @@
 
 **状態：144入力の推論・GitHub自動保存・原回答点検完了。** [結果の解釈と採点上の訂正](results/phi-prompt-20261104T015128731641Z/REVIEW.md)。命名の内容確認はA44/60、B47/60。none内容は両方12/12で、自動図のB5/12は字句採点の誤判定。元の集計は残し、事後点検を別に保存した。
 
+**採点処理の修正版：** [v2による384回答の再採点・確認](../1104_scoring_revision/README.md)を完了。旧実験の規則とハッシュは保持し、v2のコードと結果を別に保存。
+
 [Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1104_phi_prompt_diagnostic/phi_prompt_diagnostic.ipynb) / [事前計画](PLAN.md) / [144入力](questions.csv) / [採点](grade.py)
 
 前回の72文をそのまま使い、各文に次の2種類の質問をする。計144入力。正答文も誤答文もすべて残すため、改善だけでなく悪化も確認できる。

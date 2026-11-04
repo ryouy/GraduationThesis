@@ -1,0 +1,27 @@
+{
+  "source_commit": "ee04dcc06375799bff953d5cc9ff7ad3d852bf30",
+  "source_sha256": {
+    "1104_model_comparison/results/phi3_5mini/answers.csv": "54dbbeeebe758f718f8f4f6d6a7a1aaaef548078d8134adce13474e9ead38312",
+    "1104_model_comparison/results/qwen1_5b/answers.csv": "dc366cfbd45b067bd904080935c392bd868633f3ce1476b434fed4a1c5bfe417",
+    "1104_model_comparison/results/qwen3b/answers.csv": "1852f2c04067aec9b3d72ac13140b114a862f32c9bfc83ca7e066982beb9c996",
+    "1104_model_comparison/results/qwen7b/answers.csv": "fd36317960fc53c2aa0bd8518cabdc90dfbe47b3bf8106d727bc37bf0d2e523f",
+    "1104_phi_prompt_diagnostic/results/phi-prompt-20261104T015128731641Z/phi3_5mini/answers.csv": "e94e9c94fbca794d32d3dd91389033a53d049aa7caa27c9fa2e02e450332c1f5",
+    "1104_phi_validation/results/20261104T012418280152Z/phi3_5mini/answers.csv": "de020730184ba01cff0d45e5722bd5df02bbe5470cd9d2d69ccdc84d5eb48483"
+  },
+  "code_sha256": {
+    "grade_v2.py": "0b29a521cee05c88d326f0165c47f762ac88fb87a88f4f7492acf225380d11e6",
+    "rules_v2.json": "1b79026260fb610155ccfea223f0938bb0ff03825f273da148e06871a56e7a1a",
+    "rescore.py": "b5beba3db678ba134ec4aa77b400ba6357ca0adca3e851e8bd836b419d285d30",
+    "test_grade_v2.py": "c71d8580151d69b115a2b8380f021f6b6fa3a5ccd2d65c569a394a17175ac5a7",
+    "adjudications.csv": "7a71673ff90a3e2dfe9797d85dda076c010b7b17088c523b89187a6622f15066"
+  },
+  "answers": 384,
+  "changed_decidable_scores": 15,
+  "review_queue": 4,
+  "unresolved_content": 4,
+  "existing_manual_labels": 216,
+  "decidable_matches_prior_review": 214,
+  "manual_queue_adjudications": 4,
+  "unresolved_after_adjudication": 0,
+  "new_model_inference": false
+}

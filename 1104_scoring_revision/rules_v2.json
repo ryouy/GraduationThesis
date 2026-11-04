@@ -1,0 +1,14 @@
+{
+  "version": "content-parser-v2-posthoc",
+  "aliases": {
+    "banana": ["banana", "bananas"],
+    "apple": ["apple", "apples", "green apple", "green apples", "red apple", "red apples"],
+    "elephant": ["elephant", "elephants"],
+    "giraffe": ["giraffe", "giraffes"],
+    "piano": ["piano", "pianos", "grand piano", "grand pianos", "upright piano", "upright pianos"],
+    "violin": ["violin", "violins", "fiddle", "fiddles"]
+  },
+  "none_answers": ["none", "no specific fruit", "no specific animal", "no specific musical instrument"],
+  "other_names": ["mango", "watermelon", "strawberry", "tomato", "kiwi", "pear", "starfruit", "avocado", "grizzly bear", "aardvark", "guqin", "cow", "ruler", "viola", "harpsichord", "harp", "guitar", "cello", "plantain", "keyboard"],
+  "note": "Closed vocabulary, assembled from existing audited answers. Unknown names and ambiguous/contradictory answers go to review, never silently count as correct or incorrect. Same rules for all models and conditions. v2 is post-hoc on this corpus, not a new preregistered result."
+}

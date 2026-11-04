@@ -1,0 +1,5 @@
+source_path,item_id,correct,reason
+1104_model_comparison/results/qwen1_5b/answers.csv,piano_3,True,"Acoustic Grand Piano is a subtype of piano; v2 correctly deferred an unlisted subtype."
+1104_model_comparison/results/qwen3b/answers.csv,piano_3,True,"Acoustic piano is piano; v2 correctly deferred an unlisted subtype."
+1104_phi_prompt_diagnostic/results/phi-prompt-20261104T015128731641Z/phi3_5mini/answers.csv,giraffe_09__A_original,False,"Answer explicitly begins None for an intended giraffe description; retain truncation flag, do not infer missing continuation. Agrees with prior content review."
+1104_phi_validation/results/20261104T012418280152Z/phi3_5mini/answers.csv,giraffe_09,False,"Answer explicitly begins None for an intended giraffe description; retain truncation flag, do not infer missing continuation. Agrees with prior content review."

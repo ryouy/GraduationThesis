@@ -1,0 +1,8 @@
+source_path,condition,naming_n,naming_correct_v2,naming_unresolved_v2,naming_correct_adjudicated,none_n,none_correct_v2,none_unresolved_v2,format_conforms,format_unknown,truncations
+1104_model_comparison/results/phi3_5mini/answers.csv,single,36,34,0,34,6,6,0,36,0,0
+1104_model_comparison/results/qwen1_5b/answers.csv,single,36,26,1,27,6,3,0,41,1,0
+1104_model_comparison/results/qwen3b/answers.csv,single,36,25,1,26,6,6,0,41,1,0
+1104_model_comparison/results/qwen7b/answers.csv,single,36,28,0,28,6,6,0,42,0,0
+1104_phi_prompt_diagnostic/results/phi-prompt-20261104T015128731641Z/phi3_5mini/answers.csv,A_original,60,44,1,44,12,12,0,55,0,1
+1104_phi_prompt_diagnostic/results/phi-prompt-20261104T015128731641Z/phi3_5mini/answers.csv,B_best_match,60,47,0,47,12,12,0,60,0,0
+1104_phi_validation/results/20261104T012418280152Z/phi3_5mini/answers.csv,single,60,44,1,44,12,12,0,55,0,1
