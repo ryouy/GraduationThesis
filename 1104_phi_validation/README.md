@@ -1,6 +1,8 @@
 # Phi-3.5 mini：新しい説明文での確認
 
-**状態：実行準備完了・推論未実行・結果未取得。** 2026年11月4日、前の4モデル比較を受けて採点規則と基準を先に固定した。
+**状態：実行・検算・全原回答点検完了（2026年11月4日）。** 固定採点43/60件、none12/12件、最低概念6/10、切り詰め1件で事前基準に不通過。Grand Pianoを内容上正解とする事後点検でも44/60件。本実験採用は保留。
+
+[実測結果・図・原回答点検](results/20261104T012418280152Z/README.md)を参照。以下は実行前に固定した設計。
 
 [Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1104_phi_validation/phi_fresh_validation.ipynb) / [事前計画](PLAN.md) / [問題72件](questions.csv) / [採点規則](rules.json) / [採点コード](grade.py) / [固定ファイルのSHA256](FROZEN_SHA256.json)
 

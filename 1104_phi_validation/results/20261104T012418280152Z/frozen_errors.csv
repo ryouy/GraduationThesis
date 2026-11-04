@@ -1,0 +1,205 @@
+model_key,item_id,target,text,prompt,rendered_prompt,answer,output_tokens,seconds,truncated,correct,format_ok,prefix,found,conflict,review_content_correct,review_note
+phi3_5mini,banana_02,banana,"At breakfast, she slices a peeled, curved tropical fruit into round pieces for her cereal.","Context:
+At breakfast, she slices a peeled, curved tropical fruit into round pieces for her cereal.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+At breakfast, she slices a peeled, curved tropical fruit into round pieces for her cereal.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Mango,3,0.131748980999987,False,False,False,mango,,False,False,Fixed grade agrees with intended-target content judgment; stimulus ambiguity not independently adjudicated.
+phi3_5mini,banana_03,banana,The lunchbox contains a long yellow fruit with a short dark tip and an easily removable skin.,"Context:
+The lunchbox contains a long yellow fruit with a short dark tip and an easily removable skin.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The lunchbox contains a long yellow fruit with a short dark tip and an easily removable skin.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",None. The description provided does not match a specific widely recognized fruit.,15,0.5543726419999757,False,False,False,none,,True,False,Fixed grade agrees with intended-target content judgment; stimulus ambiguity not independently adjudicated.
+phi3_5mini,banana_04,banana,On the counter lies a crescent-shaped fruit whose yellow jacket has a few brown freckles.,"Context:
+On the counter lies a crescent-shaped fruit whose yellow jacket has a few brown freckles.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+On the counter lies a crescent-shaped fruit whose yellow jacket has a few brown freckles.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+","None. The description provided does not correspond to a specific, widely recognized fruit. The shape and color details are too vague to identify a particular fruit.",31,1.3631065689999673,False,False,False,none,,True,False,Fixed grade agrees with intended-target content judgment; stimulus ambiguity not independently adjudicated.
+phi3_5mini,banana_05,banana,"He pulls apart a cluster of long curved fruits, then peels one before taking a bite.","Context:
+He pulls apart a cluster of long curved fruits, then peels one before taking a bite.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+He pulls apart a cluster of long curved fruits, then peels one before taking a bite.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",None (The context does not provide a specific name for the fruit),15,0.6648509409999974,False,False,False,none (the context does not provide a specific name for the fruit),,True,False,Fixed grade agrees with intended-target content judgment; stimulus ambiguity not independently adjudicated.
+phi3_5mini,apple_01,apple,"A green round fruit has firm white flesh, a thin edible skin, and seeds clustered around its central core.","Context:
+A green round fruit has firm white flesh, a thin edible skin, and seeds clustered around its central core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A green round fruit has firm white flesh, a thin edible skin, and seeds clustered around its central core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Watermelon,5,0.2510380289999716,False,False,False,watermelon,,False,False,Fixed grade agrees with intended-target content judgment; stimulus ambiguity not independently adjudicated.
+phi3_5mini,apple_04,apple,A small stem rises from the top of this round red fruit; cutting it reveals white flesh around a seed core.,"Context:
+A small stem rises from the top of this round red fruit; cutting it reveals white flesh around a seed core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A small stem rises from the top of this round red fruit; cutting it reveals white flesh around a seed core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Tomato,3,0.1382442020000098,False,False,False,tomato,,False,False,Fixed grade agrees with intended-target content judgment; stimulus ambiguity not independently adjudicated.
+phi3_5mini,apple_06,apple,"He removes the core from a round green fruit, then cuts the firm white flesh into wedges.","Context:
+He removes the core from a round green fruit, then cuts the firm white flesh into wedges.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+He removes the core from a round green fruit, then cuts the firm white flesh into wedges.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Kiwi,3,0.1265134189999912,False,False,False,kiwi,,False,False,Fixed grade agrees with intended-target content judgment; stimulus ambiguity not independently adjudicated.
+phi3_5mini,apple_09,apple,"The fruit in her hand has thin green skin, crunchy pale flesh, and a small seed-filled core she discards.","Context:
+The fruit in her hand has thin green skin, crunchy pale flesh, and a small seed-filled core she discards.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The fruit in her hand has thin green skin, crunchy pale flesh, and a small seed-filled core she discards.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Kiwi,3,0.1284046530000182,False,False,False,kiwi,,False,False,Fixed grade agrees with intended-target content judgment; stimulus ambiguity not independently adjudicated.
+phi3_5mini,elephant_01,elephant,The keeper watches an enormous animal pick up a branch with a flexible nose that reaches the ground.,"Context:
+The keeper watches an enormous animal pick up a branch with a flexible nose that reaches the ground.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The keeper watches an enormous animal pick up a branch with a flexible nose that reaches the ground.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",None - The context does not provide enough information to identify a specific animal.,16,0.6014074619999974,False,False,False,none - the context does not provide enough information to identify a specific animal,,True,False,Fixed grade agrees with intended-target content judgment; stimulus ambiguity not independently adjudicated.
+phi3_5mini,elephant_04,elephant,This very large land animal flaps broad ears while lifting food to its mouth with an elongated nose.,"Context:
+This very large land animal flaps broad ears while lifting food to its mouth with an elongated nose.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+This very large land animal flaps broad ears while lifting food to its mouth with an elongated nose.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.1654572809999877,False,False,False,giraffe,giraffe,False,False,Fixed grade agrees with intended-target content judgment; stimulus ambiguity not independently adjudicated.
+phi3_5mini,elephant_07,elephant,A huge African herbivore shades its body with broad ears and reaches for leaves using its trunk.,"Context:
+A huge African herbivore shades its body with broad ears and reaches for leaves using its trunk.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A huge African herbivore shades its body with broad ears and reaches for leaves using its trunk.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.162624036000011,False,False,False,giraffe,giraffe,False,False,Fixed grade agrees with intended-target content judgment; stimulus ambiguity not independently adjudicated.
+phi3_5mini,giraffe_09,giraffe,"The animal at the zoo has two small knobs on its head, brown body patches, and a towering neck.","Context:
+The animal at the zoo has two small knobs on its head, brown body patches, and a towering neck.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The animal at the zoo has two small knobs on its head, brown body patches, and a towering neck.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+","None. The description provided is too generic and could potentially apply to several different animals. Without more specific details, it's not possible to accurately identify a",32,1.180640950999987,True,False,False,none,,True,False,Truncated after an initial None; incorrect target identification before truncation. No continuation generated.
+phi3_5mini,piano_03,piano,This acoustic keyboard instrument creates sound when felt-covered hammers hit internal strings.,"Context:
+This acoustic keyboard instrument creates sound when felt-covered hammers hit internal strings.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+This acoustic keyboard instrument creates sound when felt-covered hammers hit internal strings.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Harpsichord,5,0.1965466000000333,False,False,False,harpsichord,,False,False,Fixed grade agrees with intended-target content judgment; stimulus ambiguity not independently adjudicated.
+phi3_5mini,piano_07,piano,The tuner adjusts strings inside a grand keyboard instrument whose sound is produced by small hammers.,"Context:
+The tuner adjusts strings inside a grand keyboard instrument whose sound is produced by small hammers.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The tuner adjusts strings inside a grand keyboard instrument whose sound is produced by small hammers.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Grand Piano,4,0.1643913109999744,False,False,False,grand piano,piano,False,True,Post-hoc discrepancy: Grand Piano is a subtype of piano. Keep frozen grade false; report separately.
+phi3_5mini,piano_08,piano,"With both hands on the keyboard and one foot on a pedal, the soloist plays a large string-and-hammer instrument.","Context:
+With both hands on the keyboard and one foot on a pedal, the soloist plays a large string-and-hammer instrument.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+With both hands on the keyboard and one foot on a pedal, the soloist plays a large string-and-hammer instrument.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Harp,3,0.1316945919999739,False,False,False,harp,,False,False,Fixed grade agrees with intended-target content judgment; stimulus ambiguity not independently adjudicated.
+phi3_5mini,violin_05,violin,The folk player draws a bow across four strings on a small wooden instrument held between the chin and shoulder.,"Context:
+The folk player draws a bow across four strings on a small wooden instrument held between the chin and shoulder.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The folk player draws a bow across four strings on a small wooden instrument held between the chin and shoulder.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Guitar,3,0.1286391930000263,False,False,False,guitar,,False,False,Fixed grade agrees with intended-target content judgment; stimulus ambiguity not independently adjudicated.
+phi3_5mini,violin_09,violin,This small bowed member of the string family usually plays higher than the viola and rests beneath the player's chin.,"Context:
+This small bowed member of the string family usually plays higher than the viola and rests beneath the player's chin.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+This small bowed member of the string family usually plays higher than the viola and rests beneath the player's chin.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Viola,3,0.1304942980000305,False,False,False,viola,,False,False,Fixed grade agrees with intended-target content judgment; stimulus ambiguity not independently adjudicated.
