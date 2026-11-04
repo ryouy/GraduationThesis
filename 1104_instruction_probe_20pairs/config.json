@@ -1,0 +1,53 @@
+{
+  "model": "microsoft/Phi-3.5-mini-instruct",
+  "revision": "2fe192450127e6a83f7441aef6e3ca586c338b77",
+  "system": "You are a helpful assistant.",
+  "expected_depth": 32,
+  "layers": [
+    31
+  ],
+  "positions": [
+    "context_end",
+    "assistant_start"
+  ],
+  "primary_layer": 31,
+  "primary_position": "assistant_start",
+  "pairs": {
+    "banana": "apple",
+    "elephant": "giraffe",
+    "piano": "violin",
+    "cat": "dog",
+    "lion": "tiger",
+    "dolphin": "shark",
+    "eagle": "penguin",
+    "butterfly": "spider",
+    "rose": "sunflower",
+    "carrot": "potato",
+    "lemon": "orange",
+    "bread": "rice",
+    "bicycle": "motorcycle",
+    "train": "airplane",
+    "boat": "submarine",
+    "hammer": "screwdriver",
+    "scissors": "knife",
+    "clock": "calendar",
+    "refrigerator": "oven",
+    "camera": "telescope"
+  },
+  "conditions": [
+    "neutral",
+    "mention_x",
+    "think_x",
+    "avoid_x",
+    "think_y"
+  ],
+  "C": 0.1,
+  "shuffle_repeats": 100,
+  "seed": 42,
+  "probe_auc_min": 0.8,
+  "fit_repeats": 5,
+  "training_n": 1200,
+  "design_n": 6100,
+  "unique_n": 6901,
+  "interpretation": "Exploratory calibration, no causal claim. Five evaluation families per concept, four wrappers each; wrappers and five fits are not independent trials."
+}
