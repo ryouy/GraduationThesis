@@ -1,0 +1,1729 @@
+model_key,item_id,source_item_id,condition,target,text,prompt,rendered_prompt,answer,output_tokens,seconds,truncated,correct,format_ok,prefix,found,conflict
+phi3_5mini,banana_00__A_original,banana_00,A_original,banana,A shopper opens a curved yellow fruit by pulling its thick skin downward in three long strips.,"Context:
+A shopper opens a curved yellow fruit by pulling its thick skin downward in three long strips.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A shopper opens a curved yellow fruit by pulling its thick skin downward in three long strips.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Banana,3,1.5565913590000946,False,True,True,banana,banana,False
+phi3_5mini,banana_00__B_best_match,banana_00,B_best_match,banana,A shopper opens a curved yellow fruit by pulling its thick skin downward in three long strips.,"Context:
+A shopper opens a curved yellow fruit by pulling its thick skin downward in three long strips.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A shopper opens a curved yellow fruit by pulling its thick skin downward in three long strips.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Banana,3,0.15346064899995326,False,True,True,banana,banana,False
+phi3_5mini,banana_01__A_original,banana_01,A_original,banana,Several elongated fruits share a single stalk. Their smooth yellow coverings protect soft cream-colored flesh.,"Context:
+Several elongated fruits share a single stalk. Their smooth yellow coverings protect soft cream-colored flesh.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+Several elongated fruits share a single stalk. Their smooth yellow coverings protect soft cream-colored flesh.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Banana,3,0.12765448599998308,False,True,True,banana,banana,False
+phi3_5mini,banana_01__B_best_match,banana_01,B_best_match,banana,Several elongated fruits share a single stalk. Their smooth yellow coverings protect soft cream-colored flesh.,"Context:
+Several elongated fruits share a single stalk. Their smooth yellow coverings protect soft cream-colored flesh.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+Several elongated fruits share a single stalk. Their smooth yellow coverings protect soft cream-colored flesh.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Banana,3,0.1298058489999221,False,True,True,banana,banana,False
+phi3_5mini,banana_02__A_original,banana_02,A_original,banana,"At breakfast, she slices a peeled, curved tropical fruit into round pieces for her cereal.","Context:
+At breakfast, she slices a peeled, curved tropical fruit into round pieces for her cereal.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+At breakfast, she slices a peeled, curved tropical fruit into round pieces for her cereal.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Mango,3,0.1274328389999937,False,False,False,mango,,False
+phi3_5mini,banana_02__B_best_match,banana_02,B_best_match,banana,"At breakfast, she slices a peeled, curved tropical fruit into round pieces for her cereal.","Context:
+At breakfast, she slices a peeled, curved tropical fruit into round pieces for her cereal.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+At breakfast, she slices a peeled, curved tropical fruit into round pieces for her cereal.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Banana,3,0.12941419699996004,False,True,True,banana,banana,False
+phi3_5mini,banana_03__A_original,banana_03,A_original,banana,The lunchbox contains a long yellow fruit with a short dark tip and an easily removable skin.,"Context:
+The lunchbox contains a long yellow fruit with a short dark tip and an easily removable skin.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The lunchbox contains a long yellow fruit with a short dark tip and an easily removable skin.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",None. The description provided does not match a specific widely recognized fruit.,15,0.5583685269999705,False,False,False,none,,True
+phi3_5mini,banana_03__B_best_match,banana_03,B_best_match,banana,The lunchbox contains a long yellow fruit with a short dark tip and an easily removable skin.,"Context:
+The lunchbox contains a long yellow fruit with a short dark tip and an easily removable skin.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The lunchbox contains a long yellow fruit with a short dark tip and an easily removable skin.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Banana,3,0.12711957399994844,False,True,True,banana,banana,False
+phi3_5mini,banana_04__A_original,banana_04,A_original,banana,On the counter lies a crescent-shaped fruit whose yellow jacket has a few brown freckles.,"Context:
+On the counter lies a crescent-shaped fruit whose yellow jacket has a few brown freckles.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+On the counter lies a crescent-shaped fruit whose yellow jacket has a few brown freckles.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+","None. The description provided does not correspond to a specific, widely recognized fruit. The shape and color details are too vague to identify a particular fruit.",31,1.1343636650000235,False,False,False,none,,True
+phi3_5mini,banana_04__B_best_match,banana_04,B_best_match,banana,On the counter lies a crescent-shaped fruit whose yellow jacket has a few brown freckles.,"Context:
+On the counter lies a crescent-shaped fruit whose yellow jacket has a few brown freckles.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+On the counter lies a crescent-shaped fruit whose yellow jacket has a few brown freckles.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Mango,3,0.12892066100005195,False,False,False,mango,,False
+phi3_5mini,banana_05__A_original,banana_05,A_original,banana,"He pulls apart a cluster of long curved fruits, then peels one before taking a bite.","Context:
+He pulls apart a cluster of long curved fruits, then peels one before taking a bite.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+He pulls apart a cluster of long curved fruits, then peels one before taking a bite.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",None (The context does not provide a specific name for the fruit),15,0.6047455460000037,False,False,False,none (the context does not provide a specific name for the fruit),,True
+phi3_5mini,banana_05__B_best_match,banana_05,B_best_match,banana,"He pulls apart a cluster of long curved fruits, then peels one before taking a bite.","Context:
+He pulls apart a cluster of long curved fruits, then peels one before taking a bite.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+He pulls apart a cluster of long curved fruits, then peels one before taking a bite.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Banana,3,0.1451308569999128,False,True,True,banana,banana,False
+phi3_5mini,banana_06__A_original,banana_06,A_original,banana,This fruit is harvested green in large hanging bunches and becomes yellow and soft as it ripens.,"Context:
+This fruit is harvested green in large hanging bunches and becomes yellow and soft as it ripens.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+This fruit is harvested green in large hanging bunches and becomes yellow and soft as it ripens.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Banana,3,0.138594702999967,False,True,True,banana,banana,False
+phi3_5mini,banana_06__B_best_match,banana_06,B_best_match,banana,This fruit is harvested green in large hanging bunches and becomes yellow and soft as it ripens.,"Context:
+This fruit is harvested green in large hanging bunches and becomes yellow and soft as it ripens.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+This fruit is harvested green in large hanging bunches and becomes yellow and soft as it ripens.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Banana,3,0.14017372800003614,False,True,True,banana,banana,False
+phi3_5mini,banana_07__A_original,banana_07,A_original,banana,"A monkey holds an elongated yellow fruit, folds back the peel, and eats the pale interior.","Context:
+A monkey holds an elongated yellow fruit, folds back the peel, and eats the pale interior.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A monkey holds an elongated yellow fruit, folds back the peel, and eats the pale interior.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Banana,3,0.13816941599998245,False,True,True,banana,banana,False
+phi3_5mini,banana_07__B_best_match,banana_07,B_best_match,banana,"A monkey holds an elongated yellow fruit, folds back the peel, and eats the pale interior.","Context:
+A monkey holds an elongated yellow fruit, folds back the peel, and eats the pale interior.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A monkey holds an elongated yellow fruit, folds back the peel, and eats the pale interior.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Banana,3,0.1443023079999648,False,True,True,banana,banana,False
+phi3_5mini,banana_08__A_original,banana_08,A_original,banana,The smoothie recipe calls for a curved yellow fruit that can be peeled by hand and mashed with a fork.,"Context:
+The smoothie recipe calls for a curved yellow fruit that can be peeled by hand and mashed with a fork.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The smoothie recipe calls for a curved yellow fruit that can be peeled by hand and mashed with a fork.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Banana,3,0.13704274500003066,False,True,True,banana,banana,False
+phi3_5mini,banana_08__B_best_match,banana_08,B_best_match,banana,The smoothie recipe calls for a curved yellow fruit that can be peeled by hand and mashed with a fork.,"Context:
+The smoothie recipe calls for a curved yellow fruit that can be peeled by hand and mashed with a fork.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The smoothie recipe calls for a curved yellow fruit that can be peeled by hand and mashed with a fork.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Banana,3,0.14326810499994735,False,True,True,banana,banana,False
+phi3_5mini,banana_09__A_original,banana_09,A_original,banana,"Unlike a round fruit with a core, this familiar yellow fruit has a long curved body beneath a thick peel.","Context:
+Unlike a round fruit with a core, this familiar yellow fruit has a long curved body beneath a thick peel.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+Unlike a round fruit with a core, this familiar yellow fruit has a long curved body beneath a thick peel.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Banana,3,0.13519116800000575,False,True,True,banana,banana,False
+phi3_5mini,banana_09__B_best_match,banana_09,B_best_match,banana,"Unlike a round fruit with a core, this familiar yellow fruit has a long curved body beneath a thick peel.","Context:
+Unlike a round fruit with a core, this familiar yellow fruit has a long curved body beneath a thick peel.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+Unlike a round fruit with a core, this familiar yellow fruit has a long curved body beneath a thick peel.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Banana,3,0.13367816899994978,False,True,True,banana,banana,False
+phi3_5mini,apple_00__A_original,apple_00,A_original,apple,She bites into a round red fruit and hears a crisp crunch; a small core with dark seeds remains.,"Context:
+She bites into a round red fruit and hears a crisp crunch; a small core with dark seeds remains.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+She bites into a round red fruit and hears a crisp crunch; a small core with dark seeds remains.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Apple,2,0.09485290099996746,False,True,True,apple,apple,False
+phi3_5mini,apple_00__B_best_match,apple_00,B_best_match,apple,She bites into a round red fruit and hears a crisp crunch; a small core with dark seeds remains.,"Context:
+She bites into a round red fruit and hears a crisp crunch; a small core with dark seeds remains.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+She bites into a round red fruit and hears a crisp crunch; a small core with dark seeds remains.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Apple,2,0.09711341999991419,False,True,True,apple,apple,False
+phi3_5mini,apple_01__A_original,apple_01,A_original,apple,"A green round fruit has firm white flesh, a thin edible skin, and seeds clustered around its central core.","Context:
+A green round fruit has firm white flesh, a thin edible skin, and seeds clustered around its central core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A green round fruit has firm white flesh, a thin edible skin, and seeds clustered around its central core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Watermelon,5,0.22343693699997402,False,False,False,watermelon,,False
+phi3_5mini,apple_01__B_best_match,apple_01,B_best_match,apple,"A green round fruit has firm white flesh, a thin edible skin, and seeds clustered around its central core.","Context:
+A green round fruit has firm white flesh, a thin edible skin, and seeds clustered around its central core.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A green round fruit has firm white flesh, a thin edible skin, and seeds clustered around its central core.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Pear,2,0.10719266000000971,False,False,False,pear,,False
+phi3_5mini,apple_02__A_original,apple_02,A_original,apple,"At the orchard, a child picks a shiny red fruit from a tree and polishes its thin skin before eating it.","Context:
+At the orchard, a child picks a shiny red fruit from a tree and polishes its thin skin before eating it.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+At the orchard, a child picks a shiny red fruit from a tree and polishes its thin skin before eating it.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Apple,2,0.10357953699997324,False,True,True,apple,apple,False
+phi3_5mini,apple_02__B_best_match,apple_02,B_best_match,apple,"At the orchard, a child picks a shiny red fruit from a tree and polishes its thin skin before eating it.","Context:
+At the orchard, a child picks a shiny red fruit from a tree and polishes its thin skin before eating it.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+At the orchard, a child picks a shiny red fruit from a tree and polishes its thin skin before eating it.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Apple,2,0.10093616500000735,False,True,True,apple,apple,False
+phi3_5mini,apple_03__A_original,apple_03,A_original,apple,The pie filling uses slices of a crisp round fruit with a central seed core and red or green skin.,"Context:
+The pie filling uses slices of a crisp round fruit with a central seed core and red or green skin.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The pie filling uses slices of a crisp round fruit with a central seed core and red or green skin.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Apple,2,0.09482644700005949,False,True,True,apple,apple,False
+phi3_5mini,apple_03__B_best_match,apple_03,B_best_match,apple,The pie filling uses slices of a crisp round fruit with a central seed core and red or green skin.,"Context:
+The pie filling uses slices of a crisp round fruit with a central seed core and red or green skin.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The pie filling uses slices of a crisp round fruit with a central seed core and red or green skin.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Apple,2,0.09516979900001843,False,True,True,apple,apple,False
+phi3_5mini,apple_04__A_original,apple_04,A_original,apple,A small stem rises from the top of this round red fruit; cutting it reveals white flesh around a seed core.,"Context:
+A small stem rises from the top of this round red fruit; cutting it reveals white flesh around a seed core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A small stem rises from the top of this round red fruit; cutting it reveals white flesh around a seed core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Tomato,3,0.15541619100008575,False,False,False,tomato,,False
+phi3_5mini,apple_04__B_best_match,apple_04,B_best_match,apple,A small stem rises from the top of this round red fruit; cutting it reveals white flesh around a seed core.,"Context:
+A small stem rises from the top of this round red fruit; cutting it reveals white flesh around a seed core.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A small stem rises from the top of this round red fruit; cutting it reveals white flesh around a seed core.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Tomato,3,0.17437311999992744,False,False,False,tomato,,False
+phi3_5mini,apple_05__A_original,apple_05,A_original,apple,"This crunchy fruit can be red, green, or yellow and is commonly pressed to make cider.","Context:
+This crunchy fruit can be red, green, or yellow and is commonly pressed to make cider.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+This crunchy fruit can be red, green, or yellow and is commonly pressed to make cider.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Apple,2,0.10363413499999297,False,True,True,apple,apple,False
+phi3_5mini,apple_05__B_best_match,apple_05,B_best_match,apple,"This crunchy fruit can be red, green, or yellow and is commonly pressed to make cider.","Context:
+This crunchy fruit can be red, green, or yellow and is commonly pressed to make cider.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+This crunchy fruit can be red, green, or yellow and is commonly pressed to make cider.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Apple,2,0.10661633199993048,False,True,True,apple,apple,False
+phi3_5mini,apple_06__A_original,apple_06,A_original,apple,"He removes the core from a round green fruit, then cuts the firm white flesh into wedges.","Context:
+He removes the core from a round green fruit, then cuts the firm white flesh into wedges.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+He removes the core from a round green fruit, then cuts the firm white flesh into wedges.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Kiwi,3,0.14076879399999598,False,False,False,kiwi,,False
+phi3_5mini,apple_06__B_best_match,apple_06,B_best_match,apple,"He removes the core from a round green fruit, then cuts the firm white flesh into wedges.","Context:
+He removes the core from a round green fruit, then cuts the firm white flesh into wedges.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+He removes the core from a round green fruit, then cuts the firm white flesh into wedges.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Kiwi,3,0.1261161649999849,False,False,False,kiwi,,False
+phi3_5mini,apple_07__A_original,apple_07,A_original,apple,"A lunch snack consists of crisp wedges of a red-skinned fruit, each trimmed away from a central core.","Context:
+A lunch snack consists of crisp wedges of a red-skinned fruit, each trimmed away from a central core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A lunch snack consists of crisp wedges of a red-skinned fruit, each trimmed away from a central core.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Apple,2,0.09186418800004503,False,True,True,apple,apple,False
+phi3_5mini,apple_07__B_best_match,apple_07,B_best_match,apple,"A lunch snack consists of crisp wedges of a red-skinned fruit, each trimmed away from a central core.","Context:
+A lunch snack consists of crisp wedges of a red-skinned fruit, each trimmed away from a central core.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A lunch snack consists of crisp wedges of a red-skinned fruit, each trimmed away from a central core.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Apple,2,0.09330219299999953,False,True,True,apple,apple,False
+phi3_5mini,apple_08__A_original,apple_08,A_original,apple,"In a classroom experiment, a round red fruit is cut across its middle to expose a star-shaped seed pattern.","Context:
+In a classroom experiment, a round red fruit is cut across its middle to expose a star-shaped seed pattern.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+In a classroom experiment, a round red fruit is cut across its middle to expose a star-shaped seed pattern.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Apple,2,0.09081330300000445,False,True,True,apple,apple,False
+phi3_5mini,apple_08__B_best_match,apple_08,B_best_match,apple,"In a classroom experiment, a round red fruit is cut across its middle to expose a star-shaped seed pattern.","Context:
+In a classroom experiment, a round red fruit is cut across its middle to expose a star-shaped seed pattern.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+In a classroom experiment, a round red fruit is cut across its middle to expose a star-shaped seed pattern.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Starfruit (Averrhoa carambola),13,0.485055113000044,False,False,False,starfruit (averrhoa carambola),,False
+phi3_5mini,apple_09__A_original,apple_09,A_original,apple,"The fruit in her hand has thin green skin, crunchy pale flesh, and a small seed-filled core she discards.","Context:
+The fruit in her hand has thin green skin, crunchy pale flesh, and a small seed-filled core she discards.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The fruit in her hand has thin green skin, crunchy pale flesh, and a small seed-filled core she discards.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Kiwi,3,0.1301890980000735,False,False,False,kiwi,,False
+phi3_5mini,apple_09__B_best_match,apple_09,B_best_match,apple,"The fruit in her hand has thin green skin, crunchy pale flesh, and a small seed-filled core she discards.","Context:
+The fruit in her hand has thin green skin, crunchy pale flesh, and a small seed-filled core she discards.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The fruit in her hand has thin green skin, crunchy pale flesh, and a small seed-filled core she discards.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Green apple,3,0.1287318920000189,False,False,False,green apple,apple,False
+phi3_5mini,elephant_00__A_original,elephant_00,A_original,elephant,A huge gray land mammal draws water into its long trunk and sprays it over its back.,"Context:
+A huge gray land mammal draws water into its long trunk and sprays it over its back.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A huge gray land mammal draws water into its long trunk and sprays it over its back.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Elephant,4,0.16238189900002453,False,True,True,elephant,elephant,False
+phi3_5mini,elephant_00__B_best_match,elephant_00,B_best_match,elephant,A huge gray land mammal draws water into its long trunk and sprays it over its back.,"Context:
+A huge gray land mammal draws water into its long trunk and sprays it over its back.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A huge gray land mammal draws water into its long trunk and sprays it over its back.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Elephant,4,0.16318721499999356,False,True,True,elephant,elephant,False
+phi3_5mini,elephant_01__A_original,elephant_01,A_original,elephant,The keeper watches an enormous animal pick up a branch with a flexible nose that reaches the ground.,"Context:
+The keeper watches an enormous animal pick up a branch with a flexible nose that reaches the ground.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The keeper watches an enormous animal pick up a branch with a flexible nose that reaches the ground.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",None - The context does not provide enough information to identify a specific animal.,16,0.5995525859999589,False,False,False,none - the context does not provide enough information to identify a specific animal,,True
+phi3_5mini,elephant_01__B_best_match,elephant_01,B_best_match,elephant,The keeper watches an enormous animal pick up a branch with a flexible nose that reaches the ground.,"Context:
+The keeper watches an enormous animal pick up a branch with a flexible nose that reaches the ground.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The keeper watches an enormous animal pick up a branch with a flexible nose that reaches the ground.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.16371312699993723,False,False,False,giraffe,giraffe,False
+phi3_5mini,elephant_02__A_original,elephant_02,A_original,elephant,"A massive herbivore with tusks and a trunk walks slowly on four thick, pillar-like legs.","Context:
+A massive herbivore with tusks and a trunk walks slowly on four thick, pillar-like legs.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A massive herbivore with tusks and a trunk walks slowly on four thick, pillar-like legs.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Elephant,4,0.1662499010000147,False,True,True,elephant,elephant,False
+phi3_5mini,elephant_02__B_best_match,elephant_02,B_best_match,elephant,"A massive herbivore with tusks and a trunk walks slowly on four thick, pillar-like legs.","Context:
+A massive herbivore with tusks and a trunk walks slowly on four thick, pillar-like legs.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A massive herbivore with tusks and a trunk walks slowly on four thick, pillar-like legs.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Elephant,4,0.1642473730000802,False,True,True,elephant,elephant,False
+phi3_5mini,elephant_03__A_original,elephant_03,A_original,elephant,A calf follows a gigantic gray mother whose long flexible trunk curls around a bundle of grass.,"Context:
+A calf follows a gigantic gray mother whose long flexible trunk curls around a bundle of grass.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A calf follows a gigantic gray mother whose long flexible trunk curls around a bundle of grass.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Elephant,4,0.15873134200001005,False,True,True,elephant,elephant,False
+phi3_5mini,elephant_03__B_best_match,elephant_03,B_best_match,elephant,A calf follows a gigantic gray mother whose long flexible trunk curls around a bundle of grass.,"Context:
+A calf follows a gigantic gray mother whose long flexible trunk curls around a bundle of grass.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A calf follows a gigantic gray mother whose long flexible trunk curls around a bundle of grass.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Elephant,4,0.16236375899995892,False,True,True,elephant,elephant,False
+phi3_5mini,elephant_04__A_original,elephant_04,A_original,elephant,This very large land animal flaps broad ears while lifting food to its mouth with an elongated nose.,"Context:
+This very large land animal flaps broad ears while lifting food to its mouth with an elongated nose.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+This very large land animal flaps broad ears while lifting food to its mouth with an elongated nose.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.17697261699993305,False,False,False,giraffe,giraffe,False
+phi3_5mini,elephant_04__B_best_match,elephant_04,B_best_match,elephant,This very large land animal flaps broad ears while lifting food to its mouth with an elongated nose.,"Context:
+This very large land animal flaps broad ears while lifting food to its mouth with an elongated nose.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+This very large land animal flaps broad ears while lifting food to its mouth with an elongated nose.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.16320866900002784,False,False,False,giraffe,giraffe,False
+phi3_5mini,elephant_05__A_original,elephant_05,A_original,elephant,"At a watering hole, a tusked gray mammal uses its trunk as a hose to drink.","Context:
+At a watering hole, a tusked gray mammal uses its trunk as a hose to drink.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+At a watering hole, a tusked gray mammal uses its trunk as a hose to drink.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Elephant,4,0.16541060100007599,False,True,True,elephant,elephant,False
+phi3_5mini,elephant_05__B_best_match,elephant_05,B_best_match,elephant,"At a watering hole, a tusked gray mammal uses its trunk as a hose to drink.","Context:
+At a watering hole, a tusked gray mammal uses its trunk as a hose to drink.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+At a watering hole, a tusked gray mammal uses its trunk as a hose to drink.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Elephant,4,0.16323950299999979,False,True,True,elephant,elephant,False
+phi3_5mini,elephant_06__A_original,elephant_06,A_original,elephant,"The animal has an immense body, thick wrinkled gray skin, and a long trunk capable of grasping objects.","Context:
+The animal has an immense body, thick wrinkled gray skin, and a long trunk capable of grasping objects.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The animal has an immense body, thick wrinkled gray skin, and a long trunk capable of grasping objects.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Elephant,4,0.1626769989999275,False,True,True,elephant,elephant,False
+phi3_5mini,elephant_06__B_best_match,elephant_06,B_best_match,elephant,"The animal has an immense body, thick wrinkled gray skin, and a long trunk capable of grasping objects.","Context:
+The animal has an immense body, thick wrinkled gray skin, and a long trunk capable of grasping objects.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The animal has an immense body, thick wrinkled gray skin, and a long trunk capable of grasping objects.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Elephant,4,0.16543246000003364,False,True,True,elephant,elephant,False
+phi3_5mini,elephant_07__A_original,elephant_07,A_original,elephant,A huge African herbivore shades its body with broad ears and reaches for leaves using its trunk.,"Context:
+A huge African herbivore shades its body with broad ears and reaches for leaves using its trunk.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A huge African herbivore shades its body with broad ears and reaches for leaves using its trunk.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.16791153600001962,False,False,False,giraffe,giraffe,False
+phi3_5mini,elephant_07__B_best_match,elephant_07,B_best_match,elephant,A huge African herbivore shades its body with broad ears and reaches for leaves using its trunk.,"Context:
+A huge African herbivore shades its body with broad ears and reaches for leaves using its trunk.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A huge African herbivore shades its body with broad ears and reaches for leaves using its trunk.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.16267572000003838,False,False,False,giraffe,giraffe,False
+phi3_5mini,elephant_08__A_original,elephant_08,A_original,elephant,Four heavy feet support a giant mammal with ivory tusks and a muscular trunk in place of a short nose.,"Context:
+Four heavy feet support a giant mammal with ivory tusks and a muscular trunk in place of a short nose.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+Four heavy feet support a giant mammal with ivory tusks and a muscular trunk in place of a short nose.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Elephant,4,0.16280370100002983,False,True,True,elephant,elephant,False
+phi3_5mini,elephant_08__B_best_match,elephant_08,B_best_match,elephant,Four heavy feet support a giant mammal with ivory tusks and a muscular trunk in place of a short nose.,"Context:
+Four heavy feet support a giant mammal with ivory tusks and a muscular trunk in place of a short nose.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+Four heavy feet support a giant mammal with ivory tusks and a muscular trunk in place of a short nose.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Elephant,4,0.16696998300005816,False,True,True,elephant,elephant,False
+phi3_5mini,elephant_09__A_original,elephant_09,A_original,elephant,A visitor sees an enormous gray animal curl its trunk upward and fan its wide ears.,"Context:
+A visitor sees an enormous gray animal curl its trunk upward and fan its wide ears.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A visitor sees an enormous gray animal curl its trunk upward and fan its wide ears.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Elephant,4,0.15817296599993824,False,True,True,elephant,elephant,False
+phi3_5mini,elephant_09__B_best_match,elephant_09,B_best_match,elephant,A visitor sees an enormous gray animal curl its trunk upward and fan its wide ears.,"Context:
+A visitor sees an enormous gray animal curl its trunk upward and fan its wide ears.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A visitor sees an enormous gray animal curl its trunk upward and fan its wide ears.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Elephant,4,0.16689135799992982,False,True,True,elephant,elephant,False
+phi3_5mini,giraffe_00__A_original,giraffe_00,A_original,giraffe,A tall spotted mammal stretches its extraordinarily long neck to browse the top of an acacia tree.,"Context:
+A tall spotted mammal stretches its extraordinarily long neck to browse the top of an acacia tree.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A tall spotted mammal stretches its extraordinarily long neck to browse the top of an acacia tree.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.17139730100007,False,True,True,giraffe,giraffe,False
+phi3_5mini,giraffe_00__B_best_match,giraffe_00,B_best_match,giraffe,A tall spotted mammal stretches its extraordinarily long neck to browse the top of an acacia tree.,"Context:
+A tall spotted mammal stretches its extraordinarily long neck to browse the top of an acacia tree.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A tall spotted mammal stretches its extraordinarily long neck to browse the top of an acacia tree.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.16234838599996237,False,True,True,giraffe,giraffe,False
+phi3_5mini,giraffe_01__A_original,giraffe_01,A_original,giraffe,"The safari animal has very long legs, a long neck, and a tan coat patterned with dark patches.","Context:
+The safari animal has very long legs, a long neck, and a tan coat patterned with dark patches.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The safari animal has very long legs, a long neck, and a tan coat patterned with dark patches.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.16298049900001388,False,True,True,giraffe,giraffe,False
+phi3_5mini,giraffe_01__B_best_match,giraffe_01,B_best_match,giraffe,"The safari animal has very long legs, a long neck, and a tan coat patterned with dark patches.","Context:
+The safari animal has very long legs, a long neck, and a tan coat patterned with dark patches.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The safari animal has very long legs, a long neck, and a tan coat patterned with dark patches.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.1635187729999643,False,True,True,giraffe,giraffe,False
+phi3_5mini,giraffe_02__A_original,giraffe_02,A_original,giraffe,A small head with two short horn-like knobs sits above the remarkably long neck of this spotted herbivore.,"Context:
+A small head with two short horn-like knobs sits above the remarkably long neck of this spotted herbivore.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A small head with two short horn-like knobs sits above the remarkably long neck of this spotted herbivore.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.16282563000004302,False,True,True,giraffe,giraffe,False
+phi3_5mini,giraffe_02__B_best_match,giraffe_02,B_best_match,giraffe,A small head with two short horn-like knobs sits above the remarkably long neck of this spotted herbivore.,"Context:
+A small head with two short horn-like knobs sits above the remarkably long neck of this spotted herbivore.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A small head with two short horn-like knobs sits above the remarkably long neck of this spotted herbivore.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.1634740069999907,False,True,True,giraffe,giraffe,False
+phi3_5mini,giraffe_03__A_original,giraffe_03,A_original,giraffe,This African mammal towers above nearby animals and uses its long tongue to pull leaves from high branches.,"Context:
+This African mammal towers above nearby animals and uses its long tongue to pull leaves from high branches.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+This African mammal towers above nearby animals and uses its long tongue to pull leaves from high branches.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.1688576720000583,False,True,True,giraffe,giraffe,False
+phi3_5mini,giraffe_03__B_best_match,giraffe_03,B_best_match,giraffe,This African mammal towers above nearby animals and uses its long tongue to pull leaves from high branches.,"Context:
+This African mammal towers above nearby animals and uses its long tongue to pull leaves from high branches.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+This African mammal towers above nearby animals and uses its long tongue to pull leaves from high branches.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.16300833700006478,False,True,True,giraffe,giraffe,False
+phi3_5mini,giraffe_04__A_original,giraffe_04,A_original,giraffe,A spotted calf stands beside a towering mother with an exceptionally long neck and slender legs.,"Context:
+A spotted calf stands beside a towering mother with an exceptionally long neck and slender legs.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A spotted calf stands beside a towering mother with an exceptionally long neck and slender legs.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.15804226700004165,False,True,True,giraffe,giraffe,False
+phi3_5mini,giraffe_04__B_best_match,giraffe_04,B_best_match,giraffe,A spotted calf stands beside a towering mother with an exceptionally long neck and slender legs.,"Context:
+A spotted calf stands beside a towering mother with an exceptionally long neck and slender legs.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A spotted calf stands beside a towering mother with an exceptionally long neck and slender legs.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.16445674900000995,False,True,True,giraffe,giraffe,False
+phi3_5mini,giraffe_05__A_original,giraffe_05,A_original,giraffe,The tallest living land animal bends its long neck down to drink while spreading its front legs.,"Context:
+The tallest living land animal bends its long neck down to drink while spreading its front legs.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The tallest living land animal bends its long neck down to drink while spreading its front legs.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.1588106950000565,False,True,True,giraffe,giraffe,False
+phi3_5mini,giraffe_05__B_best_match,giraffe_05,B_best_match,giraffe,The tallest living land animal bends its long neck down to drink while spreading its front legs.,"Context:
+The tallest living land animal bends its long neck down to drink while spreading its front legs.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The tallest living land animal bends its long neck down to drink while spreading its front legs.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.1638744230000384,False,True,True,giraffe,giraffe,False
+phi3_5mini,giraffe_06__A_original,giraffe_06,A_original,giraffe,A tan animal covered in irregular brown patches reaches high foliage with a very long neck.,"Context:
+A tan animal covered in irregular brown patches reaches high foliage with a very long neck.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A tan animal covered in irregular brown patches reaches high foliage with a very long neck.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.16772128899992822,False,True,True,giraffe,giraffe,False
+phi3_5mini,giraffe_06__B_best_match,giraffe_06,B_best_match,giraffe,A tan animal covered in irregular brown patches reaches high foliage with a very long neck.,"Context:
+A tan animal covered in irregular brown patches reaches high foliage with a very long neck.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A tan animal covered in irregular brown patches reaches high foliage with a very long neck.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.16397939999990285,False,True,True,giraffe,giraffe,False
+phi3_5mini,giraffe_07__A_original,giraffe_07,A_original,giraffe,"From the safari vehicle, she sees a spotted, long-necked herbivore whose head rises above the trees.","Context:
+From the safari vehicle, she sees a spotted, long-necked herbivore whose head rises above the trees.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+From the safari vehicle, she sees a spotted, long-necked herbivore whose head rises above the trees.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.16283948599993892,False,True,True,giraffe,giraffe,False
+phi3_5mini,giraffe_07__B_best_match,giraffe_07,B_best_match,giraffe,"From the safari vehicle, she sees a spotted, long-necked herbivore whose head rises above the trees.","Context:
+From the safari vehicle, she sees a spotted, long-necked herbivore whose head rises above the trees.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+From the safari vehicle, she sees a spotted, long-necked herbivore whose head rises above the trees.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.16738092699995377,False,True,True,giraffe,giraffe,False
+phi3_5mini,giraffe_08__A_original,giraffe_08,A_original,giraffe,Long slender legs and an extremely elongated neck allow this patch-coated mammal to feed high in trees.,"Context:
+Long slender legs and an extremely elongated neck allow this patch-coated mammal to feed high in trees.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+Long slender legs and an extremely elongated neck allow this patch-coated mammal to feed high in trees.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.1623330930000293,False,True,True,giraffe,giraffe,False
+phi3_5mini,giraffe_08__B_best_match,giraffe_08,B_best_match,giraffe,Long slender legs and an extremely elongated neck allow this patch-coated mammal to feed high in trees.,"Context:
+Long slender legs and an extremely elongated neck allow this patch-coated mammal to feed high in trees.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+Long slender legs and an extremely elongated neck allow this patch-coated mammal to feed high in trees.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.16394915600005788,False,True,True,giraffe,giraffe,False
+phi3_5mini,giraffe_09__A_original,giraffe_09,A_original,giraffe,"The animal at the zoo has two small knobs on its head, brown body patches, and a towering neck.","Context:
+The animal at the zoo has two small knobs on its head, brown body patches, and a towering neck.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The animal at the zoo has two small knobs on its head, brown body patches, and a towering neck.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+","None. The description provided is too generic and could potentially apply to several different animals. Without more specific details, it's not possible to accurately identify a",32,1.1894927810000127,True,False,False,none,,True
+phi3_5mini,giraffe_09__B_best_match,giraffe_09,B_best_match,giraffe,"The animal at the zoo has two small knobs on its head, brown body patches, and a towering neck.","Context:
+The animal at the zoo has two small knobs on its head, brown body patches, and a towering neck.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The animal at the zoo has two small knobs on its head, brown body patches, and a towering neck.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Giraffe,4,0.16234354300001996,False,True,True,giraffe,giraffe,False
+phi3_5mini,piano_00__A_original,piano_00,A_original,piano,A musician sits at a large instrument and presses black and white keys that make hammers strike strings inside.,"Context:
+A musician sits at a large instrument and presses black and white keys that make hammers strike strings inside.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A musician sits at a large instrument and presses black and white keys that make hammers strike strings inside.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Piano,3,0.12838987600002838,False,True,True,piano,piano,False
+phi3_5mini,piano_00__B_best_match,piano_00,B_best_match,piano,A musician sits at a large instrument and presses black and white keys that make hammers strike strings inside.,"Context:
+A musician sits at a large instrument and presses black and white keys that make hammers strike strings inside.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A musician sits at a large instrument and presses black and white keys that make hammers strike strings inside.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Piano,3,0.12744868599997972,False,True,True,piano,piano,False
+phi3_5mini,piano_01__A_original,piano_01,A_original,piano,"The concert instrument has eighty-eight keys, foot pedals, and strings stretched beneath a raised lid.","Context:
+The concert instrument has eighty-eight keys, foot pedals, and strings stretched beneath a raised lid.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The concert instrument has eighty-eight keys, foot pedals, and strings stretched beneath a raised lid.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Piano,3,0.12618588600003022,False,True,True,piano,piano,False
+phi3_5mini,piano_01__B_best_match,piano_01,B_best_match,piano,"The concert instrument has eighty-eight keys, foot pedals, and strings stretched beneath a raised lid.","Context:
+The concert instrument has eighty-eight keys, foot pedals, and strings stretched beneath a raised lid.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The concert instrument has eighty-eight keys, foot pedals, and strings stretched beneath a raised lid.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Piano,3,0.17017933800002538,False,True,True,piano,piano,False
+phi3_5mini,piano_02__A_original,piano_02,A_original,piano,"At an upright wooden instrument, she plays a melody on black and white keys while operating a sustain pedal.","Context:
+At an upright wooden instrument, she plays a melody on black and white keys while operating a sustain pedal.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+At an upright wooden instrument, she plays a melody on black and white keys while operating a sustain pedal.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Piano,3,0.14572158700002547,False,True,True,piano,piano,False
+phi3_5mini,piano_02__B_best_match,piano_02,B_best_match,piano,"At an upright wooden instrument, she plays a melody on black and white keys while operating a sustain pedal.","Context:
+At an upright wooden instrument, she plays a melody on black and white keys while operating a sustain pedal.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+At an upright wooden instrument, she plays a melody on black and white keys while operating a sustain pedal.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Piano,3,0.15347074999999677,False,True,True,piano,piano,False
+phi3_5mini,piano_03__A_original,piano_03,A_original,piano,This acoustic keyboard instrument creates sound when felt-covered hammers hit internal strings.,"Context:
+This acoustic keyboard instrument creates sound when felt-covered hammers hit internal strings.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+This acoustic keyboard instrument creates sound when felt-covered hammers hit internal strings.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Harpsichord,5,0.22363243300003433,False,False,False,harpsichord,,False
+phi3_5mini,piano_03__B_best_match,piano_03,B_best_match,piano,This acoustic keyboard instrument creates sound when felt-covered hammers hit internal strings.,"Context:
+This acoustic keyboard instrument creates sound when felt-covered hammers hit internal strings.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+This acoustic keyboard instrument creates sound when felt-covered hammers hit internal strings.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Harp,3,0.1404451880000579,False,False,False,harp,,False
+phi3_5mini,piano_04__A_original,piano_04,A_original,piano,The recital performer sits on a bench before a grand instrument with a long curved body and a keyboard.,"Context:
+The recital performer sits on a bench before a grand instrument with a long curved body and a keyboard.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The recital performer sits on a bench before a grand instrument with a long curved body and a keyboard.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Piano,3,0.1377997240000468,False,True,True,piano,piano,False
+phi3_5mini,piano_04__B_best_match,piano_04,B_best_match,piano,The recital performer sits on a bench before a grand instrument with a long curved body and a keyboard.,"Context:
+The recital performer sits on a bench before a grand instrument with a long curved body and a keyboard.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The recital performer sits on a bench before a grand instrument with a long curved body and a keyboard.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Piano,3,0.141015609999954,False,True,True,piano,piano,False
+phi3_5mini,piano_05__A_original,piano_05,A_original,piano,Pressing a key on this large acoustic instrument sends a hammer toward a string; foot pedals alter the sound.,"Context:
+Pressing a key on this large acoustic instrument sends a hammer toward a string; foot pedals alter the sound.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+Pressing a key on this large acoustic instrument sends a hammer toward a string; foot pedals alter the sound.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Piano,3,0.13598387899992304,False,True,True,piano,piano,False
+phi3_5mini,piano_05__B_best_match,piano_05,B_best_match,piano,Pressing a key on this large acoustic instrument sends a hammer toward a string; foot pedals alter the sound.,"Context:
+Pressing a key on this large acoustic instrument sends a hammer toward a string; foot pedals alter the sound.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+Pressing a key on this large acoustic instrument sends a hammer toward a string; foot pedals alter the sound.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Piano,3,0.138685621000036,False,True,True,piano,piano,False
+phi3_5mini,piano_06__A_original,piano_06,A_original,piano,A child practices scales on an upright instrument with eighty-eight black and white keys.,"Context:
+A child practices scales on an upright instrument with eighty-eight black and white keys.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A child practices scales on an upright instrument with eighty-eight black and white keys.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Piano,3,0.1406372819999433,False,True,True,piano,piano,False
+phi3_5mini,piano_06__B_best_match,piano_06,B_best_match,piano,A child practices scales on an upright instrument with eighty-eight black and white keys.,"Context:
+A child practices scales on an upright instrument with eighty-eight black and white keys.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A child practices scales on an upright instrument with eighty-eight black and white keys.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Piano,3,0.14323132599997734,False,True,True,piano,piano,False
+phi3_5mini,piano_07__A_original,piano_07,A_original,piano,The tuner adjusts strings inside a grand keyboard instrument whose sound is produced by small hammers.,"Context:
+The tuner adjusts strings inside a grand keyboard instrument whose sound is produced by small hammers.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The tuner adjusts strings inside a grand keyboard instrument whose sound is produced by small hammers.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Grand Piano,4,0.19029255500004183,False,True,True,grand piano,piano,False
+phi3_5mini,piano_07__B_best_match,piano_07,B_best_match,piano,The tuner adjusts strings inside a grand keyboard instrument whose sound is produced by small hammers.,"Context:
+The tuner adjusts strings inside a grand keyboard instrument whose sound is produced by small hammers.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The tuner adjusts strings inside a grand keyboard instrument whose sound is produced by small hammers.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Grand Piano,4,0.1913335740000548,False,True,True,grand piano,piano,False
+phi3_5mini,piano_08__A_original,piano_08,A_original,piano,"With both hands on the keyboard and one foot on a pedal, the soloist plays a large string-and-hammer instrument.","Context:
+With both hands on the keyboard and one foot on a pedal, the soloist plays a large string-and-hammer instrument.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+With both hands on the keyboard and one foot on a pedal, the soloist plays a large string-and-hammer instrument.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Harp,3,0.13683121899998696,False,False,False,harp,,False
+phi3_5mini,piano_08__B_best_match,piano_08,B_best_match,piano,"With both hands on the keyboard and one foot on a pedal, the soloist plays a large string-and-hammer instrument.","Context:
+With both hands on the keyboard and one foot on a pedal, the soloist plays a large string-and-hammer instrument.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+With both hands on the keyboard and one foot on a pedal, the soloist plays a large string-and-hammer instrument.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Harp,3,0.1640341280000257,False,False,False,harp,,False
+phi3_5mini,piano_09__A_original,piano_09,A_original,piano,A raised triangular lid reveals strings inside the acoustic instrument played from a row of black and white keys.,"Context:
+A raised triangular lid reveals strings inside the acoustic instrument played from a row of black and white keys.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A raised triangular lid reveals strings inside the acoustic instrument played from a row of black and white keys.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Piano,3,0.17040447900001254,False,True,True,piano,piano,False
+phi3_5mini,piano_09__B_best_match,piano_09,B_best_match,piano,A raised triangular lid reveals strings inside the acoustic instrument played from a row of black and white keys.,"Context:
+A raised triangular lid reveals strings inside the acoustic instrument played from a row of black and white keys.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A raised triangular lid reveals strings inside the acoustic instrument played from a row of black and white keys.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Piano,3,0.17000221399996462,False,True,True,piano,piano,False
+phi3_5mini,violin_00__A_original,violin_00,A_original,violin,A player tucks a small four-stringed wooden instrument beneath the chin and draws a bow across its strings.,"Context:
+A player tucks a small four-stringed wooden instrument beneath the chin and draws a bow across its strings.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A player tucks a small four-stringed wooden instrument beneath the chin and draws a bow across its strings.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Violin,3,0.129738145000033,False,True,True,violin,violin,False
+phi3_5mini,violin_00__B_best_match,violin_00,B_best_match,violin,A player tucks a small four-stringed wooden instrument beneath the chin and draws a bow across its strings.,"Context:
+A player tucks a small four-stringed wooden instrument beneath the chin and draws a bow across its strings.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A player tucks a small four-stringed wooden instrument beneath the chin and draws a bow across its strings.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Violin,3,0.13052903499999502,False,True,True,violin,violin,False
+phi3_5mini,violin_01__A_original,violin_01,A_original,violin,The orchestra musician holds a small bowed instrument against the shoulder rather than between the knees.,"Context:
+The orchestra musician holds a small bowed instrument against the shoulder rather than between the knees.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The orchestra musician holds a small bowed instrument against the shoulder rather than between the knees.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Violin,3,0.1262722940000458,False,True,True,violin,violin,False
+phi3_5mini,violin_01__B_best_match,violin_01,B_best_match,violin,The orchestra musician holds a small bowed instrument against the shoulder rather than between the knees.,"Context:
+The orchestra musician holds a small bowed instrument against the shoulder rather than between the knees.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The orchestra musician holds a small bowed instrument against the shoulder rather than between the knees.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Violin,3,0.12716777100001764,False,True,True,violin,violin,False
+phi3_5mini,violin_02__A_original,violin_02,A_original,violin,"This high-pitched string instrument has four strings, a wooden body with f-shaped holes, and is played under the chin.","Context:
+This high-pitched string instrument has four strings, a wooden body with f-shaped holes, and is played under the chin.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+This high-pitched string instrument has four strings, a wooden body with f-shaped holes, and is played under the chin.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Violin,3,0.1273699089999809,False,True,True,violin,violin,False
+phi3_5mini,violin_02__B_best_match,violin_02,B_best_match,violin,"This high-pitched string instrument has four strings, a wooden body with f-shaped holes, and is played under the chin.","Context:
+This high-pitched string instrument has four strings, a wooden body with f-shaped holes, and is played under the chin.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+This high-pitched string instrument has four strings, a wooden body with f-shaped holes, and is played under the chin.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Guitar,3,0.13152120099994136,False,False,False,guitar,,False
+phi3_5mini,violin_03__A_original,violin_03,A_original,violin,A beginner rests a small wooden instrument beneath her jaw and moves a horsehair bow over four strings.,"Context:
+A beginner rests a small wooden instrument beneath her jaw and moves a horsehair bow over four strings.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A beginner rests a small wooden instrument beneath her jaw and moves a horsehair bow over four strings.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Violin,3,0.1290445559999398,False,True,True,violin,violin,False
+phi3_5mini,violin_03__B_best_match,violin_03,B_best_match,violin,A beginner rests a small wooden instrument beneath her jaw and moves a horsehair bow over four strings.,"Context:
+A beginner rests a small wooden instrument beneath her jaw and moves a horsehair bow over four strings.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A beginner rests a small wooden instrument beneath her jaw and moves a horsehair bow over four strings.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Violin,3,0.1268008590000136,False,True,True,violin,violin,False
+phi3_5mini,violin_04__A_original,violin_04,A_original,violin,The concertmaster raises a small four-stringed instrument to the shoulder and begins a bowed solo.,"Context:
+The concertmaster raises a small four-stringed instrument to the shoulder and begins a bowed solo.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The concertmaster raises a small four-stringed instrument to the shoulder and begins a bowed solo.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Violin,3,0.12801416600007087,False,True,True,violin,violin,False
+phi3_5mini,violin_04__B_best_match,violin_04,B_best_match,violin,The concertmaster raises a small four-stringed instrument to the shoulder and begins a bowed solo.,"Context:
+The concertmaster raises a small four-stringed instrument to the shoulder and begins a bowed solo.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The concertmaster raises a small four-stringed instrument to the shoulder and begins a bowed solo.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Violin,3,0.12979965299996366,False,True,True,violin,violin,False
+phi3_5mini,violin_05__A_original,violin_05,A_original,violin,The folk player draws a bow across four strings on a small wooden instrument held between the chin and shoulder.,"Context:
+The folk player draws a bow across four strings on a small wooden instrument held between the chin and shoulder.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The folk player draws a bow across four strings on a small wooden instrument held between the chin and shoulder.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Guitar,3,0.12685795200002303,False,False,False,guitar,,False
+phi3_5mini,violin_05__B_best_match,violin_05,B_best_match,violin,The folk player draws a bow across four strings on a small wooden instrument held between the chin and shoulder.,"Context:
+The folk player draws a bow across four strings on a small wooden instrument held between the chin and shoulder.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The folk player draws a bow across four strings on a small wooden instrument held between the chin and shoulder.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Guitar,3,0.1272675419999132,False,False,False,guitar,,False
+phi3_5mini,violin_06__A_original,violin_06,A_original,violin,"A small orchestral instrument tuned G, D, A, and E is played with a bow while supported beneath the chin.","Context:
+A small orchestral instrument tuned G, D, A, and E is played with a bow while supported beneath the chin.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A small orchestral instrument tuned G, D, A, and E is played with a bow while supported beneath the chin.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Violin,3,0.13321116100007657,False,True,True,violin,violin,False
+phi3_5mini,violin_06__B_best_match,violin_06,B_best_match,violin,"A small orchestral instrument tuned G, D, A, and E is played with a bow while supported beneath the chin.","Context:
+A small orchestral instrument tuned G, D, A, and E is played with a bow while supported beneath the chin.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A small orchestral instrument tuned G, D, A, and E is played with a bow while supported beneath the chin.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Violin,3,0.12759628900005282,False,True,True,violin,violin,False
+phi3_5mini,violin_07__A_original,violin_07,A_original,violin,The musician rubs rosin on a bow before playing a small wooden four-stringed instrument under his chin.,"Context:
+The musician rubs rosin on a bow before playing a small wooden four-stringed instrument under his chin.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The musician rubs rosin on a bow before playing a small wooden four-stringed instrument under his chin.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Violin,3,0.12812155699998584,False,True,True,violin,violin,False
+phi3_5mini,violin_07__B_best_match,violin_07,B_best_match,violin,The musician rubs rosin on a bow before playing a small wooden four-stringed instrument under his chin.,"Context:
+The musician rubs rosin on a bow before playing a small wooden four-stringed instrument under his chin.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The musician rubs rosin on a bow before playing a small wooden four-stringed instrument under his chin.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Violin,3,0.1279234759999781,False,True,True,violin,violin,False
+phi3_5mini,violin_08__A_original,violin_08,A_original,violin,An orchestral soloist fingers four strings with the left hand while bowing a small instrument held at the shoulder.,"Context:
+An orchestral soloist fingers four strings with the left hand while bowing a small instrument held at the shoulder.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+An orchestral soloist fingers four strings with the left hand while bowing a small instrument held at the shoulder.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Violin,3,0.1275125099999741,False,True,True,violin,violin,False
+phi3_5mini,violin_08__B_best_match,violin_08,B_best_match,violin,An orchestral soloist fingers four strings with the left hand while bowing a small instrument held at the shoulder.,"Context:
+An orchestral soloist fingers four strings with the left hand while bowing a small instrument held at the shoulder.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+An orchestral soloist fingers four strings with the left hand while bowing a small instrument held at the shoulder.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Violin,3,0.1336517019999519,False,True,True,violin,violin,False
+phi3_5mini,violin_09__A_original,violin_09,A_original,violin,This small bowed member of the string family usually plays higher than the viola and rests beneath the player's chin.,"Context:
+This small bowed member of the string family usually plays higher than the viola and rests beneath the player's chin.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+This small bowed member of the string family usually plays higher than the viola and rests beneath the player's chin.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Viola,3,0.12808162199996787,False,False,False,viola,,False
+phi3_5mini,violin_09__B_best_match,violin_09,B_best_match,violin,This small bowed member of the string family usually plays higher than the viola and rests beneath the player's chin.,"Context:
+This small bowed member of the string family usually plays higher than the viola and rests beneath the player's chin.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+This small bowed member of the string family usually plays higher than the viola and rests beneath the player's chin.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",Cello,3,0.12820220799994786,False,False,False,cello,,False
+phi3_5mini,none_00__A_original,none_00,A_original,none,The librarian renews a membership card and prints a receipt.,"Context:
+The librarian renews a membership card and prints a receipt.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The librarian renews a membership card and prints a receipt.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",None. The context does not describe a specific fruit.,12,0.4466660129999127,False,True,False,none,,False
+phi3_5mini,none_00__B_best_match,none_00,B_best_match,none,The librarian renews a membership card and prints a receipt.,"Context:
+The librarian renews a membership card and prints a receipt.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The librarian renews a membership card and prints a receipt.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+","None. The context is related to a librarian and a membership card, not fruits.",21,0.782370971999967,False,True,False,none,,False
+phi3_5mini,none_01__A_original,none_01,A_original,none,A delivery driver checks the address written on a cardboard parcel.,"Context:
+A delivery driver checks the address written on a cardboard parcel.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A delivery driver checks the address written on a cardboard parcel.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",None. The context does not provide any information about a specific fruit.,15,0.5513575479999417,False,True,False,none,,False
+phi3_5mini,none_01__B_best_match,none_01,B_best_match,none,A delivery driver checks the address written on a cardboard parcel.,"Context:
+A delivery driver checks the address written on a cardboard parcel.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A delivery driver checks the address written on a cardboard parcel.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+","None, as the context does not provide any information related to fruits.",16,0.6075322890000052,False,False,False,"none, as the context does not provide any information related to fruits",,False
+phi3_5mini,none_02__A_original,none_02,A_original,none,The engineer draws a diagram of a bridge on a sheet of paper.,"Context:
+The engineer draws a diagram of a bridge on a sheet of paper.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The engineer draws a diagram of a bridge on a sheet of paper.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+","None. The context describes an engineer drawing a diagram of a bridge, which does not pertain to any specific fruit.",25,0.9260137219999933,False,True,False,none,,False
+phi3_5mini,none_02__B_best_match,none_02,B_best_match,none,The engineer draws a diagram of a bridge on a sheet of paper.,"Context:
+The engineer draws a diagram of a bridge on a sheet of paper.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The engineer draws a diagram of a bridge on a sheet of paper.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",None,2,0.09098504899998261,False,True,True,none,,False
+phi3_5mini,none_03__A_original,none_03,A_original,none,A student calculates the average of five numbers in a spreadsheet.,"Context:
+A student calculates the average of five numbers in a spreadsheet.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A student calculates the average of five numbers in a spreadsheet.
+
+Name the specific fruit described in the context. If no specific fruit can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",None. The context provided does not describe any specific fruit.,13,0.4805808059999208,False,True,False,none,,False
+phi3_5mini,none_03__B_best_match,none_03,B_best_match,none,A student calculates the average of five numbers in a spreadsheet.,"Context:
+A student calculates the average of five numbers in a spreadsheet.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A student calculates the average of five numbers in a spreadsheet.
+
+Which fruit best matches the description in the context? Answer with the most likely name. If the context is unrelated to fruits, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",None. The context is about calculating averages in a spreadsheet and does not relate to fruits.,22,0.8241857650000384,False,True,False,none,,False
+phi3_5mini,none_04__A_original,none_04,A_original,none,The janitor replaces a broken light bulb in the hallway.,"Context:
+The janitor replaces a broken light bulb in the hallway.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The janitor replaces a broken light bulb in the hallway.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+","None. The context describes a janitor, which is a human occupation, not an animal.",20,0.739796325000043,False,True,False,none,,False
+phi3_5mini,none_04__B_best_match,none_04,B_best_match,none,The janitor replaces a broken light bulb in the hallway.,"Context:
+The janitor replaces a broken light bulb in the hallway.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The janitor replaces a broken light bulb in the hallway.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+","None. The context is about a janitor replacing a light bulb, which is unrelated to animals.",23,0.8813168359999963,False,True,False,none,,False
+phi3_5mini,none_05__A_original,none_05,A_original,none,An assistant schedules a meeting for Thursday afternoon.,"Context:
+An assistant schedules a meeting for Thursday afternoon.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+An assistant schedules a meeting for Thursday afternoon.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",None. The context provided does not describe a specific animal.,13,0.4787710979999247,False,True,False,none,,False
+phi3_5mini,none_05__B_best_match,none_05,B_best_match,none,An assistant schedules a meeting for Thursday afternoon.,"Context:
+An assistant schedules a meeting for Thursday afternoon.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+An assistant schedules a meeting for Thursday afternoon.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+","None. The context provided is about scheduling a meeting, which is unrelated to animals.",20,0.8641673820000051,False,True,False,none,,False
+phi3_5mini,none_06__A_original,none_06,A_original,none,A cyclist checks the tire pressure before leaving the garage.,"Context:
+A cyclist checks the tire pressure before leaving the garage.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A cyclist checks the tire pressure before leaving the garage.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+","None. The context describes a cyclist, which is a human, not an animal.",19,0.8341257329999507,False,True,False,none,,False
+phi3_5mini,none_06__B_best_match,none_06,B_best_match,none,A cyclist checks the tire pressure before leaving the garage.,"Context:
+A cyclist checks the tire pressure before leaving the garage.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A cyclist checks the tire pressure before leaving the garage.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",None. The context is about a cyclist and does not describe or relate to any animal.,20,0.891954630999976,False,False,False,none,,True
+phi3_5mini,none_07__A_original,none_07,A_original,none,The receptionist hands a visitor a numbered ticket.,"Context:
+The receptionist hands a visitor a numbered ticket.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The receptionist hands a visitor a numbered ticket.
+
+Name the specific animal described in the context. If no specific animal can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",None. The context does not describe a specific animal.,12,0.5853764689999252,False,True,False,none,,False
+phi3_5mini,none_07__B_best_match,none_07,B_best_match,none,The receptionist hands a visitor a numbered ticket.,"Context:
+The receptionist hands a visitor a numbered ticket.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The receptionist hands a visitor a numbered ticket.
+
+Which animal best matches the description in the context? Answer with the most likely name. If the context is unrelated to animals, answer none. Answer with one name only.<|end|>
+<|assistant|>
+","None, as the context does not describe an animal.",12,0.4625606870000638,False,False,False,"none, as the context does not describe an animal",,False
+phi3_5mini,none_08__A_original,none_08,A_original,none,A shopkeeper folds a paper bag and places it behind the counter.,"Context:
+A shopkeeper folds a paper bag and places it behind the counter.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A shopkeeper folds a paper bag and places it behind the counter.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+","None. The context describes an action involving a paper bag, not a musical instrument.",18,0.66364671000008,False,True,False,none,,False
+phi3_5mini,none_08__B_best_match,none_08,B_best_match,none,A shopkeeper folds a paper bag and places it behind the counter.,"Context:
+A shopkeeper folds a paper bag and places it behind the counter.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A shopkeeper folds a paper bag and places it behind the counter.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+","None, as the context describes an action related to a shopkeeper and a paper bag, not a musical instrument.",24,0.9029253379999318,False,False,False,"none, as the context describes an action related to a shopkeeper and a paper bag, not a musical instrument",,False
+phi3_5mini,none_09__A_original,none_09,A_original,none,The bus reaches the last stop and the passengers step onto the pavement.,"Context:
+The bus reaches the last stop and the passengers step onto the pavement.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The bus reaches the last stop and the passengers step onto the pavement.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",None. The context provided does not describe any specific musical instrument.,14,0.5286129070000243,False,True,False,none,,False
+phi3_5mini,none_09__B_best_match,none_09,B_best_match,none,The bus reaches the last stop and the passengers step onto the pavement.,"Context:
+The bus reaches the last stop and the passengers step onto the pavement.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The bus reaches the last stop and the passengers step onto the pavement.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+","None, as the context does not mention or relate to any musical instrument.",16,0.5970632280000245,False,False,False,"none, as the context does not mention or relate to any musical instrument",,True
+phi3_5mini,none_10__A_original,none_10,A_original,none,A painter rinses a brush and closes a tin of paint.,"Context:
+A painter rinses a brush and closes a tin of paint.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A painter rinses a brush and closes a tin of paint.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+","None. The context describes actions related to painting, not a musical instrument.",16,0.6003491320000194,False,True,False,none,,False
+phi3_5mini,none_10__B_best_match,none_10,B_best_match,none,A painter rinses a brush and closes a tin of paint.,"Context:
+A painter rinses a brush and closes a tin of paint.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+A painter rinses a brush and closes a tin of paint.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+","None, as the context describes an action related to painting, not a musical instrument.",18,0.6699467939999977,False,False,False,"none, as the context describes an action related to painting, not a musical instrument",,False
+phi3_5mini,none_11__A_original,none_11,A_original,none,The technician connects a printer to the office network.,"Context:
+The technician connects a printer to the office network.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The technician connects a printer to the office network.
+
+Name the specific musical instrument described in the context. If no specific musical instrument can be identified, answer none. Answer with one name only.<|end|>
+<|assistant|>
+",None. The context provided does not describe a musical instrument.,13,0.4961157349999894,False,True,False,none,,False
+phi3_5mini,none_11__B_best_match,none_11,B_best_match,none,The technician connects a printer to the office network.,"Context:
+The technician connects a printer to the office network.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.","<|system|>
+You are a helpful assistant.<|end|>
+<|user|>
+Context:
+The technician connects a printer to the office network.
+
+Which musical instrument best matches the description in the context? Answer with the most likely name. If the context is unrelated to musical instruments, answer none. Answer with one name only.<|end|>
+<|assistant|>
+","None, as the context is about connecting a printer to a network, which is unrelated to musical instruments.",23,0.8521148010000843,False,False,False,"none, as the context is about connecting a printer to a network, which is unrelated to musical instruments",,False
