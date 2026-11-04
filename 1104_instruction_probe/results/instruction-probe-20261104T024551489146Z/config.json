@@ -1,0 +1,35 @@
+{
+  "model": "microsoft/Phi-3.5-mini-instruct",
+  "revision": "2fe192450127e6a83f7441aef6e3ca586c338b77",
+  "system": "You are a helpful assistant.",
+  "expected_depth": 32,
+  "layers": [
+    16,
+    24,
+    31,
+    32
+  ],
+  "positions": [
+    "context_end",
+    "assistant_start"
+  ],
+  "primary_layer": 31,
+  "primary_position": "assistant_start",
+  "pairs": {
+    "banana": "apple",
+    "elephant": "giraffe",
+    "piano": "violin"
+  },
+  "conditions": [
+    "neutral",
+    "mention_x",
+    "think_x",
+    "avoid_x",
+    "think_y"
+  ],
+  "C": 0.1,
+  "shuffle_repeats": 100,
+  "seed": 42,
+  "probe_auc_min": 0.8,
+  "interpretation": "Calibration flags only; no model-adoption gate or causal claim."
+}

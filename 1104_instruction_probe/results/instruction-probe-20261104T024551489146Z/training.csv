@@ -1,0 +1,541 @@
+item_id,concept,text,prompt
+train_banana_1,banana,a curved yellow fruit with a soft interior,"Instruction: Read the context carefully.
+
+Context:
+a curved yellow fruit with a soft interior
+
+Give one short response about the context."
+train_banana_2,banana,a tropical edible plant product with a peel,"Instruction: Read the context carefully.
+
+Context:
+a tropical edible plant product with a peel
+
+Give one short response about the context."
+train_banana_3,banana,a long sweet fruit often eaten at breakfast,"Instruction: Read the context carefully.
+
+Context:
+a long sweet fruit often eaten at breakfast
+
+Give one short response about the context."
+train_banana_4,banana,Several pale slices turned a milkshake thick and sweet.,"Instruction: Read the context carefully.
+
+Context:
+Several pale slices turned a milkshake thick and sweet.
+
+Give one short response about the context."
+train_banana_5,banana,A bunch of long fruits hung above the plantation worker.,"Instruction: Read the context carefully.
+
+Context:
+A bunch of long fruits hung above the plantation worker.
+
+Give one short response about the context."
+train_banana_6,banana,The shopper separated one crescent-shaped piece from the bunch.,"Instruction: Read the context carefully.
+
+Context:
+The shopper separated one crescent-shaped piece from the bunch.
+
+Give one short response about the context."
+train_banana_7,banana,The athlete unwrapped a soft snack by pulling strips downward.,"Instruction: Read the context carefully.
+
+Context:
+The athlete unwrapped a soft snack by pulling strips downward.
+
+Give one short response about the context."
+train_banana_8,banana,The grocer weighed a cluster of elongated produce.,"Instruction: Read the context carefully.
+
+Context:
+The grocer weighed a cluster of elongated produce.
+
+Give one short response about the context."
+train_banana_9,banana,A dark-spotted peel lay beside the lunch box.,"Instruction: Read the context carefully.
+
+Context:
+A dark-spotted peel lay beside the lunch box.
+
+Give one short response about the context."
+train_banana_10,banana,A baker mashed overripe pulp for a loaf.,"Instruction: Read the context carefully.
+
+Context:
+A baker mashed overripe pulp for a loaf.
+
+Give one short response about the context."
+train_banana_11,banana,The plant bore a hanging hand of starchy edible fingers.,"Instruction: Read the context carefully.
+
+Context:
+The plant bore a hanging hand of starchy edible fingers.
+
+Give one short response about the context."
+train_banana_12,banana,A traveler ate the soft center and discarded the thick outer skin.,"Instruction: Read the context carefully.
+
+Context:
+A traveler ate the soft center and discarded the thick outer skin.
+
+Give one short response about the context."
+train_banana_13,banana,Small brown spots covered a long breakfast fruit.,"Instruction: Read the context carefully.
+
+Context:
+Small brown spots covered a long breakfast fruit.
+
+Give one short response about the context."
+train_banana_14,banana,The produce became sweeter as its green skin turned yellow.,"Instruction: Read the context carefully.
+
+Context:
+The produce became sweeter as its green skin turned yellow.
+
+Give one short response about the context."
+train_banana_15,banana,A frozen peeled crescent was blended into a dessert.,"Instruction: Read the context carefully.
+
+Context:
+A frozen peeled crescent was blended into a dessert.
+
+Give one short response about the context."
+train_apple_1,apple,a crisp round fruit grown in orchards,"Instruction: Read the context carefully.
+
+Context:
+a crisp round fruit grown in orchards
+
+Give one short response about the context."
+train_apple_2,apple,a hard fleshed red or green fruit,"Instruction: Read the context carefully.
+
+Context:
+a hard fleshed red or green fruit
+
+Give one short response about the context."
+train_apple_3,apple,a pome fruit usually containing small brown seeds,"Instruction: Read the context carefully.
+
+Context:
+a pome fruit usually containing small brown seeds
+
+Give one short response about the context."
+train_apple_4,apple,The baker removed a seeded core before making a pie.,"Instruction: Read the context carefully.
+
+Context:
+The baker removed a seeded core before making a pie.
+
+Give one short response about the context."
+train_apple_5,apple,A round red snack crunched loudly when bitten.,"Instruction: Read the context carefully.
+
+Context:
+A round red snack crunched loudly when bitten.
+
+Give one short response about the context."
+train_apple_6,apple,A person polished the shiny skin of an orchard harvest.,"Instruction: Read the context carefully.
+
+Context:
+A person polished the shiny skin of an orchard harvest.
+
+Give one short response about the context."
+train_apple_7,apple,The grower picked round produce from a temperate tree.,"Instruction: Read the context carefully.
+
+Context:
+The grower picked round produce from a temperate tree.
+
+Give one short response about the context."
+train_apple_8,apple,Thin slices of a crisp green snack filled the lunch box.,"Instruction: Read the context carefully.
+
+Context:
+Thin slices of a crisp green snack filled the lunch box.
+
+Give one short response about the context."
+train_apple_9,apple,The fruit press squeezed a harvest into cider.,"Instruction: Read the context carefully.
+
+Context:
+The fruit press squeezed a harvest into cider.
+
+Give one short response about the context."
+train_apple_10,apple,A small stem protruded from the top of a glossy sphere.,"Instruction: Read the context carefully.
+
+Context:
+A small stem protruded from the top of a glossy sphere.
+
+Give one short response about the context."
+train_apple_11,apple,A worm had tunneled toward the seeded center of the crop.,"Instruction: Read the context carefully.
+
+Context:
+A worm had tunneled toward the seeded center of the crop.
+
+Give one short response about the context."
+train_apple_12,apple,The child held a firm round snack by its short stalk.,"Instruction: Read the context carefully.
+
+Context:
+The child held a firm round snack by its short stalk.
+
+Give one short response about the context."
+train_apple_13,apple,A kitchen tool removed the core while leaving a circular hole.,"Instruction: Read the context carefully.
+
+Context:
+A kitchen tool removed the core while leaving a circular hole.
+
+Give one short response about the context."
+train_apple_14,apple,The orchard sold red and green varieties with crunchy flesh.,"Instruction: Read the context carefully.
+
+Context:
+The orchard sold red and green varieties with crunchy flesh.
+
+Give one short response about the context."
+train_apple_15,apple,The cook sprinkled cinnamon over wedges of a pome.,"Instruction: Read the context carefully.
+
+Context:
+The cook sprinkled cinnamon over wedges of a pome.
+
+Give one short response about the context."
+train_elephant_1,elephant,an enormous gray land mammal with a trunk,"Instruction: Read the context carefully.
+
+Context:
+an enormous gray land mammal with a trunk
+
+Give one short response about the context."
+train_elephant_2,elephant,a heavy tusked herbivore with wide ears,"Instruction: Read the context carefully.
+
+Context:
+a heavy tusked herbivore with wide ears
+
+Give one short response about the context."
+train_elephant_3,elephant,a giant mammal using its elongated nose to grasp,"Instruction: Read the context carefully.
+
+Context:
+a giant mammal using its elongated nose to grasp
+
+Give one short response about the context."
+train_elephant_4,elephant,The zookeeper watched a massive animal grasp food with its nose.,"Instruction: Read the context carefully.
+
+Context:
+The zookeeper watched a massive animal grasp food with its nose.
+
+Give one short response about the context."
+train_elephant_5,elephant,A huge herbivore flapped its broad ears in the heat.,"Instruction: Read the context carefully.
+
+Context:
+A huge herbivore flapped its broad ears in the heat.
+
+Give one short response about the context."
+train_elephant_6,elephant,Ivory tusks curved beside a dangling muscular nose.,"Instruction: Read the context carefully.
+
+Context:
+Ivory tusks curved beside a dangling muscular nose.
+
+Give one short response about the context."
+train_elephant_7,elephant,The heavy animal sprayed itself with water held in its trunk.,"Instruction: Read the context carefully.
+
+Context:
+The heavy animal sprayed itself with water held in its trunk.
+
+Give one short response about the context."
+train_elephant_8,elephant,A herd of giant gray mammals crossed the dusty trail.,"Instruction: Read the context carefully.
+
+Context:
+A herd of giant gray mammals crossed the dusty trail.
+
+Give one short response about the context."
+train_elephant_9,elephant,The calf walked between enormous pillar-like legs.,"Instruction: Read the context carefully.
+
+Context:
+The calf walked between enormous pillar-like legs.
+
+Give one short response about the context."
+train_elephant_10,elephant,The animal lifted a log using its long flexible snout.,"Instruction: Read the context carefully.
+
+Context:
+The animal lifted a log using its long flexible snout.
+
+Give one short response about the context."
+train_elephant_11,elephant,A huge pachyderm reached down to collect grass.,"Instruction: Read the context carefully.
+
+Context:
+A huge pachyderm reached down to collect grass.
+
+Give one short response about the context."
+train_elephant_12,elephant,The reserve protected large tusked animals from poachers.,"Instruction: Read the context carefully.
+
+Context:
+The reserve protected large tusked animals from poachers.
+
+Give one short response about the context."
+train_elephant_13,elephant,A gray giant scooped water and showered its own back.,"Instruction: Read the context carefully.
+
+Context:
+A gray giant scooped water and showered its own back.
+
+Give one short response about the context."
+train_elephant_14,elephant,The circus photograph showed a huge animal balancing on thick legs.,"Instruction: Read the context carefully.
+
+Context:
+The circus photograph showed a huge animal balancing on thick legs.
+
+Give one short response about the context."
+train_elephant_15,elephant,The mammal used the finger-like tip of its trunk to pick up food.,"Instruction: Read the context carefully.
+
+Context:
+The mammal used the finger-like tip of its trunk to pick up food.
+
+Give one short response about the context."
+train_giraffe_1,giraffe,a tall spotted hoofed animal with a long neck,"Instruction: Read the context carefully.
+
+Context:
+a tall spotted hoofed animal with a long neck
+
+Give one short response about the context."
+train_giraffe_2,giraffe,an African browsing mammal that reaches high leaves,"Instruction: Read the context carefully.
+
+Context:
+an African browsing mammal that reaches high leaves
+
+Give one short response about the context."
+train_giraffe_3,giraffe,a long legged spotted savanna herbivore,"Instruction: Read the context carefully.
+
+Context:
+a long legged spotted savanna herbivore
+
+Give one short response about the context."
+train_giraffe_4,giraffe,A towering browser reached foliage above the other animals.,"Instruction: Read the context carefully.
+
+Context:
+A towering browser reached foliage above the other animals.
+
+Give one short response about the context."
+train_giraffe_5,giraffe,The spotted herbivore lowered its long neck to drink.,"Instruction: Read the context carefully.
+
+Context:
+The spotted herbivore lowered its long neck to drink.
+
+Give one short response about the context."
+train_giraffe_6,giraffe,Small horn-like knobs stood above a patterned face.,"Instruction: Read the context carefully.
+
+Context:
+Small horn-like knobs stood above a patterned face.
+
+Give one short response about the context."
+train_giraffe_7,giraffe,The tallest animal in the enclosure walked on slender legs.,"Instruction: Read the context carefully.
+
+Context:
+The tallest animal in the enclosure walked on slender legs.
+
+Give one short response about the context."
+train_giraffe_8,giraffe,The calf already stood taller than the nearby keeper.,"Instruction: Read the context carefully.
+
+Context:
+The calf already stood taller than the nearby keeper.
+
+Give one short response about the context."
+train_giraffe_9,giraffe,A long dark tongue pulled leaves from a thorny branch.,"Instruction: Read the context carefully.
+
+Context:
+A long dark tongue pulled leaves from a thorny branch.
+
+Give one short response about the context."
+train_giraffe_10,giraffe,The savanna browser had a very long neck and patchy coat.,"Instruction: Read the context carefully.
+
+Context:
+The savanna browser had a very long neck and patchy coat.
+
+Give one short response about the context."
+train_giraffe_11,giraffe,The animal spread its front legs before reaching the water.,"Instruction: Read the context carefully.
+
+Context:
+The animal spread its front legs before reaching the water.
+
+Give one short response about the context."
+train_giraffe_12,giraffe,A patterned mammal peered over a high fence.,"Instruction: Read the context carefully.
+
+Context:
+A patterned mammal peered over a high fence.
+
+Give one short response about the context."
+train_giraffe_13,giraffe,The browser reached the treetop without standing on its hind legs.,"Instruction: Read the context carefully.
+
+Context:
+The browser reached the treetop without standing on its hind legs.
+
+Give one short response about the context."
+train_giraffe_14,giraffe,A pair of very tall ungulates moved through the acacias.,"Instruction: Read the context carefully.
+
+Context:
+A pair of very tall ungulates moved through the acacias.
+
+Give one short response about the context."
+train_giraffe_15,giraffe,The animal had a sloping back and unusually elongated neck.,"Instruction: Read the context carefully.
+
+Context:
+The animal had a sloping back and unusually elongated neck.
+
+Give one short response about the context."
+train_piano_1,piano,a keyboard instrument with white and black keys,"Instruction: Read the context carefully.
+
+Context:
+a keyboard instrument with white and black keys
+
+Give one short response about the context."
+train_piano_2,piano,a large acoustic instrument whose hammers strike strings,"Instruction: Read the context carefully.
+
+Context:
+a large acoustic instrument whose hammers strike strings
+
+Give one short response about the context."
+train_piano_3,piano,a concert instrument played by pressing a broad keyboard,"Instruction: Read the context carefully.
+
+Context:
+a concert instrument played by pressing a broad keyboard
+
+Give one short response about the context."
+train_piano_4,piano,A performer pressed eighty-eight keys during the recital.,"Instruction: Read the context carefully.
+
+Context:
+A performer pressed eighty-eight keys during the recital.
+
+Give one short response about the context."
+train_piano_5,piano,The tuner worked beneath the raised lid of a grand instrument.,"Instruction: Read the context carefully.
+
+Context:
+The tuner worked beneath the raised lid of a grand instrument.
+
+Give one short response about the context."
+train_piano_6,piano,Foot pedals sustained the sound after the hands left the keyboard.,"Instruction: Read the context carefully.
+
+Context:
+Foot pedals sustained the sound after the hands left the keyboard.
+
+Give one short response about the context."
+train_piano_7,piano,A row of black and white keys stretched across the wooden case.,"Instruction: Read the context carefully.
+
+Context:
+A row of black and white keys stretched across the wooden case.
+
+Give one short response about the context."
+train_piano_8,piano,Felt hammers struck stretched wires inside a heavy cabinet.,"Instruction: Read the context carefully.
+
+Context:
+Felt hammers struck stretched wires inside a heavy cabinet.
+
+Give one short response about the context."
+train_piano_9,piano,The performer used both hands on a broad horizontal keyboard.,"Instruction: Read the context carefully.
+
+Context:
+The performer used both hands on a broad horizontal keyboard.
+
+Give one short response about the context."
+train_piano_10,piano,The mover struggled to carry the upright instrument upstairs.,"Instruction: Read the context carefully.
+
+Context:
+The mover struggled to carry the upright instrument upstairs.
+
+Give one short response about the context."
+train_piano_11,piano,A concert grand occupied the center of the stage.,"Instruction: Read the context carefully.
+
+Context:
+A concert grand occupied the center of the stage.
+
+Give one short response about the context."
+train_piano_12,piano,The teacher asked the student to play middle C on the keyboard.,"Instruction: Read the context carefully.
+
+Context:
+The teacher asked the student to play middle C on the keyboard.
+
+Give one short response about the context."
+train_piano_13,piano,A bench stood in front of a large stringed keyboard instrument.,"Instruction: Read the context carefully.
+
+Context:
+A bench stood in front of a large stringed keyboard instrument.
+
+Give one short response about the context."
+train_piano_14,piano,Pressing a key activated a hammer rather than a bow.,"Instruction: Read the context carefully.
+
+Context:
+Pressing a key activated a hammer rather than a bow.
+
+Give one short response about the context."
+train_piano_15,piano,The player opened the lid and placed sheet music above the keys.,"Instruction: Read the context carefully.
+
+Context:
+The player opened the lid and placed sheet music above the keys.
+
+Give one short response about the context."
+train_violin_1,violin,a small four string orchestral instrument played with a bow,"Instruction: Read the context carefully.
+
+Context:
+a small four string orchestral instrument played with a bow
+
+Give one short response about the context."
+train_violin_2,violin,a bowed instrument held near the shoulder,"Instruction: Read the context carefully.
+
+Context:
+a bowed instrument held near the shoulder
+
+Give one short response about the context."
+train_violin_3,violin,a high pitched acoustic string instrument for classical music,"Instruction: Read the context carefully.
+
+Context:
+a high pitched acoustic string instrument for classical music
+
+Give one short response about the context."
+train_violin_4,violin,A musician held a small instrument under the chin.,"Instruction: Read the context carefully.
+
+Context:
+A musician held a small instrument under the chin.
+
+Give one short response about the context."
+train_violin_5,violin,The performer drew horsehair across four taut strings.,"Instruction: Read the context carefully.
+
+Context:
+The performer drew horsehair across four taut strings.
+
+Give one short response about the context."
+train_violin_6,violin,A bow moved back and forth above a small wooden sound box.,"Instruction: Read the context carefully.
+
+Context:
+A bow moved back and forth above a small wooden sound box.
+
+Give one short response about the context."
+train_violin_7,violin,The soloist adjusted a chinrest before beginning.,"Instruction: Read the context carefully.
+
+Context:
+The soloist adjusted a chinrest before beginning.
+
+Give one short response about the context."
+train_violin_8,violin,The player used a shoulder rest and a wooden bow.,"Instruction: Read the context carefully.
+
+Context:
+The player used a shoulder rest and a wooden bow.
+
+Give one short response about the context."
+train_violin_9,violin,Four tuning pegs protruded beside the carved scroll.,"Instruction: Read the context carefully.
+
+Context:
+Four tuning pegs protruded beside the carved scroll.
+
+Give one short response about the context."
+train_violin_10,violin,A small bowed instrument led the string quartet.,"Instruction: Read the context carefully.
+
+Context:
+A small bowed instrument led the string quartet.
+
+Give one short response about the context."
+train_violin_11,violin,The musician changed pitch by pressing strings against a fingerboard.,"Instruction: Read the context carefully.
+
+Context:
+The musician changed pitch by pressing strings against a fingerboard.
+
+Give one short response about the context."
+train_violin_12,violin,A young player applied rosin to the bow before rehearsal.,"Instruction: Read the context carefully.
+
+Context:
+A young player applied rosin to the bow before rehearsal.
+
+Give one short response about the context."
+train_violin_13,violin,A small spruce instrument rested between the jaw and shoulder.,"Instruction: Read the context carefully.
+
+Context:
+A small spruce instrument rested between the jaw and shoulder.
+
+Give one short response about the context."
+train_violin_14,violin,The orchestral player bowed a bright high melody.,"Instruction: Read the context carefully.
+
+Context:
+The orchestral player bowed a bright high melody.
+
+Give one short response about the context."
+train_violin_15,violin,The soloist plucked four strings while holding a compact instrument.,"Instruction: Read the context carefully.
+
+Context:
+The soloist plucked four strings while holding a compact instrument.
+
+Give one short response about the context."
