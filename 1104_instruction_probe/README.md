@@ -1,6 +1,6 @@
 # 内部表現の測定：指示だけの影響と手がかりの影響を分ける
 
-**状態：実行準備完了。実モデルでの抽出・Probe学習は未実行。** 名前当ての改善はいったん区切り、Phiで内部表現の測り方を診断する。
+**状態：実行・GitHub自動保存・保存特徴からの検算完了。** [結果の説明](results/instruction-probe-20261104T024551489146Z/REVIEW.md)。主測定では象／キリンの校正フラグがOKで、指示だけの大きなスコア変化と、全指示での説明文識別が両方見られた。バナナ／リンゴ・ピアノ／バイオリンは校正未達。以下は実行前に固定した設計。
 
 [Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1104_instruction_probe/instruction_probe_diagnostic.ipynb) / [実行前計画](PLAN.md) / [条件表](design.csv) / [学習文](training.csv)
 
@@ -53,4 +53,4 @@ python 1104_instruction_probe/test_pipeline.py
 python 1104_instruction_probe/test_github_save.py
 ```
 
-実モデルでのhidden抽出と、この実験の結果ファイルのGitHub自動保存は、Colab実行後に確認する。人工データのテストはモデル依存部分を検証するものではない。
+実モデルでの抽出・Probe学習とGitHub自動保存はユーザーのColab実行で完了し、保存特徴からスコア・集計を再計算して一致を確認した。モデルのforwardそのものを別環境で再実行したわけではない。実測の解釈は上記REVIEW.mdを参照。
