@@ -28,7 +28,7 @@ def read(text):
     assert len(ix)==1
     h=model(**{k:v.cuda() for k,v in b.items()},output_hidden_states=True,use_cache=False).hidden_states
     return np.stack([h[l][0,ix[0]].float().cpu().numpy() for l in LAYERS])
-bank=json.loads((ROOT/'1019/probe_description_bank_v2.json').read_text());held=json.loads((HERE/'heldout_descriptions.json').read_text())
+bank=json.loads((ROOT/'experiments/2026-10/1019/probe_description_bank_v2.json').read_text());held=json.loads((HERE/'heldout_descriptions.json').read_text())
 results=[];raw=[]
 for x,y in PAIRS.items():
     print('Legacy controlled check:',x,flush=True)
@@ -54,7 +54,7 @@ for x,y in PAIRS.items():
 pd.DataFrame(results).to_csv(out/'legacy_transfer_auc.csv',index=False)
 pd.DataFrame(raw).to_csv(out/'legacy_transfer_scores.csv',index=False)
 # Keep ALL three originally near-labelled cues per concept, both questions.
-cues=pd.read_csv(ROOT/'1019/stimuli_v2.csv');cues=cues[cues.concept.isin(PAIRS)&(cues.proposed_level=='near')]
+cues=pd.read_csv(ROOT/'experiments/2026-10/1019/stimuli_v2.csv');cues=cues[cues.concept.isin(PAIRS)&(cues.proposed_level=='near')]
 answers=[];category={'banana':'fruit','elephant':'animal','piano':'musical instrument'}
 for r in cues.itertuples():
     for mode,q in [('original',QUESTION),('specific_naming',f'Which specific {category[r.concept]} is described? Answer with its specific name, not a part or a broad category.')]:
