@@ -4,7 +4,7 @@ import csv,json,hashlib,re
 import grade
 H=Path(__file__).resolve().parent
 q=list(csv.DictReader((H/'questions.csv').open()));assert len(q)==144 and len({r['item_id'] for r in q})==144
-old={r['item_id']:r for r in csv.DictReader((H.parent/'1104_phi_validation/questions.csv').open())}
+old={r['item_id']:r for r in csv.DictReader((H.parent/'experiments/2026-11/1104_phi_validation/questions.csv').open())}
 src=json.loads((H/'source.json').read_text());assert hashlib.sha256((H.parent/src['path']).read_bytes()).hexdigest()==src['sha256']
 for condition in ['A_original','B_best_match']:
  rows=[r for r in q if r['condition']==condition];assert len(rows)==72 and len({r['source_item_id'] for r in rows})==72
