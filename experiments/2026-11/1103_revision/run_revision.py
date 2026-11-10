@@ -3,7 +3,7 @@ from pathlib import Path
 import json,re,argparse,hashlib,subprocess
 import numpy as np
 import pandas as pd
-HERE=Path(__file__).resolve().parent;ROOT=HERE.parent
+HERE=Path(__file__).resolve().parent;ROOT=HERE.parents[2]
 PAIRS={'banana':'apple','elephant':'giraffe','piano':'violin'}
 CATS={'banana':'fruit','elephant':'animal','piano':'musical instrument'}
 MODEL='Qwen/Qwen2.5-0.5B-Instruct';REV='7ae557604adf67be50417f59c2c2f167def9a775'
@@ -15,8 +15,8 @@ def prompt(x,text,mode='free'):
         head+=' Choose one of: '+', '.join(words)+'.'
     return head+'\nDescription: '+text+'\nAnswer with the specific name only.'
 def banks():
-    old=json.loads((ROOT/'1019/probe_description_bank_v2.json').read_text())
-    extra=json.loads((ROOT/'1103_validity/heldout_descriptions.json').read_text())
+    old=json.loads((ROOT/'experiments/2026-10/1019/probe_description_bank_v2.json').read_text())
+    extra=json.loads((ROOT/'experiments/2026-11/1103_validity/heldout_descriptions.json').read_text())
     fresh=json.loads((HERE/'fresh_holdout.json').read_text())
     for x,y in PAIRS.items():
         for k,word in [('x',x),('y',y)]:
@@ -78,7 +78,7 @@ def main():
                     ids=[i for i,r in enumerate(test) if style=='all' or r[3]==style]
                     aucs.append(dict(concept=x,training=mode,layer=layer,style=style,n=len(ids),auc=float(roc_auc_score([test[i][1] for i in ids],pred[ids]))))
     pd.DataFrame(scores).to_csv(out/'holdout_scores.csv',index=False);pd.DataFrame(aucs).to_csv(out/'probe_auc.csv',index=False);pd.DataFrame(training).to_csv(out/'training_design.csv',index=False)
-    cues=pd.read_csv(ROOT/'1019/results_v2/20261019T133851060426Z/01_stimulus_distances_and_ranks.csv');cues=cues[cues.concept.isin(PAIRS)].copy()
+    cues=pd.read_csv(ROOT/'experiments/2026-10/1019/results_v2/20261019T133851060426Z/01_stimulus_distances_and_ranks.csv');cues=cues[cues.concept.isin(PAIRS)].copy()
     answers=[]
     for r in cues.itertuples():
         print('BEHAVIOR',r.concept,r.proposed_level,flush=True)
