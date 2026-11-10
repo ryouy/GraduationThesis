@@ -2,7 +2,7 @@
 
 目的：基本課題が安定して成立するモデルを選ぶための校正比較。Qwen2.5-1.5B/3B/7B-InstructとMicrosoft Phi-3.5-mini-instructの4種類。モデル名はmodels.jsonで事前固定し、開始時に全モデルのrevision SHAを解決して保存、以後そのSHAからロードする。1.5Bは既知のSHAを継承。
 
-問題は1103_fresh_check/results/answers.csvの42件（6概念×6説明＋none対照6）。user promptを完全に同じにし、採点は1103_fresh_check/rules.jsonの事前固定ルールを継承する。問題・採点をモデルごとに変更しない。全モデルへ共通のsystem「You are a helpful assistant.」を明示し、各モデルのchat templateを用いるためtoken列自体はモデル間で異なる。
+問題はexperiments/2026-11/1103_fresh_check/results/answers.csvの42件（6概念×6説明＋none対照6）。user promptを完全に同じにし、採点はexperiments/2026-11/1103_fresh_check/rules.jsonの事前固定ルールを継承する。問題・採点をモデルごとに変更しない。全モデルへ共通のsystem「You are a helpful assistant.」を明示し、各モデルのchat templateを用いるためtoken列自体はモデル間で異なる。
 
 全モデルFP16/SDPA、量子化なし。greedy、最大32token、repetition_penalty=1.0、num_beams=1を明示したGenerationConfigを使用。各モデル固有のEOS/PADのみ保持。従来のQwen固有systemと継承ペナルティ1.1とは変更があるため、1.5Bも再実行し、過去25/36を比較表に混ぜない。全入力・出力token列と生成設定を保存する。
 
