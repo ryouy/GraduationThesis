@@ -38,7 +38,7 @@ class AuditTests(unittest.TestCase):
         self.assertEqual(len({str(p) for p in probe_plan()}),20)
 
     def test_v3_precue_offsets_cancel_from_specificity(self):
-        p=ROOT/'1019/results_v3/20261020T070234997011Z'
+        p=ROOT/'experiments/2026-10/1019/results_v3/20261020T070234997011Z'
         m=pd.read_csv(p/'03_all_layer_target_aligned_pre_post.csv')
         original=rebuild_v3(m).interaction.to_numpy()
         # Any cue-independent condition-specific pre-score offset must cancel.
@@ -50,8 +50,8 @@ class AuditTests(unittest.TestCase):
         d=make_design().query('instruction_frame==0 and context_frame==0 and cue_source=="original"').copy()
         d=d.reset_index(drop=True).reset_index(names='design_row')
         self.assertEqual(len(d),480)
-        v2=ROOT/'1019/results_v2/20261019T133851060426Z'
-        v3=ROOT/'1019/results_v3/20261020T070234997011Z'
+        v2=ROOT/'experiments/2026-10/1019/results_v2/20261019T133851060426Z'
+        v3=ROOT/'experiments/2026-10/1019/results_v3/20261020T070234997011Z'
         a=pd.read_csv(v2/'06_layerwise_pre_post_measurements.csv').rename(columns={'delta_probe_std':'delta_target_std'})
         a['target_role']='X'
         b=pd.read_csv(v3/'03_all_layer_target_aligned_pre_post.csv')
