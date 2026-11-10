@@ -56,8 +56,8 @@ Tesla T4 / torch 2.11.0+cu130 / transformers 4.57.6。7Bのみ最終層・出力
 ## 再現
 
 ```sh
-python 1104_model_comparison/verify.py 1104_model_comparison/results
-python 1104_model_comparison/analyze.py 1104_model_comparison/results
+python experiments/2026-11/1104_model_comparison/verify.py experiments/2026-11/1104_model_comparison/results
+python experiments/2026-11/1104_model_comparison/analyze.py experiments/2026-11/1104_model_comparison/results
 ```
 
 モデル参照：[Qwen 1.5B](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct)、[3B](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct)、[7B](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)、[Phi mini](https://huggingface.co/microsoft/Phi-3.5-mini-instruct)。
