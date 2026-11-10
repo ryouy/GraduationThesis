@@ -63,3 +63,9 @@ GraduationThesis/
 - 各実験フォルダには、その時点の計画・コード・結果を保存します。
 - 過去の実験記録は、後から都合よく書き換えず、実行時点の記録として保持します。
 - 古いREADMEは [README_previous_20261103.md](README_previous_20261103.md) に保存しています。旧状況の参照用であり、現在の方針には最新のドキュメントを優先してください。
+
+
+## 追加検証（2026-11-10）
+
+- [Probe再解析・独立評価実験](1110_probe_reanalysis/README.md)：既存Hidden Stateを使った全252通りの学習ラベル置換検定と、新しい説明ファミリーによる汎化検証。
+- [Google Colabで実行](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1110_probe_reanalysis/probe_reanalysis_and_independent_generalization.ipynb)
