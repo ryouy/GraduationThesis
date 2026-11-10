@@ -1,0 +1,195 @@
+name: Exact Probe Label Permutations
+
+on:
+  push:
+    branches:
+      - analysis/exact-probe-permutations-20261110
+    paths:
+      - .github/workflows/exact-probe-permutations.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exact-permutations:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check numpy pandas scikit-learn threadpoolctl
+      - name: Run exact permutations
+        run: |
+          python - <<'PY'
+          import hashlib, itertools, json, time
+          from pathlib import Path
+          import numpy as np
+          import pandas as pd
+          from sklearn.preprocessing import StandardScaler
+          from sklearn.linear_model import LogisticRegression
+          from sklearn.metrics import roc_auc_score
+          from threadpoolctl import threadpool_limits
+
+          root = Path("1104_instruction_probe_20pairs/results/instruction-probe20-20261104T034343105831Z")
+          expected = {
+              "training.csv": "362e272f5177533c64504270e5b3a1978f7aaceaf949baa76f3ee96fd4c8c3e7",
+              "design.csv": "fcccba9aa22b971a44f6db9a7a3156a82699e989b12c8325bf85ba3b7d18db4f",
+              "config.json": "e9ee606f39f89e9584e1dfc19266b7ce7ed82f4d4d311f3f714fce578138d3c3",
+              "prompt_index.json": "0be01a831381d612453e719675a63b8022c9afb761b8ab04a4cc0d06a8f771b6",
+              "features_L31_assistant_start.npz": "660938d5960f741111b49162ccb459d33fd1796b10da7cfe2769d09b658983a3",
+          }
+          for name, digest in expected.items():
+              actual = hashlib.sha256((root / name).read_bytes()).hexdigest()
+              assert actual == digest, f"SHA256 mismatch: {name}: {actual}"
+              print("Verified", name, actual)
+
+          cfg = json.loads((root / "config.json").read_text())
+          train = pd.read_csv(root / "training.csv")
+          design = pd.read_csv(root / "design.csv")
+          prompt_index = json.loads((root / "prompt_index.json").read_text())
+          lookup = {r["prompt"]: i for i, r in enumerate(prompt_index)}
+          F = np.load(root / "features_L31_assistant_start.npz")["features"].astype(np.float64)
+          assert F.shape == (cfg["unique_n"], 3072)
+          ti_all = np.array([lookup[p] for p in train.prompt], dtype=int)
+          di_all = np.array([lookup[p] for p in design.prompt], dtype=int)
+
+          def family_auc(frame):
+              g = frame.groupby(["family", "cue_kind"], as_index=False)["score"].mean()
+              return float(roc_auc_score((g["cue_kind"] == "x").astype(int), g["score"]))
+
+          threadpool_limits(limits=1)
+          summary, null_rows, eval_rows, leave_rows = [], [], [], []
+          total = 0
+          started = time.time()
+
+          for x, y in cfg["pairs"].items():
+              for repeat in range(cfg["fit_repeats"]):
+                  mask = train.concept.isin([x, y]) & (train.family_index != repeat)
+                  tr = train[mask].copy()
+                  X = F[ti_all[mask.to_numpy()]]
+                  labels = (tr.concept == x).astype(int).to_numpy()
+                  assert len(labels) == 50 and labels.sum() == 25
+                  scaler = StandardScaler().fit(X)
+                  Z = scaler.transform(X)
+
+                  D = design[(design.pair == x) & (design.condition == "neutral") &
+                             (design.cue_kind.isin(["x", "y"]))].copy()
+                  di = np.array([lookup[p] for p in D.prompt], dtype=int)
+                  T = scaler.transform(F[di])
+
+                  clf = LogisticRegression(C=cfg["C"], solver="liblinear",
+                                           max_iter=2000, random_state=cfg["seed"])
+                  clf.fit(Z, labels)
+                  observed_frame = D[["family", "cue_kind"]].copy()
+                  observed_frame["score"] = clf.decision_function(T)
+                  observed_auc = family_auc(observed_frame)
+
+                  families = sorted(tr.family.unique())
+                  assert len(families) == 10
+                  null_aucs = []
+                  for positive_tuple in itertools.combinations(families, 5):
+                      positive = set(positive_tuple)
+                      perm_labels = tr.family.isin(positive).astype(int).to_numpy()
+                      assert perm_labels.sum() == 25
+                      null_clf = LogisticRegression(C=cfg["C"], solver="liblinear",
+                                                    max_iter=2000, random_state=cfg["seed"])
+                      null_clf.fit(Z, perm_labels)
+                      null_frame = D[["family", "cue_kind"]].copy()
+                      null_frame["score"] = null_clf.decision_function(T)
+                      value = family_auc(null_frame)
+                      null_aucs.append(value)
+                      null_rows.append({"pair": x, "comparison": y, "repeat": repeat,
+                                        "null_auc": value})
+                      total += 1
+
+                  null_arr = np.asarray(null_aucs)
+                  q95 = float(np.quantile(null_arr, .95))
+                  ge = int(np.sum(null_arr >= observed_auc - 1e-12))
+                  p_train = ge / len(null_arr)
+
+                  # Separate exact permutation test: keep fitted Probe fixed and permute eval labels.
+                  g = observed_frame.groupby(["family", "cue_kind"], as_index=False)["score"].mean()
+                  eval_scores = g["score"].to_numpy()
+                  eval_null = []
+                  for positive in itertools.combinations(range(10), 5):
+                      yy = np.zeros(10, dtype=int)
+                      yy[list(positive)] = 1
+                      eval_null.append(float(roc_auc_score(yy, eval_scores)))
+                  p_eval = float(np.mean(np.asarray(eval_null) >= observed_auc - 1e-12))
+
+                  # Leave out one X and one Y evaluation family at a time.
+                  xs = g[g.cue_kind == "x"].reset_index(drop=True)
+                  ys = g[g.cue_kind == "y"].reset_index(drop=True)
+                  subset = []
+                  for ix in range(5):
+                      for iy in range(5):
+                          xx = xs.drop(index=ix).score.to_numpy()
+                          yy = ys.drop(index=iy).score.to_numpy()
+                          val = float(roc_auc_score([1]*4 + [0]*4, np.r_[xx, yy]))
+                          subset.append(val)
+                          leave_rows.append({"pair": x, "repeat": repeat,
+                                             "omitted_x_family": xs.loc[ix, "family"],
+                                             "omitted_y_family": ys.loc[iy, "family"],
+                                             "auc": val})
+
+                  summary.append({
+                      "pair": x, "comparison": y, "repeat": repeat,
+                      "actual_auc": observed_auc,
+                      "null_mean": float(null_arr.mean()),
+                      "null_median": float(np.median(null_arr)),
+                      "null_q95": q95, "null_max": float(null_arr.max()),
+                      "null_auc_1_count": int(np.sum(null_arr == 1.0)),
+                      "null_auc_0_count": int(np.sum(null_arr == 0.0)),
+                      "null_auc_lt_005": int(np.sum(null_arr < .05)),
+                      "null_auc_lt_010": int(np.sum(null_arr < .10)),
+                      "null_auc_le_050": int(np.sum(null_arr <= .50)),
+                      "null_auc_ge_095": int(np.sum(null_arr >= .95)),
+                      "null_ge_actual": ge, "training_label_exact_p": p_train,
+                      "actual_above_q95": bool(observed_auc > q95),
+                      "evaluation_label_exact_p": p_eval,
+                      "family_leaveout_min": float(min(subset)),
+                      "family_leaveout_mean": float(np.mean(subset)),
+                      "family_leaveout_ge_090": int(np.sum(np.asarray(subset) >= .90))
+                  })
+                  print(f"{x}/{y} repeat={repeat}: observed={observed_auc:.4f}, "
+                        f"train-label p={p_train:.4f}, eval-label p={p_eval:.4f}, "
+                        f"null q95={q95:.4f}, leaveout min={min(subset):.4f}", flush=True)
+
+          assert total == 20 * 5 * 252 == 25200
+          out = Path("exact_probe_permutation_results")
+          out.mkdir(exist_ok=True)
+          pd.DataFrame(summary).to_csv(out / "summary.csv", index=False)
+          pd.DataFrame(null_rows).to_csv(out / "all_25200_null_aucs.csv", index=False)
+          pd.DataFrame(eval_rows).to_csv(out / "evaluation_label_permutation.csv", index=False)
+          pd.DataFrame(leave_rows).to_csv(out / "family_leaveout.csv", index=False)
+          values = np.asarray([r["null_auc"] for r in null_rows])
+          distribution = {
+              "n": int(len(values)), "mean": float(values.mean()),
+              "median": float(np.median(values)), "min": float(values.min()),
+              "max": float(values.max()),
+              "auc_1_count": int(np.sum(values == 1.0)),
+              "auc_0_count": int(np.sum(values == 0.0)),
+              "auc_lt_005": int(np.sum(values < .05)),
+              "auc_lt_010": int(np.sum(values < .10)),
+              "auc_le_050": int(np.sum(values <= .50)),
+              "auc_ge_095": int(np.sum(values >= .95)),
+              "quantiles": {str(q): float(np.quantile(values, q))
+                            for q in [.01,.05,.10,.25,.50,.75,.90,.95,.99]},
+              "elapsed_seconds": time.time() - started
+          }
+          (out / "distribution_summary.json").write_text(json.dumps(distribution, indent=2) + "\n")
+          print("DISTRIBUTION", json.dumps(distribution), flush=True)
+          print("SUMMARY", pd.DataFrame(summary).describe(include="all").to_string(), flush=True)
+          PY
+      - name: Upload exact permutation results
+        uses: actions/upload-artifact@v4
+        with:
+          name: exact-probe-permutation-results
+          path: exact_probe_permutation_results/
+          retention-days: 14
