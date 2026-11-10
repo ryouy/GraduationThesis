@@ -1,7 +1,7 @@
 from pathlib import Path
 import csv,json,hashlib
-HERE=Path(__file__).resolve().parent;ROOT=HERE.parent
-source=ROOT/'1104_phi_validation/questions.csv'
+HERE=Path(__file__).resolve().parent;ROOT=HERE.parents[2]
+source=ROOT/'experiments/2026-11/1104_phi_validation/questions.csv'
 rows=[]
 for r in csv.DictReader(source.open()):
  category={'banana':'fruit','apple':'fruit','elephant':'animal','giraffe':'animal','piano':'musical instrument','violin':'musical instrument'}.get(r['target'])
@@ -10,4 +10,4 @@ for r in csv.DictReader(source.open()):
  for condition,prompt in prompts.items():rows.append(dict(item_id=r['item_id']+'__'+condition,source_item_id=r['item_id'],condition=condition,target=r['target'],text=r['text'],prompt=prompt))
 with (HERE/'questions.csv').open('w',newline='') as f:
  w=csv.DictWriter(f,fieldnames=rows[0],lineterminator='\n');w.writeheader();w.writerows(rows)
-(HERE/'source.json').write_text(json.dumps({'path':'1104_phi_validation/questions.csv','sha256':hashlib.sha256(source.read_bytes()).hexdigest(),'set':'previously evaluated; exploratory paired diagnostic'},indent=2)+'\n')
+(HERE/'source.json').write_text(json.dumps({'path':'experiments/2026-11/1104_phi_validation/questions.csv','sha256':hashlib.sha256(source.read_bytes()).hexdigest(),'set':'previously evaluated; exploratory paired diagnostic'},indent=2)+'\n')
