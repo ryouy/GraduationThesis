@@ -1,7 +1,7 @@
 from pathlib import Path
 import csv,json,re,hashlib,sys
 import grade
-HERE=Path(__file__).resolve().parent;ROOT=HERE.parent
+HERE=Path(__file__).resolve().parent;ROOT=HERE.parents[2]
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def preflight():
  rows=list(csv.DictReader((HERE/'questions.csv').open()));assert len(rows)==72
