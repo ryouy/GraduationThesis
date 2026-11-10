@@ -2,7 +2,7 @@ from pathlib import Path
 import argparse,json,re,hashlib,subprocess,gc,math,time
 import numpy as np
 import pandas as pd
-HERE=Path(__file__).resolve().parent;ROOT=HERE.parent
+HERE=Path(__file__).resolve().parent;ROOT=HERE.parents[2]
 PAIRS={'banana':'apple','elephant':'giraffe','piano':'violin'}
 CATS={'banana':'fruit','elephant':'animal','piano':'musical instrument'}
 WORDS=list(PAIRS)+list(PAIRS.values())
@@ -13,7 +13,7 @@ def build(x,text,task):
 
 def main():
     a=argparse.ArgumentParser();a.add_argument('--size',choices=['0.5B','1.5B'],required=True);a.add_argument('--out',type=Path,required=True);args=a.parse_args();out=args.out/args.size;out.mkdir(parents=True,exist_ok=True)
-    old=json.loads((ROOT/'1019/probe_description_bank_v2.json').read_text());extra=json.loads((ROOT/'1103_validity/heldout_descriptions.json').read_text());held=json.loads((ROOT/'1103_revision/fresh_holdout.json').read_text())
+    old=json.loads((ROOT/'experiments/2026-10/1019/probe_description_bank_v2.json').read_text());extra=json.loads((ROOT/'experiments/2026-11/1103_validity/heldout_descriptions.json').read_text());held=json.loads((ROOT/'experiments/2026-11/1103_revision/fresh_holdout.json').read_text())
     for x,y in PAIRS.items():
         for k in ['x','y']:
             assert not set(held[x][k]) & set(old[x][k+'_train']+extra[x][k])
@@ -43,7 +43,7 @@ def main():
         g=model.generate(**b,max_new_tokens=32,do_sample=False,pad_token_id=tok.eos_token_id)
         ids=g[0,b.input_ids.shape[1]:];return h,tok.decode(ids,skip_special_tokens=True),len(ids),bool(len(ids)==32 and int(ids[-1])!=tok.eos_token_id)
     answers=[];scores=[];aucs=[];null=[];design=[]
-    cues=pd.read_csv(ROOT/'1019/results_v2/20261019T133851060426Z/01_stimulus_distances_and_ranks.csv');cues=cues[cues.concept.isin(PAIRS)]
+    cues=pd.read_csv(ROOT/'experiments/2026-10/1019/results_v2/20261019T133851060426Z/01_stimulus_distances_and_ranks.csv');cues=cues[cues.concept.isin(PAIRS)]
     for x,y in PAIRS.items():
         for task in ['naming','association']:
             print('CHECK',args.size,x,task,flush=True);tr=[];te=[]
