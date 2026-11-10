@@ -4,7 +4,7 @@
 **モデル：** `Qwen/Qwen2.5-0.5B-Instruct`  
 **研究状況：** 予備実験・層別解析を実施済み／新たなX/Y対照実験v3は**未実行**（2026年10月19日時点）
 
-[![Open the latest v3 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1019/concept_specificity_control_v3.ipynb)
+[![Open the latest v3 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-10/1019/concept_specificity_control_v3.ipynb)
 
 ## 1. 研究で知りたいこと
 
@@ -92,11 +92,11 @@ Suppression-specific selectivity
 
 | 実験・資料 | ノートブック／解説 | 実測結果 |
 |---|---|---|
-| 10/15予備実験 | [1015/white_bear_and_zhou_pilot_v3.ipynb](../1015/white_bear_and_zhou_pilot_v3.ipynb) | [10/16実行結果](../1015/results_v3/20261016T054754Z/) |
+| 10/15予備実験 | [experiments/2026-10/1015/white_bear_and_zhou_pilot_v3.ipynb](../1015/white_bear_and_zhou_pilot_v3.ipynb) | [10/16実行結果](../1015/results_v3/20261016T054754Z/) |
 | 10/16考察ノート | [研究概要](../1016/00_一ページでわかる研究の流れと予備実験.md) ／ [Concept Probe解説](../1016/04_ConceptProbe_内部表現.md) ／ [研究展望](../1016/05_研究展望_意味的距離と再活性化.md) | 説明資料 |
-| 10/19距離実験v1 | [1019/semantic_distance_layer_probe.ipynb](semantic_distance_layer_probe.ipynb) | [v1実測結果](results/20261019T130118Z/) |
-| 10/19前後比較v2 | [1019/semantic_distance_layer_probe_v2.ipynb](semantic_distance_layer_probe_v2.ipynb) | [v2実測結果](results_v2/20261019T133851060426Z/) |
-| **新規：X/Y対照v3** | **[1019/concept_specificity_control_v3.ipynb](concept_specificity_control_v3.ipynb)** | **未実行**。実行後`1019/results_v3/<日時>/`へ保存 |
+| 10/19距離実験v1 | [experiments/2026-10/1019/semantic_distance_layer_probe.ipynb](semantic_distance_layer_probe.ipynb) | [v1実測結果](results/20261019T130118Z/) |
+| 10/19前後比較v2 | [experiments/2026-10/1019/semantic_distance_layer_probe_v2.ipynb](semantic_distance_layer_probe_v2.ipynb) | [v2実測結果](results_v2/20261019T133851060426Z/) |
+| **新規：X/Y対照v3** | **[experiments/2026-10/1019/concept_specificity_control_v3.ipynb](concept_specificity_control_v3.ipynb)** | **未実行**。実行後`experiments/2026-10/1019/results_v3/<日時>/`へ保存 |
 | v3刺激・学習資料 | [X/Y/無関係の72 Cue](specificity_cues_v3.csv) ／ [Probe学習・評価用記述](probe_description_bank_v2.json) | 入力データ（結果ではない） |
 
 ### Colabで実行する
@@ -104,7 +104,7 @@ Suppression-specific selectivity
 1. 上部の**Open in Colab**ボタンからv3ノートブックを開く。
 2. ColabのランタイムをGPU（T4）へ変更し「すべてのセルを実行」する。
 3. GitHubへCSV・PNG・JSONを自動アップロードするには、Colab Secrets `GITHUB_RESULTS_TOKEN` に、対象リポジトリに`Contents: Read and write`権限のあるトークンを設定してノートブックアクセスを許可する。
-4. 実行のたびにUTC実行ID別の`1019/results_v3/`フォルダが作られる。GitHubアップロードできない場合もローカルZIPで結果を取得できる。
+4. 実行のたびにUTC実行ID別の`experiments/2026-10/1019/results_v3/`フォルダが作られる。GitHubアップロードできない場合もローカルZIPで結果を取得できる。
 
 ## 5. まだ言えないことと今後の課題
 
@@ -120,4 +120,4 @@ Suppression-specific selectivity
 
 ---
 
-リポジトリ全体の概要は[ルートREADME](../README.md)にも掲載。**既存のノートブックと実測結果は上書きせず保存している。**
+リポジトリ全体の概要は[トップREADME](../../../README.md)を参照。**既存のノートブックと実測結果は上書きせず保存している。**
