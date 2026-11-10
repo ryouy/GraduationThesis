@@ -1,9 +1,9 @@
 from pathlib import Path
 import sys,json,importlib.util,hashlib
 import pandas as pd
-p=Path(sys.argv[1]);root=Path(__file__).resolve().parents[1]
-spec=importlib.util.spec_from_file_location('fresh_grade',root/'1103_fresh_check/run.py');g=importlib.util.module_from_spec(spec);spec.loader.exec_module(g)
-a=pd.read_csv(p/'answers.csv',converters={'answer':str,'old_answer':str,'found':str});s=pd.read_csv(p/'summary.csv');t=json.loads((p/'tokens.json').read_text());m=json.loads((p/'manifest.json').read_text());checks=pd.read_csv(p/'input_comparison.csv');old=pd.read_csv(root/'1103_fresh_check/results/answers.csv',keep_default_na=False).set_index('item_id')
+p=Path(sys.argv[1]);root=Path(__file__).resolve().parents[3]
+spec=importlib.util.spec_from_file_location('fresh_grade',root/'experiments/2026-11/1103_fresh_check/run.py');g=importlib.util.module_from_spec(spec);spec.loader.exec_module(g)
+a=pd.read_csv(p/'answers.csv',converters={'answer':str,'old_answer':str,'found':str});s=pd.read_csv(p/'summary.csv');t=json.loads((p/'tokens.json').read_text());m=json.loads((p/'manifest.json').read_text());checks=pd.read_csv(p/'input_comparison.csv');old=pd.read_csv(root/'experiments/2026-11/1103_fresh_check/results/answers.csv',keep_default_na=False).set_index('item_id')
 assert len(checks)==42 and len(a)==252 and len(s)==6 and not a.duplicated(['mode','item_id']).any()
 for name,h in m['hashes'].items():assert hashlib.sha256((Path(__file__).parent/name).read_bytes()).hexdigest()==h
 assert len(t)==len(a)
