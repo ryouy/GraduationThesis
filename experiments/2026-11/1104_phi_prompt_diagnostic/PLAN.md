@@ -32,4 +32,4 @@ Bで命名が改善してもnone対照が悪化すれば、答えを強制した
 
 ## 自動保存
 
-Colabの最後のセルでシークレットを読み、検算済みの結果のみryouy/GraduationThesisのmainへ追加する。保存先は1104_phi_prompt_diagnostic/results/<run_id>/。元のソース・README・既存結果は変更しない。1コミットで保存し、非force更新で並行更新を保護。保存失敗時も実験出力とZIPはColabに残し、保存セルだけ再実行できる。秘密値はURL・git設定・環境変数・ログ・ノートブック・成果物へ書かない。
+Colabの最後のセルでシークレットを読み、検算済みの結果のみryouy/GraduationThesisのmainへ追加する。保存先はexperiments/2026-11/1104_phi_prompt_diagnostic/results/<run_id>/。元のソース・README・既存結果は変更しない。1コミットで保存し、非force更新で並行更新を保護。保存失敗時も実験出力とZIPはColabに残し、保存セルだけ再実行できる。秘密値はURL・git設定・環境変数・ログ・ノートブック・成果物へ書かない。
