@@ -41,7 +41,7 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 
 ## リポジトリの構成
 
-\`\`\`text
+```text
 GraduationThesis/
 ├── README.md                  # 研究全体への入口
 ├── docs/
@@ -55,7 +55,7 @@ GraduationThesis/
 ├── 1104_*/                    # 11月4日のモデル・課題・Probe検証
 ├── Interim_Posters/           # 中間ポスター
 └── lab_meeting_slides/        # 研究室ミーティング資料
-\`\`\`
+```
 
 ## 記録の扱い
 
