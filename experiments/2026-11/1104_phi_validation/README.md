@@ -4,7 +4,7 @@
 
 [実測結果・図・原回答点検](results/20261104T012418280152Z/README.md)を参照。以下は実行前に固定した設計。
 
-[Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1104_phi_validation/phi_fresh_validation.ipynb) / [事前計画](PLAN.md) / [問題72件](questions.csv) / [採点規則](rules.json) / [採点コード](grade.py) / [固定ファイルのSHA256](FROZEN_SHA256.json)
+[Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1104_phi_validation/phi_fresh_validation.ipynb) / [事前計画](PLAN.md) / [問題72件](questions.csv) / [採点規則](rules.json) / [採点コード](grade.py) / [固定ファイルのSHA256](FROZEN_SHA256.json)
 
 ## 何を確認するか
 
@@ -33,8 +33,8 @@ Phiが前回の説明文をたまたま解けただけでなく、別の説明�
 ## 検証
 
 ```sh
-python 1104_phi_validation/check.py
-python 1104_phi_validation/check.py /path/to/results/phi3_5mini
+python experiments/2026-11/1104_phi_validation/check.py
+python experiments/2026-11/1104_phi_validation/check.py /path/to/results/phi3_5mini
 ```
 
 準備段階では72件の一意性、既存説明文との完全一致なし、説明文の正解名漏洩なし、採点の14ケースを確認した。原回答取得後は固定SHA、問題、token長、採点、集計、生成設定も照合する。
