@@ -25,7 +25,7 @@
 
 事前に固定した厳密基準では全モデル不通過。Phiのnone対照0/6は、「None＋説明」を不正解とする形式判定によるもので、内容を人手確認すると6/6で該当なしと回答していた。Phiは次の確認候補とするが、採用は保留。
 
-詳細：[4モデル比較](../1104_model_comparison/README.md) · [推論コード照合](../1104_inference_audit/README.md)
+詳細：[4モデル比較](../experiments/2026-11/1104_model_comparison/README.md) · [推論コード照合](../experiments/2026-11/1104_inference_audit/README.md)
 
 ### 2.2 Phiの新規問題による固定評価（11月4日）
 
@@ -37,7 +37,7 @@
 
 本実験への採用は保留し、問題の一意性と質問形式の小規模診断を優先する。
 
-詳細：[Phiの固定評価72問](../1104_phi_validation/results/20261104T012418280152Z/README.md)
+詳細：[Phiの固定評価72問](../experiments/2026-11/1104_phi_validation/results/20261104T012418280152Z/README.md)
 
 ### 2.3 質問形式の対比較（11月4日）
 
@@ -45,13 +45,13 @@
 
 内容確認では命名A44/60・B47/60（Green appleを含む）、noneは両方12/12。命名の改善5件・悪化2件。モデルを再実行する前に採点と刺激評定を整える。
 
-詳細：[質問形式の診断](../1104_phi_prompt_diagnostic/results/phi-prompt-20261104T015128731641Z/REVIEW.md)
+詳細：[質問形式の診断](../experiments/2026-11/1104_phi_prompt_diagnostic/results/phi-prompt-20261104T015128731641Z/REVIEW.md)
 
 ### 2.4 採点処理の修正（11月4日）
 
 既存384回答をv2で再採点し、15件の採点漏れを修正。4回答を個別確認し、既存の内容確認216件と一致した。モデル推論は追加していない。
 
-詳細：[採点処理の修正](../1104_scoring_revision/README.md)
+詳細：[採点処理の修正](../experiments/2026-11/1104_scoring_revision/README.md)
 
 ### 2.5 指示×手がかりProbe診断（11月4日）
 
@@ -63,13 +63,13 @@
 - 指示由来の反応と説明情報の両方が含まれる可能性があり、絶対スコアを思考量として解釈しない。
 - 残る2組はシャッフル対照でも満点が多く、校正未達。
 
-詳細：[指示×手がかりProbe診断](../1104_instruction_probe/results/instruction-probe-20261104T024551489146Z/REVIEW.md)
+詳細：[指示×手がかりProbe診断](../experiments/2026-11/1104_instruction_probe/results/instruction-probe-20261104T024551489146Z/REVIEW.md)
 
 ### 2.6 20組のProbe診断
 
 20組・40概念に拡張した診断については、リポジトリ内のREADMEでコードと人工特徴テストの準備段階、実モデル結果は未記録とされている。実行後に結果を確認し、ここへ反映する。
 
-詳細：[20組の診断計画・状態](../1104_instruction_probe_20pairs/README.md) · [実験計画](../1104_instruction_probe_20pairs/PLAN.md)
+詳細：[20組の診断計画・状態](../experiments/2026-11/1104_instruction_probe_20pairs/README.md) · [実験計画](../experiments/2026-11/1104_instruction_probe_20pairs/PLAN.md)
 
 ## 3. これまでの予備実験から分かった課題
 
