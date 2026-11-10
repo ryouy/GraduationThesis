@@ -1,7 +1,7 @@
 from pathlib import Path
 import sys,json,time,hashlib,gc,traceback,importlib.util,argparse
 import pandas as pd
-ROOT=Path(__file__).resolve().parents[1];HERE=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[3];HERE=Path(__file__).resolve().parent
 import grade as grader
 SYSTEM='You are a helpful assistant.'
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
