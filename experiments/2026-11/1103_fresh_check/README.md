@@ -14,9 +14,9 @@
 
 採用基準は36件中30以上かつ各概念4/6以上。noneは5/6以上。Probeは27層・回答直前で全3ペアAUC>=.8かつ20シャッフル対照の95percentile超。少数例の運用基準であり、統計的確証ではない。
 
-`python -m unittest discover -s 1103_fresh_check -p 'test_*.py' -v` で同義語・否定・曖昧回答・部分一致・問題データを検査できる。
+`python -m unittest discover -s experiments/2026-11/1103_fresh_check -p 'test_*.py' -v` で同義語・否定・曖昧回答・部分一致・問題データを検査できる。
 
-保存結果は `python 1103_fresh_check/verify.py 1103_fresh_check/results` で再集計を検証し、`python 1103_fresh_check/analyze.py 1103_fresh_check/results` で図を再作成する。
+保存結果は `python experiments/2026-11/1103_fresh_check/verify.py experiments/2026-11/1103_fresh_check/results` で再集計を検証し、`python experiments/2026-11/1103_fresh_check/analyze.py experiments/2026-11/1103_fresh_check/results` で図を再作成する。
 
 ## 実測結果
 
