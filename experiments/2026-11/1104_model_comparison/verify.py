@@ -1,9 +1,9 @@
 from pathlib import Path
 import sys,json,re,hashlib
 import pandas as pd
-root=Path(sys.argv[1]);repo=Path(__file__).resolve().parents[1]
-questions=pd.read_csv(repo/'1103_fresh_check/results/answers.csv',keep_default_na=False).set_index('item_id')
-rules=json.loads((repo/'1103_fresh_check/rules.json').read_text());models=json.loads((root/'resolved_models.json').read_text());summary=[]
+root=Path(sys.argv[1]);repo=Path(__file__).resolve().parents[3]
+questions=pd.read_csv(repo/'experiments/2026-11/1103_fresh_check/results/answers.csv',keep_default_na=False).set_index('item_id')
+rules=json.loads((repo/'experiments/2026-11/1103_fresh_check/rules.json').read_text());models=json.loads((root/'resolved_models.json').read_text());summary=[]
 for e in models:
  p=root/e['key'];m=json.loads((p/'manifest.json').read_text());assert m['model']==e['model'] and m['revision']==e['revision']
  for name,h in m['hashes'].items():assert hashlib.sha256((Path(__file__).parent/name).read_bytes()).hexdigest()==h
