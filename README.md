@@ -2,21 +2,19 @@
 
 LLMに対する「Xについて考えないで」という抑制指示の下で、手がかりの意味的距離が内部表現と最終出力に与える影響を分析する卒業研究のリポジトリ。
 
-このREADMEは研究全体への入口です。研究の考え方・分析方法・実験設計・進捗は、以下のドキュメントに分けて管理しています。
+研究の考え方・分析方法・実験設計・進捗・実験記録を分けて管理しています。
 
-## はじめに読む
+## Research guide
 
 | ページ | 内容 |
 |---|---|
-| **[研究概要](docs/research_overview.md)** | 背景、研究目的、Research Question、研究の意義 |
-| **[分析手法と測定指標](docs/methods.md)** | Probe、Generation、Logit Lens、意味的距離の扱い |
-| **[実験設計と分析計画](docs/experimental_design.md)** | 4条件、比較方法、実験規模案、分析の順序 |
-| **[現在の進捗と次の課題](docs/current_status.md)** | 直近の検証結果、残っている課題、次の作業 |
-| **[実験記録・資料一覧](docs/experiment_index.md)** | 日付別の実験、コード、データ、発表資料へのリンク |
+| [研究概要](docs/research_overview.md) | 背景、研究目的、Research Question |
+| [分析手法と測定指標](docs/methods.md) | Probe、Generation、Logit Lens、意味的距離 |
+| [実験設計と分析計画](docs/experimental_design.md) | 条件、比較方法、分析手順 |
+| [現在の進捗と次の課題](docs/current_status.md) | 最新の検証結果と次の作業 |
+| [実験記録・資料一覧](docs/experiment_index.md) | 個々の実験・データ・資料への索引 |
 
-## 研究の要点
-
-**Research Question**
+## Research question
 
 > 「Xについて考えないで」という抑制指示の下で、手がかりの意味的距離（近い・遠い）は、LLMの内部表現と最終出力にどのような影響を与えるのか？
 
@@ -26,40 +24,44 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 | 最終出力 | Generation分析 | 対象概念Xが生成文にどの程度出現するか |
 | 層別予測 | Logit Lens | 各層でX関連トークンの予測がどう推移するか |
 
-本研究では「禁止すると逆に考えてしまう」という結果を前提にしません。抑制・増幅・距離による違い・明確な変化なしのいずれも、測定の妥当性を確認したうえで研究結果として扱います。
+特定の結果を前提にせず、測定の妥当性と再現性を重視します。
 
-## 現在の状況
+## Current status
 
-<sub>2026年11月10日整理。最新の実験記録は2026年11月4日まで。</sub>
+<sub>2026年11月10日整理。実験結果の記録は2026年11月4日まで。</sub>
 
-- モデル比較・質問形式・採点処理・Probeの予備検証を実施。
-- Phi-3.5 miniは次の確認候補だが、固定評価の基準を満たしておらず、本実験への採用は保留。
-- Probeでは高いAUCが得られた条件もある一方、指示文や説明文に由来する情報を分離できているか、汎化性能の確認が必要。
-- **本実験に使うモデル・課題・測定方法は未確定。** まず課題と測定方法を検証し、採用基準を固定してから本実験へ進む。
+- モデル比較、質問形式、採点処理、Probeの予備検証を実施。
+- Phi-3.5 miniは次の確認候補だが、本実験への採用は保留。
+- Probeの識別性能と汎化性能、指示文・説明文に由来する情報の分離に追加検証が必要。
+- **本実験に使うモデル・課題・測定方法は未確定。**
 
-詳細は **[現在の進捗と次の課題](docs/current_status.md)** を参照。
+詳細：[現在の進捗と次の課題](docs/current_status.md)
 
-## リポジトリの構成
+## Repository structure
 
-\`\`\`text
+```text
 GraduationThesis/
-├── README.md                  # 研究全体への入口
-├── docs/
-│   ├── research_overview.md   # 研究目的・問い・意義
-│   ├── methods.md             # 分析手法・測定指標
-│   ├── experimental_design.md # 実験条件・分析計画
-│   ├── current_status.md      # 進捗・課題・次の作業
-│   └── experiment_index.md    # 過去の実験・資料への索引
-├── 1015/ ... 1019/             # 初期の実験記録
-├── 1103_*/                    # 11月3日の追加検証
-├── 1104_*/                    # 11月4日のモデル・課題・Probe検証
-├── Interim_Posters/           # 中間ポスター
-└── lab_meeting_slides/        # 研究室ミーティング資料
-\`\`\`
+├── README.md
+├── docs/                 # 研究方針・手法・進捗・資料索引
+│   ├── research_notes/   # テーマに関する補助的な研究ノート
+│   └── archive/          # 過去のREADMEなど
+├── experiments/          # 実験コード・Notebook・設定・結果
+│   ├── 2026-10/           # 10月の初期実験
+│   └── 2026-11/           # 11月の追加検証
+├── presentations/        # ポスター・研究室発表資料
+└── archive/              # 初期の探索的テストなど
+```
 
-## 記録の扱い
+### Main folders
 
-- 最新の研究方針は docs/ 配下の文書を参照してください。
+- [Experiments](experiments/README.md) — 日付別の実験
+- [Presentations](presentations/README.md) — 中間ポスター・研究室ミーティング資料
+- [Research documentation](docs/README.md) — 研究方針・方法・進捗
+- [Archive](archive/README.md) — 過去の探索的資料
+
+## Record policy
+
+- 最新の研究方針は `docs/` 配下で管理します。
 - 各実験フォルダには、その時点の計画・コード・結果を保存します。
-- 過去の実験記録は、後から都合よく書き換えず、実行時点の記録として保持します。
-- 古いREADMEは [README_previous_20261103.md](README_previous_20261103.md) に保存しています。旧状況の参照用であり、現在の方針には最新のドキュメントを優先してください。
+- 過去の実験結果は上書きせず、実行時点の記録として保持します。
+- 旧READMEは [docs/archive/README_previous_20261103.md](docs/archive/README_previous_20261103.md) に保存しています。
