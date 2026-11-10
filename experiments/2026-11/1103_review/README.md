@@ -13,7 +13,7 @@
 
 ## 実際に確認・実行したこと
 
-対象は `1019/semantic_distance_layer_probe_v2.ipynb` と `1019/concept_specificity_control_v3.ipynb`。v2は192入力×24層=4,608行、v3は288入力×24層=6,912行。ここでの入力数は独立した概念ペア数ではなく、独立単位は8概念ペア。
+対象は `experiments/2026-10/1019/semantic_distance_layer_probe_v2.ipynb` と `experiments/2026-10/1019/concept_specificity_control_v3.ipynb`。v2は192入力×24層=4,608行、v3は288入力×24層=6,912行。ここでの入力数は独立した概念ペア数ではなく、独立単位は8概念ペア。
 
 1. ノートブックの全コードを読んで、入力・Probe学習・測定位置・層の添字・符号・集計・Bootstrap単位を確認。
 2. 保存された入力ごとの値から、元の計算済み集計CSVを使わずにコントラストを再構築。その後で元CSVとの一致をassertionで確認。
@@ -77,7 +77,7 @@ Bootstrap回数の増加は数値推定を安定させるだけで、新しい�
 
 ## 試行を増やす追加実験
 
-[Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1103_review/internal_representation_robustness.ipynb)
+[Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1103_review/internal_representation_robustness.ipynb)
 
 **これは準備・ドライラン済み、モデル推論は未実行。** 新規推論結果が存在するように引用しない。
 
@@ -104,14 +104,14 @@ Hidden Stateを入力SHAごとのNPZに保存し、中断後は同じ環境な�
 
 ```bash
 # GPUやモデル接続は不要：既存結果の独立再計算
-python 1103_review/audit_saved_results.py
-python -m unittest discover -s 1103_review -p 'test_*.py' -v
+python experiments/2026-11/1103_review/audit_saved_results.py
+python -m unittest discover -s experiments/2026-11/1103_review -p 'test_*.py' -v
 
 # GPUやモデル接続は不要：入力計画だけ検証
-python 1103_review/run_robustness.py --dry-run
+python experiments/2026-11/1103_review/run_robustness.py --dry-run
 
 # Colab GPUなどで実行。結果は元データと別ディレクトリへ保存
-python 1103_review/run_robustness.py --out /content/representation-robustness-run
+python experiments/2026-11/1103_review/run_robustness.py --out /content/representation-robustness-run
 ```
 
 ラボミでは「距離の効果はまだ探索段階。一方、禁止指示によって手がかりへの内部反応の差が小さくなる傾向は、既存データの再解析でも残った。次は入力やProbeを変えて安定性を確認する」と説明するのが妥当。
