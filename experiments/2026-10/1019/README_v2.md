@@ -1,6 +1,6 @@
 # 1019 v2：意味的距離 × 抑制概念表現（全24層・手がかり前後）
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1019/semantic_distance_layer_probe_v2.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-10/1019/semantic_distance_layer_probe_v2.ipynb)
 
 ## なぜ作り直したか
 
@@ -33,7 +33,7 @@
 1. 上の「Open in Colab」を押す。
 2. **ランタイム → ランタイムのタイプを変更 → GPU（T4）** にする。
 3. 実験結果をGitHubへ自動反映するには、Colab左側の「シークレット」に `GITHUB_RESULTS_TOKEN` を設定し、Notebookアクセスを有効にする。GitHub tokenには対象リポジトリの `Contents: Read and write` 権限が必要。
-4. **すべてのセルを実行**。結果はまず `/content/GraduationThesis/1019/results_v2/<UTC実行ID>/` に保存。設定済みなら実行の終盤でGitHubの同名フォルダへCSV・PNGなどをアップロードする。
+4. **すべてのセルを実行**。結果はまず `/content/GraduationThesis/experiments/2026-10/1019/results_v2/<UTC実行ID>/` に保存。設定済みなら実行の終盤でGitHubの同名フォルダへCSV・PNGなどをアップロードする。
 5. Secretがない場合も、最終セルで結果ZIPをダウンロード可能。
 
 現時点では実験コードの追加のみで、**モデル実行と研究結果の検証はまだ行っていません**。
