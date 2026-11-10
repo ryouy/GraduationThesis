@@ -2,7 +2,7 @@
 
 **状態：実行・GitHub自動保存・保存特徴からの検算完了。** [結果の説明](results/instruction-probe-20261104T024551489146Z/REVIEW.md)。主測定では象／キリンの校正フラグがOKで、指示だけの大きなスコア変化と、全指示での説明文識別が両方見られた。バナナ／リンゴ・ピアノ／バイオリンは校正未達。以下は実行前に固定した設計。
 
-[Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1104_instruction_probe/instruction_probe_diagnostic.ipynb) / [実行前計画](PLAN.md) / [条件表](design.csv) / [学習文](training.csv)
+[Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1104_instruction_probe/instruction_probe_diagnostic.ipynb) / [実行前計画](PLAN.md) / [条件表](design.csv) / [学習文](training.csv)
 
 ## 何を調べるか
 
@@ -39,7 +39,7 @@ Phi専用のProbeを新しく学習し、Qwenの重みを流用しない。対�
 
 T4 GPUを選び、全セルを実行。Colabのシークレットは前回と同じ `GITHUB_TOKEN` 等を使う。別名なら `SECRET_NAME` だけ変更する。
 
-最後にmainの `1104_instruction_probe/results/<run_id>/` へ自動保存。図、スコア、AUC、シャッフル対照、入力token・測定位置、特徴8ファイル、Probe重みを保存する。これにより実モデルを再実行せずにスコア等を検算できる。保存失敗時は最後のセルだけ再実行し、ZIPも保管する。各ファイルは10MiB未満であることを保存前に確認する。
+最後にmainの `experiments/2026-11/1104_instruction_probe/results/<run_id>/` へ自動保存。図、スコア、AUC、シャッフル対照、入力token・測定位置、特徴8ファイル、Probe重みを保存する。これにより実モデルを再実行せずにスコア等を検算できる。保存失敗時は最後のセルだけ再実行し、ZIPも保管する。各ファイルは10MiB未満であることを保存前に確認する。
 
 GPUが使えなければ推論前に停止。秘密値は表示・成果物へ保存しない。旧実験やREADMEはノートブックから変更しない。Probeの識別確認が不通過でも、診断結果として保存し、成功したモデル選定結果にはしない。
 
@@ -48,9 +48,9 @@ GPUが使えなければ推論前に停止。秘密値は表示・成果物へ�
 デザインの対応、学習／評価の完全一致なし、説明文への対象名混入なしを検査。人工特徴によるテストで24Probe・2280スコア／対比・120AUC・300シャッフル・480集計を計算し、保存した重みからの再計算と改変検出を確認する。人工データは動作確認用で、実験結果として保存・解釈しない。自動保存は前回確認済みの処理を再利用し、保存先・ファイルを変更した6つのオフラインテストも行う。
 
 ```sh
-python 1104_instruction_probe/check.py
-python 1104_instruction_probe/test_pipeline.py
-python 1104_instruction_probe/test_github_save.py
+python experiments/2026-11/1104_instruction_probe/check.py
+python experiments/2026-11/1104_instruction_probe/test_pipeline.py
+python experiments/2026-11/1104_instruction_probe/test_github_save.py
 ```
 
 実モデルでの抽出・Probe学習とGitHub自動保存はユーザーのColab実行で完了し、保存特徴からスコア・集計を再計算して一致を確認した。モデルのforwardそのものを別環境で再実行したわけではない。実測の解釈は上記REVIEW.mdを参照。
