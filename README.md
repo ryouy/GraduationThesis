@@ -30,11 +30,11 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 
 ## 現在の状況
 
-<sub>2026年11月10日整理。最新の実験記録は2026年11月4日まで。</sub>
+<sub>2026年11月11日更新。最新のProbe再解析は11月11日実行。</sub>
 
 - モデル比較・質問形式・採点処理・Probeの予備検証を実施。
 - Phi-3.5 miniは次の確認候補だが、固定評価の基準を満たしておらず、本実験への採用は保留。
-- Probeでは高いAUCが得られた条件もある一方、指示文や説明文に由来する情報を分離できているか、汎化性能の確認が必要。
+- **11月11日のProbe再解析：** 元の評価文の平均AUC 0.9996に対し、新しい説明文では0.8436。シャッフルラベルでもAUC 1.0が6.91%生じた。概念・文面依存性を確認し、[詳細な結果と解釈](1110_probe_reanalysis/FINDINGS_20261111.md)を記録。
 - **本実験に使うモデル・課題・測定方法は未確定。** まず課題と測定方法を検証し、採用基準を固定してから本実験へ進む。
 
 詳細は **[現在の進捗と次の課題](docs/current_status.md)** を参照。
@@ -53,6 +53,7 @@ GraduationThesis/
 ├── 1015/ ... 1019/             # 初期の実験記録
 ├── 1103_*/                    # 11月3日の追加検証
 ├── 1104_*/                    # 11月4日のモデル・課題・Probe検証
+├── 1110_probe_reanalysis/      # Probe再解析・11月11日結果
 ├── Interim_Posters/           # 中間ポスター
 └── lab_meeting_slides/        # 研究室ミーティング資料
 ```
@@ -64,6 +65,16 @@ GraduationThesis/
 - 過去の実験記録は、後から都合よく書き換えず、実行時点の記録として保持します。
 - 古いREADMEは [README_previous_20261103.md](README_previous_20261103.md) に保存しています。旧状況の参照用であり、現在の方針には最新のドキュメントを優先してください。
 
+
+## 最新のProbe再解析結果（2026-11-11）
+
+**[結果の要約・統計上の注意・全CSVリンク](1110_probe_reanalysis/FINDINGS_20261111.md)** · [GitHub保存結果](1110_probe_reanalysis/results/20261111_173427/) · [Colabで再現](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1110_probe_reanalysis/probe_reanalysis_and_independent_generalization.ipynb)
+
+- 既存評価AUCの平均 **0.9996** → 未使用説明文の平均 **0.8436**。概念ペアによって汎化性能が異なる。
+- 252通りの学習ラベル置換×100構成＝**25,200再学習**。ランダムなラベルでAUC 1.0が **1,742回（6.91%）**。
+- **高いAUC＝概念の思考量ではない。** 新しい説明文の品質と汎化性能を検証してからProbeの採用を判断する。
+
+[実験一覧](docs/experiment_index.md)・[現在の進捗](docs/current_status.md)・[分析手法](docs/methods.md)からも上記の結果にアクセスできる。
 
 ## 追加検証（2026-11-10）
 
