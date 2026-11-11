@@ -1,0 +1,41 @@
+target,stable_distinct_comparators,comparators,two_comparators_stable
+apple,2,"carrot, potato",True
+butterfly,2,"spider, shark",True
+dog,2,"lion, tiger",True
+spider,2,"shark, eagle",True
+banana,1,carrot,False
+boat,1,submarine,False
+bread,1,rice,False
+calendar,1,clock,False
+cat,1,lion,False
+clock,1,calendar,False
+elephant,1,cat,False
+lemon,1,banana,False
+lion,1,dolphin,False
+motorcycle,1,train,False
+potato,1,orange,False
+rice,1,bread,False
+rose,1,sunflower,False
+sunflower,1,rose,False
+tiger,1,elephant,False
+train,1,airplane,False
+airplane,0,,False
+bicycle,0,,False
+camera,0,,False
+carrot,0,,False
+dolphin,0,,False
+eagle,0,,False
+giraffe,0,,False
+hammer,0,,False
+knife,0,,False
+orange,0,,False
+oven,0,,False
+penguin,0,,False
+piano,0,,False
+refrigerator,0,,False
+scissors,0,,False
+screwdriver,0,,False
+shark,0,,False
+submarine,0,,False
+telescope,0,,False
+violin,0,,False
