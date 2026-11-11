@@ -1,0 +1,57 @@
+{
+  "experiment": "Probe reanalysis and independent generalization",
+  "timestamp_jst": "20261111_173427",
+  "repository": "ryouy/GraduationThesis",
+  "result_directory": "1110_probe_reanalysis/results/20261111_173427",
+  "saved_files": {
+    "exact_training_label_summary.csv": {
+      "sha256": "3e24548cd3f3bb1e6ff72ac1fb76069fb7a56fdd91d07ca6b13732850a82684d",
+      "bytes": 8550
+    },
+    "exact_training_label_null_distribution.csv": {
+      "sha256": "6b20bbd1cd4d248bd8444e67d30bd83e3d1c94befaa1dd1b25f8a6e855f00ed9",
+      "bytes": 472266
+    },
+    "exact_evaluation_label_permutation.csv": {
+      "sha256": "fff432bd3516e860e2dc0ed3b6a3e971979c95ee995699e36cfe6c3dc5b98cd0",
+      "bytes": 4088
+    },
+    "old_evaluation_family_swap.csv": {
+      "sha256": "78f0b271ac4ebf68aa3845c767138d1f61c89e0a4de98557fdff372f1ea7ffae",
+      "bytes": 104223
+    },
+    "shuffle_distribution_summary.csv": {
+      "sha256": "3c811994e5e284aa03d719d95147231130a2d27bdddc0c1aff851c57458a80cd",
+      "bytes": 266
+    },
+    "training_label_shuffle_distributions.png": {
+      "sha256": "9e8b73870a7702830e2bff6f1a4d5634bfc24b3c78f8a5f83d98e217cd7a22ce",
+      "bytes": 55736
+    },
+    "independent_eval_cues.csv": {
+      "sha256": "d07399904219a91da744523c0f7c22db6bb3c2a9d485fec75dfef7547e0c7d11",
+      "bytes": 366474
+    },
+    "independent_eval_index.csv": {
+      "sha256": "d07399904219a91da744523c0f7c22db6bb3c2a9d485fec75dfef7547e0c7d11",
+      "bytes": 366474
+    },
+    "independent_eval_features.npz": {
+      "sha256": "2044d5a732e8e172acebc2b7a074c695388aa8fd06937d6b206bdf8f922a8365",
+      "bytes": 5748353
+    },
+    "independent_eval_probe_summary.csv": {
+      "sha256": "07d432dc2ddf48fe2fe49cc8e708ec9b9ea50d3a2f26c1932c9a0734e2ca30c2",
+      "bytes": 8125
+    },
+    "independent_eval_family_scores.csv": {
+      "sha256": "fed83c74f1737b53ba695d4dd1ef052abafdd0895c0f48aae1f2a2766e46cf1e",
+      "bytes": 59340
+    },
+    "independent_eval_family_leaveout.csv": {
+      "sha256": "f067c0d13c011b08b3e763035ba0686a4ab419846e9379d2818463c10d2582ca",
+      "bytes": 142789
+    }
+  },
+  "missing_files": []
+}
