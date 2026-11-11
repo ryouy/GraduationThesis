@@ -1,0 +1,37 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "embedder": "sentence-transformers/all-mpnet-base-v2",
+  "prompt_hash": "9c885bfa9c1745b46c4c41a0a08817aafcc5fb1fd393f240093aa3bf1ab5e8cb",
+  "layers": [
+    22,
+    23,
+    24
+  ],
+  "position": "assistant_start",
+  "concept_count": 69,
+  "batch_size": 64,
+  "train_families": 8,
+  "eval_families": 8,
+  "run_id": "20261112_qwen100_richer_dedup_v2",
+  "status": "COMPLETED_EXPLORATORY_SCREEN",
+  "created_utc": "2026-11-11T23:47:33.290164+00:00",
+  "gpu": "Tesla T4",
+  "prompts": 1104,
+  "concepts_eligible": 69,
+  "compared_targets": 47,
+  "directed_comparisons": 282,
+  "unique_unordered_pairs": 158,
+  "screen_pass_pairs": 40,
+  "shuffle_tested_pairs": 40,
+  "exploratory_pair_pass": 32,
+  "two_distance_bands_target_count": 12,
+  "caveats": [
+    "Wikipedia sources are distinct websites, not independent experimental random samples.",
+    "Evaluation claims can be topically overlapping and are automatically filtered only; manually audit selected targets.",
+    "Source-holdout and distance bands do not establish causal effect of semantic distance.",
+    "AUC and shortlist selection use the same evaluation split; confirm with genuinely new descriptions.",
+    "Probe reads X-versus-Y relative decodability, not absolute activation or suppression.",
+    "No multiple-testing correction has been applied."
+  ]
+}
