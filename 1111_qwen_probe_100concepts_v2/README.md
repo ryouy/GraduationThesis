@@ -11,7 +11,7 @@ The previous 100-concept pilot used only **3 training facts and 2 held-out facts
 ## Protocol
 
 - Fixed inventory of **100 concepts** across 10 groups; data coverage may cause exclusions.
-- Collect up to **8 different training statements** from English Wikipedia and **8 evaluation statements** from Simple English Wikipedia per concept. Require all 16 and do not create duplicate wrappers to inflate samples. Each sentence has recorded article URL and page revision.
+- Collect **8 different training statements** from English Wikipedia and **8 evaluation statements** per concept. Prefer Simple English Wikipedia for evaluation; when insufficient, draw from later non-overlapping English Wikipedia sentences and explicitly tag that weaker same-article holdout. Require all 16 without duplicate wrappers. Record article URLs, revisions and per-sentence source tier.
 - Evaluate **six Ys per X** (two close, two middle, two distant) within its group by pretrained `all-mpnet-base-v2` embedding distance based on training-only data.
 - Qwen2.5-0.5B-Instruct hidden state at assistant start, layers **22/23/24**.
 - Compare X-vs-Y linear probes via ROC-AUC and eight leave-one-training-fact-out fits.
@@ -23,7 +23,7 @@ The previous 100-concept pilot used only **3 training facts and 2 held-out facts
 
 Open the Colab badge. Select a T4 GPU and enable notebook access to Colab Secrets `GITHUB_RESULTS_TOKEN`. Set the token to a fine-grained PAT scoped only to `ryouy/GraduationThesis` with Contents read/write. Run from the first cell.
 
-**Important availability condition:** article sourcing depends on English and Simple English Wikipedia API access and enough usable sentences. If fewer than 20 concepts qualify, the notebook deliberately stops and writes `data_coverage.csv` locally rather than fabricating a dataset. It may require a revised sourcing strategy and a new run ID.
+**Important availability condition:** article sourcing depends on English and Simple English Wikipedia API access and enough usable sentences. If fewer than 20 concepts qualify, the notebook deliberately stops and writes `data_coverage.csv` locally rather than fabricating a dataset. The coverage report also distinguishes Simple-English evaluation sentences from English-Wikipedia same-article fallback. It may require a revised sourcing strategy and a new run ID.
 
 ## Methodological caveats
 
