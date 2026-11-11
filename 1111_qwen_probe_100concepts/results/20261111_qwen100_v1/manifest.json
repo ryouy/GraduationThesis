@@ -1,0 +1,33 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+  "concepts": 100,
+  "prompt_sha256": "2dc8c6e18c31aa9d696353d937fc1f5426ebd3f5bde71e1d0f5937aa85d126d9",
+  "layers": [
+    22,
+    23,
+    24
+  ],
+  "position": "assistant_start",
+  "seed": 42,
+  "batch_size": 48,
+  "status": "COMPLETED_EXPLORATORY_SCREEN",
+  "created_utc": "2026-11-11T09:06:30.627016+00:00",
+  "gpu": "Tesla T4",
+  "prompts": 1000,
+  "unique_unordered_contrasts": 241,
+  "directed_distance_comparators": 300,
+  "exact_shuffle_pairs": 50,
+  "target_candidates_two_distance_bands": 0,
+  "distance_def": "1-cosine(name + first training description; all-mpnet-base-v2)",
+  "notes": [
+    "The distance selection is calculated before any Qwen extraction, and excludes evaluation descriptions.",
+    "Only 2 independent evaluation facts per concept; the ROC-AUC is low resolution and exploratory.",
+    "Descriptions require independent human validation of concept identity and semantic non-overlap.",
+    "AUC is pairwise relative decodability, not absolute concept activation.",
+    "Candidate selection uses evaluation results; confirm shortlisted concepts on fresh text before use.",
+    "Semantic-distance bands reflect within-category rank rather than calibrated absolute distance.",
+    "Shuffle has only 20 exhaustive label splits; do not treat as a high-powered statistical test."
+  ]
+}
