@@ -1,0 +1,48 @@
+target,group,comparisons_tested,stable_comparators,stable_bands,comparators,near_mean_auc,medium_mean_auc,far_mean_auc,two_bands_stable
+bus,vehicles,6,5,3,"boat, motorcycle, bicycle, submarine, helicopter",0.9296875,1.0,0.984375,True
+motorcycle,vehicles,6,5,3,"car, bus, train, helicopter, submarine",0.8671875,1.0,0.9765625,True
+bicycle,vehicles,6,4,3,"boat, train, car, submarine",0.8359375,1.0,0.765625,True
+boat,vehicles,6,4,3,"train, bicycle, bus, motorcycle",0.875,0.9453125,0.75,True
+butterfly,insects_and_small_animals,6,4,3,"dragonfly, spider, ant, scorpion",0.8046875,0.9375,0.984375,True
+dragonfly,insects_and_small_animals,6,3,2,"butterfly, moth, ant",0.890625,0.9609375,0.703125,True
+jellyfish,marine_animals,6,3,3,"octopus, dolphin, whale",0.8984375,0.8203125,0.859375,True
+submarine,vehicles,6,3,2,"car, bus, motorcycle",0.828125,0.890625,0.9921875,True
+ant,insects_and_small_animals,6,2,2,"butterfly, dragonfly",0.71875,0.734375,0.921875,True
+moth,insects_and_small_animals,6,2,2,"dragonfly, scorpion",0.7890625,0.9296875,0.8984375,True
+starfish,marine_animals,6,2,2,"jellyfish, whale",0.5859375,0.953125,0.7265625,True
+wolf,land_mammals,6,2,2,"bear, elephant",0.828125,0.8359375,0.8203125,True
+car,vehicles,6,2,1,"motorcycle, bicycle",0.5859375,0.9765625,0.6484375,False
+elephant,land_mammals,6,2,1,"lion, wolf",0.734375,0.796875,0.90625,False
+scorpion,insects_and_small_animals,6,2,1,"moth, butterfly",0.7578125,0.96875,0.703125,False
+train,vehicles,6,2,1,"boat, bicycle",0.578125,1.0,0.8984375,False
+dolphin,marine_animals,6,1,1,jellyfish,0.7734375,0.84375,0.890625,False
+giraffe,land_mammals,6,1,1,wolf,0.4921875,0.6484375,0.7421875,False
+helicopter,vehicles,6,1,1,motorcycle,0.6796875,0.7265625,0.6640625,False
+lion,land_mammals,6,1,1,elephant,0.6953125,0.84375,0.8359375,False
+octopus,marine_animals,6,1,1,jellyfish,0.796875,0.8515625,0.7265625,False
+spider,insects_and_small_animals,6,1,1,butterfly,0.78125,0.7578125,0.6328125,False
+whale,marine_animals,6,1,1,starfish,0.765625,0.6640625,0.8515625,False
+apple,fruits,6,0,0,,0.546875,0.6015625,0.7265625,False
+banana,fruits,6,0,0,,0.796875,0.7578125,0.59375,False
+bear,land_mammals,6,0,0,,0.6953125,0.7578125,0.609375,False
+beetle,insects_and_small_animals,6,0,0,,0.8828125,0.71875,0.5546875,False
+clarinet,musical_instruments,6,0,0,,0.6015625,0.625,0.609375,False
+crab,marine_animals,6,0,0,,0.6796875,0.625,0.6953125,False
+deer,land_mammals,6,0,0,,0.8125,0.59375,0.6875,False
+flute,musical_instruments,6,0,0,,0.7109375,0.5859375,0.4765625,False
+horse,land_mammals,6,0,0,,0.390625,0.4453125,0.625,False
+lemon,fruits,6,0,0,,0.5859375,0.375,0.6171875,False
+lobster,marine_animals,6,0,0,,0.6796875,0.6875,0.671875,False
+orange,fruits,6,0,0,,0.6875,0.4140625,0.75,False
+peach,fruits,6,0,0,,0.8046875,0.671875,0.765625,False
+pear,fruits,6,0,0,,0.453125,0.671875,0.59375,False
+piano,musical_instruments,6,0,0,,0.5859375,0.484375,0.7265625,False
+pineapple,fruits,6,0,0,,0.6328125,0.6484375,0.6171875,False
+rabbit,land_mammals,6,0,0,,0.53125,0.6953125,0.6171875,False
+saxophone,musical_instruments,6,0,0,,0.4140625,0.53125,0.6875,False
+shark,marine_animals,6,0,0,,0.6328125,0.5703125,0.6015625,False
+strawberry,fruits,6,0,0,,0.75,0.859375,0.7734375,False
+tiger,land_mammals,6,0,0,,0.640625,0.5234375,0.578125,False
+trombone,musical_instruments,6,0,0,,0.5390625,0.671875,0.6171875,False
+trumpet,musical_instruments,6,0,0,,0.5625,0.4375,0.5546875,False
+violin,musical_instruments,6,0,0,,0.5546875,0.6484375,0.53125,False
