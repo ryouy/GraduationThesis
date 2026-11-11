@@ -2,6 +2,15 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1110_probe_reanalysis/probe_reanalysis_and_independent_generalization.ipynb)
 
+## 実行結果（2026-11-11）
+
+**[結果の要約・解釈・全データへのリンク](FINDINGS_20261111.md)** · [結果フォルダ](results/20261111_173427/)
+
+- 元の評価文の平均AUC **0.9996** に対し、新しい説明文では **0.8436**（20ペア×5重複学習構成）。
+- 学習ラベルの全252通りの置換を100構成で評価（**25,200 refit**）。ランダムラベルでもAUC = 1.0が **1,742回（6.91%）**。
+- 識別性能には概念・説明文依存性がある。AUCだけでProbeの測定妥当性や「思考量」を断定しない。
+- 新評価文は人手による事実性・概念一意性の点検前であり、結果は探索的に扱う。
+
 ## 目的
 
 11月4日に保存したPhi-3.5-mini-instructのHidden Stateを再利用し、Probeの校正問題と、学習時に使っていない説明ファミリーへの汎化性能を検証する。
