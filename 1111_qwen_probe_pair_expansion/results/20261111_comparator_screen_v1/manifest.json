@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETED_SCREEN_AND_SHUFFLE",
+  "created_utc": "2026-11-11T08:47:46.387487+00:00",
+  "source_experiment": "1110_qwen_probe_20pairs/results/20261110_qwen20pairs_v1",
+  "source_prompt_sha256": "566d106415f80a059d8b6133ba804bd508f0c793052014f147644bfad32340d9",
+  "source_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "source_model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "source_unique_prompts": 5200,
+  "model_forward_calls_in_this_run": 0,
+  "readout": "L24_assistant_start",
+  "instruction_condition": "neutral",
+  "unique_target_concepts": 40,
+  "directed_candidate_pairs": 69,
+  "unique_unordered_contrasts": 61,
+  "unique_contrasts_permutation_tested": 45,
+  "shuffle_fits": 68040,
+  "minimum_target_comparators_for_stability": 2,
+  "target_stability_status": "exploratory_only",
+  "caveats": [
+    "No new concepts or descriptions were collected; hidden features of the old 40 concepts were reused.",
+    "Candidate contrasts share the same training and evaluation descriptions; they are not independent replications.",
+    "Selecting pairs based on held-out performance requires independent fresh-text confirmation.",
+    "Comparing distinct, easier Y concepts may inflate AUC while weakening relevance to suppression-distance research.",
+    "X/Y reverse directions of the same unordered pair do not constitute independent observations.",
+    "Exact shuffles are applied only to candidates passing the screen when CHECK_SHUFFLE_ONLY_SCREEN_PASSES=True.",
+    "No multiple comparisons correction; per-contrast shuffle proportions should not be construed as confirmatory p-values.",
+    "The Probe classifies relative X-versus-Y identity; it does not measure absolute concept activation or causality."
+  ]
+}
