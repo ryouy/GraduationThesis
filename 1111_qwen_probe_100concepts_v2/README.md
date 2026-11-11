@@ -11,13 +11,13 @@ The previous 100-concept pilot used only **3 training facts and 2 held-out facts
 ## Protocol
 
 - Fixed inventory of **100 concepts** across 10 groups; data coverage may cause exclusions.
-- Collect **8 different training statements** from English Wikipedia and **8 evaluation statements** per concept. Prefer Simple English Wikipedia for evaluation; when insufficient, draw from later non-overlapping English Wikipedia sentences and explicitly tag that weaker same-article holdout. Require all 16 without duplicate wrappers. Record article URLs, revisions and per-sentence source tier.
+- Collect **8 different training statements** from English Wikipedia and **8 evaluation statements** per concept. Prefer Simple English Wikipedia for evaluation; when insufficient, draw from later non-overlapping English Wikipedia sentences and explicitly tag that weaker same-article holdout. Require all 16 without duplicate wrappers. Record article URLs, revisions and per-sentence source tier. The revised collector enforces **global uniqueness of factual sentences across target concepts**, replacing collisions with unused sourced sentences; concepts without enough unique sentences are excluded.
 - Evaluate **six Ys per X** (two close, two middle, two distant) within its group by pretrained `all-mpnet-base-v2` embedding distance based on training-only data.
 - Qwen2.5-0.5B-Instruct hidden state at assistant start, layers **22/23/24**.
 - Compare X-vs-Y linear probes via ROC-AUC and eight leave-one-training-fact-out fits.
 - A label-shuffle null of **100** class-balanced permutations for first-pass qualifying pairs; flag exploratory pairs with shuffle upper-tail proportion at most **0.05**.
 - Count *distinct target concepts* with >= 2 passing Ys in >= 2 distance bands.
-- Save original sourced statements, data coverage, frozen comparison selections, reproducibility settings, intermediate GPU checkpoints, summaries, full CSV and archive on GitHub under `results/20261111_qwen100_richer_v1/`.
+- Save original sourced statements, data coverage, frozen comparison selections, reproducibility settings, intermediate GPU checkpoints, summaries, full CSV and archive on GitHub under `results/20261112_qwen100_richer_dedup_v2/`.
 
 ## Run
 
@@ -34,4 +34,4 @@ Open the Colab badge. Select a T4 GPU and enable notebook access to Colab Secret
 - No multiple-testing correction; do not interpret exploratory shuffled-tail proportions as confirmatory p-values.
 - A high Probe AUC measures relative X/Y discrimination, *not absolute X activation* or suppression success.
 
-**Status:** Code created and committed; data coverage, GPU extraction and experimental results have **not** been executed and verified in Colab.
+**Status:** Source collection was attempted but halted by cross-concept duplicate-fact assertion before Qwen extraction. The corrected notebook has been committed and syntax-checked, but the corrected data coverage and GPU results have **not** been verified in Colab. Reopen the GitHub notebook and run from the first cell; the new run ID avoids overwriting earlier partial artifacts.
