@@ -14,7 +14,8 @@
 | [1104_scoring_revision](../1104_scoring_revision/README.md) | 既存384回答の採点処理修正 |
 | [1104_inference_audit](../1104_inference_audit/README.md) | 推論コード照合 |
 | [1104_instruction_probe](../1104_instruction_probe/results/instruction-probe-20261104T024551489146Z/REVIEW.md) | 指示×手がかりProbe診断 |
-| [1104_instruction_probe_20pairs](../1104_instruction_probe_20pairs/README.md) | 20組のProbe診断。実モデル結果の状態はREADMEを参照 |
+| [1104_instruction_probe_20pairs](../1104_instruction_probe_20pairs/README.md) | 11月4日の20組のProbe診断（元データ・コード） |
+| **[1110_probe_reanalysis](../1110_probe_reanalysis/README.md)** | **11月11日のProbe再解析：完全ラベル置換25,200 fit／新説明文による汎化検証。[結果と考察](../1110_probe_reanalysis/FINDINGS_20261111.md)・[結果データ](../1110_probe_reanalysis/results/20261111_173427/)・[Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1110_probe_reanalysis/probe_reanalysis_and_independent_generalization.ipynb)** |
 
 ## 2. 11月3日の追加検証
 
