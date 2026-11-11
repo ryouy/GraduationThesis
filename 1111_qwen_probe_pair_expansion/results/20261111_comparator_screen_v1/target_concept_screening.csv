@@ -1,0 +1,41 @@
+target,group,comparators_tested,comparators_screen_pass,passed_comparators,best_comparator,best_auc,two_comparators_screen_pass
+boat,vehicles,2,2,"submarine, bicycle",submarine,1.0,True
+butterfly,other_animals,2,2,"spider, shark",spider,1.0,True
+dog,mammals,2,2,"lion, tiger",lion,1.0,True
+knife,tools,2,2,"hammer, screwdriver",hammer,1.0,True
+screwdriver,tools,2,2,"scissors, knife",scissors,1.0,True
+shark,other_animals,2,2,"eagle, penguin",eagle,1.0,True
+spider,other_animals,2,2,"shark, eagle",shark,1.0,True
+submarine,vehicles,2,2,"bicycle, motorcycle",bicycle,1.0,True
+tiger,mammals,2,2,"dolphin, elephant",dolphin,1.0,True
+train,vehicles,2,2,"airplane, boat",airplane,1.0,True
+hammer,tools,2,2,"screwdriver, scissors",screwdriver,0.9933333333333333,True
+motorcycle,vehicles,2,2,"train, airplane",train,0.9933333333333333,True
+cat,mammals,2,2,"dog, lion",dog,0.9866666666666667,True
+scissors,tools,2,2,"knife, hammer",knife,0.9866666666666667,True
+airplane,vehicles,2,2,"boat, submarine",boat,0.9666666666666668,True
+potato,produce,2,2,"lemon, orange",lemon,0.9666666666666667,True
+apple,produce,2,2,"carrot, potato",carrot,0.9533333333333335,True
+lemon,produce,2,2,"orange, banana",orange,0.9133333333333334,True
+dolphin,mammals,3,2,"elephant, giraffe",elephant,0.9066666666666667,True
+calendar,time_instruments,1,1,clock,clock,1.0,False
+camera,optical_instruments,1,1,telescope,telescope,1.0,False
+clock,time_instruments,1,1,calendar,calendar,1.0,False
+oven,household_appliances,1,1,refrigerator,refrigerator,1.0,False
+refrigerator,household_appliances,1,1,oven,oven,1.0,False
+rose,flowers,1,1,sunflower,sunflower,1.0,False
+sunflower,flowers,1,1,rose,rose,1.0,False
+telescope,optical_instruments,1,1,camera,camera,1.0,False
+banana,produce,2,1,carrot,carrot,0.96,False
+bread,staple_foods,1,1,rice,rice,0.9466666666666667,False
+rice,staple_foods,1,1,bread,bread,0.9466666666666667,False
+lion,mammals,2,1,dolphin,dolphin,0.9400000000000001,False
+eagle,other_animals,2,1,butterfly,butterfly,0.8866666666666667,False
+elephant,mammals,2,1,cat,cat,0.8466666666666667,False
+bicycle,vehicles,2,0,,,,False
+carrot,produce,2,0,,,,False
+giraffe,mammals,2,0,,,,False
+orange,produce,2,0,,,,False
+penguin,other_animals,2,0,,,,False
+piano,musical_instruments,1,0,,,,False
+violin,musical_instruments,1,0,,,,False
