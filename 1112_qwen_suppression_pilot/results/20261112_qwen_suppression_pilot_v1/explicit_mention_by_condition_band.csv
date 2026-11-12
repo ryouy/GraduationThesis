@@ -1,0 +1,81 @@
+target_x,distance_band,condition,n,explicit_rate,format_issue_rate,mean_tokens
+bicycle,far,Avoid X,20,0.2,0.0,5.3
+bicycle,far,Base,20,0.0,0.0,7.35
+bicycle,far,Think X,20,0.7,0.0,7.75
+bicycle,far,Think Y,20,0.0,0.0,6.45
+bicycle,medium,Avoid X,20,0.5,0.0,5.5
+bicycle,medium,Base,20,0.0,0.0,5.65
+bicycle,medium,Think X,20,0.75,0.0,6.2
+bicycle,medium,Think Y,20,0.0,0.0,5.0
+bicycle,near,Avoid X,20,0.55,0.0,4.8
+bicycle,near,Base,20,0.15,0.0,5.8
+bicycle,near,Think X,20,0.7,0.0,5.8
+bicycle,near,Think Y,20,0.0,0.0,5.55
+bicycle,none,Avoid X,5,0.6,0.0,6.2
+bicycle,none,Base,5,0.0,0.0,5.4
+bicycle,none,Think X,5,1.0,0.0,8.4
+bicycle,none,Think Y,5,0.0,0.0,8.0
+bicycle,unrelated,Avoid X,20,0.0,0.0,7.35
+bicycle,unrelated,Base,20,0.0,0.0,5.3
+bicycle,unrelated,Think X,20,0.4,0.0,8.9
+bicycle,unrelated,Think Y,20,0.0,0.0,5.25
+boat,far,Avoid X,20,0.0,0.0,6.0
+boat,far,Base,20,0.0,0.0,5.55
+boat,far,Think X,20,0.25,0.0,7.5
+boat,far,Think Y,20,0.0,0.0,6.55
+boat,medium,Avoid X,20,0.25,0.0,7.55
+boat,medium,Base,20,0.0,0.0,7.45
+boat,medium,Think X,20,0.55,0.0,7.8
+boat,medium,Think Y,20,0.1,0.0,9.05
+boat,near,Avoid X,20,0.65,0.0,5.95
+boat,near,Base,20,0.4,0.0,5.25
+boat,near,Think X,20,0.6,0.0,6.45
+boat,near,Think Y,20,0.6,0.0,5.7
+boat,none,Avoid X,5,0.0,0.0,5.0
+boat,none,Base,5,0.0,0.0,5.4
+boat,none,Think X,5,0.8,0.0,8.2
+boat,none,Think Y,5,0.0,0.0,6.6
+boat,unrelated,Avoid X,20,0.0,0.0,7.35
+boat,unrelated,Base,20,0.0,0.0,7.45
+boat,unrelated,Think X,20,0.0,0.0,8.0
+boat,unrelated,Think Y,20,0.0,0.0,7.45
+bus,far,Avoid X,20,0.15,0.0,6.85
+bus,far,Base,20,0.0,0.0,6.55
+bus,far,Think X,20,0.55,0.0,8.3
+bus,far,Think Y,20,0.0,0.0,7.15
+bus,medium,Avoid X,20,0.3,0.0,5.45
+bus,medium,Base,20,0.0,0.0,5.9
+bus,medium,Think X,20,0.55,0.0,7.6
+bus,medium,Think Y,20,0.0,0.0,7.7
+bus,near,Avoid X,20,0.65,0.0,4.9
+bus,near,Base,20,0.25,0.0,6.1
+bus,near,Think X,20,0.9,0.0,7.95
+bus,near,Think Y,20,0.2,0.0,5.7
+bus,none,Avoid X,5,0.4,0.0,6.0
+bus,none,Base,5,0.0,0.0,5.4
+bus,none,Think X,5,1.0,0.0,7.8
+bus,none,Think Y,5,0.0,0.0,7.8
+bus,unrelated,Avoid X,20,0.0,0.0,7.75
+bus,unrelated,Base,20,0.0,0.0,7.55
+bus,unrelated,Think X,20,0.05,0.0,9.15
+bus,unrelated,Think Y,20,0.0,0.0,6.9
+motorcycle,far,Avoid X,20,0.25,0.0,5.45
+motorcycle,far,Base,20,0.0,0.0,6.2
+motorcycle,far,Think X,20,0.4,0.0,6.25
+motorcycle,far,Think Y,20,0.1,0.0,6.9
+motorcycle,medium,Avoid X,20,0.0,0.0,4.2
+motorcycle,medium,Base,20,0.0,0.0,5.55
+motorcycle,medium,Think X,20,0.1,0.0,6.7
+motorcycle,medium,Think Y,20,0.0,0.0,5.2
+motorcycle,near,Avoid X,20,0.65,0.0,4.1
+motorcycle,near,Base,20,0.1,0.0,5.75
+motorcycle,near,Think X,20,0.7,0.0,5.35
+motorcycle,near,Think Y,20,0.05,0.0,4.85
+motorcycle,none,Avoid X,5,0.8,0.0,7.0
+motorcycle,none,Base,5,0.0,0.0,5.4
+motorcycle,none,Think X,5,1.0,0.0,8.4
+motorcycle,none,Think Y,5,0.0,0.0,8.2
+motorcycle,unrelated,Avoid X,20,0.0,0.0,6.05
+motorcycle,unrelated,Base,20,0.0,0.0,5.95
+motorcycle,unrelated,Think X,20,0.1,0.0,6.8
+motorcycle,unrelated,Think Y,20,0.0,0.0,6.5
