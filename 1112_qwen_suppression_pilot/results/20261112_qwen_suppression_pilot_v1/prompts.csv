@@ -1,0 +1,817 @@
+input_id,target_x,comparator_y,cue_id,cue_text,distance_band,distance_x,distance_y,delta_x_minus_y,condition,is_no_cue,user_prompt
+bicycle__NO_CUE__Avoid_X,bicycle,submarine,NO_CUE,,none,,,,Avoid X,True,"Do not think about bicycle. Read the clue and briefly name the thing it brings to mind.
+No clue is provided.
+Answer with one short phrase."
+bicycle__NO_CUE__Base,bicycle,submarine,NO_CUE,,none,,,,Base,True,"Read the clue and briefly name the thing it brings to mind.
+No clue is provided.
+Answer with one short phrase."
+bicycle__NO_CUE__Think_X,bicycle,submarine,NO_CUE,,none,,,,Think X,True,"Think about bicycle. Read the clue and briefly name the thing it brings to mind.
+No clue is provided.
+Answer with one short phrase."
+bicycle__NO_CUE__Think_Y,bicycle,submarine,NO_CUE,,none,,,,Think Y,True,"Think about submarine instead of bicycle. Read the clue and briefly name the thing it brings to mind.
+No clue is provided.
+Answer with one short phrase."
+bicycle__bicycle_context_03__Avoid_X,bicycle,submarine,bicycle_context_03,A cycling club organized a weekend route through the hills.,near,0.7207261488016493,1.000983753790524,-0.2802576049888746,Avoid X,False,"Do not think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: A cycling club organized a weekend route through the hills.
+Answer with one short phrase."
+bicycle__bicycle_context_03__Base,bicycle,submarine,bicycle_context_03,A cycling club organized a weekend route through the hills.,near,0.7207261488016493,1.000983753790524,-0.2802576049888746,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: A cycling club organized a weekend route through the hills.
+Answer with one short phrase."
+bicycle__bicycle_context_03__Think_X,bicycle,submarine,bicycle_context_03,A cycling club organized a weekend route through the hills.,near,0.7207261488016493,1.000983753790524,-0.2802576049888746,Think X,False,"Think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: A cycling club organized a weekend route through the hills.
+Answer with one short phrase."
+bicycle__bicycle_context_03__Think_Y,bicycle,submarine,bicycle_context_03,A cycling club organized a weekend route through the hills.,near,0.7207261488016493,1.000983753790524,-0.2802576049888746,Think Y,False,"Think about submarine instead of bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: A cycling club organized a weekend route through the hills.
+Answer with one short phrase."
+bicycle__bicycle_context_04__Avoid_X,bicycle,submarine,bicycle_context_04,The repair shop offered free tire checks before the race.,far,0.9355612808712424,1.1547418081656466,-0.2191805272944041,Avoid X,False,"Do not think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The repair shop offered free tire checks before the race.
+Answer with one short phrase."
+bicycle__bicycle_context_04__Base,bicycle,submarine,bicycle_context_04,The repair shop offered free tire checks before the race.,far,0.9355612808712424,1.1547418081656466,-0.2191805272944041,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The repair shop offered free tire checks before the race.
+Answer with one short phrase."
+bicycle__bicycle_context_04__Think_X,bicycle,submarine,bicycle_context_04,The repair shop offered free tire checks before the race.,far,0.9355612808712424,1.1547418081656466,-0.2191805272944041,Think X,False,"Think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The repair shop offered free tire checks before the race.
+Answer with one short phrase."
+bicycle__bicycle_context_04__Think_Y,bicycle,submarine,bicycle_context_04,The repair shop offered free tire checks before the race.,far,0.9355612808712424,1.1547418081656466,-0.2191805272944041,Think Y,False,"Think about submarine instead of bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The repair shop offered free tire checks before the race.
+Answer with one short phrase."
+bicycle__bicycle_context_05__Avoid_X,bicycle,submarine,bicycle_context_05,Students used a shared parking rack near the library.,far,0.9372308147269792,1.02490044946695,-0.0876696347399706,Avoid X,False,"Do not think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: Students used a shared parking rack near the library.
+Answer with one short phrase."
+bicycle__bicycle_context_05__Base,bicycle,submarine,bicycle_context_05,Students used a shared parking rack near the library.,far,0.9372308147269792,1.02490044946695,-0.0876696347399706,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: Students used a shared parking rack near the library.
+Answer with one short phrase."
+bicycle__bicycle_context_05__Think_X,bicycle,submarine,bicycle_context_05,Students used a shared parking rack near the library.,far,0.9372308147269792,1.02490044946695,-0.0876696347399706,Think X,False,"Think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: Students used a shared parking rack near the library.
+Answer with one short phrase."
+bicycle__bicycle_context_05__Think_Y,bicycle,submarine,bicycle_context_05,Students used a shared parking rack near the library.,far,0.9372308147269792,1.02490044946695,-0.0876696347399706,Think Y,False,"Think about submarine instead of bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: Students used a shared parking rack near the library.
+Answer with one short phrase."
+bicycle__bicycle_context_06__Avoid_X,bicycle,submarine,bicycle_context_06,A helmet is recommended on the riverside recreational trail.,medium,0.8163423428934402,0.9593111257381578,-0.1429687828447176,Avoid X,False,"Do not think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: A helmet is recommended on the riverside recreational trail.
+Answer with one short phrase."
+bicycle__bicycle_context_06__Base,bicycle,submarine,bicycle_context_06,A helmet is recommended on the riverside recreational trail.,medium,0.8163423428934402,0.9593111257381578,-0.1429687828447176,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: A helmet is recommended on the riverside recreational trail.
+Answer with one short phrase."
+bicycle__bicycle_context_06__Think_X,bicycle,submarine,bicycle_context_06,A helmet is recommended on the riverside recreational trail.,medium,0.8163423428934402,0.9593111257381578,-0.1429687828447176,Think X,False,"Think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: A helmet is recommended on the riverside recreational trail.
+Answer with one short phrase."
+bicycle__bicycle_context_06__Think_Y,bicycle,submarine,bicycle_context_06,A helmet is recommended on the riverside recreational trail.,medium,0.8163423428934402,0.9593111257381578,-0.1429687828447176,Think Y,False,"Think about submarine instead of bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: A helmet is recommended on the riverside recreational trail.
+Answer with one short phrase."
+bicycle__bicycle_context_14__Avoid_X,bicycle,submarine,bicycle_context_14,The athlete practiced cornering on a quiet neighborhood road.,medium,0.8370492107228154,1.027188195338652,-0.1901389846158365,Avoid X,False,"Do not think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The athlete practiced cornering on a quiet neighborhood road.
+Answer with one short phrase."
+bicycle__bicycle_context_14__Base,bicycle,submarine,bicycle_context_14,The athlete practiced cornering on a quiet neighborhood road.,medium,0.8370492107228154,1.027188195338652,-0.1901389846158365,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The athlete practiced cornering on a quiet neighborhood road.
+Answer with one short phrase."
+bicycle__bicycle_context_14__Think_X,bicycle,submarine,bicycle_context_14,The athlete practiced cornering on a quiet neighborhood road.,medium,0.8370492107228154,1.027188195338652,-0.1901389846158365,Think X,False,"Think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The athlete practiced cornering on a quiet neighborhood road.
+Answer with one short phrase."
+bicycle__bicycle_context_14__Think_Y,bicycle,submarine,bicycle_context_14,The athlete practiced cornering on a quiet neighborhood road.,medium,0.8370492107228154,1.027188195338652,-0.1901389846158365,Think Y,False,"Think about submarine instead of bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The athlete practiced cornering on a quiet neighborhood road.
+Answer with one short phrase."
+bicycle__bicycle_context_15__Avoid_X,bicycle,submarine,bicycle_context_15,The city published a map of dedicated cycling paths.,near,0.6518090179469064,1.0063077264220797,-0.3544987084751733,Avoid X,False,"Do not think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The city published a map of dedicated cycling paths.
+Answer with one short phrase."
+bicycle__bicycle_context_15__Base,bicycle,submarine,bicycle_context_15,The city published a map of dedicated cycling paths.,near,0.6518090179469064,1.0063077264220797,-0.3544987084751733,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The city published a map of dedicated cycling paths.
+Answer with one short phrase."
+bicycle__bicycle_context_15__Think_X,bicycle,submarine,bicycle_context_15,The city published a map of dedicated cycling paths.,near,0.6518090179469064,1.0063077264220797,-0.3544987084751733,Think X,False,"Think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The city published a map of dedicated cycling paths.
+Answer with one short phrase."
+bicycle__bicycle_context_15__Think_Y,bicycle,submarine,bicycle_context_15,The city published a map of dedicated cycling paths.,near,0.6518090179469064,1.0063077264220797,-0.3544987084751733,Think Y,False,"Think about submarine instead of bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The city published a map of dedicated cycling paths.
+Answer with one short phrase."
+bicycle__bicycle_context_17__Avoid_X,bicycle,submarine,bicycle_context_17,The traveler packed a small pump and reflective jacket.,far,0.9243070868431912,0.7946185984451474,0.1296884883980439,Avoid X,False,"Do not think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The traveler packed a small pump and reflective jacket.
+Answer with one short phrase."
+bicycle__bicycle_context_17__Base,bicycle,submarine,bicycle_context_17,The traveler packed a small pump and reflective jacket.,far,0.9243070868431912,0.7946185984451474,0.1296884883980439,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The traveler packed a small pump and reflective jacket.
+Answer with one short phrase."
+bicycle__bicycle_context_17__Think_X,bicycle,submarine,bicycle_context_17,The traveler packed a small pump and reflective jacket.,far,0.9243070868431912,0.7946185984451474,0.1296884883980439,Think X,False,"Think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The traveler packed a small pump and reflective jacket.
+Answer with one short phrase."
+bicycle__bicycle_context_17__Think_Y,bicycle,submarine,bicycle_context_17,The traveler packed a small pump and reflective jacket.,far,0.9243070868431912,0.7946185984451474,0.1296884883980439,Think Y,False,"Think about submarine instead of bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The traveler packed a small pump and reflective jacket.
+Answer with one short phrase."
+bicycle__bicycle_direct_01__Avoid_X,bicycle,submarine,bicycle_direct_01,The rider turned the pedals while balancing on two narrow wheels.,near,0.4574330320953887,0.9738991476503088,-0.5164661155549202,Avoid X,False,"Do not think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The rider turned the pedals while balancing on two narrow wheels.
+Answer with one short phrase."
+bicycle__bicycle_direct_01__Base,bicycle,submarine,bicycle_direct_01,The rider turned the pedals while balancing on two narrow wheels.,near,0.4574330320953887,0.9738991476503088,-0.5164661155549202,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The rider turned the pedals while balancing on two narrow wheels.
+Answer with one short phrase."
+bicycle__bicycle_direct_01__Think_X,bicycle,submarine,bicycle_direct_01,The rider turned the pedals while balancing on two narrow wheels.,near,0.4574330320953887,0.9738991476503088,-0.5164661155549202,Think X,False,"Think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The rider turned the pedals while balancing on two narrow wheels.
+Answer with one short phrase."
+bicycle__bicycle_direct_01__Think_Y,bicycle,submarine,bicycle_direct_01,The rider turned the pedals while balancing on two narrow wheels.,near,0.4574330320953887,0.9738991476503088,-0.5164661155549202,Think Y,False,"Think about submarine instead of bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The rider turned the pedals while balancing on two narrow wheels.
+Answer with one short phrase."
+bicycle__bicycle_direct_11__Avoid_X,bicycle,submarine,bicycle_direct_11,The helmeted rider placed both feet on the pedals.,near,0.5332659098190096,0.950845535169794,-0.4175796253507843,Avoid X,False,"Do not think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The helmeted rider placed both feet on the pedals.
+Answer with one short phrase."
+bicycle__bicycle_direct_11__Base,bicycle,submarine,bicycle_direct_11,The helmeted rider placed both feet on the pedals.,near,0.5332659098190096,0.950845535169794,-0.4175796253507843,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The helmeted rider placed both feet on the pedals.
+Answer with one short phrase."
+bicycle__bicycle_direct_11__Think_X,bicycle,submarine,bicycle_direct_11,The helmeted rider placed both feet on the pedals.,near,0.5332659098190096,0.950845535169794,-0.4175796253507843,Think X,False,"Think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The helmeted rider placed both feet on the pedals.
+Answer with one short phrase."
+bicycle__bicycle_direct_11__Think_Y,bicycle,submarine,bicycle_direct_11,The helmeted rider placed both feet on the pedals.,near,0.5332659098190096,0.950845535169794,-0.4175796253507843,Think Y,False,"Think about submarine instead of bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The helmeted rider placed both feet on the pedals.
+Answer with one short phrase."
+bicycle__bicycle_negative_03__Avoid_X,bicycle,submarine,bicycle_negative_03,The orchestra rehearsed an unfamiliar symphony after lunch.,unrelated,1.0993546849209408,0.9250950941432332,0.1742595907777074,Avoid X,False,"Do not think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The orchestra rehearsed an unfamiliar symphony after lunch.
+Answer with one short phrase."
+bicycle__bicycle_negative_03__Base,bicycle,submarine,bicycle_negative_03,The orchestra rehearsed an unfamiliar symphony after lunch.,unrelated,1.0993546849209408,0.9250950941432332,0.1742595907777074,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The orchestra rehearsed an unfamiliar symphony after lunch.
+Answer with one short phrase."
+bicycle__bicycle_negative_03__Think_X,bicycle,submarine,bicycle_negative_03,The orchestra rehearsed an unfamiliar symphony after lunch.,unrelated,1.0993546849209408,0.9250950941432332,0.1742595907777074,Think X,False,"Think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The orchestra rehearsed an unfamiliar symphony after lunch.
+Answer with one short phrase."
+bicycle__bicycle_negative_03__Think_Y,bicycle,submarine,bicycle_negative_03,The orchestra rehearsed an unfamiliar symphony after lunch.,unrelated,1.0993546849209408,0.9250950941432332,0.1742595907777074,Think Y,False,"Think about submarine instead of bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The orchestra rehearsed an unfamiliar symphony after lunch.
+Answer with one short phrase."
+bicycle__bicycle_negative_04__Avoid_X,bicycle,submarine,bicycle_negative_04,The astronomer observed a distant nebula through the telescope.,unrelated,0.9337908082420984,0.9413626544684734,-0.0075718462263751,Avoid X,False,"Do not think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The astronomer observed a distant nebula through the telescope.
+Answer with one short phrase."
+bicycle__bicycle_negative_04__Base,bicycle,submarine,bicycle_negative_04,The astronomer observed a distant nebula through the telescope.,unrelated,0.9337908082420984,0.9413626544684734,-0.0075718462263751,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The astronomer observed a distant nebula through the telescope.
+Answer with one short phrase."
+bicycle__bicycle_negative_04__Think_X,bicycle,submarine,bicycle_negative_04,The astronomer observed a distant nebula through the telescope.,unrelated,0.9337908082420984,0.9413626544684734,-0.0075718462263751,Think X,False,"Think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The astronomer observed a distant nebula through the telescope.
+Answer with one short phrase."
+bicycle__bicycle_negative_04__Think_Y,bicycle,submarine,bicycle_negative_04,The astronomer observed a distant nebula through the telescope.,unrelated,0.9337908082420984,0.9413626544684734,-0.0075718462263751,Think Y,False,"Think about submarine instead of bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The astronomer observed a distant nebula through the telescope.
+Answer with one short phrase."
+bicycle__bicycle_negative_06__Avoid_X,bicycle,submarine,bicycle_negative_06,The accountant carefully reviewed the quarterly financial statements.,unrelated,1.0322908277374347,1.058062296089296,-0.0257714683518612,Avoid X,False,"Do not think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The accountant carefully reviewed the quarterly financial statements.
+Answer with one short phrase."
+bicycle__bicycle_negative_06__Base,bicycle,submarine,bicycle_negative_06,The accountant carefully reviewed the quarterly financial statements.,unrelated,1.0322908277374347,1.058062296089296,-0.0257714683518612,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The accountant carefully reviewed the quarterly financial statements.
+Answer with one short phrase."
+bicycle__bicycle_negative_06__Think_X,bicycle,submarine,bicycle_negative_06,The accountant carefully reviewed the quarterly financial statements.,unrelated,1.0322908277374347,1.058062296089296,-0.0257714683518612,Think X,False,"Think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The accountant carefully reviewed the quarterly financial statements.
+Answer with one short phrase."
+bicycle__bicycle_negative_06__Think_Y,bicycle,submarine,bicycle_negative_06,The accountant carefully reviewed the quarterly financial statements.,unrelated,1.0322908277374347,1.058062296089296,-0.0257714683518612,Think Y,False,"Think about submarine instead of bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The accountant carefully reviewed the quarterly financial statements.
+Answer with one short phrase."
+bicycle__bicycle_negative_12__Avoid_X,bicycle,submarine,bicycle_negative_12,The researcher tested a new method for image compression.,unrelated,0.971719793373686,0.8941595963557103,0.0775601970179757,Avoid X,False,"Do not think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The researcher tested a new method for image compression.
+Answer with one short phrase."
+bicycle__bicycle_negative_12__Base,bicycle,submarine,bicycle_negative_12,The researcher tested a new method for image compression.,unrelated,0.971719793373686,0.8941595963557103,0.0775601970179757,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The researcher tested a new method for image compression.
+Answer with one short phrase."
+bicycle__bicycle_negative_12__Think_X,bicycle,submarine,bicycle_negative_12,The researcher tested a new method for image compression.,unrelated,0.971719793373686,0.8941595963557103,0.0775601970179757,Think X,False,"Think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The researcher tested a new method for image compression.
+Answer with one short phrase."
+bicycle__bicycle_negative_12__Think_Y,bicycle,submarine,bicycle_negative_12,The researcher tested a new method for image compression.,unrelated,0.971719793373686,0.8941595963557103,0.0775601970179757,Think Y,False,"Think about submarine instead of bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The researcher tested a new method for image compression.
+Answer with one short phrase."
+bicycle__bicycle_peripheral_09__Avoid_X,bicycle,submarine,bicycle_peripheral_09,A community event promoted sustainable ways to commute.,medium,0.766412432526947,1.0155506611276282,-0.2491382286006811,Avoid X,False,"Do not think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: A community event promoted sustainable ways to commute.
+Answer with one short phrase."
+bicycle__bicycle_peripheral_09__Base,bicycle,submarine,bicycle_peripheral_09,A community event promoted sustainable ways to commute.,medium,0.766412432526947,1.0155506611276282,-0.2491382286006811,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: A community event promoted sustainable ways to commute.
+Answer with one short phrase."
+bicycle__bicycle_peripheral_09__Think_X,bicycle,submarine,bicycle_peripheral_09,A community event promoted sustainable ways to commute.,medium,0.766412432526947,1.0155506611276282,-0.2491382286006811,Think X,False,"Think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: A community event promoted sustainable ways to commute.
+Answer with one short phrase."
+bicycle__bicycle_peripheral_09__Think_Y,bicycle,submarine,bicycle_peripheral_09,A community event promoted sustainable ways to commute.,medium,0.766412432526947,1.0155506611276282,-0.2491382286006811,Think Y,False,"Think about submarine instead of bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: A community event promoted sustainable ways to commute.
+Answer with one short phrase."
+bicycle__bicycle_peripheral_10__Avoid_X,bicycle,submarine,bicycle_peripheral_10,The shop displayed reflective clothing for evening travel.,far,0.948415841434626,0.9607566240328872,-0.0123407825982612,Avoid X,False,"Do not think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The shop displayed reflective clothing for evening travel.
+Answer with one short phrase."
+bicycle__bicycle_peripheral_10__Base,bicycle,submarine,bicycle_peripheral_10,The shop displayed reflective clothing for evening travel.,far,0.948415841434626,0.9607566240328872,-0.0123407825982612,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The shop displayed reflective clothing for evening travel.
+Answer with one short phrase."
+bicycle__bicycle_peripheral_10__Think_X,bicycle,submarine,bicycle_peripheral_10,The shop displayed reflective clothing for evening travel.,far,0.948415841434626,0.9607566240328872,-0.0123407825982612,Think X,False,"Think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The shop displayed reflective clothing for evening travel.
+Answer with one short phrase."
+bicycle__bicycle_peripheral_10__Think_Y,bicycle,submarine,bicycle_peripheral_10,The shop displayed reflective clothing for evening travel.,far,0.948415841434626,0.9607566240328872,-0.0123407825982612,Think Y,False,"Think about submarine instead of bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The shop displayed reflective clothing for evening travel.
+Answer with one short phrase."
+bicycle__bicycle_peripheral_13__Avoid_X,bicycle,submarine,bicycle_peripheral_13,The regional council funded several active transportation programs.,medium,0.8687767172249062,1.007902643148506,-0.1391259259235998,Avoid X,False,"Do not think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The regional council funded several active transportation programs.
+Answer with one short phrase."
+bicycle__bicycle_peripheral_13__Base,bicycle,submarine,bicycle_peripheral_13,The regional council funded several active transportation programs.,medium,0.8687767172249062,1.007902643148506,-0.1391259259235998,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The regional council funded several active transportation programs.
+Answer with one short phrase."
+bicycle__bicycle_peripheral_13__Think_X,bicycle,submarine,bicycle_peripheral_13,The regional council funded several active transportation programs.,medium,0.8687767172249062,1.007902643148506,-0.1391259259235998,Think X,False,"Think about bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The regional council funded several active transportation programs.
+Answer with one short phrase."
+bicycle__bicycle_peripheral_13__Think_Y,bicycle,submarine,bicycle_peripheral_13,The regional council funded several active transportation programs.,medium,0.8687767172249062,1.007902643148506,-0.1391259259235998,Think Y,False,"Think about submarine instead of bicycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The regional council funded several active transportation programs.
+Answer with one short phrase."
+boat__NO_CUE__Avoid_X,boat,bus,NO_CUE,,none,,,,Avoid X,True,"Do not think about boat. Read the clue and briefly name the thing it brings to mind.
+No clue is provided.
+Answer with one short phrase."
+boat__NO_CUE__Base,boat,bus,NO_CUE,,none,,,,Base,True,"Read the clue and briefly name the thing it brings to mind.
+No clue is provided.
+Answer with one short phrase."
+boat__NO_CUE__Think_X,boat,bus,NO_CUE,,none,,,,Think X,True,"Think about boat. Read the clue and briefly name the thing it brings to mind.
+No clue is provided.
+Answer with one short phrase."
+boat__NO_CUE__Think_Y,boat,bus,NO_CUE,,none,,,,Think Y,True,"Think about bus instead of boat. Read the clue and briefly name the thing it brings to mind.
+No clue is provided.
+Answer with one short phrase."
+boat__boat_context_02__Avoid_X,boat,bus,boat_context_02,An island village depends on daily crossings to the mainland.,near,0.6421715568511568,0.7565606211907835,-0.1143890643396267,Avoid X,False,"Do not think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: An island village depends on daily crossings to the mainland.
+Answer with one short phrase."
+boat__boat_context_02__Base,boat,bus,boat_context_02,An island village depends on daily crossings to the mainland.,near,0.6421715568511568,0.7565606211907835,-0.1143890643396267,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: An island village depends on daily crossings to the mainland.
+Answer with one short phrase."
+boat__boat_context_02__Think_X,boat,bus,boat_context_02,An island village depends on daily crossings to the mainland.,near,0.6421715568511568,0.7565606211907835,-0.1143890643396267,Think X,False,"Think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: An island village depends on daily crossings to the mainland.
+Answer with one short phrase."
+boat__boat_context_02__Think_Y,boat,bus,boat_context_02,An island village depends on daily crossings to the mainland.,near,0.6421715568511568,0.7565606211907835,-0.1143890643396267,Think Y,False,"Think about bus instead of boat. Read the clue and briefly name the thing it brings to mind.
+Clue: An island village depends on daily crossings to the mainland.
+Answer with one short phrase."
+boat__boat_context_03__Avoid_X,boat,bus,boat_context_03,The harbor master announced that the tide was changing.,medium,0.7918596862686086,0.9267466034828687,-0.1348869172142601,Avoid X,False,"Do not think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The harbor master announced that the tide was changing.
+Answer with one short phrase."
+boat__boat_context_03__Base,boat,bus,boat_context_03,The harbor master announced that the tide was changing.,medium,0.7918596862686086,0.9267466034828687,-0.1348869172142601,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The harbor master announced that the tide was changing.
+Answer with one short phrase."
+boat__boat_context_03__Think_X,boat,bus,boat_context_03,The harbor master announced that the tide was changing.,medium,0.7918596862686086,0.9267466034828687,-0.1348869172142601,Think X,False,"Think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The harbor master announced that the tide was changing.
+Answer with one short phrase."
+boat__boat_context_03__Think_Y,boat,bus,boat_context_03,The harbor master announced that the tide was changing.,medium,0.7918596862686086,0.9267466034828687,-0.1348869172142601,Think Y,False,"Think about bus instead of boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The harbor master announced that the tide was changing.
+Answer with one short phrase."
+boat__boat_context_07__Avoid_X,boat,bus,boat_context_07,A fishing crew returned with its catch after sunset.,medium,0.7732524837200621,0.854232435076072,-0.08097995135601,Avoid X,False,"Do not think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: A fishing crew returned with its catch after sunset.
+Answer with one short phrase."
+boat__boat_context_07__Base,boat,bus,boat_context_07,A fishing crew returned with its catch after sunset.,medium,0.7732524837200621,0.854232435076072,-0.08097995135601,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: A fishing crew returned with its catch after sunset.
+Answer with one short phrase."
+boat__boat_context_07__Think_X,boat,bus,boat_context_07,A fishing crew returned with its catch after sunset.,medium,0.7732524837200621,0.854232435076072,-0.08097995135601,Think X,False,"Think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: A fishing crew returned with its catch after sunset.
+Answer with one short phrase."
+boat__boat_context_07__Think_Y,boat,bus,boat_context_07,A fishing crew returned with its catch after sunset.,medium,0.7732524837200621,0.854232435076072,-0.08097995135601,Think Y,False,"Think about bus instead of boat. Read the clue and briefly name the thing it brings to mind.
+Clue: A fishing crew returned with its catch after sunset.
+Answer with one short phrase."
+boat__boat_context_14__Avoid_X,boat,bus,boat_context_14,Several passengers carried bags down to the landing stage.,far,0.8106756068317096,0.7851632647843151,0.0255123420473945,Avoid X,False,"Do not think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: Several passengers carried bags down to the landing stage.
+Answer with one short phrase."
+boat__boat_context_14__Base,boat,bus,boat_context_14,Several passengers carried bags down to the landing stage.,far,0.8106756068317096,0.7851632647843151,0.0255123420473945,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: Several passengers carried bags down to the landing stage.
+Answer with one short phrase."
+boat__boat_context_14__Think_X,boat,bus,boat_context_14,Several passengers carried bags down to the landing stage.,far,0.8106756068317096,0.7851632647843151,0.0255123420473945,Think X,False,"Think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: Several passengers carried bags down to the landing stage.
+Answer with one short phrase."
+boat__boat_context_14__Think_Y,boat,bus,boat_context_14,Several passengers carried bags down to the landing stage.,far,0.8106756068317096,0.7851632647843151,0.0255123420473945,Think Y,False,"Think about bus instead of boat. Read the clue and briefly name the thing it brings to mind.
+Clue: Several passengers carried bags down to the landing stage.
+Answer with one short phrase."
+boat__boat_context_15__Avoid_X,boat,bus,boat_context_15,People gathered near the canal to begin a sightseeing tour.,medium,0.7469552928499965,0.8876535684077251,-0.1406982755577286,Avoid X,False,"Do not think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: People gathered near the canal to begin a sightseeing tour.
+Answer with one short phrase."
+boat__boat_context_15__Base,boat,bus,boat_context_15,People gathered near the canal to begin a sightseeing tour.,medium,0.7469552928499965,0.8876535684077251,-0.1406982755577286,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: People gathered near the canal to begin a sightseeing tour.
+Answer with one short phrase."
+boat__boat_context_15__Think_X,boat,bus,boat_context_15,People gathered near the canal to begin a sightseeing tour.,medium,0.7469552928499965,0.8876535684077251,-0.1406982755577286,Think X,False,"Think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: People gathered near the canal to begin a sightseeing tour.
+Answer with one short phrase."
+boat__boat_context_15__Think_Y,boat,bus,boat_context_15,People gathered near the canal to begin a sightseeing tour.,medium,0.7469552928499965,0.8876535684077251,-0.1406982755577286,Think Y,False,"Think about bus instead of boat. Read the clue and briefly name the thing it brings to mind.
+Clue: People gathered near the canal to begin a sightseeing tour.
+Answer with one short phrase."
+boat__boat_context_18__Avoid_X,boat,bus,boat_context_18,The crossing was delayed because thick fog covered the inlet.,far,0.9043846506368302,0.9125225626744528,-0.0081379120376225,Avoid X,False,"Do not think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The crossing was delayed because thick fog covered the inlet.
+Answer with one short phrase."
+boat__boat_context_18__Base,boat,bus,boat_context_18,The crossing was delayed because thick fog covered the inlet.,far,0.9043846506368302,0.9125225626744528,-0.0081379120376225,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The crossing was delayed because thick fog covered the inlet.
+Answer with one short phrase."
+boat__boat_context_18__Think_X,boat,bus,boat_context_18,The crossing was delayed because thick fog covered the inlet.,far,0.9043846506368302,0.9125225626744528,-0.0081379120376225,Think X,False,"Think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The crossing was delayed because thick fog covered the inlet.
+Answer with one short phrase."
+boat__boat_context_18__Think_Y,boat,bus,boat_context_18,The crossing was delayed because thick fog covered the inlet.,far,0.9043846506368302,0.9125225626744528,-0.0081379120376225,Think Y,False,"Think about bus instead of boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The crossing was delayed because thick fog covered the inlet.
+Answer with one short phrase."
+boat__boat_direct_02__Avoid_X,boat,bus,boat_direct_02,A small watercraft carried two people across the calm lake.,near,0.5150559327150512,0.8612407448573922,-0.346184812142341,Avoid X,False,"Do not think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: A small watercraft carried two people across the calm lake.
+Answer with one short phrase."
+boat__boat_direct_02__Base,boat,bus,boat_direct_02,A small watercraft carried two people across the calm lake.,near,0.5150559327150512,0.8612407448573922,-0.346184812142341,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: A small watercraft carried two people across the calm lake.
+Answer with one short phrase."
+boat__boat_direct_02__Think_X,boat,bus,boat_direct_02,A small watercraft carried two people across the calm lake.,near,0.5150559327150512,0.8612407448573922,-0.346184812142341,Think X,False,"Think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: A small watercraft carried two people across the calm lake.
+Answer with one short phrase."
+boat__boat_direct_02__Think_Y,boat,bus,boat_direct_02,A small watercraft carried two people across the calm lake.,near,0.5150559327150512,0.8612407448573922,-0.346184812142341,Think Y,False,"Think about bus instead of boat. Read the clue and briefly name the thing it brings to mind.
+Clue: A small watercraft carried two people across the calm lake.
+Answer with one short phrase."
+boat__boat_direct_07__Avoid_X,boat,bus,boat_direct_07,The craft used oars to travel across the quiet pond.,near,0.5509000306511537,0.8977233324540884,-0.3468233018029347,Avoid X,False,"Do not think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The craft used oars to travel across the quiet pond.
+Answer with one short phrase."
+boat__boat_direct_07__Base,boat,bus,boat_direct_07,The craft used oars to travel across the quiet pond.,near,0.5509000306511537,0.8977233324540884,-0.3468233018029347,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The craft used oars to travel across the quiet pond.
+Answer with one short phrase."
+boat__boat_direct_07__Think_X,boat,bus,boat_direct_07,The craft used oars to travel across the quiet pond.,near,0.5509000306511537,0.8977233324540884,-0.3468233018029347,Think X,False,"Think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The craft used oars to travel across the quiet pond.
+Answer with one short phrase."
+boat__boat_direct_07__Think_Y,boat,bus,boat_direct_07,The craft used oars to travel across the quiet pond.,near,0.5509000306511537,0.8977233324540884,-0.3468233018029347,Think Y,False,"Think about bus instead of boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The craft used oars to travel across the quiet pond.
+Answer with one short phrase."
+boat__boat_direct_12__Avoid_X,boat,bus,boat_direct_12,The wooden craft rocked as waves reached the pier.,near,0.6592150220366428,0.936765957854185,-0.2775509358175422,Avoid X,False,"Do not think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The wooden craft rocked as waves reached the pier.
+Answer with one short phrase."
+boat__boat_direct_12__Base,boat,bus,boat_direct_12,The wooden craft rocked as waves reached the pier.,near,0.6592150220366428,0.936765957854185,-0.2775509358175422,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The wooden craft rocked as waves reached the pier.
+Answer with one short phrase."
+boat__boat_direct_12__Think_X,boat,bus,boat_direct_12,The wooden craft rocked as waves reached the pier.,near,0.6592150220366428,0.936765957854185,-0.2775509358175422,Think X,False,"Think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The wooden craft rocked as waves reached the pier.
+Answer with one short phrase."
+boat__boat_direct_12__Think_Y,boat,bus,boat_direct_12,The wooden craft rocked as waves reached the pier.,near,0.6592150220366428,0.936765957854185,-0.2775509358175422,Think Y,False,"Think about bus instead of boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The wooden craft rocked as waves reached the pier.
+Answer with one short phrase."
+boat__boat_negative_04__Avoid_X,boat,bus,boat_negative_04,A musician practiced scales on a keyboard after dinner.,unrelated,0.9970170724935106,1.0069802915752573,-0.0099632190817466,Avoid X,False,"Do not think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: A musician practiced scales on a keyboard after dinner.
+Answer with one short phrase."
+boat__boat_negative_04__Base,boat,bus,boat_negative_04,A musician practiced scales on a keyboard after dinner.,unrelated,0.9970170724935106,1.0069802915752573,-0.0099632190817466,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: A musician practiced scales on a keyboard after dinner.
+Answer with one short phrase."
+boat__boat_negative_04__Think_X,boat,bus,boat_negative_04,A musician practiced scales on a keyboard after dinner.,unrelated,0.9970170724935106,1.0069802915752573,-0.0099632190817466,Think X,False,"Think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: A musician practiced scales on a keyboard after dinner.
+Answer with one short phrase."
+boat__boat_negative_04__Think_Y,boat,bus,boat_negative_04,A musician practiced scales on a keyboard after dinner.,unrelated,0.9970170724935106,1.0069802915752573,-0.0099632190817466,Think Y,False,"Think about bus instead of boat. Read the clue and briefly name the thing it brings to mind.
+Clue: A musician practiced scales on a keyboard after dinner.
+Answer with one short phrase."
+boat__boat_negative_07__Avoid_X,boat,bus,boat_negative_07,The library replaced several shelves in the history section.,unrelated,0.9371773747582784,1.0029844885091446,-0.0658071137508661,Avoid X,False,"Do not think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The library replaced several shelves in the history section.
+Answer with one short phrase."
+boat__boat_negative_07__Base,boat,bus,boat_negative_07,The library replaced several shelves in the history section.,unrelated,0.9371773747582784,1.0029844885091446,-0.0658071137508661,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The library replaced several shelves in the history section.
+Answer with one short phrase."
+boat__boat_negative_07__Think_X,boat,bus,boat_negative_07,The library replaced several shelves in the history section.,unrelated,0.9371773747582784,1.0029844885091446,-0.0658071137508661,Think X,False,"Think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The library replaced several shelves in the history section.
+Answer with one short phrase."
+boat__boat_negative_07__Think_Y,boat,bus,boat_negative_07,The library replaced several shelves in the history section.,unrelated,0.9371773747582784,1.0029844885091446,-0.0658071137508661,Think Y,False,"Think about bus instead of boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The library replaced several shelves in the history section.
+Answer with one short phrase."
+boat__boat_negative_08__Avoid_X,boat,bus,boat_negative_08,The dentist scheduled a routine examination for next week.,unrelated,1.059426870611261,0.9941617062497322,0.0652651643615288,Avoid X,False,"Do not think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The dentist scheduled a routine examination for next week.
+Answer with one short phrase."
+boat__boat_negative_08__Base,boat,bus,boat_negative_08,The dentist scheduled a routine examination for next week.,unrelated,1.059426870611261,0.9941617062497322,0.0652651643615288,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The dentist scheduled a routine examination for next week.
+Answer with one short phrase."
+boat__boat_negative_08__Think_X,boat,bus,boat_negative_08,The dentist scheduled a routine examination for next week.,unrelated,1.059426870611261,0.9941617062497322,0.0652651643615288,Think X,False,"Think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The dentist scheduled a routine examination for next week.
+Answer with one short phrase."
+boat__boat_negative_08__Think_Y,boat,bus,boat_negative_08,The dentist scheduled a routine examination for next week.,unrelated,1.059426870611261,0.9941617062497322,0.0652651643615288,Think Y,False,"Think about bus instead of boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The dentist scheduled a routine examination for next week.
+Answer with one short phrase."
+boat__boat_negative_10__Avoid_X,boat,bus,boat_negative_10,A museum curator cataloged ancient pottery from the valley.,unrelated,0.8725895191966425,1.0795655097486554,-0.2069759905520128,Avoid X,False,"Do not think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: A museum curator cataloged ancient pottery from the valley.
+Answer with one short phrase."
+boat__boat_negative_10__Base,boat,bus,boat_negative_10,A museum curator cataloged ancient pottery from the valley.,unrelated,0.8725895191966425,1.0795655097486554,-0.2069759905520128,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: A museum curator cataloged ancient pottery from the valley.
+Answer with one short phrase."
+boat__boat_negative_10__Think_X,boat,bus,boat_negative_10,A museum curator cataloged ancient pottery from the valley.,unrelated,0.8725895191966425,1.0795655097486554,-0.2069759905520128,Think X,False,"Think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: A museum curator cataloged ancient pottery from the valley.
+Answer with one short phrase."
+boat__boat_negative_10__Think_Y,boat,bus,boat_negative_10,A museum curator cataloged ancient pottery from the valley.,unrelated,0.8725895191966425,1.0795655097486554,-0.2069759905520128,Think Y,False,"Think about bus instead of boat. Read the clue and briefly name the thing it brings to mind.
+Clue: A museum curator cataloged ancient pottery from the valley.
+Answer with one short phrase."
+boat__boat_peripheral_11__Avoid_X,boat,bus,boat_peripheral_11,The annual festival celebrates the region’s maritime history.,medium,0.7376147491949547,0.929938910531933,-0.1923241613369782,Avoid X,False,"Do not think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The annual festival celebrates the region’s maritime history.
+Answer with one short phrase."
+boat__boat_peripheral_11__Base,boat,bus,boat_peripheral_11,The annual festival celebrates the region’s maritime history.,medium,0.7376147491949547,0.929938910531933,-0.1923241613369782,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The annual festival celebrates the region’s maritime history.
+Answer with one short phrase."
+boat__boat_peripheral_11__Think_X,boat,bus,boat_peripheral_11,The annual festival celebrates the region’s maritime history.,medium,0.7376147491949547,0.929938910531933,-0.1923241613369782,Think X,False,"Think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The annual festival celebrates the region’s maritime history.
+Answer with one short phrase."
+boat__boat_peripheral_11__Think_Y,boat,bus,boat_peripheral_11,The annual festival celebrates the region’s maritime history.,medium,0.7376147491949547,0.929938910531933,-0.1923241613369782,Think Y,False,"Think about bus instead of boat. Read the clue and briefly name the thing it brings to mind.
+Clue: The annual festival celebrates the region’s maritime history.
+Answer with one short phrase."
+boat__boat_peripheral_13__Avoid_X,boat,bus,boat_peripheral_13,An old lighthouse still overlooks the rocky coast.,far,0.9179638287919734,0.9543179981866984,-0.036354169394725,Avoid X,False,"Do not think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: An old lighthouse still overlooks the rocky coast.
+Answer with one short phrase."
+boat__boat_peripheral_13__Base,boat,bus,boat_peripheral_13,An old lighthouse still overlooks the rocky coast.,far,0.9179638287919734,0.9543179981866984,-0.036354169394725,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: An old lighthouse still overlooks the rocky coast.
+Answer with one short phrase."
+boat__boat_peripheral_13__Think_X,boat,bus,boat_peripheral_13,An old lighthouse still overlooks the rocky coast.,far,0.9179638287919734,0.9543179981866984,-0.036354169394725,Think X,False,"Think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: An old lighthouse still overlooks the rocky coast.
+Answer with one short phrase."
+boat__boat_peripheral_13__Think_Y,boat,bus,boat_peripheral_13,An old lighthouse still overlooks the rocky coast.,far,0.9179638287919734,0.9543179981866984,-0.036354169394725,Think Y,False,"Think about bus instead of boat. Read the clue and briefly name the thing it brings to mind.
+Clue: An old lighthouse still overlooks the rocky coast.
+Answer with one short phrase."
+boat__boat_peripheral_18__Avoid_X,boat,bus,boat_peripheral_18,Visitors photographed the sunset from the edge of the harbor.,far,0.873055998125714,0.9144187663695756,-0.0413627682438616,Avoid X,False,"Do not think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: Visitors photographed the sunset from the edge of the harbor.
+Answer with one short phrase."
+boat__boat_peripheral_18__Base,boat,bus,boat_peripheral_18,Visitors photographed the sunset from the edge of the harbor.,far,0.873055998125714,0.9144187663695756,-0.0413627682438616,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: Visitors photographed the sunset from the edge of the harbor.
+Answer with one short phrase."
+boat__boat_peripheral_18__Think_X,boat,bus,boat_peripheral_18,Visitors photographed the sunset from the edge of the harbor.,far,0.873055998125714,0.9144187663695756,-0.0413627682438616,Think X,False,"Think about boat. Read the clue and briefly name the thing it brings to mind.
+Clue: Visitors photographed the sunset from the edge of the harbor.
+Answer with one short phrase."
+boat__boat_peripheral_18__Think_Y,boat,bus,boat_peripheral_18,Visitors photographed the sunset from the edge of the harbor.,far,0.873055998125714,0.9144187663695756,-0.0413627682438616,Think Y,False,"Think about bus instead of boat. Read the clue and briefly name the thing it brings to mind.
+Clue: Visitors photographed the sunset from the edge of the harbor.
+Answer with one short phrase."
+bus__NO_CUE__Avoid_X,bus,helicopter,NO_CUE,,none,,,,Avoid X,True,"Do not think about bus. Read the clue and briefly name the thing it brings to mind.
+No clue is provided.
+Answer with one short phrase."
+bus__NO_CUE__Base,bus,helicopter,NO_CUE,,none,,,,Base,True,"Read the clue and briefly name the thing it brings to mind.
+No clue is provided.
+Answer with one short phrase."
+bus__NO_CUE__Think_X,bus,helicopter,NO_CUE,,none,,,,Think X,True,"Think about bus. Read the clue and briefly name the thing it brings to mind.
+No clue is provided.
+Answer with one short phrase."
+bus__NO_CUE__Think_Y,bus,helicopter,NO_CUE,,none,,,,Think Y,True,"Think about helicopter instead of bus. Read the clue and briefly name the thing it brings to mind.
+No clue is provided.
+Answer with one short phrase."
+bus__bus_context_01__Avoid_X,bus,helicopter,bus_context_01,Commuters checked the timetable posted beside the shelter.,near,0.614653721412153,1.0300952924436502,-0.4154415710314971,Avoid X,False,"Do not think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: Commuters checked the timetable posted beside the shelter.
+Answer with one short phrase."
+bus__bus_context_01__Base,bus,helicopter,bus_context_01,Commuters checked the timetable posted beside the shelter.,near,0.614653721412153,1.0300952924436502,-0.4154415710314971,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: Commuters checked the timetable posted beside the shelter.
+Answer with one short phrase."
+bus__bus_context_01__Think_X,bus,helicopter,bus_context_01,Commuters checked the timetable posted beside the shelter.,near,0.614653721412153,1.0300952924436502,-0.4154415710314971,Think X,False,"Think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: Commuters checked the timetable posted beside the shelter.
+Answer with one short phrase."
+bus__bus_context_01__Think_Y,bus,helicopter,bus_context_01,Commuters checked the timetable posted beside the shelter.,near,0.614653721412153,1.0300952924436502,-0.4154415710314971,Think Y,False,"Think about helicopter instead of bus. Read the clue and briefly name the thing it brings to mind.
+Clue: Commuters checked the timetable posted beside the shelter.
+Answer with one short phrase."
+bus__bus_context_02__Avoid_X,bus,helicopter,bus_context_02,The city extended public transport service into the evening.,near,0.5347143269796423,0.997076862184325,-0.4623625352046827,Avoid X,False,"Do not think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The city extended public transport service into the evening.
+Answer with one short phrase."
+bus__bus_context_02__Base,bus,helicopter,bus_context_02,The city extended public transport service into the evening.,near,0.5347143269796423,0.997076862184325,-0.4623625352046827,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The city extended public transport service into the evening.
+Answer with one short phrase."
+bus__bus_context_02__Think_X,bus,helicopter,bus_context_02,The city extended public transport service into the evening.,near,0.5347143269796423,0.997076862184325,-0.4623625352046827,Think X,False,"Think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The city extended public transport service into the evening.
+Answer with one short phrase."
+bus__bus_context_02__Think_Y,bus,helicopter,bus_context_02,The city extended public transport service into the evening.,near,0.5347143269796423,0.997076862184325,-0.4623625352046827,Think Y,False,"Think about helicopter instead of bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The city extended public transport service into the evening.
+Answer with one short phrase."
+bus__bus_context_12__Avoid_X,bus,helicopter,bus_context_12,Students waited under the shelter after their classes finished.,far,0.9250440797572856,1.0157654995136025,-0.0907214197563168,Avoid X,False,"Do not think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: Students waited under the shelter after their classes finished.
+Answer with one short phrase."
+bus__bus_context_12__Base,bus,helicopter,bus_context_12,Students waited under the shelter after their classes finished.,far,0.9250440797572856,1.0157654995136025,-0.0907214197563168,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: Students waited under the shelter after their classes finished.
+Answer with one short phrase."
+bus__bus_context_12__Think_X,bus,helicopter,bus_context_12,Students waited under the shelter after their classes finished.,far,0.9250440797572856,1.0157654995136025,-0.0907214197563168,Think X,False,"Think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: Students waited under the shelter after their classes finished.
+Answer with one short phrase."
+bus__bus_context_12__Think_Y,bus,helicopter,bus_context_12,Students waited under the shelter after their classes finished.,far,0.9250440797572856,1.0157654995136025,-0.0907214197563168,Think Y,False,"Think about helicopter instead of bus. Read the clue and briefly name the thing it brings to mind.
+Clue: Students waited under the shelter after their classes finished.
+Answer with one short phrase."
+bus__bus_context_14__Avoid_X,bus,helicopter,bus_context_14,The transfer station connects residential streets with the center.,medium,0.721861206827002,0.9806752819123836,-0.2588140750853814,Avoid X,False,"Do not think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The transfer station connects residential streets with the center.
+Answer with one short phrase."
+bus__bus_context_14__Base,bus,helicopter,bus_context_14,The transfer station connects residential streets with the center.,medium,0.721861206827002,0.9806752819123836,-0.2588140750853814,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The transfer station connects residential streets with the center.
+Answer with one short phrase."
+bus__bus_context_14__Think_X,bus,helicopter,bus_context_14,The transfer station connects residential streets with the center.,medium,0.721861206827002,0.9806752819123836,-0.2588140750853814,Think X,False,"Think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The transfer station connects residential streets with the center.
+Answer with one short phrase."
+bus__bus_context_14__Think_Y,bus,helicopter,bus_context_14,The transfer station connects residential streets with the center.,medium,0.721861206827002,0.9806752819123836,-0.2588140750853814,Think Y,False,"Think about helicopter instead of bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The transfer station connects residential streets with the center.
+Answer with one short phrase."
+bus__bus_context_15__Avoid_X,bus,helicopter,bus_context_15,A passenger missed the last scheduled departure of the night.,far,0.7928452996906203,0.916258472202532,-0.1234131725119116,Avoid X,False,"Do not think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: A passenger missed the last scheduled departure of the night.
+Answer with one short phrase."
+bus__bus_context_15__Base,bus,helicopter,bus_context_15,A passenger missed the last scheduled departure of the night.,far,0.7928452996906203,0.916258472202532,-0.1234131725119116,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: A passenger missed the last scheduled departure of the night.
+Answer with one short phrase."
+bus__bus_context_15__Think_X,bus,helicopter,bus_context_15,A passenger missed the last scheduled departure of the night.,far,0.7928452996906203,0.916258472202532,-0.1234131725119116,Think X,False,"Think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: A passenger missed the last scheduled departure of the night.
+Answer with one short phrase."
+bus__bus_context_15__Think_Y,bus,helicopter,bus_context_15,A passenger missed the last scheduled departure of the night.,far,0.7928452996906203,0.916258472202532,-0.1234131725119116,Think Y,False,"Think about helicopter instead of bus. Read the clue and briefly name the thing it brings to mind.
+Clue: A passenger missed the last scheduled departure of the night.
+Answer with one short phrase."
+bus__bus_context_17__Avoid_X,bus,helicopter,bus_context_17,A commuter changed routes after a road closure downtown.,medium,0.698331069673364,1.0115592192345146,-0.3132281495611506,Avoid X,False,"Do not think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: A commuter changed routes after a road closure downtown.
+Answer with one short phrase."
+bus__bus_context_17__Base,bus,helicopter,bus_context_17,A commuter changed routes after a road closure downtown.,medium,0.698331069673364,1.0115592192345146,-0.3132281495611506,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: A commuter changed routes after a road closure downtown.
+Answer with one short phrase."
+bus__bus_context_17__Think_X,bus,helicopter,bus_context_17,A commuter changed routes after a road closure downtown.,medium,0.698331069673364,1.0115592192345146,-0.3132281495611506,Think X,False,"Think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: A commuter changed routes after a road closure downtown.
+Answer with one short phrase."
+bus__bus_context_17__Think_Y,bus,helicopter,bus_context_17,A commuter changed routes after a road closure downtown.,medium,0.698331069673364,1.0115592192345146,-0.3132281495611506,Think Y,False,"Think about helicopter instead of bus. Read the clue and briefly name the thing it brings to mind.
+Clue: A commuter changed routes after a road closure downtown.
+Answer with one short phrase."
+bus__bus_context_18__Avoid_X,bus,helicopter,bus_context_18,A group of visitors purchased day passes at the terminal.,far,0.8103676527879544,1.0087510899450691,-0.1983834371571149,Avoid X,False,"Do not think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: A group of visitors purchased day passes at the terminal.
+Answer with one short phrase."
+bus__bus_context_18__Base,bus,helicopter,bus_context_18,A group of visitors purchased day passes at the terminal.,far,0.8103676527879544,1.0087510899450691,-0.1983834371571149,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: A group of visitors purchased day passes at the terminal.
+Answer with one short phrase."
+bus__bus_context_18__Think_X,bus,helicopter,bus_context_18,A group of visitors purchased day passes at the terminal.,far,0.8103676527879544,1.0087510899450691,-0.1983834371571149,Think X,False,"Think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: A group of visitors purchased day passes at the terminal.
+Answer with one short phrase."
+bus__bus_context_18__Think_Y,bus,helicopter,bus_context_18,A group of visitors purchased day passes at the terminal.,far,0.8103676527879544,1.0087510899450691,-0.1983834371571149,Think Y,False,"Think about helicopter instead of bus. Read the clue and briefly name the thing it brings to mind.
+Clue: A group of visitors purchased day passes at the terminal.
+Answer with one short phrase."
+bus__bus_direct_01__Avoid_X,bus,helicopter,bus_direct_01,Passengers boarded a large road vehicle at the marked stop.,near,0.4740113560814492,0.9356646339535452,-0.4616532778720961,Avoid X,False,"Do not think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: Passengers boarded a large road vehicle at the marked stop.
+Answer with one short phrase."
+bus__bus_direct_01__Base,bus,helicopter,bus_direct_01,Passengers boarded a large road vehicle at the marked stop.,near,0.4740113560814492,0.9356646339535452,-0.4616532778720961,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: Passengers boarded a large road vehicle at the marked stop.
+Answer with one short phrase."
+bus__bus_direct_01__Think_X,bus,helicopter,bus_direct_01,Passengers boarded a large road vehicle at the marked stop.,near,0.4740113560814492,0.9356646339535452,-0.4616532778720961,Think X,False,"Think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: Passengers boarded a large road vehicle at the marked stop.
+Answer with one short phrase."
+bus__bus_direct_01__Think_Y,bus,helicopter,bus_direct_01,Passengers boarded a large road vehicle at the marked stop.,near,0.4740113560814492,0.9356646339535452,-0.4616532778720961,Think Y,False,"Think about helicopter instead of bus. Read the clue and briefly name the thing it brings to mind.
+Clue: Passengers boarded a large road vehicle at the marked stop.
+Answer with one short phrase."
+bus__bus_direct_05__Avoid_X,bus,helicopter,bus_direct_05,A passenger tapped a fare card upon entering the vehicle.,medium,0.7104817691971652,0.9539034738336928,-0.2434217046365275,Avoid X,False,"Do not think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: A passenger tapped a fare card upon entering the vehicle.
+Answer with one short phrase."
+bus__bus_direct_05__Base,bus,helicopter,bus_direct_05,A passenger tapped a fare card upon entering the vehicle.,medium,0.7104817691971652,0.9539034738336928,-0.2434217046365275,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: A passenger tapped a fare card upon entering the vehicle.
+Answer with one short phrase."
+bus__bus_direct_05__Think_X,bus,helicopter,bus_direct_05,A passenger tapped a fare card upon entering the vehicle.,medium,0.7104817691971652,0.9539034738336928,-0.2434217046365275,Think X,False,"Think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: A passenger tapped a fare card upon entering the vehicle.
+Answer with one short phrase."
+bus__bus_direct_05__Think_Y,bus,helicopter,bus_direct_05,A passenger tapped a fare card upon entering the vehicle.,medium,0.7104817691971652,0.9539034738336928,-0.2434217046365275,Think Y,False,"Think about helicopter instead of bus. Read the clue and briefly name the thing it brings to mind.
+Clue: A passenger tapped a fare card upon entering the vehicle.
+Answer with one short phrase."
+bus__bus_direct_09__Avoid_X,bus,helicopter,bus_direct_09,The transit vehicle stopped at every scheduled neighborhood station.,near,0.6345641028137239,1.0046343744444912,-0.3700702716307673,Avoid X,False,"Do not think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The transit vehicle stopped at every scheduled neighborhood station.
+Answer with one short phrase."
+bus__bus_direct_09__Base,bus,helicopter,bus_direct_09,The transit vehicle stopped at every scheduled neighborhood station.,near,0.6345641028137239,1.0046343744444912,-0.3700702716307673,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The transit vehicle stopped at every scheduled neighborhood station.
+Answer with one short phrase."
+bus__bus_direct_09__Think_X,bus,helicopter,bus_direct_09,The transit vehicle stopped at every scheduled neighborhood station.,near,0.6345641028137239,1.0046343744444912,-0.3700702716307673,Think X,False,"Think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The transit vehicle stopped at every scheduled neighborhood station.
+Answer with one short phrase."
+bus__bus_direct_09__Think_Y,bus,helicopter,bus_direct_09,The transit vehicle stopped at every scheduled neighborhood station.,near,0.6345641028137239,1.0046343744444912,-0.3700702716307673,Think Y,False,"Think about helicopter instead of bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The transit vehicle stopped at every scheduled neighborhood station.
+Answer with one short phrase."
+bus__bus_negative_02__Avoid_X,bus,helicopter,bus_negative_02,The astronomer measured the brightness of a distant galaxy.,unrelated,0.8971796894167791,0.9579621578694666,-0.0607824684526875,Avoid X,False,"Do not think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The astronomer measured the brightness of a distant galaxy.
+Answer with one short phrase."
+bus__bus_negative_02__Base,bus,helicopter,bus_negative_02,The astronomer measured the brightness of a distant galaxy.,unrelated,0.8971796894167791,0.9579621578694666,-0.0607824684526875,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The astronomer measured the brightness of a distant galaxy.
+Answer with one short phrase."
+bus__bus_negative_02__Think_X,bus,helicopter,bus_negative_02,The astronomer measured the brightness of a distant galaxy.,unrelated,0.8971796894167791,0.9579621578694666,-0.0607824684526875,Think X,False,"Think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The astronomer measured the brightness of a distant galaxy.
+Answer with one short phrase."
+bus__bus_negative_02__Think_Y,bus,helicopter,bus_negative_02,The astronomer measured the brightness of a distant galaxy.,unrelated,0.8971796894167791,0.9579621578694666,-0.0607824684526875,Think Y,False,"Think about helicopter instead of bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The astronomer measured the brightness of a distant galaxy.
+Answer with one short phrase."
+bus__bus_negative_06__Avoid_X,bus,helicopter,bus_negative_06,The gardener watered tomatoes in a small greenhouse.,unrelated,1.1019181534240134,1.0039559157756812,0.0979622376483322,Avoid X,False,"Do not think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The gardener watered tomatoes in a small greenhouse.
+Answer with one short phrase."
+bus__bus_negative_06__Base,bus,helicopter,bus_negative_06,The gardener watered tomatoes in a small greenhouse.,unrelated,1.1019181534240134,1.0039559157756812,0.0979622376483322,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The gardener watered tomatoes in a small greenhouse.
+Answer with one short phrase."
+bus__bus_negative_06__Think_X,bus,helicopter,bus_negative_06,The gardener watered tomatoes in a small greenhouse.,unrelated,1.1019181534240134,1.0039559157756812,0.0979622376483322,Think X,False,"Think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The gardener watered tomatoes in a small greenhouse.
+Answer with one short phrase."
+bus__bus_negative_06__Think_Y,bus,helicopter,bus_negative_06,The gardener watered tomatoes in a small greenhouse.,unrelated,1.1019181534240134,1.0039559157756812,0.0979622376483322,Think Y,False,"Think about helicopter instead of bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The gardener watered tomatoes in a small greenhouse.
+Answer with one short phrase."
+bus__bus_negative_07__Avoid_X,bus,helicopter,bus_negative_07,A translator revised a historical manuscript after lunch.,unrelated,0.9647020228923756,1.0124764843345286,-0.0477744614421531,Avoid X,False,"Do not think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: A translator revised a historical manuscript after lunch.
+Answer with one short phrase."
+bus__bus_negative_07__Base,bus,helicopter,bus_negative_07,A translator revised a historical manuscript after lunch.,unrelated,0.9647020228923756,1.0124764843345286,-0.0477744614421531,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: A translator revised a historical manuscript after lunch.
+Answer with one short phrase."
+bus__bus_negative_07__Think_X,bus,helicopter,bus_negative_07,A translator revised a historical manuscript after lunch.,unrelated,0.9647020228923756,1.0124764843345286,-0.0477744614421531,Think X,False,"Think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: A translator revised a historical manuscript after lunch.
+Answer with one short phrase."
+bus__bus_negative_07__Think_Y,bus,helicopter,bus_negative_07,A translator revised a historical manuscript after lunch.,unrelated,0.9647020228923756,1.0124764843345286,-0.0477744614421531,Think Y,False,"Think about helicopter instead of bus. Read the clue and briefly name the thing it brings to mind.
+Clue: A translator revised a historical manuscript after lunch.
+Answer with one short phrase."
+bus__bus_negative_09__Avoid_X,bus,helicopter,bus_negative_09,The museum exhibited paintings from the early nineteenth century.,unrelated,1.0137273999256184,1.066583761540188,-0.0528563616145694,Avoid X,False,"Do not think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The museum exhibited paintings from the early nineteenth century.
+Answer with one short phrase."
+bus__bus_negative_09__Base,bus,helicopter,bus_negative_09,The museum exhibited paintings from the early nineteenth century.,unrelated,1.0137273999256184,1.066583761540188,-0.0528563616145694,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The museum exhibited paintings from the early nineteenth century.
+Answer with one short phrase."
+bus__bus_negative_09__Think_X,bus,helicopter,bus_negative_09,The museum exhibited paintings from the early nineteenth century.,unrelated,1.0137273999256184,1.066583761540188,-0.0528563616145694,Think X,False,"Think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The museum exhibited paintings from the early nineteenth century.
+Answer with one short phrase."
+bus__bus_negative_09__Think_Y,bus,helicopter,bus_negative_09,The museum exhibited paintings from the early nineteenth century.,unrelated,1.0137273999256184,1.066583761540188,-0.0528563616145694,Think Y,False,"Think about helicopter instead of bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The museum exhibited paintings from the early nineteenth century.
+Answer with one short phrase."
+bus__bus_peripheral_01__Avoid_X,bus,helicopter,bus_peripheral_01,City officials want to reduce traffic during the morning rush.,medium,0.7427729115264796,0.98901279680379,-0.2462398852773104,Avoid X,False,"Do not think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: City officials want to reduce traffic during the morning rush.
+Answer with one short phrase."
+bus__bus_peripheral_01__Base,bus,helicopter,bus_peripheral_01,City officials want to reduce traffic during the morning rush.,medium,0.7427729115264796,0.98901279680379,-0.2462398852773104,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: City officials want to reduce traffic during the morning rush.
+Answer with one short phrase."
+bus__bus_peripheral_01__Think_X,bus,helicopter,bus_peripheral_01,City officials want to reduce traffic during the morning rush.,medium,0.7427729115264796,0.98901279680379,-0.2462398852773104,Think X,False,"Think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: City officials want to reduce traffic during the morning rush.
+Answer with one short phrase."
+bus__bus_peripheral_01__Think_Y,bus,helicopter,bus_peripheral_01,City officials want to reduce traffic during the morning rush.,medium,0.7427729115264796,0.98901279680379,-0.2462398852773104,Think Y,False,"Think about helicopter instead of bus. Read the clue and briefly name the thing it brings to mind.
+Clue: City officials want to reduce traffic during the morning rush.
+Answer with one short phrase."
+bus__bus_peripheral_02__Avoid_X,bus,helicopter,bus_peripheral_02,The neighborhood built a new shelter beside the main road.,far,0.8934184576579267,1.0427523815124826,-0.1493339238545559,Avoid X,False,"Do not think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The neighborhood built a new shelter beside the main road.
+Answer with one short phrase."
+bus__bus_peripheral_02__Base,bus,helicopter,bus_peripheral_02,The neighborhood built a new shelter beside the main road.,far,0.8934184576579267,1.0427523815124826,-0.1493339238545559,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The neighborhood built a new shelter beside the main road.
+Answer with one short phrase."
+bus__bus_peripheral_02__Think_X,bus,helicopter,bus_peripheral_02,The neighborhood built a new shelter beside the main road.,far,0.8934184576579267,1.0427523815124826,-0.1493339238545559,Think X,False,"Think about bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The neighborhood built a new shelter beside the main road.
+Answer with one short phrase."
+bus__bus_peripheral_02__Think_Y,bus,helicopter,bus_peripheral_02,The neighborhood built a new shelter beside the main road.,far,0.8934184576579267,1.0427523815124826,-0.1493339238545559,Think Y,False,"Think about helicopter instead of bus. Read the clue and briefly name the thing it brings to mind.
+Clue: The neighborhood built a new shelter beside the main road.
+Answer with one short phrase."
+motorcycle__NO_CUE__Avoid_X,motorcycle,helicopter,NO_CUE,,none,,,,Avoid X,True,"Do not think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+No clue is provided.
+Answer with one short phrase."
+motorcycle__NO_CUE__Base,motorcycle,helicopter,NO_CUE,,none,,,,Base,True,"Read the clue and briefly name the thing it brings to mind.
+No clue is provided.
+Answer with one short phrase."
+motorcycle__NO_CUE__Think_X,motorcycle,helicopter,NO_CUE,,none,,,,Think X,True,"Think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+No clue is provided.
+Answer with one short phrase."
+motorcycle__NO_CUE__Think_Y,motorcycle,helicopter,NO_CUE,,none,,,,Think Y,True,"Think about helicopter instead of motorcycle. Read the clue and briefly name the thing it brings to mind.
+No clue is provided.
+Answer with one short phrase."
+motorcycle__motorcycle_context_02__Avoid_X,motorcycle,helicopter,motorcycle_context_02,The licensing school taught safe handling of powered vehicles.,near,0.6883016719940639,0.8339431949779639,-0.1456415229838999,Avoid X,False,"Do not think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The licensing school taught safe handling of powered vehicles.
+Answer with one short phrase."
+motorcycle__motorcycle_context_02__Base,motorcycle,helicopter,motorcycle_context_02,The licensing school taught safe handling of powered vehicles.,near,0.6883016719940639,0.8339431949779639,-0.1456415229838999,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The licensing school taught safe handling of powered vehicles.
+Answer with one short phrase."
+motorcycle__motorcycle_context_02__Think_X,motorcycle,helicopter,motorcycle_context_02,The licensing school taught safe handling of powered vehicles.,near,0.6883016719940639,0.8339431949779639,-0.1456415229838999,Think X,False,"Think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The licensing school taught safe handling of powered vehicles.
+Answer with one short phrase."
+motorcycle__motorcycle_context_02__Think_Y,motorcycle,helicopter,motorcycle_context_02,The licensing school taught safe handling of powered vehicles.,near,0.6883016719940639,0.8339431949779639,-0.1456415229838999,Think Y,False,"Think about helicopter instead of motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The licensing school taught safe handling of powered vehicles.
+Answer with one short phrase."
+motorcycle__motorcycle_context_07__Avoid_X,motorcycle,helicopter,motorcycle_context_07,Engine noise echoed across the valley during the rally.,medium,0.7925088078062673,0.8595203378966725,-0.0670115300904051,Avoid X,False,"Do not think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: Engine noise echoed across the valley during the rally.
+Answer with one short phrase."
+motorcycle__motorcycle_context_07__Base,motorcycle,helicopter,motorcycle_context_07,Engine noise echoed across the valley during the rally.,medium,0.7925088078062673,0.8595203378966725,-0.0670115300904051,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: Engine noise echoed across the valley during the rally.
+Answer with one short phrase."
+motorcycle__motorcycle_context_07__Think_X,motorcycle,helicopter,motorcycle_context_07,Engine noise echoed across the valley during the rally.,medium,0.7925088078062673,0.8595203378966725,-0.0670115300904051,Think X,False,"Think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: Engine noise echoed across the valley during the rally.
+Answer with one short phrase."
+motorcycle__motorcycle_context_07__Think_Y,motorcycle,helicopter,motorcycle_context_07,Engine noise echoed across the valley during the rally.,medium,0.7925088078062673,0.8595203378966725,-0.0670115300904051,Think Y,False,"Think about helicopter instead of motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: Engine noise echoed across the valley during the rally.
+Answer with one short phrase."
+motorcycle__motorcycle_context_10__Avoid_X,motorcycle,helicopter,motorcycle_context_10,The city reminded riders to use protective clothing.,medium,0.8027745667597028,0.9731349835525328,-0.1703604167928299,Avoid X,False,"Do not think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The city reminded riders to use protective clothing.
+Answer with one short phrase."
+motorcycle__motorcycle_context_10__Base,motorcycle,helicopter,motorcycle_context_10,The city reminded riders to use protective clothing.,medium,0.8027745667597028,0.9731349835525328,-0.1703604167928299,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The city reminded riders to use protective clothing.
+Answer with one short phrase."
+motorcycle__motorcycle_context_10__Think_X,motorcycle,helicopter,motorcycle_context_10,The city reminded riders to use protective clothing.,medium,0.8027745667597028,0.9731349835525328,-0.1703604167928299,Think X,False,"Think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The city reminded riders to use protective clothing.
+Answer with one short phrase."
+motorcycle__motorcycle_context_10__Think_Y,motorcycle,helicopter,motorcycle_context_10,The city reminded riders to use protective clothing.,medium,0.8027745667597028,0.9731349835525328,-0.1703604167928299,Think Y,False,"Think about helicopter instead of motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The city reminded riders to use protective clothing.
+Answer with one short phrase."
+motorcycle__motorcycle_context_16__Avoid_X,motorcycle,helicopter,motorcycle_context_16,The rally organizers marked sharp corners with warning signs.,far,0.9204153805570712,0.969507385348118,-0.0490920047910468,Avoid X,False,"Do not think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The rally organizers marked sharp corners with warning signs.
+Answer with one short phrase."
+motorcycle__motorcycle_context_16__Base,motorcycle,helicopter,motorcycle_context_16,The rally organizers marked sharp corners with warning signs.,far,0.9204153805570712,0.969507385348118,-0.0490920047910468,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The rally organizers marked sharp corners with warning signs.
+Answer with one short phrase."
+motorcycle__motorcycle_context_16__Think_X,motorcycle,helicopter,motorcycle_context_16,The rally organizers marked sharp corners with warning signs.,far,0.9204153805570712,0.969507385348118,-0.0490920047910468,Think X,False,"Think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The rally organizers marked sharp corners with warning signs.
+Answer with one short phrase."
+motorcycle__motorcycle_context_16__Think_Y,motorcycle,helicopter,motorcycle_context_16,The rally organizers marked sharp corners with warning signs.,far,0.9204153805570712,0.969507385348118,-0.0490920047910468,Think Y,False,"Think about helicopter instead of motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The rally organizers marked sharp corners with warning signs.
+Answer with one short phrase."
+motorcycle__motorcycle_context_18__Avoid_X,motorcycle,helicopter,motorcycle_context_18,The garage stocked replacement spark plugs and protective gear.,far,0.8728619625861818,1.0377144621715004,-0.1648524995853186,Avoid X,False,"Do not think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The garage stocked replacement spark plugs and protective gear.
+Answer with one short phrase."
+motorcycle__motorcycle_context_18__Base,motorcycle,helicopter,motorcycle_context_18,The garage stocked replacement spark plugs and protective gear.,far,0.8728619625861818,1.0377144621715004,-0.1648524995853186,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The garage stocked replacement spark plugs and protective gear.
+Answer with one short phrase."
+motorcycle__motorcycle_context_18__Think_X,motorcycle,helicopter,motorcycle_context_18,The garage stocked replacement spark plugs and protective gear.,far,0.8728619625861818,1.0377144621715004,-0.1648524995853186,Think X,False,"Think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The garage stocked replacement spark plugs and protective gear.
+Answer with one short phrase."
+motorcycle__motorcycle_context_18__Think_Y,motorcycle,helicopter,motorcycle_context_18,The garage stocked replacement spark plugs and protective gear.,far,0.8728619625861818,1.0377144621715004,-0.1648524995853186,Think Y,False,"Think about helicopter instead of motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The garage stocked replacement spark plugs and protective gear.
+Answer with one short phrase."
+motorcycle__motorcycle_direct_01__Avoid_X,motorcycle,helicopter,motorcycle_direct_01,The rider started the engine and gripped the handlebars.,near,0.5858981590064243,0.7764132729553544,-0.1905151139489301,Avoid X,False,"Do not think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The rider started the engine and gripped the handlebars.
+Answer with one short phrase."
+motorcycle__motorcycle_direct_01__Base,motorcycle,helicopter,motorcycle_direct_01,The rider started the engine and gripped the handlebars.,near,0.5858981590064243,0.7764132729553544,-0.1905151139489301,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The rider started the engine and gripped the handlebars.
+Answer with one short phrase."
+motorcycle__motorcycle_direct_01__Think_X,motorcycle,helicopter,motorcycle_direct_01,The rider started the engine and gripped the handlebars.,near,0.5858981590064243,0.7764132729553544,-0.1905151139489301,Think X,False,"Think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The rider started the engine and gripped the handlebars.
+Answer with one short phrase."
+motorcycle__motorcycle_direct_01__Think_Y,motorcycle,helicopter,motorcycle_direct_01,The rider started the engine and gripped the handlebars.,near,0.5858981590064243,0.7764132729553544,-0.1905151139489301,Think Y,False,"Think about helicopter instead of motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The rider started the engine and gripped the handlebars.
+Answer with one short phrase."
+motorcycle__motorcycle_direct_02__Avoid_X,motorcycle,helicopter,motorcycle_direct_02,A helmeted traveler leaned the motorized two-wheeler into the turn.,near,0.5447046907617283,0.7738372711213878,-0.2291325803596594,Avoid X,False,"Do not think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: A helmeted traveler leaned the motorized two-wheeler into the turn.
+Answer with one short phrase."
+motorcycle__motorcycle_direct_02__Base,motorcycle,helicopter,motorcycle_direct_02,A helmeted traveler leaned the motorized two-wheeler into the turn.,near,0.5447046907617283,0.7738372711213878,-0.2291325803596594,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: A helmeted traveler leaned the motorized two-wheeler into the turn.
+Answer with one short phrase."
+motorcycle__motorcycle_direct_02__Think_X,motorcycle,helicopter,motorcycle_direct_02,A helmeted traveler leaned the motorized two-wheeler into the turn.,near,0.5447046907617283,0.7738372711213878,-0.2291325803596594,Think X,False,"Think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: A helmeted traveler leaned the motorized two-wheeler into the turn.
+Answer with one short phrase."
+motorcycle__motorcycle_direct_02__Think_Y,motorcycle,helicopter,motorcycle_direct_02,A helmeted traveler leaned the motorized two-wheeler into the turn.,near,0.5447046907617283,0.7738372711213878,-0.2291325803596594,Think Y,False,"Think about helicopter instead of motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: A helmeted traveler leaned the motorized two-wheeler into the turn.
+Answer with one short phrase."
+motorcycle__motorcycle_direct_10__Avoid_X,motorcycle,helicopter,motorcycle_direct_10,The fuel tank sat between the seat and handlebars.,near,0.6146826259055022,0.922831643687708,-0.3081490177822057,Avoid X,False,"Do not think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The fuel tank sat between the seat and handlebars.
+Answer with one short phrase."
+motorcycle__motorcycle_direct_10__Base,motorcycle,helicopter,motorcycle_direct_10,The fuel tank sat between the seat and handlebars.,near,0.6146826259055022,0.922831643687708,-0.3081490177822057,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The fuel tank sat between the seat and handlebars.
+Answer with one short phrase."
+motorcycle__motorcycle_direct_10__Think_X,motorcycle,helicopter,motorcycle_direct_10,The fuel tank sat between the seat and handlebars.,near,0.6146826259055022,0.922831643687708,-0.3081490177822057,Think X,False,"Think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The fuel tank sat between the seat and handlebars.
+Answer with one short phrase."
+motorcycle__motorcycle_direct_10__Think_Y,motorcycle,helicopter,motorcycle_direct_10,The fuel tank sat between the seat and handlebars.,near,0.6146826259055022,0.922831643687708,-0.3081490177822057,Think Y,False,"Think about helicopter instead of motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The fuel tank sat between the seat and handlebars.
+Answer with one short phrase."
+motorcycle__motorcycle_direct_12__Avoid_X,motorcycle,helicopter,motorcycle_direct_12,The rider adjusted the mirrors before merging into traffic.,medium,0.7919529853912268,0.9656968852638712,-0.1737438998726445,Avoid X,False,"Do not think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The rider adjusted the mirrors before merging into traffic.
+Answer with one short phrase."
+motorcycle__motorcycle_direct_12__Base,motorcycle,helicopter,motorcycle_direct_12,The rider adjusted the mirrors before merging into traffic.,medium,0.7919529853912268,0.9656968852638712,-0.1737438998726445,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The rider adjusted the mirrors before merging into traffic.
+Answer with one short phrase."
+motorcycle__motorcycle_direct_12__Think_X,motorcycle,helicopter,motorcycle_direct_12,The rider adjusted the mirrors before merging into traffic.,medium,0.7919529853912268,0.9656968852638712,-0.1737438998726445,Think X,False,"Think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The rider adjusted the mirrors before merging into traffic.
+Answer with one short phrase."
+motorcycle__motorcycle_direct_12__Think_Y,motorcycle,helicopter,motorcycle_direct_12,The rider adjusted the mirrors before merging into traffic.,medium,0.7919529853912268,0.9656968852638712,-0.1737438998726445,Think Y,False,"Think about helicopter instead of motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The rider adjusted the mirrors before merging into traffic.
+Answer with one short phrase."
+motorcycle__motorcycle_negative_06__Avoid_X,motorcycle,helicopter,motorcycle_negative_06,The botanist recorded the growth of tropical ferns.,unrelated,1.0601550277775025,0.931225253151059,0.1289297746264435,Avoid X,False,"Do not think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The botanist recorded the growth of tropical ferns.
+Answer with one short phrase."
+motorcycle__motorcycle_negative_06__Base,motorcycle,helicopter,motorcycle_negative_06,The botanist recorded the growth of tropical ferns.,unrelated,1.0601550277775025,0.931225253151059,0.1289297746264435,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The botanist recorded the growth of tropical ferns.
+Answer with one short phrase."
+motorcycle__motorcycle_negative_06__Think_X,motorcycle,helicopter,motorcycle_negative_06,The botanist recorded the growth of tropical ferns.,unrelated,1.0601550277775025,0.931225253151059,0.1289297746264435,Think X,False,"Think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The botanist recorded the growth of tropical ferns.
+Answer with one short phrase."
+motorcycle__motorcycle_negative_06__Think_Y,motorcycle,helicopter,motorcycle_negative_06,The botanist recorded the growth of tropical ferns.,unrelated,1.0601550277775025,0.931225253151059,0.1289297746264435,Think Y,False,"Think about helicopter instead of motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The botanist recorded the growth of tropical ferns.
+Answer with one short phrase."
+motorcycle__motorcycle_negative_09__Avoid_X,motorcycle,helicopter,motorcycle_negative_09,A ceramic artist painted a detailed pattern on a bowl.,unrelated,1.0378356395929569,1.0069937995126907,0.0308418400802661,Avoid X,False,"Do not think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: A ceramic artist painted a detailed pattern on a bowl.
+Answer with one short phrase."
+motorcycle__motorcycle_negative_09__Base,motorcycle,helicopter,motorcycle_negative_09,A ceramic artist painted a detailed pattern on a bowl.,unrelated,1.0378356395929569,1.0069937995126907,0.0308418400802661,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: A ceramic artist painted a detailed pattern on a bowl.
+Answer with one short phrase."
+motorcycle__motorcycle_negative_09__Think_X,motorcycle,helicopter,motorcycle_negative_09,A ceramic artist painted a detailed pattern on a bowl.,unrelated,1.0378356395929569,1.0069937995126907,0.0308418400802661,Think X,False,"Think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: A ceramic artist painted a detailed pattern on a bowl.
+Answer with one short phrase."
+motorcycle__motorcycle_negative_09__Think_Y,motorcycle,helicopter,motorcycle_negative_09,A ceramic artist painted a detailed pattern on a bowl.,unrelated,1.0378356395929569,1.0069937995126907,0.0308418400802661,Think Y,False,"Think about helicopter instead of motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: A ceramic artist painted a detailed pattern on a bowl.
+Answer with one short phrase."
+motorcycle__motorcycle_negative_10__Avoid_X,motorcycle,helicopter,motorcycle_negative_10,The nutritionist described the vitamins found in leafy vegetables.,unrelated,0.9608280044546248,0.9666246710856928,-0.0057966666310679,Avoid X,False,"Do not think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The nutritionist described the vitamins found in leafy vegetables.
+Answer with one short phrase."
+motorcycle__motorcycle_negative_10__Base,motorcycle,helicopter,motorcycle_negative_10,The nutritionist described the vitamins found in leafy vegetables.,unrelated,0.9608280044546248,0.9666246710856928,-0.0057966666310679,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The nutritionist described the vitamins found in leafy vegetables.
+Answer with one short phrase."
+motorcycle__motorcycle_negative_10__Think_X,motorcycle,helicopter,motorcycle_negative_10,The nutritionist described the vitamins found in leafy vegetables.,unrelated,0.9608280044546248,0.9666246710856928,-0.0057966666310679,Think X,False,"Think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The nutritionist described the vitamins found in leafy vegetables.
+Answer with one short phrase."
+motorcycle__motorcycle_negative_10__Think_Y,motorcycle,helicopter,motorcycle_negative_10,The nutritionist described the vitamins found in leafy vegetables.,unrelated,0.9608280044546248,0.9666246710856928,-0.0057966666310679,Think Y,False,"Think about helicopter instead of motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The nutritionist described the vitamins found in leafy vegetables.
+Answer with one short phrase."
+motorcycle__motorcycle_negative_11__Avoid_X,motorcycle,helicopter,motorcycle_negative_11,The student calculated the area of a geometric shape.,unrelated,0.9964230736690128,0.9480415583945112,0.0483815152745017,Avoid X,False,"Do not think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The student calculated the area of a geometric shape.
+Answer with one short phrase."
+motorcycle__motorcycle_negative_11__Base,motorcycle,helicopter,motorcycle_negative_11,The student calculated the area of a geometric shape.,unrelated,0.9964230736690128,0.9480415583945112,0.0483815152745017,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The student calculated the area of a geometric shape.
+Answer with one short phrase."
+motorcycle__motorcycle_negative_11__Think_X,motorcycle,helicopter,motorcycle_negative_11,The student calculated the area of a geometric shape.,unrelated,0.9964230736690128,0.9480415583945112,0.0483815152745017,Think X,False,"Think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The student calculated the area of a geometric shape.
+Answer with one short phrase."
+motorcycle__motorcycle_negative_11__Think_Y,motorcycle,helicopter,motorcycle_negative_11,The student calculated the area of a geometric shape.,unrelated,0.9964230736690128,0.9480415583945112,0.0483815152745017,Think Y,False,"Think about helicopter instead of motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The student calculated the area of a geometric shape.
+Answer with one short phrase."
+motorcycle__motorcycle_peripheral_02__Avoid_X,motorcycle,helicopter,motorcycle_peripheral_02,An engine repair shop opened beside the industrial estate.,far,0.94019847678521,0.9890764223154992,-0.0488779455302891,Avoid X,False,"Do not think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: An engine repair shop opened beside the industrial estate.
+Answer with one short phrase."
+motorcycle__motorcycle_peripheral_02__Base,motorcycle,helicopter,motorcycle_peripheral_02,An engine repair shop opened beside the industrial estate.,far,0.94019847678521,0.9890764223154992,-0.0488779455302891,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: An engine repair shop opened beside the industrial estate.
+Answer with one short phrase."
+motorcycle__motorcycle_peripheral_02__Think_X,motorcycle,helicopter,motorcycle_peripheral_02,An engine repair shop opened beside the industrial estate.,far,0.94019847678521,0.9890764223154992,-0.0488779455302891,Think X,False,"Think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: An engine repair shop opened beside the industrial estate.
+Answer with one short phrase."
+motorcycle__motorcycle_peripheral_02__Think_Y,motorcycle,helicopter,motorcycle_peripheral_02,An engine repair shop opened beside the industrial estate.,far,0.94019847678521,0.9890764223154992,-0.0488779455302891,Think Y,False,"Think about helicopter instead of motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: An engine repair shop opened beside the industrial estate.
+Answer with one short phrase."
+motorcycle__motorcycle_peripheral_07__Avoid_X,motorcycle,helicopter,motorcycle_peripheral_07,The city introduced stricter limits on traffic noise.,far,0.9232109305787688,1.0484300524754149,-0.1252191218966459,Avoid X,False,"Do not think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The city introduced stricter limits on traffic noise.
+Answer with one short phrase."
+motorcycle__motorcycle_peripheral_07__Base,motorcycle,helicopter,motorcycle_peripheral_07,The city introduced stricter limits on traffic noise.,far,0.9232109305787688,1.0484300524754149,-0.1252191218966459,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: The city introduced stricter limits on traffic noise.
+Answer with one short phrase."
+motorcycle__motorcycle_peripheral_07__Think_X,motorcycle,helicopter,motorcycle_peripheral_07,The city introduced stricter limits on traffic noise.,far,0.9232109305787688,1.0484300524754149,-0.1252191218966459,Think X,False,"Think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The city introduced stricter limits on traffic noise.
+Answer with one short phrase."
+motorcycle__motorcycle_peripheral_07__Think_Y,motorcycle,helicopter,motorcycle_peripheral_07,The city introduced stricter limits on traffic noise.,far,0.9232109305787688,1.0484300524754149,-0.1252191218966459,Think Y,False,"Think about helicopter instead of motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: The city introduced stricter limits on traffic noise.
+Answer with one short phrase."
+motorcycle__motorcycle_peripheral_14__Avoid_X,motorcycle,helicopter,motorcycle_peripheral_14,A popular touring route crosses several high mountain passes.,medium,0.8046601731567264,0.839434361583817,-0.0347741884270905,Avoid X,False,"Do not think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: A popular touring route crosses several high mountain passes.
+Answer with one short phrase."
+motorcycle__motorcycle_peripheral_14__Base,motorcycle,helicopter,motorcycle_peripheral_14,A popular touring route crosses several high mountain passes.,medium,0.8046601731567264,0.839434361583817,-0.0347741884270905,Base,False,"Read the clue and briefly name the thing it brings to mind.
+Clue: A popular touring route crosses several high mountain passes.
+Answer with one short phrase."
+motorcycle__motorcycle_peripheral_14__Think_X,motorcycle,helicopter,motorcycle_peripheral_14,A popular touring route crosses several high mountain passes.,medium,0.8046601731567264,0.839434361583817,-0.0347741884270905,Think X,False,"Think about motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: A popular touring route crosses several high mountain passes.
+Answer with one short phrase."
+motorcycle__motorcycle_peripheral_14__Think_Y,motorcycle,helicopter,motorcycle_peripheral_14,A popular touring route crosses several high mountain passes.,medium,0.8046601731567264,0.839434361583817,-0.0347741884270905,Think Y,False,"Think about helicopter instead of motorcycle. Read the clue and briefly name the thing it brings to mind.
+Clue: A popular touring route crosses several high mountain passes.
+Answer with one short phrase."
