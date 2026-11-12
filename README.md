@@ -11,6 +11,7 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 | **[研究概要](docs/research_overview.md)** | 背景、研究目的、Research Question、研究の意義 |
 | **[分析手法と測定指標](docs/methods.md)** | Probe、Generation、Logit Lens、意味的距離の扱い |
 | **[実験設計と分析計画](docs/experimental_design.md)** | 4条件、比較方法、実験規模案、分析の順序 |
+| **[本実験プロトコル案（2026-11-12）](docs/main_experiment_protocol.md)** | 使用環境・モデル選定理由・Cue設計・4条件・Probe・Logit Lens・分析計画・再現性 |
 | **[現在の進捗と次の課題](docs/current_status.md)** | 直近の検証結果、残っている課題、次の作業 |
 | **[実験記録・資料一覧](docs/experiment_index.md)** | 日付別の実験、コード、データ、発表資料へのリンク |
 
