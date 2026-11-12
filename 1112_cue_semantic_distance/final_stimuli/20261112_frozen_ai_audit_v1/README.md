@@ -3,7 +3,7 @@
 > **状態：FROZEN FOR PILOT / AI-AUDITED / HUMAN REVIEW PENDING**  
 > **重要：** ここでいう「監査」はAIアシスタントによる文章内容の点検。独立した人間の評価者による確認や、実際のQwen生成結果による妥当性検証は**まだ行っていない**。研究論文で「人手で検証済み」と記載しない。
 
-[研究プロトコル](../../docs/main_experiment_protocol.md) · [Cue選定ノートブック](../cue_semantic_distance_selection.ipynb) · [選定時の実測結果](../results/20261112_cue_distance_pilot_v1/analysis_summary.md)
+[研究プロトコル](../../../docs/main_experiment_protocol.md) · [Cue選定ノートブック](../../cue_semantic_distance_selection.ipynb) · [選定時の実測結果](../../results/20261112_cue_distance_pilot_v1/analysis_summary.md)
 
 ## 1. 結論
 
