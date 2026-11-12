@@ -14,6 +14,16 @@
 
 **基本方針：** Probeを内部表現の主要な定量分析、Generationを実際の出力結果、Logit Lensを層別の補助的・探索的分析として位置づける。
 
+### 2026年11月12日：パイロットの測定計画
+
+[実験プロトコル](main_experiment_protocol.md)・[最新の進捗](current_status.md)に従い、Qwen2.5-0.5B-Instructと実測済み64 Cueを使う。出力の明示／意味的X言及を第一の観察指標とする。Probeの**ROC-AUCは検証データ上での測定器性能**であり、パイロット中は前回の学習係数を固定した**同一X/Y・同一層内の条件差**を計測する。Logit Lensは層方向の補助的分析とする。
+
+- [100概念v2の結果](../1111_qwen_probe_100concepts_v2/results/20261112_qwen100_richer_dedup_v2/analysis_summary.md)：69概念を評価し、12概念が探索的安定基準を満たした。
+- [新規184文による独立確認](../1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md)：16ターゲット中、FDR感度分析後に4概念が複数Y・複数距離帯で再現した。
+- [Cueの距離計測・AI監査](../1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md)：64 Cueをパイロット用に固定。**人手確認・抑制パイロットは未実施**。
+
+
+
 ## 2. Probe（プロービング）
 
 ### 目的
