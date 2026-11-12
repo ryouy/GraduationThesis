@@ -21,7 +21,7 @@ Prepare stimuli *before running* the main suppression experiment. This notebook 
 | Additional measures | target-name distance, Y definition distance, X−Y distance gap |
 | Related selection | 4 each: near (bottom 30% of relevant candidates), medium (35–65% ranks), far (top 30%); evenly sampled within region |
 | Negative control | 4 unrelated cues per target, separate from far |
-| Provisional selected set | **64 cues** |
+| Provisional selected set | **64 cues** (subsequently AI-audited: 17 replaced, 47 retained) |
 | Final eligibility | Manual review of naturalness, correctness, weak relevance for far cues, lexical diversity, cross-concept ambiguity, and X/Y influence |
 
 The candidate pool consists of 240 newly authored English sentences, embedded inside the notebook, with deliberately different direct, contextual, peripheral and unrelated formulations. The initial candidate validation verifies no concept-name leakage, duplicate text or extremely short/long sentences.
@@ -38,7 +38,7 @@ The immutable output directory is:
 
 Outputs include `cue_candidates.csv`, `cue_selected_PROVISIONAL.csv`, `cue_review_template.csv`, `distance_separation_audit.csv`, `cue_distance_distributions.png`, `analysis_summary.md`, `config.json`, `manifest.json`, and an archive.
 
-**State:** Source code created, 240-candidate input validation performed, and selection logic tested with clearly labeled mock distances. **Actual all-mpnet-base-v2 distances have not yet been measured; selected stimuli are not final.** Do not cite unrun results as numerical findings. Any human-rejected cue must be replaced in a new version before the suppression experiment.
+**Updated status (2026-11-12):** The Colab notebook has been **executed**; 240 real `all-mpnet-base-v2` distances and 64 provisional cues are saved under [results/20261112_cue_distance_pilot_v1](results/20261112_cue_distance_pilot_v1/analysis_summary.md). A subsequent **AI-only** review checked all 64 provisional cues and replaced 17 with previously unused measured candidates. The final **pilot-frozen, AI-audited** 64-cue set is [here](final_stimuli/20261112_frozen_ai_audit_v1/README.md), with the [CSV for the pilot](final_stimuli/20261112_frozen_ai_audit_v1/cue_final_FROZEN_AI_AUDITED.csv). Human validation remains **PENDING**. The original notebook's automatic selection is **not** the final frozen selection, and should not be rerun to overwrite the audited set.
 
 ## Prior evidence
 
