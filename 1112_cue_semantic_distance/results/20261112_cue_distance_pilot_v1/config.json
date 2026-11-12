@@ -1,0 +1,59 @@
+{
+  "run_id": "20261112_cue_distance_pilot_v1",
+  "status": "PROVISIONAL_REQUIRES_HUMAN_REVIEW",
+  "embedder": "sentence-transformers/all-mpnet-base-v2",
+  "embedder_revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+  "seed": 20261112,
+  "targets": {
+    "boat": {
+      "y": "bus",
+      "definition": "A boat is a relatively small watercraft that carries people or goods across rivers, lakes, or seas."
+    },
+    "bus": {
+      "y": "helicopter",
+      "definition": "A bus is a large road vehicle that carries many passengers along scheduled public transport routes."
+    },
+    "bicycle": {
+      "y": "submarine",
+      "definition": "A bicycle is a human-powered two-wheeled vehicle propelled by pedals and steered with handlebars."
+    },
+    "motorcycle": {
+      "y": "helicopter",
+      "definition": "A motorcycle is a motor-powered two-wheeled road vehicle ridden using handlebars, a seat, and an engine."
+    }
+  },
+  "comparator_definitions": {
+    "bus": "A bus is a large road vehicle that carries many passengers along scheduled public transport routes.",
+    "helicopter": "A helicopter is an aircraft that uses rotating blades to take off vertically and fly through the air.",
+    "submarine": "A submarine is an underwater watercraft that travels below the surface of the sea."
+  },
+  "selection": {
+    "candidate_per_target": 60,
+    "related_per_target": 48,
+    "negative_per_target": 12,
+    "near_rank_max": 0.3,
+    "medium_rank_range": [
+      0.35,
+      0.65
+    ],
+    "far_rank_min": 0.7,
+    "selected_per_band": 4,
+    "target_word_distance_auxiliary": true,
+    "human_review_required": true,
+    "qwen_outputs_used_for_selection": false
+  },
+  "packages": {
+    "python": "3.13.18",
+    "torch": "2.14.1+cpu",
+    "sentence_transformers": "5.7.0",
+    "pandas": "2.2.3",
+    "numpy": "2.4.6"
+  },
+  "caveats": [
+    "Distance quantiles depend on the authored candidate pool and are not absolute semantic proximity.",
+    "The 4 target concepts are all vehicles; conclusions cannot be generalized to other categories.",
+    "Far cues require positive human relevance review; negative controls are distinct.",
+    "Cue authorship is not independent of the study hypothesis; blind human auditing is recommended.",
+    "Semantic distance is associated with sentence semantics, specificity, and length; not isolated causally."
+  ]
+}
