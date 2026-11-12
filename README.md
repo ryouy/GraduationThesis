@@ -29,16 +29,21 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 
 本研究では「禁止すると逆に考えてしまう」という結果を前提にしません。抑制・増幅・距離による違い・明確な変化なしのいずれも、測定の妥当性を確認したうえで研究結果として扱います。
 
-## 現在の状況
+## 現在の状況（2026年11月12日）
 
-<sub>2026年11月11日更新。最新のProbe再解析は11月11日実行。</sub>
+**本実験に向けた準備から、4概念のパイロット実験へ移る段階。** Qwen2.5-0.5B-Instructをパイロット用LLM、all-mpnet-base-v2を意味的距離の測定モデルとして採用する。
 
-- モデル比較・質問形式・採点処理・Probeの予備検証を実施。
-- Phi-3.5 miniは次の確認候補だが、固定評価の基準を満たしておらず、本実験への採用は保留。
-- **11月11日のProbe再解析：** 元の評価文の平均AUC 0.9996に対し、新しい説明文では0.8436。シャッフルラベルでもAUC 1.0が6.91%生じた。概念・文面依存性を確認し、[詳細な結果と解釈](1110_probe_reanalysis/FINDINGS_20261111.md)を記録。
-- **本実験に使うモデル・課題・測定方法は未確定。** まず課題と測定方法を検証し、採用基準を固定してから本実験へ進む。
+| 段階 | 実施内容 | 現在の到達点 |
+|---|---|---|
+| 従来のProbe測定検証 | [Phiの再解析](1110_probe_reanalysis/FINDINGS_20261111.md) | 既存文平均AUC 0.9996に対し新規文0.8436。汎化・ラベル置換の検証が必要と判明 |
+| Qwenでの候補探索 | [100概念v2の結果](1111_qwen_probe_100concepts_v2/results/20261112_qwen100_richer_dedup_v2/analysis_summary.md) | 100候補中69概念が評価可能、32ペア・12ターゲットが探索的基準を通過 |
+| 新規説明文による再確認 | [独立文検証結果](1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md) | 16ターゲット中、FDR感度分析後も4概念（boat / bus / bicycle / motorcycle）が複数距離帯で再現 |
+| Cueの作成・距離測定 | [240候補の測定](1112_cue_semantic_distance/results/20261112_cue_distance_pilot_v1/analysis_summary.md) | 4概念×60文の距離計測完了。64文を暫定選定 |
+| Cueの内容監査・固定 | [固定刺激と17文差し替え記録](1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md) | 64文中17文を元の候補から差し替え。各概念で近・中・遠の範囲は重複なし。**AI監査済み、人手評価は未実施** |
 
-詳細は **[現在の進捗と次の課題](docs/current_status.md)** を参照。
+**次の作業：** [パイロット実験プロトコル](docs/main_experiment_protocol.md)に従い、凍結したCueを使って4条件（Base / Think X / Avoid X / Think Y）の生成・Probe・Logit Lens測定を行う。モデルの回答形式・Probeの適用可能性・判定方法はパイロットで診断する。**抑制指示の効果については、まだ結果が出ていない。**
+
+詳細は[最新の進捗](docs/current_status.md)と[実験一覧](docs/experiment_index.md)を参照。
 
 ## リポジトリの構成
 
@@ -49,12 +54,16 @@ GraduationThesis/
 │   ├── research_overview.md   # 研究目的・問い・意義
 │   ├── methods.md             # 分析手法・測定指標
 │   ├── experimental_design.md # 実験条件・分析計画
+│   ├── main_experiment_protocol.md # パイロット・本実験の方法と評価
 │   ├── current_status.md      # 進捗・課題・次の作業
 │   └── experiment_index.md    # 過去の実験・資料への索引
 ├── 1015/ ... 1019/             # 初期の実験記録
 ├── 1103_*/                    # 11月3日の追加検証
 ├── 1104_*/                    # 11月4日のモデル・課題・Probe検証
-├── 1110_probe_reanalysis/      # Probe再解析・11月11日結果
+├── 1110_probe_reanalysis/      # Phi Probe再解析
+├── 1111_qwen_probe_100concepts_v2/ # Qwen概念候補の探索
+├── 1112_qwen_probe_independent_confirmation/ # 未使用説明文での独立検証
+├── 1112_cue_semantic_distance/ # Cue距離実測・監査・固定
 ├── Interim_Posters/           # 中間ポスター
 └── lab_meeting_slides/        # 研究室ミーティング資料
 ```
@@ -67,7 +76,7 @@ GraduationThesis/
 - 古いREADMEは [README_previous_20261103.md](README_previous_20261103.md) に保存しています。旧状況の参照用であり、現在の方針には最新のドキュメントを優先してください。
 
 
-## 最新のProbe再解析結果（2026-11-11）
+## 過去のProbe再解析結果（2026-11-11・Phi）
 
 **[結果の要約・統計上の注意・全CSVリンク](1110_probe_reanalysis/FINDINGS_20261111.md)** · [GitHub保存結果](1110_probe_reanalysis/results/20261111_173427/) · [Colabで再現](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1110_probe_reanalysis/probe_reanalysis_and_independent_generalization.ipynb)
 
