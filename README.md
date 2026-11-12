@@ -41,7 +41,7 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 | Cueの作成・距離測定 | [240候補の測定](1112_cue_semantic_distance/results/20261112_cue_distance_pilot_v1/analysis_summary.md) | 4概念×60文の距離計測完了。64文を暫定選定 |
 | Cueの内容監査・固定 | [固定刺激と17文差し替え記録](1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md) | 64文中17文を元の候補から差し替え。各概念で近・中・遠の範囲は重複なし。**AI監査済み、人手評価は未実施** |
 
-**次の作業：** [パイロット実験プロトコル](docs/main_experiment_protocol.md)に従い、凍結したCueを使って4条件（Base / Think X / Avoid X / Think Y）の生成・Probe・Logit Lens測定を行う。モデルの回答形式・Probeの適用可能性・判定方法はパイロットで診断する。**抑制指示の効果については、まだ結果が出ていない。**
+**次の作業：** [実行用Colabパイロット](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1112_qwen_suppression_pilot/qwen_suppression_pilot_4concepts.ipynb)で、凍結したCueを使って4条件（Base / Think X / Avoid X / Think Y）の生成・Probe・Logit Lens測定を行う（[実行手順](1112_qwen_suppression_pilot/README.md)）。**ノートブック作成・模擬集計テスト済み、GPUでの本実行は未実施。**モデルの回答形式・Probeの適用可能性・判定方法はパイロットで診断する。**抑制指示の効果については、まだ結果が出ていない。**
 
 詳細は[最新の進捗](docs/current_status.md)と[実験一覧](docs/experiment_index.md)を参照。
 
@@ -64,6 +64,7 @@ GraduationThesis/
 ├── 1111_qwen_probe_100concepts_v2/ # Qwen概念候補の探索
 ├── 1112_qwen_probe_independent_confirmation/ # 未使用説明文での独立検証
 ├── 1112_cue_semantic_distance/ # Cue距離実測・監査・固定
+├── 1112_qwen_suppression_pilot/ # 抑制指示×距離の実行用Colab
 ├── Interim_Posters/           # 中間ポスター
 └── lab_meeting_slides/        # 研究室ミーティング資料
 ```
