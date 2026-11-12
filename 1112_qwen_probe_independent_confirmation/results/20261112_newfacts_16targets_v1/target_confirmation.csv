@@ -1,0 +1,17 @@
+target,tier,frozen_comparisons,n_confirmed_unadjusted,n_confirmed_bands_unadjusted,replicated_two_bands_unadjusted,n_confirmed_fdr,n_confirmed_bands_fdr,replicated_two_bands_fdr,confirmed_ys_unadjusted,mean_L24_new_auc,near_auc,medium_auc,far_auc
+bus,primary,5,5,3,True,4,3,True,"boat, motorcycle, bicycle, submarine, helicopter",0.965625,1.0,0.9140625,1.0
+boat,primary,4,4,3,True,3,2,True,"train, bicycle, bus, motorcycle",1.0,1.0,1.0,1.0
+motorcycle,primary,5,4,2,True,2,2,True,"bus, train, helicopter, submarine",0.915625,0.765625,0.9140625,0.9921875
+bicycle,primary,4,3,3,True,3,3,True,"boat, train, submarine",0.9453125,1.0,0.890625,1.0
+submarine,primary,3,3,2,True,0,0,False,"car, bus, motorcycle",0.984375,,0.953125,1.0
+train,secondary,2,2,1,False,1,1,False,"boat, bicycle",0.9765625,,0.9765625,
+ant,primary,2,1,1,False,1,1,False,dragonfly,0.90625,,0.828125,0.984375
+dragonfly,primary,3,1,1,False,1,1,False,ant,0.8697916666666666,0.84375,0.8828125,
+elephant,secondary,2,1,1,False,1,1,False,lion,0.8828125,,,0.8828125
+butterfly,primary,4,0,0,False,0,0,False,,0.84765625,0.84375,0.828125,0.859375
+car,secondary,2,0,0,False,0,0,False,,0.796875,,0.796875,
+jellyfish,primary,3,0,0,False,0,0,False,,0.6979166666666666,0.625,0.859375,0.609375
+moth,primary,2,0,0,False,0,0,False,,0.7890625,,0.78125,0.796875
+scorpion,secondary,2,0,0,False,0,0,False,,0.84375,,0.84375,
+starfish,primary,2,0,0,False,0,0,False,,0.640625,,0.625,0.65625
+wolf,primary,2,0,0,False,0,0,False,,0.7578125,0.6875,0.828125,
