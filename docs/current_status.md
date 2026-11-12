@@ -38,6 +38,9 @@
 
 ## 3. 次に行う作業：抑制指示パイロット
 
+**実行用ノートブック作成済み（ColabでのGPU実行はまだ）。** [実行手順](../1112_qwen_suppression_pilot/README.md) · [Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1112_qwen_suppression_pilot/qwen_suppression_pilot_4concepts.ipynb)。272入力・5生成反復、元の学習ベクトルから凍結Probeを再構成、24層Logit Lens、17分割のリモートチェックポイント、任意のAPI意味判定を実装。コードは静的検査・模擬データ集計のテスト済みだが、実際のQwen推論・最終層Logit Lens整合性テストは**Colabで実行されるまで未検証**。
+
+
 1. [固定刺激CSV](../1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/cue_final_FROZEN_AI_AUDITED.csv)を原本として読み、Cueを**生成の結果に合わせて変更しない**。
 2. [プロトコル](main_experiment_protocol.md)の4指示条件、各5反復、Cueなし対照を実装。Qwenモデルrevision、生成パラメータ、乱数とプロンプトのハッシュを保存。
 3. 出力は「辞書による明示的X言及」と「APIを使った意味的X言及」を分け、判定条件や判定モデルを固定する。API利用不可なら未評価として残し、無理に自動判定したことにしない。
