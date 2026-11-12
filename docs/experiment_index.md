@@ -14,6 +14,7 @@
 | **[1111_qwen_probe_100concepts_v2](../1111_qwen_probe_100concepts_v2/README.md)** | **説明文を各8+8に増量。69概念を評価し、探索的に12ターゲットが複数距離帯で条件を満たした。** [レポート](../1111_qwen_probe_100concepts_v2/results/20261112_qwen100_richer_dedup_v2/analysis_summary.md) |
 | **[1112_qwen_probe_independent_confirmation](../1112_qwen_probe_independent_confirmation/README.md)** | **新たな184文（23概念）で確認。16ターゲット中、FDR感度分析後に4ターゲットが複数距離帯で再現。** [レポート](../1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md) |
 | **[1112_cue_semantic_distance](../1112_cue_semantic_distance/README.md)** | **240候補の実測、64文の暫定選択、17文交換を含むAI内容監査。** [距離結果](../1112_cue_semantic_distance/results/20261112_cue_distance_pilot_v1/analysis_summary.md)・[監査と固定刺激64文](../1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md) |
+| **[1112_qwen_suppression_pilot](../1112_qwen_suppression_pilot/README.md)** | **抑制指示×実測Cueのパイロット：272入力、5反復、固定Probe、全24層Logit Lens、別工程の意味的言及API判定。** [Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1112_qwen_suppression_pilot/qwen_suppression_pilot_4concepts.ipynb)。**コード作成済み・GPU未実行。** |
 | [本実験プロトコル](main_experiment_protocol.md) | 環境、指示条件、Cue・Probe・Logit Lens、出力採点、統計解析と再現性。**Qwen抑制パイロットは未実行** |
 
 **状態の区別：** Probe探索は本実験の抑制効果の検証ではない。CueはAI監査によるパイロット用固定版で、人間の独立評定は未実施。
