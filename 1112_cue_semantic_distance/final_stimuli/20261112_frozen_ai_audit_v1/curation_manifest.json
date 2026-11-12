@@ -1,0 +1,90 @@
+{
+  "status": "FROZEN_FOR_PILOT_AI_REVIEWED_HUMAN_PENDING",
+  "source_run": "20261112_cue_distance_pilot_v1",
+  "base_candidate_count": 240,
+  "original_count": 64,
+  "final_count": 64,
+  "number_replaced": 17,
+  "all_items_from_original_240": true,
+  "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+  "embedding_revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+  "downstream_generation_and_probe_consulted": false,
+  "source_provenance": "assistant_authored_2026-11-12",
+  "human_verified": false,
+  "limitations": [
+    "AI review is not a substitute for independent human rating",
+    "Embedding distance and target definitional framing remain unchanged from input candidate set",
+    "Some far cues have a weaker link to X by design",
+    "Positive association with Y may still influence X/Y probe margin"
+  ],
+  "replacements": {
+    "bicycle_peripheral_17": [
+      "bicycle_context_17",
+      "A compact hand pump and reflective jacket keep a plausible cycling link without naming X."
+    ],
+    "bicycle_peripheral_14": [
+      "bicycle_context_05",
+      "Bike-rack context is more closely linked to a bicycle than generic fitness-center hours."
+    ],
+    "bicycle_context_09": [
+      "bicycle_context_04",
+      "Tire check before a race is a plausible cycle maintenance context; other vehicles remain possible."
+    ],
+    "bicycle_peripheral_15": [
+      "bicycle_peripheral_10",
+      "Reflective clothing for evening travel is a weak but plausible riding cue, unlike an unrelated festival crossing."
+    ],
+    "boat_peripheral_05": [
+      "boat_context_14",
+      "Passengers at a landing stage convey a weak but genuine water-transport connection."
+    ],
+    "boat_peripheral_15": [
+      "boat_peripheral_13",
+      "A coastal lighthouse retains indirect navigation relevance, unlike generic overnight winds."
+    ],
+    "boat_peripheral_04": [
+      "boat_context_15",
+      "Canal sightseeing supports the watercraft context better than generic travel plans."
+    ],
+    "bus_peripheral_15": [
+      "bus_context_18",
+      "Buying day passes at a terminal is less generic than a timetable in a community center."
+    ],
+    "bus_peripheral_12": [
+      "bus_peripheral_02",
+      "Roadside shelter is a plausible weak transit cue, rather than employer start times."
+    ],
+    "bus_peripheral_05": [
+      "bus_context_12",
+      "A waiting shelter after classes is more relevant to public transport than slippery streets."
+    ],
+    "bus_context_09": [
+      "bus_context_14",
+      "Transfer station has a stronger link to public transit than passing shops."
+    ],
+    "bus_peripheral_16": [
+      "bus_context_01",
+      "A timetable beside a shelter better evokes public road transport than a national survey."
+    ],
+    "motorcycle_peripheral_11": [
+      "motorcycle_peripheral_07",
+      "Traffic noise rules plausibly connect to powered road vehicles; clothing store is generic."
+    ],
+    "motorcycle_peripheral_05": [
+      "motorcycle_context_16",
+      "Rally corner warnings have a stronger riding connection than generic service-station hours."
+    ],
+    "motorcycle_context_09": [
+      "motorcycle_context_10",
+      "Protective clothing for riders is less ambiguous than luggage for a road trip."
+    ],
+    "motorcycle_peripheral_06": [
+      "motorcycle_context_07",
+      "Rally engine noise is more connected to motorcycle use than a generic motorsport event."
+    ],
+    "motorcycle_peripheral_04": [
+      "motorcycle_direct_02",
+      "A helmeted motorized two-wheeler is more specific than generic road-safety equipment."
+    ]
+  }
+}
