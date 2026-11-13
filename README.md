@@ -29,21 +29,16 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 
 本研究では「禁止すると逆に考えてしまう」という結果を前提にしません。抑制・増幅・距離による違い・明確な変化なしのいずれも、測定の妥当性を確認したうえで研究結果として扱います。
 
-## 現在の状況（2026年11月12日）
+## 現在の状況（2026年11月13日）
 
-**本実験に向けた準備から、4概念のパイロット実験へ移る段階。** Qwen2.5-0.5B-Instructをパイロット用LLM、all-mpnet-base-v2を意味的距離の測定モデルとして採用する。
+**4概念・64 Cueの抑制指示パイロットが完了。** Qwen2.5-0.5B-Instructで**272入力・1,360回答**を生成し、凍結Probe（第22/23/24層）、Logit Lens（全24層）、**意味的言及のAPI判定1,360件**まで取得した。Cueなし対照も実施した。
 
-| 段階 | 実施内容 | 現在の到達点 |
-|---|---|---|
-| 従来のProbe測定検証 | [Phiの再解析](1110_probe_reanalysis/FINDINGS_20261111.md) | 既存文平均AUC 0.9996に対し新規文0.8436。汎化・ラベル置換の検証が必要と判明 |
-| Qwenでの候補探索 | [100概念v2の結果](1111_qwen_probe_100concepts_v2/results/20261112_qwen100_richer_dedup_v2/analysis_summary.md) | 100候補中69概念が評価可能、32ペア・12ターゲットが探索的基準を通過 |
-| 新規説明文による再確認 | [独立文検証結果](1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md) | 16ターゲット中、FDR感度分析後も4概念（boat / bus / bicycle / motorcycle）が複数距離帯で再現 |
-| Cueの作成・距離測定 | [240候補の測定](1112_cue_semantic_distance/results/20261112_cue_distance_pilot_v1/analysis_summary.md) | 4概念×60文の距離計測完了。64文を暫定選定 |
-| Cueの内容監査・固定 | [固定刺激と17文差し替え記録](1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md) | 64文中17文を元の候補から差し替え。各概念で近・中・遠の範囲は重複なし。**AI監査済み、人手評価は未実施** |
+- **[結果の統合解釈と今後の課題](1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/INTERPRETATION_20261113.md)**：関連Cueの出力でThink Xの明示的言及56.3%、Avoid X34.6%、Base7.5%。厳格な意味的同定ではThink X34.2%、Avoid X22.9%、Base12.5%。
+- [コア実験の結果](1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/analysis_summary.md) · [意味的言及の結果](1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/semantic_grading/20261112_semantic_grader_gpt6luna_v1/analysis_semantic.md) · [Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1112_qwen_suppression_pilot/qwen_suppression_pilot_4concepts.ipynb)。
+- **解釈上の重要な注意：** Avoid Xの指示文はXの名称を含むため、Baseとの差を純粋な逆説的抑制効果とは断定できない。意味的言及APIは**Xそのものの同定**という狭い指標で、単語言及と146件不一致。Cueの人間による独立監査は未実施。
+- **次の作業：** 判定不一致／保留例の人手監査、Cue単位の条件差と距離の交互作用の確認、必要ならX語提示だけの中立条件を追加した**別バージョン**のパイロット。
 
-**次の作業：** [実行用Colabパイロット](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1112_qwen_suppression_pilot/qwen_suppression_pilot_4concepts.ipynb)で、凍結したCueを使って4条件（Base / Think X / Avoid X / Think Y）の生成・Probe・Logit Lens測定を行う（[実行手順](1112_qwen_suppression_pilot/README.md)）。**ノートブック作成・模擬集計テスト済み、GPUでの本実行は未実施。**モデルの回答形式・Probeの適用可能性・判定方法はパイロットで診断する。**抑制指示の効果については、まだ結果が出ていない。**
-
-詳細は[最新の進捗](docs/current_status.md)と[実験一覧](docs/experiment_index.md)を参照。
+研究の準備段階は[Probeの再検証](1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md)と[Cue距離計測・17文差し替え](1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md)に記録。以前の実験結果は変更せず維持している。
 
 ## リポジトリの構成
 
