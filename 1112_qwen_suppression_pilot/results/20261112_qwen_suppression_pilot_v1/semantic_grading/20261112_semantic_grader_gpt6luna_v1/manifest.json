@@ -1,0 +1,17 @@
+{
+  "actual_grader_models": [
+    "gpt-6-luna"
+  ],
+  "caveat": "Do not equate related mentions with identity judgments; uncertain excluded from yes count",
+  "completed_utc": "2026-11-13T02:53:44.354873+00:00",
+  "generation_response_sha256": "a9a96e4ba814b4f9a454eaa330f06b77fcd2caefbbbc5bb7a9b12691231efc22",
+  "grade_batch_size": 40,
+  "graded_count": 1360,
+  "grader_model_requested": "gpt-6-luna",
+  "grader_prompt_sha256": "891afe471dadafefd3d2c48497d31c904bb40441bf4f95a3278e4bab8a3895ff",
+  "grader_schema_sha256": "5cee0168f6426c791caec3864f5324166db9d70e6116c969407b5a0fdfd404d2",
+  "human_validation": "PENDING",
+  "number_responses": 1360,
+  "source_run": "20261112_qwen_suppression_pilot_v1",
+  "status": "COMPLETED_API_SEMANTIC_GRADING"
+}
