@@ -2,17 +2,17 @@
 
 [← リポジトリのトップへ戻る](../README.md) · [本実験プロトコル](main_experiment_protocol.md) · [実験一覧](experiment_index.md)
 
-> **最終更新：2026年11月12日。** このページを現在の進捗の基準とする。下部の11月4日〜11日の結果は歴史的な記録であり、当時の「未確定」という判断を現在の判断と混同しない。
+> **最終更新：2026年11月13日。** このページを現在の進捗の基準とする。下部の11月4日〜11日の結果は歴史的な記録であり、当時の「未確定」という判断を現在の判断と混同しない。
 
 ## 1. 現時点の判断
 
-**4概念を使用した「抑制指示×Cueの意味的距離」パイロットに進む準備が整った。** 主LLMは `Qwen/Qwen2.5-0.5B-Instruct`（revision `7ae557604adf67be50417f59c2c2f167def9a775`）、距離計測モデルは `sentence-transformers/all-mpnet-base-v2`（今回の実測revision `e8c3b32edf5434bc2275fc9bab85f82640a19130`）。これは**パイロット用の決定**であり、モデルや評価方法の本実験採用を無条件に保証するものではない。
+**4概念を使用した「抑制指示×Cueの意味的距離」パイロットを完了し、出力・内部表現・意味的言及を取得した。** 主LLMは `Qwen/Qwen2.5-0.5B-Instruct`（revision `7ae557604adf67be50417f59c2c2f167def9a775`）、距離計測モデルは `sentence-transformers/all-mpnet-base-v2`（今回の実測revision `e8c3b32edf5434bc2275fc9bab85f82640a19130`）。これは**パイロット用の決定**であり、モデルや評価方法の本実験採用を無条件に保証するものではない。
 
 - **X：** boat / bus / bicycle / motorcycle。独立した新規文章で複数Y・距離帯のProbe識別が比較的安定した4概念。**全て乗り物**で一般化可能性は未確認。
 - **Y（固定）：** boat→bus、bus→helicopter、bicycle→submarine、motorcycle→helicopter。
 - **Cue：** 4概念×16文＝64文。近・中・遠×各4文＋無関係4文。240候補から実測距離で選択し、AI内容監査で17文を差し替え済み。
 - **現在の刺激状態：** `FROZEN FOR PILOT / AI-AUDITED / HUMAN REVIEW PENDING`。独立した人間の関連性評定は未実施。
-- **パイロットの観察指標：** 出力の明示・意味的言及率、凍結ProbeのX/Y相対判別スコア、層別Logit Lens。抑制効果の実測は**まだない**。
+- **パイロットの観察指標：** 出力の明示・意味的言及率、凍結ProbeのX/Y相対判別スコア、層別Logit Lens。実測結果は[パイロットの統合解釈](../1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/INTERPRETATION_20261113.md)を参照。
 
 ## 2. 2026年11月12日までの到達結果
 
@@ -36,19 +36,25 @@
 
 4概念とも、**各帯の実測距離範囲も非重複**。ただし距離帯を分けられたことと、Cueの連想妥当性・実際の抑制効果は別の問題である。
 
-## 3. 次に行う作業：抑制指示パイロット
+## 3. 2026年11月13日：パイロット完了・次の課題
 
-**実行用ノートブック作成済み（ColabでのGPU実行はまだ）。** [実行手順](../1112_qwen_suppression_pilot/README.md) · [Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1112_qwen_suppression_pilot/qwen_suppression_pilot_4concepts.ipynb)。272入力・5生成反復、元の学習ベクトルから凍結Probeを再構成、24層Logit Lens、17分割のリモートチェックポイント、任意のAPI意味判定を実装。コードは静的検査・模擬データ集計のテスト済みだが、実際のQwen推論・最終層Logit Lens整合性テストは**Colabで実行されるまで未検証**。
+**[パイロット統合解釈](../1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/INTERPRETATION_20261113.md)** · [コア集計](../1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/analysis_summary.md) · [API判定集計](../1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/semantic_grading/20261112_semantic_grader_gpt6luna_v1/analysis_semantic.md)
 
+- Qwenで272ユニーク入力、1,360回答、17チャンクのチェックポイントが完了。凍結Probeの第22・23・24層と全24層Logit Lensも保存。最終層logits一致最大誤差4.9591e-05。
+- 意味的言及APIは全1,360件判定し、**17件がuncertain**（正例に含めない）。
+- **関連Cueだけ**では、明示的X言及率はBase **7.5%**、Think X **56.3%**、Avoid X **34.6%**、Think Y **8.8%**。意味的に**Xそのものを同定**した率は順に **12.5% / 34.2% / 22.9% / 11.3%**。
+- Avoid Xでの意味的同定はCue近 **51.3%**、中 **12.5%**、遠 **5.0%**。Think Xでも近 **55.0%**、中 **26.3%**、遠 **21.3%**と減少する。交互作用は探索的な記述段階。
+- **明示的言及と厳格なX同定は異なる指標**で、1,360件中146件の判定不一致。API判定は人手の正解ラベルではない。
+- 第24層ProbeのAvoid−Think X差は4概念中3つで負、boatだけ正。X/Y相対識別であり、概念の絶対活性量とは言わない。
 
-1. [固定刺激CSV](../1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/cue_final_FROZEN_AI_AUDITED.csv)を原本として読み、Cueを**生成の結果に合わせて変更しない**。
-2. [プロトコル](main_experiment_protocol.md)の4指示条件、各5反復、Cueなし対照を実装。Qwenモデルrevision、生成パラメータ、乱数とプロンプトのハッシュを保存。
-3. 出力は「辞書による明示的X言及」と「APIを使った意味的X言及」を分け、判定条件や判定モデルを固定する。API利用不可なら未評価として残し、無理に自動判定したことにしない。
-4. 生成前の共通測定位置でHidden Stateを取得。過去の学習ベクトルだけから凍結X/Y Probeを再構成し、各層の判別スコアを**同一Probe内の条件差**として扱う。過去のROC-AUCは本実験でのX活性量ではない。
-5. Logit Lensでは各層の正規化・出力ヘッド・tokenizer分割を確認し、主に探索的な層別図を作る。
-6. パイロットの実行結果と問題点を記録してから、本実験の概念範囲・刺激・採点規則を最終的に決定する。
+### 次に確認すること
 
-**未完了：** パイロットQwenの生成／内部測定、APIによる意味判定、人間による独立Cue評価、他カテゴリへの一般化検証。現時点で「Avoid XがXを抑制する／逆に促す」とは言えない。
+1. 辞書とAPI判定の不一致146件、API保留17件を優先する**人間の内容監査**。一致ケースも層化抽出し、採点器自体の妥当性を点検。
+2. Cue単位の対応差、概念別の距離傾向、近・中・遠と**文章の具体性の交絡**を整理。
+3. Xの単語提示だけの効果を統制する条件（例：中立的なX提示）を新バージョンで設計。結果を見て既存Cueを選び直さない。
+4. 対象を乗り物以外へ広げる前に、刺激の独立人手評価と内部Probeの適用妥当性を確認。
+
+**重要：** Avoid＞Baseを「禁止したため逆に思考量が増えた」と断定しない。BaseにはXの単語がない一方、Avoid / Think XにはXの語が含まれ、語提示の交絡がある。
 
 ## 4. 過去のモデル・課題・Probe診断（2026年11月4日〜11日）
 
