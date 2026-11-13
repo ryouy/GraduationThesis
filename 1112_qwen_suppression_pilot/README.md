@@ -4,7 +4,7 @@
 
 [Colabノートブック](qwen_suppression_pilot_4concepts.ipynb) · [本実験のプロトコル](../docs/main_experiment_protocol.md) · [固定した64 Cue](../1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md) · [事前の独立Probe検証](../1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md)
 
-> **状態：実行用Colab作成・静的テストと模擬集計テスト済み。QwenのGPU推論・実際の言及率・API判定は未実施。** `COMPLETED_...` はColab実行後に結果がアップロードされた場合にのみ成立する。
+> **状態：パイロット本実行・意味的言及API判定とも完了（2026-11-13確認）。** コア結果：272入力、1,360生成、固定Probe、全24層Logit Lens。API意味判定1,360件（保留17件）。**[結果の統合解釈](results/20261112_qwen_suppression_pilot_v1/INTERPRETATION_20261113.md)**。人間による評価は未実施。
 
 ## 1. 目的
 
@@ -86,4 +86,6 @@ APIキー・GitHub PATはノートブックやGitHub上のCSVに書き込まな�
 - [64文のAI監査・17文差し替え](../1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md)：パイロット用の刺激を固定。**独立した人間による妥当性評価は未実施**。
 - [最新の実験プロトコル](../docs/main_experiment_protocol.md)：出力と内部表現の比較で注意する交絡や評価規則。
 
-**未実施**：GPU上の生成、Logit Lens実測、API判定、独立した人間のCue評定。結果が出るまで抑制効果について結論しない。
+**実施済み**：GPU生成・Logit Lens実測・API判定。**未実施**：独立した人間のCue・応答ラベル評定、より広い概念カテゴリでの確認。結果は探索的で、語提示の交絡を分離していないため抑制の逆説的効果は断定しない。
+
+[コア結果](results/20261112_qwen_suppression_pilot_v1/analysis_summary.md) · [API判定](results/20261112_qwen_suppression_pilot_v1/semantic_grading/20261112_semantic_grader_gpt6luna_v1/analysis_semantic.md) · [統合解釈](results/20261112_qwen_suppression_pilot_v1/INTERPRETATION_20261113.md)
