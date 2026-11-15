@@ -75,4 +75,4 @@
 
 **内部表現を測るときは、先に行動側の回答位置・トークン化・語頻度バイアスを点検すること。** 案Bで概念をProbeする際も、比較対象の違いをきちんと統制する必要がある。
 
-**生データ**：`zhou_behavior_v3.csv`、`zhou_layer_lens_v3.csv`（[v3結果ZIP](../1015/results_v3/20261016T054754Z/)）。
+**生データ**：`zhou_behavior_v3.csv`、`zhou_layer_lens_v3.csv`（[v3結果ZIP](../experiments/2026-10/1015/results_v3/20261016T054754Z/)）。

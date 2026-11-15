@@ -138,6 +138,6 @@ Layer 24の関連刺激条件における平均X-vs-Y Probeスコアは、Neutra
 - 関連刺激の意味的距離を実際に数値化・操作していない。
 - Probeで読めることと、その情報が生成を因果的に決めることは別。
 
-**生データ**：`concept_probe_validation_v3.csv`、`concept_probe_measurements_v3.csv`、`concept_probe_DID_v3.csv`、`concept_probe_paired_contrasts_v3.csv`（[v3結果ZIP](../1015/results_v3/20261016T054754Z/)）。
+**生データ**：`concept_probe_validation_v3.csv`、`concept_probe_measurements_v3.csv`、`concept_probe_DID_v3.csv`、`concept_probe_paired_contrasts_v3.csv`（[v3結果ZIP](../experiments/2026-10/1015/results_v3/20261016T054754Z/)）。
 
 **次の一歩**：関連・無関連という二分法を、意味的距離の**複数水準**へ拡張し、語長・語頻度・文型を統制して検証する。

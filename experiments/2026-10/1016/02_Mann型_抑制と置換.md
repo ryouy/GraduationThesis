@@ -82,6 +82,6 @@
 4. 同一乱数は比較しやすくする工夫であり、生成の確率的な変動を消すものではない。
 5. 妨害文の長さや指示文自体の違いも生成に影響するため、「忘却」や「抑制回路」は直接検証していない。
 
-**生データ**：`mann_generations_v3.csv`、`mann_per_concept_v3.csv`、`cue_paired_contrasts_v3.csv`（[v3結果ZIP](../1015/results_v3/20261016T054754Z/)に収録）。
+**生データ**：`mann_generations_v3.csv`、`mann_per_concept_v3.csv`、`cue_paired_contrasts_v3.csv`（[v3結果ZIP](../experiments/2026-10/1015/results_v3/20261016T054754Z/)に収録）。
 
 **卒論への接続**：関連・無関連という2分割で差があるなら、次は**意味的距離を複数段階に分けて、内部表現まで調べる**。
