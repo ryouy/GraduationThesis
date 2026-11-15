@@ -1,6 +1,6 @@
 """Recompute v2/v3 aggregates from saved prompt-level scores; no model access.
 
-Run from any directory: python 1103_review/audit_saved_results.py
+Run from any directory: python experiments/2026-11/1103_review/audit_saved_results.py
 Bootstrap resamples concept pairs, never individual layer/cue rows.
 """
 from pathlib import Path
@@ -9,7 +9,7 @@ import json
 import numpy as np
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[3]
 OUT = Path(__file__).resolve().parent / 'results'
 
 
@@ -53,8 +53,8 @@ def rebuild_v3(m):
 
 def main():
     OUT.mkdir(exist_ok=True)
-    v2 = ROOT/'1019/results_v2/20261019T133851060426Z'
-    v3 = ROOT/'1019/results_v3/20261020T070234997011Z'
+    v2 = ROOT/'experiments/2026-10/1019/results_v2/20261019T133851060426Z'
+    v3 = ROOT/'experiments/2026-10/1019/results_v3/20261020T070234997011Z'
     m2 = pd.read_csv(v2/'06_layerwise_pre_post_measurements.csv')
     m3 = pd.read_csv(v3/'03_all_layer_target_aligned_pre_post.csv')
     checks = {}

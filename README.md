@@ -45,7 +45,7 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 
 **[月別の実験一覧](experiments/README.md)** · [研究段階別の実験索引](docs/experiment_index.md) · [現在の進捗](docs/current_status.md)
 
-実験の記録は月別一覧と研究段階別索引の両方から参照できます。日付別の実験ディレクトリ本体は `experiments/2026-10/` と `experiments/2026-11/` に配置しています。
+実験の記録は月別一覧と研究段階別索引の両方から参照できます。日付別の実験ディレクトリは experiments/2026-10/ と experiments/2026-11/ に移動しました。
 
 ## リポジトリの構成
 
@@ -60,9 +60,9 @@ GraduationThesis/
 │   ├── current_status.md      # 進捗・課題・次の作業
 │   └── experiment_index.md    # 過去の実験・資料への索引
 ├── experiments/
-│   ├── README.md              # 月別の実験ナビゲーション
-│   ├── 2026-10/              # 10月の実験（1015〜1019）
-│   └── 2026-11/              # 11月の実験（1103〜1112）
+│   ├── README.md
+│   ├── 2026-10/               # 10月の実験
+│   └── 2026-11/               # 11月の実験
 ├── Interim_Posters/           # 中間ポスター
 └── lab_meeting_slides/        # 研究室ミーティング資料
 ```

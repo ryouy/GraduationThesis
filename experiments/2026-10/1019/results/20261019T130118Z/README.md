@@ -25,4 +25,4 @@ Unfiltered raw scores are preserved. Concept count n=8; bootstrap intervals expl
 01-04_*.png - visualization; optional 05 behavior graphic
 metadata.json - run configuration and all limitations
 
-Original code: 1019/semantic_distance_layer_probe.ipynb
+Original code: experiments/2026-10/1019/semantic_distance_layer_probe.ipynb

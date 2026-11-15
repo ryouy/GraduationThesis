@@ -1,8 +1,8 @@
 from pathlib import Path
 import sys,json,time,hashlib,gc,traceback,importlib.util,argparse
 import pandas as pd
-ROOT=Path(__file__).resolve().parents[1];HERE=Path(__file__).resolve().parent
-spec=importlib.util.spec_from_file_location('frozen_grade',ROOT/'1103_fresh_check/run.py');grader=importlib.util.module_from_spec(spec);spec.loader.exec_module(grader)
+ROOT=Path(__file__).resolve().parents[3];HERE=Path(__file__).resolve().parent
+spec=importlib.util.spec_from_file_location('frozen_grade',ROOT/'experiments/2026-11/1103_fresh_check/run.py');grader=importlib.util.module_from_spec(spec);spec.loader.exec_module(grader)
 SYSTEM='You are a helpful assistant.'
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def main():
@@ -15,7 +15,7 @@ def main():
  import torch,transformers
  from transformers import AutoTokenizer,AutoModelForCausalLM,GenerationConfig
  entries=json.loads((args.out/'resolved_models.json').read_text());entry=next(e for e in entries if e['key']==args.key);out=args.out/args.key;out.mkdir(exist_ok=True)
- m=dict(status='RUNNING',**entry,system=SYSTEM,precision='float16',attention='sdpa',quantized=False,hashes={p.name:sha(p) for p in [Path(__file__),HERE/'PLAN.md',HERE/'models.json']},questions_sha256=sha(ROOT/'1103_fresh_check/results/answers.csv'),rules_sha256=sha(ROOT/'1103_fresh_check/rules.json'))
+ m=dict(status='RUNNING',**entry,system=SYSTEM,precision='float16',attention='sdpa',quantized=False,hashes={p.name:sha(p) for p in [Path(__file__),HERE/'PLAN.md',HERE/'models.json']},questions_sha256=sha(ROOT/'experiments/2026-11/1103_fresh_check/results/answers.csv'),rules_sha256=sha(ROOT/'experiments/2026-11/1103_fresh_check/rules.json'))
  def save(): (out/'manifest.json').write_text(json.dumps(m,indent=2)+'\n')
  save()
  try:
@@ -33,7 +33,7 @@ def main():
   if pad is None:pad=eos[0] if isinstance(eos,list) else eos
   config=GenerationConfig(do_sample=False,num_beams=1,max_new_tokens=32,repetition_penalty=1.0,eos_token_id=eos,pad_token_id=pad,bos_token_id=tok.bos_token_id,use_cache=True)
   m['generation_config']=config.to_dict();save()
-  questions=pd.read_csv(ROOT/'1103_fresh_check/results/answers.csv',keep_default_na=False);assert len(questions)==42 and questions.item_id.is_unique
+  questions=pd.read_csv(ROOT/'experiments/2026-11/1103_fresh_check/results/answers.csv',keep_default_na=False);assert len(questions)==42 and questions.item_id.is_unique
   rows=[];tokenrows=[];torch.cuda.reset_peak_memory_stats();start=time.perf_counter()
   for i,r in enumerate(questions.itertuples()):
    rendered=tok.apply_chat_template([{'role':'system','content':SYSTEM},{'role':'user','content':r.prompt}],tokenize=False,add_generation_prompt=True)

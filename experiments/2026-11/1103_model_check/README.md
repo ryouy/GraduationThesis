@@ -13,8 +13,8 @@
 
 回答の自動採点は、正しい対象名を含み、他の5候補名を含まないことを条件とする。表記揺れや同義語を取りこぼす可能性があるため、原回答も確認する。曖昧／無関連手がかりにXを正解とは置かない。
 
-検証：`python 1103_model_check/verify.py 1103_model_check/results`。
-集計・図の再作成：`python 1103_model_check/analyze.py 1103_model_check/results`。
+検証：`python experiments/2026-11/1103_model_check/verify.py experiments/2026-11/1103_model_check/results`。
+集計・図の再作成：`python experiments/2026-11/1103_model_check/analyze.py experiments/2026-11/1103_model_check/results`。
 
 ## 実行結果（Colab T4・FP32、両モデル完了）
 

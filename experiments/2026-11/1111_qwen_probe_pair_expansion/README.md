@@ -1,6 +1,6 @@
 # Concept Probe — Expanded comparison-pair screening
 
-**[Open in Google Colab (CPU)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1111_qwen_probe_pair_expansion/qwen_probe_pair_expansion_cpu.ipynb)**
+**[Open in Google Colab (CPU)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1111_qwen_probe_pair_expansion/qwen_probe_pair_expansion_cpu.ipynb)**
 
 [Notebook source](qwen_probe_pair_expansion_cpu.ipynb)
 

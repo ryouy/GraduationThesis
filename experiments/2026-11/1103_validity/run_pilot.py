@@ -3,7 +3,7 @@ from pathlib import Path
 import argparse,json,re,hashlib,sys,itertools
 import numpy as np
 import pandas as pd
-ROOT=Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).resolve().parents[3]
 HERE=Path(__file__).resolve().parent
 PAIRS={'banana':'apple','elephant':'giraffe','piano':'violin'}
 LAYERS=[22,23,24]
@@ -25,7 +25,7 @@ def build(fmt,condition,target,text):
     return content,end
 
 def inputs():
-    cues=pd.read_csv(ROOT/'1019/results_v2/20261019T133851060426Z/01_stimulus_distances_and_ranks.csv')
+    cues=pd.read_csv(ROOT/'experiments/2026-10/1019/results_v2/20261019T133851060426Z/01_stimulus_distances_and_ranks.csv')
     cues=cues[cues.concept.isin(PAIRS)].copy()
     rows=[]
     for c in cues.itertuples():
@@ -42,7 +42,7 @@ def main():
     ap=argparse.ArgumentParser();ap.add_argument('--out',type=Path,required=True);ap.add_argument('--dry-run',action='store_true');args=ap.parse_args()
     out=args.out;out.mkdir(parents=True,exist_ok=True)
     design=inputs();design.to_csv(out/'design.csv',index=False)
-    bank=json.loads((ROOT/'1019/probe_description_bank_v2.json').read_text())
+    bank=json.loads((ROOT/'experiments/2026-10/1019/probe_description_bank_v2.json').read_text())
     held=json.loads((HERE/'heldout_descriptions.json').read_text())
     for x,y in PAIRS.items():
         for label in ['x','y']:

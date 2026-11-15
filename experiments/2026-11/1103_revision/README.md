@@ -48,4 +48,4 @@ Xに近い文ほどYにも近い傾向が強い。同じカテゴリ内の比較
 
 ## 再実行・検証
 
-`measurement_revision.ipynb` をColab T4で実行。`python 1103_revision/verify_results.py 1103_revision/results` で保存データの集計を再検証できる。モデル・埋め込みのrevision、コード・計画・評価文hashをmanifestへ保存した。グラフは `results/revision_summary.png`。原回答は `results/answers.csv`。
+`measurement_revision.ipynb` をColab T4で実行。`python experiments/2026-11/1103_revision/verify_results.py experiments/2026-11/1103_revision/results` で保存データの集計を再検証できる。モデル・埋め込みのrevision、コード・計画・評価文hashをmanifestへ保存した。グラフは `results/revision_summary.png`。原回答は `results/answers.csv`。

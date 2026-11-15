@@ -12,7 +12,7 @@ assert sum(r['prior_content_review']!='' for r in a)==216
 s=read('summary.csv')
 expected={'phi3_5mini':(34,6),'qwen1_5b':(27,3),'qwen3b':(26,6),'qwen7b':(28,6)}
 for r in s:
- if r['source_path'].startswith('1104_model_comparison/'):
+ if r['source_path'].startswith('experiments/2026-11/1104_model_comparison/'):
   key=r['source_path'].split('/')[-2];assert (int(r['naming_correct_adjudicated']),int(r['none_correct_v2']))==expected[key]
  elif r['condition']=='B_best_match':assert (r['naming_correct_adjudicated'],r['none_correct_v2'])==('47','12')
  else:assert (r['naming_correct_adjudicated'],r['none_correct_v2'])==('44','12')

@@ -7,7 +7,7 @@ H=Path(__file__).resolve().parent
 class AnalysisTest(unittest.TestCase):
  def test_pairing_and_detect_tampering(self):
   q=pd.read_csv(H/'questions.csv',keep_default_na=False)
-  old=pd.read_csv(H.parent/'1104_phi_validation/results/20261104T012418280152Z/phi3_5mini/answers.csv',keep_default_na=False).set_index('item_id')
+  old=pd.read_csv(H.parent/'experiments/2026-11/1104_phi_validation/results/20261104T012418280152Z/phi3_5mini/answers.csv',keep_default_na=False).set_index('item_id')
   with tempfile.TemporaryDirectory() as tmp:
    root=Path(tmp);out=root/'phi3_5mini';out.mkdir();rows=[];tokens=[]
    for r in q.itertuples():

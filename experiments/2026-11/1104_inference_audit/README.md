@@ -8,7 +8,7 @@
 
 この実験は既に評価した問題での実装診断であり、新規集合での性能評価ではない。実行環境内での差の再現を確認し、ライブラリやGPU一般への結論は出さない。
 
-保存結果の検証：`python 1104_inference_audit/verify.py 1104_inference_audit/results`。
+保存結果の検証：`python experiments/2026-11/1104_inference_audit/verify.py experiments/2026-11/1104_inference_audit/results`。
 
 ## 結果：公式手順でも課題の失敗が再現
 

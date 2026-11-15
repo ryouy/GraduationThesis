@@ -4,7 +4,7 @@ import base64,hashlib,json,re
 import requests
 REPOSITORY='ryouy/GraduationThesis'
 BRANCH='main'
-PREFIX='1104_phi_prompt_diagnostic/results'
+PREFIX='experiments/2026-11/1104_phi_prompt_diagnostic/results'
 # Edit this name only if the existing Colab Secret uses another name.
 SECRET_NAME='GITHUB_TOKEN'
 SECRET_CANDIDATES=['GITHUB_TOKEN','GH_TOKEN','github_token','github_pat']

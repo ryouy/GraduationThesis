@@ -2,8 +2,8 @@ from pathlib import Path
 import sys,json,hashlib,gc,time,traceback,importlib.util
 import numpy as np
 import pandas as pd
-ROOT=Path(__file__).resolve().parents[1];HERE=Path(__file__).resolve().parent
-spec=importlib.util.spec_from_file_location('fresh_grading',ROOT/'1103_fresh_check/run.py');fresh=importlib.util.module_from_spec(spec);spec.loader.exec_module(fresh)
+ROOT=Path(__file__).resolve().parents[3];HERE=Path(__file__).resolve().parent
+spec=importlib.util.spec_from_file_location('fresh_grading',ROOT/'experiments/2026-11/1103_fresh_check/run.py');fresh=importlib.util.module_from_spec(spec);spec.loader.exec_module(fresh)
 MODEL='Qwen/Qwen2.5-1.5B-Instruct';REV='989aa7980e4cf806f80c7fef2b1adb7bc71aa306'
 SYSTEM='You are Qwen, created by Alibaba Cloud. You are a helpful assistant.'
 def main():
@@ -12,7 +12,7 @@ def main():
  ap=argparse.ArgumentParser();ap.add_argument('--out',type=Path,required=True);args=ap.parse_args();out=args.out;out.mkdir(parents=True,exist_ok=True)
  torch.manual_seed(42);torch.set_num_threads(4);torch.backends.cuda.matmul.allow_tf32=False;torch.backends.cudnn.allow_tf32=False
  assert torch.cuda.is_available()
- old=pd.read_csv(ROOT/'1103_fresh_check/results/answers.csv',keep_default_na=False);assert len(old)==42
+ old=pd.read_csv(ROOT/'experiments/2026-11/1103_fresh_check/results/answers.csv',keep_default_na=False);assert len(old)==42
  tok=AutoTokenizer.from_pretrained(MODEL,revision=REV)
  rows=[];tokens=[];meta=[];errors=[];checks=[];gpu_logits=None
  def inputs(p,official):
@@ -80,6 +80,6 @@ def main():
  for name,g in a.groupby('mode'):
   clear=g[g.target!='none'];none=g[g.target=='none'];summary.append(dict(mode=name,n=len(g),correct=int(clear.correct.sum()),clear_n=len(clear),banana_correct=int(clear[clear.target=='banana'].correct.sum()),none_correct=int(none.correct.sum()),matches_old=int(g.matches_old.sum())))
  pd.DataFrame(summary).to_csv(out/'summary.csv',index=False)
- manifest=dict(status='COMPLETED' if not errors else 'COMPLETED_WITH_ERRORS',model=MODEL,revision=REV,torch=torch.__version__,cuda=torch.version.cuda,transformers=transformers.__version__,gpu=torch.cuda.get_device_name(0),hashes={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in [Path(__file__),HERE/'PLAN.md']},previous_answers_hash=hashlib.sha256((ROOT/'1103_fresh_check/results/answers.csv').read_bytes()).hexdigest(),purpose='Implementation diagnostic on reused data; not a new validation set.',errors=len(errors))
+ manifest=dict(status='COMPLETED' if not errors else 'COMPLETED_WITH_ERRORS',model=MODEL,revision=REV,torch=torch.__version__,cuda=torch.version.cuda,transformers=transformers.__version__,gpu=torch.cuda.get_device_name(0),hashes={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in [Path(__file__),HERE/'PLAN.md']},previous_answers_hash=hashlib.sha256((ROOT/'experiments/2026-11/1103_fresh_check/results/answers.csv').read_bytes()).hexdigest(),purpose='Implementation diagnostic on reused data; not a new validation set.',errors=len(errors))
  (out/'manifest.json').write_text(json.dumps(manifest,indent=2));print(pd.DataFrame(summary).to_string(index=False),flush=True);print('INPUT IDS EQUAL',sum(x['ids_equal'] for x in checks),'/42',flush=True);print('INFERENCE AUDIT COMPLETED',flush=True)
 if __name__=='__main__':main()

@@ -2,8 +2,8 @@ from pathlib import Path
 import sys,json,re,argparse,hashlib,subprocess
 import numpy as np
 import pandas as pd
-ROOT=Path(__file__).resolve().parents[1];HERE=Path(__file__).resolve().parent
-sys.path.insert(0,str(ROOT/'1103_model_check'))
+ROOT=Path(__file__).resolve().parents[3];HERE=Path(__file__).resolve().parent
+sys.path.insert(0,str(ROOT/'experiments/2026-11/1103_model_check'))
 from run_check import build,PAIRS
 RULES=json.loads((HERE/'rules.json').read_text())
 def grade(answer,target):
@@ -13,7 +13,7 @@ def grade(answer,target):
     return dict(found='|'.join(found),negated=negated,correct=(none if target=='none' else found==[target] and not negated))
 def validate():
     items=json.loads((HERE/'items.json').read_text());previous=[]
-    for p in [ROOT/'1103_validity/heldout_descriptions.json',ROOT/'1103_revision/fresh_holdout.json',ROOT/'1019/probe_description_bank_v2.json']:
+    for p in [ROOT/'experiments/2026-11/1103_validity/heldout_descriptions.json',ROOT/'experiments/2026-11/1103_revision/fresh_holdout.json',ROOT/'experiments/2026-10/1019/probe_description_bank_v2.json']:
         def walk(o):
             if isinstance(o,str):previous.append(o.strip().lower())
             elif isinstance(o,dict):
@@ -21,7 +21,7 @@ def validate():
             elif isinstance(o,list):
                 for v in o:walk(v)
         walk(json.loads(p.read_text()))
-    for p in [ROOT/'1103_model_check/results/1.5B/answers.csv',ROOT/'1103_model_check/results/1.5B/posthoc_sanity.csv']:
+    for p in [ROOT/'experiments/2026-11/1103_model_check/results/1.5B/answers.csv',ROOT/'experiments/2026-11/1103_model_check/results/1.5B/posthoc_sanity.csv']:
         d=pd.read_csv(p,keep_default_na=False)
         previous+=d['text' if 'text' in d else 'prompt'].str.lower().tolist()
     alltexts=[]
@@ -54,7 +54,7 @@ def main():
         r=model(**b,output_hidden_states=True,use_cache=False);h=np.stack([np.stack([r.hidden_states[l][0,j].float().cpu().numpy() for l in layers]) for j in pos]);del r
         if not generate:return h
         g=model.generate(**b,do_sample=False,max_new_tokens=32,pad_token_id=tok.eos_token_id);ids=g[0,b.input_ids.shape[1]:];return h,tok.decode(ids,skip_special_tokens=True),len(ids),len(ids)==32 and int(ids[-1])!=tok.eos_token_id
-    train=pd.read_csv(ROOT/'1103_model_check/results/1.5B/training_design.csv');train=train[train.task=='naming'].copy();assert len(train)==192
+    train=pd.read_csv(ROOT/'experiments/2026-11/1103_model_check/results/1.5B/training_design.csv');train=train[train.task=='naming'].copy();assert len(train)==192
     train.to_csv(out/'training_design.csv',index=False)
     answers=[];scores=[];aucs=[];null=[]
     for x,y in PAIRS.items():
@@ -82,6 +82,6 @@ def main():
     for name,rows in [('answers',answers),('holdout_scores',scores),('probe_auc',aucs),('shuffled',null)]:pd.DataFrame(rows).to_csv(out/(name+'.csv'),index=False)
     a=pd.DataFrame(answers);summary=a.groupby('target',as_index=False).correct.agg(['sum','count']).reset_index();summary.to_csv(out/'behavior_summary.csv',index=False)
     clear=a[a.target!='none'];none=a[a.target=='none'];primary=pd.DataFrame(aucs).query('position=="assistant_start" and layer==27');thresholds=pd.DataFrame(null).groupby('pair').auc.quantile(.95)
-    manifest=dict(status='COMPLETED',model=mid,revision=rev,layers=layers,position=positions,contexts=len(a),behavior_correct=int(clear.correct.sum()),behavior_n=36,behavior_pass=bool(clear.correct.sum()>=30 and clear.groupby('target').correct.sum().min()>=4),none_correct=int(none.correct.sum()),none_pass=bool(none.correct.sum()>=5),probe_pass=bool(all(r.auc>=.8 and r.auc>thresholds[r.pair] for r in primary.itertuples())),source_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),hashes={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in [Path(__file__),HERE/'PLAN.md',HERE/'items.json',HERE/'rules.json']},training_hash=hashlib.sha256((ROOT/'1103_model_check/results/1.5B/training_design.csv').read_bytes()).hexdigest(),torch=torch.__version__,transformers=transformers.__version__,sklearn=sklearn.__version__,gpu=torch.cuda.get_device_name(0))
+    manifest=dict(status='COMPLETED',model=mid,revision=rev,layers=layers,position=positions,contexts=len(a),behavior_correct=int(clear.correct.sum()),behavior_n=36,behavior_pass=bool(clear.correct.sum()>=30 and clear.groupby('target').correct.sum().min()>=4),none_correct=int(none.correct.sum()),none_pass=bool(none.correct.sum()>=5),probe_pass=bool(all(r.auc>=.8 and r.auc>thresholds[r.pair] for r in primary.itertuples())),source_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),hashes={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in [Path(__file__),HERE/'PLAN.md',HERE/'items.json',HERE/'rules.json']},training_hash=hashlib.sha256((ROOT/'experiments/2026-11/1103_model_check/results/1.5B/training_design.csv').read_bytes()).hexdigest(),torch=torch.__version__,transformers=transformers.__version__,sklearn=sklearn.__version__,gpu=torch.cuda.get_device_name(0))
     (out/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n');print(summary.to_string(index=False),flush=True);print(primary.to_string(index=False),flush=True);print(json.dumps(manifest),flush=True);print('FRESH CHECK COMPLETED',flush=True)
 if __name__=='__main__':main()

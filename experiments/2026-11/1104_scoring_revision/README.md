@@ -54,10 +54,10 @@ v2は有限の語彙と字句規則による保守的なパーサーであり、
 全入力は固定コミット `ee04dcc06375799bff953d5cc9ff7ad3d852bf30` のGitオブジェクトから取得。入力6CSVとコードのSHA256を保存。再採点スクリプト自体はモデル・GPU・APIを使わず、元データを読み込むだけ。384回答には同じ文・同じ回答の再評価が含まれ、384独立刺激として統計解釈しない。
 
 ```sh
-python 1104_scoring_revision/test_grade_v2.py
-python 1104_scoring_revision/rescore.py
-python 1104_scoring_revision/verify_results.py
-python 1104_scoring_revision/plot.py
+python experiments/2026-11/1104_scoring_revision/test_grade_v2.py
+python experiments/2026-11/1104_scoring_revision/rescore.py
+python experiments/2026-11/1104_scoring_revision/verify_results.py
+python experiments/2026-11/1104_scoring_revision/plot.py
 ```
 
 ## 今後の利用

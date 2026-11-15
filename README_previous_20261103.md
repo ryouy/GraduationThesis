@@ -1,16 +1,16 @@
 # Graduation Thesis｜LLMにおける抑制概念と意味的距離の内部表現解析
 
-**最新：** [質問・Probe・比較概念の追加診断](1103_revision/README.md)をColab T4で実行済み（108行動入力・新評価説明36件）。拡張ProbeのゾウAUCは0.903→1.000。一方、二択順序で16/36件の回答分類が変わり、X/Y類似度も強く共変動。本実験前に課題・刺激の再設計が必要。
+**最新：** [質問・Probe・比較概念の追加診断](experiments/2026-11/1103_revision/README.md)をColab T4で実行済み（108行動入力・新評価説明36件）。拡張ProbeのゾウAUCは0.903→1.000。一方、二択順序で16/36件の回答分類が変わり、X/Y類似度も強く共変動。本実験前に課題・刺激の再設計が必要。
 
 **研究テーマ（仮題）：** *Effects of Semantic Distance on Suppressed Concept Representations in Large Language Models*  
 **モデル：** `Qwen/Qwen2.5-0.5B-Instruct`  
 **研究状況：** 予備実験・層別解析・X/Y対照実験v3を実施済み（v3実行日：2026年10月20日）。2026年11月3日に保存データの再解析とコード監査を実施。追加推論実験（4,608入力・20 Probe学習構成）もT4 GPUで実行済み。
 
-**追加実験の結果：** [2026-11-03 実測結果と限界](1103_review/results_robustness/20261103T083400Z/README.md)。
+**追加実験の結果：** [2026-11-03 実測結果と限界](experiments/2026-11/1103_review/results_robustness/20261103T083400Z/README.md)。
 
-**コード監査：** [内部表現実験v2/v3の監査・追加検証](1103_review/README.md)。v2の距離効果は未確立。v3の探索的な傾向は複数の感度分析でも同方向。以下の10月19日時点の記録には古い「未実行」表記が残るため、現状はこの検証記録を参照。
+**コード監査：** [内部表現実験v2/v3の監査・追加検証](experiments/2026-11/1103_review/README.md)。v2の距離効果は未確立。v3の探索的な傾向は複数の感度分析でも同方向。以下の10月19日時点の記録には古い「未実行」表記が残るため、現状はこの検証記録を参照。
 
-[![Open the latest v3 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1019/concept_specificity_control_v3.ipynb)
+[![Open the latest v3 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-10/1019/concept_specificity_control_v3.ipynb)
 
 ## 1. 研究で知りたいこと
 
@@ -98,19 +98,19 @@ Suppression-specific selectivity
 
 | 実験・資料 | ノートブック／解説 | 実測結果 |
 |---|---|---|
-| 10/15予備実験 | [1015/white_bear_and_zhou_pilot_v3.ipynb](1015/white_bear_and_zhou_pilot_v3.ipynb) | [10/16実行結果](1015/results_v3/20261016T054754Z/) |
-| 10/16考察ノート | [研究概要](1016/00_一ページでわかる研究の流れと予備実験.md) ／ [Concept Probe解説](1016/04_ConceptProbe_内部表現.md) ／ [研究展望](1016/05_研究展望_意味的距離と再活性化.md) | 説明資料 |
-| 10/19距離実験v1 | [1019/semantic_distance_layer_probe.ipynb](1019/semantic_distance_layer_probe.ipynb) | [v1実測結果](1019/results/20261019T130118Z/) |
-| 10/19前後比較v2 | [1019/semantic_distance_layer_probe_v2.ipynb](1019/semantic_distance_layer_probe_v2.ipynb) | [v2実測結果](1019/results_v2/20261019T133851060426Z/) |
-| **新規：X/Y対照v3** | **[1019/concept_specificity_control_v3.ipynb](1019/concept_specificity_control_v3.ipynb)** | **未実行**。実行後`1019/results_v3/<日時>/`へ保存 |
-| v3刺激・学習資料 | [X/Y/無関係の72 Cue](1019/specificity_cues_v3.csv) ／ [Probe学習・評価用記述](1019/probe_description_bank_v2.json) | 入力データ（結果ではない） |
+| 10/15予備実験 | [experiments/2026-10/1015/white_bear_and_zhou_pilot_v3.ipynb](experiments/2026-10/1015/white_bear_and_zhou_pilot_v3.ipynb) | [10/16実行結果](experiments/2026-10/1015/results_v3/20261016T054754Z/) |
+| 10/16考察ノート | [研究概要](experiments/2026-10/1016/00_一ページでわかる研究の流れと予備実験.md) ／ [Concept Probe解説](experiments/2026-10/1016/04_ConceptProbe_内部表現.md) ／ [研究展望](experiments/2026-10/1016/05_研究展望_意味的距離と再活性化.md) | 説明資料 |
+| 10/19距離実験v1 | [experiments/2026-10/1019/semantic_distance_layer_probe.ipynb](experiments/2026-10/1019/semantic_distance_layer_probe.ipynb) | [v1実測結果](experiments/2026-10/1019/results/20261019T130118Z/) |
+| 10/19前後比較v2 | [experiments/2026-10/1019/semantic_distance_layer_probe_v2.ipynb](experiments/2026-10/1019/semantic_distance_layer_probe_v2.ipynb) | [v2実測結果](experiments/2026-10/1019/results_v2/20261019T133851060426Z/) |
+| **新規：X/Y対照v3** | **[experiments/2026-10/1019/concept_specificity_control_v3.ipynb](experiments/2026-10/1019/concept_specificity_control_v3.ipynb)** | **未実行**。実行後`experiments/2026-10/1019/results_v3/<日時>/`へ保存 |
+| v3刺激・学習資料 | [X/Y/無関係の72 Cue](experiments/2026-10/1019/specificity_cues_v3.csv) ／ [Probe学習・評価用記述](experiments/2026-10/1019/probe_description_bank_v2.json) | 入力データ（結果ではない） |
 
 ### Colabで実行する
 
 1. 上部の**Open in Colab**ボタンからv3ノートブックを開く。
 2. ColabのランタイムをGPU（T4）へ変更し「すべてのセルを実行」する。
 3. GitHubへCSV・PNG・JSONを自動アップロードするには、Colab Secrets `GITHUB_RESULTS_TOKEN` に、対象リポジトリに`Contents: Read and write`権限のあるトークンを設定してノートブックアクセスを許可する。
-4. 実行のたびにUTC実行ID別の`1019/results_v3/`フォルダが作られる。GitHubアップロードできない場合もローカルZIPで結果を取得できる。
+4. 実行のたびにUTC実行ID別の`experiments/2026-10/1019/results_v3/`フォルダが作られる。GitHubアップロードできない場合もローカルZIPで結果を取得できる。
 
 ## 5. まだ言えないことと今後の課題
 
@@ -126,4 +126,4 @@ Suppression-specific selectivity
 
 ---
 
-研究設計の記録は[1019/README.md](1019/README.md)にも掲載。**既存のノートブックと実測結果は上書きせず保存している。**
+研究設計の記録は[experiments/2026-10/1019/README.md](experiments/2026-10/1019/README.md)にも掲載。**既存のノートブックと実測結果は上書きせず保存している。**

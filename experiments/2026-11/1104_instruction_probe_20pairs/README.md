@@ -2,7 +2,7 @@
 
 状態：コードと人工特徴テストを準備。実モデルの結果はまだない。
 
-[Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1104_instruction_probe_20pairs/instruction_probe_20pairs.ipynb)
+[Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1104_instruction_probe_20pairs/instruction_probe_20pairs.ipynb)
 
 T4 GPUを選び、すべてのセルを実行。最後にGitHub mainへ検算済み結果を保存する。既存の結果を上書きしない。
 

@@ -1,6 +1,6 @@
 # 本実験前の測定妥当性パイロット：2026-11-03実行済み
 
-[Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1103_validity/measurement_validity_pilot.ipynb)
+[Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1103_validity/measurement_validity_pilot.ipynb)
 
 **結論：現在の測定・命名課題をそのまま本実験へ拡大するのは早い。** 今回の追加説明に対するProbeの汎化、読み出し位置、質問の動作に弱さが見られた。距離の効果がないという結論ではない。
 

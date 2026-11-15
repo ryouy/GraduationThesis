@@ -22,10 +22,10 @@ def main():
   temp=tempfile.TemporaryDirectory();src=Path(temp.name)
   # Read locally available git objects from this exact commit, never current main.
   paths=subprocess.check_output(['git','ls-tree','-r','--name-only',args.commit],cwd=repo,text=True).splitlines()
-  answers=[p for p in paths if p.endswith('/answers.csv') and p.startswith(('1104_model_comparison/results/','1104_phi_validation/results/','1104_phi_prompt_diagnostic/results/'))]
+  answers=[p for p in paths if p.endswith('/answers.csv') and p.startswith(('experiments/2026-11/1104_model_comparison/results/','experiments/2026-11/1104_phi_validation/results/','experiments/2026-11/1104_phi_prompt_diagnostic/results/'))]
   info={'commit':args.commit,'answer_paths':answers}
   for p in paths:
-   if p in answers or (p.endswith('/raw_answer_review.csv') and p.startswith(('1104_phi_validation/','1104_phi_prompt_diagnostic/'))):
+   if p in answers or (p.endswith('/raw_answer_review.csv') and p.startswith(('experiments/2026-11/1104_phi_validation/','experiments/2026-11/1104_phi_prompt_diagnostic/'))):
     dst=src/p;dst.parent.mkdir(parents=True,exist_ok=True);dst.write_bytes(subprocess.check_output(['git','show',args.commit+':'+p],cwd=repo))
  refs={}
  for path in src.rglob('raw_answer_review.csv'):

@@ -1,6 +1,6 @@
 # Qwen2.5-0.5B-Instruct — Concept Probe robustness, 20 pairs
 
-[**Open this notebook in Google Colab**](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1110_qwen_probe_20pairs/qwen_concept_probe_robustness_20pairs.ipynb)
+[**Open this notebook in Google Colab**](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1110_qwen_probe_20pairs/qwen_concept_probe_robustness_20pairs.ipynb)
 
 [View the notebook on GitHub](qwen_concept_probe_robustness_20pairs.ipynb)
 
@@ -29,7 +29,7 @@ The run ID is fixed to `20261110_qwen20pairs_v1`. Keep this ID to recover the sa
 The notebook saves 64-prompt feature batches to Colab storage and commits a bundle of 8 batches (512 prompts) as soon as it is complete. Checkpoints are stored under:
 
 ```
-1110_qwen_probe_20pairs/
+experiments/2026-11/1110_qwen_probe_20pairs/
   qwen_concept_probe_robustness_20pairs.ipynb
   README.md
   results/

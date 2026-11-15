@@ -1,8 +1,8 @@
 # Qwen2.5-0.5B：抑制指示 × 意味的距離のパイロット実験
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1112_qwen_suppression_pilot/qwen_suppression_pilot_4concepts.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1112_qwen_suppression_pilot/qwen_suppression_pilot_4concepts.ipynb)
 
-[Colabノートブック](qwen_suppression_pilot_4concepts.ipynb) · [本実験のプロトコル](../docs/main_experiment_protocol.md) · [固定した64 Cue](../1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md) · [事前の独立Probe検証](../1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md)
+[Colabノートブック](qwen_suppression_pilot_4concepts.ipynb) · [本実験のプロトコル](../../../docs/main_experiment_protocol.md) · [固定した64 Cue](../1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md) · [事前の独立Probe検証](../1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md)
 
 > **状態：パイロット本実行・意味的言及API判定とも完了（2026-11-13確認）。** コア結果：272入力、1,360生成、固定Probe、全24層Logit Lens。API意味判定1,360件（保留17件）。**[結果の統合解釈](results/20261112_qwen_suppression_pilot_v1/INTERPRETATION_20261113.md)**。人間による評価は未実施。
 
@@ -50,7 +50,7 @@ Cueなしの`Base`は4つのXで同じプロンプトになるため、4つの�
 
 ## 4. 実行手順
 
-1. [Colabを開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1112_qwen_suppression_pilot/qwen_suppression_pilot_4concepts.ipynb)。ランタイムを**GPU**に設定。
+1. [Colabを開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1112_qwen_suppression_pilot/qwen_suppression_pilot_4concepts.ipynb)。ランタイムを**GPU**に設定。
 2. Colab左側のSecretsに`GITHUB_RESULTS_TOKEN`を登録し、このノートブックに使用を許可。GitHubの対象リポジトリの**Contents read/write**だけを与える。
 3. 上から全セルを実行。以前の学習用特徴ベクトルはGitHubから読み込む。**本パイロットのためにProbeを再選定したり、Cueを変更したりしない**。
 4. 入力16件ごと、計**17チェックポイント**をGitHubへ保存。中断したら同じノートブックを上から再実行すると既存の検証済みチャンクを復元する。
@@ -61,7 +61,7 @@ APIキー・GitHub PATはノートブックやGitHub上のCSVに書き込まな�
 
 ### 想定する保存場所
 
-`1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/`
+`experiments/2026-11/1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/`
 
 | ファイル | 内容 |
 |---|---|
@@ -84,7 +84,7 @@ APIキー・GitHub PATはノートブックやGitHub上のCSVに書き込まな�
 - [新規184文によるProbe再評価](../1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md)：16Xから4XがFDR感度分析後にも複数Y・帯で再現。本パイロットの4Xをここから選定。
 - [Cueの距離測定](../1112_cue_semantic_distance/results/20261112_cue_distance_pilot_v1/analysis_summary.md)：240文の実測後、64文を暫定採択。
 - [64文のAI監査・17文差し替え](../1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md)：パイロット用の刺激を固定。**独立した人間による妥当性評価は未実施**。
-- [最新の実験プロトコル](../docs/main_experiment_protocol.md)：出力と内部表現の比較で注意する交絡や評価規則。
+- [最新の実験プロトコル](../../../docs/main_experiment_protocol.md)：出力と内部表現の比較で注意する交絡や評価規則。
 
 **実施済み**：GPU生成・Logit Lens実測・API判定。**未実施**：独立した人間のCue・応答ラベル評定、より広い概念カテゴリでの確認。結果は探索的で、語提示の交絡を分離していないため抑制の逆説的効果は断定しない。
 

@@ -1,6 +1,6 @@
 # Probe再解析・独立評価実験（2026-11-10）
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1110_probe_reanalysis/probe_reanalysis_and_independent_generalization.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1110_probe_reanalysis/probe_reanalysis_and_independent_generalization.ipynb)
 
 ## 実行結果（2026-11-11）
 

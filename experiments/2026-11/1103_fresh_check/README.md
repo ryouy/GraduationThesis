@@ -16,7 +16,7 @@
 
 `python -m unittest discover -s 1103_fresh_check -p 'test_*.py' -v` で同義語・否定・曖昧回答・部分一致・問題データを検査できる。
 
-保存結果は `python 1103_fresh_check/verify.py 1103_fresh_check/results` で再集計を検証し、`python 1103_fresh_check/analyze.py 1103_fresh_check/results` で図を再作成する。
+保存結果は `python experiments/2026-11/1103_fresh_check/verify.py experiments/2026-11/1103_fresh_check/results` で再集計を検証し、`python experiments/2026-11/1103_fresh_check/analyze.py experiments/2026-11/1103_fresh_check/results` で図を再作成する。
 
 ## 実測結果
 

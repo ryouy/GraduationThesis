@@ -1,6 +1,6 @@
 # Independent fresh-text confirmation for Concept Probes
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1112_qwen_probe_independent_confirmation/qwen_probe_independent_confirmation_16targets.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1112_qwen_probe_independent_confirmation/qwen_probe_independent_confirmation_16targets.ipynb)
 
 [View notebook on GitHub](qwen_probe_independent_confirmation_16targets.ipynb)
 
@@ -12,7 +12,7 @@ Confirm whether the concept Probes identified in the completed 100-concept v2 st
 - **4** secondary near-misses: car, elephant, scorpion and train.
 - **23** concepts altogether, including comparison Ys.
 - **8 new factual sentences per concept** = **184 new Qwen prompts**. New sentences were authored for this follow-up and are not copied from Wikipedia.
-- The old 8 training-example vectors per concept are restored **read-only** from `1111_qwen_probe_100concepts_v2/results/20261112_qwen100_richer_dedup_v2/checkpoints/`. The old evaluation vectors are **not** used for training.
+- The old 8 training-example vectors per concept are restored **read-only** from `experiments/2026-11/1111_qwen_probe_100concepts_v2/results/20261112_qwen100_richer_dedup_v2/checkpoints/`. The old evaluation vectors are **not** used for training.
 - Frozen comparators Y and their distance labels come from the **old** results; they are not selected based on the new texts.
 - The model, hidden-state position, layers, logistic-regression parameters, and AUC thresholds are carried over from v2.
 - Includes a lexical-overlap audit, training leave-one-example-out stability, 200 balanced label permutations per unique pair, and Benjamini–Hochberg FDR sensitivity analysis.
@@ -24,7 +24,7 @@ Open the Colab badge; select GPU (T4 is sufficient). Enable the existing `GITHUB
 
 Run all cells in order. Checkpoints and outputs are saved immutably under:
 
-`1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/`
+`experiments/2026-11/1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/`
 
 A completed run writes `analysis_summary.md`, `target_confirmation.csv`, `frozen_pair_confirmation.csv`, `distance_band_confirmation.csv`, `manifest.json`, a visualization, and a complete ZIP containing full stimulus audit data.
 

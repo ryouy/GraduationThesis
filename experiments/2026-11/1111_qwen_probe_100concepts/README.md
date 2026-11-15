@@ -1,6 +1,6 @@
 # Qwen Concept Probe: 100 concepts, controlled comparator distance
 
-**[Open in Google Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1111_qwen_probe_100concepts/qwen_probe_100concepts_semantic_distance.ipynb)**
+**[Open in Google Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1111_qwen_probe_100concepts/qwen_probe_100concepts_semantic_distance.ipynb)**
 
 [Notebook on GitHub](qwen_probe_100concepts_semantic_distance.ipynb)
 

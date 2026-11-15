@@ -1,6 +1,6 @@
 # Qwen Concept Probe: richer 100-concept validation (v2)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1111_qwen_probe_100concepts_v2/qwen_probe_100concepts_v2.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1111_qwen_probe_100concepts_v2/qwen_probe_100concepts_v2.ipynb)
 
 [Notebook on GitHub](qwen_probe_100concepts_v2.ipynb)
 

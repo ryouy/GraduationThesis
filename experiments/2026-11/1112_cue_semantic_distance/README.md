@@ -1,8 +1,8 @@
 # Cue semantic-distance selection — 4-concept pilot
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1112_cue_semantic_distance/cue_semantic_distance_selection.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1112_cue_semantic_distance/cue_semantic_distance_selection.ipynb)
 
-[Open notebook](cue_semantic_distance_selection.ipynb) · [Full experimental protocol](../docs/main_experiment_protocol.md)
+[Open notebook](cue_semantic_distance_selection.ipynb) · [Full experimental protocol](../../../docs/main_experiment_protocol.md)
 
 ## Research purpose
 
@@ -34,7 +34,7 @@ Open the Colab badge. CPU execution is sufficient; running `sentence-transformer
 
 The immutable output directory is:
 
-`1112_cue_semantic_distance/results/20261112_cue_distance_pilot_v1/`
+`experiments/2026-11/1112_cue_semantic_distance/results/20261112_cue_distance_pilot_v1/`
 
 Outputs include `cue_candidates.csv`, `cue_selected_PROVISIONAL.csv`, `cue_review_template.csv`, `distance_separation_audit.csv`, `cue_distance_distributions.png`, `analysis_summary.md`, `config.json`, `manifest.json`, and an archive.
 

@@ -15,7 +15,7 @@ import time
 import numpy as np
 import pandas as pd
 
-ROOT=Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).resolve().parents[3]
 HERE=Path(__file__).resolve().parent
 LAYERS=list(range(1,25))
 FOCUS=[22,23]
@@ -35,12 +35,12 @@ def prompt(target,condition,cue,instruction_frame,context_frame):
 
 
 def make_design():
-    old=pd.read_csv(ROOT/'1019/specificity_cues_v3.csv').assign(cue_source='original')
+    old=pd.read_csv(ROOT/'experiments/2026-10/1019/specificity_cues_v3.csv').assign(cue_source='original')
     new=pd.read_csv(HERE/'additional_cues.csv').assign(cue_source='new_authored')
     cues=pd.concat([old,new],ignore_index=True)
     rows=[]
     for family,bank,comparison in [
-        ('v2',pd.read_csv(ROOT/'1019/stimuli_v2.csv'),'replacement'),
+        ('v2',pd.read_csv(ROOT/'experiments/2026-10/1019/stimuli_v2.csv'),'replacement'),
         ('v3',cues,'comparison')]:
         for i,c in bank.iterrows():
             for role in (['X'] if family=='v2' else ['X','Y']):
@@ -253,12 +253,12 @@ def main():
                      for y,t in zip(design.comparison,design.cue_text)]
     # Preserve exact v2 distance values for comparison with saved experiment;
     # the fresh encoder similarities above are a separate sensitivity audit.
-    bank=pd.read_csv(ROOT/'1019/results_v2/20261019T133851060426Z/01_stimulus_distances_and_ranks.csv')
+    bank=pd.read_csv(ROOT/'experiments/2026-10/1019/results_v2/20261019T133851060426Z/01_stimulus_distances_and_ranks.csv')
     distances={(r.concept,r.cue_text):r.semantic_distance for r in bank.itertuples()}
     design['semantic_distance']=[distances.get((r.concept,r.cue_text),np.nan) for r in design.itertuples()]
     design['cue_token_count']=[len(tok(t,add_special_tokens=False).input_ids) for t in design.cue_text]
     design.to_csv(out/'executed_design.csv',index=False)
-    descriptions=json.loads((ROOT/'1019/probe_description_bank_v2.json').read_text())
+    descriptions=json.loads((ROOT/'experiments/2026-10/1019/probe_description_bank_v2.json').read_text())
     train_frames=['The concept is {}.\nSTATE:\n','Focus attention on {}.\nSTATE:\n']
     description_frames=['A short definition is {}.\nSTATE:\n','The subject is described as {}.\nSTATE:\n']
     test_frames=['A curator wrote about {}.\nSTATE:\n','An observer reported {}.\nSTATE:\n']
@@ -340,8 +340,8 @@ def main():
     try:commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
     except (OSError,subprocess.CalledProcessError):commit=None
     provenance={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in [
-        HERE/'run_robustness.py',HERE/'additional_cues.csv',ROOT/'1019/stimuli_v2.csv',
-        ROOT/'1019/specificity_cues_v3.csv',ROOT/'1019/probe_description_bank_v2.json']}
+        HERE/'run_robustness.py',HERE/'additional_cues.csv',ROOT/'experiments/2026-10/1019/stimuli_v2.csv',
+        ROOT/'experiments/2026-10/1019/specificity_cues_v3.csv',ROOT/'experiments/2026-10/1019/probe_description_bank_v2.json']}
     manifest.update(identity,status='COMPLETED',python=platform.python_version(),sklearn=sklearn.__version__,
         git_commit=commit,input_hashes=provenance,
         label_shuffle_control_fits=len(shuffle_controls),

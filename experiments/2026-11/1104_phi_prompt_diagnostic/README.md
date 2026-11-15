@@ -4,7 +4,7 @@
 
 **採点処理の修正版：** [v2による384回答の再採点・確認](../1104_scoring_revision/README.md)を完了。旧実験の規則とハッシュは保持し、v2のコードと結果を別に保存。
 
-[Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/1104_phi_prompt_diagnostic/phi_prompt_diagnostic.ipynb) / [事前計画](PLAN.md) / [144入力](questions.csv) / [採点](grade.py)
+[Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1104_phi_prompt_diagnostic/phi_prompt_diagnostic.ipynb) / [事前計画](PLAN.md) / [144入力](questions.csv) / [採点](grade.py)
 
 前回の72文をそのまま使い、各文に次の2種類の質問をする。計144入力。正答文も誤答文もすべて残すため、改善だけでなく悪化も確認できる。
 
@@ -29,7 +29,7 @@
 
 ## 保存されるもの
 
-保存先：`ryouy/GraduationThesis` のmain、`1104_phi_prompt_diagnostic/results/<run_id>/`。
+保存先：`ryouy/GraduationThesis` のmain、`experiments/2026-11/1104_phi_prompt_diagnostic/results/<run_id>/`。
 
 原回答、入力・出力token、実行環境・設定・SHA、条件別・概念別集計、同じ文の回答対比較、改善／悪化件数、グラフを1コミットで追加する。出力先以外のソースやREADMEはノートブックから変更しない。自動保存は採用判断を意味しない。原回答の点検は結果取得後に行う。
 
@@ -45,9 +45,9 @@
 - 人工回答による分析テスト：対比較・悪化件数・改変検出。これはモデル推論結果ではない。
 
 ```sh
-python 1104_phi_prompt_diagnostic/check.py
-python 1104_phi_prompt_diagnostic/test_github_save.py
-python 1104_phi_prompt_diagnostic/test_analysis.py
+python experiments/2026-11/1104_phi_prompt_diagnostic/check.py
+python experiments/2026-11/1104_phi_prompt_diagnostic/test_github_save.py
+python experiments/2026-11/1104_phi_prompt_diagnostic/test_analysis.py
 ```
 
 ユーザーのColab実行により、144入力の推論とmainへの自動保存を確認済み。原回答点検で固定字句採点の誤判定を発見したため、自動グラフだけで内容判断せずREVIEW.mdを参照する。元の規則・SHA・一次集計は変更していない。
