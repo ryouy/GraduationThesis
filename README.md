@@ -13,7 +13,8 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 | **[実験設計と分析計画](docs/experimental_design.md)** | 4条件、比較方法、実験規模案、分析の順序 |
 | **[本実験プロトコル案（2026-11-12）](docs/main_experiment_protocol.md)** | 使用環境・モデル選定理由・Cue設計・4条件・Probe・Logit Lens・分析計画・再現性 |
 | **[現在の進捗と次の課題](docs/current_status.md)** | 直近の検証結果、残っている課題、次の作業 |
-| **[実験記録・資料一覧](docs/experiment_index.md)** | 日付別の実験、コード、データ、発表資料へのリンク |
+| **[月別の実験一覧](experiments/README.md)** | 2026年10月・11月の実験を日付順に探す | 
+| **[実験記録・資料一覧](docs/experiment_index.md)** | 研究段階・目的別の実験、コード、結果へのリンク |
 
 ## 研究の要点
 
@@ -40,6 +41,12 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 
 研究の準備段階は[Probeの再検証](1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md)と[Cue距離計測・17文差し替え](1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md)に記録。以前の実験結果は変更せず維持している。
 
+## 実験へのアクセス
+
+**[月別の実験一覧](experiments/README.md)** · [研究段階別の実験索引](docs/experiment_index.md) · [現在の進捗](docs/current_status.md)
+
+実験の記録は月別一覧と研究段階別索引の両方から参照できます。実行コードやデータの参照パスを壊さないよう、実験ディレクトリ本体は現時点で移動していません。
+
 ## リポジトリの構成
 
 ```text
@@ -52,6 +59,7 @@ GraduationThesis/
 │   ├── main_experiment_protocol.md # パイロット・本実験の方法と評価
 │   ├── current_status.md      # 進捗・課題・次の作業
 │   └── experiment_index.md    # 過去の実験・資料への索引
+├── experiments/README.md       # 月別の実験ナビゲーション
 ├── 1015/ ... 1019/             # 初期の実験記録
 ├── 1103_*/                    # 11月3日の追加検証
 ├── 1104_*/                    # 11月4日のモデル・課題・Probe検証
