@@ -110,7 +110,12 @@ jobs:
                   try:
                       ast.parse(result)
                   except SyntaxError as exc:
-                      py_errors.append((new_path, str(exc)))
+                      try:
+                          ast.parse(original)
+                      except SyntaxError:
+                          pass  # Existing syntax error in an archival script
+                      else:
+                          py_errors.append((new_path, str(exc)))
               if old_path == 'README.md':
                   result = result.replace('実行コードやデータの参照パスを壊さないよう、実験ディレクトリ本体は現時点で移動していません。', '日付別の実験ディレクトリは experiments/2026-10/ と experiments/2026-11/ に移動しました。')
                   begin = result.find('├── experiments/README.md')
