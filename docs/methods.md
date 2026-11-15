@@ -18,9 +18,9 @@
 
 [実験プロトコル](main_experiment_protocol.md)・[最新の進捗](current_status.md)に従い、Qwen2.5-0.5B-Instructと実測済み64 Cueを使う。出力の明示／意味的X言及を第一の観察指標とする。Probeの**ROC-AUCは検証データ上での測定器性能**であり、パイロット中は前回の学習係数を固定した**同一X/Y・同一層内の条件差**を計測する。Logit Lensは層方向の補助的分析とする。
 
-- [100概念v2の結果](../1111_qwen_probe_100concepts_v2/results/20261112_qwen100_richer_dedup_v2/analysis_summary.md)：69概念を評価し、12概念が探索的安定基準を満たした。
-- [新規184文による独立確認](../1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md)：16ターゲット中、FDR感度分析後に4概念が複数Y・複数距離帯で再現した。
-- [Cueの距離計測・AI監査](../1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md)：64 Cueをパイロット用に固定。**人手確認・抑制パイロットは未実施**。
+- [100概念v2の結果](../experiments/2026-11/1111_qwen_probe_100concepts_v2/results/20261112_qwen100_richer_dedup_v2/analysis_summary.md)：69概念を評価し、12概念が探索的安定基準を満たした。
+- [新規184文による独立確認](../experiments/2026-11/1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md)：16ターゲット中、FDR感度分析後に4概念が複数Y・複数距離帯で再現した。
+- [Cueの距離計測・AI監査](../experiments/2026-11/1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md)：64 Cueをパイロット用に固定。**人手確認・抑制パイロットは未実施**。
 
 
 
@@ -55,7 +55,7 @@ Probeが測るのは、内部表現に含まれる情報の**識別可能性（D
 
 現時点ではProbeの採用を確定せず、未使用刺激の一意性・事実性確認を優先する。5学習構成は互いに依存し、今回の分析で抑制の因果効果は測定していない。
 
-出典：[結果と解釈の詳細](../1110_probe_reanalysis/FINDINGS_20261111.md) · [原データ](../1110_probe_reanalysis/results/20261111_173427/)
+出典：[結果と解釈の詳細](../experiments/2026-11/1110_probe_reanalysis/FINDINGS_20261111.md) · [原データ](../experiments/2026-11/1110_probe_reanalysis/results/20261111_173427/)
 
 ## 3. Generation（最終出力分析）
 

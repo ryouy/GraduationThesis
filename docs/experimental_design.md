@@ -29,9 +29,9 @@
 
 本ページは研究方針の概要であり、現行の具体的な実行仕様は[本実験プロトコル](main_experiment_protocol.md)を優先する。
 
-**次回パイロットは4概念：boat / bus / bicycle / motorcycle。** 比較Yはそれぞれbus / helicopter / submarine / helicopter。選定理由は、[独立した未使用説明文によるQwen Probe再評価](../1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md)で相対的な識別性能が比較的再現したため。**この4概念に絞った結果を、他の意味領域へ一般化しない。**
+**次回パイロットは4概念：boat / bus / bicycle / motorcycle。** 比較Yはそれぞれbus / helicopter / submarine / helicopter。選定理由は、[独立した未使用説明文によるQwen Probe再評価](../experiments/2026-11/1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md)で相対的な識別性能が比較的再現したため。**この4概念に絞った結果を、他の意味領域へ一般化しない。**
 
-[all-mpnet-base-v2による実測](../1112_cue_semantic_distance/results/20261112_cue_distance_pilot_v1/analysis_summary.md)では、4概念×60文＝240候補から64文を暫定選定。その後、[64文のAI内容監査](../1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md)で17文を差し替え、各概念の近・中・遠各4文と無関係4文を維持した。**人間による独立評価は未実施**。
+[all-mpnet-base-v2による実測](../experiments/2026-11/1112_cue_semantic_distance/results/20261112_cue_distance_pilot_v1/analysis_summary.md)では、4概念×60文＝240候補から64文を暫定選定。その後、[64文のAI内容監査](../experiments/2026-11/1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md)で17文を差し替え、各概念の近・中・遠各4文と無関係4文を維持した。**人間による独立評価は未実施**。
 
 パイロット規模案：**4概念 × 16 Cue × 4指示条件＝256入力**、さらに **4概念 × 4条件＝16入力** のCueなし対照を追加して、合計**272ユニーク入力**。各5回生成するなら**1,360応答**となる。ただし、同じCueの生成反復は独立したCueとはみなさず、生成前Hidden Stateも反復ごとの独立サンプルとしては数えない。
 

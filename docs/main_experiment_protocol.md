@@ -30,7 +30,7 @@
 
 **モデルを選んだ理由**：2026年11月のQwen2.5-0.5B実験では、固定モデル・固定位置でProbeの校正、距離帯別比較、独立評価を実施できた。一方、過去のモデル比較では質問形式や採点に問題があったため、**「小型で十分に正しく課題を遂行できる」ことは未確定**と明記する。比較モデルの追加は本パイロットとは切り離す。
 
-関連：[100概念v2の概要・再現コード](../1111_qwen_probe_100concepts_v2/README.md) / [結果](../1111_qwen_probe_100concepts_v2/results/20261112_qwen100_richer_dedup_v2/analysis_summary.md) / [独立した新文章での確認](../1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md) / [モデル・課題の従来の問題](current_status.md)
+関連：[100概念v2の概要・再現コード](../experiments/2026-11/1111_qwen_probe_100concepts_v2/README.md) / [結果](../experiments/2026-11/1111_qwen_probe_100concepts_v2/results/20261112_qwen100_richer_dedup_v2/analysis_summary.md) / [独立した新文章での確認](../experiments/2026-11/1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md) / [モデル・課題の従来の問題](current_status.md)
 
 ## 3. 概念X・比較概念Y
 
@@ -52,7 +52,7 @@
 - X同士をYとして選ぶことは可能だが、XとYのCue関連性が極端に異なる組合せを避ける。XとYが両方Cueに出現しないようにする。
 - 初回Probe検証で層24のAUCが高くても、その識別方向が抑制プロンプトに移った際に不変とは限らない。Probeを**推論過程の絶対的な「思考量」測定器と見なさない**。
 
-根拠：[100概念v2の比較ペア・成績](../1111_qwen_probe_100concepts_v2/results/20261112_qwen100_richer_dedup_v2/target_candidates.csv) / [新文章での確認ペア](../1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/frozen_pair_confirmation.csv)
+根拠：[100概念v2の比較ペア・成績](../experiments/2026-11/1111_qwen_probe_100concepts_v2/results/20261112_qwen100_richer_dedup_v2/target_candidates.csv) / [新文章での確認ペア](../experiments/2026-11/1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/frozen_pair_confirmation.csv)
 
 ## 4. Cue（手がかり）生成・意味的距離・選定
 
@@ -205,11 +205,11 @@ APIキー・PAT・Colab Secretはログ、notebook、GitHubへコミットしな
 
 | 予備実験の結果 | 本実験での対応 |
 |---|---|
-| [20概念組の再解析](../1110_probe_reanalysis/FINDINGS_20261111.md)：既存評価の平均AUC 0.9996→新しい説明文0.8436。ランダムラベルでAUC=1の構成も存在。 | **高AUCだけでは採用しない**。未使用説明文・ラベルシャッフル等で品質確認し、AUCを内部活性量と呼ばない。 |
-| [100概念v2](../1111_qwen_probe_100concepts_v2/results/20261112_qwen100_richer_dedup_v2/analysis_summary.md)：69/100概念を評価可能、32ペアが探索的スクリーニングとシャッフル基準を通過、12概念が2距離帯以上で安定。 | 概念ごと・比較相手ごとの差が大きいため、X/Y選定とProbeの学習設定を固定する。 |
-| [独立した新文章での確認](../1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md)：16ターゲット中、補正前5、FDR感度分析後4ターゲットが複数Y・距離帯で再現。 | まず`boat/bus/bicycle/motorcycle`でパイロット。ただし**全て乗り物**なので外的妥当性に限界。 |
+| [20概念組の再解析](../experiments/2026-11/1110_probe_reanalysis/FINDINGS_20261111.md)：既存評価の平均AUC 0.9996→新しい説明文0.8436。ランダムラベルでAUC=1の構成も存在。 | **高AUCだけでは採用しない**。未使用説明文・ラベルシャッフル等で品質確認し、AUCを内部活性量と呼ばない。 |
+| [100概念v2](../experiments/2026-11/1111_qwen_probe_100concepts_v2/results/20261112_qwen100_richer_dedup_v2/analysis_summary.md)：69/100概念を評価可能、32ペアが探索的スクリーニングとシャッフル基準を通過、12概念が2距離帯以上で安定。 | 概念ごと・比較相手ごとの差が大きいため、X/Y選定とProbeの学習設定を固定する。 |
+| [独立した新文章での確認](../experiments/2026-11/1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md)：16ターゲット中、補正前5、FDR感度分析後4ターゲットが複数Y・距離帯で再現。 | まず`boat/bus/bicycle/motorcycle`でパイロット。ただし**全て乗り物**なので外的妥当性に限界。 |
 | [従来の質問形式・採点検証](current_status.md)：小型モデルや自由回答形式で正答率・採点の問題を確認。 | 回答形式を固定、無効回答も保存、辞書とAPI判定を分離し、人手監査する。 |
-| [指示×Cue Probe診断](../1104_instruction_probe/results/instruction-probe-20261104T024551489146Z/REVIEW.md)：CueなしでもXの名称提示だけでProbeスコアが変化。 | Cueなし対照、Avoid−Think Xの比較、指示文への単語提示の交絡を明示する。 |
+| [指示×Cue Probe診断](../experiments/2026-11/1104_instruction_probe/results/instruction-probe-20261104T024551489146Z/REVIEW.md)：CueなしでもXの名称提示だけでProbeスコアが変化。 | Cueなし対照、Avoid−Think Xの比較、指示文への単語提示の交絡を明示する。 |
 
 ## 11. 本実験開始までのチェックリスト（2026年11月12日現在）
 
@@ -219,18 +219,18 @@ APIキー・PAT・Colab Secretはログ、notebook、GitHubへコミットしな
 - [x] X/Yを1対1に固定：boat→bus、bus→helicopter、bicycle→submarine、motorcycle→helicopter。
 - [x] 各Xについて60Cue候補、計240文を作成し、**all-mpnet-base-v2で実測**した。
 - [x] 近・中・遠各4＋無関係4、計64文を暫定選出。**AIによる全64文の内容監査**で17文を元の未選定候補と交換し、距離帯の非重複を確認した。
-- [x] [パイロット用固定刺激64文](../1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md)と交換理由をGitHubに保存した。**独立した人間の評価は未実施**。
+- [x] [パイロット用固定刺激64文](../experiments/2026-11/1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md)と交換理由をGitHubに保存した。**独立した人間の評価は未実施**。
 - [x] パイロット用のプロンプト、生成設定、辞書判定ルールをコード上で固定し、応答形式・切り詰めを確認した。
 - [x] Probe学習係数・scaler・ラベルの向きを過去のcheckpointから再構成し、今回の生成結果では再学習していない。
 - [x] Logit Lensのtokenizer分割・最終層一致チェックを実装・実測（最大誤差4.9591e-05）。Probeの指示文入力への適用妥当性は追加確認が必要。
 - [x] API意味判定器を固定し、1,360回答を評価。人間による監査は未実施。
-- [x] [パイロット用Colabコード](../1112_qwen_suppression_pilot/README.md)を作成し、生成・固定Probe・全24層Logit Lens・チェックポイントと任意の意味的API採点を実装。静的検証・模擬データ集計テスト済み。**GPUによる実測は未実行**。
-- [x] **4概念のQwen抑制指示パイロットを実行。** 272入力、1,360生成、816 Probeスコア、13,056 Logit Lensデータ、API意味的言及1,360件を保存。[統合解釈](../1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/INTERPRETATION_20261113.md)。
+- [x] [パイロット用Colabコード](../experiments/2026-11/1112_qwen_suppression_pilot/README.md)を作成し、生成・固定Probe・全24層Logit Lens・チェックポイントと任意の意味的API採点を実装。静的検証・模擬データ集計テスト済み。**GPUによる実測は未実行**。
+- [x] **4概念のQwen抑制指示パイロットを実行。** 272入力、1,360生成、816 Probeスコア、13,056 Logit Lensデータ、API意味的言及1,360件を保存。[統合解釈](../experiments/2026-11/1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/INTERPRETATION_20261113.md)。
 - [ ] 不一致146件、API保留17件、人手抽出サンプルの内容監査と、距離×条件の概念別統計確認を行う。
 
 ### Cue選定の実測結果（追加記録）
 
-[選定Colab](../1112_cue_semantic_distance/cue_semantic_distance_selection.ipynb) · [240候補の実測レポート](../1112_cue_semantic_distance/results/20261112_cue_distance_pilot_v1/analysis_summary.md) · [AI監査・17文の差し替え理由](../1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md) · [固定CSV](../1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/cue_final_FROZEN_AI_AUDITED.csv)
+[選定Colab](../experiments/2026-11/1112_cue_semantic_distance/cue_semantic_distance_selection.ipynb) · [240候補の実測レポート](../experiments/2026-11/1112_cue_semantic_distance/results/20261112_cue_distance_pilot_v1/analysis_summary.md) · [AI監査・17文の差し替え理由](../experiments/2026-11/1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md) · [固定CSV](../experiments/2026-11/1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/cue_final_FROZEN_AI_AUDITED.csv)
 
 | X | 近い（平均距離） | 中程度 | 遠い |
 |---|---:|---:|---:|
@@ -247,11 +247,11 @@ APIキー・PAT・Colab Secretはログ、notebook、GitHubへコミットしな
 - [測定手法の詳細](methods.md)
 - [従来の実験設計](experimental_design.md)
 - [進捗とモデル検証の記録](current_status.md)
-- [20概念組のProbe再解析結果](../1110_probe_reanalysis/FINDINGS_20261111.md)
-- [100概念v2・予備実験](../1111_qwen_probe_100concepts_v2/README.md)
-- [100概念v2・結果レポート](../1111_qwen_probe_100concepts_v2/results/20261112_qwen100_richer_dedup_v2/analysis_summary.md)
-- [新しい説明文による独立確認・手順](../1112_qwen_probe_independent_confirmation/README.md)
-- [新しい説明文による独立確認・結果](../1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md)
+- [20概念組のProbe再解析結果](../experiments/2026-11/1110_probe_reanalysis/FINDINGS_20261111.md)
+- [100概念v2・予備実験](../experiments/2026-11/1111_qwen_probe_100concepts_v2/README.md)
+- [100概念v2・結果レポート](../experiments/2026-11/1111_qwen_probe_100concepts_v2/results/20261112_qwen100_richer_dedup_v2/analysis_summary.md)
+- [新しい説明文による独立確認・手順](../experiments/2026-11/1112_qwen_probe_independent_confirmation/README.md)
+- [新しい説明文による独立確認・結果](../experiments/2026-11/1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md)
 
 ---
 

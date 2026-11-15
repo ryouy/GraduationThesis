@@ -12,18 +12,18 @@
 - **Y（固定）：** boat→bus、bus→helicopter、bicycle→submarine、motorcycle→helicopter。
 - **Cue：** 4概念×16文＝64文。近・中・遠×各4文＋無関係4文。240候補から実測距離で選択し、AI内容監査で17文を差し替え済み。
 - **現在の刺激状態：** `FROZEN FOR PILOT / AI-AUDITED / HUMAN REVIEW PENDING`。独立した人間の関連性評定は未実施。
-- **パイロットの観察指標：** 出力の明示・意味的言及率、凍結ProbeのX/Y相対判別スコア、層別Logit Lens。実測結果は[パイロットの統合解釈](../1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/INTERPRETATION_20261113.md)を参照。
+- **パイロットの観察指標：** 出力の明示・意味的言及率、凍結ProbeのX/Y相対判別スコア、層別Logit Lens。実測結果は[パイロットの統合解釈](../experiments/2026-11/1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/INTERPRETATION_20261113.md)を参照。
 
 ## 2. 2026年11月12日までの到達結果
 
 | 段階 | 実測・完了内容 | 資料 |
 |---|---|---|
-| Qwen 20組とY拡張 | 比較概念・説明文によってProbeの識別性能が変化 | [20組](../1110_qwen_probe_20pairs/results/20261110_qwen20pairs_v1/)・[Y拡張](../1111_qwen_probe_pair_expansion/results/20261111_comparator_screen_v1/) |
-| 100概念・説明文少数版 | 新規学習・評価文の不足により再設計が必要と判明 | [初回100概念](../1111_qwen_probe_100concepts/results/20261111_qwen100_v1/) |
-| 100概念v2 | 100候補中69概念が評価可能。探索的に32ペアが基準を通過し、12概念が複数距離帯で安定 | [100概念v2のレポート](../1111_qwen_probe_100concepts_v2/results/20261112_qwen100_richer_dedup_v2/analysis_summary.md) |
-| 新説明文で独立確認 | 23概念184文、対象16概念。補正前5、FDR感度分析後4ターゲットが2距離帯以上で再現 | [独立確認レポート](../1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md) |
-| Cue候補と距離実測 | 4概念×60＝240候補から64文を暫定選出。all-mpnet-base-v2で実測 | [実測レポート](../1112_cue_semantic_distance/results/20261112_cue_distance_pilot_v1/analysis_summary.md) |
-| AI内容監査と刺激固定 | 全64文を確認、17文を同じ240候補内で置換、距離帯の分離を維持 | [AI監査・固定刺激](../1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md) |
+| Qwen 20組とY拡張 | 比較概念・説明文によってProbeの識別性能が変化 | [20組](../experiments/2026-11/1110_qwen_probe_20pairs/results/20261110_qwen20pairs_v1/)・[Y拡張](../experiments/2026-11/1111_qwen_probe_pair_expansion/results/20261111_comparator_screen_v1/) |
+| 100概念・説明文少数版 | 新規学習・評価文の不足により再設計が必要と判明 | [初回100概念](../experiments/2026-11/1111_qwen_probe_100concepts/results/20261111_qwen100_v1/) |
+| 100概念v2 | 100候補中69概念が評価可能。探索的に32ペアが基準を通過し、12概念が複数距離帯で安定 | [100概念v2のレポート](../experiments/2026-11/1111_qwen_probe_100concepts_v2/results/20261112_qwen100_richer_dedup_v2/analysis_summary.md) |
+| 新説明文で独立確認 | 23概念184文、対象16概念。補正前5、FDR感度分析後4ターゲットが2距離帯以上で再現 | [独立確認レポート](../experiments/2026-11/1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md) |
+| Cue候補と距離実測 | 4概念×60＝240候補から64文を暫定選出。all-mpnet-base-v2で実測 | [実測レポート](../experiments/2026-11/1112_cue_semantic_distance/results/20261112_cue_distance_pilot_v1/analysis_summary.md) |
+| AI内容監査と刺激固定 | 全64文を確認、17文を同じ240候補内で置換、距離帯の分離を維持 | [AI監査・固定刺激](../experiments/2026-11/1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md) |
 
 ### AI監査後のCue距離（各帯4文の平均、低いほど近い）
 
@@ -38,7 +38,7 @@
 
 ## 3. 2026年11月13日：パイロット完了・次の課題
 
-**[パイロット統合解釈](../1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/INTERPRETATION_20261113.md)** · [コア集計](../1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/analysis_summary.md) · [API判定集計](../1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/semantic_grading/20261112_semantic_grader_gpt6luna_v1/analysis_semantic.md)
+**[パイロット統合解釈](../experiments/2026-11/1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/INTERPRETATION_20261113.md)** · [コア集計](../experiments/2026-11/1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/analysis_summary.md) · [API判定集計](../experiments/2026-11/1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/semantic_grading/20261112_semantic_grader_gpt6luna_v1/analysis_semantic.md)
 
 - Qwenで272ユニーク入力、1,360回答、17チャンクのチェックポイントが完了。凍結Probeの第22・23・24層と全24層Logit Lensも保存。最終層logits一致最大誤差4.9591e-05。
 - 意味的言及APIは全1,360件判定し、**17件がuncertain**（正例に含めない）。
@@ -71,7 +71,7 @@
 
 事前に固定した厳密基準では全モデル不通過。Phiのnone対照0/6は、「None＋説明」を不正解とする形式判定によるもので、内容を人手確認すると6/6で該当なしと回答していた。Phiは次の確認候補とするが、採用は保留。
 
-詳細：[4モデル比較](../1104_model_comparison/README.md) · [推論コード照合](../1104_inference_audit/README.md)
+詳細：[4モデル比較](../experiments/2026-11/1104_model_comparison/README.md) · [推論コード照合](../experiments/2026-11/1104_inference_audit/README.md)
 
 ### 4.2 Phiの新規問題による固定評価（11月4日）
 
@@ -83,7 +83,7 @@
 
 本実験への採用は保留し、問題の一意性と質問形式の小規模診断を優先する。
 
-詳細：[Phiの固定評価72問](../1104_phi_validation/results/20261104T012418280152Z/README.md)
+詳細：[Phiの固定評価72問](../experiments/2026-11/1104_phi_validation/results/20261104T012418280152Z/README.md)
 
 ### 4.3 質問形式の対比較（11月4日）
 
@@ -91,13 +91,13 @@
 
 内容確認では命名A44/60・B47/60（Green appleを含む）、noneは両方12/12。命名の改善5件・悪化2件。モデルを再実行する前に採点と刺激評定を整える。
 
-詳細：[質問形式の診断](../1104_phi_prompt_diagnostic/results/phi-prompt-20261104T015128731641Z/REVIEW.md)
+詳細：[質問形式の診断](../experiments/2026-11/1104_phi_prompt_diagnostic/results/phi-prompt-20261104T015128731641Z/REVIEW.md)
 
 ### 4.4 採点処理の修正（11月4日）
 
 既存384回答をv2で再採点し、15件の採点漏れを修正。4回答を個別確認し、既存の内容確認216件と一致した。モデル推論は追加していない。
 
-詳細：[採点処理の修正](../1104_scoring_revision/README.md)
+詳細：[採点処理の修正](../experiments/2026-11/1104_scoring_revision/README.md)
 
 ### 4.5 指示×手がかりProbe診断（11月4日）
 
@@ -109,7 +109,7 @@
 - 指示由来の反応と説明情報の両方が含まれる可能性があり、絶対スコアを思考量として解釈しない。
 - 残る2組はシャッフル対照でも満点が多く、校正未達。
 
-詳細：[指示×手がかりProbe診断](../1104_instruction_probe/results/instruction-probe-20261104T024551489146Z/REVIEW.md)
+詳細：[指示×手がかりProbe診断](../experiments/2026-11/1104_instruction_probe/results/instruction-probe-20261104T024551489146Z/REVIEW.md)
 
 ### 4.6 20組のProbe診断と再解析（11月4日・11月11日）
 
@@ -126,14 +126,14 @@ Phi-3.5-mini-instructの20組・40概念について、11月4日の保存済みH
 
 **結論：** Probeが一律に機能しないわけではないが、そのスコアを「概念を考えている量」と同一視しない。Probeを本実験へ採用する前に、刺激の一意性・汎化性能・ラベル置換対照を確認する。抑制指示の因果効果は、この検証では測定していない。
 
-詳細：[11月11日の結果・解釈・元データへのリンク](../1110_probe_reanalysis/FINDINGS_20261111.md) · [実験README](../1110_probe_reanalysis/README.md) · [元の20組Probe診断](../1104_instruction_probe_20pairs/README.md)
+詳細：[11月11日の結果・解釈・元データへのリンク](../experiments/2026-11/1110_probe_reanalysis/FINDINGS_20261111.md) · [実験README](../experiments/2026-11/1110_probe_reanalysis/README.md) · [元の20組Probe診断](../experiments/2026-11/1104_instruction_probe_20pairs/README.md)
 
 ## 5. 初期の予備実験から分かった課題
 
 | 課題 | 観察されたこと | 次に行うこと |
 |---|---|---|
 | 質問形式の安定性 | 近い手がかり9件で自由回答の対象名言及は3/9。二択は順序により5/9・7/9。全36件では順序変更で16件の回答分類が変化 | 質問形式と回答分類を事前に固定して再確認 |
-| Probeの汎化 | 11月11日の独立説明文検証では平均AUCが0.9996→0.8436。概念ペア別に大きなばらつき | [新規説明文を人手で点検し、採用基準を定義](../1110_probe_reanalysis/FINDINGS_20261111.md) |
+| Probeの汎化 | 11月11日の独立説明文検証では平均AUCが0.9996→0.8436。概念ペア別に大きなばらつき | [新規説明文を人手で点検し、採用基準を定義](../experiments/2026-11/1110_probe_reanalysis/FINDINGS_20261111.md) |
 | X/Yへの関連性 | 各12手がかりでX/Y類似度のSpearman相関は0.783〜0.944 | Cue設計とX/Y双方への関連性を点検 |
 
 これらは少数の手製刺激による診断結果であり、全般的な性能の確証ではない。X/Y類似度の強い相関も、それだけで実験失敗を意味しないが、相対スコアの解釈に注意が必要である。
