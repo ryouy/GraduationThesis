@@ -26,7 +26,7 @@ jobs:
           from pathlib import Path
 
           BASE = 'b304ba9ebac3aab85c7d64dc4773a9bf2592a3ea'
-          files = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only', BASE], text=True).splitlines()
+          files = subprocess.check_output(['git', 'ls-tree', '-r', '-z', '--name-only', BASE]).decode('utf-8').strip('\x00').split('\x00')
           roots = sorted({p.split('/')[0] for p in files if re.match(r'^(10|11)\d\d(?:_|/)', p)}, key=len, reverse=True)
           root_re = '|'.join(map(re.escape, roots))
           prefix = re.compile(r'(?<![\w-])(?<!experiments/2026-10/)(?<!experiments/2026-11/)(' + root_re + r')(?=/)')
@@ -46,7 +46,9 @@ jobs:
               old_dir, new_dir = posixpath.dirname(old_path), posixpath.dirname(new_path)
               def link(m):
                   url = m.group(1)
-                  if url.startswith(('#', '/', 'http:', 'https:', 'mailto:', 'data:')):
+                  if url.startswith(('http:', 'https:')):
+                      return '](' + rewrite_inline(url) + ')'
+                  if url.startswith(('#', '/', 'mailto:', 'data:')):
                       return m.group(0)
                   urlpath, fragment = (url.split('#', 1) + [''])[:2]
                   if not urlpath or any(x in urlpath for x in [' ', '<', '>']):
@@ -127,7 +129,7 @@ jobs:
                   changed.append(new_path)
 
           # Ensure all original non-source blobs have been preserved without modification.
-          original_blobs = subprocess.check_output(['git', 'ls-tree', '-r', BASE], text=True).splitlines()
+          original_blobs = subprocess.check_output(['git', 'ls-tree', '-r', '-z', BASE]).decode('utf-8').strip('\x00').split('\x00')
           for line in original_blobs:
               info, path = line.split('\t', 1)
               old_sha = info.split()[2]
