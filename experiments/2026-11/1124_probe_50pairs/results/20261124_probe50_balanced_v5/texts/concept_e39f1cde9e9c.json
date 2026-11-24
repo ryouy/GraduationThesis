@@ -1,0 +1,67 @@
+{
+  "concept": "hare",
+  "created_at": "2026-11-24T12:28:48.688620+00:00",
+  "eval": {
+    "action": [
+      "With powerful legs and keen senses, this animal can swiftly navigate through dense underbrush to escape threats.",
+      "Often seen in open fields, it uses its speed and agility to perform quick zigzag movements, confusing pursuing predators."
+    ],
+    "function": [
+      "With its keen sense of hearing and swift movements, this animal effectively avoids detection by potential threats in diverse environments.",
+      "This agile creature contributes to the ecosystem by serving as prey for larger carnivores, thus supporting the food chain's balance."
+    ],
+    "situation": [
+      "In the early hours, a quick-footed animal scurries across the meadow, its keen senses attuned to any approaching danger.",
+      "Amidst the vibrant wildflowers, this agile creature pauses to munch on tender greens, perfectly camouflaged against the earthy backdrop."
+    ],
+    "structure": [
+      "The animal features a sleek body covered in soft fur, often displaying a mottled pattern that aids in camouflage.",
+      "With large, expressive eyes positioned on the sides of its head, it enjoys a wide field of vision to spot potential threats."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This creature exhibits remarkable agility, often darting swiftly through grasslands to evade predators.",
+      "It is known for its impressive speed and ability to change direction rapidly, making it a challenging target for hunters."
+    ],
+    "function": [
+      "This small mammal plays a crucial role in many ecosystems by serving as a primary food source for various predators.",
+      "Its rapid reproductive capabilities help maintain population stability, ensuring a balance within its natural habitat."
+    ],
+    "situation": [
+      "In the early morning light, a nimble creature can be seen darting through the tall grass, its long ears alert to sounds around it.",
+      "As dusk falls, it pauses to nibble on clover, blending seamlessly into the soft earth tones of its surroundings."
+    ],
+    "structure": [
+      "This animal has long ears that can rotate independently, allowing it to detect sounds from various directions.",
+      "Its powerful hind legs are designed for quick bursts of speed, enabling it to evade predators in open fields."
+    ]
+  }
+}
