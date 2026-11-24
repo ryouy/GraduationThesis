@@ -1,0 +1,67 @@
+{
+  "concept": "flute",
+  "created_at": "2026-11-24T12:27:47.170749+00:00",
+  "eval": {
+    "action": [
+      "The artist effortlessly moves their fingers along the instrument's openings, producing a cascade of high, ethereal notes that enchant the audience.",
+      "With each breath, the performer conjures delicate melodies that weave through the air, creating a serene atmosphere that captivates all who listen."
+    ],
+    "function": [
+      "This woodwind instrument creates melodious sounds by directing air across an opening, producing a distinct, ethereal tone.",
+      "With its lightweight construction, it is favored for both solo performances and ensemble settings, enhancing the richness of musical arrangements."
+    ],
+    "situation": [
+      "In the serene garden, a performer breathes life into delicate tunes, their melodic whispers weaving through the soft rustle of leaves.",
+      "The gentle sound fills the air, creating a tranquil atmosphere that draws a small crowd, lost in the beauty of the moment."
+    ],
+    "structure": [
+      "The instrument is crafted with a shiny, polished exterior, often featuring intricate engravings that enhance its visual appeal.",
+      "Its body is typically long and slender, allowing for a smooth, uninterrupted airflow that contributes to its distinctive sound."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This instrument produces sound by blowing air across an opening, creating a clear, flowing melody.",
+      "Its slender shape allows for intricate finger movements, enabling musicians to play rapid passages with precision."
+    ],
+    "function": [
+      "This instrument produces sound through the vibration of air across an opening, allowing for a range of musical expressions.",
+      "Often used in orchestras and solo performances, it adds a light, airy quality to various compositions and genres."
+    ],
+    "situation": [
+      "In the quiet park, a musician skillfully creates enchanting melodies that drift through the air, captivating passersby.",
+      "As sunlight filters through the trees, the sweet, airy tones resonate, inviting listeners to pause and enjoy the moment."
+    ],
+    "structure": [
+      "This slender instrument is typically made of metal or wood and features a series of finger holes along its body.",
+      "Its design includes a mouthpiece at one end and a smooth, cylindrical shape that allows for a range of musical notes."
+    ]
+  }
+}
