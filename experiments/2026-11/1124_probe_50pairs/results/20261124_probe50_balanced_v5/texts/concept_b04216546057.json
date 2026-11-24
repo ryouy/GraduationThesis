@@ -1,0 +1,67 @@
+{
+  "concept": "fog",
+  "created_at": "2026-11-24T12:28:00.488831+00:00",
+  "eval": {
+    "action": [
+      "A thick, silken layer envelops the landscape, creating an otherworldly scene as shapes emerge and disappear in the shifting atmosphere.",
+      "As the sun sets, a soft, damp veil descends, cloaking the surroundings and transforming familiar sights into mysterious silhouettes."
+    ],
+    "function": [
+      "When the temperature drops and humidity rises, a thick, low-lying cloud forms, reducing visibility and creating a serene ambiance.",
+      "This natural occurrence can significantly affect travel conditions, as it often leads to slower speeds and increased caution on roadways."
+    ],
+    "situation": [
+      "A thick, swirling layer of moisture envelops the lakeside, making the water appear as if it is disappearing into nothingness.",
+      "The cool, damp air hangs heavy, creating an otherworldly scene where trees seem to float above the ground, their details obscured."
+    ],
+    "structure": [
+      "A thick, translucent layer hovers close to the ground, creating a dreamy landscape where shapes and colors blend into one another.",
+      "As the temperature drops, moisture condenses in the air, forming a soft, billowing curtain that dampens sound and obscures details."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This thick, low-lying cloud drapes over the landscape, obscuring views and creating an ethereal atmosphere.",
+      "As the temperature drops at night, moisture condenses, forming a veil that softens sounds and blurs outlines."
+    ],
+    "function": [
+      "This weather phenomenon occurs when tiny water droplets suspend in the air, reducing visibility significantly.",
+      "It plays a crucial role in the ecosystem by maintaining humidity levels and supporting plant growth in certain regions."
+    ],
+    "situation": [
+      "The morning air hung thick and cool, shrouding the trees in a ghostly veil that obscured distant views.",
+      "As the sun began to rise, the landscape transformed, revealing silhouettes of buildings emerging from the dense, swirling mist."
+    ],
+    "structure": [
+      "A thick, white mist blankets the ground, obscuring visibility and creating an ethereal atmosphere in the early morning light.",
+      "Tiny water droplets cluster together in the air, forming a dense layer that gently diffuses sunlight and muffles distant sounds."
+    ]
+  }
+}
