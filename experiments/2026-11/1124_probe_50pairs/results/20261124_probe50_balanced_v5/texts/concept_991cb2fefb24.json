@@ -1,0 +1,67 @@
+{
+  "concept": "tambourine",
+  "created_at": "2026-11-24T12:36:38.874872+00:00",
+  "eval": {
+    "action": [
+      "With a swift shake, this circular instrument produces a cheerful jingling sound that energizes any musical gathering.",
+      "Performers often strike its surface rhythmically, creating an infectious beat that invites listeners to dance and join in the fun."
+    ],
+    "function": [
+      "This handheld percussion device contributes a bright, jingling sound that elevates the rhythm in various musical styles.",
+      "Its lightweight and portable design makes it ideal for spontaneous performances, fostering a sense of community and celebration among participants."
+    ],
+    "situation": [
+      "In the bustling café, a performer enthusiastically shakes a circular instrument, filling the air with bright, jingling sounds that draw in passersby.",
+      "As the band plays lively tunes, audience members eagerly clap along, inspired by the rhythmic accents produced by the handheld percussion instrument."
+    ],
+    "structure": [
+      "The circular frame of this instrument is often crafted from wood or plastic, with pairs of shiny jingles attached around its perimeter.",
+      "Its design allows for easy handling, enabling performers to create a lively sound that enriches the musical experience."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This handheld instrument creates a lively jingle when shaken or struck, adding rhythm to various musical performances.",
+      "Musicians often use it to accentuate beats, enhancing the overall sound with its bright, percussive tones."
+    ],
+    "function": [
+      "This handheld percussion instrument enhances musical compositions by adding a bright, jingling sound that complements rhythm sections.",
+      "Often used in various musical genres, it encourages participation and engagement during performances, making it a popular choice for group settings."
+    ],
+    "situation": [
+      "In the lively street market, a musician shakes a handheld percussion instrument, adding rhythm to the vibrant atmosphere.",
+      "Children dance joyfully around the performer, captivated by the jingling sounds that enhance the festive energy of the crowd."
+    ],
+    "structure": [
+      "This percussion instrument features a circular frame, often made of wood or plastic, adorned with pairs of metallic jingles.",
+      "Its skin is typically made from animal hide or synthetic materials, stretched tightly across one side for sound production."
+    ]
+  }
+}
