@@ -1,0 +1,44 @@
+{
+  "concept": "bus",
+  "created_at": "2026-11-24T08:14:51.558197+00:00",
+  "eval": [
+    "Public transportation systems often utilize large vehicles to transport multiple passengers simultaneously across urban areas.",
+    "Many commuters rely on scheduled transport services to reach their workplaces efficiently during peak hours.",
+    "These vehicles typically have designated routes and stops that passengers can easily access throughout the city.",
+    "In some regions, fare collection is managed through electronic systems, allowing for quick boarding and reduced delays.",
+    "Passengers often engage in various activities while traveling, such as reading, using mobile devices, or conversing with others.",
+    "During rush hour, these transport options can become crowded, leading to limited seating and standing room for travelers.",
+    "Certain amenities, like Wi-Fi and charging stations, are increasingly being offered to enhance the travel experience for users.",
+    "Environmental initiatives are prompting many cities to invest in larger vehicles that use alternative fuels to reduce emissions."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "A large vehicle typically has multiple rows of seats arranged for passenger comfort and safety.",
+    "The chassis of this vehicle is designed to support a substantial weight while providing stability on various terrains.",
+    "Windows are often large, allowing natural light to enter and providing a view for passengers.",
+    "An engine powers the vehicle, usually located at the rear or front, depending on the design.",
+    "This vehicle is equipped with a braking system that includes disc brakes for effective stopping power.",
+    "Exterior lights are strategically placed for visibility during the day and night, enhancing safety on the road.",
+    "Some models feature a low floor design to facilitate easy access for individuals with mobility challenges.",
+    "The interior may include overhead compartments for luggage storage, maximizing passenger space and convenience."
+  ]
+}
