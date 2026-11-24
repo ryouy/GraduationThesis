@@ -1,0 +1,5125 @@
+{
+  "prompt_hash": "c25a8fdfe27eeb81b0fd588ce0fe30443a505f5cb1fa78dcb0c47e03e3a34b43",
+  "results": [
+    {
+      "generation": {
+        "empty_response": false,
+        "explicit_x": false,
+        "input_id": "C25__C25_042__Avoid_X",
+        "output_token_count": 3,
+        "response": "Guitar",
+        "seed": 101,
+        "truncated_at_limit": false
+      },
+      "input_id": "C25__C25_042__Avoid_X",
+      "lens": [
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 1,
+          "mean_token_logprob": -17.091873168945312,
+          "sequence_logprob": -34.183746337890625,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 2,
+          "mean_token_logprob": -14.830915451049805,
+          "sequence_logprob": -29.66183090209961,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 3,
+          "mean_token_logprob": -16.890457153320312,
+          "sequence_logprob": -33.780914306640625,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 4,
+          "mean_token_logprob": -16.20412826538086,
+          "sequence_logprob": -32.40825653076172,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 5,
+          "mean_token_logprob": -17.606475830078125,
+          "sequence_logprob": -35.21295166015625,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 6,
+          "mean_token_logprob": -17.029394149780273,
+          "sequence_logprob": -34.05878829956055,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 7,
+          "mean_token_logprob": -17.562461853027344,
+          "sequence_logprob": -35.12492370605469,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 8,
+          "mean_token_logprob": -17.257518768310547,
+          "sequence_logprob": -34.515037536621094,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 9,
+          "mean_token_logprob": -16.218896865844727,
+          "sequence_logprob": -32.43779373168945,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 10,
+          "mean_token_logprob": -15.561380386352539,
+          "sequence_logprob": -31.122760772705078,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 11,
+          "mean_token_logprob": -18.210416793823242,
+          "sequence_logprob": -36.420833587646484,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 12,
+          "mean_token_logprob": -16.296592712402344,
+          "sequence_logprob": -32.59318542480469,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 13,
+          "mean_token_logprob": -14.871427536010742,
+          "sequence_logprob": -29.742855072021484,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 14,
+          "mean_token_logprob": -16.0567626953125,
+          "sequence_logprob": -32.113525390625,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 15,
+          "mean_token_logprob": -14.240931510925293,
+          "sequence_logprob": -28.481863021850586,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 16,
+          "mean_token_logprob": -12.434879302978516,
+          "sequence_logprob": -24.86975860595703,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 17,
+          "mean_token_logprob": -11.34177017211914,
+          "sequence_logprob": -22.68354034423828,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 18,
+          "mean_token_logprob": -12.035057067871094,
+          "sequence_logprob": -24.070114135742188,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 19,
+          "mean_token_logprob": -9.9505615234375,
+          "sequence_logprob": -19.901123046875,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 20,
+          "mean_token_logprob": -9.238187789916992,
+          "sequence_logprob": -18.476375579833984,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 21,
+          "mean_token_logprob": -9.413776397705078,
+          "sequence_logprob": -18.827552795410156,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 22,
+          "mean_token_logprob": -5.928155899047852,
+          "sequence_logprob": -11.856311798095703,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 23,
+          "mean_token_logprob": -4.226627349853516,
+          "sequence_logprob": -8.453254699707031,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 24,
+          "mean_token_logprob": -3.712507724761963,
+          "sequence_logprob": -7.425015449523926,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 1,
+          "mean_token_logprob": -17.345794677734375,
+          "sequence_logprob": -69.3831787109375,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 2,
+          "mean_token_logprob": -17.292034149169922,
+          "sequence_logprob": -69.16813659667969,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 3,
+          "mean_token_logprob": -18.30419921875,
+          "sequence_logprob": -73.216796875,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 4,
+          "mean_token_logprob": -15.651451110839844,
+          "sequence_logprob": -62.605804443359375,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 5,
+          "mean_token_logprob": -17.330123901367188,
+          "sequence_logprob": -69.32049560546875,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 6,
+          "mean_token_logprob": -17.846782684326172,
+          "sequence_logprob": -71.38713073730469,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 7,
+          "mean_token_logprob": -17.027685165405273,
+          "sequence_logprob": -68.1107406616211,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 8,
+          "mean_token_logprob": -15.7649564743042,
+          "sequence_logprob": -63.0598258972168,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 9,
+          "mean_token_logprob": -15.773262977600098,
+          "sequence_logprob": -63.09305191040039,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 10,
+          "mean_token_logprob": -14.469432830810547,
+          "sequence_logprob": -57.87773132324219,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 11,
+          "mean_token_logprob": -15.654048919677734,
+          "sequence_logprob": -62.61619567871094,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 12,
+          "mean_token_logprob": -14.150337219238281,
+          "sequence_logprob": -56.601348876953125,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 13,
+          "mean_token_logprob": -15.189697265625,
+          "sequence_logprob": -60.7587890625,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 14,
+          "mean_token_logprob": -15.15229606628418,
+          "sequence_logprob": -60.60918426513672,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 15,
+          "mean_token_logprob": -15.190386772155762,
+          "sequence_logprob": -60.76154708862305,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 16,
+          "mean_token_logprob": -12.724271774291992,
+          "sequence_logprob": -50.89708709716797,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 17,
+          "mean_token_logprob": -12.91102123260498,
+          "sequence_logprob": -51.64408493041992,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 18,
+          "mean_token_logprob": -13.062131881713867,
+          "sequence_logprob": -52.24852752685547,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 19,
+          "mean_token_logprob": -12.157846450805664,
+          "sequence_logprob": -48.631385803222656,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 20,
+          "mean_token_logprob": -14.725590705871582,
+          "sequence_logprob": -58.90236282348633,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 21,
+          "mean_token_logprob": -12.46373176574707,
+          "sequence_logprob": -49.85492706298828,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 22,
+          "mean_token_logprob": -8.89966869354248,
+          "sequence_logprob": -35.59867477416992,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 23,
+          "mean_token_logprob": -5.2368011474609375,
+          "sequence_logprob": -20.94720458984375,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 24,
+          "mean_token_logprob": -3.677365303039551,
+          "sequence_logprob": -14.709461212158203,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        }
+      ],
+      "native_error": 2.002716064453125e-05,
+      "probe": [
+        {
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 22,
+          "score": -2.0306138420232225
+        },
+        {
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 23,
+          "score": -3.339905342920564
+        },
+        {
+          "input_id": "C25__C25_042__Avoid_X",
+          "layer": 24,
+          "score": -5.272453923359152
+        }
+      ]
+    },
+    {
+      "generation": {
+        "empty_response": false,
+        "explicit_x": false,
+        "input_id": "C25__C25_042__Neutral_X",
+        "output_token_count": 11,
+        "response": "Drumming adds lively energy to music performances.",
+        "seed": 101,
+        "truncated_at_limit": false
+      },
+      "input_id": "C25__C25_042__Neutral_X",
+      "lens": [
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 1,
+          "mean_token_logprob": -17.06477928161621,
+          "sequence_logprob": -34.12955856323242,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 2,
+          "mean_token_logprob": -14.840614318847656,
+          "sequence_logprob": -29.681228637695312,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 3,
+          "mean_token_logprob": -16.94508171081543,
+          "sequence_logprob": -33.89016342163086,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 4,
+          "mean_token_logprob": -16.25270652770996,
+          "sequence_logprob": -32.50541305541992,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 5,
+          "mean_token_logprob": -17.79517364501953,
+          "sequence_logprob": -35.59034729003906,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 6,
+          "mean_token_logprob": -17.13709259033203,
+          "sequence_logprob": -34.27418518066406,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 7,
+          "mean_token_logprob": -17.743955612182617,
+          "sequence_logprob": -35.487911224365234,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 8,
+          "mean_token_logprob": -17.339649200439453,
+          "sequence_logprob": -34.679298400878906,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 9,
+          "mean_token_logprob": -16.164487838745117,
+          "sequence_logprob": -32.328975677490234,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 10,
+          "mean_token_logprob": -15.727269172668457,
+          "sequence_logprob": -31.454538345336914,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 11,
+          "mean_token_logprob": -18.185226440429688,
+          "sequence_logprob": -36.370452880859375,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 12,
+          "mean_token_logprob": -15.827461242675781,
+          "sequence_logprob": -31.654922485351562,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 13,
+          "mean_token_logprob": -14.80349063873291,
+          "sequence_logprob": -29.60698127746582,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 14,
+          "mean_token_logprob": -15.826751708984375,
+          "sequence_logprob": -31.65350341796875,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 15,
+          "mean_token_logprob": -14.415292739868164,
+          "sequence_logprob": -28.830585479736328,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 16,
+          "mean_token_logprob": -12.923672676086426,
+          "sequence_logprob": -25.84734535217285,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 17,
+          "mean_token_logprob": -11.692110061645508,
+          "sequence_logprob": -23.384220123291016,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 18,
+          "mean_token_logprob": -11.98745346069336,
+          "sequence_logprob": -23.97490692138672,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 19,
+          "mean_token_logprob": -10.066308975219727,
+          "sequence_logprob": -20.132617950439453,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 20,
+          "mean_token_logprob": -9.442456245422363,
+          "sequence_logprob": -18.884912490844727,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 21,
+          "mean_token_logprob": -9.14332389831543,
+          "sequence_logprob": -18.28664779663086,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 22,
+          "mean_token_logprob": -5.74997615814209,
+          "sequence_logprob": -11.49995231628418,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 23,
+          "mean_token_logprob": -3.8425681591033936,
+          "sequence_logprob": -7.685136318206787,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 24,
+          "mean_token_logprob": -3.0990917682647705,
+          "sequence_logprob": -6.198183536529541,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 1,
+          "mean_token_logprob": -17.3400821685791,
+          "sequence_logprob": -69.3603286743164,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 2,
+          "mean_token_logprob": -17.28229522705078,
+          "sequence_logprob": -69.12918090820312,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 3,
+          "mean_token_logprob": -18.297937393188477,
+          "sequence_logprob": -73.1917495727539,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 4,
+          "mean_token_logprob": -15.5759916305542,
+          "sequence_logprob": -62.3039665222168,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 5,
+          "mean_token_logprob": -17.34410858154297,
+          "sequence_logprob": -69.37643432617188,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 6,
+          "mean_token_logprob": -17.791149139404297,
+          "sequence_logprob": -71.16459655761719,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 7,
+          "mean_token_logprob": -17.246288299560547,
+          "sequence_logprob": -68.98515319824219,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 8,
+          "mean_token_logprob": -15.815908432006836,
+          "sequence_logprob": -63.263633728027344,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 9,
+          "mean_token_logprob": -15.776360511779785,
+          "sequence_logprob": -63.10544204711914,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 10,
+          "mean_token_logprob": -14.465751647949219,
+          "sequence_logprob": -57.863006591796875,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 11,
+          "mean_token_logprob": -15.696064949035645,
+          "sequence_logprob": -62.78425979614258,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 12,
+          "mean_token_logprob": -13.923271179199219,
+          "sequence_logprob": -55.693084716796875,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 13,
+          "mean_token_logprob": -14.981156349182129,
+          "sequence_logprob": -59.924625396728516,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 14,
+          "mean_token_logprob": -15.158495903015137,
+          "sequence_logprob": -60.63398361206055,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 15,
+          "mean_token_logprob": -14.985260963439941,
+          "sequence_logprob": -59.941043853759766,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 16,
+          "mean_token_logprob": -12.477860450744629,
+          "sequence_logprob": -49.911441802978516,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 17,
+          "mean_token_logprob": -12.809602737426758,
+          "sequence_logprob": -51.23841094970703,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 18,
+          "mean_token_logprob": -12.909141540527344,
+          "sequence_logprob": -51.636566162109375,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 19,
+          "mean_token_logprob": -12.016426086425781,
+          "sequence_logprob": -48.065704345703125,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 20,
+          "mean_token_logprob": -14.813068389892578,
+          "sequence_logprob": -59.25227355957031,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 21,
+          "mean_token_logprob": -12.483028411865234,
+          "sequence_logprob": -49.93211364746094,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 22,
+          "mean_token_logprob": -8.90276050567627,
+          "sequence_logprob": -35.61104202270508,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 23,
+          "mean_token_logprob": -5.067828178405762,
+          "sequence_logprob": -20.271312713623047,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 24,
+          "mean_token_logprob": -3.4780259132385254,
+          "sequence_logprob": -13.912103652954102,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        }
+      ],
+      "native_error": 2.574920654296875e-05,
+      "probe": [
+        {
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 22,
+          "score": -1.7884117587881119
+        },
+        {
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 23,
+          "score": -2.9080012294906563
+        },
+        {
+          "input_id": "C25__C25_042__Neutral_X",
+          "layer": 24,
+          "score": -5.06840758658992
+        }
+      ]
+    },
+    {
+      "generation": {
+        "empty_response": false,
+        "explicit_x": false,
+        "input_id": "C25__C25_048__Avoid_X",
+        "output_token_count": 3,
+        "response": "Guitar",
+        "seed": 101,
+        "truncated_at_limit": false
+      },
+      "input_id": "C25__C25_048__Avoid_X",
+      "lens": [
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 1,
+          "mean_token_logprob": -17.11954689025879,
+          "sequence_logprob": -34.23909378051758,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 2,
+          "mean_token_logprob": -14.704227447509766,
+          "sequence_logprob": -29.40845489501953,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 3,
+          "mean_token_logprob": -16.762611389160156,
+          "sequence_logprob": -33.52522277832031,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 4,
+          "mean_token_logprob": -15.961008071899414,
+          "sequence_logprob": -31.922016143798828,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 5,
+          "mean_token_logprob": -17.262821197509766,
+          "sequence_logprob": -34.52564239501953,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 6,
+          "mean_token_logprob": -16.887470245361328,
+          "sequence_logprob": -33.774940490722656,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 7,
+          "mean_token_logprob": -17.475799560546875,
+          "sequence_logprob": -34.95159912109375,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 8,
+          "mean_token_logprob": -16.87668800354004,
+          "sequence_logprob": -33.75337600708008,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 9,
+          "mean_token_logprob": -15.968436241149902,
+          "sequence_logprob": -31.936872482299805,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 10,
+          "mean_token_logprob": -15.211540222167969,
+          "sequence_logprob": -30.423080444335938,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 11,
+          "mean_token_logprob": -17.982044219970703,
+          "sequence_logprob": -35.964088439941406,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 12,
+          "mean_token_logprob": -15.980081558227539,
+          "sequence_logprob": -31.960163116455078,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 13,
+          "mean_token_logprob": -14.564474105834961,
+          "sequence_logprob": -29.128948211669922,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 14,
+          "mean_token_logprob": -15.539641380310059,
+          "sequence_logprob": -31.079282760620117,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 15,
+          "mean_token_logprob": -13.627912521362305,
+          "sequence_logprob": -27.25582504272461,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 16,
+          "mean_token_logprob": -11.623758316040039,
+          "sequence_logprob": -23.247516632080078,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 17,
+          "mean_token_logprob": -11.27324104309082,
+          "sequence_logprob": -22.54648208618164,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 18,
+          "mean_token_logprob": -12.02668571472168,
+          "sequence_logprob": -24.05337142944336,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 19,
+          "mean_token_logprob": -9.907747268676758,
+          "sequence_logprob": -19.815494537353516,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 20,
+          "mean_token_logprob": -9.227420806884766,
+          "sequence_logprob": -18.45484161376953,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 21,
+          "mean_token_logprob": -9.077422142028809,
+          "sequence_logprob": -18.154844284057617,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 22,
+          "mean_token_logprob": -5.8827080726623535,
+          "sequence_logprob": -11.765416145324707,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 23,
+          "mean_token_logprob": -4.476102828979492,
+          "sequence_logprob": -8.952205657958984,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 24,
+          "mean_token_logprob": -3.5802855491638184,
+          "sequence_logprob": -7.160571098327637,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 1,
+          "mean_token_logprob": -17.41907501220703,
+          "sequence_logprob": -69.67630004882812,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 2,
+          "mean_token_logprob": -17.26293182373047,
+          "sequence_logprob": -69.05172729492188,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 3,
+          "mean_token_logprob": -18.248210906982422,
+          "sequence_logprob": -72.99284362792969,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 4,
+          "mean_token_logprob": -15.619142532348633,
+          "sequence_logprob": -62.47657012939453,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 5,
+          "mean_token_logprob": -17.4061336517334,
+          "sequence_logprob": -69.6245346069336,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 6,
+          "mean_token_logprob": -17.975482940673828,
+          "sequence_logprob": -71.90193176269531,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 7,
+          "mean_token_logprob": -17.105224609375,
+          "sequence_logprob": -68.4208984375,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 8,
+          "mean_token_logprob": -15.762262344360352,
+          "sequence_logprob": -63.049049377441406,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 9,
+          "mean_token_logprob": -15.821486473083496,
+          "sequence_logprob": -63.285945892333984,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 10,
+          "mean_token_logprob": -14.361587524414062,
+          "sequence_logprob": -57.44635009765625,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 11,
+          "mean_token_logprob": -15.761521339416504,
+          "sequence_logprob": -63.046085357666016,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 12,
+          "mean_token_logprob": -14.27775764465332,
+          "sequence_logprob": -57.11103057861328,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 13,
+          "mean_token_logprob": -15.333221435546875,
+          "sequence_logprob": -61.3328857421875,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 14,
+          "mean_token_logprob": -15.100346565246582,
+          "sequence_logprob": -60.40138626098633,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 15,
+          "mean_token_logprob": -14.834592819213867,
+          "sequence_logprob": -59.33837127685547,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 16,
+          "mean_token_logprob": -12.087839126586914,
+          "sequence_logprob": -48.351356506347656,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 17,
+          "mean_token_logprob": -13.061922073364258,
+          "sequence_logprob": -52.24768829345703,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 18,
+          "mean_token_logprob": -13.154226303100586,
+          "sequence_logprob": -52.616905212402344,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 19,
+          "mean_token_logprob": -12.184991836547852,
+          "sequence_logprob": -48.739967346191406,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 20,
+          "mean_token_logprob": -14.739534378051758,
+          "sequence_logprob": -58.95813751220703,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 21,
+          "mean_token_logprob": -12.140503883361816,
+          "sequence_logprob": -48.562015533447266,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 22,
+          "mean_token_logprob": -8.383557319641113,
+          "sequence_logprob": -33.53422927856445,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 23,
+          "mean_token_logprob": -4.7563300132751465,
+          "sequence_logprob": -19.025320053100586,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 24,
+          "mean_token_logprob": -3.547638416290283,
+          "sequence_logprob": -14.190553665161133,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        }
+      ],
+      "native_error": 1.9073486328125e-05,
+      "probe": [
+        {
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 22,
+          "score": -5.386178442802665
+        },
+        {
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 23,
+          "score": -7.716889890703853
+        },
+        {
+          "input_id": "C25__C25_048__Avoid_X",
+          "layer": 24,
+          "score": -7.710282388908749
+        }
+      ]
+    },
+    {
+      "generation": {
+        "empty_response": false,
+        "explicit_x": false,
+        "input_id": "C25__C25_048__Neutral_X",
+        "output_token_count": 10,
+        "response": "Drumming adds lively layers to celebrations.",
+        "seed": 101,
+        "truncated_at_limit": false
+      },
+      "input_id": "C25__C25_048__Neutral_X",
+      "lens": [
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 1,
+          "mean_token_logprob": -17.118389129638672,
+          "sequence_logprob": -34.236778259277344,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 2,
+          "mean_token_logprob": -14.750467300415039,
+          "sequence_logprob": -29.500934600830078,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 3,
+          "mean_token_logprob": -16.81902313232422,
+          "sequence_logprob": -33.63804626464844,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 4,
+          "mean_token_logprob": -16.00148582458496,
+          "sequence_logprob": -32.00297164916992,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 5,
+          "mean_token_logprob": -17.463489532470703,
+          "sequence_logprob": -34.926979064941406,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 6,
+          "mean_token_logprob": -16.95482635498047,
+          "sequence_logprob": -33.90965270996094,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 7,
+          "mean_token_logprob": -17.58704376220703,
+          "sequence_logprob": -35.17408752441406,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 8,
+          "mean_token_logprob": -16.92207908630371,
+          "sequence_logprob": -33.84415817260742,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 9,
+          "mean_token_logprob": -15.929975509643555,
+          "sequence_logprob": -31.85995101928711,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 10,
+          "mean_token_logprob": -15.30501651763916,
+          "sequence_logprob": -30.61003303527832,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 11,
+          "mean_token_logprob": -17.917587280273438,
+          "sequence_logprob": -35.835174560546875,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 12,
+          "mean_token_logprob": -15.587104797363281,
+          "sequence_logprob": -31.174209594726562,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 13,
+          "mean_token_logprob": -14.53058910369873,
+          "sequence_logprob": -29.06117820739746,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 14,
+          "mean_token_logprob": -15.302541732788086,
+          "sequence_logprob": -30.605083465576172,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 15,
+          "mean_token_logprob": -13.873173713684082,
+          "sequence_logprob": -27.746347427368164,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 16,
+          "mean_token_logprob": -12.257386207580566,
+          "sequence_logprob": -24.514772415161133,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 17,
+          "mean_token_logprob": -11.634845733642578,
+          "sequence_logprob": -23.269691467285156,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 18,
+          "mean_token_logprob": -11.974899291992188,
+          "sequence_logprob": -23.949798583984375,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 19,
+          "mean_token_logprob": -10.058023452758789,
+          "sequence_logprob": -20.116046905517578,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 20,
+          "mean_token_logprob": -9.523030281066895,
+          "sequence_logprob": -19.04606056213379,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 21,
+          "mean_token_logprob": -8.928498268127441,
+          "sequence_logprob": -17.856996536254883,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 22,
+          "mean_token_logprob": -5.7195916175842285,
+          "sequence_logprob": -11.439183235168457,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 23,
+          "mean_token_logprob": -3.9811909198760986,
+          "sequence_logprob": -7.962381839752197,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 24,
+          "mean_token_logprob": -2.8259778022766113,
+          "sequence_logprob": -5.651955604553223,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 1,
+          "mean_token_logprob": -17.417306900024414,
+          "sequence_logprob": -69.66922760009766,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 2,
+          "mean_token_logprob": -17.248703002929688,
+          "sequence_logprob": -68.99481201171875,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 3,
+          "mean_token_logprob": -18.234233856201172,
+          "sequence_logprob": -72.93693542480469,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 4,
+          "mean_token_logprob": -15.539838790893555,
+          "sequence_logprob": -62.15935516357422,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 5,
+          "mean_token_logprob": -17.407146453857422,
+          "sequence_logprob": -69.62858581542969,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 6,
+          "mean_token_logprob": -17.868328094482422,
+          "sequence_logprob": -71.47331237792969,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 7,
+          "mean_token_logprob": -17.22539710998535,
+          "sequence_logprob": -68.9015884399414,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 8,
+          "mean_token_logprob": -15.723154067993164,
+          "sequence_logprob": -62.892616271972656,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 9,
+          "mean_token_logprob": -15.725564956665039,
+          "sequence_logprob": -62.902259826660156,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 10,
+          "mean_token_logprob": -14.218812942504883,
+          "sequence_logprob": -56.87525177001953,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 11,
+          "mean_token_logprob": -15.692596435546875,
+          "sequence_logprob": -62.7703857421875,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 12,
+          "mean_token_logprob": -13.986763000488281,
+          "sequence_logprob": -55.947052001953125,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 13,
+          "mean_token_logprob": -15.091666221618652,
+          "sequence_logprob": -60.36666488647461,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 14,
+          "mean_token_logprob": -15.068683624267578,
+          "sequence_logprob": -60.27473449707031,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 15,
+          "mean_token_logprob": -14.681090354919434,
+          "sequence_logprob": -58.724361419677734,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 16,
+          "mean_token_logprob": -11.881549835205078,
+          "sequence_logprob": -47.52619934082031,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 17,
+          "mean_token_logprob": -12.848475456237793,
+          "sequence_logprob": -51.39390182495117,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 18,
+          "mean_token_logprob": -12.889354705810547,
+          "sequence_logprob": -51.55741882324219,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 19,
+          "mean_token_logprob": -11.927830696105957,
+          "sequence_logprob": -47.71132278442383,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 20,
+          "mean_token_logprob": -14.787556648254395,
+          "sequence_logprob": -59.15022659301758,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 21,
+          "mean_token_logprob": -12.14400863647461,
+          "sequence_logprob": -48.57603454589844,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 22,
+          "mean_token_logprob": -8.476846694946289,
+          "sequence_logprob": -33.907386779785156,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 23,
+          "mean_token_logprob": -4.668111801147461,
+          "sequence_logprob": -18.672447204589844,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 24,
+          "mean_token_logprob": -3.2794992923736572,
+          "sequence_logprob": -13.117997169494629,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        }
+      ],
+      "native_error": 2.002716064453125e-05,
+      "probe": [
+        {
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 22,
+          "score": -5.112649851752599
+        },
+        {
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 23,
+          "score": -6.9830579609427454
+        },
+        {
+          "input_id": "C25__C25_048__Neutral_X",
+          "layer": 24,
+          "score": -7.516963675316812
+        }
+      ]
+    },
+    {
+      "generation": {
+        "empty_response": false,
+        "explicit_x": false,
+        "input_id": "C25__C25_050__Avoid_X",
+        "output_token_count": 6,
+        "response": "Circumnavigation Dance",
+        "seed": 101,
+        "truncated_at_limit": false
+      },
+      "input_id": "C25__C25_050__Avoid_X",
+      "lens": [
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 1,
+          "mean_token_logprob": -17.108043670654297,
+          "sequence_logprob": -34.216087341308594,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 2,
+          "mean_token_logprob": -14.864227294921875,
+          "sequence_logprob": -29.72845458984375,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 3,
+          "mean_token_logprob": -16.9752197265625,
+          "sequence_logprob": -33.950439453125,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 4,
+          "mean_token_logprob": -16.104047775268555,
+          "sequence_logprob": -32.20809555053711,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 5,
+          "mean_token_logprob": -17.445011138916016,
+          "sequence_logprob": -34.89002227783203,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 6,
+          "mean_token_logprob": -17.014400482177734,
+          "sequence_logprob": -34.02880096435547,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 7,
+          "mean_token_logprob": -17.538326263427734,
+          "sequence_logprob": -35.07665252685547,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 8,
+          "mean_token_logprob": -17.097089767456055,
+          "sequence_logprob": -34.19417953491211,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 9,
+          "mean_token_logprob": -16.082286834716797,
+          "sequence_logprob": -32.164573669433594,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 10,
+          "mean_token_logprob": -15.534706115722656,
+          "sequence_logprob": -31.069412231445312,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 11,
+          "mean_token_logprob": -17.993871688842773,
+          "sequence_logprob": -35.98774337768555,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 12,
+          "mean_token_logprob": -16.23287010192871,
+          "sequence_logprob": -32.46574020385742,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 13,
+          "mean_token_logprob": -14.769614219665527,
+          "sequence_logprob": -29.539228439331055,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 14,
+          "mean_token_logprob": -15.938478469848633,
+          "sequence_logprob": -31.876956939697266,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 15,
+          "mean_token_logprob": -13.892997741699219,
+          "sequence_logprob": -27.785995483398438,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 16,
+          "mean_token_logprob": -12.498451232910156,
+          "sequence_logprob": -24.996902465820312,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 17,
+          "mean_token_logprob": -11.598685264587402,
+          "sequence_logprob": -23.197370529174805,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 18,
+          "mean_token_logprob": -12.185638427734375,
+          "sequence_logprob": -24.37127685546875,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 19,
+          "mean_token_logprob": -10.65831184387207,
+          "sequence_logprob": -21.31662368774414,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 20,
+          "mean_token_logprob": -9.951915740966797,
+          "sequence_logprob": -19.903831481933594,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 21,
+          "mean_token_logprob": -9.82062816619873,
+          "sequence_logprob": -19.64125633239746,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 22,
+          "mean_token_logprob": -6.631302833557129,
+          "sequence_logprob": -13.262605667114258,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 23,
+          "mean_token_logprob": -4.865067958831787,
+          "sequence_logprob": -9.730135917663574,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 24,
+          "mean_token_logprob": -4.264316558837891,
+          "sequence_logprob": -8.528633117675781,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 1,
+          "mean_token_logprob": -17.394603729248047,
+          "sequence_logprob": -69.57841491699219,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 2,
+          "mean_token_logprob": -17.332996368408203,
+          "sequence_logprob": -69.33198547363281,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 3,
+          "mean_token_logprob": -18.38543128967285,
+          "sequence_logprob": -73.5417251586914,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 4,
+          "mean_token_logprob": -15.723161697387695,
+          "sequence_logprob": -62.89264678955078,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 5,
+          "mean_token_logprob": -17.34121322631836,
+          "sequence_logprob": -69.36485290527344,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 6,
+          "mean_token_logprob": -17.872211456298828,
+          "sequence_logprob": -71.48884582519531,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 7,
+          "mean_token_logprob": -17.208951950073242,
+          "sequence_logprob": -68.83580780029297,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 8,
+          "mean_token_logprob": -16.007991790771484,
+          "sequence_logprob": -64.03196716308594,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 9,
+          "mean_token_logprob": -15.862675666809082,
+          "sequence_logprob": -63.45070266723633,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 10,
+          "mean_token_logprob": -14.3779296875,
+          "sequence_logprob": -57.51171875,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 11,
+          "mean_token_logprob": -15.531111717224121,
+          "sequence_logprob": -62.124446868896484,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 12,
+          "mean_token_logprob": -13.800674438476562,
+          "sequence_logprob": -55.20269775390625,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 13,
+          "mean_token_logprob": -14.925945281982422,
+          "sequence_logprob": -59.70378112792969,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 14,
+          "mean_token_logprob": -14.758822441101074,
+          "sequence_logprob": -59.0352897644043,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 15,
+          "mean_token_logprob": -14.704840660095215,
+          "sequence_logprob": -58.81936264038086,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 16,
+          "mean_token_logprob": -12.469846725463867,
+          "sequence_logprob": -49.87938690185547,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 17,
+          "mean_token_logprob": -13.289848327636719,
+          "sequence_logprob": -53.159393310546875,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 18,
+          "mean_token_logprob": -13.27363395690918,
+          "sequence_logprob": -53.09453582763672,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 19,
+          "mean_token_logprob": -12.375953674316406,
+          "sequence_logprob": -49.503814697265625,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 20,
+          "mean_token_logprob": -15.13119888305664,
+          "sequence_logprob": -60.52479553222656,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 21,
+          "mean_token_logprob": -12.788811683654785,
+          "sequence_logprob": -51.15524673461914,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 22,
+          "mean_token_logprob": -9.033456802368164,
+          "sequence_logprob": -36.133827209472656,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 23,
+          "mean_token_logprob": -5.059077262878418,
+          "sequence_logprob": -20.236309051513672,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 24,
+          "mean_token_logprob": -3.574786901473999,
+          "sequence_logprob": -14.299147605895996,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        }
+      ],
+      "native_error": 2.09808349609375e-05,
+      "probe": [
+        {
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 22,
+          "score": -6.283954416961637
+        },
+        {
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 23,
+          "score": -8.764752913006207
+        },
+        {
+          "input_id": "C25__C25_050__Avoid_X",
+          "layer": 24,
+          "score": -9.2837396721425
+        }
+      ]
+    },
+    {
+      "generation": {
+        "empty_response": false,
+        "explicit_x": false,
+        "input_id": "C25__C25_050__Neutral_X",
+        "output_token_count": 6,
+        "response": "Circumnavigation Dance",
+        "seed": 101,
+        "truncated_at_limit": false
+      },
+      "input_id": "C25__C25_050__Neutral_X",
+      "lens": [
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 1,
+          "mean_token_logprob": -17.095003128051758,
+          "sequence_logprob": -34.190006256103516,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 2,
+          "mean_token_logprob": -14.895298957824707,
+          "sequence_logprob": -29.790597915649414,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 3,
+          "mean_token_logprob": -17.025453567504883,
+          "sequence_logprob": -34.050907135009766,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 4,
+          "mean_token_logprob": -16.17253875732422,
+          "sequence_logprob": -32.34507751464844,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 5,
+          "mean_token_logprob": -17.670434951782227,
+          "sequence_logprob": -35.34086990356445,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 6,
+          "mean_token_logprob": -17.0657901763916,
+          "sequence_logprob": -34.1315803527832,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 7,
+          "mean_token_logprob": -17.72838592529297,
+          "sequence_logprob": -35.45677185058594,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 8,
+          "mean_token_logprob": -17.212194442749023,
+          "sequence_logprob": -34.42438888549805,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 9,
+          "mean_token_logprob": -16.044342041015625,
+          "sequence_logprob": -32.08868408203125,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 10,
+          "mean_token_logprob": -15.712583541870117,
+          "sequence_logprob": -31.425167083740234,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 11,
+          "mean_token_logprob": -18.053905487060547,
+          "sequence_logprob": -36.107810974121094,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 12,
+          "mean_token_logprob": -15.84770393371582,
+          "sequence_logprob": -31.69540786743164,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 13,
+          "mean_token_logprob": -14.736284255981445,
+          "sequence_logprob": -29.47256851196289,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 14,
+          "mean_token_logprob": -15.611007690429688,
+          "sequence_logprob": -31.222015380859375,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 15,
+          "mean_token_logprob": -14.194804191589355,
+          "sequence_logprob": -28.38960838317871,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 16,
+          "mean_token_logprob": -13.171648025512695,
+          "sequence_logprob": -26.34329605102539,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 17,
+          "mean_token_logprob": -11.949810981750488,
+          "sequence_logprob": -23.899621963500977,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 18,
+          "mean_token_logprob": -12.113388061523438,
+          "sequence_logprob": -24.226776123046875,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 19,
+          "mean_token_logprob": -10.672569274902344,
+          "sequence_logprob": -21.345138549804688,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 20,
+          "mean_token_logprob": -10.147842407226562,
+          "sequence_logprob": -20.295684814453125,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 21,
+          "mean_token_logprob": -9.47736930847168,
+          "sequence_logprob": -18.95473861694336,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 22,
+          "mean_token_logprob": -6.4226179122924805,
+          "sequence_logprob": -12.845235824584961,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 23,
+          "mean_token_logprob": -4.372054100036621,
+          "sequence_logprob": -8.744108200073242,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 24,
+          "mean_token_logprob": -3.292750120162964,
+          "sequence_logprob": -6.585500240325928,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 1,
+          "mean_token_logprob": -17.354829788208008,
+          "sequence_logprob": -69.41931915283203,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 2,
+          "mean_token_logprob": -17.320226669311523,
+          "sequence_logprob": -69.2809066772461,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 3,
+          "mean_token_logprob": -18.37749481201172,
+          "sequence_logprob": -73.50997924804688,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 4,
+          "mean_token_logprob": -15.638803482055664,
+          "sequence_logprob": -62.555213928222656,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 5,
+          "mean_token_logprob": -17.312740325927734,
+          "sequence_logprob": -69.25096130371094,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 6,
+          "mean_token_logprob": -17.76803970336914,
+          "sequence_logprob": -71.07215881347656,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 7,
+          "mean_token_logprob": -17.33285140991211,
+          "sequence_logprob": -69.33140563964844,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 8,
+          "mean_token_logprob": -15.989004135131836,
+          "sequence_logprob": -63.956016540527344,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 9,
+          "mean_token_logprob": -15.821799278259277,
+          "sequence_logprob": -63.28719711303711,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 10,
+          "mean_token_logprob": -14.371644973754883,
+          "sequence_logprob": -57.48657989501953,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 11,
+          "mean_token_logprob": -15.58695125579834,
+          "sequence_logprob": -62.34780502319336,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 12,
+          "mean_token_logprob": -13.620157241821289,
+          "sequence_logprob": -54.480628967285156,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 13,
+          "mean_token_logprob": -14.69128131866455,
+          "sequence_logprob": -58.7651252746582,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 14,
+          "mean_token_logprob": -14.692179679870605,
+          "sequence_logprob": -58.76871871948242,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 15,
+          "mean_token_logprob": -14.45928955078125,
+          "sequence_logprob": -57.837158203125,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 16,
+          "mean_token_logprob": -12.199836730957031,
+          "sequence_logprob": -48.799346923828125,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 17,
+          "mean_token_logprob": -13.058032035827637,
+          "sequence_logprob": -52.23212814331055,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 18,
+          "mean_token_logprob": -13.073360443115234,
+          "sequence_logprob": -52.29344177246094,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 19,
+          "mean_token_logprob": -12.30557632446289,
+          "sequence_logprob": -49.22230529785156,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 20,
+          "mean_token_logprob": -15.221799850463867,
+          "sequence_logprob": -60.88719940185547,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 21,
+          "mean_token_logprob": -12.838239669799805,
+          "sequence_logprob": -51.35295867919922,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 22,
+          "mean_token_logprob": -9.061044692993164,
+          "sequence_logprob": -36.244178771972656,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 23,
+          "mean_token_logprob": -4.951866149902344,
+          "sequence_logprob": -19.807464599609375,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 24,
+          "mean_token_logprob": -3.4478201866149902,
+          "sequence_logprob": -13.791280746459961,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        }
+      ],
+      "native_error": 2.193450927734375e-05,
+      "probe": [
+        {
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 22,
+          "score": -5.885532370046338
+        },
+        {
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 23,
+          "score": -7.943309983159791
+        },
+        {
+          "input_id": "C25__C25_050__Neutral_X",
+          "layer": 24,
+          "score": -8.881105238190758
+        }
+      ]
+    },
+    {
+      "generation": {
+        "empty_response": false,
+        "explicit_x": false,
+        "input_id": "C25__C25_052__Avoid_X",
+        "output_token_count": 6,
+        "response": "Circumnavigation Instrument",
+        "seed": 101,
+        "truncated_at_limit": false
+      },
+      "input_id": "C25__C25_052__Avoid_X",
+      "lens": [
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 1,
+          "mean_token_logprob": -17.15633773803711,
+          "sequence_logprob": -34.31267547607422,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 2,
+          "mean_token_logprob": -14.731863021850586,
+          "sequence_logprob": -29.463726043701172,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 3,
+          "mean_token_logprob": -16.7977237701416,
+          "sequence_logprob": -33.5954475402832,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 4,
+          "mean_token_logprob": -16.09344482421875,
+          "sequence_logprob": -32.1868896484375,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 5,
+          "mean_token_logprob": -17.576969146728516,
+          "sequence_logprob": -35.15393829345703,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 6,
+          "mean_token_logprob": -17.11331558227539,
+          "sequence_logprob": -34.22663116455078,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 7,
+          "mean_token_logprob": -17.60843849182129,
+          "sequence_logprob": -35.21687698364258,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 8,
+          "mean_token_logprob": -17.327823638916016,
+          "sequence_logprob": -34.65564727783203,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 9,
+          "mean_token_logprob": -16.325773239135742,
+          "sequence_logprob": -32.651546478271484,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 10,
+          "mean_token_logprob": -15.452947616577148,
+          "sequence_logprob": -30.905895233154297,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 11,
+          "mean_token_logprob": -18.15536117553711,
+          "sequence_logprob": -36.31072235107422,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 12,
+          "mean_token_logprob": -16.452192306518555,
+          "sequence_logprob": -32.90438461303711,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 13,
+          "mean_token_logprob": -15.13680648803711,
+          "sequence_logprob": -30.27361297607422,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 14,
+          "mean_token_logprob": -16.088764190673828,
+          "sequence_logprob": -32.177528381347656,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 15,
+          "mean_token_logprob": -14.37680435180664,
+          "sequence_logprob": -28.75360870361328,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 16,
+          "mean_token_logprob": -12.803369522094727,
+          "sequence_logprob": -25.606739044189453,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 17,
+          "mean_token_logprob": -11.781221389770508,
+          "sequence_logprob": -23.562442779541016,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 18,
+          "mean_token_logprob": -12.716083526611328,
+          "sequence_logprob": -25.432167053222656,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 19,
+          "mean_token_logprob": -10.701925277709961,
+          "sequence_logprob": -21.403850555419922,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 20,
+          "mean_token_logprob": -10.066540718078613,
+          "sequence_logprob": -20.133081436157227,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 21,
+          "mean_token_logprob": -10.273063659667969,
+          "sequence_logprob": -20.546127319335938,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 22,
+          "mean_token_logprob": -6.789127349853516,
+          "sequence_logprob": -13.578254699707031,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 23,
+          "mean_token_logprob": -5.199626922607422,
+          "sequence_logprob": -10.399253845214844,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 24,
+          "mean_token_logprob": -5.3400468826293945,
+          "sequence_logprob": -10.680093765258789,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 1,
+          "mean_token_logprob": -17.354793548583984,
+          "sequence_logprob": -69.41917419433594,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 2,
+          "mean_token_logprob": -17.17289161682129,
+          "sequence_logprob": -68.69156646728516,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 3,
+          "mean_token_logprob": -18.21567726135254,
+          "sequence_logprob": -72.86270904541016,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 4,
+          "mean_token_logprob": -15.610685348510742,
+          "sequence_logprob": -62.44274139404297,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 5,
+          "mean_token_logprob": -17.443782806396484,
+          "sequence_logprob": -69.77513122558594,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 6,
+          "mean_token_logprob": -18.004131317138672,
+          "sequence_logprob": -72.01652526855469,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 7,
+          "mean_token_logprob": -17.07192611694336,
+          "sequence_logprob": -68.28770446777344,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 8,
+          "mean_token_logprob": -15.665831565856934,
+          "sequence_logprob": -62.663326263427734,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 9,
+          "mean_token_logprob": -15.780851364135742,
+          "sequence_logprob": -63.12340545654297,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 10,
+          "mean_token_logprob": -14.4942045211792,
+          "sequence_logprob": -57.9768180847168,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 11,
+          "mean_token_logprob": -15.752347946166992,
+          "sequence_logprob": -63.00939178466797,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 12,
+          "mean_token_logprob": -14.087291717529297,
+          "sequence_logprob": -56.34916687011719,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 13,
+          "mean_token_logprob": -14.966533660888672,
+          "sequence_logprob": -59.86613464355469,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 14,
+          "mean_token_logprob": -14.917871475219727,
+          "sequence_logprob": -59.671485900878906,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 15,
+          "mean_token_logprob": -14.98413372039795,
+          "sequence_logprob": -59.9365348815918,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 16,
+          "mean_token_logprob": -12.72808837890625,
+          "sequence_logprob": -50.912353515625,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 17,
+          "mean_token_logprob": -13.280075073242188,
+          "sequence_logprob": -53.12030029296875,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 18,
+          "mean_token_logprob": -13.471919059753418,
+          "sequence_logprob": -53.88767623901367,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 19,
+          "mean_token_logprob": -12.74628734588623,
+          "sequence_logprob": -50.98514938354492,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 20,
+          "mean_token_logprob": -15.244483947753906,
+          "sequence_logprob": -60.977935791015625,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 21,
+          "mean_token_logprob": -12.528755187988281,
+          "sequence_logprob": -50.115020751953125,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 22,
+          "mean_token_logprob": -8.781333923339844,
+          "sequence_logprob": -35.125335693359375,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 23,
+          "mean_token_logprob": -5.057616233825684,
+          "sequence_logprob": -20.230464935302734,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 24,
+          "mean_token_logprob": -3.979191780090332,
+          "sequence_logprob": -15.916767120361328,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        }
+      ],
+      "native_error": 2.384185791015625e-05,
+      "probe": [
+        {
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 22,
+          "score": -3.85937671851395
+        },
+        {
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 23,
+          "score": -5.546172972462001
+        },
+        {
+          "input_id": "C25__C25_052__Avoid_X",
+          "layer": 24,
+          "score": -6.9041803549005705
+        }
+      ]
+    },
+    {
+      "generation": {
+        "empty_response": false,
+        "explicit_x": true,
+        "input_id": "C25__C25_052__Neutral_X",
+        "output_token_count": 6,
+        "response": "Circumnavigation Drum",
+        "seed": 101,
+        "truncated_at_limit": false
+      },
+      "input_id": "C25__C25_052__Neutral_X",
+      "lens": [
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 1,
+          "mean_token_logprob": -17.151473999023438,
+          "sequence_logprob": -34.302947998046875,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 2,
+          "mean_token_logprob": -14.743353843688965,
+          "sequence_logprob": -29.48670768737793,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 3,
+          "mean_token_logprob": -16.852262496948242,
+          "sequence_logprob": -33.704524993896484,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 4,
+          "mean_token_logprob": -16.093334197998047,
+          "sequence_logprob": -32.186668395996094,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 5,
+          "mean_token_logprob": -17.682884216308594,
+          "sequence_logprob": -35.36576843261719,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 6,
+          "mean_token_logprob": -17.1804141998291,
+          "sequence_logprob": -34.3608283996582,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 7,
+          "mean_token_logprob": -17.69037628173828,
+          "sequence_logprob": -35.38075256347656,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 8,
+          "mean_token_logprob": -17.246150970458984,
+          "sequence_logprob": -34.49230194091797,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 9,
+          "mean_token_logprob": -16.224260330200195,
+          "sequence_logprob": -32.44852066040039,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 10,
+          "mean_token_logprob": -15.518562316894531,
+          "sequence_logprob": -31.037124633789062,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 11,
+          "mean_token_logprob": -18.131593704223633,
+          "sequence_logprob": -36.263187408447266,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 12,
+          "mean_token_logprob": -16.05286407470703,
+          "sequence_logprob": -32.10572814941406,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 13,
+          "mean_token_logprob": -15.00741958618164,
+          "sequence_logprob": -30.01483917236328,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 14,
+          "mean_token_logprob": -15.77365779876709,
+          "sequence_logprob": -31.54731559753418,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 15,
+          "mean_token_logprob": -14.62104606628418,
+          "sequence_logprob": -29.24209213256836,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 16,
+          "mean_token_logprob": -13.336984634399414,
+          "sequence_logprob": -26.673969268798828,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 17,
+          "mean_token_logprob": -11.787169456481934,
+          "sequence_logprob": -23.574338912963867,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 18,
+          "mean_token_logprob": -12.194066047668457,
+          "sequence_logprob": -24.388132095336914,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 19,
+          "mean_token_logprob": -10.376044273376465,
+          "sequence_logprob": -20.75208854675293,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 20,
+          "mean_token_logprob": -10.084322929382324,
+          "sequence_logprob": -20.16864585876465,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 21,
+          "mean_token_logprob": -9.552297592163086,
+          "sequence_logprob": -19.104595184326172,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 22,
+          "mean_token_logprob": -6.3763580322265625,
+          "sequence_logprob": -12.752716064453125,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 23,
+          "mean_token_logprob": -4.561679840087891,
+          "sequence_logprob": -9.123359680175781,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 24,
+          "mean_token_logprob": -4.139163494110107,
+          "sequence_logprob": -8.278326988220215,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 1,
+          "mean_token_logprob": -17.358715057373047,
+          "sequence_logprob": -69.43486022949219,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 2,
+          "mean_token_logprob": -17.15990447998047,
+          "sequence_logprob": -68.63961791992188,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 3,
+          "mean_token_logprob": -18.18096160888672,
+          "sequence_logprob": -72.72384643554688,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 4,
+          "mean_token_logprob": -15.526424407958984,
+          "sequence_logprob": -62.10569763183594,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 5,
+          "mean_token_logprob": -17.408092498779297,
+          "sequence_logprob": -69.63236999511719,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 6,
+          "mean_token_logprob": -17.880979537963867,
+          "sequence_logprob": -71.52391815185547,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 7,
+          "mean_token_logprob": -17.210554122924805,
+          "sequence_logprob": -68.84221649169922,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 8,
+          "mean_token_logprob": -15.681585311889648,
+          "sequence_logprob": -62.726341247558594,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 9,
+          "mean_token_logprob": -15.729721069335938,
+          "sequence_logprob": -62.91888427734375,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 10,
+          "mean_token_logprob": -14.393074035644531,
+          "sequence_logprob": -57.572296142578125,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 11,
+          "mean_token_logprob": -15.754616737365723,
+          "sequence_logprob": -63.01846694946289,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 12,
+          "mean_token_logprob": -13.949722290039062,
+          "sequence_logprob": -55.79888916015625,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 13,
+          "mean_token_logprob": -14.755720138549805,
+          "sequence_logprob": -59.02288055419922,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 14,
+          "mean_token_logprob": -14.885173797607422,
+          "sequence_logprob": -59.54069519042969,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 15,
+          "mean_token_logprob": -14.834266662597656,
+          "sequence_logprob": -59.337066650390625,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 16,
+          "mean_token_logprob": -12.409013748168945,
+          "sequence_logprob": -49.63605499267578,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 17,
+          "mean_token_logprob": -13.072375297546387,
+          "sequence_logprob": -52.28950119018555,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 18,
+          "mean_token_logprob": -13.284818649291992,
+          "sequence_logprob": -53.13927459716797,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 19,
+          "mean_token_logprob": -12.62917709350586,
+          "sequence_logprob": -50.51670837402344,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 20,
+          "mean_token_logprob": -15.267058372497559,
+          "sequence_logprob": -61.068233489990234,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 21,
+          "mean_token_logprob": -12.596637725830078,
+          "sequence_logprob": -50.38655090332031,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 22,
+          "mean_token_logprob": -8.939871788024902,
+          "sequence_logprob": -35.75948715209961,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 23,
+          "mean_token_logprob": -4.930436611175537,
+          "sequence_logprob": -19.72174644470215,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 24,
+          "mean_token_logprob": -3.675074338912964,
+          "sequence_logprob": -14.700297355651855,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        }
+      ],
+      "native_error": 1.9073486328125e-05,
+      "probe": [
+        {
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 22,
+          "score": -3.117689703772
+        },
+        {
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 23,
+          "score": -4.162891949431507
+        },
+        {
+          "input_id": "C25__C25_052__Neutral_X",
+          "layer": 24,
+          "score": -6.223312934264056
+        }
+      ]
+    },
+    {
+      "generation": {
+        "empty_response": false,
+        "explicit_x": false,
+        "input_id": "C25__C25_053__Avoid_X",
+        "output_token_count": 4,
+        "response": "Cultural Instrument",
+        "seed": 101,
+        "truncated_at_limit": false
+      },
+      "input_id": "C25__C25_053__Avoid_X",
+      "lens": [
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 1,
+          "mean_token_logprob": -17.092267990112305,
+          "sequence_logprob": -34.18453598022461,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 2,
+          "mean_token_logprob": -14.82901382446289,
+          "sequence_logprob": -29.65802764892578,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 3,
+          "mean_token_logprob": -16.876937866210938,
+          "sequence_logprob": -33.753875732421875,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 4,
+          "mean_token_logprob": -16.1778621673584,
+          "sequence_logprob": -32.3557243347168,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 5,
+          "mean_token_logprob": -17.43486785888672,
+          "sequence_logprob": -34.86973571777344,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 6,
+          "mean_token_logprob": -17.015491485595703,
+          "sequence_logprob": -34.030982971191406,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 7,
+          "mean_token_logprob": -17.55106544494629,
+          "sequence_logprob": -35.10213088989258,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 8,
+          "mean_token_logprob": -17.15267562866211,
+          "sequence_logprob": -34.30535125732422,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 9,
+          "mean_token_logprob": -16.13738250732422,
+          "sequence_logprob": -32.27476501464844,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 10,
+          "mean_token_logprob": -15.377002716064453,
+          "sequence_logprob": -30.754005432128906,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 11,
+          "mean_token_logprob": -18.30569076538086,
+          "sequence_logprob": -36.61138153076172,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 12,
+          "mean_token_logprob": -16.448894500732422,
+          "sequence_logprob": -32.897789001464844,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 13,
+          "mean_token_logprob": -14.99897289276123,
+          "sequence_logprob": -29.99794578552246,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 14,
+          "mean_token_logprob": -16.304094314575195,
+          "sequence_logprob": -32.60818862915039,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 15,
+          "mean_token_logprob": -14.069189071655273,
+          "sequence_logprob": -28.138378143310547,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 16,
+          "mean_token_logprob": -12.369095802307129,
+          "sequence_logprob": -24.738191604614258,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 17,
+          "mean_token_logprob": -11.522232055664062,
+          "sequence_logprob": -23.044464111328125,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 18,
+          "mean_token_logprob": -12.434610366821289,
+          "sequence_logprob": -24.869220733642578,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 19,
+          "mean_token_logprob": -9.877285957336426,
+          "sequence_logprob": -19.75457191467285,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 20,
+          "mean_token_logprob": -8.948273658752441,
+          "sequence_logprob": -17.896547317504883,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 21,
+          "mean_token_logprob": -9.000197410583496,
+          "sequence_logprob": -18.000394821166992,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 22,
+          "mean_token_logprob": -6.077402114868164,
+          "sequence_logprob": -12.154804229736328,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 23,
+          "mean_token_logprob": -5.223166465759277,
+          "sequence_logprob": -10.446332931518555,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 24,
+          "mean_token_logprob": -4.8950347900390625,
+          "sequence_logprob": -9.790069580078125,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 1,
+          "mean_token_logprob": -17.40212631225586,
+          "sequence_logprob": -69.60850524902344,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 2,
+          "mean_token_logprob": -17.309452056884766,
+          "sequence_logprob": -69.23780822753906,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 3,
+          "mean_token_logprob": -18.30614471435547,
+          "sequence_logprob": -73.22457885742188,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 4,
+          "mean_token_logprob": -15.696871757507324,
+          "sequence_logprob": -62.7874870300293,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 5,
+          "mean_token_logprob": -17.381114959716797,
+          "sequence_logprob": -69.52445983886719,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 6,
+          "mean_token_logprob": -17.74720001220703,
+          "sequence_logprob": -70.98880004882812,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 7,
+          "mean_token_logprob": -17.040746688842773,
+          "sequence_logprob": -68.1629867553711,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 8,
+          "mean_token_logprob": -15.860041618347168,
+          "sequence_logprob": -63.44016647338867,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 9,
+          "mean_token_logprob": -15.860389709472656,
+          "sequence_logprob": -63.441558837890625,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 10,
+          "mean_token_logprob": -14.410568237304688,
+          "sequence_logprob": -57.64227294921875,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 11,
+          "mean_token_logprob": -15.842198371887207,
+          "sequence_logprob": -63.36879348754883,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 12,
+          "mean_token_logprob": -14.196118354797363,
+          "sequence_logprob": -56.78447341918945,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 13,
+          "mean_token_logprob": -15.115200996398926,
+          "sequence_logprob": -60.4608039855957,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 14,
+          "mean_token_logprob": -14.42093276977539,
+          "sequence_logprob": -57.68373107910156,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 15,
+          "mean_token_logprob": -14.694953918457031,
+          "sequence_logprob": -58.779815673828125,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 16,
+          "mean_token_logprob": -12.426654815673828,
+          "sequence_logprob": -49.70661926269531,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 17,
+          "mean_token_logprob": -13.156522750854492,
+          "sequence_logprob": -52.62609100341797,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 18,
+          "mean_token_logprob": -13.56612777709961,
+          "sequence_logprob": -54.26451110839844,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 19,
+          "mean_token_logprob": -12.827607154846191,
+          "sequence_logprob": -51.310428619384766,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 20,
+          "mean_token_logprob": -15.033480644226074,
+          "sequence_logprob": -60.1339225769043,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 21,
+          "mean_token_logprob": -11.987544059753418,
+          "sequence_logprob": -47.95017623901367,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 22,
+          "mean_token_logprob": -8.419282913208008,
+          "sequence_logprob": -33.67713165283203,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 23,
+          "mean_token_logprob": -5.193996429443359,
+          "sequence_logprob": -20.775985717773438,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 24,
+          "mean_token_logprob": -4.460177898406982,
+          "sequence_logprob": -17.84071159362793,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        }
+      ],
+      "native_error": 2.09808349609375e-05,
+      "probe": [
+        {
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 22,
+          "score": -4.45272233525947
+        },
+        {
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 23,
+          "score": -5.954321735313314
+        },
+        {
+          "input_id": "C25__C25_053__Avoid_X",
+          "layer": 24,
+          "score": -7.070346066948953
+        }
+      ]
+    },
+    {
+      "generation": {
+        "empty_response": false,
+        "explicit_x": false,
+        "input_id": "C25__C25_053__Neutral_X",
+        "output_token_count": 5,
+        "response": "Circus Dance",
+        "seed": 101,
+        "truncated_at_limit": false
+      },
+      "input_id": "C25__C25_053__Neutral_X",
+      "lens": [
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 1,
+          "mean_token_logprob": -17.076095581054688,
+          "sequence_logprob": -34.152191162109375,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 2,
+          "mean_token_logprob": -14.860773086547852,
+          "sequence_logprob": -29.721546173095703,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 3,
+          "mean_token_logprob": -16.961017608642578,
+          "sequence_logprob": -33.922035217285156,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 4,
+          "mean_token_logprob": -16.214372634887695,
+          "sequence_logprob": -32.42874526977539,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 5,
+          "mean_token_logprob": -17.65125846862793,
+          "sequence_logprob": -35.30251693725586,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 6,
+          "mean_token_logprob": -17.094589233398438,
+          "sequence_logprob": -34.189178466796875,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 7,
+          "mean_token_logprob": -17.719345092773438,
+          "sequence_logprob": -35.438690185546875,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 8,
+          "mean_token_logprob": -17.170934677124023,
+          "sequence_logprob": -34.34186935424805,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 9,
+          "mean_token_logprob": -16.089214324951172,
+          "sequence_logprob": -32.178428649902344,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 10,
+          "mean_token_logprob": -15.494237899780273,
+          "sequence_logprob": -30.988475799560547,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 11,
+          "mean_token_logprob": -18.200607299804688,
+          "sequence_logprob": -36.401214599609375,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 12,
+          "mean_token_logprob": -16.060832977294922,
+          "sequence_logprob": -32.121665954589844,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 13,
+          "mean_token_logprob": -14.929874420166016,
+          "sequence_logprob": -29.85974884033203,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 14,
+          "mean_token_logprob": -15.921438217163086,
+          "sequence_logprob": -31.842876434326172,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 15,
+          "mean_token_logprob": -14.293050765991211,
+          "sequence_logprob": -28.586101531982422,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 16,
+          "mean_token_logprob": -13.018518447875977,
+          "sequence_logprob": -26.037036895751953,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 17,
+          "mean_token_logprob": -11.53897476196289,
+          "sequence_logprob": -23.07794952392578,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 18,
+          "mean_token_logprob": -11.815458297729492,
+          "sequence_logprob": -23.630916595458984,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 19,
+          "mean_token_logprob": -9.62744426727295,
+          "sequence_logprob": -19.2548885345459,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 20,
+          "mean_token_logprob": -8.959716796875,
+          "sequence_logprob": -17.91943359375,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 21,
+          "mean_token_logprob": -8.4578218460083,
+          "sequence_logprob": -16.9156436920166,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 22,
+          "mean_token_logprob": -5.732109069824219,
+          "sequence_logprob": -11.464218139648438,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 23,
+          "mean_token_logprob": -4.586517333984375,
+          "sequence_logprob": -9.17303466796875,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "drum",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 24,
+          "mean_token_logprob": -3.8154544830322266,
+          "sequence_logprob": -7.630908966064453,
+          "token_count": 2,
+          "token_ids": "3612 372"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 1,
+          "mean_token_logprob": -17.404020309448242,
+          "sequence_logprob": -69.61608123779297,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 2,
+          "mean_token_logprob": -17.298791885375977,
+          "sequence_logprob": -69.1951675415039,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 3,
+          "mean_token_logprob": -18.307479858398438,
+          "sequence_logprob": -73.22991943359375,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 4,
+          "mean_token_logprob": -15.619418144226074,
+          "sequence_logprob": -62.4776725769043,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 5,
+          "mean_token_logprob": -17.381263732910156,
+          "sequence_logprob": -69.52505493164062,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 6,
+          "mean_token_logprob": -17.64727783203125,
+          "sequence_logprob": -70.589111328125,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 7,
+          "mean_token_logprob": -17.252470016479492,
+          "sequence_logprob": -69.00988006591797,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 8,
+          "mean_token_logprob": -15.896452903747559,
+          "sequence_logprob": -63.585811614990234,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 9,
+          "mean_token_logprob": -15.795181274414062,
+          "sequence_logprob": -63.18072509765625,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 10,
+          "mean_token_logprob": -14.319478988647461,
+          "sequence_logprob": -57.277915954589844,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 11,
+          "mean_token_logprob": -15.847713470458984,
+          "sequence_logprob": -63.39085388183594,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 12,
+          "mean_token_logprob": -13.99365234375,
+          "sequence_logprob": -55.974609375,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 13,
+          "mean_token_logprob": -14.846145629882812,
+          "sequence_logprob": -59.38458251953125,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 14,
+          "mean_token_logprob": -14.32381820678711,
+          "sequence_logprob": -57.29527282714844,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 15,
+          "mean_token_logprob": -14.577308654785156,
+          "sequence_logprob": -58.309234619140625,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 16,
+          "mean_token_logprob": -12.140426635742188,
+          "sequence_logprob": -48.56170654296875,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 17,
+          "mean_token_logprob": -12.862239837646484,
+          "sequence_logprob": -51.44895935058594,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 18,
+          "mean_token_logprob": -13.233951568603516,
+          "sequence_logprob": -52.93580627441406,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 19,
+          "mean_token_logprob": -12.598514556884766,
+          "sequence_logprob": -50.39405822753906,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 20,
+          "mean_token_logprob": -15.003030776977539,
+          "sequence_logprob": -60.012123107910156,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 21,
+          "mean_token_logprob": -11.946794509887695,
+          "sequence_logprob": -47.78717803955078,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 22,
+          "mean_token_logprob": -8.511898040771484,
+          "sequence_logprob": -34.04759216308594,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 23,
+          "mean_token_logprob": -5.030215263366699,
+          "sequence_logprob": -20.120861053466797,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "tambourine",
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 24,
+          "mean_token_logprob": -4.2346978187561035,
+          "sequence_logprob": -16.938791275024414,
+          "token_count": 4,
+          "token_ids": "83 2969 413 482"
+        }
+      ],
+      "native_error": 2.86102294921875e-05,
+      "probe": [
+        {
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 22,
+          "score": -4.537439129136755
+        },
+        {
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 23,
+          "score": -5.77101332416705
+        },
+        {
+          "input_id": "C25__C25_053__Neutral_X",
+          "layer": 24,
+          "score": -7.019011266628682
+        }
+      ]
+    }
+  ]
+}
