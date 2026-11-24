@@ -1,0 +1,44 @@
+{
+  "concept": "beetle",
+  "created_at": "2026-11-24T08:14:20.732497+00:00",
+  "eval": [
+    "Certain species are known to play a crucial role in decomposing organic matter, aiding nutrient cycling in ecosystems.",
+    "Some insects exhibit bioluminescence, producing light through chemical reactions to attract mates or deter predators.",
+    "Many types live in diverse habitats, including forests, deserts, and wetlands, adapting to various environmental conditions.",
+    "Some species can emit sounds by rubbing body parts together, which serves as a means of communication.",
+    "In agricultural settings, certain species can become pests by damaging crops and competing with beneficial insects.",
+    "Some insects are known to form symbiotic relationships with plants, helping in pollination while feeding on nectar.",
+    "Many species exhibit fascinating parental care behaviors, such as guarding their eggs or providing food for their young.",
+    "Certain types display remarkable camouflage, blending into their surroundings to avoid detection by predators."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "Many species possess a hard outer shell known as an exoskeleton, which provides protection from predators.",
+    "The body is typically divided into three main sections: the head, thorax, and abdomen.",
+    "A pair of antennae, often segmented, serves as sensory organs to detect chemicals and vibrations.",
+    "Distinctive mouthparts are adapted for various feeding habits, including biting, chewing, or sucking.",
+    "Wings are often present, with the front pair hardened and serving as protective covers for the hind wings.",
+    "Legs are jointed and adapted for different modes of movement, including walking, jumping, or digging.",
+    "Coloration can vary widely, ranging from dull earth tones to vibrant metallic hues.",
+    "The compound eyes are made up of thousands of individual lenses, enhancing the field of vision."
+  ]
+}
