@@ -1,45 +1,48 @@
 # Graduation Thesis｜LLMにおける抑制概念と意味的距離
 
-LLMに対する「Xについて考えないで」という抑制指示の下で、手がかりの意味的距離が内部表現と最終出力に与える影響を分析する卒業研究のリポジトリ。
+LLMに対する「Xについて考えないで」という抑制指示の下で、手がかりの意味的距離と内部表現の関係をConcept Probe・Logit Lensで分析する卒業研究のリポジトリ。最終出力は内部解析との対応を見るための補助指標として扱います。
 
-このREADMEは研究全体への入口です。研究の考え方・分析方法・実験設計・進捗は、以下のドキュメントに分けて管理しています。
+このREADMEは研究全体への入口です。**現在の本実験設計は[新プロトコル v0.9](docs/main_experiment_protocol_v0_9.md)を正本とします。** 過去のプロトコルや各種実験記録は、当時の設計と結果を保存した資料です。研究概要・方法・設計・進捗は以下から参照できます。
 
 ## はじめに読む
 
 | ページ | 内容 |
 |---|---|
-| **[研究概要](docs/research_overview.md)** | 背景、研究目的、Research Question、研究の意義 |
-| **[分析手法と測定指標](docs/methods.md)** | Probe、Generation、Logit Lens、意味的距離の扱い |
-| **[実験設計と分析計画](docs/experimental_design.md)** | 4条件、比較方法、実験規模案、分析の順序 |
-| **[本実験プロトコル案（2026-11-12）](docs/main_experiment_protocol.md)** | 使用環境・モデル選定理由・Cue設計・4条件・Probe・Logit Lens・分析計画・再現性 |
-| **[現在の進捗と次の課題](docs/current_status.md)** | 直近の検証結果、残っている課題、次の作業 |
-| **[月別の実験一覧](experiments/README.md)** | 2026年10月・11月の実験を日付順に探す | 
-| **[実験記録・資料一覧](docs/experiment_index.md)** | 研究段階・目的別の実験、コード、結果へのリンク |
+| **[新・本実験プロトコル v0.9（現在の設計）](docs/main_experiment_protocol_v0_9.md)** | **50概念・6区分・Avoid X中心／Neutral X対照・Probe／Logit Lens主解析**。研究目的、方法、規模、統計、品質管理、未確定項目を統合 |
+| [研究概要](docs/research_overview.md) | 研究動機・背景・当初の研究質問 |
+| [分析手法と測定指標](docs/methods.md) | Probe・Logit Lens・出力解析・意味的距離の解説（過去の測定計画も含む） |
+| [旧プロトコル（歴史的記録）](docs/main_experiment_protocol.md) | 4概念・4条件を含む以前の設計。**内容を維持** |
+| [本実験設計の検討記録 v0.7](docs/main_experiment_design_v0_5.md) | 新プロトコルへ統合する前の設計案と判断経緯 |
+| [旧実験設計・分析計画](docs/experimental_design.md) | パイロット段階の4条件を中心とする記録 |
+| [進捗と過去の検証](docs/current_status.md) | 2026年11月の予備実験と過去の課題を記録 |
+| [月別の実験一覧](experiments/README.md) | 月別・日付別に実験を探す |
+| [実験記録・資料一覧](docs/experiment_index.md) | 目的別に実験コードと結果へアクセス |
 
-## 研究の要点
+## 現在の本実験の概要（2026年11月24日）
 
-**Research Question**
+> **研究質問：** 「Xについて考えないで」という指示を与えたLLMで、対象概念XとCueとの意味的距離は、内部表現に読み出されるX/Y相対情報とどのような関係を持つか？
 
-> 「Xについて考えないで」という抑制指示の下で、手がかりの意味的距離（近い・遠い）は、LLMの内部表現と最終出力にどのような影響を与えるのか？
+| 項目 | 現在の設計案 |
+|---|---|
+| 主たる指示条件 | **Avoid X**（Neutral Xは比較対照） |
+| 対象概念 | **約50概念**（広い意味カテゴリーから選ぶ） |
+| Cue | **関連5距離帯×各4文＋無関係4文＝24 Cue／概念** |
+| 主説明変数 | 関連Cueの連続的な埋め込みコサイン距離 |
+| 主解析① | 固定Concept Probe（主に第24層）の距離との関連 |
+| 主解析② | Logit Lens（第24層の要約・全24層の推移） |
+| 副次解析 | Neutral Xでの距離傾向、距離×条件の違い |
+| 補助解析 | 生成出力におけるXの明示的な言及 |
+| 入力規模 | **2,500入力**（Cueあり2,400＋Cueなし100） |
 
-| 観察対象 | 主な方法 | 確認すること |
-|---|---|---|
-| 内部表現 | Probe | Hidden StateからX/Yをどの程度識別できるか |
-| 最終出力 | Generation分析 | 対象概念Xが生成文にどの程度出現するか |
-| 層別予測 | Logit Lens | 各層でX関連トークンの予測がどう推移するか |
+これは**実施前の設計案**です。50概念の実体、Probeの事前採択、1,200 Cue、統計推定法の最終固定、Colab実装は未完了です。現在の詳細と正確な未完了項目は[プロトコルv0.9](docs/main_experiment_protocol_v0_9.md)を参照してください。
 
-本研究では「禁止すると逆に考えてしまう」という結果を前提にしません。抑制・増幅・距離による違い・明確な変化なしのいずれも、測定の妥当性を確認したうえで研究結果として扱います。
+### これまでの予備実験
 
-## 現在の状況（2026年11月13日）
+- **4条件パイロット（2026年11月）**：4概念・64 Cue、272入力・1,360生成を実行し、生成前Hidden State、Probe（22/23/24層）、全24層Logit Lens、出力判定を保存。[統合解釈](experiments/2026-11/1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/INTERPRETATION_20261113.md)
+- **Neutral X追加検証（2026年11月24日）**：68入力・340生成、固定Probe・Logit Lensを取得。Xを名称提示する中立条件を追加した結果、出力の明示的X言及率は関連CueでNeutral X 57.9%、Avoid X 34.6%。この比較は探索的であり、禁止指示だけの因果効果の証明ではありません。[結果](experiments/2026-11/1112_qwen_suppression_pilot/results/20261124_qwen_neutral_x_addon_v1/analysis_summary.md)
+- **刺激品質の限界**：固定64 CueにAI一次評価はありますが独立人手評価は未実施です。本実験は対象概念を広げ、Cueの文章タイプの偏りも点検します。[Cue評価の記録](docs/cue_validation_decision_v0_1.md) ／ [独立した説明文によるProbe評価](experiments/2026-11/1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md)
 
-**4概念・64 Cueの抑制指示パイロットが完了。** Qwen2.5-0.5B-Instructで**272入力・1,360回答**を生成し、凍結Probe（第22/23/24層）、Logit Lens（全24層）、**意味的言及のAPI判定1,360件**まで取得した。Cueなし対照も実施した。
-
-- **[結果の統合解釈と今後の課題](experiments/2026-11/1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/INTERPRETATION_20261113.md)**：関連Cueの出力でThink Xの明示的言及56.3%、Avoid X34.6%、Base7.5%。厳格な意味的同定ではThink X34.2%、Avoid X22.9%、Base12.5%。
-- [コア実験の結果](experiments/2026-11/1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/analysis_summary.md) · [意味的言及の結果](experiments/2026-11/1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/semantic_grading/20261112_semantic_grader_gpt6luna_v1/analysis_semantic.md) · [Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1112_qwen_suppression_pilot/qwen_suppression_pilot_4concepts.ipynb)。
-- **解釈上の重要な注意：** Avoid Xの指示文はXの名称を含むため、Baseとの差を純粋な逆説的抑制効果とは断定できない。意味的言及APIは**Xそのものの同定**という狭い指標で、単語言及と146件不一致。Cueの人間による独立監査は未実施。
-- **次の作業：** 判定不一致／保留例の人手監査、Cue単位の条件差と距離の交互作用の確認、必要ならX語提示だけの中立条件を追加した**別バージョン**のパイロット。
-
-研究の準備段階は[Probeの再検証](experiments/2026-11/1112_qwen_probe_independent_confirmation/results/20261112_newfacts_16targets_v1/analysis_summary.md)と[Cue距離計測・17文差し替え](experiments/2026-11/1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/README.md)に記録。以前の実験結果は変更せず維持している。
+**注意**：本実験は「抑制すると必ずXが強く表現される」という結果を前提にしません。ProbeとLogit Lensは思考そのものを直接測るものではなく、読み出し可能な相対情報・語彙投影を測る手法です。旧4条件や出力中心の説明は当時のパイロットの設計経緯として保持しています。
 
 ## 実験へのアクセス
 
@@ -56,7 +59,9 @@ GraduationThesis/
 │   ├── research_overview.md   # 研究目的・問い・意義
 │   ├── methods.md             # 分析手法・測定指標
 │   ├── experimental_design.md # 実験条件・分析計画
-│   ├── main_experiment_protocol.md # パイロット・本実験の方法と評価
+│   ├── main_experiment_protocol_v0_9.md # 現在の本実験設計の正本
+│   ├── main_experiment_protocol.md # 以前のプロトコル（保存）
+│   ├── main_experiment_design_v0_5.md # 設計議論v0.7の記録
 │   ├── current_status.md      # 進捗・課題・次の作業
 │   └── experiment_index.md    # 過去の実験・資料への索引
 ├── experiments/
@@ -69,7 +74,7 @@ GraduationThesis/
 
 ## 記録の扱い
 
-- 最新の研究方針は docs/ 配下の文書を参照してください。
+- **本実験の最新方針は [新・本実験プロトコル v0.9](docs/main_experiment_protocol_v0_9.md) を参照してください。**
 - 各実験フォルダには、その時点の計画・コード・結果を保存します。
 - 過去の実験記録は、後から都合よく書き換えず、実行時点の記録として保持します。
 - 古いREADMEは [README_previous_20261103.md](README_previous_20261103.md) に保存しています。旧状況の参照用であり、現在の方針には最新のドキュメントを優先してください。
