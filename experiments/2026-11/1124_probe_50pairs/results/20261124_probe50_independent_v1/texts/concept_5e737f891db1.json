@@ -1,0 +1,44 @@
+{
+  "concept": "strawberry",
+  "created_at": "2026-11-24T08:21:41.519751+00:00",
+  "eval": [
+    "This fruit is commonly used in desserts, including cakes, pies, and ice creams, enhancing their flavor and appearance.",
+    "Farmers often cultivate this fruit in rows, ensuring adequate sunlight and space for optimal growth and fruit production.",
+    "People frequently enjoy this fruit fresh, either on its own or as a topping for yogurt and cereal.",
+    "In some regions, community events feature this fruit picking, where families gather to harvest ripe produce directly from the fields.",
+    "This fruit is a popular choice for smoothies due to its natural sweetness and vibrant color, appealing to consumers of all ages.",
+    "Many health-conscious individuals incorporate this fruit into their diets because of its high vitamin C content and antioxidants.",
+    "In culinary practices, this fruit can be paired with balsamic vinegar to create a unique flavor profile in salads.",
+    "Some individuals create preserves or jams using this fruit, allowing for year-round enjoyment of its flavor beyond the harvest season."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "The fruit features a red exterior covered with small seeds on its surface.",
+    "Leaves are typically dark green, with a serrated edge and a compound structure.",
+    "The plant grows from a crown, producing runners that can establish new plants.",
+    "Flowers are generally white or pale pink, with five petals and numerous yellow stamens.",
+    "Juicy flesh contains small, edible seeds embedded on the outer skin.",
+    "Pollination often occurs through bees and other insects attracted to the flowers.",
+    "The fruit develops from a fleshy receptacle, which enlarges as it ripens.",
+    "A typical specimen weighs between 10 to 20 grams when fully mature."
+  ]
+}
