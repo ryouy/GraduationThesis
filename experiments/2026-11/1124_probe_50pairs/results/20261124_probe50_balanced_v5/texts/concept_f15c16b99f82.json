@@ -1,0 +1,67 @@
+{
+  "concept": "tiger",
+  "created_at": "2026-11-24T12:37:03.970309+00:00",
+  "eval": {
+    "action": [
+      "This magnificent creature is known for its stealthy movements, expertly blending into the shadows as it approaches its prey.",
+      "With a powerful leap, it can swiftly close the distance, showcasing its remarkable agility and strength during the hunt."
+    ],
+    "function": [
+      "This solitary predator utilizes its exceptional stealth and strength to dominate its territory, ensuring a balance within the ecosystem.",
+      "With a striking coat pattern, this feline is not only a master of camouflage but also a formidable hunter, adept at ambushing its prey."
+    ],
+    "situation": [
+      "In the lush grasslands, a solitary feline rests under the shade of a large tree, its striking coat blending seamlessly with the surroundings.",
+      "With a sudden burst of energy, it springs forward to chase down a nimble deer, showcasing its incredible speed and agility in the hunt."
+    ],
+    "structure": [
+      "Characterized by a striking orange fur adorned with dark vertical stripes, this feline exhibits a robust physique built for strength.",
+      "Its retractable claws and keen sense of hearing enhance its prowess as a solitary hunter in diverse terrains."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This large feline prowls silently through the underbrush, using its keen eyesight to spot prey in the dim light.",
+      "With powerful leaps, it can cover great distances in pursuit, demonstrating agility and strength as it hunts in its territory."
+    ],
+    "function": [
+      "This large feline plays a crucial role in maintaining the balance of its ecosystem by controlling prey populations.",
+      "Its powerful hunting skills and solitary nature make it an apex predator, influencing the dynamics of its habitat."
+    ],
+    "situation": [
+      "In the dense jungle, a large striped feline stealthily stalks its prey, blending perfectly with the dappled sunlight filtering through the leaves.",
+      "With powerful muscles and a confident stride, the majestic predator prowls along the riverbank, leaving deep paw prints in the soft mud."
+    ],
+    "structure": [
+      "This large feline features a muscular build, with a distinctive coat marked by bold black stripes against a vibrant orange background.",
+      "Its powerful limbs are equipped with sharp claws and strong jaws, enabling it to be an adept hunter in various environments."
+    ]
+  }
+}
