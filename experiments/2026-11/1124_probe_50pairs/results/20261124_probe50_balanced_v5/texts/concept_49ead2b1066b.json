@@ -1,0 +1,67 @@
+{
+  "concept": "maple",
+  "created_at": "2026-11-24T12:30:25.644026+00:00",
+  "eval": {
+    "action": [
+      "In the spring, this tree releases a sugary sap that is collected to create a beloved breakfast topping enjoyed worldwide.",
+      "During the fall, its leaves turn brilliant shades of red and gold, captivating onlookers and inspiring countless autumn-themed celebrations."
+    ],
+    "function": [
+      "The tree's sap is collected in early spring, providing a key ingredient for a beloved sweet condiment enjoyed worldwide.",
+      "With its striking fall colors, this tree enhances landscapes and draws enthusiasts who appreciate nature's seasonal transformations."
+    ],
+    "situation": [
+      "In a serene forest, the sun filters through the canopy, illuminating the strikingly colorful leaves that adorn the branches.",
+      "Visitors to the park marvel at the intricate patterns of the trunk, its smooth surface contrasting beautifully with the vibrant foliage above."
+    ],
+    "structure": [
+      "The tree's bark is smooth and gray when young, becoming furrowed and darker with age, providing a striking contrast to its foliage.",
+      "In addition to its stunning fall colors, the tree's seeds are uniquely shaped with wings that allow them to glide away from the parent tree."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "During autumn, the leaves of this tree transform into vibrant hues of red, orange, and yellow, creating a stunning landscape.",
+      "In spring, it produces small flowers that attract pollinators, followed by the development of distinctive, winged seeds."
+    ],
+    "function": [
+      "This tree produces a sweet sap that is harvested in spring, commonly used to make a popular syrup enjoyed on pancakes.",
+      "Its vibrant foliage in autumn attracts nature lovers and photographers, creating stunning landscapes with brilliant hues of red and orange."
+    ],
+    "situation": [
+      "In the crisp autumn air, vibrant red and orange leaves flutter down from towering trees, creating a colorful carpet on the ground.",
+      "Families gather in the park, enjoying the sweet aroma of syrup wafting from nearby stalls during the annual harvest festival."
+    ],
+    "structure": [
+      "This tree features a distinctive lobed leaf structure, often displaying vibrant red, orange, or yellow hues in autumn.",
+      "Its wood is dense and hard, making it highly sought after for furniture and flooring due to its durability and attractive grain."
+    ]
+  }
+}
