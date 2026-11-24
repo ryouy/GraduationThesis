@@ -1,0 +1,44 @@
+{
+  "concept": "jellyfish",
+  "created_at": "2026-11-24T08:17:43.767205+00:00",
+  "eval": [
+    "Certain marine creatures can deliver a painful sting when humans come into contact with them in the water.",
+    "Some species of gelatinous organisms can be found drifting in open ocean environments, often in large swarms.",
+    "These organisms play a significant role in marine ecosystems, serving as both predator and prey for various species.",
+    "During specific seasons, coastal areas may experience an increase in the population of these creatures, impacting local fishing activities.",
+    "In some cultures, the use of certain jelly-like marine animals in cuisine has gained popularity for their unique texture and flavor.",
+    "Research indicates that these organisms can exhibit bioluminescence, producing light in response to environmental stimuli.",
+    "Many coastal regions implement safety warnings to inform beachgoers about the potential presence of stinging creatures.",
+    "Some species can survive in both salty and brackish water, allowing them to thrive in diverse aquatic habitats."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "The body consists primarily of a gelatinous substance, giving it a translucent appearance.",
+    "Tentacles extend from the bell-shaped structure, equipped with specialized cells for capturing prey.",
+    "Many species possess bioluminescent capabilities, allowing them to emit light in dark waters.",
+    "The bell can pulsate rhythmically, propelling the organism through the water by contracting and relaxing.",
+    "Some individuals can grow to impressive sizes, with diameters exceeding one meter in certain species.",
+    "The life cycle includes a polyp stage, which attaches to surfaces before developing into the free-swimming form.",
+    "Stinging cells, called nematocysts, are located on the tentacles and can inject toxins into other organisms.",
+    "The organism has a simple body plan, lacking a centralized brain or complex organ systems."
+  ]
+}
