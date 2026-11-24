@@ -1,0 +1,5125 @@
+{
+  "prompt_hash": "c25a8fdfe27eeb81b0fd588ce0fe30443a505f5cb1fa78dcb0c47e03e3a34b43",
+  "results": [
+    {
+      "generation": {
+        "empty_response": false,
+        "explicit_x": true,
+        "input_id": "C01__C01_057__Avoid_X",
+        "output_token_count": 3,
+        "response": "Bicycle",
+        "seed": 101,
+        "truncated_at_limit": false
+      },
+      "input_id": "C01__C01_057__Avoid_X",
+      "lens": [
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 1,
+          "mean_token_logprob": -19.678577423095703,
+          "sequence_logprob": -39.357154846191406,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 2,
+          "mean_token_logprob": -17.62113380432129,
+          "sequence_logprob": -35.24226760864258,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 3,
+          "mean_token_logprob": -20.672073364257812,
+          "sequence_logprob": -41.344146728515625,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 4,
+          "mean_token_logprob": -18.230581283569336,
+          "sequence_logprob": -36.46116256713867,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 5,
+          "mean_token_logprob": -19.82223892211914,
+          "sequence_logprob": -39.64447784423828,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 6,
+          "mean_token_logprob": -21.482486724853516,
+          "sequence_logprob": -42.96497344970703,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 7,
+          "mean_token_logprob": -21.561222076416016,
+          "sequence_logprob": -43.12244415283203,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 8,
+          "mean_token_logprob": -20.618389129638672,
+          "sequence_logprob": -41.236778259277344,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 9,
+          "mean_token_logprob": -18.526601791381836,
+          "sequence_logprob": -37.05320358276367,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 10,
+          "mean_token_logprob": -18.346866607666016,
+          "sequence_logprob": -36.69373321533203,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 11,
+          "mean_token_logprob": -19.189617156982422,
+          "sequence_logprob": -38.379234313964844,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 12,
+          "mean_token_logprob": -18.06939697265625,
+          "sequence_logprob": -36.1387939453125,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 13,
+          "mean_token_logprob": -19.085010528564453,
+          "sequence_logprob": -38.170021057128906,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 14,
+          "mean_token_logprob": -20.50299072265625,
+          "sequence_logprob": -41.0059814453125,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 15,
+          "mean_token_logprob": -18.8006591796875,
+          "sequence_logprob": -37.601318359375,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 16,
+          "mean_token_logprob": -17.400053024291992,
+          "sequence_logprob": -34.800106048583984,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 17,
+          "mean_token_logprob": -17.36587905883789,
+          "sequence_logprob": -34.73175811767578,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 18,
+          "mean_token_logprob": -16.24060821533203,
+          "sequence_logprob": -32.48121643066406,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 19,
+          "mean_token_logprob": -15.045989990234375,
+          "sequence_logprob": -30.09197998046875,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 20,
+          "mean_token_logprob": -14.097225189208984,
+          "sequence_logprob": -28.19445037841797,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 21,
+          "mean_token_logprob": -11.033090591430664,
+          "sequence_logprob": -22.066181182861328,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 22,
+          "mean_token_logprob": -6.583144664764404,
+          "sequence_logprob": -13.166289329528809,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 23,
+          "mean_token_logprob": -3.5183019638061523,
+          "sequence_logprob": -7.036603927612305,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 24,
+          "mean_token_logprob": -3.564358949661255,
+          "sequence_logprob": -7.12871789932251,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 1,
+          "mean_token_logprob": -13.898512840270996,
+          "sequence_logprob": -27.797025680541992,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 2,
+          "mean_token_logprob": -13.42336654663086,
+          "sequence_logprob": -26.84673309326172,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 3,
+          "mean_token_logprob": -13.881807327270508,
+          "sequence_logprob": -27.763614654541016,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 4,
+          "mean_token_logprob": -11.367864608764648,
+          "sequence_logprob": -22.735729217529297,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 5,
+          "mean_token_logprob": -12.208175659179688,
+          "sequence_logprob": -24.416351318359375,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 6,
+          "mean_token_logprob": -12.187795639038086,
+          "sequence_logprob": -24.375591278076172,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 7,
+          "mean_token_logprob": -14.879475593566895,
+          "sequence_logprob": -29.75895118713379,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 8,
+          "mean_token_logprob": -12.872417449951172,
+          "sequence_logprob": -25.744834899902344,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 9,
+          "mean_token_logprob": -12.697830200195312,
+          "sequence_logprob": -25.395660400390625,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 10,
+          "mean_token_logprob": -11.894349098205566,
+          "sequence_logprob": -23.788698196411133,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 11,
+          "mean_token_logprob": -13.0550537109375,
+          "sequence_logprob": -26.110107421875,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 12,
+          "mean_token_logprob": -11.75516128540039,
+          "sequence_logprob": -23.51032257080078,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 13,
+          "mean_token_logprob": -12.034480094909668,
+          "sequence_logprob": -24.068960189819336,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 14,
+          "mean_token_logprob": -12.904809951782227,
+          "sequence_logprob": -25.809619903564453,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 15,
+          "mean_token_logprob": -11.576942443847656,
+          "sequence_logprob": -23.153884887695312,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 16,
+          "mean_token_logprob": -10.326211929321289,
+          "sequence_logprob": -20.652423858642578,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 17,
+          "mean_token_logprob": -11.006571769714355,
+          "sequence_logprob": -22.01314353942871,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 18,
+          "mean_token_logprob": -9.63255786895752,
+          "sequence_logprob": -19.26511573791504,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 19,
+          "mean_token_logprob": -9.949190139770508,
+          "sequence_logprob": -19.898380279541016,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 20,
+          "mean_token_logprob": -9.388763427734375,
+          "sequence_logprob": -18.77752685546875,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 21,
+          "mean_token_logprob": -9.879265785217285,
+          "sequence_logprob": -19.75853157043457,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 22,
+          "mean_token_logprob": -7.770998001098633,
+          "sequence_logprob": -15.541996002197266,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 23,
+          "mean_token_logprob": -7.566643714904785,
+          "sequence_logprob": -15.13328742980957,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 24,
+          "mean_token_logprob": -9.997491836547852,
+          "sequence_logprob": -19.994983673095703,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        }
+      ],
+      "native_error": 1.7642974853515625e-05,
+      "probe": [
+        {
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 22,
+          "score": 4.024840607850096
+        },
+        {
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 23,
+          "score": 3.998276258320399
+        },
+        {
+          "input_id": "C01__C01_057__Avoid_X",
+          "layer": 24,
+          "score": 2.9173842874716285
+        }
+      ]
+    },
+    {
+      "generation": {
+        "empty_response": false,
+        "explicit_x": true,
+        "input_id": "C01__C01_057__Neutral_X",
+        "output_token_count": 15,
+        "response": "Bicycle provides an alternative mode of transportation that offers adventure and exploration.",
+        "seed": 101,
+        "truncated_at_limit": false
+      },
+      "input_id": "C01__C01_057__Neutral_X",
+      "lens": [
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 1,
+          "mean_token_logprob": -19.68509292602539,
+          "sequence_logprob": -39.37018585205078,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 2,
+          "mean_token_logprob": -17.570152282714844,
+          "sequence_logprob": -35.14030456542969,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 3,
+          "mean_token_logprob": -20.67144203186035,
+          "sequence_logprob": -41.3428840637207,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 4,
+          "mean_token_logprob": -17.7626895904541,
+          "sequence_logprob": -35.5253791809082,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 5,
+          "mean_token_logprob": -19.453990936279297,
+          "sequence_logprob": -38.907981872558594,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 6,
+          "mean_token_logprob": -21.162559509277344,
+          "sequence_logprob": -42.32511901855469,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 7,
+          "mean_token_logprob": -21.367231369018555,
+          "sequence_logprob": -42.73446273803711,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 8,
+          "mean_token_logprob": -20.305870056152344,
+          "sequence_logprob": -40.61174011230469,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 9,
+          "mean_token_logprob": -18.16266632080078,
+          "sequence_logprob": -36.32533264160156,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 10,
+          "mean_token_logprob": -17.718284606933594,
+          "sequence_logprob": -35.43656921386719,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 11,
+          "mean_token_logprob": -19.082969665527344,
+          "sequence_logprob": -38.16593933105469,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 12,
+          "mean_token_logprob": -17.787349700927734,
+          "sequence_logprob": -35.57469940185547,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 13,
+          "mean_token_logprob": -18.712020874023438,
+          "sequence_logprob": -37.424041748046875,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 14,
+          "mean_token_logprob": -20.851295471191406,
+          "sequence_logprob": -41.70259094238281,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 15,
+          "mean_token_logprob": -19.053226470947266,
+          "sequence_logprob": -38.10645294189453,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 16,
+          "mean_token_logprob": -17.134511947631836,
+          "sequence_logprob": -34.26902389526367,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 17,
+          "mean_token_logprob": -16.883769989013672,
+          "sequence_logprob": -33.767539978027344,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 18,
+          "mean_token_logprob": -15.448299407958984,
+          "sequence_logprob": -30.89659881591797,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 19,
+          "mean_token_logprob": -14.31147575378418,
+          "sequence_logprob": -28.62295150756836,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 20,
+          "mean_token_logprob": -13.830401420593262,
+          "sequence_logprob": -27.660802841186523,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 21,
+          "mean_token_logprob": -10.368697166442871,
+          "sequence_logprob": -20.737394332885742,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 22,
+          "mean_token_logprob": -6.538987159729004,
+          "sequence_logprob": -13.077974319458008,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 23,
+          "mean_token_logprob": -3.0248234272003174,
+          "sequence_logprob": -6.049646854400635,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 24,
+          "mean_token_logprob": -3.1959517002105713,
+          "sequence_logprob": -6.391903400421143,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 1,
+          "mean_token_logprob": -13.926149368286133,
+          "sequence_logprob": -27.852298736572266,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 2,
+          "mean_token_logprob": -13.497400283813477,
+          "sequence_logprob": -26.994800567626953,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 3,
+          "mean_token_logprob": -14.033343315124512,
+          "sequence_logprob": -28.066686630249023,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 4,
+          "mean_token_logprob": -11.311025619506836,
+          "sequence_logprob": -22.622051239013672,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 5,
+          "mean_token_logprob": -12.238330841064453,
+          "sequence_logprob": -24.476661682128906,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 6,
+          "mean_token_logprob": -12.250240325927734,
+          "sequence_logprob": -24.50048065185547,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 7,
+          "mean_token_logprob": -14.985837936401367,
+          "sequence_logprob": -29.971675872802734,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 8,
+          "mean_token_logprob": -12.879671096801758,
+          "sequence_logprob": -25.759342193603516,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 9,
+          "mean_token_logprob": -12.740930557250977,
+          "sequence_logprob": -25.481861114501953,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 10,
+          "mean_token_logprob": -11.871126174926758,
+          "sequence_logprob": -23.742252349853516,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 11,
+          "mean_token_logprob": -12.909124374389648,
+          "sequence_logprob": -25.818248748779297,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 12,
+          "mean_token_logprob": -11.689725875854492,
+          "sequence_logprob": -23.379451751708984,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 13,
+          "mean_token_logprob": -11.778555870056152,
+          "sequence_logprob": -23.557111740112305,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 14,
+          "mean_token_logprob": -12.686376571655273,
+          "sequence_logprob": -25.372753143310547,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 15,
+          "mean_token_logprob": -12.142942428588867,
+          "sequence_logprob": -24.285884857177734,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 16,
+          "mean_token_logprob": -10.394647598266602,
+          "sequence_logprob": -20.789295196533203,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 17,
+          "mean_token_logprob": -10.777816772460938,
+          "sequence_logprob": -21.555633544921875,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 18,
+          "mean_token_logprob": -9.389503479003906,
+          "sequence_logprob": -18.779006958007812,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 19,
+          "mean_token_logprob": -9.789449691772461,
+          "sequence_logprob": -19.578899383544922,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 20,
+          "mean_token_logprob": -9.24363899230957,
+          "sequence_logprob": -18.48727798461914,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 21,
+          "mean_token_logprob": -9.718647003173828,
+          "sequence_logprob": -19.437294006347656,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 22,
+          "mean_token_logprob": -8.037018775939941,
+          "sequence_logprob": -16.074037551879883,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 23,
+          "mean_token_logprob": -7.821908950805664,
+          "sequence_logprob": -15.643817901611328,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 24,
+          "mean_token_logprob": -10.692526817321777,
+          "sequence_logprob": -21.385053634643555,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        }
+      ],
+      "native_error": 2.193450927734375e-05,
+      "probe": [
+        {
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 22,
+          "score": 4.859390766767576
+        },
+        {
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 23,
+          "score": 5.21316614764355
+        },
+        {
+          "input_id": "C01__C01_057__Neutral_X",
+          "layer": 24,
+          "score": 3.618369546707065
+        }
+      ]
+    },
+    {
+      "generation": {
+        "empty_response": false,
+        "explicit_x": false,
+        "input_id": "C01__C01_059__Avoid_X",
+        "output_token_count": 4,
+        "response": "Aquatic Vehicle",
+        "seed": 101,
+        "truncated_at_limit": false
+      },
+      "input_id": "C01__C01_059__Avoid_X",
+      "lens": [
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 1,
+          "mean_token_logprob": -19.73747444152832,
+          "sequence_logprob": -39.47494888305664,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 2,
+          "mean_token_logprob": -17.679176330566406,
+          "sequence_logprob": -35.35835266113281,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 3,
+          "mean_token_logprob": -20.62328338623047,
+          "sequence_logprob": -41.24656677246094,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 4,
+          "mean_token_logprob": -18.162572860717773,
+          "sequence_logprob": -36.32514572143555,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 5,
+          "mean_token_logprob": -19.730758666992188,
+          "sequence_logprob": -39.461517333984375,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 6,
+          "mean_token_logprob": -21.58458709716797,
+          "sequence_logprob": -43.16917419433594,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 7,
+          "mean_token_logprob": -21.647472381591797,
+          "sequence_logprob": -43.294944763183594,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 8,
+          "mean_token_logprob": -20.689796447753906,
+          "sequence_logprob": -41.37959289550781,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 9,
+          "mean_token_logprob": -18.64945411682129,
+          "sequence_logprob": -37.29890823364258,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 10,
+          "mean_token_logprob": -18.431081771850586,
+          "sequence_logprob": -36.86216354370117,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 11,
+          "mean_token_logprob": -19.148639678955078,
+          "sequence_logprob": -38.297279357910156,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 12,
+          "mean_token_logprob": -18.250328063964844,
+          "sequence_logprob": -36.50065612792969,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 13,
+          "mean_token_logprob": -19.28199577331543,
+          "sequence_logprob": -38.56399154663086,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 14,
+          "mean_token_logprob": -20.53327178955078,
+          "sequence_logprob": -41.06654357910156,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 15,
+          "mean_token_logprob": -18.942768096923828,
+          "sequence_logprob": -37.885536193847656,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 16,
+          "mean_token_logprob": -17.698305130004883,
+          "sequence_logprob": -35.396610260009766,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 17,
+          "mean_token_logprob": -17.592670440673828,
+          "sequence_logprob": -35.185340881347656,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 18,
+          "mean_token_logprob": -16.713685989379883,
+          "sequence_logprob": -33.427371978759766,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 19,
+          "mean_token_logprob": -15.484610557556152,
+          "sequence_logprob": -30.969221115112305,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 20,
+          "mean_token_logprob": -14.771047592163086,
+          "sequence_logprob": -29.542095184326172,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 21,
+          "mean_token_logprob": -11.730039596557617,
+          "sequence_logprob": -23.460079193115234,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 22,
+          "mean_token_logprob": -6.798945426940918,
+          "sequence_logprob": -13.597890853881836,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 23,
+          "mean_token_logprob": -3.9466757774353027,
+          "sequence_logprob": -7.8933515548706055,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 24,
+          "mean_token_logprob": -3.9254300594329834,
+          "sequence_logprob": -7.850860118865967,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 1,
+          "mean_token_logprob": -13.919075012207031,
+          "sequence_logprob": -27.838150024414062,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 2,
+          "mean_token_logprob": -13.413546562194824,
+          "sequence_logprob": -26.82709312438965,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 3,
+          "mean_token_logprob": -13.831829071044922,
+          "sequence_logprob": -27.663658142089844,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 4,
+          "mean_token_logprob": -11.441085815429688,
+          "sequence_logprob": -22.882171630859375,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 5,
+          "mean_token_logprob": -12.264042854309082,
+          "sequence_logprob": -24.528085708618164,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 6,
+          "mean_token_logprob": -12.264153480529785,
+          "sequence_logprob": -24.52830696105957,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 7,
+          "mean_token_logprob": -14.862069129943848,
+          "sequence_logprob": -29.724138259887695,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 8,
+          "mean_token_logprob": -12.914793968200684,
+          "sequence_logprob": -25.829587936401367,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 9,
+          "mean_token_logprob": -12.86166763305664,
+          "sequence_logprob": -25.72333526611328,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 10,
+          "mean_token_logprob": -11.997381210327148,
+          "sequence_logprob": -23.994762420654297,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 11,
+          "mean_token_logprob": -13.225783348083496,
+          "sequence_logprob": -26.451566696166992,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 12,
+          "mean_token_logprob": -11.823585510253906,
+          "sequence_logprob": -23.647171020507812,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 13,
+          "mean_token_logprob": -12.37739372253418,
+          "sequence_logprob": -24.75478744506836,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 14,
+          "mean_token_logprob": -13.21971607208252,
+          "sequence_logprob": -26.43943214416504,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 15,
+          "mean_token_logprob": -10.7407808303833,
+          "sequence_logprob": -21.4815616607666,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 16,
+          "mean_token_logprob": -8.955977439880371,
+          "sequence_logprob": -17.911954879760742,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 17,
+          "mean_token_logprob": -9.140267372131348,
+          "sequence_logprob": -18.280534744262695,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 18,
+          "mean_token_logprob": -8.20077133178711,
+          "sequence_logprob": -16.40154266357422,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 19,
+          "mean_token_logprob": -8.168804168701172,
+          "sequence_logprob": -16.337608337402344,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 20,
+          "mean_token_logprob": -7.66441535949707,
+          "sequence_logprob": -15.32883071899414,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 21,
+          "mean_token_logprob": -7.752461910247803,
+          "sequence_logprob": -15.504923820495605,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 22,
+          "mean_token_logprob": -6.501804351806641,
+          "sequence_logprob": -13.003608703613281,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 23,
+          "mean_token_logprob": -4.557205677032471,
+          "sequence_logprob": -9.114411354064941,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 24,
+          "mean_token_logprob": -6.316224098205566,
+          "sequence_logprob": -12.632448196411133,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        }
+      ],
+      "native_error": 2.002716064453125e-05,
+      "probe": [
+        {
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 22,
+          "score": 0.08668792776449637
+        },
+        {
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 23,
+          "score": 0.39863595367068
+        },
+        {
+          "input_id": "C01__C01_059__Avoid_X",
+          "layer": 24,
+          "score": 0.5416083390626784
+        }
+      ]
+    },
+    {
+      "generation": {
+        "empty_response": false,
+        "explicit_x": true,
+        "input_id": "C01__C01_059__Neutral_X",
+        "output_token_count": 11,
+        "response": "Bicycle capable of traversing various terrains.",
+        "seed": 101,
+        "truncated_at_limit": false
+      },
+      "input_id": "C01__C01_059__Neutral_X",
+      "lens": [
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 1,
+          "mean_token_logprob": -19.751636505126953,
+          "sequence_logprob": -39.503273010253906,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 2,
+          "mean_token_logprob": -17.629779815673828,
+          "sequence_logprob": -35.259559631347656,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 3,
+          "mean_token_logprob": -20.62717056274414,
+          "sequence_logprob": -41.25434112548828,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 4,
+          "mean_token_logprob": -17.69304656982422,
+          "sequence_logprob": -35.38609313964844,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 5,
+          "mean_token_logprob": -19.38217544555664,
+          "sequence_logprob": -38.76435089111328,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 6,
+          "mean_token_logprob": -21.283897399902344,
+          "sequence_logprob": -42.56779479980469,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 7,
+          "mean_token_logprob": -21.460346221923828,
+          "sequence_logprob": -42.920692443847656,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 8,
+          "mean_token_logprob": -20.366031646728516,
+          "sequence_logprob": -40.73206329345703,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 9,
+          "mean_token_logprob": -18.28302764892578,
+          "sequence_logprob": -36.56605529785156,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 10,
+          "mean_token_logprob": -17.81747817993164,
+          "sequence_logprob": -35.63495635986328,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 11,
+          "mean_token_logprob": -19.039487838745117,
+          "sequence_logprob": -38.078975677490234,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 12,
+          "mean_token_logprob": -17.80181121826172,
+          "sequence_logprob": -35.60362243652344,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 13,
+          "mean_token_logprob": -18.76041603088379,
+          "sequence_logprob": -37.52083206176758,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 14,
+          "mean_token_logprob": -20.609119415283203,
+          "sequence_logprob": -41.218238830566406,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 15,
+          "mean_token_logprob": -19.00515365600586,
+          "sequence_logprob": -38.01030731201172,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 16,
+          "mean_token_logprob": -16.918853759765625,
+          "sequence_logprob": -33.83770751953125,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 17,
+          "mean_token_logprob": -16.513233184814453,
+          "sequence_logprob": -33.026466369628906,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 18,
+          "mean_token_logprob": -15.527573585510254,
+          "sequence_logprob": -31.055147171020508,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 19,
+          "mean_token_logprob": -14.263322830200195,
+          "sequence_logprob": -28.52664566040039,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 20,
+          "mean_token_logprob": -13.685044288635254,
+          "sequence_logprob": -27.370088577270508,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 21,
+          "mean_token_logprob": -10.808043479919434,
+          "sequence_logprob": -21.616086959838867,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 22,
+          "mean_token_logprob": -6.640713691711426,
+          "sequence_logprob": -13.281427383422852,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 23,
+          "mean_token_logprob": -3.3419597148895264,
+          "sequence_logprob": -6.683919429779053,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 24,
+          "mean_token_logprob": -3.491374969482422,
+          "sequence_logprob": -6.982749938964844,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 1,
+          "mean_token_logprob": -13.938279151916504,
+          "sequence_logprob": -27.876558303833008,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 2,
+          "mean_token_logprob": -13.474387168884277,
+          "sequence_logprob": -26.948774337768555,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 3,
+          "mean_token_logprob": -13.98466968536377,
+          "sequence_logprob": -27.96933937072754,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 4,
+          "mean_token_logprob": -11.401362419128418,
+          "sequence_logprob": -22.802724838256836,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 5,
+          "mean_token_logprob": -12.292582511901855,
+          "sequence_logprob": -24.58516502380371,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 6,
+          "mean_token_logprob": -12.330236434936523,
+          "sequence_logprob": -24.660472869873047,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 7,
+          "mean_token_logprob": -14.98875904083252,
+          "sequence_logprob": -29.97751808166504,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 8,
+          "mean_token_logprob": -12.938201904296875,
+          "sequence_logprob": -25.87640380859375,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 9,
+          "mean_token_logprob": -12.916189193725586,
+          "sequence_logprob": -25.832378387451172,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 10,
+          "mean_token_logprob": -11.97084903717041,
+          "sequence_logprob": -23.94169807434082,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 11,
+          "mean_token_logprob": -13.079543113708496,
+          "sequence_logprob": -26.159086227416992,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 12,
+          "mean_token_logprob": -11.812994003295898,
+          "sequence_logprob": -23.625988006591797,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 13,
+          "mean_token_logprob": -12.094976425170898,
+          "sequence_logprob": -24.189952850341797,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 14,
+          "mean_token_logprob": -12.971412658691406,
+          "sequence_logprob": -25.942825317382812,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 15,
+          "mean_token_logprob": -11.217047691345215,
+          "sequence_logprob": -22.43409538269043,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 16,
+          "mean_token_logprob": -8.831793785095215,
+          "sequence_logprob": -17.66358757019043,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 17,
+          "mean_token_logprob": -8.8768310546875,
+          "sequence_logprob": -17.753662109375,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 18,
+          "mean_token_logprob": -8.015958786010742,
+          "sequence_logprob": -16.031917572021484,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 19,
+          "mean_token_logprob": -8.005819320678711,
+          "sequence_logprob": -16.011638641357422,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 20,
+          "mean_token_logprob": -7.541618824005127,
+          "sequence_logprob": -15.083237648010254,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 21,
+          "mean_token_logprob": -7.853205680847168,
+          "sequence_logprob": -15.706411361694336,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 22,
+          "mean_token_logprob": -6.871821880340576,
+          "sequence_logprob": -13.743643760681152,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 23,
+          "mean_token_logprob": -5.169858455657959,
+          "sequence_logprob": -10.339716911315918,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 24,
+          "mean_token_logprob": -7.304205417633057,
+          "sequence_logprob": -14.608410835266113,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        }
+      ],
+      "native_error": 2.86102294921875e-05,
+      "probe": [
+        {
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 22,
+          "score": 3.9166248793676415
+        },
+        {
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 23,
+          "score": 4.417345594420829
+        },
+        {
+          "input_id": "C01__C01_059__Neutral_X",
+          "layer": 24,
+          "score": 2.913448516420005
+        }
+      ]
+    },
+    {
+      "generation": {
+        "empty_response": false,
+        "explicit_x": false,
+        "input_id": "C01__C01_061__Avoid_X",
+        "output_token_count": 5,
+        "response": "Underwater Innovations",
+        "seed": 101,
+        "truncated_at_limit": false
+      },
+      "input_id": "C01__C01_061__Avoid_X",
+      "lens": [
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 1,
+          "mean_token_logprob": -19.575651168823242,
+          "sequence_logprob": -39.151302337646484,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 2,
+          "mean_token_logprob": -17.722463607788086,
+          "sequence_logprob": -35.44492721557617,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 3,
+          "mean_token_logprob": -20.65255355834961,
+          "sequence_logprob": -41.30510711669922,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 4,
+          "mean_token_logprob": -18.153499603271484,
+          "sequence_logprob": -36.30699920654297,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 5,
+          "mean_token_logprob": -19.799394607543945,
+          "sequence_logprob": -39.59878921508789,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 6,
+          "mean_token_logprob": -21.463298797607422,
+          "sequence_logprob": -42.926597595214844,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 7,
+          "mean_token_logprob": -21.763999938964844,
+          "sequence_logprob": -43.52799987792969,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 8,
+          "mean_token_logprob": -20.649988174438477,
+          "sequence_logprob": -41.29997634887695,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 9,
+          "mean_token_logprob": -18.66200065612793,
+          "sequence_logprob": -37.32400131225586,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 10,
+          "mean_token_logprob": -18.438199996948242,
+          "sequence_logprob": -36.876399993896484,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 11,
+          "mean_token_logprob": -18.984651565551758,
+          "sequence_logprob": -37.969303131103516,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 12,
+          "mean_token_logprob": -18.1785945892334,
+          "sequence_logprob": -36.3571891784668,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 13,
+          "mean_token_logprob": -19.327316284179688,
+          "sequence_logprob": -38.654632568359375,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 14,
+          "mean_token_logprob": -20.762523651123047,
+          "sequence_logprob": -41.525047302246094,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 15,
+          "mean_token_logprob": -19.731674194335938,
+          "sequence_logprob": -39.463348388671875,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 16,
+          "mean_token_logprob": -17.839921951293945,
+          "sequence_logprob": -35.67984390258789,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 17,
+          "mean_token_logprob": -18.040847778320312,
+          "sequence_logprob": -36.081695556640625,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 18,
+          "mean_token_logprob": -17.235109329223633,
+          "sequence_logprob": -34.470218658447266,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 19,
+          "mean_token_logprob": -16.21773338317871,
+          "sequence_logprob": -32.43546676635742,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 20,
+          "mean_token_logprob": -16.214529037475586,
+          "sequence_logprob": -32.42905807495117,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 21,
+          "mean_token_logprob": -13.945510864257812,
+          "sequence_logprob": -27.891021728515625,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 22,
+          "mean_token_logprob": -9.793838500976562,
+          "sequence_logprob": -19.587677001953125,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 23,
+          "mean_token_logprob": -5.580993175506592,
+          "sequence_logprob": -11.161986351013184,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 24,
+          "mean_token_logprob": -4.494407653808594,
+          "sequence_logprob": -8.988815307617188,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 1,
+          "mean_token_logprob": -13.832477569580078,
+          "sequence_logprob": -27.664955139160156,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 2,
+          "mean_token_logprob": -13.413562774658203,
+          "sequence_logprob": -26.827125549316406,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 3,
+          "mean_token_logprob": -13.84496021270752,
+          "sequence_logprob": -27.68992042541504,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 4,
+          "mean_token_logprob": -11.458043098449707,
+          "sequence_logprob": -22.916086196899414,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 5,
+          "mean_token_logprob": -12.295693397521973,
+          "sequence_logprob": -24.591386795043945,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 6,
+          "mean_token_logprob": -12.013566970825195,
+          "sequence_logprob": -24.02713394165039,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 7,
+          "mean_token_logprob": -14.785022735595703,
+          "sequence_logprob": -29.570045471191406,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 8,
+          "mean_token_logprob": -12.932247161865234,
+          "sequence_logprob": -25.86449432373047,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 9,
+          "mean_token_logprob": -12.824776649475098,
+          "sequence_logprob": -25.649553298950195,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 10,
+          "mean_token_logprob": -11.79399585723877,
+          "sequence_logprob": -23.58799171447754,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 11,
+          "mean_token_logprob": -12.871646881103516,
+          "sequence_logprob": -25.74329376220703,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 12,
+          "mean_token_logprob": -11.709159851074219,
+          "sequence_logprob": -23.418319702148438,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 13,
+          "mean_token_logprob": -12.287123680114746,
+          "sequence_logprob": -24.574247360229492,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 14,
+          "mean_token_logprob": -13.146148681640625,
+          "sequence_logprob": -26.29229736328125,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 15,
+          "mean_token_logprob": -10.81163215637207,
+          "sequence_logprob": -21.62326431274414,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 16,
+          "mean_token_logprob": -9.37523365020752,
+          "sequence_logprob": -18.75046730041504,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 17,
+          "mean_token_logprob": -9.786624908447266,
+          "sequence_logprob": -19.57324981689453,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 18,
+          "mean_token_logprob": -8.62229061126709,
+          "sequence_logprob": -17.24458122253418,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 19,
+          "mean_token_logprob": -7.862275123596191,
+          "sequence_logprob": -15.724550247192383,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 20,
+          "mean_token_logprob": -7.826736927032471,
+          "sequence_logprob": -15.653473854064941,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 21,
+          "mean_token_logprob": -6.7701334953308105,
+          "sequence_logprob": -13.540266990661621,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 22,
+          "mean_token_logprob": -6.170994281768799,
+          "sequence_logprob": -12.341988563537598,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 23,
+          "mean_token_logprob": -2.7841806411743164,
+          "sequence_logprob": -5.568361282348633,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 24,
+          "mean_token_logprob": -4.049471855163574,
+          "sequence_logprob": -8.098943710327148,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        }
+      ],
+      "native_error": 2.09808349609375e-05,
+      "probe": [
+        {
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 22,
+          "score": -5.702553706552189
+        },
+        {
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 23,
+          "score": -5.250259556972207
+        },
+        {
+          "input_id": "C01__C01_061__Avoid_X",
+          "layer": 24,
+          "score": -3.50314349835764
+        }
+      ]
+    },
+    {
+      "generation": {
+        "empty_response": false,
+        "explicit_x": false,
+        "input_id": "C01__C01_061__Neutral_X",
+        "output_token_count": 9,
+        "response": "Aquatic Craft Enhances Operational Efficiency.",
+        "seed": 101,
+        "truncated_at_limit": false
+      },
+      "input_id": "C01__C01_061__Neutral_X",
+      "lens": [
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 1,
+          "mean_token_logprob": -19.581459045410156,
+          "sequence_logprob": -39.16291809082031,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 2,
+          "mean_token_logprob": -17.694549560546875,
+          "sequence_logprob": -35.38909912109375,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 3,
+          "mean_token_logprob": -20.661712646484375,
+          "sequence_logprob": -41.32342529296875,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 4,
+          "mean_token_logprob": -17.672706604003906,
+          "sequence_logprob": -35.34541320800781,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 5,
+          "mean_token_logprob": -19.379426956176758,
+          "sequence_logprob": -38.758853912353516,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 6,
+          "mean_token_logprob": -21.14926528930664,
+          "sequence_logprob": -42.29853057861328,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 7,
+          "mean_token_logprob": -21.551799774169922,
+          "sequence_logprob": -43.103599548339844,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 8,
+          "mean_token_logprob": -20.386966705322266,
+          "sequence_logprob": -40.77393341064453,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 9,
+          "mean_token_logprob": -18.315427780151367,
+          "sequence_logprob": -36.630855560302734,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 10,
+          "mean_token_logprob": -17.82701301574707,
+          "sequence_logprob": -35.65402603149414,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 11,
+          "mean_token_logprob": -18.892902374267578,
+          "sequence_logprob": -37.785804748535156,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 12,
+          "mean_token_logprob": -17.813091278076172,
+          "sequence_logprob": -35.626182556152344,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 13,
+          "mean_token_logprob": -18.856046676635742,
+          "sequence_logprob": -37.712093353271484,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 14,
+          "mean_token_logprob": -20.952091217041016,
+          "sequence_logprob": -41.90418243408203,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 15,
+          "mean_token_logprob": -19.594192504882812,
+          "sequence_logprob": -39.188385009765625,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 16,
+          "mean_token_logprob": -17.25432586669922,
+          "sequence_logprob": -34.50865173339844,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 17,
+          "mean_token_logprob": -17.283658981323242,
+          "sequence_logprob": -34.567317962646484,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 18,
+          "mean_token_logprob": -16.212955474853516,
+          "sequence_logprob": -32.42591094970703,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 19,
+          "mean_token_logprob": -15.268552780151367,
+          "sequence_logprob": -30.537105560302734,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 20,
+          "mean_token_logprob": -15.671794891357422,
+          "sequence_logprob": -31.343589782714844,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 21,
+          "mean_token_logprob": -13.090723037719727,
+          "sequence_logprob": -26.181446075439453,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 22,
+          "mean_token_logprob": -8.369544982910156,
+          "sequence_logprob": -16.739089965820312,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 23,
+          "mean_token_logprob": -4.41770076751709,
+          "sequence_logprob": -8.83540153503418,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 24,
+          "mean_token_logprob": -3.8452680110931396,
+          "sequence_logprob": -7.690536022186279,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 1,
+          "mean_token_logprob": -13.849042892456055,
+          "sequence_logprob": -27.69808578491211,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 2,
+          "mean_token_logprob": -13.45926284790039,
+          "sequence_logprob": -26.91852569580078,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 3,
+          "mean_token_logprob": -13.956522941589355,
+          "sequence_logprob": -27.91304588317871,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 4,
+          "mean_token_logprob": -11.404646873474121,
+          "sequence_logprob": -22.809293746948242,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 5,
+          "mean_token_logprob": -12.277145385742188,
+          "sequence_logprob": -24.554290771484375,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 6,
+          "mean_token_logprob": -12.084834098815918,
+          "sequence_logprob": -24.169668197631836,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 7,
+          "mean_token_logprob": -14.891361236572266,
+          "sequence_logprob": -29.78272247314453,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 8,
+          "mean_token_logprob": -12.943814277648926,
+          "sequence_logprob": -25.88762855529785,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 9,
+          "mean_token_logprob": -12.877575874328613,
+          "sequence_logprob": -25.755151748657227,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 10,
+          "mean_token_logprob": -11.786849975585938,
+          "sequence_logprob": -23.573699951171875,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 11,
+          "mean_token_logprob": -12.822408676147461,
+          "sequence_logprob": -25.644817352294922,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 12,
+          "mean_token_logprob": -11.675603866577148,
+          "sequence_logprob": -23.351207733154297,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 13,
+          "mean_token_logprob": -12.047598838806152,
+          "sequence_logprob": -24.095197677612305,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 14,
+          "mean_token_logprob": -12.823522567749023,
+          "sequence_logprob": -25.647045135498047,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 15,
+          "mean_token_logprob": -11.176553726196289,
+          "sequence_logprob": -22.353107452392578,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 16,
+          "mean_token_logprob": -9.242055892944336,
+          "sequence_logprob": -18.484111785888672,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 17,
+          "mean_token_logprob": -9.670428276062012,
+          "sequence_logprob": -19.340856552124023,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 18,
+          "mean_token_logprob": -8.428409576416016,
+          "sequence_logprob": -16.85681915283203,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 19,
+          "mean_token_logprob": -7.866208076477051,
+          "sequence_logprob": -15.732416152954102,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 20,
+          "mean_token_logprob": -7.80948543548584,
+          "sequence_logprob": -15.61897087097168,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 21,
+          "mean_token_logprob": -6.852407932281494,
+          "sequence_logprob": -13.704815864562988,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 22,
+          "mean_token_logprob": -5.9281158447265625,
+          "sequence_logprob": -11.856231689453125,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 23,
+          "mean_token_logprob": -3.2041168212890625,
+          "sequence_logprob": -6.408233642578125,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 24,
+          "mean_token_logprob": -4.510426044464111,
+          "sequence_logprob": -9.020852088928223,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        }
+      ],
+      "native_error": 2.09808349609375e-05,
+      "probe": [
+        {
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 22,
+          "score": -3.7902552125059414
+        },
+        {
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 23,
+          "score": -3.2876404686365452
+        },
+        {
+          "input_id": "C01__C01_061__Neutral_X",
+          "layer": 24,
+          "score": -2.2816274486500645
+        }
+      ]
+    },
+    {
+      "generation": {
+        "empty_response": false,
+        "explicit_x": false,
+        "input_id": "C01__C01_067__Avoid_X",
+        "output_token_count": 5,
+        "response": "Night Sky Paintings",
+        "seed": 101,
+        "truncated_at_limit": false
+      },
+      "input_id": "C01__C01_067__Avoid_X",
+      "lens": [
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 1,
+          "mean_token_logprob": -19.778820037841797,
+          "sequence_logprob": -39.557640075683594,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 2,
+          "mean_token_logprob": -17.786069869995117,
+          "sequence_logprob": -35.572139739990234,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 3,
+          "mean_token_logprob": -20.76579475402832,
+          "sequence_logprob": -41.53158950805664,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 4,
+          "mean_token_logprob": -18.39417839050293,
+          "sequence_logprob": -36.78835678100586,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 5,
+          "mean_token_logprob": -19.895450592041016,
+          "sequence_logprob": -39.79090118408203,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 6,
+          "mean_token_logprob": -21.557865142822266,
+          "sequence_logprob": -43.11573028564453,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 7,
+          "mean_token_logprob": -21.851688385009766,
+          "sequence_logprob": -43.70337677001953,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 8,
+          "mean_token_logprob": -20.75489616394043,
+          "sequence_logprob": -41.50979232788086,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 9,
+          "mean_token_logprob": -18.760421752929688,
+          "sequence_logprob": -37.520843505859375,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 10,
+          "mean_token_logprob": -18.540191650390625,
+          "sequence_logprob": -37.08038330078125,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 11,
+          "mean_token_logprob": -18.957386016845703,
+          "sequence_logprob": -37.914772033691406,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 12,
+          "mean_token_logprob": -18.123367309570312,
+          "sequence_logprob": -36.246734619140625,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 13,
+          "mean_token_logprob": -19.112407684326172,
+          "sequence_logprob": -38.224815368652344,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 14,
+          "mean_token_logprob": -20.53472900390625,
+          "sequence_logprob": -41.0694580078125,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 15,
+          "mean_token_logprob": -18.748088836669922,
+          "sequence_logprob": -37.496177673339844,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 16,
+          "mean_token_logprob": -18.155193328857422,
+          "sequence_logprob": -36.310386657714844,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 17,
+          "mean_token_logprob": -18.012699127197266,
+          "sequence_logprob": -36.02539825439453,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 18,
+          "mean_token_logprob": -16.959272384643555,
+          "sequence_logprob": -33.91854476928711,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 19,
+          "mean_token_logprob": -16.38410758972168,
+          "sequence_logprob": -32.76821517944336,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 20,
+          "mean_token_logprob": -16.009462356567383,
+          "sequence_logprob": -32.018924713134766,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 21,
+          "mean_token_logprob": -14.487313270568848,
+          "sequence_logprob": -28.974626541137695,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 22,
+          "mean_token_logprob": -11.324769020080566,
+          "sequence_logprob": -22.649538040161133,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 23,
+          "mean_token_logprob": -6.11784553527832,
+          "sequence_logprob": -12.23569107055664,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 24,
+          "mean_token_logprob": -5.772753715515137,
+          "sequence_logprob": -11.545507431030273,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 1,
+          "mean_token_logprob": -13.960687637329102,
+          "sequence_logprob": -27.921375274658203,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 2,
+          "mean_token_logprob": -13.520284652709961,
+          "sequence_logprob": -27.040569305419922,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 3,
+          "mean_token_logprob": -13.885475158691406,
+          "sequence_logprob": -27.770950317382812,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 4,
+          "mean_token_logprob": -11.504199028015137,
+          "sequence_logprob": -23.008398056030273,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 5,
+          "mean_token_logprob": -12.326903343200684,
+          "sequence_logprob": -24.653806686401367,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 6,
+          "mean_token_logprob": -12.206716537475586,
+          "sequence_logprob": -24.413433074951172,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 7,
+          "mean_token_logprob": -14.923164367675781,
+          "sequence_logprob": -29.846328735351562,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 8,
+          "mean_token_logprob": -12.86777114868164,
+          "sequence_logprob": -25.73554229736328,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 9,
+          "mean_token_logprob": -12.747262954711914,
+          "sequence_logprob": -25.494525909423828,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 10,
+          "mean_token_logprob": -11.704028129577637,
+          "sequence_logprob": -23.408056259155273,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 11,
+          "mean_token_logprob": -12.799985885620117,
+          "sequence_logprob": -25.599971771240234,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 12,
+          "mean_token_logprob": -11.717632293701172,
+          "sequence_logprob": -23.435264587402344,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 13,
+          "mean_token_logprob": -12.256477355957031,
+          "sequence_logprob": -24.512954711914062,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 14,
+          "mean_token_logprob": -12.629444122314453,
+          "sequence_logprob": -25.258888244628906,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 15,
+          "mean_token_logprob": -12.065788269042969,
+          "sequence_logprob": -24.131576538085938,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 16,
+          "mean_token_logprob": -11.320281982421875,
+          "sequence_logprob": -22.64056396484375,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 17,
+          "mean_token_logprob": -11.386390686035156,
+          "sequence_logprob": -22.772781372070312,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 18,
+          "mean_token_logprob": -9.821587562561035,
+          "sequence_logprob": -19.64317512512207,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 19,
+          "mean_token_logprob": -10.314483642578125,
+          "sequence_logprob": -20.62896728515625,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 20,
+          "mean_token_logprob": -10.604440689086914,
+          "sequence_logprob": -21.208881378173828,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 21,
+          "mean_token_logprob": -10.9036865234375,
+          "sequence_logprob": -21.807373046875,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 22,
+          "mean_token_logprob": -8.974139213562012,
+          "sequence_logprob": -17.948278427124023,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 23,
+          "mean_token_logprob": -7.7534356117248535,
+          "sequence_logprob": -15.506871223449707,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 24,
+          "mean_token_logprob": -9.832128524780273,
+          "sequence_logprob": -19.664257049560547,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        }
+      ],
+      "native_error": 2.09808349609375e-05,
+      "probe": [
+        {
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 22,
+          "score": 0.43175459447955594
+        },
+        {
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 23,
+          "score": 0.3081340791759893
+        },
+        {
+          "input_id": "C01__C01_067__Avoid_X",
+          "layer": 24,
+          "score": 0.3676325938693321
+        }
+      ]
+    },
+    {
+      "generation": {
+        "empty_response": false,
+        "explicit_x": false,
+        "input_id": "C01__C01_067__Neutral_X",
+        "output_token_count": 4,
+        "response": "Cyclist",
+        "seed": 101,
+        "truncated_at_limit": false
+      },
+      "input_id": "C01__C01_067__Neutral_X",
+      "lens": [
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 1,
+          "mean_token_logprob": -19.789888381958008,
+          "sequence_logprob": -39.579776763916016,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 2,
+          "mean_token_logprob": -17.757381439208984,
+          "sequence_logprob": -35.51476287841797,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 3,
+          "mean_token_logprob": -20.781335830688477,
+          "sequence_logprob": -41.56267166137695,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 4,
+          "mean_token_logprob": -17.969711303710938,
+          "sequence_logprob": -35.939422607421875,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 5,
+          "mean_token_logprob": -19.538490295410156,
+          "sequence_logprob": -39.07698059082031,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 6,
+          "mean_token_logprob": -21.20926284790039,
+          "sequence_logprob": -42.41852569580078,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 7,
+          "mean_token_logprob": -21.619396209716797,
+          "sequence_logprob": -43.238792419433594,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 8,
+          "mean_token_logprob": -20.39371681213379,
+          "sequence_logprob": -40.78743362426758,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 9,
+          "mean_token_logprob": -18.308025360107422,
+          "sequence_logprob": -36.616050720214844,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 10,
+          "mean_token_logprob": -17.810348510742188,
+          "sequence_logprob": -35.620697021484375,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 11,
+          "mean_token_logprob": -18.842735290527344,
+          "sequence_logprob": -37.68547058105469,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 12,
+          "mean_token_logprob": -17.69280242919922,
+          "sequence_logprob": -35.38560485839844,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 13,
+          "mean_token_logprob": -18.77298927307129,
+          "sequence_logprob": -37.54597854614258,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 14,
+          "mean_token_logprob": -20.587322235107422,
+          "sequence_logprob": -41.174644470214844,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 15,
+          "mean_token_logprob": -18.906335830688477,
+          "sequence_logprob": -37.81267166137695,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 16,
+          "mean_token_logprob": -17.72262954711914,
+          "sequence_logprob": -35.44525909423828,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 17,
+          "mean_token_logprob": -17.12247085571289,
+          "sequence_logprob": -34.24494171142578,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 18,
+          "mean_token_logprob": -15.751943588256836,
+          "sequence_logprob": -31.503887176513672,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 19,
+          "mean_token_logprob": -15.40559196472168,
+          "sequence_logprob": -30.81118392944336,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 20,
+          "mean_token_logprob": -15.118794441223145,
+          "sequence_logprob": -30.23758888244629,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 21,
+          "mean_token_logprob": -13.12867259979248,
+          "sequence_logprob": -26.25734519958496,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 22,
+          "mean_token_logprob": -9.962544441223145,
+          "sequence_logprob": -19.92508888244629,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 23,
+          "mean_token_logprob": -4.617110729217529,
+          "sequence_logprob": -9.234221458435059,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 24,
+          "mean_token_logprob": -4.502606391906738,
+          "sequence_logprob": -9.005212783813477,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 1,
+          "mean_token_logprob": -13.957796096801758,
+          "sequence_logprob": -27.915592193603516,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 2,
+          "mean_token_logprob": -13.587241172790527,
+          "sequence_logprob": -27.174482345581055,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 3,
+          "mean_token_logprob": -14.044110298156738,
+          "sequence_logprob": -28.088220596313477,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 4,
+          "mean_token_logprob": -11.481778144836426,
+          "sequence_logprob": -22.96355628967285,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 5,
+          "mean_token_logprob": -12.342918395996094,
+          "sequence_logprob": -24.685836791992188,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 6,
+          "mean_token_logprob": -12.259307861328125,
+          "sequence_logprob": -24.51861572265625,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 7,
+          "mean_token_logprob": -14.993385314941406,
+          "sequence_logprob": -29.986770629882812,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 8,
+          "mean_token_logprob": -12.844289779663086,
+          "sequence_logprob": -25.688579559326172,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 9,
+          "mean_token_logprob": -12.734465599060059,
+          "sequence_logprob": -25.468931198120117,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 10,
+          "mean_token_logprob": -11.647708892822266,
+          "sequence_logprob": -23.29541778564453,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 11,
+          "mean_token_logprob": -12.729509353637695,
+          "sequence_logprob": -25.45901870727539,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 12,
+          "mean_token_logprob": -11.637201309204102,
+          "sequence_logprob": -23.274402618408203,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 13,
+          "mean_token_logprob": -11.977916717529297,
+          "sequence_logprob": -23.955833435058594,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 14,
+          "mean_token_logprob": -12.235788345336914,
+          "sequence_logprob": -24.471576690673828,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 15,
+          "mean_token_logprob": -12.474590301513672,
+          "sequence_logprob": -24.949180603027344,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 16,
+          "mean_token_logprob": -11.055595397949219,
+          "sequence_logprob": -22.111190795898438,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 17,
+          "mean_token_logprob": -10.937043190002441,
+          "sequence_logprob": -21.874086380004883,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 18,
+          "mean_token_logprob": -9.320547103881836,
+          "sequence_logprob": -18.641094207763672,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 19,
+          "mean_token_logprob": -9.982367515563965,
+          "sequence_logprob": -19.96473503112793,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 20,
+          "mean_token_logprob": -10.338990211486816,
+          "sequence_logprob": -20.677980422973633,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 21,
+          "mean_token_logprob": -10.46731185913086,
+          "sequence_logprob": -20.93462371826172,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 22,
+          "mean_token_logprob": -8.512260437011719,
+          "sequence_logprob": -17.024520874023438,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 23,
+          "mean_token_logprob": -7.518327236175537,
+          "sequence_logprob": -15.036654472351074,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 24,
+          "mean_token_logprob": -9.266205787658691,
+          "sequence_logprob": -18.532411575317383,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        }
+      ],
+      "native_error": 2.002716064453125e-05,
+      "probe": [
+        {
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 22,
+          "score": 1.830545296310924
+        },
+        {
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 23,
+          "score": 1.7124037383830863
+        },
+        {
+          "input_id": "C01__C01_067__Neutral_X",
+          "layer": 24,
+          "score": 1.2569193472186655
+        }
+      ]
+    },
+    {
+      "generation": {
+        "empty_response": false,
+        "explicit_x": true,
+        "input_id": "C01__NO_CUE__Avoid_X",
+        "output_token_count": 3,
+        "response": "Bicycle",
+        "seed": 101,
+        "truncated_at_limit": false
+      },
+      "input_id": "C01__NO_CUE__Avoid_X",
+      "lens": [
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 1,
+          "mean_token_logprob": -19.863046646118164,
+          "sequence_logprob": -39.72609329223633,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 2,
+          "mean_token_logprob": -17.67481231689453,
+          "sequence_logprob": -35.34962463378906,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 3,
+          "mean_token_logprob": -20.559463500976562,
+          "sequence_logprob": -41.118927001953125,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 4,
+          "mean_token_logprob": -18.33257293701172,
+          "sequence_logprob": -36.66514587402344,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 5,
+          "mean_token_logprob": -19.951335906982422,
+          "sequence_logprob": -39.902671813964844,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 6,
+          "mean_token_logprob": -21.725358963012695,
+          "sequence_logprob": -43.45071792602539,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 7,
+          "mean_token_logprob": -21.736358642578125,
+          "sequence_logprob": -43.47271728515625,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 8,
+          "mean_token_logprob": -20.65382194519043,
+          "sequence_logprob": -41.30764389038086,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 9,
+          "mean_token_logprob": -18.77890968322754,
+          "sequence_logprob": -37.55781936645508,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 10,
+          "mean_token_logprob": -17.911657333374023,
+          "sequence_logprob": -35.82331466674805,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 11,
+          "mean_token_logprob": -19.553781509399414,
+          "sequence_logprob": -39.10756301879883,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 12,
+          "mean_token_logprob": -18.510452270507812,
+          "sequence_logprob": -37.020904541015625,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 13,
+          "mean_token_logprob": -18.99489974975586,
+          "sequence_logprob": -37.98979949951172,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 14,
+          "mean_token_logprob": -20.225296020507812,
+          "sequence_logprob": -40.450592041015625,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 15,
+          "mean_token_logprob": -18.65983009338379,
+          "sequence_logprob": -37.31966018676758,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 16,
+          "mean_token_logprob": -17.358705520629883,
+          "sequence_logprob": -34.717411041259766,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 17,
+          "mean_token_logprob": -16.997089385986328,
+          "sequence_logprob": -33.994178771972656,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 18,
+          "mean_token_logprob": -16.05858612060547,
+          "sequence_logprob": -32.11717224121094,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 19,
+          "mean_token_logprob": -14.582592964172363,
+          "sequence_logprob": -29.165185928344727,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 20,
+          "mean_token_logprob": -14.179901123046875,
+          "sequence_logprob": -28.35980224609375,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 21,
+          "mean_token_logprob": -11.607549667358398,
+          "sequence_logprob": -23.215099334716797,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 22,
+          "mean_token_logprob": -7.413924694061279,
+          "sequence_logprob": -14.827849388122559,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 23,
+          "mean_token_logprob": -4.429416179656982,
+          "sequence_logprob": -8.858832359313965,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 24,
+          "mean_token_logprob": -4.985246658325195,
+          "sequence_logprob": -9.97049331665039,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 1,
+          "mean_token_logprob": -13.94607925415039,
+          "sequence_logprob": -27.89215850830078,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 2,
+          "mean_token_logprob": -13.496918678283691,
+          "sequence_logprob": -26.993837356567383,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 3,
+          "mean_token_logprob": -13.893269538879395,
+          "sequence_logprob": -27.78653907775879,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 4,
+          "mean_token_logprob": -11.644227027893066,
+          "sequence_logprob": -23.288454055786133,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 5,
+          "mean_token_logprob": -12.433574676513672,
+          "sequence_logprob": -24.867149353027344,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 6,
+          "mean_token_logprob": -12.174073219299316,
+          "sequence_logprob": -24.348146438598633,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 7,
+          "mean_token_logprob": -15.008514404296875,
+          "sequence_logprob": -30.01702880859375,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 8,
+          "mean_token_logprob": -12.981801986694336,
+          "sequence_logprob": -25.963603973388672,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 9,
+          "mean_token_logprob": -12.724135398864746,
+          "sequence_logprob": -25.448270797729492,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 10,
+          "mean_token_logprob": -11.89056396484375,
+          "sequence_logprob": -23.7811279296875,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 11,
+          "mean_token_logprob": -13.496685028076172,
+          "sequence_logprob": -26.993370056152344,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 12,
+          "mean_token_logprob": -11.583614349365234,
+          "sequence_logprob": -23.16722869873047,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 13,
+          "mean_token_logprob": -11.838068008422852,
+          "sequence_logprob": -23.676136016845703,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 14,
+          "mean_token_logprob": -13.037595748901367,
+          "sequence_logprob": -26.075191497802734,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 15,
+          "mean_token_logprob": -12.184792518615723,
+          "sequence_logprob": -24.369585037231445,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 16,
+          "mean_token_logprob": -10.681431770324707,
+          "sequence_logprob": -21.362863540649414,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 17,
+          "mean_token_logprob": -10.961371421813965,
+          "sequence_logprob": -21.92274284362793,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 18,
+          "mean_token_logprob": -9.891460418701172,
+          "sequence_logprob": -19.782920837402344,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 19,
+          "mean_token_logprob": -9.85776138305664,
+          "sequence_logprob": -19.71552276611328,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 20,
+          "mean_token_logprob": -10.331962585449219,
+          "sequence_logprob": -20.663925170898438,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 21,
+          "mean_token_logprob": -11.007094383239746,
+          "sequence_logprob": -22.014188766479492,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 22,
+          "mean_token_logprob": -8.788066864013672,
+          "sequence_logprob": -17.576133728027344,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 23,
+          "mean_token_logprob": -8.389029502868652,
+          "sequence_logprob": -16.778059005737305,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 24,
+          "mean_token_logprob": -10.719595909118652,
+          "sequence_logprob": -21.439191818237305,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        }
+      ],
+      "native_error": 2.09808349609375e-05,
+      "probe": [
+        {
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 22,
+          "score": 4.471580099295533
+        },
+        {
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 23,
+          "score": 4.6118371027373435
+        },
+        {
+          "input_id": "C01__NO_CUE__Avoid_X",
+          "layer": 24,
+          "score": 3.8386284785076286
+        }
+      ]
+    },
+    {
+      "generation": {
+        "empty_response": false,
+        "explicit_x": true,
+        "input_id": "C01__NO_CUE__Neutral_X",
+        "output_token_count": 8,
+        "response": "Bicycle brings joy and freedom.",
+        "seed": 101,
+        "truncated_at_limit": false
+      },
+      "input_id": "C01__NO_CUE__Neutral_X",
+      "lens": [
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 1,
+          "mean_token_logprob": -19.825712203979492,
+          "sequence_logprob": -39.651424407958984,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 2,
+          "mean_token_logprob": -17.599998474121094,
+          "sequence_logprob": -35.19999694824219,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 3,
+          "mean_token_logprob": -20.568910598754883,
+          "sequence_logprob": -41.137821197509766,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 4,
+          "mean_token_logprob": -17.935779571533203,
+          "sequence_logprob": -35.871559143066406,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 5,
+          "mean_token_logprob": -19.520706176757812,
+          "sequence_logprob": -39.041412353515625,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 6,
+          "mean_token_logprob": -21.42306900024414,
+          "sequence_logprob": -42.84613800048828,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 7,
+          "mean_token_logprob": -21.448585510253906,
+          "sequence_logprob": -42.89717102050781,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 8,
+          "mean_token_logprob": -20.39158821105957,
+          "sequence_logprob": -40.78317642211914,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 9,
+          "mean_token_logprob": -18.380435943603516,
+          "sequence_logprob": -36.76087188720703,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 10,
+          "mean_token_logprob": -17.433853149414062,
+          "sequence_logprob": -34.867706298828125,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 11,
+          "mean_token_logprob": -19.547758102416992,
+          "sequence_logprob": -39.095516204833984,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 12,
+          "mean_token_logprob": -18.176626205444336,
+          "sequence_logprob": -36.35325241088867,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 13,
+          "mean_token_logprob": -18.432416915893555,
+          "sequence_logprob": -36.86483383178711,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 14,
+          "mean_token_logprob": -20.64826774597168,
+          "sequence_logprob": -41.29653549194336,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 15,
+          "mean_token_logprob": -18.72435760498047,
+          "sequence_logprob": -37.44871520996094,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 16,
+          "mean_token_logprob": -17.261070251464844,
+          "sequence_logprob": -34.52214050292969,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 17,
+          "mean_token_logprob": -16.417034149169922,
+          "sequence_logprob": -32.834068298339844,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 18,
+          "mean_token_logprob": -15.282011032104492,
+          "sequence_logprob": -30.564022064208984,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 19,
+          "mean_token_logprob": -13.877546310424805,
+          "sequence_logprob": -27.75509262084961,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 20,
+          "mean_token_logprob": -13.122747421264648,
+          "sequence_logprob": -26.245494842529297,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 21,
+          "mean_token_logprob": -10.390158653259277,
+          "sequence_logprob": -20.780317306518555,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 22,
+          "mean_token_logprob": -7.069262981414795,
+          "sequence_logprob": -14.13852596282959,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 23,
+          "mean_token_logprob": -3.0211520195007324,
+          "sequence_logprob": -6.042304039001465,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "X",
+          "candidate_text": "bicycle",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 24,
+          "mean_token_logprob": -2.7224698066711426,
+          "sequence_logprob": -5.444939613342285,
+          "token_count": 2,
+          "token_ids": "65 26165"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 1,
+          "mean_token_logprob": -13.945314407348633,
+          "sequence_logprob": -27.890628814697266,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 2,
+          "mean_token_logprob": -13.566143035888672,
+          "sequence_logprob": -27.132286071777344,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 3,
+          "mean_token_logprob": -14.056028366088867,
+          "sequence_logprob": -28.112056732177734,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 4,
+          "mean_token_logprob": -11.57502555847168,
+          "sequence_logprob": -23.15005111694336,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 5,
+          "mean_token_logprob": -12.396758079528809,
+          "sequence_logprob": -24.793516159057617,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 6,
+          "mean_token_logprob": -12.185443878173828,
+          "sequence_logprob": -24.370887756347656,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 7,
+          "mean_token_logprob": -15.085001945495605,
+          "sequence_logprob": -30.17000389099121,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 8,
+          "mean_token_logprob": -13.041329383850098,
+          "sequence_logprob": -26.082658767700195,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 9,
+          "mean_token_logprob": -12.744219779968262,
+          "sequence_logprob": -25.488439559936523,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 10,
+          "mean_token_logprob": -11.918403625488281,
+          "sequence_logprob": -23.836807250976562,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 11,
+          "mean_token_logprob": -13.39216136932373,
+          "sequence_logprob": -26.78432273864746,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 12,
+          "mean_token_logprob": -11.55441665649414,
+          "sequence_logprob": -23.10883331298828,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 13,
+          "mean_token_logprob": -11.60269546508789,
+          "sequence_logprob": -23.20539093017578,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 14,
+          "mean_token_logprob": -12.804229736328125,
+          "sequence_logprob": -25.60845947265625,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 15,
+          "mean_token_logprob": -12.344056129455566,
+          "sequence_logprob": -24.688112258911133,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 16,
+          "mean_token_logprob": -9.966139793395996,
+          "sequence_logprob": -19.932279586791992,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 17,
+          "mean_token_logprob": -10.283892631530762,
+          "sequence_logprob": -20.567785263061523,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 18,
+          "mean_token_logprob": -9.11461353302002,
+          "sequence_logprob": -18.22922706604004,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 19,
+          "mean_token_logprob": -9.56257438659668,
+          "sequence_logprob": -19.12514877319336,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 20,
+          "mean_token_logprob": -9.65113639831543,
+          "sequence_logprob": -19.30227279663086,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 21,
+          "mean_token_logprob": -10.59730339050293,
+          "sequence_logprob": -21.19460678100586,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 22,
+          "mean_token_logprob": -9.778406143188477,
+          "sequence_logprob": -19.556812286376953,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 23,
+          "mean_token_logprob": -9.007737159729004,
+          "sequence_logprob": -18.015474319458008,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        },
+        {
+          "candidate_role": "Y",
+          "candidate_text": "submarine",
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 24,
+          "mean_token_logprob": -9.98377513885498,
+          "sequence_logprob": -19.96755027770996,
+          "token_count": 2,
+          "token_ids": "1966 84443"
+        }
+      ],
+      "native_error": 2.384185791015625e-05,
+      "probe": [
+        {
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 22,
+          "score": 7.649157398143641
+        },
+        {
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 23,
+          "score": 8.505720097011757
+        },
+        {
+          "input_id": "C01__NO_CUE__Neutral_X",
+          "layer": 24,
+          "score": 5.429185260383628
+        }
+      ]
+    }
+  ]
+}
