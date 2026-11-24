@@ -1,0 +1,44 @@
+{
+  "concept": "ant",
+  "created_at": "2026-11-24T08:13:24.927824+00:00",
+  "eval": [
+    "Small insects often form large colonies that can work together to achieve common goals, such as foraging for food.",
+    "Some species communicate using pheromones, leaving scented trails that guide others to food sources or warn of danger.",
+    "In certain ecosystems, these insects play a crucial role in soil aeration and nutrient cycling through their burrowing activities.",
+    "Many types of these insects exhibit complex social structures, with division of labor among workers, soldiers, and reproductive members.",
+    "These insects can harvest seeds, contributing to plant propagation and influencing local vegetation dynamics in their habitats.",
+    "Some species engage in mutualistic relationships with plants, protecting them from herbivores in exchange for food resources.",
+    "During foraging, these insects can travel significant distances from their nests, sometimes forming long lines as they search for resources.",
+    "Certain types have developed the ability to cultivate fungi as a food source, showcasing a unique form of agriculture in the animal kingdom."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "This small insect typically has a segmented body divided into three main parts: the head, thorax, and abdomen.",
+    "Many species possess antennae that serve as sensory organs for detecting chemicals and vibrations in their environment.",
+    "The exoskeleton provides structural support and protection, composed mainly of a tough material called chitin.",
+    "Some individuals have specialized mandibles adapted for cutting, carrying, or manipulating food and materials.",
+    "Certain species exhibit a range of colors, including black, brown, red, and even green, depending on their habitat.",
+    "These creatures communicate with each other using pheromones, which are chemical signals released into the environment.",
+    "A complex system of nests may be constructed underground or within wood, utilizing soil, plant materials, or saliva.",
+    "Some individuals have wings during specific life stages, allowing for dispersal and the establishment of new colonies."
+  ]
+}
