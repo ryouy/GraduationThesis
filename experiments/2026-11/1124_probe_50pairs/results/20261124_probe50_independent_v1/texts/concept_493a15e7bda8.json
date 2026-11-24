@@ -1,0 +1,44 @@
+{
+  "concept": "scissors",
+  "created_at": "2026-11-24T08:20:27.647199+00:00",
+  "eval": [
+    "A common tool for cutting paper is often found in classrooms and offices.",
+    "Craft enthusiasts utilize a specific instrument to create intricate designs from fabric.",
+    "During seasonal activities, such as gift wrapping, individuals frequently reach for a cutting instrument.",
+    "Professionals in the hair industry employ a specialized device to cut and style hair.",
+    "In culinary settings, chefs use a particular tool to trim herbs and vegetables with precision.",
+    "Children learn fine motor skills by using a cutting tool during arts and crafts sessions.",
+    "When preparing materials for a project, one might need to cut various items to size.",
+    "Certain safety protocols are observed when using sharp cutting tools to prevent accidents."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "This tool consists of two metal blades that pivot around a central screw for cutting purposes.",
+    "Each blade typically features a sharp edge designed to slice through various materials effectively.",
+    "Handles are often made from plastic or rubber for comfort and improved grip during use.",
+    "The design includes a finger hole on each handle to accommodate different hand sizes.",
+    "Some models incorporate a spring mechanism that automatically opens the blades after each cut.",
+    "The blades may have a pointed tip for precision cutting or a rounded tip for safety.",
+    "Various types are manufactured for specific tasks, such as crafting, sewing, or kitchen use.",
+    "The overall length of the tool can vary, impacting its usability for different cutting tasks."
+  ]
+}
