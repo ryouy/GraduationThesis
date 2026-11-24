@@ -1,0 +1,67 @@
+{
+  "concept": "giraffe",
+  "created_at": "2026-11-24T12:28:12.435358+00:00",
+  "eval": {
+    "action": [
+      "This majestic creature glides gracefully across the savanna, its long legs allowing it to cover great distances with ease.",
+      "With a gentle, swaying motion, it uses its elongated neck to browse treetops, showcasing its unique feeding style."
+    ],
+    "function": [
+      "This towering herbivore possesses an extraordinary neck that enables it to access foliage unavailable to most other animals.",
+      "Its unique coat pattern provides effective camouflage in the dappled light of its natural habitat, enhancing its survival against predators."
+    ],
+    "situation": [
+      "In the African savanna, an elegant creature stands tall, effortlessly browsing the treetops for tender leaves.",
+      "With its long legs and unique spots, this graceful animal often moves in groups, creating a mesmerizing spectacle against the golden grasslands."
+    ],
+    "structure": [
+      "This towering herbivore possesses a strikingly patterned coat, with patches that vary in color and shape across individuals.",
+      "Its long, slender legs enable it to navigate the grasslands efficiently, while its unique ossicones add to its distinctive appearance."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This tall mammal gracefully stretches its long neck to reach leaves high in the treetops.",
+      "With a distinctive gait, it moves in a slow, loping manner, often keeping a watchful eye for predators."
+    ],
+    "function": [
+      "This tall herbivore uses its long neck to reach leaves high in trees, providing it with a unique feeding advantage.",
+      "With its distinctive spotted coat, this animal blends into the savanna landscape, aiding in camouflage from predators."
+    ],
+    "situation": [
+      "In the African savanna, a tall creature stretches its long neck to nibble leaves from the highest branches.",
+      "A group of these elegant animals grazes peacefully, their distinctive patterns blending into the dappled light of the trees."
+    ],
+    "structure": [
+      "This tall mammal is characterized by its long neck and unique spotted coat that varies in pattern and color.",
+      "Its legs are also elongated, allowing it to reach high foliage, while its ossicones are prominent horn-like structures on its head."
+    ]
+  }
+}
