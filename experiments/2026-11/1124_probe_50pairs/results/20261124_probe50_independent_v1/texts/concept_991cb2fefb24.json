@@ -1,0 +1,44 @@
+{
+  "concept": "tambourine",
+  "created_at": "2026-11-24T08:22:07.686547+00:00",
+  "eval": [
+    "In music therapy sessions, handheld percussion instruments are often used to encourage rhythm and participation among individuals.",
+    "During folk music festivals, participants frequently use small percussion instruments to enhance the overall sound of live performances.",
+    "Children in early education settings often engage with simple instruments to develop their motor skills and auditory awareness.",
+    "Some dance classes incorporate rhythmic instruments to help synchronize movements among participants and enhance the experience.",
+    "At community gatherings, group activities often include playing instruments, fostering social interaction and collaborative creativity.",
+    "In marching bands, members may use lightweight percussion instruments to maintain a lively tempo while performing routines.",
+    "During religious ceremonies, rhythmic instruments can play a significant role in creating a celebratory atmosphere and engaging the congregation.",
+    "Music educators frequently introduce simple percussion instruments to help students learn about rhythm and timing in a hands-on manner."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "A circular frame typically made of wood or plastic supports the entire structure.",
+    "Metal jingles or cymbals are often attached around the edges to produce sound.",
+    "The surface may be covered with a thin layer of animal skin or synthetic material.",
+    "Rattling sounds occur when the frame is shaken or struck with the hand.",
+    "Various sizes are available, ranging from small handheld models to larger versions used in ensembles.",
+    "Some designs include a double row of jingles to enhance the volume and tonal variety.",
+    "The instrument can be played in both standing and seated positions, allowing for versatility.",
+    "Colorful finishes and decorative elements are often added to enhance visual appeal."
+  ]
+}
