@@ -16,6 +16,7 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 | [旧統合設計 v0.9](docs/main_experiment_protocol_v0_9.md) | 2026-11-24までの設計記録（保存） |
 | [研究概要](docs/research_overview.md) | 研究動機・背景・当初の研究質問 |
 | [分析手法と測定指標](docs/methods.md) | Probe・Logit Lens・出力解析・意味的距離の解説（過去の測定計画も含む） |
+| [研究参考資料](docs/reference/README.md) | トークン・生成直前のHidden State・Concept Probe・Logit Lensのわかりやすい解説 |
 | [旧プロトコル（歴史的記録）](docs/main_experiment_protocol.md) | 4概念・4条件を含む以前の設計。**内容を維持** |
 | [本実験設計の検討記録 v0.7](docs/main_experiment_design_v0_5.md) | 新プロトコルへ統合する前の設計案と判断経緯 |
 | [旧実験設計・分析計画](docs/experimental_design.md) | パイロット段階の4条件を中心とする記録 |
@@ -71,6 +72,7 @@ GraduationThesis/
 ├── docs/
 │   ├── research_overview.md   # 研究目的・問い・意義
 │   ├── methods.md             # 分析手法・測定指標
+│   ├── reference/             # 研究理解のための参考資料
 │   ├── experimental_design.md # 実験条件・分析計画
 │   ├── main_experiment_protocol_v0_95.md # 現行の統合プロトコル（正本）
 │   ├── main_experiment_protocol_v0_9.md # 旧統合設計（保存）
