@@ -1,0 +1,35 @@
+{
+  "status": "SCREEN_COMPLETED_HUMAN_REVIEW_PENDING",
+  "timestamp": "2026-11-24T08:29:48.122634+00:00",
+  "parameters": {
+    "run_id": "20261124_probe50_independent_v1",
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "api_model": "gpt-4o-mini",
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "per_class": 8,
+    "shuffle_count": 499,
+    "probe_C": 0.1,
+    "seed": 42,
+    "batch_size": 24,
+    "auc_min": 0.8,
+    "fdr_max": 0.05,
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "input_sha256": "0b957892ebad076dcaa2b14dce5314fefb738f274df52588326482a4e2001ca0",
+  "n_pairs": 50,
+  "n_names": 82,
+  "n_prompts": 1312,
+  "n_screen_pass": 0,
+  "source": "docs/concept_pair_candidates_50_v0_1.csv",
+  "limitations": [
+    "AI-authored labels; no independent human fact audit",
+    "AUC does not measure mental activation",
+    "Pair preselection and 50 comparisons; exploratory screen"
+  ]
+}
