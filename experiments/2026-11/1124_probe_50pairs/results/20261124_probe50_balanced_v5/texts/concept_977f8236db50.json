@@ -1,0 +1,67 @@
+{
+  "concept": "power drill",
+  "created_at": "2026-11-24T12:32:32.130352+00:00",
+  "eval": {
+    "action": [
+      "With a steady grip, the user activates the tool, causing a bit to spin rapidly and pierce through dense surfaces.",
+      "As the operator adjusts the torque settings, the device smoothly transitions from drilling to driving, showcasing its versatility in construction tasks."
+    ],
+    "function": [
+      "This tool allows users to create holes in hard surfaces quickly, enhancing efficiency in construction and repair tasks.",
+      "With its ability to accommodate different attachments, it serves multiple functions, including driving screws and mixing materials effectively."
+    ],
+    "situation": [
+      "In a busy construction site, a worker expertly wields a handheld device, making clean holes in metal beams with ease.",
+      "The rhythmic buzzing of the tool resonates as the craftsman adjusts the depth, ensuring each hole is perfectly aligned for assembly."
+    ],
+    "structure": [
+      "The device consists of a robust housing with a rotating head designed to accommodate interchangeable bits for various tasks.",
+      "It features a gripping handle for stability, along with a trigger that controls the speed and power during operation."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This tool rapidly rotates a bit to bore holes into various materials with precision and ease.",
+      "It often features adjustable speed settings, allowing users to control the drilling process for different applications."
+    ],
+    "function": [
+      "This tool efficiently creates holes in various materials, allowing for quick and precise assembly of structures and fixtures.",
+      "It operates with a rotating mechanism, enabling users to drive screws and fasteners into surfaces with minimal effort."
+    ],
+    "situation": [
+      "In the workshop, a tradesperson skillfully operates a handheld tool, creating precise holes in a piece of wood.",
+      "The sound of whirring fills the air as the worker adjusts the speed, ensuring a clean and accurate finish for the project."
+    ],
+    "structure": [
+      "This tool features a cylindrical body with a rotating chuck at the front, designed to hold various drill bits securely.",
+      "It typically includes a trigger mechanism for control, along with a handle for stability during operation and a battery compartment for power."
+    ]
+  }
+}
