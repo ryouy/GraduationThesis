@@ -1,0 +1,67 @@
+{
+  "concept": "trombone",
+  "created_at": "2026-11-24T12:37:16.997337+00:00",
+  "eval": {
+    "action": [
+      "With a graceful motion, the player deftly extends and retracts the slide, crafting a spectrum of musical notes.",
+      "The musician's lips vibrate against the mouthpiece, producing a warm, rich sound that resonates throughout the ensemble."
+    ],
+    "function": [
+      "The instrument's slide allows performers to explore a vast array of pitches, enhancing musical expression and creativity.",
+      "With its distinctive sound, this brass instrument plays a crucial role in ensembles, adding depth and richness to compositions."
+    ],
+    "situation": [
+      "In the vibrant jazz club, a performer skillfully navigates the instrument's slide, producing smooth, soulful melodies that resonate with the audience.",
+      "The brass player's technique showcases a stunning array of notes, as the gleaming instrument shines under the spotlight, captivating everyone present."
+    ],
+    "structure": [
+      "The instrument has a long, cylindrical body made of brass, with a distinctive slide mechanism that extends and contracts to change pitch.",
+      "At the opposite end, a large, flared bell projects sound, often featuring a polished finish that highlights its craftsmanship and elegance."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This brass instrument produces sound by the player sliding a movable section to alter pitch.",
+      "Musicians create a rich, resonant tone by buzzing their lips into a large, flared bell."
+    ],
+    "function": [
+      "This brass instrument produces sound through the vibration of the player's lips against a mouthpiece.",
+      "Its unique slide mechanism allows for a wide range of pitches and expressive musical techniques in various genres."
+    ],
+    "situation": [
+      "In the bustling orchestra pit, a musician skillfully slides the instrument's slide to create rich, resonant notes that fill the concert hall.",
+      "During the jazz ensemble's lively performance, the player expertly blends deep tones and vibrant melodies, captivating the audience with every flourish."
+    ],
+    "structure": [
+      "This brass instrument features a long, slide mechanism that alters pitch by changing the length of the tubing.",
+      "Its bell-shaped end amplifies sound, while the shiny exterior often showcases intricate design and craftsmanship."
+    ]
+  }
+}
