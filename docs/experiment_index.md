@@ -1,8 +1,17 @@
 # 実験記録・資料一覧
 
+> 現行の本実験設計・未完了事項は[統合プロトコルv0.95](main_experiment_protocol_v0_95.md)を優先する。以下は研究概要・過去の記録を含む。
+
 [← リポジトリのトップへ戻る](../README.md) · [月別の実験一覧](../experiments/README.md) · [現在の進捗](current_status.md)
 
 各実験の詳細・コード・データは、それぞれのフォルダに保存する。このページでは、主な記録へアクセスしやすいように分類している。
+
+## 11月24日の追加検証
+
+- [50組Probe均衡版v5](../experiments/2026-11/1124_probe_50pairs/results/20261124_probe50_balanced_v5/analysis_summary.md)：33組暫定通過。
+- [4概念距離再分析](../experiments/2026-11/1124_distance_representation_analysis/results/20261124_distance_reanalysis_v1/analysis_summary.md)：完了。
+- [10概念Pre-main](../experiments/2026-11/1124_pre_main_experiment/README.md)：実装済み、探索的。
+- 追加Probe探索（目標約50採択X）・本番用Cue準備は後日実施。[現行統合プロトコル](main_experiment_protocol_v0_95.md)。
 
 ## 1. 11月12〜13日：Qwen Probe検証・Cue設計・抑制指示パイロット（直近）
 
