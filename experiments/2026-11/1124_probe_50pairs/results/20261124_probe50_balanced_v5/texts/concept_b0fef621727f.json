@@ -1,0 +1,67 @@
+{
+  "concept": "pineapple",
+  "created_at": "2026-11-24T12:32:05.388759+00:00",
+  "eval": {
+    "action": [
+      "This exotic fruit grows in clusters, showcasing its unique, spiky appearance that stands out in lush tropical landscapes.",
+      "When sliced open, its bright yellow interior reveals a succulent, aromatic flesh that tantalizes the taste buds with its refreshing sweetness."
+    ],
+    "function": [
+      "This fruit's unique texture and flavor make it a popular ingredient in both savory dishes and sweet desserts.",
+      "Cultivated in sunny climates, it plays a significant role in local economies, providing income for many farmers worldwide."
+    ],
+    "situation": [
+      "In lush tropical gardens, a vibrant, spiky fruit grows, attracting curious passersby with its unique appearance and inviting aroma.",
+      "This exotic fruit, often enjoyed fresh or blended into drinks, boasts a delightful sweetness that perfectly complements savory dishes."
+    ],
+    "structure": [
+      "This exotic fruit showcases a unique arrangement of hexagonal segments, each encased in a tough, spiky outer layer.",
+      "Its golden, succulent interior is packed with juice, offering a delightful contrast to the fibrous core that holds it together."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This tropical fruit develops a rough, spiky exterior while ripening under warm sunlight, attracting various pollinators.",
+      "When harvested, it exudes a sweet aroma, enticing both animals and humans to enjoy its juicy flesh."
+    ],
+    "function": [
+      "This tropical fruit is known for its sweet, tangy flavor and is often used in desserts and beverages.",
+      "Rich in vitamins and enzymes, it aids digestion and boosts the immune system, making it a healthy dietary choice."
+    ],
+    "situation": [
+      "In tropical markets, vibrant spiky fruits sit atop stalls, their golden flesh promising a sweet and tangy delight.",
+      "Visitors often choose the juicy treat for refreshing snacks on hot beach days, enjoying its unique blend of flavors."
+    ],
+    "structure": [
+      "This tropical fruit features a rough, spiky exterior with a vibrant green crown of leaves on top.",
+      "Inside, it has a juicy, yellow flesh with a sweet and tangy flavor, surrounded by a fibrous core."
+    ]
+  }
+}
