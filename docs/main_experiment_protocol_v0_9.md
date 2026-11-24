@@ -184,6 +184,8 @@ OpenAI APIは学習・評価用の候補説明文、X/Yの候補、Cueの草案�
 
 **実装準備（2026-11-24）：** [50組Probeの独立説明文評価Colab](../experiments/2026-11/1124_probe_50pairs/README.md) を作成。**GPU実行・OpenAI API生成・Probe採択結果はまだ未実施**。本実験で使う50ペアをここで正式確定したことにはならない。
 
+**追加Probe品質検証（2026-11-24）：** [文章タイプ均衡版50組Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1124_probe_50pairs/qwen_probe_50pairs_balanced_validation.ipynb) を作成。旧50組とモデル・学習器を揃え、構造・動作・場面・用途を学習／評価で均衡させて再評価する。**未実行であり、結果による採択は未確定**。前回との差は文章内容の差も含むため、文章タイプの因果的効果とは断定しない。
+
 ## 13. 実施手順とv1.0開始前チェックリスト
 
 1. [ ] **50概念XとYの候補を作り、分野別の偏りと比較候補の妥当性を確認**。候補・除外理由をCSVで記録。
