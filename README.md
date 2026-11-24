@@ -46,6 +46,8 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 
 ## 本実験の準備資料
 
+- **[最新版：50組Probe均衡検証v4 Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1124_probe_50pairs/qwen_probe_50pairs_balanced_validation_v4.ipynb)**：文章タイプごとに2文ずつ生成する独立ノートブック。過去のv1/v2/v3は保持（未実行）。
+
 - **[Colab：文章タイプ均衡版の追加Probe検証](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1124_probe_50pairs/qwen_probe_50pairs_balanced_validation.ipynb)**：学習・評価の両方に構造・動作・場面・用途を2文ずつ配置し、旧50組のAUCと比較（未実行）。
 - **[Colab：50組のProbe独立評価](experiments/2026-11/1124_probe_50pairs/README.md)**：OpenAI APIで説明文を生成し、QwenのHidden StateとProbeで50ペアを評価する実行手順。[Colabを開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1124_probe_50pairs/qwen_probe_50pairs_validation.ipynb)（**未実行**）。
 - **[50概念X・比較Y候補と選定理由](docs/concept_pair_selection_v0_1.md)**：10カテゴリー×5候補、既存Probeの検証結果の対応、各ペアの懸念点、次の検証手順。
