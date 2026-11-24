@@ -1,0 +1,67 @@
+{
+  "concept": "butterfly",
+  "created_at": "2026-11-24T12:24:38.608694+00:00",
+  "eval": {
+    "action": [
+      "These delicate creatures perform an elegant aerial ballet, flitting gracefully among blossoms in search of sweet nectar.",
+      "With their vibrant wings fluttering in the sunlight, they engage in a captivating display of color and movement while foraging."
+    ],
+    "function": [
+      "This insect undergoes a remarkable transformation from caterpillar to a winged adult, illustrating the beauty of metamorphosis.",
+      "With their vibrant hues and patterns, these creatures contribute significantly to pollination, supporting biodiversity in various ecosystems."
+    ],
+    "situation": [
+      "In the lush garden, brightly colored insects flit between blossoms, their wings shimmering in the sunlight as they sip nectar.",
+      "As they rest on petals, their intricate wing patterns create a stunning display, captivating anyone who takes a moment to observe."
+    ],
+    "structure": [
+      "This insect possesses a slender body and expansive wings adorned with vivid colors and unique patterns that captivate observers.",
+      "With their lightweight structure and intricate designs, these creatures are adept at navigating through gardens, seeking sustenance from blooming flowers."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "These colorful winged insects gracefully flutter from flower to flower, feeding on nectar while pollinating plants in the process.",
+      "During the day, they engage in a delicate dance, showcasing their vibrant patterns as they bask in the sunlight."
+    ],
+    "function": [
+      "These colorful insects play a crucial role in pollination, helping plants reproduce and sustain ecosystems.",
+      "Their life cycle, which includes metamorphosis, serves as a fascinating example of transformation in the natural world."
+    ],
+    "situation": [
+      "In a sunlit garden filled with colorful flowers, delicate creatures flutter gracefully from bloom to bloom, sipping nectar.",
+      "As the warm breeze rustles the leaves, vibrant wings dance in the air, showcasing intricate patterns and hues."
+    ],
+    "structure": [
+      "This insect features a slender body with four large, often brightly colored wings that display intricate patterns.",
+      "Its delicate wings are covered in tiny scales that reflect light, creating stunning iridescence in various colors."
+    ]
+  }
+}
