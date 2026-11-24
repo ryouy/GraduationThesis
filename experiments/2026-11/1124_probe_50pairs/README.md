@@ -1,5 +1,8 @@
 # 50 X/Y Concept Probe — Colab独立説明文検証
 
+> **最新版（2026-11-24）：[v4 Colabを開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1124_probe_50pairs/qwen_probe_50pairs_balanced_validation_v4.ipynb)**。文章をタイプ別に2文ずつ生成・検査する別ファイルです。旧v1/v2/v3ノートブックは変更せず残しています。v4はまだ実行検証していません。
+
+
 ## 追加検証 v2：文章タイプ均衡版（2026-11-24）
 
 **[Google Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1124_probe_50pairs/qwen_probe_50pairs_balanced_validation.ipynb)** · [ノートブック](qwen_probe_50pairs_balanced_validation.ipynb)
