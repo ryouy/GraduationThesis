@@ -1,0 +1,44 @@
+{
+  "concept": "smoke",
+  "created_at": "2026-11-24T08:20:56.731484+00:00",
+  "eval": [
+    "A campfire generates a visible cloud that can carry scents across a significant distance.",
+    "Certain cooking methods, such as grilling or frying, can produce a haze that lingers in the kitchen.",
+    "The aftermath of a forest fire often leaves a lingering odor that can affect air quality for days.",
+    "Incense burning in religious ceremonies often fills the air with a fragrant cloud that enhances the ambiance.",
+    "Industrial processes may emit visible particles into the atmosphere, affecting both local air quality and visibility.",
+    "During a fireworks display, colorful bursts can create a haze that momentarily obscures the night sky.",
+    "The use of candles in homes can lead to a subtle buildup of residue on nearby surfaces over time.",
+    "Certain weather conditions can trap airborne particles close to the ground, impacting respiratory health in urban areas."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "Particles suspended in the air can result from combustion or chemical reactions, creating visible plumes.",
+    "This phenomenon can vary in color, ranging from gray to black, depending on the materials involved in combustion.",
+    "Densities can differ significantly based on temperature and humidity levels in the surrounding environment.",
+    "When cooled, these particles may condense into liquid droplets, forming a mist-like appearance.",
+    "The movement of this substance can be influenced by air currents and temperature gradients in the atmosphere.",
+    "Certain detectors can sense the presence of these particles, alerting to potential hazards in enclosed spaces.",
+    "This substance can reduce visibility and contribute to respiratory issues when inhaled in large quantities.",
+    "The formation of this material often occurs in industrial processes, vehicle emissions, and during wildfires."
+  ]
+}
