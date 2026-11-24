@@ -1,0 +1,67 @@
+{
+  "concept": "pliers",
+  "created_at": "2026-11-24T12:32:19.408302+00:00",
+  "eval": {
+    "action": [
+      "This versatile tool allows users to firmly grasp and manipulate small items, making intricate tasks more manageable.",
+      "With its strong leverage, it can easily bend and twist materials, proving indispensable in both crafting and repair work."
+    ],
+    "function": [
+      "This versatile hand tool allows users to firmly grasp and manipulate objects, making it invaluable for both crafting and mechanical tasks.",
+      "Engineered for strength and precision, it can twist, bend, and cut materials, enhancing efficiency in various repair and assembly projects."
+    ],
+    "situation": [
+      "In the garage, a technician skillfully adjusts a metal component, using a tool that provides a secure grip for twisting.",
+      "The device's sturdy handles and textured jaws allow for effective manipulation of wires and small hardware during repairs."
+    ],
+    "structure": [
+      "This tool consists of two elongated handles connected to a set of jaws that can open and close with a pivot mechanism.",
+      "Typically made from durable metal, it features textured gripping surfaces to ensure a secure hold on various materials."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This tool grips and bends materials with ease, allowing users to manipulate objects in tight spaces.",
+      "Its jaws can hold, twist, or cut through various items, making it essential for repairs and crafting tasks."
+    ],
+    "function": [
+      "This hand tool is designed to grip, twist, and cut various materials with precision and ease.",
+      "It serves as an essential device for tasks requiring strong leverage and manipulation of objects in tight spaces."
+    ],
+    "situation": [
+      "In the workshop, a craftsman deftly grips a metal object, twisting and bending it with precision.",
+      "On the workbench, a shiny tool sits ready, designed to grip and manipulate various materials with ease."
+    ],
+    "structure": [
+      "This hand tool features two levers that pivot around a fulcrum, allowing for a firm grip on small objects.",
+      "Its jaws are often textured or serrated to enhance grip, and the handles are usually coated for comfort and control."
+    ]
+  }
+}
