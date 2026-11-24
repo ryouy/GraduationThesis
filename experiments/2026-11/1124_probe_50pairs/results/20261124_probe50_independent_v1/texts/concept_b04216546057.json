@@ -1,0 +1,44 @@
+{
+  "concept": "fog",
+  "created_at": "2026-11-24T08:16:56.945808+00:00",
+  "eval": [
+    "Visibility can drop significantly during early morning hours in certain geographic locations, impacting drivers and pedestrians alike.",
+    "Certain weather conditions contribute to the formation of low-lying clouds, often observed near bodies of water.",
+    "Many outdoor events are postponed when low visibility conditions are expected, ensuring participant safety.",
+    "Marine navigation relies heavily on radar and sound signals during periods of reduced visibility to avoid accidents.",
+    "Photographers often seek out specific times of day when low-lying clouds create unique atmospheric effects in landscapes.",
+    "Local ecosystems may experience a noticeable increase in humidity levels, benefiting plant life in the surrounding area.",
+    "Transportation schedules, especially flights, can experience delays due to low visibility caused by atmospheric conditions.",
+    "Hikers are advised to carry navigation tools when traversing areas prone to sudden visibility changes due to weather patterns."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "This phenomenon occurs when water vapor condenses into tiny droplets suspended in the air.",
+    "Visibility can be significantly reduced during this atmospheric condition, often leading to hazardous driving situations.",
+    "The formation of this phenomenon is influenced by temperature, humidity, and air pressure changes.",
+    "It can create a thick, grayish layer that blankets landscapes, altering the appearance of familiar surroundings.",
+    "This atmospheric condition typically forms in low-lying areas, valleys, or near bodies of water.",
+    "Certain types of this phenomenon can form overnight, especially in areas with high humidity and cooler temperatures.",
+    "The presence of this phenomenon can affect temperature by trapping heat close to the ground.",
+    "Meteorologists use specific tools and models to predict the occurrence and density of this atmospheric phenomenon."
+  ]
+}
