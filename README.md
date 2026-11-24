@@ -2,13 +2,18 @@
 
 LLMに対する「Xについて考えないで」という抑制指示の下で、手がかりの意味的距離と内部表現の関係をConcept Probe・Logit Lensで分析する卒業研究のリポジトリ。最終出力は内部解析との対応を見るための補助指標として扱います。
 
-このREADMEは研究全体への入口です。**現在の本実験設計は[新プロトコル v0.9](docs/main_experiment_protocol_v0_9.md)を正本とします。** 過去のプロトコルや各種実験記録は、当時の設計と結果を保存した資料です。研究概要・方法・設計・進捗は以下から参照できます。
+## 本実験の統合プロトコル（最初に読む）
+
+**[本実験・統合プロトコル v0.95](docs/main_experiment_protocol_v0_95.md)** — 現行研究方針の唯一の正本。実験設計、測定、Cue準備、統計、未完了事項を統合。実行用v1.0は未凍結。
+
+現在：初回50組中33組のProbeが暫定基準通過。**後日、採択可能な異なるXを合計約50にする追加探索と、本番用Cueの独立準備を行う。** 今回は文書統合のみ。過去の設計・実験データは保存する。
 
 ## はじめに読む
 
 | ページ | 内容 |
 |---|---|
-| **[新・本実験プロトコル v0.9（現在の設計）](docs/main_experiment_protocol_v0_9.md)** | **50概念・6区分・Avoid X中心／Neutral X対照・Probe／Logit Lens主解析**。研究目的、方法、規模、統計、品質管理、未確定項目を統合 |
+| **[統合プロトコル v0.95（現行の正本）](docs/main_experiment_protocol_v0_95.md)** | **Probe採択可能な約50概念を目標・6区分・Avoid X中心／Neutral X対照・Probe／Logit Lens主解析**。追加探索・Cue準備を含む |
+| [旧統合設計 v0.9](docs/main_experiment_protocol_v0_9.md) | 2026-11-24までの設計記録（保存） |
 | [研究概要](docs/research_overview.md) | 研究動機・背景・当初の研究質問 |
 | [分析手法と測定指標](docs/methods.md) | Probe・Logit Lens・出力解析・意味的距離の解説（過去の測定計画も含む） |
 | [旧プロトコル（歴史的記録）](docs/main_experiment_protocol.md) | 4概念・4条件を含む以前の設計。**内容を維持** |
@@ -25,16 +30,16 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 | 項目 | 現在の設計案 |
 |---|---|
 | 主たる指示条件 | **Avoid X**（Neutral Xは比較対照） |
-| 対象概念 | **約50概念**（広い意味カテゴリーから選ぶ） |
+| 対象概念 | **Probe採択可能な異なるXを約50**（現在33組暫定通過・追加探索予定） |
 | Cue | **関連5距離帯×各4文＋無関係4文＝24 Cue／概念** |
 | 主説明変数 | 関連Cueの連続的な埋め込みコサイン距離 |
 | 主解析① | 固定Concept Probe（主に第24層）の距離との関連 |
 | 主解析② | Logit Lens（第24層の要約・全24層の推移） |
 | 副次解析 | Neutral Xでの距離傾向、距離×条件の違い |
 | 補助解析 | 生成出力におけるXの明示的な言及 |
-| 入力規模 | **2,500入力**（Cueあり2,400＋Cueなし100） |
+| 入力規模 | 最終50概念なら**2,500入力**（Cueあり2,400＋Cueなし100） |
 
-これは**実施前の設計案**です。50概念の実体、Probeの事前採択、1,200 Cue、統計推定法の最終固定、Colab実装は未完了です。現在の詳細と正確な未完了項目は[プロトコルv0.9](docs/main_experiment_protocol_v0_9.md)を参照してください。
+これは**実施前の統合設計**です。追加Probe探索、正式採択、本番用Cueの作成・凍結、統計推定法、GPU本実験・CPU分析Colabの最終固定は未完了です。詳細は[統合プロトコルv0.95](docs/main_experiment_protocol_v0_95.md)を参照してください。
 
 ### これまでの予備実験
 
@@ -46,12 +51,11 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 
 ## 本実験の準備資料
 
-- **[最新版：50組Probe均衡検証v4 Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1124_probe_50pairs/qwen_probe_50pairs_balanced_validation_v4.ipynb)**：文章タイプごとに2文ずつ生成する独立ノートブック。過去のv1/v2/v3は保持（未実行）。
-
-- **[Colab：文章タイプ均衡版の追加Probe検証](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1124_probe_50pairs/qwen_probe_50pairs_balanced_validation.ipynb)**：学習・評価の両方に構造・動作・場面・用途を2文ずつ配置し、旧50組のAUCと比較（未実行）。
-- **[Colab：50組のProbe独立評価](experiments/2026-11/1124_probe_50pairs/README.md)**：OpenAI APIで説明文を生成し、QwenのHidden StateとProbeで50ペアを評価する実行手順。[Colabを開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1124_probe_50pairs/qwen_probe_50pairs_validation.ipynb)（**未実行**）。
-- **[50概念X・比較Y候補と選定理由](docs/concept_pair_selection_v0_1.md)**：10カテゴリー×5候補、既存Probeの検証結果の対応、各ペアの懸念点、次の検証手順。
-- [50ペア候補CSV](docs/concept_pair_candidates_50_v0_1.csv)：対象X、比較Y、過去の独立確認結果、採択前ステータスを収録。**本実験用に未凍結**。
+- [Probe50均衡版v5：実行済み・33/50組暫定通過](experiments/2026-11/1124_probe_50pairs/results/20261124_probe50_balanced_v5/analysis_summary.md) · [Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1124_probe_50pairs/qwen_probe_50pairs_balanced_validation_v5.ipynb)
+- [初回50組の候補と選定理由](docs/concept_pair_selection_v0_1.md) · [候補CSV](docs/concept_pair_candidates_50_v0_1.csv)（正式採択ではない）
+- [既存4概念の距離再分析](experiments/2026-11/1124_distance_representation_analysis/results/20261124_distance_reanalysis_v1/analysis_summary.md)（完了・探索的）
+- [10概念Pre-main](experiments/2026-11/1124_pre_main_experiment/README.md)（実装済み・探索的）
+- **追加Probe探索・本番用Cue準備：後日実施。** 仕様・開始条件は[統合プロトコル](docs/main_experiment_protocol_v0_95.md)に記載。
 
 ## 実験へのアクセス
 
@@ -68,7 +72,8 @@ GraduationThesis/
 │   ├── research_overview.md   # 研究目的・問い・意義
 │   ├── methods.md             # 分析手法・測定指標
 │   ├── experimental_design.md # 実験条件・分析計画
-│   ├── main_experiment_protocol_v0_9.md # 現在の本実験設計の正本
+│   ├── main_experiment_protocol_v0_95.md # 現行の統合プロトコル（正本）
+│   ├── main_experiment_protocol_v0_9.md # 旧統合設計（保存）
 │   ├── main_experiment_protocol.md # 以前のプロトコル（保存）
 │   ├── main_experiment_design_v0_5.md # 設計議論v0.7の記録
 │   ├── current_status.md      # 進捗・課題・次の作業
@@ -83,7 +88,7 @@ GraduationThesis/
 
 ## 記録の扱い
 
-- **本実験の最新方針は [新・本実験プロトコル v0.9](docs/main_experiment_protocol_v0_9.md) を参照してください。**
+- **本実験の最新方針は [統合プロトコル v0.95](docs/main_experiment_protocol_v0_95.md) を参照してください。**
 - 各実験フォルダには、その時点の計画・コード・結果を保存します。
 - 過去の実験記録は、後から都合よく書き換えず、実行時点の記録として保持します。
 - 古いREADMEは [README_previous_20261103.md](README_previous_20261103.md) に保存しています。旧状況の参照用であり、現在の方針には最新のドキュメントを優先してください。
