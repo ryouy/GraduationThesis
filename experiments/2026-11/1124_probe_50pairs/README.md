@@ -1,5 +1,27 @@
 # 50 X/Y Concept Probe — Colab独立説明文検証
 
+## 追加検証 v2：文章タイプ均衡版（2026-11-24）
+
+**[Google Colabで開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1124_probe_50pairs/qwen_probe_50pairs_balanced_validation.ipynb)** · [ノートブック](qwen_probe_50pairs_balanced_validation.ipynb)
+
+前回の50組を**全組そのまま**使い、学習文・評価文の双方に以下の文章タイプを**各2文ずつ**入れる追加スクリーニング。
+
+- 構造・特徴（structure）
+- 動作・行為（action）
+- 場面・環境（situation）
+- 用途・役割（function）
+
+**82概念×（8学習＋8評価）＝1,312入力**。Qwen revision、Hidden Stateの取得位置（assistant-start）、第22/23/24層、Logistic Regression（C=0.1）、学習・評価文数、乱数seedはv1と同様。新しい文章はOpenAI APIで生成し、名称漏れ、近似重複、型の数を検査する。
+
+結果には、**v1とv2のAUCを50組すべてについて並記**し、AUC≥0.80、補正前ラベル置換p≤0.05、BH-FDR q≤0.05を**別々**に集計。文章タイプ別AUCは評価文2件/ラベルなので探索的な診断のみ。文章内容やAPI生成も変わるので、AUC差を「文章タイプだけの純粋な因果効果」とは断定しない。
+
+出力先：`experiments/2026-11/1124_probe_50pairs/results/20261124_probe50_balanced_v2/`。旧v1の結果には一切上書きしない。
+
+**実行状況：ノートブック作成済み、Colab未実行。** 既存の`OPENAI_API_KEY`と`GITHUB_RESULTS_TOKEN`を利用できる。実行時間・費用の実測は未確認。
+
+---
+
+
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1124_probe_50pairs/qwen_probe_50pairs_validation.ipynb)
 
 [ノートブック](qwen_probe_50pairs_validation.ipynb) · [候補50組](../../../docs/concept_pair_candidates_50_v0_1.csv) · [選定方針](../../../docs/concept_pair_selection_v0_1.md) · [現行プロトコルv0.9](../../../docs/main_experiment_protocol_v0_9.md)
