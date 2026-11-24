@@ -1,0 +1,67 @@
+{
+  "concept": "boat",
+  "created_at": "2026-11-24T12:24:04.460588+00:00",
+  "eval": {
+    "action": [
+      "This vessel swiftly cuts through the water, harnessing the power of waves to propel itself forward.",
+      "With a skilled navigator at the helm, it can maneuver through narrow passages and open seas alike."
+    ],
+    "function": [
+      "This floating vehicle can be powered by either oars or engines, allowing for versatile travel across diverse aquatic environments.",
+      "Often utilized for leisure or commercial purposes, it provides a stable platform for fishing, sightseeing, or transporting goods."
+    ],
+    "situation": [
+      "A sleek vessel drifted along the serene river, its vibrant colors contrasting beautifully with the lush greenery on the banks.",
+      "Fishermen cast their lines from the sturdy platform, enjoying the tranquility of the early morning while waiting for a catch."
+    ],
+    "structure": [
+      "This floating structure is often crafted from materials like wood, fiberglass, or metal, showcasing various shapes and sizes for diverse activities.",
+      "Equipped with features such as seating arrangements and storage compartments, it is built to navigate both calm and turbulent waters effectively."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This watercraft glides smoothly across the surface, propelled by wind or engine power.",
+      "It navigates through waves, often carrying passengers or cargo on lakes, rivers, and oceans."
+    ],
+    "function": [
+      "This watercraft is designed to transport people and goods across various bodies of water efficiently.",
+      "It serves as a crucial tool for recreation, fishing, and exploration on rivers, lakes, and oceans."
+    ],
+    "situation": [
+      "A small vessel glided across the shimmering lake, its sails billowing gently in the afternoon breeze.",
+      "Families gathered along the shore, watching as the colorful craft navigated the water with ease and grace."
+    ],
+    "structure": [
+      "This watercraft features a streamlined hull designed for efficient movement across aquatic surfaces, often constructed from fiberglass or aluminum.",
+      "Equipped with a propulsion system, it typically includes an open deck for passengers and cargo, enhancing its utility on various waterways."
+    ]
+  }
+}
