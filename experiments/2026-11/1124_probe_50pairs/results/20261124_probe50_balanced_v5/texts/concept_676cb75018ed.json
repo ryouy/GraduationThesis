@@ -1,0 +1,67 @@
+{
+  "concept": "zebra",
+  "created_at": "2026-11-24T12:38:50.755625+00:00",
+  "eval": {
+    "action": [
+      "These animals often move together in a tight formation, creating a mesmerizing display of contrasting patterns that can confuse predators.",
+      "When alarmed, they can sprint at high speeds, utilizing their agility to evade threats while maintaining close contact with their companions."
+    ],
+    "function": [
+      "These animals possess a striking coat of contrasting colors, which serves as camouflage in their natural habitat.",
+      "When threatened, they exhibit a unique behavior of moving together, enhancing their safety through collective visual disruption."
+    ],
+    "situation": [
+      "In the dry savannah, a herd of uniquely patterned creatures grazes, their striking stripes shimmering in the afternoon light.",
+      "As dusk approaches, these animals gather near a watering hole, their bold markings contrasting against the golden landscape."
+    ],
+    "structure": [
+      "This equine creature features a striking coat adorned with bold, contrasting stripes that vary in pattern from individual to individual.",
+      "Its sturdy build and agile legs allow it to navigate the open plains, where it thrives in social groups called harems."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This animal is known for its distinctive black and white stripes, which help it blend into grasslands.",
+      "When threatened by predators, it often runs in a zigzag pattern, making it harder to catch."
+    ],
+    "function": [
+      "These striped mammals use their unique patterns to confuse predators and reduce the risk of being singled out during a chase.",
+      "In herds, their stripes create a visual illusion that helps protect individuals from being targeted by hunters."
+    ],
+    "situation": [
+      "In the vast savannah, a group of strikingly patterned animals grazes peacefully under the warm sun, their stripes blending into the tall grass.",
+      "As a predator lurks nearby, the herd moves in unison, their distinctive markings creating a mesmerizing display of black and white."
+    ],
+    "structure": [
+      "This animal has a distinctive coat featuring alternating black and white stripes that create a unique pattern.",
+      "Its body is robust and equine, with a long mane and a tufted tail, adapted for life in grasslands."
+    ]
+  }
+}
