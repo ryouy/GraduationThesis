@@ -1,0 +1,44 @@
+{
+  "concept": "rain",
+  "created_at": "2026-11-24T08:19:59.307968+00:00",
+  "eval": [
+    "Water collects on the ground after a storm, creating puddles that can attract small animals.",
+    "Farmers often rely on seasonal precipitation to nourish crops and maintain healthy soil conditions.",
+    "People frequently carry umbrellas or wear waterproof clothing when forecasts predict wet weather.",
+    "Wet surfaces can lead to slippery conditions, increasing the risk of accidents in urban areas.",
+    "Certain ecosystems thrive in humid environments, benefiting from regular moisture throughout the year.",
+    "Outdoor events are sometimes postponed or relocated due to the likelihood of wet weather.",
+    "Hydration levels in local rivers and lakes can rise significantly after substantial precipitation.",
+    "Some regions experience annual flooding, which can disrupt transportation and damage property."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "Precipitation occurs when water vapor in the atmosphere condenses into droplets heavy enough to fall to the ground.",
+    "Droplets can form in various sizes, typically ranging from 0.5 mm to 6 mm in diameter.",
+    "The process of condensation begins when air cools and reaches its dew point, causing water vapor to change into liquid.",
+    "Surface tension plays a significant role in the formation and stability of water droplets as they coalesce in the atmosphere.",
+    "Atmospheric conditions such as temperature, humidity, and pressure influence the intensity and duration of falling water.",
+    "When falling, droplets can collide and merge with other droplets, increasing their size before reaching the surface.",
+    "The impact of falling droplets on surfaces can create splashes, producing small water droplets that disperse outward.",
+    "Different regions experience varying amounts of precipitation due to geographic and climatic factors affecting moisture availability."
+  ]
+}
