@@ -1,0 +1,67 @@
+{
+  "concept": "strawberry",
+  "created_at": "2026-11-24T12:35:49.689722+00:00",
+  "eval": {
+    "action": [
+      "This vibrant fruit grows in clusters, often found nestled among green foliage, ready to be harvested during warm months.",
+      "Its bright red hue and delightful sweetness make it a favorite for jams, desserts, and refreshing summer drinks."
+    ],
+    "function": [
+      "This bright red fruit is often used in jams and desserts, adding a burst of flavor and color to various dishes.",
+      "Packed with nutrients, it supports heart health and boosts the immune system, making it a nutritious addition to any diet."
+    ],
+    "situation": [
+      "In the sunlit corner of the garden, clusters of bright red fruits glistened among the lush green foliage, inviting eager hands to pick them.",
+      "As picnic blankets spread out on the grass, the delightful sweetness of these vibrant fruits complemented the laughter and joy of family gatherings."
+    ],
+    "structure": [
+      "This small, bright red fruit has a distinctive heart shape and is covered in tiny seeds that give it a unique texture.",
+      "Rich in vitamins, its succulent flesh bursts with sweetness, making it a favorite in summer dishes and refreshing beverages."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This vibrant fruit grows close to the ground, spreading its runners to create new plants.",
+      "With a sweet and juicy flavor, it attracts various pollinators that help in its reproduction."
+    ],
+    "function": [
+      "This bright red fruit is rich in vitamin C and antioxidants, contributing to overall health and immune support.",
+      "Its sweet flavor and juicy texture make it a popular choice in desserts, smoothies, and salads, enhancing culinary experiences."
+    ],
+    "situation": [
+      "In the warm summer sun, children eagerly picked bright red fruits from the lush green bushes lining the garden path.",
+      "The sweet aroma filled the air as families gathered to enjoy homemade desserts topped with the juicy, vibrant berries."
+    ],
+    "structure": [
+      "This small, red fruit features a conical shape and is adorned with tiny yellow seeds on its surface.",
+      "Its juicy flesh is sweet and fragrant, surrounded by vibrant green leaves that enhance its visual appeal."
+    ]
+  }
+}
