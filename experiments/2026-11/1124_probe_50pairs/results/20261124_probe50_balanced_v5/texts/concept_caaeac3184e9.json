@@ -1,0 +1,67 @@
+{
+  "concept": "cactus",
+  "created_at": "2026-11-24T12:25:03.115437+00:00",
+  "eval": {
+    "action": [
+      "In the sun-scorched landscape, this resilient plant stands firm, using its thick stems to retain vital moisture during dry spells.",
+      "With sharp protrusions and a unique structure, it skillfully deters herbivores while thriving in extreme heat and limited water supply."
+    ],
+    "function": [
+      "This resilient plant has evolved to thrive in extreme dryness, developing specialized structures that minimize water loss.",
+      "It plays a crucial role in desert ecosystems, providing shelter and food for various wildlife while conserving vital moisture."
+    ],
+    "situation": [
+      "In the dry desert landscape, a striking plant stands resilient, with spiky protrusions that discourage grazing animals from approaching.",
+      "During the scorching midday sun, its thick green stems efficiently trap moisture, ensuring survival in the harsh, parched environment."
+    ],
+    "structure": [
+      "This unique plant features a robust, fleshy structure that can grow tall and often has a ribbed appearance.",
+      "Its exterior is typically covered in sharp protrusions, which serve as a defense mechanism against herbivores."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This plant conserves water by closing its pores during the hottest parts of the day to reduce evaporation.",
+      "It thrives in arid environments, displaying unique adaptations such as thick, fleshy stems that store moisture."
+    ],
+    "function": [
+      "This plant is well-adapted to arid environments, storing water in its fleshy tissues to survive prolonged droughts.",
+      "Its spines provide protection from herbivores while minimizing water loss through reduced surface area exposed to the sun."
+    ],
+    "situation": [
+      "In the arid desert, a resilient plant stands tall, adorned with spines that deter hungry animals from taking a bite.",
+      "Under the blazing sun, its green stems store precious water, allowing it to thrive in harsh, dry conditions."
+    ],
+    "structure": [
+      "This plant features thick, fleshy stems that store water and are often covered in spines or sharp structures.",
+      "Its surface may exhibit a variety of colors and textures, with some species producing vibrant flowers during blooming periods."
+    ]
+  }
+}
