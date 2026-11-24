@@ -1,0 +1,44 @@
+{
+  "concept": "power drill",
+  "created_at": "2026-11-24T08:19:44.918448+00:00",
+  "eval": [
+    "A user can quickly create holes in various materials by applying consistent pressure while operating the tool.",
+    "In construction sites, the tool is commonly utilized for assembling structures and installations requiring precision.",
+    "Battery-operated versions allow for mobility, making them ideal for outdoor projects without access to electrical outlets.",
+    "Maintaining sharp bits is essential for efficiency and can significantly reduce the time taken to complete tasks.",
+    "Using the device with different attachments can enable tasks such as screwing, sanding, or mixing materials effectively.",
+    "Proper safety gear, including goggles and gloves, is recommended to prevent injuries during operation.",
+    "Adjustable speed settings provide versatility, allowing for delicate work as well as heavy-duty applications.",
+    "Regular maintenance checks help ensure the equipment remains in optimal working condition and prolongs its lifespan."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "A common handheld tool features a rotating bit at the front for drilling holes in various materials.",
+    "Drills often include adjustable speed settings to accommodate different drilling tasks and material types.",
+    "The chuck holds the drill bit securely in place and can be tightened or loosened manually or automatically.",
+    "Many models utilize rechargeable batteries, providing portability and convenience for outdoor or remote projects.",
+    "The motor generates rotational force, enabling the bit to penetrate surfaces like wood, metal, or plastic.",
+    "Some tools are equipped with a hammer function, allowing them to also break through harder materials like masonry.",
+    "Ergonomic designs often include rubber grips for improved comfort and control during prolonged use.",
+    "Cooling vents help dissipate heat generated during operation, protecting internal components from damage."
+  ]
+}
