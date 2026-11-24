@@ -1,0 +1,67 @@
+{
+  "concept": "bookshelf",
+  "created_at": "2026-11-24T12:24:15.826681+00:00",
+  "eval": {
+    "action": [
+      "This vertical storage unit provides a stable platform for displaying literature, often becoming a focal point in living spaces.",
+      "Crafted with various materials, it not only organizes reading materials but also complements the decor with its unique design."
+    ],
+    "function": [
+      "This furniture piece provides a dedicated space for organizing literature and decorative objects, enhancing both functionality and aesthetics.",
+      "Its design often allows for easy access to a variety of items, encouraging a culture of reading and exploration in the home."
+    ],
+    "situation": [
+      "In the corner of the study, a sturdy piece stands, showcasing an array of novels and art books in vibrant covers.",
+      "Its elegant structure not only supports literary treasures but also adds a touch of sophistication to the cozy atmosphere."
+    ],
+    "structure": [
+      "This vertical structure features several levels, each designed to securely hold a variety of items, from literature to decorative pieces.",
+      "Typically constructed from durable materials like wood or metal, it enhances the room's decor while providing functional storage and display options."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This piece of furniture stands tall against the wall, supporting a variety of literature and decorative items.",
+      "Its shelves are designed to hold and display collections, inviting readers to explore the stories within."
+    ],
+    "function": [
+      "This furniture piece organizes reading materials in an accessible manner, promoting a tidy and efficient living space.",
+      "It also serves as a decorative element, showcasing personal interests and enhancing the aesthetic of a room."
+    ],
+    "situation": [
+      "The wooden structure stands against the wall, filled with colorful spines that invite readers to explore their stories.",
+      "In the cozy corner, a collection of novels and reference materials is neatly arranged, creating a perfect reading nook."
+    ],
+    "structure": [
+      "This furniture piece typically features multiple horizontal surfaces stacked vertically, designed to hold various items securely.",
+      "It is often made from wood, metal, or engineered materials, showcasing a range of finishes and styles to suit different interiors."
+    ]
+  }
+}
