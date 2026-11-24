@@ -1,0 +1,44 @@
+{
+  "concept": "electric saw",
+  "created_at": "2026-11-24T08:16:34.728191+00:00",
+  "eval": [
+    "This tool is often used in construction for cutting through wooden beams and metal piping.",
+    "Users typically wear protective gear, such as goggles and gloves, while operating this equipment.",
+    "In woodworking shops, this device can help create intricate designs and precise cuts in various materials.",
+    "The noise produced during operation can be significant, requiring ear protection in some environments.",
+    "When used improperly, this tool can cause serious injuries, highlighting the importance of safety training.",
+    "This equipment is commonly found in both professional and DIY settings for home improvement projects.",
+    "Battery-operated versions allow for greater mobility, making them suitable for outdoor tasks without a power source.",
+    "Regular maintenance, including blade sharpening, can enhance performance and prolong the lifespan of the tool."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "A handheld tool often features a rotating blade designed for cutting through various materials with precision.",
+    "Many models incorporate a motor that provides the necessary power to drive the cutting mechanism effectively.",
+    "The blade is typically made of high-speed steel or carbide for durability and enhanced cutting performance.",
+    "Safety features often include a blade guard that protects the user from accidental contact during operation.",
+    "Adjustable speed settings allow for versatility in cutting different materials, accommodating both delicate and robust tasks.",
+    "A trigger mechanism usually enables the user to control the power and speed of the tool while in use.",
+    "The base of the tool is commonly designed for stability, ensuring accurate cuts and minimizing vibration during operation.",
+    "Some variants are equipped with additional features such as laser guides to improve cutting accuracy and alignment."
+  ]
+}
