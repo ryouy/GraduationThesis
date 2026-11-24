@@ -1,0 +1,67 @@
+{
+  "concept": "desk",
+  "created_at": "2026-11-24T12:26:14.530739+00:00",
+  "eval": {
+    "action": [
+      "This flat, horizontal structure serves as a platform for various activities, from writing to using electronic devices.",
+      "Often positioned in a home or office, it facilitates organization and productivity by providing essential workspace for tasks."
+    ],
+    "function": [
+      "This piece of furniture serves as a dedicated area for organizing tasks, enhancing productivity in both home and office settings.",
+      "Typically featuring a flat surface and often accompanied by seating, it facilitates various activities such as writing, computing, and collaborating."
+    ],
+    "situation": [
+      "In a home office, a polished wooden surface holds a laptop, notebooks, and a steaming cup of coffee, creating a productive environment.",
+      "Under soft lighting, a spacious work area features organized supplies and personal touches, inspiring creativity and focus during late-night projects."
+    ],
+    "structure": [
+      "This flat, horizontal platform is often constructed from hardwood or metal, featuring a polished finish that enhances its aesthetic appeal.",
+      "Equipped with built-in storage options, it serves as a multifunctional area for various tasks such as writing, computing, or crafting."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This flat surface often supports a computer while providing a designated area for writing or working.",
+      "Individuals frequently gather around this piece of furniture to collaborate, study, or engage in creative tasks."
+    ],
+    "function": [
+      "This flat surface is designed for work, providing a stable area for writing, computing, or organizing materials.",
+      "Often equipped with drawers or compartments, it helps keep tools and documents accessible and neatly arranged for efficiency."
+    ],
+    "situation": [
+      "In the corner of the room, a sturdy surface supports a computer, stacks of papers, and a lamp casting a warm glow.",
+      "A chair is pulled out slightly, inviting someone to sit down and engage in work or study in a cozy atmosphere."
+    ],
+    "structure": [
+      "This flat, rectangular surface is typically supported by four legs or a stable pedestal base, providing a sturdy area for work.",
+      "Often crafted from wood, metal, or composite materials, it may include drawers or compartments for organizing items efficiently."
+    ]
+  }
+}
