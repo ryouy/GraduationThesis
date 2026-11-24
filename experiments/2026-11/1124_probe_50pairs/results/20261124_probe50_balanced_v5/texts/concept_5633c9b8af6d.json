@@ -1,0 +1,67 @@
+{
+  "concept": "octopus",
+  "created_at": "2026-11-24T12:31:17.639977+00:00",
+  "eval": {
+    "action": [
+      "This agile marine animal can swiftly maneuver through narrow crevices, showcasing its extraordinary flexibility and dexterous limbs.",
+      "Utilizing its remarkable intelligence, this creature can solve complex challenges and escape from seemingly inescapable situations."
+    ],
+    "function": [
+      "This marine animal possesses eight dexterous limbs that allow it to interact with its environment and capture prey efficiently.",
+      "Known for its remarkable problem-solving abilities, this creature can navigate complex mazes and escape from enclosures with ease."
+    ],
+    "situation": [
+      "In the vibrant underwater landscape, a creature with eight long limbs skillfully navigates through coral formations while hunting for small fish.",
+      "This highly adaptable marine animal can alter its skin color and texture, effectively disguising itself among the rocks and seaweed."
+    ],
+    "structure": [
+      "This cephalopod features a rounded body and eight long, dexterous limbs, each equipped with numerous sensitive suckers for grasping.",
+      "Its unique ability to alter skin color and texture aids in both communication and evasion from potential threats in its environment."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This creature gracefully glides through the water, using its flexible body and multiple appendages to navigate effortlessly.",
+      "It exhibits remarkable intelligence, solving puzzles and escaping enclosures with surprising agility and problem-solving skills."
+    ],
+    "function": [
+      "This intelligent marine creature uses camouflage to evade predators and adapt to its surroundings.",
+      "With its flexible body and multiple limbs, it can manipulate objects and escape tight spaces with ease."
+    ],
+    "situation": [
+      "In the shallow coral reefs, a creature with eight flexible arms gracefully glides through the water, searching for crustaceans.",
+      "With its ability to change color and texture, this intelligent animal cleverly blends into its surroundings to avoid predators."
+    ],
+    "structure": [
+      "This marine creature has a soft, bulbous body with eight long, flexible appendages lined with sensitive suckers.",
+      "Its skin can change color and texture, allowing it to blend seamlessly into its surroundings for camouflage and communication."
+    ]
+  }
+}
