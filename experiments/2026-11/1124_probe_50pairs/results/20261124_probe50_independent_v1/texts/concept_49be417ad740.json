@@ -1,0 +1,44 @@
+{
+  "concept": "desk",
+  "created_at": "2026-11-24T08:15:58.659648+00:00",
+  "eval": [
+    "Many individuals use a flat surface for writing, working on computers, or studying.",
+    "In offices, these surfaces often serve as designated areas for meetings and collaborative tasks.",
+    "Students frequently utilize these surfaces in classrooms to complete assignments and take notes.",
+    "Home environments may feature these surfaces for various activities, including crafting, reading, or organizing paperwork.",
+    "The arrangement of these surfaces can influence productivity, with some preferring minimal clutter for focus.",
+    "Standing versions of these surfaces are popular for promoting better posture and reducing sedentary behavior.",
+    "In libraries, these surfaces provide quiet spaces for research and reading, often equipped with power outlets.",
+    "Shared workspaces often include these surfaces to encourage networking and teamwork among professionals."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "A flat surface is typically supported by one or more vertical legs or pedestals.",
+    "Materials such as wood, metal, or glass are commonly used in the construction of these furniture pieces.",
+    "Drawers can be integrated for storage, often located beneath the primary surface.",
+    "Height can vary, with some designs adjustable to accommodate different user preferences.",
+    "Common features include cable management systems to organize electronic cords and wires.",
+    "Some designs incorporate additional shelving or compartments for enhanced organization and utility.",
+    "Surface finishes may include varnish, paint, or laminate to improve durability and aesthetics.",
+    "Ergonomic designs prioritize user comfort, often promoting better posture during prolonged use."
+  ]
+}
