@@ -46,6 +46,7 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 
 ## 本実験の準備資料
 
+- **[Colab：50組のProbe独立評価](experiments/2026-11/1124_probe_50pairs/README.md)**：OpenAI APIで説明文を生成し、QwenのHidden StateとProbeで50ペアを評価する実行手順。[Colabを開く](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1124_probe_50pairs/qwen_probe_50pairs_validation.ipynb)（**未実行**）。
 - **[50概念X・比較Y候補と選定理由](docs/concept_pair_selection_v0_1.md)**：10カテゴリー×5候補、既存Probeの検証結果の対応、各ペアの懸念点、次の検証手順。
 - [50ペア候補CSV](docs/concept_pair_candidates_50_v0_1.csv)：対象X、比較Y、過去の独立確認結果、採択前ステータスを収録。**本実験用に未凍結**。
 
