@@ -1,0 +1,67 @@
+{
+  "concept": "squid",
+  "created_at": "2026-11-24T12:35:11.779644+00:00",
+  "eval": {
+    "action": [
+      "This agile marine inhabitant can swiftly dart between coral reefs, using its flexible limbs to maneuver effortlessly through tight spaces.",
+      "When threatened, it releases a cloud of dark fluid to obscure its escape, showcasing its clever survival tactics in the ocean."
+    ],
+    "function": [
+      "This cephalopod exhibits a unique ability to rapidly change its skin color and texture, aiding in both camouflage and communication.",
+      "With its specialized appendages, it efficiently captures prey while also employing ink as a defense mechanism against threats."
+    ],
+    "situation": [
+      "In the vibrant coral reef, a creature with long, flexible limbs glides effortlessly, evading predators with its swift movements.",
+      "Its ability to emit clouds of dark fluid provides an effective escape mechanism, allowing it to vanish into the surrounding waters."
+    ],
+    "structure": [
+      "This cephalopod features a soft, elongated body with a distinct fin running along its sides, enhancing its swimming capabilities.",
+      "Its unique anatomy includes a prominent head, large eyes, and specialized appendages that aid in capturing prey and navigating the ocean depths."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This marine creature swiftly propels itself through the water by expelling jets of water, showcasing remarkable speed and agility.",
+      "Utilizing specialized arms, it captures prey with precision, demonstrating both intelligence and adaptability in its hunting techniques."
+    ],
+    "function": [
+      "This marine creature is known for its remarkable ability to change color and blend into its surroundings for protection.",
+      "Equipped with tentacles, it uses them to capture prey and defend itself from predators in the ocean."
+    ],
+    "situation": [
+      "In the dimly lit underwater cave, a creature with elongated body and tentacle-like appendages gracefully navigates through the rocky crevices.",
+      "As the sun sets, this agile hunter uses its rapid jet propulsion to escape predators, leaving a trail of ink behind."
+    ],
+    "structure": [
+      "This marine creature features a streamlined body with elongated fins extending from its sides, providing agile movement in water.",
+      "It possesses multiple arms lined with suckers, along with a unique beak-like mouth for capturing prey and a complex nervous system."
+    ]
+  }
+}
