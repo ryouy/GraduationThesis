@@ -1,0 +1,67 @@
+{
+  "concept": "table",
+  "created_at": "2026-11-24T12:36:27.018026+00:00",
+  "eval": {
+    "action": [
+      "Often found in homes and offices, this flat structure is essential for hosting meals, meetings, and creative activities.",
+      "Its sturdy design allows for a variety of uses, from serving food to displaying decorative objects in living spaces."
+    ],
+    "function": [
+      "This flat structure often serves as a gathering point for meals, discussions, or collaborative projects among friends and family.",
+      "Typically supported by legs, it offers a versatile surface for activities like crafting, studying, or enjoying leisure time."
+    ],
+    "situation": [
+      "In the sunlit kitchen, a polished wooden surface holds fresh ingredients, ready for a family meal preparation.",
+      "During the afternoon, a group of friends sits around the spacious flat area, enjoying a lively board game together."
+    ],
+    "structure": [
+      "Constructed with a flat, horizontal surface, this object is often supported by multiple legs or a pedestal for stability.",
+      "Commonly crafted from materials like wood, metal, or glass, it serves functional purposes in homes and offices alike."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "It provides a stable surface for various activities, such as eating, working, or playing games.",
+      "People often gather around it to share meals, engage in discussions, or complete projects together."
+    ],
+    "function": [
+      "This flat surface provides a stable area for various activities, ranging from dining to working on projects.",
+      "It serves as a central gathering place, facilitating interaction and collaboration among individuals in different settings."
+    ],
+    "situation": [
+      "In the cozy dining room, a sturdy wooden surface is set with plates and cutlery for the evening meal.",
+      "Children gathered around the flat surface, excitedly working on their art projects with crayons and paper spread out before them."
+    ],
+    "structure": [
+      "This flat surface is typically supported by one or more legs, providing stability and accessibility for various activities.",
+      "Often made from wood, metal, or glass, it serves as a platform for dining, working, or displaying items."
+    ]
+  }
+}
