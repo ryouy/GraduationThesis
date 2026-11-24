@@ -1,0 +1,67 @@
+{
+  "concept": "raspberry",
+  "created_at": "2026-11-24T12:33:07.223298+00:00",
+  "eval": {
+    "action": [
+      "This vibrant, red fruit grows in clusters, attracting birds and insects with its sweet aroma during the warm summer months.",
+      "When harvested, its delicate skin bursts open, releasing a juicy explosion of flavor that enhances smoothies and pastries alike."
+    ],
+    "function": [
+      "This vibrant fruit is often used in smoothies and baked goods, providing a burst of flavor and color.",
+      "With its high vitamin C content, this small fruit supports immune health while offering a delightful taste experience."
+    ],
+    "situation": [
+      "In a sunlit garden, vibrant red clusters hang from the bush, beckoning curious hands to pluck their juicy treasures.",
+      "As the warm breeze carries their fragrant sweetness, these small fruits become a favorite snack for both children and adults alike."
+    ],
+    "structure": [
+      "The fruit is characterized by its numerous tiny, bead-like segments, each glistening with a deep crimson sheen.",
+      "With a soft, yielding flesh and a delightful balance of sweetness and acidity, it is often enjoyed fresh or in preserves."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This small, red fruit grows in clusters and is often found in gardens during the summer months.",
+      "When ripe, it easily detaches from its stem, revealing a sweet and tart flavor that delights many."
+    ],
+    "function": [
+      "This small, red fruit is rich in antioxidants, supporting overall health and wellness.",
+      "Often used in desserts and jams, it adds a sweet-tart flavor that enhances various culinary creations."
+    ],
+    "situation": [
+      "In the warm summer sun, a small bush is adorned with vibrant red clusters, enticing passersby with their juicy allure.",
+      "Children giggle as they pick the sweet, tart fruits, their fingers stained with the rich color of nature's candy."
+    ],
+    "structure": [
+      "This small, round fruit features a vibrant red hue and a delicate, bumpy surface covered in tiny drupelets.",
+      "Its sweet and tart flavor is complemented by a juicy, tender texture, making it a popular choice for desserts and jams."
+    ]
+  }
+}
