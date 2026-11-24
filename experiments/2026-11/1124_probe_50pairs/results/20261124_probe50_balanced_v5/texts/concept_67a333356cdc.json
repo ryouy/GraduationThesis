@@ -1,0 +1,67 @@
+{
+  "concept": "ant",
+  "created_at": "2026-11-24T12:22:15.645891+00:00",
+  "eval": {
+    "action": [
+      "This industrious creature forages tirelessly, often traveling long distances to find food and resources for its colony.",
+      "With a keen sense of direction, it follows pheromone trails laid by its companions, ensuring efficient navigation and teamwork."
+    ],
+    "function": [
+      "This industrious creature contributes to soil health by breaking down organic matter and facilitating nutrient cycling.",
+      "In various ecosystems, it plays a pivotal role in seed dispersal, helping to propagate diverse plant species."
+    ],
+    "situation": [
+      "In a bustling garden, a tiny creature tirelessly transports bits of leaves to its underground home, showcasing its diligence.",
+      "On a warm afternoon, a line of these small insects navigates a path to a picnic site, eagerly collecting crumbs left behind by humans."
+    ],
+    "structure": [
+      "This diminutive creature possesses a narrow waist and distinct mandibles, which are essential for foraging and nest construction.",
+      "With a tough, shiny exterior and a highly organized social structure, it thrives in diverse environments, showcasing remarkable adaptability."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This small insect is known for its incredible teamwork, often working together to build complex nests and gather food.",
+      "With remarkable strength, it can carry objects many times its size, showcasing its impressive ability to work efficiently in groups."
+    ],
+    "function": [
+      "This small insect plays a crucial role in aerating the soil, enhancing nutrient availability for plants.",
+      "By forming colonies, it contributes to the ecosystem's balance, working together to gather food and protect their community."
+    ],
+    "situation": [
+      "A small insect scurries along the forest floor, diligently carrying a crumb much larger than its body.",
+      "In a sandy patch, countless tiny workers navigate an intricate network of tunnels, busily transporting food to their colony."
+    ],
+    "structure": [
+      "This small insect features a segmented body divided into three distinct parts: the head, thorax, and abdomen.",
+      "Its exoskeleton is made of chitin, providing strength and protection, while six jointed legs allow for agile movement."
+    ]
+  }
+}
