@@ -1,0 +1,67 @@
+{
+  "concept": "armchair",
+  "created_at": "2026-11-24T12:22:40.893380+00:00",
+  "eval": {
+    "action": [
+      "This seating option often features a wide, cushioned seat that invites you to unwind with a warm drink.",
+      "Typically designed with supportive arms, it encourages a relaxed posture while engaging in leisurely activities like watching movies."
+    ],
+    "function": [
+      "This seating option often features a high back and soft cushioning, making it ideal for unwinding after a busy day.",
+      "Its sturdy frame and inviting design create a perfect environment for leisurely activities, such as watching television or chatting with friends."
+    ],
+    "situation": [
+      "Nestled in the reading nook, the cushioned seat beckons with its inviting softness, creating an ideal spot for quiet reflection.",
+      "Its sturdy frame and plush fabric invite friends to gather, fostering warm conversations and shared moments in the living room."
+    ],
+    "structure": [
+      "This seating option features a robust frame, often made of wood or metal, ensuring stability and longevity in various settings.",
+      "Typically adorned with soft fabric or leather upholstery, it combines aesthetic appeal with plush cushioning for ultimate comfort."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This piece of furniture invites you to sink into its cushions, offering a cozy retreat after a long day.",
+      "With sturdy arms designed for comfort, it encourages you to lean back and relax while enjoying your favorite book."
+    ],
+    "function": [
+      "This piece of furniture provides a comfortable seating option for relaxation and leisure activities, enhancing the ambiance of living spaces.",
+      "Often designed with soft upholstery and supportive structure, it encourages prolonged sitting while reading or enjoying conversations."
+    ],
+    "situation": [
+      "In the cozy corner of the living room, a plush seat invites you to sink in with a good book.",
+      "The vibrant upholstery adds a splash of color, making it the perfect spot for relaxation and conversation."
+    ],
+    "structure": [
+      "This piece of furniture typically features a padded seat and backrest, providing comfort for relaxation or reading.",
+      "It often includes armrests and can be upholstered in various fabrics or leather, enhancing both style and durability."
+    ]
+  }
+}
