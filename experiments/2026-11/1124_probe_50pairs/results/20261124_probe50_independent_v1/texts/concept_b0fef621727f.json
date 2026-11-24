@@ -1,0 +1,44 @@
+{
+  "concept": "pineapple",
+  "created_at": "2026-11-24T08:19:30.553828+00:00",
+  "eval": [
+    "This tropical fruit is often used in fruit salads and smoothies for its sweet flavor and juicy texture.",
+    "Grilling slices of this fruit can enhance its natural sweetness, making it a popular choice for barbecue dishes.",
+    "In some cultures, this fruit is used as a symbol of hospitality and is often displayed at gatherings.",
+    "Juice extracted from this fruit is a common ingredient in cocktails, providing a refreshing and tangy taste.",
+    "Salsas made with diced pieces of this fruit can add a unique contrast to savory dishes like fish or chicken.",
+    "The enzymes present in this fruit can tenderize meats, making it useful in marinades for various cuisines.",
+    "Dried pieces of this fruit are often included in trail mixes, providing a chewy texture and natural sweetness.",
+    "This fruit requires a warm climate for optimal growth, thriving in tropical and subtropical regions around the world."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "The exterior of the fruit is covered with a tough, spiky skin that is green to yellow-brown in color.",
+    "Leaves at the top of the fruit are long, narrow, and serrated, forming a crown-like structure.",
+    "The flesh inside is juicy, sweet, and has a vibrant yellow color, often used in various culinary dishes.",
+    "This fruit grows in clusters on a plant with a rosette of leaves close to the ground.",
+    "It has a central core that is tougher and less sweet than the surrounding flesh.",
+    "The fruit can weigh between two to ten pounds, depending on the variety and growing conditions.",
+    "A mature plant typically reaches a height of about three to five feet, with a similar spread.",
+    "The fruit develops from a flower and takes approximately 18-24 months to reach full maturity."
+  ]
+}
