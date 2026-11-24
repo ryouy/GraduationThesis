@@ -1,0 +1,67 @@
+{
+  "concept": "cabinet",
+  "created_at": "2026-11-24T12:24:51.240375+00:00",
+  "eval": {
+    "action": [
+      "Its sleek design allows for easy opening, providing a seamless way to access items stored inside.",
+      "Often positioned against walls, it serves as a stylish focal point while keeping the room organized and clutter-free."
+    ],
+    "function": [
+      "This versatile piece of furniture provides organized storage for a variety of items, ensuring that living spaces remain uncluttered.",
+      "Often designed with an elegant finish, it serves as both a functional storage solution and a decorative element in home interiors."
+    ],
+    "situation": [
+      "In the corner of the dining room, a sleek, wooden structure holds fine china and glassware, elegantly displayed behind glass doors.",
+      "With a gentle pull, the polished surface reveals neatly arranged board games and seasonal decorations, keeping the living space organized and inviting."
+    ],
+    "structure": [
+      "This storage unit often combines vertical compartments with horizontal surfaces, allowing for both display and concealment of items.",
+      "Typically made from durable materials, its design can range from minimalist to ornate, adapting to various interior styles."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "It opens smoothly with a gentle pull, revealing a hidden space for storage and organization.",
+      "Items are often placed inside to keep the area tidy and free from clutter, ensuring easy access when needed."
+    ],
+    "function": [
+      "This furniture piece is designed to store and organize various items, keeping spaces tidy and efficient.",
+      "It often features doors or drawers, allowing for easy access and concealment of contents while enhancing room aesthetics."
+    ],
+    "situation": [
+      "In the corner of the cozy living room, a tall structure stands, its doors slightly ajar, revealing colorful trinkets and family photos.",
+      "With a gentle push, the polished wood reveals hidden compartments, showcasing an assortment of cherished memories and decorative items."
+    ],
+    "structure": [
+      "This furniture piece typically features multiple shelves and compartments, often enclosed by doors for storage or display purposes.",
+      "Crafted from wood or metal, it can vary in size and design, often enhancing a room's aesthetic appeal while providing functionality."
+    ]
+  }
+}
