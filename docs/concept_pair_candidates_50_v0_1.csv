@@ -5,7 +5,7 @@ C03,vehicles,bus,helicopter,FDR_CONFIRMED_PRIOR,1.0,0.048196517412935326,,CANDID
 C04,vehicles,motorcycle,helicopter,FDR_CONFIRMED_PRIOR,0.984375,0.030845771144278607,,CANDIDATE_NOT_FROZEN
 C05,vehicles,submarine,motorcycle,PRIOR_UNADJUSTED_ONLY,1.0,0.0642620232172471,Prior pair with motorcycle not FDR-confirmed,CANDIDATE_NOT_FROZEN
 C06,land_mammals,elephant,lion,FDR_CONFIRMED_PRIOR,0.9375,0.048196517412935326,,CANDIDATE_NOT_FROZEN
-C07,land_mammals,lion,elephant,FDR_CONFIRMED_PRIOR,0.9375,0.048196517412935326,,CANDIDATE_NOT_FROZEN
+C07,land_mammals,lion,tiger,NOT_TESTED_WITH_THIS_Y,,,Avoid reverse duplicate of elephant-lion,CANDIDATE_NOT_FROZEN
 C08,land_mammals,wolf,bear,PRIOR_TESTED_NOT_CONFIRMED,0.6875,0.17075337597725657,,CANDIDATE_NOT_FROZEN
 C09,land_mammals,giraffe,zebra,NOT_TESTED_WITH_THIS_Y,,,,CANDIDATE_NOT_FROZEN
 C10,land_mammals,rabbit,hare,NOT_TESTED_WITH_THIS_Y,,,Hare is a closely related animal,CANDIDATE_NOT_FROZEN
@@ -37,7 +37,7 @@ C35,furniture,bookshelf,cabinet,NOT_TESTED_WITH_THIS_Y,,,,CANDIDATE_NOT_FROZEN
 C36,tools,hammer,mallet,NOT_TESTED_WITH_THIS_Y,,,,CANDIDATE_NOT_FROZEN
 C37,tools,screwdriver,wrench,NOT_TESTED_WITH_THIS_Y,,,,CANDIDATE_NOT_FROZEN
 C38,tools,scissors,pliers,NOT_TESTED_WITH_THIS_Y,,,"Check pliers as comparator, distinct functions",CANDIDATE_NOT_FROZEN
-C39,tools,wrench,screwdriver,NOT_TESTED_WITH_THIS_Y,,,,CANDIDATE_NOT_FROZEN
+C39,tools,wrench,pliers,NOT_TESTED_WITH_THIS_Y,,,Distinct comparator avoids reverse duplicate of screwdriver-wrench,CANDIDATE_NOT_FROZEN
 C40,tools,power drill,electric saw,NOT_TESTED_WITH_THIS_Y,,,,CANDIDATE_NOT_FROZEN
 C41,plants,rose,tulip,NOT_TESTED_WITH_THIS_Y,,,,CANDIDATE_NOT_FROZEN
 C42,plants,cactus,aloe,NOT_TESTED_WITH_THIS_Y,,,,CANDIDATE_NOT_FROZEN
@@ -45,7 +45,7 @@ C43,plants,sunflower,daisy,NOT_TESTED_WITH_THIS_Y,,,,CANDIDATE_NOT_FROZEN
 C44,plants,bamboo,reed,NOT_TESTED_WITH_THIS_Y,,,Bamboo may be categorized as plant or building material,CANDIDATE_NOT_FROZEN
 C45,plants,oak,maple,NOT_TESTED_WITH_THIS_Y,,,,CANDIDATE_NOT_FROZEN
 C46,natural_phenomena,rain,snow,NOT_TESTED_WITH_THIS_Y,,,Rain and snow differ in precipitation phase,CANDIDATE_NOT_FROZEN
-C47,natural_phenomena,snow,rain,NOT_TESTED_WITH_THIS_Y,,,,CANDIDATE_NOT_FROZEN
-C48,natural_phenomena,fog,mist,NOT_TESTED_WITH_THIS_Y,,,Mist and fog are closely related: difficult comparator,CANDIDATE_NOT_FROZEN
+C47,natural_phenomena,snow,hail,NOT_TESTED_WITH_THIS_Y,,,Different frozen precipitation form,CANDIDATE_NOT_FROZEN
+C48,natural_phenomena,fog,smoke,NOT_TESTED_WITH_THIS_Y,,,Mist would be near synonym of fog,CANDIDATE_NOT_FROZEN
 C49,natural_phenomena,lightning,thunder,NOT_TESTED_WITH_THIS_Y,,,,CANDIDATE_NOT_FROZEN
 C50,natural_phenomena,earthquake,volcanic eruption,NOT_TESTED_WITH_THIS_Y,,,,CANDIDATE_NOT_FROZEN
