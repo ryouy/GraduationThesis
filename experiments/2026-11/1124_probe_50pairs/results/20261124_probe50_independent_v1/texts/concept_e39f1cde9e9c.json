@@ -1,0 +1,44 @@
+{
+  "concept": "hare",
+  "created_at": "2026-11-24T08:17:27.725052+00:00",
+  "eval": [
+    "In open fields, these animals often utilize their strong hind legs to escape from predators quickly.",
+    "During the breeding season, males engage in competitive displays to attract potential mates.",
+    "These creatures typically forage for food during twilight hours, maximizing their safety from daytime predators.",
+    "Nesting sites are often chosen in tall grass or brush, providing concealment for young offspring.",
+    "When threatened, a rapid zigzag running pattern is used to evade capture by predators.",
+    "Social interactions can include grooming rituals to strengthen bonds within small groups.",
+    "In colder climates, these animals may develop thicker fur to adapt to seasonal temperature changes.",
+    "They often communicate through a variety of vocalizations, signaling alarm or contentment to others nearby."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "This animal has long ears that can reach up to four inches in length.",
+    "Its body is covered with fur that can vary in color from brown to gray.",
+    "The limbs are adapted for speed, featuring powerful hind legs for quick acceleration.",
+    "A small, fluffy tail is present at the rear, often used for communication.",
+    "The front teeth are large and continuously grow throughout its life.",
+    "Eyes are positioned on the sides of the head, providing a wide field of vision.",
+    "This species has strong, elongated hind feet that aid in hopping and running.",
+    "The digestive system is designed for a herbivorous diet, efficiently processing plant material."
+  ]
+}
