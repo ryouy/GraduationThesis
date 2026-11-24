@@ -1,0 +1,67 @@
+{
+  "concept": "rabbit",
+  "created_at": "2026-11-24T12:32:43.235231+00:00",
+  "eval": {
+    "action": [
+      "This nimble creature darts through the underbrush, using its keen senses to evade potential threats.",
+      "With powerful hind legs, it can make impressive leaps, covering considerable distances in just a few bounds."
+    ],
+    "function": [
+      "This small mammal plays a crucial role in the ecosystem by serving as a primary food source for various predators.",
+      "Its ability to reproduce quickly helps maintain population levels, supporting the ecological balance and food web dynamics."
+    ],
+    "situation": [
+      "In a quiet garden, a small creature munches on fresh greens, its long ears twitching at every sound.",
+      "As the sun sets, a fluffy figure bounds across the lawn, its swift movements barely disturbing the dew on the grass."
+    ],
+    "structure": [
+      "This creature features large, expressive eyes and a compact body, often covered in soft, textured fur that varies in color.",
+      "Its strong hind limbs are adapted for powerful jumps, allowing it to navigate through diverse terrains with remarkable agility."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This small mammal often leaps gracefully across meadows, using its powerful hind legs to navigate quickly.",
+      "It frequently digs burrows in the ground, creating complex tunnel systems for shelter and protection from predators."
+    ],
+    "function": [
+      "This small mammal serves as a vital prey species for numerous predators, supporting the balance of ecosystems.",
+      "With its rapid reproduction rate, this creature contributes significantly to the food chain, ensuring survival for many other species."
+    ],
+    "situation": [
+      "In a lush meadow dotted with wildflowers, a small creature nibbles on tender grass while keeping an alert ear raised.",
+      "As dusk falls, a fluffy creature hops playfully among the bushes, its soft fur blending with the evening shadows."
+    ],
+    "structure": [
+      "This small mammal has long ears that can be over four inches in length, aiding in its acute sense of hearing.",
+      "Its fur is typically soft and dense, providing insulation, while its powerful hind legs enable swift and agile movement."
+    ]
+  }
+}
