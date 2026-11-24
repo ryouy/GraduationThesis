@@ -1,0 +1,67 @@
+{
+  "concept": "bus",
+  "created_at": "2026-11-24T12:24:26.641593+00:00",
+  "eval": {
+    "action": [
+      "This spacious vehicle moves along predetermined paths, allowing a large number of individuals to travel together efficiently.",
+      "It frequently halts at designated points, enabling passengers to easily get on and off as needed."
+    ],
+    "function": [
+      "This spacious vehicle is designed to facilitate the movement of groups, often operating on fixed routes and schedules.",
+      "Equipped with comfortable seating and large windows, it provides an economical means of travel for urban commuters."
+    ],
+    "situation": [
+      "The spacious vehicle arrives at the designated stop, its bright color making it easily recognizable among other traffic.",
+      "Inside, rows of seats accommodate travelers, while overhead handles provide support for those standing during the journey."
+    ],
+    "structure": [
+      "This elongated vehicle features numerous rows of upholstered seats and expansive windows, providing a clear view of the surroundings.",
+      "Equipped with a powerful engine and large wheels, it operates on paved roads, making frequent stops to pick up and drop off passengers."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This large vehicle glides along designated routes, transporting multiple passengers efficiently from one location to another.",
+      "With frequent stops, it allows riders to embark or disembark, making it a vital part of urban transit systems."
+    ],
+    "function": [
+      "This mode of transport efficiently carries multiple passengers over land, connecting various locations within cities and towns.",
+      "It serves as a cost-effective alternative for people commuting daily, reducing traffic congestion and environmental impact."
+    ],
+    "situation": [
+      "A large vehicle with multiple rows of seats pulls up to the curb, waiting for passengers to board.",
+      "People gather at the stop, some checking their watches while others chat and enjoy the fresh air."
+    ],
+    "structure": [
+      "This large, wheeled vehicle features a long, rectangular shape, designed to transport multiple passengers comfortably.",
+      "Constructed from a sturdy metal frame, it has large windows and often includes a designated area for standing."
+    ]
+  }
+}
