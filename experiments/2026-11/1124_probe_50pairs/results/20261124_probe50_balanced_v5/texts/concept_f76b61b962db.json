@@ -1,0 +1,67 @@
+{
+  "concept": "wolf",
+  "created_at": "2026-11-24T12:38:22.068514+00:00",
+  "eval": {
+    "action": [
+      "This intelligent creature exhibits social bonding by forming tight-knit family groups that collaborate during hunts.",
+      "With powerful limbs and exceptional endurance, it can traverse vast distances in pursuit of food across diverse terrains."
+    ],
+    "function": [
+      "This carnivorous mammal uses its acute hearing and sense of smell to locate prey in diverse environments.",
+      "By forming tight-knit social groups, it enhances its hunting efficiency and strengthens bonds within its community."
+    ],
+    "situation": [
+      "In the twilight of the forest, a group of agile hunters communicates through a series of low growls and barks, coordinating their movements.",
+      "With their powerful limbs and sharp senses, they stealthily track the scent of prey, blending seamlessly into the shadows of their environment."
+    ],
+    "structure": [
+      "This creature has a muscular build with long legs, allowing it to run swiftly across varied terrains.",
+      "Its eyes are sharp and expressive, often reflecting intelligence and social dynamics within its pack."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This predator hunts in packs, coordinating movements to outsmart and encircle its prey effectively.",
+      "With a keen sense of smell, it can detect scents from miles away, aiding in its pursuit of food."
+    ],
+    "function": [
+      "As apex predators, they help maintain the balance of ecosystems by controlling prey populations and supporting biodiversity.",
+      "Their social structures and hunting strategies facilitate cooperation and communication, which can enhance survival and resource acquisition in their habitats."
+    ],
+    "situation": [
+      "In the moonlit forest, a pack of canines howls in unison, their voices echoing through the trees.",
+      "With keen senses and agile bodies, they navigate the underbrush, hunting for food under the cover of darkness."
+    ],
+    "structure": [
+      "This animal has a thick fur coat that varies in color from gray to brown, providing effective camouflage in its habitat.",
+      "It possesses sharp teeth and strong jaws, designed for hunting and consuming prey in the wild."
+    ]
+  }
+}
