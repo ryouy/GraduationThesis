@@ -1,0 +1,67 @@
+{
+  "concept": "aloe",
+  "created_at": "2026-11-24T12:22:03.236277+00:00",
+  "eval": {
+    "action": [
+      "This succulent has a unique ability to flourish in dry environments, effectively conserving water within its thick, fleshy leaves.",
+      "When its leaves are sliced open, a soothing gel emerges, often used to alleviate skin discomfort and promote healing."
+    ],
+    "function": [
+      "The thick, fleshy leaves of this plant are known for their ability to retain moisture, making it ideal for dry environments.",
+      "Its soothing gel is often applied to skin irritations, providing relief and promoting healing for minor burns and cuts."
+    ],
+    "situation": [
+      "In the warm sunlight of the patio, a succulent plant displays its vibrant, spiky foliage, captivating passersby with its unique texture.",
+      "When the leaves are sliced open, a soothing, gel-like substance emerges, prized for its ability to calm irritated skin."
+    ],
+    "structure": [
+      "This succulent features elongated, arching leaves that are thick and fleshy, often adorned with small, sharp spines along the edges.",
+      "Inside its leaves lies a viscous gel rich in beneficial compounds, widely utilized for its soothing and moisturizing properties in various products."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This succulent plant thrives in arid climates, showcasing its resilience by storing water in its fleshy leaves.",
+      "When cut, its gel-like sap oozes out, providing soothing relief for skin irritations and burns."
+    ],
+    "function": [
+      "This succulent plant is renowned for its soothing properties, particularly in treating minor burns and skin irritations.",
+      "Its gel-like substance is commonly used in cosmetics and skincare products for hydration and anti-inflammatory benefits."
+    ],
+    "situation": [
+      "In the sunny corner of the garden, a succulent plant thrives, its fleshy leaves storing moisture for dry days.",
+      "Visitors often admire the spiky green leaves, which are known for their soothing gel used in skincare and minor burns."
+    ],
+    "structure": [
+      "This succulent plant features thick, fleshy leaves that are often smooth and have a serrated edge.",
+      "Its translucent gel-like interior contains a rich composition of vitamins, minerals, and antioxidants, making it popular in skincare products."
+    ]
+  }
+}
