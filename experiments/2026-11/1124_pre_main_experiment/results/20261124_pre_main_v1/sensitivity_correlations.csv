@@ -1,0 +1,81 @@
+metric,target_x,condition,layer,variable,spearman_rho
+Logit Lens,ant,Avoid X,24,distance_y,0.8661654135338346
+Logit Lens,ant,Avoid X,24,word_count,-0.4144401356709232
+Logit Lens,ant,Neutral X,24,distance_y,0.8676691729323308
+Logit Lens,ant,Neutral X,24,word_count,-0.4128732542506172
+Logit Lens,banana,Avoid X,24,distance_y,0.3669172932330827
+Logit Lens,banana,Avoid X,24,word_count,0.15145646143871067
+Logit Lens,banana,Neutral X,24,distance_y,0.27518796992481204
+Logit Lens,banana,Neutral X,24,word_count,0.06501918799136569
+Logit Lens,bicycle,Avoid X,24,distance_y,0.6481203007518795
+Logit Lens,bicycle,Avoid X,24,word_count,0.1862851039812305
+Logit Lens,bicycle,Neutral X,24,distance_y,0.6436090225563909
+Logit Lens,bicycle,Neutral X,24,word_count,0.07373785365923707
+Logit Lens,bookshelf,Avoid X,24,distance_y,0.38496240601503756
+Logit Lens,bookshelf,Avoid X,24,word_count,0.23682280335025505
+Logit Lens,bookshelf,Neutral X,24,distance_y,0.28120300751879695
+Logit Lens,bookshelf,Neutral X,24,word_count,0.33549897141286134
+Logit Lens,cactus,Avoid X,24,distance_y,0.1609022556390977
+Logit Lens,cactus,Avoid X,24,word_count,-0.09679657943662275
+Logit Lens,cactus,Neutral X,24,distance_y,0.003007518796992481
+Logit Lens,cactus,Neutral X,24,word_count,-0.013059855955734815
+Logit Lens,drum,Avoid X,24,distance_y,0.23458646616541348
+Logit Lens,drum,Avoid X,24,word_count,-0.03390861123770473
+Logit Lens,drum,Neutral X,24,distance_y,0.3203007518796992
+Logit Lens,drum,Neutral X,24,word_count,0.009247803064828562
+Logit Lens,elephant,Avoid X,24,distance_y,0.42105263157894735
+Logit Lens,elephant,Avoid X,24,word_count,-0.3415270545718981
+Logit Lens,elephant,Neutral X,24,distance_y,0.2706766917293233
+Logit Lens,elephant,Neutral X,24,word_count,-0.41109738050321065
+Logit Lens,jellyfish,Avoid X,24,distance_y,0.27368421052631575
+Logit Lens,jellyfish,Avoid X,24,word_count,-0.3011602779473124
+Logit Lens,jellyfish,Neutral X,24,distance_y,0.32481203007518794
+Logit Lens,jellyfish,Neutral X,24,word_count,-0.14905912746887182
+Logit Lens,rain,Avoid X,24,distance_y,0.18496240601503755
+Logit Lens,rain,Avoid X,24,word_count,-0.0896366209306866
+Logit Lens,rain,Neutral X,24,distance_y,0.23458646616541348
+Logit Lens,rain,Neutral X,24,word_count,0.028346623713123104
+Logit Lens,scissors,Avoid X,24,distance_y,0.04661654135338346
+Logit Lens,scissors,Avoid X,24,word_count,0.49966394081562443
+Logit Lens,scissors,Neutral X,24,distance_y,0.23909774436090225
+Logit Lens,scissors,Neutral X,24,word_count,0.5890857449804301
+Probe,ant,Avoid X,24,distance_y,0.6165413533834586
+Probe,ant,Avoid X,24,word_count,-0.48886700313545567
+Probe,ant,Neutral X,24,distance_y,0.6887218045112782
+Probe,ant,Neutral X,24,word_count,-0.4332427127145945
+Probe,banana,Avoid X,24,distance_y,-0.037593984962406006
+Probe,banana,Avoid X,24,word_count,-0.08567234182391714
+Probe,banana,Neutral X,24,distance_y,-0.03458646616541353
+Probe,banana,Neutral X,24,word_count,-0.10785535890332426
+Probe,bicycle,Avoid X,24,distance_y,0.6195488721804511
+Probe,bicycle,Avoid X,24,word_count,-0.055109343261114024
+Probe,bicycle,Neutral X,24,distance_y,0.5684210526315789
+Probe,bicycle,Neutral X,24,word_count,-0.06131884672715504
+Probe,bookshelf,Avoid X,24,distance_y,0.6616541353383457
+Probe,bookshelf,Avoid X,24,word_count,-0.2497266099430574
+Probe,bookshelf,Neutral X,24,distance_y,0.6601503759398496
+Probe,bookshelf,Neutral X,24,word_count,-0.299823741420996
+Probe,cactus,Avoid X,24,distance_y,0.6932330827067669
+Probe,cactus,Avoid X,24,word_count,-0.05992169203219504
+Probe,cactus,Neutral X,24,distance_y,0.6120300751879698
+Probe,cactus,Neutral X,24,word_count,-0.19666606615694782
+Probe,drum,Avoid X,24,distance_y,0.037593984962406006
+Probe,drum,Avoid X,24,word_count,-0.12330404086438082
+Probe,drum,Neutral X,24,distance_y,0.03909774436090225
+Probe,drum,Neutral X,24,word_count,-0.14334094750484272
+Probe,elephant,Avoid X,24,distance_y,0.7233082706766917
+Probe,elephant,Avoid X,24,word_count,0.07273261347364496
+Probe,elephant,Neutral X,24,distance_y,0.631578947368421
+Probe,elephant,Neutral X,24,word_count,0.019764297139577433
+Probe,jellyfish,Avoid X,24,distance_y,0.4616541353383458
+Probe,jellyfish,Avoid X,24,word_count,-0.3156098872427643
+Probe,jellyfish,Neutral X,24,distance_y,0.5007518796992482
+Probe,jellyfish,Neutral X,24,word_count,-0.33690404830974596
+Probe,rain,Avoid X,24,distance_y,-0.02857142857142857
+Probe,rain,Avoid X,24,word_count,-0.1095558700263947
+Probe,rain,Neutral X,24,distance_y,-0.03308270676691729
+Probe,rain,Neutral X,24,word_count,-0.026814373782684017
+Probe,scissors,Avoid X,24,distance_y,0.3413533834586466
+Probe,scissors,Avoid X,24,word_count,0.05647692894619302
+Probe,scissors,Neutral X,24,distance_y,0.2571428571428572
+Probe,scissors,Neutral X,24,word_count,0.00313760716367739
