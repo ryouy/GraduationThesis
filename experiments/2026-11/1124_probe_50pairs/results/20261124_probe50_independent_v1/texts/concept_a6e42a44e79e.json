@@ -1,0 +1,44 @@
+{
+  "concept": "cabinet",
+  "created_at": "2026-11-24T08:15:05.950551+00:00",
+  "eval": [
+    "Individuals often use storage units to keep household items organized and easily accessible.",
+    "In offices, filing systems help maintain order and facilitate quick retrieval of important documents.",
+    "Many kitchens incorporate enclosed storage to protect food items from pests and humidity.",
+    "In workshops, a secure unit can store tools and equipment while preventing accidents.",
+    "Retail environments frequently utilize display units to showcase products while enhancing visual appeal.",
+    "Some living spaces feature enclosed furniture pieces that serve dual purposes, such as seating and storage.",
+    "Certain designs allow for the concealment of electronics, reducing clutter and improving aesthetics.",
+    "In museums, specialized storage solutions protect artifacts and ensure their preservation for future generations."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "A typical storage unit features multiple shelves that can hold various items securely.",
+    "Doors on these units often swing open or slide to provide access to the interior space.",
+    "Materials such as wood, metal, or plastic are commonly used in the construction of these furnishings.",
+    "Some designs include locking mechanisms to secure valuable contents inside.",
+    "The height of such units can vary significantly, accommodating different storage needs.",
+    "These structures may have adjustable shelves to allow for flexible organization of items.",
+    "Ventilation holes can be present to prevent moisture buildup inside the enclosed space.",
+    "Finishes like paint, laminate, or veneer enhance the appearance and durability of the outer surfaces."
+  ]
+}
