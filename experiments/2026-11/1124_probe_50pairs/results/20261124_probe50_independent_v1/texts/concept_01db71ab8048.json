@@ -1,0 +1,44 @@
+{
+  "concept": "lightning",
+  "created_at": "2026-11-24T08:18:00.433341+00:00",
+  "eval": [
+    "Electrical discharges can occur during thunderstorms, resulting in bright flashes visible from great distances.",
+    "High-voltage discharges can create a sudden release of energy, leading to rapid temperature changes in the surrounding air.",
+    "Outdoor activities should be halted during stormy weather to minimize the risk of injury from electrical discharges.",
+    "Certain materials, such as metal, can attract electrical discharges, making them hazardous during storms.",
+    "Electrical discharges can ignite fires in dry vegetation, causing significant damage to natural landscapes.",
+    "Detection systems can monitor atmospheric conditions to predict the likelihood of electrical discharges in specific areas.",
+    "Safety protocols recommend staying indoors and avoiding contact with plumbing during electrical storm events.",
+    "In some regions, protective structures are installed to mitigate the impact of electrical discharges on buildings and infrastructure."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "Electrical discharges can occur between clouds or between a cloud and the ground during a storm.",
+    "The average temperature of a discharge can reach around 30,000 degrees Fahrenheit, which is five times hotter than the surface of the sun.",
+    "Each discharge typically lasts less than one second, but the effects can be profound and destructive.",
+    "During a discharge, electrons rapidly move through the air, creating a visible bright flash and a loud sound.",
+    "The path of the discharge can vary, leading to branching structures that resemble tree limbs as they travel through the air.",
+    "These phenomena can generate powerful electromagnetic fields that can affect nearby electronic devices and systems.",
+    "The phenomenon is often accompanied by precipitation, which can contribute to the overall energy dynamics within a storm system.",
+    "Safety measures during storms include staying indoors and avoiding tall objects that may attract electrical discharges."
+  ]
+}
