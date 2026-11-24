@@ -1,0 +1,44 @@
+{
+  "concept": "violin",
+  "created_at": "2026-11-24T08:22:51.151115+00:00",
+  "eval": [
+    "Many musicians practice regularly to improve their skills and perfect their techniques through various exercises.",
+    "In orchestras, string players often collaborate to create harmonious sounds during performances in concert halls.",
+    "Students frequently participate in recitals to showcase their progress and gain experience performing in front of an audience.",
+    "Music educators utilize group lessons to foster teamwork and encourage peer learning among young players.",
+    "Professional soloists may perform in prestigious venues, attracting audiences interested in classical and contemporary music.",
+    "Some individuals take part in competitions to earn recognition and scholarships for furthering their musical education.",
+    "Different genres of music often require distinct playing styles, influencing how musicians approach each piece.",
+    "Community events frequently feature local musicians, promoting cultural engagement and appreciation of various musical forms."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "The instrument typically features four strings made of synthetic materials or gut that are stretched over a wooden body.",
+    "A bridge, made of hardwood, supports the strings and transmits their vibrations to the body of the instrument.",
+    "The body is usually crafted from a combination of spruce for the top and maple for the back and sides.",
+    "F-holes are carved into the top of the body, allowing sound to project outward while maintaining structural integrity.",
+    "The neck is attached to the body and holds the fingerboard, where the musician presses the strings to create different pitches.",
+    "Tuning pegs located at the scroll allow for precise adjustments to the tension of each string.",
+    "A chin rest is commonly affixed to the lower part of the instrument, providing comfort for the player during performance.",
+    "The endpin secures the tailpiece to the body, anchoring the strings and ensuring stability during use."
+  ]
+}
