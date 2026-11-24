@@ -1,0 +1,44 @@
+{
+  "concept": "oak",
+  "created_at": "2026-11-24T08:18:52.596471+00:00",
+  "eval": [
+    "Certain species produce acorns that serve as a food source for various wildlife.",
+    "Wood from this tree is commonly used in furniture making due to its durability.",
+    "In temperate regions, these trees can grow to significant heights, creating dense canopies.",
+    "Some types play a crucial role in maintaining ecosystem health by supporting diverse plant and animal life.",
+    "The presence of these trees can influence local soil composition and fertility over time.",
+    "During autumn, leaves change color, contributing to picturesque landscapes and attracting photographers.",
+    "This type of tree is often planted in parks for shade and aesthetic appeal.",
+    "Timber from these trees is valued for its resistance to decay, making it useful in construction."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "The wood is known for its durability and resistance to wear, making it suitable for furniture and flooring.",
+    "Leaves are lobed and typically have a glossy green appearance during the growing season.",
+    "Acorns, produced annually, serve as a food source for various wildlife, including squirrels and birds.",
+    "The bark is thick and rough, providing protection against pests and environmental stressors.",
+    "Wood can be stained or finished to enhance its natural grain patterns and color.",
+    "In construction, this type of wood is often used for beams, cabinetry, and millwork due to its strength.",
+    "This tree species can grow to heights of over 80 feet, with a wide canopy that provides significant shade.",
+    "The heartwood is darker and denser than the sapwood, contributing to the aesthetic appeal and strength of the timber."
+  ]
+}
