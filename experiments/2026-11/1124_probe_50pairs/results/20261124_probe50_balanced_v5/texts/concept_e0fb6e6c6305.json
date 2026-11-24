@@ -1,0 +1,67 @@
+{
+  "concept": "organ",
+  "created_at": "2026-11-24T12:31:30.132959+00:00",
+  "eval": {
+    "action": [
+      "When played, this intricate device utilizes air flowing through its pipes to create melodies that resonate beautifully.",
+      "Often found in concert halls and churches, it adds a dynamic layer to musical compositions, enhancing the auditory experience."
+    ],
+    "function": [
+      "This structure is vital for producing harmonious sounds, often played in various musical settings to create emotional experiences.",
+      "It consists of a series of interconnected components that work together to generate rich auditory textures, captivating listeners with its versatility."
+    ],
+    "situation": [
+      "In the grand cathedral, the elaborate structure resonated deeply, its notes soaring high above the congregation's hushed whispers.",
+      "Crafted with intricate details, the instrument stood as a centerpiece, inviting musicians to explore its vast range of melodic possibilities."
+    ],
+    "structure": [
+      "This elaborate construction features a series of tubes and valves, allowing air to flow and create melodic tones.",
+      "Its intricate assembly includes a keyboard that activates various pipes, producing a wide range of musical pitches and dynamics."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This structure contracts rhythmically to facilitate the flow of blood throughout the body.",
+      "It processes sound waves, converting them into signals that the brain interprets as music."
+    ],
+    "function": [
+      "This structure plays a crucial role in facilitating essential physiological functions, supporting overall health and vitality.",
+      "It serves as a specialized component that contributes to the complex systems necessary for sustaining life processes."
+    ],
+    "situation": [
+      "In the dimly lit chapel, the majestic instrument filled the air with rich harmonies, captivating the audience during the evening concert.",
+      "A skilled musician's fingers danced across the keys, producing a symphony of sounds that echoed through the grand hall."
+    ],
+    "structure": [
+      "This complex structure consists of multiple interconnected parts, often enclosed in a protective casing made from polished wood or metal.",
+      "It features a series of keys and pipes that produce sound, each contributing to a rich and harmonious musical experience."
+    ]
+  }
+}
