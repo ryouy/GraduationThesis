@@ -1,0 +1,67 @@
+{
+  "concept": "volcanic eruption",
+  "created_at": "2026-11-24T12:38:10.704667+00:00",
+  "eval": {
+    "action": [
+      "A massive plume of ash erupts into the atmosphere, altering weather patterns and casting shadows over nearby landscapes.",
+      "Fiery streams of magma surge forth, engulfing the terrain and transforming the geography with each explosive event."
+    ],
+    "function": [
+      "A massive release of pressure from deep underground can propel ash and gas high into the atmosphere, altering weather patterns.",
+      "The intense heat generated can melt surrounding rock, forming new geological features and changing the landscape for centuries."
+    ],
+    "situation": [
+      "A dense cloud of ash envelops the landscape, choking sunlight and altering the climate for miles around.",
+      "Lava fountains erupt violently, illuminating the night sky and transforming the terrain into a surreal, fiery wonderland."
+    ],
+    "structure": [
+      "A massive plume of ash and smoke rises high into the atmosphere, creating a darkened sky filled with debris.",
+      "Lava flows rapidly down the mountainside, accompanied by explosive bursts that reshape the landscape and scatter hot fragments."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "Molten rock bursts forth from beneath the surface, creating a spectacular display of fiery lava and ash.",
+      "The ground trembles as pressure builds up, leading to explosive outbursts that reshape the surrounding landscape."
+    ],
+    "function": [
+      "When molten rock escapes from beneath the Earth's surface, it can create new landforms and reshape the surrounding environment.",
+      "This natural phenomenon can release ash and gases into the atmosphere, impacting climate and air quality over vast distances."
+    ],
+    "situation": [
+      "In the shadow of the towering mountain, ash-filled clouds billowed into the sky, darkening the afternoon sun.",
+      "Rivers of molten rock flowed down the slopes, consuming everything in their path and creating new landforms."
+    ],
+    "structure": [
+      "A towering column of ash and smoke rises dramatically from a fractured mountain, obscuring the sky above.",
+      "Molten rock spews forth, cascading down the slopes, while hot gases and debris violently escape from the opening."
+    ]
+  }
+}
