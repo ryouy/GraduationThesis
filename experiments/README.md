@@ -12,6 +12,7 @@
 | 11/04 | [model_comparison](2026-11/1104_model_comparison/) · [phi_validation](2026-11/1104_phi_validation/) · [phi_prompt_diagnostic](2026-11/1104_phi_prompt_diagnostic/) · [scoring_revision](2026-11/1104_scoring_revision/) · [inference_audit](2026-11/1104_inference_audit/) · [instruction_probe](2026-11/1104_instruction_probe/) · [instruction_probe_20pairs](2026-11/1104_instruction_probe_20pairs/) | モデル・採点・Probe診断 |
 | 11/10 | [probe_reanalysis](2026-11/1110_probe_reanalysis/) · [qwen_probe_20pairs](2026-11/1110_qwen_probe_20pairs/) | Probeの汎化・20組評価 |
 | 11/11 | [qwen_probe_pair_expansion](2026-11/1111_qwen_probe_pair_expansion/) · [qwen_probe_100concepts](2026-11/1111_qwen_probe_100concepts/) · [qwen_probe_100concepts_v2](2026-11/1111_qwen_probe_100concepts_v2/) | 比較概念と100概念探索 |
+| 11/24 | [50概念Probeの独立評価Colab](2026-11/1124_probe_50pairs/) | 50組X/Y候補の学習文・未学習文、Qwen Probe性能検証のノートブック（未実行） |
 | 11/12 | [qwen_probe_independent_confirmation](2026-11/1112_qwen_probe_independent_confirmation/) · [cue_semantic_distance](2026-11/1112_cue_semantic_distance/) · [qwen_suppression_pilot](2026-11/1112_qwen_suppression_pilot/) | 独立検証・Cue固定・抑制パイロット |
 
 ## 2026年10月
