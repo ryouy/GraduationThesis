@@ -1,0 +1,67 @@
+{
+  "concept": "submarine",
+  "created_at": "2026-11-24T12:36:01.592980+00:00",
+  "eval": {
+    "action": [
+      "This aquatic craft maneuvers through the depths, using buoyancy control to ascend and descend with precision.",
+      "It employs advanced navigation systems to chart courses while avoiding detection from above, ensuring stealthy operations."
+    ],
+    "function": [
+      "This underwater craft is engineered to operate stealthily, enabling covert missions while avoiding detection by enemy forces.",
+      "It is capable of traveling vast distances underwater, providing strategic advantages for reconnaissance and intelligence gathering in naval operations."
+    ],
+    "situation": [
+      "This craft operates in the ocean's depths, utilizing advanced technology to avoid detection while conducting vital missions.",
+      "With a robust design, it can endure extreme underwater pressures while providing a secure environment for its crew and equipment."
+    ],
+    "structure": [
+      "The craft features a sleek, hydrodynamic shape that allows it to move efficiently through the water, minimizing resistance.",
+      "Constructed from reinforced materials, it houses advanced navigation systems and is capable of operating in extreme underwater conditions."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This vessel glides silently beneath the waves, navigating through the depths with precision and stealth.",
+      "Equipped with advanced sonar systems, it can detect objects far away while remaining hidden from surface detection."
+    ],
+    "function": [
+      "This underwater vessel is designed for stealthy navigation beneath the ocean surface, facilitating military operations and scientific exploration.",
+      "Equipped with advanced technology, it can remain submerged for extended periods, allowing for surveillance and research in deep-sea environments."
+    ],
+    "situation": [
+      "The massive vessel glided silently through the deep blue ocean, its hull designed for stealth and efficiency.",
+      "Inside, crew members monitored sophisticated instruments, ensuring safe navigation beneath the waves while remaining undetected by surface ships."
+    ],
+    "structure": [
+      "This vessel features a streamlined, elongated hull designed to minimize drag while submerged in water.",
+      "Equipped with multiple pressure-resistant compartments, it is constructed from strong alloys to withstand deep-sea pressures."
+    ]
+  }
+}
