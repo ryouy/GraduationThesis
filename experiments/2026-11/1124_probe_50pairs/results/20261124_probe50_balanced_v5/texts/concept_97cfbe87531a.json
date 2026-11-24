@@ -1,0 +1,67 @@
+{
+  "concept": "pear",
+  "created_at": "2026-11-24T12:31:42.474054+00:00",
+  "eval": {
+    "action": [
+      "This fruit grows in clusters, swaying gently on branches as the wind rustles through the leaves.",
+      "When ripe, its skin yields slightly to the touch, revealing a succulent texture that delights the palate."
+    ],
+    "function": [
+      "This fruit has a distinctive shape, often rounded at the bottom and tapering towards the top, making it unique in appearance.",
+      "With a soft texture and sweet flavor, it is commonly used in desserts, salads, and as a healthy snack option."
+    ],
+    "situation": [
+      "In the lush orchard, the trees were laden with plump, bell-shaped fruits, their fragrant sweetness enticing passersby.",
+      "As the sun set, families gathered to sample the succulent, juicy treats, savoring their delicate flavor and soft texture."
+    ],
+    "structure": [
+      "This fruit has a distinctive bell-like shape and a smooth, often glossy exterior that can vary in color from green to yellow.",
+      "Its interior is filled with a succulent, sweet flesh that is usually pale and encases small seeds in a central core."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This fruit typically grows on trees, hanging from branches until ripe and ready to be harvested.",
+      "When fully mature, it often exhibits a smooth, dimpled skin that varies in color from green to yellow."
+    ],
+    "function": [
+      "This fruit is often enjoyed fresh, offering a sweet and juicy taste that many find refreshing.",
+      "Rich in dietary fiber, it supports digestive health and can be a nutritious addition to various dishes."
+    ],
+    "situation": [
+      "In the orchard, the trees were heavy with greenish-yellow fruits, their sweet aroma attracting buzzing bees.",
+      "During the harvest festival, children eagerly picked the juicy, bell-shaped fruits, filling baskets with nature's delicious treats."
+    ],
+    "structure": [
+      "This fruit typically has a smooth, green or yellow skin that can be slightly speckled or waxy to the touch.",
+      "Inside, it contains a juicy, sweet flesh that ranges from white to pale yellow, often with a central core housing small seeds."
+    ]
+  }
+}
