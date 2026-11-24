@@ -1,0 +1,67 @@
+{
+  "concept": "wrench",
+  "created_at": "2026-11-24T12:38:38.053248+00:00",
+  "eval": {
+    "action": [
+      "This tool employs a movable jaw that securely grips fasteners of different sizes, enhancing its adaptability in mechanical repairs.",
+      "Crafted for durability, it enables users to apply significant force while turning, making it essential for assembling and disassembling machinery."
+    ],
+    "function": [
+      "This hand-held instrument is essential for applying torque to fasteners, ensuring they are securely fastened or easily removed.",
+      "Crafted for versatility, it features a movable jaw that accommodates different sizes of nuts and bolts, enhancing efficiency in repairs."
+    ],
+    "situation": [
+      "In a dimly lit garage, a technician expertly uses a tool with a movable jaw to secure a stubborn bolt on a car engine.",
+      "Amidst the clutter of tools, one instrument stands out, known for its ability to adapt to various fastener sizes with ease."
+    ],
+    "structure": [
+      "This tool features a long, sturdy handle crafted from durable materials, enhancing grip and leverage during use.",
+      "Its unique design includes an adjustable gripping mechanism, allowing it to accommodate a wide range of fastener sizes effectively."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This tool is often used to grip and turn fasteners with precision, applying significant torque with minimal effort.",
+      "Mechanics frequently rely on this instrument to loosen or tighten bolts, ensuring secure assembly in machinery."
+    ],
+    "function": [
+      "This tool is designed to grip and turn fasteners, providing leverage for loosening or tightening them securely.",
+      "It is commonly used in mechanical and construction tasks, allowing users to easily adjust various components with precision."
+    ],
+    "situation": [
+      "In the garage, a mechanic expertly tightens a bolt, using a tool designed for gripping and turning fasteners.",
+      "The toolbox contains various instruments, but the one with an adjustable jaw is essential for working on different sizes of nuts."
+    ],
+    "structure": [
+      "This hand tool features a long handle, often made of steel or aluminum, providing leverage for turning or holding objects.",
+      "Its adjustable jaw allows for gripping various sizes of fasteners, making it versatile for different mechanical tasks."
+    ]
+  }
+}
