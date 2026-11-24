@@ -1,0 +1,13 @@
+target_x,comparator_y,layer,train_examples_per_label,positive_label,negative_label,probe_param_sha256,prior_fresh_L24_auc,prior_confirmation_pass_fdr
+boat,bus,22,8,boat,bus,1e91c818f43b42be46be34fcecd35c810f0d4ef36fba559e34e35c93a40e0fe4,1.0,True
+boat,bus,23,8,boat,bus,fd92104cd9ac572a846d63f8009e00d0aafa7f422e5f0f80d51f08d44954fb2b,1.0,True
+boat,bus,24,8,boat,bus,3a276ff471eb138f7f227b37592a326f0109bf9a273789608a817a0b7c499e25,1.0,True
+bus,helicopter,22,8,bus,helicopter,8cf782d01885aad7c66ba458f22d9df334172e39deb3e05989a812c275e490cf,1.0,True
+bus,helicopter,23,8,bus,helicopter,f3c81c449b09bb148e22da46b473daafebee14cf7affb27c3b3dd312578fdc5c,1.0,True
+bus,helicopter,24,8,bus,helicopter,5a6d3b2bed158661e4fd048cb9d9d78a846a56b3e62c505954a30efef653858e,1.0,True
+bicycle,submarine,22,8,bicycle,submarine,114fb8feff0c9e19a29561bce98526dd5d331a8d35888a7153f751cd6e9420bd,1.0,True
+bicycle,submarine,23,8,bicycle,submarine,981a6cc0d0f5c9ba1daeaff445c7cb8a136c52b92739b7a8db844ff47288f762,1.0,True
+bicycle,submarine,24,8,bicycle,submarine,9b3154fe90da6ac010f9e89630b63b7a0e0e0660eb0214720b2ba9652b37bb7d,1.0,True
+motorcycle,helicopter,22,8,motorcycle,helicopter,fd794c552916f9216fd1fcbd760e149fb0126a0c7b18bfefef61390365fc204f,0.984375,True
+motorcycle,helicopter,23,8,motorcycle,helicopter,1456a55f80188c658d90edb181121bdc6a81e243f4c3c41d624d374c54ebf2ab,0.984375,True
+motorcycle,helicopter,24,8,motorcycle,helicopter,f2a7150795251290e8d0e5ace01cd7c82df2fbaae31fd99cc2383581cf9e224c,0.984375,True
