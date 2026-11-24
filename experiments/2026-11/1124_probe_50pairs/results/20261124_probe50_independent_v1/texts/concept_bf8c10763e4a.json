@@ -1,0 +1,44 @@
+{
+  "concept": "clarinet",
+  "created_at": "2026-11-24T08:15:35.280253+00:00",
+  "eval": [
+    "Woodwind instruments often require specific finger placements to produce different notes during performances.",
+    "Many musicians practice daily to improve their breath control and tone production on their chosen instrument.",
+    "Concert bands frequently include instruments from the woodwind family to create rich harmonic textures in compositions.",
+    "In orchestral settings, skilled players can showcase their abilities through intricate solos within larger musical pieces.",
+    "Students often participate in ensembles to gain experience performing with others and to develop their sight-reading skills.",
+    "Proper maintenance, including regular cleaning and tuning, is essential for ensuring optimal sound quality and longevity.",
+    "Solo performances may highlight the versatility of the instrument, allowing for both melodic and rhythmic expression.",
+    "Music educators frequently introduce young learners to various instruments to cultivate interest and develop foundational skills."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "This woodwind instrument typically has a cylindrical body made from grenadilla or other hardwoods.",
+    "A mouthpiece featuring a single reed is attached at the top of the instrument for sound production.",
+    "The instrument includes a series of tone holes along its length, which can be opened or closed by keys.",
+    "A barrel connects the mouthpiece to the body, affecting the instrument's pitch and tone quality.",
+    "It usually consists of three main sections: the upper joint, lower joint, and bell.",
+    "The keys are commonly made from metal and are designed to facilitate finger movement while playing.",
+    "The instrument's range often spans over three octaves, providing versatility in musical performance.",
+    "A ligature secures the reed to the mouthpiece, ensuring proper vibration and sound output."
+  ]
+}
