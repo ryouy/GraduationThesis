@@ -1,0 +1,44 @@
+{
+  "concept": "table",
+  "created_at": "2026-11-24T08:22:01.274473+00:00",
+  "eval": [
+    "In restaurants, customers often gather around a flat surface to enjoy meals and socialize.",
+    "During craft fairs, artisans display handmade items on sturdy, elevated platforms for buyers to view.",
+    "In classrooms, students utilize a flat surface for writing, drawing, and collaborating on group projects.",
+    "At family gatherings, individuals share food and conversation while seated around a communal flat structure.",
+    "In offices, employees frequently hold meetings around a central workspace designed for discussion and brainstorming.",
+    "During outdoor events, vendors set up a flat structure to display merchandise and facilitate sales.",
+    "In laboratories, researchers rely on a flat working area to conduct experiments and organize materials.",
+    "During game nights, friends gather around a flat surface to engage in board games or card games."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "A flat surface can be supported by four vertical legs, providing stability and elevation above the ground.",
+    "Materials such as wood, metal, or plastic are commonly used in the construction of flat surfaces.",
+    "Certain flat surfaces feature drawers or shelves for additional storage and organization.",
+    "Height can vary significantly, with some flat surfaces designed for sitting and others for standing.",
+    "The surface may have a smooth finish to facilitate ease of cleaning and maintenance.",
+    "Some flat surfaces come with adjustable legs to accommodate uneven flooring or personal preferences.",
+    "Edges can be rounded or beveled to enhance safety and comfort during use.",
+    "Weight capacity is an important consideration, as it determines how much load a flat surface can support."
+  ]
+}
