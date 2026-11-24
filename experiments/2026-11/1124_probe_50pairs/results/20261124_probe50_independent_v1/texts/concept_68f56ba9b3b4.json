@@ -1,0 +1,44 @@
+{
+  "concept": "pliers",
+  "created_at": "2026-11-24T08:19:36.985644+00:00",
+  "eval": [
+    "Tools with gripping jaws can easily bend metal wires during crafting projects.",
+    "A gripping tool is often used to hold small objects securely while cutting.",
+    "In automotive repair, a gripping device assists in removing stubborn nuts and bolts.",
+    "Professionals frequently utilize gripping tools to manipulate and adjust components in tight spaces.",
+    "Many DIY enthusiasts rely on a gripping implement for various home repair tasks.",
+    "In jewelry making, a gripping tool helps shape and mold delicate materials with precision.",
+    "Electricians often use a gripping device to splice and connect wires safely.",
+    "A gripping instrument can provide leverage when loosening or tightening fasteners."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "The tool features two handles that pivot around a central joint, allowing for leverage and grip.",
+    "Metal jaws at the end of the tool can be flat, curved, or serrated to perform various tasks.",
+    "Some designs include a cutting edge integrated into the jaws for slicing through wires or small materials.",
+    "The handles are often coated with rubber or plastic to provide a non-slip grip during use.",
+    "Certain models have interchangeable jaws that can be swapped for different applications or tasks.",
+    "The tool's construction typically includes high-carbon steel for durability and resistance to wear and tear.",
+    "A spring mechanism may be incorporated to automatically return the jaws to an open position after use.",
+    "The overall design allows for precise control and force application, making it effective for gripping and twisting."
+  ]
+}
