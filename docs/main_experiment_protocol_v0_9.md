@@ -199,7 +199,7 @@ OpenAI APIは学習・評価用の候補説明文、X/Yの候補、Cueの草案�
 
 **実装準備（2026-11-24）：** [50組Probeの独立説明文評価Colab](../experiments/2026-11/1124_probe_50pairs/README.md) を作成。**GPU実行・OpenAI API生成・Probe採択結果はまだ未実施**。本実験で使う50ペアをここで正式確定したことにはならない。
 
-**追加Probe品質検証（2026-11-24）：** [文章タイプ均衡版50組Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1124_probe_50pairs/qwen_probe_50pairs_balanced_validation.ipynb) を作成。旧50組とモデル・学習器を揃え、構造・動作・場面・用途を学習／評価で均衡させて再評価する。**当時は未実行・採択未確定**。その後、[均衡版v5](../experiments/2026-11/1124_probe_50pairs/qwen_probe_50pairs_balanced_validation_v5.ipynb) の実行が完了し、33/50組が暫定基準を通過した（人手監査・正式採択は未完了）。前回との差は文章内容の差も含むため、文章タイプの因果的効果とは断定しない。
+**v5解釈メモ：** [文章タイプ均衡版でなぜ性能が改善したと考えられるか](../experiments/2026-11/1124_probe_50pairs/results/20261124_probe50_balanced_v5/INTERPRETATION.md) に、v1→v5の改善仮説と限界を整理した。文章タイプのミスマッチ低減が一因と考えられるが、説明文内容やAPI生成差も同時に変わっているため因果効果とは断定しない。\n\n**追加Probe品質検証（2026-11-24）：** [文章タイプ均衡版50組Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1124_probe_50pairs/qwen_probe_50pairs_balanced_validation.ipynb) を作成。旧50組とモデル・学習器を揃え、構造・動作・場面・用途を学習／評価で均衡させて再評価する。**当時は未実行・採択未確定**。その後、[均衡版v5](../experiments/2026-11/1124_probe_50pairs/qwen_probe_50pairs_balanced_validation_v5.ipynb) の実行が完了し、33/50組が暫定基準を通過した（人手監査・正式採択は未完了）。前回との差は文章内容の差も含むため、文章タイプの因果的効果とは断定しない。
 
 ## 13. 実施手順とv1.0開始前チェックリスト
 
