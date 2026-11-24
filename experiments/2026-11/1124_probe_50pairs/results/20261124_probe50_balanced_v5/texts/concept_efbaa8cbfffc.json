@@ -1,0 +1,67 @@
+{
+  "concept": "lime",
+  "created_at": "2026-11-24T12:29:47.804341+00:00",
+  "eval": {
+    "action": [
+      "This vibrant green fruit often rolls playfully off countertops, leaving a trail of tangy juice in its wake.",
+      "When added to dishes, it transforms the ordinary into the extraordinary with its bold and refreshing acidity."
+    ],
+    "function": [
+      "This vibrant green fruit is prized for its zesty juice, which enhances cocktails and marinades with a refreshing tang.",
+      "Often found in tropical climates, it is a key ingredient in many dishes, providing a burst of acidity and flavor."
+    ],
+    "situation": [
+      "In a bustling kitchen, a chef expertly slices through the glossy green fruit, its juice splattering onto the cutting board.",
+      "At a lively outdoor bar, patrons enjoy cocktails garnished with wedges of the vibrant green fruit, enhancing the drinks' refreshing appeal."
+    ],
+    "structure": [
+      "This spherical fruit features a smooth, bright green exterior, often appearing shiny under sunlight and slightly dimpled in texture.",
+      "Inside, it harbors juicy, tart segments packed with a vibrant flavor that enhances both savory and sweet culinary creations."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This small, green fruit rolls playfully on surfaces, often evoking a sense of freshness and zest.",
+      "When squeezed, it releases a tangy juice that brightens dishes and elevates beverages with its vibrant flavor."
+    ],
+    "function": [
+      "This small green fruit is often used to enhance the flavor of dishes and beverages, adding a refreshing acidity.",
+      "Rich in vitamin C, it plays a crucial role in boosting the immune system and aiding in iron absorption."
+    ],
+    "situation": [
+      "In a tropical garden, a vibrant green fruit hangs from a tree, releasing a zesty aroma when squeezed.",
+      "At the market, vendors display a basket filled with small, round fruits that add a refreshing twist to summer drinks."
+    ],
+    "structure": [
+      "This small, round fruit has a vibrant green skin that is smooth and glossy, often showcasing a slightly bumpy texture.",
+      "Inside, it contains juicy segments filled with a tangy, acidic pulp, rich in vitamin C and often used in culinary dishes."
+    ]
+  }
+}
