@@ -1,0 +1,44 @@
+{
+  "concept": "apple",
+  "created_at": "2026-11-24T08:13:33.272145+00:00",
+  "eval": [
+    "Many people enjoy slicing fruit and pairing it with cheese for a healthy snack option.",
+    "Various recipes use the fruit for making desserts like pies and crumbles, especially during the fall.",
+    "In several cultures, the fruit is often incorporated into salads for added sweetness and crunch.",
+    "Juicing the fruit creates a popular beverage that is frequently consumed at breakfast or during meals.",
+    "Some individuals choose to bake the fruit with cinnamon and sugar to create a warm dessert.",
+    "The fruit is commonly featured in educational lessons about nutrition and healthy eating habits.",
+    "A popular practice involves dipping slices of the fruit in peanut butter for a protein-rich snack.",
+    "The fruit's availability often peaks in late summer and early fall, influencing market prices and consumption."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "This fruit typically has a smooth, shiny skin that can vary in color, including red, green, and yellow.",
+    "The flesh inside is crisp and juicy, providing a refreshing texture when bitten into.",
+    "Seeds are located at the core, surrounded by a central cavity that houses the seeds.",
+    "The skin contains various phytochemicals, which contribute to its flavor and nutritional profile.",
+    "A mature specimen can range from two to four inches in diameter, depending on the variety.",
+    "The fruit develops from the flowering part of the plant, requiring pollination for proper growth.",
+    "This type of fruit is classified as a pome, characterized by a core surrounded by edible flesh.",
+    "The surface may have a waxy coating that helps to retain moisture and enhance its shelf life."
+  ]
+}
