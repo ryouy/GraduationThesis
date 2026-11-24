@@ -1,0 +1,67 @@
+{
+  "concept": "oak",
+  "created_at": "2026-11-24T12:31:02.914166+00:00",
+  "eval": {
+    "action": [
+      "In the fall, this tree's leaves shimmer in hues of red and gold, attracting photographers and nature enthusiasts alike.",
+      "Its acorns serve as a vital food source for various animals, fostering a rich ecosystem in the surrounding area."
+    ],
+    "function": [
+      "This tree's acorns serve as a vital food source for many animals, supporting local ecosystems and wildlife populations.",
+      "With its impressive height and longevity, it plays a significant role in carbon sequestration and climate regulation in forests."
+    ],
+    "situation": [
+      "In the forest, a large tree stands with its thick branches adorned with deep green leaves, offering shelter to various birds.",
+      "During the fall, its foliage transforms into a brilliant mix of yellow and red hues, captivating visitors wandering through the woods."
+    ],
+    "structure": [
+      "The tree exhibits a robust trunk with deeply ridged bark, supporting a sprawling network of branches adorned with jagged leaves.",
+      "In late summer, its acorns drop, serving as a vital food source for a variety of wildlife, enriching the surrounding ecosystem."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This tree stands tall and strong, its branches stretching wide to provide a canopy of shade.",
+      "As seasons change, its leaves transform in color, showcasing a brilliant display before falling to the ground."
+    ],
+    "function": [
+      "This tree species is crucial for providing habitat and food for numerous wildlife species, contributing to biodiversity.",
+      "Its strong, durable wood is highly valued for furniture and construction, making it an important resource in various industries."
+    ],
+    "situation": [
+      "In the heart of the park, a majestic tree towers above, its broad canopy providing shade to picnickers below.",
+      "As autumn arrives, vibrant leaves cascade to the ground, creating a colorful carpet that invites children to play."
+    ],
+    "structure": [
+      "This tree features a broad canopy with lobed, leathery leaves that change color in autumn.",
+      "Its sturdy trunk is covered in thick, textured bark, supporting a dense network of branches."
+    ]
+  }
+}
