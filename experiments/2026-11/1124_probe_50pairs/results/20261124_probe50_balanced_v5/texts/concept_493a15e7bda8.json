@@ -1,0 +1,67 @@
+{
+  "concept": "scissors",
+  "created_at": "2026-11-24T12:33:40.795098+00:00",
+  "eval": {
+    "action": [
+      "In the artist's studio, a creative individual deftly maneuvers this cutting tool to craft intricate designs from sheets of vibrant paper.",
+      "During a sewing project, a focused tailor skillfully uses this implement to trim excess fabric, ensuring a polished finish to the garment."
+    ],
+    "function": [
+      "This handheld device features two intersecting blades that facilitate precise cutting actions for various materials.",
+      "Commonly found in households, it is essential for tasks like crafting, cooking, and general repairs, offering versatility and ease of use."
+    ],
+    "situation": [
+      "In the classroom, students eagerly use a handheld device to create intricate designs from sheets of colorful paper.",
+      "On the craft table, a parent demonstrates how to effectively use a sharp tool to cut ribbons for a festive decoration."
+    ],
+    "structure": [
+      "This device features two elongated metal strips that converge at a pivot point, allowing for a smooth cutting motion.",
+      "The gripping areas are often ergonomically designed, enhancing user comfort during repetitive cutting tasks."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This tool effortlessly slices through paper and fabric with a simple squeeze of the handles.",
+      "Its sharp blades glide past each other, creating a clean cut with minimal effort from the user."
+    ],
+    "function": [
+      "This tool is designed to cut through materials such as paper and fabric with precision and ease.",
+      "With two intersecting blades, it allows for controlled and accurate trimming or shaping of various objects."
+    ],
+    "situation": [
+      "In the craft room, a child carefully snips colorful paper shapes for a school project, giggling with excitement.",
+      "On the kitchen counter, a pair of sharp tools lies ready to trim wrapping paper, making gift preparation easier."
+    ],
+    "structure": [
+      "This tool consists of two sharp blades that pivot around a central point, allowing for cutting actions.",
+      "Its handles are typically made of plastic or metal, providing a firm grip for precision cutting tasks."
+    ]
+  }
+}
