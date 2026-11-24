@@ -1,0 +1,67 @@
+{
+  "concept": "piano",
+  "created_at": "2026-11-24T12:31:54.202276+00:00",
+  "eval": {
+    "action": [
+      "This instrument is often played using a combination of both hands, enabling complex musical expressions and rich harmonies.",
+      "During performances, it can evoke a wide range of emotions, captivating audiences with its dynamic tonal qualities."
+    ],
+    "function": [
+      "This instrument is often used in both solo performances and accompaniment, enriching musical experiences with its diverse tonal range.",
+      "It plays a significant role in music education, helping students develop their skills in rhythm, melody, and harmony."
+    ],
+    "situation": [
+      "In the elegant concert hall, a skilled musician's fingers dance across the keys, evoking deep emotions from the audience.",
+      "During a lively gathering, friends take turns playing familiar tunes, their laughter harmonizing with the enchanting sounds resonating through the room."
+    ],
+    "structure": [
+      "The instrument is characterized by a sleek wooden body and a distinctive array of keys that create a tactile playing experience.",
+      "Within its frame, a series of tightly strung wires resonate when activated, generating a diverse range of musical notes and dynamics."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "When the keys are pressed, hammers strike strings inside, producing a rich and resonant sound.",
+      "Musicians often use both hands to play melodies and harmonies, creating intricate musical compositions."
+    ],
+    "function": [
+      "This instrument produces sound by striking strings with hammers, allowing musicians to create melodies and harmonies.",
+      "It serves as a versatile tool for composition, education, and performance across various musical genres."
+    ],
+    "situation": [
+      "In the corner of the cozy living room, a polished wooden instrument gleams under the soft glow of the lamp.",
+      "As the sun sets, a family gathers to play melodies, filling the air with harmonious sounds and laughter."
+    ],
+    "structure": [
+      "This musical instrument features a large wooden case that houses a series of black and white keys arranged in a specific pattern.",
+      "Inside, strings are struck by hammers when keys are pressed, producing a rich variety of sounds and tones."
+    ]
+  }
+}
