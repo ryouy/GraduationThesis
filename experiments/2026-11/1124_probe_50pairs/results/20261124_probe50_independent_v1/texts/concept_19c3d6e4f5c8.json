@@ -1,0 +1,44 @@
+{
+  "concept": "moth",
+  "created_at": "2026-11-24T08:18:39.171898+00:00",
+  "eval": [
+    "Certain species are attracted to artificial light sources, often gathering in large numbers around street lamps.",
+    "Some insects are known to rest on tree bark during the day, blending in with their surroundings for camouflage.",
+    "In natural habitats, these insects play a role in pollination, contributing to the reproductive success of various plants.",
+    "Larvae of specific species feed on a variety of materials, including wool, cotton, and other natural fibers.",
+    "These insects are typically more active during dusk and nighttime hours, which influences their foraging behavior.",
+    "Many species undergo a complete metamorphosis, transitioning from egg to larva, pupa, and finally to the adult stage.",
+    "Certain types exhibit a behavior called 'swarming', where they gather in a dense group for mating purposes.",
+    "Their presence can indicate the health of an ecosystem, as they are sensitive to environmental changes and pollutants."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "Members of this group typically have a stout body and a wingspan ranging from a few millimeters to several centimeters.",
+    "The forewings of these insects are usually larger and often more heavily patterned than the hindwings.",
+    "Many species possess specialized scales on their wings that can produce various visual effects, including iridescence.",
+    "These insects have a pair of long, feathery or thread-like antennae that assist in detecting pheromones.",
+    "The mouthparts are adapted for sucking, allowing them to feed on nectar or other liquid substances.",
+    "Some species are nocturnal, with adaptations that help them navigate and forage in low-light conditions.",
+    "A distinctive feature is the presence of a coiled proboscis, which can be extended to reach food sources.",
+    "The life cycle includes distinct stages: egg, larva, pupa, and adult, each with unique physical characteristics."
+  ]
+}
