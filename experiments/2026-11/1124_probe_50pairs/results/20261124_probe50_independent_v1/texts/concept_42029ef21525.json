@@ -1,0 +1,44 @@
+{
+  "concept": "daisy",
+  "created_at": "2026-11-24T08:15:52.698228+00:00",
+  "eval": [
+    "Certain flowering plants attract pollinators, which are essential for the reproduction of many plant species.",
+    "Some species of flowering plants can thrive in both urban gardens and wildflower meadows.",
+    "These plants often bloom during the spring and summer months, providing essential food resources for insects.",
+    "In landscaping, colorful flowering plants can enhance the aesthetic appeal of residential and public spaces.",
+    "The presence of diverse flowering plants can support local ecosystems by providing habitat for various wildlife species.",
+    "Many flowering plants are used in traditional medicine, with extracts believed to offer various health benefits.",
+    "Gardening enthusiasts frequently cultivate a variety of flowering plants for their beauty and ease of care.",
+    "Some types of flowering plants can grow in poor soil conditions, making them suitable for challenging environments."
+  ],
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_independent_v1",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "text_generation_version": "v1_train_eval_distinct_prompts"
+  },
+  "train": [
+    "This flower typically features a central disk surrounded by ray florets that can vary in color.",
+    "The arrangement of the petals radiates out from the center, creating a star-like appearance.",
+    "Leaves are usually green, elongated, and can exhibit a serrated or smooth edge.",
+    "The plant generally grows to a height of about 12 to 24 inches, depending on the species.",
+    "Roots of this plant are typically fibrous, allowing for stability in various soil types.",
+    "Pollination is often facilitated by insects attracted to the bright colors and nectar.",
+    "The flowering period usually occurs in spring and summer, contributing to its seasonal presence.",
+    "Seeds develop in a dry, hard structure that forms after the flower has withered and dropped its petals."
+  ]
+}
