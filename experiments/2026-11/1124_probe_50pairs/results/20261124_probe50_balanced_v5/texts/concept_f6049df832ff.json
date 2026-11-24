@@ -1,0 +1,67 @@
+{
+  "concept": "electric saw",
+  "created_at": "2026-11-24T12:27:14.975437+00:00",
+  "eval": {
+    "action": [
+      "The operator deftly navigates the device, its blade spinning rapidly to carve through thick timber with remarkable ease.",
+      "With each pass, the tool emits a sharp whine, transforming solid wood into perfectly shaped pieces in seconds."
+    ],
+    "function": [
+      "This tool is engineered to deliver rapid, clean cuts, making it essential for both professionals and DIY enthusiasts alike.",
+      "With its rotating blade, it excels in cutting through dense materials, significantly reducing the time and effort required for manual sawing."
+    ],
+    "situation": [
+      "In the dimly lit garage, the operator deftly guided the tool along the wooden beam, producing a clean, precise cut.",
+      "With a steady hand, the user adjusted the angle, allowing the blade to glide effortlessly through the thick plywood sheets."
+    ],
+    "structure": [
+      "The device showcases a sturdy housing with an ergonomic handle, housing a high-speed, rotating blade for effective cutting.",
+      "Its design incorporates a protective guard that shields the user from the exposed blade while maintaining visibility during operation."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "This tool whirs to life, rapidly slicing through wood with precision as the operator maneuvers it expertly.",
+      "With a firm grip, the user guides the blade along the material, producing clean, straight cuts in mere seconds."
+    ],
+    "function": [
+      "This tool is designed to cut through various materials quickly and efficiently, making it invaluable for construction projects.",
+      "It operates using a motor that drives a toothed blade, allowing for precise and rapid cutting in woodworking and metalworking tasks."
+    ],
+    "situation": [
+      "In the workshop, the rhythmic whirring filled the air as wood was sliced effortlessly into precise shapes.",
+      "The craftsman skillfully maneuvered the tool, creating smooth edges on the lumber with each swift motion."
+    ],
+    "structure": [
+      "This tool features a sharp, toothed blade mounted on a rotating motor, designed for cutting through various materials with precision.",
+      "Its robust casing often includes a handle for better grip, while safety guards protect users from accidental contact with the moving blade."
+    ]
+  }
+}
