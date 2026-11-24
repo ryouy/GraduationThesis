@@ -1,0 +1,67 @@
+{
+  "concept": "smoke",
+  "created_at": "2026-11-24T12:34:32.118014+00:00",
+  "eval": {
+    "action": [
+      "As the campfire crackled, wisps of gray spiraled upward, carrying the scent of burning wood into the night air.",
+      "In the aftermath of the explosion, a thick, dark cloud lingered, obscuring the view and filling the surroundings with a sharp, acrid smell."
+    ],
+    "function": [
+      "This phenomenon can carry harmful substances into the atmosphere, impacting air quality and respiratory health in nearby populations.",
+      "It plays a crucial role in various ecosystems by facilitating nutrient cycling and influencing weather patterns through particulate dispersion."
+    ],
+    "situation": [
+      "A dark plume rose from the abandoned building, casting a shadow over the surrounding streets and attracting curious onlookers.",
+      "As the campfire crackled, wisps of acrid vapor curled upward, mingling with the crisp evening air and enveloping the nearby trees."
+    ],
+    "structure": [
+      "This phenomenon manifests as a swirling, dark mass, often visible against the backdrop of clear skies.",
+      "It comprises a mixture of minute solid particles and volatile compounds released during the burning of organic materials."
+    ]
+  },
+  "params": {
+    "api_model": "gpt-4o-mini",
+    "auc_min": 0.8,
+    "batch_size": 24,
+    "examples_per_style_per_split": 2,
+    "fdr_max": 0.05,
+    "layers": [
+      22,
+      23,
+      24
+    ],
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "per_class": 8,
+    "probe_C": 0.1,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "run_id": "20261124_probe50_balanced_v5",
+    "seed": 42,
+    "shuffle_count": 499,
+    "source_csv_sha256": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "styles": [
+      "structure",
+      "action",
+      "situation",
+      "function"
+    ],
+    "text_generation_version": "v5_style_by_style_clean_notebook"
+  },
+  "train": {
+    "action": [
+      "Tendrils of gray spiral upward, twisting and dancing as they escape the confines of their source.",
+      "A thick, billowing cloud envelops the area, obscuring vision and filling the air with a pungent aroma."
+    ],
+    "function": [
+      "This phenomenon can indicate the presence of combustion, often alerting individuals to potential fire hazards.",
+      "In some natural processes, it serves as a medium for dispersing particulates and gases into the atmosphere."
+    ],
+    "situation": [
+      "A thick, gray haze enveloped the city, obscuring the skyline and creating a sense of unease among the residents.",
+      "As people walked past the smoldering pile of debris, a pungent odor lingered in the air, reminding them of the recent fire."
+    ],
+    "structure": [
+      "This phenomenon appears as a dense, swirling mass, often gray or black in color, rising into the air.",
+      "It consists of tiny particles and gases that are released during combustion processes, creating a visible cloud."
+    ]
+  }
+}
