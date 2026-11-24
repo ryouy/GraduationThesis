@@ -1,0 +1,44 @@
+{
+  "run_id": "20261124_distance_reanalysis_v1",
+  "source_commit": "97a9c30fb836a1bf6b16af6e31e0611293ea8f0e",
+  "source_sha256": {
+    "experiments/2026-11/1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/cue_selected.csv": "d38a7f676ccd92d9886de2857fac8f64f9f0d408a69901377f0429ca642880cd",
+    "experiments/2026-11/1112_qwen_suppression_pilot/results/20261124_qwen_neutral_x_addon_v1/cue_selected.csv": "d38a7f676ccd92d9886de2857fac8f64f9f0d408a69901377f0429ca642880cd",
+    "experiments/2026-11/1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/manifest.json": "6bfdac7e36791b27552cdfe0680e3a024a44d805738e9cc4aab74ef8b6c659e3",
+    "experiments/2026-11/1112_qwen_suppression_pilot/results/20261124_qwen_neutral_x_addon_v1/manifest.json": "3bf2e80c9f7cba167df94f78631b07c1a2858711208d1b3acf402744d611d67a",
+    "experiments/2026-11/1112_cue_semantic_distance/final_stimuli/20261112_frozen_ai_audit_v1/cue_final_FROZEN_AI_AUDITED.csv": "f9c1c729e285853c84702fe50cdf0f8ab105787dd995e36b525d778a4098a74c",
+    "experiments/2026-11/1112_qwen_suppression_pilot/results/20261124_qwen_neutral_x_addon_v1/paired_cue_probe_effects.csv": "c29c69981c288ee29bfa1bdb611000f9e51756f5eca1314aa0b78a3f7a3c9f5f",
+    "experiments/2026-11/1112_qwen_suppression_pilot/results/20261124_qwen_neutral_x_addon_v1/paired_cue_lens_effects.csv": "2c1fb4c45513ce62fcb657266ea481d23878d25eaf327d8b3fb44fb2bdcde594",
+    "experiments/2026-11/1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/probe_scores.csv": "d97cac23be556f892301da68eddc4c55bf6920e4f78625d11aa717f3b33407be",
+    "experiments/2026-11/1112_qwen_suppression_pilot/results/20261124_qwen_neutral_x_addon_v1/probe_scores.csv": "17e72a58ea91e99d399fa2d722d44cc9763fe8be92e5ebdd348e1a0052897551"
+  },
+  "created_utc": "2026-11-24T08:22:12.986224+00:00",
+  "n_related_cues": 48,
+  "n_unrelated_cues": 16,
+  "n_no_cue_concepts": 4,
+  "conditions": [
+    "Avoid X",
+    "Neutral X"
+  ],
+  "phase": "exploratory_reanalysis",
+  "files": {
+    "sensitivity_correlations.csv": "092277978fce634e5a7271aa279fda7bb560f8e9ff19c94c623537b5657f35f6",
+    "controls_separate.csv": "2b81dd8bac91742d87bd34e18a086df420222db4c2d4650c1daacffe67e21dbe",
+    "logit_lens_distance_scatter.pdf": "6df7ab10dea66dce89c117860bbac0a796ad3e43cc8495ef49e6eea02298788f",
+    "logit_lens_by_distance_band.pdf": "c6550d7e50c429eae54a2c3a02754c10239f977661e807ccb02220a5af47d5e6",
+    "analysis_summary.md": "810c7fd8253ff9d90c7717616e9315d65234ed239beeabc0c33c1fd15146d5d9",
+    "probe_correlation_heatmap.pdf": "f504bd8923137b3174e89d7ff8ee2e37bb725905d626d99daf0348f90a2a8b4d",
+    "logit_lens_correlation_heatmap.png": "04c36c0bc3ee06d99186f284a4da0dc582cc6b6269ee51f7061ec30304cd6ded",
+    "all_scores_with_distance.csv": "5bbcabeae581f50cdf2533beefc050434b4bcbdf014976a3a507bb5769c7c45c",
+    "distance_statistics.csv": "664d484c7a000753df07199592de687a68613cf58c8a958194cd6a6dd4cb0c7b",
+    "paired_slope_difference.csv": "c6e0111efab015e829327dec9efb0973ba1e99c8b21bd768b168608e2f1afedc",
+    "logit_lens_correlation_heatmap.pdf": "399eccfa857fded870b6e659d03b9fab8638c2796ac4fc606490572fa8bc1599",
+    "logit_lens_distance_scatter.png": "88c1382250132d6ab5f38f1fdbcdc0d7527c74fa390371b2f7eafddddeb5a8eb",
+    "logit_lens_by_distance_band.png": "cf82ec6ab0efce38da9004b1b0c10371e732f59f7f7f827253243e11ebcf0c92",
+    "probe_correlation_heatmap.png": "d18b1e7e7c2c3ca012189a6225b7ac393090b3d2ddbe14d824b14de2cf7042e0",
+    "final_layer_concept_correlations.png": "61c2d104e78c4e21184bc3a529011a7cc60cb35f2c2912d951fc6e72f89609d4",
+    "final_layer_concept_correlations.pdf": "90f3fb5c446bab079d3fd68e18dd499ff228a95177cd3d983e8cfdcf772825b6",
+    "probe_distance_scatter.png": "4f3482d77c2c92e5b3985807e1db60e00aca8db2da9426fe7d33ae87f14be772",
+    "probe_distance_scatter.pdf": "e393399e12f74fa7e1d01157ebe936343f07069d4d1acbf5d3fb5667dae317c2"
+  }
+}
