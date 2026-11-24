@@ -1,0 +1,33 @@
+metric,target_x,condition,layer,variable,spearman_rho
+Logit Lens,bicycle,Avoid X,24,distance_y,-0.21678321678321683
+Logit Lens,bicycle,Avoid X,24,word_count,0.060321122212532226
+Logit Lens,bicycle,Neutral X,24,distance_y,0.06293706293706294
+Logit Lens,bicycle,Neutral X,24,word_count,0.0
+Logit Lens,boat,Avoid X,24,distance_y,-0.14685314685314685
+Logit Lens,boat,Avoid X,24,word_count,-0.15267620413811483
+Logit Lens,boat,Neutral X,24,distance_y,-0.16083916083916086
+Logit Lens,boat,Neutral X,24,word_count,-0.22901430620717225
+Logit Lens,bus,Avoid X,24,distance_y,-0.2937062937062937
+Logit Lens,bus,Avoid X,24,word_count,-0.3345872941448956
+Logit Lens,bus,Neutral X,24,distance_y,-0.5944055944055945
+Logit Lens,bus,Neutral X,24,word_count,-0.11671649795752172
+Logit Lens,motorcycle,Avoid X,24,distance_y,0.18881118881118883
+Logit Lens,motorcycle,Avoid X,24,word_count,-0.05524032911365454
+Logit Lens,motorcycle,Neutral X,24,distance_y,0.18181818181818185
+Logit Lens,motorcycle,Neutral X,24,word_count,-0.15651426582202121
+Probe,bicycle,Avoid X,24,distance_y,0.7062937062937064
+Probe,bicycle,Avoid X,24,word_count,-0.022620420829699586
+Probe,bicycle,Neutral X,24,distance_y,0.6223776223776225
+Probe,bicycle,Neutral X,24,word_count,-0.04147077152111591
+Probe,boat,Avoid X,24,distance_y,0.4545454545454546
+Probe,boat,Avoid X,24,word_count,-0.6794091084146111
+Probe,boat,Neutral X,24,distance_y,0.4265734265734266
+Probe,boat,Neutral X,24,word_count,-0.7175781594491396
+Probe,bus,Avoid X,24,distance_y,-0.3216783216783217
+Probe,bus,Avoid X,24,word_count,-0.07392044870643041
+Probe,bus,Neutral X,24,distance_y,-0.3216783216783217
+Probe,bus,Neutral X,24,word_count,-0.15951254720861302
+Probe,motorcycle,Avoid X,24,distance_y,0.37762237762237766
+Probe,motorcycle,Avoid X,24,word_count,-0.11508401898678032
+Probe,motorcycle,Neutral X,24,distance_y,0.3846153846153847
+Probe,motorcycle,Neutral X,24,word_count,-0.12429074050572274
