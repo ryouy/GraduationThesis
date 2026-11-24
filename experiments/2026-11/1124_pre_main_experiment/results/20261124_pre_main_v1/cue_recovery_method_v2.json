@@ -1,0 +1,10 @@
+{
+  "github_conflict_retry": true,
+  "github_max_retries": 15,
+  "local_checkpoint_recovery": true,
+  "max_calls_per_band": 30,
+  "method": "incremental_band_generation",
+  "openai_transient_error_retry": true,
+  "preserve_existing_checkpoints": true,
+  "validation_thresholds_changed": false
+}
