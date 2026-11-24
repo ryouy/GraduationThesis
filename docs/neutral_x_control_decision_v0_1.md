@@ -35,7 +35,7 @@ Neutral XはXの名称提示を合わせるが、命令の語数・文法・ト�
 ## 現状
 
 - [x] 対照条件の目的、文面、実験範囲、主要比較、停止規則を文書化
-- [ ] 追加条件のColab実装と検証
+- [x] [Neutral X追加Colab](../experiments/2026-11/1112_qwen_suppression_pilot/qwen_neutral_x_addon_4concepts.ipynb)をGitHubに作成。既存v1から生成・Probe・Logit Lensを継承し、追加条件68入力・340回答だけを処理する構成（**GPUでの実測と実行時検証は未実施**）
 - [ ] 追加340回答の取得・監査
 - [ ] 対応差を集計し、②の完了判断を記録
 
