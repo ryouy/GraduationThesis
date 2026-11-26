@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "84a61e6868ed883c6f5d7baecaad4f8c71481b343145426f6ff082bbca459ffc",
+    "items": [
+      {
+        "id": "cae43e0a2b99da9c9d96",
+        "label": "1",
+        "reason": "Bicycles can be used for transport in urban and rural settings, but the clue refers to two unspecified things."
+      },
+      {
+        "id": "4d478322ca5e184b51dd",
+        "label": "2",
+        "reason": "Jellyfish can pulsate rhythmically and move gracefully through the water."
+      },
+      {
+        "id": "c26a0810c3f5f9f1d160",
+        "label": "2",
+        "reason": "Drumming is commonly performed with sticks or hands to create driving beats."
+      },
+      {
+        "id": "0a63511a2c98b93bfd19",
+        "label": "0",
+        "reason": "“Beast of the Beast” does not identify an insect matching the clue’s body, movement, and teamwork."
+      },
+      {
+        "id": "8bfebad6160f7ac27c98",
+        "label": "0",
+        "reason": "The clue describes falling snow crystals, while the answer suggests raindrops."
+      },
+      {
+        "id": "f7cfd5423102eb7de409",
+        "label": "2",
+        "reason": "Jellyfish are marine organisms, and some migrate seasonally in response to food and reproductive needs."
+      },
+      {
+        "id": "b3b92ad77f86e6f999fb",
+        "label": "1",
+        "reason": "A crate can be stored in a garage or small space, but this is not a distinctive or especially clear fit."
+      },
+      {
+        "id": "c6bb6e708fb376752ab7",
+        "label": "1",
+        "reason": "A beetle fits the insect description, but coordinated group foraging is more characteristic of social insects such as ants."
+      },
+      {
+        "id": "4d9cbcf19734089373c4",
+        "label": "1",
+        "reason": "Scissors have two handles and manipulate materials, but the clue’s pressure-applying gripping surfaces more strongly suggest pliers."
+      },
+      {
+        "id": "2061bb0e35df68f9205f",
+        "label": "2",
+        "reason": "The answer identifies raindrops, which fit the descending spheres and refreshing, revitalizing effect."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"cae43e0a2b99da9c9d96\",\"label\":\"1\",\"reason\":\"Bicycles can be used for transport in urban and rural settings, but the clue refers to two unspecified things.\"},{\"id\":\"4d478322ca5e184b51dd\",\"label\":\"2\",\"reason\":\"Jellyfish can pulsate rhythmically and move gracefully through the water.\"},{\"id\":\"c26a0810c3f5f9f1d160\",\"label\":\"2\",\"reason\":\"Drumming is commonly performed with sticks or hands to create driving beats.\"},{\"id\":\"0a63511a2c98b93bfd19\",\"label\":\"0\",\"reason\":\"“Beast of the Beast” does not identify an insect matching the clue’s body, movement, and teamwork.\"},{\"id\":\"8bfebad6160f7ac27c98\",\"label\":\"0\",\"reason\":\"The clue describes falling snow crystals, while the answer suggests raindrops.\"},{\"id\":\"f7cfd5423102eb7de409\",\"label\":\"2\",\"reason\":\"Jellyfish are marine organisms, and some migrate seasonally in response to food and reproductive needs.\"},{\"id\":\"b3b92ad77f86e6f999fb\",\"label\":\"1\",\"reason\":\"A crate can be stored in a garage or small space, but this is not a distinctive or especially clear fit.\"},{\"id\":\"c6bb6e708fb376752ab7\",\"label\":\"1\",\"reason\":\"A beetle fits the insect description, but coordinated group foraging is more characteristic of social insects such as ants.\"},{\"id\":\"4d9cbcf19734089373c4\",\"label\":\"1\",\"reason\":\"Scissors have two handles and manipulate materials, but the clue’s pressure-applying gripping surfaces more strongly suggest pliers.\"},{\"id\":\"2061bb0e35df68f9205f\",\"label\":\"2\",\"reason\":\"The answer identifies raindrops, which fit the descending spheres and refreshing, revitalizing effect.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 360,
+    "started": "2026-11-26T09:33:08.498169+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 871,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 432,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 697,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1568
+    }
+  }
+}
