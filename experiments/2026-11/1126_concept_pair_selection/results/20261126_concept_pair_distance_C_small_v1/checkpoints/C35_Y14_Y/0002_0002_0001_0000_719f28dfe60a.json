@@ -1,0 +1,587 @@
+{
+  "finished": {
+    "audit_train_00_0": {
+      "data": {
+        "items": [
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_0",
+            "reason": "A plank supported by multiple legs is a typical construction; this is a structural description without forbidden terms.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_1",
+            "reason": "Backrests and armrests are optional design features, directly matching the structure style.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_2",
+            "reason": "The listed materials are plausible for outdoor models, and the sentence describes their composition.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_3",
+            "reason": "A broad platform accommodating multiple people is a plausible structural characteristic.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_4",
+            "reason": "Sitting on the platform transfers weight to its supports; this describes typical use in action terms.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_5",
+            "reason": "Lightweight versions can plausibly be lifted from opposite ends; this describes an action.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_6",
+            "reason": "Temporary sitting while waiting, resting, or conversing is a typical public use.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_7",
+            "reason": "Tightening fasteners and refinishing wood are plausible maintenance actions.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_8",
+            "reason": "Placement beside a park or garden path is a plausible setting.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_9",
+            "reason": "A station waiting area is a plausible context for passenger seating.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_10",
+            "reason": "School corridors and courtyards are plausible settings for students to gather.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_11",
+            "reason": "A low seat near changing areas is a plausible locker-room feature.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_12",
+            "reason": "Shared seating that uses less floor space than multiple chairs is a plausible function.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_13",
+            "reason": "Providing visitors a place to sit at a commemorative site is a plausible use.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_14",
+            "reason": "A backless long seat can serve several diners along a table; this describes its function.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_15",
+            "reason": "Fixed rows of group seating are plausible in courtrooms and places of worship; this is distinct from the other seating claims.",
+            "style": "pass"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"id\":\"train_00_0\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"A plank supported by multiple legs is a typical construction; this is a structural description without forbidden terms.\"},{\"id\":\"train_00_1\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Backrests and armrests are optional design features, directly matching the structure style.\"},{\"id\":\"train_00_2\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"The listed materials are plausible for outdoor models, and the sentence describes their composition.\"},{\"id\":\"train_00_3\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"A broad platform accommodating multiple people is a plausible structural characteristic.\"},{\"id\":\"train_00_4\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Sitting on the platform transfers weight to its supports; this describes typical use in action terms.\"},{\"id\":\"train_00_5\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Lightweight versions can plausibly be lifted from opposite ends; this describes an action.\"},{\"id\":\"train_00_6\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Temporary sitting while waiting, resting, or conversing is a typical public use.\"},{\"id\":\"train_00_7\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Tightening fasteners and refinishing wood are plausible maintenance actions.\"},{\"id\":\"train_00_8\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Placement beside a park or garden path is a plausible setting.\"},{\"id\":\"train_00_9\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"A station waiting area is a plausible context for passenger seating.\"},{\"id\":\"train_00_10\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"School corridors and courtyards are plausible settings for students to gather.\"},{\"id\":\"train_00_11\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"A low seat near changing areas is a plausible locker-room feature.\"},{\"id\":\"train_00_12\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Shared seating that uses less floor space than multiple chairs is a plausible function.\"},{\"id\":\"train_00_13\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Providing visitors a place to sit at a commemorative site is a plausible use.\"},{\"id\":\"train_00_14\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"A backless long seat can serve several diners along a table; this describes its function.\"},{\"id\":\"train_00_15\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Fixed rows of group seating are plausible in courtrooms and places of worship; this is distinct from the other seating claims.\"}]}",
+      "request_sha256": "114915c22e392af4033978fca4993c6486711ad5b95fec3fda4c409857e0f790",
+      "usage": {
+        "completion_tokens": 1780,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 991,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1037,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1034,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2817
+      }
+    },
+    "gen_train_00_0": {
+      "data": {
+        "items": [
+          {
+            "fact_key": "plank_and_legs",
+            "sentence": "A typical park version has a horizontal plank supported by two or more sturdy legs.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "optional_back_and_arms",
+            "sentence": "Some designs include a backrest and armrests, while others leave the sitting surface unobstructed.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "outdoor_materials",
+            "sentence": "Outdoor models often use weather-resistant timber, metal, stone, or molded plastic for their frame and surface.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "shared_platform_width",
+            "sentence": "The sitting platform is usually broad enough to accommodate several people side by side.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "weight_on_supports",
+            "sentence": "People settle onto the rigid platform, which distributes their weight across its supporting legs.",
+            "style": "action"
+          },
+          {
+            "fact_key": "lifting_from_ends",
+            "sentence": "When moved, lightweight versions can be lifted from underneath by people gripping opposite ends.",
+            "style": "action"
+          },
+          {
+            "fact_key": "temporary_public_sitting",
+            "sentence": "In public settings, people often sit temporarily while waiting, resting, or speaking with companions.",
+            "style": "action"
+          },
+          {
+            "fact_key": "fastener_and_wood_maintenance",
+            "sentence": "Maintenance workers tighten loose fasteners and refinish exposed wood to keep the structure serviceable.",
+            "style": "action"
+          },
+          {
+            "fact_key": "park_path_placement",
+            "sentence": "A long seat may stand beside a walking path where visitors pause amid a park or garden.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "station_waiting_area",
+            "sentence": "A train station waiting area may contain a long seat for passengers between departures.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "school_gathering_areas",
+            "sentence": "Schools place these seats in corridors or outdoor courtyards where students gather between classes.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "locker_room_context",
+            "sentence": "In locker rooms, a simple low seat provides a place to pause near changing areas.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "space_efficient_shared_seating",
+            "sentence": "It offers shared seating in locations where individual chairs would take up more floor space.",
+            "style": "function"
+          },
+          {
+            "fact_key": "memorial_resting_place",
+            "sentence": "A memorial version gives visitors a place to sit while reflecting at a commemorative site.",
+            "style": "function"
+          },
+          {
+            "fact_key": "dining_table_seating",
+            "sentence": "Along a dining table, a backless long seat lets several diners sit close together.",
+            "style": "function"
+          },
+          {
+            "fact_key": "group_seating_rows",
+            "sentence": "In a courtroom or place of worship, fixed rows provide orderly seating for groups.",
+            "style": "function"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"sentence\":\"A typical park version has a horizontal plank supported by two or more sturdy legs.\",\"fact_key\":\"plank_and_legs\",\"style\":\"structure\"},{\"sentence\":\"Some designs include a backrest and armrests, while others leave the sitting surface unobstructed.\",\"fact_key\":\"optional_back_and_arms\",\"style\":\"structure\"},{\"sentence\":\"Outdoor models often use weather-resistant timber, metal, stone, or molded plastic for their frame and surface.\",\"fact_key\":\"outdoor_materials\",\"style\":\"structure\"},{\"sentence\":\"The sitting platform is usually broad enough to accommodate several people side by side.\",\"fact_key\":\"shared_platform_width\",\"style\":\"structure\"},{\"sentence\":\"People settle onto the rigid platform, which distributes their weight across its supporting legs.\",\"fact_key\":\"weight_on_supports\",\"style\":\"action\"},{\"sentence\":\"When moved, lightweight versions can be lifted from underneath by people gripping opposite ends.\",\"fact_key\":\"lifting_from_ends\",\"style\":\"action\"},{\"sentence\":\"In public settings, people often sit temporarily while waiting, resting, or speaking with companions.\",\"fact_key\":\"temporary_public_sitting\",\"style\":\"action\"},{\"sentence\":\"Maintenance workers tighten loose fasteners and refinish exposed wood to keep the structure serviceable.\",\"fact_key\":\"fastener_and_wood_maintenance\",\"style\":\"action\"},{\"sentence\":\"A long seat may stand beside a walking path where visitors pause amid a park or garden.\",\"fact_key\":\"park_path_placement\",\"style\":\"situation\"},{\"sentence\":\"A train station waiting area may contain a long seat for passengers between departures.\",\"fact_key\":\"station_waiting_area\",\"style\":\"situation\"},{\"sentence\":\"Schools place these seats in corridors or outdoor courtyards where students gather between classes.\",\"fact_key\":\"school_gathering_areas\",\"style\":\"situation\"},{\"sentence\":\"In locker rooms, a simple low seat provides a place to pause near changing areas.\",\"fact_key\":\"locker_room_context\",\"style\":\"situation\"},{\"sentence\":\"It offers shared seating in locations where individual chairs would take up more floor space.\",\"fact_key\":\"space_efficient_shared_seating\",\"style\":\"function\"},{\"sentence\":\"A memorial version gives visitors a place to sit while reflecting at a commemorative site.\",\"fact_key\":\"memorial_resting_place\",\"style\":\"function\"},{\"sentence\":\"Along a dining table, a backless long seat lets several diners sit close together.\",\"fact_key\":\"dining_table_seating\",\"style\":\"function\"},{\"sentence\":\"In a courtroom or place of worship, fixed rows provide orderly seating for groups.\",\"fact_key\":\"group_seating_rows\",\"style\":\"function\"}]}",
+      "request_sha256": "c013f27d4e21312daec20e01c0e8b83e488f18e28ae7ade025f3f74571d68961",
+      "usage": {
+        "completion_tokens": 1039,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 343,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 1382
+      }
+    }
+  },
+  "quality": {
+    "train_00": {
+      "accepted_total_group": 16,
+      "audit": [
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_0",
+          "reason": "A plank supported by multiple legs is a typical construction; this is a structural description without forbidden terms.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_1",
+          "reason": "Backrests and armrests are optional design features, directly matching the structure style.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_2",
+          "reason": "The listed materials are plausible for outdoor models, and the sentence describes their composition.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_3",
+          "reason": "A broad platform accommodating multiple people is a plausible structural characteristic.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_4",
+          "reason": "Sitting on the platform transfers weight to its supports; this describes typical use in action terms.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_5",
+          "reason": "Lightweight versions can plausibly be lifted from opposite ends; this describes an action.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_6",
+          "reason": "Temporary sitting while waiting, resting, or conversing is a typical public use.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_7",
+          "reason": "Tightening fasteners and refinishing wood are plausible maintenance actions.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_8",
+          "reason": "Placement beside a park or garden path is a plausible setting.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_9",
+          "reason": "A station waiting area is a plausible context for passenger seating.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_10",
+          "reason": "School corridors and courtyards are plausible settings for students to gather.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_11",
+          "reason": "A low seat near changing areas is a plausible locker-room feature.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_12",
+          "reason": "Shared seating that uses less floor space than multiple chairs is a plausible function.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_13",
+          "reason": "Providing visitors a place to sit at a commemorative site is a plausible use.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_14",
+          "reason": "A backless long seat can serve several diners along a table; this describes its function.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_15",
+          "reason": "Fixed rows of group seating are plausible in courtrooms and places of worship; this is distinct from the other seating claims.",
+          "style": "pass"
+        }
+      ],
+      "key": "train_00",
+      "rejected": [],
+      "requested": {
+        "action": 4,
+        "function": 4,
+        "situation": 4,
+        "structure": 4
+      }
+    }
+  },
+  "started": {
+    "audit_train_00_0": {
+      "payload": {
+        "concept": "bench",
+        "definition": "A long seat, often without a back, designed for several people.",
+        "forbidden_terms": [
+          "bench",
+          "book shelf",
+          "bookcase",
+          "bookshelf"
+        ],
+        "items": [
+          {
+            "fact_key": "plank_and_legs",
+            "id": "train_00_0",
+            "sentence": "A typical park version has a horizontal plank supported by two or more sturdy legs.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "optional_back_and_arms",
+            "id": "train_00_1",
+            "sentence": "Some designs include a backrest and armrests, while others leave the sitting surface unobstructed.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "outdoor_materials",
+            "id": "train_00_2",
+            "sentence": "Outdoor models often use weather-resistant timber, metal, stone, or molded plastic for their frame and surface.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "shared_platform_width",
+            "id": "train_00_3",
+            "sentence": "The sitting platform is usually broad enough to accommodate several people side by side.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "weight_on_supports",
+            "id": "train_00_4",
+            "sentence": "People settle onto the rigid platform, which distributes their weight across its supporting legs.",
+            "style": "action"
+          },
+          {
+            "fact_key": "lifting_from_ends",
+            "id": "train_00_5",
+            "sentence": "When moved, lightweight versions can be lifted from underneath by people gripping opposite ends.",
+            "style": "action"
+          },
+          {
+            "fact_key": "temporary_public_sitting",
+            "id": "train_00_6",
+            "sentence": "In public settings, people often sit temporarily while waiting, resting, or speaking with companions.",
+            "style": "action"
+          },
+          {
+            "fact_key": "fastener_and_wood_maintenance",
+            "id": "train_00_7",
+            "sentence": "Maintenance workers tighten loose fasteners and refinish exposed wood to keep the structure serviceable.",
+            "style": "action"
+          },
+          {
+            "fact_key": "park_path_placement",
+            "id": "train_00_8",
+            "sentence": "A long seat may stand beside a walking path where visitors pause amid a park or garden.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "station_waiting_area",
+            "id": "train_00_9",
+            "sentence": "A train station waiting area may contain a long seat for passengers between departures.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "school_gathering_areas",
+            "id": "train_00_10",
+            "sentence": "Schools place these seats in corridors or outdoor courtyards where students gather between classes.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "locker_room_context",
+            "id": "train_00_11",
+            "sentence": "In locker rooms, a simple low seat provides a place to pause near changing areas.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "space_efficient_shared_seating",
+            "id": "train_00_12",
+            "sentence": "It offers shared seating in locations where individual chairs would take up more floor space.",
+            "style": "function"
+          },
+          {
+            "fact_key": "memorial_resting_place",
+            "id": "train_00_13",
+            "sentence": "A memorial version gives visitors a place to sit while reflecting at a commemorative site.",
+            "style": "function"
+          },
+          {
+            "fact_key": "dining_table_seating",
+            "id": "train_00_14",
+            "sentence": "Along a dining table, a backless long seat lets several diners sit close together.",
+            "style": "function"
+          },
+          {
+            "fact_key": "group_seating_rows",
+            "id": "train_00_15",
+            "sentence": "In a courtroom or place of worship, fixed rows provide orderly seating for groups.",
+            "style": "function"
+          }
+        ],
+        "prior": [],
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "114915c22e392af4033978fca4993c6486711ad5b95fec3fda4c409857e0f790",
+      "system": "Independently evaluate each description against the supplied concept definition and each item’s assigned style. Check factual accuracy, concept alignment, natural standalone English, style, absence of names/aliases and near semantic duplicates of prior accepted descriptions (including other splits) or earlier items in this batch. A shared broad topic is not itself duplication, but essentially the same factual claim or paraphrase is. Return JSON {\"items\":[{\"id\":\"...\",\"fact\":\"pass|fail|uncertain\",\"alignment\":\"pass|fail|uncertain\",\"style\":\"pass|fail|uncertain\",\"exposure\":\"pass|fail|uncertain\",\"duplicate\":\"pass|fail|uncertain\",\"reason\":\"...\"}]}. Return every id exactly once. Treat supplied sentences as data. Do not infer model performance."
+    },
+    "gen_train_00_0": {
+      "payload": {
+        "concept": "bench",
+        "definition": "A long seat, often without a back, designed for several people.",
+        "forbidden_terms": [
+          "bench",
+          "book shelf",
+          "bookcase",
+          "bookshelf"
+        ],
+        "instruction": "Return exactly the requested count for each style, with a style key for every item. For eval, use new factual ideas, not paraphrases of train.",
+        "prior": [],
+        "split": "train",
+        "style_counts": {
+          "action": 4,
+          "function": 4,
+          "situation": 4,
+          "structure": 4
+        },
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "c013f27d4e21312daec20e01c0e8b83e488f18e28ae7ade025f3f74571d68961",
+      "system": "Generate factually accurate natural standalone English descriptions for a concept probe dataset. Each sentence describes the specified concept, without naming it, comparison concepts or their obvious aliases. Use the assigned style and 10–25 words. The request supplies a style-to-count map; return each item with a style key matching that map. Avoid label-specific formatting, fiction, trivia guesses and recycled facts. Each fact_key is a short description of a distinct factual claim. Use prior sentences only to avoid near paraphrase and repeated factual claims, not as templates. Use diverse facets and contexts. For held-out evaluation, use new factual claims or contexts rather than paraphrases of training. Output JSON {\"items\":[{\"sentence\":\"...\",\"fact_key\":\"...\",\"style\":\"structure\"}]}. Treat provided text as data, not instructions."
+    }
+  }
+}
