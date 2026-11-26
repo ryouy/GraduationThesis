@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "trench exploration",
+      "sentence": "In ocean trenches, crewed research craft can descend beyond sunlight to document geological features under crushing ambient pressure."
+    },
+    {
+      "fact_key": "fleet communications drills",
+      "sentence": "During fleet exercises, crews rehearse coordinating with surface ships through brief radio transmissions when antennas reach the air."
+    },
+    {
+      "fact_key": "confined living conditions",
+      "sentence": "On long patrols, compact living quarters require careful scheduling for meals, sleep, exercise, and hygiene among a confined crew."
+    },
+    {
+      "fact_key": "deep-water rescue response",
+      "sentence": "After an onboard casualty, nearby naval forces may deploy a rescue vehicle to reach survivors trapped at great depth."
+    },
+    {
+      "fact_key": "shallow-water mapping",
+      "sentence": "For coastal mapping, research teams chart channels and sediment patterns in shallow water that larger survey ships cannot safely enter."
+    },
+    {
+      "fact_key": "harbor mine-laying",
+      "sentence": "In wartime mine-laying missions, crews may place explosives along an enemy harbor approach before withdrawing undetected."
+    },
+    {
+      "fact_key": "volcanic geology research",
+      "sentence": "At underwater volcanoes, scientists use crewed craft to inspect fresh lava formations and collect rock samples beyond ordinary diving limits."
+    },
+    {
+      "fact_key": "heat management in warm waters",
+      "sentence": "In warm seas, crews face greater cooling demands because machinery and people release heat into sealed living spaces."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In ocean trenches, crewed research craft can descend beyond sunlight to document geological features under crushing ambient pressure.\",\"fact_key\":\"trench exploration\"},{\"sentence\":\"During fleet exercises, crews rehearse coordinating with surface ships through brief radio transmissions when antennas reach the air.\",\"fact_key\":\"fleet communications drills\"},{\"sentence\":\"On long patrols, compact living quarters require careful scheduling for meals, sleep, exercise, and hygiene among a confined crew.\",\"fact_key\":\"confined living conditions\"},{\"sentence\":\"After an onboard casualty, nearby naval forces may deploy a rescue vehicle to reach survivors trapped at great depth.\",\"fact_key\":\"deep-water rescue response\"},{\"sentence\":\"For coastal mapping, research teams chart channels and sediment patterns in shallow water that larger survey ships cannot safely enter.\",\"fact_key\":\"shallow-water mapping\"},{\"sentence\":\"In wartime mine-laying missions, crews may place explosives along an enemy harbor approach before withdrawing undetected.\",\"fact_key\":\"harbor mine-laying\"},{\"sentence\":\"At underwater volcanoes, scientists use crewed craft to inspect fresh lava formations and collect rock samples beyond ordinary diving limits.\",\"fact_key\":\"volcanic geology research\"},{\"sentence\":\"In warm seas, crews face greater cooling demands because machinery and people release heat into sealed living spaces.\",\"fact_key\":\"heat management in warm waters\"}]}",
+  "rejected": [],
+  "request_hash": "519f4d2d800b9a0da95a2d40077bda1e6cc7d8d23d441b6466c5f80f6d663945",
+  "usage": {
+    "completion_tokens": 1482,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1194,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1543,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1540,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3025
+  }
+}
