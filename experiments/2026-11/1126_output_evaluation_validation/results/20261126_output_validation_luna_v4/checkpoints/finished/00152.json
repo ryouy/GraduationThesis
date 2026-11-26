@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "f806f557168fbf812739ed4690c10bf1992cf6b991407ed8b647ad83252ea3f6",
+    "items": [
+      {
+        "id": "d120ed39c8f52bd4f4c8",
+        "label": "0",
+        "reason": "Carnotaurus was a carnivore, not a herbivore."
+      },
+      {
+        "id": "2f95ea15dec1b9f9acd5",
+        "label": "1",
+        "reason": "Scissors are an implement, but they cut rather than grip and bend components."
+      },
+      {
+        "id": "0310ce4bac411703f18b",
+        "label": "2",
+        "reason": "Reading enthusiasts naturally describes people who enjoy reading novels in their leisure time."
+      },
+      {
+        "id": "16a0bd236b4df107fdb6",
+        "label": "2",
+        "reason": "Jellyfish are aquatic creatures known to inhabit a wide range of environments."
+      },
+      {
+        "id": "dcc9bb052906f43f0942",
+        "label": "2",
+        "reason": "Jellyfish drift with their body and tentacles and are often found in warm, shallow ocean waters."
+      },
+      {
+        "id": "3ba72f9a389f0d52d385",
+        "label": "2",
+        "reason": "A jellyfish’s soft body and flowing tentacles match the description of a creature gliding through the ocean."
+      },
+      {
+        "id": "2bf0d5587e318f38786a",
+        "label": "1",
+        "reason": "Scissors can be used for crafting and repairs, but they cut rather than firmly hold and shape items."
+      },
+      {
+        "id": "a6f03e52114b6920dcb0",
+        "label": "1",
+        "reason": "“Speedster” suggests something fast, but does not clearly identify a vehicle that can be ridden on various surfaces."
+      },
+      {
+        "id": "bb8963b16b64575ca7f7",
+        "label": "1",
+        "reason": "Elephants use low-frequency sounds to communicate, but “trunk calls” is not a clear name for that method."
+      },
+      {
+        "id": "2626735b7c4f582bd32f",
+        "label": "2",
+        "reason": "A bookcase is a tall structure with flat shelves for displaying or storing items."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"d120ed39c8f52bd4f4c8\",\"label\":\"0\",\"reason\":\"Carnotaurus was a carnivore, not a herbivore.\"},{\"id\":\"2f95ea15dec1b9f9acd5\",\"label\":\"1\",\"reason\":\"Scissors are an implement, but they cut rather than grip and bend components.\"},{\"id\":\"0310ce4bac411703f18b\",\"label\":\"2\",\"reason\":\"Reading enthusiasts naturally describes people who enjoy reading novels in their leisure time.\"},{\"id\":\"16a0bd236b4df107fdb6\",\"label\":\"2\",\"reason\":\"Jellyfish are aquatic creatures known to inhabit a wide range of environments.\"},{\"id\":\"dcc9bb052906f43f0942\",\"label\":\"2\",\"reason\":\"Jellyfish drift with their body and tentacles and are often found in warm, shallow ocean waters.\"},{\"id\":\"3ba72f9a389f0d52d385\",\"label\":\"2\",\"reason\":\"A jellyfish’s soft body and flowing tentacles match the description of a creature gliding through the ocean.\"},{\"id\":\"2bf0d5587e318f38786a\",\"label\":\"1\",\"reason\":\"Scissors can be used for crafting and repairs, but they cut rather than firmly hold and shape items.\"},{\"id\":\"a6f03e52114b6920dcb0\",\"label\":\"1\",\"reason\":\"“Speedster” suggests something fast, but does not clearly identify a vehicle that can be ridden on various surfaces.\"},{\"id\":\"bb8963b16b64575ca7f7\",\"label\":\"1\",\"reason\":\"Elephants use low-frequency sounds to communicate, but “trunk calls” is not a clear name for that method.\"},{\"id\":\"2626735b7c4f582bd32f\",\"label\":\"2\",\"reason\":\"A bookcase is a tall structure with flat shelves for displaying or storing items.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 470,
+    "started": "2026-11-26T09:35:00.614218+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 722,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 299,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 660,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1382
+    }
+  }
+}
