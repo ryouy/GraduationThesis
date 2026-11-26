@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "level_pedals_on_descents",
+      "sentence": "On a descent, riders often keep the pedals level so neither pedal catches the ground while cornering."
+    },
+    {
+      "fact_key": "bent_joints_on_rough_terrain",
+      "sentence": "On bumpy trails, flexed elbows and knees absorb impacts and help keep the tires in contact with the surface."
+    },
+    {
+      "fact_key": "standing_for_steep_climbs",
+      "sentence": "During a short, steep climb, a rider may stand on the pedals to apply force through each stroke."
+    },
+    {
+      "fact_key": "following_distance_in_groups",
+      "sentence": "In a group, riders leave enough space ahead to react safely if the person in front slows suddenly."
+    },
+    {
+      "fact_key": "arm_signals_in_traffic",
+      "sentence": "Before turning in traffic, a rider can extend an arm to communicate the intended direction to nearby road users."
+    },
+    {
+      "fact_key": "low_centered_cargo",
+      "sentence": "Cargo is more stable when secured low and centered, reducing the effect of shifting weight on steering."
+    },
+    {
+      "fact_key": "drying_and_lubricating_after_rain",
+      "sentence": "After riding through rain, drying exposed metal parts and lubricating the chain helps limit corrosion and wear."
+    },
+    {
+      "fact_key": "walking_while_dismounted",
+      "sentence": "When walking through a crowded area, a rider dismounts and guides the frame by its handlebars."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"On a descent, riders often keep the pedals level so neither pedal catches the ground while cornering.\",\"fact_key\":\"level_pedals_on_descents\"},{\"sentence\":\"On bumpy trails, flexed elbows and knees absorb impacts and help keep the tires in contact with the surface.\",\"fact_key\":\"bent_joints_on_rough_terrain\"},{\"sentence\":\"During a short, steep climb, a rider may stand on the pedals to apply force through each stroke.\",\"fact_key\":\"standing_for_steep_climbs\"},{\"sentence\":\"In a group, riders leave enough space ahead to react safely if the person in front slows suddenly.\",\"fact_key\":\"following_distance_in_groups\"},{\"sentence\":\"Before turning in traffic, a rider can extend an arm to communicate the intended direction to nearby road users.\",\"fact_key\":\"arm_signals_in_traffic\"},{\"sentence\":\"Cargo is more stable when secured low and centered, reducing the effect of shifting weight on steering.\",\"fact_key\":\"low_centered_cargo\"},{\"sentence\":\"After riding through rain, drying exposed metal parts and lubricating the chain helps limit corrosion and wear.\",\"fact_key\":\"drying_and_lubricating_after_rain\"},{\"sentence\":\"When walking through a crowded area, a rider dismounts and guides the frame by its handlebars.\",\"fact_key\":\"walking_while_dismounted\"}]}",
+  "rejected": [],
+  "request_hash": "3fc48400db12735abb0c372e7c612aa76029358e923d687806ae2b8d4d559f05",
+  "usage": {
+    "completion_tokens": 1277,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 987,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1026,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2303
+  }
+}
