@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "96fbd285823a949e319230d7da7ff357577501d800254090da3ccef5379bb7bb",
+    "items": [
+      {
+        "id": "a77efc85e4ba6030673a",
+        "label": "no",
+        "reason": "Cacti are a different plant; retaining moisture is merely associated with aloe."
+      },
+      {
+        "id": "cb03c2919e16398fd41a",
+        "label": "no",
+        "reason": "A beetle is a different insect, not a dragonfly."
+      },
+      {
+        "id": "abb0b817faa8b3457874",
+        "label": "no",
+        "reason": "A drum is a related percussion instrument, but not specifically a tambourine."
+      },
+      {
+        "id": "d2df5d7dd8742cf3d4c7",
+        "label": "yes",
+        "reason": "The answer directly identifies a jellyfish."
+      },
+      {
+        "id": "66fc2fcd21216be5bc63",
+        "label": "no",
+        "reason": "A rain shower is precipitation, not snow."
+      },
+      {
+        "id": "ec83f14234191c97fdfc",
+        "label": "no",
+        "reason": "A cheetah is a different animal, not an elephant."
+      },
+      {
+        "id": "7d0a5b7c2c1ccc3b4366",
+        "label": "no",
+        "reason": "The phrase does not identify a dragonfly."
+      },
+      {
+        "id": "fc1ed34557abad4718e1",
+        "label": "yes",
+        "reason": "The answer directly identifies a bookshelf."
+      },
+      {
+        "id": "9167c186cba69496bcac",
+        "label": "yes",
+        "reason": "Raindrops refer to rain."
+      },
+      {
+        "id": "97e2d6287ca0df2d30d0",
+        "label": "no",
+        "reason": "The phrase does not identify a drum."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"a77efc85e4ba6030673a\",\"label\":\"no\",\"reason\":\"Cacti are a different plant; retaining moisture is merely associated with aloe.\"},{\"id\":\"cb03c2919e16398fd41a\",\"label\":\"no\",\"reason\":\"A beetle is a different insect, not a dragonfly.\"},{\"id\":\"abb0b817faa8b3457874\",\"label\":\"no\",\"reason\":\"A drum is a related percussion instrument, but not specifically a tambourine.\"},{\"id\":\"d2df5d7dd8742cf3d4c7\",\"label\":\"yes\",\"reason\":\"The answer directly identifies a jellyfish.\"},{\"id\":\"66fc2fcd21216be5bc63\",\"label\":\"no\",\"reason\":\"A rain shower is precipitation, not snow.\"},{\"id\":\"ec83f14234191c97fdfc\",\"label\":\"no\",\"reason\":\"A cheetah is a different animal, not an elephant.\"},{\"id\":\"7d0a5b7c2c1ccc3b4366\",\"label\":\"no\",\"reason\":\"The phrase does not identify a dragonfly.\"},{\"id\":\"fc1ed34557abad4718e1\",\"label\":\"yes\",\"reason\":\"The answer directly identifies a bookshelf.\"},{\"id\":\"9167c186cba69496bcac\",\"label\":\"yes\",\"reason\":\"Raindrops refer to rain.\"},{\"id\":\"97e2d6287ca0df2d30d0\",\"label\":\"no\",\"reason\":\"The phrase does not identify a drum.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 400,
+    "started": "2026-11-26T08:22:09.073698+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 455,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 113,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 538,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 993
+    }
+  }
+}
