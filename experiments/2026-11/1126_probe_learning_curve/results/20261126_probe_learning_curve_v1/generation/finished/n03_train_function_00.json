@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "concealed_recycling_sorting",
+      "sentence": "In kitchens, a pull-out waste bin can separate recycling from general rubbish while keeping containers out of sight."
+    },
+    {
+      "fact_key": "two_sided_room_divider",
+      "sentence": "Placed between work areas, a two-sided unit can divide a room while remaining accessible from either side."
+    },
+    {
+      "fact_key": "concealing_sink_plumbing",
+      "sentence": "A fitted enclosure can conceal plumbing beneath a sink while leaving doors available for routine repairs."
+    },
+    {
+      "fact_key": "keeping_tools_above_workbenches",
+      "sentence": "In workshops, wall-mounted compartments keep hand tools reachable above benches, preserving scarce work surface."
+    },
+    {
+      "fact_key": "separating_kitchen_chemicals",
+      "sentence": "In commercial kitchens, separate locked compartments can keep cleaning chemicals apart from food-contact equipment and utensils."
+    },
+    {
+      "fact_key": "securing_important_documents",
+      "sentence": "At home, a lockable unit can keep passports and other important documents together but inaccessible to casual visitors."
+    },
+    {
+      "fact_key": "salon_supplies_near_stations",
+      "sentence": "A salon may use enclosed storage near styling stations to keep spare towels and hair products close at hand."
+    },
+    {
+      "fact_key": "protecting_museum_objects",
+      "sentence": "In museums, enclosed display spaces can limit visitors' direct contact with fragile objects while keeping them visible."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In kitchens, a pull-out waste bin can separate recycling from general rubbish while keeping containers out of sight.\",\"fact_key\":\"concealed_recycling_sorting\"},{\"sentence\":\"Placed between work areas, a two-sided unit can divide a room while remaining accessible from either side.\",\"fact_key\":\"two_sided_room_divider\"},{\"sentence\":\"A fitted enclosure can conceal plumbing beneath a sink while leaving doors available for routine repairs.\",\"fact_key\":\"concealing_sink_plumbing\"},{\"sentence\":\"In workshops, wall-mounted compartments keep hand tools reachable above benches, preserving scarce work surface.\",\"fact_key\":\"keeping_tools_above_workbenches\"},{\"sentence\":\"In commercial kitchens, separate locked compartments can keep cleaning chemicals apart from food-contact equipment and utensils.\",\"fact_key\":\"separating_kitchen_chemicals\"},{\"sentence\":\"At home, a lockable unit can keep passports and other important documents together but inaccessible to casual visitors.\",\"fact_key\":\"securing_important_documents\"},{\"sentence\":\"A salon may use enclosed storage near styling stations to keep spare towels and hair products close at hand.\",\"fact_key\":\"salon_supplies_near_stations\"},{\"sentence\":\"In museums, enclosed display spaces can limit visitors' direct contact with fragile objects while keeping them visible.\",\"fact_key\":\"protecting_museum_objects\"}]}",
+  "rejected": [],
+  "request_hash": "a790f55337a2ada2883fa93fa31ab425a576364904a9a73738f34947259494de",
+  "usage": {
+    "completion_tokens": 1603,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1319,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1918,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1915,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3521
+  }
+}
