@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "243e08a22fc1c49279dd93ce37d48247bc747d9c2f5067239f78116b0bab94b7",
+    "items": [
+      {
+        "id": "5523b25eff33c8c95a2a",
+        "label": "yes",
+        "reason": "Describes a drum producing sound, identifying the instrument."
+      },
+      {
+        "id": "f412cc2591a7a3d00ec1",
+        "label": "no",
+        "reason": "An organized collective is unrelated to a dragonfly."
+      },
+      {
+        "id": "eb034d0dd6a5943004cb",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from pineapple."
+      },
+      {
+        "id": "b69fe867020d3cd0caca",
+        "label": "yes",
+        "reason": "Names scissors directly."
+      },
+      {
+        "id": "371b8557003634ba5079",
+        "label": "no",
+        "reason": "Describes drumming as an activity, not a tambourine."
+      },
+      {
+        "id": "283ab0c1f01a8a1c02b2",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from banana."
+      },
+      {
+        "id": "b276b31285fdaca7e3ac",
+        "label": "no",
+        "reason": "A desert succulent is a broad class, not specifically aloe."
+      },
+      {
+        "id": "70efb5e651c779ff51df",
+        "label": "yes",
+        "reason": "Raindrops clearly refer to rain."
+      },
+      {
+        "id": "ade1723c33a0d2dd626e",
+        "label": "yes",
+        "reason": "Names the elephant and describes its role."
+      },
+      {
+        "id": "855fcd2fb2ca5edbf1be",
+        "label": "no",
+        "reason": "A collection shelf is not specifically a cabinet."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"5523b25eff33c8c95a2a\",\"label\":\"yes\",\"reason\":\"Describes a drum producing sound, identifying the instrument.\"},{\"id\":\"f412cc2591a7a3d00ec1\",\"label\":\"no\",\"reason\":\"An organized collective is unrelated to a dragonfly.\"},{\"id\":\"eb034d0dd6a5943004cb\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from pineapple.\"},{\"id\":\"b69fe867020d3cd0caca\",\"label\":\"yes\",\"reason\":\"Names scissors directly.\"},{\"id\":\"371b8557003634ba5079\",\"label\":\"no\",\"reason\":\"Describes drumming as an activity, not a tambourine.\"},{\"id\":\"283ab0c1f01a8a1c02b2\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from banana.\"},{\"id\":\"b276b31285fdaca7e3ac\",\"label\":\"no\",\"reason\":\"A desert succulent is a broad class, not specifically aloe.\"},{\"id\":\"70efb5e651c779ff51df\",\"label\":\"yes\",\"reason\":\"Raindrops clearly refer to rain.\"},{\"id\":\"ade1723c33a0d2dd626e\",\"label\":\"yes\",\"reason\":\"Names the elephant and describes its role.\"},{\"id\":\"855fcd2fb2ca5edbf1be\",\"label\":\"no\",\"reason\":\"A collection shelf is not specifically a cabinet.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 440,
+    "started": "2026-11-26T08:22:45.612442+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 613,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 282,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 545,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1158
+    }
+  }
+}
