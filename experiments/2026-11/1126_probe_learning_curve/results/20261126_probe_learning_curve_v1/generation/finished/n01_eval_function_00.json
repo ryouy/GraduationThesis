@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "low_impact_garden_travel",
+      "sentence": "In botanical gardens, riders can move between planting beds without causing the soil compaction associated with heavier maintenance vehicles."
+    },
+    {
+      "fact_key": "dirt_track_competition",
+      "sentence": "On purpose-built dirt tracks, riders race over rollers and berms, developing speed control and balance."
+    },
+    {
+      "fact_key": "industrial_site_inspections",
+      "sentence": "At sprawling industrial sites, staff ride between distant buildings, avoiding fuel use and freeing service vehicles for heavier loads."
+    },
+    {
+      "fact_key": "quiet_travel_on_film_sets",
+      "sentence": "During film production, crew members ride quietly between nearby sets, avoiding engine noise that could disrupt location recordings."
+    },
+    {
+      "fact_key": "emergency_device_charging",
+      "sentence": "A pedal-driven generator converts leg effort into electricity, offering a small-scale way to charge devices during power outages."
+    },
+    {
+      "fact_key": "motor_assistance_on_steep_commutes",
+      "sentence": "In mountain towns, motor assistance can make steep commutes manageable for riders who would otherwise avoid the climb."
+    },
+    {
+      "fact_key": "easier_mounting_with_step_through_frame",
+      "sentence": "A low step-through frame makes mounting easier for riders who cannot comfortably swing a leg over a high top tube."
+    },
+    {
+      "fact_key": "festival_site_travel",
+      "sentence": "At large outdoor festivals, staff ride between stages and service areas without navigating vehicle traffic."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In botanical gardens, riders can move between planting beds without causing the soil compaction associated with heavier maintenance vehicles.\",\"fact_key\":\"low_impact_garden_travel\"},{\"sentence\":\"On purpose-built dirt tracks, riders race over rollers and berms, developing speed control and balance.\",\"fact_key\":\"dirt_track_competition\"},{\"sentence\":\"At sprawling industrial sites, staff ride between distant buildings, avoiding fuel use and freeing service vehicles for heavier loads.\",\"fact_key\":\"industrial_site_inspections\"},{\"sentence\":\"During film production, crew members ride quietly between nearby sets, avoiding engine noise that could disrupt location recordings.\",\"fact_key\":\"quiet_travel_on_film_sets\"},{\"sentence\":\"A pedal-driven generator converts leg effort into electricity, offering a small-scale way to charge devices during power outages.\",\"fact_key\":\"emergency_device_charging\"},{\"sentence\":\"In mountain towns, motor assistance can make steep commutes manageable for riders who would otherwise avoid the climb.\",\"fact_key\":\"motor_assistance_on_steep_commutes\"},{\"sentence\":\"A low step-through frame makes mounting easier for riders who cannot comfortably swing a leg over a high top tube.\",\"fact_key\":\"easier_mounting_with_step_through_frame\"},{\"sentence\":\"At large outdoor festivals, staff ride between stages and service areas without navigating vehicle traffic.\",\"fact_key\":\"festival_site_travel\"}]}",
+  "rejected": [],
+  "request_hash": "575a81a4df521bfc2f112346155f8e79ece08699832ba8b63bff73bc64682320",
+  "usage": {
+    "completion_tokens": 3602,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3283,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 3355,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 3352,
+      "cached_tokens": 0
+    },
+    "total_tokens": 6957
+  }
+}
