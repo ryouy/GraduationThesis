@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "ccd6d44d5cfc6d3769575655c47d1500ce2407d7ec4ade8857036609d5177ab3",
+    "items": [
+      {
+        "id": "05ba99bb8b4470936861",
+        "label": "2",
+        "reason": "A drum is a round percussion instrument with a vibrating taut surface."
+      },
+      {
+        "id": "bce2d1e21721387fde61",
+        "label": "1",
+        "reason": "It describes a possible animal trait but does not identify a particular animal."
+      },
+      {
+        "id": "0b010dc4c8a61a7bf76d",
+        "label": "1",
+        "reason": "A jellyfish is marine, but the answer does not clearly fit the clue's emphasis on navigating open waters."
+      },
+      {
+        "id": "6904727684c648b46cbd",
+        "label": "1",
+        "reason": "It gestures at strength but does not identify the food-carrying insect, such as an ant."
+      },
+      {
+        "id": "b087ce1a683035fe69d9",
+        "label": "1",
+        "reason": "It gestures at strength but does not identify the food-carrying insect, such as an ant."
+      },
+      {
+        "id": "2a1836d824dfa6e52bed",
+        "label": "1",
+        "reason": "It describes lively drumming at celebrations, but does not name the small percussion tool."
+      },
+      {
+        "id": "14f4dc7df0835265e48c",
+        "label": "1",
+        "reason": "A bookshelf could organize items and enhance decor, but “sticky note” makes the answer unclear and does not fit the clue."
+      },
+      {
+        "id": "9b74ecb1521d8dbdae56",
+        "label": "2",
+        "reason": "Cacti store moisture in arid environments and their spines help defend against herbivores."
+      },
+      {
+        "id": "bbd8811270bcadf52229",
+        "label": "1",
+        "reason": "It suggests a crafting device, but remains too generic to clearly identify a tool that holds and shapes items."
+      },
+      {
+        "id": "f927bed5213c242e06ff",
+        "label": "2",
+        "reason": "A bookcase is a tall, multi-level structure used to display and organize items."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"05ba99bb8b4470936861\",\"label\":\"2\",\"reason\":\"A drum is a round percussion instrument with a vibrating taut surface.\"},{\"id\":\"bce2d1e21721387fde61\",\"label\":\"1\",\"reason\":\"It describes a possible animal trait but does not identify a particular animal.\"},{\"id\":\"0b010dc4c8a61a7bf76d\",\"label\":\"1\",\"reason\":\"A jellyfish is marine, but the answer does not clearly fit the clue's emphasis on navigating open waters.\"},{\"id\":\"6904727684c648b46cbd\",\"label\":\"1\",\"reason\":\"It gestures at strength but does not identify the food-carrying insect, such as an ant.\"},{\"id\":\"b087ce1a683035fe69d9\",\"label\":\"1\",\"reason\":\"It gestures at strength but does not identify the food-carrying insect, such as an ant.\"},{\"id\":\"2a1836d824dfa6e52bed\",\"label\":\"1\",\"reason\":\"It describes lively drumming at celebrations, but does not name the small percussion tool.\"},{\"id\":\"14f4dc7df0835265e48c\",\"label\":\"1\",\"reason\":\"A bookshelf could organize items and enhance decor, but “sticky note” makes the answer unclear and does not fit the clue.\"},{\"id\":\"9b74ecb1521d8dbdae56\",\"label\":\"2\",\"reason\":\"Cacti store moisture in arid environments and their spines help defend against herbivores.\"},{\"id\":\"bbd8811270bcadf52229\",\"label\":\"1\",\"reason\":\"It suggests a crafting device, but remains too generic to clearly identify a tool that holds and shapes items.\"},{\"id\":\"f927bed5213c242e06ff\",\"label\":\"2\",\"reason\":\"A bookcase is a tall, multi-level structure used to display and organize items.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 230,
+    "started": "2026-11-26T09:30:47.024361+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 776,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 360,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 698,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1474
+    }
+  }
+}
