@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C01_action_medium_far_0_0",
+        "reason": "Criterium racing and cornering strongly evoke bicycles; no rack-specific fact or target name appears.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_action_unrelated_0_0",
+        "reason": "Baking dough is unrelated to bicycles and racks.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_function_far_0_2",
+        "reason": "Road-safety skills such as signaling and judging traffic apply to bicycle riders, but say nothing about racks.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_function_medium_near_0_2",
+        "reason": "Practicing balance before riding on streets strongly evokes learning to ride a bicycle; no rack fact is described.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_function_near_0_2",
+        "reason": "Protected lanes and low-speed travel are explainably associated with bicycles, not with bicycle storage.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_function_very_near_0_2",
+        "reason": "Human-powered travel can include bicycles, though the wording is broader; it does not describe a rack.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_situation_far_0_4",
+        "reason": "A rental kiosk and paths weakly suggest a bicycle-rental setting but do not identify the vehicle or a rack.",
+        "x_related": 1,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_situation_medium_near_0_4",
+        "reason": "Unlocking a rental ride between attractions suggests bicycle sharing; rental stations are only weakly associated with racks, and no rack-specific fact is stated.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_situation_near_0_4",
+        "reason": "Gravel, descents, and balance evoke bicycle trail riding; nothing describes bicycle storage.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_situation_very_near_0_4",
+        "reason": "Pedaling home with cargo strongly evokes a bicycle; the cargo frame is only weakly related to a rack and is not described as holding a bicycle.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_structure_medium_far_0_2",
+        "reason": "A folding frame is explainably associated with a bicycle, while a foldable rack is also possible; the clue does not state that it holds or secures bicycles.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_structure_unrelated_0_2",
+        "reason": "The clue describes leaf anatomy, unrelated to bicycles or racks.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C01_action_medium_far_0_0\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Criterium racing and cornering strongly evoke bicycles; no rack-specific fact or target name appears.\"},{\"id\":\"gen_C01_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Baking dough is unrelated to bicycles and racks.\"},{\"id\":\"gen_C01_function_far_0_2\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Road-safety skills such as signaling and judging traffic apply to bicycle riders, but say nothing about racks.\"},{\"id\":\"gen_C01_function_medium_near_0_2\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Practicing balance before riding on streets strongly evokes learning to ride a bicycle; no rack fact is described.\"},{\"id\":\"gen_C01_function_near_0_2\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Protected lanes and low-speed travel are explainably associated with bicycles, not with bicycle storage.\"},{\"id\":\"gen_C01_function_very_near_0_2\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Human-powered travel can include bicycles, though the wording is broader; it does not describe a rack.\"},{\"id\":\"gen_C01_situation_far_0_4\",\"x_related\":1,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A rental kiosk and paths weakly suggest a bicycle-rental setting but do not identify the vehicle or a rack.\"},{\"id\":\"gen_C01_situation_medium_near_0_4\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Unlocking a rental ride between attractions suggests bicycle sharing; rental stations are only weakly associated with racks, and no rack-specific fact is stated.\"},{\"id\":\"gen_C01_situation_near_0_4\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Gravel, descents, and balance evoke bicycle trail riding; nothing describes bicycle storage.\"},{\"id\":\"gen_C01_situation_very_near_0_4\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Pedaling home with cargo strongly evokes a bicycle; the cargo frame is only weakly related to a rack and is not described as holding a bicycle.\"},{\"id\":\"gen_C01_structure_medium_far_0_2\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A folding frame is explainably associated with a bicycle, while a foldable rack is also possible; the clue does not state that it holds or secures bicycles.\"},{\"id\":\"gen_C01_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The clue describes leaf anatomy, unrelated to bicycles or racks.\"}]}",
+  "usage": {
+    "completion_tokens": 1982,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1258,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 690,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2672
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C35_action_medium_near_0_0",
+        "reason": "Choosing a mystery from a collection suggests books and their storage, but does not identify a bookshelf. No hammer-related content.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_action_unrelated_0_0",
+        "reason": "The cue concerns kayaking and has no apparent connection to either item.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_function_medium_far_0_2",
+        "reason": "A dedicated display for novels strongly suggests book-storage furniture, without naming it. No hammer-related content.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_function_near_0_2",
+        "reason": "Arranging reading material vertically to save space closely describes a bookshelf’s function. No hammer-related content.",
+        "x_related": 4,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_function_very_near_0_3",
+        "reason": "A tiered arrangement for displaying prized or newly chosen books closely evokes bookshelf structure and use. No hammer-related content.",
+        "x_related": 4,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_situation_far_0_0",
+        "reason": "A row of novels in a study makes book storage plausible, but does not specify a bookshelf. No hammer-related content.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_situation_far_0_2",
+        "reason": "The cue mentions household novels and a study, but only as context for a repair. No hammer-related content.",
+        "x_related": 1,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_situation_medium_far_0_4",
+        "reason": "A professor’s library and its books are weakly related to bookshelf context; no furniture is described. No hammer-related content.",
+        "x_related": 1,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_situation_near_0_4",
+        "reason": "Choosing a story from a family collection concerns reading material, but does not describe its storage. No hammer-related content.",
+        "x_related": 1,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_situation_very_near_0_4",
+        "reason": "Picture books displayed facing outward strongly suggest book-display furniture, though none is named. No hammer-related content.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_structure_medium_near_0_2",
+        "reason": "A collection of book spines forming a colorful focal point on a study wall strongly suggests bookshelf display. No hammer-related content.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_structure_unrelated_0_2",
+        "reason": "The cue describes a shell’s growth pattern and has no apparent connection to either item.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C35_action_medium_near_0_0\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Choosing a mystery from a collection suggests books and their storage, but does not identify a bookshelf. No hammer-related content.\"},{\"id\":\"gen_C35_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The cue concerns kayaking and has no apparent connection to either item.\"},{\"id\":\"gen_C35_function_medium_far_0_2\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A dedicated display for novels strongly suggests book-storage furniture, without naming it. No hammer-related content.\"},{\"id\":\"gen_C35_function_near_0_2\",\"x_related\":4,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Arranging reading material vertically to save space closely describes a bookshelf’s function. No hammer-related content.\"},{\"id\":\"gen_C35_function_very_near_0_3\",\"x_related\":4,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A tiered arrangement for displaying prized or newly chosen books closely evokes bookshelf structure and use. No hammer-related content.\"},{\"id\":\"gen_C35_situation_far_0_0\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A row of novels in a study makes book storage plausible, but does not specify a bookshelf. No hammer-related content.\"},{\"id\":\"gen_C35_situation_far_0_2\",\"x_related\":1,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The cue mentions household novels and a study, but only as context for a repair. No hammer-related content.\"},{\"id\":\"gen_C35_situation_medium_far_0_4\",\"x_related\":1,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A professor’s library and its books are weakly related to bookshelf context; no furniture is described. No hammer-related content.\"},{\"id\":\"gen_C35_situation_near_0_4\",\"x_related\":1,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Choosing a story from a family collection concerns reading material, but does not describe its storage. No hammer-related content.\"},{\"id\":\"gen_C35_situation_very_near_0_4\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Picture books displayed facing outward strongly suggest book-display furniture, though none is named. No hammer-related content.\"},{\"id\":\"gen_C35_structure_medium_near_0_2\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A collection of book spines forming a colorful focal point on a study wall strongly suggests bookshelf display. No hammer-related content.\"},{\"id\":\"gen_C35_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The cue describes a shell’s growth pattern and has no apparent connection to either item.\"}]}",
+  "usage": {
+    "completion_tokens": 1696,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 975,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 689,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2385
+  }
+}

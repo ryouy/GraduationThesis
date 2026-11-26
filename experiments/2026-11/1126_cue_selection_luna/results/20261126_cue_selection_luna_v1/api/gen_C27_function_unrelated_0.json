@@ -1,0 +1,28 @@
+{
+  "data": {
+    "cues": [
+      "A smoke detector sounds an alarm when airborne particles indicate a possible fire.",
+      "The courthouse clock helps visitors coordinate appointments by displaying the current time above the entrance.",
+      "A torque wrench limits tightening force, reducing the risk of damage to threaded fasteners.",
+      "Reflective lane markers guide drivers through curves after dark, improving visibility along unlit roads.",
+      "A library catalog helps readers locate books by author, subject, or title."
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 278,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 180,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2934,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2931,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3212
+  }
+}

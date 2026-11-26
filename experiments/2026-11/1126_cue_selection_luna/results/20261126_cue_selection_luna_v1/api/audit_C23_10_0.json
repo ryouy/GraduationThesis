@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_near_0_4",
+        "naturalness": 5,
+        "reason": "Lacquer and silver plating are plausible finishes for either brass instrument.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_near_0_5",
+        "naturalness": 4,
+        "reason": "The one-hand support and operated controls fit a trumpet, though the description is not uniquely identifying.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_medium_near_0_0",
+        "naturalness": 4,
+        "reason": "A removable mouthpiece that can fit in a pocket is plausible for either instrument.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_medium_near_0_1",
+        "naturalness": 5,
+        "reason": "A forward-facing bell and parade use are plausible for both instruments.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_medium_near_0_2",
+        "naturalness": 5,
+        "reason": "Trumpets have an adjustable tuning slide, though the feature is not exclusive to them.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_medium_near_0_3",
+        "naturalness": 5,
+        "reason": "Gold lacquer and silver finishes are plausible on either instrument.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_medium_near_0_4",
+        "naturalness": 4,
+        "reason": "The compact size fits a trumpet better than a trombone; the seated assembly context is plausible.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_medium_near_0_5",
+        "naturalness": 4,
+        "reason": "A finger ring near the valves can help steady a trumpet, especially for a young player; this is not typical trombone structure.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_medium_far_0_0",
+        "naturalness": 4,
+        "reason": "A leadpipe brace and coiled tubing fit a trumpet; the wording is broadly plausible but not a particularly precise description.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_medium_far_0_1",
+        "naturalness": 5,
+        "reason": "The third-slide ring is a distinctive trumpet feature and can help lower pitch for intonation.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1400,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 754,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 650,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2050
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "algorithm": "v2 corrected style column plus post-selection constraints",
+  "input_path": "experiments/2026-11/1126_cue_selection_luna/results/20261126_cue_selection_luna_v1",
+  "input_ref": "experiments/cue-selection-luna-v1",
+  "input_sha256": "be48364c113d57171e87b4b61bced56b262ec178d2edfe4afb9c888558c2eb1f",
+  "settings": {
+    "A": [
+      0.08,
+      0.01
+    ],
+    "B": [
+      0.06,
+      0.02
+    ],
+    "C": [
+      0.04,
+      0.03
+    ],
+    "D": [
+      0.02,
+      0.04
+    ]
+  },
+  "status": "exploratory",
+  "y_half_widths": [
+    0.05,
+    0.075,
+    0.1
+  ]
+}

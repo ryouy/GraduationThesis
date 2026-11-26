@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C01_action_medium_far_0_0",
+        "reason": "Criterium racing and sheltering from wind strongly evoke bicycle racing; no air-pump-specific fact.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_action_unrelated_0_0",
+        "reason": "Baking dough is unrelated to either definition.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_function_far_0_2",
+        "reason": "Road-safety instruction could apply to bicycle users, but it describes travelers generally.",
+        "x_related": 1,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_function_medium_near_0_2",
+        "reason": "Practicing balance before riding neighborhood streets plausibly describes learning to ride a bicycle, but does not name one.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_function_near_0_2",
+        "reason": "Protected lanes and low-speed travel strongly relate to bicycle infrastructure; no pump-specific fact.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_function_very_near_0_2",
+        "reason": "Human-powered travel replacing car trips strongly encompasses bicycle use, but says nothing specific about an air pump.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_situation_far_0_4",
+        "reason": "A rental kiosk and paths could involve bicycles, but the mode is unstated.",
+        "x_related": 1,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_situation_medium_near_0_4",
+        "reason": "Unlocking a rental ride between attractions plausibly describes shared bicycles, without specifying the vehicle.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_situation_near_0_4",
+        "reason": "Gravel, descents, and balance plausibly relate to bicycle riding on trails, but could describe other activities.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_situation_very_near_0_4",
+        "reason": "Pedaling home with cargo on a frame strongly evokes a bicycle; no air-pump-specific fact.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_structure_medium_far_0_2",
+        "reason": "A folding frame plausibly describes a bicycle structure, but does not name one or concern a pump.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_structure_unrelated_0_2",
+        "reason": "Leaf veins are unrelated to either definition.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C01_action_medium_far_0_0\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Criterium racing and sheltering from wind strongly evoke bicycle racing; no air-pump-specific fact.\"},{\"id\":\"gen_C01_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Baking dough is unrelated to either definition.\"},{\"id\":\"gen_C01_function_far_0_2\",\"x_related\":1,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Road-safety instruction could apply to bicycle users, but it describes travelers generally.\"},{\"id\":\"gen_C01_function_medium_near_0_2\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Practicing balance before riding neighborhood streets plausibly describes learning to ride a bicycle, but does not name one.\"},{\"id\":\"gen_C01_function_near_0_2\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Protected lanes and low-speed travel strongly relate to bicycle infrastructure; no pump-specific fact.\"},{\"id\":\"gen_C01_function_very_near_0_2\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Human-powered travel replacing car trips strongly encompasses bicycle use, but says nothing specific about an air pump.\"},{\"id\":\"gen_C01_situation_far_0_4\",\"x_related\":1,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A rental kiosk and paths could involve bicycles, but the mode is unstated.\"},{\"id\":\"gen_C01_situation_medium_near_0_4\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Unlocking a rental ride between attractions plausibly describes shared bicycles, without specifying the vehicle.\"},{\"id\":\"gen_C01_situation_near_0_4\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Gravel, descents, and balance plausibly relate to bicycle riding on trails, but could describe other activities.\"},{\"id\":\"gen_C01_situation_very_near_0_4\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Pedaling home with cargo on a frame strongly evokes a bicycle; no air-pump-specific fact.\"},{\"id\":\"gen_C01_structure_medium_far_0_2\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A folding frame plausibly describes a bicycle structure, but does not name one or concern a pump.\"},{\"id\":\"gen_C01_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Leaf veins are unrelated to either definition.\"}]}",
+  "usage": {
+    "completion_tokens": 1446,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 773,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 689,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2135
+  }
+}

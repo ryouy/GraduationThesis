@@ -1,0 +1,29 @@
+{
+  "data": {
+    "cues": [
+      "At an orchestra's tuning break, the principal player sounds a reference note before other sections adjust.",
+      "During a baseball game, a musician plays a short charge tune as the home team approaches the plate.",
+      "At a military flag-raising, a player sounds a ceremonial call while the gathered crowd stands at attention.",
+      "At a school pep rally, the brass section launches the fight song, prompting students to sing along.",
+      "In a wedding procession, a musician adds a bright entrance flourish as the couple walks into the reception.",
+      "At a memorial service, a lone player performs a measured closing call as guests stand in silence."
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1943,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1788,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1074,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1071,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3017
+  }
+}

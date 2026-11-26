@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_far_0_1",
+        "naturalness": 5,
+        "reason": "Assembling panels with threaded fasteners strongly suggests screws and a screwdriver; the fasteners could weakly suggest other turning tools.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_far_0_2",
+        "naturalness": 5,
+        "reason": "Backing out tiny threaded fasteners strongly suggests screws and a screwdriver, without naming the tool.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_far_0_3",
+        "naturalness": 5,
+        "reason": "Watering seedlings and checking soil is plausible and unrelated to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_far_0_4",
+        "naturalness": 5,
+        "reason": "The crabs and receding waves are plausible and unrelated to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_far_0_5",
+        "naturalness": 5,
+        "reason": "Waiting for dough to rise and shaping rolls is plausible and unrelated to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_unrelated_0_0",
+        "naturalness": 5,
+        "reason": "Water draining through garden beds into a pond is plausible and unrelated to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_unrelated_0_1",
+        "naturalness": 5,
+        "reason": "An orchestra warming up while the audience takes seats is plausible and unrelated to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_unrelated_0_2",
+        "naturalness": 5,
+        "reason": "Yeast causing dough to develop air pockets while it rests is plausible and unrelated to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_unrelated_0_3",
+        "naturalness": 5,
+        "reason": "Geese circling and settling among marsh reeds is plausible and unrelated to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_unrelated_0_4",
+        "naturalness": 5,
+        "reason": "A watercolor wash drying in layered bands is plausible and unrelated to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1015,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 391,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 629,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1644
+  }
+}

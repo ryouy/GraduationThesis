@@ -1,0 +1,103 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_4_situation_0_0",
+        "naturalness": 4,
+        "reason": "A plausible coastal outing; paved paths suggest cycling, while the harbor and coast only weakly evoke a submarine.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_4_situation_0_1",
+        "naturalness": 4,
+        "reason": "Marked trails and independent sightseeing fit cycling but could also involve walking; the island setting weakly evokes underwater travel.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_4_situation_0_2",
+        "naturalness": 4,
+        "reason": "Quiet lanes between shoreline stops suggest a possible cycling excursion; coves and docks provide only a weak maritime link.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_4_situation_0_3",
+        "naturalness": 4,
+        "reason": "Mapped greenways and a touring route strongly suggest cycling, though the marina is only a weak link to a submarine.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_4_situation_0_4",
+        "naturalness": 4,
+        "reason": "Waterfront paths suit cycling, but the clue does not specify a mode of travel; harbors and beaches weakly evoke a submarine.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_4_situation_0_5",
+        "naturalness": 4,
+        "reason": "Paved routes between field-trip stops could be used by bicycle; boat landings are only indirectly related to a submarine.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_4_situation_0_6",
+        "naturalness": 4,
+        "reason": "Rental kiosks near a ferry terminal and waterfront paths strongly suggest bicycle rentals, while the ferry setting weakly evokes a submarine.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_4_situation_0_7",
+        "naturalness": 4,
+        "reason": "A long-distance touring itinerary could be a cycling route, but its mode is unstated; rivers and estuaries weakly evoke underwater travel.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 1
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1188,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 595,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 594,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1782
+  }
+}

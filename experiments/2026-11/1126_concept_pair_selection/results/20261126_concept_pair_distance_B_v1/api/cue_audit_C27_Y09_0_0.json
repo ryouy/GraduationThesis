@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C27_action_far_0_0",
+        "reason": "Describes a green cooking banana or plantain preparation; apple is only implicated by the broad fruit context. No direct name or obvious alias appears.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_action_medium_far_0_0",
+        "reason": "Supporting heavily laden flowering stems is strongly associated with banana cultivation, not with an apple-specific fact.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_action_unrelated_0_0",
+        "reason": "Pressure-gauge calibration is unrelated to either fruit.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_function_medium_near_0_2",
+        "reason": "Mashed fruit sweetening porridge strongly suggests banana; apples could also be used in porridge, but no apple-specific fact is described.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_function_near_0_3",
+        "reason": "Using chopped water-rich stalks as mulch is strongly associated with banana plants and is not an apple-specific fact.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_function_very_near_0_4",
+        "reason": "Starch from unripe fruit as a film feedstock is strongly compatible with banana; the fruit wording gives only a weak general connection to apple.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_situation_medium_near_0_4",
+        "reason": "Taking a whole piece of portable fruit without utensils strongly suggests banana; an apple is also portable, but no apple-specific fact is stated.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "fail",
+        "id": "gen_C27_situation_near_0_3",
+        "reason": "PLU code 4011 and the familiar yellow produce description distinctly identify banana, an obvious alias-like cue. It does not describe an apple-specific fact.",
+        "x_related": 4,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_situation_very_near_0_4",
+        "reason": "Creamy fruit puree in a rum-and-lime cocktail strongly suggests banana; the general fruit context offers only a weak connection to apple.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_structure_far_0_3",
+        "reason": "The botanical berry description and non-spherical familiar form distinctly fit banana; apple is not described.",
+        "x_related": 4,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_structure_medium_far_0_3",
+        "reason": "Tiny undeveloped seeds in creamy pulp distinctly describe many cultivated bananas, not an apple-specific fact.",
+        "x_related": 4,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_structure_unrelated_0_2",
+        "reason": "The map description is unrelated to either fruit; “crisp” describes the creases, not an apple-specific property.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C27_action_far_0_0\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Describes a green cooking banana or plantain preparation; apple is only implicated by the broad fruit context. No direct name or obvious alias appears.\"},{\"id\":\"gen_C27_action_medium_far_0_0\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Supporting heavily laden flowering stems is strongly associated with banana cultivation, not with an apple-specific fact.\"},{\"id\":\"gen_C27_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Pressure-gauge calibration is unrelated to either fruit.\"},{\"id\":\"gen_C27_function_medium_near_0_2\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Mashed fruit sweetening porridge strongly suggests banana; apples could also be used in porridge, but no apple-specific fact is described.\"},{\"id\":\"gen_C27_function_near_0_3\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Using chopped water-rich stalks as mulch is strongly associated with banana plants and is not an apple-specific fact.\"},{\"id\":\"gen_C27_function_very_near_0_4\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Starch from unripe fruit as a film feedstock is strongly compatible with banana; the fruit wording gives only a weak general connection to apple.\"},{\"id\":\"gen_C27_situation_medium_near_0_4\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Taking a whole piece of portable fruit without utensils strongly suggests banana; an apple is also portable, but no apple-specific fact is stated.\"},{\"id\":\"gen_C27_situation_near_0_3\",\"x_related\":4,\"y_related\":0,\"exposure\":\"fail\",\"y_specific\":\"no\",\"reason\":\"PLU code 4011 and the familiar yellow produce description distinctly identify banana, an obvious alias-like cue. It does not describe an apple-specific fact.\"},{\"id\":\"gen_C27_situation_very_near_0_4\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Creamy fruit puree in a rum-and-lime cocktail strongly suggests banana; the general fruit context offers only a weak connection to apple.\"},{\"id\":\"gen_C27_structure_far_0_3\",\"x_related\":4,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The botanical berry description and non-spherical familiar form distinctly fit banana; apple is not described.\"},{\"id\":\"gen_C27_structure_medium_far_0_3\",\"x_related\":4,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Tiny undeveloped seeds in creamy pulp distinctly describe many cultivated bananas, not an apple-specific fact.\"},{\"id\":\"gen_C27_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The map description is unrelated to either fruit; “crisp” describes the creases, not an apple-specific property.\"}]}",
+  "usage": {
+    "completion_tokens": 2004,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1251,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 694,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2698
+  }
+}

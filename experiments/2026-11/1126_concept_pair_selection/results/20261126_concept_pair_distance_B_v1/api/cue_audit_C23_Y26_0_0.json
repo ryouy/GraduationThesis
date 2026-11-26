@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C23_action_far_0_0",
+        "reason": "Mouthpiece and brass-instrument practice are relevant to trumpet playing and share practice context with a practice mute, but no mute or volume reduction is described.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_action_unrelated_0_0",
+        "reason": "The clue concerns baking and has no relevant instrument or mute content.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_action_very_near_0_0",
+        "reason": "Using valves and breath to change pitch strongly describes trumpet-like playing; the brass-instrument context alone is only weakly related to a practice mute.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_action_very_near_0_2",
+        "reason": "Fingers shifting controls while maintaining breath suggests wind-instrument playing, but does not distinctly identify a trumpet; no mute-specific fact is given.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_function_medium_far_0_3",
+        "reason": "Scooping notes in jazz is compatible with trumpet playing but also applies to other instruments; the clue gives no practice-mute context.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_function_medium_near_0_3",
+        "reason": "Cheerful notes at a gathering provide only a weak, generic musical association and say nothing about a practice mute.",
+        "x_related": 1,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_function_near_0_2",
+        "reason": "Clear, carrying fanfare notes strongly evoke trumpet use, while the brass-performance context is not a fact specific to a practice mute.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_situation_far_0_1",
+        "reason": "A brassy flourish in a procession is compatible with trumpet, though not distinctive; no mute or reduced-volume practice is described.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_situation_medium_far_0_3",
+        "reason": "A bright orchestral flourish could involve trumpet but does not identify it; the clue has no practice-mute-specific content.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_situation_medium_near_0_4",
+        "reason": "A brass player contributing harmony is relevant to trumpet but does not distinguish it from other brass instruments; no mute-specific fact appears.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_situation_near_0_4",
+        "reason": "A brass section at a football game could include trumpet, but the clue describes only shared performance context, not a practice mute.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_structure_unrelated_0_2",
+        "reason": "The clue concerns a folding ladder and has no relevant instrument or mute content.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C23_action_far_0_0\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Mouthpiece and brass-instrument practice are relevant to trumpet playing and share practice context with a practice mute, but no mute or volume reduction is described.\"},{\"id\":\"gen_C23_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The clue concerns baking and has no relevant instrument or mute content.\"},{\"id\":\"gen_C23_action_very_near_0_0\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Using valves and breath to change pitch strongly describes trumpet-like playing; the brass-instrument context alone is only weakly related to a practice mute.\"},{\"id\":\"gen_C23_action_very_near_0_2\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Fingers shifting controls while maintaining breath suggests wind-instrument playing, but does not distinctly identify a trumpet; no mute-specific fact is given.\"},{\"id\":\"gen_C23_function_medium_far_0_3\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Scooping notes in jazz is compatible with trumpet playing but also applies to other instruments; the clue gives no practice-mute context.\"},{\"id\":\"gen_C23_function_medium_near_0_3\",\"x_related\":1,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Cheerful notes at a gathering provide only a weak, generic musical association and say nothing about a practice mute.\"},{\"id\":\"gen_C23_function_near_0_2\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Clear, carrying fanfare notes strongly evoke trumpet use, while the brass-performance context is not a fact specific to a practice mute.\"},{\"id\":\"gen_C23_situation_far_0_1\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A brassy flourish in a procession is compatible with trumpet, though not distinctive; no mute or reduced-volume practice is described.\"},{\"id\":\"gen_C23_situation_medium_far_0_3\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A bright orchestral flourish could involve trumpet but does not identify it; the clue has no practice-mute-specific content.\"},{\"id\":\"gen_C23_situation_medium_near_0_4\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A brass player contributing harmony is relevant to trumpet but does not distinguish it from other brass instruments; no mute-specific fact appears.\"},{\"id\":\"gen_C23_situation_near_0_4\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A brass section at a football game could include trumpet, but the clue describes only shared performance context, not a practice mute.\"},{\"id\":\"gen_C23_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The clue concerns a folding ladder and has no relevant instrument or mute content.\"}]}",
+  "usage": {
+    "completion_tokens": 1999,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1239,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 685,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2684
+  }
+}

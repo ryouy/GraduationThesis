@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_very_near_0_0",
+        "naturalness": 5,
+        "reason": "Three piston valves are standard on many trumpets; the contrast with a sliding tube also weakly evokes the trombone.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_very_near_0_1",
+        "naturalness": 5,
+        "reason": "Compact coiled tubing and a flared bell plausibly describe a trumpet, though coiled brass tubing is not exclusive to it.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_very_near_0_2",
+        "naturalness": 5,
+        "reason": "Trumpet mouthpieces are typically shallow and suit a bright upper register; trombones also use cup mouthpieces, generally deeper ones.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_very_near_0_3",
+        "naturalness": 5,
+        "reason": "A largely cylindrical bore that flares at the bell describes a trumpet, but also fits a trombone.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 3
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_very_near_0_4",
+        "naturalness": 5,
+        "reason": "Bell-inserted mutes are common for trumpets, but trombones also use them.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 3
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_very_near_0_5",
+        "naturalness": 5,
+        "reason": "The fanfare role and bright sound are plausible, but this describes sound and ensemble function rather than structure.",
+        "style": "fail",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_near_0_0",
+        "naturalness": 4,
+        "reason": "Trumpet valve combinations provide alternate fingerings, sometimes useful for intonation; this is only weakly relevant to a slide trombone.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_near_0_1",
+        "naturalness": 4,
+        "reason": "B-flat trumpets are common and piccolo trumpets have shorter tubing, though the B-flat detail also applies to trombones.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_near_0_2",
+        "naturalness": 5,
+        "reason": "A water key is a plausible structural feature of both trumpet and trombone tubing.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_near_0_3",
+        "naturalness": 4,
+        "reason": "Some trumpets, including piccolo models, have a fourth valve for extending the low range or alternate fingerings; valve attachments also occur on trombones.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 2
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1879,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1163,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 633,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2512
+  }
+}

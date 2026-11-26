@@ -1,0 +1,43 @@
+{
+  "api_generation_calls": 0,
+  "checkpoints": {
+    "C01": "c6086c16ce69c63c72480c98853073b27d7ee80f0c4233be315f8da003a9dbd8",
+    "C23": "f9f3afac3e1247fff012eca819ba82135df19aeccb8b1c1b38717e565704d905",
+    "C27": "b4fb68750d4dcdb507327f951eed0aee77664ba3768da7ba71324609e9a80b0f",
+    "C35": "aacfa447c4d9f5b3845a4fa038c1fd8af817c1bb4627bd5235b8dd0104af1546",
+    "C37": "2e8287f15e53b20641972363b6f03cc4579fa17ac49d766eabb1662a36dfc94c"
+  },
+  "config_sha256": "e548f0621cb5340a93adf0203f853ad46aa45977b3350786c1f965b6fa2008bf",
+  "files": {
+    "C_linked.csv": "90dec93923ce5015e93ac03b1ba26d57b334115a0c5c0f44838fe8bfa99c6c3a",
+    "D_replication.csv": "57422394d5722df705eba28519c7fbe5239ffac53b1192e4583baeabb13ac104",
+    "aggregate.csv": "c1b72921506af9116a5757a0b75cefed767cf65e4201290528daad63684a66a5",
+    "analysis_summary.md": "94806f945af5b20795743250b7bf4cf2003ec3455fab2984b34735668e7003d3",
+    "complete_only.csv": "4497356195a292e3f4299a163b49123278b0b38a1c4c9012d32ce063d9a559c8",
+    "config.json": "e548f0621cb5340a93adf0203f853ad46aa45977b3350786c1f965b6fa2008bf",
+    "distance_group_summary.csv": "cdb38830ffe0ab3c3986ec431740697051f8fff55a6c41b10dc486618069c4b6",
+    "figures/abs_rho.png": "c74c8c41a32bfcc6aee16979a75e043c8870260a7d4bb8584f9e6085170882dc",
+    "figures/dx_span.png": "27fbed518155d8c569622b9d1752684f48ca7ae99a272f7ba5f92ae6ae381775",
+    "figures/min_dx_mean_gap.png": "0e1ac0b1f23a77a5d5bd3b2efa5dd289a3c361ed29979c15173cba044958c50b",
+    "figures/min_realized_dx_gap.png": "af1105ed214c4ab3ed8c01699c28e81410f8d880346182e1991699705689bcbf",
+    "figures/spread.png": "da6c3370f1a568da7afe14112e7a0fb6cd8379fe44062bbef0bd2cfcc240743b",
+    "figures/success_rates.png": "ff1daba548d62bad1ede021dbb5e779a6ad92424059050827253d036cd4e7e7e",
+    "missing_slots.csv": "40dbb188fe44ec687c351f2467b3f6d437f495d3ada389026c1f0a040d1f21fe",
+    "paired_comparison.csv": "abd41385ef69d3dedaad88fdc77195010fdc86841b6629b6c732d0b84065ef9f",
+    "search_runs.csv": "1ff936be033af4bffc2b68f34786339be67e6b7dce56fe254cf6ed4414547a56",
+    "selected_PROVISIONAL.csv": "f274b899714b3985bc6ca0ee3f6a80e66ef45efc49f758ba47042132ebd9cffd",
+    "selected_pairs.csv": "c2a33a20ee425b90d238d8d81bea0b5adf297e4bd5f75a8d2aa92cd59820929f",
+    "slot_inventory.csv": "ff61cf628bbe84c80b6189e9dbf3a802cbc084c5661b466c1b327a0fde74ae0d",
+    "summary.csv": "e67fa3b77144b4931b188e465c06d2c2039563e39547ba7cf1d8091191a0f250",
+    "x_summary.csv": "00bd9efaf753ce892ce754c1a831f9eed7d4b880bbe405b74d9059a9d3be35cc"
+  },
+  "n_anchors": 5,
+  "n_primary": 75,
+  "status": "complete_exploratory",
+  "versions": {
+    "matplotlib": "3.10.0",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3"
+  }
+}

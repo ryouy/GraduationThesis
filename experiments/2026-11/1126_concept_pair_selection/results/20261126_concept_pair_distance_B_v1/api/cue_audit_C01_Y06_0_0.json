@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C01_action_medium_far_0_0",
+        "reason": "Criterium racing, cornering, and teammates sheltering one another are distinctive cycling cues; no kick-scooter-specific fact is given.",
+        "x_related": 4,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_action_unrelated_0_0",
+        "reason": "The clue concerns baking and is unrelated to either vehicle.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_function_far_0_2",
+        "reason": "Traffic-safety skills can apply to both kinds of wheeled travel, without identifying either vehicle.",
+        "x_related": 2,
+        "y_related": 2,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_function_medium_near_0_2",
+        "reason": "Practicing balance before neighborhood travel is relevant to both, but is not specific to kick scooters.",
+        "x_related": 2,
+        "y_related": 2,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_function_near_0_2",
+        "reason": "Protected lanes are strongly associated with bicycle travel and can also serve scooters; the clue does not identify a particular vehicle.",
+        "x_related": 3,
+        "y_related": 2,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_function_very_near_0_2",
+        "reason": "Replacing car trips with human-powered travel applies to both vehicles but does not describe a kick-scooter-specific fact.",
+        "x_related": 3,
+        "y_related": 3,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_situation_far_0_4",
+        "reason": "A rental kiosk and paths suggest recreational travel, but do not specify which vehicle is rented.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_situation_medium_near_0_4",
+        "reason": "Unlocking a rental ride for a short trip fits several shared-mobility vehicles, including bicycles and scooters.",
+        "x_related": 2,
+        "y_related": 2,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_situation_near_0_4",
+        "reason": "Gravel and steep descents make this strongly suggest bicycle trail riding; it does not describe a scooter-specific feature.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_situation_very_near_0_4",
+        "reason": "Pedaling and a cargo frame are distinctive bicycle cues and do not describe a kick scooter.",
+        "x_related": 4,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_structure_medium_far_0_2",
+        "reason": "A folding frame can apply to bicycles or scooters, so it does not distinguish the kick scooter.",
+        "x_related": 2,
+        "y_related": 2,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_structure_unrelated_0_2",
+        "reason": "The clue describes maple-leaf structure and is unrelated to either vehicle.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C01_action_medium_far_0_0\",\"x_related\":4,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Criterium racing, cornering, and teammates sheltering one another are distinctive cycling cues; no kick-scooter-specific fact is given.\"},{\"id\":\"gen_C01_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The clue concerns baking and is unrelated to either vehicle.\"},{\"id\":\"gen_C01_function_far_0_2\",\"x_related\":2,\"y_related\":2,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Traffic-safety skills can apply to both kinds of wheeled travel, without identifying either vehicle.\"},{\"id\":\"gen_C01_function_medium_near_0_2\",\"x_related\":2,\"y_related\":2,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Practicing balance before neighborhood travel is relevant to both, but is not specific to kick scooters.\"},{\"id\":\"gen_C01_function_near_0_2\",\"x_related\":3,\"y_related\":2,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Protected lanes are strongly associated with bicycle travel and can also serve scooters; the clue does not identify a particular vehicle.\"},{\"id\":\"gen_C01_function_very_near_0_2\",\"x_related\":3,\"y_related\":3,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Replacing car trips with human-powered travel applies to both vehicles but does not describe a kick-scooter-specific fact.\"},{\"id\":\"gen_C01_situation_far_0_4\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A rental kiosk and paths suggest recreational travel, but do not specify which vehicle is rented.\"},{\"id\":\"gen_C01_situation_medium_near_0_4\",\"x_related\":2,\"y_related\":2,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Unlocking a rental ride for a short trip fits several shared-mobility vehicles, including bicycles and scooters.\"},{\"id\":\"gen_C01_situation_near_0_4\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Gravel and steep descents make this strongly suggest bicycle trail riding; it does not describe a scooter-specific feature.\"},{\"id\":\"gen_C01_situation_very_near_0_4\",\"x_related\":4,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Pedaling and a cargo frame are distinctive bicycle cues and do not describe a kick scooter.\"},{\"id\":\"gen_C01_structure_medium_far_0_2\",\"x_related\":2,\"y_related\":2,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A folding frame can apply to bicycles or scooters, so it does not distinguish the kick scooter.\"},{\"id\":\"gen_C01_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The clue describes maple-leaf structure and is unrelated to either vehicle.\"}]}",
+  "usage": {
+    "completion_tokens": 1629,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 928,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 691,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2320
+  }
+}

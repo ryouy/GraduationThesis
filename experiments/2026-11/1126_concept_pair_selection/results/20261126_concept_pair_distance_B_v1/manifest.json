@@ -1,0 +1,53 @@
+{
+  "config_sha256": "7bdb9622d4c2925ce998d3f37ca53cf2f2ebd2b354277f986cb6908daa4c9b0f",
+  "embedding_revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+  "files": {
+    "analysis_summary.md": "85a51ef6de15e7515f1f7ad9b13b3a75c5973441073817f8a6e32d338ad581cc",
+    "api_usage.csv": "2e516ce014dd80fa7885823b29597ef63bdc9ee7f4a9331c76ee91d120eccdc9",
+    "candidate_audit.json": "c6599ebcbc416fbafbb2fc1ede9013d86091d337e587b8cc13cb0164cba48226",
+    "candidate_coverage.csv": "c52ec26f8f97c3cf7ce9b0e9bd70a42b1106b0ab07f8292ba19137ee7e5b386d",
+    "candidate_pairs.csv": "3b22a0157d018dcbeb9e6c847cbe12866881182c8e2c14c64697514a3e566a98",
+    "category_overlap_descriptive.csv": "890693690f2f6d62c5ee336417b6a76f57337da0f47fb65c3d30ef39578a16da",
+    "concept_definitions.csv": "4e2937e5c448ddbefab79b7b099dd77db580a89827c8b98d9c0d043acac68ec8",
+    "config.json": "7bdb9622d4c2925ce998d3f37ca53cf2f2ebd2b354277f986cb6908daa4c9b0f",
+    "cue_audit_sample_ids.json": "da69bc5023d5cc656d1d89ef0537f6a1162324feef9cffcff8bea2e5807342e9",
+    "cue_band_dy_summary.csv": "bdafc4f2df8aff74cbf6c4126551f97a2e2220aba13cc33a3a78be85de2b2611",
+    "cue_distance_correlations.csv": "f1e13eba7d6ab3cc0230f8fd97e1f1963b3eb2da942554643d535a7026e5cffe",
+    "cue_distances_all_eligible.csv": "c685baccf0c2fcddbd942f509afc1189246af4841ce38a980de51cbc807874ae",
+    "cue_semantic_audit.csv": "f72fdaaf5197a0c14b906bb697637effff38364e272ee22e003cf3593954c8bd",
+    "cue_slot_inventory.csv": "cbfb56e0ab06750c0d351b16bdfcd04678e342dedc7963783c1e30fdd2b57cf8",
+    "cue_structural_feasibility.csv": "e5821e5dc182f57a1dccfac9d424ea37cde93d707f8041e08f207295c90d7fa5",
+    "distance_band_comparison.csv": "2bff96d0cb010949a7efd31659c3b883e865a6136ceb1e0d4e83fbe25f6d8927",
+    "figures/abs_spearman.png": "b0097692e0d133413949e25cb88af5206ade2fcaf68aa438f3a1a5e3562881af",
+    "figures/band_mean_spread.png": "20638fb8b7f7650f2dc361ef701e6eac77fd8d35ee468ba8dd75aa6d37b7b654",
+    "figures/candidate_distance_histograms.png": "7ad66744460487c69a153c5711ce1376f97a349bf750d100552db9a2c3af0c1c",
+    "generated_candidates.json": "ee3c76d76ff825f267e82e988752b5319a2de525a7eddb7330ee9abee220318f",
+    "within_x_associations.csv": "b85026dd57a4c7cd3ac7bd88e16eac14f8f6a0acdffdb8ee8aeb07ddc70802f1",
+    "within_x_direction_summary.csv": "0c2466d9e363f37f943c64455ffd41300d6567b0030339563b3cfb10439b4d09",
+    "xy_distance.csv": "ac845a33b6cb6f3b87253eb8c45db50cee7b556956feff8a12a8b28b9f2614e1"
+  },
+  "input_sha256": {
+    "bounds": "ce0b57df782ef6b64c8bbd4ddbc529bf9dacd817460fff1087f98d7a6b6cd0b4",
+    "config": "aee9906a097c52a37d4ff57bc7d10f314a619d43c6ea9c51da18630dc61c9386",
+    "cue": "be48364c113d57171e87b4b61bced56b262ec178d2edfe4afb9c888558c2eb1f",
+    "definitions": "9b8f043d520e0ce623b1888cfc0264f05cdfa7cfe41aa1171fc24fe17f2685f3"
+  },
+  "n_anchors": 5,
+  "n_api_attempts": 95,
+  "n_primary": 75,
+  "python": "3.13.18",
+  "seed": 42,
+  "source_A_ref": "25856eaaf00c2aa10ea104093d5b47466674d3bb",
+  "source_ref": "c9f8d3d563f51d6bead9a3221dfa81554d23102d",
+  "status": "complete_exploratory",
+  "tokenizer_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "versions": {
+    "numpy": "2.4.6",
+    "openai": "2.54.0",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "sentence-transformers": "3.4.1",
+    "torch": "2.14.1+cpu",
+    "transformers": "4.50.3"
+  }
+}

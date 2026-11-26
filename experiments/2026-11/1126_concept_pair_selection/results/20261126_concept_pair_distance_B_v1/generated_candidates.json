@@ -1,0 +1,1911 @@
+[
+  {
+    "aliases": [
+      "motorbike"
+    ],
+    "candidate_id": "C01_Y01",
+    "category": "vehicles",
+    "concept": "motorcycle",
+    "definition": "A motorized two-wheeled road vehicle steered by handlebars and powered by an engine.",
+    "group": "same_close",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y02",
+    "category": "vehicles",
+    "concept": "moped",
+    "definition": "A lightweight motorized two-wheeler, often equipped with pedals and limited engine power.",
+    "group": "same_close",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y03",
+    "category": "vehicles",
+    "concept": "unicycle",
+    "definition": "A single-wheeled vehicle balanced and propelled by a rider using pedals.",
+    "group": "same_close",
+    "pair": "C01"
+  },
+  {
+    "aliases": [
+      "trike"
+    ],
+    "candidate_id": "C01_Y04",
+    "category": "vehicles",
+    "concept": "tricycle",
+    "definition": "A three-wheeled human-powered vehicle, commonly ridden by children or used for cargo.",
+    "group": "same_close",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y05",
+    "category": "vehicles",
+    "concept": "skateboard",
+    "definition": "A short board mounted on four small wheels, ridden standing and propelled by foot pushes.",
+    "group": "same_close",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y06",
+    "category": "vehicles",
+    "concept": "kick scooter",
+    "definition": "A narrow standing platform with handlebars and small wheels, propelled by pushing against the ground.",
+    "group": "same_close",
+    "pair": "C01"
+  },
+  {
+    "aliases": [
+      "kart"
+    ],
+    "candidate_id": "C01_Y07",
+    "category": "vehicles",
+    "concept": "go-kart",
+    "definition": "A small, low, open motor vehicle built for racing on compact tracks.",
+    "group": "same_close",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y08",
+    "category": "vehicles",
+    "concept": "rickshaw",
+    "definition": "A lightweight passenger cart pulled or pedaled by a person, commonly used for short trips.",
+    "group": "same_close",
+    "pair": "C01"
+  },
+  {
+    "aliases": [
+      "automobile"
+    ],
+    "candidate_id": "C01_Y09",
+    "category": "vehicles",
+    "concept": "car",
+    "definition": "A road vehicle with an enclosed body, usually carrying a small number of passengers.",
+    "group": "same_medium",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y10",
+    "category": "vehicles",
+    "concept": "bus",
+    "definition": "A large road vehicle designed to carry many passengers along scheduled or chartered routes.",
+    "group": "same_medium",
+    "pair": "C01"
+  },
+  {
+    "aliases": [
+      "lorry"
+    ],
+    "candidate_id": "C01_Y11",
+    "category": "vehicles",
+    "concept": "truck",
+    "definition": "A motor vehicle built primarily to transport cargo in a separate bed or compartment.",
+    "group": "same_medium",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y12",
+    "category": "vehicles",
+    "concept": "van",
+    "definition": "A box-shaped road vehicle with an enclosed cargo area or several passenger seats.",
+    "group": "same_medium",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y13",
+    "category": "vehicles",
+    "concept": "train",
+    "definition": "A series of connected rail vehicles pulled or pushed along a track by a locomotive.",
+    "group": "same_medium",
+    "pair": "C01"
+  },
+  {
+    "aliases": [
+      "aeroplane",
+      "plane"
+    ],
+    "candidate_id": "C01_Y14",
+    "category": "vehicles",
+    "concept": "airplane",
+    "definition": "A powered aircraft with fixed wings that travels through the air carrying people or cargo.",
+    "group": "same_medium",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y15",
+    "category": "vehicles",
+    "concept": "boat",
+    "definition": "A small watercraft used for travel, recreation, fishing, or carrying people and supplies.",
+    "group": "same_medium",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y16",
+    "category": "vehicles",
+    "concept": "tractor",
+    "definition": "A powerful farm vehicle designed to pull equipment and perform work across fields.",
+    "group": "same_medium",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y17",
+    "category": "vehicles",
+    "concept": "ambulance",
+    "definition": "A vehicle equipped to transport patients and provide emergency medical care en route.",
+    "group": "same_weak",
+    "pair": "C01"
+  },
+  {
+    "aliases": [
+      "fire truck"
+    ],
+    "candidate_id": "C01_Y18",
+    "category": "vehicles",
+    "concept": "fire engine",
+    "definition": "A large emergency response vehicle carrying hoses, water, ladders, and firefighting equipment.",
+    "group": "same_weak",
+    "pair": "C01"
+  },
+  {
+    "aliases": [
+      "cab"
+    ],
+    "candidate_id": "C01_Y19",
+    "category": "vehicles",
+    "concept": "taxi",
+    "definition": "A passenger vehicle available for hire, typically taking customers to chosen destinations.",
+    "group": "same_weak",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y20",
+    "category": "vehicles",
+    "concept": "helicopter",
+    "definition": "An aircraft lifted and propelled by horizontally rotating overhead blades.",
+    "group": "same_weak",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y21",
+    "category": "vehicles",
+    "concept": "sailboat",
+    "definition": "A watercraft propelled primarily by wind acting on sails attached to a mast.",
+    "group": "same_weak",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y22",
+    "category": "vehicles",
+    "concept": "canoe",
+    "definition": "A narrow, lightweight watercraft paddled by seated occupants using single-bladed paddles.",
+    "group": "same_weak",
+    "pair": "C01"
+  },
+  {
+    "aliases": [
+      "sled"
+    ],
+    "candidate_id": "C01_Y23",
+    "category": "vehicles",
+    "concept": "snowmobile",
+    "definition": "A motorized vehicle with skis and a continuous track for traveling over snow.",
+    "group": "same_weak",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y24",
+    "category": "vehicles",
+    "concept": "delivery van",
+    "definition": "A commercial road vehicle used to carry parcels or goods to homes and businesses.",
+    "group": "same_weak",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y25",
+    "category": "protective_equipment",
+    "concept": "helmet",
+    "definition": "Protective headwear with a hard shell and shock-absorbing lining, worn to reduce impact injuries.",
+    "group": "different_related",
+    "pair": "C01"
+  },
+  {
+    "aliases": [
+      "spanner"
+    ],
+    "candidate_id": "C01_Y26",
+    "category": "tools",
+    "concept": "wrench",
+    "definition": "A hand tool with shaped jaws or a socket for turning nuts and bolts.",
+    "group": "different_related",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y27",
+    "category": "tools",
+    "concept": "air pump",
+    "definition": "A device that compresses and moves air into tires or other inflatable objects.",
+    "group": "different_related",
+    "pair": "C01"
+  },
+  {
+    "aliases": [
+      "tyre lever"
+    ],
+    "candidate_id": "C01_Y28",
+    "category": "tools",
+    "concept": "tire lever",
+    "definition": "A small rigid tool used to lift a tire bead over a wheel rim.",
+    "group": "different_related",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y29",
+    "category": "tools",
+    "concept": "lock",
+    "definition": "A fastening device opened by a key, combination, or electronic credential.",
+    "group": "different_related",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y30",
+    "category": "containers",
+    "concept": "water bottle",
+    "definition": "A reusable narrow-necked container for carrying drinking liquid.",
+    "group": "different_related",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y31",
+    "category": "clothing",
+    "concept": "cycling jersey",
+    "definition": "A close-fitting athletic shirt designed for comfort and moisture control during riding.",
+    "group": "different_related",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y32",
+    "category": "storage_fixtures",
+    "concept": "bike rack",
+    "definition": "A fixed or portable frame that holds bicycles upright or secures them for storage.",
+    "group": "different_related",
+    "pair": "C01"
+  },
+  {
+    "aliases": [
+      "oak"
+    ],
+    "candidate_id": "C01_Y33",
+    "category": "plants",
+    "concept": "oak tree",
+    "definition": "A large deciduous or evergreen tree bearing lobed leaves and producing acorns.",
+    "group": "different_weak",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y34",
+    "category": "plants",
+    "concept": "rose",
+    "definition": "A thorny flowering shrub with fragrant blossoms and fleshy fruits called hips.",
+    "group": "different_weak",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y35",
+    "category": "fruits",
+    "concept": "apple",
+    "definition": "A crisp, round fruit with edible flesh and a central core containing seeds.",
+    "group": "different_weak",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y36",
+    "category": "fruits",
+    "concept": "banana",
+    "definition": "A curved, soft-fleshed tropical fruit that grows in clusters beneath a peel.",
+    "group": "different_weak",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y37",
+    "category": "furniture",
+    "concept": "chair",
+    "definition": "A piece of furniture with a raised seat, backrest, and usually four supporting legs.",
+    "group": "different_weak",
+    "pair": "C01"
+  },
+  {
+    "aliases": [
+      "fiddle"
+    ],
+    "candidate_id": "C01_Y38",
+    "category": "musical_instruments",
+    "concept": "violin",
+    "definition": "A small four-stringed instrument played with a bow and held beneath the chin.",
+    "group": "different_weak",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y39",
+    "category": "marine_animals",
+    "concept": "dolphin",
+    "definition": "An intelligent, air-breathing marine mammal with a streamlined body and a long snout.",
+    "group": "different_weak",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C01_Y40",
+    "category": "insects",
+    "concept": "ant",
+    "definition": "A small social insect that lives in colonies and has elbowed antennae.",
+    "group": "different_weak",
+    "pair": "C01"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y01",
+    "category": "fruits",
+    "concept": "mango",
+    "definition": "A sweet tropical fruit with yellow-orange flesh and one large flattened stone.",
+    "group": "same_close",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y02",
+    "category": "fruits",
+    "concept": "papaya",
+    "definition": "A soft tropical fruit with orange flesh, black seeds, and an elongated shape.",
+    "group": "same_close",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y03",
+    "category": "fruits",
+    "concept": "guava",
+    "definition": "A fragrant tropical fruit with edible seeds and pale or pink flesh.",
+    "group": "same_close",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y04",
+    "category": "fruits",
+    "concept": "coconut",
+    "definition": "A large tropical fruit with a fibrous husk, hard shell, and edible kernel.",
+    "group": "same_close",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y05",
+    "category": "fruits",
+    "concept": "jackfruit",
+    "definition": "A very large tropical fruit with a spiky rind and sweet yellow pods.",
+    "group": "same_close",
+    "pair": "C27"
+  },
+  {
+    "aliases": [
+      "litchi"
+    ],
+    "candidate_id": "C27_Y06",
+    "category": "fruits",
+    "concept": "lychee",
+    "definition": "A small tropical fruit with translucent sweet flesh beneath a thin rough shell.",
+    "group": "same_close",
+    "pair": "C27"
+  },
+  {
+    "aliases": [
+      "passionfruit"
+    ],
+    "candidate_id": "C27_Y07",
+    "category": "fruits",
+    "concept": "passion fruit",
+    "definition": "A round tropical fruit containing aromatic pulp and many edible seeds.",
+    "group": "same_close",
+    "pair": "C27"
+  },
+  {
+    "aliases": [
+      "pitaya"
+    ],
+    "candidate_id": "C27_Y08",
+    "category": "fruits",
+    "concept": "dragon fruit",
+    "definition": "A brightly colored tropical fruit with scaly skin and speckled flesh.",
+    "group": "same_close",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y09",
+    "category": "fruits",
+    "concept": "apple",
+    "definition": "A crisp, rounded fruit with firm flesh, a central core, and small seeds.",
+    "group": "same_medium",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y10",
+    "category": "fruits",
+    "concept": "orange",
+    "definition": "A round citrus fruit with fragrant peel and juicy segments.",
+    "group": "same_medium",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y11",
+    "category": "fruits",
+    "concept": "pear",
+    "definition": "A sweet fruit, often narrow at the top and wider near its base.",
+    "group": "same_medium",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y12",
+    "category": "fruits",
+    "concept": "peach",
+    "definition": "A soft stone fruit with fuzzy skin and fragrant, juicy flesh.",
+    "group": "same_medium",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y13",
+    "category": "fruits",
+    "concept": "plum",
+    "definition": "A smooth-skinned stone fruit with juicy flesh surrounding a hard pit.",
+    "group": "same_medium",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y14",
+    "category": "fruits",
+    "concept": "grape",
+    "definition": "A small, round fruit that grows in clusters and has thin skin.",
+    "group": "same_medium",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y15",
+    "category": "fruits",
+    "concept": "cherry",
+    "definition": "A small, round stone fruit, often red, with a single hard pit.",
+    "group": "same_medium",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y16",
+    "category": "fruits",
+    "concept": "strawberry",
+    "definition": "A red, heart-shaped fruit with tiny seeds across its outer surface.",
+    "group": "same_medium",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y17",
+    "category": "fruits",
+    "concept": "lemon",
+    "definition": "A bright yellow citrus fruit with strongly sour juice and aromatic peel.",
+    "group": "same_weak",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y18",
+    "category": "fruits",
+    "concept": "cranberry",
+    "definition": "A small, tart red fruit that grows on low shrubs in wetlands.",
+    "group": "same_weak",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y19",
+    "category": "fruits",
+    "concept": "fig",
+    "definition": "A soft, sweet fruit with many tiny seeds inside a thin skin.",
+    "group": "same_weak",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y20",
+    "category": "fruits",
+    "concept": "watermelon",
+    "definition": "A large, round fruit with green rind, watery red flesh, and dark seeds.",
+    "group": "same_weak",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y21",
+    "category": "fruits",
+    "concept": "pomegranate",
+    "definition": "A round fruit whose tough skin encloses many juicy, jewel-like seeds.",
+    "group": "same_weak",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y22",
+    "category": "fruits",
+    "concept": "blueberry",
+    "definition": "A small, dark blue fruit with a dusty bloom and mild sweetness.",
+    "group": "same_weak",
+    "pair": "C27"
+  },
+  {
+    "aliases": [
+      "muskmelon"
+    ],
+    "candidate_id": "C27_Y23",
+    "category": "fruits",
+    "concept": "cantaloupe",
+    "definition": "A round melon with netted skin and sweet orange flesh.",
+    "group": "same_weak",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y24",
+    "category": "fruits",
+    "concept": "apricot",
+    "definition": "A small orange stone fruit with velvety skin and mildly tart flesh.",
+    "group": "same_weak",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y25",
+    "category": "plants",
+    "concept": "palm tree",
+    "definition": "A tall tropical plant with a slender trunk and a crown of large leaves.",
+    "group": "different_related",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y26",
+    "category": "plants",
+    "concept": "sugarcane",
+    "definition": "A tall tropical grass cultivated for its thick, sweet, juice-filled stalks.",
+    "group": "different_related",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y27",
+    "category": "tools",
+    "concept": "knife",
+    "definition": "A handheld cutting tool with a sharp blade and a protective handle.",
+    "group": "different_related",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y28",
+    "category": "tools",
+    "concept": "peeler",
+    "definition": "A small kitchen implement used to remove thin outer layers from produce.",
+    "group": "different_related",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y29",
+    "category": "tools",
+    "concept": "cutting board",
+    "definition": "A flat, durable surface used to protect counters while preparing food.",
+    "group": "different_related",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y30",
+    "category": "tools",
+    "concept": "blender",
+    "definition": "An electric kitchen appliance that chops and mixes ingredients in a rotating container.",
+    "group": "different_related",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y31",
+    "category": "foods",
+    "concept": "yogurt",
+    "definition": "A thick, mildly sour food made by fermenting milk with beneficial bacteria.",
+    "group": "different_related",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y32",
+    "category": "foods",
+    "concept": "oatmeal",
+    "definition": "A warm dish made by cooking rolled or crushed grains in liquid.",
+    "group": "different_related",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y33",
+    "category": "vehicles",
+    "concept": "bus",
+    "definition": "A large road vehicle designed to carry many passengers along regular routes.",
+    "group": "different_weak",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y34",
+    "category": "land_mammals",
+    "concept": "elephant",
+    "definition": "A massive land animal with a trunk, broad ears, and long curved tusks.",
+    "group": "different_weak",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y35",
+    "category": "marine_animals",
+    "concept": "dolphin",
+    "definition": "An intelligent marine mammal with a streamlined body and a long rounded snout.",
+    "group": "different_weak",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y36",
+    "category": "insects",
+    "concept": "butterfly",
+    "definition": "A flying insect with four broad, often brightly patterned wings.",
+    "group": "different_weak",
+    "pair": "C27"
+  },
+  {
+    "aliases": [
+      "pianoforte"
+    ],
+    "candidate_id": "C27_Y37",
+    "category": "musical_instruments",
+    "concept": "piano",
+    "definition": "A large musical instrument that produces notes when keys strike internal strings.",
+    "group": "different_weak",
+    "pair": "C27"
+  },
+  {
+    "aliases": [
+      "couch"
+    ],
+    "candidate_id": "C27_Y38",
+    "category": "furniture",
+    "concept": "sofa",
+    "definition": "A padded seat designed for several people, commonly placed in a living room.",
+    "group": "different_weak",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y39",
+    "category": "tools",
+    "concept": "hammer",
+    "definition": "A hand tool with a heavy head used chiefly for driving nails.",
+    "group": "different_weak",
+    "pair": "C27"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C27_Y40",
+    "category": "natural_phenomena",
+    "concept": "thunderstorm",
+    "definition": "A storm marked by lightning, thunder, and often heavy rain or strong winds.",
+    "group": "different_weak",
+    "pair": "C27"
+  },
+  {
+    "aliases": [
+      "bedside table"
+    ],
+    "candidate_id": "C35_Y01",
+    "category": "furniture",
+    "concept": "nightstand",
+    "definition": "A compact furnishing placed beside a bed for keeping a lamp, alarm, or personal items.",
+    "group": "same_close",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y02",
+    "category": "furniture",
+    "concept": "wardrobe",
+    "definition": "A tall freestanding storage piece with doors and a hanging rail for clothing.",
+    "group": "same_close",
+    "pair": "C35"
+  },
+  {
+    "aliases": [
+      "chest of drawers"
+    ],
+    "candidate_id": "C35_Y03",
+    "category": "furniture",
+    "concept": "dresser",
+    "definition": "A bedroom storage piece with several drawers for folded clothing and personal belongings.",
+    "group": "same_close",
+    "pair": "C35"
+  },
+  {
+    "aliases": [
+      "buffet"
+    ],
+    "candidate_id": "C35_Y04",
+    "category": "furniture",
+    "concept": "sideboard",
+    "definition": "A low dining-room furnishing with doors or drawers, often used for serving dishes and storing tableware.",
+    "group": "same_close",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y05",
+    "category": "furniture",
+    "concept": "hutch",
+    "definition": "A dining-room furnishing combining a lower storage section with an upper display area or shelves.",
+    "group": "same_close",
+    "pair": "C35"
+  },
+  {
+    "aliases": [
+      "showcase"
+    ],
+    "candidate_id": "C35_Y06",
+    "category": "furniture",
+    "concept": "display case",
+    "definition": "A glass-fronted furnishing used to exhibit collectibles, dishes, or other valued objects.",
+    "group": "same_close",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y07",
+    "category": "furniture",
+    "concept": "storage trunk",
+    "definition": "A sturdy lidded furnishing used to store clothing, linens, or household possessions.",
+    "group": "same_close",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y08",
+    "category": "furniture",
+    "concept": "secretary desk",
+    "definition": "A compact work furnishing with a hinged surface that folds down and compartments for papers.",
+    "group": "same_close",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y09",
+    "category": "furniture",
+    "concept": "desk",
+    "definition": "A work surface supported by legs, often including drawers for writing materials or office equipment.",
+    "group": "same_medium",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y10",
+    "category": "furniture",
+    "concept": "table",
+    "definition": "A flat-topped furnishing supported by legs, used for meals, work, or placing objects.",
+    "group": "same_medium",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y11",
+    "category": "furniture",
+    "concept": "chair",
+    "definition": "A seat designed for one person, typically with a back and four legs.",
+    "group": "same_medium",
+    "pair": "C35"
+  },
+  {
+    "aliases": [
+      "couch"
+    ],
+    "candidate_id": "C35_Y12",
+    "category": "furniture",
+    "concept": "sofa",
+    "definition": "A long upholstered seat designed to accommodate several people.",
+    "group": "same_medium",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y13",
+    "category": "furniture",
+    "concept": "bed",
+    "definition": "A frame and mattress designed to support a person during sleep.",
+    "group": "same_medium",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y14",
+    "category": "furniture",
+    "concept": "bench",
+    "definition": "A long seat, often without a back, designed for several people.",
+    "group": "same_medium",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y15",
+    "category": "furniture",
+    "concept": "stool",
+    "definition": "A simple seat, usually without arms or a back, supported by legs.",
+    "group": "same_medium",
+    "pair": "C35"
+  },
+  {
+    "aliases": [
+      "cocktail table"
+    ],
+    "candidate_id": "C35_Y16",
+    "category": "furniture",
+    "concept": "coffee table",
+    "definition": "A low living-room surface placed in front of seating for drinks, books, or decorations.",
+    "group": "same_medium",
+    "pair": "C35"
+  },
+  {
+    "aliases": [
+      "reclining chair"
+    ],
+    "candidate_id": "C35_Y17",
+    "category": "furniture",
+    "concept": "recliner",
+    "definition": "An upholstered seat whose back tilts backward and footrest rises for comfortable lounging.",
+    "group": "same_weak",
+    "pair": "C35"
+  },
+  {
+    "aliases": [
+      "rocker"
+    ],
+    "candidate_id": "C35_Y18",
+    "category": "furniture",
+    "concept": "rocking chair",
+    "definition": "A seat mounted on curved runners that allow gentle back-and-forth motion.",
+    "group": "same_weak",
+    "pair": "C35"
+  },
+  {
+    "aliases": [
+      "footstool"
+    ],
+    "candidate_id": "C35_Y19",
+    "category": "furniture",
+    "concept": "ottoman",
+    "definition": "A padded, low furnishing used as a footrest or occasional extra seat.",
+    "group": "same_weak",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y20",
+    "category": "furniture",
+    "concept": "headboard",
+    "definition": "A panel fixed at the head of a sleeping frame, often decorative or supportive.",
+    "group": "same_weak",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y21",
+    "category": "furniture",
+    "concept": "futon",
+    "definition": "A convertible padded furnishing that serves as seating by day and a sleeping surface at night.",
+    "group": "same_weak",
+    "pair": "C35"
+  },
+  {
+    "aliases": [
+      "clothes rack"
+    ],
+    "candidate_id": "C35_Y22",
+    "category": "furniture",
+    "concept": "coat rack",
+    "definition": "A freestanding or wall-mounted fixture with hooks for hanging outerwear and hats.",
+    "group": "same_weak",
+    "pair": "C35"
+  },
+  {
+    "aliases": [
+      "screen"
+    ],
+    "candidate_id": "C35_Y23",
+    "category": "furniture",
+    "concept": "room divider",
+    "definition": "A movable panel or screen used to separate areas within a larger room.",
+    "group": "same_weak",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y24",
+    "category": "furniture",
+    "concept": "dining chair",
+    "definition": "A supportive seat designed for use around a meal table.",
+    "group": "same_weak",
+    "pair": "C35"
+  },
+  {
+    "aliases": [
+      "volume"
+    ],
+    "candidate_id": "C35_Y25",
+    "category": "printed materials",
+    "concept": "book",
+    "definition": "A bound collection of printed or handwritten pages organized around a subject or story.",
+    "group": "different_related",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y26",
+    "category": "printed materials",
+    "concept": "magazine",
+    "definition": "A periodically issued publication containing articles, photographs, and advertisements.",
+    "group": "different_related",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y27",
+    "category": "printed materials",
+    "concept": "newspaper",
+    "definition": "A regularly published periodical reporting current events and other news.",
+    "group": "different_related",
+    "pair": "C35"
+  },
+  {
+    "aliases": [
+      "page marker"
+    ],
+    "candidate_id": "C35_Y28",
+    "category": "reading accessories",
+    "concept": "bookmark",
+    "definition": "A narrow marker placed between pages to record a reader's place.",
+    "group": "different_related",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y29",
+    "category": "institutions",
+    "concept": "library",
+    "definition": "An institution where people can borrow reading materials or consult organized collections.",
+    "group": "different_related",
+    "pair": "C35"
+  },
+  {
+    "aliases": [
+      "readers"
+    ],
+    "candidate_id": "C35_Y30",
+    "category": "eyewear",
+    "concept": "reading glasses",
+    "definition": "Eyewear with lenses that help people focus on nearby text.",
+    "group": "different_related",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y31",
+    "category": "materials",
+    "concept": "paper",
+    "definition": "A thin, flexible material made from processed fibers, commonly used for printing and writing.",
+    "group": "different_related",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y32",
+    "category": "office equipment",
+    "concept": "printer",
+    "definition": "An electronic device that transfers text or images onto sheets using ink or toner.",
+    "group": "different_related",
+    "pair": "C35"
+  },
+  {
+    "aliases": [
+      "bike"
+    ],
+    "candidate_id": "C35_Y33",
+    "category": "vehicles",
+    "concept": "bicycle",
+    "definition": "A two-wheeled human-powered vehicle steered with handlebars and moved using pedals.",
+    "group": "different_weak",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y34",
+    "category": "land_mammals",
+    "concept": "elephant",
+    "definition": "A large land mammal with a trunk, prominent ears, and thick legs.",
+    "group": "different_weak",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y35",
+    "category": "marine_animals",
+    "concept": "dolphin",
+    "definition": "An intelligent marine mammal with a streamlined body, flippers, and a long snout.",
+    "group": "different_weak",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y36",
+    "category": "insects",
+    "concept": "bee",
+    "definition": "A flying insect that feeds on nectar and often pollinates flowering plants.",
+    "group": "different_weak",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y37",
+    "category": "musical_instruments",
+    "concept": "guitar",
+    "definition": "A stringed musical instrument played by plucking or strumming its strings.",
+    "group": "different_weak",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y38",
+    "category": "fruits",
+    "concept": "apple",
+    "definition": "A crisp, rounded fruit that grows on trees and commonly has red, green, or yellow skin.",
+    "group": "different_weak",
+    "pair": "C35"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C35_Y39",
+    "category": "tools",
+    "concept": "hammer",
+    "definition": "A hand tool with a heavy head used for striking nails or other objects.",
+    "group": "different_weak",
+    "pair": "C35"
+  },
+  {
+    "aliases": [
+      "oak"
+    ],
+    "candidate_id": "C35_Y40",
+    "category": "plants",
+    "concept": "oak tree",
+    "definition": "A long-lived broadleaf tree that produces acorns and often has deeply lobed leaves.",
+    "group": "different_weak",
+    "pair": "C35"
+  },
+  {
+    "aliases": [
+      "horn"
+    ],
+    "candidate_id": "C23_Y01",
+    "category": "musical_instruments",
+    "concept": "French horn",
+    "definition": "A coiled brass instrument whose valves redirect air through a long tube.",
+    "group": "same_close",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y02",
+    "category": "musical_instruments",
+    "concept": "tuba",
+    "definition": "A large brass instrument that produces low notes through a wide, conical bore.",
+    "group": "same_close",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y03",
+    "category": "musical_instruments",
+    "concept": "cornet",
+    "definition": "A compact brass instrument with valves and a rounded, conical tube.",
+    "group": "same_close",
+    "pair": "C23"
+  },
+  {
+    "aliases": [
+      "flügelhorn"
+    ],
+    "candidate_id": "C23_Y04",
+    "category": "musical_instruments",
+    "concept": "flugelhorn",
+    "definition": "A mellow-sounding brass instrument with valves and a broad, conical bore.",
+    "group": "same_close",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y05",
+    "category": "musical_instruments",
+    "concept": "bugle",
+    "definition": "A simple brass instrument that plays notes from the natural harmonic series.",
+    "group": "same_close",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y06",
+    "category": "musical_instruments",
+    "concept": "euphonium",
+    "definition": "A medium-sized brass instrument with valves and a warm, low register.",
+    "group": "same_close",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y07",
+    "category": "musical_instruments",
+    "concept": "sousaphone",
+    "definition": "A large circular brass instrument designed to be carried around the player's body.",
+    "group": "same_close",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y08",
+    "category": "musical_instruments",
+    "concept": "mellophone",
+    "definition": "A brass instrument with valves, commonly used to play middle harmonies in marching bands.",
+    "group": "same_close",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y09",
+    "category": "musical_instruments",
+    "concept": "flute",
+    "definition": "A slender woodwind instrument that produces sound when air is blown across an opening.",
+    "group": "same_medium",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y10",
+    "category": "musical_instruments",
+    "concept": "clarinet",
+    "definition": "A woodwind instrument with a single reed, a cylindrical body, and a wide range.",
+    "group": "same_medium",
+    "pair": "C23"
+  },
+  {
+    "aliases": [
+      "sax"
+    ],
+    "candidate_id": "C23_Y11",
+    "category": "musical_instruments",
+    "concept": "saxophone",
+    "definition": "A single-reed woodwind instrument with a curved metal body and a flared bell.",
+    "group": "same_medium",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y12",
+    "category": "musical_instruments",
+    "concept": "oboe",
+    "definition": "A woodwind instrument with two reeds and a bright, penetrating tone.",
+    "group": "same_medium",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y13",
+    "category": "musical_instruments",
+    "concept": "bassoon",
+    "definition": "A large double-reed woodwind instrument that plays in a low register.",
+    "group": "same_medium",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y14",
+    "category": "musical_instruments",
+    "concept": "recorder",
+    "definition": "A simple flute-like woodwind instrument with a whistle mouthpiece and finger holes.",
+    "group": "same_medium",
+    "pair": "C23"
+  },
+  {
+    "aliases": [
+      "mouth organ"
+    ],
+    "candidate_id": "C23_Y15",
+    "category": "musical_instruments",
+    "concept": "harmonica",
+    "definition": "A small handheld instrument that sounds when breath passes across internal metal reeds.",
+    "group": "same_medium",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y16",
+    "category": "musical_instruments",
+    "concept": "bagpipes",
+    "definition": "A wind instrument that uses an air bag to supply several pipes continuously.",
+    "group": "same_medium",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y17",
+    "category": "musical_instruments",
+    "concept": "piano",
+    "definition": "A keyboard instrument whose keys cause hammers to strike stretched strings.",
+    "group": "same_weak",
+    "pair": "C23"
+  },
+  {
+    "aliases": [
+      "fiddle"
+    ],
+    "candidate_id": "C23_Y18",
+    "category": "musical_instruments",
+    "concept": "violin",
+    "definition": "A small bowed string instrument, typically played beneath the player's chin.",
+    "group": "same_weak",
+    "pair": "C23"
+  },
+  {
+    "aliases": [
+      "violoncello"
+    ],
+    "candidate_id": "C23_Y19",
+    "category": "musical_instruments",
+    "concept": "cello",
+    "definition": "A bowed string instrument held between the knees and played in a low register.",
+    "group": "same_weak",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y20",
+    "category": "musical_instruments",
+    "concept": "guitar",
+    "definition": "A fretted string instrument, usually played by plucking or strumming its strings.",
+    "group": "same_weak",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y21",
+    "category": "musical_instruments",
+    "concept": "harp",
+    "definition": "A large string instrument with strings stretched across a frame and plucked by hand.",
+    "group": "same_weak",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y22",
+    "category": "musical_instruments",
+    "concept": "drum",
+    "definition": "A percussion instrument that makes sound when a stretched membrane or surface is struck.",
+    "group": "same_weak",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y23",
+    "category": "musical_instruments",
+    "concept": "xylophone",
+    "definition": "A percussion instrument with tuned wooden bars struck using small mallets.",
+    "group": "same_weak",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y24",
+    "category": "musical_instruments",
+    "concept": "banjo",
+    "definition": "A plucked string instrument with a long neck and a round, drumlike body.",
+    "group": "same_weak",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y25",
+    "category": "tools",
+    "concept": "mouthpiece",
+    "definition": "A removable fitting that directs a player's breath into a brass instrument.",
+    "group": "different_related",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y26",
+    "category": "tools",
+    "concept": "practice mute",
+    "definition": "A small device inserted into a brass instrument to reduce its volume during practice.",
+    "group": "different_related",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y27",
+    "category": "tools",
+    "concept": "valve oil",
+    "definition": "A light lubricant used to keep moving brass-instrument valves working smoothly.",
+    "group": "different_related",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y28",
+    "category": "tools",
+    "concept": "instrument case",
+    "definition": "A protective container with a handle or straps for transporting a musical instrument.",
+    "group": "different_related",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y29",
+    "category": "furniture",
+    "concept": "music stand",
+    "definition": "A folding support that holds printed music at a convenient reading height.",
+    "group": "different_related",
+    "pair": "C23"
+  },
+  {
+    "aliases": [
+      "music score"
+    ],
+    "candidate_id": "C23_Y30",
+    "category": "documents",
+    "concept": "sheet music",
+    "definition": "Printed notation that records pitches, rhythms, and instructions for performers.",
+    "group": "different_related",
+    "pair": "C23"
+  },
+  {
+    "aliases": [
+      "baton"
+    ],
+    "candidate_id": "C23_Y31",
+    "category": "tools",
+    "concept": "conductor's baton",
+    "definition": "A slender stick used to mark tempo and communicate musical cues to performers.",
+    "group": "different_related",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y32",
+    "category": "buildings",
+    "concept": "concert hall",
+    "definition": "A large indoor venue designed for audiences to hear live musical performances.",
+    "group": "different_related",
+    "pair": "C23"
+  },
+  {
+    "aliases": [
+      "bike"
+    ],
+    "candidate_id": "C23_Y33",
+    "category": "vehicles",
+    "concept": "bicycle",
+    "definition": "A human-powered vehicle with two wheels, pedals, and a steering handlebar.",
+    "group": "different_weak",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y34",
+    "category": "land_mammals",
+    "concept": "elephant",
+    "definition": "A very large land mammal with a trunk, broad ears, and thick legs.",
+    "group": "different_weak",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y35",
+    "category": "marine_animals",
+    "concept": "dolphin",
+    "definition": "An intelligent marine mammal with a streamlined body and a long, narrow snout.",
+    "group": "different_weak",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y36",
+    "category": "insects",
+    "concept": "butterfly",
+    "definition": "An insect with four broad, often colorful wings and a coiled feeding tube.",
+    "group": "different_weak",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y37",
+    "category": "fruits",
+    "concept": "apple",
+    "definition": "A round, edible fruit with crisp flesh and a central core containing seeds.",
+    "group": "different_weak",
+    "pair": "C23"
+  },
+  {
+    "aliases": [
+      "couch"
+    ],
+    "candidate_id": "C23_Y38",
+    "category": "furniture",
+    "concept": "sofa",
+    "definition": "A long upholstered seat designed to accommodate several people.",
+    "group": "different_weak",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y39",
+    "category": "plants",
+    "concept": "oak",
+    "definition": "A long-lived tree with lobed leaves and acorns that serve as its seeds.",
+    "group": "different_weak",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C23_Y40",
+    "category": "natural_phenomena",
+    "concept": "rainbow",
+    "definition": "A curved band of colors formed when sunlight is refracted and reflected by water droplets.",
+    "group": "different_weak",
+    "pair": "C23"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y01",
+    "category": "tools",
+    "concept": "hammer",
+    "definition": "A tool with a weighted head used to strike nails or shape materials.",
+    "group": "same_close",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y02",
+    "category": "tools",
+    "concept": "pliers",
+    "definition": "A hinged hand implement that grips, bends, or cuts wire and small objects.",
+    "group": "same_close",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y03",
+    "category": "tools",
+    "concept": "hand saw",
+    "definition": "A toothed blade operated by hand to cut wood or other materials.",
+    "group": "same_close",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y04",
+    "category": "tools",
+    "concept": "power drill",
+    "definition": "A motor-driven device that rotates a bit to bore holes or drive fasteners.",
+    "group": "same_close",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y05",
+    "category": "tools",
+    "concept": "chisel",
+    "definition": "A sharp-edged metal blade struck or pushed to cut and shape hard material.",
+    "group": "same_close",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y06",
+    "category": "tools",
+    "concept": "metal file",
+    "definition": "A hardened implement with rough ridges used to smooth or shape surfaces.",
+    "group": "same_close",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y07",
+    "category": "tools",
+    "concept": "utility knife",
+    "definition": "A compact cutting implement with a replaceable retractable blade for general tasks.",
+    "group": "same_close",
+    "pair": "C37"
+  },
+  {
+    "aliases": [
+      "Allen key"
+    ],
+    "candidate_id": "C37_Y08",
+    "category": "tools",
+    "concept": "hex key",
+    "definition": "A short bent metal rod used to turn fasteners with six-sided sockets.",
+    "group": "same_close",
+    "pair": "C37"
+  },
+  {
+    "aliases": [
+      "measuring tape"
+    ],
+    "candidate_id": "C37_Y09",
+    "category": "tools",
+    "concept": "tape measure",
+    "definition": "A flexible marked strip that extends from a case to measure distances.",
+    "group": "same_medium",
+    "pair": "C37"
+  },
+  {
+    "aliases": [
+      "level"
+    ],
+    "candidate_id": "C37_Y10",
+    "category": "tools",
+    "concept": "spirit level",
+    "definition": "A straight measuring instrument with liquid-filled vials that show whether a surface is level.",
+    "group": "same_medium",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y11",
+    "category": "tools",
+    "concept": "clamp",
+    "definition": "A device that holds materials firmly together, often while they are being worked on.",
+    "group": "same_medium",
+    "pair": "C37"
+  },
+  {
+    "aliases": [
+      "vise"
+    ],
+    "candidate_id": "C37_Y12",
+    "category": "tools",
+    "concept": "bench vise",
+    "definition": "A fixed workshop device with opposing jaws that securely hold an object during work.",
+    "group": "same_medium",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y13",
+    "category": "tools",
+    "concept": "awl",
+    "definition": "A pointed hand implement used to pierce small holes in leather, wood, or similar materials.",
+    "group": "same_medium",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y14",
+    "category": "tools",
+    "concept": "soldering iron",
+    "definition": "A heated electrical implement used to melt metal alloy and join electronic components.",
+    "group": "same_medium",
+    "pair": "C37"
+  },
+  {
+    "aliases": [
+      "tool chest"
+    ],
+    "candidate_id": "C37_Y15",
+    "category": "tools",
+    "concept": "toolbox",
+    "definition": "A portable case with compartments for carrying and storing hand implements.",
+    "group": "same_medium",
+    "pair": "C37"
+  },
+  {
+    "aliases": [
+      "plane"
+    ],
+    "candidate_id": "C37_Y16",
+    "category": "tools",
+    "concept": "hand plane",
+    "definition": "A woodworking implement with a blade that shaves thin layers from a surface.",
+    "group": "same_medium",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y17",
+    "category": "tools",
+    "concept": "shovel",
+    "definition": "A long-handled implement with a broad blade for lifting and moving loose material.",
+    "group": "same_weak",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y18",
+    "category": "tools",
+    "concept": "rake",
+    "definition": "A long-handled garden implement with teeth for gathering leaves or loosening soil.",
+    "group": "same_weak",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y19",
+    "category": "tools",
+    "concept": "hoe",
+    "definition": "A long-handled garden implement with a flat blade for cultivating soil and removing weeds.",
+    "group": "same_weak",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y20",
+    "category": "tools",
+    "concept": "broom",
+    "definition": "A cleaning implement with bundled bristles used to sweep dirt from floors or outdoor surfaces.",
+    "group": "same_weak",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y21",
+    "category": "tools",
+    "concept": "ladder",
+    "definition": "A portable structure with parallel rails joined by steps for climbing to higher places.",
+    "group": "same_weak",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y22",
+    "category": "tools",
+    "concept": "wheelbarrow",
+    "definition": "A small cart with one wheel, handles, and a tray for transporting loads by hand.",
+    "group": "same_weak",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y23",
+    "category": "tools",
+    "concept": "trowel",
+    "definition": "A small hand implement with a flat blade for digging, planting, or spreading mortar.",
+    "group": "same_weak",
+    "pair": "C37"
+  },
+  {
+    "aliases": [
+      "secateurs"
+    ],
+    "candidate_id": "C37_Y24",
+    "category": "tools",
+    "concept": "pruning shears",
+    "definition": "A spring-operated cutting implement used to trim small branches and stems.",
+    "group": "same_weak",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y25",
+    "category": "furniture",
+    "concept": "chair",
+    "definition": "A piece of furniture designed for one person, usually supported by legs and fitted with a back.",
+    "group": "different_related",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y26",
+    "category": "furniture",
+    "concept": "table",
+    "definition": "A piece of furniture with a flat top supported above the floor for work or dining.",
+    "group": "different_related",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y27",
+    "category": "furniture",
+    "concept": "desk",
+    "definition": "A piece of furniture with a flat work surface, often including drawers or storage compartments.",
+    "group": "different_related",
+    "pair": "C37"
+  },
+  {
+    "aliases": [
+      "bookcase"
+    ],
+    "candidate_id": "C37_Y28",
+    "category": "furniture",
+    "concept": "bookshelf",
+    "definition": "A piece of furniture with horizontal surfaces arranged to hold books and other objects.",
+    "group": "different_related",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y29",
+    "category": "furniture",
+    "concept": "cabinet",
+    "definition": "A piece of furniture with enclosed storage space, often fitted with shelves or drawers.",
+    "group": "different_related",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y30",
+    "category": "furniture",
+    "concept": "bed",
+    "definition": "A piece of furniture designed to support a person while sleeping or resting.",
+    "group": "different_related",
+    "pair": "C37"
+  },
+  {
+    "aliases": [
+      "armoire"
+    ],
+    "candidate_id": "C37_Y31",
+    "category": "furniture",
+    "concept": "wardrobe",
+    "definition": "A tall piece of furniture with doors for storing clothing and personal belongings.",
+    "group": "different_related",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y32",
+    "category": "furniture",
+    "concept": "stool",
+    "definition": "A seat without arms or a back, commonly supported by three or four legs.",
+    "group": "different_related",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y33",
+    "category": "fruits",
+    "concept": "apple",
+    "definition": "A round, crisp fruit with edible skin and flesh surrounding several small seeds.",
+    "group": "different_weak",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y34",
+    "category": "fruits",
+    "concept": "banana",
+    "definition": "A long, curved tropical fruit with a soft, sweet interior and peel.",
+    "group": "different_weak",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y35",
+    "category": "fruits",
+    "concept": "orange",
+    "definition": "A round citrus fruit with a fragrant rind and segmented, juicy flesh.",
+    "group": "different_weak",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y36",
+    "category": "fruits",
+    "concept": "grape",
+    "definition": "A small, smooth-skinned fruit that grows in clusters and may be green, red, or purple.",
+    "group": "different_weak",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y37",
+    "category": "fruits",
+    "concept": "pear",
+    "definition": "A sweet fruit with a rounded base, narrow upper portion, and thin edible skin.",
+    "group": "different_weak",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y38",
+    "category": "fruits",
+    "concept": "peach",
+    "definition": "A soft, fuzzy-skinned fruit with sweet flesh surrounding one large, hard stone.",
+    "group": "different_weak",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y39",
+    "category": "fruits",
+    "concept": "lemon",
+    "definition": "A yellow citrus fruit with tart juice and a strongly scented outer rind.",
+    "group": "different_weak",
+    "pair": "C37"
+  },
+  {
+    "aliases": [],
+    "candidate_id": "C37_Y40",
+    "category": "fruits",
+    "concept": "strawberry",
+    "definition": "A small red fruit with tiny seeds across its surface and a leafy cap.",
+    "group": "different_weak",
+    "pair": "C37"
+  }
+]

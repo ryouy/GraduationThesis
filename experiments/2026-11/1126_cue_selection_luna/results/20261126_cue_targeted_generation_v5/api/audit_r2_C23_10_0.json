@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C23_4_situation_0_2",
+        "naturalness": 5,
+        "reason": "A plausible orchestra-rehearsal scene involving brass, but it does not distinguish the instruments.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C23_4_situation_0_3",
+        "naturalness": 5,
+        "reason": "A piercing solo in a jazz combo suggests trumpet more than trombone, though either could play one.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C23_4_situation_0_4",
+        "naturalness": 5,
+        "reason": "Both instruments plausibly play calls in a parade; the cue is not specific to either.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C23_4_situation_0_5",
+        "naturalness": 5,
+        "reason": "Both are commonly used for brass accents in film scores, with no distinguishing detail.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C23_4_situation_0_6",
+        "naturalness": 5,
+        "reason": "Warming lips and checking a mouthpiece are plausible for players of either instrument.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C23_4_situation_0_7",
+        "naturalness": 5,
+        "reason": "A fanfare at a stadium fits both, though the bright, projecting fanfare role somewhat favors trumpet.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C23_2_action_0_0",
+        "naturalness": 5,
+        "reason": "Oiling valves strongly points to a valved instrument such as a trumpet; a standard trombone uses a slide.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C23_2_action_0_1",
+        "naturalness": 5,
+        "reason": "A bright melody in a parade leans toward trumpet, but a trombone could also carry it.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C23_2_action_0_2",
+        "naturalness": 5,
+        "reason": "Raising the bell and starting a phrase fit either brass instrument.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C23_2_action_0_3",
+        "naturalness": 4,
+        "reason": "Practicing scales and crisp attacks is plausible for a musician, but no instrument or brass detail is given.",
+        "style": "pass",
+        "x_related": 1,
+        "y_related": 1
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1267,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 591,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 667,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1934
+  }
+}

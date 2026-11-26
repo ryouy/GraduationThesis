@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_structure_very_near_0_0",
+        "naturalness": 5,
+        "reason": "Plausible description of a bicycle frame and drivetrain; clearly structural.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_structure_very_near_0_1",
+        "naturalness": 4,
+        "reason": "Plausible wheel construction, though these features also apply to other wheeled vehicles.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_structure_very_near_0_2",
+        "naturalness": 5,
+        "reason": "Accurately describes bicycle steering components and their function.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_structure_very_near_0_3",
+        "naturalness": 5,
+        "reason": "Accurate, distinctive account of a pedal-and-chain drivetrain.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_structure_very_near_0_4",
+        "naturalness": 4,
+        "reason": "Describes recognizable frame parts; the lightweight characterization is plausible but not universal.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_structure_very_near_0_5",
+        "naturalness": 5,
+        "reason": "Accurate description of rim brakes, though bicycles may use other brake types.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_structure_near_0_0",
+        "naturalness": 5,
+        "reason": "A plausible description of an adjustable bicycle saddle and its position.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_structure_near_0_1",
+        "naturalness": 5,
+        "reason": "Accurately explains how bicycle gears help with climbing and speed.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_structure_near_0_2",
+        "naturalness": 4,
+        "reason": "Describes a common bicycle kickstand; placement and design vary.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_structure_near_0_3",
+        "naturalness": 5,
+        "reason": "Accurately describes fenders protecting riders from wheel spray.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 800,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 197,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 629,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1429
+  }
+}

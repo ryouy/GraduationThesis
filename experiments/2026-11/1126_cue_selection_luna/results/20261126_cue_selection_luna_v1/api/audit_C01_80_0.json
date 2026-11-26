@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_near_0_4",
+        "naturalness": 4,
+        "reason": "Loose gravel, descents, and balance strongly suggest riding a bicycle on a trail.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_near_0_5",
+        "naturalness": 4,
+        "reason": "Helmets and mapped rural roads suggest a group cycling outing.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_medium_near_0_0",
+        "naturalness": 5,
+        "reason": "Commuters chaining rides to a rack strongly and directly indicates bicycles.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_medium_near_0_1",
+        "naturalness": 5,
+        "reason": "A child learning to balance in a driveway with a nearby parent strongly suggests learning to ride a bicycle.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_medium_near_0_2",
+        "naturalness": 5,
+        "reason": "Folding compact frames to take aboard a train directly suggests folding bicycles.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_medium_near_0_3",
+        "naturalness": 5,
+        "reason": "A loose chain and flat tire are distinctive common bicycle repair issues.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_medium_near_0_4",
+        "naturalness": 5,
+        "reason": "Unlocking a rental for short trips around a park suggests shared bicycles, though other small rides are possible.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_medium_near_0_5",
+        "naturalness": 5,
+        "reason": "A delivery worker carrying bags behind a seat and navigating downtown traffic suggests a bicycle, though other vehicles could fit.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_medium_far_0_0",
+        "naturalness": 5,
+        "reason": "Racks filling and emptying around lecture times plausibly refers to students parking bicycles.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_medium_far_0_1",
+        "naturalness": 5,
+        "reason": "A mountain-stage procession on Alpine roads strongly evokes a cycling race.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 997,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 361,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 665,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1662
+  }
+}

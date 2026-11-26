@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_structure_unrelated_0_0",
+        "naturalness": 5,
+        "reason": "A plausible description of a nautilus shell’s structure; it does not relate to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_structure_unrelated_0_1",
+        "naturalness": 5,
+        "reason": "A natural structural description of the moon’s surface, unrelated to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_structure_unrelated_0_2",
+        "naturalness": 5,
+        "reason": "Plausibly describes the arrangement of pomegranate seeds and membranes; unrelated to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_structure_unrelated_0_3",
+        "naturalness": 5,
+        "reason": "A plausible structural description of a spiderweb, unrelated to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_structure_unrelated_0_4",
+        "naturalness": 5,
+        "reason": "Accurately describes a common snowflake growth pattern and fits the structural style.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_very_near_0_0",
+        "naturalness": 5,
+        "reason": "Clearly describes turning a slotted screw into timber with the relevant hand tool, without naming it.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_very_near_0_1",
+        "naturalness": 5,
+        "reason": "Backing a small screw out by turning it strongly evokes the tool used for screws; a wrench is only weakly related as another fastener-turning tool.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_very_near_0_2",
+        "naturalness": 5,
+        "reason": "Seating screws with a torque-limited handle strongly evokes the relevant tool; the wrench has only a weak general connection to tightening fasteners.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_very_near_0_3",
+        "naturalness": 5,
+        "reason": "Describes water moving through garden features, unrelated to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_very_near_0_4",
+        "naturalness": 5,
+        "reason": "A plausible musical action, unrelated to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1121,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 470,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 635,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1756
+  }
+}

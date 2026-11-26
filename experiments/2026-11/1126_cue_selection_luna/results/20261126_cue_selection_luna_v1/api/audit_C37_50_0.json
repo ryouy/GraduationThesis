@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_medium_near_0_3",
+        "naturalness": 5,
+        "reason": "A plausible scene of a butterfly resting in the rain; it does not suggest either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_medium_near_0_4",
+        "naturalness": 5,
+        "reason": "A plausible sunrise scene with frost melting; it does not suggest either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_medium_near_0_5",
+        "naturalness": 5,
+        "reason": "A natural rehearsal scene, unrelated to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_medium_far_0_0",
+        "naturalness": 4,
+        "reason": "A steel tip turning a cross-shaped fastener strongly evokes a screwdriver; a wrench is not indicated.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_medium_far_0_1",
+        "naturalness": 5,
+        "reason": "Loosening slotted fasteners on an outlet cover strongly suggests a screwdriver.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_medium_far_0_2",
+        "naturalness": 4,
+        "reason": "Turning a miniature fastener suggests a small turning tool, though neither tool is specified and a tiny wrench is also conceivable.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_medium_far_0_3",
+        "naturalness": 4,
+        "reason": "Rotating a fastener during toy assembly is compatible with screwdriver use, but the wording leaves the fastener and tool unspecified.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_medium_far_0_4",
+        "naturalness": 4,
+        "reason": "Pressing down while turning a stubborn fastener points fairly strongly to a screwdriver, though the tool is unstated.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_medium_far_0_5",
+        "naturalness": 4,
+        "reason": "Withdrawing a rusted threaded fastener from wood suggests screwdriver use; a wrench is unlikely in this setting.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_action_far_0_0",
+        "naturalness": 3,
+        "reason": "A threaded fastener in a shelf support could be installed with a screwdriver, but the clue does not specify the tool; the phrasing is somewhat generic.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 1
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1225,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 556,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 640,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1865
+  }
+}

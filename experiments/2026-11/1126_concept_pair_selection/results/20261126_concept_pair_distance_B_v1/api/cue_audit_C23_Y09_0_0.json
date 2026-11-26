@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C23_action_far_0_0",
+        "reason": "Buzzing on a mouthpiece before assembly is a distinctive brass-instrument practice, not a flute-specific fact.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_action_unrelated_0_0",
+        "reason": "The clue concerns baking and has no meaningful connection to either instrument.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_action_very_near_0_0",
+        "reason": "Operating valves while playing directly describes a trumpet feature; a flute has no valves.",
+        "x_related": 4,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_action_very_near_0_2",
+        "reason": "Finger movement and controlled breath are compatible with both wind instruments, but the clue does not distinguish flute technique.",
+        "x_related": 2,
+        "y_related": 2,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_function_medium_far_0_3",
+        "reason": "Scooping notes is associated with expressive trumpet playing, though it is not exclusive to trumpet and can occur in other instruments.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_function_medium_near_0_3",
+        "reason": "Playing cheerful notes is a generic musical use that could involve either instrument.",
+        "x_related": 1,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_function_near_0_2",
+        "reason": "Clear, carrying notes in military fanfares strongly evoke trumpet use, while the setting alone does not specifically indicate flute.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_situation_far_0_1",
+        "reason": "A brassy flourish strongly suggests trumpet or another brass instrument, not flute.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_situation_medium_far_0_3",
+        "reason": "An orchestral flourish is compatible with trumpet, but the cue does not identify a particular instrument; the orchestral context is not flute-specific.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_situation_medium_near_0_4",
+        "reason": "A brass player strongly suggests a brass instrument such as trumpet, but does not uniquely identify one; it does not describe flute-specific facts.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_situation_near_0_4",
+        "reason": "A brass section playing a fight-song motif strongly evokes trumpet use, though the section can include other instruments.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_structure_unrelated_0_2",
+        "reason": "The clue describes ladder construction and has no meaningful connection to either instrument.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C23_action_far_0_0\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Buzzing on a mouthpiece before assembly is a distinctive brass-instrument practice, not a flute-specific fact.\"},{\"id\":\"gen_C23_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The clue concerns baking and has no meaningful connection to either instrument.\"},{\"id\":\"gen_C23_action_very_near_0_0\",\"x_related\":4,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Operating valves while playing directly describes a trumpet feature; a flute has no valves.\"},{\"id\":\"gen_C23_action_very_near_0_2\",\"x_related\":2,\"y_related\":2,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Finger movement and controlled breath are compatible with both wind instruments, but the clue does not distinguish flute technique.\"},{\"id\":\"gen_C23_function_medium_far_0_3\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Scooping notes is associated with expressive trumpet playing, though it is not exclusive to trumpet and can occur in other instruments.\"},{\"id\":\"gen_C23_function_medium_near_0_3\",\"x_related\":1,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Playing cheerful notes is a generic musical use that could involve either instrument.\"},{\"id\":\"gen_C23_function_near_0_2\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Clear, carrying notes in military fanfares strongly evoke trumpet use, while the setting alone does not specifically indicate flute.\"},{\"id\":\"gen_C23_situation_far_0_1\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A brassy flourish strongly suggests trumpet or another brass instrument, not flute.\"},{\"id\":\"gen_C23_situation_medium_far_0_3\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"An orchestral flourish is compatible with trumpet, but the cue does not identify a particular instrument; the orchestral context is not flute-specific.\"},{\"id\":\"gen_C23_situation_medium_near_0_4\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A brass player strongly suggests a brass instrument such as trumpet, but does not uniquely identify one; it does not describe flute-specific facts.\"},{\"id\":\"gen_C23_situation_near_0_4\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A brass section playing a fight-song motif strongly evokes trumpet use, though the section can include other instruments.\"},{\"id\":\"gen_C23_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The clue describes ladder construction and has no meaningful connection to either instrument.\"}]}",
+  "usage": {
+    "completion_tokens": 1532,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 831,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 686,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2218
+  }
+}

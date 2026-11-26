@@ -1,0 +1,721 @@
+id,sentence,fact_key,style,unit_id,concept,split,style_index,text_id
+train_00_0,"A rigid frame holds two wheels in line, with the front assembly able to pivot for steering.",frame_and_wheel_layout,structure,C01_X,bicycle,train,0,C01_X_train_structure_0
+train_00_1,"Cranks carry the pedals, and on many models a chain transfers their rotation to the rear wheel.",pedal_drivetrain,structure,C01_X,bicycle,train,1,C01_X_train_structure_1
+train_00_2,"A steerable fork joins the front wheel to the handlebars, whose movement directs that wheel.",steering_assembly,structure,C01_X,bicycle,train,2,C01_X_train_structure_2
+train_00_3,"An adjustable saddle supports the rider, while rubber tires provide the wheel surfaces that meet the ground.",saddle_and_tires,structure,C01_X,bicycle,train,3,C01_X_train_structure_3
+train_00_6,Squeezing brake levers activates pads or calipers that slow the rotating wheels.,braking_process,action,C01_X,bicycle,train,0,C01_X_train_action_0
+train_00_7,"On geared models, shifting changes the relationship between pedal effort and wheel rotation to suit different terrain.",gear_adjustment,action,C01_X,bicycle,train,1,C01_X_train_action_1
+train_00_8,"On paved streets, riders may share lanes with motor traffic and are generally expected to follow local road rules.",street_riding_context,situation,C01_X,bicycle,train,0,C01_X_train_situation_0
+train_00_9,"In parks, marked paths provide routes for recreational riding away from many busy roads.",park_paths,situation,C01_X,bicycle,train,1,C01_X_train_situation_1
+train_00_10,"On rough trails, riders encounter loose soil, roots, and rocks that demand careful steering and balance.",rough_trail_conditions,situation,C01_X,bicycle,train,2,C01_X_train_situation_2
+train_00_11,"In crowded urban districts, short trips can be made through narrow streets and paths where larger vehicles may struggle.",dense_urban_travel,situation,C01_X,bicycle,train,3,C01_X_train_situation_3
+train_00_12,It offers a practical way to travel short distances without relying on a fuel-powered engine.,short_distance_transport,function,C01_X,bicycle,train,0,C01_X_train_function_0
+train_00_13,Regular riding can provide aerobic exercise by sustaining muscular effort and raising the heart rate.,aerobic_exercise,function,C01_X,bicycle,train,1,C01_X_train_function_1
+train_00_14,"A rear rack or attached panniers can carry groceries, tools, or other everyday cargo.",cargo_carrying,function,C01_X,bicycle,train,2,C01_X_train_function_2
+train_00_15,"For some commuters, riding to work combines transportation with daily physical activity.",active_commuting,function,C01_X,bicycle,train,3,C01_X_train_function_3
+train_01_0,A rider can coast downhill by stopping pedal movement while momentum keeps the wheels turning.,coasting_downhill,action,C01_X,bicycle,train,2,C01_X_train_action_2
+train_01_1,"Before turning, a rider may extend an arm to communicate the intended direction to nearby road users.",turn_signal_gesture,action,C01_X,bicycle,train,3,C01_X_train_action_3
+eval_00_0,"Some frames have a low step-through opening, allowing a rider to mount without swinging a leg over a high top tube.",step_through_frame,structure,C01_X,bicycle,eval,0,C01_X_eval_structure_0
+eval_00_1,"Metal spokes radiate between each hub and rim, supporting the wheel while leaving much of its interior open.",spoke_wheel_construction,structure,C01_X,bicycle,eval,1,C01_X_eval_structure_1
+eval_00_2,"To repair a puncture, a rider can remove the wheel, expose the inner tube, and patch or replace it.",puncture_repair,action,C01_X,bicycle,eval,0,C01_X_eval_action_0
+eval_00_3,"On a steep ascent, riders sometimes stand on the pedals to add force while maintaining forward motion.",standing_climb,action,C01_X,bicycle,eval,1,C01_X_eval_action_1
+eval_00_4,"In a velodrome, riders circle a steeply banked track during indoor racing events.",velodrome_racing,situation,C01_X,bicycle,eval,0,C01_X_eval_situation_0
+eval_00_5,"At railway stations, secure racks give travelers a place to leave their rides while taking a train.",station_parking,situation,C01_X,bicycle,eval,1,C01_X_eval_situation_1
+eval_00_6,Public rental networks let people borrow one for short trips without needing to own one personally.,public_rental_access,function,C01_X,bicycle,eval,0,C01_X_eval_function_0
+eval_00_7,"In children's lessons, small models fitted with side stabilizers help beginners practice steering and pedaling.",beginner_skill_practice,function,C01_X,bicycle,eval,1,C01_X_eval_function_1
+train_00_0,"A typical example has a body shell surrounding its passenger cabin, with doors and windows providing access and outward visibility.",enclosed_body_shell,structure,C01_Y09_Y,car,train,0,C01_Y09_Y_train_structure_0
+train_00_1,"Many enclosed passenger models provide two to five seats, with restraints arranged around occupants inside the cabin.",seating_and_restraints,structure,C01_Y09_Y,car,train,1,C01_Y09_Y_train_structure_1
+train_00_2,"Four road wheels usually support the chassis, while springs and dampers reduce jolts reaching the passenger compartment.",wheels_and_suspension,structure,C01_Y09_Y,car,train,2,C01_Y09_Y_train_structure_2
+train_00_3,"Propulsion may come from a gasoline or diesel engine, a hybrid system, or a battery-powered electric motor.",propulsion_options,structure,C01_Y09_Y,car,train,3,C01_Y09_Y_train_structure_3
+train_00_4,The operator turns a steering wheel to guide the front wheels and change the vehicle's direction along the road.,steering_operation,action,C01_Y09_Y,car,train,0,C01_Y09_Y_train_action_0
+train_00_5,"Pressing the accelerator increases requested propulsion, while applying the brake slows the vehicle through friction or energy recovery.",speed_control,action,C01_Y09_Y,car,train,1,C01_Y09_Y_train_action_1
+train_00_6,"Before moving, occupants typically fasten seat belts and the operator selects a gear or drive setting.",predeparture_routine,action,C01_Y09_Y,car,train,2,C01_Y09_Y_train_action_2
+train_00_7,"Turn signals flash before a turn or lane change, indicating the operator's intended movement to nearby road users.",turn_signal_use,action,C01_Y09_Y,car,train,3,C01_Y09_Y_train_action_3
+train_00_8,"On public streets, enclosed passenger vehicles travel in mixed traffic and must follow applicable signals and speed limits.",street_travel,situation,C01_Y09_Y,car,train,0,C01_Y09_Y_train_situation_0
+train_00_9,"In cold weather, occupants can use cabin heating and window defogging to maintain comfort and improve visibility.",cold_weather_use,situation,C01_Y09_Y,car,train,1,C01_Y09_Y_train_situation_1
+train_00_10,"At service stops, drivers may replenish liquid fuel, while battery-powered versions can connect to charging equipment.",refueling_and_charging,situation,C01_Y09_Y,car,train,2,C01_Y09_Y_train_situation_2
+train_00_11,"In crowded urban districts, motorists may spend considerable time searching for a permitted parking space.",urban_parking,situation,C01_Y09_Y,car,train,3,C01_Y09_Y_train_situation_3
+train_00_12,"An enclosed road vehicle provides private, door-to-door transportation for individuals or small groups traveling along streets and highways.",personal_transport,function,C01_Y09_Y,car,train,0,C01_Y09_Y_train_function_0
+train_00_13,"Its cabin offers a protected place for shopping bags, luggage, and work equipment during journeys.",enclosed_storage,function,C01_Y09_Y,car,train,1,C01_Y09_Y_train_function_1
+train_00_14,Specially equipped versions help emergency medical crews reach patients and transport personnel or supplies.,emergency_response,function,C01_Y09_Y,car,train,2,C01_Y09_Y_train_function_2
+train_00_15,Personal access to an enclosed passenger vehicle can make distant workplaces and services reachable when destinations are spread across a region.,regional_access,function,C01_Y09_Y,car,train,3,C01_Y09_Y_train_function_3
+eval_00_0,"A combustion-powered model commonly places its engine beneath a hinged front hood, with a radiator helping carry heat away.",front_engine_cooling_layout,structure,C01_Y09_Y,car,eval,0,C01_Y09_Y_eval_structure_0
+eval_00_1,"Rubber tires with patterned tread fit around wheel rims, forming contact surfaces that grip paved roads.",tire_tread_and_rims,structure,C01_Y09_Y,car,eval,1,C01_Y09_Y_eval_structure_1
+eval_00_2,"An automatic transmission changes gear ratios as speed and engine load vary, helping the powertrain operate across different conditions.",automatic_gear_changes,action,C01_Y09_Y,car,eval,0,C01_Y09_Y_eval_action_0
+eval_00_3,"Windshield wipers sweep across glass in repeated arcs, clearing rain or light snow from the driver's forward view.",wiper_sweep,action,C01_Y09_Y,car,eval,1,C01_Y09_Y_eval_action_1
+eval_00_4,"At a drive-through window, occupants can order food and receive it without leaving the vehicle.",drive_through_service,situation,C01_Y09_Y,car,eval,0,C01_Y09_Y_eval_situation_0
+eval_00_5,"On long-distance expressways, drivers may use cruise control to maintain a chosen speed when traffic and road conditions permit.",expressway_cruise_control,situation,C01_Y09_Y,car,eval,1,C01_Y09_Y_eval_situation_1
+eval_00_6,"Hired ride services use these vehicles to transport passengers for fares, often arranging trips through dispatch systems or phone apps.",paid_ride_service,function,C01_Y09_Y,car,eval,0,C01_Y09_Y_eval_function_0
+eval_00_7,Local delivery businesses may use enclosed passenger models to move small parcels between stops when dedicated freight vehicles are impractical.,local_parcel_delivery,function,C01_Y09_Y,car,eval,1,C01_Y09_Y_eval_function_1
+train_00_0,"The hull provides buoyancy, while its shape influences stability, speed, and how comfortably the craft handles waves.",hull_shape,structure,C01_Y21_Y,sailboat,train,0,C01_Y21_Y_train_structure_0
+train_00_1,A mast rises above the deck and supports the rigging that holds the wind-catching panels in position.,mast_rigging,structure,C01_Y21_Y,sailboat,train,1,C01_Y21_Y_train_structure_1
+train_00_2,"Many designs carry a keel beneath the hull, helping resist sideways drift and sometimes adding stabilizing ballast.",keel_stability,structure,C01_Y21_Y,sailboat,train,2,C01_Y21_Y_train_structure_2
+train_00_3,"Steering gear commonly includes a rudder at the stern, linked to a tiller or wheel for directional control.",rudder_steering,structure,C01_Y21_Y,sailboat,train,3,C01_Y21_Y_train_structure_3
+train_00_4,"When wind fills the sails, pressure across their surfaces creates force that moves the hull through water.",wind_propulsion,action,C01_Y21_Y,sailboat,train,0,C01_Y21_Y_train_action_0
+train_00_5,"To tack, the operator turns the bow through the wind, allowing the sails to fill from the opposite side.",tacking,action,C01_Y21_Y,sailboat,train,1,C01_Y21_Y_train_action_1
+train_00_6,"On a downwind jibe, the stern passes through the wind and the boom swings across to the other side.",jibing,action,C01_Y21_Y,sailboat,train,2,C01_Y21_Y_train_action_2
+train_00_7,"Adjusting the sheets changes sail angle, letting the crew respond to shifts in wind direction and strength.",sheet_adjustment,action,C01_Y21_Y,sailboat,train,3,C01_Y21_Y_train_action_3
+train_00_8,"These vessels commonly travel on inland lakes, rivers, and coastal waters where wind and navigable depth are suitable.",navigable_waters,situation,C01_Y21_Y,sailboat,train,0,C01_Y21_Y_train_situation_0
+train_00_9,"At marinas, they may remain secured to docks between outings or be anchored in sheltered water.",marina_mooring,situation,C01_Y21_Y,sailboat,train,1,C01_Y21_Y_train_situation_1
+train_00_10,"Organized regattas place crews on marked courses, where changing wind conditions influence route choices and performance.",regatta_course,situation,C01_Y21_Y,sailboat,train,2,C01_Y21_Y_train_situation_2
+train_00_11,Some are kept ashore during winter or severe weather to protect hulls and rigging from damage.,seasonal_storage,situation,C01_Y21_Y,sailboat,train,3,C01_Y21_Y_train_situation_3
+train_00_12,Wind-driven passage can carry passengers between nearby ports while reducing reliance on fuel-burning propulsion.,passenger_transport,function,C01_Y21_Y,sailboat,train,0,C01_Y21_Y_train_function_0
+train_00_13,"Recreational outings use the craft for day trips, overnight cruising, and experiencing open-water conditions.",recreational_cruising,function,C01_Y21_Y,sailboat,train,1,C01_Y21_Y_train_function_1
+train_00_14,"Competitive crews use them to test tactics, coordination, and speed across a defined course.",competitive_racing,function,C01_Y21_Y,sailboat,train,2,C01_Y21_Y_train_function_2
+train_00_15,"They can provide practical instruction in navigation, sail handling, weather awareness, and basic seamanship.",seamanship_training,function,C01_Y21_Y,sailboat,train,3,C01_Y21_Y_train_function_3
+eval_00_0,"A cockpit provides a recessed working area where crew can sit or handle lines, often surrounded by deck surfaces.",cockpit_layout,structure,C01_Y21_Y,sailboat,eval,0,C01_Y21_Y_eval_structure_0
+eval_00_1,"Some vessels include a cabin with berths and storage, allowing crew to shelter below deck during longer trips.",cabin_berths,structure,C01_Y21_Y,sailboat,eval,1,C01_Y21_Y_eval_structure_1
+eval_00_2,"Crew can reef a sail by reducing its exposed area, helping keep the craft manageable as the wind strengthens.",reefing_sail,action,C01_Y21_Y,sailboat,eval,0,C01_Y21_Y_eval_action_0
+eval_00_4,"At a boat ramp, trailerable models can be launched from shore and retrieved after an outing.",ramp_launch,situation,C01_Y21_Y,sailboat,eval,0,C01_Y21_Y_eval_situation_0
+eval_00_5,"During overnight passages, crew may take turns standing watch to monitor traffic, weather, and the vessel’s course.",overnight_watch,situation,C01_Y21_Y,sailboat,eval,1,C01_Y21_Y_eval_situation_1
+eval_00_6,A compact version can give anglers access to fishing spots beyond the shoreline without requiring powered propulsion.,fishing_access,function,C01_Y21_Y,sailboat,eval,0,C01_Y21_Y_eval_function_0
+eval_00_7,"Some owners use these vessels as liveaboard homes, combining a small living space with the ability to move between anchorages.",liveaboard_residence,function,C01_Y21_Y,sailboat,eval,1,C01_Y21_Y_eval_function_1
+eval_01_0,"Before departure, the crew checks local forecasts and chooses a route that keeps expected wind conditions within the vessel’s capabilities.",forecast_route_planning,action,C01_Y21_Y,sailboat,eval,1,C01_Y21_Y_eval_action_1
+train_00_0,"The front steering assembly uses two skis, while a broad rotating track supplies traction beneath the rear.",ski_and_track_layout,structure,C01_Y23_Y,snowmobile,train,0,C01_Y23_Y_train_structure_0
+train_00_1,Many models use a continuously variable transmission to transfer engine power to the rear track.,variable_transmission,structure,C01_Y23_Y,snowmobile,train,1,C01_Y23_Y_train_structure_1
+train_00_2,A handlebar-mounted throttle and brake let the seated operator regulate speed and steering.,handlebar_controls,structure,C01_Y23_Y,snowmobile,train,2,C01_Y23_Y_train_structure_2
+train_00_3,"An engine, fuel tank, seat, and protective hood are arranged along a narrow chassis.",chassis_components,structure,C01_Y23_Y,snowmobile,train,3,C01_Y23_Y_train_structure_3
+train_00_4,"Turning the handlebars pivots the front skis, redirecting the machine across packed or loose snow.",steering_operation,action,C01_Y23_Y,snowmobile,train,0,C01_Y23_Y_train_action_0
+train_00_5,"Applying throttle engages the drive system, moving the track and propelling the vehicle forward.",throttle_propulsion,action,C01_Y23_Y,snowmobile,train,1,C01_Y23_Y_train_action_1
+train_00_6,Operators often shift their weight while cornering to help maintain balance on uneven snow.,weight_shift_cornering,action,C01_Y23_Y,snowmobile,train,2,C01_Y23_Y_train_action_2
+train_00_7,"After use, the track and suspension may be cleared of packed snow before storage.",clearing_snow_after_use,action,C01_Y23_Y,snowmobile,train,3,C01_Y23_Y_train_action_3
+train_00_8,These machines commonly travel on groomed winter trails maintained for recreational or guided outings.,groomed_trails,situation,C01_Y23_Y,snowmobile,train,0,C01_Y23_Y_train_situation_0
+train_00_9,"Deep, untracked snow can slow progress and demand more effort from the engine and operator.",deep_snow_conditions,situation,C01_Y23_Y,snowmobile,train,1,C01_Y23_Y_train_situation_1
+train_00_10,Cold-weather starts may require a charged battery and suitable engine oil for low temperatures.,cold_start_conditions,situation,C01_Y23_Y,snowmobile,train,2,C01_Y23_Y_train_situation_2
+train_00_11,"On frozen lakes, riders must assess ice thickness because snow cover can conceal hazards.",frozen_lake_hazards,situation,C01_Y23_Y,snowmobile,train,3,C01_Y23_Y_train_situation_3
+train_01_0,"This vehicle transports residents, workers, and supplies between remote winter settlements when snow blocks ordinary roads.",winter_settlement_transport,function,C01_Y23_Y,snowmobile,train,0,C01_Y23_Y_train_function_0
+train_01_1,Emergency crews use this vehicle to carry rescuers and medical equipment across snowbound terrain during winter incidents.,emergency_response_access,function,C01_Y23_Y,snowmobile,train,1,C01_Y23_Y_train_function_1
+train_01_2,Utility workers can use it to inspect remote power lines when snow makes access by road difficult.,winter_infrastructure_inspection,function,C01_Y23_Y,snowmobile,train,2,C01_Y23_Y_train_function_2
+train_01_3,"With a hitch, it can haul a small cargo trailer carrying tools, fuel, or supplies across snowy ground.",cargo_trailer_hauling,function,C01_Y23_Y,snowmobile,train,3,C01_Y23_Y_train_function_3
+eval_00_0,"Many models use independent front suspension, allowing each ski to respond separately to bumps and changes in terrain.",independent_front_suspension,structure,C01_Y23_Y,snowmobile,eval,0,C01_Y23_Y_eval_structure_0
+eval_00_1,A clear windscreen on some versions deflects wind and flying snow away from the operator's face.,windscreen_weather_protection,structure,C01_Y23_Y,snowmobile,eval,1,C01_Y23_Y_eval_structure_1
+eval_00_2,"Some versions engage reverse through a button or lever, allowing the operator to back out of a confined space.",reverse_operation,action,C01_Y23_Y,snowmobile,eval,0,C01_Y23_Y_eval_action_0
+eval_00_3,A tethered safety switch can cut the engine if the operator becomes separated from the vehicle.,tether_engine_shutdown,action,C01_Y23_Y,snowmobile,eval,1,C01_Y23_Y_eval_action_1
+eval_00_4,"In dense forest, narrow passages and hidden stumps can constrain routes and require slower, careful travel.",wooded_route_constraints,situation,C01_Y23_Y,snowmobile,eval,0,C01_Y23_Y_eval_situation_0
+eval_00_5,"During spring thaw, slushy patches and exposed ground can reduce traction and increase the risk of underbody damage.",spring_thaw_conditions,situation,C01_Y23_Y,snowmobile,eval,1,C01_Y23_Y_eval_situation_1
+eval_00_6,It can tow a grooming implement that packs snow and creates a smoother route for winter trail users.,trail_grooming,function,C01_Y23_Y,snowmobile,eval,0,C01_Y23_Y_eval_function_0
+eval_00_7,Ice anglers use it to reach fishing spots across snow-covered lakes without walking the entire distance from shore.,ice_fishing_access,function,C01_Y23_Y,snowmobile,eval,1,C01_Y23_Y_eval_function_1
+train_00_0,"Its sturdy trunk supports a spreading crown, with major limbs branching outward to create a broad canopy.",spreading_crown,structure,C01_Y33_Y,oak tree,train,0,C01_Y33_Y_train_structure_0
+train_00_1,Many species bear deeply lobed leaves with rounded or pointed tips and a network of visible veins.,lobed_leaf_shape,structure,C01_Y33_Y,oak tree,train,1,C01_Y33_Y_train_structure_1
+train_00_2,"Mature bark often develops thick ridges and furrows, though its texture varies among species and with age.",ridged_bark,structure,C01_Y33_Y,oak tree,train,2,C01_Y33_Y_train_structure_2
+train_00_3,"A dense root system extends belowground, with lateral roots helping anchor the trunk in surrounding soil.",anchoring_roots,structure,C01_Y33_Y,oak tree,train,3,C01_Y33_Y_train_structure_3
+train_00_4,"Wind carries pollen between flowers in spring, before fertilized flowers develop into acorns later in the growing season.",wind_pollination,action,C01_Y33_Y,oak tree,train,0,C01_Y33_Y_train_action_0
+train_00_5,"Deciduous kinds shed their leaves in autumn, then produce fresh foliage when warmer conditions return.",seasonal_leaf_shedding,action,C01_Y33_Y,oak tree,train,1,C01_Y33_Y_train_action_1
+train_00_6,"Acorns fall from branches as they ripen, and some are buried by animals that later retrieve or forget them.",acorn_dispersal,action,C01_Y33_Y,oak tree,train,2,C01_Y33_Y_train_action_2
+train_00_7,"New shoots lengthen during favorable growing seasons, while growth slows during cold weather or drought.",seasonal_shoot_growth,action,C01_Y33_Y,oak tree,train,3,C01_Y33_Y_train_action_3
+train_00_8,"These trees occur across much of the Northern Hemisphere, inhabiting environments from cool forests to warm Mediterranean landscapes.",hemisphere_and_climate_range,situation,C01_Y33_Y,oak tree,train,0,C01_Y33_Y_train_situation_0
+train_00_9,"Many grow in mixed woodlands alongside other broadleaf species, forming part of layered forest canopies.",mixed_woodland_habitat,situation,C01_Y33_Y,oak tree,train,1,C01_Y33_Y_train_situation_1
+train_00_10,"Some species thrive in open, sunny sites, where their wide crowns can develop without close competition.",open_site_growth,situation,C01_Y33_Y,oak tree,train,2,C01_Y33_Y_train_situation_2
+train_00_11,"Several kinds tolerate dry summers and rocky soils, especially in regions with seasonal rainfall.",dry_rocky_habitats,situation,C01_Y33_Y,oak tree,train,3,C01_Y33_Y_train_situation_3
+train_00_12,"Long-lived specimens store carbon in woody tissues and soils, contributing to the regulation of atmospheric carbon.",carbon_storage,function,C01_Y33_Y,oak tree,train,0,C01_Y33_Y_train_function_0
+train_00_13,"Fallen leaves decompose into organic matter, returning nutrients to woodland soils.",leaf_litter_nutrients,function,C01_Y33_Y,oak tree,train,1,C01_Y33_Y_train_function_1
+train_00_14,"Branches and cavities provide nesting and shelter sites for birds, insects, and small mammals.",wildlife_shelter,function,C01_Y33_Y,oak tree,train,2,C01_Y33_Y_train_function_2
+train_00_15,"The dense hardwood is used in flooring, furniture, barrels, and other durable wood products.",hardwood_products,function,C01_Y33_Y,oak tree,train,3,C01_Y33_Y_train_function_3
+eval_00_0,"Each nut sits partly inside a scaly cup, whose shape and depth vary among species.",variable_acorn_cupule,structure,C01_Y33_Y,oak tree,eval,0,C01_Y33_Y_eval_structure_0
+eval_00_1,"On many kinds, male flowers hang in slender catkins, while female flowers are small and inconspicuous.",flower_form,structure,C01_Y33_Y,oak tree,eval,1,C01_Y33_Y_eval_structure_1
+eval_00_2,"After adequate moisture and warmth, a fallen nut can germinate, sending a root downward before its shoot emerges.",acorn_germination,action,C01_Y33_Y,oak tree,eval,0,C01_Y33_Y_eval_action_0
+eval_00_4,"Certain species grow along riverbanks and floodplains, where periodic flooding shapes their local growing conditions.",floodplain_habitat,situation,C01_Y33_Y,oak tree,eval,0,C01_Y33_Y_eval_situation_0
+eval_00_5,"Some species are planted along streets and in parks, provided their mature size fits the available space.",urban_planting_context,situation,C01_Y33_Y,oak tree,eval,1,C01_Y33_Y_eval_situation_1
+eval_00_6,"The broad canopy casts shade over yards and public spaces, reducing direct sunlight beneath the branches.",shade_provision,function,C01_Y33_Y,oak tree,eval,0,C01_Y33_Y_eval_function_0
+eval_00_7,"Acorns provide seasonal food for wildlife, including deer, turkeys, and squirrels.",acorns_as_wildlife_food,function,C01_Y33_Y,oak tree,eval,1,C01_Y33_Y_eval_function_1
+eval_01_0,"After a surface fire, some mature trees produce new shoots from buds that survive near the base of the trunk.",postfire_basal_resprouting,action,C01_Y33_Y,oak tree,eval,1,C01_Y33_Y_eval_action_1
+train_00_0,"A common design uses a rigid seat pan joined to a vertical backrest, with legs distributing weight across the floor.",pan_backrest_frame,structure,C01_Y37_Y,chair,train,0,C01_Y37_Y_train_structure_0
+train_00_1,"Many versions have four legs, though a central pedestal or sled-shaped base can support the raised seating surface.",support_base_variations,structure,C01_Y37_Y,chair,train,1,C01_Y37_Y_train_structure_1
+train_00_2,"Upholstered models place foam padding beneath fabric or leather, softening the contact surface without changing the basic frame.",upholstered_layers,structure,C01_Y37_Y,chair,train,2,C01_Y37_Y_train_structure_2
+train_00_3,"Some frames are built from molded plastic, while others combine wood or metal rails with separate panels.",frame_materials,structure,C01_Y37_Y,chair,train,3,C01_Y37_Y_train_structure_3
+train_00_5,An adjustable office model raises or lowers its seat when a lever releases the gas cylinder.,height_adjustment,action,C01_Y37_Y,chair,train,0,C01_Y37_Y_train_action_0
+train_00_6,"On a rocking version, curved runners let the frame tilt repeatedly forward and backward under a seated person's shifting weight.",rocking_motion,action,C01_Y37_Y,chair,train,1,C01_Y37_Y_train_action_1
+train_00_7,"A folding version pivots at hinged joints, collapsing its frame for compact storage and reopening when needed.",folding_mechanism,action,C01_Y37_Y,chair,train,2,C01_Y37_Y_train_action_2
+train_00_8,"Dining rooms often arrange several around a table, leaving room for people to sit during shared meals.",dining_room_setting,situation,C01_Y37_Y,chair,train,0,C01_Y37_Y_train_situation_0
+train_00_9,"Waiting areas place rows near reception desks, where visitors can sit while appointments or services are pending.",waiting_area_setting,situation,C01_Y37_Y,chair,train,1,C01_Y37_Y_train_situation_1
+train_00_10,Outdoor patios use weather-resistant versions that withstand sunlight and occasional rain between periods of use.,outdoor_setting,situation,C01_Y37_Y,chair,train,2,C01_Y37_Y_train_situation_2
+train_00_11,"Lecture halls commonly align them in rows facing a teaching area, with aisles preserving routes through the room.",lecture_hall_layout,situation,C01_Y37_Y,chair,train,3,C01_Y37_Y_train_situation_3
+train_00_12,"By elevating a seated person above the floor, it provides a stable position for eating, reading, or conversation.",elevated_sitting,function,C01_Y37_Y,chair,train,0,C01_Y37_Y_train_function_0
+train_00_13,"At a desk, it supports the body while allowing hands to reach writing materials or a keyboard.",desk_activity_support,function,C01_Y37_Y,chair,train,1,C01_Y37_Y_train_function_1
+train_00_14,Portable models supply temporary seating at gatherings where fixed built-in places are insufficient.,temporary_seating,function,C01_Y37_Y,chair,train,2,C01_Y37_Y_train_function_2
+train_00_15,A supportive back can reduce the effort needed to maintain an upright resting posture during longer seated activities.,posture_support,function,C01_Y37_Y,chair,train,3,C01_Y37_Y_train_function_3
+train_01_0,"A swivel model rotates around its central post, letting a seated person turn toward nearby work without moving the base.",swivel_rotation,action,C01_Y37_Y,chair,train,3,C01_Y37_Y_train_action_3
+eval_00_0,"Armrests, when present, extend from the side supports and give the seated person's forearms a place to rest.",armrest_supports,structure,C01_Y37_Y,chair,eval,0,C01_Y37_Y_eval_structure_0
+eval_00_1,"Some models incorporate a small writing tablet attached by a pivoting arm, creating a surface beside the seat.",pivoting_writing_tablet,structure,C01_Y37_Y,chair,eval,1,C01_Y37_Y_eval_structure_1
+eval_00_2,"Stackable models are lifted and nested one above another, reducing the floor area occupied when a room is cleared.",vertical_stacking,action,C01_Y37_Y,chair,eval,0,C01_Y37_Y_eval_action_0
+eval_00_3,Office versions on casters roll across smooth floors when users push with their feet or pull themselves along a desk.,caster_rolling,action,C01_Y37_Y,chair,eval,1,C01_Y37_Y_eval_action_1
+eval_00_4,"Photographers sometimes use a low, compact seat on location to remain near ground level while framing a shot.",photography_location,situation,C01_Y37_Y,chair,eval,0,C01_Y37_Y_eval_situation_0
+eval_00_5,"At a piano, a padded seat places a musician at the keyboard with both hands free for playing.",piano_practice,situation,C01_Y37_Y,chair,eval,1,C01_Y37_Y_eval_situation_1
+eval_00_6,A raised seat with a footrest brings a young child closer to table level during supervised meals.,child_table_access,function,C01_Y37_Y,chair,eval,0,C01_Y37_Y_eval_function_0
+eval_00_7,Numbered seats in an auditorium help ticket holders find assigned locations before a performance begins.,auditorium_wayfinding,function,C01_Y37_Y,chair,eval,1,C01_Y37_Y_eval_function_1
+train_00_0,"Most of its tubing has a cylindrical bore, widening gradually into a broad, outward-facing bell.",bore_and_bell_shape,structure,C23_X,trumpet,train,0,C23_X_train_structure_0
+train_00_1,A typical orchestral model has three finger-operated valves arranged above the main tube.,three_valve_layout,structure,C23_X,trumpet,train,1,C23_X_train_structure_1
+train_00_2,Its detachable mouthpiece has a shallow cup that directs the player's airflow into the instrument.,cup_mouthpiece,structure,C23_X,trumpet,train,2,C23_X_train_structure_2
+train_00_3,"The leadpipe curves from the mouthpiece receiver toward the valve block, forming part of the airflow path.",curved_leadpipe,structure,C23_X,trumpet,train,3,C23_X_train_structure_3
+train_00_4,A player produces sound by buzzing their lips against the mouthpiece while blowing steadily.,lip_buzz_sound_production,action,C23_X,trumpet,train,0,C23_X_train_action_0
+train_00_5,"Depressing a valve redirects air through extra tubing, lowering the instrument's sounding pitch.",valve_pitch_change,action,C23_X,trumpet,train,1,C23_X_train_action_1
+train_00_6,Players use a small slide on the first valve loop to correct certain notes' intonation.,first_valve_slide_adjustment,action,C23_X,trumpet,train,2,C23_X_train_action_2
+train_00_7,Moving the tuning slide changes the length of the air column to adjust overall pitch.,tuning_slide_adjustment,action,C23_X,trumpet,train,3,C23_X_train_action_3
+train_00_8,"In symphony orchestras, it often sits among the brass section behind the strings.",orchestral_placement,situation,C23_X,trumpet,train,0,C23_X_train_situation_0
+train_00_9,Jazz combo players may place it at the front to carry improvised melodic lines.,jazz_combo_context,situation,C23_X,trumpet,train,1,C23_X_train_situation_1
+train_00_10,"Marching ensembles use it outdoors, where its focused projection helps notes carry across open spaces.",outdoor_marching_context,situation,C23_X,trumpet,train,2,C23_X_train_situation_2
+train_00_11,"It appears in ceremonial processions, including occasions where short musical calls mark arrivals.",ceremonial_processions,situation,C23_X,trumpet,train,3,C23_X_train_situation_3
+train_00_12,Its bright upper register can make a melody stand out above dense ensemble textures.,melodic_prominence,function,C23_X,trumpet,train,0,C23_X_train_function_0
+train_00_13,Short repeated notes can add rhythmic drive to dance music and lively arrangements.,rhythmic_drive,function,C23_X,trumpet,train,1,C23_X_train_function_1
+train_00_15,"In orchestral writing, sustained tones can reinforce climactic passages with a brilliant, penetrating color.",climactic_orchestral_color,function,C23_X,trumpet,train,2,C23_X_train_function_2
+train_01_0,"At sporting events, it can lead crowd chants and provide musical punctuation between plays.",sports_crowd_chants,function,C23_X,trumpet,train,3,C23_X_train_function_3
+eval_00_0,"The brass body is commonly finished with clear lacquer or silver plating, giving the metal a protective surface and distinctive appearance.",body_finish,structure,C23_X,trumpet,eval,0,C23_X_eval_structure_0
+eval_00_1,A small water key near the tubing opens to drain moisture that collects inside during playing.,water_key_drainage,structure,C23_X,trumpet,eval,1,C23_X_eval_structure_1
+eval_00_2,A player can insert a mute into the bell to change the instrument's tone and reduce its volume.,mute_changes_sound,action,C23_X,trumpet,eval,0,C23_X_eval_action_0
+eval_00_3,"Using tongued articulation, players interrupt the airflow with the tongue to produce crisp, separated notes.",tongued_articulation,action,C23_X,trumpet,eval,1,C23_X_eval_action_1
+eval_00_4,"In brass quintets, it often carries the upper melodic line while lower-pitched partners supply supporting harmony.",quintet_melodic_role,situation,C23_X,trumpet,eval,0,C23_X_eval_situation_0
+eval_00_5,"Recording sessions for film scores may layer its part with other brass tracks to build a fuller, dramatic sound.",film_score_recording,situation,C23_X,trumpet,eval,1,C23_X_eval_situation_1
+eval_00_6,"In gospel arrangements, it can answer a singer with brief melodic phrases, creating a call-and-response exchange.",gospel_call_response,function,C23_X,trumpet,eval,0,C23_X_eval_function_0
+eval_00_7,"In salsa bands, it may reinforce syncopated riffs alongside other brass parts, giving musical hooks a strong rhythmic edge.",salsa_riff_support,function,C23_X,trumpet,eval,1,C23_X_eval_function_1
+train_00_0,Its brass tubing coils into a compact shape before widening into a flared bell.,coiled_tubing_and_bell,structure,C23_Y01_Y,french horn,train,0,C23_Y01_Y_train_structure_0
+train_00_1,"A small cup-shaped mouthpiece sits at one end, while rotary valves are fitted along the tubing.",mouthpiece_and_rotary_valves,structure,C23_Y01_Y,french horn,train,1,C23_Y01_Y_train_structure_1
+train_00_2,"Many orchestral models have three main valves, each connected to an additional length of tubing.",three_valves_and_tubing,structure,C23_Y01_Y,french horn,train,2,C23_Y01_Y_train_structure_2
+train_00_3,Double models add a thumb-operated change valve that lets players switch between F and B-flat tubing.,double_model_change_valve,structure,C23_Y01_Y,french horn,train,3,C23_Y01_Y_train_structure_3
+train_00_4,Players buzz their lips against the mouthpiece while exhaling to set the air column vibrating.,lip_buzzing,action,C23_Y01_Y,french horn,train,0,C23_Y01_Y_train_action_0
+train_00_5,"Pressing a valve redirects airflow through extra tubing, lowering the pitch produced by the instrument.",valve_pitch_change,action,C23_Y01_Y,french horn,train,1,C23_Y01_Y_train_action_1
+train_00_6,A player's right hand inside the bell can alter the instrument's intonation and tone color.,hand_in_bell_adjustment,action,C23_Y01_Y,french horn,train,2,C23_Y01_Y_train_action_2
+train_00_7,Players adjust lip tension and airflow to produce notes across the instrument's broad range.,embouchure_and_airflow,action,C23_Y01_Y,french horn,train,3,C23_Y01_Y_train_action_3
+train_00_8,"In symphony orchestras, these instruments typically sit in the brass section behind the strings and woodwinds.",orchestral_seating,situation,C23_Y01_Y,french horn,train,0,C23_Y01_Y_train_situation_0
+train_00_9,"Wind ensembles often include several players on this instrument, grouped together within the brass section.",wind_ensemble_grouping,situation,C23_Y01_Y,french horn,train,1,C23_Y01_Y_train_situation_1
+train_00_10,"During some quiet passages, a player may insert a mute into the bell to change the sound.",muted_passage,situation,C23_Y01_Y,french horn,train,2,C23_Y01_Y_train_situation_2
+train_00_11,"In chamber music, a single player may join woodwind performers in a small mixed ensemble.",mixed_chamber_ensemble,situation,C23_Y01_Y,french horn,train,3,C23_Y01_Y_train_situation_3
+train_00_12,"Its rounded, sustained tones help fill out the harmony in orchestral music.",orchestral_harmony,function,C23_Y01_Y,french horn,train,0,C23_Y01_Y_train_function_0
+train_00_13,Composers often assign it lyrical melodies that can stand out above the ensemble.,lyrical_melodies,function,C23_Y01_Y,french horn,train,1,C23_Y01_Y_train_function_1
+train_00_14,Its ability to blend with strings and woodwinds makes it useful for connecting contrasting sections of an ensemble.,blending_sections,function,C23_Y01_Y,french horn,train,2,C23_Y01_Y_train_function_2
+train_00_15,"In film scores, its wide range and rich tone can contribute to dramatic musical passages.",film_score_drama,function,C23_Y01_Y,french horn,train,3,C23_Y01_Y_train_function_3
+eval_00_0,"Some models have detachable bell sections, which can be removed to make the instrument easier to pack.",detachable_bell_storage,structure,C23_Y01_Y,french horn,eval,0,C23_Y01_Y_eval_structure_0
+eval_00_2,"By changing lip vibration while leaving the valves untouched, players can move among natural harmonic notes.",natural_harmonics_without_valves,action,C23_Y01_Y,french horn,eval,0,C23_Y01_Y_eval_action_0
+eval_00_3,"In quick passages, performers coordinate valve changes with tongued attacks to keep successive notes distinct.",valve_and_tongue_coordination,action,C23_Y01_Y,french horn,eval,1,C23_Y01_Y_eval_action_1
+eval_00_4,"In a brass quintet, two parts are commonly assigned to this instrument, covering contrasting registers.",brass_quintet_two_parts,situation,C23_Y01_Y,french horn,eval,0,C23_Y01_Y_eval_situation_0
+eval_00_5,"At solo recitals, piano often accompanies a performer, providing harmonic support without masking the instrument's sustained tone.",piano_accompaniment_at_recitals,situation,C23_Y01_Y,french horn,eval,1,C23_Y01_Y_eval_situation_1
+eval_00_6,"In mounted hunts, its calls carried signals across open ground, helping riders coordinate stages of the pursuit.",mounted_hunt_signaling,function,C23_Y01_Y,french horn,eval,0,C23_Y01_Y_eval_function_0
+eval_00_7,It can reinforce low passages by doubling bassoons or lower strings in orchestral writing.,doubling_low_orchestral_lines,function,C23_Y01_Y,french horn,eval,1,C23_Y01_Y_eval_function_1
+eval_01_0,"Its tubing extends roughly twelve feet when uncoiled, giving the instrument a long air column within a compact frame.",extended_tubing_length,structure,C23_Y01_Y,french horn,eval,1,C23_Y01_Y_eval_structure_1
+train_00_0,"A modern orchestral model commonly consists of a headjoint, a keyed body, and a separate footjoint.",three_main_sections,structure,C23_Y09_Y,flute,train,0,C23_Y09_Y_train_structure_0
+train_00_1,"The instrument's long, narrow tube is usually metal, although historical and specialist versions may be made from wood or other materials.",tube_materials,structure,C23_Y09_Y,flute,train,1,C23_Y09_Y_train_structure_1
+train_00_2,"A small embouchure opening sits near one end, while movable keys cover tone holes along the body.",opening_and_keys,structure,C23_Y09_Y,flute,train,2,C23_Y09_Y_train_structure_2
+train_00_3,Many concert models have a cylindrical bore and a headjoint shaped to help direct air across the opening.,bore_and_headjoint,structure,C23_Y09_Y,flute,train,3,C23_Y09_Y_train_structure_3
+train_00_4,The player directs a narrow stream of air across the embouchure hole rather than blowing directly into it.,air_across_opening,action,C23_Y09_Y,flute,train,0,C23_Y09_Y_train_action_0
+train_00_5,"Pressing combinations of keys changes which tone holes are open, altering the vibrating air column's effective length.",keys_change_air_column,action,C23_Y09_Y,flute,train,1,C23_Y09_Y_train_action_1
+train_00_6,Adjusting lip shape and air speed lets performers move between registers and refine pitch.,embouchure_controls_pitch,action,C23_Y09_Y,flute,train,2,C23_Y09_Y_train_action_2
+train_00_7,"Held horizontally, the instrument is supported near the mouth while both hands operate keys along its body.",horizontal_playing_position,action,C23_Y09_Y,flute,train,3,C23_Y09_Y_train_action_3
+train_00_8,"In a symphony orchestra, performers commonly sit with the woodwind section behind the strings.",orchestral_seating,situation,C23_Y09_Y,flute,train,0,C23_Y09_Y_train_situation_0
+train_00_9,"Chamber groups often pair the instrument with strings, allowing its clear tone to blend with or emerge from the texture.",chamber_music_context,situation,C23_Y09_Y,flute,train,1,C23_Y09_Y_train_situation_1
+train_00_10,"Outdoor performers may use the instrument in marching ensembles, where its bright register can remain audible among brass and percussion.",marching_ensemble_context,situation,C23_Y09_Y,flute,train,2,C23_Y09_Y_train_situation_2
+train_00_11,"In a practice room, players often use a tuner and sustained notes to monitor intonation and breath control.",practice_context,situation,C23_Y09_Y,flute,train,3,C23_Y09_Y_train_situation_3
+train_00_12,Its upper register often carries melodic lines that stand out clearly over lower-pitched orchestral accompaniment.,upper_register_melodies,function,C23_Y09_Y,flute,train,0,C23_Y09_Y_train_function_0
+train_00_13,Composers use the instrument's capacity for sustained notes and nuanced dynamics in lyrical passages as well as agile runs.,lyrical_and_agile_writing,function,C23_Y09_Y,flute,train,1,C23_Y09_Y_train_function_1
+train_00_14,"In ensembles, the instrument can provide countermelodies or harmonies instead of carrying the principal tune.",ensemble_supporting_roles,function,C23_Y09_Y,flute,train,2,C23_Y09_Y_train_function_2
+train_00_15,"As a solo instrument, it appears in concertos and recitals, where one performer presents extended melodic repertoire.",solo_repertoire,function,C23_Y09_Y,flute,train,3,C23_Y09_Y_train_function_3
+eval_00_0,"A standard concert model is pitched in C and sounds at the written pitch, without octave transposition.",concert_pitch_and_transposition,structure,C23_Y09_Y,flute,eval,0,C23_Y09_Y_eval_structure_0
+eval_00_1,Many keyed models use soft pads beneath key cups to seal tone holes and prevent air leakage.,pads_seal_tone_holes,structure,C23_Y09_Y,flute,eval,1,C23_Y09_Y_eval_structure_1
+eval_00_2,Players articulate separate notes by briefly interrupting the air stream with the tongue against the roof of the mouth.,tongued_articulation,action,C23_Y09_Y,flute,eval,0,C23_Y09_Y_eval_action_0
+eval_00_3,A rapid trill can be made by alternating quickly between neighboring pitches through finger or key movement.,trill_execution,action,C23_Y09_Y,flute,eval,1,C23_Y09_Y_eval_action_1
+eval_00_4,"At Irish traditional sessions, wooden members of this wind-instrument family are often played by ear alongside fiddles.",irish_session_context,situation,C23_Y09_Y,flute,eval,0,C23_Y09_Y_eval_situation_0
+eval_00_5,"In a choir of these wind instruments, performers combine several registers to create soprano, alto, tenor, and bass parts.",flute_choir_registers,situation,C23_Y09_Y,flute,eval,1,C23_Y09_Y_eval_situation_1
+eval_00_6,"Beginners often study it to develop controlled breathing, steady tone production, and coordinated finger movement.",beginner_skill_development,function,C23_Y09_Y,flute,eval,0,C23_Y09_Y_eval_function_0
+eval_00_7,"In programmatic music, composers may use its airy timbre to suggest birdsong or pastoral landscapes.",pastoral_and_birdlike_effect,function,C23_Y09_Y,flute,eval,1,C23_Y09_Y_eval_function_1
+train_00_0,Its strings run from a bridge on the body to tuning machines mounted at the far end of the neck.,strings_bridge_to_tuning_machines,structure,C23_Y20_Y,guitar,train,0,C23_Y20_Y_train_structure_0
+train_00_1,"Metal frets set into the fingerboard divide string lengths, allowing players to select different pitches by pressing strings down.",frets_divide_string_lengths,structure,C23_Y20_Y,guitar,train,1,C23_Y20_Y_train_structure_1
+train_00_2,"Many versions have six strings, though instruments with fewer or more strings are also made.",variation_in_string_count,structure,C23_Y20_Y,guitar,train,2,C23_Y20_Y_train_structure_2
+train_00_3,"Acoustic models commonly use a hollow resonant body, while electric versions may have a solid body and magnetic pickups.",acoustic_and_electric_body_designs,structure,C23_Y20_Y,guitar,train,3,C23_Y20_Y_train_structure_3
+train_00_4,A player can pluck individual strings or brush several together to produce separate notes or a chord.,plucking_and_brushing_strings,action,C23_Y20_Y,guitar,train,0,C23_Y20_Y_train_action_0
+train_00_6,"Turning tuning machines changes string tension, allowing the instrument's open strings to be adjusted to desired pitches.",tuning_machines_adjust_tension,action,C23_Y20_Y,guitar,train,1,C23_Y20_Y_train_action_1
+train_00_7,Players often use a small plectrum or their fingertips to set the strings vibrating.,plectrum_or_fingertip_playing,action,C23_Y20_Y,guitar,train,2,C23_Y20_Y_train_action_2
+train_00_8,"It is frequently heard in small bands, where performers may share rhythmic and melodic parts.",small_band_context,situation,C23_Y20_Y,guitar,train,0,C23_Y20_Y_train_situation_0
+train_00_9,"In music lessons, beginners practice chord changes and simple melodies on this portable instrument.",beginner_music_lessons,situation,C23_Y20_Y,guitar,train,1,C23_Y20_Y_train_situation_1
+train_00_10,"Recording studios use its clean or processed tones across genres, from folk arrangements to rock productions.",recording_studio_use,situation,C23_Y20_Y,guitar,train,2,C23_Y20_Y_train_situation_2
+train_00_11,"At informal gatherings, its portability makes it practical for leading group singalongs without elaborate equipment.",informal_gathering_singalongs,situation,C23_Y20_Y,guitar,train,3,C23_Y20_Y_train_situation_3
+train_00_12,It often supplies harmonic accompaniment by sounding chords beneath a singer or another melodic performer.,chordal_harmonic_accompaniment,function,C23_Y20_Y,guitar,train,0,C23_Y20_Y_train_function_0
+train_00_13,"In many ensembles, it carries melodic lines, including solos that stand out above the accompanying rhythm section.",melodic_lines_and_solos,function,C23_Y20_Y,guitar,train,1,C23_Y20_Y_train_function_1
+train_00_14,"Its low-register versions can reinforce bass parts, contributing pulse and harmonic foundation to a group's sound.",low_register_bass_support,function,C23_Y20_Y,guitar,train,2,C23_Y20_Y_train_function_2
+train_00_15,Songwriters use it to sketch harmonic progressions and develop musical ideas before arranging a full composition.,composing_and_sketching_progressions,function,C23_Y20_Y,guitar,train,3,C23_Y20_Y_train_function_3
+train_01_0,Players can bend a sounding string sideways against a fret to raise its pitch and add expressive inflection.,sideways_string_bending_raises_pitch,action,C23_Y20_Y,guitar,train,3,C23_Y20_Y_train_action_3
+eval_00_0,A small nut near the neck’s upper end spaces the strings before they extend toward the tuning hardware.,nut_spaces_strings_at_neck_end,structure,C23_Y20_Y,guitar,eval,0,C23_Y20_Y_eval_structure_0
+eval_00_1,"Classical models commonly use nylon strings, while many steel-string designs are fitted with metal strings.",nylon_and_metal_string_materials,structure,C23_Y20_Y,guitar,eval,1,C23_Y20_Y_eval_structure_1
+eval_00_2,"A movable capo clamps the strings against a fret, raising the pitches produced by the open strings.",capo_raises_open_string_pitches,action,C23_Y20_Y,guitar,eval,0,C23_Y20_Y_eval_action_0
+eval_00_3,Moving a slide along a string lets a player glide between pitches rather than selecting only fixed fret positions.,slide_produces_gliding_pitches,action,C23_Y20_Y,guitar,eval,1,C23_Y20_Y_eval_action_1
+eval_00_4,"In flamenco performances, it may accompany singers and dancers alongside handclaps and rhythmic footwork.",flamenco_performance_context,situation,C23_Y20_Y,guitar,eval,0,C23_Y20_Y_eval_situation_0
+eval_00_5,Chamber concerts sometimes feature it in arrangements alongside instruments from the string and wind families.,chamber_concert_arrangements,situation,C23_Y20_Y,guitar,eval,1,C23_Y20_Y_eval_situation_1
+eval_00_6,"Its range allows a solo performer to combine bass notes, chords, and melody within one musical part.",single_performer_combines_registers,function,C23_Y20_Y,guitar,eval,0,C23_Y20_Y_eval_function_0
+eval_00_7,"A built-in pickup can send its sound to amplification equipment, making it audible in large performance spaces.",pickup_enables_amplification_for_large_spaces,function,C23_Y20_Y,guitar,eval,1,C23_Y20_Y_eval_function_1
+train_00_0,"A compact, lightweight accessory is sized to sit within the flared bell of a brass instrument.",compact_fit,structure,C23_Y26_Y,practice mute,train,0,C23_Y26_Y_train_structure_0
+train_00_1,Many models combine a rigid metal or plastic body with soft cork or felt strips that help secure the fit.,body_and_cushion_materials,structure,C23_Y26_Y,practice mute,train,1,C23_Y26_Y_train_structure_1
+train_00_2,The interior of many designs includes narrow passages or baffles that redirect sound before it leaves the bell.,internal_sound_path,structure,C23_Y26_Y,practice mute,train,2,C23_Y26_Y_train_structure_2
+train_00_3,"Some versions have a tapered body, with a wider rim near the bell opening and a narrower end farther inside.",tapered_shape,structure,C23_Y26_Y,practice mute,train,3,C23_Y26_Y_train_structure_3
+train_00_4,"When seated in the bell, it intercepts sound waves before they radiate freely into the room.",sound_interception,action,C23_Y26_Y,practice mute,train,0,C23_Y26_Y_train_action_0
+train_00_5,"Air passes through internal openings, so playing remains possible despite the added obstruction.",airflow_through_openings,action,C23_Y26_Y,practice mute,train,1,C23_Y26_Y_train_action_1
+train_00_6,"The added resistance can make the instrument feel harder to blow, especially for players unaccustomed to the device.",increased_playing_resistance,action,C23_Y26_Y,practice mute,train,2,C23_Y26_Y_train_action_2
+train_00_7,"Its acoustic loading may alter intonation, requiring players to adjust pitch while practicing.",intonation_adjustment,action,C23_Y26_Y,practice mute,train,3,C23_Y26_Y_train_action_3
+train_00_8,Players often use one in apartments or other shared homes when loud brass playing could disturb nearby occupants.,shared_home_use,situation,C23_Y26_Y,practice mute,train,0,C23_Y26_Y_train_situation_0
+train_00_9,It can be fitted during individual warm-ups in a small room where full-volume playing is impractical.,small_room_warmup,situation,C23_Y26_Y,practice mute,train,1,C23_Y26_Y_train_situation_1
+train_00_10,Students may use it between lessons to review familiar passages without producing the instrument’s usual sound level.,between_lesson_practice,situation,C23_Y26_Y,practice mute,train,2,C23_Y26_Y_train_situation_2
+train_00_11,"A compact version can accompany an instrument on trips, allowing quieter practice in hotels or other temporary rooms.",travel_practice,situation,C23_Y26_Y,practice mute,train,3,C23_Y26_Y_train_situation_3
+train_00_12,Its main role is lowering acoustic output while preserving the ability to play notes and exercises on the instrument.,reduced_output_while_playing,function,C23_Y26_Y,practice mute,train,0,C23_Y26_Y_train_function_0
+train_00_13,"It preserves audible pitch feedback, enabling players to hear articulation and phrasing while practicing more quietly.",audible_practice_feedback,function,C23_Y26_Y,practice mute,train,1,C23_Y26_Y_train_function_1
+train_00_14,"Its passive design reduces sound without requiring batteries, cables, or electronic amplification.",no_power_required,function,C23_Y26_Y,practice mute,train,2,C23_Y26_Y_train_function_2
+train_01_0,It helps brass players maintain regular practice routines when access to a rehearsal space is limited.,practice_without_rehearsal_space,function,C23_Y26_Y,practice mute,train,3,C23_Y26_Y_train_function_3
+eval_00_0,"Manufacturers offer differently sized versions because brass bells vary in diameter, so an insert made for one instrument may not fit another.",instrument_specific_sizing,structure,C23_Y26_Y,practice mute,eval,0,C23_Y26_Y_eval_structure_0
+eval_00_1,"Its exposed outer edge provides a grasping point, allowing the player to withdraw it without taking apart the instrument.",accessible_removal_edge,structure,C23_Y26_Y,practice mute,eval,1,C23_Y26_Y_eval_structure_1
+eval_00_2,"Before playing, a musician checks that the insert sits securely; a loose fit can vibrate against the bell and create unwanted buzzing.",secure_fit_check,action,C23_Y26_Y,practice mute,eval,0,C23_Y26_Y_eval_action_0
+eval_00_3,A player can remove the insert between drills and continue on the open bell without changing the instrument's setup.,switching_to_open_bell,action,C23_Y26_Y,practice mute,eval,1,C23_Y26_Y_eval_action_1
+eval_00_4,"Before a stage call, performers may use one backstage to warm up without filling a quiet auditorium with full-volume notes.",backstage_warmup,situation,C23_Y26_Y,practice mute,eval,0,C23_Y26_Y_eval_situation_0
+eval_00_5,"In a music shop's testing area, a player may use one to try basic fingering while nearby customers browse.",music_shop_testing,situation,C23_Y26_Y,practice mute,eval,1,C23_Y26_Y_eval_situation_1
+eval_00_6,Its altered tone and projection make it a personal practice aid rather than a reliable way to judge how the instrument sounds in performance.,not_a_performance_tone_reference,function,C23_Y26_Y,practice mute,eval,0,C23_Y26_Y_eval_function_0
+eval_00_7,"Its output is generally too low to balance with unmuted brass, so it is intended for individual work rather than ordinary ensemble playing.",not_for_unmuted_ensemble_balance,function,C23_Y26_Y,practice mute,eval,1,C23_Y26_Y_eval_function_1
+train_00_0,"A streamlined body tapers toward a long, narrow snout that helps reduce resistance while swimming.",streamlined_tapered_body,structure,C23_Y35_Y,dolphin,train,0,C23_Y35_Y_train_structure_0
+train_00_2,The paired front flippers contain limb bones and help steer the body through water.,forelimb_flipper_bones,structure,C23_Y35_Y,dolphin,train,1,C23_Y35_Y_train_structure_1
+train_00_3,"A broad tail ends in two horizontal flukes, which move up and down during swimming.",horizontal_tail_flukes,structure,C23_Y35_Y,dolphin,train,2,C23_Y35_Y_train_structure_2
+train_00_4,Rapid trains of clicks bounce off nearby objects and return as echoes that reveal their distance and shape.,click_echo_production,action,C23_Y35_Y,dolphin,train,0,C23_Y35_Y_train_action_0
+train_00_5,Individuals produce whistles and other sounds that carry between members of their social groups.,vocal_sound_production,action,C23_Y35_Y,dolphin,train,1,C23_Y35_Y_train_action_1
+train_00_6,Some groups work together to herd fish into dense schools before taking turns feeding.,cooperative_fish_herding,action,C23_Y35_Y,dolphin,train,2,C23_Y35_Y_train_action_2
+train_00_8,"Many populations inhabit coastal waters, where bays and shallow shelves provide access to abundant prey.",coastal_habitat,situation,C23_Y35_Y,dolphin,train,0,C23_Y35_Y_train_situation_0
+train_00_9,"Certain species occupy freshwater river systems, including stretches far upstream from the sea.",freshwater_river_ranges,situation,C23_Y35_Y,dolphin,train,1,C23_Y35_Y_train_situation_1
+train_00_10,"In some regions, groups gather in estuaries where river water mixes with seawater.",estuary_gathering_context,situation,C23_Y35_Y,dolphin,train,2,C23_Y35_Y_train_situation_2
+train_00_11,"Mothers and young calves often travel together in warm, relatively sheltered waters during early development.",mother_calf_sheltered_waters,situation,C23_Y35_Y,dolphin,train,3,C23_Y35_Y_train_situation_3
+train_00_12,"By eating fish and squid, these predators influence the abundance and distribution of their prey.",predator_influence_on_prey,function,C23_Y35_Y,dolphin,train,0,C23_Y35_Y_train_function_0
+train_00_13,Large sharks and killer whales prey on them in some marine regions.,prey_for_large_predators,function,C23_Y35_Y,dolphin,train,1,C23_Y35_Y_train_function_1
+train_00_14,"Their visible presence can attract wildlife watchers, supporting boat tours and other local tourism businesses.",wildlife_tourism_value,function,C23_Y35_Y,dolphin,train,2,C23_Y35_Y_train_function_2
+train_00_15,Researchers use recordings of their underwater sounds to study communication and monitor populations.,acoustic_research_use,function,C23_Y35_Y,dolphin,train,3,C23_Y35_Y_train_function_3
+train_01_0,A single blowhole on top of the head opens into the respiratory tract and closes underwater.,single_topside_blowhole,structure,C23_Y35_Y,dolphin,train,3,C23_Y35_Y_train_structure_3
+train_01_1,"During rest, one brain hemisphere remains more alert while the other sleeps, allowing periodic surfacing for breaths.",unihemispheric_sleep,action,C23_Y35_Y,dolphin,train,3,C23_Y35_Y_train_action_3
+eval_00_0,"Rows of sharp, conical teeth line both jaws, gripping prey whole rather than chewing it.",conical_teeth_grip_prey,structure,C23_Y35_Y,dolphin,eval,0,C23_Y35_Y_eval_structure_0
+eval_00_1,"Small ear openings lie behind the eyes, with no projecting external ear flaps.",ear_openings_without_flaps,structure,C23_Y35_Y,dolphin,eval,1,C23_Y35_Y_eval_structure_1
+eval_00_2,"Some individuals wear marine sponges over their snouts while probing the seafloor for food, shielding the skin from abrasion.",sponge_tool_use,action,C23_Y35_Y,dolphin,eval,0,C23_Y35_Y_eval_action_0
+eval_00_3,"Individuals sometimes leap entirely clear of the water, twisting before landing in conspicuous splashes.",aerial_leaping_behavior,action,C23_Y35_Y,dolphin,eval,1,C23_Y35_Y_eval_action_1
+eval_00_4,"In open-ocean settings, some populations travel through deep waters well beyond continental shelves.",open_ocean_range,situation,C23_Y35_Y,dolphin,eval,0,C23_Y35_Y_eval_situation_0
+eval_00_5,"In many populations, social groups are fluid, with individuals joining and departing temporary associations.",fluid_social_associations,situation,C23_Y35_Y,dolphin,eval,1,C23_Y35_Y_eval_situation_1
+eval_00_6,"Blubber beneath the skin stores energy and slows heat loss, helping maintain body warmth in cool water.",blubber_insulation,function,C23_Y35_Y,dolphin,eval,0,C23_Y35_Y_eval_function_0
+eval_00_7,"Nursing provides calves with energy-rich milk, supporting growth during early life.",milk_supports_calf_growth,function,C23_Y35_Y,dolphin,eval,1,C23_Y35_Y_eval_function_1
+train_00_0,"A thick, leathery peel encloses pale flesh, and its surface may be green, yellow, red, or purple across varieties.",peel_and_flesh,structure,C27_X,banana,train,0,C27_X_train_structure_0
+train_00_1,"The soft interior may contain tiny dark seed traces, although many cultivated varieties have few visible remnants.",seed_traces,structure,C27_X,banana,train,1,C27_X_train_structure_1
+train_00_2,"Individual fruits grow in compact rows called hands, attached to a central bunch on a flowering stalk.",bunch_arrangement,structure,C27_X,banana,train,2,C27_X_train_structure_2
+train_00_3,"The fruit-bearing plant is a giant herb rather than a woody tree, with broad leaves arising from a tightly packed stem.",herbaceous_plant,structure,C27_X,banana,train,3,C27_X_train_structure_3
+train_00_4,"After harvest, the fruit continues to ripen; its flesh softens as stored starches convert into sugars.",postharvest_ripening,action,C27_X,banana,train,0,C27_X_train_action_0
+train_00_5,"The peel can be pulled back from either end, exposing the flesh without requiring a utensil.",peeling_method,action,C27_X,banana,train,1,C27_X_train_action_1
+train_00_6,"During cooking, heat softens the flesh and browns its natural sugars, producing a sweeter, more caramelized flavor.",cooking_changes,action,C27_X,banana,train,2,C27_X_train_action_2
+train_00_7,"When frozen in pieces, the flesh becomes firm and icy, then softens again as it thaws.",freezing_and_thawing,action,C27_X,banana,train,3,C27_X_train_action_3
+train_00_8,"These crops are commonly grown in warm, humid regions, where abundant rainfall and frost-free conditions support steady growth.",growing_climate,situation,C27_X,banana,train,0,C27_X_train_situation_0
+train_00_9,Retail shops often stock the fruit in every season because staggered plantings and international trade sustain supplies.,year_round_availability,situation,C27_X,banana,train,1,C27_X_train_situation_1
+train_00_10,"In home gardens, the tall plants benefit from sheltered locations because strong winds can tear their broad leaves.",wind_shelter,situation,C27_X,banana,train,2,C27_X_train_situation_2
+train_00_11,"After a plant's single fruiting stalk produces its bunch, it dies back while new shoots emerge from its base.",plant_regrowth,situation,C27_X,banana,train,3,C27_X_train_situation_3
+train_00_12,Fresh flesh is commonly eaten as a convenient snack and supplies carbohydrates that provide dietary energy.,fresh_snack,function,C27_X,banana,train,0,C27_X_train_function_0
+train_00_13,"Mashed ripe flesh adds sweetness and moisture to quick breads, muffins, and other baked goods.",baking_ingredient,function,C27_X,banana,train,1,C27_X_train_function_1
+train_00_14,"In some cuisines, less-ripe fruit is cooked as a starchy ingredient in savory meals.",savory_cooking,function,C27_X,banana,train,2,C27_X_train_function_2
+train_00_15,"Dehydrating thin slices produces a lightweight, shelf-stable snack that can be stored for later eating.",dried_snack,function,C27_X,banana,train,3,C27_X_train_function_3
+eval_00_0,"Botanically, each fleshy fruit develops from an inferior ovary and is classified as a berry.",botanical_berry,structure,C27_X,banana,eval,0,C27_X_eval_structure_0
+eval_00_1,The soft flesh supplies potassium and vitamin B6 as part of its nutrient content.,potassium_and_b6,structure,C27_X,banana,eval,1,C27_X_eval_structure_1
+eval_00_2,"When cut, the exposed flesh may turn brown as enzymes oxidize compounds in contact with air.",enzymatic_browning,action,C27_X,banana,eval,0,C27_X_eval_action_0
+eval_00_3,"In traditional brewing, yeasts can ferment its sugary pulp into an alcoholic beverage.",pulp_fermentation,action,C27_X,banana,eval,1,C27_X_eval_action_1
+eval_00_4,"At produce counters, clusters are generally kept at room temperature because chilling can injure the peel and hinder normal ripening.",chilling_injury_at_retail,situation,C27_X,banana,eval,0,C27_X_eval_situation_0
+eval_00_5,"On small tropical farms, its plants are often interplanted with other crops, diversifying harvests instead of relying on a single species.",smallholder_intercropping,situation,C27_X,banana,eval,1,C27_X_eval_situation_1
+eval_00_6,"Flour milled from unripe fruit provides a gluten-free ingredient for breads, pancakes, and other baked foods.",unripe_fruit_flour,function,C27_X,banana,eval,0,C27_X_eval_function_0
+eval_00_7,"Discarded peels can be added to compost, where they break down and contribute organic matter to soil.",peel_compost,function,C27_X,banana,eval,1,C27_X_eval_function_1
+train_00_0,"Its smooth, thin skin is green when immature and often turns yellow or orange as the fruit ripens.",skin_color_and_texture,structure,C27_Y02_Y,papaya,train,0,C27_Y02_Y_train_structure_0
+train_00_1,The soft flesh ranges from orange to salmon-colored and contains abundant moisture.,flesh_color_and_texture,structure,C27_Y02_Y,papaya,train,1,C27_Y02_Y_train_structure_1
+train_00_2,"A hollow central cavity holds many round, dark seeds, each surrounded by a slippery coating.",seed_cavity_and_coating,structure,C27_Y02_Y,papaya,train,2,C27_Y02_Y_train_structure_2
+train_00_3,"Botanically, this fruit is a large berry that develops from the ovary of a flower.",botanical_fruit_type,structure,C27_Y02_Y,papaya,train,3,C27_Y02_Y_train_structure_3
+train_00_4,"As the fruit ripens, its green skin yellows, the flesh softens, and a mild aroma develops.",ripening_changes,action,C27_Y02_Y,papaya,train,0,C27_Y02_Y_train_action_0
+train_00_5,Cutting an immature fruit can release milky latex containing papain and other protein-digesting enzymes.,latex_release,action,C27_Y02_Y,papaya,train,1,C27_Y02_Y_train_action_1
+train_00_6,"During preparation, cooks commonly scoop out the central seeds before cutting the flesh into pieces.",seed_removal_in_preparation,action,C27_Y02_Y,papaya,train,2,C27_Y02_Y_train_action_2
+train_00_7,"Picked while mature but green, the fruit can continue ripening after harvest.",postharvest_ripening,action,C27_Y02_Y,papaya,train,3,C27_Y02_Y_train_action_3
+train_00_8,The crop grows in warm tropical and subtropical regions where freezing temperatures are uncommon.,growing_climate,situation,C27_Y02_Y,papaya,train,0,C27_Y02_Y_train_situation_0
+train_00_9,Plants flourish in sunny sites with well-drained soil and are sensitive to frost.,cultivation_conditions,situation,C27_Y02_Y,papaya,train,1,C27_Y02_Y_train_situation_1
+train_00_10,"On farms, fruits form along the upper trunk, beneath the plant's crown of large leaves.",fruit_position_on_plant,situation,C27_Y02_Y,papaya,train,2,C27_Y02_Y_train_situation_2
+train_00_11,Growers often treat the plant as a relatively short-lived crop because productivity can decline after several years.,crop_lifespan,situation,C27_Y02_Y,papaya,train,3,C27_Y02_Y_train_situation_3
+train_00_12,"The ripe flesh is commonly eaten fresh, either plain or with a squeeze of citrus juice.",fresh_serving_use,function,C27_Y02_Y,papaya,train,0,C27_Y02_Y_train_function_0
+train_00_13,"Its soft flesh blends readily into smoothies, juices, and other fruit-based drinks.",drink_ingredient_use,function,C27_Y02_Y,papaya,train,1,C27_Y02_Y_train_function_1
+train_00_14,Enzymes extracted from unripe fruit latex are used to tenderize meat by breaking down proteins.,meat_tenderizing_use,function,C27_Y02_Y,papaya,train,2,C27_Y02_Y_train_function_2
+train_00_15,The flesh contributes vitamin C and provitamin A carotenoids to meals.,nutrient_contribution,function,C27_Y02_Y,papaya,train,3,C27_Y02_Y_train_function_3
+eval_00_0,"Orange-fleshed varieties can contain lycopene, a red-orange carotenoid pigment distinct from the provitamin A carotenoids also present.",lycopene_pigment,structure,C27_Y02_Y,papaya,eval,0,C27_Y02_Y_eval_structure_0
+eval_00_1,"Fruit size varies widely among cultivated varieties, with some weighing under a kilogram and others exceeding five kilograms.",cultivar_size_range,structure,C27_Y02_Y,papaya,eval,1,C27_Y02_Y_eval_structure_1
+eval_00_2,Freshly cleaned seeds can begin sprouting within a few weeks when kept warm and consistently moist.,seed_germination,action,C27_Y02_Y,papaya,eval,0,C27_Y02_Y_eval_action_0
+eval_00_3,"In some cultivated lines, fruit can develop without pollination, resulting in specimens with few seeds or none.",parthenocarpic_fruit_set,action,C27_Y02_Y,papaya,eval,1,C27_Y02_Y_eval_action_1
+eval_00_4,"The species is native to southern Mexico and Central America, where it grows in warm tropical environments.",native_range,situation,C27_Y02_Y,papaya,eval,0,C27_Y02_Y_eval_situation_0
+eval_00_5,"Brazil is a major producer, with commercial cultivation concentrated in warm regions including the northeast.",brazilian_production,situation,C27_Y02_Y,papaya,eval,1,C27_Y02_Y_eval_situation_1
+eval_00_6,Ground seeds have a peppery flavor and can be used as a seasoning in place of black pepper.,seed_seasoning,function,C27_Y02_Y,papaya,eval,0,C27_Y02_Y_eval_function_0
+eval_00_7,"Mashed ripe pulp can be added to baked goods, contributing moisture and mild sweetness to cakes and breads.",baking_ingredient,function,C27_Y02_Y,papaya,eval,1,C27_Y02_Y_eval_function_1
+train_00_0,"The fruit has velvety skin, yellow-orange flesh, and a large, grooved stone at its center.",skin_flesh_stone,structure,C27_Y12_Y,peach,train,0,C27_Y12_Y_train_structure_0
+train_00_1,A woody endocarp encloses a single seed beneath the fruit’s soft edible flesh.,seed_enclosure,structure,C27_Y12_Y,peach,train,1,C27_Y12_Y_train_structure_1
+train_00_2,"Its flesh may be white or yellow, with deeper red coloring often concentrated near the stone.",flesh_color,structure,C27_Y12_Y,peach,train,2,C27_Y12_Y_train_structure_2
+train_00_3,"Some cultivars have flesh that clings tightly to the stone, while others release easily.",flesh_stone_attachment,structure,C27_Y12_Y,peach,train,3,C27_Y12_Y_train_structure_3
+train_00_4,The fruit continues to soften after harvest as ripening increases its fragrance and juiciness.,postharvest_ripening,action,C27_Y12_Y,peach,train,0,C27_Y12_Y_train_action_0
+train_00_5,"The tree produces spring blossoms, whose pollination enables fruit to develop during the growing season.",blossom_pollination,action,C27_Y12_Y,peach,train,1,C27_Y12_Y_train_action_1
+train_00_6,"Growers generally pick the fruit while firm, reducing bruising during harvest and transport.",firm_harvesting,action,C27_Y12_Y,peach,train,2,C27_Y12_Y_train_action_2
+train_00_7,"Cold storage slows ripening, but prolonged chilling can cause internal browning and mealy texture.",chilling_effects,action,C27_Y12_Y,peach,train,3,C27_Y12_Y_train_action_3
+train_00_8,Many orchards grow the tree in temperate regions where winters provide enough chill for reliable flowering.,temperate_climate,situation,C27_Y12_Y,peach,train,0,C27_Y12_Y_train_situation_0
+train_00_9,"Harvest in Northern Hemisphere orchards typically falls in summer, although cultivar and local climate shift the dates.",summer_harvest,situation,C27_Y12_Y,peach,train,1,C27_Y12_Y_train_situation_1
+train_00_10,"Sunny sites with well-drained soil support productive growth, while waterlogged ground can harm the roots.",orchard_site,situation,C27_Y12_Y,peach,train,2,C27_Y12_Y_train_situation_2
+train_00_11,Late spring frosts can injure blossoms and sharply reduce the season’s crop.,frost_damage,situation,C27_Y12_Y,peach,train,3,C27_Y12_Y_train_situation_3
+train_00_12,"Juicy flesh is commonly used in pies, cobblers, and other baked desserts.",baked_desserts,function,C27_Y12_Y,peach,train,0,C27_Y12_Y_train_function_0
+train_00_13,"Halves cook well on a grill, where surface sugars brown as the flesh softens.",grilling,function,C27_Y12_Y,peach,train,1,C27_Y12_Y_train_function_1
+train_00_14,Firm fruit is often canned because it can retain its shape during heat processing.,canning,function,C27_Y12_Y,peach,train,2,C27_Y12_Y_train_function_2
+train_00_15,"Drying sliced fruit removes moisture, creating a portable product that keeps longer than fresh harvest.",drying_preservation,function,C27_Y12_Y,peach,train,3,C27_Y12_Y_train_function_3
+eval_00_0,"The skin’s red and yellow pigments arise partly from anthocyanins and carotenoids, whose proportions vary among cultivars.",skin_pigments,structure,C27_Y12_Y,peach,eval,0,C27_Y12_Y_eval_structure_0
+eval_00_1,The edible flesh contains natural sugars and organic acids that contribute to its sweet-tart flavor.,flesh_sugars_acids,structure,C27_Y12_Y,peach,eval,1,C27_Y12_Y_eval_structure_1
+eval_00_2,"Orchardists thin clusters of young fruits early in the season, allowing those remaining to grow larger.",fruit_thinning,action,C27_Y12_Y,peach,eval,0,C27_Y12_Y_eval_action_0
+eval_00_3,"Before sowing, growers often chill the hard seeds through a prolonged cold period to overcome dormancy and encourage germination.",seed_stratification,action,C27_Y12_Y,peach,eval,1,C27_Y12_Y_eval_action_1
+eval_00_4,"Cool, wet spring weather can favor leaf curl, a fungal disease that distorts newly emerging leaves.",leaf_curl_conditions,situation,C27_Y12_Y,peach,eval,0,C27_Y12_Y_eval_situation_0
+eval_00_5,"In small gardens, trees are sometimes trained flat against sunny walls, a form that saves space.",wall_training,situation,C27_Y12_Y,peach,eval,1,C27_Y12_Y_eval_situation_1
+eval_00_6,"Ripe flesh can be eaten fresh, either directly from the hand or sliced into a simple snack.",fresh_snack,function,C27_Y12_Y,peach,eval,0,C27_Y12_Y_eval_function_0
+eval_00_7,"Its edible portion contributes dietary fiber and vitamin C, adding these nutrients to everyday meals.",nutritional_contribution,function,C27_Y12_Y,peach,eval,1,C27_Y12_Y_eval_function_1
+train_00_0,"The edible portion is soft, juicy flesh that surrounds one hard, woody seed case.",flesh_surrounds_stone,structure,C27_Y13_Y,plum,train,0,C27_Y13_Y_train_structure_0
+train_00_1,"A single flattened, pointed stone encloses the seed at the fruit’s center.",seed_inside_stone,structure,C27_Y13_Y,plum,train,1,C27_Y13_Y_train_structure_1
+train_00_3,"Flesh color varies among cultivars, ranging from yellow and green to red or deep purple.",flesh_color_variation,structure,C27_Y13_Y,plum,train,2,C27_Y13_Y_train_structure_2
+train_00_4,"After harvest, many cultivars continue to ripen, gradually softening and developing a stronger aroma.",continues_ripening_after_harvest,action,C27_Y13_Y,plum,train,0,C27_Y13_Y_train_action_0
+train_00_6,"After pollination, the flower’s ovary develops into a fruit while its seed case hardens around the seed.",fruit_develops_after_pollination,action,C27_Y13_Y,plum,train,1,C27_Y13_Y_train_action_1
+train_00_7,"Refrigeration slows softening and other ripening changes, helping extend the fruit’s useful storage period.",cold_storage_slows_ripening,action,C27_Y13_Y,plum,train,2,C27_Y13_Y_train_action_2
+train_00_8,"Cultivated trees grow widely in temperate regions, where orchards provide suitable conditions for fruit production.",temperate_orchard_cultivation,situation,C27_Y13_Y,plum,train,0,C27_Y13_Y_train_situation_0
+train_00_10,"Depending on cultivar and climate, harvest can occur from early summer into autumn.",harvest_season_varies,situation,C27_Y13_Y,plum,train,1,C27_Y13_Y_train_situation_1
+train_00_11,Many cultivated trees need a period of winter chill to flower reliably the following spring.,winter_chill_requirement,situation,C27_Y13_Y,plum,train,2,C27_Y13_Y_train_situation_2
+train_00_12,The ripe flesh is commonly eaten fresh as a snack or served alongside other foods.,fresh_eating_use,function,C27_Y13_Y,plum,train,0,C27_Y13_Y_train_function_0
+train_00_14,"Cooked flesh can be incorporated into pastry fillings, adding moisture, sweetness, and a pleasantly tangy flavor.",pastry_filling_use,function,C27_Y13_Y,plum,train,1,C27_Y13_Y_train_function_1
+train_00_15,The fruit is cooked with sugar to make preserves that can be spread on bread or used in desserts.,preserve_making_use,function,C27_Y13_Y,plum,train,2,C27_Y13_Y_train_function_2
+train_01_0,"A thin, naturally waxy coating often gives the smooth skin a pale, dusty appearance.",skin_natural_waxy_coating,structure,C27_Y13_Y,plum,train,3,C27_Y13_Y_train_structure_3
+train_01_1,"When dried, the fruit loses water, becoming chewy and concentrating its sugars and flavors.",drying_concentrates_sugars,action,C27_Y13_Y,plum,train,3,C27_Y13_Y_train_action_3
+train_01_2,"In many growing regions, its spring blossoms can be damaged by late frosts before fruit develops.",spring_blossoms_frost_risk,situation,C27_Y13_Y,plum,train,3,C27_Y13_Y_train_situation_3
+train_01_3,"The dried fruit provides dietary fiber and sorbitol, which can help support bowel regularity.",dried_fruit_supports_bowel_regularity,function,C27_Y13_Y,plum,train,3,C27_Y13_Y_train_function_3
+eval_00_0,"The fruit is often round or oval, with a shallow longitudinal groove running along one side.",fruit_shape_and_groove,structure,C27_Y13_Y,plum,eval,0,C27_Y13_Y_eval_structure_0
+eval_00_1,"In some cultivars, the flesh clings tightly to the pit; in others, it separates from the pit more easily.",flesh_pit_attachment_varies,structure,C27_Y13_Y,plum,eval,1,C27_Y13_Y_eval_structure_1
+eval_00_2,Wild mammals consume fallen fruit and may disperse its seeds after feeding.,mammals_disperse_seeds,action,C27_Y13_Y,plum,eval,0,C27_Y13_Y_eval_action_0
+eval_00_3,"Yeasts can ferment sugars in crushed fruit into alcohol, providing a base for wines and distilled spirits.",fermentation_for_alcohol,action,C27_Y13_Y,plum,eval,1,C27_Y13_Y_eval_action_1
+eval_00_4,"In orchards, some cultivars set little fruit unless a compatible pollen donor grows nearby.",compatible_pollinizer_needed,situation,C27_Y13_Y,plum,eval,0,C27_Y13_Y_eval_situation_0
+eval_00_5,Flowering trees can provide nectar for bees visiting gardens and orchards in spring.,blossoms_as_bee_nectar_source,situation,C27_Y13_Y,plum,eval,1,C27_Y13_Y_eval_situation_1
+eval_00_6,Oil pressed from the kernels is used in some skin-care products as an emollient.,kernel_oil_in_skin_care,function,C27_Y13_Y,plum,eval,0,C27_Y13_Y_eval_function_0
+eval_00_7,Cooked fruit can lend tart sweetness to savory sauces served with roasted meats.,savory_meat_sauce_ingredient,function,C27_Y13_Y,plum,eval,1,C27_Y13_Y_eval_function_1
+train_00_0,"Usually made from hardwood, bamboo, or food-grade plastic, its broad, rigid face withstands repeated knife contact.",common materials and rigid face,structure,C27_Y29_Y,cutting board,train,0,C27_Y29_Y_train_structure_0
+train_00_1,Some versions have a shallow perimeter channel that catches juices released by meat or ripe produce.,perimeter juice channel,structure,C27_Y29_Y,cutting board,train,1,C27_Y29_Y_train_structure_1
+train_00_2,A nonslip underside or rubber feet help keep the flat platform stable on a countertop.,stabilizing underside,structure,C27_Y29_Y,cutting board,train,2,C27_Y29_Y_train_structure_2
+train_00_3,Thick wooden models may be built from edge-grain or end-grain strips joined together.,wood grain construction,structure,C27_Y29_Y,cutting board,train,3,C27_Y29_Y_train_structure_3
+train_00_4,"During washing, plastic surfaces can generally go in a dishwasher, while many wooden ones require hand cleaning and prompt drying.",material-specific cleaning,action,C27_Y29_Y,cutting board,train,0,C27_Y29_Y_train_action_0
+train_00_5,A cook can rotate or reposition it to expose an unused area as food preparation continues.,repositioning during preparation,action,C27_Y29_Y,cutting board,train,1,C27_Y29_Y_train_action_1
+train_00_6,"After contact with raw meat, the surface is washed and sanitized before another ingredient is prepared.",sanitizing after raw meat,action,C27_Y29_Y,cutting board,train,2,C27_Y29_Y_train_action_2
+train_00_7,"Knife blades strike and slide across it, leaving shallow marks that accumulate with repeated use.",wear from blade contact,action,C27_Y29_Y,cutting board,train,3,C27_Y29_Y_train_action_3
+train_00_8,"In home kitchens, it is often placed beside the sink or stove before ingredients are chopped.",home kitchen placement,situation,C27_Y29_Y,cutting board,train,0,C27_Y29_Y_train_situation_0
+train_00_9,Commercial kitchens may assign separate colored surfaces to different food groups to reduce cross-contamination.,color coding in commercial kitchens,situation,C27_Y29_Y,cutting board,train,1,C27_Y29_Y_train_situation_1
+train_00_10,"During outdoor picnics, a lightweight plastic version can provide a clean preparation area on a folding table.",portable outdoor preparation,situation,C27_Y29_Y,cutting board,train,2,C27_Y29_Y_train_situation_2
+train_00_11,"Butcher counters use thick wooden surfaces for breaking down large cuts, often with sturdy supports.",butcher counter use,situation,C27_Y29_Y,cutting board,train,3,C27_Y29_Y_train_situation_3
+train_00_12,It shields countertops from blade scratches and helps prevent food juices from reaching the work surface.,countertop protection,function,C27_Y29_Y,cutting board,train,0,C27_Y29_Y_train_function_0
+train_00_13,"Its stable plane gives cooks a controlled place to slice, dice, mince, or portion ingredients.",controlled food preparation,function,C27_Y29_Y,cutting board,train,1,C27_Y29_Y_train_function_1
+train_00_14,"By providing a washable barrier, it makes cleanup after food preparation easier.",washable cleanup barrier,function,C27_Y29_Y,cutting board,train,2,C27_Y29_Y_train_function_2
+train_01_0,"A broad wooden surface can double as a rustic platter for presenting sliced cheese, bread, or charcuterie.",serving prepared foods,function,C27_Y29_Y,cutting board,train,3,C27_Y29_Y_train_function_3
+eval_00_0,"Some models include a recessed handhold at one end, making the thick slab easier to lift and carry.",recessed end handhold,structure,C27_Y29_Y,cutting board,eval,0,C27_Y29_Y_eval_structure_0
+eval_00_1,"Paper-composite versions consist of resin-bonded layers compressed into a thin, dense sheet.",resin-bonded paper layers,structure,C27_Y29_Y,cutting board,eval,1,C27_Y29_Y_eval_structure_1
+eval_00_2,"A cook can flex a thin, lightweight sheet to funnel chopped herbs directly into a saucepan.",flexible sheet funnels ingredients,action,C27_Y29_Y,cutting board,eval,0,C27_Y29_Y_eval_action_0
+eval_00_3,"After chopping, a scraper can gather small pieces from the surface into a bowl without lifting them individually.",scraping pieces into a bowl,action,C27_Y29_Y,cutting board,eval,1,C27_Y29_Y_eval_action_1
+eval_00_4,"At a sink, an overhanging model can rest across the basin while vegetables are trimmed nearby.",over-sink preparation setting,situation,C27_Y29_Y,cutting board,eval,0,C27_Y29_Y_eval_situation_0
+eval_00_6,"A clean, broad face can serve as a base for rolling pastry dough without placing flour directly on a counter.",pastry rolling base,function,C27_Y29_Y,cutting board,eval,0,C27_Y29_Y_eval_function_0
+eval_00_7,"The slightly yielding surface cushions knife edges during chopping, reducing the impact transmitted to a blade with each stroke.",cushions knife edges,function,C27_Y29_Y,cutting board,eval,1,C27_Y29_Y_eval_function_1
+eval_01_0,"During cooking classes, each participant may receive a personal washable slab for practicing knife skills at an individual station.",individual stations in cooking classes,situation,C27_Y29_Y,cutting board,eval,1,C27_Y29_Y_eval_situation_1
+train_00_0,"Overlapping microscopic scales coat its wings, producing colors through pigments and light-reflecting structures.",wing_scales,structure,C27_Y36_Y,butterfly,train,0,C27_Y36_Y_train_structure_0
+train_00_1,"Two pairs of wings attach to its thorax, while three pairs of jointed legs support its body.",body_appendages,structure,C27_Y36_Y,butterfly,train,1,C27_Y36_Y_train_structure_1
+train_00_2,"Long, club-tipped antennae extend from its head and help detect odors and orient during flight.",clubbed_antennae,structure,C27_Y36_Y,butterfly,train,2,C27_Y36_Y_train_structure_2
+train_00_3,A tightly coiled feeding tube lies beneath its head and can uncoil to reach liquid food.,coiled_feeding_tube,structure,C27_Y36_Y,butterfly,train,3,C27_Y36_Y_train_structure_3
+train_00_4,"It samples chemicals with sensors on its feet, helping determine whether a leaf is suitable for laying eggs.",foot_chemical_sensing,action,C27_Y36_Y,butterfly,train,0,C27_Y36_Y_train_action_0
+train_00_5,"While feeding, it uncoils its slender tube to draw nectar from flowers.",nectar_feeding,action,C27_Y36_Y,butterfly,train,1,C27_Y36_Y_train_action_1
+train_00_6,"Many species bask with wings open or closed, adjusting their posture to absorb warmth from sunlight.",basking_behavior,action,C27_Y36_Y,butterfly,train,2,C27_Y36_Y_train_action_2
+train_00_7,"Some populations travel long distances seasonally, following routes that can span several generations.",seasonal_migration,action,C27_Y36_Y,butterfly,train,3,C27_Y36_Y_train_action_3
+train_00_8,"Adults are commonly found in sunny gardens, meadows, and woodland clearings where flowering plants provide nectar.",flowering_habitats,situation,C27_Y36_Y,butterfly,train,0,C27_Y36_Y_train_situation_0
+train_00_9,"Many species spend their early lives on particular host plants, so their presence depends on local vegetation.",host_plant_context,situation,C27_Y36_Y,butterfly,train,1,C27_Y36_Y_train_situation_1
+train_00_10,"In tropical forests, species occupy different canopy layers, with some living high above the forest floor.",forest_canopy_habitat,situation,C27_Y36_Y,butterfly,train,2,C27_Y36_Y_train_situation_2
+train_00_11,"Cold winters may be passed as eggs, larvae, pupae, or adults, depending on the species.",overwintering_stages,situation,C27_Y36_Y,butterfly,train,3,C27_Y36_Y_train_situation_3
+train_00_12,"While visiting flowers for nectar, it can transfer pollen between blooms and contribute to plant reproduction.",pollination_role,function,C27_Y36_Y,butterfly,train,0,C27_Y36_Y_train_function_0
+train_00_13,"Its eggs and larvae provide food for birds, spiders, and other predators in terrestrial food webs.",prey_in_food_webs,function,C27_Y36_Y,butterfly,train,1,C27_Y36_Y_train_function_1
+train_00_14,"Because many species respond quickly to habitat changes, their populations can help monitor ecosystem condition.",ecosystem_monitoring,function,C27_Y36_Y,butterfly,train,2,C27_Y36_Y_train_function_2
+train_00_15,Bright wing patterns can startle predators or signal an unpleasant taste in species that store defensive chemicals.,predator_deterrence,function,C27_Y36_Y,butterfly,train,3,C27_Y36_Y_train_function_3
+eval_00_0,"Its head bears large compound eyes, each built from many tiny visual units that detect movement and broad visual patterns.",compound_eye_structure,structure,C27_Y36_Y,butterfly,eval,0,C27_Y36_Y_eval_structure_0
+eval_00_1,A network of tubular veins stiffens each wing and provides routes for nerves and body fluid.,wing_veins,structure,C27_Y36_Y,butterfly,eval,1,C27_Y36_Y_eval_structure_1
+eval_00_2,"As it develops, it passes through egg, feeding larva, pupa, and winged adult stages.",complete_metamorphosis,action,C27_Y36_Y,butterfly,eval,0,C27_Y36_Y_eval_action_0
+eval_00_3,"Before pupation, many larvae attach themselves to a surface with silk, securing the immobile stage during development.",silk_pupal_attachment,action,C27_Y36_Y,butterfly,eval,1,C27_Y36_Y_eval_action_1
+eval_00_4,"On damp riverbanks, adults often gather at exposed wet soil to drink water containing dissolved salts.",mineral_puddling_sites,situation,C27_Y36_Y,butterfly,eval,0,C27_Y36_Y_eval_situation_0
+eval_00_5,"Across many species, adults are most active during daylight, when sunlight supports flight and flower finding.",daylight_activity,situation,C27_Y36_Y,butterfly,eval,1,C27_Y36_Y_eval_situation_1
+eval_00_6,"In some species, ultraviolet markings on the wings help individuals recognize potential mates of their own kind.",ultraviolet_mate_recognition,function,C27_Y36_Y,butterfly,eval,0,C27_Y36_Y_eval_function_0
+eval_00_7,Leaf consumption by the larvae can affect plant growth and occasionally cause noticeable damage to cultivated crops.,larval_crop_damage,function,C27_Y36_Y,butterfly,eval,1,C27_Y36_Y_eval_function_1
+train_00_0,The frame commonly combines vertical side panels with several horizontal boards arranged one above another.,frame_and_boards,structure,C35_X,bookshelf,train,0,C35_X_train_structure_0
+train_00_1,Rows of small holes along the inner sides let metal pegs support boards at chosen heights.,adjustment_holes,structure,C35_X,bookshelf,train,1,C35_X_train_structure_1
+train_00_2,"Some models have an open back, while others include a thin panel that stiffens the frame.",back_panel_variants,structure,C35_X,bookshelf,train,2,C35_X_train_structure_2
+train_00_3,"Common construction materials include solid wood, engineered wood, metal, and molded plastic.",construction_materials,structure,C35_X,bookshelf,train,3,C35_X_train_structure_3
+train_00_4,"People place reading materials on its boards, usually standing them upright or laying them in short stacks.",placing_reading_materials,action,C35_X,bookshelf,train,0,C35_X_train_action_0
+train_00_5,A user can reposition removable boards by lifting them off their supports and resetting the pegs.,repositioning_boards,action,C35_X,bookshelf,train,1,C35_X_train_action_1
+train_00_6,Regular dusting removes particles from the horizontal surfaces and from the edges of stored items.,dusting_surfaces,action,C35_X,bookshelf,train,2,C35_X_train_action_2
+train_00_7,An installer may fasten a tall unit to a wall to reduce the chance of it tipping forward.,wall_anchoring,action,C35_X,bookshelf,train,3,C35_X_train_action_3
+train_00_8,"In a home, this furniture often stands in a study or living room near a chair or desk.",home_placement,situation,C35_X,bookshelf,train,0,C35_X_train_situation_0
+train_00_9,Public libraries arrange rows of these units to make collections accessible throughout reading areas.,library_setting,situation,C35_X,bookshelf,train,1,C35_X_train_situation_1
+train_00_10,A classroom may place one beside a work area so learners can reach reference materials during lessons.,classroom_setting,situation,C35_X,bookshelf,train,2,C35_X_train_situation_2
+train_00_11,"In a small apartment, a narrow version can fit against a wall without occupying much floor space.",small_space_setting,situation,C35_X,bookshelf,train,3,C35_X_train_situation_3
+train_00_12,"It keeps reading materials grouped in one place, making titles easier to locate and return after use.",organizing_materials,function,C35_X,bookshelf,train,0,C35_X_train_function_0
+train_00_13,"Storing items upright can make their spines visible, helping readers scan a collection quickly.",visible_spines,function,C35_X,bookshelf,train,1,C35_X_train_function_1
+train_00_14,Its open tiers provide storage while leaving stored materials accessible without opening doors or drawers.,accessible_storage,function,C35_X,bookshelf,train,2,C35_X_train_function_2
+train_00_15,"By raising stored items above the floor, it can free up nearby surface area for other activities.",freeing_floor_space,function,C35_X,bookshelf,train,3,C35_X_train_function_3
+eval_00_0,Corner-fitting versions may have angled rear edges and triangular footprints that sit neatly against two adjoining walls.,corner_fit_geometry,structure,C35_X,bookshelf,eval,0,C35_X_eval_structure_0
+eval_00_1,"Decorative trim sometimes caps the upper edge, while carved or routed details alter the front's appearance.",decorative_edge_details,structure,C35_X,bookshelf,eval,1,C35_X_eval_structure_1
+eval_00_2,"During assembly, screws or cam fittings pull adjoining panels together, and careful tightening helps keep the frame square.",panel_joining_assembly,action,C35_X,bookshelf,eval,0,C35_X_eval_action_0
+eval_00_3,Loaded tiers can bow slightly when heavy objects remain concentrated near the center for long periods.,long_term_tier_deflection,action,C35_X,bookshelf,eval,1,C35_X_eval_action_1
+eval_00_4,Children's rooms often use low units so young readers can browse and return materials without climbing.,child_height_access,situation,C35_X,bookshelf,eval,0,C35_X_eval_situation_0
+eval_00_5,"At fairs or community events, portable versions may hold pamphlets and schedules near an entrance.",event_materials_station,situation,C35_X,bookshelf,eval,1,C35_X_eval_situation_1
+eval_00_6,Open tiers can divide a shared room into zones without blocking daylight or completely interrupting sightlines.,open_room_divider,function,C35_X,bookshelf,eval,0,C35_X_eval_function_0
+eval_00_7,"The horizontal surfaces can also support framed photographs, small plants, or decorative objects.",decorative_object_support,function,C35_X,bookshelf,eval,1,C35_X_eval_function_1
+train_00_0,"A rigid frame supports transparent panels, enclosing a shallow interior while leaving the contents visible from the front.",framed_transparent_enclosure,structure,C35_Y06_Y,display case,train,0,C35_Y06_Y_train_structure_0
+train_00_1,"Several interior shelves provide separate levels, often made of glass so light can pass between displayed objects.",layered_glass_shelves,structure,C35_Y06_Y,display case,train,1,C35_Y06_Y_train_structure_1
+train_00_2,"Front panels may be hinged or mounted on tracks, with handles that let visitors or owners reach the interior.",front_access_hardware,structure,C35_Y06_Y,display case,train,2,C35_Y06_Y_train_structure_2
+train_00_3,"Some versions include built-in lamps, mirrored backing, or a solid base beneath the transparent upper portion.",optional_internal_features,structure,C35_Y06_Y,display case,train,3,C35_Y06_Y_train_structure_3
+train_00_4,"A curator arranges objects at different heights, leaving enough space between pieces to make their shapes easy to inspect.",curatorial_arrangement,action,C35_Y06_Y,display case,train,0,C35_Y06_Y_train_action_0
+train_00_5,Sliding panels move along tracks to open the front without requiring a door to swing into the surrounding room.,sliding_panel_operation,action,C35_Y06_Y,display case,train,1,C35_Y06_Y_train_action_1
+train_00_6,Small interior lamps can be switched on to brighten objects when room lighting is dim or uneven.,interior_lighting_operation,action,C35_Y06_Y,display case,train,2,C35_Y06_Y_train_action_2
+train_00_7,"A key turns a lock on the front, restricting access while the contents remain visible through the clear panels.",locking_access,action,C35_Y06_Y,display case,train,3,C35_Y06_Y_train_action_3
+train_00_8,Museum galleries use these enclosed furnishings to present fragile artifacts while visitors view them from nearby.,museum_artifact_context,situation,C35_Y06_Y,display case,train,0,C35_Y06_Y_train_situation_0
+train_00_9,"In a jewelry shop, rings and necklaces may be arranged behind clear panels for customers to examine at the counter.",jewelry_shop_context,situation,C35_Y06_Y,display case,train,1,C35_Y06_Y_train_situation_1
+train_00_13,The enclosed space helps shield delicate contents from dust and incidental contact during ordinary use of a room.,dust_and_contact_protection,function,C35_Y06_Y,display case,train,0,C35_Y06_Y_train_function_0
+train_00_14,Separate shelves keep a group of objects organized and make individual pieces easier to distinguish at a glance.,organized_visibility,function,C35_Y06_Y,display case,train,1,C35_Y06_Y_train_function_1
+train_00_15,Positioning merchandise at eye level can draw shoppers’ attention and make selected items prominent in a retail setting.,retail_attention,function,C35_Y06_Y,display case,train,2,C35_Y06_Y_train_function_2
+train_01_0,"In a dining room, inherited porcelain may sit behind clear glazing, creating a focal point without occupying the table.",heirloom_porcelain_dining_room,situation,C35_Y06_Y,display case,train,2,C35_Y06_Y_train_situation_2
+train_01_1,A restaurant foyer may feature commemorative plates or awards arranged behind glass for arriving guests to see.,restaurant_foyer_memorabilia,situation,C35_Y06_Y,display case,train,3,C35_Y06_Y_train_situation_3
+train_01_2,Its purpose is to make treasured possessions part of a room’s decor while keeping them visible instead of tucked away.,visible_home_decor,function,C35_Y06_Y,display case,train,3,C35_Y06_Y_train_function_3
+eval_00_0,"Tall, narrow forms can fit against a wall, while compact tabletop models occupy only a small counter area.",varied_footprint_and_height,structure,C35_Y06_Y,display case,eval,0,C35_Y06_Y_eval_structure_0
+eval_00_1,"Some models use tempered glass, which is designed to break into smaller, less sharp pieces if shattered.",tempered_glass_safety,structure,C35_Y06_Y,display case,eval,1,C35_Y06_Y_eval_structure_1
+eval_00_2,"On a motorized turntable, an object rotates slowly so viewers can inspect its sides without lifting or touching it.",rotating_object_presentation,action,C35_Y06_Y,display case,eval,0,C35_Y06_Y_eval_action_0
+eval_00_3,"To fit unusually tall pieces, a worker can reposition shelf supports and reset the interior spacing.",repositionable_shelf_supports,action,C35_Y06_Y,display case,eval,1,C35_Y06_Y_eval_action_1
+eval_00_4,"During a school science fair, fragile student prototypes may be placed inside one for visitors to examine.",school_science_fair_prototypes,situation,C35_Y06_Y,display case,eval,0,C35_Y06_Y_eval_situation_0
+eval_00_5,"A hotel lobby may place locally made crafts inside one, giving arriving guests a chance to view regional work.",hotel_lobby_local_crafts,situation,C35_Y06_Y,display case,eval,1,C35_Y06_Y_eval_situation_1
+eval_00_6,Refrigerated versions keep perishable foods cool while making them visible for selection at a shop counter.,chilled_food_selection,function,C35_Y06_Y,display case,eval,0,C35_Y06_Y_eval_function_0
+eval_00_7,"A clear enclosure keeps raffle prizes visible to attendees before drawings, helping organizers present them without placing items on tables.",visible_raffle_prizes,function,C35_Y06_Y,display case,eval,1,C35_Y06_Y_eval_function_1
+train_00_0,A typical park version has a horizontal plank supported by two or more sturdy legs.,plank_and_legs,structure,C35_Y14_Y,bench,train,0,C35_Y14_Y_train_structure_0
+train_00_1,"Some designs include a backrest and armrests, while others leave the sitting surface unobstructed.",optional_back_and_arms,structure,C35_Y14_Y,bench,train,1,C35_Y14_Y_train_structure_1
+train_00_2,"Outdoor models often use weather-resistant timber, metal, stone, or molded plastic for their frame and surface.",outdoor_materials,structure,C35_Y14_Y,bench,train,2,C35_Y14_Y_train_structure_2
+train_00_3,The sitting platform is usually broad enough to accommodate several people side by side.,shared_platform_width,structure,C35_Y14_Y,bench,train,3,C35_Y14_Y_train_structure_3
+train_00_4,"People settle onto the rigid platform, which distributes their weight across its supporting legs.",weight_on_supports,action,C35_Y14_Y,bench,train,0,C35_Y14_Y_train_action_0
+train_00_5,"When moved, lightweight versions can be lifted from underneath by people gripping opposite ends.",lifting_from_ends,action,C35_Y14_Y,bench,train,1,C35_Y14_Y_train_action_1
+train_00_6,"In public settings, people often sit temporarily while waiting, resting, or speaking with companions.",temporary_public_sitting,action,C35_Y14_Y,bench,train,2,C35_Y14_Y_train_action_2
+train_00_7,Maintenance workers tighten loose fasteners and refinish exposed wood to keep the structure serviceable.,fastener_and_wood_maintenance,action,C35_Y14_Y,bench,train,3,C35_Y14_Y_train_action_3
+train_00_8,A long seat may stand beside a walking path where visitors pause amid a park or garden.,park_path_placement,situation,C35_Y14_Y,bench,train,0,C35_Y14_Y_train_situation_0
+train_00_9,A train station waiting area may contain a long seat for passengers between departures.,station_waiting_area,situation,C35_Y14_Y,bench,train,1,C35_Y14_Y_train_situation_1
+train_00_10,Schools place these seats in corridors or outdoor courtyards where students gather between classes.,school_gathering_areas,situation,C35_Y14_Y,bench,train,2,C35_Y14_Y_train_situation_2
+train_00_11,"In locker rooms, a simple low seat provides a place to pause near changing areas.",locker_room_context,situation,C35_Y14_Y,bench,train,3,C35_Y14_Y_train_situation_3
+train_00_12,It offers shared seating in locations where individual chairs would take up more floor space.,space_efficient_shared_seating,function,C35_Y14_Y,bench,train,0,C35_Y14_Y_train_function_0
+train_00_13,A memorial version gives visitors a place to sit while reflecting at a commemorative site.,memorial_resting_place,function,C35_Y14_Y,bench,train,1,C35_Y14_Y_train_function_1
+train_00_14,"Along a dining table, a backless long seat lets several diners sit close together.",dining_table_seating,function,C35_Y14_Y,bench,train,2,C35_Y14_Y_train_function_2
+train_00_15,"In a courtroom or place of worship, fixed rows provide orderly seating for groups.",group_seating_rows,function,C35_Y14_Y,bench,train,3,C35_Y14_Y_train_function_3
+eval_00_0,"Some outdoor versions use narrow parallel boards across the top, leaving gaps that allow rainwater to drain.",slatted_drainage,structure,C35_Y14_Y,bench,eval,0,C35_Y14_Y_eval_structure_0
+eval_00_1,"Wall-mounted models may cantilever from brackets, keeping the floor beneath them clear for cleaning.",wall_bracket_mounting,structure,C35_Y14_Y,bench,eval,1,C35_Y14_Y_eval_structure_1
+eval_00_2,"Foldable models collapse their hinged legs inward, making the frame easier to store in a shed.",folding_for_storage,action,C35_Y14_Y,bench,eval,0,C35_Y14_Y_eval_action_0
+eval_00_3,People can move a lightweight version along a wall to clear space for cleaning or a gathering.,repositioning_for_clearance,action,C35_Y14_Y,bench,eval,1,C35_Y14_Y_eval_action_1
+eval_00_4,"At a stadium sideline, substitutes may sit together while waiting for their turn to enter play.",stadium_substitute_seating,situation,C35_Y14_Y,bench,eval,0,C35_Y14_Y_eval_situation_0
+eval_00_5,"An entryway may have one beside shoe storage, where household members pause before leaving.",entryway_shoe_storage,situation,C35_Y14_Y,bench,eval,1,C35_Y14_Y_eval_situation_1
+eval_00_6,"Near a shoe-changing area, it gives people a stable place to sit while fastening footwear.",support_for_fastening_shoes,function,C35_Y14_Y,bench,eval,0,C35_Y14_Y_eval_function_0
+eval_00_7,"Arranged around a tree, it lets visitors rest in the shade while leaving the trunk's center unobstructed.",seating_around_tree,function,C35_Y14_Y,bench,eval,1,C35_Y14_Y_eval_function_1
+train_00_0,"A rigid or flexible cover protects ordered leaves, while a narrow spine holds their edges together.",cover_and_spine,structure,C35_Y25_Y,book,train,0,C35_Y25_Y_train_structure_0
+train_00_1,"Text commonly appears on both sides of paper pages, with margins separating lines from trimmed edges.",printed_page_layout,structure,C35_Y25_Y,book,train,1,C35_Y25_Y_train_structure_1
+train_00_2,A title page often identifies the work and its creators before the main text begins.,title_page,structure,C35_Y25_Y,book,train,2,C35_Y25_Y_train_structure_2
+train_00_3,"Some editions include numbered pages, a table of contents, and an index to aid navigation.",navigation_components,structure,C35_Y25_Y,book,train,3,C35_Y25_Y_train_structure_3
+train_00_4,"Readers turn its pages in sequence, pausing or returning to earlier passages as needed.",sequential_reading,action,C35_Y25_Y,book,train,0,C35_Y25_Y_train_action_0
+train_00_5,A reader may underline passages or add notes in margins while studying its contents.,reader_annotations,action,C35_Y25_Y,book,train,1,C35_Y25_Y_train_action_1
+train_00_6,"During production, printed sheets are folded, gathered, and attached along one edge.",binding_process,action,C35_Y25_Y,book,train,2,C35_Y25_Y_train_action_2
+train_00_7,"When shared, it can be lent, returned, and circulated among readers over time.",lending_cycle,action,C35_Y25_Y,book,train,3,C35_Y25_Y_train_action_3
+train_00_8,"In public libraries, bound pages are arranged for discovery, lending, and quiet reading.",library_context,situation,C35_Y25_Y,book,train,0,C35_Y25_Y_train_situation_0
+train_00_9,"In classrooms, learners consult printed pages while following lessons or completing assignments.",classroom_context,situation,C35_Y25_Y,book,train,1,C35_Y25_Y_train_situation_1
+train_00_10,"Travelers may carry a compact copy to read during flights, train journeys, or long waits.",travel_context,situation,C35_Y25_Y,book,train,2,C35_Y25_Y_train_situation_2
+train_00_11,"At home, a reader might keep one nearby for bedtime reading or weekend study.",home_reading_context,situation,C35_Y25_Y,book,train,3,C35_Y25_Y_train_situation_3
+train_00_12,"Bound pages preserve information across time, allowing readers to revisit material without relying on a live broadcast.",preserving_information,function,C35_Y25_Y,book,train,0,C35_Y25_Y_train_function_0
+train_00_13,"Narrative writing can entertain readers by introducing characters, events, and imagined or remembered worlds.",narrative_entertainment,function,C35_Y25_Y,book,train,1,C35_Y25_Y_train_function_1
+train_00_14,"Detailed explanations and organized entries help readers look up unfamiliar terms, dates, or technical procedures.",information_lookup,function,C35_Y25_Y,book,train,2,C35_Y25_Y_train_function_2
+train_00_15,"Step-by-step instructions can guide readers through tasks such as preparing food, repairing objects, or learning a skill.",practical_guidance,function,C35_Y25_Y,book,train,3,C35_Y25_Y_train_function_3
+eval_00_0,"Decorative endpapers may join the inner cover to the first and last leaves, sometimes carrying maps or patterned designs.",endpaper_designs,structure,C35_Y25_Y,book,eval,0,C35_Y25_Y_eval_structure_0
+eval_00_1,"Some editions combine prose with photographs, diagrams, or maps, integrating visual material alongside the written text.",integrated_visuals,structure,C35_Y25_Y,book,eval,1,C35_Y25_Y_eval_structure_1
+eval_00_2,"A person can read a passage aloud, turning written language into speech for listeners nearby.",reading_aloud,action,C35_Y25_Y,book,eval,0,C35_Y25_Y_eval_action_0
+eval_00_3,A publisher may issue a revised edition after correcting errors or updating information from an earlier printing.,revised_edition,action,C35_Y25_Y,book,eval,1,C35_Y25_Y_eval_action_1
+eval_00_4,"In a museum exhibit, a rare copy may be displayed under controlled lighting to limit damage from exposure.",museum_display,situation,C35_Y25_Y,book,eval,0,C35_Y25_Y_eval_situation_0
+eval_00_6,A published biography can give students a documented account of a person's life for historical research.,biography_for_research,function,C35_Y25_Y,book,eval,0,C35_Y25_Y_eval_function_0
+eval_00_7,Researchers cite specific editions so others can verify quotations against the same published wording.,citation_verification,function,C35_Y25_Y,book,eval,1,C35_Y25_Y_eval_function_1
+eval_01_0,"During a religious service, congregants may follow printed liturgy passages as a leader recites them aloud.",worship_service_use,situation,C35_Y25_Y,book,eval,1,C35_Y25_Y_eval_situation_1
+train_00_0,"Many copies are assembled from folded sheets secured by staples along the spine, allowing pages to open nearly flat.",stapled_binding,structure,C35_Y26_Y,magazine,train,0,C35_Y26_Y_train_structure_0
+train_00_1,"Color photographs often appear on coated paper, whose smooth surface helps reproduce fine detail and saturated tones.",coated_photo_pages,structure,C35_Y26_Y,magazine,train,1,C35_Y26_Y_train_structure_1
+train_00_2,"Pages commonly combine headlines, short text columns, captions, photographs, and boxed advertisements within a single layout.",mixed_page_layout,structure,C35_Y26_Y,magazine,train,2,C35_Y26_Y_train_structure_2
+train_00_3,"A front cover often displays a title, issue date, prominent image, and brief teasers for inside features.",cover_elements,structure,C35_Y26_Y,magazine,train,3,C35_Y26_Y_train_structure_3
+train_00_4,"Editors commission articles, revise submissions, and arrange finished material before sending page layouts to the printer.",editorial_production,action,C35_Y26_Y,magazine,train,0,C35_Y26_Y_train_action_0
+train_00_5,"Fresh editions appear on recurring schedules, which may be weekly, monthly, or tied to a particular season.",release_schedule,action,C35_Y26_Y,magazine,train,1,C35_Y26_Y_train_action_1
+train_00_6,"Distributors sort printed copies by destination, then deliver them to retail outlets or postal services.",copy_distribution,action,C35_Y26_Y,magazine,train,2,C35_Y26_Y_train_action_2
+train_00_7,"Readers often scan the headlines first, then turn to selected features instead of proceeding through every page consecutively.",selective_browsing,action,C35_Y26_Y,magazine,train,3,C35_Y26_Y_train_action_3
+train_00_8,"Copies are commonly stocked near checkout counters, where shoppers can notice them while waiting to pay.",checkout_display,situation,C35_Y26_Y,magazine,train,0,C35_Y26_Y_train_situation_0
+train_00_9,"In salons and clinics, waiting visitors may browse copies placed within easy reach of seating areas.",waiting_room_access,situation,C35_Y26_Y,magazine,train,1,C35_Y26_Y_train_situation_1
+train_00_10,Public libraries often make current editions available for browsing and keep older ones in organized collections.,library_access,situation,C35_Y26_Y,magazine,train,2,C35_Y26_Y_train_situation_2
+train_00_11,"Travelers may encounter these printed items at airport shops, railway kiosks, and other places serving people in transit.",travel_retail,situation,C35_Y26_Y,magazine,train,3,C35_Y26_Y_train_situation_3
+train_00_12,"Recurring installments help readers follow developments in a subject, from scientific research to home decorating trends.",ongoing_topic_coverage,function,C35_Y26_Y,magazine,train,0,C35_Y26_Y_train_function_0
+train_00_13,Paid advertising placements let businesses present products or services to audiences interested in particular subjects.,targeted_advertising,function,C35_Y26_Y,magazine,train,1,C35_Y26_Y_train_function_1
+train_00_14,"Practical features can guide readers through tasks such as cooking, repairing household items, or planning a trip.",practical_guidance,function,C35_Y26_Y,magazine,train,2,C35_Y26_Y_train_function_2
+train_00_15,"Kept copies can document changing fashions, public interests, and visual design across different years.",cultural_record,function,C35_Y26_Y,magazine,train,3,C35_Y26_Y_train_function_3
+eval_00_0,"A contents page typically lists feature headings alongside page numbers, helping readers locate specific sections without searching every sheet.",contents_page_navigation,structure,C35_Y26_Y,magazine,eval,0,C35_Y26_Y_eval_structure_0
+eval_00_1,"An interior masthead may identify the publisher, editorial staff, address, and other identifying details in a compact block.",interior_masthead_details,structure,C35_Y26_Y,magazine,eval,1,C35_Y26_Y_eval_structure_1
+eval_00_2,"Commercial presses often print multiple pages on oversized sheets, then trim and fold them into finished signatures.",press_sheet_finishing,action,C35_Y26_Y,magazine,eval,0,C35_Y26_Y_eval_action_0
+eval_00_3,"Subscribers can renew access by submitting payment before an account’s expiration date, preserving delivery of subsequent issues.",subscription_renewal,action,C35_Y26_Y,magazine,eval,1,C35_Y26_Y_eval_action_1
+eval_00_4,"Digital editions are commonly read on tablets or phones, where pages can be enlarged for easier viewing.",mobile_digital_reading,situation,C35_Y26_Y,magazine,eval,0,C35_Y26_Y_eval_situation_0
+eval_00_5,"Teachers sometimes assign themed issues as classroom reading, using their articles to prompt discussion or writing exercises.",classroom_assignment,situation,C35_Y26_Y,magazine,eval,1,C35_Y26_Y_eval_situation_1
+eval_00_6,"Consumer review sections synthesize testing results and product details, giving shoppers evidence to consider before a purchase.",consumer_review_guidance,function,C35_Y26_Y,magazine,eval,0,C35_Y26_Y_eval_function_0
+eval_00_7,Interviews with specialists can translate complex developments into accessible explanations for readers without technical training.,expert_interview_explanation,function,C35_Y26_Y,magazine,eval,1,C35_Y26_Y_eval_function_1
+train_00_0,"The flesh is firm and juicy, surrounding a central core that holds several small, dark seeds.",core and seeds,structure,C35_Y38_Y,apple,train,0,C35_Y38_Y_train_structure_0
+train_00_1,"A thin skin encloses pale flesh, with color varying among cultivars from green through yellow to deep red.",skin and flesh colors,structure,C35_Y38_Y,apple,train,1,C35_Y38_Y_train_structure_1
+train_00_2,"Most varieties have a rounded shape, often narrowing slightly toward the stem and blossom ends.",rounded shape,structure,C35_Y38_Y,apple,train,2,C35_Y38_Y_train_structure_2
+train_00_3,"These fruits grow on deciduous trees in the rose family, whose branches bear clusters of blossoms.",tree and flower structure,structure,C35_Y38_Y,apple,train,3,C35_Y38_Y_train_structure_3
+train_00_4,"After harvest, its flesh can turn brown when cut surfaces react with oxygen through enzymatic oxidation.",cut-surface browning,action,C35_Y38_Y,apple,train,0,C35_Y38_Y_train_action_0
+train_00_5,"During ripening, the fruit releases ethylene, a plant hormone that can accelerate softening in nearby produce.",ethylene release,action,C35_Y38_Y,apple,train,1,C35_Y38_Y_train_action_1
+train_00_6,"Bees and other insects transfer pollen among blossoms, enabling fertilization and subsequent fruit development.",insect pollination,action,C35_Y38_Y,apple,train,2,C35_Y38_Y_train_action_2
+train_00_7,"As it ripens, starch reserves convert into sugars, increasing sweetness while acidity often decreases.",ripening chemistry,action,C35_Y38_Y,apple,train,3,C35_Y38_Y_train_action_3
+train_00_8,"Commercial orchards often grow trees in rows, with pruning and thinning used to manage light and crop load.",orchard cultivation,situation,C35_Y38_Y,apple,train,0,C35_Y38_Y_train_situation_0
+train_00_9,"Trees are cultivated across temperate regions, where winter chilling supports reliable flowering in many varieties.",temperate growing regions,situation,C35_Y38_Y,apple,train,1,C35_Y38_Y_train_situation_1
+train_00_10,"Harvest typically takes place in late summer or autumn, although timing varies with cultivar and local climate.",harvest season,situation,C35_Y38_Y,apple,train,2,C35_Y38_Y_train_situation_2
+train_00_11,"Cool, humid storage environments help preserve firmness after picking, while controlled atmospheres extend storage life.",postharvest storage,situation,C35_Y38_Y,apple,train,3,C35_Y38_Y_train_situation_3
+train_00_12,"Fresh slices provide dietary fiber, especially when the edible skin is left intact.",dietary fiber,function,C35_Y38_Y,apple,train,0,C35_Y38_Y_train_function_0
+train_00_13,The fruit is pressed to produce juice and fermented to make cider in regions with established traditions.,juice and cider production,function,C35_Y38_Y,apple,train,1,C35_Y38_Y_train_function_1
+train_00_14,Pectin from its tissues helps set jams and jellies during cooking.,pectin in preserves,function,C35_Y38_Y,apple,train,2,C35_Y38_Y_train_function_2
+train_00_15,Orchard blossoms supply nectar and pollen for insects early in the growing season.,insect food source,function,C35_Y38_Y,apple,train,3,C35_Y38_Y_train_function_3
+eval_00_0,"The edible portion is an accessory fruit: floral tissue forms most of the flesh, while the ovary becomes the core.",floral tissue and ovary anatomy,structure,C35_Y38_Y,apple,eval,0,C35_Y38_Y_eval_structure_0
+eval_00_1,"Small pores called lenticels dot the skin, allowing gas exchange between inner tissues and the surrounding air.",skin lenticels,structure,C35_Y38_Y,apple,eval,1,C35_Y38_Y_eval_structure_1
+eval_00_2,"After bruising, damaged tissue releases enzymes and nutrients that encourage microbial growth, accelerating decay during handling.",bruising and microbial decay,action,C35_Y38_Y,apple,eval,0,C35_Y38_Y_eval_action_0
+eval_00_3,"Seeds can sprout after exposure to cold, moist conditions, a seasonal cue that helps break dormancy.",seed dormancy and germination,action,C35_Y38_Y,apple,eval,1,C35_Y38_Y_eval_action_1
+eval_00_4,"Late spring frosts can strike during bloom in cooler growing areas, injuring flowers and reducing the eventual crop.",frost damage during bloom,situation,C35_Y38_Y,apple,eval,0,C35_Y38_Y_eval_situation_0
+eval_00_5,"In unmanaged landscapes, seedlings may appear beneath fruiting trees after animals disperse seeds in droppings.",animal seed dispersal,situation,C35_Y38_Y,apple,eval,1,C35_Y38_Y_eval_situation_1
+eval_00_6,"Fresh wedges add tart sweetness and moisture to savory preparations, especially dishes served with roasted pork.",use in savory cooking,function,C35_Y38_Y,apple,eval,0,C35_Y38_Y_eval_function_0
+eval_00_7,"Dehydrated pieces provide a shelf-stable ingredient for breakfast cereals, baked goods, and portable snack mixes.",use of dried pieces,function,C35_Y38_Y,apple,eval,1,C35_Y38_Y_eval_function_1
+train_00_0,"It typically consists of a handle attached to a rigid shaft, with a shaped tip at the shaft’s working end.",handle_shaft_tip_components,structure,C37_X,screwdriver,train,0,C37_X_train_structure_0
+train_00_1,"Handles may be molded from plastic, wood, or rubberized materials to provide a comfortable grip and resist slipping.",handle_materials,structure,C37_X,screwdriver,train,1,C37_X_train_structure_1
+train_00_2,"The working tip may be flat, cross-shaped, hexagonal, or star-shaped to fit different fastener recesses.",tip_shapes,structure,C37_X,screwdriver,train,2,C37_X_train_structure_2
+train_00_3,Some models have magnetic tips that help hold small metal fasteners in place during positioning.,magnetic_tip,structure,C37_X,screwdriver,train,3,C37_X_train_structure_3
+train_00_4,A user seats its tip in a fastener head and twists the handle to rotate the fastener.,tip_seating_and_rotation,action,C37_X,screwdriver,train,0,C37_X_train_action_0
+train_00_5,Applying steady pressure while turning helps keep the tip engaged and reduces the chance of it slipping out.,pressure_during_turning,action,C37_X,screwdriver,train,1,C37_X_train_action_1
+train_00_6,Reversing the direction of rotation can loosen a tightened fastener or back it out of its hole.,reverse_rotation,action,C37_X,screwdriver,train,2,C37_X_train_action_2
+train_00_7,"On models with replaceable bits, a user can swap the working tip to fit another head pattern.",replaceable_bits,action,C37_X,screwdriver,train,3,C37_X_train_action_3
+train_00_8,"During household furniture assembly, it is often used to secure joints with threaded fasteners.",furniture_assembly_context,situation,C37_X,screwdriver,train,0,C37_X_train_situation_0
+train_00_9,"At an electronics repair bench, small versions are useful when working with tiny fasteners inside devices.",electronics_repair_context,situation,C37_X,screwdriver,train,1,C37_X_train_situation_1
+train_00_10,"In vehicle maintenance, it may be used to remove or secure fasteners on interior panels and trim.",vehicle_maintenance_context,situation,C37_X,screwdriver,train,2,C37_X_train_situation_2
+train_00_11,"On a construction site, workers may keep one in a tool pouch for fastening tasks away from a workbench.",construction_site_context,situation,C37_X,screwdriver,train,3,C37_X_train_situation_3
+train_00_13,It enables people to join or separate parts by tightening or removing the fasteners that hold them together.,joining_and_separating_parts,function,C37_X,screwdriver,train,0,C37_X_train_function_0
+train_00_14,"It can tighten small terminal fasteners in electrical equipment, helping secure wires when the circuit is safely de-energized.",securing_electrical_terminals,function,C37_X,screwdriver,train,1,C37_X_train_function_1
+train_01_0,Its handle provides leverage for applying controlled rotational force to threaded fasteners that may be difficult to turn by hand.,leverage_for_fastener_rotation,function,C37_X,screwdriver,train,2,C37_X_train_function_2
+train_01_1,"It is used to tighten or loosen tiny fasteners in eyeglass frames, helping secure temples and hinges during repairs.",eyeglass_frame_repair,function,C37_X,screwdriver,train,3,C37_X_train_function_3
+eval_00_0,Many shafts are made from hardened steel to withstand repeated twisting against resistant fasteners.,hardened_steel_shaft,structure,C37_X,screwdriver,eval,0,C37_X_eval_structure_0
+eval_00_1,Some shafts have a hexagonal section near the handle that accepts a wrench for additional turning force.,wrench_assisted_hex_section,structure,C37_X,screwdriver,eval,1,C37_X_eval_structure_1
+eval_00_2,A ratcheting handle turns the shaft in repeated short strokes while the tip stays seated in the fastener head.,ratcheting_short_strokes,action,C37_X,screwdriver,eval,0,C37_X_eval_action_0
+eval_00_3,A torque-limiting model stops transmitting turning force when it reaches its preset threshold.,preset_torque_limit,action,C37_X,screwdriver,eval,1,C37_X_eval_action_1
+eval_00_4,"Aboard a small boat, one may be kept handy for fastening access-hatch hardware during maintenance.",boat_access_hatch_maintenance,situation,C37_X,screwdriver,eval,0,C37_X_eval_situation_0
+eval_00_5,"In a model-making studio, a small version can secure miniature components during assembly.",model_making_assembly,situation,C37_X,screwdriver,eval,1,C37_X_eval_situation_1
+eval_00_6,It can turn the worm-drive mechanism on a band clamp to tighten the band around a hose.,tightening_worm_drive_clamp,function,C37_X,screwdriver,eval,0,C37_X_eval_function_0
+eval_01_0,It can set a bicycle derailleur’s travel limits by turning the small adjustment screws that restrict its movement.,setting_derailleur_travel_limits,function,C37_X,screwdriver,eval,1,C37_X_eval_function_1
+train_00_0,"The tool typically has a narrow, tapered steel shaft ending in a sharp point, sometimes fixed within a separate handle.",tapered shaft and handle,structure,C37_Y13_Y,awl,train,0,C37_Y13_Y_train_structure_0
+train_00_1,"Its handle may be wood, plastic, or molded rubber, providing a broader grip than the slender piercing end.",handle materials and grip,structure,C37_Y13_Y,awl,train,1,C37_Y13_Y_train_structure_1
+train_00_2,"Some designs have a straight shaft, while others curve near the point to help form angled openings.",shaft shape variations,structure,C37_Y13_Y,awl,train,2,C37_Y13_Y_train_structure_2
+train_00_4,"To start a hole in leather, a user presses the point into the surface and twists the handle slightly.",twisting into leather,action,C37_Y13_Y,awl,train,0,C37_Y13_Y_train_action_0
+train_00_5,"In woodworking, the pointed shaft can prick a guide mark before a drill bit enters the surface.",marking before drilling,action,C37_Y13_Y,awl,train,1,C37_Y13_Y_train_action_1
+train_00_6,"During hand stitching, a maker pushes the point through aligned layers to open a path for thread.",piercing layers for stitching,action,C37_Y13_Y,awl,train,2,C37_Y13_Y_train_action_2
+train_00_7,Moving the handle in a controlled arc can widen a small opening in a piece of material.,widening an opening,action,C37_Y13_Y,awl,train,3,C37_Y13_Y_train_action_3
+train_00_8,"Leatherworkers keep one nearby when preparing holes for seams in belts, bags, saddles, and other sewn goods.",leatherworking seams,situation,C37_Y13_Y,awl,train,0,C37_Y13_Y_train_situation_0
+train_00_9,Bookbinders may use the pointed hand tool to pierce sewing stations through folded paper signatures.,bookbinding sewing stations,situation,C37_Y13_Y,awl,train,1,C37_Y13_Y_train_situation_1
+train_00_11,"During a camping repair, a compact handled version can help make holes in heavy fabric or leather gear.",field gear repair,situation,C37_Y13_Y,awl,train,2,C37_Y13_Y_train_situation_2
+train_01_0,"Some stitching versions include a small eye near the tip, so thread can pass through as the point penetrates material.",thread-carrying eye,structure,C37_Y13_Y,awl,train,3,C37_Y13_Y_train_structure_3
+train_01_1,"At a cobbler’s bench, it is useful when a repair requires piercing a thick leather sole by hand.",hand repair of leather soles,situation,C37_Y13_Y,awl,train,3,C37_Y13_Y_train_situation_3
+train_01_2,"Before driving a small nail into hardwood, a narrow point can create a pilot hole that helps limit splitting.",pilot holes for nails,function,C37_Y13_Y,awl,train,0,C37_Y13_Y_train_function_0
+train_01_3,"Leatherworkers can open holes for rivets with it, making room for the fastener to pass through stacked hide.",holes for leather rivets,function,C37_Y13_Y,awl,train,1,C37_Y13_Y_train_function_1
+train_01_5,"An opening made with its point can seat a grommet in canvas, giving the fitting a path through the cloth.",grommet openings in canvas,function,C37_Y13_Y,awl,train,2,C37_Y13_Y_train_function_2
+train_02_0,"Basket makers use the pointed hand implement to open small passages in woven reeds, helping them tuck additional strands into a tight weave.",opening passages for basket weaving,function,C37_Y13_Y,awl,train,3,C37_Y13_Y_train_function_3
+eval_00_0,"On some stitching models, the blade has a diamond-shaped cross-section that spreads a slit rather than making a round puncture.",diamond blade spreads slit,structure,C37_Y13_Y,awl,eval,0,C37_Y13_Y_eval_structure_0
+eval_00_1,"Certain versions accept interchangeable blades held by a chuck, letting users replace a worn point without discarding the handle.",replaceable blades and chuck,structure,C37_Y13_Y,awl,eval,1,C37_Y13_Y_eval_structure_1
+eval_00_2,"To score a layout line, a craftsperson draws the point along a straightedge, leaving a fine groove in the surface.",scoring a line with straightedge,action,C37_Y13_Y,awl,eval,0,C37_Y13_Y_eval_action_0
+eval_00_3,"With a controlled push, the tip displaces or severs material fibers, forming a narrow opening without removing a broad plug.",displacing fibers during piercing,action,C37_Y13_Y,awl,eval,1,C37_Y13_Y_eval_action_1
+eval_00_4,A model maker may use its point to pierce thin plastic shells when adding tiny openings for wiring or ventilation.,piercing plastic model shells,situation,C37_Y13_Y,awl,eval,0,C37_Y13_Y_eval_situation_0
+eval_00_5,"On a restoration bench, a conservator may gently probe old timber to assess whether it has softened from decay.",probing timber for decay,situation,C37_Y13_Y,awl,eval,1,C37_Y13_Y_eval_situation_1
+eval_00_7,"Its point can lift an unwanted stitch from leather, helping remove the thread without cutting the surrounding material.",removing stitches from leather,function,C37_Y13_Y,awl,eval,0,C37_Y13_Y_eval_function_0
+eval_01_0,It helps a craftsperson create evenly spaced openings for decorative lacing in leather panels.,openings for decorative leather lacing,function,C37_Y13_Y,awl,eval,1,C37_Y13_Y_eval_function_1
+train_00_0,"A hand-held version combines an insulated grip, an internal resistance heater, and a slim metal tip that conducts heat to work.",insulated_grip_heater_and_tip,structure,C37_Y14_Y,soldering iron,train,0,C37_Y14_Y_train_structure_0
+train_00_1,"Many tips use copper for rapid heat transfer, with iron plating that resists wear and corrosion from molten alloy.",copper_tips_with_iron_plating,structure,C37_Y14_Y,soldering iron,train,1,C37_Y14_Y_train_structure_1
+train_00_2,"Interchangeable tips come in pointed, chisel, and hoof profiles, providing different contact areas and access angles.",interchangeable_tip_profiles,structure,C37_Y14_Y,soldering iron,train,2,C37_Y14_Y_train_structure_2
+train_00_3,Temperature-controlled models place a sensor near the working end and use electronic circuitry to regulate heater power.,sensor_and_electronic_temperature_control,structure,C37_Y14_Y,soldering iron,train,3,C37_Y14_Y_train_structure_3
+train_00_4,"When connected to power, its heater raises the metal tip to a temperature sufficient to melt joining alloy.",electrical_heating_of_the_tip,action,C37_Y14_Y,soldering iron,train,0,C37_Y14_Y_train_action_0
+train_00_5,"During a joint, the hot tip heats both metal surfaces while feed wire melts and spreads across their contact.",heating_surfaces_and_spreading_molten_alloy,action,C37_Y14_Y,soldering iron,train,1,C37_Y14_Y_train_action_1
+train_00_6,Wiping the working end on a damp sponge or brass wool removes residue and helps preserve heat transfer.,cleaning_residue_from_the_tip,action,C37_Y14_Y,soldering iron,train,2,C37_Y14_Y_train_action_2
+train_00_7,"After use, placing the hot tool in a stable stand keeps its tip away from the bench and nearby materials.",resting_in_a_stable_stand,action,C37_Y14_Y,soldering iron,train,3,C37_Y14_Y_train_action_3
+train_00_8,Repair technicians use one at an electronics bench when replacing damaged connectors or repairing broken circuit-board traces.,electronics_bench_repairs,situation,C37_Y14_Y,soldering iron,train,0,C37_Y14_Y_train_situation_0
+train_00_9,Battery-powered models are useful for field repairs at locations where mains electricity is unavailable.,field_repairs_without_mains_power,situation,C37_Y14_Y,soldering iron,train,1,C37_Y14_Y_train_situation_1
+train_00_10,Work is usually done on a heat-resistant surface with ventilation because heated flux can produce irritating fumes.,ventilated_heat_resistant_work_area,situation,C37_Y14_Y,soldering iron,train,2,C37_Y14_Y_train_situation_2
+train_00_11,"When assembling small boards, operators often choose a fine tip and restrained heat to limit damage to neighboring parts.",small_board_assembly_conditions,situation,C37_Y14_Y,soldering iron,train,3,C37_Y14_Y_train_situation_3
+train_00_13,Heating wire ends with it allows molten alloy to coat strands before they are joined to terminals.,coating_wire_strands_before_terminal_joining,function,C37_Y14_Y,soldering iron,train,0,C37_Y14_Y_train_function_0
+train_00_14,It can attach through-hole component leads to plated board holes by melting alloy around each lead.,attaching_through_hole_leads,function,C37_Y14_Y,soldering iron,train,1,C37_Y14_Y_train_function_1
+train_00_15,"In repair work, localized heating lets a technician free a single joint without warming an entire assembly.",localized_release_of_a_joint,function,C37_Y14_Y,soldering iron,train,2,C37_Y14_Y_train_function_2
+train_01_0,Applying a thin alloy coating to its working tip helps transfer heat efficiently and slows oxidation during repeated use.,tip_coating_improves_heat_transfer_and_limits_oxidation,function,C37_Y14_Y,soldering iron,train,3,C37_Y14_Y_train_function_3
+eval_00_0,"Bench stations pair a handpiece with a separate temperature-control base, connected by a flexible cable.",separate_control_base_and_cable,structure,C37_Y14_Y,soldering iron,eval,0,C37_Y14_Y_eval_structure_0
+eval_00_1,"Compact models may include a protective cap that covers the tip during storage and transport, reducing accidental contact.",protective_tip_cap,structure,C37_Y14_Y,soldering iron,eval,1,C37_Y14_Y_eval_structure_1
+eval_00_2,"As alloy melts, withdrawing the tip while holding joined parts still allows the connection to solidify without movement.",joint_solidifies_without_movement,action,C37_Y14_Y,soldering iron,eval,0,C37_Y14_Y_eval_action_0
+eval_00_3,A desoldering pump can be triggered beside the heated tip to draw molten alloy away from a joint.,pump_removes_molten_alloy,action,C37_Y14_Y,soldering iron,eval,1,C37_Y14_Y_eval_action_1
+eval_00_4,Stained-glass artisans use a heated tip to lay continuous alloy seams over copper foil surrounding glass pieces.,stained_glass_foil_seams,situation,C37_Y14_Y,soldering iron,eval,0,C37_Y14_Y_eval_situation_0
+eval_00_6,"With a suitable tip, it can burn decorative lines into wood during pyrography.",decorative_wood_pyrography,function,C37_Y14_Y,soldering iron,eval,0,C37_Y14_Y_eval_function_0
+eval_01_0,"In an automotive service bay, technicians may use the heated implement to reconnect a broken low-voltage sensor wire in a vehicle harness.",vehicle_harness_sensor_wire_repair,situation,C37_Y14_Y,soldering iron,eval,1,C37_Y14_Y_eval_situation_1
+eval_01_1,"It can bond a coaxial cable’s braided shield to a connector lug, maintaining electrical continuity and providing a secure termination.",coaxial_shield_to_connector_termination,function,C37_Y14_Y,soldering iron,eval,1,C37_Y14_Y_eval_function_1
+train_00_0,Many designs combine a horizontal sitting surface with a raised backrest and four supporting legs.,surface_backrest_legs,structure,C37_Y25_Y,chair,train,0,C37_Y25_Y_train_structure_0
+train_00_1,"The frame may be made from wood, metal, molded plastic, or combinations of these materials.",frame_materials,structure,C37_Y25_Y,chair,train,1,C37_Y25_Y_train_structure_1
+train_00_2,Upholstered versions place padding and fabric or leather over a rigid supporting frame.,upholstered_covering,structure,C37_Y25_Y,chair,train,2,C37_Y25_Y_train_structure_2
+train_00_3,"Some models fold flat, while others swivel on a central post or adjust in height.",fold_swivel_adjust,structure,C37_Y25_Y,chair,train,3,C37_Y25_Y_train_structure_3
+train_00_4,A person usually lowers their body onto the sitting surface and rests their back against the upright panel.,sitting_motion,action,C37_Y25_Y,chair,train,0,C37_Y25_Y_train_action_0
+train_00_5,Lightweight versions can be lifted and moved between rooms without disassembly.,portable_relocation,action,C37_Y25_Y,chair,train,1,C37_Y25_Y_train_action_1
+train_00_6,"On gas-lift models, a user can operate a lever to raise or lower the sitting surface.",lever_height_adjustment,action,C37_Y25_Y,chair,train,2,C37_Y25_Y_train_action_2
+train_00_7,"In folding designs, paired supports pivot inward, reducing the space needed for storage.",supports_pivot_inward,action,C37_Y25_Y,chair,train,3,C37_Y25_Y_train_action_3
+train_00_8,"During meals, one is commonly positioned at each place around a dining table.",dining_arrangement,situation,C37_Y25_Y,chair,train,0,C37_Y25_Y_train_situation_0
+train_00_9,"In classrooms, rows of these furnishings let students face an instructor or display.",classroom_rows,situation,C37_Y25_Y,chair,train,1,C37_Y25_Y_train_situation_1
+train_00_10,"Outdoor versions are often kept on patios, balconies, or beside campfires when weather permits.",outdoor_placement,situation,C37_Y25_Y,chair,train,2,C37_Y25_Y_train_situation_2
+train_00_11,Waiting areas frequently place several units along walls to accommodate visitors.,waiting_area_grouping,situation,C37_Y25_Y,chair,train,3,C37_Y25_Y_train_situation_3
+train_00_12,"A single-person design provides a stable place to sit during meals, work, or conversation.",individual_seating_purpose,function,C37_Y25_Y,chair,train,0,C37_Y25_Y_train_function_0
+train_00_13,A backrest can support the torso and encourage a more upright seated posture.,back_support,function,C37_Y25_Y,chair,train,1,C37_Y25_Y_train_function_1
+train_00_14,Armrests give a resting surface for the forearms and can help someone rise.,armrest_support,function,C37_Y25_Y,chair,train,2,C37_Y25_Y_train_function_2
+train_00_15,"In offices, adjustable models help users align their seating height with a desk.",desk_height_alignment,function,C37_Y25_Y,chair,train,3,C37_Y25_Y_train_function_3
+eval_00_0,"Some frames use a cantilevered form, with a continuous bent support extending beneath the sitting surface instead of separate rear legs.",cantilevered_support_frame,structure,C37_Y25_Y,chair,eval,0,C37_Y25_Y_eval_structure_0
+eval_00_1,"Open-backed versions may arrange narrow vertical slats across the backrest, leaving gaps that reduce material and allow airflow.",slatted_backrest,structure,C37_Y25_Y,chair,eval,1,C37_Y25_Y_eval_structure_1
+eval_00_2,"Stackable models are lifted and nested one inside another, allowing many units to occupy a compact footprint.",nested_storage,action,C37_Y25_Y,chair,eval,0,C37_Y25_Y_eval_action_0
+eval_00_3,Rocking versions move back and forth as curved runners roll across the floor beneath the frame.,curved_runner_rocking,action,C37_Y25_Y,chair,eval,1,C37_Y25_Y_eval_action_1
+eval_00_4,"In lecture halls, fixed furnishings are often arranged on rising tiers so people behind can see the speaker or screen.",tiered_lecture_hall_layout,situation,C37_Y25_Y,chair,eval,0,C37_Y25_Y_eval_situation_0
+eval_00_5,"At barber shops, customers commonly sit elevated above floor level so practitioners can work at a convenient height.",barber_shop_customer_position,situation,C37_Y25_Y,chair,eval,1,C37_Y25_Y_eval_situation_1
+eval_00_6,"A waterproof version with drainage openings allows someone to sit while bathing, reducing the need to remain standing in a shower.",shower_bathing_support,function,C37_Y25_Y,chair,eval,0,C37_Y25_Y_eval_function_0
+eval_00_7,A raised model with a tray and harness keeps a young child securely positioned within reach of food during a meal.,child_meal_support,function,C37_Y25_Y,chair,eval,1,C37_Y25_Y_eval_function_1
+train_00_0,"A broad, level top is commonly raised above the floor by four legs, a central pedestal, or wall-mounted supports.",top_support_options,structure,C37_Y26_Y,table,train,0,C37_Y26_Y_train_structure_0
+train_00_1,"Some designs incorporate drawers, shelves, extension leaves, or folding joints beneath or within the horizontal surface.",built_in_features,structure,C37_Y26_Y,table,train,1,C37_Y26_Y_train_structure_1
+train_00_2,"Common top materials include timber, glass, stone, metal, and molded plastic, chosen for appearance, weight, or durability.",top_materials,structure,C37_Y26_Y,table,train,2,C37_Y26_Y_train_structure_2
+train_00_3,"Many dining-height examples stand near waist level, while low versions are designed for floor seating or lounging.",height_variation,structure,C37_Y26_Y,table,train,3,C37_Y26_Y_train_structure_3
+train_00_4,"Hinged leaves can swing outward and lock in place, enlarging the usable surface when additional space is needed.",hinged_extension,action,C37_Y26_Y,table,train,0,C37_Y26_Y_train_action_0
+train_00_5,"Folding legs tuck against the underside, allowing certain designs to be carried or stored in narrow spaces.",folding_storage,action,C37_Y26_Y,table,train,1,C37_Y26_Y_train_action_1
+train_00_6,"A level surface keeps dishes, tools, or papers steady while people arrange them or work nearby.",steady_work_surface,action,C37_Y26_Y,table,train,2,C37_Y26_Y_train_action_2
+train_00_7,"Liquid spills are easily wiped from sealed finishes, whereas porous tops may absorb moisture and develop stains.",surface_cleaning,action,C37_Y26_Y,table,train,3,C37_Y26_Y_train_action_3
+train_00_8,A central position in many kitchens or dining areas makes this surface a gathering place for shared meals.,home_dining_context,situation,C37_Y26_Y,table,train,0,C37_Y26_Y_train_situation_0
+train_00_9,"Workshops often place sturdy examples near tools, where craftspeople can assemble, sand, or repair objects.",workshop_context,situation,C37_Y26_Y,table,train,1,C37_Y26_Y_train_situation_1
+train_00_10,"Weather-resistant versions appear on patios and balconies, where they hold refreshments during outdoor meals.",outdoor_context,situation,C37_Y26_Y,table,train,2,C37_Y26_Y_train_situation_2
+train_00_11,"Libraries commonly provide broad communal surfaces where visitors spread out books, notebooks, and study materials.",library_context,situation,C37_Y26_Y,table,train,3,C37_Y26_Y_train_situation_3
+train_00_12,"A raised, stable surface keeps plates and serving dishes within reach of people seated for a meal.",meal_support,function,C37_Y26_Y,table,train,0,C37_Y26_Y_train_function_0
+train_00_13,"In offices, it supports computers, documents, and equipment during focused work or meetings.",office_work_support,function,C37_Y26_Y,table,train,1,C37_Y26_Y_train_function_1
+train_00_14,"A compact bedside surface keeps a lamp, clock, or reading material accessible from the bed.",bedside_access,function,C37_Y26_Y,table,train,2,C37_Y26_Y_train_function_2
+train_00_15,"In public waiting areas, small versions can hold refreshments, brochures, or personal belongings for visitors.",waiting_area_support,function,C37_Y26_Y,table,train,3,C37_Y26_Y_train_function_3
+eval_00_0,"An apron, when present, runs between the legs beneath the top and helps resist sideways movement.",apron_bracing,structure,C37_Y26_Y,table,eval,0,C37_Y26_Y_eval_structure_0
+eval_00_1,"Some tops have beveled edges, with the material thinning toward the perimeter for a lighter visual profile.",beveled_edge,structure,C37_Y26_Y,table,eval,1,C37_Y26_Y_eval_structure_1
+eval_00_2,"During assembly, bolts or wooden dowels join the legs to the frame, and tightened joints help limit wobble.",frame_joint_assembly,action,C37_Y26_Y,table,eval,0,C37_Y26_Y_eval_action_0
+eval_00_3,Electric actuators can raise or lower certain work surfaces at the press of a control button.,powered_height_adjustment,action,C37_Y26_Y,table,eval,1,C37_Y26_Y_eval_action_1
+eval_00_4,"At a market stall, portable versions give vendors a raised area for displaying produce and taking payments.",market_vendor_setting,situation,C37_Y26_Y,table,eval,0,C37_Y26_Y_eval_situation_0
+eval_00_5,"In laboratories, chemical-resistant tops provide a staging area for instruments and sample preparation.",laboratory_setting,situation,C37_Y26_Y,table,eval,1,C37_Y26_Y_eval_situation_1
+eval_00_6,A shared flat surface helps students sort and assemble materials during classroom group projects.,classroom_collaboration,function,C37_Y26_Y,table,eval,0,C37_Y26_Y_eval_function_0
+eval_00_7,A low central surface can keep board games and their pieces within reach of seated players.,game_play_support,function,C37_Y26_Y,table,eval,1,C37_Y26_Y_eval_function_1
+train_00_0,"The fruit is botanically classified as a berry, with a fleshy pericarp surrounding seeds or seedless tissue.",botanical_berry,structure,C37_Y36_Y,grape,train,0,C37_Y36_Y_train_structure_0
+train_00_1,"Each berry has a thin outer skin enclosing soft, water-rich flesh.",skin_and_flesh,structure,C37_Y36_Y,grape,train,1,C37_Y36_Y_train_structure_1
+train_00_2,"Pigments in the skin produce green, red, blue, or purple hues across different cultivars.",skin_pigments,structure,C37_Y36_Y,grape,train,2,C37_Y36_Y_train_structure_2
+train_00_3,"Clusters hang from branching stems called rachises, which connect individual berries to the vine.",cluster_rachis,structure,C37_Y36_Y,grape,train,3,C37_Y36_Y_train_structure_3
+train_00_4,"During ripening, sugars accumulate while acidity generally falls, changing the fruit's balance of sweetness and tartness.",ripening_sugar_acidity,action,C37_Y36_Y,grape,train,0,C37_Y36_Y_train_action_0
+train_00_5,"Yeast consumes its sugars during fermentation, producing alcohol and carbon dioxide.",yeast_fermentation,action,C37_Y36_Y,grape,train,1,C37_Y36_Y_train_action_1
+train_00_6,Mechanical pressing releases sweet juice from the berries for later filtering or fermentation.,mechanical_juice_extraction,action,C37_Y36_Y,grape,train,2,C37_Y36_Y_train_action_2
+train_00_7,"After harvest, warm air or sunlight can dehydrate the fruit into a shelf-stable dried form.",dehydration_process,action,C37_Y36_Y,grape,train,3,C37_Y36_Y_train_action_3
+train_00_8,These berries develop on perennial woody vines trained along trellises in many commercial growing regions.,trellised_vines,situation,C37_Y36_Y,grape,train,0,C37_Y36_Y_train_situation_0
+train_00_9,"Wild relatives often climb through woodland edges, using tendrils to attach themselves to nearby support.",wild_vine_habitat,situation,C37_Y36_Y,grape,train,1,C37_Y36_Y_train_situation_1
+train_00_10,"Harvest timing varies by cultivar and climate, commonly falling in late summer or autumn in temperate areas.",seasonal_harvest,situation,C37_Y36_Y,grape,train,2,C37_Y36_Y_train_situation_2
+train_00_11,"Fruit clusters develop in sunny vineyards, where growers manage canopy growth to balance light exposure and airflow.",vineyard_canopy,situation,C37_Y36_Y,grape,train,3,C37_Y36_Y_train_situation_3
+train_00_12,Fresh berries are commonly served whole as snacks or mixed into fruit salads.,fresh_food_use,function,C37_Y36_Y,grape,train,0,C37_Y36_Y_train_function_0
+train_00_13,Winemakers use the fruit's fermentable juice to produce still wines and sparkling wines.,wine_production,function,C37_Y36_Y,grape,train,1,C37_Y36_Y_train_function_1
+train_00_14,"Dried berries add sweetness and chewiness to breads, cereals, and trail mixes.",dried_food_ingredient,function,C37_Y36_Y,grape,train,2,C37_Y36_Y_train_function_2
+train_00_15,Oil extracted from the seeds is used in cooking and in some personal-care products.,seed_oil_uses,function,C37_Y36_Y,grape,train,3,C37_Y36_Y_train_function_3
+eval_00_0,"A pale, powdery wax layer called bloom can cover the skin, reducing moisture loss and protecting the surface.",waxy_bloom,structure,C37_Y36_Y,grape,eval,0,C37_Y36_Y_eval_structure_0
+eval_00_1,"The skin contains tannins and aromatic compounds that contribute astringency and aroma, with concentrations varying among cultivars.",skin_tannins_aromatics,structure,C37_Y36_Y,grape,eval,1,C37_Y36_Y_eval_structure_1
+eval_00_2,"When heavy rain swells berries near harvest, their skins can crack, exposing sugary flesh to organisms that cause rot.",rain_cracking,action,C37_Y36_Y,grape,eval,0,C37_Y36_Y_eval_action_0
+eval_00_3,"Birds and other wildlife consume the fruit and disperse viable seeds in their droppings, helping vines colonize new sites.",wildlife_seed_dispersal,action,C37_Y36_Y,grape,eval,1,C37_Y36_Y_eval_action_1
+eval_00_4,"In temperate vineyards, flowering usually takes place in spring, months before the clusters reach harvest maturity.",spring_flowering,situation,C37_Y36_Y,grape,eval,0,C37_Y36_Y_eval_situation_0
+eval_00_5,"In regions with cold winters, growers choose cultivars and sites suited to the length of the local growing season.",cold_region_site_selection,situation,C37_Y36_Y,grape,eval,1,C37_Y36_Y_eval_situation_1
+eval_00_6,"In some cuisines, the vine's leaves serve as wrappers for rice, meat, or other fillings.",culinary_leaf_wrappers,function,C37_Y36_Y,grape,eval,0,C37_Y36_Y_eval_function_0
+eval_00_7,"Acetic acid bacteria can turn fermented juice into vinegar, extending the fruit's use beyond wine production.",vinegar_production,function,C37_Y36_Y,grape,eval,1,C37_Y36_Y_eval_function_1

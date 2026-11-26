@@ -1,0 +1,1627 @@
+{
+  "finished": {
+    "audit_eval_00_0": {
+      "data": {
+        "items": [
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_0",
+            "reason": "Lacquer and silver plating are common finishes for the brass body; the description focuses on its surface and appearance.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_1",
+            "reason": "A water key drains accumulated moisture and is a relevant component; this claim is distinct from the prior descriptions.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_2",
+            "reason": "A mute can be placed in the bell to alter tone and often reduce volume; this describes an operation.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_3",
+            "reason": "Tongued articulation commonly separates notes by interrupting or releasing airflow with the tongue.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_4",
+            "reason": "The upper melodic role is plausible in a brass quintet and is presented in a specific ensemble context.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_5",
+            "reason": "Layering brass parts is a plausible film-scoring practice; the sentence describes a recording context.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_6",
+            "reason": "Brief instrumental responses to a singer are a plausible call-and-response role in gospel arrangements.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_7",
+            "reason": "The description plausibly characterizes a role in salsa; its syncopated-riff claim is distinct from the prior general claim about repeated notes in dance music.",
+            "style": "pass"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"id\":\"eval_00_0\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Lacquer and silver plating are common finishes for the brass body; the description focuses on its surface and appearance.\"},{\"id\":\"eval_00_1\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"A water key drains accumulated moisture and is a relevant component; this claim is distinct from the prior descriptions.\"},{\"id\":\"eval_00_2\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"A mute can be placed in the bell to alter tone and often reduce volume; this describes an operation.\"},{\"id\":\"eval_00_3\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Tongued articulation commonly separates notes by interrupting or releasing airflow with the tongue.\"},{\"id\":\"eval_00_4\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"The upper melodic role is plausible in a brass quintet and is presented in a specific ensemble context.\"},{\"id\":\"eval_00_5\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Layering brass parts is a plausible film-scoring practice; the sentence describes a recording context.\"},{\"id\":\"eval_00_6\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Brief instrumental responses to a singer are a plausible call-and-response role in gospel arrangements.\"},{\"id\":\"eval_00_7\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"The description plausibly characterizes a role in salsa; its syncopated-riff claim is distinct from the prior general claim about repeated notes in dance music.\"}]}",
+      "request_sha256": "df5072beaf7e25360b8ce8713d57595d30a5e48317ad77d84dcc88f363102982",
+      "usage": {
+        "completion_tokens": 1012,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 564,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1209,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1206,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2221
+      }
+    },
+    "audit_train_00_0": {
+      "data": {
+        "items": [
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_0",
+            "reason": "Accurately describes the bore and bell shape in the requested structural style.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_1",
+            "reason": "Three finger-operated valves are typical of orchestral models; this is a structural detail.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_2",
+            "reason": "A shallow-cup detachable mouthpiece is accurately described as a component.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_3",
+            "reason": "Accurately describes the leadpipe and its place in the airflow path.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_4",
+            "reason": "Lip buzzing while blowing is a typical sound-production process.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_5",
+            "reason": "Valves add tubing to the air path and lower pitch; this fits the action style.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_6",
+            "reason": "The first-valve slide can be used to adjust intonation on certain notes.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_7",
+            "reason": "Adjusting the tuning slide changes air-column length and overall pitch.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_8",
+            "reason": "This is a natural description of the instrument’s usual orchestral setting and placement.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_9",
+            "reason": "Jazz combos may feature it prominently on improvised melodic lines; this describes a context.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_10",
+            "reason": "Outdoor marching use and projection are accurately presented as a playing context.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_11",
+            "reason": "Ceremonial processions are a plausible context for short calls marking arrivals.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_12",
+            "reason": "A bright upper register can make melodies prominent, matching the function style.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_13",
+            "reason": "Repeated notes can provide rhythmic drive in dance music and lively arrangements.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "fail",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_14",
+            "reason": "The fanfare announcement claim substantially overlaps the earlier description of short calls marking arrivals in ceremonial processions.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_15",
+            "reason": "This describes a distinct orchestral function: sustained tones adding brilliant color to climactic passages.",
+            "style": "pass"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"id\":\"train_00_0\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Accurately describes the bore and bell shape in the requested structural style.\"},{\"id\":\"train_00_1\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Three finger-operated valves are typical of orchestral models; this is a structural detail.\"},{\"id\":\"train_00_2\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"A shallow-cup detachable mouthpiece is accurately described as a component.\"},{\"id\":\"train_00_3\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Accurately describes the leadpipe and its place in the airflow path.\"},{\"id\":\"train_00_4\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Lip buzzing while blowing is a typical sound-production process.\"},{\"id\":\"train_00_5\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Valves add tubing to the air path and lower pitch; this fits the action style.\"},{\"id\":\"train_00_6\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"The first-valve slide can be used to adjust intonation on certain notes.\"},{\"id\":\"train_00_7\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Adjusting the tuning slide changes air-column length and overall pitch.\"},{\"id\":\"train_00_8\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"This is a natural description of the instrument’s usual orchestral setting and placement.\"},{\"id\":\"train_00_9\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Jazz combos may feature it prominently on improvised melodic lines; this describes a context.\"},{\"id\":\"train_00_10\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Outdoor marching use and projection are accurately presented as a playing context.\"},{\"id\":\"train_00_11\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Ceremonial processions are a plausible context for short calls marking arrivals.\"},{\"id\":\"train_00_12\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"A bright upper register can make melodies prominent, matching the function style.\"},{\"id\":\"train_00_13\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Repeated notes can provide rhythmic drive in dance music and lively arrangements.\"},{\"id\":\"train_00_14\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"fail\",\"reason\":\"The fanfare announcement claim substantially overlaps the earlier description of short calls marking arrivals in ceremonial processions.\"},{\"id\":\"train_00_15\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"This describes a distinct orchestral function: sustained tones adding brilliant color to climactic passages.\"}]}",
+      "request_sha256": "e6591ebab6e7576d4b1a1bbe42ba43ec7cf49b8bddc24b1ed053c5d464147cdf",
+      "usage": {
+        "completion_tokens": 1699,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 919,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1059,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1056,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2758
+      }
+    },
+    "audit_train_01_0": {
+      "data": {
+        "items": [
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_01_0",
+            "reason": "Plausibly describes a use of the instrument at sporting events. It fits the function style, reads naturally, contains no forbidden terms, and does not repeat a prior claim.",
+            "style": "pass"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"id\":\"train_01_0\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Plausibly describes a use of the instrument at sporting events. It fits the function style, reads naturally, contains no forbidden terms, and does not repeat a prior claim.\"}]}",
+      "request_sha256": "114fccde77dbf90512f7feb40387bab96f6bb5a50f0e2913730367c56a24fa82",
+      "usage": {
+        "completion_tokens": 262,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 178,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 814,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 1076
+      }
+    },
+    "gen_eval_00_0": {
+      "data": {
+        "items": [
+          {
+            "fact_key": "body_finish",
+            "sentence": "The brass body is commonly finished with clear lacquer or silver plating, giving the metal a protective surface and distinctive appearance.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "water_key_drainage",
+            "sentence": "A small water key near the tubing opens to drain moisture that collects inside during playing.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "mute_changes_sound",
+            "sentence": "A player can insert a mute into the bell to change the instrument's tone and reduce its volume.",
+            "style": "action"
+          },
+          {
+            "fact_key": "tongued_articulation",
+            "sentence": "Using tongued articulation, players interrupt the airflow with the tongue to produce crisp, separated notes.",
+            "style": "action"
+          },
+          {
+            "fact_key": "quintet_melodic_role",
+            "sentence": "In brass quintets, it often carries the upper melodic line while lower-pitched partners supply supporting harmony.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "film_score_recording",
+            "sentence": "Recording sessions for film scores may layer its part with other brass tracks to build a fuller, dramatic sound.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "gospel_call_response",
+            "sentence": "In gospel arrangements, it can answer a singer with brief melodic phrases, creating a call-and-response exchange.",
+            "style": "function"
+          },
+          {
+            "fact_key": "salsa_riff_support",
+            "sentence": "In salsa bands, it may reinforce syncopated riffs alongside other brass parts, giving musical hooks a strong rhythmic edge.",
+            "style": "function"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"sentence\":\"The brass body is commonly finished with clear lacquer or silver plating, giving the metal a protective surface and distinctive appearance.\",\"fact_key\":\"body_finish\",\"style\":\"structure\"},{\"sentence\":\"A small water key near the tubing opens to drain moisture that collects inside during playing.\",\"fact_key\":\"water_key_drainage\",\"style\":\"structure\"},{\"sentence\":\"A player can insert a mute into the bell to change the instrument's tone and reduce its volume.\",\"fact_key\":\"mute_changes_sound\",\"style\":\"action\"},{\"sentence\":\"Using tongued articulation, players interrupt the airflow with the tongue to produce crisp, separated notes.\",\"fact_key\":\"tongued_articulation\",\"style\":\"action\"},{\"sentence\":\"In brass quintets, it often carries the upper melodic line while lower-pitched partners supply supporting harmony.\",\"fact_key\":\"quintet_melodic_role\",\"style\":\"situation\"},{\"sentence\":\"Recording sessions for film scores may layer its part with other brass tracks to build a fuller, dramatic sound.\",\"fact_key\":\"film_score_recording\",\"style\":\"situation\"},{\"sentence\":\"In gospel arrangements, it can answer a singer with brief melodic phrases, creating a call-and-response exchange.\",\"fact_key\":\"gospel_call_response\",\"style\":\"function\"},{\"sentence\":\"In salsa bands, it may reinforce syncopated riffs alongside other brass parts, giving musical hooks a strong rhythmic edge.\",\"fact_key\":\"salsa_riff_support\",\"style\":\"function\"}]}",
+      "request_sha256": "615c2b6364b158536e8fabfc64a3f8143ceda57c51adb77f99f392e8946da58e",
+      "usage": {
+        "completion_tokens": 1761,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1449,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 869,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2630
+      }
+    },
+    "gen_train_00_0": {
+      "data": {
+        "items": [
+          {
+            "fact_key": "bore_and_bell_shape",
+            "sentence": "Most of its tubing has a cylindrical bore, widening gradually into a broad, outward-facing bell.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "three_valve_layout",
+            "sentence": "A typical orchestral model has three finger-operated valves arranged above the main tube.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "cup_mouthpiece",
+            "sentence": "Its detachable mouthpiece has a shallow cup that directs the player's airflow into the instrument.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "curved_leadpipe",
+            "sentence": "The leadpipe curves from the mouthpiece receiver toward the valve block, forming part of the airflow path.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "lip_buzz_sound_production",
+            "sentence": "A player produces sound by buzzing their lips against the mouthpiece while blowing steadily.",
+            "style": "action"
+          },
+          {
+            "fact_key": "valve_pitch_change",
+            "sentence": "Depressing a valve redirects air through extra tubing, lowering the instrument's sounding pitch.",
+            "style": "action"
+          },
+          {
+            "fact_key": "first_valve_slide_adjustment",
+            "sentence": "Players use a small slide on the first valve loop to correct certain notes' intonation.",
+            "style": "action"
+          },
+          {
+            "fact_key": "tuning_slide_adjustment",
+            "sentence": "Moving the tuning slide changes the length of the air column to adjust overall pitch.",
+            "style": "action"
+          },
+          {
+            "fact_key": "orchestral_placement",
+            "sentence": "In symphony orchestras, it often sits among the brass section behind the strings.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "jazz_combo_context",
+            "sentence": "Jazz combo players may place it at the front to carry improvised melodic lines.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "outdoor_marching_context",
+            "sentence": "Marching ensembles use it outdoors, where its focused projection helps notes carry across open spaces.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "ceremonial_processions",
+            "sentence": "It appears in ceremonial processions, including occasions where short musical calls mark arrivals.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "melodic_prominence",
+            "sentence": "Its bright upper register can make a melody stand out above dense ensemble textures.",
+            "style": "function"
+          },
+          {
+            "fact_key": "rhythmic_drive",
+            "sentence": "Short repeated notes can add rhythmic drive to dance music and lively arrangements.",
+            "style": "function"
+          },
+          {
+            "fact_key": "fanfares_and_announcements",
+            "sentence": "Carefully shaped fanfares announce entrances or lend formal occasions a sense of grandeur.",
+            "style": "function"
+          },
+          {
+            "fact_key": "climactic_orchestral_color",
+            "sentence": "In orchestral writing, sustained tones can reinforce climactic passages with a brilliant, penetrating color.",
+            "style": "function"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"sentence\":\"Most of its tubing has a cylindrical bore, widening gradually into a broad, outward-facing bell.\",\"fact_key\":\"bore_and_bell_shape\",\"style\":\"structure\"},{\"sentence\":\"A typical orchestral model has three finger-operated valves arranged above the main tube.\",\"fact_key\":\"three_valve_layout\",\"style\":\"structure\"},{\"sentence\":\"Its detachable mouthpiece has a shallow cup that directs the player's airflow into the instrument.\",\"fact_key\":\"cup_mouthpiece\",\"style\":\"structure\"},{\"sentence\":\"The leadpipe curves from the mouthpiece receiver toward the valve block, forming part of the airflow path.\",\"fact_key\":\"curved_leadpipe\",\"style\":\"structure\"},{\"sentence\":\"A player produces sound by buzzing their lips against the mouthpiece while blowing steadily.\",\"fact_key\":\"lip_buzz_sound_production\",\"style\":\"action\"},{\"sentence\":\"Depressing a valve redirects air through extra tubing, lowering the instrument's sounding pitch.\",\"fact_key\":\"valve_pitch_change\",\"style\":\"action\"},{\"sentence\":\"Players use a small slide on the first valve loop to correct certain notes' intonation.\",\"fact_key\":\"first_valve_slide_adjustment\",\"style\":\"action\"},{\"sentence\":\"Moving the tuning slide changes the length of the air column to adjust overall pitch.\",\"fact_key\":\"tuning_slide_adjustment\",\"style\":\"action\"},{\"sentence\":\"In symphony orchestras, it often sits among the brass section behind the strings.\",\"fact_key\":\"orchestral_placement\",\"style\":\"situation\"},{\"sentence\":\"Jazz combo players may place it at the front to carry improvised melodic lines.\",\"fact_key\":\"jazz_combo_context\",\"style\":\"situation\"},{\"sentence\":\"Marching ensembles use it outdoors, where its focused projection helps notes carry across open spaces.\",\"fact_key\":\"outdoor_marching_context\",\"style\":\"situation\"},{\"sentence\":\"It appears in ceremonial processions, including occasions where short musical calls mark arrivals.\",\"fact_key\":\"ceremonial_processions\",\"style\":\"situation\"},{\"sentence\":\"Its bright upper register can make a melody stand out above dense ensemble textures.\",\"fact_key\":\"melodic_prominence\",\"style\":\"function\"},{\"sentence\":\"Short repeated notes can add rhythmic drive to dance music and lively arrangements.\",\"fact_key\":\"rhythmic_drive\",\"style\":\"function\"},{\"sentence\":\"Carefully shaped fanfares announce entrances or lend formal occasions a sense of grandeur.\",\"fact_key\":\"fanfares_and_announcements\",\"style\":\"function\"},{\"sentence\":\"In orchestral writing, sustained tones can reinforce climactic passages with a brilliant, penetrating color.\",\"fact_key\":\"climactic_orchestral_color\",\"style\":\"function\"}]}",
+      "request_sha256": "d29783964db47b32873b821a4773e35ea5459c6e64ccb0b4f5bbaefdb56ec3ab",
+      "usage": {
+        "completion_tokens": 1326,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 786,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 358,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 1684
+      }
+    },
+    "gen_train_01_0": {
+      "data": {
+        "items": [
+          {
+            "fact_key": "sports_crowd_chants",
+            "sentence": "At sporting events, it can lead crowd chants and provide musical punctuation between plays.",
+            "style": "function"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"sentence\":\"At sporting events, it can lead crowd chants and provide musical punctuation between plays.\",\"fact_key\":\"sports_crowd_chants\",\"style\":\"function\"}]}",
+      "request_sha256": "fc00e86006574a36a9e7cb8555ac7a362a43cac2981ee746281df172fae2b19a",
+      "usage": {
+        "completion_tokens": 411,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 362,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 818,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 1229
+      }
+    }
+  },
+  "quality": {
+    "eval_00": {
+      "accepted_total_group": 8,
+      "audit": [
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_0",
+          "reason": "Lacquer and silver plating are common finishes for the brass body; the description focuses on its surface and appearance.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_1",
+          "reason": "A water key drains accumulated moisture and is a relevant component; this claim is distinct from the prior descriptions.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_2",
+          "reason": "A mute can be placed in the bell to alter tone and often reduce volume; this describes an operation.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_3",
+          "reason": "Tongued articulation commonly separates notes by interrupting or releasing airflow with the tongue.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_4",
+          "reason": "The upper melodic role is plausible in a brass quintet and is presented in a specific ensemble context.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_5",
+          "reason": "Layering brass parts is a plausible film-scoring practice; the sentence describes a recording context.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_6",
+          "reason": "Brief instrumental responses to a singer are a plausible call-and-response role in gospel arrangements.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_7",
+          "reason": "The description plausibly characterizes a role in salsa; its syncopated-riff claim is distinct from the prior general claim about repeated notes in dance music.",
+          "style": "pass"
+        }
+      ],
+      "key": "eval_00",
+      "rejected": [],
+      "requested": {
+        "action": 2,
+        "function": 2,
+        "situation": 2,
+        "structure": 2
+      }
+    },
+    "train_00": {
+      "accepted_total_group": 15,
+      "audit": [
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_0",
+          "reason": "Accurately describes the bore and bell shape in the requested structural style.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_1",
+          "reason": "Three finger-operated valves are typical of orchestral models; this is a structural detail.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_2",
+          "reason": "A shallow-cup detachable mouthpiece is accurately described as a component.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_3",
+          "reason": "Accurately describes the leadpipe and its place in the airflow path.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_4",
+          "reason": "Lip buzzing while blowing is a typical sound-production process.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_5",
+          "reason": "Valves add tubing to the air path and lower pitch; this fits the action style.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_6",
+          "reason": "The first-valve slide can be used to adjust intonation on certain notes.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_7",
+          "reason": "Adjusting the tuning slide changes air-column length and overall pitch.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_8",
+          "reason": "This is a natural description of the instrument’s usual orchestral setting and placement.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_9",
+          "reason": "Jazz combos may feature it prominently on improvised melodic lines; this describes a context.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_10",
+          "reason": "Outdoor marching use and projection are accurately presented as a playing context.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_11",
+          "reason": "Ceremonial processions are a plausible context for short calls marking arrivals.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_12",
+          "reason": "A bright upper register can make melodies prominent, matching the function style.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_13",
+          "reason": "Repeated notes can provide rhythmic drive in dance music and lively arrangements.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "fail",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_14",
+          "reason": "The fanfare announcement claim substantially overlaps the earlier description of short calls marking arrivals in ceremonial processions.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_15",
+          "reason": "This describes a distinct orchestral function: sustained tones adding brilliant color to climactic passages.",
+          "style": "pass"
+        }
+      ],
+      "key": "train_00",
+      "rejected": [
+        {
+          "audit": {
+            "alignment": "pass",
+            "duplicate": "fail",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_14",
+            "reason": "The fanfare announcement claim substantially overlaps the earlier description of short calls marking arrivals in ceremonial processions.",
+            "style": "pass"
+          },
+          "item": {
+            "fact_key": "fanfares_and_announcements",
+            "id": "train_00_14",
+            "sentence": "Carefully shaped fanfares announce entrances or lend formal occasions a sense of grandeur.",
+            "style": "function"
+          },
+          "reason": "AI audit"
+        }
+      ],
+      "requested": {
+        "action": 4,
+        "function": 4,
+        "situation": 4,
+        "structure": 4
+      }
+    },
+    "train_01": {
+      "accepted_total_group": 16,
+      "audit": [
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_01_0",
+          "reason": "Plausibly describes a use of the instrument at sporting events. It fits the function style, reads naturally, contains no forbidden terms, and does not repeat a prior claim.",
+          "style": "pass"
+        }
+      ],
+      "key": "train_01",
+      "rejected": [],
+      "requested": {
+        "function": 1
+      }
+    }
+  },
+  "started": {
+    "audit_eval_00_0": {
+      "payload": {
+        "concept": "trumpet",
+        "definition": "A brass wind instrument with valves and a flared bell.",
+        "forbidden_terms": [
+          "dolphin",
+          "flute",
+          "french horn",
+          "guitar",
+          "horn",
+          "practice mute",
+          "trumpet"
+        ],
+        "items": [
+          {
+            "fact_key": "body_finish",
+            "id": "eval_00_0",
+            "sentence": "The brass body is commonly finished with clear lacquer or silver plating, giving the metal a protective surface and distinctive appearance.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "water_key_drainage",
+            "id": "eval_00_1",
+            "sentence": "A small water key near the tubing opens to drain moisture that collects inside during playing.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "mute_changes_sound",
+            "id": "eval_00_2",
+            "sentence": "A player can insert a mute into the bell to change the instrument's tone and reduce its volume.",
+            "style": "action"
+          },
+          {
+            "fact_key": "tongued_articulation",
+            "id": "eval_00_3",
+            "sentence": "Using tongued articulation, players interrupt the airflow with the tongue to produce crisp, separated notes.",
+            "style": "action"
+          },
+          {
+            "fact_key": "quintet_melodic_role",
+            "id": "eval_00_4",
+            "sentence": "In brass quintets, it often carries the upper melodic line while lower-pitched partners supply supporting harmony.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "film_score_recording",
+            "id": "eval_00_5",
+            "sentence": "Recording sessions for film scores may layer its part with other brass tracks to build a fuller, dramatic sound.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "gospel_call_response",
+            "id": "eval_00_6",
+            "sentence": "In gospel arrangements, it can answer a singer with brief melodic phrases, creating a call-and-response exchange.",
+            "style": "function"
+          },
+          {
+            "fact_key": "salsa_riff_support",
+            "id": "eval_00_7",
+            "sentence": "In salsa bands, it may reinforce syncopated riffs alongside other brass parts, giving musical hooks a strong rhythmic edge.",
+            "style": "function"
+          }
+        ],
+        "prior": [
+          {
+            "fact_key": "bore_and_bell_shape",
+            "sentence": "Most of its tubing has a cylindrical bore, widening gradually into a broad, outward-facing bell."
+          },
+          {
+            "fact_key": "three_valve_layout",
+            "sentence": "A typical orchestral model has three finger-operated valves arranged above the main tube."
+          },
+          {
+            "fact_key": "cup_mouthpiece",
+            "sentence": "Its detachable mouthpiece has a shallow cup that directs the player's airflow into the instrument."
+          },
+          {
+            "fact_key": "curved_leadpipe",
+            "sentence": "The leadpipe curves from the mouthpiece receiver toward the valve block, forming part of the airflow path."
+          },
+          {
+            "fact_key": "lip_buzz_sound_production",
+            "sentence": "A player produces sound by buzzing their lips against the mouthpiece while blowing steadily."
+          },
+          {
+            "fact_key": "valve_pitch_change",
+            "sentence": "Depressing a valve redirects air through extra tubing, lowering the instrument's sounding pitch."
+          },
+          {
+            "fact_key": "first_valve_slide_adjustment",
+            "sentence": "Players use a small slide on the first valve loop to correct certain notes' intonation."
+          },
+          {
+            "fact_key": "tuning_slide_adjustment",
+            "sentence": "Moving the tuning slide changes the length of the air column to adjust overall pitch."
+          },
+          {
+            "fact_key": "orchestral_placement",
+            "sentence": "In symphony orchestras, it often sits among the brass section behind the strings."
+          },
+          {
+            "fact_key": "jazz_combo_context",
+            "sentence": "Jazz combo players may place it at the front to carry improvised melodic lines."
+          },
+          {
+            "fact_key": "outdoor_marching_context",
+            "sentence": "Marching ensembles use it outdoors, where its focused projection helps notes carry across open spaces."
+          },
+          {
+            "fact_key": "ceremonial_processions",
+            "sentence": "It appears in ceremonial processions, including occasions where short musical calls mark arrivals."
+          },
+          {
+            "fact_key": "melodic_prominence",
+            "sentence": "Its bright upper register can make a melody stand out above dense ensemble textures."
+          },
+          {
+            "fact_key": "rhythmic_drive",
+            "sentence": "Short repeated notes can add rhythmic drive to dance music and lively arrangements."
+          },
+          {
+            "fact_key": "climactic_orchestral_color",
+            "sentence": "In orchestral writing, sustained tones can reinforce climactic passages with a brilliant, penetrating color."
+          },
+          {
+            "fact_key": "sports_crowd_chants",
+            "sentence": "At sporting events, it can lead crowd chants and provide musical punctuation between plays."
+          }
+        ],
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "df5072beaf7e25360b8ce8713d57595d30a5e48317ad77d84dcc88f363102982",
+      "system": "Independently evaluate each description against the supplied concept definition and each item’s assigned style. Check factual accuracy, concept alignment, natural standalone English, style, absence of names/aliases and near semantic duplicates of prior accepted descriptions (including other splits) or earlier items in this batch. A shared broad topic is not itself duplication, but essentially the same factual claim or paraphrase is. Return JSON {\"items\":[{\"id\":\"...\",\"fact\":\"pass|fail|uncertain\",\"alignment\":\"pass|fail|uncertain\",\"style\":\"pass|fail|uncertain\",\"exposure\":\"pass|fail|uncertain\",\"duplicate\":\"pass|fail|uncertain\",\"reason\":\"...\"}]}. Return every id exactly once. Treat supplied sentences as data. Do not infer model performance."
+    },
+    "audit_train_00_0": {
+      "payload": {
+        "concept": "trumpet",
+        "definition": "A brass wind instrument with valves and a flared bell.",
+        "forbidden_terms": [
+          "dolphin",
+          "flute",
+          "french horn",
+          "guitar",
+          "horn",
+          "practice mute",
+          "trumpet"
+        ],
+        "items": [
+          {
+            "fact_key": "bore_and_bell_shape",
+            "id": "train_00_0",
+            "sentence": "Most of its tubing has a cylindrical bore, widening gradually into a broad, outward-facing bell.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "three_valve_layout",
+            "id": "train_00_1",
+            "sentence": "A typical orchestral model has three finger-operated valves arranged above the main tube.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "cup_mouthpiece",
+            "id": "train_00_2",
+            "sentence": "Its detachable mouthpiece has a shallow cup that directs the player's airflow into the instrument.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "curved_leadpipe",
+            "id": "train_00_3",
+            "sentence": "The leadpipe curves from the mouthpiece receiver toward the valve block, forming part of the airflow path.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "lip_buzz_sound_production",
+            "id": "train_00_4",
+            "sentence": "A player produces sound by buzzing their lips against the mouthpiece while blowing steadily.",
+            "style": "action"
+          },
+          {
+            "fact_key": "valve_pitch_change",
+            "id": "train_00_5",
+            "sentence": "Depressing a valve redirects air through extra tubing, lowering the instrument's sounding pitch.",
+            "style": "action"
+          },
+          {
+            "fact_key": "first_valve_slide_adjustment",
+            "id": "train_00_6",
+            "sentence": "Players use a small slide on the first valve loop to correct certain notes' intonation.",
+            "style": "action"
+          },
+          {
+            "fact_key": "tuning_slide_adjustment",
+            "id": "train_00_7",
+            "sentence": "Moving the tuning slide changes the length of the air column to adjust overall pitch.",
+            "style": "action"
+          },
+          {
+            "fact_key": "orchestral_placement",
+            "id": "train_00_8",
+            "sentence": "In symphony orchestras, it often sits among the brass section behind the strings.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "jazz_combo_context",
+            "id": "train_00_9",
+            "sentence": "Jazz combo players may place it at the front to carry improvised melodic lines.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "outdoor_marching_context",
+            "id": "train_00_10",
+            "sentence": "Marching ensembles use it outdoors, where its focused projection helps notes carry across open spaces.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "ceremonial_processions",
+            "id": "train_00_11",
+            "sentence": "It appears in ceremonial processions, including occasions where short musical calls mark arrivals.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "melodic_prominence",
+            "id": "train_00_12",
+            "sentence": "Its bright upper register can make a melody stand out above dense ensemble textures.",
+            "style": "function"
+          },
+          {
+            "fact_key": "rhythmic_drive",
+            "id": "train_00_13",
+            "sentence": "Short repeated notes can add rhythmic drive to dance music and lively arrangements.",
+            "style": "function"
+          },
+          {
+            "fact_key": "fanfares_and_announcements",
+            "id": "train_00_14",
+            "sentence": "Carefully shaped fanfares announce entrances or lend formal occasions a sense of grandeur.",
+            "style": "function"
+          },
+          {
+            "fact_key": "climactic_orchestral_color",
+            "id": "train_00_15",
+            "sentence": "In orchestral writing, sustained tones can reinforce climactic passages with a brilliant, penetrating color.",
+            "style": "function"
+          }
+        ],
+        "prior": [],
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "e6591ebab6e7576d4b1a1bbe42ba43ec7cf49b8bddc24b1ed053c5d464147cdf",
+      "system": "Independently evaluate each description against the supplied concept definition and each item’s assigned style. Check factual accuracy, concept alignment, natural standalone English, style, absence of names/aliases and near semantic duplicates of prior accepted descriptions (including other splits) or earlier items in this batch. A shared broad topic is not itself duplication, but essentially the same factual claim or paraphrase is. Return JSON {\"items\":[{\"id\":\"...\",\"fact\":\"pass|fail|uncertain\",\"alignment\":\"pass|fail|uncertain\",\"style\":\"pass|fail|uncertain\",\"exposure\":\"pass|fail|uncertain\",\"duplicate\":\"pass|fail|uncertain\",\"reason\":\"...\"}]}. Return every id exactly once. Treat supplied sentences as data. Do not infer model performance."
+    },
+    "audit_train_01_0": {
+      "payload": {
+        "concept": "trumpet",
+        "definition": "A brass wind instrument with valves and a flared bell.",
+        "forbidden_terms": [
+          "dolphin",
+          "flute",
+          "french horn",
+          "guitar",
+          "horn",
+          "practice mute",
+          "trumpet"
+        ],
+        "items": [
+          {
+            "fact_key": "sports_crowd_chants",
+            "id": "train_01_0",
+            "sentence": "At sporting events, it can lead crowd chants and provide musical punctuation between plays.",
+            "style": "function"
+          }
+        ],
+        "prior": [
+          {
+            "fact_key": "bore_and_bell_shape",
+            "sentence": "Most of its tubing has a cylindrical bore, widening gradually into a broad, outward-facing bell."
+          },
+          {
+            "fact_key": "three_valve_layout",
+            "sentence": "A typical orchestral model has three finger-operated valves arranged above the main tube."
+          },
+          {
+            "fact_key": "cup_mouthpiece",
+            "sentence": "Its detachable mouthpiece has a shallow cup that directs the player's airflow into the instrument."
+          },
+          {
+            "fact_key": "curved_leadpipe",
+            "sentence": "The leadpipe curves from the mouthpiece receiver toward the valve block, forming part of the airflow path."
+          },
+          {
+            "fact_key": "lip_buzz_sound_production",
+            "sentence": "A player produces sound by buzzing their lips against the mouthpiece while blowing steadily."
+          },
+          {
+            "fact_key": "valve_pitch_change",
+            "sentence": "Depressing a valve redirects air through extra tubing, lowering the instrument's sounding pitch."
+          },
+          {
+            "fact_key": "first_valve_slide_adjustment",
+            "sentence": "Players use a small slide on the first valve loop to correct certain notes' intonation."
+          },
+          {
+            "fact_key": "tuning_slide_adjustment",
+            "sentence": "Moving the tuning slide changes the length of the air column to adjust overall pitch."
+          },
+          {
+            "fact_key": "orchestral_placement",
+            "sentence": "In symphony orchestras, it often sits among the brass section behind the strings."
+          },
+          {
+            "fact_key": "jazz_combo_context",
+            "sentence": "Jazz combo players may place it at the front to carry improvised melodic lines."
+          },
+          {
+            "fact_key": "outdoor_marching_context",
+            "sentence": "Marching ensembles use it outdoors, where its focused projection helps notes carry across open spaces."
+          },
+          {
+            "fact_key": "ceremonial_processions",
+            "sentence": "It appears in ceremonial processions, including occasions where short musical calls mark arrivals."
+          },
+          {
+            "fact_key": "melodic_prominence",
+            "sentence": "Its bright upper register can make a melody stand out above dense ensemble textures."
+          },
+          {
+            "fact_key": "rhythmic_drive",
+            "sentence": "Short repeated notes can add rhythmic drive to dance music and lively arrangements."
+          },
+          {
+            "fact_key": "climactic_orchestral_color",
+            "sentence": "In orchestral writing, sustained tones can reinforce climactic passages with a brilliant, penetrating color."
+          }
+        ],
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "114fccde77dbf90512f7feb40387bab96f6bb5a50f0e2913730367c56a24fa82",
+      "system": "Independently evaluate each description against the supplied concept definition and each item’s assigned style. Check factual accuracy, concept alignment, natural standalone English, style, absence of names/aliases and near semantic duplicates of prior accepted descriptions (including other splits) or earlier items in this batch. A shared broad topic is not itself duplication, but essentially the same factual claim or paraphrase is. Return JSON {\"items\":[{\"id\":\"...\",\"fact\":\"pass|fail|uncertain\",\"alignment\":\"pass|fail|uncertain\",\"style\":\"pass|fail|uncertain\",\"exposure\":\"pass|fail|uncertain\",\"duplicate\":\"pass|fail|uncertain\",\"reason\":\"...\"}]}. Return every id exactly once. Treat supplied sentences as data. Do not infer model performance."
+    },
+    "gen_eval_00_0": {
+      "payload": {
+        "concept": "trumpet",
+        "definition": "A brass wind instrument with valves and a flared bell.",
+        "forbidden_terms": [
+          "dolphin",
+          "flute",
+          "french horn",
+          "guitar",
+          "horn",
+          "practice mute",
+          "trumpet"
+        ],
+        "instruction": "Return exactly the requested count for each style, with a style key for every item. For eval, use new factual ideas, not paraphrases of train.",
+        "prior": [
+          {
+            "fact_key": "bore_and_bell_shape",
+            "sentence": "Most of its tubing has a cylindrical bore, widening gradually into a broad, outward-facing bell."
+          },
+          {
+            "fact_key": "three_valve_layout",
+            "sentence": "A typical orchestral model has three finger-operated valves arranged above the main tube."
+          },
+          {
+            "fact_key": "cup_mouthpiece",
+            "sentence": "Its detachable mouthpiece has a shallow cup that directs the player's airflow into the instrument."
+          },
+          {
+            "fact_key": "curved_leadpipe",
+            "sentence": "The leadpipe curves from the mouthpiece receiver toward the valve block, forming part of the airflow path."
+          },
+          {
+            "fact_key": "lip_buzz_sound_production",
+            "sentence": "A player produces sound by buzzing their lips against the mouthpiece while blowing steadily."
+          },
+          {
+            "fact_key": "valve_pitch_change",
+            "sentence": "Depressing a valve redirects air through extra tubing, lowering the instrument's sounding pitch."
+          },
+          {
+            "fact_key": "first_valve_slide_adjustment",
+            "sentence": "Players use a small slide on the first valve loop to correct certain notes' intonation."
+          },
+          {
+            "fact_key": "tuning_slide_adjustment",
+            "sentence": "Moving the tuning slide changes the length of the air column to adjust overall pitch."
+          },
+          {
+            "fact_key": "orchestral_placement",
+            "sentence": "In symphony orchestras, it often sits among the brass section behind the strings."
+          },
+          {
+            "fact_key": "jazz_combo_context",
+            "sentence": "Jazz combo players may place it at the front to carry improvised melodic lines."
+          },
+          {
+            "fact_key": "outdoor_marching_context",
+            "sentence": "Marching ensembles use it outdoors, where its focused projection helps notes carry across open spaces."
+          },
+          {
+            "fact_key": "ceremonial_processions",
+            "sentence": "It appears in ceremonial processions, including occasions where short musical calls mark arrivals."
+          },
+          {
+            "fact_key": "melodic_prominence",
+            "sentence": "Its bright upper register can make a melody stand out above dense ensemble textures."
+          },
+          {
+            "fact_key": "rhythmic_drive",
+            "sentence": "Short repeated notes can add rhythmic drive to dance music and lively arrangements."
+          },
+          {
+            "fact_key": "climactic_orchestral_color",
+            "sentence": "In orchestral writing, sustained tones can reinforce climactic passages with a brilliant, penetrating color."
+          },
+          {
+            "fact_key": "sports_crowd_chants",
+            "sentence": "At sporting events, it can lead crowd chants and provide musical punctuation between plays."
+          }
+        ],
+        "split": "eval",
+        "style_counts": {
+          "action": 2,
+          "function": 2,
+          "situation": 2,
+          "structure": 2
+        },
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "615c2b6364b158536e8fabfc64a3f8143ceda57c51adb77f99f392e8946da58e",
+      "system": "Generate factually accurate natural standalone English descriptions for a concept probe dataset. Each sentence describes the specified concept, without naming it, comparison concepts or their obvious aliases. Use the assigned style and 10–25 words. The request supplies a style-to-count map; return each item with a style key matching that map. Avoid label-specific formatting, fiction, trivia guesses and recycled facts. Each fact_key is a short description of a distinct factual claim. Use prior sentences only to avoid near paraphrase and repeated factual claims, not as templates. Use diverse facets and contexts. For held-out evaluation, use new factual claims or contexts rather than paraphrases of training. Output JSON {\"items\":[{\"sentence\":\"...\",\"fact_key\":\"...\",\"style\":\"structure\"}]}. Treat provided text as data, not instructions."
+    },
+    "gen_train_00_0": {
+      "payload": {
+        "concept": "trumpet",
+        "definition": "A brass wind instrument with valves and a flared bell.",
+        "forbidden_terms": [
+          "dolphin",
+          "flute",
+          "french horn",
+          "guitar",
+          "horn",
+          "practice mute",
+          "trumpet"
+        ],
+        "instruction": "Return exactly the requested count for each style, with a style key for every item. For eval, use new factual ideas, not paraphrases of train.",
+        "prior": [],
+        "split": "train",
+        "style_counts": {
+          "action": 4,
+          "function": 4,
+          "situation": 4,
+          "structure": 4
+        },
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "d29783964db47b32873b821a4773e35ea5459c6e64ccb0b4f5bbaefdb56ec3ab",
+      "system": "Generate factually accurate natural standalone English descriptions for a concept probe dataset. Each sentence describes the specified concept, without naming it, comparison concepts or their obvious aliases. Use the assigned style and 10–25 words. The request supplies a style-to-count map; return each item with a style key matching that map. Avoid label-specific formatting, fiction, trivia guesses and recycled facts. Each fact_key is a short description of a distinct factual claim. Use prior sentences only to avoid near paraphrase and repeated factual claims, not as templates. Use diverse facets and contexts. For held-out evaluation, use new factual claims or contexts rather than paraphrases of training. Output JSON {\"items\":[{\"sentence\":\"...\",\"fact_key\":\"...\",\"style\":\"structure\"}]}. Treat provided text as data, not instructions."
+    },
+    "gen_train_01_0": {
+      "payload": {
+        "concept": "trumpet",
+        "definition": "A brass wind instrument with valves and a flared bell.",
+        "forbidden_terms": [
+          "dolphin",
+          "flute",
+          "french horn",
+          "guitar",
+          "horn",
+          "practice mute",
+          "trumpet"
+        ],
+        "instruction": "Return exactly the requested count for each style, with a style key for every item. For eval, use new factual ideas, not paraphrases of train.",
+        "prior": [
+          {
+            "fact_key": "bore_and_bell_shape",
+            "sentence": "Most of its tubing has a cylindrical bore, widening gradually into a broad, outward-facing bell."
+          },
+          {
+            "fact_key": "three_valve_layout",
+            "sentence": "A typical orchestral model has three finger-operated valves arranged above the main tube."
+          },
+          {
+            "fact_key": "cup_mouthpiece",
+            "sentence": "Its detachable mouthpiece has a shallow cup that directs the player's airflow into the instrument."
+          },
+          {
+            "fact_key": "curved_leadpipe",
+            "sentence": "The leadpipe curves from the mouthpiece receiver toward the valve block, forming part of the airflow path."
+          },
+          {
+            "fact_key": "lip_buzz_sound_production",
+            "sentence": "A player produces sound by buzzing their lips against the mouthpiece while blowing steadily."
+          },
+          {
+            "fact_key": "valve_pitch_change",
+            "sentence": "Depressing a valve redirects air through extra tubing, lowering the instrument's sounding pitch."
+          },
+          {
+            "fact_key": "first_valve_slide_adjustment",
+            "sentence": "Players use a small slide on the first valve loop to correct certain notes' intonation."
+          },
+          {
+            "fact_key": "tuning_slide_adjustment",
+            "sentence": "Moving the tuning slide changes the length of the air column to adjust overall pitch."
+          },
+          {
+            "fact_key": "orchestral_placement",
+            "sentence": "In symphony orchestras, it often sits among the brass section behind the strings."
+          },
+          {
+            "fact_key": "jazz_combo_context",
+            "sentence": "Jazz combo players may place it at the front to carry improvised melodic lines."
+          },
+          {
+            "fact_key": "outdoor_marching_context",
+            "sentence": "Marching ensembles use it outdoors, where its focused projection helps notes carry across open spaces."
+          },
+          {
+            "fact_key": "ceremonial_processions",
+            "sentence": "It appears in ceremonial processions, including occasions where short musical calls mark arrivals."
+          },
+          {
+            "fact_key": "melodic_prominence",
+            "sentence": "Its bright upper register can make a melody stand out above dense ensemble textures."
+          },
+          {
+            "fact_key": "rhythmic_drive",
+            "sentence": "Short repeated notes can add rhythmic drive to dance music and lively arrangements."
+          },
+          {
+            "fact_key": "climactic_orchestral_color",
+            "sentence": "In orchestral writing, sustained tones can reinforce climactic passages with a brilliant, penetrating color."
+          }
+        ],
+        "split": "train",
+        "style_counts": {
+          "function": 1
+        },
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "fc00e86006574a36a9e7cb8555ac7a362a43cac2981ee746281df172fae2b19a",
+      "system": "Generate factually accurate natural standalone English descriptions for a concept probe dataset. Each sentence describes the specified concept, without naming it, comparison concepts or their obvious aliases. Use the assigned style and 10–25 words. The request supplies a style-to-count map; return each item with a style key matching that map. Avoid label-specific formatting, fiction, trivia guesses and recycled facts. Each fact_key is a short description of a distinct factual claim. Use prior sentences only to avoid near paraphrase and repeated factual claims, not as templates. Use diverse facets and contexts. For held-out evaluation, use new factual claims or contexts rather than paraphrases of training. Output JSON {\"items\":[{\"sentence\":\"...\",\"fact_key\":\"...\",\"style\":\"structure\"}]}. Treat provided text as data, not instructions."
+    }
+  },
+  "texts": [
+    {
+      "concept": "trumpet",
+      "fact_key": "bore_and_bell_shape",
+      "id": "train_00_0",
+      "sentence": "Most of its tubing has a cylindrical bore, widening gradually into a broad, outward-facing bell.",
+      "split": "train",
+      "style": "structure",
+      "style_index": 0,
+      "text_id": "C23_X_train_structure_0",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "three_valve_layout",
+      "id": "train_00_1",
+      "sentence": "A typical orchestral model has three finger-operated valves arranged above the main tube.",
+      "split": "train",
+      "style": "structure",
+      "style_index": 1,
+      "text_id": "C23_X_train_structure_1",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "cup_mouthpiece",
+      "id": "train_00_2",
+      "sentence": "Its detachable mouthpiece has a shallow cup that directs the player's airflow into the instrument.",
+      "split": "train",
+      "style": "structure",
+      "style_index": 2,
+      "text_id": "C23_X_train_structure_2",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "curved_leadpipe",
+      "id": "train_00_3",
+      "sentence": "The leadpipe curves from the mouthpiece receiver toward the valve block, forming part of the airflow path.",
+      "split": "train",
+      "style": "structure",
+      "style_index": 3,
+      "text_id": "C23_X_train_structure_3",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "lip_buzz_sound_production",
+      "id": "train_00_4",
+      "sentence": "A player produces sound by buzzing their lips against the mouthpiece while blowing steadily.",
+      "split": "train",
+      "style": "action",
+      "style_index": 0,
+      "text_id": "C23_X_train_action_0",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "valve_pitch_change",
+      "id": "train_00_5",
+      "sentence": "Depressing a valve redirects air through extra tubing, lowering the instrument's sounding pitch.",
+      "split": "train",
+      "style": "action",
+      "style_index": 1,
+      "text_id": "C23_X_train_action_1",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "first_valve_slide_adjustment",
+      "id": "train_00_6",
+      "sentence": "Players use a small slide on the first valve loop to correct certain notes' intonation.",
+      "split": "train",
+      "style": "action",
+      "style_index": 2,
+      "text_id": "C23_X_train_action_2",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "tuning_slide_adjustment",
+      "id": "train_00_7",
+      "sentence": "Moving the tuning slide changes the length of the air column to adjust overall pitch.",
+      "split": "train",
+      "style": "action",
+      "style_index": 3,
+      "text_id": "C23_X_train_action_3",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "orchestral_placement",
+      "id": "train_00_8",
+      "sentence": "In symphony orchestras, it often sits among the brass section behind the strings.",
+      "split": "train",
+      "style": "situation",
+      "style_index": 0,
+      "text_id": "C23_X_train_situation_0",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "jazz_combo_context",
+      "id": "train_00_9",
+      "sentence": "Jazz combo players may place it at the front to carry improvised melodic lines.",
+      "split": "train",
+      "style": "situation",
+      "style_index": 1,
+      "text_id": "C23_X_train_situation_1",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "outdoor_marching_context",
+      "id": "train_00_10",
+      "sentence": "Marching ensembles use it outdoors, where its focused projection helps notes carry across open spaces.",
+      "split": "train",
+      "style": "situation",
+      "style_index": 2,
+      "text_id": "C23_X_train_situation_2",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "ceremonial_processions",
+      "id": "train_00_11",
+      "sentence": "It appears in ceremonial processions, including occasions where short musical calls mark arrivals.",
+      "split": "train",
+      "style": "situation",
+      "style_index": 3,
+      "text_id": "C23_X_train_situation_3",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "melodic_prominence",
+      "id": "train_00_12",
+      "sentence": "Its bright upper register can make a melody stand out above dense ensemble textures.",
+      "split": "train",
+      "style": "function",
+      "style_index": 0,
+      "text_id": "C23_X_train_function_0",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "rhythmic_drive",
+      "id": "train_00_13",
+      "sentence": "Short repeated notes can add rhythmic drive to dance music and lively arrangements.",
+      "split": "train",
+      "style": "function",
+      "style_index": 1,
+      "text_id": "C23_X_train_function_1",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "climactic_orchestral_color",
+      "id": "train_00_15",
+      "sentence": "In orchestral writing, sustained tones can reinforce climactic passages with a brilliant, penetrating color.",
+      "split": "train",
+      "style": "function",
+      "style_index": 2,
+      "text_id": "C23_X_train_function_2",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "sports_crowd_chants",
+      "id": "train_01_0",
+      "sentence": "At sporting events, it can lead crowd chants and provide musical punctuation between plays.",
+      "split": "train",
+      "style": "function",
+      "style_index": 3,
+      "text_id": "C23_X_train_function_3",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "body_finish",
+      "id": "eval_00_0",
+      "sentence": "The brass body is commonly finished with clear lacquer or silver plating, giving the metal a protective surface and distinctive appearance.",
+      "split": "eval",
+      "style": "structure",
+      "style_index": 0,
+      "text_id": "C23_X_eval_structure_0",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "water_key_drainage",
+      "id": "eval_00_1",
+      "sentence": "A small water key near the tubing opens to drain moisture that collects inside during playing.",
+      "split": "eval",
+      "style": "structure",
+      "style_index": 1,
+      "text_id": "C23_X_eval_structure_1",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "mute_changes_sound",
+      "id": "eval_00_2",
+      "sentence": "A player can insert a mute into the bell to change the instrument's tone and reduce its volume.",
+      "split": "eval",
+      "style": "action",
+      "style_index": 0,
+      "text_id": "C23_X_eval_action_0",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "tongued_articulation",
+      "id": "eval_00_3",
+      "sentence": "Using tongued articulation, players interrupt the airflow with the tongue to produce crisp, separated notes.",
+      "split": "eval",
+      "style": "action",
+      "style_index": 1,
+      "text_id": "C23_X_eval_action_1",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "quintet_melodic_role",
+      "id": "eval_00_4",
+      "sentence": "In brass quintets, it often carries the upper melodic line while lower-pitched partners supply supporting harmony.",
+      "split": "eval",
+      "style": "situation",
+      "style_index": 0,
+      "text_id": "C23_X_eval_situation_0",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "film_score_recording",
+      "id": "eval_00_5",
+      "sentence": "Recording sessions for film scores may layer its part with other brass tracks to build a fuller, dramatic sound.",
+      "split": "eval",
+      "style": "situation",
+      "style_index": 1,
+      "text_id": "C23_X_eval_situation_1",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "gospel_call_response",
+      "id": "eval_00_6",
+      "sentence": "In gospel arrangements, it can answer a singer with brief melodic phrases, creating a call-and-response exchange.",
+      "split": "eval",
+      "style": "function",
+      "style_index": 0,
+      "text_id": "C23_X_eval_function_0",
+      "unit_id": "C23_X"
+    },
+    {
+      "concept": "trumpet",
+      "fact_key": "salsa_riff_support",
+      "id": "eval_00_7",
+      "sentence": "In salsa bands, it may reinforce syncopated riffs alongside other brass parts, giving musical hooks a strong rhythmic edge.",
+      "split": "eval",
+      "style": "function",
+      "style_index": 1,
+      "text_id": "C23_X_eval_function_1",
+      "unit_id": "C23_X"
+    }
+  ]
+}

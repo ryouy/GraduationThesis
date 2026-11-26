@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C35_action_medium_near_0_0",
+        "reason": "A mystery chosen from a collection may be a book, but the clue does not identify the item or mention a bookshelf.",
+        "x_related": 1,
+        "y_related": 2,
+        "y_specific": "uncertain"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_action_unrelated_0_0",
+        "reason": "The clue concerns kayaking and has no meaningful connection to either definition.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_function_medium_far_0_2",
+        "reason": "Displaying novels is a strong bookshelf-related function; novels are a type of book, though neither target name nor alias appears.",
+        "x_related": 3,
+        "y_related": 3,
+        "y_specific": "yes"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_function_near_0_2",
+        "reason": "Vertical organization that frees table space directly evokes a bookshelf function, while the broader reading materials are not specifically books.",
+        "x_related": 4,
+        "y_related": 2,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_function_very_near_0_3",
+        "reason": "A tiered arrangement suggests bookshelf display, and prized editions are specifically associated with books.",
+        "x_related": 3,
+        "y_related": 3,
+        "y_specific": "yes"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_situation_far_0_0",
+        "reason": "The row of novels suggests stored books but does not identify the furniture; novels are a type of book.",
+        "x_related": 1,
+        "y_related": 3,
+        "y_specific": "yes"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_situation_far_0_2",
+        "reason": "The clue concerns novels being moved, but does not mention the furniture holding them.",
+        "x_related": 1,
+        "y_related": 3,
+        "y_specific": "yes"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_situation_medium_far_0_4",
+        "reason": "First editions and inscribed copies are specifically book-related; no bookshelf is described.",
+        "x_related": 0,
+        "y_related": 3,
+        "y_specific": "yes"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_situation_near_0_4",
+        "reason": "A bedtime story from a family collection may come from a book, but could also be told or otherwise presented.",
+        "x_related": 1,
+        "y_related": 2,
+        "y_specific": "uncertain"
+      },
+      {
+        "exposure": "fail",
+        "id": "gen_C35_situation_very_near_0_4",
+        "reason": "Outward-facing picture books indicate a display arrangement and directly name books.",
+        "x_related": 3,
+        "y_related": 4,
+        "y_specific": "yes"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_structure_medium_near_0_2",
+        "reason": "Spines arranged against a study wall strongly suggest a bookshelf and specifically evoke bound books.",
+        "x_related": 3,
+        "y_related": 3,
+        "y_specific": "yes"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_structure_unrelated_0_2",
+        "reason": "The clue describes a nautilus shell, unrelated to either definition.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C35_action_medium_near_0_0\",\"x_related\":1,\"y_related\":2,\"exposure\":\"pass\",\"y_specific\":\"uncertain\",\"reason\":\"A mystery chosen from a collection may be a book, but the clue does not identify the item or mention a bookshelf.\"},{\"id\":\"gen_C35_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The clue concerns kayaking and has no meaningful connection to either definition.\"},{\"id\":\"gen_C35_function_medium_far_0_2\",\"x_related\":3,\"y_related\":3,\"exposure\":\"pass\",\"y_specific\":\"yes\",\"reason\":\"Displaying novels is a strong bookshelf-related function; novels are a type of book, though neither target name nor alias appears.\"},{\"id\":\"gen_C35_function_near_0_2\",\"x_related\":4,\"y_related\":2,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Vertical organization that frees table space directly evokes a bookshelf function, while the broader reading materials are not specifically books.\"},{\"id\":\"gen_C35_function_very_near_0_3\",\"x_related\":3,\"y_related\":3,\"exposure\":\"pass\",\"y_specific\":\"yes\",\"reason\":\"A tiered arrangement suggests bookshelf display, and prized editions are specifically associated with books.\"},{\"id\":\"gen_C35_situation_far_0_0\",\"x_related\":1,\"y_related\":3,\"exposure\":\"pass\",\"y_specific\":\"yes\",\"reason\":\"The row of novels suggests stored books but does not identify the furniture; novels are a type of book.\"},{\"id\":\"gen_C35_situation_far_0_2\",\"x_related\":1,\"y_related\":3,\"exposure\":\"pass\",\"y_specific\":\"yes\",\"reason\":\"The clue concerns novels being moved, but does not mention the furniture holding them.\"},{\"id\":\"gen_C35_situation_medium_far_0_4\",\"x_related\":0,\"y_related\":3,\"exposure\":\"pass\",\"y_specific\":\"yes\",\"reason\":\"First editions and inscribed copies are specifically book-related; no bookshelf is described.\"},{\"id\":\"gen_C35_situation_near_0_4\",\"x_related\":1,\"y_related\":2,\"exposure\":\"pass\",\"y_specific\":\"uncertain\",\"reason\":\"A bedtime story from a family collection may come from a book, but could also be told or otherwise presented.\"},{\"id\":\"gen_C35_situation_very_near_0_4\",\"x_related\":3,\"y_related\":4,\"exposure\":\"fail\",\"y_specific\":\"yes\",\"reason\":\"Outward-facing picture books indicate a display arrangement and directly name books.\"},{\"id\":\"gen_C35_structure_medium_near_0_2\",\"x_related\":3,\"y_related\":3,\"exposure\":\"pass\",\"y_specific\":\"yes\",\"reason\":\"Spines arranged against a study wall strongly suggest a bookshelf and specifically evoke bound books.\"},{\"id\":\"gen_C35_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The clue describes a nautilus shell, unrelated to either definition.\"}]}",
+  "usage": {
+    "completion_tokens": 2579,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1881,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 691,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3270
+  }
+}

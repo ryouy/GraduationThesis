@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C27_action_far_0_0",
+        "reason": "A green cooking fruit mashed as a savory side strongly suggests plantain or cooking banana; it gives no papaya-specific detail.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_action_medium_far_0_0",
+        "reason": "Bracing heavily laden stems is a strong match for banana cultivation, but not a papaya-specific fact.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_action_unrelated_0_0",
+        "reason": "The pressure-gauge calibration has no apparent relation to either fruit.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_function_medium_near_0_2",
+        "reason": "Mashed banana is a plausible porridge sweetener; other fruit purees, including papaya, could also serve this general use.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_function_near_0_3",
+        "reason": "Using chopped plant material as mulch is broadly plausible for banana plants, but the clue does not establish a papaya-specific fact.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_function_very_near_0_4",
+        "reason": "Unripe banana starch is a plausible feedstock for films; the wording is broad enough to apply to other fruit starches and is not papaya-specific.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_situation_medium_near_0_4",
+        "reason": "Taking a whole piece without utensils strongly fits a portable, peelable banana; it does not describe a papaya-specific quality.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "fail",
+        "id": "gen_C27_situation_near_0_3",
+        "reason": "The produce code and yellow-item description unmistakably identify bananas, an obvious indirect name for X; nothing points to papaya.",
+        "x_related": 4,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_situation_very_near_0_4",
+        "reason": "Fruit puree in a rum-and-lime cocktail could plausibly be banana or papaya, but the cocktail context is not specific to either.",
+        "x_related": 2,
+        "y_related": 2,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_structure_far_0_3",
+        "reason": "Both fruits are botanical berries and can be elongated rather than spherical; these shared traits do not make the clue papaya-specific.",
+        "x_related": 3,
+        "y_related": 3,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_structure_medium_far_0_3",
+        "reason": "Tiny undeveloped seeds in creamy pulp strongly fit cultivated bananas; papaya is characteristically described by its prominent black seeds, not this fact.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_structure_unrelated_0_2",
+        "reason": "The folded map has no apparent relation to either fruit.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C27_action_far_0_0\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A green cooking fruit mashed as a savory side strongly suggests plantain or cooking banana; it gives no papaya-specific detail.\"},{\"id\":\"gen_C27_action_medium_far_0_0\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Bracing heavily laden stems is a strong match for banana cultivation, but not a papaya-specific fact.\"},{\"id\":\"gen_C27_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The pressure-gauge calibration has no apparent relation to either fruit.\"},{\"id\":\"gen_C27_function_medium_near_0_2\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Mashed banana is a plausible porridge sweetener; other fruit purees, including papaya, could also serve this general use.\"},{\"id\":\"gen_C27_function_near_0_3\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Using chopped plant material as mulch is broadly plausible for banana plants, but the clue does not establish a papaya-specific fact.\"},{\"id\":\"gen_C27_function_very_near_0_4\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Unripe banana starch is a plausible feedstock for films; the wording is broad enough to apply to other fruit starches and is not papaya-specific.\"},{\"id\":\"gen_C27_situation_medium_near_0_4\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Taking a whole piece without utensils strongly fits a portable, peelable banana; it does not describe a papaya-specific quality.\"},{\"id\":\"gen_C27_situation_near_0_3\",\"x_related\":4,\"y_related\":0,\"exposure\":\"fail\",\"y_specific\":\"no\",\"reason\":\"The produce code and yellow-item description unmistakably identify bananas, an obvious indirect name for X; nothing points to papaya.\"},{\"id\":\"gen_C27_situation_very_near_0_4\",\"x_related\":2,\"y_related\":2,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Fruit puree in a rum-and-lime cocktail could plausibly be banana or papaya, but the cocktail context is not specific to either.\"},{\"id\":\"gen_C27_structure_far_0_3\",\"x_related\":3,\"y_related\":3,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Both fruits are botanical berries and can be elongated rather than spherical; these shared traits do not make the clue papaya-specific.\"},{\"id\":\"gen_C27_structure_medium_far_0_3\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Tiny undeveloped seeds in creamy pulp strongly fit cultivated bananas; papaya is characteristically described by its prominent black seeds, not this fact.\"},{\"id\":\"gen_C27_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The folded map has no apparent relation to either fruit.\"}]}",
+  "usage": {
+    "completion_tokens": 2573,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1815,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 694,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3267
+  }
+}

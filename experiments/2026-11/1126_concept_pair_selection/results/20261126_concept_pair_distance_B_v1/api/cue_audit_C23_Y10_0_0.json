@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C23_action_far_0_0",
+        "reason": "Buzzing a mouthpiece alone before assembly is a distinctive brass-playing practice; no clarinet-specific fact or instrument name appears.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_action_unrelated_0_0",
+        "reason": "The clue describes baking and has no relevant instrument or music connection.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_action_very_near_0_0",
+        "reason": "Pressing valves while blowing directly describes a characteristic trumpet mechanism; it does not describe a clarinet.",
+        "x_related": 4,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_action_very_near_0_2",
+        "reason": "Finger movement and steady breath fit wind-instrument playing but do not identify a specific instrument; the general wind-playing context is only weakly relevant to clarinet.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_function_medium_far_0_3",
+        "reason": "Scooping notes in jazz is an expressive technique associated with trumpet playing but not exclusive to it; the musical context is not clarinet-specific.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_function_medium_near_0_3",
+        "reason": "A few celebratory notes could be played on many instruments; the occasion offers only general musical context.",
+        "x_related": 1,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_function_near_0_2",
+        "reason": "Clear, carrying notes in military fanfares are strongly associated with trumpet use; the clue does not give a clarinet-specific fact.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_situation_far_0_1",
+        "reason": "A brassy flourish in a procession strongly suggests trumpet or brass-section use, not clarinet-specific information.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_situation_medium_far_0_3",
+        "reason": "A bright orchestral flourish is compatible with trumpet use but could involve other instruments; the orchestral context is only weakly relevant to clarinet.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_situation_medium_near_0_4",
+        "reason": "The clue explicitly places the player in a brass role, which is relevant to trumpet but not clarinet-specific.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_situation_near_0_4",
+        "reason": "A brass section playing a short fight-song motif strongly fits trumpet use; it gives no clarinet-specific information.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_structure_unrelated_0_2",
+        "reason": "The clue describes a ladder structure and has no relevant instrument or music connection.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C23_action_far_0_0\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Buzzing a mouthpiece alone before assembly is a distinctive brass-playing practice; no clarinet-specific fact or instrument name appears.\"},{\"id\":\"gen_C23_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The clue describes baking and has no relevant instrument or music connection.\"},{\"id\":\"gen_C23_action_very_near_0_0\",\"x_related\":4,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Pressing valves while blowing directly describes a characteristic trumpet mechanism; it does not describe a clarinet.\"},{\"id\":\"gen_C23_action_very_near_0_2\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Finger movement and steady breath fit wind-instrument playing but do not identify a specific instrument; the general wind-playing context is only weakly relevant to clarinet.\"},{\"id\":\"gen_C23_function_medium_far_0_3\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Scooping notes in jazz is an expressive technique associated with trumpet playing but not exclusive to it; the musical context is not clarinet-specific.\"},{\"id\":\"gen_C23_function_medium_near_0_3\",\"x_related\":1,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A few celebratory notes could be played on many instruments; the occasion offers only general musical context.\"},{\"id\":\"gen_C23_function_near_0_2\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Clear, carrying notes in military fanfares are strongly associated with trumpet use; the clue does not give a clarinet-specific fact.\"},{\"id\":\"gen_C23_situation_far_0_1\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A brassy flourish in a procession strongly suggests trumpet or brass-section use, not clarinet-specific information.\"},{\"id\":\"gen_C23_situation_medium_far_0_3\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A bright orchestral flourish is compatible with trumpet use but could involve other instruments; the orchestral context is only weakly relevant to clarinet.\"},{\"id\":\"gen_C23_situation_medium_near_0_4\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The clue explicitly places the player in a brass role, which is relevant to trumpet but not clarinet-specific.\"},{\"id\":\"gen_C23_situation_near_0_4\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A brass section playing a short fight-song motif strongly fits trumpet use; it gives no clarinet-specific information.\"},{\"id\":\"gen_C23_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The clue describes a ladder structure and has no relevant instrument or music connection.\"}]}",
+  "usage": {
+    "completion_tokens": 1493,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 756,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 688,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2181
+  }
+}

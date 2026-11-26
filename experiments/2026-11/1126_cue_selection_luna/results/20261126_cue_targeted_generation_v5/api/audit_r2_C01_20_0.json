@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_2_structure_0_4",
+        "naturalness": 5,
+        "reason": "The saddle, handlebars, and frame are plausible structural features; the clue reads naturally.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_2_structure_0_5",
+        "naturalness": 4,
+        "reason": "The gear assembly and rider clearly evoke the vehicle; the marina gives only a weak water-related association.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_2_structure_0_6",
+        "naturalness": 4,
+        "reason": "The chain, joints, and frame are plausible components, described in a structural context.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_2_structure_0_7",
+        "naturalness": 5,
+        "reason": "A fender shielding a tire from puddles is plausible and anchored in a specific vehicle component.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_0_function_0_0",
+        "naturalness": 5,
+        "reason": "It accurately describes pedaling as a means of propelling the vehicle and fits the function style.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_0_function_0_1",
+        "naturalness": 5,
+        "reason": "A low frame can ease mounting, and the clue describes a plausible learning use.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_0_function_0_2",
+        "naturalness": 5,
+        "reason": "The handlebars' role in steering and maneuvering is accurately described.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_0_function_0_3",
+        "naturalness": 5,
+        "reason": "The chain transmits pedal power to the rear sprocket; carrying groceries without fuel is plausible.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_0_function_0_4",
+        "naturalness": 5,
+        "reason": "The clue gives plausible transportation benefits of a lightweight frame.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_0_function_0_5",
+        "naturalness": 5,
+        "reason": "Reflective strips can improve visibility in low light, clearly serving a safety function.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1489,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 839,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 651,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2140
+  }
+}

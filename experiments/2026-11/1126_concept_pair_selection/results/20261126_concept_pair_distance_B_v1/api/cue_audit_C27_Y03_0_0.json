@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C27_action_far_0_0",
+        "reason": "The green cooking fruit mashed into a savory side strongly suggests a plantain, a cooking banana; the cooking-fruit context is only a weak overlap with guava. No name or obvious alias appears.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_action_medium_far_0_0",
+        "reason": "Bracing heavily laden flowering stems against wind strongly fits banana plants. It does not describe a guava-specific fact or name either fruit.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_action_unrelated_0_0",
+        "reason": "Calibrating a pressure gauge is unrelated to either fruit.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_function_medium_near_0_2",
+        "reason": "A mashed portion sweetening porridge is a plausible banana use, but the clue does not identify the fruit. The food use is only weakly relevant to guava as another fruit.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_function_near_0_3",
+        "reason": "Chopped, water-rich stalks used as field mulch strongly suggest banana plant material. This is not a guava-specific fact.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_function_very_near_0_4",
+        "reason": "Starch from unripe fruit used for biodegradable films is compatible with banana, though not unique to it. The generic fruit context is a weak overlap with guava.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_situation_medium_near_0_4",
+        "reason": "Taking a whole, utensil-free fruit along is plausibly about a banana but could fit other fruit. Guava shares only the broad fruit context.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_situation_near_0_3",
+        "reason": "The PLU code 4011 and familiar yellow produce description point distinctly to bananas, but neither is a name or obvious alias. The produce context gives only weak overlap with guava.",
+        "x_related": 4,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_situation_very_near_0_4",
+        "reason": "Creamy fruit puree in a cocktail is plausibly banana but is not distinctive. The fruit-puree context is only a weak overlap with guava.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_structure_far_0_3",
+        "reason": "Describing the edible portion as a berry with a non-spherical familiar form strongly points to banana. The botanical-fruit context is a weak overlap with guava, not a guava-specific fact.",
+        "x_related": 4,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_structure_medium_far_0_3",
+        "reason": "Tiny undeveloped seeds in creamy pulp strongly suggest cultivated bananas. Mention of seeds and pulp overlaps weakly with guava’s edible seeds and flesh, but the clue does not state a guava-specific fact.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_structure_unrelated_0_2",
+        "reason": "A folded paper map is unrelated to either fruit.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C27_action_far_0_0\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The green cooking fruit mashed into a savory side strongly suggests a plantain, a cooking banana; the cooking-fruit context is only a weak overlap with guava. No name or obvious alias appears.\"},{\"id\":\"gen_C27_action_medium_far_0_0\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Bracing heavily laden flowering stems against wind strongly fits banana plants. It does not describe a guava-specific fact or name either fruit.\"},{\"id\":\"gen_C27_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Calibrating a pressure gauge is unrelated to either fruit.\"},{\"id\":\"gen_C27_function_medium_near_0_2\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A mashed portion sweetening porridge is a plausible banana use, but the clue does not identify the fruit. The food use is only weakly relevant to guava as another fruit.\"},{\"id\":\"gen_C27_function_near_0_3\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Chopped, water-rich stalks used as field mulch strongly suggest banana plant material. This is not a guava-specific fact.\"},{\"id\":\"gen_C27_function_very_near_0_4\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Starch from unripe fruit used for biodegradable films is compatible with banana, though not unique to it. The generic fruit context is a weak overlap with guava.\"},{\"id\":\"gen_C27_situation_medium_near_0_4\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Taking a whole, utensil-free fruit along is plausibly about a banana but could fit other fruit. Guava shares only the broad fruit context.\"},{\"id\":\"gen_C27_situation_near_0_3\",\"x_related\":4,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The PLU code 4011 and familiar yellow produce description point distinctly to bananas, but neither is a name or obvious alias. The produce context gives only weak overlap with guava.\"},{\"id\":\"gen_C27_situation_very_near_0_4\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Creamy fruit puree in a cocktail is plausibly banana but is not distinctive. The fruit-puree context is only a weak overlap with guava.\"},{\"id\":\"gen_C27_structure_far_0_3\",\"x_related\":4,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Describing the edible portion as a berry with a non-spherical familiar form strongly points to banana. The botanical-fruit context is a weak overlap with guava, not a guava-specific fact.\"},{\"id\":\"gen_C27_structure_medium_far_0_3\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Tiny undeveloped seeds in creamy pulp strongly suggest cultivated bananas. Mention of seeds and pulp overlaps weakly with guava’s edible seeds and flesh, but the clue does not state a guava-specific fact.\"},{\"id\":\"gen_C27_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A folded paper map is unrelated to either fruit.\"}]}",
+  "usage": {
+    "completion_tokens": 3041,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2197,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 691,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3732
+  }
+}

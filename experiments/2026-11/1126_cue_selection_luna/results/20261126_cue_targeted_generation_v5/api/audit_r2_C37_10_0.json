@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C37_4_situation_0_2",
+        "naturalness": 5,
+        "reason": "A plausible hinge repair, explicitly involving screws and nuts that commonly call for the respective tools.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 3
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C37_4_situation_0_3",
+        "naturalness": 5,
+        "reason": "Natural general workshop context; panels, brackets, and fittings do not point strongly to either specific tool.",
+        "style": "pass",
+        "x_related": 1,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C37_4_situation_0_4",
+        "naturalness": 5,
+        "reason": "A roadside repair is plausible; a battery clamp strongly suggests a wrench, while the panel could involve screws or other fasteners.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 3
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C37_4_situation_0_5",
+        "naturalness": 5,
+        "reason": "Turning small screws directly fits a screwdriver, and tightening connecting hardware can fit a wrench.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 3
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C37_4_situation_0_6",
+        "naturalness": 5,
+        "reason": "Securing a switch plate commonly involves screws, while nuts on a mounting bracket plausibly call for a wrench.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 3
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C37_4_situation_0_7",
+        "naturalness": 5,
+        "reason": "Bicycle accessory brackets may use screws, and tightening frame bolts strongly suggests a wrench.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 3
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C37_4_action_0_0",
+        "naturalness": 5,
+        "reason": "The action fits furniture assembly, but generic threaded fasteners could be turned by either tool.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C37_4_action_0_1",
+        "naturalness": 4,
+        "reason": "Plausible repair action, though a generic fastener and hinge do not indicate which tool is used; the thread-damage detail is somewhat awkward.",
+        "style": "pass",
+        "x_related": 1,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C37_4_action_0_2",
+        "naturalness": 5,
+        "reason": "A tool can tighten a bracket this way, but no fastener type distinguishes a screwdriver from a wrench.",
+        "style": "pass",
+        "x_related": 1,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C37_4_action_0_3",
+        "naturalness": 5,
+        "reason": "A replaceable tip seating into a recessed fastener strongly and distinctively suggests a screwdriver.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1351,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 656,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 678,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2029
+  }
+}

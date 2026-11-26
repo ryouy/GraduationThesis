@@ -1,0 +1,28 @@
+{
+  "data": {
+    "cues": [
+      "A baker kneads flour, water, yeast, and salt until the dough becomes smooth and elastic.",
+      "The gardener waters seedlings each morning, checking the soil before adding more moisture.",
+      "A tailor measures the fabric carefully before cutting pieces for a fitted jacket.",
+      "The chef simmers lentils with onions and spices until they become tender.",
+      "During rehearsal, the choir practices difficult passages slowly before singing the full arrangement."
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 330,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 233,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1397,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1394,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1727
+  }
+}

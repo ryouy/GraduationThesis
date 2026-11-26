@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "fail",
+        "fact": "pass",
+        "id": "add_r2_C37_0_action_0_6",
+        "naturalness": 4,
+        "reason": "The action is plausible and clearly describes turning screws, but “driver” is a common shortened name for a screwdriver.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C37_0_action_0_7",
+        "naturalness": 4,
+        "reason": "Changing to a smaller tip to tighten eyeglass screws is plausible and fits the action style; no tool name or obvious alias appears.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C37_4_function_0_0",
+        "naturalness": 4,
+        "reason": "Securing a cabinet pull is a plausible function for tightening threaded hardware, though the cue does not specify a tool.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C37_4_function_0_1",
+        "naturalness": 5,
+        "reason": "Evenly tightening fasteners can help furniture joints resist movement; the function is shared by several hand tools.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C37_4_function_0_2",
+        "naturalness": 5,
+        "reason": "The repair-kit function is plausible but only broadly connected to either tool.",
+        "style": "pass",
+        "x_related": 1,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C37_4_function_0_3",
+        "naturalness": 5,
+        "reason": "Tightening a mounting bracket can keep an appliance stable, but the fasteners and tool are unspecified.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C37_4_function_0_4",
+        "naturalness": 4,
+        "reason": "Tightening bicycle fittings is plausible upkeep, but the cue is compatible with either tool and other tools as well.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C37_4_function_0_5",
+        "naturalness": 5,
+        "reason": "Snugging metal fasteners during toy assembly is plausible, with a somewhat stronger association to screws than nuts or bolts.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C37_4_function_0_6",
+        "naturalness": 4,
+        "reason": "Securing machinery guards with threaded hardware is plausible, but the cue does not identify the fastener or tool.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C37_4_function_0_7",
+        "naturalness": 4,
+        "reason": "Tightening bolts is a strong fit for a wrench, while the smaller threaded fasteners also leave a plausible connection to a screwdriver.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 3
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 2093,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1379,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 642,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2735
+  }
+}

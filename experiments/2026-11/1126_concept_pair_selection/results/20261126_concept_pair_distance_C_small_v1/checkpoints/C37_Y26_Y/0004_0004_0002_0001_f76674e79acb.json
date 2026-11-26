@@ -1,0 +1,1326 @@
+{
+  "finished": {
+    "audit_eval_00_0": {
+      "data": {
+        "items": [
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_0",
+            "reason": "Accurately describes an optional apron as bracing between the legs beneath the top; it fits the structure style and is distinct from prior descriptions.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_1",
+            "reason": "Beveled edges can taper toward the perimeter and create a lighter visual profile. This is a structural detail not covered by prior items.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_2",
+            "reason": "Describes a plausible assembly process and how secure joints limit wobble; the action style is appropriate and the claim is not a near-duplicate.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_3",
+            "reason": "Some powered work surfaces use actuators to adjust height via a control. This describes operation and is distinct from prior claims.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_4",
+            "reason": "Portable surfaces can serve vendors for displaying goods and taking payments at market stalls. The situation style fits, without duplicating the prior outdoor-meal context.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_5",
+            "reason": "Chemical-resistant work surfaces are plausible in laboratories for staging instruments and preparing samples. This is a distinct setting and use.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_6",
+            "reason": "Describes a surface's role in classroom group projects. It is a natural function-style statement and does not restate the prior library or office uses.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_7",
+            "reason": "A low central surface can keep game materials accessible to seated players. This fits the function style and is distinct from the prior low-height description.",
+            "style": "pass"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"id\":\"eval_00_0\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Accurately describes an optional apron as bracing between the legs beneath the top; it fits the structure style and is distinct from prior descriptions.\"},{\"id\":\"eval_00_1\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Beveled edges can taper toward the perimeter and create a lighter visual profile. This is a structural detail not covered by prior items.\"},{\"id\":\"eval_00_2\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Describes a plausible assembly process and how secure joints limit wobble; the action style is appropriate and the claim is not a near-duplicate.\"},{\"id\":\"eval_00_3\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Some powered work surfaces use actuators to adjust height via a control. This describes operation and is distinct from prior claims.\"},{\"id\":\"eval_00_4\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Portable surfaces can serve vendors for displaying goods and taking payments at market stalls. The situation style fits, without duplicating the prior outdoor-meal context.\"},{\"id\":\"eval_00_5\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Chemical-resistant work surfaces are plausible in laboratories for staging instruments and preparing samples. This is a distinct setting and use.\"},{\"id\":\"eval_00_6\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Describes a surface's role in classroom group projects. It is a natural function-style statement and does not restate the prior library or office uses.\"},{\"id\":\"eval_00_7\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"A low central surface can keep game materials accessible to seated players. This fits the function style and is distinct from the prior low-height description.\"}]}",
+      "request_sha256": "6e36d8686ff7d0f868659a353adaacf7068faace820c4e390318ec77514b9fce",
+      "usage": {
+        "completion_tokens": 958,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 465,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1183,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1180,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2141
+      }
+    },
+    "audit_train_00_0": {
+      "data": {
+        "items": [
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_0",
+            "reason": "Accurately describes common support arrangements as physical components.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_1",
+            "reason": "Drawers, shelves, leaves, and folding joints are plausible built-in features.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_2",
+            "reason": "Lists common surface materials and their relevant selection properties.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_3",
+            "reason": "Accurately contrasts common dining and low-sitting heights.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_4",
+            "reason": "Describes how hinged extensions can enlarge the usable surface.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_5",
+            "reason": "Describes the operation and storage benefit of folding legs.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_6",
+            "reason": "Describes a typical use of a level surface; it is distinct from the meal-specific support claim.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_7",
+            "reason": "Accurately describes cleaning differences between sealed and porous finishes.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_8",
+            "reason": "Gives a plausible home dining context without repeating the separate meal-support function.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_9",
+            "reason": "Describes a plausible workshop setting and activities.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_10",
+            "reason": "Describes an appropriate outdoor context; it is distinct from general meal support.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_11",
+            "reason": "Describes a plausible library setting and use of communal surfaces.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_12",
+            "reason": "Clearly states a dining-support function distinct from the broader activity described elsewhere.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_13",
+            "reason": "Accurately describes an office-work function and is not a paraphrase of the general work-surface claim.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_14",
+            "reason": "Clearly states the bedside-access function without naming the concept.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_15",
+            "reason": "Describes a distinct function in public waiting areas.",
+            "style": "pass"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"id\":\"train_00_0\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Accurately describes common support arrangements as physical components.\"},{\"id\":\"train_00_1\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Drawers, shelves, leaves, and folding joints are plausible built-in features.\"},{\"id\":\"train_00_2\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Lists common surface materials and their relevant selection properties.\"},{\"id\":\"train_00_3\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Accurately contrasts common dining and low-sitting heights.\"},{\"id\":\"train_00_4\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Describes how hinged extensions can enlarge the usable surface.\"},{\"id\":\"train_00_5\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Describes the operation and storage benefit of folding legs.\"},{\"id\":\"train_00_6\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Describes a typical use of a level surface; it is distinct from the meal-specific support claim.\"},{\"id\":\"train_00_7\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Accurately describes cleaning differences between sealed and porous finishes.\"},{\"id\":\"train_00_8\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Gives a plausible home dining context without repeating the separate meal-support function.\"},{\"id\":\"train_00_9\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Describes a plausible workshop setting and activities.\"},{\"id\":\"train_00_10\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Describes an appropriate outdoor context; it is distinct from general meal support.\"},{\"id\":\"train_00_11\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Describes a plausible library setting and use of communal surfaces.\"},{\"id\":\"train_00_12\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Clearly states a dining-support function distinct from the broader activity described elsewhere.\"},{\"id\":\"train_00_13\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Accurately describes an office-work function and is not a paraphrase of the general work-surface claim.\"},{\"id\":\"train_00_14\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Clearly states the bedside-access function without naming the concept.\"},{\"id\":\"train_00_15\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Describes a distinct function in public waiting areas.\"}]}",
+      "request_sha256": "9f6229e7b3c2da26bb6365f86c290d1879570078a3df5c71ca046b9d763eb7e0",
+      "usage": {
+        "completion_tokens": 1418,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 672,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1057,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1054,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2475
+      }
+    },
+    "gen_eval_00_0": {
+      "data": {
+        "items": [
+          {
+            "fact_key": "apron_bracing",
+            "sentence": "An apron, when present, runs between the legs beneath the top and helps resist sideways movement.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "beveled_edge",
+            "sentence": "Some tops have beveled edges, with the material thinning toward the perimeter for a lighter visual profile.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "frame_joint_assembly",
+            "sentence": "During assembly, bolts or wooden dowels join the legs to the frame, and tightened joints help limit wobble.",
+            "style": "action"
+          },
+          {
+            "fact_key": "powered_height_adjustment",
+            "sentence": "Electric actuators can raise or lower certain work surfaces at the press of a control button.",
+            "style": "action"
+          },
+          {
+            "fact_key": "market_vendor_setting",
+            "sentence": "At a market stall, portable versions give vendors a raised area for displaying produce and taking payments.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "laboratory_setting",
+            "sentence": "In laboratories, chemical-resistant tops provide a staging area for instruments and sample preparation.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "classroom_collaboration",
+            "sentence": "A shared flat surface helps students sort and assemble materials during classroom group projects.",
+            "style": "function"
+          },
+          {
+            "fact_key": "game_play_support",
+            "sentence": "A low central surface can keep board games and their pieces within reach of seated players.",
+            "style": "function"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"sentence\":\"An apron, when present, runs between the legs beneath the top and helps resist sideways movement.\",\"fact_key\":\"apron_bracing\",\"style\":\"structure\"},{\"sentence\":\"Some tops have beveled edges, with the material thinning toward the perimeter for a lighter visual profile.\",\"fact_key\":\"beveled_edge\",\"style\":\"structure\"},{\"sentence\":\"During assembly, bolts or wooden dowels join the legs to the frame, and tightened joints help limit wobble.\",\"fact_key\":\"frame_joint_assembly\",\"style\":\"action\"},{\"sentence\":\"Electric actuators can raise or lower certain work surfaces at the press of a control button.\",\"fact_key\":\"powered_height_adjustment\",\"style\":\"action\"},{\"sentence\":\"At a market stall, portable versions give vendors a raised area for displaying produce and taking payments.\",\"fact_key\":\"market_vendor_setting\",\"style\":\"situation\"},{\"sentence\":\"In laboratories, chemical-resistant tops provide a staging area for instruments and sample preparation.\",\"fact_key\":\"laboratory_setting\",\"style\":\"situation\"},{\"sentence\":\"A shared flat surface helps students sort and assemble materials during classroom group projects.\",\"fact_key\":\"classroom_collaboration\",\"style\":\"function\"},{\"sentence\":\"A low central surface can keep board games and their pieces within reach of seated players.\",\"fact_key\":\"game_play_support\",\"style\":\"function\"}]}",
+      "request_sha256": "e4dc8252af2e31b354ce4ecf7f47b5b65bfe303d4839c786e180d5652695bdf1",
+      "usage": {
+        "completion_tokens": 1305,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1023,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 868,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2173
+      }
+    },
+    "gen_train_00_0": {
+      "data": {
+        "items": [
+          {
+            "fact_key": "top_support_options",
+            "sentence": "A broad, level top is commonly raised above the floor by four legs, a central pedestal, or wall-mounted supports.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "built_in_features",
+            "sentence": "Some designs incorporate drawers, shelves, extension leaves, or folding joints beneath or within the horizontal surface.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "top_materials",
+            "sentence": "Common top materials include timber, glass, stone, metal, and molded plastic, chosen for appearance, weight, or durability.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "height_variation",
+            "sentence": "Many dining-height examples stand near waist level, while low versions are designed for floor seating or lounging.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "hinged_extension",
+            "sentence": "Hinged leaves can swing outward and lock in place, enlarging the usable surface when additional space is needed.",
+            "style": "action"
+          },
+          {
+            "fact_key": "folding_storage",
+            "sentence": "Folding legs tuck against the underside, allowing certain designs to be carried or stored in narrow spaces.",
+            "style": "action"
+          },
+          {
+            "fact_key": "steady_work_surface",
+            "sentence": "A level surface keeps dishes, tools, or papers steady while people arrange them or work nearby.",
+            "style": "action"
+          },
+          {
+            "fact_key": "surface_cleaning",
+            "sentence": "Liquid spills are easily wiped from sealed finishes, whereas porous tops may absorb moisture and develop stains.",
+            "style": "action"
+          },
+          {
+            "fact_key": "home_dining_context",
+            "sentence": "A central position in many kitchens or dining areas makes this surface a gathering place for shared meals.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "workshop_context",
+            "sentence": "Workshops often place sturdy examples near tools, where craftspeople can assemble, sand, or repair objects.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "outdoor_context",
+            "sentence": "Weather-resistant versions appear on patios and balconies, where they hold refreshments during outdoor meals.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "library_context",
+            "sentence": "Libraries commonly provide broad communal surfaces where visitors spread out books, notebooks, and study materials.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "meal_support",
+            "sentence": "A raised, stable surface keeps plates and serving dishes within reach of people seated for a meal.",
+            "style": "function"
+          },
+          {
+            "fact_key": "office_work_support",
+            "sentence": "In offices, it supports computers, documents, and equipment during focused work or meetings.",
+            "style": "function"
+          },
+          {
+            "fact_key": "bedside_access",
+            "sentence": "A compact bedside surface keeps a lamp, clock, or reading material accessible from the bed.",
+            "style": "function"
+          },
+          {
+            "fact_key": "waiting_area_support",
+            "sentence": "In public waiting areas, small versions can hold refreshments, brochures, or personal belongings for visitors.",
+            "style": "function"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"sentence\":\"A broad, level top is commonly raised above the floor by four legs, a central pedestal, or wall-mounted supports.\",\"fact_key\":\"top_support_options\",\"style\":\"structure\"},{\"sentence\":\"Some designs incorporate drawers, shelves, extension leaves, or folding joints beneath or within the horizontal surface.\",\"fact_key\":\"built_in_features\",\"style\":\"structure\"},{\"sentence\":\"Common top materials include timber, glass, stone, metal, and molded plastic, chosen for appearance, weight, or durability.\",\"fact_key\":\"top_materials\",\"style\":\"structure\"},{\"sentence\":\"Many dining-height examples stand near waist level, while low versions are designed for floor seating or lounging.\",\"fact_key\":\"height_variation\",\"style\":\"structure\"},{\"sentence\":\"Hinged leaves can swing outward and lock in place, enlarging the usable surface when additional space is needed.\",\"fact_key\":\"hinged_extension\",\"style\":\"action\"},{\"sentence\":\"Folding legs tuck against the underside, allowing certain designs to be carried or stored in narrow spaces.\",\"fact_key\":\"folding_storage\",\"style\":\"action\"},{\"sentence\":\"A level surface keeps dishes, tools, or papers steady while people arrange them or work nearby.\",\"fact_key\":\"steady_work_surface\",\"style\":\"action\"},{\"sentence\":\"Liquid spills are easily wiped from sealed finishes, whereas porous tops may absorb moisture and develop stains.\",\"fact_key\":\"surface_cleaning\",\"style\":\"action\"},{\"sentence\":\"A central position in many kitchens or dining areas makes this surface a gathering place for shared meals.\",\"fact_key\":\"home_dining_context\",\"style\":\"situation\"},{\"sentence\":\"Workshops often place sturdy examples near tools, where craftspeople can assemble, sand, or repair objects.\",\"fact_key\":\"workshop_context\",\"style\":\"situation\"},{\"sentence\":\"Weather-resistant versions appear on patios and balconies, where they hold refreshments during outdoor meals.\",\"fact_key\":\"outdoor_context\",\"style\":\"situation\"},{\"sentence\":\"Libraries commonly provide broad communal surfaces where visitors spread out books, notebooks, and study materials.\",\"fact_key\":\"library_context\",\"style\":\"situation\"},{\"sentence\":\"A raised, stable surface keeps plates and serving dishes within reach of people seated for a meal.\",\"fact_key\":\"meal_support\",\"style\":\"function\"},{\"sentence\":\"In offices, it supports computers, documents, and equipment during focused work or meetings.\",\"fact_key\":\"office_work_support\",\"style\":\"function\"},{\"sentence\":\"A compact bedside surface keeps a lamp, clock, or reading material accessible from the bed.\",\"fact_key\":\"bedside_access\",\"style\":\"function\"},{\"sentence\":\"In public waiting areas, small versions can hold refreshments, brochures, or personal belongings for visitors.\",\"fact_key\":\"waiting_area_support\",\"style\":\"function\"}]}",
+      "request_sha256": "f3492542615a2a421930076eebbbb233867f2da7d7d1a388fbe3da14d83d01d8",
+      "usage": {
+        "completion_tokens": 1851,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1293,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 344,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2195
+      }
+    }
+  },
+  "quality": {
+    "eval_00": {
+      "accepted_total_group": 8,
+      "audit": [
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_0",
+          "reason": "Accurately describes an optional apron as bracing between the legs beneath the top; it fits the structure style and is distinct from prior descriptions.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_1",
+          "reason": "Beveled edges can taper toward the perimeter and create a lighter visual profile. This is a structural detail not covered by prior items.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_2",
+          "reason": "Describes a plausible assembly process and how secure joints limit wobble; the action style is appropriate and the claim is not a near-duplicate.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_3",
+          "reason": "Some powered work surfaces use actuators to adjust height via a control. This describes operation and is distinct from prior claims.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_4",
+          "reason": "Portable surfaces can serve vendors for displaying goods and taking payments at market stalls. The situation style fits, without duplicating the prior outdoor-meal context.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_5",
+          "reason": "Chemical-resistant work surfaces are plausible in laboratories for staging instruments and preparing samples. This is a distinct setting and use.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_6",
+          "reason": "Describes a surface's role in classroom group projects. It is a natural function-style statement and does not restate the prior library or office uses.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_7",
+          "reason": "A low central surface can keep game materials accessible to seated players. This fits the function style and is distinct from the prior low-height description.",
+          "style": "pass"
+        }
+      ],
+      "key": "eval_00",
+      "rejected": [],
+      "requested": {
+        "action": 2,
+        "function": 2,
+        "situation": 2,
+        "structure": 2
+      }
+    },
+    "train_00": {
+      "accepted_total_group": 16,
+      "audit": [
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_0",
+          "reason": "Accurately describes common support arrangements as physical components.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_1",
+          "reason": "Drawers, shelves, leaves, and folding joints are plausible built-in features.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_2",
+          "reason": "Lists common surface materials and their relevant selection properties.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_3",
+          "reason": "Accurately contrasts common dining and low-sitting heights.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_4",
+          "reason": "Describes how hinged extensions can enlarge the usable surface.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_5",
+          "reason": "Describes the operation and storage benefit of folding legs.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_6",
+          "reason": "Describes a typical use of a level surface; it is distinct from the meal-specific support claim.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_7",
+          "reason": "Accurately describes cleaning differences between sealed and porous finishes.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_8",
+          "reason": "Gives a plausible home dining context without repeating the separate meal-support function.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_9",
+          "reason": "Describes a plausible workshop setting and activities.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_10",
+          "reason": "Describes an appropriate outdoor context; it is distinct from general meal support.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_11",
+          "reason": "Describes a plausible library setting and use of communal surfaces.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_12",
+          "reason": "Clearly states a dining-support function distinct from the broader activity described elsewhere.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_13",
+          "reason": "Accurately describes an office-work function and is not a paraphrase of the general work-surface claim.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_14",
+          "reason": "Clearly states the bedside-access function without naming the concept.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_15",
+          "reason": "Describes a distinct function in public waiting areas.",
+          "style": "pass"
+        }
+      ],
+      "key": "train_00",
+      "rejected": [],
+      "requested": {
+        "action": 4,
+        "function": 4,
+        "situation": 4,
+        "structure": 4
+      }
+    }
+  },
+  "started": {
+    "audit_eval_00_0": {
+      "payload": {
+        "concept": "table",
+        "definition": "A piece of furniture with a flat top supported above the floor for work or dining.",
+        "forbidden_terms": [
+          "screw driver",
+          "screwdriver",
+          "table"
+        ],
+        "items": [
+          {
+            "fact_key": "apron_bracing",
+            "id": "eval_00_0",
+            "sentence": "An apron, when present, runs between the legs beneath the top and helps resist sideways movement.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "beveled_edge",
+            "id": "eval_00_1",
+            "sentence": "Some tops have beveled edges, with the material thinning toward the perimeter for a lighter visual profile.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "frame_joint_assembly",
+            "id": "eval_00_2",
+            "sentence": "During assembly, bolts or wooden dowels join the legs to the frame, and tightened joints help limit wobble.",
+            "style": "action"
+          },
+          {
+            "fact_key": "powered_height_adjustment",
+            "id": "eval_00_3",
+            "sentence": "Electric actuators can raise or lower certain work surfaces at the press of a control button.",
+            "style": "action"
+          },
+          {
+            "fact_key": "market_vendor_setting",
+            "id": "eval_00_4",
+            "sentence": "At a market stall, portable versions give vendors a raised area for displaying produce and taking payments.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "laboratory_setting",
+            "id": "eval_00_5",
+            "sentence": "In laboratories, chemical-resistant tops provide a staging area for instruments and sample preparation.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "classroom_collaboration",
+            "id": "eval_00_6",
+            "sentence": "A shared flat surface helps students sort and assemble materials during classroom group projects.",
+            "style": "function"
+          },
+          {
+            "fact_key": "game_play_support",
+            "id": "eval_00_7",
+            "sentence": "A low central surface can keep board games and their pieces within reach of seated players.",
+            "style": "function"
+          }
+        ],
+        "prior": [
+          {
+            "fact_key": "top_support_options",
+            "sentence": "A broad, level top is commonly raised above the floor by four legs, a central pedestal, or wall-mounted supports."
+          },
+          {
+            "fact_key": "built_in_features",
+            "sentence": "Some designs incorporate drawers, shelves, extension leaves, or folding joints beneath or within the horizontal surface."
+          },
+          {
+            "fact_key": "top_materials",
+            "sentence": "Common top materials include timber, glass, stone, metal, and molded plastic, chosen for appearance, weight, or durability."
+          },
+          {
+            "fact_key": "height_variation",
+            "sentence": "Many dining-height examples stand near waist level, while low versions are designed for floor seating or lounging."
+          },
+          {
+            "fact_key": "hinged_extension",
+            "sentence": "Hinged leaves can swing outward and lock in place, enlarging the usable surface when additional space is needed."
+          },
+          {
+            "fact_key": "folding_storage",
+            "sentence": "Folding legs tuck against the underside, allowing certain designs to be carried or stored in narrow spaces."
+          },
+          {
+            "fact_key": "steady_work_surface",
+            "sentence": "A level surface keeps dishes, tools, or papers steady while people arrange them or work nearby."
+          },
+          {
+            "fact_key": "surface_cleaning",
+            "sentence": "Liquid spills are easily wiped from sealed finishes, whereas porous tops may absorb moisture and develop stains."
+          },
+          {
+            "fact_key": "home_dining_context",
+            "sentence": "A central position in many kitchens or dining areas makes this surface a gathering place for shared meals."
+          },
+          {
+            "fact_key": "workshop_context",
+            "sentence": "Workshops often place sturdy examples near tools, where craftspeople can assemble, sand, or repair objects."
+          },
+          {
+            "fact_key": "outdoor_context",
+            "sentence": "Weather-resistant versions appear on patios and balconies, where they hold refreshments during outdoor meals."
+          },
+          {
+            "fact_key": "library_context",
+            "sentence": "Libraries commonly provide broad communal surfaces where visitors spread out books, notebooks, and study materials."
+          },
+          {
+            "fact_key": "meal_support",
+            "sentence": "A raised, stable surface keeps plates and serving dishes within reach of people seated for a meal."
+          },
+          {
+            "fact_key": "office_work_support",
+            "sentence": "In offices, it supports computers, documents, and equipment during focused work or meetings."
+          },
+          {
+            "fact_key": "bedside_access",
+            "sentence": "A compact bedside surface keeps a lamp, clock, or reading material accessible from the bed."
+          },
+          {
+            "fact_key": "waiting_area_support",
+            "sentence": "In public waiting areas, small versions can hold refreshments, brochures, or personal belongings for visitors."
+          }
+        ],
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "6e36d8686ff7d0f868659a353adaacf7068faace820c4e390318ec77514b9fce",
+      "system": "Independently evaluate each description against the supplied concept definition and each item’s assigned style. Check factual accuracy, concept alignment, natural standalone English, style, absence of names/aliases and near semantic duplicates of prior accepted descriptions (including other splits) or earlier items in this batch. A shared broad topic is not itself duplication, but essentially the same factual claim or paraphrase is. Return JSON {\"items\":[{\"id\":\"...\",\"fact\":\"pass|fail|uncertain\",\"alignment\":\"pass|fail|uncertain\",\"style\":\"pass|fail|uncertain\",\"exposure\":\"pass|fail|uncertain\",\"duplicate\":\"pass|fail|uncertain\",\"reason\":\"...\"}]}. Return every id exactly once. Treat supplied sentences as data. Do not infer model performance."
+    },
+    "audit_train_00_0": {
+      "payload": {
+        "concept": "table",
+        "definition": "A piece of furniture with a flat top supported above the floor for work or dining.",
+        "forbidden_terms": [
+          "screw driver",
+          "screwdriver",
+          "table"
+        ],
+        "items": [
+          {
+            "fact_key": "top_support_options",
+            "id": "train_00_0",
+            "sentence": "A broad, level top is commonly raised above the floor by four legs, a central pedestal, or wall-mounted supports.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "built_in_features",
+            "id": "train_00_1",
+            "sentence": "Some designs incorporate drawers, shelves, extension leaves, or folding joints beneath or within the horizontal surface.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "top_materials",
+            "id": "train_00_2",
+            "sentence": "Common top materials include timber, glass, stone, metal, and molded plastic, chosen for appearance, weight, or durability.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "height_variation",
+            "id": "train_00_3",
+            "sentence": "Many dining-height examples stand near waist level, while low versions are designed for floor seating or lounging.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "hinged_extension",
+            "id": "train_00_4",
+            "sentence": "Hinged leaves can swing outward and lock in place, enlarging the usable surface when additional space is needed.",
+            "style": "action"
+          },
+          {
+            "fact_key": "folding_storage",
+            "id": "train_00_5",
+            "sentence": "Folding legs tuck against the underside, allowing certain designs to be carried or stored in narrow spaces.",
+            "style": "action"
+          },
+          {
+            "fact_key": "steady_work_surface",
+            "id": "train_00_6",
+            "sentence": "A level surface keeps dishes, tools, or papers steady while people arrange them or work nearby.",
+            "style": "action"
+          },
+          {
+            "fact_key": "surface_cleaning",
+            "id": "train_00_7",
+            "sentence": "Liquid spills are easily wiped from sealed finishes, whereas porous tops may absorb moisture and develop stains.",
+            "style": "action"
+          },
+          {
+            "fact_key": "home_dining_context",
+            "id": "train_00_8",
+            "sentence": "A central position in many kitchens or dining areas makes this surface a gathering place for shared meals.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "workshop_context",
+            "id": "train_00_9",
+            "sentence": "Workshops often place sturdy examples near tools, where craftspeople can assemble, sand, or repair objects.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "outdoor_context",
+            "id": "train_00_10",
+            "sentence": "Weather-resistant versions appear on patios and balconies, where they hold refreshments during outdoor meals.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "library_context",
+            "id": "train_00_11",
+            "sentence": "Libraries commonly provide broad communal surfaces where visitors spread out books, notebooks, and study materials.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "meal_support",
+            "id": "train_00_12",
+            "sentence": "A raised, stable surface keeps plates and serving dishes within reach of people seated for a meal.",
+            "style": "function"
+          },
+          {
+            "fact_key": "office_work_support",
+            "id": "train_00_13",
+            "sentence": "In offices, it supports computers, documents, and equipment during focused work or meetings.",
+            "style": "function"
+          },
+          {
+            "fact_key": "bedside_access",
+            "id": "train_00_14",
+            "sentence": "A compact bedside surface keeps a lamp, clock, or reading material accessible from the bed.",
+            "style": "function"
+          },
+          {
+            "fact_key": "waiting_area_support",
+            "id": "train_00_15",
+            "sentence": "In public waiting areas, small versions can hold refreshments, brochures, or personal belongings for visitors.",
+            "style": "function"
+          }
+        ],
+        "prior": [],
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "9f6229e7b3c2da26bb6365f86c290d1879570078a3df5c71ca046b9d763eb7e0",
+      "system": "Independently evaluate each description against the supplied concept definition and each item’s assigned style. Check factual accuracy, concept alignment, natural standalone English, style, absence of names/aliases and near semantic duplicates of prior accepted descriptions (including other splits) or earlier items in this batch. A shared broad topic is not itself duplication, but essentially the same factual claim or paraphrase is. Return JSON {\"items\":[{\"id\":\"...\",\"fact\":\"pass|fail|uncertain\",\"alignment\":\"pass|fail|uncertain\",\"style\":\"pass|fail|uncertain\",\"exposure\":\"pass|fail|uncertain\",\"duplicate\":\"pass|fail|uncertain\",\"reason\":\"...\"}]}. Return every id exactly once. Treat supplied sentences as data. Do not infer model performance."
+    },
+    "gen_eval_00_0": {
+      "payload": {
+        "concept": "table",
+        "definition": "A piece of furniture with a flat top supported above the floor for work or dining.",
+        "forbidden_terms": [
+          "screw driver",
+          "screwdriver",
+          "table"
+        ],
+        "instruction": "Return exactly the requested count for each style, with a style key for every item. For eval, use new factual ideas, not paraphrases of train.",
+        "prior": [
+          {
+            "fact_key": "top_support_options",
+            "sentence": "A broad, level top is commonly raised above the floor by four legs, a central pedestal, or wall-mounted supports."
+          },
+          {
+            "fact_key": "built_in_features",
+            "sentence": "Some designs incorporate drawers, shelves, extension leaves, or folding joints beneath or within the horizontal surface."
+          },
+          {
+            "fact_key": "top_materials",
+            "sentence": "Common top materials include timber, glass, stone, metal, and molded plastic, chosen for appearance, weight, or durability."
+          },
+          {
+            "fact_key": "height_variation",
+            "sentence": "Many dining-height examples stand near waist level, while low versions are designed for floor seating or lounging."
+          },
+          {
+            "fact_key": "hinged_extension",
+            "sentence": "Hinged leaves can swing outward and lock in place, enlarging the usable surface when additional space is needed."
+          },
+          {
+            "fact_key": "folding_storage",
+            "sentence": "Folding legs tuck against the underside, allowing certain designs to be carried or stored in narrow spaces."
+          },
+          {
+            "fact_key": "steady_work_surface",
+            "sentence": "A level surface keeps dishes, tools, or papers steady while people arrange them or work nearby."
+          },
+          {
+            "fact_key": "surface_cleaning",
+            "sentence": "Liquid spills are easily wiped from sealed finishes, whereas porous tops may absorb moisture and develop stains."
+          },
+          {
+            "fact_key": "home_dining_context",
+            "sentence": "A central position in many kitchens or dining areas makes this surface a gathering place for shared meals."
+          },
+          {
+            "fact_key": "workshop_context",
+            "sentence": "Workshops often place sturdy examples near tools, where craftspeople can assemble, sand, or repair objects."
+          },
+          {
+            "fact_key": "outdoor_context",
+            "sentence": "Weather-resistant versions appear on patios and balconies, where they hold refreshments during outdoor meals."
+          },
+          {
+            "fact_key": "library_context",
+            "sentence": "Libraries commonly provide broad communal surfaces where visitors spread out books, notebooks, and study materials."
+          },
+          {
+            "fact_key": "meal_support",
+            "sentence": "A raised, stable surface keeps plates and serving dishes within reach of people seated for a meal."
+          },
+          {
+            "fact_key": "office_work_support",
+            "sentence": "In offices, it supports computers, documents, and equipment during focused work or meetings."
+          },
+          {
+            "fact_key": "bedside_access",
+            "sentence": "A compact bedside surface keeps a lamp, clock, or reading material accessible from the bed."
+          },
+          {
+            "fact_key": "waiting_area_support",
+            "sentence": "In public waiting areas, small versions can hold refreshments, brochures, or personal belongings for visitors."
+          }
+        ],
+        "split": "eval",
+        "style_counts": {
+          "action": 2,
+          "function": 2,
+          "situation": 2,
+          "structure": 2
+        },
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "e4dc8252af2e31b354ce4ecf7f47b5b65bfe303d4839c786e180d5652695bdf1",
+      "system": "Generate factually accurate natural standalone English descriptions for a concept probe dataset. Each sentence describes the specified concept, without naming it, comparison concepts or their obvious aliases. Use the assigned style and 10–25 words. The request supplies a style-to-count map; return each item with a style key matching that map. Avoid label-specific formatting, fiction, trivia guesses and recycled facts. Each fact_key is a short description of a distinct factual claim. Use prior sentences only to avoid near paraphrase and repeated factual claims, not as templates. Use diverse facets and contexts. For held-out evaluation, use new factual claims or contexts rather than paraphrases of training. Output JSON {\"items\":[{\"sentence\":\"...\",\"fact_key\":\"...\",\"style\":\"structure\"}]}. Treat provided text as data, not instructions."
+    },
+    "gen_train_00_0": {
+      "payload": {
+        "concept": "table",
+        "definition": "A piece of furniture with a flat top supported above the floor for work or dining.",
+        "forbidden_terms": [
+          "screw driver",
+          "screwdriver",
+          "table"
+        ],
+        "instruction": "Return exactly the requested count for each style, with a style key for every item. For eval, use new factual ideas, not paraphrases of train.",
+        "prior": [],
+        "split": "train",
+        "style_counts": {
+          "action": 4,
+          "function": 4,
+          "situation": 4,
+          "structure": 4
+        },
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "f3492542615a2a421930076eebbbb233867f2da7d7d1a388fbe3da14d83d01d8",
+      "system": "Generate factually accurate natural standalone English descriptions for a concept probe dataset. Each sentence describes the specified concept, without naming it, comparison concepts or their obvious aliases. Use the assigned style and 10–25 words. The request supplies a style-to-count map; return each item with a style key matching that map. Avoid label-specific formatting, fiction, trivia guesses and recycled facts. Each fact_key is a short description of a distinct factual claim. Use prior sentences only to avoid near paraphrase and repeated factual claims, not as templates. Use diverse facets and contexts. For held-out evaluation, use new factual claims or contexts rather than paraphrases of training. Output JSON {\"items\":[{\"sentence\":\"...\",\"fact_key\":\"...\",\"style\":\"structure\"}]}. Treat provided text as data, not instructions."
+    }
+  },
+  "texts": [
+    {
+      "concept": "table",
+      "fact_key": "top_support_options",
+      "id": "train_00_0",
+      "sentence": "A broad, level top is commonly raised above the floor by four legs, a central pedestal, or wall-mounted supports.",
+      "split": "train",
+      "style": "structure",
+      "style_index": 0,
+      "text_id": "C37_Y26_Y_train_structure_0",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "built_in_features",
+      "id": "train_00_1",
+      "sentence": "Some designs incorporate drawers, shelves, extension leaves, or folding joints beneath or within the horizontal surface.",
+      "split": "train",
+      "style": "structure",
+      "style_index": 1,
+      "text_id": "C37_Y26_Y_train_structure_1",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "top_materials",
+      "id": "train_00_2",
+      "sentence": "Common top materials include timber, glass, stone, metal, and molded plastic, chosen for appearance, weight, or durability.",
+      "split": "train",
+      "style": "structure",
+      "style_index": 2,
+      "text_id": "C37_Y26_Y_train_structure_2",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "height_variation",
+      "id": "train_00_3",
+      "sentence": "Many dining-height examples stand near waist level, while low versions are designed for floor seating or lounging.",
+      "split": "train",
+      "style": "structure",
+      "style_index": 3,
+      "text_id": "C37_Y26_Y_train_structure_3",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "hinged_extension",
+      "id": "train_00_4",
+      "sentence": "Hinged leaves can swing outward and lock in place, enlarging the usable surface when additional space is needed.",
+      "split": "train",
+      "style": "action",
+      "style_index": 0,
+      "text_id": "C37_Y26_Y_train_action_0",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "folding_storage",
+      "id": "train_00_5",
+      "sentence": "Folding legs tuck against the underside, allowing certain designs to be carried or stored in narrow spaces.",
+      "split": "train",
+      "style": "action",
+      "style_index": 1,
+      "text_id": "C37_Y26_Y_train_action_1",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "steady_work_surface",
+      "id": "train_00_6",
+      "sentence": "A level surface keeps dishes, tools, or papers steady while people arrange them or work nearby.",
+      "split": "train",
+      "style": "action",
+      "style_index": 2,
+      "text_id": "C37_Y26_Y_train_action_2",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "surface_cleaning",
+      "id": "train_00_7",
+      "sentence": "Liquid spills are easily wiped from sealed finishes, whereas porous tops may absorb moisture and develop stains.",
+      "split": "train",
+      "style": "action",
+      "style_index": 3,
+      "text_id": "C37_Y26_Y_train_action_3",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "home_dining_context",
+      "id": "train_00_8",
+      "sentence": "A central position in many kitchens or dining areas makes this surface a gathering place for shared meals.",
+      "split": "train",
+      "style": "situation",
+      "style_index": 0,
+      "text_id": "C37_Y26_Y_train_situation_0",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "workshop_context",
+      "id": "train_00_9",
+      "sentence": "Workshops often place sturdy examples near tools, where craftspeople can assemble, sand, or repair objects.",
+      "split": "train",
+      "style": "situation",
+      "style_index": 1,
+      "text_id": "C37_Y26_Y_train_situation_1",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "outdoor_context",
+      "id": "train_00_10",
+      "sentence": "Weather-resistant versions appear on patios and balconies, where they hold refreshments during outdoor meals.",
+      "split": "train",
+      "style": "situation",
+      "style_index": 2,
+      "text_id": "C37_Y26_Y_train_situation_2",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "library_context",
+      "id": "train_00_11",
+      "sentence": "Libraries commonly provide broad communal surfaces where visitors spread out books, notebooks, and study materials.",
+      "split": "train",
+      "style": "situation",
+      "style_index": 3,
+      "text_id": "C37_Y26_Y_train_situation_3",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "meal_support",
+      "id": "train_00_12",
+      "sentence": "A raised, stable surface keeps plates and serving dishes within reach of people seated for a meal.",
+      "split": "train",
+      "style": "function",
+      "style_index": 0,
+      "text_id": "C37_Y26_Y_train_function_0",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "office_work_support",
+      "id": "train_00_13",
+      "sentence": "In offices, it supports computers, documents, and equipment during focused work or meetings.",
+      "split": "train",
+      "style": "function",
+      "style_index": 1,
+      "text_id": "C37_Y26_Y_train_function_1",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "bedside_access",
+      "id": "train_00_14",
+      "sentence": "A compact bedside surface keeps a lamp, clock, or reading material accessible from the bed.",
+      "split": "train",
+      "style": "function",
+      "style_index": 2,
+      "text_id": "C37_Y26_Y_train_function_2",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "waiting_area_support",
+      "id": "train_00_15",
+      "sentence": "In public waiting areas, small versions can hold refreshments, brochures, or personal belongings for visitors.",
+      "split": "train",
+      "style": "function",
+      "style_index": 3,
+      "text_id": "C37_Y26_Y_train_function_3",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "apron_bracing",
+      "id": "eval_00_0",
+      "sentence": "An apron, when present, runs between the legs beneath the top and helps resist sideways movement.",
+      "split": "eval",
+      "style": "structure",
+      "style_index": 0,
+      "text_id": "C37_Y26_Y_eval_structure_0",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "beveled_edge",
+      "id": "eval_00_1",
+      "sentence": "Some tops have beveled edges, with the material thinning toward the perimeter for a lighter visual profile.",
+      "split": "eval",
+      "style": "structure",
+      "style_index": 1,
+      "text_id": "C37_Y26_Y_eval_structure_1",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "frame_joint_assembly",
+      "id": "eval_00_2",
+      "sentence": "During assembly, bolts or wooden dowels join the legs to the frame, and tightened joints help limit wobble.",
+      "split": "eval",
+      "style": "action",
+      "style_index": 0,
+      "text_id": "C37_Y26_Y_eval_action_0",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "powered_height_adjustment",
+      "id": "eval_00_3",
+      "sentence": "Electric actuators can raise or lower certain work surfaces at the press of a control button.",
+      "split": "eval",
+      "style": "action",
+      "style_index": 1,
+      "text_id": "C37_Y26_Y_eval_action_1",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "market_vendor_setting",
+      "id": "eval_00_4",
+      "sentence": "At a market stall, portable versions give vendors a raised area for displaying produce and taking payments.",
+      "split": "eval",
+      "style": "situation",
+      "style_index": 0,
+      "text_id": "C37_Y26_Y_eval_situation_0",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "laboratory_setting",
+      "id": "eval_00_5",
+      "sentence": "In laboratories, chemical-resistant tops provide a staging area for instruments and sample preparation.",
+      "split": "eval",
+      "style": "situation",
+      "style_index": 1,
+      "text_id": "C37_Y26_Y_eval_situation_1",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "classroom_collaboration",
+      "id": "eval_00_6",
+      "sentence": "A shared flat surface helps students sort and assemble materials during classroom group projects.",
+      "split": "eval",
+      "style": "function",
+      "style_index": 0,
+      "text_id": "C37_Y26_Y_eval_function_0",
+      "unit_id": "C37_Y26_Y"
+    },
+    {
+      "concept": "table",
+      "fact_key": "game_play_support",
+      "id": "eval_00_7",
+      "sentence": "A low central surface can keep board games and their pieces within reach of seated players.",
+      "split": "eval",
+      "style": "function",
+      "style_index": 1,
+      "text_id": "C37_Y26_Y_eval_function_1",
+      "unit_id": "C37_Y26_Y"
+    }
+  ]
+}

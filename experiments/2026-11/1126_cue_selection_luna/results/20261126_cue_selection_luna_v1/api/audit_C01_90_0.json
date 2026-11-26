@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_medium_far_0_2",
+        "naturalness": 5,
+        "reason": "A protected corridor beside traffic strongly suggests a separated cycling route.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_medium_far_0_3",
+        "naturalness": 5,
+        "reason": "This is a plausible backstage situation with no notable connection to either vehicle.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_medium_far_0_4",
+        "naturalness": 5,
+        "reason": "A routine bakery scene, unrelated to either vehicle.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_medium_far_0_5",
+        "naturalness": 5,
+        "reason": "The weather delays rooftop astronomy observations; neither vehicle is implicated.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_far_0_0",
+        "naturalness": 5,
+        "reason": "Commuting on a riverside trail as an alternative to roads is compatible with cycling, though other activities also fit.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_far_0_1",
+        "naturalness": 5,
+        "reason": "Tires and loose chains are characteristic bicycle repair needs, despite the shop not being explicitly identified as a bike shop.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_far_0_2",
+        "naturalness": 5,
+        "reason": "The final stretch after a train ride could involve cycling, but the clue does not point specifically to it.",
+        "style": "pass",
+        "x_related": 1,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_far_0_3",
+        "naturalness": 5,
+        "reason": "A residential route linking homes, schools, and shops could serve cyclists, but other users are possible.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_far_0_4",
+        "naturalness": 5,
+        "reason": "A park rental kiosk and paths could suggest bicycle rentals, though the rental type is unspecified.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_far_0_5",
+        "naturalness": 5,
+        "reason": "A pump beside a trail for travelers making adjustments strongly suggests cyclists checking tire pressure.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1097,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 466,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 655,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1752
+  }
+}

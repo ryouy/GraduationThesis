@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_unrelated_0_0",
+        "naturalness": 5,
+        "reason": "A natural, plausible school scene with no tool-related content.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_unrelated_0_1",
+        "naturalness": 5,
+        "reason": "A plausible greenhouse observation, unrelated to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_unrelated_0_2",
+        "naturalness": 5,
+        "reason": "A natural description of boats and sunrise with no tool connection.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_unrelated_0_3",
+        "naturalness": 5,
+        "reason": "A plausible museum maintenance situation unrelated to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_unrelated_0_4",
+        "naturalness": 5,
+        "reason": "A natural observation of flocking birds, unrelated to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_function_very_near_0_0",
+        "naturalness": 5,
+        "reason": "Clearly describes turning a screw into wood to fasten a hinge, a distinctive screwdriver function; the tool is not named.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_function_very_near_0_1",
+        "naturalness": 4,
+        "reason": "A fresh slot can allow a flat-blade driver to turn a damaged screw; “flat tip” is descriptive rather than an obvious tool name.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_function_very_near_0_2",
+        "naturalness": 5,
+        "reason": "Describes backing a screw out of a frame, a direct screwdriver use, without naming the tool.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_function_very_near_0_3",
+        "naturalness": 5,
+        "reason": "Driving a screw with wrist rotation directly describes a screwdriver function; no tool name or obvious alias appears.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_function_very_near_0_4",
+        "naturalness": 5,
+        "reason": "A short handle used to fasten tiny screws strongly indicates a screwdriver function, without naming the tool.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1292,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 644,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 671,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1963
+  }
+}

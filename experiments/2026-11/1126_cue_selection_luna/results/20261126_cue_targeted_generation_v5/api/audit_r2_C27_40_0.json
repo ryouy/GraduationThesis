@@ -1,0 +1,103 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C27_0_situation_0_0",
+        "naturalness": 4,
+        "reason": "A mashed fruit in oatmeal is a natural banana use; the generic fruit wording only weakly relates to pineapple.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C27_0_situation_0_1",
+        "naturalness": 5,
+        "reason": "Curved yellow fruit kept as a snack strongly points to banana; the fruit category is the only weak link to pineapple.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C27_0_situation_0_2",
+        "naturalness": 4,
+        "reason": "Using a bruised banana to sweeten pancake batter is plausible; pineapple has only a generic fruit connection.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C27_0_situation_0_3",
+        "naturalness": 5,
+        "reason": "An easily peeled, portable fruit is a strong banana association; the wording gives only a broad fruit connection to pineapple.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C27_0_situation_0_4",
+        "naturalness": 5,
+        "reason": "Banana commonly makes a smoothie creamy with milk and oats; pineapple is related only as another fruit.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C27_0_situation_0_5",
+        "naturalness": 5,
+        "reason": "Bananas are a familiar portable carbohydrate snack for runners; nothing specifically connects the clue to pineapple.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C27_0_situation_0_6",
+        "naturalness": 4,
+        "reason": "Banana can be used in an upside-down dessert, but caramelized pineapple rounds are a particularly strong fit.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 3
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C27_0_situation_0_7",
+        "naturalness": 5,
+        "reason": "A bunch with green skins ripening to bright yellow is distinctly characteristic of bananas; it does not suggest pineapple.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1453,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 881,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 565,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2018
+  }
+}

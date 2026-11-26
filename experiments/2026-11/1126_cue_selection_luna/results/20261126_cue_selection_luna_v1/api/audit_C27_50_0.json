@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_medium_near_0_3",
+        "naturalness": 4,
+        "reason": "Mashing soft fruit for baby food is plausible and fits banana well, though the cue is not specific to it.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_medium_near_0_4",
+        "naturalness": 5,
+        "reason": "A discarded peel as a slapstick slipping hazard is a familiar, distinctive banana association.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_medium_near_0_5",
+        "naturalness": 4,
+        "reason": "Fruit-filled turnovers are plausible, but the generic mashed-fruit filling could suggest either fruit or others.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_medium_far_0_0",
+        "naturalness": 4,
+        "reason": "Banana plants and bunches may be supported against wind damage; this is a strong plant-level association.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_medium_far_0_1",
+        "naturalness": 4,
+        "reason": "Fibers from banana pseudostems are used for cordage, mats, and paper.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "uncertain",
+        "id": "gen_C27_action_medium_far_0_2",
+        "naturalness": 4,
+        "reason": "Banana flour is plausible, though it is more commonly made from green fruit; flour from ripe pulp is less typical.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "uncertain",
+        "id": "gen_C27_action_medium_far_0_3",
+        "naturalness": 4,
+        "reason": "Banana fermentation into traditional drinks is plausible, but the specific claim that the strained drink is mildly sweet is variable.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_medium_far_0_4",
+        "naturalness": 5,
+        "reason": "Banana leaves are commonly used to wrap and steam food, an indirect association with the fruit's plant.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_medium_far_0_5",
+        "naturalness": 4,
+        "reason": "Green cooking bananas or plantains can be simmered with coconut milk and spices as a savory side.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_far_0_0",
+        "naturalness": 4,
+        "reason": "Boiled green cooking bananas or plantains can be mashed into a savory side dish.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1978,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1300,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 650,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2628
+  }
+}

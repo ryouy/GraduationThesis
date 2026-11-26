@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_far_0_1",
+        "naturalness": 4,
+        "reason": "A plausible upper-brass part; octave doubling and a bright sound fit trumpet especially well, though trombone could also play it.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_far_0_2",
+        "naturalness": 4,
+        "reason": "Gradually tapering notes is plausible performance practice but applies broadly to both instruments.",
+        "style": "pass",
+        "x_related": 1,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_far_0_3",
+        "naturalness": 5,
+        "reason": "Both trumpet and trombone are plausible jazz solo instruments that can trade phrases with a saxophonist.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_far_0_4",
+        "naturalness": 4,
+        "reason": "Resting the lips before a demanding upper-register solo is plausible and somewhat more suggestive of trumpet, but applies to trombone too.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_far_0_5",
+        "naturalness": 4,
+        "reason": "A plausible warm-up routine, but middle-register tones and checking consistency are not distinctive to either instrument.",
+        "style": "pass",
+        "x_related": 1,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_unrelated_0_0",
+        "naturalness": 5,
+        "reason": "A plausible baking action with no meaningful connection to either instrument.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_unrelated_0_1",
+        "naturalness": 5,
+        "reason": "A plausible gardening action with no meaningful connection to either instrument.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_unrelated_0_2",
+        "naturalness": 5,
+        "reason": "A plausible vehicle maintenance action with no meaningful connection to either instrument.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_unrelated_0_3",
+        "naturalness": 5,
+        "reason": "A plausible library task with no meaningful connection to either instrument.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_unrelated_0_4",
+        "naturalness": 5,
+        "reason": "A plausible household cleaning action with no meaningful connection to either instrument.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 956,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 333,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 634,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1590
+  }
+}

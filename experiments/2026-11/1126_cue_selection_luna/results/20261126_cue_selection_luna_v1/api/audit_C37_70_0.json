@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_very_near_0_0",
+        "naturalness": 5,
+        "reason": "A natural repair scenario; turning a cross-headed screw strongly points to a screwdriver.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_very_near_0_1",
+        "naturalness": 5,
+        "reason": "Loosening a small fastener with a flat blade strongly suggests a screwdriver.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_very_near_0_2",
+        "naturalness": 5,
+        "reason": "Backing out recessed screws is a plausible screwdriver task, though the tool is unstated.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_very_near_0_3",
+        "naturalness": 5,
+        "reason": "A magnetic tip holding a screw during circuit-board work strongly suggests a screwdriver.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_very_near_0_4",
+        "naturalness": 5,
+        "reason": "A plausible island description with no meaningful connection to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_very_near_0_5",
+        "naturalness": 5,
+        "reason": "A natural library scene unrelated to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_near_0_0",
+        "naturalness": 5,
+        "reason": "Attaching furniture legs with screws is a straightforward screwdriver task.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_near_0_1",
+        "naturalness": 5,
+        "reason": "Removing tiny case screws is a typical screwdriver task in phone repair.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_near_0_2",
+        "naturalness": 5,
+        "reason": "Tightening mounting screws strongly suggests using a screwdriver.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_near_0_3",
+        "naturalness": 5,
+        "reason": "Installing slotted screws is a clear screwdriver task in a plausible workshop scene.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1083,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 468,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 668,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1751
+  }
+}

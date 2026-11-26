@@ -1,0 +1,80 @@
+{
+  "status": "complete_exploratory",
+  "fingerprint": "3a83a7d49957cbb69228d8eb756214f9c47ca3c7f6ef2472b1a02b9e12596147",
+  "source_paths": {
+    "pairs": [
+      "a33c4986656689969b79bda129f79d0d7bdbe2f5",
+      "docs/concept_pair_candidates_50_v0_1.csv"
+    ],
+    "scores": [
+      "a33c4986656689969b79bda129f79d0d7bdbe2f5",
+      "experiments/2026-11/1124_probe_50pairs/results/20261124_probe50_balanced_v5/pair_probe_scores.csv"
+    ],
+    "old_config": [
+      "a33c4986656689969b79bda129f79d0d7bdbe2f5",
+      "experiments/2026-11/1124_probe_50pairs/results/20261124_probe50_balanced_v5/config.json"
+    ],
+    "existing_cue": [
+      "c9f8d3d563f51d6bead9a3221dfa81554d23102d",
+      "experiments/2026-11/1126_cue_selection_luna/results/20261126_cue_selection_luna_v1/definitions.csv"
+    ],
+    "existing_pre": [
+      "a33c4986656689969b79bda129f79d0d7bdbe2f5",
+      "experiments/2026-11/1124_pre_main_experiment/results/20261124_pre_main_v1/definitions.csv"
+    ],
+    "cue_config": [
+      "c9f8d3d563f51d6bead9a3221dfa81554d23102d",
+      "experiments/2026-11/1126_cue_selection_luna/results/20261126_cue_selection_luna_v1/config.json"
+    ],
+    "v4": [
+      "c9f8d3d563f51d6bead9a3221dfa81554d23102d",
+      "experiments/2026-11/1126_cue_selection_luna/results/20261126_cue_y_optimization_v4/summary.csv"
+    ]
+  },
+  "inputs_sha256": {
+    "pairs": "5981e06f133aaab341f2b7c217eae7661984c10e4395a7ae87081a8ebfcecd78",
+    "scores": "8b022e4acf4c0d47e50c91564248cf6204cbc6a4c009b857f8598192fcf2d64b",
+    "old_config": "75e078c67ddb0bcf375a16683d1ffc56a566ae6c1c4690b4e566701909fd9cd5",
+    "existing_cue": "9b8f043d520e0ce623b1888cfc0264f05cdfa7cfe41aa1171fc24fe17f2685f3",
+    "existing_pre": "6b0a9d09aa4b790472b9e29b50bb2b2be735dca97b3afab3a968d7b89d06730e",
+    "cue_config": "aee9906a097c52a37d4ff57bc7d10f314a619d43c6ea9c51da18630dc61c9386",
+    "v4": "f17f9ba08a224253b89414b7bffb9e7d454e3bce22feae261b81751cae5c03b9",
+    "draft": "fade9d54f1819098d0a048f8022faf579f2996ba9fac5bb24837d69de60a6c67"
+  },
+  "embedding_revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+  "versions": {
+    "sentence-transformers": "3.4.1",
+    "transformers": "4.50.3",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.0"
+  },
+  "python": "3.13.18",
+  "seed": 42,
+  "api_calls": 0,
+  "n_pairs": 50,
+  "files": {
+    "analysis_summary.md": "f6ffc3da0142e5fdc7122b33dffc9cc0567490bd7d804724fc6a55fbbc451927",
+    "auc_by_distance_band.png": "00d2c64c3ec0e788c7a1b3943af48cc6761ef439288f0ba7d9cd955915e7a403",
+    "category_summary.csv": "39e19975b6f05153c46a45fe7efdc8080e772333dd9499f4b1fa57548067afbc",
+    "checkpoint_distances.json": "ff6868bb1ea8f843169f54b0e41fff92b32066d85a84119fe7bcecf24b49c8d6",
+    "concept_definitions.csv": "183dbfb76db3ed4434ab4ea5338f27a08f4d0782b5d0936fbf91ac1b07441125",
+    "concept_pair_candidates.csv": "e3393074974d818a78e6757a7b66e5ad545e9995b48cdf5ed798c4dbfd20a771",
+    "config.json": "a51354d5b16b778f4f35c3580de99923b5c230e5e324cd95c3253b97b3b9f8d4",
+    "definition_sensitivity.csv": "8806b699ccc5ce761f5129f9baad8f498f9d96601e7c50f4bb5b5b47f7e6df59",
+    "distance_auc.png": "ca58c0e5b52998bd893e91da38e3c11af5d459d020702861c9d9e10c8dda3c96",
+    "distance_auc_correlations.csv": "5fedb692c22ed8ede13115dc788431549b804882ac77723cd8320ccc62ae5dd6",
+    "distance_band_summary.csv": "51b60e4ef5ef8683fba3a2a0cae0ab2b66398b109da24d1f2b438f5c2fc1576f",
+    "distance_by_category.png": "0fd3bdad385bd77acdb0327bf3a57e9ada83b6edee362e57d185775aea78801a",
+    "distance_histogram.png": "082b72e5e13d27144eef341e0694f4701f8ef6e43c09ba10b1c6813bc905cdbd",
+    "layer_auc.png": "1b44307b1ae0e4ae087abd5a55ad4695f55f766d2e6c2a155c688105c06b4e4e",
+    "leave_one_category_out.csv": "7dd42e4502eff8edb00afef830a8e5a9f3f088f269d00c8b0c2c15cc61090c92",
+    "pair_evaluation_50.csv": "8fc46a939e0f864b6a83943b6201de59f8088a2f6445bac8f5afdf8a646c5e64",
+    "pair_evaluation_all.csv": "b55218fa23b3637d42a7de4a87b82fa2b0cb6427bcd0b86948658a1e444e5c23",
+    "probe_evaluation_historical.csv": "0c70d24841c729b3360263bcd5643d2aa59e47c4dd386a7dc0acc3d409d0cc6f",
+    "v4_joint_five_pairs_exploratory.csv": "2c1ce8e5131b7a3e2a1b773a2893f5e911b16b68a2c1405463614598d8bc0e4d",
+    "xy_distance.csv": "8e1d04d081ff8d67580776974cf73ff48d60a4f3dfce1389dd102e2de8c96703"
+  }
+}

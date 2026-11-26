@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_medium_far_0_0",
+        "reason": "A steel tip turning a cross-shaped fastener strongly suggests the tool, but does not name it; no stool-specific fact.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_medium_far_0_1",
+        "reason": "Loosening slotted fasteners strongly suggests use of the tool, without naming it; no stool-specific fact.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_near_0_0",
+        "reason": "A blade in a screw head rotated by a handle directly and distinctively describes the tool's use; no stool-specific fact.",
+        "x_related": 4,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_near_0_1",
+        "reason": "Turning a handle to drive a threaded fastener is explainably related, but the tool is not identified; no stool-specific fact.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_unrelated_0_0",
+        "reason": "Describes rainwater and garden beds, with no relevant tool or stool connection.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_very_near_0_0",
+        "reason": "A blade pressed into a slotted screw head and twisted directly and distinctively describes the tool's use; no stool-specific fact.",
+        "x_related": 4,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_very_near_0_1",
+        "reason": "Rotating a screw to remove it strongly suggests the tool, though it is not named; no stool-specific fact.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_situation_far_0_1",
+        "reason": "Mentions a loose screw, which is explainably related to the tool but does not describe its use; no stool-specific fact.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_situation_medium_near_0_0",
+        "reason": "Turning a slotted fastener during assembly strongly suggests the tool, without naming it; no stool-specific fact.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_situation_medium_near_0_2",
+        "reason": "Turning fasteners to secure a hinge strongly suggests the tool, without naming it; no stool-specific fact.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_structure_far_0_0",
+        "reason": "Describes recessed cross-patterned fastener heads that can be used with the tool, but not the tool itself; no stool-specific fact.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_structure_unrelated_0_2",
+        "reason": "Describes pomegranate seeds and membranes, with no relevant tool or stool connection.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C37_action_medium_far_0_0\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A steel tip turning a cross-shaped fastener strongly suggests the tool, but does not name it; no stool-specific fact.\"},{\"id\":\"gen_C37_action_medium_far_0_1\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Loosening slotted fasteners strongly suggests use of the tool, without naming it; no stool-specific fact.\"},{\"id\":\"gen_C37_action_near_0_0\",\"x_related\":4,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A blade in a screw head rotated by a handle directly and distinctively describes the tool's use; no stool-specific fact.\"},{\"id\":\"gen_C37_action_near_0_1\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Turning a handle to drive a threaded fastener is explainably related, but the tool is not identified; no stool-specific fact.\"},{\"id\":\"gen_C37_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Describes rainwater and garden beds, with no relevant tool or stool connection.\"},{\"id\":\"gen_C37_action_very_near_0_0\",\"x_related\":4,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A blade pressed into a slotted screw head and twisted directly and distinctively describes the tool's use; no stool-specific fact.\"},{\"id\":\"gen_C37_action_very_near_0_1\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Rotating a screw to remove it strongly suggests the tool, though it is not named; no stool-specific fact.\"},{\"id\":\"gen_C37_situation_far_0_1\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Mentions a loose screw, which is explainably related to the tool but does not describe its use; no stool-specific fact.\"},{\"id\":\"gen_C37_situation_medium_near_0_0\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Turning a slotted fastener during assembly strongly suggests the tool, without naming it; no stool-specific fact.\"},{\"id\":\"gen_C37_situation_medium_near_0_2\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Turning fasteners to secure a hinge strongly suggests the tool, without naming it; no stool-specific fact.\"},{\"id\":\"gen_C37_structure_far_0_0\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Describes recessed cross-patterned fastener heads that can be used with the tool, but not the tool itself; no stool-specific fact.\"},{\"id\":\"gen_C37_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Describes pomegranate seeds and membranes, with no relevant tool or stool connection.\"}]}",
+  "usage": {
+    "completion_tokens": 1220,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 487,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 692,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1912
+  }
+}

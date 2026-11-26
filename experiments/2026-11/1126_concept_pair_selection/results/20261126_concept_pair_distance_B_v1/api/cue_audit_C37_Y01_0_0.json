@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_medium_far_0_0",
+        "reason": "Turning a cross-shaped fastener with a steel tip strongly indicates screwdriver use; cabinetmaking is only a weak shared context with hammer use.",
+        "x_related": 4,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_medium_far_0_1",
+        "reason": "Loosening slotted fasteners strongly indicates screwdriver use; no hammer-specific fact is described.",
+        "x_related": 4,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_near_0_0",
+        "reason": "Rotating a pointed blade in a screw head is distinctive screwdriver use; cabinet assembly is only weakly shared context.",
+        "x_related": 4,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_near_0_1",
+        "reason": "Turning a handle to drive a threaded fastener strongly suggests a screwdriver, though the tool is unnamed; the wooden-board setting is weak shared context.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_unrelated_0_0",
+        "reason": "The clue concerns rainwater and garden beds, with no relevant tool or tool-use connection.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_very_near_0_0",
+        "reason": "Twisting a blade in a slotted screw is distinctive screwdriver use; timber is only weak shared context.",
+        "x_related": 4,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_very_near_0_1",
+        "reason": "Backing a screw out by rotation strongly suggests screwdriver use, but no hammer-related fact is present.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_situation_far_0_1",
+        "reason": "A loose screw is weakly associated with screwdriver use, while an antique desk gives only weak furniture-repair context for a hammer.",
+        "x_related": 1,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_situation_medium_near_0_0",
+        "reason": "Turning a slotted fastener during assembly strongly suggests screwdriver use; bookshelf assembly is only weak shared context.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_situation_medium_near_0_2",
+        "reason": "Turning fasteners to secure a hinge strongly suggests screwdriver use; the workbench and door setting is weak shared context.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_structure_far_0_0",
+        "reason": "Cross-patterned recessed fastener heads are strongly associated with screwdriver compatibility, but the clue says nothing specific about hammers.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_structure_unrelated_0_2",
+        "reason": "The clue describes pomegranate structure and has no relevant tool connection.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C37_action_medium_far_0_0\",\"x_related\":4,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Turning a cross-shaped fastener with a steel tip strongly indicates screwdriver use; cabinetmaking is only a weak shared context with hammer use.\"},{\"id\":\"gen_C37_action_medium_far_0_1\",\"x_related\":4,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Loosening slotted fasteners strongly indicates screwdriver use; no hammer-specific fact is described.\"},{\"id\":\"gen_C37_action_near_0_0\",\"x_related\":4,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Rotating a pointed blade in a screw head is distinctive screwdriver use; cabinet assembly is only weakly shared context.\"},{\"id\":\"gen_C37_action_near_0_1\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Turning a handle to drive a threaded fastener strongly suggests a screwdriver, though the tool is unnamed; the wooden-board setting is weak shared context.\"},{\"id\":\"gen_C37_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The clue concerns rainwater and garden beds, with no relevant tool or tool-use connection.\"},{\"id\":\"gen_C37_action_very_near_0_0\",\"x_related\":4,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Twisting a blade in a slotted screw is distinctive screwdriver use; timber is only weak shared context.\"},{\"id\":\"gen_C37_action_very_near_0_1\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Backing a screw out by rotation strongly suggests screwdriver use, but no hammer-related fact is present.\"},{\"id\":\"gen_C37_situation_far_0_1\",\"x_related\":1,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A loose screw is weakly associated with screwdriver use, while an antique desk gives only weak furniture-repair context for a hammer.\"},{\"id\":\"gen_C37_situation_medium_near_0_0\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Turning a slotted fastener during assembly strongly suggests screwdriver use; bookshelf assembly is only weak shared context.\"},{\"id\":\"gen_C37_situation_medium_near_0_2\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Turning fasteners to secure a hinge strongly suggests screwdriver use; the workbench and door setting is weak shared context.\"},{\"id\":\"gen_C37_structure_far_0_0\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Cross-patterned recessed fastener heads are strongly associated with screwdriver compatibility, but the clue says nothing specific about hammers.\"},{\"id\":\"gen_C37_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The clue describes pomegranate structure and has no relevant tool connection.\"}]}",
+  "usage": {
+    "completion_tokens": 1928,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1197,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 689,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2617
+  }
+}

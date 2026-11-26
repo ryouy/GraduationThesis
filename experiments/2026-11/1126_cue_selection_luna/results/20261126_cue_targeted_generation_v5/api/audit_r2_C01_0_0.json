@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_0_situation_0_0",
+        "naturalness": 5,
+        "reason": "A commute involving steady pedaling and bypassing traffic is a direct, plausible cycling situation.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_0_situation_0_1",
+        "naturalness": 5,
+        "reason": "A dropped chain and reseating it on the front chainring are plausible, distinctive cycling details.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_0_situation_0_2",
+        "naturalness": 5,
+        "reason": "Patching an inner tube after a flat is a common and plausible roadside repair.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_0_situation_0_3",
+        "naturalness": 5,
+        "reason": "Locking a frame to a rack with a U-shaped lock is a strong, plausible bicycle-related situation.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_0_situation_0_4",
+        "naturalness": 5,
+        "reason": "Low gearing makes climbing easier at a given effort, though it can reduce speed and extend the climb.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_0_situation_0_5",
+        "naturalness": 5,
+        "reason": "A helmet and rear light are plausible safety measures for a commuter riding in rainy dusk conditions.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_0_situation_0_6",
+        "naturalness": 3,
+        "reason": "Carrying groceries in a rear basket is plausible; “balances along neighborhood lanes” is slightly awkward phrasing.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_0_situation_0_7",
+        "naturalness": 5,
+        "reason": "Water stops and repair stations are plausible support for a group ride.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_3_structure_0_0",
+        "naturalness": 5,
+        "reason": "The frame, seated rider, two wheels, and hand controls describe bicycle structure; lightweight is plausible but not universal.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C01_3_structure_0_1",
+        "naturalness": 5,
+        "reason": "Pedals, a crank, a chain, and a driven wheel accurately describe a common bicycle propulsion arrangement.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1240,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 558,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 690,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1930
+  }
+}

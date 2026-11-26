@@ -1,0 +1,204 @@
+{
+  "data": {
+    "items": [
+      {
+        "aliases": [
+          "bedside table",
+          "night table"
+        ],
+        "category": "furniture",
+        "id": "C35_Y01",
+        "reason": "A familiar bedside furnishing, distinct from a bookshelf; the definition clearly describes its use.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [
+          "closet"
+        ],
+        "category": "furniture",
+        "id": "C35_Y02",
+        "reason": "A familiar clothing-storage furnishing, not a bookshelf; the definition identifies its form and use.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [
+          "chest of drawers"
+        ],
+        "category": "furniture",
+        "id": "C35_Y03",
+        "reason": "A familiar drawer-based storage furnishing, distinct from a bookshelf; the definition is clear.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [
+          "buffet"
+        ],
+        "category": "furniture",
+        "id": "C35_Y04",
+        "reason": "A familiar dining-room storage and serving furnishing, not a bookshelf; the definition is standalone.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "furniture",
+        "id": "C35_Y05",
+        "reason": "A familiar dining-room furnishing combining storage and display; it is distinct from a bookshelf despite having shelves.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [
+          "display cabinet",
+          "showcase"
+        ],
+        "category": "furniture",
+        "id": "C35_Y06",
+        "reason": "A familiar display furnishing with a clear, distinct function and form; it is not a bookshelf.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [
+          "storage chest"
+        ],
+        "category": "furniture",
+        "id": "C35_Y07",
+        "reason": "A familiar lidded storage furnishing, distinct from a bookshelf; the definition is clear.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [
+          "secretary"
+        ],
+        "category": "furniture",
+        "id": "C35_Y08",
+        "reason": "A recognizable writing and storage furnishing, distinct from a bookshelf; the definition identifies its folding surface and compartments.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "furniture",
+        "id": "C35_Y09",
+        "reason": "A familiar work furnishing with a clear definition, distinct from a bookshelf.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "furniture",
+        "id": "C35_Y10",
+        "reason": "A familiar broad furniture type, but not a direct hypernym or synonym of bookshelf; the definition is clear.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "furniture",
+        "id": "C35_Y11",
+        "reason": "A familiar seating furnishing with a clear definition, distinct from a bookshelf.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [
+          "couch"
+        ],
+        "category": "furniture",
+        "id": "C35_Y12",
+        "reason": "A familiar multi-person seating furnishing, clearly distinct from a bookshelf.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "furniture",
+        "id": "C35_Y13",
+        "reason": "A familiar sleeping furnishing, distinct from a bookshelf; the definition is standalone.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "furniture",
+        "id": "C35_Y14",
+        "reason": "A familiar long seating furnishing, distinct from a bookshelf; the definition is clear.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "furniture",
+        "id": "C35_Y15",
+        "reason": "A familiar simple seating furnishing, distinct from a bookshelf; the definition is clear.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "furniture",
+        "id": "C35_Y16",
+        "reason": "A familiar low living-room surface furnishing, distinct from a bookshelf; the definition is standalone.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "furniture",
+        "id": "C35_Y17",
+        "reason": "A familiar reclining seat with a clear defining mechanism, distinct from a bookshelf.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "furniture",
+        "id": "C35_Y18",
+        "reason": "A familiar type of seat defined by its curved runners, distinct from a bookshelf.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [
+          "footstool"
+        ],
+        "category": "furniture",
+        "id": "C35_Y19",
+        "reason": "A familiar padded footrest or occasional seat, clearly distinct from a bookshelf.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "furniture",
+        "id": "C35_Y20",
+        "reason": "A familiar bed component, not a bookshelf; the definition clearly identifies its position and function.",
+        "same_category": true,
+        "verdict": "pass"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"C35_Y01\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":true,\"reason\":\"A familiar bedside furnishing, distinct from a bookshelf; the definition clearly describes its use.\",\"aliases\":[\"bedside table\",\"night table\"]},{\"id\":\"C35_Y02\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":true,\"reason\":\"A familiar clothing-storage furnishing, not a bookshelf; the definition identifies its form and use.\",\"aliases\":[\"closet\"]},{\"id\":\"C35_Y03\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":true,\"reason\":\"A familiar drawer-based storage furnishing, distinct from a bookshelf; the definition is clear.\",\"aliases\":[\"chest of drawers\"]},{\"id\":\"C35_Y04\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":true,\"reason\":\"A familiar dining-room storage and serving furnishing, not a bookshelf; the definition is standalone.\",\"aliases\":[\"buffet\"]},{\"id\":\"C35_Y05\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":true,\"reason\":\"A familiar dining-room furnishing combining storage and display; it is distinct from a bookshelf despite having shelves.\",\"aliases\":[]},{\"id\":\"C35_Y06\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":true,\"reason\":\"A familiar display furnishing with a clear, distinct function and form; it is not a bookshelf.\",\"aliases\":[\"display cabinet\",\"showcase\"]},{\"id\":\"C35_Y07\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":true,\"reason\":\"A familiar lidded storage furnishing, distinct from a bookshelf; the definition is clear.\",\"aliases\":[\"storage chest\"]},{\"id\":\"C35_Y08\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":true,\"reason\":\"A recognizable writing and storage furnishing, distinct from a bookshelf; the definition identifies its folding surface and compartments.\",\"aliases\":[\"secretary\"]},{\"id\":\"C35_Y09\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":true,\"reason\":\"A familiar work furnishing with a clear definition, distinct from a bookshelf.\",\"aliases\":[]},{\"id\":\"C35_Y10\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":true,\"reason\":\"A familiar broad furniture type, but not a direct hypernym or synonym of bookshelf; the definition is clear.\",\"aliases\":[]},{\"id\":\"C35_Y11\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":true,\"reason\":\"A familiar seating furnishing with a clear definition, distinct from a bookshelf.\",\"aliases\":[]},{\"id\":\"C35_Y12\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":true,\"reason\":\"A familiar multi-person seating furnishing, clearly distinct from a bookshelf.\",\"aliases\":[\"couch\"]},{\"id\":\"C35_Y13\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":true,\"reason\":\"A familiar sleeping furnishing, distinct from a bookshelf; the definition is standalone.\",\"aliases\":[]},{\"id\":\"C35_Y14\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":true,\"reason\":\"A familiar long seating furnishing, distinct from a bookshelf; the definition is clear.\",\"aliases\":[]},{\"id\":\"C35_Y15\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":true,\"reason\":\"A familiar simple seating furnishing, distinct from a bookshelf; the definition is clear.\",\"aliases\":[]},{\"id\":\"C35_Y16\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":true,\"reason\":\"A familiar low living-room surface furnishing, distinct from a bookshelf; the definition is standalone.\",\"aliases\":[]},{\"id\":\"C35_Y17\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":true,\"reason\":\"A familiar reclining seat with a clear defining mechanism, distinct from a bookshelf.\",\"aliases\":[]},{\"id\":\"C35_Y18\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":true,\"reason\":\"A familiar type of seat defined by its curved runners, distinct from a bookshelf.\",\"aliases\":[]},{\"id\":\"C35_Y19\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":true,\"reason\":\"A familiar padded footrest or occasional seat, clearly distinct from a bookshelf.\",\"aliases\":[\"footstool\"]},{\"id\":\"C35_Y20\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":true,\"reason\":\"A familiar bed component, not a bookshelf; the definition clearly identifies its position and function.\",\"aliases\":[]}]}",
+  "usage": {
+    "completion_tokens": 1298,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 364,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 945,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2243
+  }
+}

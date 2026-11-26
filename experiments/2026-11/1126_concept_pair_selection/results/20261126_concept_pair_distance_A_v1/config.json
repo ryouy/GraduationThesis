@@ -1,0 +1,17 @@
+{
+  "repo": "ryouy/GraduationThesis",
+  "source_main": "a33c4986656689969b79bda129f79d0d7bdbe2f5",
+  "source_cue": "c9f8d3d563f51d6bead9a3221dfa81554d23102d",
+  "branch": "experiments/concept-pair-selection-v1",
+  "experiment_dir": "experiments/2026-11/1126_concept_pair_selection/",
+  "run_id": "20261126_concept_pair_distance_A_v1",
+  "embedding": "sentence-transformers/all-mpnet-base-v2",
+  "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+  "seed": 42,
+  "auc_min": 0.8,
+  "q_max": 0.05,
+  "bootstrap": 2000,
+  "primary_layer": 24,
+  "api_calls": 0,
+  "definitions_status": "assistant-authored provisional standardized definitions; no external generation API; separate existing-definition sensitivity analysis"
+}

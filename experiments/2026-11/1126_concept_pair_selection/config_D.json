@@ -1,0 +1,35 @@
+{
+  "repo": "ryouy/GraduationThesis",
+  "branch": "experiments/concept-pair-selection-v1",
+  "run_id": "20261126_concept_pair_distance_D_v1",
+  "B_ref": "ada2278f06f89a9adc32c4efe2eab083935cfd68",
+  "C_ref": "6eb730f8dcaf48bfce9d98825b13e41d2a4dbd25",
+  "B_root": "experiments/2026-11/1126_concept_pair_selection/results/20261126_concept_pair_distance_B_v1/",
+  "C_root": "experiments/2026-11/1126_concept_pair_selection/results/20261126_concept_pair_distance_C_small_v1/",
+  "setting": "C",
+  "half_width": 0.04,
+  "min_gap": 0.03,
+  "styles": [
+    "structure",
+    "action",
+    "situation",
+    "function"
+  ],
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "steps_per_seed": 1200,
+  "rho_target": 0.3,
+  "spread_target": 0.05,
+  "duplicate_threshold": 0.8,
+  "pools": [
+    "old_quality_no_y_name",
+    "known_audit_fail_excluded"
+  ],
+  "primary_pool": "old_quality_no_y_name",
+  "include_anchors": true,
+  "api_calls": 0,
+  "status": "exploratory"
+}

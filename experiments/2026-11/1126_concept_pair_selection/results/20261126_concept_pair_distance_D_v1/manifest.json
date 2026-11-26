@@ -1,0 +1,50 @@
+{
+  "C_input_sha256": {
+    "manifest": "03656a898bfa391814bb5ab9dc7db01d2c16eecb437d7824bb771050a24cbad1",
+    "probe_l24_scores": "caaac1c6db22d2ee321186b6968d56cdc4e016f5c1aa7b732f62aea834fb92d4"
+  },
+  "api_generation_calls": 0,
+  "checkpoints": {
+    "C01": "a61d55984241f26bda9a90c65efd5e77e9d22401183fcd821634ce333f7e4abb",
+    "C23": "59ed1e4e718c6286c069dbf9f1784ab65318266374e65d694e6385cf591ec822",
+    "C27": "f3bd32db5ce8e0bd5e793645357d7713ad5b229d76e07c84833c5c9bd55fd0ed",
+    "C35": "71f4b1659c2588f71f62fdc85e9a0675221e8a048cca967be9e6a4b7eba0cb33",
+    "C37": "bb31da1d6620d8ddf583c019ababbf062adee396d4f14ecdd14578e1d6d3da05"
+  },
+  "config_sha256": "5ed55bd536afbd56671dd485d1b45af234a5cfd2e840f14160fd6b1153353630",
+  "files": {
+    "ABC_D_joint_descriptive.csv": "c649ee927562b90fecf30d948531eb60f453f7ce2027673347c5bfd58a43c190",
+    "absolute_distance_summary.csv": "5d4722e80aea36bda5a76adcfe480b14be17fb6aa4c610f068160431b795fe0f",
+    "analysis_summary.md": "0c32451badf632beb8dff5c6f854540c330cae89acc6e252560bb17b9ab50fa8",
+    "category_summary.csv": "e512b2f2d75806886d8de67b963d702f86ba0674a4a5fd7a09c997c034dcc9f9",
+    "complete_only_summary.csv": "318e243c73a2eb55aac4e6e09e56c5c654f45ce215033d219520d67fc212e8cf",
+    "config.json": "5ed55bd536afbd56671dd485d1b45af234a5cfd2e840f14160fd6b1153353630",
+    "distance_band_summary.csv": "1ec42cbe42b4d9b43a5e25b0f72692e7a607570cdcc78155cf951dfd084346a2",
+    "figures/abs_rho.png": "7baabee9e319f052bb04934ad7fe18658ca7fb7e96eb88487befc989813a3285",
+    "figures/paired_rho.png": "c7f458ee9673b87445bb824568698a7954fe2252a6cbd7629dd429e235583f90",
+    "figures/pass_by_distance_band.png": "48841a4e844456d4e0bbe5384fc4b08496b1e9f43bd8a0befa3608321fb06d05",
+    "figures/spread.png": "a828167d21e5784381e8fecc2e288c9739c9807a2af1f187789ef01a6cdc3a2a",
+    "method_summary.csv": "4b4ffc4af8d2f26a79e0a4db732fa99fe531152d0c8739655173b2bab360916c",
+    "missing_slots.csv": "04ab44e7d016d9a80965181835d70b47ceea92a6ec112aad6315a0248ca8b929",
+    "original_anchor_summary.csv": "849841595505f96886a556777d7bcab2f3845396da3d7307f5976502f5234f6f",
+    "paired_improvements.csv": "a16ad387c23f212bc59088964c557f9b4c59b518f7e581e3f966a71c358a9784",
+    "search_runs.csv": "cd52705492bde6517eff294dc584017a0ec74612507494d6acf53f113aee5f6b",
+    "selected_PROVISIONAL.csv": "2633431aeab3b5c5668ecdec5a041f9b4c2898c0248af9644dc820b3fd3a4578",
+    "selected_pairs.csv": "c2a33a20ee425b90d238d8d81bea0b5adf297e4bd5f75a8d2aa92cd59820929f",
+    "slot_inventory.csv": "b40d5f35c449c590c436e23e72b7e6b3de88aee14e2e35670dcee49edf56709b",
+    "summary.csv": "d9a46433f8954a58358636c40b760213cd65f78be4c8f2eeab426ec947953daa",
+    "within_x_associations.csv": "b30389588db1f28022054f9ce5f5165021b8918e76a2ffe1c1feeccff8184a9d"
+  },
+  "n_anchors": 5,
+  "n_primary": 75,
+  "python": "3.13.18",
+  "source_B_ref": "ada2278f06f89a9adc32c4efe2eab083935cfd68",
+  "source_C_ref": "6eb730f8dcaf48bfce9d98825b13e41d2a4dbd25",
+  "status": "complete_exploratory",
+  "versions": {
+    "matplotlib": "3.10.0",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3"
+  }
+}
