@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "1b53f277f3bffd42739fe5d3b23c9f5c21be0469b0a5f11098f7886ccdd37529",
+    "items": [
+      {
+        "id": "9eb7cca0fc0717f6eeed",
+        "label": "yes",
+        "reason": "Names the jellyfish directly."
+      },
+      {
+        "id": "108585afbe587921ed01",
+        "label": "yes",
+        "reason": "Describes a jellyfish in motion."
+      },
+      {
+        "id": "ec49b9f698714a78e051",
+        "label": "no",
+        "reason": "Describes raindrops, not snow."
+      },
+      {
+        "id": "a5de2ef9f87fb0b47c2b",
+        "label": "yes",
+        "reason": "“Cacti” is the plural of cactus."
+      },
+      {
+        "id": "dbb3dfe856e45bd40603",
+        "label": "no",
+        "reason": "A Carnotaur is a different animal, not a lion."
+      },
+      {
+        "id": "d63337ad40fe0e482f71",
+        "label": "no",
+        "reason": "Describes calls associated with an elephant’s trunk, not the elephant itself."
+      },
+      {
+        "id": "8746ce45454521707545",
+        "label": "yes",
+        "reason": "A cascade of snowflakes is falling snow."
+      },
+      {
+        "id": "8c6c8e2219c7d739bf52",
+        "label": "no",
+        "reason": "A cheetah is a different animal, not a lion."
+      },
+      {
+        "id": "2012b669e3d5c9b94041",
+        "label": "yes",
+        "reason": "Identifies an elephant as the subject."
+      },
+      {
+        "id": "6ec7a59c10fc0afef990",
+        "label": "no",
+        "reason": "Describes a strong insect generally, not specifically an ant."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"9eb7cca0fc0717f6eeed\",\"label\":\"yes\",\"reason\":\"Names the jellyfish directly.\"},{\"id\":\"108585afbe587921ed01\",\"label\":\"yes\",\"reason\":\"Describes a jellyfish in motion.\"},{\"id\":\"ec49b9f698714a78e051\",\"label\":\"no\",\"reason\":\"Describes raindrops, not snow.\"},{\"id\":\"a5de2ef9f87fb0b47c2b\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural of cactus.\"},{\"id\":\"dbb3dfe856e45bd40603\",\"label\":\"no\",\"reason\":\"A Carnotaur is a different animal, not a lion.\"},{\"id\":\"d63337ad40fe0e482f71\",\"label\":\"no\",\"reason\":\"Describes calls associated with an elephant’s trunk, not the elephant itself.\"},{\"id\":\"8746ce45454521707545\",\"label\":\"yes\",\"reason\":\"A cascade of snowflakes is falling snow.\"},{\"id\":\"8c6c8e2219c7d739bf52\",\"label\":\"no\",\"reason\":\"A cheetah is a different animal, not a lion.\"},{\"id\":\"2012b669e3d5c9b94041\",\"label\":\"yes\",\"reason\":\"Identifies an elephant as the subject.\"},{\"id\":\"6ec7a59c10fc0afef990\",\"label\":\"no\",\"reason\":\"Describes a strong insect generally, not specifically an ant.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 570,
+    "started": "2026-11-26T08:24:44.901107+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 729,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 394,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 533,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1262
+    }
+  }
+}
