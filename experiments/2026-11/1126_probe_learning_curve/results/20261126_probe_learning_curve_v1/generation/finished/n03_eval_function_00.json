@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "aquarium_support_and_equipment",
+      "sentence": "An enclosed base supports a heavy aquarium while concealing its filtration equipment and water-treatment supplies."
+    },
+    {
+      "fact_key": "integrated_oven_positioning",
+      "sentence": "A fitted kitchen enclosure holds a built-in oven at a convenient height while keeping its controls accessible."
+    },
+    {
+      "fact_key": "housing_laundry_appliances",
+      "sentence": "An enclosure beneath a laundry worktop can house a front-loading washer while preserving access for repairs."
+    },
+    {
+      "fact_key": "sacristy_vestment_storage",
+      "sentence": "In a church sacristy, enclosed storage protects ceremonial vessels and vestments between services."
+    },
+    {
+      "fact_key": "science_room_glassware_access",
+      "sentence": "School science preparation rooms use fitted storage to keep glassware close at hand and leave benches clear for experiments."
+    },
+    {
+      "fact_key": "rehearsal_room_instrument_cases",
+      "sentence": "Music rehearsal rooms use tall enclosed storage to keep instrument cases upright and separated, reducing accidental knocks between sessions."
+    },
+    {
+      "fact_key": "hearth_fuel_containment",
+      "sentence": "A fitted enclosure beside a fireplace keeps logs and kindling nearby while containing loose bark and wood debris."
+    },
+    {
+      "fact_key": "taproom_glassware_storage",
+      "sentence": "In a brewery taproom, enclosed storage keeps clean glassware near serving taps and shielded from dust between uses."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"An enclosed base supports a heavy aquarium while concealing its filtration equipment and water-treatment supplies.\",\"fact_key\":\"aquarium_support_and_equipment\"},{\"sentence\":\"A fitted kitchen enclosure holds a built-in oven at a convenient height while keeping its controls accessible.\",\"fact_key\":\"integrated_oven_positioning\"},{\"sentence\":\"An enclosure beneath a laundry worktop can house a front-loading washer while preserving access for repairs.\",\"fact_key\":\"housing_laundry_appliances\"},{\"sentence\":\"In a church sacristy, enclosed storage protects ceremonial vessels and vestments between services.\",\"fact_key\":\"sacristy_vestment_storage\"},{\"sentence\":\"School science preparation rooms use fitted storage to keep glassware close at hand and leave benches clear for experiments.\",\"fact_key\":\"science_room_glassware_access\"},{\"sentence\":\"Music rehearsal rooms use tall enclosed storage to keep instrument cases upright and separated, reducing accidental knocks between sessions.\",\"fact_key\":\"rehearsal_room_instrument_cases\"},{\"sentence\":\"A fitted enclosure beside a fireplace keeps logs and kindling nearby while containing loose bark and wood debris.\",\"fact_key\":\"hearth_fuel_containment\"},{\"sentence\":\"In a brewery taproom, enclosed storage keeps clean glassware near serving taps and shielded from dust between uses.\",\"fact_key\":\"taproom_glassware_storage\"}]}",
+  "rejected": [],
+  "request_hash": "f590bfe65d6e90ec4ad0a6091ed0b991dc4b3a059d93dc37256bd2c77e774ffb",
+  "usage": {
+    "completion_tokens": 2124,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1831,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 3409,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 3406,
+      "cached_tokens": 0
+    },
+    "total_tokens": 5533
+  }
+}
