@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_medium_far_0_0",
+        "reason": "Describes turning a cross-headed fastener with a tool, strongly suggesting screwdriver use; no soldering-iron details.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_medium_far_0_1",
+        "reason": "Loosening slotted fasteners is strongly associated with screwdriver use; no soldering-iron details.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_near_0_0",
+        "reason": "A pointed blade is placed in a screw head and its handle is rotated to fasten it, directly describing screwdriver use.",
+        "x_related": 4,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_near_0_1",
+        "reason": "Turning a handle to drive a threaded fastener into wood strongly suggests screwdriver use.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_unrelated_0_0",
+        "reason": "Describes rainwater and garden drainage, unrelated to either tool.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_very_near_0_0",
+        "reason": "Pressing a blade into a slotted screw head and twisting it directly describes screwdriver use.",
+        "x_related": 4,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_very_near_0_1",
+        "reason": "Counterclockwise turns removing a screw strongly suggest screwdriver use.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_situation_far_0_1",
+        "reason": "Mentions a loose screw but does not describe a tool or its use.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_situation_medium_near_0_0",
+        "reason": "Turning a slotted fastener during assembly strongly suggests screwdriver use.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_situation_medium_near_0_2",
+        "reason": "Turning fasteners to secure a hinge strongly suggests screwdriver use.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_structure_far_0_0",
+        "reason": "Describes cross-patterned fastener heads, which can be used with a screwdriver; electronic housings provide only broad contextual overlap with soldering irons.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_structure_unrelated_0_2",
+        "reason": "Describes pomegranate structure, unrelated to either tool.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C37_action_medium_far_0_0\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Describes turning a cross-headed fastener with a tool, strongly suggesting screwdriver use; no soldering-iron details.\"},{\"id\":\"gen_C37_action_medium_far_0_1\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Loosening slotted fasteners is strongly associated with screwdriver use; no soldering-iron details.\"},{\"id\":\"gen_C37_action_near_0_0\",\"x_related\":4,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A pointed blade is placed in a screw head and its handle is rotated to fasten it, directly describing screwdriver use.\"},{\"id\":\"gen_C37_action_near_0_1\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Turning a handle to drive a threaded fastener into wood strongly suggests screwdriver use.\"},{\"id\":\"gen_C37_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Describes rainwater and garden drainage, unrelated to either tool.\"},{\"id\":\"gen_C37_action_very_near_0_0\",\"x_related\":4,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Pressing a blade into a slotted screw head and twisting it directly describes screwdriver use.\"},{\"id\":\"gen_C37_action_very_near_0_1\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Counterclockwise turns removing a screw strongly suggest screwdriver use.\"},{\"id\":\"gen_C37_situation_far_0_1\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Mentions a loose screw but does not describe a tool or its use.\"},{\"id\":\"gen_C37_situation_medium_near_0_0\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Turning a slotted fastener during assembly strongly suggests screwdriver use.\"},{\"id\":\"gen_C37_situation_medium_near_0_2\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Turning fasteners to secure a hinge strongly suggests screwdriver use.\"},{\"id\":\"gen_C37_structure_far_0_0\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Describes cross-patterned fastener heads, which can be used with a screwdriver; electronic housings provide only broad contextual overlap with soldering irons.\"},{\"id\":\"gen_C37_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Describes pomegranate structure, unrelated to either tool.\"}]}",
+  "usage": {
+    "completion_tokens": 1433,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 762,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 692,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2125
+  }
+}
