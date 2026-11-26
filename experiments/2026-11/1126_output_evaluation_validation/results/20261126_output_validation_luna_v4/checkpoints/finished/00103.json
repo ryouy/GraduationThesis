@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "2afd14445d0a557f3283f90e21f8e18766650016527e65f1231b4cc1e18e1742",
+    "items": [
+      {
+        "id": "e23cf2aaee640722847d",
+        "label": "2",
+        "reason": "Jellyfish have soft, pulsing bodies and drift with currents, often creating flowing patterns in the water."
+      },
+      {
+        "id": "55682c224e9f96cbfda8",
+        "label": "2",
+        "reason": "Cacti are hardy plants with spines and moisture-rich interiors."
+      },
+      {
+        "id": "31b0c952dea37876edbd",
+        "label": "1",
+        "reason": "A bicycle is an efficient mode of transportation, but the answer does not address the clue's reference to both."
+      },
+      {
+        "id": "6f01db7e35b832028fce",
+        "label": "1",
+        "reason": "A berry can be blended into smoothies, but “Smoothie Berry” does not identify a specific fruit and misses the creamy-texture detail."
+      },
+      {
+        "id": "20fb72c18d91e32f8cdd",
+        "label": "1",
+        "reason": "An escape vehicle could help someone travel or get away, but the answer is too broad to identify a particular referent."
+      },
+      {
+        "id": "df3bfa53a78b0459ccd2",
+        "label": "1",
+        "reason": "Drumming is related to percussion and resonance, but it is an activity rather than the instrument described."
+      },
+      {
+        "id": "50e0b44334e85e3135ce",
+        "label": "1",
+        "reason": "Elephants are featured in conservation campaigns, but the answer names a campaign rather than the creature."
+      },
+      {
+        "id": "1ea58d035aff65110f78",
+        "label": "2",
+        "reason": "Bananas are yellow, sweet, and commonly eaten as a healthy snack by children."
+      },
+      {
+        "id": "5ef17eab13a9b11c2054",
+        "label": "2",
+        "reason": "Grapefruits grow on trees and can grow in clusters, fitting the description of fruit hanging from tall plants."
+      },
+      {
+        "id": "1626bd4eb5f11dd75071",
+        "label": "1",
+        "reason": "The answer refers generally to an aquatic craft but does not identify a specific craft, and mostly restates the technology detail."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"e23cf2aaee640722847d\",\"label\":\"2\",\"reason\":\"Jellyfish have soft, pulsing bodies and drift with currents, often creating flowing patterns in the water.\"},{\"id\":\"55682c224e9f96cbfda8\",\"label\":\"2\",\"reason\":\"Cacti are hardy plants with spines and moisture-rich interiors.\"},{\"id\":\"31b0c952dea37876edbd\",\"label\":\"1\",\"reason\":\"A bicycle is an efficient mode of transportation, but the answer does not address the clue's reference to both.\"},{\"id\":\"6f01db7e35b832028fce\",\"label\":\"1\",\"reason\":\"A berry can be blended into smoothies, but “Smoothie Berry” does not identify a specific fruit and misses the creamy-texture detail.\"},{\"id\":\"20fb72c18d91e32f8cdd\",\"label\":\"1\",\"reason\":\"An escape vehicle could help someone travel or get away, but the answer is too broad to identify a particular referent.\"},{\"id\":\"df3bfa53a78b0459ccd2\",\"label\":\"1\",\"reason\":\"Drumming is related to percussion and resonance, but it is an activity rather than the instrument described.\"},{\"id\":\"50e0b44334e85e3135ce\",\"label\":\"1\",\"reason\":\"Elephants are featured in conservation campaigns, but the answer names a campaign rather than the creature.\"},{\"id\":\"1ea58d035aff65110f78\",\"label\":\"2\",\"reason\":\"Bananas are yellow, sweet, and commonly eaten as a healthy snack by children.\"},{\"id\":\"5ef17eab13a9b11c2054\",\"label\":\"2\",\"reason\":\"Grapefruits grow on trees and can grow in clusters, fitting the description of fruit hanging from tall plants.\"},{\"id\":\"1626bd4eb5f11dd75071\",\"label\":\"1\",\"reason\":\"The answer refers generally to an aquatic craft but does not identify a specific craft, and mostly restates the technology detail.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 20,
+    "started": "2026-11-26T08:34:27.733229+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 755,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 311,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 664,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1419
+    }
+  }
+}
