@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "97a224e01e52532fbc196d2cef3db65654cd7e682a115bf380869bfbfa5ec88e",
+    "items": [
+      {
+        "id": "e39f2ec08380a3f9e275",
+        "label": "no",
+        "reason": "Describes drumming as an activity, not a drum."
+      },
+      {
+        "id": "8c281488a29c8933ca21",
+        "label": "yes",
+        "reason": "A snowflake is a crystal of snow."
+      },
+      {
+        "id": "e9f732e2f65f615884ab",
+        "label": "yes",
+        "reason": "The answer explicitly identifies a bicycle."
+      },
+      {
+        "id": "f04e8622a9493f1a60d8",
+        "label": "no",
+        "reason": "Identifies elephant education, not a lion."
+      },
+      {
+        "id": "4ae876e528c5c2bd45ee",
+        "label": "no",
+        "reason": "A drumming stick is an accessory, not a drum."
+      },
+      {
+        "id": "ddaf129c2f0cea692961",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from pineapple."
+      },
+      {
+        "id": "3fa226fcda762eb74b7a",
+        "label": "yes",
+        "reason": "The answer explicitly describes a bookshelf."
+      },
+      {
+        "id": "548d05a8eee11e8ad6cd",
+        "label": "no",
+        "reason": "Describes craftsmanship generally without identifying pliers."
+      },
+      {
+        "id": "dcb5bdf592b01477b4cf",
+        "label": "no",
+        "reason": "Mountain rainstorms are unrelated to an octopus."
+      },
+      {
+        "id": "09e61dd4952bf9a43c01",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from banana."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"e39f2ec08380a3f9e275\",\"label\":\"no\",\"reason\":\"Describes drumming as an activity, not a drum.\"},{\"id\":\"8c281488a29c8933ca21\",\"label\":\"yes\",\"reason\":\"A snowflake is a crystal of snow.\"},{\"id\":\"e9f732e2f65f615884ab\",\"label\":\"yes\",\"reason\":\"The answer explicitly identifies a bicycle.\"},{\"id\":\"f04e8622a9493f1a60d8\",\"label\":\"no\",\"reason\":\"Identifies elephant education, not a lion.\"},{\"id\":\"4ae876e528c5c2bd45ee\",\"label\":\"no\",\"reason\":\"A drumming stick is an accessory, not a drum.\"},{\"id\":\"ddaf129c2f0cea692961\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from pineapple.\"},{\"id\":\"3fa226fcda762eb74b7a\",\"label\":\"yes\",\"reason\":\"The answer explicitly describes a bookshelf.\"},{\"id\":\"548d05a8eee11e8ad6cd\",\"label\":\"no\",\"reason\":\"Describes craftsmanship generally without identifying pliers.\"},{\"id\":\"dcb5bdf592b01477b4cf\",\"label\":\"no\",\"reason\":\"Mountain rainstorms are unrelated to an octopus.\"},{\"id\":\"09e61dd4952bf9a43c01\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from banana.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 50,
+    "started": "2026-11-26T08:16:49.502229+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 450,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 119,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 540,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 990
+    }
+  }
+}
