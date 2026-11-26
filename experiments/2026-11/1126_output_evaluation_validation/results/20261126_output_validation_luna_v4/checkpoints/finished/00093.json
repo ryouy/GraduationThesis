@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "a84ad9ed298961f3a84a86113e78de1b755cc5030e7faba405852682f33f1011",
+    "items": [
+      {
+        "id": "ff23c1b4b674994460e2",
+        "label": "yes",
+        "reason": "The answer explicitly identifies a bicycle, despite the unusual description."
+      },
+      {
+        "id": "52ec6eeb12111a0e56d0",
+        "label": "no",
+        "reason": "Winter migration does not identify a submarine."
+      },
+      {
+        "id": "b0b29bc0babe8d4f2fbe",
+        "label": "no",
+        "reason": "Scissors are a different tool from pliers."
+      },
+      {
+        "id": "3a2b5971107d786bb504",
+        "label": "no",
+        "reason": "The answer describes the elephant's absence, not the elephant itself."
+      },
+      {
+        "id": "f26e0ce8d7fc6af76d12",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from pineapple."
+      },
+      {
+        "id": "d2ec5eedf415c2864509",
+        "label": "no",
+        "reason": "An organized community is related to ants but does not identify an ant."
+      },
+      {
+        "id": "641c51d95ae45e74810c",
+        "label": "yes",
+        "reason": "Cacti is the plural form of cactus."
+      },
+      {
+        "id": "7d3e5b7e2655fce9a776",
+        "label": "yes",
+        "reason": "Raindrops identify rain, the target phenomenon."
+      },
+      {
+        "id": "367f741899cc93109b9f",
+        "label": "no",
+        "reason": "A bookcase is related furniture, but is not a cabinet."
+      },
+      {
+        "id": "16984268d9991194d374",
+        "label": "no",
+        "reason": "A bookcase is related furniture, but is not a cabinet."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"ff23c1b4b674994460e2\",\"label\":\"yes\",\"reason\":\"The answer explicitly identifies a bicycle, despite the unusual description.\"},{\"id\":\"52ec6eeb12111a0e56d0\",\"label\":\"no\",\"reason\":\"Winter migration does not identify a submarine.\"},{\"id\":\"b0b29bc0babe8d4f2fbe\",\"label\":\"no\",\"reason\":\"Scissors are a different tool from pliers.\"},{\"id\":\"3a2b5971107d786bb504\",\"label\":\"no\",\"reason\":\"The answer describes the elephant's absence, not the elephant itself.\"},{\"id\":\"f26e0ce8d7fc6af76d12\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from pineapple.\"},{\"id\":\"d2ec5eedf415c2864509\",\"label\":\"no\",\"reason\":\"An organized community is related to ants but does not identify an ant.\"},{\"id\":\"641c51d95ae45e74810c\",\"label\":\"yes\",\"reason\":\"Cacti is the plural form of cactus.\"},{\"id\":\"7d3e5b7e2655fce9a776\",\"label\":\"yes\",\"reason\":\"Raindrops identify rain, the target phenomenon.\"},{\"id\":\"367f741899cc93109b9f\",\"label\":\"no\",\"reason\":\"A bookcase is related furniture, but is not a cabinet.\"},{\"id\":\"16984268d9991194d374\",\"label\":\"no\",\"reason\":\"A bookcase is related furniture, but is not a cabinet.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 920,
+    "started": "2026-11-26T08:32:18.686765+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 478,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 537,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1015
+    }
+  }
+}
