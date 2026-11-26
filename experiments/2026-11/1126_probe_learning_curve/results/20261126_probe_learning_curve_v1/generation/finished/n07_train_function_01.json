@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "ska_offbeat_chords",
+      "sentence": "Ska arrangements often use its clipped offbeat chords to add rhythmic punctuation between vocal phrases."
+    },
+    {
+      "fact_key": "british_brass_band_harmony",
+      "sentence": "In British brass bands, its section helps fill out the middle harmonies between the high parts and the bass foundation."
+    },
+    {
+      "fact_key": "student_ensemble_practice",
+      "sentence": "School ensemble practice gives beginners a chance to coordinate slide placement, breath, and pitch by ear."
+    },
+    {
+      "fact_key": "dixieland_answering_fills",
+      "sentence": "Dixieland groups may use its sliding fills to answer other players’ melodies and enliven improvised passages."
+    },
+    {
+      "fact_key": "orchestral_concerto_role",
+      "sentence": "A solo concerto can place its expressive melodic line against the contrasting colors of an orchestra."
+    },
+    {
+      "fact_key": "march_countermelody",
+      "sentence": "In a brass-band march, it can carry a countermelody that moves independently beneath the main tune."
+    },
+    {
+      "fact_key": "choral_lower_voice_support",
+      "sentence": "A section can reinforce a choir’s lower vocal parts, adding sustained brass support to large-scale choral works."
+    },
+    {
+      "fact_key": "dynamic_contrast",
+      "sentence": "Its broad dynamic range lets arrangers build from a restrained accompaniment to a forceful contribution at a musical climax."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Ska arrangements often use its clipped offbeat chords to add rhythmic punctuation between vocal phrases.\",\"fact_key\":\"ska_offbeat_chords\"},{\"sentence\":\"In British brass bands, its section helps fill out the middle harmonies between the high parts and the bass foundation.\",\"fact_key\":\"british_brass_band_harmony\"},{\"sentence\":\"School ensemble practice gives beginners a chance to coordinate slide placement, breath, and pitch by ear.\",\"fact_key\":\"student_ensemble_practice\"},{\"sentence\":\"Dixieland groups may use its sliding fills to answer other players’ melodies and enliven improvised passages.\",\"fact_key\":\"dixieland_answering_fills\"},{\"sentence\":\"A solo concerto can place its expressive melodic line against the contrasting colors of an orchestra.\",\"fact_key\":\"orchestral_concerto_role\"},{\"sentence\":\"In a brass-band march, it can carry a countermelody that moves independently beneath the main tune.\",\"fact_key\":\"march_countermelody\"},{\"sentence\":\"A section can reinforce a choir’s lower vocal parts, adding sustained brass support to large-scale choral works.\",\"fact_key\":\"choral_lower_voice_support\"},{\"sentence\":\"Its broad dynamic range lets arrangers build from a restrained accompaniment to a forceful contribution at a musical climax.\",\"fact_key\":\"dynamic_contrast\"}]}",
+  "rejected": [],
+  "request_hash": "3ef1773076963ca69a82a207b916a25dbccf7e786545e743ee2e1bac52c57fb9",
+  "usage": {
+    "completion_tokens": 787,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 512,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2202,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2199,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2989
+  }
+}
