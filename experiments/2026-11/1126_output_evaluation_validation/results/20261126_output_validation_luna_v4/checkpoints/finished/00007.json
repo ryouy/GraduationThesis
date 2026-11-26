@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "51df68eb8031010ff3a6af6a9893ba087af4d5080189c977de2a7f6eadc4ff6d",
+    "items": [
+      {
+        "id": "e94e85e83a67923ed8c5",
+        "label": "yes",
+        "reason": "A pedestrian bike denotes a bicycle."
+      },
+      {
+        "id": "b65ab10c0914e62047f8",
+        "label": "yes",
+        "reason": "The answer directly names a jellyfish."
+      },
+      {
+        "id": "f32fa77aa37d3949bf21",
+        "label": "no",
+        "reason": "A guitar is a different musical instrument."
+      },
+      {
+        "id": "14d9b8819477fffdd871",
+        "label": "no",
+        "reason": "A jellyfish is not an octopus."
+      },
+      {
+        "id": "5f7e6797b7135174eae9",
+        "label": "yes",
+        "reason": "The answer directly identifies a banana."
+      },
+      {
+        "id": "e49048dde4cdef084690",
+        "label": "yes",
+        "reason": "Cacti are a subtype of cactus."
+      },
+      {
+        "id": "be03ddca6aa1cfbd3353",
+        "label": "no",
+        "reason": "Scissors are a different tool from pliers."
+      },
+      {
+        "id": "8e1b52607686f711104c",
+        "label": "no",
+        "reason": "A cactus is not aloe."
+      },
+      {
+        "id": "d43675d77b81f31cecd1",
+        "label": "yes",
+        "reason": "The answer directly names a bicycle."
+      },
+      {
+        "id": "a6c793091b9d12002036",
+        "label": "no",
+        "reason": "The answer describes raindrops, not snow."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"e94e85e83a67923ed8c5\",\"label\":\"yes\",\"reason\":\"A pedestrian bike denotes a bicycle.\"},{\"id\":\"b65ab10c0914e62047f8\",\"label\":\"yes\",\"reason\":\"The answer directly names a jellyfish.\"},{\"id\":\"f32fa77aa37d3949bf21\",\"label\":\"no\",\"reason\":\"A guitar is a different musical instrument.\"},{\"id\":\"14d9b8819477fffdd871\",\"label\":\"no\",\"reason\":\"A jellyfish is not an octopus.\"},{\"id\":\"5f7e6797b7135174eae9\",\"label\":\"yes\",\"reason\":\"The answer directly identifies a banana.\"},{\"id\":\"e49048dde4cdef084690\",\"label\":\"yes\",\"reason\":\"Cacti are a subtype of cactus.\"},{\"id\":\"be03ddca6aa1cfbd3353\",\"label\":\"no\",\"reason\":\"Scissors are a different tool from pliers.\"},{\"id\":\"8e1b52607686f711104c\",\"label\":\"no\",\"reason\":\"A cactus is not aloe.\"},{\"id\":\"d43675d77b81f31cecd1\",\"label\":\"yes\",\"reason\":\"The answer directly names a bicycle.\"},{\"id\":\"a6c793091b9d12002036\",\"label\":\"no\",\"reason\":\"The answer describes raindrops, not snow.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 70,
+    "started": "2026-11-26T08:17:08.740194+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 434,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 124,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 535,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 969
+    }
+  }
+}
