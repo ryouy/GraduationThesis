@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "concert_band_parts",
+      "sentence": "In a concert band, it usually belongs to the low-brass section, where parts may support harmonies or answer melodic phrases."
+    },
+    {
+      "fact_key": "big_band_section_writing",
+      "sentence": "Big-band charts often assign the instrument harmonized riffs and rhythmic accents behind a featured soloist."
+    },
+    {
+      "fact_key": "brass_quintet_middle_voice",
+      "sentence": "In brass quintet writing, its middle-register line can connect higher brass parts with the tuba’s bass foundation."
+    },
+    {
+      "fact_key": "marching_band_arrangements",
+      "sentence": "Marching-band arrangements use its bold, projecting sound for melodic calls and rhythmic figures that remain audible outdoors."
+    },
+    {
+      "fact_key": "second_line_parades",
+      "sentence": "New Orleans second-line parades often include it among the brass voices carrying layered melodies over a steady street beat."
+    },
+    {
+      "fact_key": "musical_theater_pit",
+      "sentence": "In musical-theater pit orchestras, its parts may shift among lyrical lines, rhythmic accents, and sustained ensemble support as scenes change."
+    },
+    {
+      "fact_key": "ensemble_choir_setting",
+      "sentence": "A choir made entirely of this instrument can range from bass foundations to high melodic lines, producing a unified brass texture."
+    },
+    {
+      "fact_key": "studio_microphone_placement",
+      "sentence": "In recording studios, engineers may place a microphone near its bell for direct sound, then adjust distance to blend room ambience."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In a concert band, it usually belongs to the low-brass section, where parts may support harmonies or answer melodic phrases.\",\"fact_key\":\"concert_band_parts\"},{\"sentence\":\"Big-band charts often assign the instrument harmonized riffs and rhythmic accents behind a featured soloist.\",\"fact_key\":\"big_band_section_writing\"},{\"sentence\":\"In brass quintet writing, its middle-register line can connect higher brass parts with the tuba’s bass foundation.\",\"fact_key\":\"brass_quintet_middle_voice\"},{\"sentence\":\"Marching-band arrangements use its bold, projecting sound for melodic calls and rhythmic figures that remain audible outdoors.\",\"fact_key\":\"marching_band_arrangements\"},{\"sentence\":\"New Orleans second-line parades often include it among the brass voices carrying layered melodies over a steady street beat.\",\"fact_key\":\"second_line_parades\"},{\"sentence\":\"In musical-theater pit orchestras, its parts may shift among lyrical lines, rhythmic accents, and sustained ensemble support as scenes change.\",\"fact_key\":\"musical_theater_pit\"},{\"sentence\":\"A choir made entirely of this instrument can range from bass foundations to high melodic lines, producing a unified brass texture.\",\"fact_key\":\"ensemble_choir_setting\"},{\"sentence\":\"In recording studios, engineers may place a microphone near its bell for direct sound, then adjust distance to blend room ambience.\",\"fact_key\":\"studio_microphone_placement\"}]}",
+  "rejected": [],
+  "request_hash": "43fa11c40a35d02920eb9ccb45924fdf594c9ba16fc47680e525625a983f61f4",
+  "usage": {
+    "completion_tokens": 2356,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2048,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1326,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1323,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3682
+  }
+}
