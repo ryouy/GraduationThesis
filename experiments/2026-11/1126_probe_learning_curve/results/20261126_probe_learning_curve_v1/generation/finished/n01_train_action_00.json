@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "starting_motion",
+      "sentence": "To start moving, the rider straddles the frame, places one foot on a pedal, pushes off, then begins pedaling."
+    },
+    {
+      "fact_key": "coasting_without_pedaling",
+      "sentence": "On level ground, continued pedaling maintains motion, while stopping the effort allows the wheels to coast."
+    },
+    {
+      "fact_key": "lower_gear_for_climbing",
+      "sentence": "Before climbing a hill, the rider may select a lower gear, making each pedal stroke easier but slower."
+    },
+    {
+      "fact_key": "easing_pressure_during_shifting",
+      "sentence": "Shifting gears is smoother when pedal pressure eases briefly as the chain moves between sprockets."
+    },
+    {
+      "fact_key": "leaning_through_turns",
+      "sentence": "While turning, the rider steers through the curve and leans slightly to help maintain balance."
+    },
+    {
+      "fact_key": "progressive_braking",
+      "sentence": "Applying both brakes progressively slows the vehicle and helps the rider maintain control on slippery pavement."
+    },
+    {
+      "fact_key": "slowing_before_stopping",
+      "sentence": "For a controlled stop, the rider reduces speed before placing one foot on the ground."
+    },
+    {
+      "fact_key": "pre_ride_safety_checks",
+      "sentence": "Before setting out, checking tire pressure and testing the brakes can reveal problems that affect safe handling."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"To start moving, the rider straddles the frame, places one foot on a pedal, pushes off, then begins pedaling.\",\"fact_key\":\"starting_motion\"},{\"sentence\":\"On level ground, continued pedaling maintains motion, while stopping the effort allows the wheels to coast.\",\"fact_key\":\"coasting_without_pedaling\"},{\"sentence\":\"Before climbing a hill, the rider may select a lower gear, making each pedal stroke easier but slower.\",\"fact_key\":\"lower_gear_for_climbing\"},{\"sentence\":\"Shifting gears is smoother when pedal pressure eases briefly as the chain moves between sprockets.\",\"fact_key\":\"easing_pressure_during_shifting\"},{\"sentence\":\"While turning, the rider steers through the curve and leans slightly to help maintain balance.\",\"fact_key\":\"leaning_through_turns\"},{\"sentence\":\"Applying both brakes progressively slows the vehicle and helps the rider maintain control on slippery pavement.\",\"fact_key\":\"progressive_braking\"},{\"sentence\":\"For a controlled stop, the rider reduces speed before placing one foot on the ground.\",\"fact_key\":\"slowing_before_stopping\"},{\"sentence\":\"Before setting out, checking tire pressure and testing the brakes can reveal problems that affect safe handling.\",\"fact_key\":\"pre_ride_safety_checks\"}]}",
+  "rejected": [],
+  "request_hash": "247c85de251a46d3bc8a5bb04b77fefc3a66144ab0e122fe5d9fd819c7636af3",
+  "usage": {
+    "completion_tokens": 687,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 420,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 744,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1431
+  }
+}
