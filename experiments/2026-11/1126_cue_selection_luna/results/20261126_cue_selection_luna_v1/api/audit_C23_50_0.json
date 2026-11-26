@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_medium_near_0_3",
+        "naturalness": 5,
+        "reason": "A plausible pep-rally scene involving brass instruments, but it fits trumpet and trombone equally.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_medium_near_0_4",
+        "naturalness": 4,
+        "reason": "A bright entrance flourish is plausible for a trumpet and possible for a trombone; the instrument is not specified.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_medium_near_0_5",
+        "naturalness": 4,
+        "reason": "A ceremonial closing call suggests trumpet somewhat more than trombone, though either could plausibly perform it.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_medium_far_0_0",
+        "naturalness": 5,
+        "reason": "Lip slurs are a brass technique, and unchanged fingering points toward a valved instrument; the technique is not exclusive to trumpet.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_medium_far_0_1",
+        "naturalness": 5,
+        "reason": "A high lead line and ceremonial melody could suit either instrument, but the clue does not specifically indicate brass.",
+        "style": "pass",
+        "x_related": 1,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_medium_far_0_2",
+        "naturalness": 5,
+        "reason": "A brass fanfare is plausible for both instruments; the coordinated breath is not distinctive to either.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_medium_far_0_3",
+        "naturalness": 5,
+        "reason": "Either instrument could play an orchestral concerto phrase, but the clue is broadly applicable to soloists.",
+        "style": "pass",
+        "x_related": 1,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_medium_far_0_4",
+        "naturalness": 5,
+        "reason": "The clue explicitly concerns a brass section, which can include either instrument.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_medium_far_0_5",
+        "naturalness": 4,
+        "reason": "Practicing upper range is plausible for both, with somewhat stronger association to trumpet; neither instrument is named.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_far_0_0",
+        "naturalness": 5,
+        "reason": "Buzzing a mouthpiece before practice is a plausible brass warm-up for either instrument.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1580,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 915,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 643,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2223
+  }
+}
