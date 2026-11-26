@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "torpedo firing solution",
+      "sentence": "Before releasing a torpedo, fire-control equipment combines target range, bearing, course, and speed to calculate an aiming solution."
+    },
+    {
+      "fact_key": "sonar refraction layers",
+      "sentence": "Sonar operators may change search depth to account for temperature layers that bend sound and affect detection ranges."
+    },
+    {
+      "fact_key": "silent-running procedures",
+      "sentence": "During silent running, the crew limits avoidable noise by securing loose equipment and reducing machinery activity."
+    },
+    {
+      "fact_key": "gyrocompass heading reference",
+      "sentence": "A gyrocompass provides a heading reference independent of Earth’s magnetic field, supporting navigation underwater."
+    },
+    {
+      "fact_key": "magnetic signature reduction",
+      "sentence": "Degaussing coils generate a controlled magnetic field to reduce the vessel’s magnetic signature."
+    },
+    {
+      "fact_key": "shore power connection",
+      "sentence": "While alongside, shore connections can supply electrical power, allowing onboard generators to be shut down for maintenance."
+    },
+    {
+      "fact_key": "torpedo reloading",
+      "sentence": "After a torpedo launch, reload crews move replacement weapons through the interior on handling rails for storage in launch tubes."
+    },
+    {
+      "fact_key": "sea trials",
+      "sentence": "Before operational deployment, crews use sea trials to test diving, steering, and emergency procedures under real operating conditions."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Before releasing a torpedo, fire-control equipment combines target range, bearing, course, and speed to calculate an aiming solution.\",\"fact_key\":\"torpedo firing solution\"},{\"sentence\":\"Sonar operators may change search depth to account for temperature layers that bend sound and affect detection ranges.\",\"fact_key\":\"sonar refraction layers\"},{\"sentence\":\"During silent running, the crew limits avoidable noise by securing loose equipment and reducing machinery activity.\",\"fact_key\":\"silent-running procedures\"},{\"sentence\":\"A gyrocompass provides a heading reference independent of Earth’s magnetic field, supporting navigation underwater.\",\"fact_key\":\"gyrocompass heading reference\"},{\"sentence\":\"Degaussing coils generate a controlled magnetic field to reduce the vessel’s magnetic signature.\",\"fact_key\":\"magnetic signature reduction\"},{\"sentence\":\"While alongside, shore connections can supply electrical power, allowing onboard generators to be shut down for maintenance.\",\"fact_key\":\"shore power connection\"},{\"sentence\":\"After a torpedo launch, reload crews move replacement weapons through the interior on handling rails for storage in launch tubes.\",\"fact_key\":\"torpedo reloading\"},{\"sentence\":\"Before operational deployment, crews use sea trials to test diving, steering, and emergency procedures under real operating conditions.\",\"fact_key\":\"sea trials\"}]}",
+  "rejected": [],
+  "request_hash": "cf6a061785b12f611f857f87e24f1c9e36f8d3b0ddf2f0e6201dbf2efb0ddcce",
+  "usage": {
+    "completion_tokens": 1655,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1383,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2678,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2675,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4333
+  }
+}
