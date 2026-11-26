@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "bicycle-axle-removal",
+      "sentence": "A mechanic loosens the axle nut to remove a bicycle wheel for a tire repair or hub service."
+    },
+    {
+      "fact_key": "valve-packing-nut-seal",
+      "sentence": "During plumbing repairs, tightening a valve's packing nut can compress the seal and stop a leak around its stem."
+    },
+    {
+      "fact_key": "alternator-belt-service",
+      "sentence": "To replace an alternator, technicians loosen its mounting fasteners so the unit can shift and its drive belt can be removed."
+    },
+    {
+      "fact_key": "vise-bench-mounting",
+      "sentence": "In a woodshop, tightening the mounting nuts secures a bench vise firmly to the workbench."
+    },
+    {
+      "fact_key": "motorcycle-chain-adjustment",
+      "sentence": "When servicing a motorcycle chain, loosening the rear axle nut allows the wheel to move for tension adjustment."
+    },
+    {
+      "fact_key": "mower-blade-removal",
+      "sentence": "Before sharpening a lawn mower blade, a repairer loosens its retaining bolt to remove the blade from the spindle."
+    },
+    {
+      "fact_key": "trailer-hitch-ball-installation",
+      "sentence": "During trailer assembly, tightening the hitch ball's mounting nut secures the coupling point for towing."
+    },
+    {
+      "fact_key": "compressor-foundation-anchoring",
+      "sentence": "At an equipment installation, technicians tighten anchor nuts to hold a compressor's feet firmly against its foundation."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"A mechanic loosens the axle nut to remove a bicycle wheel for a tire repair or hub service.\",\"fact_key\":\"bicycle-axle-removal\"},{\"sentence\":\"During plumbing repairs, tightening a valve's packing nut can compress the seal and stop a leak around its stem.\",\"fact_key\":\"valve-packing-nut-seal\"},{\"sentence\":\"To replace an alternator, technicians loosen its mounting fasteners so the unit can shift and its drive belt can be removed.\",\"fact_key\":\"alternator-belt-service\"},{\"sentence\":\"In a woodshop, tightening the mounting nuts secures a bench vise firmly to the workbench.\",\"fact_key\":\"vise-bench-mounting\"},{\"sentence\":\"When servicing a motorcycle chain, loosening the rear axle nut allows the wheel to move for tension adjustment.\",\"fact_key\":\"motorcycle-chain-adjustment\"},{\"sentence\":\"Before sharpening a lawn mower blade, a repairer loosens its retaining bolt to remove the blade from the spindle.\",\"fact_key\":\"mower-blade-removal\"},{\"sentence\":\"During trailer assembly, tightening the hitch ball's mounting nut secures the coupling point for towing.\",\"fact_key\":\"trailer-hitch-ball-installation\"},{\"sentence\":\"At an equipment installation, technicians tighten anchor nuts to hold a compressor's feet firmly against its foundation.\",\"fact_key\":\"compressor-foundation-anchoring\"}]}",
+  "rejected": [],
+  "request_hash": "4039cfd51dd27097c5564b1dd1120bc8d0587e02025acf89bdb519f4520f6b39",
+  "usage": {
+    "completion_tokens": 1316,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1024,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1913,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1910,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3229
+  }
+}
