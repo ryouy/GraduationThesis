@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "02e2ef859cb73024d5ba9164b179f2611705cba6393f0a953c84285e24252c61",
+    "items": [
+      {
+        "id": "dd8a1b9f7a92182cf6f5",
+        "label": "no",
+        "reason": "A generic shelf for a personal collection is not specifically a bookshelf."
+      },
+      {
+        "id": "f9ed4d1afc96e07658a4",
+        "label": "yes",
+        "reason": "The answer directly names a jellyfish."
+      },
+      {
+        "id": "d67fb0fc47f8c8926eaa",
+        "label": "no",
+        "reason": "Drumming is an activity involving a drum, not the drum itself."
+      },
+      {
+        "id": "01d8ff21e70908ed33bc",
+        "label": "no",
+        "reason": "“Smoothie Magic” does not identify a banana."
+      },
+      {
+        "id": "6712cfc2e87a8970736e",
+        "label": "uncertain",
+        "reason": "“Bike” may refer to a bicycle or a motorcycle."
+      },
+      {
+        "id": "b9ce617d828412c31727",
+        "label": "yes",
+        "reason": "Raindrops are drops of rain."
+      },
+      {
+        "id": "f5018c25cfe6853ecebe",
+        "label": "yes",
+        "reason": "The answer directly refers to ants, the plural of ant."
+      },
+      {
+        "id": "0a54b15ca11ab912d5d5",
+        "label": "no",
+        "reason": "A bookcase is related furniture but is not specifically a cabinet."
+      },
+      {
+        "id": "390113f11f6ec9d27ed3",
+        "label": "yes",
+        "reason": "The answer directly names a jellyfish."
+      },
+      {
+        "id": "9b3498974f554e482404",
+        "label": "yes",
+        "reason": "“Cacti” is the plural of cactus."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"dd8a1b9f7a92182cf6f5\",\"label\":\"no\",\"reason\":\"A generic shelf for a personal collection is not specifically a bookshelf.\"},{\"id\":\"f9ed4d1afc96e07658a4\",\"label\":\"yes\",\"reason\":\"The answer directly names a jellyfish.\"},{\"id\":\"d67fb0fc47f8c8926eaa\",\"label\":\"no\",\"reason\":\"Drumming is an activity involving a drum, not the drum itself.\"},{\"id\":\"01d8ff21e70908ed33bc\",\"label\":\"no\",\"reason\":\"“Smoothie Magic” does not identify a banana.\"},{\"id\":\"6712cfc2e87a8970736e\",\"label\":\"uncertain\",\"reason\":\"“Bike” may refer to a bicycle or a motorcycle.\"},{\"id\":\"b9ce617d828412c31727\",\"label\":\"yes\",\"reason\":\"Raindrops are drops of rain.\"},{\"id\":\"f5018c25cfe6853ecebe\",\"label\":\"yes\",\"reason\":\"The answer directly refers to ants, the plural of ant.\"},{\"id\":\"0a54b15ca11ab912d5d5\",\"label\":\"no\",\"reason\":\"A bookcase is related furniture but is not specifically a cabinet.\"},{\"id\":\"390113f11f6ec9d27ed3\",\"label\":\"yes\",\"reason\":\"The answer directly names a jellyfish.\"},{\"id\":\"9b3498974f554e482404\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural of cactus.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 90,
+    "started": "2026-11-26T08:17:26.617266+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 646,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 298,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 538,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1184
+    }
+  }
+}
