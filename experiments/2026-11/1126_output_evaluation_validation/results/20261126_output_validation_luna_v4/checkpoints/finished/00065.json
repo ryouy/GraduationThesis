@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "e2106d9256bbf0b374fcac085edaa11cc112c81f364596e49e5c7a4121510d27",
+    "items": [
+      {
+        "id": "6531c3ef08a8302aa390",
+        "label": "yes",
+        "reason": "Explicitly refers to a bicycle."
+      },
+      {
+        "id": "fdbdcc14ec080f81a1ab",
+        "label": "no",
+        "reason": "Insectivore describes a feeding category, not a dragonfly."
+      },
+      {
+        "id": "b993d8e67895056fd853",
+        "label": "no",
+        "reason": "A bookshelf is a different piece of furniture."
+      },
+      {
+        "id": "8004704d4ac3a42a494a",
+        "label": "no",
+        "reason": "Identifies a banana, not a pineapple."
+      },
+      {
+        "id": "5de033b2b5cc456c6347",
+        "label": "no",
+        "reason": "A smoothie berry does not identify a pineapple."
+      },
+      {
+        "id": "bffb91d3550f96749554",
+        "label": "no",
+        "reason": "Cacti are a related but distinct plant group."
+      },
+      {
+        "id": "0b12be2cce01165e848b",
+        "label": "yes",
+        "reason": "Explicitly refers to jellyfish."
+      },
+      {
+        "id": "3074a15f11540be96fe0",
+        "label": "no",
+        "reason": "Mighty Mound does not identify a dragonfly."
+      },
+      {
+        "id": "5a1ad8e700e9dff680b8",
+        "label": "yes",
+        "reason": "Names scissors directly."
+      },
+      {
+        "id": "ebd5a38ea4a427884e0e",
+        "label": "no",
+        "reason": "Ecosystem protector describes a role, not an elephant."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"6531c3ef08a8302aa390\",\"label\":\"yes\",\"reason\":\"Explicitly refers to a bicycle.\"},{\"id\":\"fdbdcc14ec080f81a1ab\",\"label\":\"no\",\"reason\":\"Insectivore describes a feeding category, not a dragonfly.\"},{\"id\":\"b993d8e67895056fd853\",\"label\":\"no\",\"reason\":\"A bookshelf is a different piece of furniture.\"},{\"id\":\"8004704d4ac3a42a494a\",\"label\":\"no\",\"reason\":\"Identifies a banana, not a pineapple.\"},{\"id\":\"5de033b2b5cc456c6347\",\"label\":\"no\",\"reason\":\"A smoothie berry does not identify a pineapple.\"},{\"id\":\"bffb91d3550f96749554\",\"label\":\"no\",\"reason\":\"Cacti are a related but distinct plant group.\"},{\"id\":\"0b12be2cce01165e848b\",\"label\":\"yes\",\"reason\":\"Explicitly refers to jellyfish.\"},{\"id\":\"3074a15f11540be96fe0\",\"label\":\"no\",\"reason\":\"Mighty Mound does not identify a dragonfly.\"},{\"id\":\"5a1ad8e700e9dff680b8\",\"label\":\"yes\",\"reason\":\"Names scissors directly.\"},{\"id\":\"ebd5a38ea4a427884e0e\",\"label\":\"no\",\"reason\":\"Ecosystem protector describes a role, not an elephant.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 640,
+    "started": "2026-11-26T08:25:58.850430+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 424,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 99,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 554,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 978
+    }
+  }
+}
