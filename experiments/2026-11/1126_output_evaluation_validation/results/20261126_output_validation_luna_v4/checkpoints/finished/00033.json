@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "99a5526e47d4060c4884c77c90a0cddb3bef30297b0cb4216d24709c455cbc77",
+    "items": [
+      {
+        "id": "1570086f4ac0731f4504",
+        "label": "no",
+        "reason": "Pen and pencil are unrelated objects, not elephants."
+      },
+      {
+        "id": "1353f8e8f6b1c6570ed7",
+        "label": "no",
+        "reason": "This names a trait of elephants, not an elephant itself."
+      },
+      {
+        "id": "d0a6ea02a6592fc4dce7",
+        "label": "no",
+        "reason": "Cacti are a different group of plants, not aloe."
+      },
+      {
+        "id": "23717a151a57e80dc66a",
+        "label": "no",
+        "reason": "Anticide refers to something used against ants, not a dragonfly."
+      },
+      {
+        "id": "0e10826e89cb9a565143",
+        "label": "no",
+        "reason": "The answer describes raindrops, not snow."
+      },
+      {
+        "id": "e41032c924cb4deeccad",
+        "label": "no",
+        "reason": "The answer describes raindrops, not snow."
+      },
+      {
+        "id": "fe4edd35c866192c7fcf",
+        "label": "no",
+        "reason": "A drumming stick is an accessory, not a tambourine."
+      },
+      {
+        "id": "2afaa0f20de01153a23b",
+        "label": "no",
+        "reason": "A smoothie-themed phrase does not identify a pineapple."
+      },
+      {
+        "id": "151d49c9f1b0409e3ff6",
+        "label": "yes",
+        "reason": "The answer directly names a jellyfish."
+      },
+      {
+        "id": "f442b440e0606e2607ed",
+        "label": "no",
+        "reason": "Insect is a broad class that includes dragonflies, not the specific target."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"1570086f4ac0731f4504\",\"label\":\"no\",\"reason\":\"Pen and pencil are unrelated objects, not elephants.\"},{\"id\":\"1353f8e8f6b1c6570ed7\",\"label\":\"no\",\"reason\":\"This names a trait of elephants, not an elephant itself.\"},{\"id\":\"d0a6ea02a6592fc4dce7\",\"label\":\"no\",\"reason\":\"Cacti are a different group of plants, not aloe.\"},{\"id\":\"23717a151a57e80dc66a\",\"label\":\"no\",\"reason\":\"Anticide refers to something used against ants, not a dragonfly.\"},{\"id\":\"0e10826e89cb9a565143\",\"label\":\"no\",\"reason\":\"The answer describes raindrops, not snow.\"},{\"id\":\"e41032c924cb4deeccad\",\"label\":\"no\",\"reason\":\"The answer describes raindrops, not snow.\"},{\"id\":\"fe4edd35c866192c7fcf\",\"label\":\"no\",\"reason\":\"A drumming stick is an accessory, not a tambourine.\"},{\"id\":\"2afaa0f20de01153a23b\",\"label\":\"no\",\"reason\":\"A smoothie-themed phrase does not identify a pineapple.\"},{\"id\":\"151d49c9f1b0409e3ff6\",\"label\":\"yes\",\"reason\":\"The answer directly names a jellyfish.\"},{\"id\":\"f442b440e0606e2607ed\",\"label\":\"no\",\"reason\":\"Insect is a broad class that includes dragonflies, not the specific target.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 330,
+    "started": "2026-11-26T08:21:05.301737+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 509,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 156,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 531,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1040
+    }
+  }
+}
