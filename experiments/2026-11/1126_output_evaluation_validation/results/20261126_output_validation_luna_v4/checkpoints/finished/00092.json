@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "aede29cb563723af460c5b26a2379ae47214f43071eb85172d3379859a6480bd",
+    "items": [
+      {
+        "id": "ff27b2fc86e9d3269526",
+        "label": "no",
+        "reason": "Describes rain, not snow."
+      },
+      {
+        "id": "ed97b1e0a0d3f4a61798",
+        "label": "no",
+        "reason": "Identifies a tiger, not a lion."
+      },
+      {
+        "id": "9bc5e8d90e8d92d99b8a",
+        "label": "no",
+        "reason": "Cacti are not aloe."
+      },
+      {
+        "id": "f0030a337b023c20abff",
+        "label": "yes",
+        "reason": "Explicitly identifies rain."
+      },
+      {
+        "id": "682db00d95963073b219",
+        "label": "no",
+        "reason": "Cacti are not aloe."
+      },
+      {
+        "id": "cf752d08e56d7af7d689",
+        "label": "no",
+        "reason": "Identifies a bicycle, not a submarine."
+      },
+      {
+        "id": "7987ffd8df03e7552131",
+        "label": "yes",
+        "reason": "Explicitly identifies a jellyfish."
+      },
+      {
+        "id": "949ba2cdb053da5876a0",
+        "label": "no",
+        "reason": "Identifies scissors, not pliers."
+      },
+      {
+        "id": "701acf2baf1337a9f135",
+        "label": "no",
+        "reason": "Identifies a jellyfish, not an octopus."
+      },
+      {
+        "id": "cf5e149b16eaff1d6523",
+        "label": "no",
+        "reason": "Identifies a bookcase, not a cabinet."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"ff27b2fc86e9d3269526\",\"label\":\"no\",\"reason\":\"Describes rain, not snow.\"},{\"id\":\"ed97b1e0a0d3f4a61798\",\"label\":\"no\",\"reason\":\"Identifies a tiger, not a lion.\"},{\"id\":\"9bc5e8d90e8d92d99b8a\",\"label\":\"no\",\"reason\":\"Cacti are not aloe.\"},{\"id\":\"f0030a337b023c20abff\",\"label\":\"yes\",\"reason\":\"Explicitly identifies rain.\"},{\"id\":\"682db00d95963073b219\",\"label\":\"no\",\"reason\":\"Cacti are not aloe.\"},{\"id\":\"cf752d08e56d7af7d689\",\"label\":\"no\",\"reason\":\"Identifies a bicycle, not a submarine.\"},{\"id\":\"7987ffd8df03e7552131\",\"label\":\"yes\",\"reason\":\"Explicitly identifies a jellyfish.\"},{\"id\":\"949ba2cdb053da5876a0\",\"label\":\"no\",\"reason\":\"Identifies scissors, not pliers.\"},{\"id\":\"701acf2baf1337a9f135\",\"label\":\"no\",\"reason\":\"Identifies a jellyfish, not an octopus.\"},{\"id\":\"cf5e149b16eaff1d6523\",\"label\":\"no\",\"reason\":\"Identifies a bookcase, not a cabinet.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 910,
+    "started": "2026-11-26T08:32:10.687268+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 375,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 61,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 540,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 915
+    }
+  }
+}
