@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "unaccompanied_audition",
+      "sentence": "At a conservatory audition, a candidate may play an exposed excerpt alone, letting evaluators hear phrasing and intonation without ensemble cover."
+    },
+    {
+      "fact_key": "reverberant_hall_articulation",
+      "sentence": "In a highly reverberant hall, performers may shorten note lengths so rapid passages remain clear rather than blurred by lingering reflections."
+    },
+    {
+      "fact_key": "individual_lesson_passage_work",
+      "sentence": "A private lesson may isolate troublesome slide changes, with an instructor slowing a passage before restoring its intended tempo."
+    },
+    {
+      "fact_key": "cold_weather_hand_comfort",
+      "sentence": "At a winter outdoor ceremony, keeping the instrument sheltered until shortly before playing helps prevent the metal from chilling the hands."
+    },
+    {
+      "fact_key": "workshop_slide_inspection",
+      "sentence": "In a repair workshop, technicians may test the slide’s travel to locate spots where movement catches."
+    },
+    {
+      "fact_key": "solo_competition_sight_reading",
+      "sentence": "A judged solo competition may require a prepared work and sight-reading, placing performance under unfamiliar musical demands."
+    },
+    {
+      "fact_key": "stage_monitoring",
+      "sentence": "On an amplified stage, a monitor speaker can help the player hear their own part amid electric instruments and drums."
+    },
+    {
+      "fact_key": "windy_performance_score_security",
+      "sentence": "Windy outdoor concerts can send loose score pages flying, so performers commonly secure sheet music with clips or weights."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"At a conservatory audition, a candidate may play an exposed excerpt alone, letting evaluators hear phrasing and intonation without ensemble cover.\",\"fact_key\":\"unaccompanied_audition\"},{\"sentence\":\"In a highly reverberant hall, performers may shorten note lengths so rapid passages remain clear rather than blurred by lingering reflections.\",\"fact_key\":\"reverberant_hall_articulation\"},{\"sentence\":\"A private lesson may isolate troublesome slide changes, with an instructor slowing a passage before restoring its intended tempo.\",\"fact_key\":\"individual_lesson_passage_work\"},{\"sentence\":\"At a winter outdoor ceremony, keeping the instrument sheltered until shortly before playing helps prevent the metal from chilling the hands.\",\"fact_key\":\"cold_weather_hand_comfort\"},{\"sentence\":\"In a repair workshop, technicians may test the slide’s travel to locate spots where movement catches.\",\"fact_key\":\"workshop_slide_inspection\"},{\"sentence\":\"A judged solo competition may require a prepared work and sight-reading, placing performance under unfamiliar musical demands.\",\"fact_key\":\"solo_competition_sight_reading\"},{\"sentence\":\"On an amplified stage, a monitor speaker can help the player hear their own part amid electric instruments and drums.\",\"fact_key\":\"stage_monitoring\"},{\"sentence\":\"Windy outdoor concerts can send loose score pages flying, so performers commonly secure sheet music with clips or weights.\",\"fact_key\":\"windy_performance_score_security\"}]}",
+  "rejected": [],
+  "request_hash": "78ebc1befd3a892cd8dec2a052f5b18c66bcc927792c7f60b62a108bedad2971",
+  "usage": {
+    "completion_tokens": 1747,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1442,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 3113,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 3110,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4860
+  }
+}
