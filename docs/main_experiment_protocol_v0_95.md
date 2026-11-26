@@ -90,6 +90,19 @@
 
 ## 2. モデル・実行環境・固定情報
 
+### 研究室の共用計算機（2026-11-26 提供情報）
+
+| 計算機 | OS | CPU | RAM | GPU |
+|---|---|---|---:|---|
+| Wolverine | Windows 11 | Ryzen Threadripper 3970X（32コア） | 256 GB | RTX 4090（2025年11月までに換装） |
+| Walrus | Windows 11 | Core i9-13900（24コア） | 64 GB | RTX 3090 |
+| Woodpecker | Windows 11 | Core i7-9800X（8コア） | 128 GB | RTX 3070（2023年8月換装との記録） |
+| Mandarin | macOS | Apple M3（8コア） | 24 GB | M3内蔵GPU |
+| Mickey（2024年12月引退） | macOS | 第9世代Core i9（8コア） | 40 GB | 記載なし |
+
+提供された設備情報に基づくハードウェア一覧。WoodpeckerのGPUは最新の換装記録を採用したが、現物は未確認。
+
+
 > **2026-11-26 更新：対象LLMの段階的拡張方針。** 当面はGoogle Colab上でQwen2.5-0.5B-Instructを用いて準備・本実験を進める。将来的には研究室の高性能PCを利用し、同系列の1.5B・3B・7B-Instructも比較候補とする。追加モデルの実行・規模・採択は未確定であり、0.5Bの実験開始条件にはしない。
 
 | 対象LLM | 位置付け |
