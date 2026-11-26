@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "thread_direction",
+      "sentence": "With standard right-handed threads, turning clockwise usually tightens a fastener, while turning counterclockwise loosens it."
+    },
+    {
+      "fact_key": "handle_leverage",
+      "sentence": "A longer handle gives the hand more leverage, helping turn a fastener that resists movement."
+    },
+    {
+      "fact_key": "short_strokes",
+      "sentence": "In a cramped spot, short turns with repeated grip adjustments can advance a fastener where a full rotation is impossible."
+    },
+    {
+      "fact_key": "controlled_tightening",
+      "sentence": "For delicate assembly, users make small turns and check how firmly the fastener is seated before continuing."
+    },
+    {
+      "fact_key": "stopping_at_surface",
+      "sentence": "When a fastener becomes flush with the surface, users stop turning to avoid driving it too deeply."
+    },
+    {
+      "fact_key": "pilot_hole_guidance",
+      "sentence": "A pilot hole in wood can guide a fastener and reduce the chance of splitting as it is driven."
+    },
+    {
+      "fact_key": "breaking_stiction",
+      "sentence": "To loosen a stuck fastener, a brief push in the tightening direction may help break its resistance before reversal."
+    },
+    {
+      "fact_key": "lifting_removed_fastener",
+      "sentence": "After removing a fastener, users lift it clear of the workpiece once its threads have disengaged."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"With standard right-handed threads, turning clockwise usually tightens a fastener, while turning counterclockwise loosens it.\",\"fact_key\":\"thread_direction\"},{\"sentence\":\"A longer handle gives the hand more leverage, helping turn a fastener that resists movement.\",\"fact_key\":\"handle_leverage\"},{\"sentence\":\"In a cramped spot, short turns with repeated grip adjustments can advance a fastener where a full rotation is impossible.\",\"fact_key\":\"short_strokes\"},{\"sentence\":\"For delicate assembly, users make small turns and check how firmly the fastener is seated before continuing.\",\"fact_key\":\"controlled_tightening\"},{\"sentence\":\"When a fastener becomes flush with the surface, users stop turning to avoid driving it too deeply.\",\"fact_key\":\"stopping_at_surface\"},{\"sentence\":\"A pilot hole in wood can guide a fastener and reduce the chance of splitting as it is driven.\",\"fact_key\":\"pilot_hole_guidance\"},{\"sentence\":\"To loosen a stuck fastener, a brief push in the tightening direction may help break its resistance before reversal.\",\"fact_key\":\"breaking_stiction\"},{\"sentence\":\"After removing a fastener, users lift it clear of the workpiece once its threads have disengaged.\",\"fact_key\":\"lifting_removed_fastener\"}]}",
+  "rejected": [],
+  "request_hash": "71726625db1822e1cfa32da6c2f65a52d946d080610446a0df1eeb7a3f1727fe",
+  "usage": {
+    "completion_tokens": 723,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 460,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 913,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1636
+  }
+}
