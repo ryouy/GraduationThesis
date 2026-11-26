@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "a8e8d39b4f00d6e8d49d1f8314b84f97159517a042a04b648bfb3f1bec42b5eb",
+    "items": [
+      {
+        "id": "f083cf8275782b112733",
+        "label": "2",
+        "reason": "A garden ant naturally fits a small creature gathering food along the ground."
+      },
+      {
+        "id": "2647d54caf1bc37f3be2",
+        "label": "2",
+        "reason": "Ants are well known for coordinated food transport back to their nest."
+      },
+      {
+        "id": "da5b1a981d27039c3f01",
+        "label": "2",
+        "reason": "The answer accurately restates that baking depends on precise measurements."
+      },
+      {
+        "id": "4ca75c206c1a9055ce6c",
+        "label": "1",
+        "reason": "It suggests an organized creature, but “Beast of Order” does not identify the foraging animal."
+      },
+      {
+        "id": "b35e7a13352d82b81433",
+        "label": "2",
+        "reason": "A bookcase is a tall unit with shelves suitable for displaying collections and decor."
+      },
+      {
+        "id": "16ec236d1defbd7aebbd",
+        "label": "1",
+        "reason": "It relates to rhythmic performance, but describes drumming's effect rather than identifying the sound-producing instrument."
+      },
+      {
+        "id": "2956b82ea6457e4fa42c",
+        "label": "1",
+        "reason": "Raindrops fit the clue, but waterfalls are not indicated by droplets rippling in puddles."
+      },
+      {
+        "id": "4b353b847a880a183ac0",
+        "label": "2",
+        "reason": "Cacti have thick, fleshy features and adaptations for surviving hot, harsh climates."
+      },
+      {
+        "id": "459ff06abf195123c3da",
+        "label": "2",
+        "reason": "Elephants are commonly found in savannas and grasslands."
+      },
+      {
+        "id": "b54c2b4e73dc97879717",
+        "label": "2",
+        "reason": "The answer naturally describes rain, matching the falling droplets and refreshing atmosphere."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"f083cf8275782b112733\",\"label\":\"2\",\"reason\":\"A garden ant naturally fits a small creature gathering food along the ground.\"},{\"id\":\"2647d54caf1bc37f3be2\",\"label\":\"2\",\"reason\":\"Ants are well known for coordinated food transport back to their nest.\"},{\"id\":\"da5b1a981d27039c3f01\",\"label\":\"2\",\"reason\":\"The answer accurately restates that baking depends on precise measurements.\"},{\"id\":\"4ca75c206c1a9055ce6c\",\"label\":\"1\",\"reason\":\"It suggests an organized creature, but “Beast of Order” does not identify the foraging animal.\"},{\"id\":\"b35e7a13352d82b81433\",\"label\":\"2\",\"reason\":\"A bookcase is a tall unit with shelves suitable for displaying collections and decor.\"},{\"id\":\"16ec236d1defbd7aebbd\",\"label\":\"1\",\"reason\":\"It relates to rhythmic performance, but describes drumming's effect rather than identifying the sound-producing instrument.\"},{\"id\":\"2956b82ea6457e4fa42c\",\"label\":\"1\",\"reason\":\"Raindrops fit the clue, but waterfalls are not indicated by droplets rippling in puddles.\"},{\"id\":\"4b353b847a880a183ac0\",\"label\":\"2\",\"reason\":\"Cacti have thick, fleshy features and adaptations for surviving hot, harsh climates.\"},{\"id\":\"459ff06abf195123c3da\",\"label\":\"2\",\"reason\":\"Elephants are commonly found in savannas and grasslands.\"},{\"id\":\"b54c2b4e73dc97879717\",\"label\":\"2\",\"reason\":\"The answer naturally describes rain, matching the falling droplets and refreshing atmosphere.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 390,
+    "started": "2026-11-26T09:33:39.740288+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 605,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 212,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 712,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1317
+    }
+  }
+}
