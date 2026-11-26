@@ -1,0 +1,29 @@
+{
+  "data": {
+    "cues": [
+      "Before starting, a rider swings a leg over the frame and settles onto the saddle.",
+      "The rider presses the pedals in steady strokes, rolling forward along a paved path.",
+      "At a junction, the rider extends an arm to signal a turn to nearby drivers.",
+      "Riders lean into a bend, guiding the front wheel around the curve without losing balance.",
+      "To cross a shallow curb, the rider briefly lifts the front wheel and rolls onward.",
+      "At a traffic signal, the rider stops and plants one foot on the ground while waiting."
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1125,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 998,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 811,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1936
+  }
+}
