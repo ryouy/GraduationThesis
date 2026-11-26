@@ -73,6 +73,3 @@ main{grid-area:main;min-width:0;max-width:100%;overflow-x:clip}
 @container (max-width: 420px){#content img[align="right"]{float:none;display:block;width:100%;max-width:100%;margin:8px auto 14px}}
 main{container-type:inline-size}
 
-/* Keep the overview heading beside the right-aligned illustration. */
-#content img[align="right"]{margin-top:4px}
-#content:has(> a:first-child img[align="right"]) > h1:first-of-type{margin-top:0;border-bottom:0;padding-bottom:0;font-size:clamp(1.35rem,2.3vw,1.95rem)}

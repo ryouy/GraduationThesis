@@ -1,12 +1,14 @@
-<a href="Interim_Posters/LLM%20Concept%20Probe%20Infographic.png"><img src="Interim_Posters/LLM%20Concept%20Probe%20Infographic.png" alt="LLM Concept Probe — 研究概要図" align="right" width="48%"></a>
-
 # Graduation Thesis｜LLMにおける抑制概念と意味的距離
 
 <!-- github-only:start -->
 [![Web版](https://img.shields.io/badge/Web版-2563eb?style=flat)](https://ryouy.github.io/GraduationThesis/)
 <!-- github-only:end -->
 
-LLMに対する「Xについて考えないで」という抑制指示の下で、手がかりの意味的距離と内部表現の関係をConcept Probe・Logit Lensで分析する卒業研究のリポジトリ。最終出力は内部解析との対応を見るための補助指標として扱います。
+<a href="Interim_Posters/LLM%20Concept%20Probe%20Infographic.png"><img src="Interim_Posters/LLM%20Concept%20Probe%20Infographic.png" alt="LLM Concept Probe — 研究概要図" align="right" width="48%"></a>
+
+LLMに対する「Xについて考えないで」という抑制指示の下で、対象概念Xと手がかり（Cue）の意味的距離が内部表現とどのように関係するかを調べる卒業研究のリポジトリです。
+
+本実験では、抑制指示（Avoid X）と中立的な指示（Neutral X）を比較し、約50の対象概念について、意味的に近い手がかりから無関係な手がかりまでを段階的に提示する計画です。生成直前の内部表現をConcept Probe・Logit Lensで層ごとに分析し、最終出力における対象概念の言及は、内部解析との対応を見るための補助指標として扱います。
 
 <br clear="right">
 
