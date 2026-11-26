@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "mouthpiece_buzzing_practice",
+      "sentence": "Players often buzz melodies on the detached mouthpiece as a warm-up, practicing steady tone and accurate pitch without the full assembly."
+    },
+    {
+      "fact_key": "practice_mute_use",
+      "sentence": "For quiet practice, a compact mute fitted into the bell reduces volume, though it can increase resistance and alter response."
+    },
+    {
+      "fact_key": "stemmed_mute_adjustment",
+      "sentence": "With a stemmed mute, removing or repositioning its central stem changes resonance and produces contrasting nasal tone colors."
+    },
+    {
+      "fact_key": "vocal_growl_effect",
+      "sentence": "Growling while blowing adds a rough, distorted quality while the pitched sound continues."
+    },
+    {
+      "fact_key": "half_valve_glissando",
+      "sentence": "Partially depressing the valves while sustaining a note can create a sliding, smeared effect between pitches."
+    },
+    {
+      "fact_key": "alternate_fingerings",
+      "sentence": "Players may choose alternate valve combinations for particular notes to improve intonation or make rapid passages easier."
+    },
+    {
+      "fact_key": "slide_greasing",
+      "sentence": "Applying slide grease lets removable tuning slides move smoothly while helping maintain an airtight fit."
+    },
+    {
+      "fact_key": "pedal_tone_production",
+      "sentence": "Low pedal tones are produced by relaxing the embouchure and adjusting airflow to vibrate below the ordinary playable register."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Players often buzz melodies on the detached mouthpiece as a warm-up, practicing steady tone and accurate pitch without the full assembly.\",\"fact_key\":\"mouthpiece_buzzing_practice\"},{\"sentence\":\"For quiet practice, a compact mute fitted into the bell reduces volume, though it can increase resistance and alter response.\",\"fact_key\":\"practice_mute_use\"},{\"sentence\":\"With a stemmed mute, removing or repositioning its central stem changes resonance and produces contrasting nasal tone colors.\",\"fact_key\":\"stemmed_mute_adjustment\"},{\"sentence\":\"Growling while blowing adds a rough, distorted quality while the pitched sound continues.\",\"fact_key\":\"vocal_growl_effect\"},{\"sentence\":\"Partially depressing the valves while sustaining a note can create a sliding, smeared effect between pitches.\",\"fact_key\":\"half_valve_glissando\"},{\"sentence\":\"Players may choose alternate valve combinations for particular notes to improve intonation or make rapid passages easier.\",\"fact_key\":\"alternate_fingerings\"},{\"sentence\":\"Applying slide grease lets removable tuning slides move smoothly while helping maintain an airtight fit.\",\"fact_key\":\"slide_greasing\"},{\"sentence\":\"Low pedal tones are produced by relaxing the embouchure and adjusting airflow to vibrate below the ordinary playable register.\",\"fact_key\":\"pedal_tone_production\"}]}",
+  "rejected": [],
+  "request_hash": "247b4b1d2ba075aae9947538bdc1c7b3256fa1cef6ec0c552b618f7f1ba70467",
+  "usage": {
+    "completion_tokens": 2160,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1869,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2763,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2760,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4923
+  }
+}
