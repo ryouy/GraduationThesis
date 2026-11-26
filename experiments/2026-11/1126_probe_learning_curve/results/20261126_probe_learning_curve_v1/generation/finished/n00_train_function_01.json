@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "exercise_fuel",
+      "sentence": "Endurance athletes often eat the ripe fruit before exercise because its digestible carbohydrates provide readily available energy."
+    },
+    {
+      "fact_key": "yogurt_topping",
+      "sentence": "Sliced over plain yogurt, the soft flesh adds sweetness and a tender contrast to its creamy base."
+    },
+    {
+      "fact_key": "pseudostem_core_food",
+      "sentence": "In some cuisines, the tender inner core of the pseudostem is chopped and cooked as a vegetable."
+    },
+    {
+      "fact_key": "surplus_livestock_feed",
+      "sentence": "Farmers may feed surplus or damaged harvests to livestock, converting unsold produce into animal nutrition."
+    },
+    {
+      "fact_key": "pseudostem_field_mulch",
+      "sentence": "After harvest, chopped pseudostems can be spread over fields as mulch, returning organic matter to the soil."
+    },
+    {
+      "fact_key": "sweet_fritters",
+      "sentence": "In some regions, ripe slices are dipped in batter and fried into sweet fritters for dessert or snacks."
+    },
+    {
+      "fact_key": "wildlife_seed_dispersal",
+      "sentence": "Wild, seeded fruits provide food for forest animals, which can disperse seeds through their droppings."
+    },
+    {
+      "fact_key": "convenient_between_meal_snack",
+      "sentence": "A naturally sweet ripe portion can serve as a quick snack between meals without preparation beyond peeling."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Endurance athletes often eat the ripe fruit before exercise because its digestible carbohydrates provide readily available energy.\",\"fact_key\":\"exercise_fuel\"},{\"sentence\":\"Sliced over plain yogurt, the soft flesh adds sweetness and a tender contrast to its creamy base.\",\"fact_key\":\"yogurt_topping\"},{\"sentence\":\"In some cuisines, the tender inner core of the pseudostem is chopped and cooked as a vegetable.\",\"fact_key\":\"pseudostem_core_food\"},{\"sentence\":\"Farmers may feed surplus or damaged harvests to livestock, converting unsold produce into animal nutrition.\",\"fact_key\":\"surplus_livestock_feed\"},{\"sentence\":\"After harvest, chopped pseudostems can be spread over fields as mulch, returning organic matter to the soil.\",\"fact_key\":\"pseudostem_field_mulch\"},{\"sentence\":\"In some regions, ripe slices are dipped in batter and fried into sweet fritters for dessert or snacks.\",\"fact_key\":\"sweet_fritters\"},{\"sentence\":\"Wild, seeded fruits provide food for forest animals, which can disperse seeds through their droppings.\",\"fact_key\":\"wildlife_seed_dispersal\"},{\"sentence\":\"A naturally sweet ripe portion can serve as a quick snack between meals without preparation beyond peeling.\",\"fact_key\":\"convenient_between_meal_snack\"}]}",
+  "rejected": [],
+  "request_hash": "494cc5d120d4604f4be0f5cdfca9c12c6295c262da8e983285ff35f050586684",
+  "usage": {
+    "completion_tokens": 3125,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2823,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2156,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 2153
+    },
+    "total_tokens": 5281
+  }
+}
