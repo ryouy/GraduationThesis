@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "0fbf67056967f907400548055a3e52052be5dc22c30642fecba172c91fea2b3c",
+    "items": [
+      {
+        "id": "9c35b8aefcb361d760a7",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit, not a pineapple."
+      },
+      {
+        "id": "44083b4e6817fff0dc22",
+        "label": "no",
+        "reason": "A bookcase is related furniture but is not a cabinet."
+      },
+      {
+        "id": "5cbaa4941834c548d619",
+        "label": "no",
+        "reason": "A jellyfish is a different sea animal, not an octopus."
+      },
+      {
+        "id": "ffb261d292f21399ba7f",
+        "label": "no",
+        "reason": "An insectivore is an animal that eats insects, not an ant."
+      },
+      {
+        "id": "de100f64e3234ce90139",
+        "label": "no",
+        "reason": "The answer identifies scissors, a different tool from pliers."
+      },
+      {
+        "id": "099e6c5750774703656b",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit, not a banana."
+      },
+      {
+        "id": "9f0f42384a9160628b12",
+        "label": "yes",
+        "reason": "The answer names jellyfish."
+      },
+      {
+        "id": "2e8d7a53fb06ec4cb461",
+        "label": "no",
+        "reason": "The answer describes a bicycle, not a submarine."
+      },
+      {
+        "id": "4d81caddb7668c6a700b",
+        "label": "yes",
+        "reason": "The answer names jellyfish."
+      },
+      {
+        "id": "2cf286b5d290ca167df5",
+        "label": "no",
+        "reason": "Drumming is an activity; it does not identify a drum."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"9c35b8aefcb361d760a7\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit, not a pineapple.\"},{\"id\":\"44083b4e6817fff0dc22\",\"label\":\"no\",\"reason\":\"A bookcase is related furniture but is not a cabinet.\"},{\"id\":\"5cbaa4941834c548d619\",\"label\":\"no\",\"reason\":\"A jellyfish is a different sea animal, not an octopus.\"},{\"id\":\"ffb261d292f21399ba7f\",\"label\":\"no\",\"reason\":\"An insectivore is an animal that eats insects, not an ant.\"},{\"id\":\"de100f64e3234ce90139\",\"label\":\"no\",\"reason\":\"The answer identifies scissors, a different tool from pliers.\"},{\"id\":\"099e6c5750774703656b\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit, not a banana.\"},{\"id\":\"9f0f42384a9160628b12\",\"label\":\"yes\",\"reason\":\"The answer names jellyfish.\"},{\"id\":\"2e8d7a53fb06ec4cb461\",\"label\":\"no\",\"reason\":\"The answer describes a bicycle, not a submarine.\"},{\"id\":\"4d81caddb7668c6a700b\",\"label\":\"yes\",\"reason\":\"The answer names jellyfish.\"},{\"id\":\"2cf286b5d290ca167df5\",\"label\":\"no\",\"reason\":\"Drumming is an activity; it does not identify a drum.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 860,
+    "started": "2026-11-26T08:29:07.465790+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 419,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 77,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 542,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 961
+    }
+  }
+}
