@@ -1,0 +1,39 @@
+{
+  "config_sha256": "bc61e6c95a58f244ca35daaab9eee8561023b8f1ecab601f2cb0ca5e1cbadbb1",
+  "files": {
+    "absolute_distance_summary.csv": "fb3b30a6a3c084859310ae020d4cd1ff134eb2b6f58dba86915cfcf9872918b3",
+    "analysis_summary.md": "80e2a903ec0fcf915e47c4a9c9cfaede844f6e218c30c2a3e99e25e09a771acf",
+    "api_usage.csv": "7d1a8c51638a8752e0f1ec97eaf7ff6d3350f3b7f16435354a62a61b36423457",
+    "category_summary.csv": "ee644a4522723b6b86f28d38b8ac1129b63da05fb225d340e62beb32b8ca60e6",
+    "config.json": "bc61e6c95a58f244ca35daaab9eee8561023b8f1ecab601f2cb0ca5e1cbadbb1",
+    "descriptions.csv": "5d7d569cca70795e40b9dd9227d31243a50ec0b11110fa081f2657a5c4fe1944",
+    "distance_auc_within_x.csv": "903ba90524cbe510607f3ad447a65917a46d0cf25520d306e3acc3e735d21f43",
+    "distance_band_summary.csv": "a8971f27af218d473ca7650356827ae20439741f80b59bf111ac37b228ba1aa1",
+    "eval_predictions.csv": "724fb6997f6b497a043861b1756d1b037e853439fe74b661e285662461eeffec",
+    "figures/distance_auc.png": "721b52858a9b9eb3626f7f45043310a37814a257170eab4bd4efa250a8282362",
+    "figures/distance_band_auc.png": "79a4fa643a236ffb76479a7924f8cb5fb7983310079d45d75a6f86d4c212ea3d",
+    "figures/layer_distance_associations.png": "d0187cd07414fa94a960346bf0e4d7c24eddbeeffe584f0cb99d5f2352e427fe",
+    "human_audit_sample_PENDING.csv": "e19c5368198bcae8852a29014a61bbd20106152bba2014ae3110211f1ef10015",
+    "probe_cue_joint_descriptive.csv": "33b4c2c75a304b502028c79b4dd8f4332615fbc49fb8feda708a1cbd05a0e61e",
+    "probe_l24_scores.csv": "caaac1c6db22d2ee321186b6968d56cdc4e016f5c1aa7b732f62aea834fb92d4",
+    "probe_layer_scores.csv": "bdf99cd2d624a9b84019404c937665a0cc88d0944374c4221e031a7ff2d418bd",
+    "selected_pairs.csv": "c5e62a0a8e2c141abf1b1f40f8f61a0e177b83a0969b3fc4840db08b026b422e"
+  },
+  "n_anchors": 0,
+  "n_api_attempts": 164,
+  "n_primary": 25,
+  "n_texts": 720,
+  "protocol_ref": "8fc35efe88604f2b47577958b7feb58efde0ba94",
+  "python": "3.13.16",
+  "source_ref": "ada2278f06f89a9adc32c4efe2eab083935cfd68",
+  "status": "complete_exploratory_human_audit_pending",
+  "versions": {
+    "numpy": "2.4.6",
+    "openai": "2.54.0",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.16.3",
+    "torch": "2.14.1+cu130",
+    "transformers": "4.50.3"
+  }
+}
