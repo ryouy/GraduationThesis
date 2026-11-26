@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "spark-plug-servicing",
+      "sentence": "During an engine tune-up, a mechanic removes spark plugs for inspection and fits replacements without damaging their threaded shells."
+    },
+    {
+      "fact_key": "sway-bar-link-replacement",
+      "sentence": "When replacing worn suspension links, technicians loosen the sway-bar nuts while leaving the vehicle's steering alignment undisturbed."
+    },
+    {
+      "fact_key": "bicycle-spoke-tensioning",
+      "sentence": "On a bicycle wheel, turning spoke nipples changes spoke tension and can correct a rim that wobbles from side to side."
+    },
+    {
+      "fact_key": "microphone-stand-boom-adjustment",
+      "sentence": "A technician tightens a microphone stand's clamp fastener to keep its extended boom from slipping during a performance."
+    },
+    {
+      "fact_key": "rooftop-hvac-panel-service",
+      "sentence": "During rooftop heating and cooling maintenance, workers secure access-panel fasteners before returning the unit to operation."
+    },
+    {
+      "fact_key": "printing-press-bearing-maintenance",
+      "sentence": "At a printing plant, maintenance workers tighten roller-bearing locknuts to keep press components in their intended positions."
+    },
+    {
+      "fact_key": "brake-caliper-pad-service",
+      "sentence": "During brake service, technicians loosen caliper mounting fasteners so the caliper can be moved aside to replace worn pads."
+    },
+    {
+      "fact_key": "trailer-wheel-bearing-adjustment",
+      "sentence": "When adjusting a trailer's wheel bearing, a mechanic turns the spindle nut to set bearing play before securing it with a retainer."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"During an engine tune-up, a mechanic removes spark plugs for inspection and fits replacements without damaging their threaded shells.\",\"fact_key\":\"spark-plug-servicing\"},{\"sentence\":\"When replacing worn suspension links, technicians loosen the sway-bar nuts while leaving the vehicle's steering alignment undisturbed.\",\"fact_key\":\"sway-bar-link-replacement\"},{\"sentence\":\"On a bicycle wheel, turning spoke nipples changes spoke tension and can correct a rim that wobbles from side to side.\",\"fact_key\":\"bicycle-spoke-tensioning\"},{\"sentence\":\"A technician tightens a microphone stand's clamp fastener to keep its extended boom from slipping during a performance.\",\"fact_key\":\"microphone-stand-boom-adjustment\"},{\"sentence\":\"During rooftop heating and cooling maintenance, workers secure access-panel fasteners before returning the unit to operation.\",\"fact_key\":\"rooftop-hvac-panel-service\"},{\"sentence\":\"At a printing plant, maintenance workers tighten roller-bearing locknuts to keep press components in their intended positions.\",\"fact_key\":\"printing-press-bearing-maintenance\"},{\"sentence\":\"During brake service, technicians loosen caliper mounting fasteners so the caliper can be moved aside to replace worn pads.\",\"fact_key\":\"brake-caliper-pad-service\"},{\"sentence\":\"When adjusting a trailer's wheel bearing, a mechanic turns the spindle nut to set bearing play before securing it with a retainer.\",\"fact_key\":\"trailer-wheel-bearing-adjustment\"}]}",
+  "rejected": [],
+  "request_hash": "b4043edb0902c105e8b4bb928d609cbeca359914c3a782c566df9140297f58cf",
+  "usage": {
+    "completion_tokens": 2041,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1724,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 3449,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 3446,
+      "cached_tokens": 0
+    },
+    "total_tokens": 5490
+  }
+}
