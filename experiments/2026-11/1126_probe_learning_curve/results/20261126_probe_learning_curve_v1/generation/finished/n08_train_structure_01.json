@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "water_key",
+      "sentence": "Small drain keys at low points in the tubing open to let accumulated moisture escape."
+    },
+    {
+      "fact_key": "bottom_caps",
+      "sentence": "Removable caps at the bottoms of the valve casings provide access for cleaning and lubrication."
+    },
+    {
+      "fact_key": "tubing_braces",
+      "sentence": "Braces connect separate runs of tubing, helping keep the coiled assembly aligned and rigid."
+    },
+    {
+      "fact_key": "thumb_saddle",
+      "sentence": "A thumb saddle beside the first valve gives the player's right hand a stable resting position."
+    },
+    {
+      "fact_key": "third_slide_ring",
+      "sentence": "A movable ring on the third-valve slide gives the left hand leverage for small intonation adjustments."
+    },
+    {
+      "fact_key": "rolled_bell_rim",
+      "sentence": "The bell's edge is often reinforced with a rolled rim that stiffens the thin metal."
+    },
+    {
+      "fact_key": "threaded_button_stems",
+      "sentence": "Threaded stems connect the finger buttons to their pistons and can be unscrewed for servicing."
+    },
+    {
+      "fact_key": "valve_travel_pads",
+      "sentence": "Felt or cork pads beneath the valve buttons cushion the pistons at the ends of their travel."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Small drain keys at low points in the tubing open to let accumulated moisture escape.\",\"fact_key\":\"water_key\"},{\"sentence\":\"Removable caps at the bottoms of the valve casings provide access for cleaning and lubrication.\",\"fact_key\":\"bottom_caps\"},{\"sentence\":\"Braces connect separate runs of tubing, helping keep the coiled assembly aligned and rigid.\",\"fact_key\":\"tubing_braces\"},{\"sentence\":\"A thumb saddle beside the first valve gives the player's right hand a stable resting position.\",\"fact_key\":\"thumb_saddle\"},{\"sentence\":\"A movable ring on the third-valve slide gives the left hand leverage for small intonation adjustments.\",\"fact_key\":\"third_slide_ring\"},{\"sentence\":\"The bell's edge is often reinforced with a rolled rim that stiffens the thin metal.\",\"fact_key\":\"rolled_bell_rim\"},{\"sentence\":\"Threaded stems connect the finger buttons to their pistons and can be unscrewed for servicing.\",\"fact_key\":\"threaded_button_stems\"},{\"sentence\":\"Felt or cork pads beneath the valve buttons cushion the pistons at the ends of their travel.\",\"fact_key\":\"valve_travel_pads\"}]}",
+  "rejected": [],
+  "request_hash": "7343c28f48fdb4315e36e41efaa86a5233ba2c1d380e774bd14aa155a6d89d4d",
+  "usage": {
+    "completion_tokens": 1288,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1033,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 465,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1753
+  }
+}
