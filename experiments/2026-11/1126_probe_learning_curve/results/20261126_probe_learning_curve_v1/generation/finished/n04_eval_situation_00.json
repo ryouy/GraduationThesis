@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "open native habitats",
+      "sentence": "In its native range, wild populations occur in open, seasonally dry habitats rather than beneath dense forest canopy."
+    },
+    {
+      "fact_key": "living barriers",
+      "sentence": "In some tropical homesteads, dense rows are planted as living barriers, their sharply edged leaves discouraging passage."
+    },
+    {
+      "fact_key": "meat marinade tenderizing",
+      "sentence": "Fresh puree is sometimes used in meat marinades, where its enzymes tenderize protein during a brief soak."
+    },
+    {
+      "fact_key": "uneven natural flowering",
+      "sentence": "Without flowering treatments, plants may bloom at uneven times, spreading fruit maturity and complicating a coordinated harvest."
+    },
+    {
+      "fact_key": "heart rot risk",
+      "sentence": "In warm, rain-soaked fields, heart rot can damage the plant’s growing point and threaten the developing crop."
+    },
+    {
+      "fact_key": "lowland cultivation",
+      "sentence": "Commercial cultivation is concentrated in lowland tropical belts, since cool highland conditions can slow growth and delay fruiting."
+    },
+    {
+      "fact_key": "whole fruit room-temperature storage",
+      "sentence": "When kept whole at moderate room temperature, harvested fruit can remain usable for several days without immediate refrigeration."
+    },
+    {
+      "fact_key": "roadside fresh-cut sales",
+      "sentence": "At roadside markets in growing regions, vendors may sell freshly cut portions as ready-to-eat snacks for passersby."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In its native range, wild populations occur in open, seasonally dry habitats rather than beneath dense forest canopy.\",\"fact_key\":\"open native habitats\"},{\"sentence\":\"In some tropical homesteads, dense rows are planted as living barriers, their sharply edged leaves discouraging passage.\",\"fact_key\":\"living barriers\"},{\"sentence\":\"Fresh puree is sometimes used in meat marinades, where its enzymes tenderize protein during a brief soak.\",\"fact_key\":\"meat marinade tenderizing\"},{\"sentence\":\"Without flowering treatments, plants may bloom at uneven times, spreading fruit maturity and complicating a coordinated harvest.\",\"fact_key\":\"uneven natural flowering\"},{\"sentence\":\"In warm, rain-soaked fields, heart rot can damage the plant’s growing point and threaten the developing crop.\",\"fact_key\":\"heart rot risk\"},{\"sentence\":\"Commercial cultivation is concentrated in lowland tropical belts, since cool highland conditions can slow growth and delay fruiting.\",\"fact_key\":\"lowland cultivation\"},{\"sentence\":\"When kept whole at moderate room temperature, harvested fruit can remain usable for several days without immediate refrigeration.\",\"fact_key\":\"whole fruit room-temperature storage\"},{\"sentence\":\"At roadside markets in growing regions, vendors may sell freshly cut portions as ready-to-eat snacks for passersby.\",\"fact_key\":\"roadside fresh-cut sales\"}]}",
+  "rejected": [],
+  "request_hash": "7766094aa9c3d1f6ef0b606fc5f535a9baaf55feb981611bf69bd0be4abe2809",
+  "usage": {
+    "completion_tokens": 2331,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2041,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2946,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2943,
+      "cached_tokens": 0
+    },
+    "total_tokens": 5277
+  }
+}
