@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "f6ecebbf4de3ef229b29ecd93777edcb71929c967f6abc42f60c7d40c6816018",
+    "items": [
+      {
+        "id": "c75a2765f80acee037fd",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit, not a banana."
+      },
+      {
+        "id": "f971d735fc7f03a2d262",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit, not a banana."
+      },
+      {
+        "id": "cc6a987e9b1ab2033216",
+        "label": "no",
+        "reason": "The answer describes elephant social behavior, not a lion."
+      },
+      {
+        "id": "5468a6d73746ac92a90c",
+        "label": "no",
+        "reason": "Scissors are a different tool, not pliers."
+      },
+      {
+        "id": "40afd276aa653ee0849d",
+        "label": "no",
+        "reason": "A jellyfish is a different sea animal, not an octopus."
+      },
+      {
+        "id": "e79df79fac8645d802f4",
+        "label": "no",
+        "reason": "Scissors are a different tool, not pliers."
+      },
+      {
+        "id": "5e2115b0311614c04c36",
+        "label": "no",
+        "reason": "A personal collection shelf is not a cabinet."
+      },
+      {
+        "id": "2b887feced9b9eaf4608",
+        "label": "no",
+        "reason": "A jellyfish is a different sea animal, not an octopus."
+      },
+      {
+        "id": "1eeab1f0ecaaaf3e1e7e",
+        "label": "no",
+        "reason": "A jellyfish is a different sea animal, not an octopus."
+      },
+      {
+        "id": "406eef725f8af4f0c28a",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit, not a banana."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"c75a2765f80acee037fd\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit, not a banana.\"},{\"id\":\"f971d735fc7f03a2d262\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit, not a banana.\"},{\"id\":\"cc6a987e9b1ab2033216\",\"label\":\"no\",\"reason\":\"The answer describes elephant social behavior, not a lion.\"},{\"id\":\"5468a6d73746ac92a90c\",\"label\":\"no\",\"reason\":\"Scissors are a different tool, not pliers.\"},{\"id\":\"40afd276aa653ee0849d\",\"label\":\"no\",\"reason\":\"A jellyfish is a different sea animal, not an octopus.\"},{\"id\":\"e79df79fac8645d802f4\",\"label\":\"no\",\"reason\":\"Scissors are a different tool, not pliers.\"},{\"id\":\"5e2115b0311614c04c36\",\"label\":\"no\",\"reason\":\"A personal collection shelf is not a cabinet.\"},{\"id\":\"2b887feced9b9eaf4608\",\"label\":\"no\",\"reason\":\"A jellyfish is a different sea animal, not an octopus.\"},{\"id\":\"1eeab1f0ecaaaf3e1e7e\",\"label\":\"no\",\"reason\":\"A jellyfish is a different sea animal, not an octopus.\"},{\"id\":\"406eef725f8af4f0c28a\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit, not a banana.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 710,
+    "started": "2026-11-26T08:26:57.478850+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 403,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 48,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 520,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 923
+    }
+  }
+}
