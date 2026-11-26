@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "brass_quintet_role",
+      "sentence": "In a brass quintet, it often carries the upper melodic line, balancing against the ensemble’s lower brass voices."
+    },
+    {
+      "fact_key": "mariachi_responses",
+      "sentence": "Mariachi groups use its ringing phrases to answer singers and carry melodies above the strings and rhythmic accompaniment."
+    },
+    {
+      "fact_key": "big_band_section",
+      "sentence": "In big-band charts, section players deliver coordinated, harmonized accents alongside saxophones and the rhythm section."
+    },
+    {
+      "fact_key": "stadium_chants",
+      "sentence": "At football games, brief blasts can energize spectators and punctuate chants from the stands."
+    },
+    {
+      "fact_key": "baroque_valveless_performance",
+      "sentence": "On early-music programs, a valveless form performs Baroque parts through lip adjustments rather than mechanical pitch-changing valves."
+    },
+    {
+      "fact_key": "film_score_layers",
+      "sentence": "In film-score sessions, studio musicians may record separate parts to build a layered brass passage around the orchestra."
+    },
+    {
+      "fact_key": "funk_offbeat_phrases",
+      "sentence": "Funk arrangements often place its clipped offbeat phrases between vocal lines, adding sharp accents to the groove."
+    },
+    {
+      "fact_key": "school_band_practice",
+      "sentence": "In school band classes, beginners often practice long tones and scales before learning ensemble parts."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In a brass quintet, it often carries the upper melodic line, balancing against the ensemble’s lower brass voices.\",\"fact_key\":\"brass_quintet_role\"},{\"sentence\":\"Mariachi groups use its ringing phrases to answer singers and carry melodies above the strings and rhythmic accompaniment.\",\"fact_key\":\"mariachi_responses\"},{\"sentence\":\"In big-band charts, section players deliver coordinated, harmonized accents alongside saxophones and the rhythm section.\",\"fact_key\":\"big_band_section\"},{\"sentence\":\"At football games, brief blasts can energize spectators and punctuate chants from the stands.\",\"fact_key\":\"stadium_chants\"},{\"sentence\":\"On early-music programs, a valveless form performs Baroque parts through lip adjustments rather than mechanical pitch-changing valves.\",\"fact_key\":\"baroque_valveless_performance\"},{\"sentence\":\"In film-score sessions, studio musicians may record separate parts to build a layered brass passage around the orchestra.\",\"fact_key\":\"film_score_layers\"},{\"sentence\":\"Funk arrangements often place its clipped offbeat phrases between vocal lines, adding sharp accents to the groove.\",\"fact_key\":\"funk_offbeat_phrases\"},{\"sentence\":\"In school band classes, beginners often practice long tones and scales before learning ensemble parts.\",\"fact_key\":\"school_band_practice\"}]}",
+  "rejected": [],
+  "request_hash": "cc8359fa206ef60848a1c82b78dfb4b2343b6a92e970374346bb05c65126f9e2",
+  "usage": {
+    "completion_tokens": 1173,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 900,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1587,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1584,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2760
+  }
+}
