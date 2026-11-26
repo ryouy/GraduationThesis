@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C23_4_function_0_6",
+        "naturalness": 5,
+        "reason": "A focused sound and carrying a theme fit trumpet playing, though the description is broadly applicable to brass.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C23_4_function_0_7",
+        "naturalness": 5,
+        "reason": "Both instruments can sustain notes and contribute a bright edge to a ceremonial ensemble.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C23_0_action_0_0",
+        "naturalness": 5,
+        "reason": "Using combinations of three valves to alter tubing length is a direct description of typical trumpet playing, unlike the slide-based trombone.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C23_0_action_0_1",
+        "naturalness": 5,
+        "reason": "Oiling piston valves is a plausible trumpet maintenance action; the usual trombone mechanism is a slide.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C23_0_action_0_2",
+        "naturalness": 5,
+        "reason": "Breath, lip vibration, and a flared bell apply to both brass instruments.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C23_0_action_0_3",
+        "naturalness": 5,
+        "reason": "Practicing valve changes fits trumpet warmups, while the usual trombone uses a slide.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C23_0_action_0_4",
+        "naturalness": 5,
+        "reason": "Tightening the lips for high notes is plausible for both, with the fanfare context especially suggestive of trumpet.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C23_0_action_0_5",
+        "naturalness": 4,
+        "reason": "A water key near the valve casing is characteristic of trumpet construction; trombones also drain condensation but typically lack a valve casing.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C23_0_action_0_6",
+        "naturalness": 5,
+        "reason": "Rapid valve combinations and a melody above the ensemble fit trumpet playing; a typical trombone changes pitch with its slide.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C23_0_action_0_7",
+        "naturalness": 4,
+        "reason": "Removing, cleaning, and reseating a mouthpiece is plausible for either instrument, though doing so between passages is a little unusual.",
+        "style": "pass",
+        "x_related": 1,
+        "y_related": 1
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1271,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 575,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 655,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1926
+  }
+}
