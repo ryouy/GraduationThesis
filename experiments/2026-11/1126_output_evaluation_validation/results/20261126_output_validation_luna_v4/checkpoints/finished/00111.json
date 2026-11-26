@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "cf7f20e1130ba0ba1ca149657d9346481e49d0ec891849c970024a2aec92c4e1",
+    "items": [
+      {
+        "id": "816e20cd53087de360bc",
+        "label": "1",
+        "reason": "Scissors are a tool, but they are not typically used for a strong grip or bending components."
+      },
+      {
+        "id": "feb95a37e70ddd30f5a4",
+        "label": "2",
+        "reason": "The answer describes rain and its refreshing effect on landscapes, matching the clue."
+      },
+      {
+        "id": "0bfa5b46d60115a054e5",
+        "label": "2",
+        "reason": "Bicycles can be adapted for different terrains, such as with different tires or designs."
+      },
+      {
+        "id": "edce8ef94a498eb813d4",
+        "label": "1",
+        "reason": "A guitar suits rhythmic celebrations, but it is not naturally a round instrument passed among friends."
+      },
+      {
+        "id": "19f1a3e35eee0185c8ce",
+        "label": "2",
+        "reason": "Elephants are found in regions of both Africa and Asia."
+      },
+      {
+        "id": "176670f8b05786bef523",
+        "label": "2",
+        "reason": "The answer describes raindrops nourishing landscapes, matching the clue."
+      },
+      {
+        "id": "6a466b65cd2ce6d364a7",
+        "label": "2",
+        "reason": "A drum is often round and produces resonance when struck with hands or sticks."
+      },
+      {
+        "id": "e5a30cd977e09539041d",
+        "label": "1",
+        "reason": "Scissors can manipulate materials in crafts and repairs, but applying pressure and gripping materials better describes other tools."
+      },
+      {
+        "id": "2b944aae4089105a7578",
+        "label": "0",
+        "reason": "“Organized Collective” describes a group or behavior, not the small creature in the clue."
+      },
+      {
+        "id": "6697deddc992f14d7186",
+        "label": "2",
+        "reason": "An underwater vehicle is a vessel suited to operating underwater, including in challenging conditions."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"816e20cd53087de360bc\",\"label\":\"1\",\"reason\":\"Scissors are a tool, but they are not typically used for a strong grip or bending components.\"},{\"id\":\"feb95a37e70ddd30f5a4\",\"label\":\"2\",\"reason\":\"The answer describes rain and its refreshing effect on landscapes, matching the clue.\"},{\"id\":\"0bfa5b46d60115a054e5\",\"label\":\"2\",\"reason\":\"Bicycles can be adapted for different terrains, such as with different tires or designs.\"},{\"id\":\"edce8ef94a498eb813d4\",\"label\":\"1\",\"reason\":\"A guitar suits rhythmic celebrations, but it is not naturally a round instrument passed among friends.\"},{\"id\":\"19f1a3e35eee0185c8ce\",\"label\":\"2\",\"reason\":\"Elephants are found in regions of both Africa and Asia.\"},{\"id\":\"176670f8b05786bef523\",\"label\":\"2\",\"reason\":\"The answer describes raindrops nourishing landscapes, matching the clue.\"},{\"id\":\"6a466b65cd2ce6d364a7\",\"label\":\"2\",\"reason\":\"A drum is often round and produces resonance when struck with hands or sticks.\"},{\"id\":\"e5a30cd977e09539041d\",\"label\":\"1\",\"reason\":\"Scissors can manipulate materials in crafts and repairs, but applying pressure and gripping materials better describes other tools.\"},{\"id\":\"2b944aae4089105a7578\",\"label\":\"0\",\"reason\":\"“Organized Collective” describes a group or behavior, not the small creature in the clue.\"},{\"id\":\"6697deddc992f14d7186\",\"label\":\"2\",\"reason\":\"An underwater vehicle is a vessel suited to operating underwater, including in challenging conditions.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 100,
+    "started": "2026-11-26T08:35:55.547777+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 728,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 332,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 672,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1400
+    }
+  }
+}
