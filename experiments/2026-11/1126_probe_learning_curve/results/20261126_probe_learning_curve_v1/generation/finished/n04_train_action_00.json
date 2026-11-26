@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "vegetative propagation",
+      "sentence": "Growers commonly start new plants from crowns, slips, or basal shoots, preserving cultivated traits without relying on seed."
+    },
+    {
+      "fact_key": "flowering induction",
+      "sentence": "Ethylene-releasing treatments can trigger flowering more uniformly, helping growers coordinate fruit development and harvest timing."
+    },
+    {
+      "fact_key": "nighttime carbon uptake",
+      "sentence": "This drought-adapted plant takes in much of its carbon dioxide at night, storing it for photosynthesis during daylight."
+    },
+    {
+      "fact_key": "harvesting",
+      "sentence": "At harvest, workers cut mature fruit from its stalk by hand or with tools, then sort it for shipment."
+    },
+    {
+      "fact_key": "canning process",
+      "sentence": "For canning, prepared pieces are heated and sealed in containers, often packed with juice or a sweetened liquid."
+    },
+    {
+      "fact_key": "temperature-controlled transport",
+      "sentence": "Shipments are kept cool but not excessively cold, since chilling can damage the flesh and outer tissues."
+    },
+    {
+      "fact_key": "limited postharvest sweetening",
+      "sentence": "It gains little sweetness after picking, so harvest maturity strongly influences the fruit’s eventual eating quality."
+    },
+    {
+      "fact_key": "pollination and seed formation",
+      "sentence": "Cross-pollination can lead to seed formation in developing fruit, so commercial growers may limit access by pollinating animals."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Growers commonly start new plants from crowns, slips, or basal shoots, preserving cultivated traits without relying on seed.\",\"fact_key\":\"vegetative propagation\"},{\"sentence\":\"Ethylene-releasing treatments can trigger flowering more uniformly, helping growers coordinate fruit development and harvest timing.\",\"fact_key\":\"flowering induction\"},{\"sentence\":\"This drought-adapted plant takes in much of its carbon dioxide at night, storing it for photosynthesis during daylight.\",\"fact_key\":\"nighttime carbon uptake\"},{\"sentence\":\"At harvest, workers cut mature fruit from its stalk by hand or with tools, then sort it for shipment.\",\"fact_key\":\"harvesting\"},{\"sentence\":\"For canning, prepared pieces are heated and sealed in containers, often packed with juice or a sweetened liquid.\",\"fact_key\":\"canning process\"},{\"sentence\":\"Shipments are kept cool but not excessively cold, since chilling can damage the flesh and outer tissues.\",\"fact_key\":\"temperature-controlled transport\"},{\"sentence\":\"It gains little sweetness after picking, so harvest maturity strongly influences the fruit’s eventual eating quality.\",\"fact_key\":\"limited postharvest sweetening\"},{\"sentence\":\"Cross-pollination can lead to seed formation in developing fruit, so commercial growers may limit access by pollinating animals.\",\"fact_key\":\"pollination and seed formation\"}]}",
+  "rejected": [],
+  "request_hash": "c14e6f1eeb800e8ee3eaa14a86cf73b1953e3a8c27304c62141a463c87c1f0be",
+  "usage": {
+    "completion_tokens": 1848,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1560,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 714,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2562
+  }
+}
