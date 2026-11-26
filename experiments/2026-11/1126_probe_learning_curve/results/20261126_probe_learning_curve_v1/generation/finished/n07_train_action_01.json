@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "partials_at_fixed_position",
+      "sentence": "At one slide location, changing lip tension selects different resonant partials, so the same tubing length can produce a series of notes."
+    },
+    {
+      "fact_key": "fine_intonation_adjustments",
+      "sentence": "Small slide adjustments beyond customary positions help correct intonation, since exact placement varies with pitch, instrument, and the player's embouchure."
+    },
+    {
+      "fact_key": "slide_lubrication",
+      "sentence": "Before playing, performers commonly apply lubricant to the inner slide tubes and spread it with gentle movement for smooth travel."
+    },
+    {
+      "fact_key": "jazz_improvisation",
+      "sentence": "Jazz performers often use it for improvised solo lines, shaping phrases with expressive bends and varied articulation."
+    },
+    {
+      "fact_key": "written_clef_choices",
+      "sentence": "Printed parts may use tenor clef for the middle register and bass clef for lower passages, depending on the player's range."
+    },
+    {
+      "fact_key": "slurred_note_changes",
+      "sentence": "During a slur, the player changes notes by coordinating lip vibration and slide movement while keeping the airflow continuous."
+    },
+    {
+      "fact_key": "written_at_sounding_pitch",
+      "sentence": "Parts are generally written at sounding pitch rather than transposed, so each written note corresponds to the pitch produced."
+    },
+    {
+      "fact_key": "warming_and_pitch_shift",
+      "sentence": "After warming from breath and room conditions, its pitch can shift, prompting players to check tuning again."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"At one slide location, changing lip tension selects different resonant partials, so the same tubing length can produce a series of notes.\",\"fact_key\":\"partials_at_fixed_position\"},{\"sentence\":\"Small slide adjustments beyond customary positions help correct intonation, since exact placement varies with pitch, instrument, and the player's embouchure.\",\"fact_key\":\"fine_intonation_adjustments\"},{\"sentence\":\"Before playing, performers commonly apply lubricant to the inner slide tubes and spread it with gentle movement for smooth travel.\",\"fact_key\":\"slide_lubrication\"},{\"sentence\":\"Jazz performers often use it for improvised solo lines, shaping phrases with expressive bends and varied articulation.\",\"fact_key\":\"jazz_improvisation\"},{\"sentence\":\"Printed parts may use tenor clef for the middle register and bass clef for lower passages, depending on the player's range.\",\"fact_key\":\"written_clef_choices\"},{\"sentence\":\"During a slur, the player changes notes by coordinating lip vibration and slide movement while keeping the airflow continuous.\",\"fact_key\":\"slurred_note_changes\"},{\"sentence\":\"Parts are generally written at sounding pitch rather than transposed, so each written note corresponds to the pitch produced.\",\"fact_key\":\"written_at_sounding_pitch\"},{\"sentence\":\"After warming from breath and room conditions, its pitch can shift, prompting players to check tuning again.\",\"fact_key\":\"warming_and_pitch_shift\"}]}",
+  "rejected": [],
+  "request_hash": "02acb3679a89e727baaf2d92ad3722999477fc1716e588565155debdde7de3a1",
+  "usage": {
+    "completion_tokens": 1425,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1126,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1026,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2451
+  }
+}
