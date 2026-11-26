@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "raised sail",
+      "sentence": "A raised sail houses access hatches and retractable equipment above the main hull."
+    },
+    {
+      "fact_key": "control surfaces",
+      "sentence": "Horizontal diving planes alter pitch and help control depth, while vertical rudders steer the craft."
+    },
+    {
+      "fact_key": "acoustic tiles",
+      "sentence": "Sound-absorbing tiles on the outer casing reduce noise radiated into surrounding water."
+    },
+    {
+      "fact_key": "snorkel",
+      "sentence": "An extendable snorkel admits air and vents exhaust while the vessel travels just below the surface."
+    },
+    {
+      "fact_key": "torpedo tubes",
+      "sentence": "Sealed torpedo tubes launch weapons and can also release underwater listening devices."
+    },
+    {
+      "fact_key": "atmosphere systems",
+      "sentence": "Electrolyzers replenish breathable oxygen, while chemical scrubbers remove carbon dioxide from sealed living spaces."
+    },
+    {
+      "fact_key": "escape trunk",
+      "sentence": "A pressure-lock escape trunk allows crew members to leave through a controlled sequence of sealed hatches."
+    },
+    {
+      "fact_key": "control room",
+      "sentence": "The compact control room groups navigation displays, steering controls, and machinery indicators within easy reach."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"A raised sail houses access hatches and retractable equipment above the main hull.\",\"fact_key\":\"raised sail\"},{\"sentence\":\"Horizontal diving planes alter pitch and help control depth, while vertical rudders steer the craft.\",\"fact_key\":\"control surfaces\"},{\"sentence\":\"Sound-absorbing tiles on the outer casing reduce noise radiated into surrounding water.\",\"fact_key\":\"acoustic tiles\"},{\"sentence\":\"An extendable snorkel admits air and vents exhaust while the vessel travels just below the surface.\",\"fact_key\":\"snorkel\"},{\"sentence\":\"Sealed torpedo tubes launch weapons and can also release underwater listening devices.\",\"fact_key\":\"torpedo tubes\"},{\"sentence\":\"Electrolyzers replenish breathable oxygen, while chemical scrubbers remove carbon dioxide from sealed living spaces.\",\"fact_key\":\"atmosphere systems\"},{\"sentence\":\"A pressure-lock escape trunk allows crew members to leave through a controlled sequence of sealed hatches.\",\"fact_key\":\"escape trunk\"},{\"sentence\":\"The compact control room groups navigation displays, steering controls, and machinery indicators within easy reach.\",\"fact_key\":\"control room\"}]}",
+  "rejected": [],
+  "request_hash": "79253eef90843264e948246adb81749e4de9bbbf96669afd5a8cb6e6581868a2",
+  "usage": {
+    "completion_tokens": 883,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 649,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 459,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1342
+  }
+}
