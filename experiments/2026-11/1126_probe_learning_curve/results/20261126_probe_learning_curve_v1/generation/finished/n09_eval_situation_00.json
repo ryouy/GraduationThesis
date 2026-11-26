@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "theater-lighting-rigging",
+      "sentence": "During theater setup, a crew member tightens the nuts securing a lighting fixture's clamp to overhead rigging."
+    },
+    {
+      "fact_key": "telescope-mount-setup",
+      "sentence": "At an observatory, technicians secure mounting bolts on a telescope's support structure before balancing its optical tube."
+    },
+    {
+      "fact_key": "bakery-mixer-maintenance",
+      "sentence": "In a commercial bakery, a repairer tightens fasteners on a stand mixer after servicing its bowl-support assembly."
+    },
+    {
+      "fact_key": "fire-engine-hose-coupling",
+      "sentence": "During a fire engine equipment check, a crew member tightens the large coupling that joins a hose to the pump."
+    },
+    {
+      "fact_key": "playground-frame-assembly",
+      "sentence": "At a playground installation, workers tighten the nuts joining climbing-frame braces before the site opens to visitors."
+    },
+    {
+      "fact_key": "wind-turbine-rotor-maintenance",
+      "sentence": "At a wind farm, technicians tighten accessible rotor-hub fasteners during scheduled maintenance on a turbine."
+    },
+    {
+      "fact_key": "outboard-propeller-service",
+      "sentence": "In a marina workshop, a mechanic loosens an outboard motor's propeller-retaining nut before removing the propeller for inspection."
+    },
+    {
+      "fact_key": "wheelchair-wheel-replacement",
+      "sentence": "During wheelchair repairs, a technician tightens the axle fasteners that hold a replacement rear wheel in place."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"During theater setup, a crew member tightens the nuts securing a lighting fixture's clamp to overhead rigging.\",\"fact_key\":\"theater-lighting-rigging\"},{\"sentence\":\"At an observatory, technicians secure mounting bolts on a telescope's support structure before balancing its optical tube.\",\"fact_key\":\"telescope-mount-setup\"},{\"sentence\":\"In a commercial bakery, a repairer tightens fasteners on a stand mixer after servicing its bowl-support assembly.\",\"fact_key\":\"bakery-mixer-maintenance\"},{\"sentence\":\"During a fire engine equipment check, a crew member tightens the large coupling that joins a hose to the pump.\",\"fact_key\":\"fire-engine-hose-coupling\"},{\"sentence\":\"At a playground installation, workers tighten the nuts joining climbing-frame braces before the site opens to visitors.\",\"fact_key\":\"playground-frame-assembly\"},{\"sentence\":\"At a wind farm, technicians tighten accessible rotor-hub fasteners during scheduled maintenance on a turbine.\",\"fact_key\":\"wind-turbine-rotor-maintenance\"},{\"sentence\":\"In a marina workshop, a mechanic loosens an outboard motor's propeller-retaining nut before removing the propeller for inspection.\",\"fact_key\":\"outboard-propeller-service\"},{\"sentence\":\"During wheelchair repairs, a technician tightens the axle fasteners that hold a replacement rear wheel in place.\",\"fact_key\":\"wheelchair-wheel-replacement\"}]}",
+  "rejected": [],
+  "request_hash": "a500f74365d95a0284c4d2860f55c1e8bdf1ad74b8869b6a1565bd3ce3acac06",
+  "usage": {
+    "completion_tokens": 1596,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1290,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 3138,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 3135,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4734
+  }
+}
