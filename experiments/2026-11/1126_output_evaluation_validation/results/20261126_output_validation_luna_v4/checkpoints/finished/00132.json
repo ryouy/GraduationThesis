@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "5d05d295ee6f78cbb93b2981ba987d6a11d4b651f428ee8f511c9f8550bb9fad",
+    "items": [
+      {
+        "id": "87e81afac0a494ea5934",
+        "label": "1",
+        "reason": "It restates the clue’s general idea but does not identify which small insects are meant, such as ants."
+      },
+      {
+        "id": "2b21d1d764baa51e6a91",
+        "label": "1",
+        "reason": "Corals are marine animals and some show light-related properties, but the clue’s mate- or prey-attraction detail is not a typical fit."
+      },
+      {
+        "id": "c88895ec8acd476f8cd9",
+        "label": "2",
+        "reason": "A precision tool naturally fits a device used to hold and shape materials during intricate tasks."
+      },
+      {
+        "id": "3fece37c7c71d661c9c2",
+        "label": "2",
+        "reason": "A durable bookshelf can keep belongings organized and accessible while serving as a stylish furnishing."
+      },
+      {
+        "id": "fbfd5d9dee9c25ef1248",
+        "label": "2",
+        "reason": "A personal collection shelf fits a unit with levels for arranging and displaying a collection."
+      },
+      {
+        "id": "94f5cc414cbe5ebef0ca",
+        "label": "2",
+        "reason": "Cacti have spiny structures and moisture-storing stems that help deter herbivores."
+      },
+      {
+        "id": "b66c7d9cf2b256c93e0a",
+        "label": "0",
+        "reason": "Coral does not have large ears for thermoregulation."
+      },
+      {
+        "id": "a37f9a8bdab19ef8caaa",
+        "label": "2",
+        "reason": "Bananas have soft, naturally sweet flesh that is commonly eaten fresh."
+      },
+      {
+        "id": "20b03f541c272ebb364a",
+        "label": "2",
+        "reason": "Elephants are known for complex social groups and family relationships."
+      },
+      {
+        "id": "c5d4f400673a475176a4",
+        "label": "2",
+        "reason": "Elephants are known to have complex social structures."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"87e81afac0a494ea5934\",\"label\":\"1\",\"reason\":\"It restates the clue’s general idea but does not identify which small insects are meant, such as ants.\"},{\"id\":\"2b21d1d764baa51e6a91\",\"label\":\"1\",\"reason\":\"Corals are marine animals and some show light-related properties, but the clue’s mate- or prey-attraction detail is not a typical fit.\"},{\"id\":\"c88895ec8acd476f8cd9\",\"label\":\"2\",\"reason\":\"A precision tool naturally fits a device used to hold and shape materials during intricate tasks.\"},{\"id\":\"3fece37c7c71d661c9c2\",\"label\":\"2\",\"reason\":\"A durable bookshelf can keep belongings organized and accessible while serving as a stylish furnishing.\"},{\"id\":\"fbfd5d9dee9c25ef1248\",\"label\":\"2\",\"reason\":\"A personal collection shelf fits a unit with levels for arranging and displaying a collection.\"},{\"id\":\"94f5cc414cbe5ebef0ca\",\"label\":\"2\",\"reason\":\"Cacti have spiny structures and moisture-storing stems that help deter herbivores.\"},{\"id\":\"b66c7d9cf2b256c93e0a\",\"label\":\"0\",\"reason\":\"Coral does not have large ears for thermoregulation.\"},{\"id\":\"a37f9a8bdab19ef8caaa\",\"label\":\"2\",\"reason\":\"Bananas have soft, naturally sweet flesh that is commonly eaten fresh.\"},{\"id\":\"20b03f541c272ebb364a\",\"label\":\"2\",\"reason\":\"Elephants are known for complex social groups and family relationships.\"},{\"id\":\"c5d4f400673a475176a4\",\"label\":\"2\",\"reason\":\"Elephants are known to have complex social structures.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 270,
+    "started": "2026-11-26T09:31:31.980815+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 849,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 443,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 681,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1530
+    }
+  }
+}
