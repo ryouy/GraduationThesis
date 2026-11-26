@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "pressure hull",
+      "sentence": "A thick pressure hull withstands immense water pressure, while an outer casing streamlines the vessel’s shape."
+    },
+    {
+      "fact_key": "ballast tanks",
+      "sentence": "Floodable ballast tanks fill with water or air to adjust buoyancy and depth."
+    },
+    {
+      "fact_key": "propulsion components",
+      "sentence": "A stern propeller or enclosed pump-jet provides thrust through the surrounding water."
+    },
+    {
+      "fact_key": "optical masts",
+      "sentence": "Retractable optical masts carry cameras and viewing instruments above the waterline."
+    },
+    {
+      "fact_key": "sonar transducers",
+      "sentence": "Hull-mounted sonar transducers transmit sound pulses and detect returning echoes."
+    },
+    {
+      "fact_key": "watertight bulkheads",
+      "sentence": "Watertight bulkheads divide the interior into compartments, limiting flooding if one section is damaged."
+    },
+    {
+      "fact_key": "battery storage",
+      "sentence": "Batteries store electrical energy for quiet propulsion and onboard equipment when engines are not running."
+    },
+    {
+      "fact_key": "reactor and turbines",
+      "sentence": "A nuclear reactor heats coolant to generate steam, driving turbines that supply propulsion and electricity."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"A thick pressure hull withstands immense water pressure, while an outer casing streamlines the vessel’s shape.\",\"fact_key\":\"pressure hull\"},{\"sentence\":\"Floodable ballast tanks fill with water or air to adjust buoyancy and depth.\",\"fact_key\":\"ballast tanks\"},{\"sentence\":\"A stern propeller or enclosed pump-jet provides thrust through the surrounding water.\",\"fact_key\":\"propulsion components\"},{\"sentence\":\"Retractable optical masts carry cameras and viewing instruments above the waterline.\",\"fact_key\":\"optical masts\"},{\"sentence\":\"Hull-mounted sonar transducers transmit sound pulses and detect returning echoes.\",\"fact_key\":\"sonar transducers\"},{\"sentence\":\"Watertight bulkheads divide the interior into compartments, limiting flooding if one section is damaged.\",\"fact_key\":\"watertight bulkheads\"},{\"sentence\":\"Batteries store electrical energy for quiet propulsion and onboard equipment when engines are not running.\",\"fact_key\":\"battery storage\"},{\"sentence\":\"A nuclear reactor heats coolant to generate steam, driving turbines that supply propulsion and electricity.\",\"fact_key\":\"reactor and turbines\"}]}",
+  "rejected": [],
+  "request_hash": "35ca02a1ad9a118ab5c143e2c33cad1124fa22485189e5954fabc3dd803dd6cc",
+  "usage": {
+    "completion_tokens": 679,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 452,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 218,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 897
+  }
+}
