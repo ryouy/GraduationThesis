@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "cbc54ed483ab0c07d214adfe96a03f857a9e89ea8ae788638de96bdbfbca0ecc",
+    "items": [
+      {
+        "id": "dc51bd5537805772b59b",
+        "label": "no",
+        "reason": "An organizer is a broad storage or arranging item, not specifically a bookshelf."
+      },
+      {
+        "id": "a8b7330821010f3fe123",
+        "label": "yes",
+        "reason": "The answer names a jellyfish."
+      },
+      {
+        "id": "84874adba674556315f3",
+        "label": "no",
+        "reason": "The answer describes rain, not snow."
+      },
+      {
+        "id": "758ac323e142ad4128dd",
+        "label": "yes",
+        "reason": "Raindrops bringing life describe rain."
+      },
+      {
+        "id": "f038409967829e4c7ae3",
+        "label": "yes",
+        "reason": "A bookcase is a synonym for a bookshelf."
+      },
+      {
+        "id": "dfe467f79fe2dcff0ca4",
+        "label": "no",
+        "reason": "The answer describes rain, not snow."
+      },
+      {
+        "id": "c8889e2078d149dc632d",
+        "label": "yes",
+        "reason": "Falling raindrops are rain."
+      },
+      {
+        "id": "12edb0320ebc0092e9a8",
+        "label": "no",
+        "reason": "Scissors are a different tool from pliers."
+      },
+      {
+        "id": "947806ebe5aa992ed58f",
+        "label": "no",
+        "reason": "A jellyfish is not an octopus."
+      },
+      {
+        "id": "10a6e3d3523aa4ad94f7",
+        "label": "no",
+        "reason": "A grapefruit is a different fruit from a pineapple."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"dc51bd5537805772b59b\",\"label\":\"no\",\"reason\":\"An organizer is a broad storage or arranging item, not specifically a bookshelf.\"},{\"id\":\"a8b7330821010f3fe123\",\"label\":\"yes\",\"reason\":\"The answer names a jellyfish.\"},{\"id\":\"84874adba674556315f3\",\"label\":\"no\",\"reason\":\"The answer describes rain, not snow.\"},{\"id\":\"758ac323e142ad4128dd\",\"label\":\"yes\",\"reason\":\"Raindrops bringing life describe rain.\"},{\"id\":\"f038409967829e4c7ae3\",\"label\":\"yes\",\"reason\":\"A bookcase is a synonym for a bookshelf.\"},{\"id\":\"dfe467f79fe2dcff0ca4\",\"label\":\"no\",\"reason\":\"The answer describes rain, not snow.\"},{\"id\":\"c8889e2078d149dc632d\",\"label\":\"yes\",\"reason\":\"Falling raindrops are rain.\"},{\"id\":\"12edb0320ebc0092e9a8\",\"label\":\"no\",\"reason\":\"Scissors are a different tool from pliers.\"},{\"id\":\"947806ebe5aa992ed58f\",\"label\":\"no\",\"reason\":\"A jellyfish is not an octopus.\"},{\"id\":\"10a6e3d3523aa4ad94f7\",\"label\":\"no\",\"reason\":\"A grapefruit is a different fruit from a pineapple.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 100,
+    "started": "2026-11-26T08:17:37.190482+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 391,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 72,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 528,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 919
+    }
+  }
+}
