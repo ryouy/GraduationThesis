@@ -6,6 +6,8 @@
 
 [実験一覧](README.md) · [Aの結果](results/20261126_concept_pair_distance_A_v1/analysis_summary.md) · [Bの結果](results/20261126_concept_pair_distance_B_v1/analysis_summary.md) · [Cの結果](results/20261126_concept_pair_distance_C_small_v1/analysis_summary.md) · [Dの結果](results/20261126_concept_pair_distance_D_v1/analysis_summary.md)
 
+**関連メモ：[重要な知見：Yを同一カテゴリーに限定しない](KEY_FINDINGS_Y_SELECTION.md)**
+
 ## 要旨
 
 本研究では対象概念Xと比較概念Yの相対的な内部表現をConcept Probe等によって測定する。XとYの意味的距離が小さい場合、Probeによる識別が難しくなることに加え、CueからXへの距離とYへの距離が共変動する可能性がある。この問題に対し、概念ペア間距離とProbe識別性能、Cue距離間の交絡、およびCue選定の実現可能性を4つの予備実験で検討した。
