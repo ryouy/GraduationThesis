@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "8383add3659a6a2835461822f9f14bc49ca3424c3101225304cb9442142c82fd",
+    "items": [
+      {
+        "id": "210633a3a46477640b3f",
+        "label": "yes",
+        "reason": "Describes rain nourishing the soil."
+      },
+      {
+        "id": "0a0115084632a656f0ae",
+        "label": "no",
+        "reason": "Identifies a tiger, not a lion."
+      },
+      {
+        "id": "e8e751e706482371c9f4",
+        "label": "no",
+        "reason": "Identifies an elephant, not a lion."
+      },
+      {
+        "id": "eb106ea36e4329c6890a",
+        "label": "no",
+        "reason": "A drum is related to a tambourine but is not the target instrument."
+      },
+      {
+        "id": "97975bb7fe9067159ae4",
+        "label": "yes",
+        "reason": "Describes rain nourishing the earth."
+      },
+      {
+        "id": "a3ed233f5debbcb42722",
+        "label": "no",
+        "reason": "Mentions elephant habitat but does not identify an elephant."
+      },
+      {
+        "id": "05586b922d425840bb7d",
+        "label": "no",
+        "reason": "“Beast of Order” does not identify an ant."
+      },
+      {
+        "id": "84133e7e300fd75fd281",
+        "label": "no",
+        "reason": "Identifies a bicycle, not a submarine."
+      },
+      {
+        "id": "b6a1dacd37f254261de2",
+        "label": "no",
+        "reason": "Baking precision does not identify a lion."
+      },
+      {
+        "id": "ec546e308f99ad960765",
+        "label": "no",
+        "reason": "Identifies a gazelle, not a dragonfly."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"210633a3a46477640b3f\",\"label\":\"yes\",\"reason\":\"Describes rain nourishing the soil.\"},{\"id\":\"0a0115084632a656f0ae\",\"label\":\"no\",\"reason\":\"Identifies a tiger, not a lion.\"},{\"id\":\"e8e751e706482371c9f4\",\"label\":\"no\",\"reason\":\"Identifies an elephant, not a lion.\"},{\"id\":\"eb106ea36e4329c6890a\",\"label\":\"no\",\"reason\":\"A drum is related to a tambourine but is not the target instrument.\"},{\"id\":\"97975bb7fe9067159ae4\",\"label\":\"yes\",\"reason\":\"Describes rain nourishing the earth.\"},{\"id\":\"a3ed233f5debbcb42722\",\"label\":\"no\",\"reason\":\"Mentions elephant habitat but does not identify an elephant.\"},{\"id\":\"05586b922d425840bb7d\",\"label\":\"no\",\"reason\":\"“Beast of Order” does not identify an ant.\"},{\"id\":\"84133e7e300fd75fd281\",\"label\":\"no\",\"reason\":\"Identifies a bicycle, not a submarine.\"},{\"id\":\"b6a1dacd37f254261de2\",\"label\":\"no\",\"reason\":\"Baking precision does not identify a lion.\"},{\"id\":\"ec546e308f99ad960765\",\"label\":\"no\",\"reason\":\"Identifies a gazelle, not a dragonfly.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 380,
+    "started": "2026-11-26T08:21:51.433811+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 437,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 113,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 546,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 983
+    }
+  }
+}
