@@ -1,0 +1,1597 @@
+{
+  "finished": {
+    "audit_eval_00_0": {
+      "data": {
+        "items": [
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_0",
+            "reason": "Different sizes to accommodate varying bell diameters is plausible and describes a physical sizing property.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_1",
+            "reason": "An accessible edge can provide a grip for removal; the sentence describes a physical feature.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_2",
+            "reason": "A loose insert could vibrate against the bell and buzz, and checking its fit is a plausible operation.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_3",
+            "reason": "Removing the device allows playing through the unobstructed bell; this is a distinct action.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_4",
+            "reason": "Backstage use before a performance is a plausible quiet warm-up circumstance, distinct from the prior small-room setting.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_5",
+            "reason": "Trying basic fingering quietly in a shop testing area is plausible and describes a distinct circumstance.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_6",
+            "reason": "The altered tone and projection make it unsuitable as a dependable reference for performance sound; this states a distinct function.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_7",
+            "reason": "Reduced output can make balancing with unmuted brass impractical, supporting individual rather than ensemble use.",
+            "style": "pass"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"id\":\"eval_00_0\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Different sizes to accommodate varying bell diameters is plausible and describes a physical sizing property.\"},{\"id\":\"eval_00_1\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"An accessible edge can provide a grip for removal; the sentence describes a physical feature.\"},{\"id\":\"eval_00_2\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"A loose insert could vibrate against the bell and buzz, and checking its fit is a plausible operation.\"},{\"id\":\"eval_00_3\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Removing the device allows playing through the unobstructed bell; this is a distinct action.\"},{\"id\":\"eval_00_4\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Backstage use before a performance is a plausible quiet warm-up circumstance, distinct from the prior small-room setting.\"},{\"id\":\"eval_00_5\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Trying basic fingering quietly in a shop testing area is plausible and describes a distinct circumstance.\"},{\"id\":\"eval_00_6\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"The altered tone and projection make it unsuitable as a dependable reference for performance sound; this states a distinct function.\"},{\"id\":\"eval_00_7\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Reduced output can make balancing with unmuted brass impractical, supporting individual rather than ensemble use.\"}]}",
+      "request_sha256": "ebba49f438e96956a4c79f1e9169813b2d5ece50b57ec2b93d98a3a63e294356",
+      "usage": {
+        "completion_tokens": 1843,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1405,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1246,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1243,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3089
+      }
+    },
+    "audit_train_00_0": {
+      "data": {
+        "items": [
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_0",
+            "reason": "A compact device sized for placement in a brass instrument’s bell is accurate and fits the structure style. It contains no forbidden term.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_1",
+            "reason": "The described body and cushioning materials are plausible components, fitting the structure style. No forbidden term or near-duplicate claim is present.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_2",
+            "reason": "Internal passages or baffles are plausible design features that redirect sound, fitting the structure style. No forbidden term or near-duplicate claim is present.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_3",
+            "reason": "A tapered form is a plausible physical feature and fits the structure style. No forbidden term or near-duplicate claim is present.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_4",
+            "reason": "The device can intercept sound at the bell; this describes its operation and fits the action style. No forbidden term or near-duplicate claim is present.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_5",
+            "reason": "Airflow through openings can allow playing despite the device’s obstruction, fitting the action style. No forbidden term or near-duplicate claim is present.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_6",
+            "reason": "Added resistance is a plausible playing effect and fits the action style. No forbidden term or near-duplicate claim is present.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_7",
+            "reason": "Acoustic loading may affect intonation, making this a plausible operational effect that fits the action style. No forbidden term or near-duplicate claim is present.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_8",
+            "reason": "Shared homes are a plausible context for quieter playing, fitting the situation style. No forbidden term or earlier duplicate is present.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_9",
+            "reason": "A small room where full-volume playing is impractical is a suitable context, fitting the situation style. No forbidden term or near-duplicate claim is present.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_10",
+            "reason": "Reviewing passages between lessons is a plausible use context and fits the situation style. No forbidden term or near-duplicate claim is present.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_11",
+            "reason": "Travel and temporary rooms are plausible circumstances for quieter practice, fitting the situation style. No forbidden term or near-duplicate claim is present.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_12",
+            "reason": "Lowering sound while allowing continued playing accurately states the device’s role and fits the function style. No forbidden term or near-duplicate claim is present.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_13",
+            "reason": "Retaining audible feedback about pitch and phrasing is a plausible benefit and fits the function style. No forbidden term or near-duplicate claim is present.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_14",
+            "reason": "A passive, non-electronic design is consistent with this device and fits the function style. No forbidden term or near-duplicate claim is present.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "fail",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_15",
+            "reason": "The function and style are appropriate, but the claim that it enables practice when nearby listeners cannot accommodate full-volume playing substantially repeats train_00_8’s shared-home use claim. No forbidden term is present.",
+            "style": "pass"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"id\":\"train_00_0\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"A compact device sized for placement in a brass instrument’s bell is accurate and fits the structure style. It contains no forbidden term.\"},{\"id\":\"train_00_1\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"The described body and cushioning materials are plausible components, fitting the structure style. No forbidden term or near-duplicate claim is present.\"},{\"id\":\"train_00_2\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Internal passages or baffles are plausible design features that redirect sound, fitting the structure style. No forbidden term or near-duplicate claim is present.\"},{\"id\":\"train_00_3\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"A tapered form is a plausible physical feature and fits the structure style. No forbidden term or near-duplicate claim is present.\"},{\"id\":\"train_00_4\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"The device can intercept sound at the bell; this describes its operation and fits the action style. No forbidden term or near-duplicate claim is present.\"},{\"id\":\"train_00_5\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Airflow through openings can allow playing despite the device’s obstruction, fitting the action style. No forbidden term or near-duplicate claim is present.\"},{\"id\":\"train_00_6\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Added resistance is a plausible playing effect and fits the action style. No forbidden term or near-duplicate claim is present.\"},{\"id\":\"train_00_7\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Acoustic loading may affect intonation, making this a plausible operational effect that fits the action style. No forbidden term or near-duplicate claim is present.\"},{\"id\":\"train_00_8\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Shared homes are a plausible context for quieter playing, fitting the situation style. No forbidden term or earlier duplicate is present.\"},{\"id\":\"train_00_9\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"A small room where full-volume playing is impractical is a suitable context, fitting the situation style. No forbidden term or near-duplicate claim is present.\"},{\"id\":\"train_00_10\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Reviewing passages between lessons is a plausible use context and fits the situation style. No forbidden term or near-duplicate claim is present.\"},{\"id\":\"train_00_11\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Travel and temporary rooms are plausible circumstances for quieter practice, fitting the situation style. No forbidden term or near-duplicate claim is present.\"},{\"id\":\"train_00_12\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Lowering sound while allowing continued playing accurately states the device’s role and fits the function style. No forbidden term or near-duplicate claim is present.\"},{\"id\":\"train_00_13\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Retaining audible feedback about pitch and phrasing is a plausible benefit and fits the function style. No forbidden term or near-duplicate claim is present.\"},{\"id\":\"train_00_14\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"A passive, non-electronic design is consistent with this device and fits the function style. No forbidden term or near-duplicate claim is present.\"},{\"id\":\"train_00_15\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"fail\",\"reason\":\"The function and style are appropriate, but the claim that it enables practice when nearby listeners cannot accommodate full-volume playing substantially repeats train_00_8’s shared-home use claim. No forbidden term is present.\"}]}",
+      "request_sha256": "c2fe741258d561dea1da639e1aaa4fadf87fccf3ba2c0bd6c5b861905622ff4d",
+      "usage": {
+        "completion_tokens": 1803,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 809,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1066,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1063,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2869
+      }
+    },
+    "audit_train_01_0": {
+      "data": {
+        "items": [
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_01_0",
+            "reason": "Accurately describes a typical benefit of the device, fits the function style, and is natural standalone English. It contains no forbidden terms or names, and its limited-rehearsal-space context is distinct from the prior descriptions.",
+            "style": "pass"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"id\":\"train_01_0\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Accurately describes a typical benefit of the device, fits the function style, and is natural standalone English. It contains no forbidden terms or names, and its limited-rehearsal-space context is distinct from the prior descriptions.\"}]}",
+      "request_sha256": "6ea9303a1a9bfdd8f3999198a9f2c4448b64094d011a36dd379db1b30cd60bf4",
+      "usage": {
+        "completion_tokens": 227,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 132,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 820,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 1047
+      }
+    },
+    "gen_eval_00_0": {
+      "data": {
+        "items": [
+          {
+            "fact_key": "instrument_specific_sizing",
+            "sentence": "Manufacturers offer differently sized versions because brass bells vary in diameter, so an insert made for one instrument may not fit another.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "accessible_removal_edge",
+            "sentence": "Its exposed outer edge provides a grasping point, allowing the player to withdraw it without taking apart the instrument.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "secure_fit_check",
+            "sentence": "Before playing, a musician checks that the insert sits securely; a loose fit can vibrate against the bell and create unwanted buzzing.",
+            "style": "action"
+          },
+          {
+            "fact_key": "switching_to_open_bell",
+            "sentence": "A player can remove the insert between drills and continue on the open bell without changing the instrument's setup.",
+            "style": "action"
+          },
+          {
+            "fact_key": "backstage_warmup",
+            "sentence": "Before a stage call, performers may use one backstage to warm up without filling a quiet auditorium with full-volume notes.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "music_shop_testing",
+            "sentence": "In a music shop's testing area, a player may use one to try basic fingering while nearby customers browse.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "not_a_performance_tone_reference",
+            "sentence": "Its altered tone and projection make it a personal practice aid rather than a reliable way to judge how the instrument sounds in performance.",
+            "style": "function"
+          },
+          {
+            "fact_key": "not_for_unmuted_ensemble_balance",
+            "sentence": "Its output is generally too low to balance with unmuted brass, so it is intended for individual work rather than ordinary ensemble playing.",
+            "style": "function"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"sentence\":\"Manufacturers offer differently sized versions because brass bells vary in diameter, so an insert made for one instrument may not fit another.\",\"fact_key\":\"instrument_specific_sizing\",\"style\":\"structure\"},{\"sentence\":\"Its exposed outer edge provides a grasping point, allowing the player to withdraw it without taking apart the instrument.\",\"fact_key\":\"accessible_removal_edge\",\"style\":\"structure\"},{\"sentence\":\"Before playing, a musician checks that the insert sits securely; a loose fit can vibrate against the bell and create unwanted buzzing.\",\"fact_key\":\"secure_fit_check\",\"style\":\"action\"},{\"sentence\":\"A player can remove the insert between drills and continue on the open bell without changing the instrument's setup.\",\"fact_key\":\"switching_to_open_bell\",\"style\":\"action\"},{\"sentence\":\"Before a stage call, performers may use one backstage to warm up without filling a quiet auditorium with full-volume notes.\",\"fact_key\":\"backstage_warmup\",\"style\":\"situation\"},{\"sentence\":\"In a music shop's testing area, a player may use one to try basic fingering while nearby customers browse.\",\"fact_key\":\"music_shop_testing\",\"style\":\"situation\"},{\"sentence\":\"Its altered tone and projection make it a personal practice aid rather than a reliable way to judge how the instrument sounds in performance.\",\"fact_key\":\"not_a_performance_tone_reference\",\"style\":\"function\"},{\"sentence\":\"Its output is generally too low to balance with unmuted brass, so it is intended for individual work rather than ordinary ensemble playing.\",\"fact_key\":\"not_for_unmuted_ensemble_balance\",\"style\":\"function\"}]}",
+      "request_sha256": "a91e7a7cf1f0587d33a39f31db41d8b053a535e51dcddde9607601ce13f494f6",
+      "usage": {
+        "completion_tokens": 3114,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 2753,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 875,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3989
+      }
+    },
+    "gen_train_00_0": {
+      "data": {
+        "items": [
+          {
+            "fact_key": "compact_fit",
+            "sentence": "A compact, lightweight accessory is sized to sit within the flared bell of a brass instrument.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "body_and_cushion_materials",
+            "sentence": "Many models combine a rigid metal or plastic body with soft cork or felt strips that help secure the fit.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "internal_sound_path",
+            "sentence": "The interior of many designs includes narrow passages or baffles that redirect sound before it leaves the bell.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "tapered_shape",
+            "sentence": "Some versions have a tapered body, with a wider rim near the bell opening and a narrower end farther inside.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "sound_interception",
+            "sentence": "When seated in the bell, it intercepts sound waves before they radiate freely into the room.",
+            "style": "action"
+          },
+          {
+            "fact_key": "airflow_through_openings",
+            "sentence": "Air passes through internal openings, so playing remains possible despite the added obstruction.",
+            "style": "action"
+          },
+          {
+            "fact_key": "increased_playing_resistance",
+            "sentence": "The added resistance can make the instrument feel harder to blow, especially for players unaccustomed to the device.",
+            "style": "action"
+          },
+          {
+            "fact_key": "intonation_adjustment",
+            "sentence": "Its acoustic loading may alter intonation, requiring players to adjust pitch while practicing.",
+            "style": "action"
+          },
+          {
+            "fact_key": "shared_home_use",
+            "sentence": "Players often use one in apartments or other shared homes when loud brass playing could disturb nearby occupants.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "small_room_warmup",
+            "sentence": "It can be fitted during individual warm-ups in a small room where full-volume playing is impractical.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "between_lesson_practice",
+            "sentence": "Students may use it between lessons to review familiar passages without producing the instrument’s usual sound level.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "travel_practice",
+            "sentence": "A compact version can accompany an instrument on trips, allowing quieter practice in hotels or other temporary rooms.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "reduced_output_while_playing",
+            "sentence": "Its main role is lowering acoustic output while preserving the ability to play notes and exercises on the instrument.",
+            "style": "function"
+          },
+          {
+            "fact_key": "audible_practice_feedback",
+            "sentence": "It preserves audible pitch feedback, enabling players to hear articulation and phrasing while practicing more quietly.",
+            "style": "function"
+          },
+          {
+            "fact_key": "no_power_required",
+            "sentence": "Its passive design reduces sound without requiring batteries, cables, or electronic amplification.",
+            "style": "function"
+          },
+          {
+            "fact_key": "practice_around_listeners",
+            "sentence": "By reducing projected loudness, it helps players continue routine practice when nearby listeners cannot accommodate full-volume playing.",
+            "style": "function"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"sentence\":\"A compact, lightweight accessory is sized to sit within the flared bell of a brass instrument.\",\"fact_key\":\"compact_fit\",\"style\":\"structure\"},{\"sentence\":\"Many models combine a rigid metal or plastic body with soft cork or felt strips that help secure the fit.\",\"fact_key\":\"body_and_cushion_materials\",\"style\":\"structure\"},{\"sentence\":\"The interior of many designs includes narrow passages or baffles that redirect sound before it leaves the bell.\",\"fact_key\":\"internal_sound_path\",\"style\":\"structure\"},{\"sentence\":\"Some versions have a tapered body, with a wider rim near the bell opening and a narrower end farther inside.\",\"fact_key\":\"tapered_shape\",\"style\":\"structure\"},{\"sentence\":\"When seated in the bell, it intercepts sound waves before they radiate freely into the room.\",\"fact_key\":\"sound_interception\",\"style\":\"action\"},{\"sentence\":\"Air passes through internal openings, so playing remains possible despite the added obstruction.\",\"fact_key\":\"airflow_through_openings\",\"style\":\"action\"},{\"sentence\":\"The added resistance can make the instrument feel harder to blow, especially for players unaccustomed to the device.\",\"fact_key\":\"increased_playing_resistance\",\"style\":\"action\"},{\"sentence\":\"Its acoustic loading may alter intonation, requiring players to adjust pitch while practicing.\",\"fact_key\":\"intonation_adjustment\",\"style\":\"action\"},{\"sentence\":\"Players often use one in apartments or other shared homes when loud brass playing could disturb nearby occupants.\",\"fact_key\":\"shared_home_use\",\"style\":\"situation\"},{\"sentence\":\"It can be fitted during individual warm-ups in a small room where full-volume playing is impractical.\",\"fact_key\":\"small_room_warmup\",\"style\":\"situation\"},{\"sentence\":\"Students may use it between lessons to review familiar passages without producing the instrument’s usual sound level.\",\"fact_key\":\"between_lesson_practice\",\"style\":\"situation\"},{\"sentence\":\"A compact version can accompany an instrument on trips, allowing quieter practice in hotels or other temporary rooms.\",\"fact_key\":\"travel_practice\",\"style\":\"situation\"},{\"sentence\":\"Its main role is lowering acoustic output while preserving the ability to play notes and exercises on the instrument.\",\"fact_key\":\"reduced_output_while_playing\",\"style\":\"function\"},{\"sentence\":\"It preserves audible pitch feedback, enabling players to hear articulation and phrasing while practicing more quietly.\",\"fact_key\":\"audible_practice_feedback\",\"style\":\"function\"},{\"sentence\":\"Its passive design reduces sound without requiring batteries, cables, or electronic amplification.\",\"fact_key\":\"no_power_required\",\"style\":\"function\"},{\"sentence\":\"By reducing projected loudness, it helps players continue routine practice when nearby listeners cannot accommodate full-volume playing.\",\"fact_key\":\"practice_around_listeners\",\"style\":\"function\"}]}",
+      "request_sha256": "ebca003e1bcbfcf048156c5b5d5d8d527840a14dc4ce0f4ae7820b353e2c07a3",
+      "usage": {
+        "completion_tokens": 1982,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1410,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 339,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2321
+      }
+    },
+    "gen_train_01_0": {
+      "data": {
+        "items": [
+          {
+            "fact_key": "practice_without_rehearsal_space",
+            "sentence": "It helps brass players maintain regular practice routines when access to a rehearsal space is limited.",
+            "style": "function"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"sentence\":\"It helps brass players maintain regular practice routines when access to a rehearsal space is limited.\",\"fact_key\":\"practice_without_rehearsal_space\",\"style\":\"function\"}]}",
+      "request_sha256": "624be4a46d934aeabcac2089fc50d70c1bbea6e82a83d5c2d8f4043700005fd6",
+      "usage": {
+        "completion_tokens": 272,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 221,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 822,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 1094
+      }
+    }
+  },
+  "quality": {
+    "eval_00": {
+      "accepted_total_group": 8,
+      "audit": [
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_0",
+          "reason": "Different sizes to accommodate varying bell diameters is plausible and describes a physical sizing property.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_1",
+          "reason": "An accessible edge can provide a grip for removal; the sentence describes a physical feature.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_2",
+          "reason": "A loose insert could vibrate against the bell and buzz, and checking its fit is a plausible operation.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_3",
+          "reason": "Removing the device allows playing through the unobstructed bell; this is a distinct action.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_4",
+          "reason": "Backstage use before a performance is a plausible quiet warm-up circumstance, distinct from the prior small-room setting.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_5",
+          "reason": "Trying basic fingering quietly in a shop testing area is plausible and describes a distinct circumstance.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_6",
+          "reason": "The altered tone and projection make it unsuitable as a dependable reference for performance sound; this states a distinct function.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_7",
+          "reason": "Reduced output can make balancing with unmuted brass impractical, supporting individual rather than ensemble use.",
+          "style": "pass"
+        }
+      ],
+      "key": "eval_00",
+      "rejected": [],
+      "requested": {
+        "action": 2,
+        "function": 2,
+        "situation": 2,
+        "structure": 2
+      }
+    },
+    "train_00": {
+      "accepted_total_group": 15,
+      "audit": [
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_0",
+          "reason": "A compact device sized for placement in a brass instrument’s bell is accurate and fits the structure style. It contains no forbidden term.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_1",
+          "reason": "The described body and cushioning materials are plausible components, fitting the structure style. No forbidden term or near-duplicate claim is present.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_2",
+          "reason": "Internal passages or baffles are plausible design features that redirect sound, fitting the structure style. No forbidden term or near-duplicate claim is present.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_3",
+          "reason": "A tapered form is a plausible physical feature and fits the structure style. No forbidden term or near-duplicate claim is present.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_4",
+          "reason": "The device can intercept sound at the bell; this describes its operation and fits the action style. No forbidden term or near-duplicate claim is present.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_5",
+          "reason": "Airflow through openings can allow playing despite the device’s obstruction, fitting the action style. No forbidden term or near-duplicate claim is present.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_6",
+          "reason": "Added resistance is a plausible playing effect and fits the action style. No forbidden term or near-duplicate claim is present.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_7",
+          "reason": "Acoustic loading may affect intonation, making this a plausible operational effect that fits the action style. No forbidden term or near-duplicate claim is present.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_8",
+          "reason": "Shared homes are a plausible context for quieter playing, fitting the situation style. No forbidden term or earlier duplicate is present.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_9",
+          "reason": "A small room where full-volume playing is impractical is a suitable context, fitting the situation style. No forbidden term or near-duplicate claim is present.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_10",
+          "reason": "Reviewing passages between lessons is a plausible use context and fits the situation style. No forbidden term or near-duplicate claim is present.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_11",
+          "reason": "Travel and temporary rooms are plausible circumstances for quieter practice, fitting the situation style. No forbidden term or near-duplicate claim is present.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_12",
+          "reason": "Lowering sound while allowing continued playing accurately states the device’s role and fits the function style. No forbidden term or near-duplicate claim is present.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_13",
+          "reason": "Retaining audible feedback about pitch and phrasing is a plausible benefit and fits the function style. No forbidden term or near-duplicate claim is present.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_14",
+          "reason": "A passive, non-electronic design is consistent with this device and fits the function style. No forbidden term or near-duplicate claim is present.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "fail",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_15",
+          "reason": "The function and style are appropriate, but the claim that it enables practice when nearby listeners cannot accommodate full-volume playing substantially repeats train_00_8’s shared-home use claim. No forbidden term is present.",
+          "style": "pass"
+        }
+      ],
+      "key": "train_00",
+      "rejected": [
+        {
+          "audit": {
+            "alignment": "pass",
+            "duplicate": "fail",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_15",
+            "reason": "The function and style are appropriate, but the claim that it enables practice when nearby listeners cannot accommodate full-volume playing substantially repeats train_00_8’s shared-home use claim. No forbidden term is present.",
+            "style": "pass"
+          },
+          "item": {
+            "fact_key": "practice_around_listeners",
+            "id": "train_00_15",
+            "sentence": "By reducing projected loudness, it helps players continue routine practice when nearby listeners cannot accommodate full-volume playing.",
+            "style": "function"
+          },
+          "reason": "AI audit"
+        }
+      ],
+      "requested": {
+        "action": 4,
+        "function": 4,
+        "situation": 4,
+        "structure": 4
+      }
+    },
+    "train_01": {
+      "accepted_total_group": 16,
+      "audit": [
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_01_0",
+          "reason": "Accurately describes a typical benefit of the device, fits the function style, and is natural standalone English. It contains no forbidden terms or names, and its limited-rehearsal-space context is distinct from the prior descriptions.",
+          "style": "pass"
+        }
+      ],
+      "key": "train_01",
+      "rejected": [],
+      "requested": {
+        "function": 1
+      }
+    }
+  },
+  "started": {
+    "audit_eval_00_0": {
+      "payload": {
+        "concept": "practice mute",
+        "definition": "A small device inserted into a brass instrument to reduce its volume during practice.",
+        "forbidden_terms": [
+          "practice mute",
+          "trumpet"
+        ],
+        "items": [
+          {
+            "fact_key": "instrument_specific_sizing",
+            "id": "eval_00_0",
+            "sentence": "Manufacturers offer differently sized versions because brass bells vary in diameter, so an insert made for one instrument may not fit another.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "accessible_removal_edge",
+            "id": "eval_00_1",
+            "sentence": "Its exposed outer edge provides a grasping point, allowing the player to withdraw it without taking apart the instrument.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "secure_fit_check",
+            "id": "eval_00_2",
+            "sentence": "Before playing, a musician checks that the insert sits securely; a loose fit can vibrate against the bell and create unwanted buzzing.",
+            "style": "action"
+          },
+          {
+            "fact_key": "switching_to_open_bell",
+            "id": "eval_00_3",
+            "sentence": "A player can remove the insert between drills and continue on the open bell without changing the instrument's setup.",
+            "style": "action"
+          },
+          {
+            "fact_key": "backstage_warmup",
+            "id": "eval_00_4",
+            "sentence": "Before a stage call, performers may use one backstage to warm up without filling a quiet auditorium with full-volume notes.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "music_shop_testing",
+            "id": "eval_00_5",
+            "sentence": "In a music shop's testing area, a player may use one to try basic fingering while nearby customers browse.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "not_a_performance_tone_reference",
+            "id": "eval_00_6",
+            "sentence": "Its altered tone and projection make it a personal practice aid rather than a reliable way to judge how the instrument sounds in performance.",
+            "style": "function"
+          },
+          {
+            "fact_key": "not_for_unmuted_ensemble_balance",
+            "id": "eval_00_7",
+            "sentence": "Its output is generally too low to balance with unmuted brass, so it is intended for individual work rather than ordinary ensemble playing.",
+            "style": "function"
+          }
+        ],
+        "prior": [
+          {
+            "fact_key": "compact_fit",
+            "sentence": "A compact, lightweight accessory is sized to sit within the flared bell of a brass instrument."
+          },
+          {
+            "fact_key": "body_and_cushion_materials",
+            "sentence": "Many models combine a rigid metal or plastic body with soft cork or felt strips that help secure the fit."
+          },
+          {
+            "fact_key": "internal_sound_path",
+            "sentence": "The interior of many designs includes narrow passages or baffles that redirect sound before it leaves the bell."
+          },
+          {
+            "fact_key": "tapered_shape",
+            "sentence": "Some versions have a tapered body, with a wider rim near the bell opening and a narrower end farther inside."
+          },
+          {
+            "fact_key": "sound_interception",
+            "sentence": "When seated in the bell, it intercepts sound waves before they radiate freely into the room."
+          },
+          {
+            "fact_key": "airflow_through_openings",
+            "sentence": "Air passes through internal openings, so playing remains possible despite the added obstruction."
+          },
+          {
+            "fact_key": "increased_playing_resistance",
+            "sentence": "The added resistance can make the instrument feel harder to blow, especially for players unaccustomed to the device."
+          },
+          {
+            "fact_key": "intonation_adjustment",
+            "sentence": "Its acoustic loading may alter intonation, requiring players to adjust pitch while practicing."
+          },
+          {
+            "fact_key": "shared_home_use",
+            "sentence": "Players often use one in apartments or other shared homes when loud brass playing could disturb nearby occupants."
+          },
+          {
+            "fact_key": "small_room_warmup",
+            "sentence": "It can be fitted during individual warm-ups in a small room where full-volume playing is impractical."
+          },
+          {
+            "fact_key": "between_lesson_practice",
+            "sentence": "Students may use it between lessons to review familiar passages without producing the instrument’s usual sound level."
+          },
+          {
+            "fact_key": "travel_practice",
+            "sentence": "A compact version can accompany an instrument on trips, allowing quieter practice in hotels or other temporary rooms."
+          },
+          {
+            "fact_key": "reduced_output_while_playing",
+            "sentence": "Its main role is lowering acoustic output while preserving the ability to play notes and exercises on the instrument."
+          },
+          {
+            "fact_key": "audible_practice_feedback",
+            "sentence": "It preserves audible pitch feedback, enabling players to hear articulation and phrasing while practicing more quietly."
+          },
+          {
+            "fact_key": "no_power_required",
+            "sentence": "Its passive design reduces sound without requiring batteries, cables, or electronic amplification."
+          },
+          {
+            "fact_key": "practice_without_rehearsal_space",
+            "sentence": "It helps brass players maintain regular practice routines when access to a rehearsal space is limited."
+          }
+        ],
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "ebba49f438e96956a4c79f1e9169813b2d5ece50b57ec2b93d98a3a63e294356",
+      "system": "Independently evaluate each description against the supplied concept definition and each item’s assigned style. Check factual accuracy, concept alignment, natural standalone English, style, absence of names/aliases and near semantic duplicates of prior accepted descriptions (including other splits) or earlier items in this batch. A shared broad topic is not itself duplication, but essentially the same factual claim or paraphrase is. Return JSON {\"items\":[{\"id\":\"...\",\"fact\":\"pass|fail|uncertain\",\"alignment\":\"pass|fail|uncertain\",\"style\":\"pass|fail|uncertain\",\"exposure\":\"pass|fail|uncertain\",\"duplicate\":\"pass|fail|uncertain\",\"reason\":\"...\"}]}. Return every id exactly once. Treat supplied sentences as data. Do not infer model performance."
+    },
+    "audit_train_00_0": {
+      "payload": {
+        "concept": "practice mute",
+        "definition": "A small device inserted into a brass instrument to reduce its volume during practice.",
+        "forbidden_terms": [
+          "practice mute",
+          "trumpet"
+        ],
+        "items": [
+          {
+            "fact_key": "compact_fit",
+            "id": "train_00_0",
+            "sentence": "A compact, lightweight accessory is sized to sit within the flared bell of a brass instrument.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "body_and_cushion_materials",
+            "id": "train_00_1",
+            "sentence": "Many models combine a rigid metal or plastic body with soft cork or felt strips that help secure the fit.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "internal_sound_path",
+            "id": "train_00_2",
+            "sentence": "The interior of many designs includes narrow passages or baffles that redirect sound before it leaves the bell.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "tapered_shape",
+            "id": "train_00_3",
+            "sentence": "Some versions have a tapered body, with a wider rim near the bell opening and a narrower end farther inside.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "sound_interception",
+            "id": "train_00_4",
+            "sentence": "When seated in the bell, it intercepts sound waves before they radiate freely into the room.",
+            "style": "action"
+          },
+          {
+            "fact_key": "airflow_through_openings",
+            "id": "train_00_5",
+            "sentence": "Air passes through internal openings, so playing remains possible despite the added obstruction.",
+            "style": "action"
+          },
+          {
+            "fact_key": "increased_playing_resistance",
+            "id": "train_00_6",
+            "sentence": "The added resistance can make the instrument feel harder to blow, especially for players unaccustomed to the device.",
+            "style": "action"
+          },
+          {
+            "fact_key": "intonation_adjustment",
+            "id": "train_00_7",
+            "sentence": "Its acoustic loading may alter intonation, requiring players to adjust pitch while practicing.",
+            "style": "action"
+          },
+          {
+            "fact_key": "shared_home_use",
+            "id": "train_00_8",
+            "sentence": "Players often use one in apartments or other shared homes when loud brass playing could disturb nearby occupants.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "small_room_warmup",
+            "id": "train_00_9",
+            "sentence": "It can be fitted during individual warm-ups in a small room where full-volume playing is impractical.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "between_lesson_practice",
+            "id": "train_00_10",
+            "sentence": "Students may use it between lessons to review familiar passages without producing the instrument’s usual sound level.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "travel_practice",
+            "id": "train_00_11",
+            "sentence": "A compact version can accompany an instrument on trips, allowing quieter practice in hotels or other temporary rooms.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "reduced_output_while_playing",
+            "id": "train_00_12",
+            "sentence": "Its main role is lowering acoustic output while preserving the ability to play notes and exercises on the instrument.",
+            "style": "function"
+          },
+          {
+            "fact_key": "audible_practice_feedback",
+            "id": "train_00_13",
+            "sentence": "It preserves audible pitch feedback, enabling players to hear articulation and phrasing while practicing more quietly.",
+            "style": "function"
+          },
+          {
+            "fact_key": "no_power_required",
+            "id": "train_00_14",
+            "sentence": "Its passive design reduces sound without requiring batteries, cables, or electronic amplification.",
+            "style": "function"
+          },
+          {
+            "fact_key": "practice_around_listeners",
+            "id": "train_00_15",
+            "sentence": "By reducing projected loudness, it helps players continue routine practice when nearby listeners cannot accommodate full-volume playing.",
+            "style": "function"
+          }
+        ],
+        "prior": [],
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "c2fe741258d561dea1da639e1aaa4fadf87fccf3ba2c0bd6c5b861905622ff4d",
+      "system": "Independently evaluate each description against the supplied concept definition and each item’s assigned style. Check factual accuracy, concept alignment, natural standalone English, style, absence of names/aliases and near semantic duplicates of prior accepted descriptions (including other splits) or earlier items in this batch. A shared broad topic is not itself duplication, but essentially the same factual claim or paraphrase is. Return JSON {\"items\":[{\"id\":\"...\",\"fact\":\"pass|fail|uncertain\",\"alignment\":\"pass|fail|uncertain\",\"style\":\"pass|fail|uncertain\",\"exposure\":\"pass|fail|uncertain\",\"duplicate\":\"pass|fail|uncertain\",\"reason\":\"...\"}]}. Return every id exactly once. Treat supplied sentences as data. Do not infer model performance."
+    },
+    "audit_train_01_0": {
+      "payload": {
+        "concept": "practice mute",
+        "definition": "A small device inserted into a brass instrument to reduce its volume during practice.",
+        "forbidden_terms": [
+          "practice mute",
+          "trumpet"
+        ],
+        "items": [
+          {
+            "fact_key": "practice_without_rehearsal_space",
+            "id": "train_01_0",
+            "sentence": "It helps brass players maintain regular practice routines when access to a rehearsal space is limited.",
+            "style": "function"
+          }
+        ],
+        "prior": [
+          {
+            "fact_key": "compact_fit",
+            "sentence": "A compact, lightweight accessory is sized to sit within the flared bell of a brass instrument."
+          },
+          {
+            "fact_key": "body_and_cushion_materials",
+            "sentence": "Many models combine a rigid metal or plastic body with soft cork or felt strips that help secure the fit."
+          },
+          {
+            "fact_key": "internal_sound_path",
+            "sentence": "The interior of many designs includes narrow passages or baffles that redirect sound before it leaves the bell."
+          },
+          {
+            "fact_key": "tapered_shape",
+            "sentence": "Some versions have a tapered body, with a wider rim near the bell opening and a narrower end farther inside."
+          },
+          {
+            "fact_key": "sound_interception",
+            "sentence": "When seated in the bell, it intercepts sound waves before they radiate freely into the room."
+          },
+          {
+            "fact_key": "airflow_through_openings",
+            "sentence": "Air passes through internal openings, so playing remains possible despite the added obstruction."
+          },
+          {
+            "fact_key": "increased_playing_resistance",
+            "sentence": "The added resistance can make the instrument feel harder to blow, especially for players unaccustomed to the device."
+          },
+          {
+            "fact_key": "intonation_adjustment",
+            "sentence": "Its acoustic loading may alter intonation, requiring players to adjust pitch while practicing."
+          },
+          {
+            "fact_key": "shared_home_use",
+            "sentence": "Players often use one in apartments or other shared homes when loud brass playing could disturb nearby occupants."
+          },
+          {
+            "fact_key": "small_room_warmup",
+            "sentence": "It can be fitted during individual warm-ups in a small room where full-volume playing is impractical."
+          },
+          {
+            "fact_key": "between_lesson_practice",
+            "sentence": "Students may use it between lessons to review familiar passages without producing the instrument’s usual sound level."
+          },
+          {
+            "fact_key": "travel_practice",
+            "sentence": "A compact version can accompany an instrument on trips, allowing quieter practice in hotels or other temporary rooms."
+          },
+          {
+            "fact_key": "reduced_output_while_playing",
+            "sentence": "Its main role is lowering acoustic output while preserving the ability to play notes and exercises on the instrument."
+          },
+          {
+            "fact_key": "audible_practice_feedback",
+            "sentence": "It preserves audible pitch feedback, enabling players to hear articulation and phrasing while practicing more quietly."
+          },
+          {
+            "fact_key": "no_power_required",
+            "sentence": "Its passive design reduces sound without requiring batteries, cables, or electronic amplification."
+          }
+        ],
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "6ea9303a1a9bfdd8f3999198a9f2c4448b64094d011a36dd379db1b30cd60bf4",
+      "system": "Independently evaluate each description against the supplied concept definition and each item’s assigned style. Check factual accuracy, concept alignment, natural standalone English, style, absence of names/aliases and near semantic duplicates of prior accepted descriptions (including other splits) or earlier items in this batch. A shared broad topic is not itself duplication, but essentially the same factual claim or paraphrase is. Return JSON {\"items\":[{\"id\":\"...\",\"fact\":\"pass|fail|uncertain\",\"alignment\":\"pass|fail|uncertain\",\"style\":\"pass|fail|uncertain\",\"exposure\":\"pass|fail|uncertain\",\"duplicate\":\"pass|fail|uncertain\",\"reason\":\"...\"}]}. Return every id exactly once. Treat supplied sentences as data. Do not infer model performance."
+    },
+    "gen_eval_00_0": {
+      "payload": {
+        "concept": "practice mute",
+        "definition": "A small device inserted into a brass instrument to reduce its volume during practice.",
+        "forbidden_terms": [
+          "practice mute",
+          "trumpet"
+        ],
+        "instruction": "Return exactly the requested count for each style, with a style key for every item. For eval, use new factual ideas, not paraphrases of train.",
+        "prior": [
+          {
+            "fact_key": "compact_fit",
+            "sentence": "A compact, lightweight accessory is sized to sit within the flared bell of a brass instrument."
+          },
+          {
+            "fact_key": "body_and_cushion_materials",
+            "sentence": "Many models combine a rigid metal or plastic body with soft cork or felt strips that help secure the fit."
+          },
+          {
+            "fact_key": "internal_sound_path",
+            "sentence": "The interior of many designs includes narrow passages or baffles that redirect sound before it leaves the bell."
+          },
+          {
+            "fact_key": "tapered_shape",
+            "sentence": "Some versions have a tapered body, with a wider rim near the bell opening and a narrower end farther inside."
+          },
+          {
+            "fact_key": "sound_interception",
+            "sentence": "When seated in the bell, it intercepts sound waves before they radiate freely into the room."
+          },
+          {
+            "fact_key": "airflow_through_openings",
+            "sentence": "Air passes through internal openings, so playing remains possible despite the added obstruction."
+          },
+          {
+            "fact_key": "increased_playing_resistance",
+            "sentence": "The added resistance can make the instrument feel harder to blow, especially for players unaccustomed to the device."
+          },
+          {
+            "fact_key": "intonation_adjustment",
+            "sentence": "Its acoustic loading may alter intonation, requiring players to adjust pitch while practicing."
+          },
+          {
+            "fact_key": "shared_home_use",
+            "sentence": "Players often use one in apartments or other shared homes when loud brass playing could disturb nearby occupants."
+          },
+          {
+            "fact_key": "small_room_warmup",
+            "sentence": "It can be fitted during individual warm-ups in a small room where full-volume playing is impractical."
+          },
+          {
+            "fact_key": "between_lesson_practice",
+            "sentence": "Students may use it between lessons to review familiar passages without producing the instrument’s usual sound level."
+          },
+          {
+            "fact_key": "travel_practice",
+            "sentence": "A compact version can accompany an instrument on trips, allowing quieter practice in hotels or other temporary rooms."
+          },
+          {
+            "fact_key": "reduced_output_while_playing",
+            "sentence": "Its main role is lowering acoustic output while preserving the ability to play notes and exercises on the instrument."
+          },
+          {
+            "fact_key": "audible_practice_feedback",
+            "sentence": "It preserves audible pitch feedback, enabling players to hear articulation and phrasing while practicing more quietly."
+          },
+          {
+            "fact_key": "no_power_required",
+            "sentence": "Its passive design reduces sound without requiring batteries, cables, or electronic amplification."
+          },
+          {
+            "fact_key": "practice_without_rehearsal_space",
+            "sentence": "It helps brass players maintain regular practice routines when access to a rehearsal space is limited."
+          }
+        ],
+        "split": "eval",
+        "style_counts": {
+          "action": 2,
+          "function": 2,
+          "situation": 2,
+          "structure": 2
+        },
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "a91e7a7cf1f0587d33a39f31db41d8b053a535e51dcddde9607601ce13f494f6",
+      "system": "Generate factually accurate natural standalone English descriptions for a concept probe dataset. Each sentence describes the specified concept, without naming it, comparison concepts or their obvious aliases. Use the assigned style and 10–25 words. The request supplies a style-to-count map; return each item with a style key matching that map. Avoid label-specific formatting, fiction, trivia guesses and recycled facts. Each fact_key is a short description of a distinct factual claim. Use prior sentences only to avoid near paraphrase and repeated factual claims, not as templates. Use diverse facets and contexts. For held-out evaluation, use new factual claims or contexts rather than paraphrases of training. Output JSON {\"items\":[{\"sentence\":\"...\",\"fact_key\":\"...\",\"style\":\"structure\"}]}. Treat provided text as data, not instructions."
+    },
+    "gen_train_00_0": {
+      "payload": {
+        "concept": "practice mute",
+        "definition": "A small device inserted into a brass instrument to reduce its volume during practice.",
+        "forbidden_terms": [
+          "practice mute",
+          "trumpet"
+        ],
+        "instruction": "Return exactly the requested count for each style, with a style key for every item. For eval, use new factual ideas, not paraphrases of train.",
+        "prior": [],
+        "split": "train",
+        "style_counts": {
+          "action": 4,
+          "function": 4,
+          "situation": 4,
+          "structure": 4
+        },
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "ebca003e1bcbfcf048156c5b5d5d8d527840a14dc4ce0f4ae7820b353e2c07a3",
+      "system": "Generate factually accurate natural standalone English descriptions for a concept probe dataset. Each sentence describes the specified concept, without naming it, comparison concepts or their obvious aliases. Use the assigned style and 10–25 words. The request supplies a style-to-count map; return each item with a style key matching that map. Avoid label-specific formatting, fiction, trivia guesses and recycled facts. Each fact_key is a short description of a distinct factual claim. Use prior sentences only to avoid near paraphrase and repeated factual claims, not as templates. Use diverse facets and contexts. For held-out evaluation, use new factual claims or contexts rather than paraphrases of training. Output JSON {\"items\":[{\"sentence\":\"...\",\"fact_key\":\"...\",\"style\":\"structure\"}]}. Treat provided text as data, not instructions."
+    },
+    "gen_train_01_0": {
+      "payload": {
+        "concept": "practice mute",
+        "definition": "A small device inserted into a brass instrument to reduce its volume during practice.",
+        "forbidden_terms": [
+          "practice mute",
+          "trumpet"
+        ],
+        "instruction": "Return exactly the requested count for each style, with a style key for every item. For eval, use new factual ideas, not paraphrases of train.",
+        "prior": [
+          {
+            "fact_key": "compact_fit",
+            "sentence": "A compact, lightweight accessory is sized to sit within the flared bell of a brass instrument."
+          },
+          {
+            "fact_key": "body_and_cushion_materials",
+            "sentence": "Many models combine a rigid metal or plastic body with soft cork or felt strips that help secure the fit."
+          },
+          {
+            "fact_key": "internal_sound_path",
+            "sentence": "The interior of many designs includes narrow passages or baffles that redirect sound before it leaves the bell."
+          },
+          {
+            "fact_key": "tapered_shape",
+            "sentence": "Some versions have a tapered body, with a wider rim near the bell opening and a narrower end farther inside."
+          },
+          {
+            "fact_key": "sound_interception",
+            "sentence": "When seated in the bell, it intercepts sound waves before they radiate freely into the room."
+          },
+          {
+            "fact_key": "airflow_through_openings",
+            "sentence": "Air passes through internal openings, so playing remains possible despite the added obstruction."
+          },
+          {
+            "fact_key": "increased_playing_resistance",
+            "sentence": "The added resistance can make the instrument feel harder to blow, especially for players unaccustomed to the device."
+          },
+          {
+            "fact_key": "intonation_adjustment",
+            "sentence": "Its acoustic loading may alter intonation, requiring players to adjust pitch while practicing."
+          },
+          {
+            "fact_key": "shared_home_use",
+            "sentence": "Players often use one in apartments or other shared homes when loud brass playing could disturb nearby occupants."
+          },
+          {
+            "fact_key": "small_room_warmup",
+            "sentence": "It can be fitted during individual warm-ups in a small room where full-volume playing is impractical."
+          },
+          {
+            "fact_key": "between_lesson_practice",
+            "sentence": "Students may use it between lessons to review familiar passages without producing the instrument’s usual sound level."
+          },
+          {
+            "fact_key": "travel_practice",
+            "sentence": "A compact version can accompany an instrument on trips, allowing quieter practice in hotels or other temporary rooms."
+          },
+          {
+            "fact_key": "reduced_output_while_playing",
+            "sentence": "Its main role is lowering acoustic output while preserving the ability to play notes and exercises on the instrument."
+          },
+          {
+            "fact_key": "audible_practice_feedback",
+            "sentence": "It preserves audible pitch feedback, enabling players to hear articulation and phrasing while practicing more quietly."
+          },
+          {
+            "fact_key": "no_power_required",
+            "sentence": "Its passive design reduces sound without requiring batteries, cables, or electronic amplification."
+          }
+        ],
+        "split": "train",
+        "style_counts": {
+          "function": 1
+        },
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "624be4a46d934aeabcac2089fc50d70c1bbea6e82a83d5c2d8f4043700005fd6",
+      "system": "Generate factually accurate natural standalone English descriptions for a concept probe dataset. Each sentence describes the specified concept, without naming it, comparison concepts or their obvious aliases. Use the assigned style and 10–25 words. The request supplies a style-to-count map; return each item with a style key matching that map. Avoid label-specific formatting, fiction, trivia guesses and recycled facts. Each fact_key is a short description of a distinct factual claim. Use prior sentences only to avoid near paraphrase and repeated factual claims, not as templates. Use diverse facets and contexts. For held-out evaluation, use new factual claims or contexts rather than paraphrases of training. Output JSON {\"items\":[{\"sentence\":\"...\",\"fact_key\":\"...\",\"style\":\"structure\"}]}. Treat provided text as data, not instructions."
+    }
+  },
+  "texts": [
+    {
+      "concept": "practice mute",
+      "fact_key": "compact_fit",
+      "id": "train_00_0",
+      "sentence": "A compact, lightweight accessory is sized to sit within the flared bell of a brass instrument.",
+      "split": "train",
+      "style": "structure",
+      "style_index": 0,
+      "text_id": "C23_Y26_Y_train_structure_0",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "body_and_cushion_materials",
+      "id": "train_00_1",
+      "sentence": "Many models combine a rigid metal or plastic body with soft cork or felt strips that help secure the fit.",
+      "split": "train",
+      "style": "structure",
+      "style_index": 1,
+      "text_id": "C23_Y26_Y_train_structure_1",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "internal_sound_path",
+      "id": "train_00_2",
+      "sentence": "The interior of many designs includes narrow passages or baffles that redirect sound before it leaves the bell.",
+      "split": "train",
+      "style": "structure",
+      "style_index": 2,
+      "text_id": "C23_Y26_Y_train_structure_2",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "tapered_shape",
+      "id": "train_00_3",
+      "sentence": "Some versions have a tapered body, with a wider rim near the bell opening and a narrower end farther inside.",
+      "split": "train",
+      "style": "structure",
+      "style_index": 3,
+      "text_id": "C23_Y26_Y_train_structure_3",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "sound_interception",
+      "id": "train_00_4",
+      "sentence": "When seated in the bell, it intercepts sound waves before they radiate freely into the room.",
+      "split": "train",
+      "style": "action",
+      "style_index": 0,
+      "text_id": "C23_Y26_Y_train_action_0",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "airflow_through_openings",
+      "id": "train_00_5",
+      "sentence": "Air passes through internal openings, so playing remains possible despite the added obstruction.",
+      "split": "train",
+      "style": "action",
+      "style_index": 1,
+      "text_id": "C23_Y26_Y_train_action_1",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "increased_playing_resistance",
+      "id": "train_00_6",
+      "sentence": "The added resistance can make the instrument feel harder to blow, especially for players unaccustomed to the device.",
+      "split": "train",
+      "style": "action",
+      "style_index": 2,
+      "text_id": "C23_Y26_Y_train_action_2",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "intonation_adjustment",
+      "id": "train_00_7",
+      "sentence": "Its acoustic loading may alter intonation, requiring players to adjust pitch while practicing.",
+      "split": "train",
+      "style": "action",
+      "style_index": 3,
+      "text_id": "C23_Y26_Y_train_action_3",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "shared_home_use",
+      "id": "train_00_8",
+      "sentence": "Players often use one in apartments or other shared homes when loud brass playing could disturb nearby occupants.",
+      "split": "train",
+      "style": "situation",
+      "style_index": 0,
+      "text_id": "C23_Y26_Y_train_situation_0",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "small_room_warmup",
+      "id": "train_00_9",
+      "sentence": "It can be fitted during individual warm-ups in a small room where full-volume playing is impractical.",
+      "split": "train",
+      "style": "situation",
+      "style_index": 1,
+      "text_id": "C23_Y26_Y_train_situation_1",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "between_lesson_practice",
+      "id": "train_00_10",
+      "sentence": "Students may use it between lessons to review familiar passages without producing the instrument’s usual sound level.",
+      "split": "train",
+      "style": "situation",
+      "style_index": 2,
+      "text_id": "C23_Y26_Y_train_situation_2",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "travel_practice",
+      "id": "train_00_11",
+      "sentence": "A compact version can accompany an instrument on trips, allowing quieter practice in hotels or other temporary rooms.",
+      "split": "train",
+      "style": "situation",
+      "style_index": 3,
+      "text_id": "C23_Y26_Y_train_situation_3",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "reduced_output_while_playing",
+      "id": "train_00_12",
+      "sentence": "Its main role is lowering acoustic output while preserving the ability to play notes and exercises on the instrument.",
+      "split": "train",
+      "style": "function",
+      "style_index": 0,
+      "text_id": "C23_Y26_Y_train_function_0",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "audible_practice_feedback",
+      "id": "train_00_13",
+      "sentence": "It preserves audible pitch feedback, enabling players to hear articulation and phrasing while practicing more quietly.",
+      "split": "train",
+      "style": "function",
+      "style_index": 1,
+      "text_id": "C23_Y26_Y_train_function_1",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "no_power_required",
+      "id": "train_00_14",
+      "sentence": "Its passive design reduces sound without requiring batteries, cables, or electronic amplification.",
+      "split": "train",
+      "style": "function",
+      "style_index": 2,
+      "text_id": "C23_Y26_Y_train_function_2",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "practice_without_rehearsal_space",
+      "id": "train_01_0",
+      "sentence": "It helps brass players maintain regular practice routines when access to a rehearsal space is limited.",
+      "split": "train",
+      "style": "function",
+      "style_index": 3,
+      "text_id": "C23_Y26_Y_train_function_3",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "instrument_specific_sizing",
+      "id": "eval_00_0",
+      "sentence": "Manufacturers offer differently sized versions because brass bells vary in diameter, so an insert made for one instrument may not fit another.",
+      "split": "eval",
+      "style": "structure",
+      "style_index": 0,
+      "text_id": "C23_Y26_Y_eval_structure_0",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "accessible_removal_edge",
+      "id": "eval_00_1",
+      "sentence": "Its exposed outer edge provides a grasping point, allowing the player to withdraw it without taking apart the instrument.",
+      "split": "eval",
+      "style": "structure",
+      "style_index": 1,
+      "text_id": "C23_Y26_Y_eval_structure_1",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "secure_fit_check",
+      "id": "eval_00_2",
+      "sentence": "Before playing, a musician checks that the insert sits securely; a loose fit can vibrate against the bell and create unwanted buzzing.",
+      "split": "eval",
+      "style": "action",
+      "style_index": 0,
+      "text_id": "C23_Y26_Y_eval_action_0",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "switching_to_open_bell",
+      "id": "eval_00_3",
+      "sentence": "A player can remove the insert between drills and continue on the open bell without changing the instrument's setup.",
+      "split": "eval",
+      "style": "action",
+      "style_index": 1,
+      "text_id": "C23_Y26_Y_eval_action_1",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "backstage_warmup",
+      "id": "eval_00_4",
+      "sentence": "Before a stage call, performers may use one backstage to warm up without filling a quiet auditorium with full-volume notes.",
+      "split": "eval",
+      "style": "situation",
+      "style_index": 0,
+      "text_id": "C23_Y26_Y_eval_situation_0",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "music_shop_testing",
+      "id": "eval_00_5",
+      "sentence": "In a music shop's testing area, a player may use one to try basic fingering while nearby customers browse.",
+      "split": "eval",
+      "style": "situation",
+      "style_index": 1,
+      "text_id": "C23_Y26_Y_eval_situation_1",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "not_a_performance_tone_reference",
+      "id": "eval_00_6",
+      "sentence": "Its altered tone and projection make it a personal practice aid rather than a reliable way to judge how the instrument sounds in performance.",
+      "split": "eval",
+      "style": "function",
+      "style_index": 0,
+      "text_id": "C23_Y26_Y_eval_function_0",
+      "unit_id": "C23_Y26_Y"
+    },
+    {
+      "concept": "practice mute",
+      "fact_key": "not_for_unmuted_ensemble_balance",
+      "id": "eval_00_7",
+      "sentence": "Its output is generally too low to balance with unmuted brass, so it is intended for individual work rather than ordinary ensemble playing.",
+      "split": "eval",
+      "style": "function",
+      "style_index": 1,
+      "text_id": "C23_Y26_Y_eval_function_1",
+      "unit_id": "C23_Y26_Y"
+    }
+  ]
+}
