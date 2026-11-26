@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "protected_urban_commuting",
+      "sentence": "In crowded downtown districts, marked lanes give commuters a predictable route separated from faster motor traffic."
+    },
+    {
+      "fact_key": "station_based_rentals",
+      "sentence": "At public rental docks, users unlock shared machines for short trips and return them at another station."
+    },
+    {
+      "fact_key": "folding_models_on_trains",
+      "sentence": "On suburban rail journeys, compact folding models can be carried aboard where transit rules permit."
+    },
+    {
+      "fact_key": "velodrome_racing",
+      "sentence": "In velodromes, racers circle steeply banked wooden tracks on machines designed for smooth, uninterrupted laps."
+    },
+    {
+      "fact_key": "suspension_on_forest_trails",
+      "sentence": "On forest trails, sturdy suspension helps riders cross roots, loose stones, and ruts with better control."
+    },
+    {
+      "fact_key": "indoor_resistance_training",
+      "sentence": "During indoor winter training, a rear wheel can sit in a resistance trainer while the rider pedals in place."
+    },
+    {
+      "fact_key": "neighborhood_food_delivery",
+      "sentence": "In food-delivery work, insulated boxes secured behind the seat carry orders through neighborhood streets."
+    },
+    {
+      "fact_key": "studded_tires_on_ice",
+      "sentence": "In snowy regions, studded tires can improve grip on icy paths, although cautious riding remains essential."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In crowded downtown districts, marked lanes give commuters a predictable route separated from faster motor traffic.\",\"fact_key\":\"protected_urban_commuting\"},{\"sentence\":\"At public rental docks, users unlock shared machines for short trips and return them at another station.\",\"fact_key\":\"station_based_rentals\"},{\"sentence\":\"On suburban rail journeys, compact folding models can be carried aboard where transit rules permit.\",\"fact_key\":\"folding_models_on_trains\"},{\"sentence\":\"In velodromes, racers circle steeply banked wooden tracks on machines designed for smooth, uninterrupted laps.\",\"fact_key\":\"velodrome_racing\"},{\"sentence\":\"On forest trails, sturdy suspension helps riders cross roots, loose stones, and ruts with better control.\",\"fact_key\":\"suspension_on_forest_trails\"},{\"sentence\":\"During indoor winter training, a rear wheel can sit in a resistance trainer while the rider pedals in place.\",\"fact_key\":\"indoor_resistance_training\"},{\"sentence\":\"In food-delivery work, insulated boxes secured behind the seat carry orders through neighborhood streets.\",\"fact_key\":\"neighborhood_food_delivery\"},{\"sentence\":\"In snowy regions, studded tires can improve grip on icy paths, although cautious riding remains essential.\",\"fact_key\":\"studded_tires_on_ice\"}]}",
+  "rejected": [],
+  "request_hash": "fe3675bf12b056e0c111832a58cb178911f05d9a57c8d0d54b57648b40f09e2e",
+  "usage": {
+    "completion_tokens": 928,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 655,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1323,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 1320
+    },
+    "total_tokens": 2251
+  }
+}
