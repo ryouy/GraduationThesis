@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "94815e403af97b818925e510a81ba138fc60667c91bfe14978cecbe2b8ac6592",
+    "items": [
+      {
+        "id": "b5a25c72451da71fd244",
+        "label": "no",
+        "reason": "A cyclist is a person who rides, not a submarine."
+      },
+      {
+        "id": "05c8298d18a119540666",
+        "label": "yes",
+        "reason": "The answer explicitly describes a bicycle."
+      },
+      {
+        "id": "1d87aee4f7bdd5f1b45f",
+        "label": "uncertain",
+        "reason": "“Bike” can mean a bicycle or a motorcycle."
+      },
+      {
+        "id": "d8b0160cd44987c114bf",
+        "label": "no",
+        "reason": "Drumming is an activity involving drums, not the drum itself."
+      },
+      {
+        "id": "ef48e8f356d51e7c4878",
+        "label": "yes",
+        "reason": "A bookcase is a clear synonym for a bookshelf."
+      },
+      {
+        "id": "57c7ed7f19ad8f56846c",
+        "label": "no",
+        "reason": "“Underwater innovations” refers broadly to underwater technology, not a submarine."
+      },
+      {
+        "id": "5a1ed4737ba47e8a7a23",
+        "label": "yes",
+        "reason": "The answer explicitly describes a banana."
+      },
+      {
+        "id": "007d10e3527847c99e36",
+        "label": "no",
+        "reason": "Rain is precipitation, not snow."
+      },
+      {
+        "id": "e800b12332c0c323d97e",
+        "label": "no",
+        "reason": "“Craftsmanship in hand” does not identify scissors."
+      },
+      {
+        "id": "f82eacfdb5c8c1eab7cc",
+        "label": "no",
+        "reason": "A personal collection organizer is a broad function, not specifically a bookshelf."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"b5a25c72451da71fd244\",\"label\":\"no\",\"reason\":\"A cyclist is a person who rides, not a submarine.\"},{\"id\":\"05c8298d18a119540666\",\"label\":\"yes\",\"reason\":\"The answer explicitly describes a bicycle.\"},{\"id\":\"1d87aee4f7bdd5f1b45f\",\"label\":\"uncertain\",\"reason\":\"“Bike” can mean a bicycle or a motorcycle.\"},{\"id\":\"d8b0160cd44987c114bf\",\"label\":\"no\",\"reason\":\"Drumming is an activity involving drums, not the drum itself.\"},{\"id\":\"ef48e8f356d51e7c4878\",\"label\":\"yes\",\"reason\":\"A bookcase is a clear synonym for a bookshelf.\"},{\"id\":\"57c7ed7f19ad8f56846c\",\"label\":\"no\",\"reason\":\"“Underwater innovations” refers broadly to underwater technology, not a submarine.\"},{\"id\":\"5a1ed4737ba47e8a7a23\",\"label\":\"yes\",\"reason\":\"The answer explicitly describes a banana.\"},{\"id\":\"007d10e3527847c99e36\",\"label\":\"no\",\"reason\":\"Rain is precipitation, not snow.\"},{\"id\":\"e800b12332c0c323d97e\",\"label\":\"no\",\"reason\":\"“Craftsmanship in hand” does not identify scissors.\"},{\"id\":\"f82eacfdb5c8c1eab7cc\",\"label\":\"no\",\"reason\":\"A personal collection organizer is a broad function, not specifically a bookshelf.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 980,
+    "started": "2026-11-26T08:33:11.859221+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 491,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 141,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 566,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1057
+    }
+  }
+}
