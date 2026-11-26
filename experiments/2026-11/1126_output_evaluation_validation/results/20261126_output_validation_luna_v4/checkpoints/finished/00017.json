@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "9e2188a6885ca1fa65dd999b5af76726d9efea1d8b6ebecb4be2ccfa2ca6e32f",
+    "items": [
+      {
+        "id": "1d07ef3c4e44af9ac3ac",
+        "label": "no",
+        "reason": "Describes rain, not snow."
+      },
+      {
+        "id": "c81650c82c078fbf03e0",
+        "label": "no",
+        "reason": "A circular drum is a broad description, not specifically a tambourine."
+      },
+      {
+        "id": "abd82924bace7a245122",
+        "label": "no",
+        "reason": "Describes a musical activity, not a tambourine."
+      },
+      {
+        "id": "f886513afec823941f62",
+        "label": "no",
+        "reason": "A jellyfish is a different animal."
+      },
+      {
+        "id": "482bd726d57d59968ef1",
+        "label": "no",
+        "reason": "Bookshelves are related furniture, not specifically a cabinet."
+      },
+      {
+        "id": "365ee7bb46b9aad41964",
+        "label": "no",
+        "reason": "Scissors are a different tool."
+      },
+      {
+        "id": "b56f01fb0553a6364e35",
+        "label": "yes",
+        "reason": "A bookcase is another name for a bookshelf."
+      },
+      {
+        "id": "d26c532eaa0aafbcf03a",
+        "label": "no",
+        "reason": "Describes general traits, not specifically a lion."
+      },
+      {
+        "id": "785c1babe1d9bd04f9cd",
+        "label": "no",
+        "reason": "A bookcase is related furniture, not specifically a cabinet."
+      },
+      {
+        "id": "e21606c14a1b435aa58c",
+        "label": "no",
+        "reason": "Describes rain, not snow."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"1d07ef3c4e44af9ac3ac\",\"label\":\"no\",\"reason\":\"Describes rain, not snow.\"},{\"id\":\"c81650c82c078fbf03e0\",\"label\":\"no\",\"reason\":\"A circular drum is a broad description, not specifically a tambourine.\"},{\"id\":\"abd82924bace7a245122\",\"label\":\"no\",\"reason\":\"Describes a musical activity, not a tambourine.\"},{\"id\":\"f886513afec823941f62\",\"label\":\"no\",\"reason\":\"A jellyfish is a different animal.\"},{\"id\":\"482bd726d57d59968ef1\",\"label\":\"no\",\"reason\":\"Bookshelves are related furniture, not specifically a cabinet.\"},{\"id\":\"365ee7bb46b9aad41964\",\"label\":\"no\",\"reason\":\"Scissors are a different tool.\"},{\"id\":\"b56f01fb0553a6364e35\",\"label\":\"yes\",\"reason\":\"A bookcase is another name for a bookshelf.\"},{\"id\":\"d26c532eaa0aafbcf03a\",\"label\":\"no\",\"reason\":\"Describes general traits, not specifically a lion.\"},{\"id\":\"785c1babe1d9bd04f9cd\",\"label\":\"no\",\"reason\":\"A bookcase is related furniture, not specifically a cabinet.\"},{\"id\":\"e21606c14a1b435aa58c\",\"label\":\"no\",\"reason\":\"Describes rain, not snow.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 170,
+    "started": "2026-11-26T08:18:41.943124+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 544,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 214,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 523,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1067
+    }
+  }
+}
