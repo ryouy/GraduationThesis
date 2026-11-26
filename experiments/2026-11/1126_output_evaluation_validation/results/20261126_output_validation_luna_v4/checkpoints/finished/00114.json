@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "0bf981d43d6017dc61de005ed8eccf7f997da7146cab9028a8948af3683ad302",
+    "items": [
+      {
+        "id": "68e686b2a26c169e9d15",
+        "label": "1",
+        "reason": "It identifies raindrops, but waterfalls do not match the clue’s droplets making ripples in puddles."
+      },
+      {
+        "id": "24ad291dc6ecf12bc785",
+        "label": "2",
+        "reason": "Banana fits the clue’s soft, sweet fruit commonly eaten by children and at breakfast."
+      },
+      {
+        "id": "ac6d582181e64c4b7498",
+        "label": "2",
+        "reason": "Rain naturally fits droplets falling from the cooling atmosphere and refreshing the surroundings."
+      },
+      {
+        "id": "67fbeb3540932eca2dbb",
+        "label": "2",
+        "reason": "A bookcase is a tall, multi-level structure that can display decorative items."
+      },
+      {
+        "id": "51e4c55fa1b016bf7147",
+        "label": "1",
+        "reason": "It relates to the community music event but names the event rather than the handheld percussion tool."
+      },
+      {
+        "id": "1131e569dd8d3c73a5a4",
+        "label": "2",
+        "reason": "A jellyfish has a bell-shaped body that pulsates as it moves through water."
+      },
+      {
+        "id": "2b16e6e01781412677fb",
+        "label": "1",
+        "reason": "Drumming is rhythm-related, but the clue more specifically describes an instrument or percussion part that keeps tempo."
+      },
+      {
+        "id": "632b5ee3e8dae6112b3e",
+        "label": "2",
+        "reason": "A bookshelf can have multiple sections and organize everyday items and decorative pieces."
+      },
+      {
+        "id": "dd04f7e61251dff5b878",
+        "label": "2",
+        "reason": "Rain nourishes the earth and can enhance the landscape, matching the clue."
+      },
+      {
+        "id": "5a058806abde573fa091",
+        "label": "1",
+        "reason": "It gestures toward an ecosystem role, but does not identify the creature that creates pathways."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"68e686b2a26c169e9d15\",\"label\":\"1\",\"reason\":\"It identifies raindrops, but waterfalls do not match the clue’s droplets making ripples in puddles.\"},{\"id\":\"24ad291dc6ecf12bc785\",\"label\":\"2\",\"reason\":\"Banana fits the clue’s soft, sweet fruit commonly eaten by children and at breakfast.\"},{\"id\":\"ac6d582181e64c4b7498\",\"label\":\"2\",\"reason\":\"Rain naturally fits droplets falling from the cooling atmosphere and refreshing the surroundings.\"},{\"id\":\"67fbeb3540932eca2dbb\",\"label\":\"2\",\"reason\":\"A bookcase is a tall, multi-level structure that can display decorative items.\"},{\"id\":\"51e4c55fa1b016bf7147\",\"label\":\"1\",\"reason\":\"It relates to the community music event but names the event rather than the handheld percussion tool.\"},{\"id\":\"1131e569dd8d3c73a5a4\",\"label\":\"2\",\"reason\":\"A jellyfish has a bell-shaped body that pulsates as it moves through water.\"},{\"id\":\"2b16e6e01781412677fb\",\"label\":\"1\",\"reason\":\"Drumming is rhythm-related, but the clue more specifically describes an instrument or percussion part that keeps tempo.\"},{\"id\":\"632b5ee3e8dae6112b3e\",\"label\":\"2\",\"reason\":\"A bookshelf can have multiple sections and organize everyday items and decorative pieces.\"},{\"id\":\"dd04f7e61251dff5b878\",\"label\":\"2\",\"reason\":\"Rain nourishes the earth and can enhance the landscape, matching the clue.\"},{\"id\":\"5a058806abde573fa091\",\"label\":\"1\",\"reason\":\"It gestures toward an ecosystem role, but does not identify the creature that creates pathways.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 120,
+    "started": "2026-11-26T08:36:27.663740+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 644,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 239,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 714,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1358
+    }
+  }
+}
