@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "playing_hand_roles",
+      "sentence": "During a passage, the performer supports the fixed section with the left hand and guides the moving assembly with the right."
+    },
+    {
+      "fact_key": "continuous_pitch_glides",
+      "sentence": "Moving the slide gradually between note positions can create a continuous pitch sweep, a characteristic gliding effect."
+    },
+    {
+      "fact_key": "tongued_articulation",
+      "sentence": "The tongue briefly interrupts the airstream at the mouthpiece to separate notes or shape crisp musical attacks."
+    },
+    {
+      "fact_key": "register_and_lip_tension",
+      "sentence": "Higher pitches generally require firmer, faster lip vibration, while lower pitches use a looser embouchure and slower vibration."
+    },
+    {
+      "fact_key": "mute_effect",
+      "sentence": "A mute placed inside the flared end changes the tone and often reduces volume, depending on its design."
+    },
+    {
+      "fact_key": "phrase_breathing",
+      "sentence": "Players take breaths between phrases, planning airflow so sustained notes and connected passages remain steady."
+    },
+    {
+      "fact_key": "orchestral_harmonic_role",
+      "sentence": "In orchestral music, it commonly supplies harmonic inner parts or reinforces low lines beneath brighter melodic instruments."
+    },
+    {
+      "fact_key": "playing_clearance",
+      "sentence": "Because the moving assembly reaches well forward, performers need clear space in front of them while playing."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"During a passage, the performer supports the fixed section with the left hand and guides the moving assembly with the right.\",\"fact_key\":\"playing_hand_roles\"},{\"sentence\":\"Moving the slide gradually between note positions can create a continuous pitch sweep, a characteristic gliding effect.\",\"fact_key\":\"continuous_pitch_glides\"},{\"sentence\":\"The tongue briefly interrupts the airstream at the mouthpiece to separate notes or shape crisp musical attacks.\",\"fact_key\":\"tongued_articulation\"},{\"sentence\":\"Higher pitches generally require firmer, faster lip vibration, while lower pitches use a looser embouchure and slower vibration.\",\"fact_key\":\"register_and_lip_tension\"},{\"sentence\":\"A mute placed inside the flared end changes the tone and often reduces volume, depending on its design.\",\"fact_key\":\"mute_effect\"},{\"sentence\":\"Players take breaths between phrases, planning airflow so sustained notes and connected passages remain steady.\",\"fact_key\":\"phrase_breathing\"},{\"sentence\":\"In orchestral music, it commonly supplies harmonic inner parts or reinforces low lines beneath brighter melodic instruments.\",\"fact_key\":\"orchestral_harmonic_role\"},{\"sentence\":\"Because the moving assembly reaches well forward, performers need clear space in front of them while playing.\",\"fact_key\":\"playing_clearance\"}]}",
+  "rejected": [],
+  "request_hash": "6cb35cf676fd2d6e84ffc0ae0fccc91cc26b22610b35087f6c5b318ed4a228f5",
+  "usage": {
+    "completion_tokens": 1099,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 828,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 746,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1845
+  }
+}
