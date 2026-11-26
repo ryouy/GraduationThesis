@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "ceee7b95fe1e1d031186194977be4f1438ee1aa92681a6a6cdbbb9751412d9bc",
+    "items": [
+      {
+        "id": "7a9bf3e802ff66643ff0",
+        "label": "1",
+        "reason": "An insect worker fits the group-working clue, but the answer is too broad to identify the load-carrying insect."
+      },
+      {
+        "id": "a2cac379832f2f0c4959",
+        "label": "2",
+        "reason": "A bookcase is a tall structure with flat shelves for displaying items and storing essentials."
+      },
+      {
+        "id": "8b30584aafd665648c9b",
+        "label": "2",
+        "reason": "A jellyfish is an aquatic creature and can inhabit a range of environments."
+      },
+      {
+        "id": "59f77856aaebed92a15b",
+        "label": "2",
+        "reason": "Scissors have two handles and are used to cut paper and fabric for crafts."
+      },
+      {
+        "id": "a56aee0686f40d2ed3f4",
+        "label": "2",
+        "reason": "Both pens and pencils are commonly used for writing and drawing."
+      },
+      {
+        "id": "ac89242d7fca359921e9",
+        "label": "1",
+        "reason": "A circus dance is related to lively performance, but the clue describes something that produces music rather than a dance."
+      },
+      {
+        "id": "7bf84f9333a9ca81277e",
+        "label": "2",
+        "reason": "Grapefruit is a fruit commonly displayed at markets and has a distinctive, eye-catching appearance."
+      },
+      {
+        "id": "c2fc37dea78957f1ef81",
+        "label": "1",
+        "reason": "A guitar can add lively music at celebrations, but it is a string instrument, not a small percussion tool."
+      },
+      {
+        "id": "bd9f03a9044f0b6938f5",
+        "label": "2",
+        "reason": "Scissors are operated by applying pressure to their handles and make clean cuts in craft materials."
+      },
+      {
+        "id": "1cdc7ea73b3f9bf5fa19",
+        "label": "2",
+        "reason": "Scissors are a comfortable, pressure-operated tool for making clean cuts during crafting."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"7a9bf3e802ff66643ff0\",\"label\":\"1\",\"reason\":\"An insect worker fits the group-working clue, but the answer is too broad to identify the load-carrying insect.\"},{\"id\":\"a2cac379832f2f0c4959\",\"label\":\"2\",\"reason\":\"A bookcase is a tall structure with flat shelves for displaying items and storing essentials.\"},{\"id\":\"8b30584aafd665648c9b\",\"label\":\"2\",\"reason\":\"A jellyfish is an aquatic creature and can inhabit a range of environments.\"},{\"id\":\"59f77856aaebed92a15b\",\"label\":\"2\",\"reason\":\"Scissors have two handles and are used to cut paper and fabric for crafts.\"},{\"id\":\"a56aee0686f40d2ed3f4\",\"label\":\"2\",\"reason\":\"Both pens and pencils are commonly used for writing and drawing.\"},{\"id\":\"ac89242d7fca359921e9\",\"label\":\"1\",\"reason\":\"A circus dance is related to lively performance, but the clue describes something that produces music rather than a dance.\"},{\"id\":\"7bf84f9333a9ca81277e\",\"label\":\"2\",\"reason\":\"Grapefruit is a fruit commonly displayed at markets and has a distinctive, eye-catching appearance.\"},{\"id\":\"c2fc37dea78957f1ef81\",\"label\":\"1\",\"reason\":\"A guitar can add lively music at celebrations, but it is a string instrument, not a small percussion tool.\"},{\"id\":\"bd9f03a9044f0b6938f5\",\"label\":\"2\",\"reason\":\"Scissors are operated by applying pressure to their handles and make clean cuts in craft materials.\"},{\"id\":\"1cdc7ea73b3f9bf5fa19\",\"label\":\"2\",\"reason\":\"Scissors are a comfortable, pressure-operated tool for making clean cuts during crafting.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 260,
+    "started": "2026-11-26T09:31:20.430917+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 739,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 685,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1424
+    }
+  }
+}
