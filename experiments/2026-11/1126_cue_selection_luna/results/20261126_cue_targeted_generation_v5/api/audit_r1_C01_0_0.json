@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C01_0_situation_0_0",
+        "naturalness": 5,
+        "reason": "A tire-pressure check before a commute is a natural cycling situation.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C01_0_situation_0_1",
+        "naturalness": 5,
+        "reason": "A slipping chain, gears, and pedaling strongly indicate a bicycle repair.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C01_0_situation_0_2",
+        "naturalness": 5,
+        "reason": "The contrast between knobby and narrow tires fits common bicycle use.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C01_0_situation_0_3",
+        "naturalness": 5,
+        "reason": "Locking a frame and front wheel is a familiar way to secure a bicycle.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C01_0_situation_0_4",
+        "naturalness": 5,
+        "reason": "Low gearing and steady pedaling on a climb are directly associated with cycling.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C01_0_situation_0_5",
+        "naturalness": 4,
+        "reason": "Practicing balance and steering is a plausible situation for a child learning to ride.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C01_0_situation_0_6",
+        "naturalness": 4,
+        "reason": "Wet braking surfaces and early braking are plausible concerns for riders, though the details are somewhat technical.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C01_0_situation_0_7",
+        "naturalness": 5,
+        "reason": "Truing a wheel by adjusting spokes is a specific and plausible bicycle repair.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C01_2_function_0_0",
+        "naturalness": 5,
+        "reason": "Avoiding parking fees and arriving alert are plausible benefits of commuting by bicycle.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C01_2_function_0_1",
+        "naturalness": 5,
+        "reason": "A rear basket used for neighborhood deliveries describes a plausible bicycle function.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 964,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 329,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 661,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1625
+  }
+}
