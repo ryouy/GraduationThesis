@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "smoke-induced flowering",
+      "sentence": "Before chemical flowering agents became common, some growers used smoke exposure to synchronize flowering across fields."
+    },
+    {
+      "fact_key": "ratoon cropping",
+      "sentence": "After the first harvest, farmers may leave side shoots in place for a ratoon crop before replanting the field."
+    },
+    {
+      "fact_key": "double-row field layout",
+      "sentence": "Commercial fields often use closely spaced double rows, with wider alleys left for workers and equipment."
+    },
+    {
+      "fact_key": "careful shallow weeding",
+      "sentence": "Because roots are shallow, workers weed young fields carefully to avoid cutting roots with hoes or machinery."
+    },
+    {
+      "fact_key": "sunburn protection",
+      "sentence": "During periods of intense sun, growers may shield developing fruits to reduce sunburn damage to the exposed surface."
+    },
+    {
+      "fact_key": "contour planting",
+      "sentence": "On sloping tropical fields, planting along contours can slow runoff and limit soil loss during heavy rains."
+    },
+    {
+      "fact_key": "conservatory cultivation",
+      "sentence": "In warm, bright conservatories, it can be maintained as an ornamental bromeliad where outdoor winters are too cold."
+    },
+    {
+      "fact_key": "South American domestication",
+      "sentence": "Its cultivation began in tropical South America, where Indigenous peoples selected and spread the crop long before global commercial farming."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Before chemical flowering agents became common, some growers used smoke exposure to synchronize flowering across fields.\",\"fact_key\":\"smoke-induced flowering\"},{\"sentence\":\"After the first harvest, farmers may leave side shoots in place for a ratoon crop before replanting the field.\",\"fact_key\":\"ratoon cropping\"},{\"sentence\":\"Commercial fields often use closely spaced double rows, with wider alleys left for workers and equipment.\",\"fact_key\":\"double-row field layout\"},{\"sentence\":\"Because roots are shallow, workers weed young fields carefully to avoid cutting roots with hoes or machinery.\",\"fact_key\":\"careful shallow weeding\"},{\"sentence\":\"During periods of intense sun, growers may shield developing fruits to reduce sunburn damage to the exposed surface.\",\"fact_key\":\"sunburn protection\"},{\"sentence\":\"On sloping tropical fields, planting along contours can slow runoff and limit soil loss during heavy rains.\",\"fact_key\":\"contour planting\"},{\"sentence\":\"In warm, bright conservatories, it can be maintained as an ornamental bromeliad where outdoor winters are too cold.\",\"fact_key\":\"conservatory cultivation\"},{\"sentence\":\"Its cultivation began in tropical South America, where Indigenous peoples selected and spread the crop long before global commercial farming.\",\"fact_key\":\"South American domestication\"}]}",
+  "rejected": [],
+  "request_hash": "7cc42080206638dcfa2149a68eb160afc1de4e1842be80edaff9e6e797a16f61",
+  "usage": {
+    "completion_tokens": 2207,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1927,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1577,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1574,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3784
+  }
+}
