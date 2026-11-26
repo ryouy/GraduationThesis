@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "6bccdb68c6ecfdb73badbf94d6f809b0fd150d9093d6bbf3e948c9eb0a9f3b52",
+    "items": [
+      {
+        "id": "f9e43bedac7251650476",
+        "label": "1",
+        "reason": "The clue suggests snowfall and its tranquil atmosphere; the answer names only the mood, not the ice formations."
+      },
+      {
+        "id": "164ccf53d5aa31ce965b",
+        "label": "2",
+        "reason": "A bookcase is a tall structure for storing and organizing objects."
+      },
+      {
+        "id": "4aa73634c2bf44f968ad",
+        "label": "0",
+        "reason": "A gazelle has no exoskeleton and does not fit the clue's description of cooperative food-gathering."
+      },
+      {
+        "id": "ab87ac5457e2ddec11eb",
+        "label": "2",
+        "reason": "An elephant can weigh several tons and is commonly described as a gentle giant."
+      },
+      {
+        "id": "605b4ed5ef2609ba2a78",
+        "label": "1",
+        "reason": "Grapefruit grows on plants, but the clue's bunches hanging from tall, swaying plants points more naturally to bananas."
+      },
+      {
+        "id": "2631e10bcaf9e8f136a7",
+        "label": "2",
+        "reason": "The answer identifies elephants' habitat-preserving role, including their creation of waterholes."
+      },
+      {
+        "id": "ce44da6cd9e495cfebe0",
+        "label": "0",
+        "reason": "Ginger is a rhizome, not a soft fruit suited to quick snacking."
+      },
+      {
+        "id": "5d8672bc094bf2c9c53e",
+        "label": "1",
+        "reason": "Scissors have two handles and use leverage, but they cut materials rather than grip and shape them."
+      },
+      {
+        "id": "a83eec92a340f7957dd8",
+        "label": "2",
+        "reason": "An underwater vehicle can be a vessel used for military or research purposes."
+      },
+      {
+        "id": "1d4c174a34b039e797d3",
+        "label": "2",
+        "reason": "Cacti store moisture and are adapted to harsh sunlight; their spines also deter threats."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"f9e43bedac7251650476\",\"label\":\"1\",\"reason\":\"The clue suggests snowfall and its tranquil atmosphere; the answer names only the mood, not the ice formations.\"},{\"id\":\"164ccf53d5aa31ce965b\",\"label\":\"2\",\"reason\":\"A bookcase is a tall structure for storing and organizing objects.\"},{\"id\":\"4aa73634c2bf44f968ad\",\"label\":\"0\",\"reason\":\"A gazelle has no exoskeleton and does not fit the clue's description of cooperative food-gathering.\"},{\"id\":\"ab87ac5457e2ddec11eb\",\"label\":\"2\",\"reason\":\"An elephant can weigh several tons and is commonly described as a gentle giant.\"},{\"id\":\"605b4ed5ef2609ba2a78\",\"label\":\"1\",\"reason\":\"Grapefruit grows on plants, but the clue's bunches hanging from tall, swaying plants points more naturally to bananas.\"},{\"id\":\"2631e10bcaf9e8f136a7\",\"label\":\"2\",\"reason\":\"The answer identifies elephants' habitat-preserving role, including their creation of waterholes.\"},{\"id\":\"ce44da6cd9e495cfebe0\",\"label\":\"0\",\"reason\":\"Ginger is a rhizome, not a soft fruit suited to quick snacking.\"},{\"id\":\"5d8672bc094bf2c9c53e\",\"label\":\"1\",\"reason\":\"Scissors have two handles and use leverage, but they cut materials rather than grip and shape them.\"},{\"id\":\"a83eec92a340f7957dd8\",\"label\":\"2\",\"reason\":\"An underwater vehicle can be a vessel used for military or research purposes.\"},{\"id\":\"1d4c174a34b039e797d3\",\"label\":\"2\",\"reason\":\"Cacti store moisture and are adapted to harsh sunlight; their spines also deter threats.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 300,
+    "started": "2026-11-26T09:32:04.870909+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 795,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 376,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 676,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1471
+    }
+  }
+}
