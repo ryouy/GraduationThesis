@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "026b49bf821e107dba668d6fd8185074047be45d9f470bcf30ec7aefce5896dd",
+    "items": [
+      {
+        "id": "9c0ee5be64ceb96b421d",
+        "label": "no",
+        "reason": "Insects is a broad class and does not identify a dragonfly."
+      },
+      {
+        "id": "c3ec24d102ea7f29fab6",
+        "label": "no",
+        "reason": "A bookshelf is a different type of furniture from a cabinet."
+      },
+      {
+        "id": "05eed7925c455b327aee",
+        "label": "yes",
+        "reason": "A giant ant is an unambiguous subtype of ant."
+      },
+      {
+        "id": "239da91df72d802a44eb",
+        "label": "no",
+        "reason": "Drumming describes an activity involving drums, not the drum itself."
+      },
+      {
+        "id": "104b5e626f94bb5635a1",
+        "label": "no",
+        "reason": "A jellyfish is a different animal from an octopus."
+      },
+      {
+        "id": "b45e1863a89a2023747b",
+        "label": "yes",
+        "reason": "Cacti is the plural form of cactus."
+      },
+      {
+        "id": "c6f5cd67b706d2566464",
+        "label": "no",
+        "reason": "A jellyfish is a different animal from an octopus."
+      },
+      {
+        "id": "ef5b19812392e51a8bc0",
+        "label": "no",
+        "reason": "Drumming describes an activity involving percussion, not a tambourine."
+      },
+      {
+        "id": "17a02a384d4a1654a69e",
+        "label": "no",
+        "reason": "Raindrops are not snow."
+      },
+      {
+        "id": "8b2062e686bd60948a1e",
+        "label": "no",
+        "reason": "Craftsmanship in action refers to an activity, not pliers."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"9c0ee5be64ceb96b421d\",\"label\":\"no\",\"reason\":\"Insects is a broad class and does not identify a dragonfly.\"},{\"id\":\"c3ec24d102ea7f29fab6\",\"label\":\"no\",\"reason\":\"A bookshelf is a different type of furniture from a cabinet.\"},{\"id\":\"05eed7925c455b327aee\",\"label\":\"yes\",\"reason\":\"A giant ant is an unambiguous subtype of ant.\"},{\"id\":\"239da91df72d802a44eb\",\"label\":\"no\",\"reason\":\"Drumming describes an activity involving drums, not the drum itself.\"},{\"id\":\"104b5e626f94bb5635a1\",\"label\":\"no\",\"reason\":\"A jellyfish is a different animal from an octopus.\"},{\"id\":\"b45e1863a89a2023747b\",\"label\":\"yes\",\"reason\":\"Cacti is the plural form of cactus.\"},{\"id\":\"c6f5cd67b706d2566464\",\"label\":\"no\",\"reason\":\"A jellyfish is a different animal from an octopus.\"},{\"id\":\"ef5b19812392e51a8bc0\",\"label\":\"no\",\"reason\":\"Drumming describes an activity involving percussion, not a tambourine.\"},{\"id\":\"17a02a384d4a1654a69e\",\"label\":\"no\",\"reason\":\"Raindrops are not snow.\"},{\"id\":\"8b2062e686bd60948a1e\",\"label\":\"no\",\"reason\":\"Craftsmanship in action refers to an activity, not pliers.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 280,
+    "started": "2026-11-26T08:20:21.161203+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 444,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 92,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 551,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 995
+    }
+  }
+}
