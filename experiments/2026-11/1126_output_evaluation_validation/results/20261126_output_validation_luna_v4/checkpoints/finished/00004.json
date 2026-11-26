@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "cd95e4418c13c60dbc637a3cab58e51a41c7a75d8729033af83cfadb5dc6a08b",
+    "items": [
+      {
+        "id": "76026d0fb394a5841216",
+        "label": "no",
+        "reason": "A crate is not a bicycle."
+      },
+      {
+        "id": "1b31f56272b6fb3656e1",
+        "label": "yes",
+        "reason": "The answer directly names the target."
+      },
+      {
+        "id": "57fb179a2660de3b5fc6",
+        "label": "yes",
+        "reason": "The answer directly names the target."
+      },
+      {
+        "id": "509b0c061ab4c2b35799",
+        "label": "no",
+        "reason": "An aquatic creature is a broad class, not a lion."
+      },
+      {
+        "id": "d4366af86a096c516943",
+        "label": "no",
+        "reason": "Drumming is an activity, not the drum itself."
+      },
+      {
+        "id": "536791efb21a4ed25825",
+        "label": "no",
+        "reason": "Scissors are a different tool from pliers."
+      },
+      {
+        "id": "2e9d13d140552e914855",
+        "label": "no",
+        "reason": "Large ears are a feature of an elephant, not the animal itself."
+      },
+      {
+        "id": "c748a81f9a55655a9b77",
+        "label": "no",
+        "reason": "Large ears are a feature of an elephant, not the animal itself."
+      },
+      {
+        "id": "9a862b121a330d81a86a",
+        "label": "no",
+        "reason": "A precision tool is a broad category, not specifically pliers."
+      },
+      {
+        "id": "bd251cbdcd45c3f04e36",
+        "label": "no",
+        "reason": "An elephant is a different animal from a lion."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"76026d0fb394a5841216\",\"label\":\"no\",\"reason\":\"A crate is not a bicycle.\"},{\"id\":\"1b31f56272b6fb3656e1\",\"label\":\"yes\",\"reason\":\"The answer directly names the target.\"},{\"id\":\"57fb179a2660de3b5fc6\",\"label\":\"yes\",\"reason\":\"The answer directly names the target.\"},{\"id\":\"509b0c061ab4c2b35799\",\"label\":\"no\",\"reason\":\"An aquatic creature is a broad class, not a lion.\"},{\"id\":\"d4366af86a096c516943\",\"label\":\"no\",\"reason\":\"Drumming is an activity, not the drum itself.\"},{\"id\":\"536791efb21a4ed25825\",\"label\":\"no\",\"reason\":\"Scissors are a different tool from pliers.\"},{\"id\":\"2e9d13d140552e914855\",\"label\":\"no\",\"reason\":\"Large ears are a feature of an elephant, not the animal itself.\"},{\"id\":\"c748a81f9a55655a9b77\",\"label\":\"no\",\"reason\":\"Large ears are a feature of an elephant, not the animal itself.\"},{\"id\":\"9a862b121a330d81a86a\",\"label\":\"no\",\"reason\":\"A precision tool is a broad category, not specifically pliers.\"},{\"id\":\"bd251cbdcd45c3f04e36\",\"label\":\"no\",\"reason\":\"An elephant is a different animal from a lion.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 40,
+    "started": "2026-11-26T08:16:41.341656+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 401,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 524,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 925
+    }
+  }
+}
