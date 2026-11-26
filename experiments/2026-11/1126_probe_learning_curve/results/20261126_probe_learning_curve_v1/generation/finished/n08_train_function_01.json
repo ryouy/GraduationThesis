@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "orchestral_climax",
+      "sentence": "At orchestral climaxes, its bright upper line can reinforce the ensemble's peak and make the passage feel more expansive."
+    },
+    {
+      "fact_key": "melody_doubling",
+      "sentence": "Arrangers sometimes have it double a singer's melody, strengthening the tune without changing its contour."
+    },
+    {
+      "fact_key": "dixieland_tune_lead",
+      "sentence": "In Dixieland combos, it often states the tune while other players weave improvised counterlines around it."
+    },
+    {
+      "fact_key": "klezmer_vocal_inflection",
+      "sentence": "In klezmer dance bands, players shape its ornamented phrases to echo the bends and inflections of expressive singing."
+    },
+    {
+      "fact_key": "mambo_riffs",
+      "sentence": "Mambo arrangements often use its repeated riffs to intensify dance sections and cue transitions between musical ideas."
+    },
+    {
+      "fact_key": "jazz_trading_fours",
+      "sentence": "During jazz trading fours, its player may exchange brief improvised passages with the drummer in a compact musical conversation."
+    },
+    {
+      "fact_key": "gospel_vocal_responses",
+      "sentence": "Gospel arrangements may use its short responses between vocal phrases to add punctuating accents to the choir's performance."
+    },
+    {
+      "fact_key": "ensemble_countermelody",
+      "sentence": "In ensemble writing, it can play a countermelody that threads between the main tune and the supporting harmony."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"At orchestral climaxes, its bright upper line can reinforce the ensemble's peak and make the passage feel more expansive.\",\"fact_key\":\"orchestral_climax\"},{\"sentence\":\"Arrangers sometimes have it double a singer's melody, strengthening the tune without changing its contour.\",\"fact_key\":\"melody_doubling\"},{\"sentence\":\"In Dixieland combos, it often states the tune while other players weave improvised counterlines around it.\",\"fact_key\":\"dixieland_tune_lead\"},{\"sentence\":\"In klezmer dance bands, players shape its ornamented phrases to echo the bends and inflections of expressive singing.\",\"fact_key\":\"klezmer_vocal_inflection\"},{\"sentence\":\"Mambo arrangements often use its repeated riffs to intensify dance sections and cue transitions between musical ideas.\",\"fact_key\":\"mambo_riffs\"},{\"sentence\":\"During jazz trading fours, its player may exchange brief improvised passages with the drummer in a compact musical conversation.\",\"fact_key\":\"jazz_trading_fours\"},{\"sentence\":\"Gospel arrangements may use its short responses between vocal phrases to add punctuating accents to the choir's performance.\",\"fact_key\":\"gospel_vocal_responses\"},{\"sentence\":\"In ensemble writing, it can play a countermelody that threads between the main tune and the supporting harmony.\",\"fact_key\":\"ensemble_countermelody\"}]}",
+  "rejected": [],
+  "request_hash": "cef29c18fb63abb45b5582eaa9a962a2979fb89246f80634df508b026429f1f8",
+  "usage": {
+    "completion_tokens": 1834,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1536,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2167,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2164,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4001
+  }
+}
