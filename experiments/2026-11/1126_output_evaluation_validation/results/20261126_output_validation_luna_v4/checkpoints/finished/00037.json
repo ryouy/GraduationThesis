@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "73bc38af488ab55a1432494ece6e23e89f2838047e0c1ba83dad28348099fa14",
+    "items": [
+      {
+        "id": "9cd789ac6f35d447ba9f",
+        "label": "yes",
+        "reason": "The answer directly names a jellyfish."
+      },
+      {
+        "id": "6cd4d9beec9c143ab9a0",
+        "label": "yes",
+        "reason": "“Cacti” is the plural of cactus."
+      },
+      {
+        "id": "e3efce1668699fee648a",
+        "label": "no",
+        "reason": "Coral is a different marine organism, not a jellyfish."
+      },
+      {
+        "id": "440f5413e58c9777836d",
+        "label": "yes",
+        "reason": "The answer directly describes rain."
+      },
+      {
+        "id": "2d07be4002a5826a0224",
+        "label": "no",
+        "reason": "A pedestal bike is not a submarine."
+      },
+      {
+        "id": "154332d9a45e0d68bdfa",
+        "label": "yes",
+        "reason": "“Cacti” is the plural of cactus."
+      },
+      {
+        "id": "020887ecd5cdc5360d30",
+        "label": "yes",
+        "reason": "The answer directly identifies a cactus."
+      },
+      {
+        "id": "202ac0ec7d56bb8169ca",
+        "label": "no",
+        "reason": "Pen and pencil are unrelated to a lion."
+      },
+      {
+        "id": "c3f9710f527666f8105b",
+        "label": "no",
+        "reason": "Grapes are not a submarine."
+      },
+      {
+        "id": "029251d56b1afd5087f0",
+        "label": "no",
+        "reason": "Cacti are not aloe."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"9cd789ac6f35d447ba9f\",\"label\":\"yes\",\"reason\":\"The answer directly names a jellyfish.\"},{\"id\":\"6cd4d9beec9c143ab9a0\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural of cactus.\"},{\"id\":\"e3efce1668699fee648a\",\"label\":\"no\",\"reason\":\"Coral is a different marine organism, not a jellyfish.\"},{\"id\":\"440f5413e58c9777836d\",\"label\":\"yes\",\"reason\":\"The answer directly describes rain.\"},{\"id\":\"2d07be4002a5826a0224\",\"label\":\"no\",\"reason\":\"A pedestal bike is not a submarine.\"},{\"id\":\"154332d9a45e0d68bdfa\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural of cactus.\"},{\"id\":\"020887ecd5cdc5360d30\",\"label\":\"yes\",\"reason\":\"The answer directly identifies a cactus.\"},{\"id\":\"202ac0ec7d56bb8169ca\",\"label\":\"no\",\"reason\":\"Pen and pencil are unrelated to a lion.\"},{\"id\":\"c3f9710f527666f8105b\",\"label\":\"no\",\"reason\":\"Grapes are not a submarine.\"},{\"id\":\"029251d56b1afd5087f0\",\"label\":\"no\",\"reason\":\"Cacti are not aloe.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 370,
+    "started": "2026-11-26T08:21:42.997795+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 372,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 56,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 528,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 900
+    }
+  }
+}
