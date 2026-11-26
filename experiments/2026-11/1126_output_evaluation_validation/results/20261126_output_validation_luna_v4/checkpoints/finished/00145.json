@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "a874b2567eab8c16a6fb86a162074627b649ce2598a21ad69c9a482a5dd9a165",
+    "items": [
+      {
+        "id": "82ae8be57a49cbcb661c",
+        "label": "2",
+        "reason": "Cacti store water and are well adapted to survive drought."
+      },
+      {
+        "id": "60664a8a624f762f0649",
+        "label": "1",
+        "reason": "It refers to a community gathering, but omits the clue’s key details of insects moving in coordinated lines to gather resources."
+      },
+      {
+        "id": "d3e975823cc017283414",
+        "label": "2",
+        "reason": "Cacti are suited to arid regions and have sharp features that help them endure harsh conditions."
+      },
+      {
+        "id": "42ff749e1574ceff1dcd",
+        "label": "0",
+        "reason": "Coral reefs are not marine organisms that migrate seasonally."
+      },
+      {
+        "id": "0a923d4b643a53e917de",
+        "label": "2",
+        "reason": "Scissors have crossing sharp edges and are used for precise cutting."
+      },
+      {
+        "id": "380b3e493e1d361d4341",
+        "label": "0",
+        "reason": "The answer describes a bicycle and wind turbines, not trees providing shade and producing oxygen."
+      },
+      {
+        "id": "5f2992f15a5926b0cf12",
+        "label": "2",
+        "reason": "“Winter migration” naturally describes birds migrating south for winter."
+      },
+      {
+        "id": "905e32fdcfe1f02b8491",
+        "label": "1",
+        "reason": "Scissors can manipulate small items, but their main function is cutting rather than securely gripping components for assembly."
+      },
+      {
+        "id": "77471c749933c16be7b0",
+        "label": "2",
+        "reason": "Many jellyfish have transparent bodies that allow light to pass through."
+      },
+      {
+        "id": "9ea145284e52fbece07a",
+        "label": "2",
+        "reason": "Bookshelves commonly have multiple sections for organizing belongings and can enhance a room’s appearance."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"82ae8be57a49cbcb661c\",\"label\":\"2\",\"reason\":\"Cacti store water and are well adapted to survive drought.\"},{\"id\":\"60664a8a624f762f0649\",\"label\":\"1\",\"reason\":\"It refers to a community gathering, but omits the clue’s key details of insects moving in coordinated lines to gather resources.\"},{\"id\":\"d3e975823cc017283414\",\"label\":\"2\",\"reason\":\"Cacti are suited to arid regions and have sharp features that help them endure harsh conditions.\"},{\"id\":\"42ff749e1574ceff1dcd\",\"label\":\"0\",\"reason\":\"Coral reefs are not marine organisms that migrate seasonally.\"},{\"id\":\"0a923d4b643a53e917de\",\"label\":\"2\",\"reason\":\"Scissors have crossing sharp edges and are used for precise cutting.\"},{\"id\":\"380b3e493e1d361d4341\",\"label\":\"0\",\"reason\":\"The answer describes a bicycle and wind turbines, not trees providing shade and producing oxygen.\"},{\"id\":\"5f2992f15a5926b0cf12\",\"label\":\"2\",\"reason\":\"“Winter migration” naturally describes birds migrating south for winter.\"},{\"id\":\"905e32fdcfe1f02b8491\",\"label\":\"1\",\"reason\":\"Scissors can manipulate small items, but their main function is cutting rather than securely gripping components for assembly.\"},{\"id\":\"77471c749933c16be7b0\",\"label\":\"2\",\"reason\":\"Many jellyfish have transparent bodies that allow light to pass through.\"},{\"id\":\"9ea145284e52fbece07a\",\"label\":\"2\",\"reason\":\"Bookshelves commonly have multiple sections for organizing belongings and can enhance a room’s appearance.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 400,
+    "started": "2026-11-26T09:33:49.805769+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 549,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 158,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 669,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1218
+    }
+  }
+}
