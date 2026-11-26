@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "eb86a8d8fb82dea602e64c79ce2827b1a0c9676acf26a510ddbbac2973933653",
+    "items": [
+      {
+        "id": "dc79b52004b900fc3d35",
+        "label": "2",
+        "reason": "Drumming is commonly performed with sticks or hands and produces driving beats."
+      },
+      {
+        "id": "2634a2e65cfcfd2f892e",
+        "label": "2",
+        "reason": "A display cabinet is a tall unit designed to showcase and organize items."
+      },
+      {
+        "id": "2f6dd9227792aa2bee28",
+        "label": "1",
+        "reason": "The answer describes drumming's effect at events but does not identify the handheld percussion tool."
+      },
+      {
+        "id": "52a724028ea7b667e42a",
+        "label": "1",
+        "reason": "A bookshelf can organize and display items, but it is not as specifically suited to showcasing a variety of items as the clue suggests."
+      },
+      {
+        "id": "1ec23a85a76e3b4b4be0",
+        "label": "0",
+        "reason": "Coral is generally stationary and does not move with trailing appendages as described."
+      },
+      {
+        "id": "e025cc7dbb9988e66b5c",
+        "label": "0",
+        "reason": "A smoothie bowl is a dish, not the fruit described in the clue."
+      },
+      {
+        "id": "1ab6fe20ff4dc4f55a6e",
+        "label": "2",
+        "reason": "The answer refers to raindrops falling and nourishing the earth, matching the clue."
+      },
+      {
+        "id": "2a3f74dd41fa5b7a7895",
+        "label": "2",
+        "reason": "Jellyfish propel themselves with rhythmic bell contractions to move through water."
+      },
+      {
+        "id": "a3e2485f7aa34e31e08a",
+        "label": "2",
+        "reason": "The answer describes raindrops nourishing the land, as in the clue."
+      },
+      {
+        "id": "e2b1f5e4df311ee6a2ac",
+        "label": "2",
+        "reason": "Cacti are succulents adapted to arid environments and conserve water effectively."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"dc79b52004b900fc3d35\",\"label\":\"2\",\"reason\":\"Drumming is commonly performed with sticks or hands and produces driving beats.\"},{\"id\":\"2634a2e65cfcfd2f892e\",\"label\":\"2\",\"reason\":\"A display cabinet is a tall unit designed to showcase and organize items.\"},{\"id\":\"2f6dd9227792aa2bee28\",\"label\":\"1\",\"reason\":\"The answer describes drumming's effect at events but does not identify the handheld percussion tool.\"},{\"id\":\"52a724028ea7b667e42a\",\"label\":\"1\",\"reason\":\"A bookshelf can organize and display items, but it is not as specifically suited to showcasing a variety of items as the clue suggests.\"},{\"id\":\"1ec23a85a76e3b4b4be0\",\"label\":\"0\",\"reason\":\"Coral is generally stationary and does not move with trailing appendages as described.\"},{\"id\":\"e025cc7dbb9988e66b5c\",\"label\":\"0\",\"reason\":\"A smoothie bowl is a dish, not the fruit described in the clue.\"},{\"id\":\"1ab6fe20ff4dc4f55a6e\",\"label\":\"2\",\"reason\":\"The answer refers to raindrops falling and nourishing the earth, matching the clue.\"},{\"id\":\"2a3f74dd41fa5b7a7895\",\"label\":\"2\",\"reason\":\"Jellyfish propel themselves with rhythmic bell contractions to move through water.\"},{\"id\":\"a3e2485f7aa34e31e08a\",\"label\":\"2\",\"reason\":\"The answer describes raindrops nourishing the land, as in the clue.\"},{\"id\":\"e2b1f5e4df311ee6a2ac\",\"label\":\"2\",\"reason\":\"Cacti are succulents adapted to arid environments and conserve water effectively.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 340,
+    "started": "2026-11-26T09:32:47.414747+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 701,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 288,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 733,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1434
+    }
+  }
+}
