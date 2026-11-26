@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "watch_case_access",
+      "sentence": "In watch repair, a precision-sized tip turns tiny case fasteners without disturbing nearby delicate components."
+    },
+    {
+      "fact_key": "faucet_handle_removal",
+      "sentence": "When replacing a faucet handle, loosening its concealed retaining fastener allows the handle to lift from the valve stem."
+    },
+    {
+      "fact_key": "camera_casing_access",
+      "sentence": "During camera repair, removing casing fasteners opens joined panels for internal cleaning or component replacement."
+    },
+    {
+      "fact_key": "solar_panel_clamping",
+      "sentence": "Installers turn fasteners through solar-panel clamps into support rails, securing each module in place."
+    },
+    {
+      "fact_key": "sewing_machine_service",
+      "sentence": "At a sewing-machine service bench, removing cover fasteners provides access for lint removal and mechanism maintenance."
+    },
+    {
+      "fact_key": "extinguisher_bracket_mounting",
+      "sentence": "To secure a fire-extinguisher bracket, installers turn fasteners into anchors embedded in masonry."
+    },
+    {
+      "fact_key": "skateboard_truck_attachment",
+      "sentence": "Tightening the fasteners joining skateboard trucks to the deck helps keep the assembly stable during use."
+    },
+    {
+      "fact_key": "drone_housing_access",
+      "sentence": "During a drone repair, removing small housing fasteners lets technicians reach the flight-control components inside."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In watch repair, a precision-sized tip turns tiny case fasteners without disturbing nearby delicate components.\",\"fact_key\":\"watch_case_access\"},{\"sentence\":\"When replacing a faucet handle, loosening its concealed retaining fastener allows the handle to lift from the valve stem.\",\"fact_key\":\"faucet_handle_removal\"},{\"sentence\":\"During camera repair, removing casing fasteners opens joined panels for internal cleaning or component replacement.\",\"fact_key\":\"camera_casing_access\"},{\"sentence\":\"Installers turn fasteners through solar-panel clamps into support rails, securing each module in place.\",\"fact_key\":\"solar_panel_clamping\"},{\"sentence\":\"At a sewing-machine service bench, removing cover fasteners provides access for lint removal and mechanism maintenance.\",\"fact_key\":\"sewing_machine_service\"},{\"sentence\":\"To secure a fire-extinguisher bracket, installers turn fasteners into anchors embedded in masonry.\",\"fact_key\":\"extinguisher_bracket_mounting\"},{\"sentence\":\"Tightening the fasteners joining skateboard trucks to the deck helps keep the assembly stable during use.\",\"fact_key\":\"skateboard_truck_attachment\"},{\"sentence\":\"During a drone repair, removing small housing fasteners lets technicians reach the flight-control components inside.\",\"fact_key\":\"drone_housing_access\"}]}",
+  "rejected": [],
+  "request_hash": "1c3af0c4e5ae36356deadf0aef8790859363d080753d8123a4c7096beb953e77",
+  "usage": {
+    "completion_tokens": 1664,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1390,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2086,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2083,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3750
+  }
+}
