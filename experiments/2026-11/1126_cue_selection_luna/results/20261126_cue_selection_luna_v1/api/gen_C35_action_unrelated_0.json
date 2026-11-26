@@ -1,0 +1,28 @@
+{
+  "data": {
+    "cues": [
+      "At sunrise, a kayaker checks the current, adjusts the paddle, and launches from the sheltered cove.",
+      "During rehearsal, the violinist tunes each string carefully before the orchestra begins the overture.",
+      "On clear evenings, astronomers calibrate a telescope, track a planet, and record its changing position.",
+      "Before takeoff, ground crews inspect the runway, guide the aircraft, and confirm radio contact with pilots.",
+      "At the bakery, a pastry chef pipes custard into cooled shells and dusts them with sugar."
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 386,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 266,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1386,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1383,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1772
+  }
+}
