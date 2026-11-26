@@ -1,0 +1,1597 @@
+{
+  "finished": {
+    "audit_eval_00_0": {
+      "data": {
+        "items": [
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_0",
+            "reason": "Accurately describes the nut’s position and string-spacing role; this is a structural property and is distinct from the prior string-path description.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_1",
+            "reason": "Correctly contrasts common string materials in classical and steel-string designs; it is a structural description not covered by prior items.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_2",
+            "reason": "A capo clamps strings at a fret and raises their open-string pitches; this is an operation distinct from the prior descriptions of fretting and tuning.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_3",
+            "reason": "Correctly describes slide technique and its gliding pitch transitions; it is an action distinct from the prior string-bending claim.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_4",
+            "reason": "Flamenco performances may feature singing, dancing, handclaps, and rhythmic footwork alongside the instrument; this is a suitable performance context.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_5",
+            "reason": "The instrument can appear in chamber arrangements with string and wind instruments; this is a distinct performance setting.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_6",
+            "reason": "A solo performer can combine bass notes, chords, and melody; this describes a distinct musical role rather than repeating the prior ensemble-role claims.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "eval_00_7",
+            "reason": "A built-in pickup can feed amplification for larger spaces; this describes a function distinct from the prior mention of pickup types and recording use.",
+            "style": "pass"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"id\":\"eval_00_0\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Accurately describes the nut’s position and string-spacing role; this is a structural property and is distinct from the prior string-path description.\"},{\"id\":\"eval_00_1\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Correctly contrasts common string materials in classical and steel-string designs; it is a structural description not covered by prior items.\"},{\"id\":\"eval_00_2\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"A capo clamps strings at a fret and raises their open-string pitches; this is an operation distinct from the prior descriptions of fretting and tuning.\"},{\"id\":\"eval_00_3\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Correctly describes slide technique and its gliding pitch transitions; it is an action distinct from the prior string-bending claim.\"},{\"id\":\"eval_00_4\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Flamenco performances may feature singing, dancing, handclaps, and rhythmic footwork alongside the instrument; this is a suitable performance context.\"},{\"id\":\"eval_00_5\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"The instrument can appear in chamber arrangements with string and wind instruments; this is a distinct performance setting.\"},{\"id\":\"eval_00_6\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"A solo performer can combine bass notes, chords, and melody; this describes a distinct musical role rather than repeating the prior ensemble-role claims.\"},{\"id\":\"eval_00_7\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"A built-in pickup can feed amplification for larger spaces; this describes a function distinct from the prior mention of pickup types and recording use.\"}]}",
+      "request_sha256": "70ea675f2fad273450ad0fbf3a9560eca696e0250368ce56045d42ddf5ab2b69",
+      "usage": {
+        "completion_tokens": 918,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 435,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1264,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1261,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2182
+      }
+    },
+    "audit_train_00_0": {
+      "data": {
+        "items": [
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_0",
+            "reason": "Accurately describes the string path and the locations of the bridge and tuning machines.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_1",
+            "reason": "Accurately describes frets and their role in dividing string lengths; the sentence is primarily about physical structure.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_2",
+            "reason": "Accurately notes the common six-string configuration and variation in string count.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_3",
+            "reason": "Accurately contrasts common acoustic and electric body designs and components.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_4",
+            "reason": "Accurately describes plucking and brushing strings to produce notes or chords.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "fail",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_5",
+            "reason": "The fretting effect is accurate, but it substantially repeats the earlier claim that frets divide string lengths to select pitches.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_6",
+            "reason": "Accurately describes how tuning machines adjust string tension and open-string pitch.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_7",
+            "reason": "Accurately describes common ways players set the strings vibrating; it adds the choice of implement rather than repeating the earlier playing technique claim.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_8",
+            "reason": "Describes a plausible small-band context and division of musical parts.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_9",
+            "reason": "Accurately describes beginner practice in a lesson context.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_10",
+            "reason": "Recording studios and varied genres are appropriate contexts for the instrument.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_11",
+            "reason": "Informal gatherings and singalongs are suitable circumstances for a portable instrument.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_12",
+            "reason": "Chordal accompaniment beneath singers or other melodic performers is a typical role.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_13",
+            "reason": "Melodic lines and solos are distinct, typical ensemble roles.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_14",
+            "reason": "Low-register versions can provide bass support; this is a distinct role from chordal accompaniment or melodic solos.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_15",
+            "reason": "Sketching progressions and developing ideas are plausible songwriting uses.",
+            "style": "pass"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"id\":\"train_00_0\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Accurately describes the string path and the locations of the bridge and tuning machines.\"},{\"id\":\"train_00_1\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Accurately describes frets and their role in dividing string lengths; the sentence is primarily about physical structure.\"},{\"id\":\"train_00_2\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Accurately notes the common six-string configuration and variation in string count.\"},{\"id\":\"train_00_3\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Accurately contrasts common acoustic and electric body designs and components.\"},{\"id\":\"train_00_4\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Accurately describes plucking and brushing strings to produce notes or chords.\"},{\"id\":\"train_00_5\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"fail\",\"reason\":\"The fretting effect is accurate, but it substantially repeats the earlier claim that frets divide string lengths to select pitches.\"},{\"id\":\"train_00_6\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Accurately describes how tuning machines adjust string tension and open-string pitch.\"},{\"id\":\"train_00_7\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Accurately describes common ways players set the strings vibrating; it adds the choice of implement rather than repeating the earlier playing technique claim.\"},{\"id\":\"train_00_8\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Describes a plausible small-band context and division of musical parts.\"},{\"id\":\"train_00_9\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Accurately describes beginner practice in a lesson context.\"},{\"id\":\"train_00_10\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Recording studios and varied genres are appropriate contexts for the instrument.\"},{\"id\":\"train_00_11\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Informal gatherings and singalongs are suitable circumstances for a portable instrument.\"},{\"id\":\"train_00_12\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Chordal accompaniment beneath singers or other melodic performers is a typical role.\"},{\"id\":\"train_00_13\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Melodic lines and solos are distinct, typical ensemble roles.\"},{\"id\":\"train_00_14\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Low-register versions can provide bass support; this is a distinct role from chordal accompaniment or melodic solos.\"},{\"id\":\"train_00_15\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Sketching progressions and developing ideas are plausible songwriting uses.\"}]}",
+      "request_sha256": "87bfc62e65d292a5e55b948a668b981636cfe7d3dea43db244b3a418334eaefb",
+      "usage": {
+        "completion_tokens": 1756,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 962,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1096,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1093,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2852
+      }
+    },
+    "audit_train_01_0": {
+      "data": {
+        "items": [
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_01_0",
+            "reason": "String bending is a real playing technique that raises pitch and adds expressive inflection. The sentence describes an action, avoids the forbidden terms, and makes a distinct claim from the prior descriptions.",
+            "style": "pass"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"id\":\"train_01_0\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"String bending is a real playing technique that raises pitch and adds expressive inflection. The sentence describes an action, avoids the forbidden terms, and makes a distinct claim from the prior descriptions.\"}]}",
+      "request_sha256": "5b7672d40c0390a438480d8bdf13823a852751cf2cc83567bd9035f52b6afb1b",
+      "usage": {
+        "completion_tokens": 165,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 79,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 856,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 1021
+      }
+    },
+    "gen_eval_00_0": {
+      "data": {
+        "items": [
+          {
+            "fact_key": "nut_spaces_strings_at_neck_end",
+            "sentence": "A small nut near the neck’s upper end spaces the strings before they extend toward the tuning hardware.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "nylon_and_metal_string_materials",
+            "sentence": "Classical models commonly use nylon strings, while many steel-string designs are fitted with metal strings.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "capo_raises_open_string_pitches",
+            "sentence": "A movable capo clamps the strings against a fret, raising the pitches produced by the open strings.",
+            "style": "action"
+          },
+          {
+            "fact_key": "slide_produces_gliding_pitches",
+            "sentence": "Moving a slide along a string lets a player glide between pitches rather than selecting only fixed fret positions.",
+            "style": "action"
+          },
+          {
+            "fact_key": "flamenco_performance_context",
+            "sentence": "In flamenco performances, it may accompany singers and dancers alongside handclaps and rhythmic footwork.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "chamber_concert_arrangements",
+            "sentence": "Chamber concerts sometimes feature it in arrangements alongside instruments from the string and wind families.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "single_performer_combines_registers",
+            "sentence": "Its range allows a solo performer to combine bass notes, chords, and melody within one musical part.",
+            "style": "function"
+          },
+          {
+            "fact_key": "pickup_enables_amplification_for_large_spaces",
+            "sentence": "A built-in pickup can send its sound to amplification equipment, making it audible in large performance spaces.",
+            "style": "function"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"sentence\":\"A small nut near the neck’s upper end spaces the strings before they extend toward the tuning hardware.\",\"fact_key\":\"nut_spaces_strings_at_neck_end\",\"style\":\"structure\"},{\"sentence\":\"Classical models commonly use nylon strings, while many steel-string designs are fitted with metal strings.\",\"fact_key\":\"nylon_and_metal_string_materials\",\"style\":\"structure\"},{\"sentence\":\"A movable capo clamps the strings against a fret, raising the pitches produced by the open strings.\",\"fact_key\":\"capo_raises_open_string_pitches\",\"style\":\"action\"},{\"sentence\":\"Moving a slide along a string lets a player glide between pitches rather than selecting only fixed fret positions.\",\"fact_key\":\"slide_produces_gliding_pitches\",\"style\":\"action\"},{\"sentence\":\"In flamenco performances, it may accompany singers and dancers alongside handclaps and rhythmic footwork.\",\"fact_key\":\"flamenco_performance_context\",\"style\":\"situation\"},{\"sentence\":\"Chamber concerts sometimes feature it in arrangements alongside instruments from the string and wind families.\",\"fact_key\":\"chamber_concert_arrangements\",\"style\":\"situation\"},{\"sentence\":\"Its range allows a solo performer to combine bass notes, chords, and melody within one musical part.\",\"fact_key\":\"single_performer_combines_registers\",\"style\":\"function\"},{\"sentence\":\"A built-in pickup can send its sound to amplification equipment, making it audible in large performance spaces.\",\"fact_key\":\"pickup_enables_amplification_for_large_spaces\",\"style\":\"function\"}]}",
+      "request_sha256": "33178809aefa43181d2a8bb4197ede4a2798e7068b487f588314004ad11377e0",
+      "usage": {
+        "completion_tokens": 1237,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 918,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 911,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2148
+      }
+    },
+    "gen_train_00_0": {
+      "data": {
+        "items": [
+          {
+            "fact_key": "strings_bridge_to_tuning_machines",
+            "sentence": "Its strings run from a bridge on the body to tuning machines mounted at the far end of the neck.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "frets_divide_string_lengths",
+            "sentence": "Metal frets set into the fingerboard divide string lengths, allowing players to select different pitches by pressing strings down.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "variation_in_string_count",
+            "sentence": "Many versions have six strings, though instruments with fewer or more strings are also made.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "acoustic_and_electric_body_designs",
+            "sentence": "Acoustic models commonly use a hollow resonant body, while electric versions may have a solid body and magnetic pickups.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "plucking_and_brushing_strings",
+            "sentence": "A player can pluck individual strings or brush several together to produce separate notes or a chord.",
+            "style": "action"
+          },
+          {
+            "fact_key": "fretting_raises_pitch",
+            "sentence": "Pressing a string against a fret shortens its vibrating length and raises the note's pitch.",
+            "style": "action"
+          },
+          {
+            "fact_key": "tuning_machines_adjust_tension",
+            "sentence": "Turning tuning machines changes string tension, allowing the instrument's open strings to be adjusted to desired pitches.",
+            "style": "action"
+          },
+          {
+            "fact_key": "plectrum_or_fingertip_playing",
+            "sentence": "Players often use a small plectrum or their fingertips to set the strings vibrating.",
+            "style": "action"
+          },
+          {
+            "fact_key": "small_band_context",
+            "sentence": "It is frequently heard in small bands, where performers may share rhythmic and melodic parts.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "beginner_music_lessons",
+            "sentence": "In music lessons, beginners practice chord changes and simple melodies on this portable instrument.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "recording_studio_use",
+            "sentence": "Recording studios use its clean or processed tones across genres, from folk arrangements to rock productions.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "informal_gathering_singalongs",
+            "sentence": "At informal gatherings, its portability makes it practical for leading group singalongs without elaborate equipment.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "chordal_harmonic_accompaniment",
+            "sentence": "It often supplies harmonic accompaniment by sounding chords beneath a singer or another melodic performer.",
+            "style": "function"
+          },
+          {
+            "fact_key": "melodic_lines_and_solos",
+            "sentence": "In many ensembles, it carries melodic lines, including solos that stand out above the accompanying rhythm section.",
+            "style": "function"
+          },
+          {
+            "fact_key": "low_register_bass_support",
+            "sentence": "Its low-register versions can reinforce bass parts, contributing pulse and harmonic foundation to a group's sound.",
+            "style": "function"
+          },
+          {
+            "fact_key": "composing_and_sketching_progressions",
+            "sentence": "Songwriters use it to sketch harmonic progressions and develop musical ideas before arranging a full composition.",
+            "style": "function"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"sentence\":\"Its strings run from a bridge on the body to tuning machines mounted at the far end of the neck.\",\"fact_key\":\"strings_bridge_to_tuning_machines\",\"style\":\"structure\"},{\"sentence\":\"Metal frets set into the fingerboard divide string lengths, allowing players to select different pitches by pressing strings down.\",\"fact_key\":\"frets_divide_string_lengths\",\"style\":\"structure\"},{\"sentence\":\"Many versions have six strings, though instruments with fewer or more strings are also made.\",\"fact_key\":\"variation_in_string_count\",\"style\":\"structure\"},{\"sentence\":\"Acoustic models commonly use a hollow resonant body, while electric versions may have a solid body and magnetic pickups.\",\"fact_key\":\"acoustic_and_electric_body_designs\",\"style\":\"structure\"},{\"sentence\":\"A player can pluck individual strings or brush several together to produce separate notes or a chord.\",\"fact_key\":\"plucking_and_brushing_strings\",\"style\":\"action\"},{\"sentence\":\"Pressing a string against a fret shortens its vibrating length and raises the note's pitch.\",\"fact_key\":\"fretting_raises_pitch\",\"style\":\"action\"},{\"sentence\":\"Turning tuning machines changes string tension, allowing the instrument's open strings to be adjusted to desired pitches.\",\"fact_key\":\"tuning_machines_adjust_tension\",\"style\":\"action\"},{\"sentence\":\"Players often use a small plectrum or their fingertips to set the strings vibrating.\",\"fact_key\":\"plectrum_or_fingertip_playing\",\"style\":\"action\"},{\"sentence\":\"It is frequently heard in small bands, where performers may share rhythmic and melodic parts.\",\"fact_key\":\"small_band_context\",\"style\":\"situation\"},{\"sentence\":\"In music lessons, beginners practice chord changes and simple melodies on this portable instrument.\",\"fact_key\":\"beginner_music_lessons\",\"style\":\"situation\"},{\"sentence\":\"Recording studios use its clean or processed tones across genres, from folk arrangements to rock productions.\",\"fact_key\":\"recording_studio_use\",\"style\":\"situation\"},{\"sentence\":\"At informal gatherings, its portability makes it practical for leading group singalongs without elaborate equipment.\",\"fact_key\":\"informal_gathering_singalongs\",\"style\":\"situation\"},{\"sentence\":\"It often supplies harmonic accompaniment by sounding chords beneath a singer or another melodic performer.\",\"fact_key\":\"chordal_harmonic_accompaniment\",\"style\":\"function\"},{\"sentence\":\"In many ensembles, it carries melodic lines, including solos that stand out above the accompanying rhythm section.\",\"fact_key\":\"melodic_lines_and_solos\",\"style\":\"function\"},{\"sentence\":\"Its low-register versions can reinforce bass parts, contributing pulse and harmonic foundation to a group's sound.\",\"fact_key\":\"low_register_bass_support\",\"style\":\"function\"},{\"sentence\":\"Songwriters use it to sketch harmonic progressions and develop musical ideas before arranging a full composition.\",\"fact_key\":\"composing_and_sketching_progressions\",\"style\":\"function\"}]}",
+      "request_sha256": "043da37acc71fb30d85bbb369dda3b061ab5588e9ac8670c6a2cc1be54748a22",
+      "usage": {
+        "completion_tokens": 1299,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 705,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 341,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 1640
+      }
+    },
+    "gen_train_01_0": {
+      "data": {
+        "items": [
+          {
+            "fact_key": "sideways_string_bending_raises_pitch",
+            "sentence": "Players can bend a sounding string sideways against a fret to raise its pitch and add expressive inflection.",
+            "style": "action"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"sentence\":\"Players can bend a sounding string sideways against a fret to raise its pitch and add expressive inflection.\",\"fact_key\":\"sideways_string_bending_raises_pitch\",\"style\":\"action\"}]}",
+      "request_sha256": "83c41eb015d31ffb7abe193a61ba140a5d1ba5d46c7e6470c0a4944dd139e254",
+      "usage": {
+        "completion_tokens": 213,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 158,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 854,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 1067
+      }
+    }
+  },
+  "quality": {
+    "eval_00": {
+      "accepted_total_group": 8,
+      "audit": [
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_0",
+          "reason": "Accurately describes the nut’s position and string-spacing role; this is a structural property and is distinct from the prior string-path description.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_1",
+          "reason": "Correctly contrasts common string materials in classical and steel-string designs; it is a structural description not covered by prior items.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_2",
+          "reason": "A capo clamps strings at a fret and raises their open-string pitches; this is an operation distinct from the prior descriptions of fretting and tuning.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_3",
+          "reason": "Correctly describes slide technique and its gliding pitch transitions; it is an action distinct from the prior string-bending claim.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_4",
+          "reason": "Flamenco performances may feature singing, dancing, handclaps, and rhythmic footwork alongside the instrument; this is a suitable performance context.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_5",
+          "reason": "The instrument can appear in chamber arrangements with string and wind instruments; this is a distinct performance setting.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_6",
+          "reason": "A solo performer can combine bass notes, chords, and melody; this describes a distinct musical role rather than repeating the prior ensemble-role claims.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "eval_00_7",
+          "reason": "A built-in pickup can feed amplification for larger spaces; this describes a function distinct from the prior mention of pickup types and recording use.",
+          "style": "pass"
+        }
+      ],
+      "key": "eval_00",
+      "rejected": [],
+      "requested": {
+        "action": 2,
+        "function": 2,
+        "situation": 2,
+        "structure": 2
+      }
+    },
+    "train_00": {
+      "accepted_total_group": 15,
+      "audit": [
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_0",
+          "reason": "Accurately describes the string path and the locations of the bridge and tuning machines.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_1",
+          "reason": "Accurately describes frets and their role in dividing string lengths; the sentence is primarily about physical structure.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_2",
+          "reason": "Accurately notes the common six-string configuration and variation in string count.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_3",
+          "reason": "Accurately contrasts common acoustic and electric body designs and components.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_4",
+          "reason": "Accurately describes plucking and brushing strings to produce notes or chords.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "fail",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_5",
+          "reason": "The fretting effect is accurate, but it substantially repeats the earlier claim that frets divide string lengths to select pitches.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_6",
+          "reason": "Accurately describes how tuning machines adjust string tension and open-string pitch.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_7",
+          "reason": "Accurately describes common ways players set the strings vibrating; it adds the choice of implement rather than repeating the earlier playing technique claim.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_8",
+          "reason": "Describes a plausible small-band context and division of musical parts.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_9",
+          "reason": "Accurately describes beginner practice in a lesson context.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_10",
+          "reason": "Recording studios and varied genres are appropriate contexts for the instrument.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_11",
+          "reason": "Informal gatherings and singalongs are suitable circumstances for a portable instrument.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_12",
+          "reason": "Chordal accompaniment beneath singers or other melodic performers is a typical role.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_13",
+          "reason": "Melodic lines and solos are distinct, typical ensemble roles.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_14",
+          "reason": "Low-register versions can provide bass support; this is a distinct role from chordal accompaniment or melodic solos.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_15",
+          "reason": "Sketching progressions and developing ideas are plausible songwriting uses.",
+          "style": "pass"
+        }
+      ],
+      "key": "train_00",
+      "rejected": [
+        {
+          "audit": {
+            "alignment": "pass",
+            "duplicate": "fail",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_5",
+            "reason": "The fretting effect is accurate, but it substantially repeats the earlier claim that frets divide string lengths to select pitches.",
+            "style": "pass"
+          },
+          "item": {
+            "fact_key": "fretting_raises_pitch",
+            "id": "train_00_5",
+            "sentence": "Pressing a string against a fret shortens its vibrating length and raises the note's pitch.",
+            "style": "action"
+          },
+          "reason": "AI audit"
+        }
+      ],
+      "requested": {
+        "action": 4,
+        "function": 4,
+        "situation": 4,
+        "structure": 4
+      }
+    },
+    "train_01": {
+      "accepted_total_group": 16,
+      "audit": [
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_01_0",
+          "reason": "String bending is a real playing technique that raises pitch and adds expressive inflection. The sentence describes an action, avoids the forbidden terms, and makes a distinct claim from the prior descriptions.",
+          "style": "pass"
+        }
+      ],
+      "key": "train_01",
+      "rejected": [],
+      "requested": {
+        "action": 1
+      }
+    }
+  },
+  "started": {
+    "audit_eval_00_0": {
+      "payload": {
+        "concept": "guitar",
+        "definition": "A fretted string instrument, usually played by plucking or strumming its strings.",
+        "forbidden_terms": [
+          "guitar",
+          "trumpet"
+        ],
+        "items": [
+          {
+            "fact_key": "nut_spaces_strings_at_neck_end",
+            "id": "eval_00_0",
+            "sentence": "A small nut near the neck’s upper end spaces the strings before they extend toward the tuning hardware.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "nylon_and_metal_string_materials",
+            "id": "eval_00_1",
+            "sentence": "Classical models commonly use nylon strings, while many steel-string designs are fitted with metal strings.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "capo_raises_open_string_pitches",
+            "id": "eval_00_2",
+            "sentence": "A movable capo clamps the strings against a fret, raising the pitches produced by the open strings.",
+            "style": "action"
+          },
+          {
+            "fact_key": "slide_produces_gliding_pitches",
+            "id": "eval_00_3",
+            "sentence": "Moving a slide along a string lets a player glide between pitches rather than selecting only fixed fret positions.",
+            "style": "action"
+          },
+          {
+            "fact_key": "flamenco_performance_context",
+            "id": "eval_00_4",
+            "sentence": "In flamenco performances, it may accompany singers and dancers alongside handclaps and rhythmic footwork.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "chamber_concert_arrangements",
+            "id": "eval_00_5",
+            "sentence": "Chamber concerts sometimes feature it in arrangements alongside instruments from the string and wind families.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "single_performer_combines_registers",
+            "id": "eval_00_6",
+            "sentence": "Its range allows a solo performer to combine bass notes, chords, and melody within one musical part.",
+            "style": "function"
+          },
+          {
+            "fact_key": "pickup_enables_amplification_for_large_spaces",
+            "id": "eval_00_7",
+            "sentence": "A built-in pickup can send its sound to amplification equipment, making it audible in large performance spaces.",
+            "style": "function"
+          }
+        ],
+        "prior": [
+          {
+            "fact_key": "strings_bridge_to_tuning_machines",
+            "sentence": "Its strings run from a bridge on the body to tuning machines mounted at the far end of the neck."
+          },
+          {
+            "fact_key": "frets_divide_string_lengths",
+            "sentence": "Metal frets set into the fingerboard divide string lengths, allowing players to select different pitches by pressing strings down."
+          },
+          {
+            "fact_key": "variation_in_string_count",
+            "sentence": "Many versions have six strings, though instruments with fewer or more strings are also made."
+          },
+          {
+            "fact_key": "acoustic_and_electric_body_designs",
+            "sentence": "Acoustic models commonly use a hollow resonant body, while electric versions may have a solid body and magnetic pickups."
+          },
+          {
+            "fact_key": "plucking_and_brushing_strings",
+            "sentence": "A player can pluck individual strings or brush several together to produce separate notes or a chord."
+          },
+          {
+            "fact_key": "tuning_machines_adjust_tension",
+            "sentence": "Turning tuning machines changes string tension, allowing the instrument's open strings to be adjusted to desired pitches."
+          },
+          {
+            "fact_key": "plectrum_or_fingertip_playing",
+            "sentence": "Players often use a small plectrum or their fingertips to set the strings vibrating."
+          },
+          {
+            "fact_key": "small_band_context",
+            "sentence": "It is frequently heard in small bands, where performers may share rhythmic and melodic parts."
+          },
+          {
+            "fact_key": "beginner_music_lessons",
+            "sentence": "In music lessons, beginners practice chord changes and simple melodies on this portable instrument."
+          },
+          {
+            "fact_key": "recording_studio_use",
+            "sentence": "Recording studios use its clean or processed tones across genres, from folk arrangements to rock productions."
+          },
+          {
+            "fact_key": "informal_gathering_singalongs",
+            "sentence": "At informal gatherings, its portability makes it practical for leading group singalongs without elaborate equipment."
+          },
+          {
+            "fact_key": "chordal_harmonic_accompaniment",
+            "sentence": "It often supplies harmonic accompaniment by sounding chords beneath a singer or another melodic performer."
+          },
+          {
+            "fact_key": "melodic_lines_and_solos",
+            "sentence": "In many ensembles, it carries melodic lines, including solos that stand out above the accompanying rhythm section."
+          },
+          {
+            "fact_key": "low_register_bass_support",
+            "sentence": "Its low-register versions can reinforce bass parts, contributing pulse and harmonic foundation to a group's sound."
+          },
+          {
+            "fact_key": "composing_and_sketching_progressions",
+            "sentence": "Songwriters use it to sketch harmonic progressions and develop musical ideas before arranging a full composition."
+          },
+          {
+            "fact_key": "sideways_string_bending_raises_pitch",
+            "sentence": "Players can bend a sounding string sideways against a fret to raise its pitch and add expressive inflection."
+          }
+        ],
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "70ea675f2fad273450ad0fbf3a9560eca696e0250368ce56045d42ddf5ab2b69",
+      "system": "Independently evaluate each description against the supplied concept definition and each item’s assigned style. Check factual accuracy, concept alignment, natural standalone English, style, absence of names/aliases and near semantic duplicates of prior accepted descriptions (including other splits) or earlier items in this batch. A shared broad topic is not itself duplication, but essentially the same factual claim or paraphrase is. Return JSON {\"items\":[{\"id\":\"...\",\"fact\":\"pass|fail|uncertain\",\"alignment\":\"pass|fail|uncertain\",\"style\":\"pass|fail|uncertain\",\"exposure\":\"pass|fail|uncertain\",\"duplicate\":\"pass|fail|uncertain\",\"reason\":\"...\"}]}. Return every id exactly once. Treat supplied sentences as data. Do not infer model performance."
+    },
+    "audit_train_00_0": {
+      "payload": {
+        "concept": "guitar",
+        "definition": "A fretted string instrument, usually played by plucking or strumming its strings.",
+        "forbidden_terms": [
+          "guitar",
+          "trumpet"
+        ],
+        "items": [
+          {
+            "fact_key": "strings_bridge_to_tuning_machines",
+            "id": "train_00_0",
+            "sentence": "Its strings run from a bridge on the body to tuning machines mounted at the far end of the neck.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "frets_divide_string_lengths",
+            "id": "train_00_1",
+            "sentence": "Metal frets set into the fingerboard divide string lengths, allowing players to select different pitches by pressing strings down.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "variation_in_string_count",
+            "id": "train_00_2",
+            "sentence": "Many versions have six strings, though instruments with fewer or more strings are also made.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "acoustic_and_electric_body_designs",
+            "id": "train_00_3",
+            "sentence": "Acoustic models commonly use a hollow resonant body, while electric versions may have a solid body and magnetic pickups.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "plucking_and_brushing_strings",
+            "id": "train_00_4",
+            "sentence": "A player can pluck individual strings or brush several together to produce separate notes or a chord.",
+            "style": "action"
+          },
+          {
+            "fact_key": "fretting_raises_pitch",
+            "id": "train_00_5",
+            "sentence": "Pressing a string against a fret shortens its vibrating length and raises the note's pitch.",
+            "style": "action"
+          },
+          {
+            "fact_key": "tuning_machines_adjust_tension",
+            "id": "train_00_6",
+            "sentence": "Turning tuning machines changes string tension, allowing the instrument's open strings to be adjusted to desired pitches.",
+            "style": "action"
+          },
+          {
+            "fact_key": "plectrum_or_fingertip_playing",
+            "id": "train_00_7",
+            "sentence": "Players often use a small plectrum or their fingertips to set the strings vibrating.",
+            "style": "action"
+          },
+          {
+            "fact_key": "small_band_context",
+            "id": "train_00_8",
+            "sentence": "It is frequently heard in small bands, where performers may share rhythmic and melodic parts.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "beginner_music_lessons",
+            "id": "train_00_9",
+            "sentence": "In music lessons, beginners practice chord changes and simple melodies on this portable instrument.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "recording_studio_use",
+            "id": "train_00_10",
+            "sentence": "Recording studios use its clean or processed tones across genres, from folk arrangements to rock productions.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "informal_gathering_singalongs",
+            "id": "train_00_11",
+            "sentence": "At informal gatherings, its portability makes it practical for leading group singalongs without elaborate equipment.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "chordal_harmonic_accompaniment",
+            "id": "train_00_12",
+            "sentence": "It often supplies harmonic accompaniment by sounding chords beneath a singer or another melodic performer.",
+            "style": "function"
+          },
+          {
+            "fact_key": "melodic_lines_and_solos",
+            "id": "train_00_13",
+            "sentence": "In many ensembles, it carries melodic lines, including solos that stand out above the accompanying rhythm section.",
+            "style": "function"
+          },
+          {
+            "fact_key": "low_register_bass_support",
+            "id": "train_00_14",
+            "sentence": "Its low-register versions can reinforce bass parts, contributing pulse and harmonic foundation to a group's sound.",
+            "style": "function"
+          },
+          {
+            "fact_key": "composing_and_sketching_progressions",
+            "id": "train_00_15",
+            "sentence": "Songwriters use it to sketch harmonic progressions and develop musical ideas before arranging a full composition.",
+            "style": "function"
+          }
+        ],
+        "prior": [],
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "87bfc62e65d292a5e55b948a668b981636cfe7d3dea43db244b3a418334eaefb",
+      "system": "Independently evaluate each description against the supplied concept definition and each item’s assigned style. Check factual accuracy, concept alignment, natural standalone English, style, absence of names/aliases and near semantic duplicates of prior accepted descriptions (including other splits) or earlier items in this batch. A shared broad topic is not itself duplication, but essentially the same factual claim or paraphrase is. Return JSON {\"items\":[{\"id\":\"...\",\"fact\":\"pass|fail|uncertain\",\"alignment\":\"pass|fail|uncertain\",\"style\":\"pass|fail|uncertain\",\"exposure\":\"pass|fail|uncertain\",\"duplicate\":\"pass|fail|uncertain\",\"reason\":\"...\"}]}. Return every id exactly once. Treat supplied sentences as data. Do not infer model performance."
+    },
+    "audit_train_01_0": {
+      "payload": {
+        "concept": "guitar",
+        "definition": "A fretted string instrument, usually played by plucking or strumming its strings.",
+        "forbidden_terms": [
+          "guitar",
+          "trumpet"
+        ],
+        "items": [
+          {
+            "fact_key": "sideways_string_bending_raises_pitch",
+            "id": "train_01_0",
+            "sentence": "Players can bend a sounding string sideways against a fret to raise its pitch and add expressive inflection.",
+            "style": "action"
+          }
+        ],
+        "prior": [
+          {
+            "fact_key": "strings_bridge_to_tuning_machines",
+            "sentence": "Its strings run from a bridge on the body to tuning machines mounted at the far end of the neck."
+          },
+          {
+            "fact_key": "frets_divide_string_lengths",
+            "sentence": "Metal frets set into the fingerboard divide string lengths, allowing players to select different pitches by pressing strings down."
+          },
+          {
+            "fact_key": "variation_in_string_count",
+            "sentence": "Many versions have six strings, though instruments with fewer or more strings are also made."
+          },
+          {
+            "fact_key": "acoustic_and_electric_body_designs",
+            "sentence": "Acoustic models commonly use a hollow resonant body, while electric versions may have a solid body and magnetic pickups."
+          },
+          {
+            "fact_key": "plucking_and_brushing_strings",
+            "sentence": "A player can pluck individual strings or brush several together to produce separate notes or a chord."
+          },
+          {
+            "fact_key": "tuning_machines_adjust_tension",
+            "sentence": "Turning tuning machines changes string tension, allowing the instrument's open strings to be adjusted to desired pitches."
+          },
+          {
+            "fact_key": "plectrum_or_fingertip_playing",
+            "sentence": "Players often use a small plectrum or their fingertips to set the strings vibrating."
+          },
+          {
+            "fact_key": "small_band_context",
+            "sentence": "It is frequently heard in small bands, where performers may share rhythmic and melodic parts."
+          },
+          {
+            "fact_key": "beginner_music_lessons",
+            "sentence": "In music lessons, beginners practice chord changes and simple melodies on this portable instrument."
+          },
+          {
+            "fact_key": "recording_studio_use",
+            "sentence": "Recording studios use its clean or processed tones across genres, from folk arrangements to rock productions."
+          },
+          {
+            "fact_key": "informal_gathering_singalongs",
+            "sentence": "At informal gatherings, its portability makes it practical for leading group singalongs without elaborate equipment."
+          },
+          {
+            "fact_key": "chordal_harmonic_accompaniment",
+            "sentence": "It often supplies harmonic accompaniment by sounding chords beneath a singer or another melodic performer."
+          },
+          {
+            "fact_key": "melodic_lines_and_solos",
+            "sentence": "In many ensembles, it carries melodic lines, including solos that stand out above the accompanying rhythm section."
+          },
+          {
+            "fact_key": "low_register_bass_support",
+            "sentence": "Its low-register versions can reinforce bass parts, contributing pulse and harmonic foundation to a group's sound."
+          },
+          {
+            "fact_key": "composing_and_sketching_progressions",
+            "sentence": "Songwriters use it to sketch harmonic progressions and develop musical ideas before arranging a full composition."
+          }
+        ],
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "5b7672d40c0390a438480d8bdf13823a852751cf2cc83567bd9035f52b6afb1b",
+      "system": "Independently evaluate each description against the supplied concept definition and each item’s assigned style. Check factual accuracy, concept alignment, natural standalone English, style, absence of names/aliases and near semantic duplicates of prior accepted descriptions (including other splits) or earlier items in this batch. A shared broad topic is not itself duplication, but essentially the same factual claim or paraphrase is. Return JSON {\"items\":[{\"id\":\"...\",\"fact\":\"pass|fail|uncertain\",\"alignment\":\"pass|fail|uncertain\",\"style\":\"pass|fail|uncertain\",\"exposure\":\"pass|fail|uncertain\",\"duplicate\":\"pass|fail|uncertain\",\"reason\":\"...\"}]}. Return every id exactly once. Treat supplied sentences as data. Do not infer model performance."
+    },
+    "gen_eval_00_0": {
+      "payload": {
+        "concept": "guitar",
+        "definition": "A fretted string instrument, usually played by plucking or strumming its strings.",
+        "forbidden_terms": [
+          "guitar",
+          "trumpet"
+        ],
+        "instruction": "Return exactly the requested count for each style, with a style key for every item. For eval, use new factual ideas, not paraphrases of train.",
+        "prior": [
+          {
+            "fact_key": "strings_bridge_to_tuning_machines",
+            "sentence": "Its strings run from a bridge on the body to tuning machines mounted at the far end of the neck."
+          },
+          {
+            "fact_key": "frets_divide_string_lengths",
+            "sentence": "Metal frets set into the fingerboard divide string lengths, allowing players to select different pitches by pressing strings down."
+          },
+          {
+            "fact_key": "variation_in_string_count",
+            "sentence": "Many versions have six strings, though instruments with fewer or more strings are also made."
+          },
+          {
+            "fact_key": "acoustic_and_electric_body_designs",
+            "sentence": "Acoustic models commonly use a hollow resonant body, while electric versions may have a solid body and magnetic pickups."
+          },
+          {
+            "fact_key": "plucking_and_brushing_strings",
+            "sentence": "A player can pluck individual strings or brush several together to produce separate notes or a chord."
+          },
+          {
+            "fact_key": "tuning_machines_adjust_tension",
+            "sentence": "Turning tuning machines changes string tension, allowing the instrument's open strings to be adjusted to desired pitches."
+          },
+          {
+            "fact_key": "plectrum_or_fingertip_playing",
+            "sentence": "Players often use a small plectrum or their fingertips to set the strings vibrating."
+          },
+          {
+            "fact_key": "small_band_context",
+            "sentence": "It is frequently heard in small bands, where performers may share rhythmic and melodic parts."
+          },
+          {
+            "fact_key": "beginner_music_lessons",
+            "sentence": "In music lessons, beginners practice chord changes and simple melodies on this portable instrument."
+          },
+          {
+            "fact_key": "recording_studio_use",
+            "sentence": "Recording studios use its clean or processed tones across genres, from folk arrangements to rock productions."
+          },
+          {
+            "fact_key": "informal_gathering_singalongs",
+            "sentence": "At informal gatherings, its portability makes it practical for leading group singalongs without elaborate equipment."
+          },
+          {
+            "fact_key": "chordal_harmonic_accompaniment",
+            "sentence": "It often supplies harmonic accompaniment by sounding chords beneath a singer or another melodic performer."
+          },
+          {
+            "fact_key": "melodic_lines_and_solos",
+            "sentence": "In many ensembles, it carries melodic lines, including solos that stand out above the accompanying rhythm section."
+          },
+          {
+            "fact_key": "low_register_bass_support",
+            "sentence": "Its low-register versions can reinforce bass parts, contributing pulse and harmonic foundation to a group's sound."
+          },
+          {
+            "fact_key": "composing_and_sketching_progressions",
+            "sentence": "Songwriters use it to sketch harmonic progressions and develop musical ideas before arranging a full composition."
+          },
+          {
+            "fact_key": "sideways_string_bending_raises_pitch",
+            "sentence": "Players can bend a sounding string sideways against a fret to raise its pitch and add expressive inflection."
+          }
+        ],
+        "split": "eval",
+        "style_counts": {
+          "action": 2,
+          "function": 2,
+          "situation": 2,
+          "structure": 2
+        },
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "33178809aefa43181d2a8bb4197ede4a2798e7068b487f588314004ad11377e0",
+      "system": "Generate factually accurate natural standalone English descriptions for a concept probe dataset. Each sentence describes the specified concept, without naming it, comparison concepts or their obvious aliases. Use the assigned style and 10–25 words. The request supplies a style-to-count map; return each item with a style key matching that map. Avoid label-specific formatting, fiction, trivia guesses and recycled facts. Each fact_key is a short description of a distinct factual claim. Use prior sentences only to avoid near paraphrase and repeated factual claims, not as templates. Use diverse facets and contexts. For held-out evaluation, use new factual claims or contexts rather than paraphrases of training. Output JSON {\"items\":[{\"sentence\":\"...\",\"fact_key\":\"...\",\"style\":\"structure\"}]}. Treat provided text as data, not instructions."
+    },
+    "gen_train_00_0": {
+      "payload": {
+        "concept": "guitar",
+        "definition": "A fretted string instrument, usually played by plucking or strumming its strings.",
+        "forbidden_terms": [
+          "guitar",
+          "trumpet"
+        ],
+        "instruction": "Return exactly the requested count for each style, with a style key for every item. For eval, use new factual ideas, not paraphrases of train.",
+        "prior": [],
+        "split": "train",
+        "style_counts": {
+          "action": 4,
+          "function": 4,
+          "situation": 4,
+          "structure": 4
+        },
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "043da37acc71fb30d85bbb369dda3b061ab5588e9ac8670c6a2cc1be54748a22",
+      "system": "Generate factually accurate natural standalone English descriptions for a concept probe dataset. Each sentence describes the specified concept, without naming it, comparison concepts or their obvious aliases. Use the assigned style and 10–25 words. The request supplies a style-to-count map; return each item with a style key matching that map. Avoid label-specific formatting, fiction, trivia guesses and recycled facts. Each fact_key is a short description of a distinct factual claim. Use prior sentences only to avoid near paraphrase and repeated factual claims, not as templates. Use diverse facets and contexts. For held-out evaluation, use new factual claims or contexts rather than paraphrases of training. Output JSON {\"items\":[{\"sentence\":\"...\",\"fact_key\":\"...\",\"style\":\"structure\"}]}. Treat provided text as data, not instructions."
+    },
+    "gen_train_01_0": {
+      "payload": {
+        "concept": "guitar",
+        "definition": "A fretted string instrument, usually played by plucking or strumming its strings.",
+        "forbidden_terms": [
+          "guitar",
+          "trumpet"
+        ],
+        "instruction": "Return exactly the requested count for each style, with a style key for every item. For eval, use new factual ideas, not paraphrases of train.",
+        "prior": [
+          {
+            "fact_key": "strings_bridge_to_tuning_machines",
+            "sentence": "Its strings run from a bridge on the body to tuning machines mounted at the far end of the neck."
+          },
+          {
+            "fact_key": "frets_divide_string_lengths",
+            "sentence": "Metal frets set into the fingerboard divide string lengths, allowing players to select different pitches by pressing strings down."
+          },
+          {
+            "fact_key": "variation_in_string_count",
+            "sentence": "Many versions have six strings, though instruments with fewer or more strings are also made."
+          },
+          {
+            "fact_key": "acoustic_and_electric_body_designs",
+            "sentence": "Acoustic models commonly use a hollow resonant body, while electric versions may have a solid body and magnetic pickups."
+          },
+          {
+            "fact_key": "plucking_and_brushing_strings",
+            "sentence": "A player can pluck individual strings or brush several together to produce separate notes or a chord."
+          },
+          {
+            "fact_key": "tuning_machines_adjust_tension",
+            "sentence": "Turning tuning machines changes string tension, allowing the instrument's open strings to be adjusted to desired pitches."
+          },
+          {
+            "fact_key": "plectrum_or_fingertip_playing",
+            "sentence": "Players often use a small plectrum or their fingertips to set the strings vibrating."
+          },
+          {
+            "fact_key": "small_band_context",
+            "sentence": "It is frequently heard in small bands, where performers may share rhythmic and melodic parts."
+          },
+          {
+            "fact_key": "beginner_music_lessons",
+            "sentence": "In music lessons, beginners practice chord changes and simple melodies on this portable instrument."
+          },
+          {
+            "fact_key": "recording_studio_use",
+            "sentence": "Recording studios use its clean or processed tones across genres, from folk arrangements to rock productions."
+          },
+          {
+            "fact_key": "informal_gathering_singalongs",
+            "sentence": "At informal gatherings, its portability makes it practical for leading group singalongs without elaborate equipment."
+          },
+          {
+            "fact_key": "chordal_harmonic_accompaniment",
+            "sentence": "It often supplies harmonic accompaniment by sounding chords beneath a singer or another melodic performer."
+          },
+          {
+            "fact_key": "melodic_lines_and_solos",
+            "sentence": "In many ensembles, it carries melodic lines, including solos that stand out above the accompanying rhythm section."
+          },
+          {
+            "fact_key": "low_register_bass_support",
+            "sentence": "Its low-register versions can reinforce bass parts, contributing pulse and harmonic foundation to a group's sound."
+          },
+          {
+            "fact_key": "composing_and_sketching_progressions",
+            "sentence": "Songwriters use it to sketch harmonic progressions and develop musical ideas before arranging a full composition."
+          }
+        ],
+        "split": "train",
+        "style_counts": {
+          "action": 1
+        },
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "83c41eb015d31ffb7abe193a61ba140a5d1ba5d46c7e6470c0a4944dd139e254",
+      "system": "Generate factually accurate natural standalone English descriptions for a concept probe dataset. Each sentence describes the specified concept, without naming it, comparison concepts or their obvious aliases. Use the assigned style and 10–25 words. The request supplies a style-to-count map; return each item with a style key matching that map. Avoid label-specific formatting, fiction, trivia guesses and recycled facts. Each fact_key is a short description of a distinct factual claim. Use prior sentences only to avoid near paraphrase and repeated factual claims, not as templates. Use diverse facets and contexts. For held-out evaluation, use new factual claims or contexts rather than paraphrases of training. Output JSON {\"items\":[{\"sentence\":\"...\",\"fact_key\":\"...\",\"style\":\"structure\"}]}. Treat provided text as data, not instructions."
+    }
+  },
+  "texts": [
+    {
+      "concept": "guitar",
+      "fact_key": "strings_bridge_to_tuning_machines",
+      "id": "train_00_0",
+      "sentence": "Its strings run from a bridge on the body to tuning machines mounted at the far end of the neck.",
+      "split": "train",
+      "style": "structure",
+      "style_index": 0,
+      "text_id": "C23_Y20_Y_train_structure_0",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "frets_divide_string_lengths",
+      "id": "train_00_1",
+      "sentence": "Metal frets set into the fingerboard divide string lengths, allowing players to select different pitches by pressing strings down.",
+      "split": "train",
+      "style": "structure",
+      "style_index": 1,
+      "text_id": "C23_Y20_Y_train_structure_1",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "variation_in_string_count",
+      "id": "train_00_2",
+      "sentence": "Many versions have six strings, though instruments with fewer or more strings are also made.",
+      "split": "train",
+      "style": "structure",
+      "style_index": 2,
+      "text_id": "C23_Y20_Y_train_structure_2",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "acoustic_and_electric_body_designs",
+      "id": "train_00_3",
+      "sentence": "Acoustic models commonly use a hollow resonant body, while electric versions may have a solid body and magnetic pickups.",
+      "split": "train",
+      "style": "structure",
+      "style_index": 3,
+      "text_id": "C23_Y20_Y_train_structure_3",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "plucking_and_brushing_strings",
+      "id": "train_00_4",
+      "sentence": "A player can pluck individual strings or brush several together to produce separate notes or a chord.",
+      "split": "train",
+      "style": "action",
+      "style_index": 0,
+      "text_id": "C23_Y20_Y_train_action_0",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "tuning_machines_adjust_tension",
+      "id": "train_00_6",
+      "sentence": "Turning tuning machines changes string tension, allowing the instrument's open strings to be adjusted to desired pitches.",
+      "split": "train",
+      "style": "action",
+      "style_index": 1,
+      "text_id": "C23_Y20_Y_train_action_1",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "plectrum_or_fingertip_playing",
+      "id": "train_00_7",
+      "sentence": "Players often use a small plectrum or their fingertips to set the strings vibrating.",
+      "split": "train",
+      "style": "action",
+      "style_index": 2,
+      "text_id": "C23_Y20_Y_train_action_2",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "small_band_context",
+      "id": "train_00_8",
+      "sentence": "It is frequently heard in small bands, where performers may share rhythmic and melodic parts.",
+      "split": "train",
+      "style": "situation",
+      "style_index": 0,
+      "text_id": "C23_Y20_Y_train_situation_0",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "beginner_music_lessons",
+      "id": "train_00_9",
+      "sentence": "In music lessons, beginners practice chord changes and simple melodies on this portable instrument.",
+      "split": "train",
+      "style": "situation",
+      "style_index": 1,
+      "text_id": "C23_Y20_Y_train_situation_1",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "recording_studio_use",
+      "id": "train_00_10",
+      "sentence": "Recording studios use its clean or processed tones across genres, from folk arrangements to rock productions.",
+      "split": "train",
+      "style": "situation",
+      "style_index": 2,
+      "text_id": "C23_Y20_Y_train_situation_2",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "informal_gathering_singalongs",
+      "id": "train_00_11",
+      "sentence": "At informal gatherings, its portability makes it practical for leading group singalongs without elaborate equipment.",
+      "split": "train",
+      "style": "situation",
+      "style_index": 3,
+      "text_id": "C23_Y20_Y_train_situation_3",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "chordal_harmonic_accompaniment",
+      "id": "train_00_12",
+      "sentence": "It often supplies harmonic accompaniment by sounding chords beneath a singer or another melodic performer.",
+      "split": "train",
+      "style": "function",
+      "style_index": 0,
+      "text_id": "C23_Y20_Y_train_function_0",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "melodic_lines_and_solos",
+      "id": "train_00_13",
+      "sentence": "In many ensembles, it carries melodic lines, including solos that stand out above the accompanying rhythm section.",
+      "split": "train",
+      "style": "function",
+      "style_index": 1,
+      "text_id": "C23_Y20_Y_train_function_1",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "low_register_bass_support",
+      "id": "train_00_14",
+      "sentence": "Its low-register versions can reinforce bass parts, contributing pulse and harmonic foundation to a group's sound.",
+      "split": "train",
+      "style": "function",
+      "style_index": 2,
+      "text_id": "C23_Y20_Y_train_function_2",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "composing_and_sketching_progressions",
+      "id": "train_00_15",
+      "sentence": "Songwriters use it to sketch harmonic progressions and develop musical ideas before arranging a full composition.",
+      "split": "train",
+      "style": "function",
+      "style_index": 3,
+      "text_id": "C23_Y20_Y_train_function_3",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "sideways_string_bending_raises_pitch",
+      "id": "train_01_0",
+      "sentence": "Players can bend a sounding string sideways against a fret to raise its pitch and add expressive inflection.",
+      "split": "train",
+      "style": "action",
+      "style_index": 3,
+      "text_id": "C23_Y20_Y_train_action_3",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "nut_spaces_strings_at_neck_end",
+      "id": "eval_00_0",
+      "sentence": "A small nut near the neck’s upper end spaces the strings before they extend toward the tuning hardware.",
+      "split": "eval",
+      "style": "structure",
+      "style_index": 0,
+      "text_id": "C23_Y20_Y_eval_structure_0",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "nylon_and_metal_string_materials",
+      "id": "eval_00_1",
+      "sentence": "Classical models commonly use nylon strings, while many steel-string designs are fitted with metal strings.",
+      "split": "eval",
+      "style": "structure",
+      "style_index": 1,
+      "text_id": "C23_Y20_Y_eval_structure_1",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "capo_raises_open_string_pitches",
+      "id": "eval_00_2",
+      "sentence": "A movable capo clamps the strings against a fret, raising the pitches produced by the open strings.",
+      "split": "eval",
+      "style": "action",
+      "style_index": 0,
+      "text_id": "C23_Y20_Y_eval_action_0",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "slide_produces_gliding_pitches",
+      "id": "eval_00_3",
+      "sentence": "Moving a slide along a string lets a player glide between pitches rather than selecting only fixed fret positions.",
+      "split": "eval",
+      "style": "action",
+      "style_index": 1,
+      "text_id": "C23_Y20_Y_eval_action_1",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "flamenco_performance_context",
+      "id": "eval_00_4",
+      "sentence": "In flamenco performances, it may accompany singers and dancers alongside handclaps and rhythmic footwork.",
+      "split": "eval",
+      "style": "situation",
+      "style_index": 0,
+      "text_id": "C23_Y20_Y_eval_situation_0",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "chamber_concert_arrangements",
+      "id": "eval_00_5",
+      "sentence": "Chamber concerts sometimes feature it in arrangements alongside instruments from the string and wind families.",
+      "split": "eval",
+      "style": "situation",
+      "style_index": 1,
+      "text_id": "C23_Y20_Y_eval_situation_1",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "single_performer_combines_registers",
+      "id": "eval_00_6",
+      "sentence": "Its range allows a solo performer to combine bass notes, chords, and melody within one musical part.",
+      "split": "eval",
+      "style": "function",
+      "style_index": 0,
+      "text_id": "C23_Y20_Y_eval_function_0",
+      "unit_id": "C23_Y20_Y"
+    },
+    {
+      "concept": "guitar",
+      "fact_key": "pickup_enables_amplification_for_large_spaces",
+      "id": "eval_00_7",
+      "sentence": "A built-in pickup can send its sound to amplification equipment, making it audible in large performance spaces.",
+      "split": "eval",
+      "style": "function",
+      "style_index": 1,
+      "text_id": "C23_Y20_Y_eval_function_1",
+      "unit_id": "C23_Y20_Y"
+    }
+  ]
+}
