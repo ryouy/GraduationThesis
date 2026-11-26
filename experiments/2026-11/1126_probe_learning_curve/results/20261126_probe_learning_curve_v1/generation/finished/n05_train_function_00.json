@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "lock_case_access",
+      "sentence": "During lock servicing, a hand tool removes the small fasteners holding a lock case together so its mechanism can be inspected."
+    },
+    {
+      "fact_key": "curtain_rod_mounting",
+      "sentence": "To mount curtain rods, installers turn fasteners through brackets into wall anchors, securing supports above windows."
+    },
+    {
+      "fact_key": "boat_hatch_latches",
+      "sentence": "On a boat, crew members use a hand-operated implement to secure hatch latches with threaded fasteners."
+    },
+    {
+      "fact_key": "flat_pack_shelving",
+      "sentence": "Flat-pack shelving assembly often requires turning supplied fasteners through connector plates to join upright panels and shelves."
+    },
+    {
+      "fact_key": "exercise_equipment_service",
+      "sentence": "An exercise-equipment technician tightens the small fasteners that hold a console housing to its support arm."
+    },
+    {
+      "fact_key": "greenhouse_rack_assembly",
+      "sentence": "At a greenhouse, workers use a hand tool to fasten braces and panels when assembling metal growing racks."
+    },
+    {
+      "fact_key": "pool_ladder_fittings",
+      "sentence": "Pool maintenance crews may use one to secure ladder fittings after checking that their mounting hardware is sound."
+    },
+    {
+      "fact_key": "fishing_reel_repair",
+      "sentence": "A repair technician removes housing fasteners from a fishing reel to reach its internal gears for inspection."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"During lock servicing, a hand tool removes the small fasteners holding a lock case together so its mechanism can be inspected.\",\"fact_key\":\"lock_case_access\"},{\"sentence\":\"To mount curtain rods, installers turn fasteners through brackets into wall anchors, securing supports above windows.\",\"fact_key\":\"curtain_rod_mounting\"},{\"sentence\":\"On a boat, crew members use a hand-operated implement to secure hatch latches with threaded fasteners.\",\"fact_key\":\"boat_hatch_latches\"},{\"sentence\":\"Flat-pack shelving assembly often requires turning supplied fasteners through connector plates to join upright panels and shelves.\",\"fact_key\":\"flat_pack_shelving\"},{\"sentence\":\"An exercise-equipment technician tightens the small fasteners that hold a console housing to its support arm.\",\"fact_key\":\"exercise_equipment_service\"},{\"sentence\":\"At a greenhouse, workers use a hand tool to fasten braces and panels when assembling metal growing racks.\",\"fact_key\":\"greenhouse_rack_assembly\"},{\"sentence\":\"Pool maintenance crews may use one to secure ladder fittings after checking that their mounting hardware is sound.\",\"fact_key\":\"pool_ladder_fittings\"},{\"sentence\":\"A repair technician removes housing fasteners from a fishing reel to reach its internal gears for inspection.\",\"fact_key\":\"fishing_reel_repair\"}]}",
+  "rejected": [],
+  "request_hash": "f2564813350aeb7f3eb7b53a9c0242df21c064f08badedeeefbf1c09abfc0d40",
+  "usage": {
+    "completion_tokens": 2121,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1834,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1801,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1798,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3922
+  }
+}
