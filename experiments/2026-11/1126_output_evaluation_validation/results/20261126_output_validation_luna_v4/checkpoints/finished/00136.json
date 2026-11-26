@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "6506baeb25528b22a25ad3086295eae00c0fc4dca44bc4107df2e5f69dfe8a51",
+    "items": [
+      {
+        "id": "ca59e2f64d33fff10200",
+        "label": "0",
+        "reason": "Cheetahs are not commonly depicted as symbols of endurance and loyalty."
+      },
+      {
+        "id": "d8e8dd991f63a2a929e4",
+        "label": "0",
+        "reason": "A guitar does not fit the clue’s small jingling rhythm instrument; a tambourine would."
+      },
+      {
+        "id": "5dbd230fc1c1e6d9bfe4",
+        "label": "2",
+        "reason": "Cacti are succulents adapted to arid environments and conserve moisture."
+      },
+      {
+        "id": "b2165c2849b00e9c8bfe",
+        "label": "2",
+        "reason": "The answer describes raindrops, matching the condensed moisture that falls."
+      },
+      {
+        "id": "9084da5ac1ff5a003827",
+        "label": "2",
+        "reason": "The answer describes raindrops and their revitalizing effect, as in the clue."
+      },
+      {
+        "id": "b1b8caf4b6ac56cebaa8",
+        "label": "2",
+        "reason": "Cacti thrive in dry conditions, and many produce vibrant flowers."
+      },
+      {
+        "id": "e73bdd2e95230bd7e065",
+        "label": "2",
+        "reason": "Cacti have fleshy features that help them survive long periods without rain."
+      },
+      {
+        "id": "c1c8dc83f63651905040",
+        "label": "2",
+        "reason": "The answer identifies an animal and states that its habitat is affected by climate change and human activities."
+      },
+      {
+        "id": "74bbf4a7a3c2dcc7e6d8",
+        "label": "2",
+        "reason": "The answer identifies a bicycle, which can be adapted for touring, racing, and different terrain."
+      },
+      {
+        "id": "7e5c8a1c2963050e07f2",
+        "label": "2",
+        "reason": "Grapefruit is a juicy citrus fruit used in salads and desserts, with a refreshing flavor."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"ca59e2f64d33fff10200\",\"label\":\"0\",\"reason\":\"Cheetahs are not commonly depicted as symbols of endurance and loyalty.\"},{\"id\":\"d8e8dd991f63a2a929e4\",\"label\":\"0\",\"reason\":\"A guitar does not fit the clue’s small jingling rhythm instrument; a tambourine would.\"},{\"id\":\"5dbd230fc1c1e6d9bfe4\",\"label\":\"2\",\"reason\":\"Cacti are succulents adapted to arid environments and conserve moisture.\"},{\"id\":\"b2165c2849b00e9c8bfe\",\"label\":\"2\",\"reason\":\"The answer describes raindrops, matching the condensed moisture that falls.\"},{\"id\":\"9084da5ac1ff5a003827\",\"label\":\"2\",\"reason\":\"The answer describes raindrops and their revitalizing effect, as in the clue.\"},{\"id\":\"b1b8caf4b6ac56cebaa8\",\"label\":\"2\",\"reason\":\"Cacti thrive in dry conditions, and many produce vibrant flowers.\"},{\"id\":\"e73bdd2e95230bd7e065\",\"label\":\"2\",\"reason\":\"Cacti have fleshy features that help them survive long periods without rain.\"},{\"id\":\"c1c8dc83f63651905040\",\"label\":\"2\",\"reason\":\"The answer identifies an animal and states that its habitat is affected by climate change and human activities.\"},{\"id\":\"74bbf4a7a3c2dcc7e6d8\",\"label\":\"2\",\"reason\":\"The answer identifies a bicycle, which can be adapted for touring, racing, and different terrain.\"},{\"id\":\"7e5c8a1c2963050e07f2\",\"label\":\"2\",\"reason\":\"Grapefruit is a juicy citrus fruit used in salads and desserts, with a refreshing flavor.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 310,
+    "started": "2026-11-26T09:32:16.270659+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 661,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 248,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 706,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1367
+    }
+  }
+}
