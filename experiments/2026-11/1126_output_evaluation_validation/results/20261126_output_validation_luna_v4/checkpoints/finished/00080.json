@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "f397c7d2e658656d9096e62f381584260739eef16655695b6e51380414e11f44",
+    "items": [
+      {
+        "id": "2287d5f5a124e5edec07",
+        "label": "yes",
+        "reason": "“Cacti” is the plural form of cactus."
+      },
+      {
+        "id": "429a4d327125c06c96e0",
+        "label": "no",
+        "reason": "It refers to silence, not scissors."
+      },
+      {
+        "id": "9b3ee3bce62fbafa57cb",
+        "label": "no",
+        "reason": "Raindrops and wet earth do not identify snow."
+      },
+      {
+        "id": "a04c14adf636ebccd701",
+        "label": "no",
+        "reason": "It describes an insect broadly, not specifically a dragonfly."
+      },
+      {
+        "id": "dff2c7013864edd403a8",
+        "label": "no",
+        "reason": "A shelf for a personal collection is not specifically a bookshelf."
+      },
+      {
+        "id": "7cfe0fff56eb8fcb4217",
+        "label": "no",
+        "reason": "A Carnotaur is a dinosaur, not an elephant."
+      },
+      {
+        "id": "bfa498d149f12f821acb",
+        "label": "no",
+        "reason": "The answer identifies a banana, not a pineapple."
+      },
+      {
+        "id": "4768123a64de2d15ab82",
+        "label": "no",
+        "reason": "It mentions elephant conservation, not an elephant itself."
+      },
+      {
+        "id": "2d5c02b0020cd40ce56c",
+        "label": "yes",
+        "reason": "The answer directly names scissors."
+      },
+      {
+        "id": "eed38b81e3ff65a2686d",
+        "label": "no",
+        "reason": "A grapefruit is not a banana."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"2287d5f5a124e5edec07\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural form of cactus.\"},{\"id\":\"429a4d327125c06c96e0\",\"label\":\"no\",\"reason\":\"It refers to silence, not scissors.\"},{\"id\":\"9b3ee3bce62fbafa57cb\",\"label\":\"no\",\"reason\":\"Raindrops and wet earth do not identify snow.\"},{\"id\":\"a04c14adf636ebccd701\",\"label\":\"no\",\"reason\":\"It describes an insect broadly, not specifically a dragonfly.\"},{\"id\":\"dff2c7013864edd403a8\",\"label\":\"no\",\"reason\":\"A shelf for a personal collection is not specifically a bookshelf.\"},{\"id\":\"7cfe0fff56eb8fcb4217\",\"label\":\"no\",\"reason\":\"A Carnotaur is a dinosaur, not an elephant.\"},{\"id\":\"bfa498d149f12f821acb\",\"label\":\"no\",\"reason\":\"The answer identifies a banana, not a pineapple.\"},{\"id\":\"4768123a64de2d15ab82\",\"label\":\"no\",\"reason\":\"It mentions elephant conservation, not an elephant itself.\"},{\"id\":\"2d5c02b0020cd40ce56c\",\"label\":\"yes\",\"reason\":\"The answer directly names scissors.\"},{\"id\":\"eed38b81e3ff65a2686d\",\"label\":\"no\",\"reason\":\"A grapefruit is not a banana.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 790,
+    "started": "2026-11-26T08:28:08.063227+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 494,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 161,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 538,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1032
+    }
+  }
+}
