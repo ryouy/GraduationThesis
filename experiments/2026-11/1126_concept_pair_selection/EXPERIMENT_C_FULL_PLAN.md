@@ -1,5 +1,5 @@
 # 実験C — X/Y意味的距離とProbe識別性能（探索的）
-[Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/experiments/concept-pair-selection-v1/experiments/2026-11/1126_concept_pair_selection/experiment_C_distance_probe_full.ipynb)
+[Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_concept_pair_selection/experiment_C_distance_probe_full.ipynb)
 
 Bの固定75ペア＋旧Yアンカー5、B commit ada2278f06f89a9adc32c4efe2eab083935cfd68。v0.97 (8fc35efe88604f2b47577958b7feb58efde0ba94) の64学習/32探索評価、4タイプ均衡、全24層、最後の入力トークン、X正例、学習のみScaler fit、LR C=.1 liblinear、seed42、max_iter2000、評価ラベルのタイプ内均衡置換9999回片側plus-one。最終独立評価32文は本実験採択用の別工程。L24 p<=.05かつAUC>=.8探索通過、探索的BHは固定75 L24と固定75×23を別族、アンカーは補助。正式採択なし。
 

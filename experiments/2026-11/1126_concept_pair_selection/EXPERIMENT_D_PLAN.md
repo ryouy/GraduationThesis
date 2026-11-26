@@ -1,6 +1,6 @@
 # 実験D：概念ペア間距離とCue選定可能性（探索的、未実行）
 
-[Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/experiments/concept-pair-selection-v1/experiments/2026-11/1126_concept_pair_selection/experiment_D_cue_joint_selection.ipynb)
+[Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_concept_pair_selection/experiment_D_cue_joint_selection.ipynb)
 
 ## 固定入力
 - Bの75主分析ペア＋旧Yアンカー5（別集計）、既存700 Cue（旧品質通過622）、固定実測dX/dY・X/Y距離。B commit ada2278f06f89a9adc32c4efe2eab083935cfd68、C-small commit 6eb730f8dcaf48bfce9d98825b13e41d2a4dbd25。入力ハッシュを検証する。新規生成API・埋め込み推論・GPU不要。

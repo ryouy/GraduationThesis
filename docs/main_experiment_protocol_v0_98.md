@@ -122,7 +122,7 @@ OpenAI APIは学習・評価用の候補説明文、X/Yの候補、Cueの草案�
 
 既存50ペアでdXYとL24 AUCのPearson +0.447（A）。固定5 X・75ペアで距離とCue共変動のX内順位相関中央値−0.775（B）。新規Probe学習25ペアで距離とAUCの中央値+0.791（C）。DではdXY≥0.6で29/29が数値統制に成功。0.6は探索的優先値で、必須閾値でも一般的最適値でもない。定義依存・共有X/Cue・カテゴリーの影響、部分監査の限界を記録する。
 
-[ABCD統合報告書](https://github.com/ryouy/GraduationThesis/blob/experiments/concept-pair-selection-v1/experiments/2026-11/1126_concept_pair_selection/INTEGRATED_REPORT_ABCD.md) ｜ [採用根拠の詳細](main_experiment_protocol_v0_98_evidence.md)
+[ABCD統合報告書](https://github.com/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_concept_pair_selection/INTEGRATED_REPORT_ABCD.md) ｜ [採用根拠の詳細](main_experiment_protocol_v0_98_evidence.md)
 
 </details>
 
@@ -195,7 +195,7 @@ X/Y相対スコアの解釈のためdYも常に測定・保存し、刺激段階
 
 初期700文中622品質合格。v5追加320文中289品質合格だが、実測指定帯に適合したのは31文（9.7%）。距離を数値で直接指示しても実測値は保証されないため、多めの候補を生成して測定後に選ぶ。140文は実績のある初期値で最適数を証明したものではない。GPT-6 Lunaの他モデルに対する優位性も未検証。
 
-[v5追加生成結果](https://github.com/ryouy/GraduationThesis/blob/experiments/cue-selection-luna-v1/experiments/2026-11/1126_cue_selection_luna/results/20261126_cue_targeted_generation_v5/summary.csv) ｜ [採用根拠の詳細](main_experiment_protocol_v0_98_evidence.md)
+[v5追加生成結果](https://github.com/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_cue_selection_luna/results/20261126_cue_targeted_generation_v5/summary.csv) ｜ [採用根拠の詳細](main_experiment_protocol_v0_98_evidence.md)
 
 </details>
 
@@ -211,7 +211,7 @@ X/Y相対スコアの解釈のためdYも常に測定・保存し、刺激段階
 
 v6は1,020候補・18条件。各帯均等で±0.06/0.01と±0.08/0.01の両方が120/120を確保。±0.06/0.01の全体均等方式は平均Cramér's V=0.411（各帯均等0）で、距離と文章タイプの新たな偏りを生むため各帯均等を維持。Eでは同一700候補・75ペアで24文確保15→44、完全成功9→30。実測dX全体幅平均0.3368→0.3371、帯平均間の最小差平均0.0550→0.0511。空白は縮小するため連続距離主分析を維持する。
 
-[v6集計](https://github.com/ryouy/GraduationThesis/blob/experiments/cue-selection-luna-v1/experiments/2026-11/1126_cue_selection_luna/results/20261126_cue_constraint_comparison_v6/aggregate.csv) ｜ [統合E集計](https://github.com/ryouy/GraduationThesis/blob/experiments/concept-pair-selection-v1/experiments/2026-11/1126_concept_pair_selection/results/20261126_concept_pair_integrated_E_v1/aggregate.csv) ｜ [採用根拠の詳細](main_experiment_protocol_v0_98_evidence.md)
+[v6集計](https://github.com/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_cue_selection_luna/results/20261126_cue_constraint_comparison_v6/aggregate.csv) ｜ [統合E集計](https://github.com/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_concept_pair_selection/results/20261126_concept_pair_integrated_E_v1/aggregate.csv) ｜ [採用根拠の詳細](main_experiment_protocol_v0_98_evidence.md)
 
 </details>
 
@@ -228,7 +228,7 @@ v6は1,020候補・18条件。各帯均等で±0.06/0.01と±0.08/0.01の両方�
 
 v3でY距離の固定範囲を課すと設定Cの採択が110→93/120。v4 jointでは110を維持して平均絶対相関0.678→約0.459。Dは同一最大数で数値成功3→44/75。E改良条件では54/75、dXY≥0.6の29/29が数値成功。両距離統制指標を同時に用い、候補数を不必要に減らさない。
 
-[v4集計](https://github.com/ryouy/GraduationThesis/blob/experiments/cue-selection-luna-v1/experiments/2026-11/1126_cue_selection_luna/results/20261126_cue_y_optimization_v4/summary.csv) ｜ [ABCD報告](https://github.com/ryouy/GraduationThesis/blob/experiments/concept-pair-selection-v1/experiments/2026-11/1126_concept_pair_selection/INTEGRATED_REPORT_ABCD.md) ｜ [統合E](https://github.com/ryouy/GraduationThesis/blob/experiments/concept-pair-selection-v1/experiments/2026-11/1126_concept_pair_selection/results/20261126_concept_pair_integrated_E_v1/analysis_summary.md)
+[v4集計](https://github.com/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_cue_selection_luna/results/20261126_cue_y_optimization_v4/summary.csv) ｜ [ABCD報告](https://github.com/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_concept_pair_selection/INTEGRATED_REPORT_ABCD.md) ｜ [統合E](https://github.com/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_concept_pair_selection/results/20261126_concept_pair_integrated_E_v1/analysis_summary.md)
 
 </details>
 
@@ -431,9 +431,9 @@ Phase 1–2は候補変更に応じて必要な処理のみ反復し、Phase 2�
 | 資料 | 目的 |
 |---|---|
 | [旧v0.97](main_experiment_protocol_v0_97.md) | 11/25指導記録、Probe学習・評価の確定と旧設計の履歴 |
-| [概念ペアA〜D統合報告](https://github.com/ryouy/GraduationThesis/blob/experiments/concept-pair-selection-v1/experiments/2026-11/1126_concept_pair_selection/INTEGRATED_REPORT_ABCD.md) | dXYとProbe識別、Cue距離共変動、joint |
-| [Cue制約比較v6](https://github.com/ryouy/GraduationThesis/blob/experiments/cue-selection-luna-v1/experiments/2026-11/1126_cue_selection_luna/results/20261126_cue_constraint_comparison_v6/aggregate.csv) | 文章タイプ均衡・距離帯制約 |
-| [統合実験E](https://github.com/ryouy/GraduationThesis/blob/experiments/concept-pair-selection-v1/experiments/2026-11/1126_concept_pair_selection/results/20261126_concept_pair_integrated_E_v1/analysis_summary.md) | 同一75ペア・候補で旧新の距離帯を比較 |
+| [概念ペアA〜D統合報告](https://github.com/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_concept_pair_selection/INTEGRATED_REPORT_ABCD.md) | dXYとProbe識別、Cue距離共変動、joint |
+| [Cue制約比較v6](https://github.com/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_cue_selection_luna/results/20261126_cue_constraint_comparison_v6/aggregate.csv) | 文章タイプ均衡・距離帯制約 |
+| [統合実験E](https://github.com/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_concept_pair_selection/results/20261126_concept_pair_integrated_E_v1/analysis_summary.md) | 同一75ペア・候補で旧新の距離帯を比較 |
 | [4条件パイロット](../experiments/2026-11/1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/INTERPRETATION_20261113.md) | 測定・指示・出力の予備検証 |
 | [10概念Pre-main](../experiments/2026-11/1124_pre_main_experiment/README.md) | 実装リハーサル |
 | [出力評価メモ](output_evaluation_validation_memo_20261126.md) | 出力4指標・未確定事項 |

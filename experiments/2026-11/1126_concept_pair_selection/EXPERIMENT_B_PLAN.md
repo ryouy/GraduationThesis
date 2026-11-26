@@ -1,5 +1,5 @@
 # 実験B — X/Y間距離とCue距離の交絡（探索的・未実行）
-[Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/experiments/concept-pair-selection-v1/experiments/2026-11/1126_concept_pair_selection/experiment_B_y_distance_confound.ipynb)
+[Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_concept_pair_selection/experiment_B_y_distance_confound.ipynb)
 
 Aの完了commit 25856eaaf00c2aa10ea104093d5b47466674d3bb。Cue v1の固定commit c9f8d3d563f51d6bead9a3221dfa81554d23102d、700文、622旧品質通過、既存定義・埋め込みrevision・setting Cの境界を継承。既存結果を上書きしない。
 
