@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "textured rind",
+      "sentence": "Its thick rind is covered with tough, polygonal sections that create a rough, armor-like surface."
+    },
+    {
+      "fact_key": "leafy crown",
+      "sentence": "A compact crown of stiff, pointed leaves grows from the fruit’s upper end."
+    },
+    {
+      "fact_key": "flesh color and texture",
+      "sentence": "The edible flesh is usually golden yellow, juicy, and threaded with fine fibers."
+    },
+    {
+      "fact_key": "central core",
+      "sentence": "A firm, pale central core runs lengthwise through the softer flesh."
+    },
+    {
+      "fact_key": "fused fruitlets",
+      "sentence": "The fruit develops from many small flowers whose individual fruitlets fuse into one structure."
+    },
+    {
+      "fact_key": "rind eyes",
+      "sentence": "Small depressions called eyes mark the rind, often forming diagonal rows around the fruit."
+    },
+    {
+      "fact_key": "protein-digesting enzymes",
+      "sentence": "Its tissues contain bromelain, a group of enzymes that can break down proteins."
+    },
+    {
+      "fact_key": "sugars and acids",
+      "sentence": "The juicy flesh combines natural sugars with organic acids, giving it both sweetness and tartness."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Its thick rind is covered with tough, polygonal sections that create a rough, armor-like surface.\",\"fact_key\":\"textured rind\"},{\"sentence\":\"A compact crown of stiff, pointed leaves grows from the fruit’s upper end.\",\"fact_key\":\"leafy crown\"},{\"sentence\":\"The edible flesh is usually golden yellow, juicy, and threaded with fine fibers.\",\"fact_key\":\"flesh color and texture\"},{\"sentence\":\"A firm, pale central core runs lengthwise through the softer flesh.\",\"fact_key\":\"central core\"},{\"sentence\":\"The fruit develops from many small flowers whose individual fruitlets fuse into one structure.\",\"fact_key\":\"fused fruitlets\"},{\"sentence\":\"Small depressions called eyes mark the rind, often forming diagonal rows around the fruit.\",\"fact_key\":\"rind eyes\"},{\"sentence\":\"Its tissues contain bromelain, a group of enzymes that can break down proteins.\",\"fact_key\":\"protein-digesting enzymes\"},{\"sentence\":\"The juicy flesh combines natural sugars with organic acids, giving it both sweetness and tartness.\",\"fact_key\":\"sugars and acids\"}]}",
+  "rejected": [],
+  "request_hash": "c1bdbaec4753307fb2e9c266cf730f0dfe1c052ff34170bd22cf2f81fae5aa7a",
+  "usage": {
+    "completion_tokens": 480,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 251,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 204,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 684
+  }
+}
