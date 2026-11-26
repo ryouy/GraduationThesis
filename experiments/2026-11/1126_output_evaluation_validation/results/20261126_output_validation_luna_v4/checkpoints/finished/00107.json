@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "3a99f0c0a1b959304cbfbc8c8b48d074b2f5bf7621f4e43f59f987c7e88ee057",
+    "items": [
+      {
+        "id": "af832441e88dc9ac309b",
+        "label": "2",
+        "reason": "Bookshelves commonly have multiple sections for displaying items and organizing a space."
+      },
+      {
+        "id": "08af2704236490335eae",
+        "label": "1",
+        "reason": "“Mighty Mound” suggests a nest or mound, but does not clearly identify the colony-forming creature described."
+      },
+      {
+        "id": "e4e4f736fb8b7519391e",
+        "label": "2",
+        "reason": "A mountain bike can be adapted for different terrain and riding purposes."
+      },
+      {
+        "id": "404e764cdd449666b743",
+        "label": "2",
+        "reason": "Ant colonies are known for coordinated building and foraging, and ants have tough exoskeletons."
+      },
+      {
+        "id": "b228b3c29cbc873e031e",
+        "label": "1",
+        "reason": "Cacti retain water, but a rosette of fleshy leaves is more characteristic of many succulents than cacti generally."
+      },
+      {
+        "id": "2b804a75057006504103",
+        "label": "2",
+        "reason": "Elephants are known for strong family bonds and protective behavior."
+      },
+      {
+        "id": "779ca8fbe00e7b86a345",
+        "label": "2",
+        "reason": "Scissors have two blades that pass each other to make cuts."
+      },
+      {
+        "id": "5f7991c9c185deec1a62",
+        "label": "2",
+        "reason": "Mountain rainstorms are a weather pattern that can affect local ecosystems."
+      },
+      {
+        "id": "598c3c33dd0c8606c911",
+        "label": "2",
+        "reason": "Jellyfish propel themselves through rhythmic pulsations of their bells."
+      },
+      {
+        "id": "20e2a921510c1d75fa7d",
+        "label": "0",
+        "reason": "Ginger squash is not a typical soft, ready-to-eat fruit snack, so it does not fit the clue's key details."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"af832441e88dc9ac309b\",\"label\":\"2\",\"reason\":\"Bookshelves commonly have multiple sections for displaying items and organizing a space.\"},{\"id\":\"08af2704236490335eae\",\"label\":\"1\",\"reason\":\"“Mighty Mound” suggests a nest or mound, but does not clearly identify the colony-forming creature described.\"},{\"id\":\"e4e4f736fb8b7519391e\",\"label\":\"2\",\"reason\":\"A mountain bike can be adapted for different terrain and riding purposes.\"},{\"id\":\"404e764cdd449666b743\",\"label\":\"2\",\"reason\":\"Ant colonies are known for coordinated building and foraging, and ants have tough exoskeletons.\"},{\"id\":\"b228b3c29cbc873e031e\",\"label\":\"1\",\"reason\":\"Cacti retain water, but a rosette of fleshy leaves is more characteristic of many succulents than cacti generally.\"},{\"id\":\"2b804a75057006504103\",\"label\":\"2\",\"reason\":\"Elephants are known for strong family bonds and protective behavior.\"},{\"id\":\"779ca8fbe00e7b86a345\",\"label\":\"2\",\"reason\":\"Scissors have two blades that pass each other to make cuts.\"},{\"id\":\"5f7991c9c185deec1a62\",\"label\":\"2\",\"reason\":\"Mountain rainstorms are a weather pattern that can affect local ecosystems.\"},{\"id\":\"598c3c33dd0c8606c911\",\"label\":\"2\",\"reason\":\"Jellyfish propel themselves through rhythmic pulsations of their bells.\"},{\"id\":\"20e2a921510c1d75fa7d\",\"label\":\"0\",\"reason\":\"Ginger squash is not a typical soft, ready-to-eat fruit snack, so it does not fit the clue's key details.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 60,
+    "started": "2026-11-26T08:35:13.035023+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 840,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 437,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 677,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1517
+    }
+  }
+}
