@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C27_4_action_0_4",
+        "naturalness": 5,
+        "reason": "A natural snack-and-cereal scenario; soft fruit pieces fit banana particularly well, though other fruit could work.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C27_4_action_0_5",
+        "naturalness": 5,
+        "reason": "A plausible smoothie-making action; either banana or pineapple can be blended with coconut milk.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C27_4_action_0_6",
+        "naturalness": 4,
+        "reason": "Plausible grocery and fruit-salad activity, but the unspecified fruit does little to distinguish either target.",
+        "style": "pass",
+        "x_related": 1,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C27_4_action_0_7",
+        "naturalness": 4,
+        "reason": "Baking sliced fruit beneath pastry is plausible; pineapple is a reasonable filling, though the cue remains generic.",
+        "style": "pass",
+        "x_related": 1,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C27_0_function_0_0",
+        "naturalness": 5,
+        "reason": "The curved fruit with a fitted peel that travels without a container is distinctly banana-like and describes a practical function.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C27_0_function_0_1",
+        "naturalness": 5,
+        "reason": "Mashing soft fruit into quick-bread batter for moisture and sweetness is a familiar use of banana.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C27_0_function_0_2",
+        "naturalness": 4,
+        "reason": "Banana is notably associated with potassium, although the electrolyte-replenishment benefit is modest and not unique to it.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C27_0_function_0_3",
+        "naturalness": 5,
+        "reason": "Mashed ripe banana can replace eggs in some baking recipes and contribute binding, moisture, and sweetness.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C27_0_function_0_4",
+        "naturalness": 4,
+        "reason": "A peel darkening as the fruit ripens is strongly characteristic of banana; the ripeness description is broadly plausible.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C27_0_function_0_5",
+        "naturalness": 5,
+        "reason": "Thin, sweet fruit slices are a plausible cereal topping and are especially associated with banana.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1195,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 512,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 649,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1844
+  }
+}
