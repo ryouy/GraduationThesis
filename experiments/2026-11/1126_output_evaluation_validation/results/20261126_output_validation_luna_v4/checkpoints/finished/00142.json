@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "b8153dfcc021d516927779aa90743291c8d16ccc743329b98b1bd18e23845c99",
+    "items": [
+      {
+        "id": "8b51384db90b1ac0728c",
+        "label": "2",
+        "reason": "Grapefruit is a nutritious fruit that can be enjoyed as a refreshing snack in hot climates."
+      },
+      {
+        "id": "6aec62d657aa4238440d",
+        "label": "1",
+        "reason": "Scissors are useful for crafting, but they cut materials rather than gently gripping and manipulating them."
+      },
+      {
+        "id": "b6fd3725b2f022e623fe",
+        "label": "2",
+        "reason": "The answer identifies rain, which forms when moisture condenses and falls, refreshing the landscape."
+      },
+      {
+        "id": "926c28ad0f6e25b392d5",
+        "label": "2",
+        "reason": "Jellyfish drift with currents and have a distinctive, visually striking form."
+      },
+      {
+        "id": "1e24060eeb24d1b9d31f",
+        "label": "2",
+        "reason": "Cacti have fleshy, water-storing structures and thrive in sunny, dry conditions."
+      },
+      {
+        "id": "f38fe9d13bd9ba08f2e2",
+        "label": "2",
+        "reason": "A circular drum is a percussion instrument suited to lively musical gatherings."
+      },
+      {
+        "id": "760c8fb67a7f1a51d1bb",
+        "label": "2",
+        "reason": "Cacti have thick, fleshy forms adapted to intense sun and scarce water."
+      },
+      {
+        "id": "e575b37899817c9b0ff0",
+        "label": "2",
+        "reason": "The answer describes rain nourishing plants and soil, as in the clue."
+      },
+      {
+        "id": "88d23c17a5b56ed2c831",
+        "label": "2",
+        "reason": "Cacti are adapted to retain moisture and endure long periods without rainfall."
+      },
+      {
+        "id": "da2e7d8190090eb4e537",
+        "label": "2",
+        "reason": "Lemons are brightly colored fruits commonly sliced for refreshing salads."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"8b51384db90b1ac0728c\",\"label\":\"2\",\"reason\":\"Grapefruit is a nutritious fruit that can be enjoyed as a refreshing snack in hot climates.\"},{\"id\":\"6aec62d657aa4238440d\",\"label\":\"1\",\"reason\":\"Scissors are useful for crafting, but they cut materials rather than gently gripping and manipulating them.\"},{\"id\":\"b6fd3725b2f022e623fe\",\"label\":\"2\",\"reason\":\"The answer identifies rain, which forms when moisture condenses and falls, refreshing the landscape.\"},{\"id\":\"926c28ad0f6e25b392d5\",\"label\":\"2\",\"reason\":\"Jellyfish drift with currents and have a distinctive, visually striking form.\"},{\"id\":\"1e24060eeb24d1b9d31f\",\"label\":\"2\",\"reason\":\"Cacti have fleshy, water-storing structures and thrive in sunny, dry conditions.\"},{\"id\":\"f38fe9d13bd9ba08f2e2\",\"label\":\"2\",\"reason\":\"A circular drum is a percussion instrument suited to lively musical gatherings.\"},{\"id\":\"760c8fb67a7f1a51d1bb\",\"label\":\"2\",\"reason\":\"Cacti have thick, fleshy forms adapted to intense sun and scarce water.\"},{\"id\":\"e575b37899817c9b0ff0\",\"label\":\"2\",\"reason\":\"The answer describes rain nourishing plants and soil, as in the clue.\"},{\"id\":\"88d23c17a5b56ed2c831\",\"label\":\"2\",\"reason\":\"Cacti are adapted to retain moisture and endure long periods without rainfall.\"},{\"id\":\"da2e7d8190090eb4e537\",\"label\":\"2\",\"reason\":\"Lemons are brightly colored fruits commonly sliced for refreshing salads.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 370,
+    "started": "2026-11-26T09:33:20.115542+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 570,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 169,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 712,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1282
+    }
+  }
+}
