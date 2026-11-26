@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "courthouse_legal_volumes",
+      "sentence": "In a courthouse records room, a tiered fixture keeps bound statute volumes close to clerks handling daily legal research."
+    },
+    {
+      "fact_key": "hospital_family_resources",
+      "sentence": "A tiered fixture in a hospital family lounge keeps health pamphlets and caregiver guides together for visitors during long waits."
+    },
+    {
+      "fact_key": "language_learning_readers",
+      "sentence": "At a language institute, graded readers arranged by proficiency help learners choose material suited to their current reading level."
+    },
+    {
+      "fact_key": "ferry_travel_information",
+      "sentence": "On a passenger ferry, a compact tiered fixture keeps route maps and safety leaflets available in a shared cabin."
+    },
+    {
+      "fact_key": "community_seed_exchange",
+      "sentence": "At a community seed exchange, a tiered fixture displays labeled seed packets so gardeners can compare varieties before taking them home."
+    },
+    {
+      "fact_key": "chapel_hymnal_access",
+      "sentence": "In a chapel vestibule, hymnals can be kept near the entrance for worshippers to collect before services."
+    },
+    {
+      "fact_key": "planetarium_learning_materials",
+      "sentence": "A tiered fixture in a planetarium education room keeps astronomy guides and star charts handy for visiting school groups."
+    },
+    {
+      "fact_key": "shelter_shared_reading",
+      "sentence": "In a disaster-relief shelter, donated children's stories can be placed in a common area for families sharing temporary accommodation."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In a courthouse records room, a tiered fixture keeps bound statute volumes close to clerks handling daily legal research.\",\"fact_key\":\"courthouse_legal_volumes\"},{\"sentence\":\"A tiered fixture in a hospital family lounge keeps health pamphlets and caregiver guides together for visitors during long waits.\",\"fact_key\":\"hospital_family_resources\"},{\"sentence\":\"At a language institute, graded readers arranged by proficiency help learners choose material suited to their current reading level.\",\"fact_key\":\"language_learning_readers\"},{\"sentence\":\"On a passenger ferry, a compact tiered fixture keeps route maps and safety leaflets available in a shared cabin.\",\"fact_key\":\"ferry_travel_information\"},{\"sentence\":\"At a community seed exchange, a tiered fixture displays labeled seed packets so gardeners can compare varieties before taking them home.\",\"fact_key\":\"community_seed_exchange\"},{\"sentence\":\"In a chapel vestibule, hymnals can be kept near the entrance for worshippers to collect before services.\",\"fact_key\":\"chapel_hymnal_access\"},{\"sentence\":\"A tiered fixture in a planetarium education room keeps astronomy guides and star charts handy for visiting school groups.\",\"fact_key\":\"planetarium_learning_materials\"},{\"sentence\":\"In a disaster-relief shelter, donated children's stories can be placed in a common area for families sharing temporary accommodation.\",\"fact_key\":\"shelter_shared_reading\"}]}",
+  "rejected": [],
+  "request_hash": "12a809094d0b41df5c3594dbdc7745fef7ed96bad90476151b481a9db58a5b4f",
+  "usage": {
+    "completion_tokens": 1117,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 827,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 3010,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 3007,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4127
+  }
+}
