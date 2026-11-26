@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "covert fleet observation",
+      "sentence": "In naval reconnaissance, quiet underwater craft can observe opposing fleets while remaining difficult to detect from the surface."
+    },
+    {
+      "fact_key": "blockade supply runs",
+      "sentence": "During blockades, some military underwater vessels have carried essential supplies into ports that surface ships could not safely reach."
+    },
+    {
+      "fact_key": "deep-current measurement",
+      "sentence": "Research crews use these craft to deploy instruments that record deep-ocean currents where surface-based measurements provide little detail."
+    },
+    {
+      "fact_key": "pipeline inspection",
+      "sentence": "Specialized vessels inspect submerged pipelines for damage, helping operators locate leaks before they disrupt offshore production."
+    },
+    {
+      "fact_key": "maritime approach warning",
+      "sentence": "Naval planners may use underwater patrols to monitor maritime approaches and provide warning of approaching hostile forces."
+    },
+    {
+      "fact_key": "seafloor sensor deployment",
+      "sentence": "Crews can place scientific sensors on the seafloor, returning later to retrieve records of earthquakes or other activity."
+    },
+    {
+      "fact_key": "deep-habitat observation",
+      "sentence": "Underwater craft give researchers access to deep habitats, where direct observation can reveal how organisms respond to extreme pressure."
+    },
+    {
+      "fact_key": "evasion training",
+      "sentence": "In military exercises, crews practice evading detection, helping evaluate tactics for surviving in waters monitored by opposing forces."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In naval reconnaissance, quiet underwater craft can observe opposing fleets while remaining difficult to detect from the surface.\",\"fact_key\":\"covert fleet observation\"},{\"sentence\":\"During blockades, some military underwater vessels have carried essential supplies into ports that surface ships could not safely reach.\",\"fact_key\":\"blockade supply runs\"},{\"sentence\":\"Research crews use these craft to deploy instruments that record deep-ocean currents where surface-based measurements provide little detail.\",\"fact_key\":\"deep-current measurement\"},{\"sentence\":\"Specialized vessels inspect submerged pipelines for damage, helping operators locate leaks before they disrupt offshore production.\",\"fact_key\":\"pipeline inspection\"},{\"sentence\":\"Naval planners may use underwater patrols to monitor maritime approaches and provide warning of approaching hostile forces.\",\"fact_key\":\"maritime approach warning\"},{\"sentence\":\"Crews can place scientific sensors on the seafloor, returning later to retrieve records of earthquakes or other activity.\",\"fact_key\":\"seafloor sensor deployment\"},{\"sentence\":\"Underwater craft give researchers access to deep habitats, where direct observation can reveal how organisms respond to extreme pressure.\",\"fact_key\":\"deep-habitat observation\"},{\"sentence\":\"In military exercises, crews practice evading detection, helping evaluate tactics for surviving in waters monitored by opposing forces.\",\"fact_key\":\"evasion training\"}]}",
+  "rejected": [],
+  "request_hash": "3e20bdcaaa8b2eddba12a392461a7948f127f6df58bc91bf0b804f7d58e93515",
+  "usage": {
+    "completion_tokens": 777,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 512,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2111,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2108,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2888
+  }
+}
