@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "808d40192ff9ff202d0dca1d00bca8a132c0210f15c2b43a31f831b7a0c0907f",
+    "items": [
+      {
+        "id": "8564573ff08ca0bbb3f4",
+        "label": "no",
+        "reason": "Cacti are a different type of plant, not aloe."
+      },
+      {
+        "id": "1639a985cd86bb9e66bf",
+        "label": "no",
+        "reason": "A jellyfish is a different marine animal, not an octopus."
+      },
+      {
+        "id": "fde8bb17a6aba45a6e62",
+        "label": "no",
+        "reason": "A dance is an activity, not a drum."
+      },
+      {
+        "id": "e772d3198c6304a82c2f",
+        "label": "no",
+        "reason": "A crate is not a bicycle."
+      },
+      {
+        "id": "ae7185fdd9d442fa955f",
+        "label": "yes",
+        "reason": "A garden ant is a subtype of ant."
+      },
+      {
+        "id": "5f380d0aa42cd94ecfec",
+        "label": "no",
+        "reason": "Cacti are a different type of plant, not aloe."
+      },
+      {
+        "id": "eeea53404fcf8f8a65e0",
+        "label": "no",
+        "reason": "A gazelle is a different animal, not an ant."
+      },
+      {
+        "id": "a37f18b8bc5a2f1e50a1",
+        "label": "no",
+        "reason": "A grapefruit is a different fruit, not a banana."
+      },
+      {
+        "id": "13807c67984cd489d2af",
+        "label": "no",
+        "reason": "Coral reefs are a habitat, not an octopus."
+      },
+      {
+        "id": "0954cd358a7ee1ca776d",
+        "label": "no",
+        "reason": "This is a broad description of an animal and does not specifically identify a lion."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"8564573ff08ca0bbb3f4\",\"label\":\"no\",\"reason\":\"Cacti are a different type of plant, not aloe.\"},{\"id\":\"1639a985cd86bb9e66bf\",\"label\":\"no\",\"reason\":\"A jellyfish is a different marine animal, not an octopus.\"},{\"id\":\"fde8bb17a6aba45a6e62\",\"label\":\"no\",\"reason\":\"A dance is an activity, not a drum.\"},{\"id\":\"e772d3198c6304a82c2f\",\"label\":\"no\",\"reason\":\"A crate is not a bicycle.\"},{\"id\":\"ae7185fdd9d442fa955f\",\"label\":\"yes\",\"reason\":\"A garden ant is a subtype of ant.\"},{\"id\":\"5f380d0aa42cd94ecfec\",\"label\":\"no\",\"reason\":\"Cacti are a different type of plant, not aloe.\"},{\"id\":\"eeea53404fcf8f8a65e0\",\"label\":\"no\",\"reason\":\"A gazelle is a different animal, not an ant.\"},{\"id\":\"a37f18b8bc5a2f1e50a1\",\"label\":\"no\",\"reason\":\"A grapefruit is a different fruit, not a banana.\"},{\"id\":\"13807c67984cd489d2af\",\"label\":\"no\",\"reason\":\"Coral reefs are a habitat, not an octopus.\"},{\"id\":\"0954cd358a7ee1ca776d\",\"label\":\"no\",\"reason\":\"This is a broad description of an animal and does not specifically identify a lion.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 110,
+    "started": "2026-11-26T08:17:45.708618+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 442,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 91,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 512,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 954
+    }
+  }
+}
