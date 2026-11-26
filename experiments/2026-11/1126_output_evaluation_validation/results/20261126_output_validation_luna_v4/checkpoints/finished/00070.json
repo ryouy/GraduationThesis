@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "99faf299d46ce1b526bb2b8576e34cacd4c41223e4c70324a9327f60e9fe8d54",
+    "items": [
+      {
+        "id": "4137f55b757951644363",
+        "label": "yes",
+        "reason": "The answer directly names a drum."
+      },
+      {
+        "id": "10d112224ad284c6e134",
+        "label": "no",
+        "reason": "An underwater vehicle is not a bicycle."
+      },
+      {
+        "id": "9b8593d441ef2561fc6c",
+        "label": "no",
+        "reason": "A tiger is a different animal from an elephant."
+      },
+      {
+        "id": "d748a099cd3f44af6754",
+        "label": "no",
+        "reason": "A bookshelf is related storage furniture, but not specifically a cabinet."
+      },
+      {
+        "id": "9581f43f46b2739200ac",
+        "label": "no",
+        "reason": "“Organizer” is a broad category and does not identify a cabinet."
+      },
+      {
+        "id": "2b9e49bb3c3435b830c3",
+        "label": "no",
+        "reason": "A bookcase is related storage furniture, but not specifically a cabinet."
+      },
+      {
+        "id": "aa3bf84c1b804dbc6174",
+        "label": "no",
+        "reason": "A safety helmet is not a submarine."
+      },
+      {
+        "id": "813c5b4f39c433ff0329",
+        "label": "no",
+        "reason": "Circus dance is an activity, not a drum."
+      },
+      {
+        "id": "722b93f3b1028dde1d3b",
+        "label": "no",
+        "reason": "The answer describes drumming as an activity, not a drum itself."
+      },
+      {
+        "id": "7076db36506ba1b429d8",
+        "label": "no",
+        "reason": "Scissors are a different tool from pliers."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"4137f55b757951644363\",\"label\":\"yes\",\"reason\":\"The answer directly names a drum.\"},{\"id\":\"10d112224ad284c6e134\",\"label\":\"no\",\"reason\":\"An underwater vehicle is not a bicycle.\"},{\"id\":\"9b8593d441ef2561fc6c\",\"label\":\"no\",\"reason\":\"A tiger is a different animal from an elephant.\"},{\"id\":\"d748a099cd3f44af6754\",\"label\":\"no\",\"reason\":\"A bookshelf is related storage furniture, but not specifically a cabinet.\"},{\"id\":\"9581f43f46b2739200ac\",\"label\":\"no\",\"reason\":\"“Organizer” is a broad category and does not identify a cabinet.\"},{\"id\":\"2b9e49bb3c3435b830c3\",\"label\":\"no\",\"reason\":\"A bookcase is related storage furniture, but not specifically a cabinet.\"},{\"id\":\"aa3bf84c1b804dbc6174\",\"label\":\"no\",\"reason\":\"A safety helmet is not a submarine.\"},{\"id\":\"813c5b4f39c433ff0329\",\"label\":\"no\",\"reason\":\"Circus dance is an activity, not a drum.\"},{\"id\":\"722b93f3b1028dde1d3b\",\"label\":\"no\",\"reason\":\"The answer describes drumming as an activity, not a drum itself.\"},{\"id\":\"7076db36506ba1b429d8\",\"label\":\"no\",\"reason\":\"Scissors are a different tool from pliers.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 690,
+    "started": "2026-11-26T08:26:40.291469+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 477,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 137,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 527,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1004
+    }
+  }
+}
