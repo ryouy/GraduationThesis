@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "bedside_reading",
+      "sentence": "In a bedroom, a compact unit beside the bed keeps nighttime reading within reach without occupying the main walking path."
+    },
+    {
+      "fact_key": "attic_roof_storage",
+      "sentence": "Under a pitched attic roof, a low unit can store reference volumes where full-height furniture would not fit."
+    },
+    {
+      "fact_key": "kitchen_recipe_storage",
+      "sentence": "In a kitchen, a unit placed away from the sink keeps recipe collections accessible while reducing exposure to splashes."
+    },
+    {
+      "fact_key": "meeting_room_documents",
+      "sentence": "During meetings, binders on a nearby unit let participants retrieve policy documents without leaving the room."
+    },
+    {
+      "fact_key": "senior_center_access",
+      "sentence": "In a senior center, lower compartments can make large-print titles accessible to seated visitors."
+    },
+    {
+      "fact_key": "camper_van_storage",
+      "sentence": "In a camper van, a securely fixed unit keeps travel guides and manuals organized as the vehicle moves."
+    },
+    {
+      "fact_key": "museum_workroom_materials",
+      "sentence": "At a museum workroom, a unit can hold exhibition catalogs and handling guides near the preparation tables."
+    },
+    {
+      "fact_key": "hotel_guest_guides",
+      "sentence": "In a hotel lounge, a low unit can hold local guides for guests to browse while waiting."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In a bedroom, a compact unit beside the bed keeps nighttime reading within reach without occupying the main walking path.\",\"fact_key\":\"bedside_reading\"},{\"sentence\":\"Under a pitched attic roof, a low unit can store reference volumes where full-height furniture would not fit.\",\"fact_key\":\"attic_roof_storage\"},{\"sentence\":\"In a kitchen, a unit placed away from the sink keeps recipe collections accessible while reducing exposure to splashes.\",\"fact_key\":\"kitchen_recipe_storage\"},{\"sentence\":\"During meetings, binders on a nearby unit let participants retrieve policy documents without leaving the room.\",\"fact_key\":\"meeting_room_documents\"},{\"sentence\":\"In a senior center, lower compartments can make large-print titles accessible to seated visitors.\",\"fact_key\":\"senior_center_access\"},{\"sentence\":\"In a camper van, a securely fixed unit keeps travel guides and manuals organized as the vehicle moves.\",\"fact_key\":\"camper_van_storage\"},{\"sentence\":\"At a museum workroom, a unit can hold exhibition catalogs and handling guides near the preparation tables.\",\"fact_key\":\"museum_workroom_materials\"},{\"sentence\":\"In a hotel lounge, a low unit can hold local guides for guests to browse while waiting.\",\"fact_key\":\"hotel_guest_guides\"}]}",
+  "rejected": [],
+  "request_hash": "5d5af4860338cbdf9377b6e15372a043ccb9167096305b523714735c4fb86e36",
+  "usage": {
+    "completion_tokens": 998,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 733,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1596,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1593,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2594
+  }
+}
