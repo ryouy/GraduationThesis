@@ -14,3 +14,8 @@ Dは既存v4 jointのsetting C（±.04、空白.03）を継承候補とする。
 - [実験B Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/experiments/concept-pair-selection-v1/experiments/2026-11/1126_concept_pair_selection/experiment_B_y_distance_confound.ipynb)
 - [実験Bの設計・実行手順](EXPERIMENT_B_PLAN.md)
 - [実験Aの結果](results/20261126_concept_pair_distance_A_v1/analysis_summary.md)
+
+## 実験C — 実装済み・未実行
+- [実験C Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/experiments/concept-pair-selection-v1/experiments/2026-11/1126_concept_pair_selection/experiment_C_distance_probe.ipynb)
+- [実験C仕様](EXPERIMENT_C_PLAN.md)
+- [実験B結果](results/20261126_concept_pair_distance_B_v1/analysis_summary.md)
