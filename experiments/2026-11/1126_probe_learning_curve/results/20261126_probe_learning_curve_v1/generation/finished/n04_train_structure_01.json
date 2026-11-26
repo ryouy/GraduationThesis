@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "overall shape",
+      "sentence": "The fruit’s outline is generally cylindrical or oval, often narrowing slightly toward the end opposite its leafy top."
+    },
+    {
+      "fact_key": "rind color variation",
+      "sentence": "The rind may remain green or develop yellow-orange patches as the fruit matures, depending on variety and growing conditions."
+    },
+    {
+      "fact_key": "high moisture content",
+      "sentence": "Fresh flesh has a high water content, which contributes to its notably juicy consistency when cut."
+    },
+    {
+      "fact_key": "nutrient composition",
+      "sentence": "Edible portions provide vitamin C and manganese, while containing little fat and a modest amount of dietary fiber."
+    },
+    {
+      "fact_key": "stem attachment",
+      "sentence": "A short, stout stem connects the fruit to the plant, with a cut stalk often visible at its base."
+    },
+    {
+      "fact_key": "leaf arrangement",
+      "sentence": "Long, sword-shaped leaves grow in a dense basal rosette around the plant’s central stem."
+    },
+    {
+      "fact_key": "fruit position on plant",
+      "sentence": "Each plant typically produces a single large fruit at a time, elevated above its low-growing leaf rosette."
+    },
+    {
+      "fact_key": "size variation",
+      "sentence": "Fruit dimensions vary among cultivated types, with some forms much smaller and lighter than commercial market specimens."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"The fruit’s outline is generally cylindrical or oval, often narrowing slightly toward the end opposite its leafy top.\",\"fact_key\":\"overall shape\"},{\"sentence\":\"The rind may remain green or develop yellow-orange patches as the fruit matures, depending on variety and growing conditions.\",\"fact_key\":\"rind color variation\"},{\"sentence\":\"Fresh flesh has a high water content, which contributes to its notably juicy consistency when cut.\",\"fact_key\":\"high moisture content\"},{\"sentence\":\"Edible portions provide vitamin C and manganese, while containing little fat and a modest amount of dietary fiber.\",\"fact_key\":\"nutrient composition\"},{\"sentence\":\"A short, stout stem connects the fruit to the plant, with a cut stalk often visible at its base.\",\"fact_key\":\"stem attachment\"},{\"sentence\":\"Long, sword-shaped leaves grow in a dense basal rosette around the plant’s central stem.\",\"fact_key\":\"leaf arrangement\"},{\"sentence\":\"Each plant typically produces a single large fruit at a time, elevated above its low-growing leaf rosette.\",\"fact_key\":\"fruit position on plant\"},{\"sentence\":\"Fruit dimensions vary among cultivated types, with some forms much smaller and lighter than commercial market specimens.\",\"fact_key\":\"size variation\"}]}",
+  "rejected": [],
+  "request_hash": "f356f8bd1055ee8aed65d5894478a0856cacc86bae6a6c4af1b688304e2cc697",
+  "usage": {
+    "completion_tokens": 1323,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1059,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 447,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1770
+  }
+}
