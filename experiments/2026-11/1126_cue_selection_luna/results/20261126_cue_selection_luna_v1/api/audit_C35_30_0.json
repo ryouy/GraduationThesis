@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C35_structure_unrelated_0_0",
+        "naturalness": 5,
+        "reason": "Clear, plausible description of honeycomb structure; it does not point to either furniture item.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C35_structure_unrelated_0_1",
+        "naturalness": 5,
+        "reason": "Natural structural description with a plausible account of snowflake symmetry; unrelated to either item.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C35_structure_unrelated_0_2",
+        "naturalness": 5,
+        "reason": "A plausible description of shell growth in the requested structural style; unrelated to either item.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C35_structure_unrelated_0_3",
+        "naturalness": 5,
+        "reason": "Natural and factually plausible description of tendon structure; unrelated to either item.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C35_structure_unrelated_0_4",
+        "naturalness": 5,
+        "reason": "Plausible account of lava-tube formation in the structural style; unrelated to either item.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C35_action_very_near_0_0",
+        "naturalness": 5,
+        "reason": "A natural book-arranging action that strongly suggests shelving for browsing, though no furniture is named; enclosed storage is only a weak possibility.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C35_action_very_near_0_1",
+        "naturalness": 5,
+        "reason": "Returning volumes to rows and straightening them strongly evokes an open book-storage surface; a cabinet is only a weak alternative.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C35_action_very_near_0_2",
+        "naturalness": 5,
+        "reason": "Arranging books by weight on a lower level directly evokes shelves; a cabinet could store books but is not suggested specifically.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C35_action_very_near_0_3",
+        "naturalness": 5,
+        "reason": "Scanning titles and pulling out a volume while keeping neighboring books in line strongly suggests books on shelves; enclosed storage is weakly possible.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C35_action_very_near_0_4",
+        "naturalness": 5,
+        "reason": "Removing books and wrapping a sturdy frame suggests a book-holding piece of furniture, without specifying its form; cabinet relevance is weak.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1414,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 728,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 654,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2068
+  }
+}
