@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "fc60eb96c0f2e3370dec18a8e33ce7f93d702539692c8ffc7ab199a1949045a6",
+    "items": [
+      {
+        "id": "3e6875b264dbe65c370a",
+        "label": "1",
+        "reason": "Scissors are hand-held, but they cut rather than grip and reshape items."
+      },
+      {
+        "id": "0b0d79ed71024b87ab2e",
+        "label": "2",
+        "reason": "A bookcase is a tall living-area unit suited to displaying decorative and practical items."
+      },
+      {
+        "id": "0e426a92686875191d3b",
+        "label": "0",
+        "reason": "“Craftsmanship in Action” describes an activity, not a specific implement or referent from the clue."
+      },
+      {
+        "id": "341fc091d8fe8a45eda2",
+        "label": "2",
+        "reason": "Jellyfish are marine organisms commonly found in warm coastal waters."
+      },
+      {
+        "id": "a01c7d7756a1bc74c046",
+        "label": "0",
+        "reason": "“Smoothie Paradise” is not a fruit."
+      },
+      {
+        "id": "b0f9f536d8cf9f2db778",
+        "label": "2",
+        "reason": "Bicycles are vehicles that can be ridden quickly across various surfaces."
+      },
+      {
+        "id": "829227efc2e184601fda",
+        "label": "2",
+        "reason": "A personal collection shelf fits the description of a multi-level unit for displaying mementos and collectibles."
+      },
+      {
+        "id": "88bf1728d4f5854fc7fa",
+        "label": "0",
+        "reason": "Grapefruits grow on trees, not in bunches hanging from tall plants."
+      },
+      {
+        "id": "7362c2d87a109c825f68",
+        "label": "0",
+        "reason": "Jellyfish are not a fitting referent for the Sahara Desert's extreme, arid conditions."
+      },
+      {
+        "id": "1b1f1b085344398d4f4a",
+        "label": "2",
+        "reason": "Jellyfish pulse rhythmically and move with ocean currents."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"3e6875b264dbe65c370a\",\"label\":\"1\",\"reason\":\"Scissors are hand-held, but they cut rather than grip and reshape items.\"},{\"id\":\"0b0d79ed71024b87ab2e\",\"label\":\"2\",\"reason\":\"A bookcase is a tall living-area unit suited to displaying decorative and practical items.\"},{\"id\":\"0e426a92686875191d3b\",\"label\":\"0\",\"reason\":\"“Craftsmanship in Action” describes an activity, not a specific implement or referent from the clue.\"},{\"id\":\"341fc091d8fe8a45eda2\",\"label\":\"2\",\"reason\":\"Jellyfish are marine organisms commonly found in warm coastal waters.\"},{\"id\":\"a01c7d7756a1bc74c046\",\"label\":\"0\",\"reason\":\"“Smoothie Paradise” is not a fruit.\"},{\"id\":\"b0f9f536d8cf9f2db778\",\"label\":\"2\",\"reason\":\"Bicycles are vehicles that can be ridden quickly across various surfaces.\"},{\"id\":\"829227efc2e184601fda\",\"label\":\"2\",\"reason\":\"A personal collection shelf fits the description of a multi-level unit for displaying mementos and collectibles.\"},{\"id\":\"88bf1728d4f5854fc7fa\",\"label\":\"0\",\"reason\":\"Grapefruits grow on trees, not in bunches hanging from tall plants.\"},{\"id\":\"7362c2d87a109c825f68\",\"label\":\"0\",\"reason\":\"Jellyfish are not a fitting referent for the Sahara Desert's extreme, arid conditions.\"},{\"id\":\"1b1f1b085344398d4f4a\",\"label\":\"2\",\"reason\":\"Jellyfish pulse rhythmically and move with ocean currents.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 450,
+    "started": "2026-11-26T09:34:40.226689+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 670,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 271,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 685,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1355
+    }
+  }
+}
