@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_unrelated_0_0",
+        "naturalness": 5,
+        "reason": "A natural book-fair scene with no meaningful connection to either vehicle.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_unrelated_0_1",
+        "naturalness": 5,
+        "reason": "A plausible garden gathering unrelated to either vehicle.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_unrelated_0_2",
+        "naturalness": 5,
+        "reason": "A natural museum-tour situation with no meaningful vehicle connection.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_unrelated_0_3",
+        "naturalness": 5,
+        "reason": "A plausible power-outage scene unrelated to either vehicle.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_situation_unrelated_0_4",
+        "naturalness": 5,
+        "reason": "A natural shop-closing scene with no meaningful connection to either vehicle.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_function_very_near_0_0",
+        "naturalness": 5,
+        "reason": "A hub dynamo is a distinctive bicycle accessory that uses wheel rotation to power lights; the clue describes its function.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_function_very_near_0_1",
+        "naturalness": 5,
+        "reason": "Helmets are strongly associated with cycling and can reduce head-injury severity, though the wording also applies to other riders.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_function_very_near_0_2",
+        "naturalness": 5,
+        "reason": "Replacing car trips with human-powered travel plausibly describes a bicycle's transport function and environmental benefit.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_function_very_near_0_3",
+        "naturalness": 4,
+        "reason": "Hand-cranked adaptations can enable cycling for people with limited leg movement, though the clue may also refer to handcycles more broadly.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_function_very_near_0_4",
+        "naturalness": 5,
+        "reason": "Linked cranks allowing two people to pedal together strongly suggest the function of a tandem bicycle.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1097,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 456,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 647,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1744
+  }
+}
