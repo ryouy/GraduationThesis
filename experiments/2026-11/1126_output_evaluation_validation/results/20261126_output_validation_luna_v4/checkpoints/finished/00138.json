@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "903c1b00edd8ced163bd0743d2597ea8f4dec5fdf855994ce3112c4f979b8db9",
+    "items": [
+      {
+        "id": "ce7e05dd12809a886184",
+        "label": "2",
+        "reason": "Raindrops are moisture released from the atmosphere and can refresh the landscape."
+      },
+      {
+        "id": "8302de040c3d87682ce8",
+        "label": "2",
+        "reason": "Lions roam open grasslands and may be found near water sources."
+      },
+      {
+        "id": "9914822d2bf15f1f550f",
+        "label": "1",
+        "reason": "Elephants communicate with low-frequency sounds, but these are not specifically trunk calls."
+      },
+      {
+        "id": "bb7c491fdb4c30f5e3a9",
+        "label": "2",
+        "reason": "Bicycles are commonly ridden on paths and sidewalks."
+      },
+      {
+        "id": "fffb28bd8523f242527d",
+        "label": "1",
+        "reason": "The answer refers to artwork depicting skies rather than the colorful sunset sky itself."
+      },
+      {
+        "id": "69f59229c65f0dfb3884",
+        "label": "1",
+        "reason": "Grapefruits grow on trees, but the clue's description of clusters hanging from tall plants is not a strong fit."
+      },
+      {
+        "id": "49ca92abe8b2a2861669",
+        "label": "1",
+        "reason": "A smoothie enhancer could fit the described use, but it does not identify the fruit the clue asks about."
+      },
+      {
+        "id": "9ab9bafdbf77714ac3db",
+        "label": "2",
+        "reason": "The answer directly matches what people enjoy reading in their leisure time."
+      },
+      {
+        "id": "8d35baaf3651a52acbdd",
+        "label": "2",
+        "reason": "Scissors are a reliable handheld tool for cutting intricate paper patterns."
+      },
+      {
+        "id": "27389149238009b69888",
+        "label": "2",
+        "reason": "Cacti are succulents adapted to bright, arid conditions by storing moisture in thick structures."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"ce7e05dd12809a886184\",\"label\":\"2\",\"reason\":\"Raindrops are moisture released from the atmosphere and can refresh the landscape.\"},{\"id\":\"8302de040c3d87682ce8\",\"label\":\"2\",\"reason\":\"Lions roam open grasslands and may be found near water sources.\"},{\"id\":\"9914822d2bf15f1f550f\",\"label\":\"1\",\"reason\":\"Elephants communicate with low-frequency sounds, but these are not specifically trunk calls.\"},{\"id\":\"bb7c491fdb4c30f5e3a9\",\"label\":\"2\",\"reason\":\"Bicycles are commonly ridden on paths and sidewalks.\"},{\"id\":\"fffb28bd8523f242527d\",\"label\":\"1\",\"reason\":\"The answer refers to artwork depicting skies rather than the colorful sunset sky itself.\"},{\"id\":\"69f59229c65f0dfb3884\",\"label\":\"1\",\"reason\":\"Grapefruits grow on trees, but the clue's description of clusters hanging from tall plants is not a strong fit.\"},{\"id\":\"49ca92abe8b2a2861669\",\"label\":\"1\",\"reason\":\"A smoothie enhancer could fit the described use, but it does not identify the fruit the clue asks about.\"},{\"id\":\"9ab9bafdbf77714ac3db\",\"label\":\"2\",\"reason\":\"The answer directly matches what people enjoy reading in their leisure time.\"},{\"id\":\"8d35baaf3651a52acbdd\",\"label\":\"2\",\"reason\":\"Scissors are a reliable handheld tool for cutting intricate paper patterns.\"},{\"id\":\"27389149238009b69888\",\"label\":\"2\",\"reason\":\"Cacti are succulents adapted to bright, arid conditions by storing moisture in thick structures.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 330,
+    "started": "2026-11-26T09:32:37.963159+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 579,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 187,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 650,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1229
+    }
+  }
+}
