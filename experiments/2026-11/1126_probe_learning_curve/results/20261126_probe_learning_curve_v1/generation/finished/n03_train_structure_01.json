@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "face_frame_rails_and_stiles",
+      "sentence": "A face frame may use vertical stiles and horizontal rails to reinforce the front and provide mounting surfaces for doors."
+    },
+    {
+      "fact_key": "glazed_door_panels",
+      "sentence": "Some door panels contain glass held in place by narrow wooden or metal retaining strips."
+    },
+    {
+      "fact_key": "drawer_box_and_runners",
+      "sentence": "Pull-out drawers commonly consist of a box-shaped body that travels on side-mounted or under-mounted runners."
+    },
+    {
+      "fact_key": "door_lock_and_strike",
+      "sentence": "A small lock may be fitted to a door, with its bolt engaging a strike plate on the frame."
+    },
+    {
+      "fact_key": "exterior_surface_finishes",
+      "sentence": "Exterior surfaces may be covered with paint, clear varnish, laminate, or thin decorative veneer."
+    },
+    {
+      "fact_key": "panel_corner_joinery",
+      "sentence": "Corner joints such as dowels, screws, or interlocking cuts connect panels and help keep the frame square."
+    },
+    {
+      "fact_key": "ventilation_openings",
+      "sentence": "Ventilation openings in a door or rear panel allow air to circulate through the enclosed space."
+    },
+    {
+      "fact_key": "projecting_top_and_edge_treatment",
+      "sentence": "A projecting top can provide a flat work surface, with its edges sometimes rounded or capped for protection."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"A face frame may use vertical stiles and horizontal rails to reinforce the front and provide mounting surfaces for doors.\",\"fact_key\":\"face_frame_rails_and_stiles\"},{\"sentence\":\"Some door panels contain glass held in place by narrow wooden or metal retaining strips.\",\"fact_key\":\"glazed_door_panels\"},{\"sentence\":\"Pull-out drawers commonly consist of a box-shaped body that travels on side-mounted or under-mounted runners.\",\"fact_key\":\"drawer_box_and_runners\"},{\"sentence\":\"A small lock may be fitted to a door, with its bolt engaging a strike plate on the frame.\",\"fact_key\":\"door_lock_and_strike\"},{\"sentence\":\"Exterior surfaces may be covered with paint, clear varnish, laminate, or thin decorative veneer.\",\"fact_key\":\"exterior_surface_finishes\"},{\"sentence\":\"Corner joints such as dowels, screws, or interlocking cuts connect panels and help keep the frame square.\",\"fact_key\":\"panel_corner_joinery\"},{\"sentence\":\"Ventilation openings in a door or rear panel allow air to circulate through the enclosed space.\",\"fact_key\":\"ventilation_openings\"},{\"sentence\":\"A projecting top can provide a flat work surface, with its edges sometimes rounded or capped for protection.\",\"fact_key\":\"projecting_top_and_edge_treatment\"}]}",
+  "rejected": [],
+  "request_hash": "6f8c14c77cfcdae6eb63fb02755a8137cf363e4f31be4068426e8aefca1e6759",
+  "usage": {
+    "completion_tokens": 483,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 217,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 494,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 977
+  }
+}
