@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "waxy_surface",
+      "sentence": "A thin natural wax layer covers the skin, helping reduce moisture loss from the fruit's surface."
+    },
+    {
+      "fact_key": "pectin_content",
+      "sentence": "The edible pulp contains pectin, a soluble plant fiber present in cell walls and contributing to its soft structure."
+    },
+    {
+      "fact_key": "clustered_growth",
+      "sentence": "Individual fruits attach to a shared central stalk, forming compact clusters whose members often curve around one another."
+    },
+    {
+      "fact_key": "vascular_strands",
+      "sentence": "Fine vascular strands extend lengthwise through the pulp, connecting its tissues with the fruit's attachment point."
+    },
+    {
+      "fact_key": "aromatic_esters",
+      "sentence": "Ripe flesh releases volatile aromatic compounds, including esters that contribute to its sweet, fruity scent."
+    },
+    {
+      "fact_key": "low_fat_and_protein",
+      "sentence": "The edible interior contains very little fat or protein, making carbohydrates its predominant energy-providing nutrients."
+    },
+    {
+      "fact_key": "phenolic_oxidation",
+      "sentence": "When bruised or cut, exposed flesh can darken as naturally present phenolic compounds undergo oxidation."
+    },
+    {
+      "fact_key": "organic_acids",
+      "sentence": "Small amounts of malic and citric acids occur in the pulp, contributing mild tartness alongside its sweetness."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"A thin natural wax layer covers the skin, helping reduce moisture loss from the fruit's surface.\",\"fact_key\":\"waxy_surface\"},{\"sentence\":\"The edible pulp contains pectin, a soluble plant fiber present in cell walls and contributing to its soft structure.\",\"fact_key\":\"pectin_content\"},{\"sentence\":\"Individual fruits attach to a shared central stalk, forming compact clusters whose members often curve around one another.\",\"fact_key\":\"clustered_growth\"},{\"sentence\":\"Fine vascular strands extend lengthwise through the pulp, connecting its tissues with the fruit's attachment point.\",\"fact_key\":\"vascular_strands\"},{\"sentence\":\"Ripe flesh releases volatile aromatic compounds, including esters that contribute to its sweet, fruity scent.\",\"fact_key\":\"aromatic_esters\"},{\"sentence\":\"The edible interior contains very little fat or protein, making carbohydrates its predominant energy-providing nutrients.\",\"fact_key\":\"low_fat_and_protein\"},{\"sentence\":\"When bruised or cut, exposed flesh can darken as naturally present phenolic compounds undergo oxidation.\",\"fact_key\":\"phenolic_oxidation\"},{\"sentence\":\"Small amounts of malic and citric acids occur in the pulp, contributing mild tartness alongside its sweetness.\",\"fact_key\":\"organic_acids\"}]}",
+  "rejected": [],
+  "request_hash": "a54c64e2a88f1de34bb0bd86f4fb88109f260d1c0a364041fb9ca66e543b6f43",
+  "usage": {
+    "completion_tokens": 2050,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1773,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 452,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2502
+  }
+}
