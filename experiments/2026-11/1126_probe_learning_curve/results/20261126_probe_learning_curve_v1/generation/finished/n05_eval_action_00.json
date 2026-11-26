@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "preset_torque_signal",
+      "sentence": "A torque-limiting handle clicks or slips at a preset force, signaling that a fastener has reached its intended tightness."
+    },
+    {
+      "fact_key": "extension_reach",
+      "sentence": "An extension transfers rotation from a handle outside a narrow opening to a tip seated deeper inside."
+    },
+    {
+      "fact_key": "recessed_fastener_access",
+      "sentence": "A long-shaft version reaches a recessed fastener below a panel surface without the handle touching surrounding material."
+    },
+    {
+      "fact_key": "offset_access",
+      "sentence": "An offset version turns fasteners where a wall or neighboring component blocks a straight approach."
+    },
+    {
+      "fact_key": "flexible_extension",
+      "sentence": "A flexible extension transmits hand rotation around a bend to a fastener hidden behind an obstruction."
+    },
+    {
+      "fact_key": "alternating_fastening_sequence",
+      "sentence": "When fastening a broad panel at several points, alternating among fasteners helps draw the panel evenly against its support."
+    },
+    {
+      "fact_key": "ordered_fastener_storage",
+      "sentence": "During disassembly, setting removed fasteners in their original order can simplify returning each to its former location."
+    },
+    {
+      "fact_key": "fastener_guide_sleeve",
+      "sentence": "A guide sleeve around the tip can steady a small fastener as its threads first enter a hole."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"A torque-limiting handle clicks or slips at a preset force, signaling that a fastener has reached its intended tightness.\",\"fact_key\":\"preset_torque_signal\"},{\"sentence\":\"An extension transfers rotation from a handle outside a narrow opening to a tip seated deeper inside.\",\"fact_key\":\"extension_reach\"},{\"sentence\":\"A long-shaft version reaches a recessed fastener below a panel surface without the handle touching surrounding material.\",\"fact_key\":\"recessed_fastener_access\"},{\"sentence\":\"An offset version turns fasteners where a wall or neighboring component blocks a straight approach.\",\"fact_key\":\"offset_access\"},{\"sentence\":\"A flexible extension transmits hand rotation around a bend to a fastener hidden behind an obstruction.\",\"fact_key\":\"flexible_extension\"},{\"sentence\":\"When fastening a broad panel at several points, alternating among fasteners helps draw the panel evenly against its support.\",\"fact_key\":\"alternating_fastening_sequence\"},{\"sentence\":\"During disassembly, setting removed fasteners in their original order can simplify returning each to its former location.\",\"fact_key\":\"ordered_fastener_storage\"},{\"sentence\":\"A guide sleeve around the tip can steady a small fastener as its threads first enter a hole.\",\"fact_key\":\"fastener_guide_sleeve\"}]}",
+  "rejected": [],
+  "request_hash": "c3571d6e1f50d59a88671d31dbe5a203e19ad9165d2b133117463afbb0be11d0",
+  "usage": {
+    "completion_tokens": 1673,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1398,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2627,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2624,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4300
+  }
+}
