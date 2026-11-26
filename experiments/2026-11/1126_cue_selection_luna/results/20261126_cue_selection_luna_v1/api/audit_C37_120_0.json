@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_function_medium_near_0_3",
+        "naturalness": 4,
+        "reason": "A plausible repair task involving screws and turning them; a wrench is only weakly connected through the general fastening context.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_function_medium_near_0_4",
+        "naturalness": 4,
+        "reason": "Smoke alarms may have small fasteners to remove for battery access, strongly suggesting a screwdriver; a wrench is only loosely related to repairs.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_function_medium_near_0_5",
+        "naturalness": 4,
+        "reason": "Turning threaded fasteners to join furniture panels is plausible and fits a screwdriver's function; the wrench connection is weak.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_function_medium_far_0_0",
+        "naturalness": 5,
+        "reason": "Tightening mounting screws is a natural use for a screwdriver; a wrench has only a broad repair-tool association.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_function_medium_far_0_1",
+        "naturalness": 5,
+        "reason": "Small fasteners commonly secure handheld device shells, making screwdriver use plausible; wrench relevance is weak.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_function_medium_far_0_2",
+        "naturalness": 5,
+        "reason": "A stripped cross-shaped screw recess is distinctively associated with screwdriver use and can frustrate repairs.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_function_medium_far_0_3",
+        "naturalness": 5,
+        "reason": "This is a plausible statement about sea turtle navigation, unrelated to either tool; it describes a biological function.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_function_medium_far_0_4",
+        "naturalness": 5,
+        "reason": "The smoke-and-sky description is plausible but unrelated to either tool and does not describe a function.",
+        "style": "fail",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_function_medium_far_0_5",
+        "naturalness": 5,
+        "reason": "Bruised basil can release a peppery aroma; this describes a plant behavior, not either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_function_far_0_0",
+        "naturalness": 5,
+        "reason": "A threaded fastener securing a drawer pull is plausible and suggests screwdriver use; the wrench connection is weak.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 2042,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1355,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 622,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2664
+  }
+}
