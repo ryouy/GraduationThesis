@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "orchestral_melody",
+      "sentence": "In symphony orchestras, this instrument often carries the upper brass melody, shifting between sustained lines and emphatic fanfares."
+    },
+    {
+      "fact_key": "jazz_improvisation",
+      "sentence": "In small jazz groups, the instrument is often used for improvised solos, with its bright tone cutting through piano, bass, and drums."
+    },
+    {
+      "fact_key": "marching_projection",
+      "sentence": "Marching bands often aim its bell toward spectators, helping the sound project across open fields and parade routes."
+    },
+    {
+      "fact_key": "ceremonial_calls",
+      "sentence": "At civic ceremonies, short calls from the instrument can announce an entrance, punctuate a formal procession, or introduce a speaker."
+    },
+    {
+      "fact_key": "concerto_soloist",
+      "sentence": "In classical concertos, it may appear as a soloist while an orchestra provides the accompaniment."
+    },
+    {
+      "fact_key": "theater_accentuation",
+      "sentence": "Musical-theater pit scores often use it for crisp accents and fanfare-like passages that reinforce dramatic moments onstage."
+    },
+    {
+      "fact_key": "salsa_ensemble_figures",
+      "sentence": "In salsa ensembles, it contributes tightly synchronized rhythmic figures and bright responses around the singer's vocal lines."
+    },
+    {
+      "fact_key": "church_hymn_melodies",
+      "sentence": "In church brass ensembles, it can play hymn melodies above lower parts, supporting congregational singing."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In symphony orchestras, this instrument often carries the upper brass melody, shifting between sustained lines and emphatic fanfares.\",\"fact_key\":\"orchestral_melody\"},{\"sentence\":\"In small jazz groups, the instrument is often used for improvised solos, with its bright tone cutting through piano, bass, and drums.\",\"fact_key\":\"jazz_improvisation\"},{\"sentence\":\"Marching bands often aim its bell toward spectators, helping the sound project across open fields and parade routes.\",\"fact_key\":\"marching_projection\"},{\"sentence\":\"At civic ceremonies, short calls from the instrument can announce an entrance, punctuate a formal procession, or introduce a speaker.\",\"fact_key\":\"ceremonial_calls\"},{\"sentence\":\"In classical concertos, it may appear as a soloist while an orchestra provides the accompaniment.\",\"fact_key\":\"concerto_soloist\"},{\"sentence\":\"Musical-theater pit scores often use it for crisp accents and fanfare-like passages that reinforce dramatic moments onstage.\",\"fact_key\":\"theater_accentuation\"},{\"sentence\":\"In salsa ensembles, it contributes tightly synchronized rhythmic figures and bright responses around the singer's vocal lines.\",\"fact_key\":\"salsa_ensemble_figures\"},{\"sentence\":\"In church brass ensembles, it can play hymn melodies above lower parts, supporting congregational singing.\",\"fact_key\":\"church_hymn_melodies\"}]}",
+  "rejected": [],
+  "request_hash": "9633e0453cbaa3b52b5ca9452cc67fbf5f1df856d4147ac2ca91fb1107b41cfd",
+  "usage": {
+    "completion_tokens": 1588,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1287,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1283,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1280,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2871
+  }
+}
