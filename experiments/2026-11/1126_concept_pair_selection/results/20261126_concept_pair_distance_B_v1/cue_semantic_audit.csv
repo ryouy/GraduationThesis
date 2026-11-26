@@ -1,0 +1,961 @@
+candidate_id,id,x_related,y_related,exposure,y_specific,reason
+C01_Y06,gen_C01_action_medium_far_0_0,4,1,pass,no,"Criterium racing, cornering, and teammates sheltering one another are distinctive cycling cues; no kick-scooter-specific fact is given."
+C01_Y06,gen_C01_action_unrelated_0_0,0,0,pass,no,The clue concerns baking and is unrelated to either vehicle.
+C01_Y06,gen_C01_function_far_0_2,2,2,pass,no,"Traffic-safety skills can apply to both kinds of wheeled travel, without identifying either vehicle."
+C01_Y06,gen_C01_function_medium_near_0_2,2,2,pass,no,"Practicing balance before neighborhood travel is relevant to both, but is not specific to kick scooters."
+C01_Y06,gen_C01_function_near_0_2,3,2,pass,no,Protected lanes are strongly associated with bicycle travel and can also serve scooters; the clue does not identify a particular vehicle.
+C01_Y06,gen_C01_function_very_near_0_2,3,3,pass,no,Replacing car trips with human-powered travel applies to both vehicles but does not describe a kick-scooter-specific fact.
+C01_Y06,gen_C01_situation_far_0_4,2,1,pass,no,"A rental kiosk and paths suggest recreational travel, but do not specify which vehicle is rented."
+C01_Y06,gen_C01_situation_medium_near_0_4,2,2,pass,no,"Unlocking a rental ride for a short trip fits several shared-mobility vehicles, including bicycles and scooters."
+C01_Y06,gen_C01_situation_near_0_4,3,1,pass,no,Gravel and steep descents make this strongly suggest bicycle trail riding; it does not describe a scooter-specific feature.
+C01_Y06,gen_C01_situation_very_near_0_4,4,0,pass,no,Pedaling and a cargo frame are distinctive bicycle cues and do not describe a kick scooter.
+C01_Y06,gen_C01_structure_medium_far_0_2,2,2,pass,no,"A folding frame can apply to bicycles or scooters, so it does not distinguish the kick scooter."
+C01_Y06,gen_C01_structure_unrelated_0_2,0,0,pass,no,The clue describes maple-leaf structure and is unrelated to either vehicle.
+C01_Y08,gen_C01_action_medium_far_0_0,4,0,pass,no,Criterium racing and cornering are distinctively associated with bicycles; no rickshaw-specific fact or target name appears.
+C01_Y08,gen_C01_action_unrelated_0_0,0,0,pass,no,"This describes bread-making, unrelated to either definition."
+C01_Y08,gen_C01_function_far_0_2,2,1,pass,no,"Traffic signaling and judging gaps are relevant to bicycle travel, but the clue describes travelers generally; that context could also include rickshaws."
+C01_Y08,gen_C01_function_medium_near_0_2,3,0,pass,no,Practicing balance before riding on neighborhood streets strongly fits bicycle skills; it does not describe a passenger cart pulled or pedaled by a person.
+C01_Y08,gen_C01_function_near_0_2,2,1,pass,no,"Protected lanes and low-speed travel are compatible with bicycles, while the general reference to travelers could also encompass rickshaws."
+C01_Y08,gen_C01_function_very_near_0_2,2,2,pass,no,"Human-powered travel and replacing short car journeys fit both definitions, but the clue does not distinguish rickshaws from other human-powered travel."
+C01_Y08,gen_C01_situation_far_0_4,1,1,pass,no,"A rental kiosk and paths suggest recreational transport in general, without identifying either vehicle."
+C01_Y08,gen_C01_situation_medium_near_0_4,2,1,pass,no,"Unlocking a rental ride for a short trip is compatible with bicycle rentals; the short-trip context also fits rickshaws, but no passenger cart is described."
+C01_Y08,gen_C01_situation_near_0_4,3,0,pass,no,Balance on a gravel trail and steep descents strongly fit bicycle riding; no rickshaw-specific fact appears.
+C01_Y08,gen_C01_situation_very_near_0_4,4,1,pass,no,"Pedaling a front-loading cargo frame home is distinctively associated with a cargo bicycle. The frame and pedaling offer only a weak, general overlap with rickshaws; no passenger cart is described."
+C01_Y08,gen_C01_structure_medium_far_0_2,3,0,pass,no,"A folding frame for compact storage strongly suggests a folding bicycle, not a rickshaw-specific structure."
+C01_Y08,gen_C01_structure_unrelated_0_2,0,0,pass,no,"This describes leaf anatomy, unrelated to either definition."
+C01_Y09,gen_C01_action_medium_far_0_0,3,0,pass,no,"A criterium and racers sheltering one another from wind strongly suggest bicycle racing, but neither target name nor an obvious alias appears."
+C01_Y09,gen_C01_action_unrelated_0_0,0,0,pass,no,The clue concerns bread making and has no evident connection to either target.
+C01_Y09,gen_C01_function_far_0_2,2,1,pass,no,"Turn signals and judging traffic gaps can fit bicycle road-safety instruction, but the clue refers broadly to travelers and does not describe cars specifically."
+C01_Y09,gen_C01_function_medium_near_0_2,3,0,pass,no,Practicing balance before neighborhood street riding strongly suggests learning to ride a bicycle; no Y name or alias appears.
+C01_Y09,gen_C01_function_near_0_2,2,3,fail,no,"Protected lanes and low-speed travelers plausibly relate to bicycles. The clue directly mentions cars, but only as shared-road context rather than describing car-specific facts."
+C01_Y09,gen_C01_function_very_near_0_2,3,4,fail,yes,"Human-powered travel replacing car journeys strongly connects to bicycles, and the clue directly names cars and describes their fuel use and tailpipe pollution."
+C01_Y09,gen_C01_situation_far_0_4,1,0,pass,no,"Rentals and paths could involve bicycles, but the clue is generic and does not identify a vehicle."
+C01_Y09,gen_C01_situation_medium_near_0_4,1,0,pass,no,"Unlocking a rented ride for a short trip could fit bicycle sharing, but the vehicle is unspecified."
+C01_Y09,gen_C01_situation_near_0_4,3,0,pass,no,"Loose gravel, steep descents, and maintaining balance strongly suggest bicycle trail riding, without naming the vehicle."
+C01_Y09,gen_C01_situation_very_near_0_4,4,0,pass,no,"Pedaling home with cargo on a front-loading frame is a distinctive bicycle use, though no bicycle name or obvious alias appears."
+C01_Y09,gen_C01_structure_medium_far_0_2,2,0,pass,no,"A folding frame could describe a folding bicycle, but the clue does not identify the kind of frame or vehicle."
+C01_Y09,gen_C01_structure_unrelated_0_2,0,0,pass,no,The clue describes maple-leaf structure and has no evident connection to either target.
+C01_Y10,gen_C01_action_medium_far_0_0,4,1,pass,no,"Criterium racing, cornering, and wind-sheltering are distinctly cycling-related; buses share only the road context. No X/Y name or listed alias appears."
+C01_Y10,gen_C01_action_unrelated_0_0,0,0,pass,no,Baking dough is unrelated to either vehicle. No X/Y name or listed alias appears.
+C01_Y10,gen_C01_function_far_0_2,2,1,pass,no,"Signaling turns and judging traffic gaps are relevant to bicycle road safety, but also apply to other travelers; buses share only the traffic context. No X/Y name or listed alias appears."
+C01_Y10,gen_C01_function_medium_near_0_2,3,1,pass,no,Practicing balance before riding neighborhood streets strongly suggests bicycle skills; buses share only the street context. No X/Y name or listed alias appears.
+C01_Y10,gen_C01_function_near_0_2,3,1,pass,no,"Protected lanes and low-speed travel strongly evoke bicycle infrastructure, while buses are only part of the broader road context. No X/Y name or listed alias appears."
+C01_Y10,gen_C01_function_very_near_0_2,2,1,pass,no,"Human-powered travel can include bicycles, but is not specific to them; reduced car use is only broadly relevant to buses. No X/Y name or listed alias appears."
+C01_Y10,gen_C01_situation_far_0_4,1,0,pass,no,"A park rental kiosk and exploring paths could involve bicycles, but the clue does not specify the rental or ride. No X/Y name or listed alias appears."
+C01_Y10,gen_C01_situation_medium_near_0_4,2,0,pass,no,"Rental stations and short rides plausibly suggest bicycles, though the vehicle is unspecified. No X/Y name or listed alias appears."
+C01_Y10,gen_C01_situation_near_0_4,3,0,pass,no,Balancing on loose gravel and steep descents strongly suggests bicycle trail riding. No X/Y name or listed alias appears.
+C01_Y10,gen_C01_situation_very_near_0_4,4,1,pass,no,"A cargo frame, pedaling, and riding home directly evoke a bicycle; streets provide only shared road context for buses. No X/Y name or listed alias appears."
+C01_Y10,gen_C01_structure_medium_far_0_2,3,0,pass,no,A folding frame designed for compact storage strongly suggests a folding bicycle. No X/Y name or listed alias appears.
+C01_Y10,gen_C01_structure_unrelated_0_2,0,0,pass,no,"The clue describes leaf anatomy, unrelated to either vehicle. No X/Y name or listed alias appears."
+C01_Y12,gen_C01_action_medium_far_0_0,4,0,pass,no,A criterium and teammates sheltering racers from wind are distinctive cycling context; no bicycle or van name or alias appears.
+C01_Y12,gen_C01_action_unrelated_0_0,0,0,pass,no,Baking dough is unrelated to either vehicle; no target name or alias appears.
+C01_Y12,gen_C01_function_far_0_2,1,0,pass,no,"Road safety and signaling can apply to bicycle users, but the clue describes travelers generally; it gives no van-specific facts."
+C01_Y12,gen_C01_function_medium_near_0_2,3,0,pass,no,"Practicing balance before riding on neighborhood streets strongly suggests bicycle skills, without naming a target; no van-specific facts appear."
+C01_Y12,gen_C01_function_near_0_2,3,1,pass,no,"Protected lanes for low-speed travelers strongly evoke bicycle infrastructure. Cars are mentioned generically, not in a van-specific way."
+C01_Y12,gen_C01_function_very_near_0_2,2,1,pass,no,Human-powered travel as an alternative to short car journeys is relevant to bicycles but is not specific to them; cars are not specifically vans.
+C01_Y12,gen_C01_situation_far_0_4,1,0,pass,no,"A rental kiosk and nearby paths weakly suggest recreational rides, but no vehicle is specified; no van-specific facts appear."
+C01_Y12,gen_C01_situation_medium_near_0_4,2,0,pass,no,"Unlocking a rental ride for a short trip is consistent with bicycle sharing, though the vehicle is unspecified; no van-specific facts appear."
+C01_Y12,gen_C01_situation_near_0_4,3,0,pass,no,"Gravel, steep trail descents, and balance strongly suggest bicycle riding, without naming one; no van-specific facts appear."
+C01_Y12,gen_C01_situation_very_near_0_4,4,0,pass,no,Pedaling a front-loading cargo frame home is distinctive bicycle-related activity; no bicycle or van name or alias appears.
+C01_Y12,gen_C01_structure_medium_far_0_2,2,0,pass,no,"A folding frame for compact storage is consistent with a folding bicycle, but the vehicle is not specified; no van-specific facts appear."
+C01_Y12,gen_C01_structure_unrelated_0_2,0,0,pass,no,The clue describes leaf anatomy and is unrelated to either vehicle; no target name or alias appears.
+C01_Y19,gen_C01_action_medium_far_0_0,4,0,pass,no,A criterium and racers sheltering from wind are distinctive of bicycle racing; no taxi-specific fact.
+C01_Y19,gen_C01_action_unrelated_0_0,0,0,pass,no,Baking dough is unrelated to either definition.
+C01_Y19,gen_C01_function_far_0_2,2,1,pass,no,"Turn signals and judging traffic gaps can apply to bicycle safety, while traffic is only a general shared context for taxis."
+C01_Y19,gen_C01_function_medium_near_0_2,3,0,pass,no,Practicing balance before riding on neighborhood streets strongly suggests learning to ride a bicycle; no taxi-specific fact.
+C01_Y19,gen_C01_function_near_0_2,3,1,pass,no,"Protected lanes for low-speed travelers strongly fit bicycle use; cars are only general road context, not a taxi-specific fact."
+C01_Y19,gen_C01_function_very_near_0_2,3,1,pass,no,Human-powered travel replacing short car journeys strongly fits bicycle use; the car-journey context is not taxi-specific.
+C01_Y19,gen_C01_situation_far_0_4,2,0,pass,no,"A park rental kiosk and paths make bicycle rental plausible, but the ride type is unspecified."
+C01_Y19,gen_C01_situation_medium_near_0_4,2,1,pass,no,"Unlocking a ride at a rental station plausibly describes a shared bicycle, while a short trip between attractions is only weakly related to hired transport."
+C01_Y19,gen_C01_situation_near_0_4,3,0,pass,no,Balancing on gravel and steep descents strongly suggests bicycle trail riding; no taxi-specific fact.
+C01_Y19,gen_C01_situation_very_near_0_4,4,0,pass,no,Pedaling home with cargo on a front-loading frame is directly distinctive of bicycle use; no taxi-specific fact.
+C01_Y19,gen_C01_structure_medium_far_0_2,3,0,pass,no,A folding frame for compact storage strongly suggests a folding bicycle; no taxi-specific fact.
+C01_Y19,gen_C01_structure_unrelated_0_2,0,0,pass,no,The structure of a maple leaf is unrelated to either definition.
+C01_Y21,gen_C01_action_medium_far_0_0,3,1,pass,no,"Criterium racing and teammates sheltering each other strongly suggest cycling; wind is shared context only, with no sailboat-specific fact."
+C01_Y21,gen_C01_action_unrelated_0_0,0,0,pass,no,"Describes bread making, unrelated to either definition."
+C01_Y21,gen_C01_function_far_0_2,2,0,pass,no,"Signaling turns and judging traffic gaps fit road-safety guidance for cyclists, but are not exclusive to bicycles."
+C01_Y21,gen_C01_function_medium_near_0_2,2,0,pass,no,"Practicing balance before using neighborhood streets is consistent with learning to ride, but does not name a bicycle."
+C01_Y21,gen_C01_function_near_0_2,3,0,pass,no,"Protected lanes and low-speed travel strongly suggest bicycle infrastructure, without directly naming a bicycle."
+C01_Y21,gen_C01_function_very_near_0_2,2,0,pass,no,Human-powered travel as an alternative to short car trips is compatible with cycling but also broader than bicycles.
+C01_Y21,gen_C01_situation_far_0_4,1,0,pass,no,"A rental kiosk and paths could involve bicycles, but the clue does not specify the kind of ride."
+C01_Y21,gen_C01_situation_medium_near_0_4,2,0,pass,no,"Unlocking a rental ride for short trips suggests bike sharing, though the vehicle is not specified."
+C01_Y21,gen_C01_situation_near_0_4,2,0,pass,no,"Loose gravel, descents, and balance fit bicycle trail riding, but could describe other trail activity."
+C01_Y21,gen_C01_situation_very_near_0_4,4,0,pass,no,"Pedaling home with cargo on a front-loading frame directly and distinctively describes bicycle use, but contains no bicycle name or alias."
+C01_Y21,gen_C01_structure_medium_far_0_2,3,0,pass,no,"A folding frame with a central hinge strongly suggests a folding bicycle, without naming one."
+C01_Y21,gen_C01_structure_unrelated_0_2,0,0,pass,no,"Describes maple leaf structure, unrelated to either definition."
+C01_Y23,gen_C01_action_medium_far_0_0,3,0,pass,no,"Criterium racing, cornering, and teammates sheltering racers from wind strongly evoke bicycle racing, without naming a bicycle or snowmobile."
+C01_Y23,gen_C01_action_unrelated_0_0,0,0,pass,no,The clue concerns baking and has no meaningful connection to either vehicle.
+C01_Y23,gen_C01_function_far_0_2,2,0,pass,no,"Road-safety instruction about signaling turns and judging traffic gaps is relevant to bicycle travel, but is general to travelers."
+C01_Y23,gen_C01_function_medium_near_0_2,3,0,pass,no,"Practicing balance before riding on neighborhood streets strongly suggests bicycle skills training, without naming the vehicle."
+C01_Y23,gen_C01_function_near_0_2,3,0,pass,no,Protected lanes and low-speed travel through neighborhoods strongly evoke bicycle infrastructure and use.
+C01_Y23,gen_C01_function_very_near_0_2,2,0,pass,no,"Human-powered short trips fit bicycle use, though the clue does not specify a bicycle."
+C01_Y23,gen_C01_situation_far_0_4,1,0,pass,no,"A rental kiosk and nearby paths could involve bicycles, but the clue is generic."
+C01_Y23,gen_C01_situation_medium_near_0_4,2,0,pass,no,"Unlocking a rental ride for short trips suggests shared bicycles, though the vehicle is not identified."
+C01_Y23,gen_C01_situation_near_0_4,3,0,pass,no,"Loose gravel, steep descents, and balance on a forest trail strongly evoke bicycle riding."
+C01_Y23,gen_C01_situation_very_near_0_4,4,0,pass,no,"Pedaling home with cargo strapped to a front-loading frame directly and distinctly describes bicycle use, but does not name a bicycle or alias."
+C01_Y23,gen_C01_structure_medium_far_0_2,2,0,pass,no,"A folding frame for compact storage is plausibly a bicycle feature, but the clue does not identify the vehicle."
+C01_Y23,gen_C01_structure_unrelated_0_2,0,0,pass,no,The clue describes leaf anatomy and has no meaningful connection to either vehicle.
+C01_Y27,gen_C01_action_medium_far_0_0,3,0,pass,no,Criterium racing and sheltering from wind strongly evoke bicycle racing; no air-pump-specific fact.
+C01_Y27,gen_C01_action_unrelated_0_0,0,0,pass,no,Baking dough is unrelated to either definition.
+C01_Y27,gen_C01_function_far_0_2,1,0,pass,no,"Road-safety instruction could apply to bicycle users, but it describes travelers generally."
+C01_Y27,gen_C01_function_medium_near_0_2,2,0,pass,no,"Practicing balance before riding neighborhood streets plausibly describes learning to ride a bicycle, but does not name one."
+C01_Y27,gen_C01_function_near_0_2,3,0,pass,no,Protected lanes and low-speed travel strongly relate to bicycle infrastructure; no pump-specific fact.
+C01_Y27,gen_C01_function_very_near_0_2,3,0,pass,no,"Human-powered travel replacing car trips strongly encompasses bicycle use, but says nothing specific about an air pump."
+C01_Y27,gen_C01_situation_far_0_4,1,0,pass,no,"A rental kiosk and paths could involve bicycles, but the mode is unstated."
+C01_Y27,gen_C01_situation_medium_near_0_4,2,0,pass,no,"Unlocking a rental ride between attractions plausibly describes shared bicycles, without specifying the vehicle."
+C01_Y27,gen_C01_situation_near_0_4,2,0,pass,no,"Gravel, descents, and balance plausibly relate to bicycle riding on trails, but could describe other activities."
+C01_Y27,gen_C01_situation_very_near_0_4,3,0,pass,no,Pedaling home with cargo on a frame strongly evokes a bicycle; no air-pump-specific fact.
+C01_Y27,gen_C01_structure_medium_far_0_2,2,0,pass,no,"A folding frame plausibly describes a bicycle structure, but does not name one or concern a pump."
+C01_Y27,gen_C01_structure_unrelated_0_2,0,0,pass,no,Leaf veins are unrelated to either definition.
+C01_Y31,gen_C01_action_medium_far_0_0,3,1,pass,no,Criterium racing and sheltering from wind strongly suggest bicycle racing; clothing is only an indirect context.
+C01_Y31,gen_C01_action_unrelated_0_0,0,0,pass,no,Baking dough is unrelated to either target.
+C01_Y31,gen_C01_function_far_0_2,2,1,pass,no,"Signaling turns and judging traffic gaps fit bicycle road-safety instruction, but are not specific to jerseys."
+C01_Y31,gen_C01_function_medium_near_0_2,3,1,pass,no,Practicing balance before riding neighborhood streets strongly suggests learning to ride a bicycle; no clothing facts appear.
+C01_Y31,gen_C01_function_near_0_2,3,1,pass,no,"Protected lanes and avoiding car traffic strongly suggest cycling infrastructure, not jersey-specific facts."
+C01_Y31,gen_C01_function_very_near_0_2,2,1,pass,no,"Human-powered travel can include bicycles, though it is broader than them; no jersey-specific facts appear."
+C01_Y31,gen_C01_situation_far_0_4,1,0,pass,no,"A rental kiosk and paths could involve bicycles, but the mode of travel is unspecified."
+C01_Y31,gen_C01_situation_medium_near_0_4,2,1,pass,no,"Rental stations and short rides plausibly suggest shared bicycles, but the vehicle and apparel are not specified."
+C01_Y31,gen_C01_situation_near_0_4,3,1,pass,no,"Gravel, descents, and balance strongly suggest riding a bicycle on a trail; no jersey-specific facts appear."
+C01_Y31,gen_C01_situation_very_near_0_4,4,1,pass,no,Pedaling home with cargo on a front-loading frame directly and distinctively suggests a bicycle; the clothing is not described.
+C01_Y31,gen_C01_structure_medium_far_0_2,3,1,pass,no,"A folding frame for compact storage strongly suggests a folding bicycle, but says nothing specific about a jersey."
+C01_Y31,gen_C01_structure_unrelated_0_2,0,0,pass,no,Leaf structure is unrelated to either target.
+C01_Y32,gen_C01_action_medium_far_0_0,3,0,pass,no,Criterium racing and cornering strongly evoke bicycles; no rack-specific fact or target name appears.
+C01_Y32,gen_C01_action_unrelated_0_0,0,0,pass,no,Baking dough is unrelated to bicycles and racks.
+C01_Y32,gen_C01_function_far_0_2,2,0,pass,no,"Road-safety skills such as signaling and judging traffic apply to bicycle riders, but say nothing about racks."
+C01_Y32,gen_C01_function_medium_near_0_2,3,0,pass,no,Practicing balance before riding on streets strongly evokes learning to ride a bicycle; no rack fact is described.
+C01_Y32,gen_C01_function_near_0_2,2,0,pass,no,"Protected lanes and low-speed travel are explainably associated with bicycles, not with bicycle storage."
+C01_Y32,gen_C01_function_very_near_0_2,2,0,pass,no,"Human-powered travel can include bicycles, though the wording is broader; it does not describe a rack."
+C01_Y32,gen_C01_situation_far_0_4,1,0,pass,no,A rental kiosk and paths weakly suggest a bicycle-rental setting but do not identify the vehicle or a rack.
+C01_Y32,gen_C01_situation_medium_near_0_4,2,1,pass,no,"Unlocking a rental ride between attractions suggests bicycle sharing; rental stations are only weakly associated with racks, and no rack-specific fact is stated."
+C01_Y32,gen_C01_situation_near_0_4,2,0,pass,no,"Gravel, descents, and balance evoke bicycle trail riding; nothing describes bicycle storage."
+C01_Y32,gen_C01_situation_very_near_0_4,3,1,pass,no,Pedaling home with cargo strongly evokes a bicycle; the cargo frame is only weakly related to a rack and is not described as holding a bicycle.
+C01_Y32,gen_C01_structure_medium_far_0_2,2,1,pass,no,"A folding frame is explainably associated with a bicycle, while a foldable rack is also possible; the clue does not state that it holds or secures bicycles."
+C01_Y32,gen_C01_structure_unrelated_0_2,0,0,pass,no,"The clue describes leaf anatomy, unrelated to bicycles or racks."
+C01_Y33,gen_C01_action_medium_far_0_0,3,0,pass,no,A criterium and racers sheltering from wind strongly evoke bicycle racing; no oak-specific facts.
+C01_Y33,gen_C01_action_unrelated_0_0,0,0,pass,no,"Describes baking, with no meaningful connection to either definition."
+C01_Y33,gen_C01_function_far_0_2,2,0,pass,no,"Turn signals and traffic-gap judgment are relevant to bicycle road safety, but not unique to it."
+C01_Y33,gen_C01_function_medium_near_0_2,3,0,pass,no,Practicing balance before neighborhood street riding strongly suggests learning to ride a bicycle.
+C01_Y33,gen_C01_function_near_0_2,3,0,pass,no,"Protected lanes and low-speed travel strongly evoke bicycle use, without naming it."
+C01_Y33,gen_C01_function_very_near_0_2,2,0,pass,no,"Human-powered travel can include bicycles, but the clue also allows other modes."
+C01_Y33,gen_C01_situation_far_0_4,1,0,pass,no,"A rental kiosk and paths could involve bicycles, but the activity is unspecified."
+C01_Y33,gen_C01_situation_medium_near_0_4,2,0,pass,no,"Unlocking a rental ride for a short trip plausibly describes bike sharing, though the ride is unspecified."
+C01_Y33,gen_C01_situation_near_0_4,3,0,pass,no,"Loose gravel, descents, and balance strongly evoke bicycle riding on a trail."
+C01_Y33,gen_C01_situation_very_near_0_4,4,0,pass,no,Pedaling home with cargo on a front-loading frame directly and distinctively describes bicycle use.
+C01_Y33,gen_C01_structure_medium_far_0_2,3,0,pass,no,A folding frame with a central hinge strongly suggests a folding bicycle.
+C01_Y33,gen_C01_structure_unrelated_0_2,0,1,pass,no,"Describes maple-leaf structure, a weak general botanical connection but not an oak-specific fact."
+C01_Y34,gen_C01_action_medium_far_0_0,3,0,pass,no,A criterium and racing tactics strongly indicate bicycle racing; no rose-specific facts.
+C01_Y34,gen_C01_action_unrelated_0_0,0,0,pass,no,"Describes bread-making, with no distinctive connection to either definition."
+C01_Y34,gen_C01_function_far_0_2,1,0,pass,no,Traffic safety and signaling apply broadly to travelers and only weakly suggest bicycle use.
+C01_Y34,gen_C01_function_medium_near_0_2,2,0,pass,no,"Practicing balance before neighborhood travel is compatible with learning to ride a bicycle, but is not exclusive to it."
+C01_Y34,gen_C01_function_near_0_2,3,0,pass,no,Protected lanes and low-speed travel strongly suggest bicycle infrastructure; no rose-specific facts.
+C01_Y34,gen_C01_function_very_near_0_2,2,0,pass,no,Human-powered travel fits bicycles but also includes other transport; no rose-specific facts.
+C01_Y34,gen_C01_situation_far_0_4,1,0,pass,no,"A rental kiosk and paths could involve bicycles, but the vehicle is unspecified."
+C01_Y34,gen_C01_situation_medium_near_0_4,2,0,pass,no,"Unlocking a rental ride for short trips is compatible with bike sharing, though the vehicle is unspecified."
+C01_Y34,gen_C01_situation_near_0_4,2,0,pass,no,"Gravel, descents, and balance fit bicycle trail riding but can also describe other activities."
+C01_Y34,gen_C01_situation_very_near_0_4,4,0,pass,no,"A cargo frame, pedals, and pedaling home distinctly describe a bicycle, without naming it."
+C01_Y34,gen_C01_structure_medium_far_0_2,3,0,pass,no,A folding frame with a central hinge strongly suggests a folding bicycle; no rose-specific facts.
+C01_Y34,gen_C01_structure_unrelated_0_2,0,0,pass,no,"Describes maple-leaf structure, with no distinctive connection to either definition."
+C01_Y37,gen_C01_action_medium_far_0_0,3,0,pass,no,"Criterium racing and teammates sheltering from wind are strongly associated with bicycle racing, but no target name or alias appears."
+C01_Y37,gen_C01_action_unrelated_0_0,0,0,pass,no,The clue concerns baking and has no evident connection to either item.
+C01_Y37,gen_C01_function_far_0_2,2,0,pass,no,"Turn signals and judging traffic gaps are relevant to travel by bicycle, though the clue refers broadly to young travelers."
+C01_Y37,gen_C01_function_medium_near_0_2,2,0,pass,no,Practicing balance before neighborhood street travel is explainably related to bicycle skills but does not specify them.
+C01_Y37,gen_C01_function_near_0_2,2,0,pass,no,"Protected lanes and low-speed travel can relate to bicycles, but the clue describes travelers broadly."
+C01_Y37,gen_C01_function_very_near_0_2,2,0,pass,no,Human-powered travel as a car-trip substitute is relevant to bicycles but also encompasses other forms of travel.
+C01_Y37,gen_C01_situation_far_0_4,1,0,pass,no,"A rental kiosk and paths could involve bicycle rentals, but the clue does not identify what is rented."
+C01_Y37,gen_C01_situation_medium_near_0_4,2,0,pass,no,"Unlocking a rental ride for trips between attractions is explainably related to bicycle-sharing, but remains nonspecific."
+C01_Y37,gen_C01_situation_near_0_4,3,0,pass,no,"Balance on gravel and steep descents strongly evokes riding a bicycle on a trail, though other activities could fit."
+C01_Y37,gen_C01_situation_very_near_0_4,4,0,pass,no,Pedaling home with cargo on a front-loading frame is a distinctive bicycle-use description without naming the item.
+C01_Y37,gen_C01_structure_medium_far_0_2,3,0,pass,no,"A folding frame and central hinge strongly evoke a folding bicycle, but the clue does not name it."
+C01_Y37,gen_C01_structure_unrelated_0_2,0,0,pass,no,The clue describes leaf structure and has no evident connection to either item.
+C01_Y39,gen_C01_action_medium_far_0_0,3,0,pass,no,Criterium racing and sheltering from wind strongly evoke bicycle racing; no dolphin-specific content.
+C01_Y39,gen_C01_action_unrelated_0_0,0,0,pass,no,"Describes baking, with no meaningful connection to either defined subject."
+C01_Y39,gen_C01_function_far_0_2,2,0,pass,no,"Traffic signaling and judging gaps can apply to bicycle safety, but the clue refers broadly to young travelers."
+C01_Y39,gen_C01_function_medium_near_0_2,3,0,pass,no,Practicing balance in a lot before riding neighborhood streets strongly suggests bicycle skills training.
+C01_Y39,gen_C01_function_near_0_2,2,0,pass,no,"Protected lanes and low-speed travel are associated with bicycle infrastructure, though the clue remains broadly phrased."
+C01_Y39,gen_C01_function_very_near_0_2,3,0,pass,no,Replacing car trips with human-powered travel strongly fits bicycle use; it says nothing specific about dolphins.
+C01_Y39,gen_C01_situation_far_0_4,2,0,pass,no,"A rental kiosk and paths could involve bicycle rentals, but the activity is not specified."
+C01_Y39,gen_C01_situation_medium_near_0_4,2,0,pass,no,"Unlocking a rental ride for trips between attractions is compatible with bicycle sharing, but not uniquely so."
+C01_Y39,gen_C01_situation_near_0_4,3,0,pass,no,"Gravel, descents, and balancing on a forest trail strongly evoke bicycle trail riding."
+C01_Y39,gen_C01_situation_very_near_0_4,3,0,pass,no,Pedaling home with cargo on a front-loading frame strongly evokes a cargo bicycle.
+C01_Y39,gen_C01_structure_medium_far_0_2,3,0,pass,no,A folding frame and compact storage strongly suggest a folding bicycle.
+C01_Y39,gen_C01_structure_unrelated_0_2,0,0,pass,no,"Describes maple leaf structure, unrelated to either defined subject."
+C01_anchor,gen_C01_action_medium_far_0_0,3,0,pass,no,Criterium racing and sheltering teammates from wind strongly suggest bicycle racing; no submarine-specific fact.
+C01_anchor,gen_C01_action_unrelated_0_0,0,0,pass,no,"Describes baking, with no bicycle or submarine connection."
+C01_anchor,gen_C01_function_far_0_2,2,0,pass,no,"Turn signals and judging traffic gaps fit road-safety instruction for cyclists, though the travelers are not identified; no submarine-specific fact."
+C01_anchor,gen_C01_function_medium_near_0_2,2,0,pass,no,"Balance practice before neighborhood street use is consistent with learning to ride a bicycle, but is not exclusive to it; no submarine-specific fact."
+C01_anchor,gen_C01_function_near_0_2,2,0,pass,no,"Protected lanes for low-speed travelers are compatible with bicycle travel, though the travelers are not named; no submarine-specific fact."
+C01_anchor,gen_C01_function_very_near_0_2,2,0,pass,no,"Human-powered travel as an alternative to short car trips can include bicycles, but is broader than cycling; no submarine-specific fact."
+C01_anchor,gen_C01_situation_far_0_4,1,0,pass,no,"Rental access to paths could involve bicycles, but the type of ride is unspecified; no submarine-specific fact."
+C01_anchor,gen_C01_situation_medium_near_0_4,2,0,pass,no,"Unlocking a rental ride for short trips is compatible with bike sharing, but the vehicle is not identified; no submarine-specific fact."
+C01_anchor,gen_C01_situation_near_0_4,2,0,pass,no,"Gravel, descents, and balance on a trail are compatible with cycling, but could describe other trail travel; no submarine-specific fact."
+C01_anchor,gen_C01_situation_very_near_0_4,3,0,pass,no,Pedaling home with cargo on a front-loading frame strongly suggests a cargo bicycle; no submarine-specific fact.
+C01_anchor,gen_C01_structure_medium_far_0_2,2,0,pass,no,"A folding frame is compatible with a folding bicycle, but the clue does not identify the vehicle; no submarine-specific fact."
+C01_anchor,gen_C01_structure_unrelated_0_2,0,0,pass,no,"Describes maple leaf structure, with no bicycle or submarine connection."
+C27_Y02,gen_C27_action_far_0_0,3,0,pass,no,A green cooking fruit mashed as a savory side strongly suggests plantain or cooking banana; it gives no papaya-specific detail.
+C27_Y02,gen_C27_action_medium_far_0_0,3,0,pass,no,"Bracing heavily laden stems is a strong match for banana cultivation, but not a papaya-specific fact."
+C27_Y02,gen_C27_action_unrelated_0_0,0,0,pass,no,The pressure-gauge calibration has no apparent relation to either fruit.
+C27_Y02,gen_C27_function_medium_near_0_2,2,1,pass,no,"Mashed banana is a plausible porridge sweetener; other fruit purees, including papaya, could also serve this general use."
+C27_Y02,gen_C27_function_near_0_3,2,0,pass,no,"Using chopped plant material as mulch is broadly plausible for banana plants, but the clue does not establish a papaya-specific fact."
+C27_Y02,gen_C27_function_very_near_0_4,2,1,pass,no,Unripe banana starch is a plausible feedstock for films; the wording is broad enough to apply to other fruit starches and is not papaya-specific.
+C27_Y02,gen_C27_situation_medium_near_0_4,3,0,pass,no,"Taking a whole piece without utensils strongly fits a portable, peelable banana; it does not describe a papaya-specific quality."
+C27_Y02,gen_C27_situation_near_0_3,4,0,fail,no,"The produce code and yellow-item description unmistakably identify bananas, an obvious indirect name for X; nothing points to papaya."
+C27_Y02,gen_C27_situation_very_near_0_4,2,2,pass,no,"Fruit puree in a rum-and-lime cocktail could plausibly be banana or papaya, but the cocktail context is not specific to either."
+C27_Y02,gen_C27_structure_far_0_3,3,3,pass,no,Both fruits are botanical berries and can be elongated rather than spherical; these shared traits do not make the clue papaya-specific.
+C27_Y02,gen_C27_structure_medium_far_0_3,3,0,pass,no,"Tiny undeveloped seeds in creamy pulp strongly fit cultivated bananas; papaya is characteristically described by its prominent black seeds, not this fact."
+C27_Y02,gen_C27_structure_unrelated_0_2,0,0,pass,no,The folded map has no apparent relation to either fruit.
+C27_Y03,gen_C27_action_far_0_0,3,1,pass,no,"The green cooking fruit mashed into a savory side strongly suggests a plantain, a cooking banana; the cooking-fruit context is only a weak overlap with guava. No name or obvious alias appears."
+C27_Y03,gen_C27_action_medium_far_0_0,3,0,pass,no,Bracing heavily laden flowering stems against wind strongly fits banana plants. It does not describe a guava-specific fact or name either fruit.
+C27_Y03,gen_C27_action_unrelated_0_0,0,0,pass,no,Calibrating a pressure gauge is unrelated to either fruit.
+C27_Y03,gen_C27_function_medium_near_0_2,2,1,pass,no,"A mashed portion sweetening porridge is a plausible banana use, but the clue does not identify the fruit. The food use is only weakly relevant to guava as another fruit."
+C27_Y03,gen_C27_function_near_0_3,3,0,pass,no,"Chopped, water-rich stalks used as field mulch strongly suggest banana plant material. This is not a guava-specific fact."
+C27_Y03,gen_C27_function_very_near_0_4,2,1,pass,no,"Starch from unripe fruit used for biodegradable films is compatible with banana, though not unique to it. The generic fruit context is a weak overlap with guava."
+C27_Y03,gen_C27_situation_medium_near_0_4,2,1,pass,no,"Taking a whole, utensil-free fruit along is plausibly about a banana but could fit other fruit. Guava shares only the broad fruit context."
+C27_Y03,gen_C27_situation_near_0_3,4,1,pass,no,"The PLU code 4011 and familiar yellow produce description point distinctly to bananas, but neither is a name or obvious alias. The produce context gives only weak overlap with guava."
+C27_Y03,gen_C27_situation_very_near_0_4,2,1,pass,no,Creamy fruit puree in a cocktail is plausibly banana but is not distinctive. The fruit-puree context is only a weak overlap with guava.
+C27_Y03,gen_C27_structure_far_0_3,4,1,pass,no,"Describing the edible portion as a berry with a non-spherical familiar form strongly points to banana. The botanical-fruit context is a weak overlap with guava, not a guava-specific fact."
+C27_Y03,gen_C27_structure_medium_far_0_3,3,1,pass,no,"Tiny undeveloped seeds in creamy pulp strongly suggest cultivated bananas. Mention of seeds and pulp overlaps weakly with guava’s edible seeds and flesh, but the clue does not state a guava-specific fact."
+C27_Y03,gen_C27_structure_unrelated_0_2,0,0,pass,no,A folded paper map is unrelated to either fruit.
+C27_Y06,gen_C27_action_far_0_0,3,0,pass,no,"The green cooking fruit mashed as a savory side strongly suggests a cooking banana, but neither fruit is named."
+C27_Y06,gen_C27_action_medium_far_0_0,3,1,pass,no,Supporting heavily laden stems is strongly associated with banana cultivation; the stem-support detail is not specific to lychee.
+C27_Y06,gen_C27_action_unrelated_0_0,0,0,pass,no,The clue concerns calibrating a pressure gauge and does not describe either fruit.
+C27_Y06,gen_C27_function_medium_near_0_2,2,1,pass,no,"Mashed fruit as a porridge sweetener is a plausible banana use, but the clue is generic and does not identify lychee."
+C27_Y06,gen_C27_function_near_0_3,3,1,pass,no,Using chopped water-rich stalks as orchard mulch strongly suggests banana plant material; this is not a lychee-specific fact.
+C27_Y06,gen_C27_function_very_near_0_4,2,1,pass,no,"Unripe-fruit starch research is plausibly associated with bananas, but the clue does not identify a fruit and is not lychee-specific."
+C27_Y06,gen_C27_situation_medium_near_0_4,3,1,pass,no,"A portable whole fruit eaten without utensils strongly suggests a banana, while portability alone does not identify lychee."
+C27_Y06,gen_C27_situation_near_0_3,4,0,pass,no,"The produce code and yellow-item description distinctly point to bananas, but do not state the name or an alias."
+C27_Y06,gen_C27_situation_very_near_0_4,2,1,pass,no,"A fruit-puree cocktail is compatible with banana, but the clue is not distinctive to either fruit or specific to lychee."
+C27_Y06,gen_C27_structure_far_0_3,4,0,pass,no,The elongated form and botanical berry description distinctly match banana; the clue does not describe lychee.
+C27_Y06,gen_C27_structure_medium_far_0_3,3,0,pass,no,Tiny undeveloped seeds in creamy pulp strongly suggest cultivated bananas; this does not match the supplied lychee description.
+C27_Y06,gen_C27_structure_unrelated_0_2,0,0,pass,no,The clue describes a folded paper map and has no meaningful connection to either fruit.
+C27_Y09,gen_C27_action_far_0_0,3,1,pass,no,Describes a green cooking banana or plantain preparation; apple is only implicated by the broad fruit context. No direct name or obvious alias appears.
+C27_Y09,gen_C27_action_medium_far_0_0,3,0,pass,no,"Supporting heavily laden flowering stems is strongly associated with banana cultivation, not with an apple-specific fact."
+C27_Y09,gen_C27_action_unrelated_0_0,0,0,pass,no,Pressure-gauge calibration is unrelated to either fruit.
+C27_Y09,gen_C27_function_medium_near_0_2,3,1,pass,no,"Mashed fruit sweetening porridge strongly suggests banana; apples could also be used in porridge, but no apple-specific fact is described."
+C27_Y09,gen_C27_function_near_0_3,3,0,pass,no,Using chopped water-rich stalks as mulch is strongly associated with banana plants and is not an apple-specific fact.
+C27_Y09,gen_C27_function_very_near_0_4,3,1,pass,no,Starch from unripe fruit as a film feedstock is strongly compatible with banana; the fruit wording gives only a weak general connection to apple.
+C27_Y09,gen_C27_situation_medium_near_0_4,3,1,pass,no,"Taking a whole piece of portable fruit without utensils strongly suggests banana; an apple is also portable, but no apple-specific fact is stated."
+C27_Y09,gen_C27_situation_near_0_3,4,0,fail,no,"PLU code 4011 and the familiar yellow produce description distinctly identify banana, an obvious alias-like cue. It does not describe an apple-specific fact."
+C27_Y09,gen_C27_situation_very_near_0_4,3,1,pass,no,Creamy fruit puree in a rum-and-lime cocktail strongly suggests banana; the general fruit context offers only a weak connection to apple.
+C27_Y09,gen_C27_structure_far_0_3,4,0,pass,no,The botanical berry description and non-spherical familiar form distinctly fit banana; apple is not described.
+C27_Y09,gen_C27_structure_medium_far_0_3,4,0,pass,no,"Tiny undeveloped seeds in creamy pulp distinctly describe many cultivated bananas, not an apple-specific fact."
+C27_Y09,gen_C27_structure_unrelated_0_2,0,0,pass,no,"The map description is unrelated to either fruit; “crisp” describes the creases, not an apple-specific property."
+C27_Y10,gen_C27_action_far_0_0,3,1,pass,no,"Describes a plantain-like cooking fruit, strongly related to banana; the only orange connection is the broad fruit context. No target name or obvious alias appears."
+C27_Y10,gen_C27_action_medium_far_0_0,3,1,pass,no,The laden flowering stems and wind protection fit banana cultivation; any orange connection is only the general growing-fruit context. No target name or obvious alias appears.
+C27_Y10,gen_C27_action_unrelated_0_0,0,0,pass,no,The clue concerns calibrating a pressure gauge and has no evident connection to either fruit.
+C27_Y10,gen_C27_function_medium_near_0_2,2,1,pass,no,Mashed fruit used to sweeten porridge is readily explainable for banana; the orange connection is only general fruit use. No target name or obvious alias appears.
+C27_Y10,gen_C27_function_near_0_3,3,1,pass,no,"Using chopped, water-rich stalks as mulch fits banana cultivation; the orange connection is only the broad agricultural fruit context. No target name or obvious alias appears."
+C27_Y10,gen_C27_function_very_near_0_4,3,1,pass,no,Starch from unripe fruit as a film feedstock strongly fits banana; the orange connection is only the generic fruit context. No target name or obvious alias appears.
+C27_Y10,gen_C27_situation_medium_near_0_4,3,1,pass,no,A whole portable piece eaten without utensils strongly fits banana; portability is also broadly applicable to fruit. No target name or obvious alias appears.
+C27_Y10,gen_C27_situation_near_0_3,4,1,pass,no,"The PLU code and familiar yellow produce description distinctly point to banana, without naming it. The orange connection is only the general produce context."
+C27_Y10,gen_C27_situation_very_near_0_4,3,1,pass,no,Creamy fruit purée in a rum-and-lime frozen cocktail strongly fits banana; orange is only a broad cocktail-fruit association. No target name or obvious alias appears.
+C27_Y10,gen_C27_structure_far_0_3,4,1,pass,no,"The edible portion being a non-spherical berry distinctly fits banana. The orange connection is only the general fruit-category context, not an orange-specific fact."
+C27_Y10,gen_C27_structure_medium_far_0_3,3,1,pass,no,Tiny undeveloped seeds in creamy pulp strongly fit cultivated bananas; the orange connection is only the broad fruit context. No target name or obvious alias appears.
+C27_Y10,gen_C27_structure_unrelated_0_2,0,0,pass,no,The clue concerns a folded paper map and has no evident connection to either fruit.
+C27_Y12,gen_C27_action_far_0_0,3,0,pass,no,"Describes plantain, a cooking type of banana; it does not name banana or peach. No peach-specific fact is given."
+C27_Y12,gen_C27_action_medium_far_0_0,2,1,pass,no,Bracing loaded flowering stems is explainable in banana cultivation but is not distinctive; it only weakly overlaps with general fruit-growing context.
+C27_Y12,gen_C27_action_unrelated_0_0,0,0,pass,no,Gauge calibration has no evident connection to either fruit.
+C27_Y12,gen_C27_function_medium_near_0_2,2,1,pass,no,"Mashed fruit as a porridge sweetener fits banana use, but the wording is not specific to either fruit."
+C27_Y12,gen_C27_function_near_0_3,3,0,pass,no,"Using chopped, water-rich stalks as mulch strongly fits banana plants; it does not describe a peach-specific fact."
+C27_Y12,gen_C27_function_very_near_0_4,2,1,pass,no,"Starch from unripe fruit is explainable for bananas, but the clue is broadly about fruit starch rather than peach."
+C27_Y12,gen_C27_situation_medium_near_0_4,3,1,pass,no,"Taking a whole piece along without utensils strongly evokes a portable, peelable banana; portability is only general fruit context for peach."
+C27_Y12,gen_C27_situation_near_0_3,4,0,pass,no,"Produce code 4011 is distinctly associated with bananas, but the clue does not state the name. It gives no peach-specific fact."
+C27_Y12,gen_C27_situation_very_near_0_4,2,1,pass,no,Creamy fruit puree in a cocktail is compatible with banana but is not distinctive; peach is only a possible fruit context.
+C27_Y12,gen_C27_structure_far_0_3,4,0,pass,no,The botanical berry classification and elongated form are distinctive banana characteristics; they do not describe peach.
+C27_Y12,gen_C27_structure_medium_far_0_3,3,0,pass,no,Tiny undeveloped seeds in cultivated varieties strongly fit bananas; this is not a peach-specific fact.
+C27_Y12,gen_C27_structure_unrelated_0_2,0,0,pass,no,A folded paper map has no evident connection to either fruit.
+C27_Y13,gen_C27_action_far_0_0,3,0,pass,no,"The green cooking fruit and savory mash strongly suggest plantain or cooking banana, but no banana name or obvious alias appears; nothing points to plum."
+C27_Y13,gen_C27_action_medium_far_0_0,3,0,pass,no,"Bracing heavily laden stems is strongly associated with banana cultivation, but the clue does not name banana or an obvious alias. It gives no plum-specific fact."
+C27_Y13,gen_C27_action_unrelated_0_0,0,0,pass,no,Gauge calibration has no meaningful connection to either fruit.
+C27_Y13,gen_C27_function_medium_near_0_2,2,1,pass,no,"Mashed banana is a plausible porridge sweetener; the use is not exclusive to banana, and plum could share the broad fruit-and-sweetening context."
+C27_Y13,gen_C27_function_near_0_3,3,0,pass,no,"Using chopped, water-rich stalk material as mulch strongly suggests banana plant residues, without naming banana. It does not describe a plum-specific fact."
+C27_Y13,gen_C27_function_very_near_0_4,2,1,pass,no,"Starch from unripe banana is a plausible example, but the clue says only fruit and does not distinguish banana. Plum shares only the broad fruit context."
+C27_Y13,gen_C27_situation_medium_near_0_4,3,1,pass,no,"Taking a whole fruit along without utensils strongly evokes a portable, peelable banana. Plum could also be carried whole, so that is only a broad shared context."
+C27_Y13,gen_C27_situation_near_0_3,4,0,fail,no,"PLU 4011 directly identifies bananas through a standard produce code, though the fruit is not named. Nothing points to plum."
+C27_Y13,gen_C27_situation_very_near_0_4,2,1,pass,no,"Banana is a plausible creamy fruit puree in this cocktail, but no fruit is named; plum has only a generic possible cocktail-fruit connection."
+C27_Y13,gen_C27_structure_far_0_3,4,0,pass,no,"The botanical-berry classification and elongated form are distinctive banana traits, but no name or obvious alias appears. This does not describe plum."
+C27_Y13,gen_C27_structure_medium_far_0_3,3,0,pass,no,"Tiny undeveloped seeds embedded in creamy pulp strongly suggest cultivated bananas, without naming banana. It is not a plum-specific fact."
+C27_Y13,gen_C27_structure_unrelated_0_2,0,0,pass,no,A folded paper map has no meaningful connection to either fruit.
+C27_Y15,gen_C27_action_far_0_0,3,0,pass,no,Green cooking fruit boiled and mashed is a distinctive banana/plantain-style preparation; no cherry-specific facts.
+C27_Y15,gen_C27_action_medium_far_0_0,2,1,pass,no,"Bracing fruit-bearing stems could fit banana cultivation, but the farming context is not exclusive; it does not describe cherry-specific traits."
+C27_Y15,gen_C27_action_unrelated_0_0,0,0,pass,no,Pressure-gauge calibration is unrelated to either fruit.
+C27_Y15,gen_C27_function_medium_near_0_2,2,1,pass,no,"Mashed fruit used to sweeten porridge fits banana use, but is not exclusive; no cherry-specific facts are given."
+C27_Y15,gen_C27_function_near_0_3,2,0,pass,no,"Chopped, water-rich stalks used as mulch suggest banana-plant material, not a cherry-specific fact."
+C27_Y15,gen_C27_function_very_near_0_4,2,1,pass,no,"Starch from unripe fruit can fit banana research, though the clue is not exclusive to bananas; it gives no cherry-specific trait."
+C27_Y15,gen_C27_situation_medium_near_0_4,3,1,pass,no,"Taking a whole fruit for a commute without utensils strongly fits a portable, peelable banana; this is not specific to cherries."
+C27_Y15,gen_C27_situation_near_0_3,4,0,pass,no,Code 4011 is a distinctive identifier for bananas; the clue does not name either fruit.
+C27_Y15,gen_C27_situation_very_near_0_4,2,1,pass,no,"Creamy fruit puree in a rum-and-lime cocktail can suggest banana, but the recipe context is not exclusive and is not cherry-specific."
+C27_Y15,gen_C27_structure_far_0_3,3,0,pass,no,The botanical-berry description and non-spherical familiar form strongly fit banana; cherry is a stone fruit.
+C27_Y15,gen_C27_structure_medium_far_0_3,3,0,pass,no,Tiny undeveloped seeds in creamy pulp are characteristic of many cultivated bananas; this is not a cherry-specific description.
+C27_Y15,gen_C27_structure_unrelated_0_2,0,0,pass,no,A folded paper map is unrelated to either fruit.
+C27_Y23,gen_C27_action_far_0_0,3,1,pass,no,"Describes a plantain-like cooking fruit, strongly associated with banana; only generic fruit context connects it to cantaloupe."
+C27_Y23,gen_C27_action_medium_far_0_0,3,1,pass,no,"Braced, laden stems strongly suggest banana cultivation, while the connection to cantaloupe is only general plant-growing context."
+C27_Y23,gen_C27_action_unrelated_0_0,0,0,pass,no,Pressure-gauge calibration is unrelated to either fruit.
+C27_Y23,gen_C27_function_medium_near_0_2,2,1,pass,no,"Mashed fruit used to sweeten porridge plausibly refers to banana, but the use is not exclusive to it; cantaloupe shares only generic fruit context."
+C27_Y23,gen_C27_function_near_0_3,3,1,pass,no,"Using chopped, water-rich stalks as mulch strongly suggests banana plant material; the crop-growing context is only weakly related to cantaloupe."
+C27_Y23,gen_C27_function_very_near_0_4,2,1,pass,no,"Starch from unripe fruit plausibly refers to banana, but the description is not exclusive; its cantaloupe connection is generic fruit context."
+C27_Y23,gen_C27_situation_medium_near_0_4,3,1,pass,no,A whole portable piece of produce strongly suggests a banana; cantaloupe is connected only through the general produce context.
+C27_Y23,gen_C27_situation_near_0_3,4,1,pass,no,"PLU code 4011 distinctively identifies bananas, though it is not a name or alias; cantaloupe shares only generic produce context."
+C27_Y23,gen_C27_situation_very_near_0_4,2,1,pass,no,A creamy fruit puree in a cocktail plausibly suggests banana but is not exclusive; cantaloupe has only a generic fruit connection.
+C27_Y23,gen_C27_structure_far_0_3,4,2,pass,no,"The edible berry-like portion and elongated form distinctively describe banana; the contrast with a spherical form is explainably related to cantaloupe's shape, but is not a Y-specific fact."
+C27_Y23,gen_C27_structure_medium_far_0_3,3,1,pass,no,Tiny undeveloped seeds in creamy pulp strongly suggest banana; the connection to cantaloupe is limited to general fruit anatomy.
+C27_Y23,gen_C27_structure_unrelated_0_2,0,0,pass,no,A folded paper map is unrelated to either fruit.
+C27_Y25,gen_C27_action_far_0_0,4,1,pass,no,A green cooking fruit mashed into a savory side strongly points to banana or plantain; the fruit context is only weakly related to palms. No X or Y name or obvious alias appears.
+C27_Y25,gen_C27_action_medium_far_0_0,3,1,pass,no,Bracing heavily laden flowering stems is strongly consistent with cultivated banana plants. The general plant-growing context is only weakly related to palms and describes no palm-specific feature.
+C27_Y25,gen_C27_action_unrelated_0_0,0,0,pass,no,Calibrating a pressure gauge has no meaningful connection to either entity. No X or Y name or obvious alias appears.
+C27_Y25,gen_C27_function_medium_near_0_2,3,1,pass,no,Mashed fruit used to sweeten porridge strongly fits banana; the generic fruit context is only weakly related to palms. No X or Y name or obvious alias appears.
+C27_Y25,gen_C27_function_near_0_3,1,1,pass,no,"Using chopped stalks as mulch is compatible with agricultural plant residue but does not identify banana specifically. It is likewise only broadly related to palms, with no palm-specific fact."
+C27_Y25,gen_C27_function_very_near_0_4,3,1,pass,no,"Starch from unripe fruit used for biodegradable films strongly fits banana research, though the wording is not exclusive to banana. The generic fruit context is only weakly related to palms."
+C27_Y25,gen_C27_situation_medium_near_0_4,3,1,pass,no,A whole portable piece of fruit eaten without utensils strongly suggests a banana. The general fruit context is only weakly related to palms; no X or Y name or obvious alias appears.
+C27_Y25,gen_C27_situation_near_0_3,4,1,pass,no,PLU code 4011 and the familiar yellow produce description distinctly identify banana. The produce context is only weakly related to palms; no X or Y name or obvious alias appears.
+C27_Y25,gen_C27_situation_very_near_0_4,2,1,pass,no,"A creamy fruit puree in a rum-and-lime cocktail could be banana, but the clue does not establish that uniquely. The beachside setting is only a weak contextual association with palms, not a palm-specific fact."
+C27_Y25,gen_C27_structure_far_0_3,4,1,pass,no,Describing an edible portion as a nonspherical berry distinctly fits banana. The general fruit-biology context is only weakly related to palms; no X or Y name or obvious alias appears.
+C27_Y25,gen_C27_structure_medium_far_0_3,3,1,pass,no,"Tiny undeveloped seeds embedded in creamy pulp strongly fit many cultivated bananas, though the trait is not exclusive to them. The generic fruit context is only weakly related to palms."
+C27_Y25,gen_C27_structure_unrelated_0_2,0,0,pass,no,A folded paper map has no meaningful connection to either entity. No X or Y name or obvious alias appears.
+C27_Y29,gen_C27_action_far_0_0,3,1,pass,no,"Describes a cooking fruit consistent with plantain, a banana relative; food preparation is only weakly related to a cutting board."
+C27_Y29,gen_C27_action_medium_far_0_0,3,0,pass,no,"Bracing flowering stems during cultivation is strongly associated with banana growing, but not with a cutting board."
+C27_Y29,gen_C27_action_unrelated_0_0,0,0,pass,no,Pressure-gauge calibration is unrelated to either item.
+C27_Y29,gen_C27_function_medium_near_0_2,2,1,pass,no,A mashed fruit portion used to sweeten porridge could be banana; the food-preparation context is only weakly related to a cutting board.
+C27_Y29,gen_C27_function_near_0_3,3,0,pass,no,"Using chopped, water-rich stalks as mulch strongly suggests banana plant material, but describes an agricultural use, not a cutting board."
+C27_Y29,gen_C27_function_very_near_0_4,2,0,pass,no,"Starch from unripe fruit could be banana starch, though the clue does not identify the fruit; packaging research is not cutting-board-specific."
+C27_Y29,gen_C27_situation_medium_near_0_4,3,0,pass,no,A portable whole piece of fruit eaten without utensils strongly evokes a banana; no cutting-board fact is described.
+C27_Y29,gen_C27_situation_near_0_3,4,0,pass,no,"Produce code 4011 is distinctively associated with bananas, but the clue does not state the name; retail context is not cutting-board-specific."
+C27_Y29,gen_C27_situation_very_near_0_4,2,1,pass,no,"Creamy fruit puree in a blended cocktail could be banana, but is not definitive; blending ingredients is only weakly related to a cutting board."
+C27_Y29,gen_C27_structure_far_0_3,4,0,pass,no,The edible berry that is notably elongated is distinctively consistent with a banana; no cutting-board fact is described.
+C27_Y29,gen_C27_structure_medium_far_0_3,3,0,pass,no,"Tiny undeveloped seeds in creamy pulp strongly suggest cultivated bananas, but the clue does not concern a cutting board."
+C27_Y29,gen_C27_structure_unrelated_0_2,0,0,pass,no,A folded paper map is unrelated to either item.
+C27_Y31,gen_C27_action_far_0_0,3,0,pass,no,"Describes a green cooking fruit prepared in a way strongly associated with plantains, which are closely related to bananas."
+C27_Y31,gen_C27_action_medium_far_0_0,3,0,pass,no,Laden flowering stems and wind protection are strongly associated with banana cultivation.
+C27_Y31,gen_C27_action_unrelated_0_0,0,0,pass,no,Gauge calibration is unrelated to either food.
+C27_Y31,gen_C27_function_medium_near_0_2,3,1,pass,no,Mashed fruit sweetening porridge strongly fits banana; the breakfast context only weakly relates to yogurt.
+C27_Y31,gen_C27_function_near_0_3,2,0,pass,no,"Using chopped stalks as mulch is explainably associated with banana cultivation, but not specifically with the fruit itself."
+C27_Y31,gen_C27_function_very_near_0_4,3,0,pass,no,Starch from unripe fruit as a film feedstock is strongly associated with green bananas.
+C27_Y31,gen_C27_situation_medium_near_0_4,3,0,pass,no,"Taking a whole, portable piece of produce strongly fits a banana; no yogurt-specific fact is described."
+C27_Y31,gen_C27_situation_near_0_3,4,0,pass,no,"The produce code and familiar yellow item are distinctive clues to bananas, but do not name one."
+C27_Y31,gen_C27_situation_very_near_0_4,3,1,pass,no,Creamy fruit puree in a cocktail strongly suggests banana; the creamy-food context only weakly relates to yogurt.
+C27_Y31,gen_C27_structure_far_0_3,4,0,pass,no,The botanical classification as a berry and elongated familiar form are distinctive banana facts.
+C27_Y31,gen_C27_structure_medium_far_0_3,3,0,pass,no,Tiny undeveloped seeds in cultivated varieties strongly fit bananas.
+C27_Y31,gen_C27_structure_unrelated_0_2,0,0,pass,no,A folded paper map is unrelated to either food.
+C27_Y35,gen_C27_action_far_0_0,4,0,pass,no,"Describes a green cooking banana/plantain preparation, but does not name banana or an obvious alias."
+C27_Y35,gen_C27_action_medium_far_0_0,3,0,pass,no,"Bracing laden flowering stems is a recognizable banana-growing practice, but the clue does not name the fruit."
+C27_Y35,gen_C27_action_unrelated_0_0,0,0,pass,no,Gauge calibration has no relevant connection to either item.
+C27_Y35,gen_C27_function_medium_near_0_2,2,0,pass,no,"Mashed fruit can sweeten porridge, a plausible but not banana-specific use."
+C27_Y35,gen_C27_function_near_0_3,3,0,pass,no,Using chopped banana stalks as mulch is a plausible cultivation practice; no banana name or alias appears.
+C27_Y35,gen_C27_function_very_near_0_4,2,0,pass,no,"Unripe banana starch is a plausible film feedstock, but the clue only says fruit and is not distinctive."
+C27_Y35,gen_C27_situation_medium_near_0_4,3,0,pass,no,"Taking a whole peelable fruit along is strongly suggestive of a banana, but not a direct name or alias."
+C27_Y35,gen_C27_situation_near_0_3,4,0,pass,no,PLU code 4011 identifies bananas; the clue signals the item without naming it or giving an alias.
+C27_Y35,gen_C27_situation_very_near_0_4,2,0,pass,no,"A creamy fruit puree could be banana in a cocktail, but the ingredients do not make that distinctive."
+C27_Y35,gen_C27_structure_far_0_3,4,0,pass,no,"The berry classification and elongated shape are distinctive banana traits, but the name is absent."
+C27_Y35,gen_C27_structure_medium_far_0_3,3,0,pass,no,"Tiny undeveloped seeds in creamy cultivated fruit pulp strongly fit bananas, without naming them."
+C27_Y35,gen_C27_structure_unrelated_0_2,0,0,pass,no,A folded paper map has no relevant connection to either item.
+C27_Y36,gen_C27_action_far_0_0,3,0,pass,no,"Green cooking fruit boiled and mashed strongly suggests plantain or banana, but neither is named; no butterfly-specific fact."
+C27_Y36,gen_C27_action_medium_far_0_0,2,0,pass,no,Bracing laden flowering stems is compatible with banana cultivation but is not unique to it; no butterfly-specific fact.
+C27_Y36,gen_C27_action_unrelated_0_0,0,0,pass,no,Gauge calibration is unrelated to either definition.
+C27_Y36,gen_C27_function_medium_near_0_2,3,0,pass,no,"A mashed fruit portion used to sweeten porridge strongly suggests banana, though the clue does not name it; no butterfly-specific fact."
+C27_Y36,gen_C27_function_near_0_3,2,0,pass,no,"Using chopped stalks as mulch is an agricultural practice compatible with banana plants, but not distinctive to them; no butterfly-specific fact."
+C27_Y36,gen_C27_function_very_near_0_4,3,0,pass,no,"Testing starch from unripe fruit for biodegradable films strongly suggests banana, but the material is not uniquely identified; no butterfly-specific fact."
+C27_Y36,gen_C27_situation_medium_near_0_4,4,0,pass,no,"Taking a whole, portable piece of fruit without utensils is a distinctive fit for banana; no butterfly-specific fact."
+C27_Y36,gen_C27_situation_near_0_3,4,0,pass,no,"The familiar yellow produce item and code 4011 distinctly identify banana, without naming it; no butterfly-specific fact."
+C27_Y36,gen_C27_situation_very_near_0_4,3,0,pass,no,"Creamy fruit puree in a rum-and-lime cocktail strongly suggests banana, but does not uniquely identify it; no butterfly-specific fact."
+C27_Y36,gen_C27_structure_far_0_3,4,0,pass,no,The botanical berry description and non-spherical familiar form distinctly fit banana; no butterfly-specific fact.
+C27_Y36,gen_C27_structure_medium_far_0_3,3,0,pass,no,"Tiny undeveloped seeds in creamy pulp strongly fit many cultivated bananas, though the traits are not exclusive; no butterfly-specific fact."
+C27_Y36,gen_C27_structure_unrelated_0_2,0,0,pass,no,A folded paper map is unrelated to either definition.
+C27_Y37,gen_C27_action_far_0_0,3,0,pass,no,"Describes a green cooking fruit consistent with a cooking banana, without naming it."
+C27_Y37,gen_C27_action_medium_far_0_0,3,0,pass,no,Heavily laden flowering stems braced against wind are characteristic of banana cultivation.
+C27_Y37,gen_C27_action_unrelated_0_0,0,0,pass,no,Gauge calibration is unrelated to either item.
+C27_Y37,gen_C27_function_medium_near_0_2,3,0,pass,no,Mashed fruit used to sweeten porridge is a recognizable banana use.
+C27_Y37,gen_C27_function_near_0_3,2,0,pass,no,"Using chopped crop stalks as mulch is plausible in banana cultivation, but the crop is not identified."
+C27_Y37,gen_C27_function_very_near_0_4,2,0,pass,no,Unripe-fruit starch for biodegradable films is compatible with banana research but is not uniquely identifying.
+C27_Y37,gen_C27_situation_medium_near_0_4,3,0,pass,no,A whole portable piece of fruit eaten without utensils strongly fits a banana.
+C27_Y37,gen_C27_situation_near_0_3,4,0,pass,no,The familiar yellow produce item associated with PLU 4011 is a distinctive banana reference.
+C27_Y37,gen_C27_situation_very_near_0_4,2,0,pass,no,"Creamy fruit puree in a cocktail could be banana, but the fruit is not specified."
+C27_Y37,gen_C27_structure_far_0_3,3,0,pass,no,The edible banana is botanically classified as a berry and has an elongated form.
+C27_Y37,gen_C27_structure_medium_far_0_3,3,0,pass,no,Tiny undeveloped seeds in creamy pulp describe many cultivated bananas.
+C27_Y37,gen_C27_structure_unrelated_0_2,0,0,pass,no,A folded paper map is unrelated to either item.
+C27_anchor,gen_C27_action_far_0_0,3,1,pass,no,Describes a green cooking fruit commonly associated with plantains and cooking bananas; pineapple is not identified. The fruit context is only a weak link to Y.
+C27_anchor,gen_C27_action_medium_far_0_0,3,0,pass,no,"Bracing heavily laden flowering stems is strongly associated with banana cultivation, but gives no pineapple-specific information."
+C27_anchor,gen_C27_action_unrelated_0_0,0,0,pass,no,Gauge calibration has no meaningful connection to either fruit.
+C27_anchor,gen_C27_function_medium_near_0_2,2,1,pass,no,"Mashed fruit used to sweeten porridge is compatible with banana, though not uniquely so; the generic fruit use is only weakly related to Y."
+C27_anchor,gen_C27_function_near_0_3,3,0,pass,no,"Using chopped, water-rich stalks as mulch strongly suggests banana crop residues, not a pineapple-specific fact."
+C27_anchor,gen_C27_function_very_near_0_4,2,1,pass,no,Starch from unripe fruit used for biodegradable films is compatible with banana but not distinctive; the generic fruit context is a weak link to Y.
+C27_anchor,gen_C27_situation_medium_near_0_4,3,0,pass,no,"Taking a whole fruit along without utensils strongly evokes a portable, peelable banana; it does not describe pineapple."
+C27_anchor,gen_C27_situation_near_0_3,4,0,pass,no,"PLU code 4011 and the familiar yellow item sold individually are distinctive banana cues, but the name is not stated."
+C27_anchor,gen_C27_situation_very_near_0_4,2,1,pass,no,"Creamy fruit puree in a rum cocktail is compatible with banana, but is not uniquely identifying; cocktail fruit is only weakly related to Y."
+C27_anchor,gen_C27_structure_far_0_3,4,0,pass,no,The edible part being a berry combined with a familiar elongated form distinctly describes banana; pineapple is not a berry.
+C27_anchor,gen_C27_structure_medium_far_0_3,3,0,pass,no,"Tiny undeveloped seeds embedded in creamy pulp strongly evoke cultivated bananas, without describing pineapple."
+C27_anchor,gen_C27_structure_unrelated_0_2,0,0,pass,no,A folded paper map has no meaningful connection to either fruit.
+C35_Y03,gen_C35_action_medium_near_0_0,2,0,pass,no,"A mystery and reading collection suggest books, but no bookshelf or shelving is stated. No dresser-specific facts."
+C35_Y03,gen_C35_action_unrelated_0_0,0,0,pass,no,The clue concerns kayaking and has no relevant furniture or book context.
+C35_Y03,gen_C35_function_medium_far_0_2,3,0,pass,no,"Displaying novels is strongly related to a bookshelf’s use, though the furniture itself is not named. No dresser-specific facts."
+C35_Y03,gen_C35_function_near_0_2,3,0,pass,no,Arranging reading material vertically for access and to free table space strongly suggests bookshelf use. No dresser-specific facts.
+C35_Y03,gen_C35_function_very_near_0_3,3,0,pass,no,A tiered arrangement for displaying editions or chosen reading is strongly related to bookshelf function. No dresser-specific facts.
+C35_Y03,gen_C35_situation_far_0_0,2,0,pass,no,"Novels and a bookmark in a study provide book-related context, but do not specify a bookshelf. No dresser-specific facts."
+C35_Y03,gen_C35_situation_far_0_2,2,0,pass,no,"The clue concerns moving a household’s novels, without specifying their storage furniture. No dresser-specific facts."
+C35_Y03,gen_C35_situation_medium_far_0_4,2,0,pass,no,A professor’s library and first editions create book-related context but do not specify a bookshelf. No dresser-specific facts.
+C35_Y03,gen_C35_situation_near_0_4,2,0,pass,no,"Choosing a story from a family collection is book-related, but no storage furniture is specified. No dresser-specific facts."
+C35_Y03,gen_C35_situation_very_near_0_4,3,0,pass,no,"Displaying picture books outward is strongly related to bookshelf use, though the furniture is not named. No dresser-specific facts."
+C35_Y03,gen_C35_structure_medium_near_0_2,3,0,pass,no,A collection of book spines forming a study-wall focal point strongly suggests books displayed on shelving. No dresser-specific facts.
+C35_Y03,gen_C35_structure_unrelated_0_2,0,0,pass,no,The clue describes a nautilus shell and has no relevant furniture or book context.
+C35_Y04,gen_C35_action_medium_near_0_0,2,0,pass,no,Choosing a book from a nearby collection is explainably associated with book storage; no sideboard-specific detail.
+C35_Y04,gen_C35_action_unrelated_0_0,0,0,pass,no,Kayaking details are unrelated to either furnishing.
+C35_Y04,gen_C35_function_medium_far_0_2,3,0,pass,no,"Displaying novels in a study strongly evokes book storage, but says nothing specific about a sideboard."
+C35_Y04,gen_C35_function_near_0_2,3,0,pass,no,Vertically arranging reading material for convenient access strongly evokes book storage; table space alone is not sideboard-specific.
+C35_Y04,gen_C35_function_very_near_0_3,3,0,pass,no,Tiered display positions for books strongly evoke book storage; no sideboard-specific feature is described.
+C35_Y04,gen_C35_situation_far_0_0,2,0,pass,no,"A row of novels in a study is explainably associated with a bookshelf, without identifying one directly."
+C35_Y04,gen_C35_situation_far_0_2,1,0,pass,no,"The novels provide a weak book-related association, but the clue concerns moving them rather than furniture."
+C35_Y04,gen_C35_situation_medium_far_0_4,1,0,pass,no,"A professor’s library and editions concern books, but not a particular storage furnishing."
+C35_Y04,gen_C35_situation_near_0_4,2,0,pass,no,Choosing a story from a family book collection is explainably associated with book storage; no sideboard-specific detail.
+C35_Y04,gen_C35_situation_very_near_0_4,2,0,pass,no,"Outward-facing picture books suggest book display, but the clue does not describe a sideboard."
+C35_Y04,gen_C35_structure_medium_near_0_2,3,0,pass,no,A colorful wall display of book spines strongly evokes book storage; no sideboard-specific facts.
+C35_Y04,gen_C35_structure_unrelated_0_2,0,0,pass,no,The shell’s spiral growth is unrelated to either furnishing.
+C35_Y06,gen_C35_action_medium_near_0_0,2,1,pass,no,A collection of books near a reading chair is explainably related to book storage; it only weakly shares the broader context of displaying or keeping valued objects.
+C35_Y06,gen_C35_action_unrelated_0_0,0,0,pass,no,The kayaking activity is unrelated to either furnishing.
+C35_Y06,gen_C35_function_medium_far_0_2,3,2,pass,no,"A dedicated display for novels is strongly related to furnishing for books and explainably related to displaying objects, but it does not describe a glass-fronted case or its specific use."
+C35_Y06,gen_C35_function_near_0_2,3,1,pass,no,Vertically arranging reading material for convenient access strongly fits book-storage furniture; the clue does not describe a display case.
+C35_Y06,gen_C35_function_very_near_0_3,3,2,pass,no,"Tiered placement of prized editions strongly fits arranging books and can be associated with displaying valued objects, but no case-specific feature is given."
+C35_Y06,gen_C35_situation_far_0_0,2,1,pass,no,Novels in a study provide an explainable book-storage context; the bookmark and row of novels do not describe a display case.
+C35_Y06,gen_C35_situation_far_0_2,1,1,pass,no,"Moving household novels is weakly related through the books themselves, without describing either furnishing."
+C35_Y06,gen_C35_situation_medium_far_0_4,2,1,pass,no,An inherited library and its editions are explainably related to book storage; identifying books for donation does not describe display-case use.
+C35_Y06,gen_C35_situation_near_0_4,2,1,pass,no,"Choosing stories from a family collection is explainably related to keeping books, but only weakly related to displaying objects."
+C35_Y06,gen_C35_situation_very_near_0_4,2,2,pass,no,"Outward-facing picture books are an explainable example of displaying books, but the clue does not identify a glass-fronted furnishing."
+C35_Y06,gen_C35_structure_medium_near_0_2,3,2,pass,no,"Book spines forming a colorful focal point on a study wall strongly evoke book-storage furniture and are explainably related to display, without describing a display case."
+C35_Y06,gen_C35_structure_unrelated_0_2,0,0,pass,no,The nautilus shell's growth pattern is unrelated to either furnishing.
+C35_Y08,gen_C35_action_medium_near_0_0,2,1,pass,no,A mystery collection and reading chair suggest books but do not identify their storage furniture; the reading setting is only weakly related to a secretary desk.
+C35_Y08,gen_C35_action_unrelated_0_0,0,0,pass,no,The clue concerns kayaking and has no relevant book-storage or desk features.
+C35_Y08,gen_C35_function_medium_far_0_2,3,1,pass,no,A dedicated display for novels strongly evokes book storage; a study room is only shared context with a secretary desk.
+C35_Y08,gen_C35_function_near_0_2,3,1,pass,no,"Vertically arranging reading material to save table space strongly suggests shelving, while table space alone is only weakly desk-related."
+C35_Y08,gen_C35_function_very_near_0_3,3,0,pass,no,"Tiered positions for editions or chosen reading strongly evoke book display, with no secretary-desk-specific feature."
+C35_Y08,gen_C35_situation_far_0_0,2,1,pass,no,"A row of novels suggests book storage, and the study setting provides only weak contextual overlap with a secretary desk."
+C35_Y08,gen_C35_situation_far_0_2,1,1,pass,no,The clue mentions novels but not how they are stored; a study is only shared context with a secretary desk.
+C35_Y08,gen_C35_situation_medium_far_0_4,2,1,pass,no,A professor’s library and first editions concern books but do not specify shelving; the academic setting is weakly desk-related.
+C35_Y08,gen_C35_situation_near_0_4,2,1,pass,no,"Choosing a story from a family collection suggests books, while the armchair setting is only weakly related to a secretary desk."
+C35_Y08,gen_C35_situation_very_near_0_4,3,0,pass,no,"Picture books facing outward strongly evoke a book-display fixture, with no secretary-desk-specific feature."
+C35_Y08,gen_C35_structure_medium_near_0_2,3,1,pass,no,A collection of book spines displayed along a study wall strongly evokes book storage; the study context is only weakly desk-related.
+C35_Y08,gen_C35_structure_unrelated_0_2,0,0,pass,no,The clue describes a nautilus shell and does not concern books or work furniture.
+C35_Y14,gen_C35_action_medium_near_0_0,1,1,pass,no,A mystery collection suggests books but not their storage; a reading chair shares only a general seating context with a bench. No target names or aliases appear.
+C35_Y14,gen_C35_action_unrelated_0_0,0,0,pass,no,The clue concerns kayaking and has no meaningful connection to either definition or any target name.
+C35_Y14,gen_C35_function_medium_far_0_2,3,0,pass,no,"A dedicated display for novels strongly describes a bookshelf’s function, without naming it. No bench-specific facts or target names appear."
+C35_Y14,gen_C35_function_near_0_2,3,0,pass,no,Storing reading material vertically to keep it accessible strongly suggests bookshelf use. No bench-specific facts or target names appear.
+C35_Y14,gen_C35_function_very_near_0_3,3,0,pass,no,"Tiered placement of editions and reading selections strongly suggests a bookshelf, though no furniture is named. No bench-specific facts or target names appear."
+C35_Y14,gen_C35_situation_far_0_0,2,0,pass,no,"A row of novels in a study makes bookshelf storage a plausible context, but does not describe the furniture itself. No bench-specific facts or target names appear."
+C35_Y14,gen_C35_situation_far_0_2,1,0,pass,no,"The novels provide a weak book-related connection, but the clue is about moving them during repairs, not their storage. No bench-specific facts or target names appear."
+C35_Y14,gen_C35_situation_medium_far_0_4,1,0,pass,no,"The clue concerns a library and books, but not the furniture used to hold them. No bench-specific facts or target names appear."
+C35_Y14,gen_C35_situation_near_0_4,1,1,pass,no,A family collection suggests books but not their storage; an armchair shares only a general seating context with a bench. No target names or aliases appear.
+C35_Y14,gen_C35_situation_very_near_0_4,2,0,pass,no,"Picture books displayed facing outward make bookshelf-like display plausible, but the clue does not specify the furniture. No bench-specific facts or target names appear."
+C35_Y14,gen_C35_structure_medium_near_0_2,3,0,pass,no,Book spines arranged against a study wall strongly suggest a bookshelf display. No bench-specific facts or target names appear.
+C35_Y14,gen_C35_structure_unrelated_0_2,0,0,pass,no,The clue describes a shell’s growth pattern and has no meaningful connection to either definition or any target name.
+C35_Y17,gen_C35_action_medium_near_0_0,2,1,pass,no,"The mystery collection suggests stored books, while a reading chair is generic seating context, not a recliner-specific fact."
+C35_Y17,gen_C35_action_unrelated_0_0,0,0,pass,no,Kayaking details do not relate to either furniture item.
+C35_Y17,gen_C35_function_medium_far_0_2,3,0,pass,no,A display for novels strongly suggests bookshelf function; it says nothing about reclining seating.
+C35_Y17,gen_C35_function_near_0_2,4,0,pass,no,Storing reading material vertically while keeping it accessible directly and distinctively describes bookshelf use.
+C35_Y17,gen_C35_function_very_near_0_3,3,0,pass,no,"A tiered arrangement for displaying editions or new reading strongly suggests shelving, without describing a recliner."
+C35_Y17,gen_C35_situation_far_0_0,2,0,pass,no,A bookmark and row of novels provide an explainable book-storage context but do not identify furniture directly.
+C35_Y17,gen_C35_situation_far_0_2,1,0,pass,no,Carrying novels from a study is only weakly related to book storage and says nothing about seating.
+C35_Y17,gen_C35_situation_medium_far_0_4,1,0,pass,no,A professor's library and book donation are weakly related to bookshelves but describe no furniture.
+C35_Y17,gen_C35_situation_near_0_4,2,1,pass,no,"Choosing stories from a collection suggests book storage; an armchair is generic seating, not a recliner-specific fact."
+C35_Y17,gen_C35_situation_very_near_0_4,2,0,pass,no,"Outward-facing picture books suggest a display or storage surface, but no recliner-related detail appears."
+C35_Y17,gen_C35_structure_medium_near_0_2,3,0,pass,no,Book spines arranged along a study wall strongly suggest shelving; there is no seating detail.
+C35_Y17,gen_C35_structure_unrelated_0_2,0,0,pass,no,The shell's growth pattern is unrelated to either item.
+C35_Y22,gen_C35_action_medium_near_0_0,1,0,pass,no,"A mystery collection suggests books but does not describe a bookshelf; nothing refers to coats, hats, or a coat rack."
+C35_Y22,gen_C35_action_unrelated_0_0,0,0,pass,no,The clue concerns kayaking and does not describe either item.
+C35_Y22,gen_C35_function_medium_far_0_2,4,0,pass,no,"A dedicated display for novels directly describes a bookshelf’s function, without naming it; nothing is specific to a coat rack."
+C35_Y22,gen_C35_function_near_0_2,4,0,pass,no,Vertically arranging reading material to keep references accessible directly describes a bookshelf’s use; nothing is specific to a coat rack.
+C35_Y22,gen_C35_function_very_near_0_3,3,0,pass,no,"Tiered positions for editions or reading material strongly suggest a bookshelf, though the clue does not state the item; nothing is specific to a coat rack."
+C35_Y22,gen_C35_situation_far_0_0,2,0,pass,no,"A row of novels in a study is explainably associated with a bookshelf, but no shelf is stated; nothing is specific to a coat rack."
+C35_Y22,gen_C35_situation_far_0_2,1,0,pass,no,The clue mentions household novels but not how they are stored; nothing refers to a coat rack.
+C35_Y22,gen_C35_situation_medium_far_0_4,1,0,pass,no,"A professor’s library and first editions are weakly associated with bookshelves, but the clue does not describe one; nothing is specific to a coat rack."
+C35_Y22,gen_C35_situation_near_0_4,1,0,pass,no,Choosing a story from a family collection mentions books only indirectly in relation to a bookshelf; nothing is specific to a coat rack.
+C35_Y22,gen_C35_situation_very_near_0_4,3,0,pass,no,"Picture books displayed facing outward strongly suggest book storage or display, though no bookshelf is named; nothing is specific to a coat rack."
+C35_Y22,gen_C35_structure_medium_near_0_2,3,0,pass,no,"A colorful row of book spines on a study wall strongly suggests a bookshelf; nothing refers to coats, hats, or a coat rack."
+C35_Y22,gen_C35_structure_unrelated_0_2,0,0,pass,no,The clue describes a nautilus shell and does not describe either item.
+C35_Y25,gen_C35_action_medium_near_0_0,1,2,pass,uncertain,"A mystery chosen from a collection may be a book, but the clue does not identify the item or mention a bookshelf."
+C35_Y25,gen_C35_action_unrelated_0_0,0,0,pass,no,The clue concerns kayaking and has no meaningful connection to either definition.
+C35_Y25,gen_C35_function_medium_far_0_2,3,3,pass,yes,"Displaying novels is a strong bookshelf-related function; novels are a type of book, though neither target name nor alias appears."
+C35_Y25,gen_C35_function_near_0_2,4,2,pass,no,"Vertical organization that frees table space directly evokes a bookshelf function, while the broader reading materials are not specifically books."
+C35_Y25,gen_C35_function_very_near_0_3,3,3,pass,yes,"A tiered arrangement suggests bookshelf display, and prized editions are specifically associated with books."
+C35_Y25,gen_C35_situation_far_0_0,1,3,pass,yes,The row of novels suggests stored books but does not identify the furniture; novels are a type of book.
+C35_Y25,gen_C35_situation_far_0_2,1,3,pass,yes,"The clue concerns novels being moved, but does not mention the furniture holding them."
+C35_Y25,gen_C35_situation_medium_far_0_4,0,3,pass,yes,First editions and inscribed copies are specifically book-related; no bookshelf is described.
+C35_Y25,gen_C35_situation_near_0_4,1,2,pass,uncertain,"A bedtime story from a family collection may come from a book, but could also be told or otherwise presented."
+C35_Y25,gen_C35_situation_very_near_0_4,3,4,fail,yes,Outward-facing picture books indicate a display arrangement and directly name books.
+C35_Y25,gen_C35_structure_medium_near_0_2,3,3,pass,yes,Spines arranged against a study wall strongly suggest a bookshelf and specifically evoke bound books.
+C35_Y25,gen_C35_structure_unrelated_0_2,0,0,pass,no,"The clue describes a nautilus shell, unrelated to either definition."
+C35_Y26,gen_C35_action_medium_near_0_0,1,0,pass,no,"A collection of reading material is weakly related to book storage, but no furniture is described. No magazine-specific facts."
+C35_Y26,gen_C35_action_unrelated_0_0,0,0,pass,no,The clue concerns kayaking and has no relevant connection to either definition.
+C35_Y26,gen_C35_function_medium_far_0_2,3,0,pass,no,A dedicated display for novels strongly suggests furniture used to hold books. No magazine-specific facts.
+C35_Y26,gen_C35_function_near_0_2,3,0,pass,no,Arranging reading material vertically and keeping references accessible strongly describes book-storage furniture. No magazine-specific facts.
+C35_Y26,gen_C35_function_very_near_0_3,3,0,pass,no,"A tiered arrangement with places for editions and reading material strongly suggests shelving, though it does not name the furniture. No magazine-specific facts."
+C35_Y26,gen_C35_situation_far_0_0,1,0,pass,no,"Novels in a study provide weak book-related context, but the clue does not describe storage furniture. No magazine-specific facts."
+C35_Y26,gen_C35_situation_far_0_2,1,0,pass,no,"The clue involves carrying novels, not furniture used to hold them. No magazine-specific facts."
+C35_Y26,gen_C35_situation_medium_far_0_4,1,0,pass,no,"The clue concerns a library collection and identifying editions, but does not describe book-storage furniture. No magazine-specific facts."
+C35_Y26,gen_C35_situation_near_0_4,1,0,pass,no,"Choosing a story from a collection is weakly related to books, but no storage furniture is described. No magazine-specific facts."
+C35_Y26,gen_C35_situation_very_near_0_4,2,0,pass,no,"Books facing outward for display are plausibly arranged on book-storage furniture, though the furniture itself is not identified. No magazine-specific facts."
+C35_Y26,gen_C35_structure_medium_near_0_2,3,0,pass,no,A wall of book spines as a display strongly suggests book-storage furniture. No magazine-specific facts.
+C35_Y26,gen_C35_structure_unrelated_0_2,0,0,pass,no,The clue describes a shell’s growth pattern and has no relevant connection to either definition.
+C35_Y29,gen_C35_action_medium_near_0_0,1,1,pass,no,Choosing a book from a collection is only indirectly associated with a bookshelf or library; no institution-specific fact is described.
+C35_Y29,gen_C35_action_unrelated_0_0,0,0,pass,no,The kayaking activity is unrelated to either definition.
+C35_Y29,gen_C35_function_medium_far_0_2,3,1,pass,no,"A dedicated display for novels strongly suggests a bookshelf, while a study and literary character do not establish a library."
+C35_Y29,gen_C35_function_near_0_2,4,1,pass,no,Storing reading material vertically to save table space closely describes bookshelf function; it does not describe a library institution.
+C35_Y29,gen_C35_function_very_near_0_3,3,1,pass,no,"A tiered arrangement for displaying editions or selected reading strongly suggests a bookshelf, but not a library institution."
+C35_Y29,gen_C35_situation_far_0_0,2,1,pass,no,A row of novels in a study is explainably associated with a bookshelf; it gives no library-specific information.
+C35_Y29,gen_C35_situation_far_0_2,1,1,pass,no,Moving household novels is only weakly associated with book storage and does not describe a library.
+C35_Y29,gen_C35_situation_medium_far_0_4,2,4,fail,no,"The clue directly says “library,” so it has direct Y-name exposure; here it appears to mean an inherited book collection, not facts about a library institution. The identified books are only indirectly related to a bookshelf."
+C35_Y29,gen_C35_situation_near_0_4,1,1,pass,no,"Choosing a story from a family collection is weakly associated with book storage or organized reading materials, but is not library-specific."
+C35_Y29,gen_C35_situation_very_near_0_4,2,1,pass,no,Outward-facing picture books suggest a display or shelving arrangement; a museum listening station does not describe a library.
+C35_Y29,gen_C35_structure_medium_near_0_2,3,1,pass,no,Visible book spines arranged along a study wall strongly suggest a bookshelf; this is not a library-specific fact.
+C35_Y29,gen_C35_structure_unrelated_0_2,0,0,pass,no,The shell’s growth pattern is unrelated to either definition.
+C35_Y30,gen_C35_action_medium_near_0_0,2,1,pass,no,"A collection of books near a reading chair indirectly evokes book storage and reading, but does not mention glasses or readers."
+C35_Y30,gen_C35_action_unrelated_0_0,0,0,pass,no,Kayaking has no notable connection to either defined item.
+C35_Y30,gen_C35_function_medium_far_0_2,3,1,pass,no,Displaying novels in a study strongly suggests book-storage furniture; the literary context only weakly evokes reading glasses.
+C35_Y30,gen_C35_function_near_0_2,4,1,pass,no,Vertically arranging reading material while saving table space closely describes bookshelf use; reading itself is only a weak connection to glasses.
+C35_Y30,gen_C35_function_very_near_0_3,3,1,pass,no,"Tiered positions for editions or new reading strongly suggest shelving, while the reading context is not specific to glasses."
+C35_Y30,gen_C35_situation_far_0_0,2,1,pass,no,A row of novels in a study indirectly suggests book storage; a bookmark and novels weakly evoke reading but not eyewear.
+C35_Y30,gen_C35_situation_far_0_2,1,1,pass,no,Moving novels provides only a weak book-storage association; nothing describes reading glasses.
+C35_Y30,gen_C35_situation_medium_far_0_4,1,1,pass,no,"A library of books weakly evokes storage furniture and reading, but neither item is specifically described."
+C35_Y30,gen_C35_situation_near_0_4,2,1,pass,no,A family collection of stories indirectly suggests book storage; choosing a story is only a weak reading-glasses association.
+C35_Y30,gen_C35_situation_very_near_0_4,2,1,pass,no,Outward-facing picture books suggest a display or storage arrangement; the listening and story context is not specific to glasses.
+C35_Y30,gen_C35_structure_medium_near_0_2,3,1,pass,no,Book spines arranged against a study wall strongly suggest shelving; books provide only a weak indirect connection to reading glasses.
+C35_Y30,gen_C35_structure_unrelated_0_2,0,0,pass,no,A nautilus shell’s growth pattern has no notable connection to either defined item.
+C35_Y32,gen_C35_action_medium_near_0_0,1,0,pass,no,"A mystery collection suggests books, but does not specifically describe the furniture; no X or Y name or obvious alias appears."
+C35_Y32,gen_C35_action_unrelated_0_0,0,0,pass,no,The clue concerns kayaking and has no evident connection to either item; no X or Y name or obvious alias appears.
+C35_Y32,gen_C35_function_medium_far_0_2,3,0,pass,no,"A dedicated display for novels strongly describes the function of a bookshelf, without naming it; no X or Y name or obvious alias appears."
+C35_Y32,gen_C35_function_near_0_2,3,0,pass,no,Vertically arranging reading material to save space and keep references nearby strongly fits bookshelf use; no X or Y name or obvious alias appears.
+C35_Y32,gen_C35_function_very_near_0_3,3,0,pass,no,Tiered placement of prized editions or reading strongly suggests a bookshelf’s arrangement and purpose; no X or Y name or obvious alias appears.
+C35_Y32,gen_C35_situation_far_0_0,1,0,pass,no,"Novels in a study provide a weak books-related association, but no furniture is described; no X or Y name or obvious alias appears."
+C35_Y32,gen_C35_situation_far_0_2,1,0,pass,no,"The clue concerns moving novels, not the furniture that might hold them; no X or Y name or obvious alias appears."
+C35_Y32,gen_C35_situation_medium_far_0_4,1,0,pass,no,A professor’s library and editions are book-related context but do not describe a bookshelf; no X or Y name or obvious alias appears.
+C35_Y32,gen_C35_situation_near_0_4,1,0,pass,no,"Choosing a story from a family collection weakly relates through books, without describing the furniture; no X or Y name or obvious alias appears."
+C35_Y32,gen_C35_situation_very_near_0_4,2,0,pass,no,"Outward-facing picture books suggest a book-display arrangement, though the furniture itself is not specified; no X or Y name or obvious alias appears."
+C35_Y32,gen_C35_structure_medium_near_0_2,3,0,pass,no,A row of book spines furnishing a study wall strongly suggests a bookshelf; no X or Y name or obvious alias appears.
+C35_Y32,gen_C35_structure_unrelated_0_2,0,0,pass,no,The clue describes a nautilus shell’s growth and has no evident connection to either item; no X or Y name or obvious alias appears.
+C35_Y35,gen_C35_action_medium_near_0_0,2,0,pass,no,"A mystery from a collection suggests books, but does not mention shelving; no dolphin connection."
+C35_Y35,gen_C35_action_unrelated_0_0,0,1,pass,no,"Kayaking in a cove shares a broad aquatic setting, not a dolphin-specific fact."
+C35_Y35,gen_C35_function_medium_far_0_2,3,0,pass,no,"A display for novels in a study strongly suggests a bookshelf, without naming one."
+C35_Y35,gen_C35_function_near_0_2,3,0,pass,no,Arranging reading material vertically describes a bookshelf-like function.
+C35_Y35,gen_C35_function_very_near_0_3,3,0,pass,no,Tiered positions for editions or reading choices strongly suggest a bookshelf.
+C35_Y35,gen_C35_situation_far_0_0,2,0,pass,no,"A row of novels suggests a book collection, but not specifically a bookshelf."
+C35_Y35,gen_C35_situation_far_0_2,2,0,pass,no,"The household novels relate to books, but the clue does not describe shelving."
+C35_Y35,gen_C35_situation_medium_far_0_4,2,0,pass,no,"A professor’s library and first editions concern books, but not specifically bookshelves."
+C35_Y35,gen_C35_situation_near_0_4,2,0,pass,no,"Choosing a story from a family collection concerns books, without describing a bookshelf."
+C35_Y35,gen_C35_situation_very_near_0_4,3,0,pass,no,Picture books displayed facing outward strongly suggest book display or shelving.
+C35_Y35,gen_C35_structure_medium_near_0_2,3,0,pass,no,Book spines arranged against a study wall strongly suggest a bookshelf.
+C35_Y35,gen_C35_structure_unrelated_0_2,0,1,pass,no,"A nautilus is a marine animal, sharing only broad aquatic context with dolphins."
+C35_Y38,gen_C35_action_medium_near_0_0,2,0,pass,no,"Mentions choosing a mystery from a collection, indirectly associated with storing books; no X or Y name or alias."
+C35_Y38,gen_C35_action_unrelated_0_0,0,0,pass,no,Describes kayaking and contains no relevant book or apple details.
+C35_Y38,gen_C35_function_medium_far_0_2,4,0,pass,no,"Describes a dedicated display for novels, a distinctive description of X without naming it."
+C35_Y38,gen_C35_function_near_0_2,4,0,pass,no,"Describes vertically arranging reading material for storage and access, a distinctive function of X."
+C35_Y38,gen_C35_function_very_near_0_3,3,0,pass,no,"Describes tiered positions for editions and reading, strongly suggesting furniture for books without naming X."
+C35_Y38,gen_C35_situation_far_0_0,2,0,pass,no,"A search near novels in a study is indirectly associated with X, but does not describe it specifically."
+C35_Y38,gen_C35_situation_far_0_2,1,0,pass,no,"Mentions moving novels during a repair, only weakly associated with X."
+C35_Y38,gen_C35_situation_medium_far_0_4,2,0,pass,no,"A professor’s library and its books are indirectly associated with X, but no storage furniture is described."
+C35_Y38,gen_C35_situation_near_0_4,2,0,pass,no,"Choosing a story from a family collection is indirectly associated with X, without describing it."
+C35_Y38,gen_C35_situation_very_near_0_4,3,0,pass,no,"Picture books facing outward suggests a book-display arrangement, strongly related to X but not a direct name or alias."
+C35_Y38,gen_C35_structure_medium_near_0_2,3,0,pass,no,Book spines forming a colorful focal point on a study wall strongly suggests X without naming it.
+C35_Y38,gen_C35_structure_unrelated_0_2,0,0,pass,no,Describes a nautilus shell’s growth and contains no relevant book or apple details.
+C35_Y39,gen_C35_action_medium_near_0_0,2,0,pass,no,"Choosing a mystery from a collection suggests books and their storage, but does not identify a bookshelf. No hammer-related content."
+C35_Y39,gen_C35_action_unrelated_0_0,0,0,pass,no,The cue concerns kayaking and has no apparent connection to either item.
+C35_Y39,gen_C35_function_medium_far_0_2,3,0,pass,no,"A dedicated display for novels strongly suggests book-storage furniture, without naming it. No hammer-related content."
+C35_Y39,gen_C35_function_near_0_2,4,0,pass,no,Arranging reading material vertically to save space closely describes a bookshelf’s function. No hammer-related content.
+C35_Y39,gen_C35_function_very_near_0_3,4,0,pass,no,A tiered arrangement for displaying prized or newly chosen books closely evokes bookshelf structure and use. No hammer-related content.
+C35_Y39,gen_C35_situation_far_0_0,2,0,pass,no,"A row of novels in a study makes book storage plausible, but does not specify a bookshelf. No hammer-related content."
+C35_Y39,gen_C35_situation_far_0_2,1,0,pass,no,"The cue mentions household novels and a study, but only as context for a repair. No hammer-related content."
+C35_Y39,gen_C35_situation_medium_far_0_4,1,0,pass,no,A professor’s library and its books are weakly related to bookshelf context; no furniture is described. No hammer-related content.
+C35_Y39,gen_C35_situation_near_0_4,1,0,pass,no,"Choosing a story from a family collection concerns reading material, but does not describe its storage. No hammer-related content."
+C35_Y39,gen_C35_situation_very_near_0_4,3,0,pass,no,"Picture books displayed facing outward strongly suggest book-display furniture, though none is named. No hammer-related content."
+C35_Y39,gen_C35_structure_medium_near_0_2,3,0,pass,no,A collection of book spines forming a colorful focal point on a study wall strongly suggests bookshelf display. No hammer-related content.
+C35_Y39,gen_C35_structure_unrelated_0_2,0,0,pass,no,The cue describes a shell’s growth pattern and has no apparent connection to either item.
+C35_anchor,gen_C35_action_medium_near_0_0,2,0,pass,no,"A book collection and reading chair make a bookshelf connection explainable, but the clue does not describe one."
+C35_anchor,gen_C35_action_unrelated_0_0,0,0,pass,no,The clue concerns kayaking and has no evident connection to either item.
+C35_anchor,gen_C35_function_medium_far_0_2,3,0,pass,no,"Displaying novels is strongly associated with a bookshelf, but no bookshelf name appears."
+C35_anchor,gen_C35_function_near_0_2,3,0,pass,no,"Vertically arranging reading material for convenient access strongly evokes a bookshelf, without naming one."
+C35_anchor,gen_C35_function_very_near_0_3,3,0,pass,no,"Tiered positions for editions or reading material strongly suggest bookshelf use, but do not name the item."
+C35_anchor,gen_C35_situation_far_0_0,2,0,pass,no,"Novels in a study provide an explainable bookshelf context, but the clue does not describe furniture."
+C35_anchor,gen_C35_situation_far_0_2,1,0,pass,no,The novels create a weak indirect connection to bookshelves; the clue is about moving them during repairs.
+C35_anchor,gen_C35_situation_medium_far_0_4,2,0,pass,no,"A professor’s library and editions have an explainable bookshelf association, but no bookshelf is described."
+C35_anchor,gen_C35_situation_near_0_4,2,0,pass,no,"A family story collection has an explainable bookshelf connection, but the clue does not describe one."
+C35_anchor,gen_C35_situation_very_near_0_4,3,0,pass,no,"Picture books displayed facing outward strongly suggest a book display, but no bookshelf is named."
+C35_anchor,gen_C35_structure_medium_near_0_2,3,0,pass,no,"A collection of book spines arranged against a study wall strongly evokes a bookshelf, without naming one."
+C35_anchor,gen_C35_structure_unrelated_0_2,0,0,pass,no,The clue describes a shell’s growth and has no evident connection to either item.
+C23_Y01,gen_C23_action_far_0_0,2,2,pass,no,Mouthpiece buzzing is a brass-player practice that can apply to either instrument; no target name or alias appears.
+C23_Y01,gen_C23_action_unrelated_0_0,0,0,pass,no,The clue concerns baking and has no relevant instrument connection or target name.
+C23_Y01,gen_C23_action_very_near_0_0,3,3,pass,no,"Using valves with breath to change pitch strongly describes playing either instrument, but is not specific to the French horn."
+C23_Y01,gen_C23_action_very_near_0_2,2,2,pass,no,"Finger controls and steady breath fit valve brass playing generally, not the French horn uniquely."
+C23_Y01,gen_C23_function_medium_far_0_3,2,1,pass,no,"Scooping notes is an expressive brass-playing technique, more associated with trumpet than French horn, but not exclusive to either."
+C23_Y01,gen_C23_function_medium_near_0_3,1,1,pass,no,"Cheerful notes at a gathering could be played on either instrument, but the context does not identify one."
+C23_Y01,gen_C23_function_near_0_2,3,1,pass,no,Military fanfares are strongly associated with trumpet; the connection to French horn is only a broad brass-instrument association.
+C23_Y01,gen_C23_situation_far_0_1,2,2,pass,no,"A brassy flourish fits either instrument at a procession, without distinguishing between them."
+C23_Y01,gen_C23_situation_medium_far_0_3,2,1,pass,no,"An orchestral flourish could involve trumpet, while the general theater-orchestra context gives only a weaker connection to French horn."
+C23_Y01,gen_C23_situation_medium_near_0_4,2,2,pass,no,A brass player adding harmony could be either instrument; the caroling context is not French-horn-specific.
+C23_Y01,gen_C23_situation_near_0_4,3,2,pass,no,"A brass section playing a fight-song motif is strongly associated with trumpet, though French horn can also occur in a brass section."
+C23_Y01,gen_C23_structure_unrelated_0_2,0,0,pass,no,The clue describes ladder construction and has no relevant instrument connection or target name.
+C23_Y04,gen_C23_action_far_0_0,2,2,pass,no,"Mouthpiece buzzing is a general brass practice technique, not specific to either instrument."
+C23_Y04,gen_C23_action_unrelated_0_0,0,0,pass,no,"Describes baking, with no relevant instrument connection."
+C23_Y04,gen_C23_action_very_near_0_0,3,3,pass,no,"Valve use and breath control strongly fit both instruments, which have valves; the clue does not distinguish them."
+C23_Y04,gen_C23_action_very_near_0_2,3,3,pass,no,"Finger controls and steady breath strongly fit both valve brass instruments, without distinguishing either one."
+C23_Y04,gen_C23_function_medium_far_0_3,2,2,pass,no,Expressive jazz phrasing is compatible with both instruments but is not specific to either.
+C23_Y04,gen_C23_function_medium_near_0_3,1,1,pass,no,Cheerful musical notes at a gathering are only weakly connected to either instrument.
+C23_Y04,gen_C23_function_near_0_2,3,2,pass,no,"A clear, carrying fanfare fits trumpet strongly and is also explainable for another brass instrument; it gives no flugelhorn-specific fact."
+C23_Y04,gen_C23_situation_far_0_1,2,2,pass,no,A brassy flourish in a procession is compatible with either instrument but does not identify one.
+C23_Y04,gen_C23_situation_medium_far_0_3,2,2,pass,no,"A bright orchestral flourish is broadly compatible with both instruments, not distinctive of either."
+C23_Y04,gen_C23_situation_medium_near_0_4,3,3,pass,no,"A brass player providing harmony strongly points to the shared brass-instrument category, without distinguishing the two."
+C23_Y04,gen_C23_situation_near_0_4,3,3,pass,no,A brass section playing a fight-song motif strongly fits both instruments but is not specific to flugelhorn.
+C23_Y04,gen_C23_structure_unrelated_0_2,0,0,pass,no,"Describes ladder construction, with no relevant instrument connection."
+C23_Y09,gen_C23_action_far_0_0,3,0,pass,no,"Buzzing on a mouthpiece before assembly is a distinctive brass-instrument practice, not a flute-specific fact."
+C23_Y09,gen_C23_action_unrelated_0_0,0,0,pass,no,The clue concerns baking and has no meaningful connection to either instrument.
+C23_Y09,gen_C23_action_very_near_0_0,4,0,pass,no,Operating valves while playing directly describes a trumpet feature; a flute has no valves.
+C23_Y09,gen_C23_action_very_near_0_2,2,2,pass,no,"Finger movement and controlled breath are compatible with both wind instruments, but the clue does not distinguish flute technique."
+C23_Y09,gen_C23_function_medium_far_0_3,2,1,pass,no,"Scooping notes is associated with expressive trumpet playing, though it is not exclusive to trumpet and can occur in other instruments."
+C23_Y09,gen_C23_function_medium_near_0_3,1,1,pass,no,Playing cheerful notes is a generic musical use that could involve either instrument.
+C23_Y09,gen_C23_function_near_0_2,3,1,pass,no,"Clear, carrying notes in military fanfares strongly evoke trumpet use, while the setting alone does not specifically indicate flute."
+C23_Y09,gen_C23_situation_far_0_1,3,0,pass,no,"A brassy flourish strongly suggests trumpet or another brass instrument, not flute."
+C23_Y09,gen_C23_situation_medium_far_0_3,2,1,pass,no,"An orchestral flourish is compatible with trumpet, but the cue does not identify a particular instrument; the orchestral context is not flute-specific."
+C23_Y09,gen_C23_situation_medium_near_0_4,2,1,pass,no,"A brass player strongly suggests a brass instrument such as trumpet, but does not uniquely identify one; it does not describe flute-specific facts."
+C23_Y09,gen_C23_situation_near_0_4,3,1,pass,no,"A brass section playing a fight-song motif strongly evokes trumpet use, though the section can include other instruments."
+C23_Y09,gen_C23_structure_unrelated_0_2,0,0,pass,no,The clue describes ladder construction and has no meaningful connection to either instrument.
+C23_Y10,gen_C23_action_far_0_0,3,0,pass,no,Buzzing a mouthpiece alone before assembly is a distinctive brass-playing practice; no clarinet-specific fact or instrument name appears.
+C23_Y10,gen_C23_action_unrelated_0_0,0,0,pass,no,The clue describes baking and has no relevant instrument or music connection.
+C23_Y10,gen_C23_action_very_near_0_0,4,0,pass,no,Pressing valves while blowing directly describes a characteristic trumpet mechanism; it does not describe a clarinet.
+C23_Y10,gen_C23_action_very_near_0_2,2,1,pass,no,Finger movement and steady breath fit wind-instrument playing but do not identify a specific instrument; the general wind-playing context is only weakly relevant to clarinet.
+C23_Y10,gen_C23_function_medium_far_0_3,2,1,pass,no,Scooping notes in jazz is an expressive technique associated with trumpet playing but not exclusive to it; the musical context is not clarinet-specific.
+C23_Y10,gen_C23_function_medium_near_0_3,1,1,pass,no,A few celebratory notes could be played on many instruments; the occasion offers only general musical context.
+C23_Y10,gen_C23_function_near_0_2,3,1,pass,no,"Clear, carrying notes in military fanfares are strongly associated with trumpet use; the clue does not give a clarinet-specific fact."
+C23_Y10,gen_C23_situation_far_0_1,3,0,pass,no,"A brassy flourish in a procession strongly suggests trumpet or brass-section use, not clarinet-specific information."
+C23_Y10,gen_C23_situation_medium_far_0_3,2,1,pass,no,A bright orchestral flourish is compatible with trumpet use but could involve other instruments; the orchestral context is only weakly relevant to clarinet.
+C23_Y10,gen_C23_situation_medium_near_0_4,2,0,pass,no,"The clue explicitly places the player in a brass role, which is relevant to trumpet but not clarinet-specific."
+C23_Y10,gen_C23_situation_near_0_4,3,0,pass,no,A brass section playing a short fight-song motif strongly fits trumpet use; it gives no clarinet-specific information.
+C23_Y10,gen_C23_structure_unrelated_0_2,0,0,pass,no,The clue describes a ladder structure and has no relevant instrument or music connection.
+C23_Y11,gen_C23_action_far_0_0,3,0,pass,no,Buzzing a mouthpiece before assembly is a brass-playing technique associated with trumpet; saxophone uses a reed. No X or Y name or obvious alias appears.
+C23_Y11,gen_C23_action_unrelated_0_0,0,0,pass,no,"This describes baking, with no relevant instrument or music connection and no X or Y name or obvious alias."
+C23_Y11,gen_C23_action_very_near_0_0,4,0,pass,no,Changing pitch by pressing valves while blowing directly matches trumpet features; saxophone uses keys and a reed. No X or Y name or obvious alias appears.
+C23_Y11,gen_C23_action_very_near_0_2,2,2,pass,no,"Breath and finger-operated controls fit wind playing generally, but the controls are not identified as trumpet valves or saxophone keys. No X or Y name or obvious alias appears."
+C23_Y11,gen_C23_function_medium_far_0_3,2,2,pass,no,"Scooping notes and speechlike phrasing can occur in jazz playing on either instrument, but the clue does not identify saxophone specifically. No X or Y name or obvious alias appears."
+C23_Y11,gen_C23_function_medium_near_0_3,1,1,pass,no,"Cheerful notes at a birthday gathering are generic musical use, not a fact specific to either instrument. No X or Y name or obvious alias appears."
+C23_Y11,gen_C23_function_near_0_2,3,1,pass,no,"Clear, carrying notes in military fanfares are strongly associated with trumpet, though the use is not exclusive to it. This is not saxophone-specific; no X or Y name or obvious alias appears."
+C23_Y11,gen_C23_situation_far_0_1,3,0,pass,no,"A brassy flourish points toward a brass instrument such as trumpet, not saxophone. No X or Y name or obvious alias appears."
+C23_Y11,gen_C23_situation_medium_far_0_3,2,1,pass,no,"A bright orchestral flourish could involve trumpet, but the setting does not identify a particular instrument; saxophone is not specifically indicated. No X or Y name or obvious alias appears."
+C23_Y11,gen_C23_situation_medium_near_0_4,3,0,pass,no,"The clue explicitly describes a brass player, which is consistent with trumpet but not saxophone. No X or Y name or obvious alias appears."
+C23_Y11,gen_C23_situation_near_0_4,3,0,pass,no,A brass section playing a fight-song motif is consistent with trumpet and not saxophone. No X or Y name or obvious alias appears.
+C23_Y11,gen_C23_structure_unrelated_0_2,0,0,pass,no,"This describes a ladder structure, unrelated to either instrument, and contains no X or Y name or obvious alias."
+C23_Y13,gen_C23_action_far_0_0,3,1,pass,no,"Mouthpiece buzzing is a strong brass-playing cue, but it does not name the trumpet; it is not a bassoon-specific fact."
+C23_Y13,gen_C23_action_unrelated_0_0,0,0,pass,no,The clue concerns baking and has no relevant instrument or music connection.
+C23_Y13,gen_C23_action_very_near_0_0,4,0,pass,no,"Pressing valves while blowing is a distinctive trumpet-playing action, but the trumpet is not named. Bassoons use keys, not valves."
+C23_Y13,gen_C23_action_very_near_0_2,2,1,pass,no,"Fingers operating controls during steady breathing fits wind-instrument playing, though it does not specify trumpet valves or bassoon-specific features."
+C23_Y13,gen_C23_function_medium_far_0_3,2,1,pass,no,"Expressive jazz phrasing is compatible with trumpet but is not exclusive to it; this is general musical context, not a bassoon-specific fact."
+C23_Y13,gen_C23_function_medium_near_0_3,2,1,pass,no,"Cheerful notes at a birthday suggest a celebratory musical use, but no instrument is identified and nothing is bassoon-specific."
+C23_Y13,gen_C23_function_near_0_2,3,1,pass,no,"Clear, carrying fanfare notes strongly fit trumpet use, but the instrument is not named; the clue gives no bassoon-specific fact."
+C23_Y13,gen_C23_situation_far_0_1,3,0,pass,no,"A brassy flourish strongly evokes trumpet or similar brass playing, not the double-reed bassoon."
+C23_Y13,gen_C23_situation_medium_far_0_3,2,1,pass,no,A bright orchestral flourish is compatible with trumpet but could involve other instruments; it does not describe a bassoon-specific feature.
+C23_Y13,gen_C23_situation_medium_near_0_4,3,0,pass,no,"A brass player adding harmony strongly points toward trumpet or another brass instrument, not bassoon."
+C23_Y13,gen_C23_situation_near_0_4,3,0,pass,no,"A brass section playing a fight-song motif strongly evokes trumpet, while bassoon is not a brass instrument."
+C23_Y13,gen_C23_structure_unrelated_0_2,0,0,pass,no,The clue describes ladder construction and has no relevant instrument or music connection.
+C23_Y14,gen_C23_action_far_0_0,4,1,pass,no,Buzzing a mouthpiece before assembly is distinctive trumpet practice; it only weakly overlaps recorder playing through a mouthpiece.
+C23_Y14,gen_C23_action_unrelated_0_0,0,0,pass,no,The clue concerns baking and has no relevant instrument facts.
+C23_Y14,gen_C23_action_very_near_0_0,4,0,pass,no,"Changing pitch with valves while blowing is distinctive trumpet technique, not a recorder feature."
+C23_Y14,gen_C23_action_very_near_0_2,2,2,pass,no,"Finger movements and steady breath fit wind-instrument playing, including both instruments, but the controls are not specified."
+C23_Y14,gen_C23_function_medium_far_0_3,3,1,pass,no,"Scooping notes for expressive jazz phrasing is strongly associated with trumpet, though expressive phrasing is not exclusive to it."
+C23_Y14,gen_C23_function_medium_near_0_3,1,1,pass,no,The musical announcement is compatible with either instrument but gives no instrument-specific detail.
+C23_Y14,gen_C23_function_near_0_2,3,1,pass,no,Military fanfares and carrying notes are strongly associated with trumpet; this is not a recorder-specific fact.
+C23_Y14,gen_C23_situation_far_0_1,3,0,pass,no,"A brassy flourish strongly suggests a brass instrument such as trumpet, not recorder."
+C23_Y14,gen_C23_situation_medium_far_0_3,2,1,pass,no,An orchestral flourish is compatible with trumpet but only provides general musical context.
+C23_Y14,gen_C23_situation_medium_near_0_4,3,0,pass,no,"The explicit brass-player context strongly relates to trumpet, not recorder."
+C23_Y14,gen_C23_situation_near_0_4,3,0,pass,no,"A brass section playing a fight-song motif strongly relates to trumpet, not recorder."
+C23_Y14,gen_C23_structure_unrelated_0_2,0,0,pass,no,"The clue describes a ladder structure, unrelated to either instrument."
+C23_Y17,gen_C23_action_far_0_0,4,0,pass,no,Buzzing a scale on a mouthpiece is a distinctive brass-playing practice; neither instrument is named.
+C23_Y17,gen_C23_action_unrelated_0_0,0,0,pass,no,"The clue concerns baking, not either instrument."
+C23_Y17,gen_C23_action_very_near_0_0,4,0,pass,no,Changing pitch with valves while blowing describes a distinctive trumpet action; no piano-specific fact appears.
+C23_Y17,gen_C23_action_very_near_0_2,3,0,pass,no,"Finger controls combined with steady breath strongly suggest a wind instrument, though no valves or instrument are specified."
+C23_Y17,gen_C23_function_medium_far_0_3,2,1,pass,no,"Scooping notes is an expressive technique associated with some wind playing, while the clue otherwise describes general musical phrasing."
+C23_Y17,gen_C23_function_medium_near_0_3,1,1,pass,no,"Cheerful notes at a gathering are compatible with many instruments, including either one, but identify neither."
+C23_Y17,gen_C23_function_near_0_2,3,1,pass,no,"Clear, carrying notes in a military fanfare strongly fit trumpet use; the clue does not describe a piano-specific feature."
+C23_Y17,gen_C23_situation_far_0_1,2,1,pass,no,"A brassy flourish suggests a brass instrument such as a trumpet, but is not exclusive to it; the musical setting is not piano-specific."
+C23_Y17,gen_C23_situation_medium_far_0_3,1,1,pass,no,"An orchestra playing a flourish provides only a general musical context, with no distinctive fact about either instrument."
+C23_Y17,gen_C23_situation_medium_near_0_4,3,1,pass,no,"A brass player adding harmony strongly suggests trumpet-compatible playing, but brass includes other instruments; no piano-specific fact appears."
+C23_Y17,gen_C23_situation_near_0_4,3,1,pass,no,"A brass section playing a fight-song motif strongly fits trumpet use, though it could include other brass instruments; no piano-specific fact appears."
+C23_Y17,gen_C23_structure_unrelated_0_2,0,0,pass,no,"The clue describes ladder construction, not either instrument."
+C23_Y20,gen_C23_action_far_0_0,3,1,pass,no,"Buzzing a mouthpiece before assembly is strongly associated with brass playing, but it is not specific to guitar."
+C23_Y20,gen_C23_action_unrelated_0_0,0,0,pass,no,Baking has no relevant connection to either instrument.
+C23_Y20,gen_C23_action_very_near_0_0,4,1,pass,no,Changing pitch with valve buttons and breath directly matches the defined brass wind instrument; it is not a guitar fact.
+C23_Y20,gen_C23_action_very_near_0_2,3,1,pass,no,"Fingers moving among controls while maintaining breath strongly suggests brass playing, without identifying guitar-specific features."
+C23_Y20,gen_C23_function_medium_far_0_3,2,1,pass,no,Jazz scoops and expressive phrasing are compatible with trumpet playing but are not distinctive to it or to guitar.
+C23_Y20,gen_C23_function_medium_near_0_3,1,1,pass,no,Cheerful notes at a gathering provide only a general musical-performance association.
+C23_Y20,gen_C23_function_near_0_2,3,1,pass,no,"Military fanfares and clear carrying notes are strongly associated with trumpet use, while not describing guitar."
+C23_Y20,gen_C23_situation_far_0_1,2,1,pass,no,A brassy flourish suggests brass-instrument sound but is not uniquely trumpet-specific; the musical setting is only shared context for guitar.
+C23_Y20,gen_C23_situation_medium_far_0_3,2,1,pass,no,"An orchestral flourish is compatible with trumpet use but describes a general musical setting, not guitar-specific facts."
+C23_Y20,gen_C23_situation_medium_near_0_4,2,1,pass,no,"A brass player accompanying carolers suggests a brass instrument, but does not identify trumpet or describe guitar."
+C23_Y20,gen_C23_situation_near_0_4,2,1,pass,no,"A brass-section fight-song motif is compatible with trumpet use, while the sports and music context is not guitar-specific."
+C23_Y20,gen_C23_structure_unrelated_0_2,0,0,pass,no,The ladder structure is unrelated to either instrument.
+C23_Y23,gen_C23_action_far_0_0,3,0,pass,no,"Mouthpiece buzzing before assembly is a brass-player practice, though not unique to trumpets. No xylophone name or xylophone-specific fact appears."
+C23_Y23,gen_C23_action_unrelated_0_0,0,0,pass,no,This describes baking and has no evident connection to either instrument.
+C23_Y23,gen_C23_action_very_near_0_0,4,0,pass,no,Changing pitch with valves while blowing is distinctive trumpet-related mechanics. No xylophone name or xylophone-specific fact appears.
+C23_Y23,gen_C23_action_very_near_0_2,3,0,pass,no,"The controls and steady breath strongly suggest a valved wind instrument, though the clue does not name one. No xylophone-specific fact appears."
+C23_Y23,gen_C23_function_medium_far_0_3,3,1,pass,no,Scooping notes in jazz is a strong but not exclusive association with trumpet playing; jazz is only a broad musical context for xylophone.
+C23_Y23,gen_C23_function_medium_near_0_3,2,1,pass,no,Cheerful notes announcing a birthday are compatible with trumpet use but do not identify an instrument; the setting is only broadly musical for xylophone.
+C23_Y23,gen_C23_function_near_0_2,3,1,pass,no,"Clear, carrying notes in a military fanfare strongly suggest trumpet or brass use; the fanfare context alone is only weakly relevant to xylophone."
+C23_Y23,gen_C23_situation_far_0_1,3,1,pass,no,"A brassy flourish in a procession strongly suggests trumpet or brass, while the procession context is only weakly relevant to xylophone."
+C23_Y23,gen_C23_situation_medium_far_0_3,2,1,pass,no,A bright orchestral flourish is compatible with trumpet but not distinctive; an orchestra is only a broad shared musical context.
+C23_Y23,gen_C23_situation_medium_near_0_4,3,1,pass,no,A brass player adding harmony strongly suggests trumpet or another brass instrument; caroling is only a broad musical context for xylophone.
+C23_Y23,gen_C23_situation_near_0_4,3,1,pass,no,A brass section playing a fight-song motif strongly suggests trumpet or brass; the game-band setting is only weakly relevant to xylophone.
+C23_Y23,gen_C23_structure_unrelated_0_2,0,0,pass,no,This describes a folding ladder and has no evident connection to either instrument.
+C23_Y26,gen_C23_action_far_0_0,2,1,pass,no,"Mouthpiece and brass-instrument practice are relevant to trumpet playing and share practice context with a practice mute, but no mute or volume reduction is described."
+C23_Y26,gen_C23_action_unrelated_0_0,0,0,pass,no,The clue concerns baking and has no relevant instrument or mute content.
+C23_Y26,gen_C23_action_very_near_0_0,3,1,pass,no,Using valves and breath to change pitch strongly describes trumpet-like playing; the brass-instrument context alone is only weakly related to a practice mute.
+C23_Y26,gen_C23_action_very_near_0_2,2,1,pass,no,"Fingers shifting controls while maintaining breath suggests wind-instrument playing, but does not distinctly identify a trumpet; no mute-specific fact is given."
+C23_Y26,gen_C23_function_medium_far_0_3,2,0,pass,no,Scooping notes in jazz is compatible with trumpet playing but also applies to other instruments; the clue gives no practice-mute context.
+C23_Y26,gen_C23_function_medium_near_0_3,1,0,pass,no,"Cheerful notes at a gathering provide only a weak, generic musical association and say nothing about a practice mute."
+C23_Y26,gen_C23_function_near_0_2,3,1,pass,no,"Clear, carrying fanfare notes strongly evoke trumpet use, while the brass-performance context is not a fact specific to a practice mute."
+C23_Y26,gen_C23_situation_far_0_1,2,1,pass,no,"A brassy flourish in a procession is compatible with trumpet, though not distinctive; no mute or reduced-volume practice is described."
+C23_Y26,gen_C23_situation_medium_far_0_3,2,0,pass,no,A bright orchestral flourish could involve trumpet but does not identify it; the clue has no practice-mute-specific content.
+C23_Y26,gen_C23_situation_medium_near_0_4,2,1,pass,no,A brass player contributing harmony is relevant to trumpet but does not distinguish it from other brass instruments; no mute-specific fact appears.
+C23_Y26,gen_C23_situation_near_0_4,2,1,pass,no,"A brass section at a football game could include trumpet, but the clue describes only shared performance context, not a practice mute."
+C23_Y26,gen_C23_structure_unrelated_0_2,0,0,pass,no,The clue concerns a folding ladder and has no relevant instrument or mute content.
+C23_Y31,gen_C23_action_far_0_0,3,1,pass,no,"Mouthpiece buzzing before assembly is a recognizable brass-instrument practice, but does not name a trumpet; it only weakly shares a musical context with a baton."
+C23_Y31,gen_C23_action_unrelated_0_0,0,0,pass,no,The clue concerns baking and has no meaningful connection to either instrument.
+C23_Y31,gen_C23_action_very_near_0_0,4,1,pass,no,"Changing pitches with valves and breath is a distinctive trumpet-playing action, though the name is absent; the musical context alone is only weakly related to a baton."
+C23_Y31,gen_C23_action_very_near_0_2,3,1,pass,no,"Fingers operating controls while breath is maintained strongly suggests playing a valved wind instrument, but does not uniquely identify a trumpet; no baton-specific fact appears."
+C23_Y31,gen_C23_function_medium_far_0_3,3,1,pass,no,"Expressive scooping in jazz is strongly associated with trumpet playing, though it can occur on other instruments; it does not describe a conductor's baton."
+C23_Y31,gen_C23_function_medium_near_0_3,2,1,pass,no,"Cheerful notes at a gathering could plausibly be played on a trumpet, but no instrument is specified; the musical setting is only weakly related to a baton."
+C23_Y31,gen_C23_function_near_0_2,3,1,pass,no,"Clear, carrying fanfare notes are strongly associated with trumpets, but the clue does not name one; announcing arrivals is not a baton-specific fact."
+C23_Y31,gen_C23_situation_far_0_1,2,1,pass,no,"A brassy flourish could involve a trumpet, but the wording points to brass generally; the procession is not specifically about baton use."
+C23_Y31,gen_C23_situation_medium_far_0_3,2,2,pass,no,"A bright orchestral flourish could include trumpet, though no instrument is specified; an orchestra is a relevant conducting context, but no baton-specific action is described."
+C23_Y31,gen_C23_situation_medium_near_0_4,2,1,pass,no,"A brass player could be playing trumpet, but the clue only identifies the instrument family; caroling is a general musical context, not a baton-specific fact."
+C23_Y31,gen_C23_situation_near_0_4,2,1,pass,no,"Trumpets commonly play in brass sections, but the clue does not identify one; the sports setting is not specifically related to a conductor's baton."
+C23_Y31,gen_C23_structure_unrelated_0_2,0,0,pass,no,The clue describes a ladder and has no meaningful connection to either instrument.
+C23_Y35,gen_C23_action_far_0_0,3,0,pass,no,"Buzzing a mouthpiece is a strong brass-instrument practice cue, but the clue does not name a trumpet or describe a dolphin."
+C23_Y35,gen_C23_action_unrelated_0_0,0,0,pass,no,The clue concerns baking and has no distinctive connection to either target.
+C23_Y35,gen_C23_action_very_near_0_0,3,0,pass,no,"Changing pitch with valves and breath strongly describes playing a valved brass instrument, without naming a trumpet or describing a dolphin."
+C23_Y35,gen_C23_action_very_near_0_2,2,0,pass,no,"Breath and finger-operated controls suggest playing a brass instrument, though the clue is not specific to trumpet; it says nothing distinctive about dolphins."
+C23_Y35,gen_C23_function_medium_far_0_3,2,0,pass,no,"Scooping notes and expressive phrasing are explainable as instrumental performance techniques, but are not distinctive to trumpet; there are no dolphin-specific facts."
+C23_Y35,gen_C23_function_medium_near_0_3,1,0,pass,no,"Cheerful notes at a gathering weakly suggest a celebratory musical cue, without identifying the instrument; nothing is dolphin-specific."
+C23_Y35,gen_C23_function_near_0_2,3,0,pass,no,"Clear, carrying notes in a military fanfare are strongly associated with trumpet use, but the clue does not name it or describe a dolphin."
+C23_Y35,gen_C23_situation_far_0_1,2,0,pass,no,"A brassy flourish in a procession is explainable as trumpet use, though not distinctive; the clue contains no dolphin-specific facts."
+C23_Y35,gen_C23_situation_medium_far_0_3,1,0,pass,no,"An orchestra flourish is only a weak contextual link to trumpet, with no distinctive instrument detail or dolphin-specific content."
+C23_Y35,gen_C23_situation_medium_near_0_4,2,0,pass,no,A brass player adding harmony is explainable as trumpet performance but could involve other brass instruments; nothing is dolphin-specific.
+C23_Y35,gen_C23_situation_near_0_4,2,0,pass,no,"A brass-section fight-song motif is a plausible context for trumpet, but does not identify it; the clue says nothing distinctive about dolphins."
+C23_Y35,gen_C23_structure_unrelated_0_2,0,0,pass,no,The clue describes a ladder structure and has no distinctive connection to either target.
+C23_Y38,gen_C23_action_far_0_0,3,0,pass,no,"Buzzing a mouthpiece before assembly is strongly associated with brass-instrument practice, but is not specific to sofas."
+C23_Y38,gen_C23_action_unrelated_0_0,0,0,pass,no,The clue concerns baking and has no distinctive connection to either defined item.
+C23_Y38,gen_C23_action_very_near_0_0,4,0,pass,no,Changing pitches with valve buttons and breath directly describes playing a valved brass instrument.
+C23_Y38,gen_C23_action_very_near_0_2,3,0,pass,no,"Finger movements among controls while sustaining breath strongly suggest playing a wind instrument, though the controls are not specified as valves."
+C23_Y38,gen_C23_function_medium_far_0_3,2,0,pass,no,"Scooping notes is an explainable expressive technique for a wind player, but is not distinctive to a trumpet."
+C23_Y38,gen_C23_function_medium_near_0_3,2,0,pass,no,"Cheerful musical notes at a gathering could come from a trumpet, but the clue does not identify the instrument."
+C23_Y38,gen_C23_function_near_0_2,3,0,pass,no,"Clear, carrying notes in military fanfares strongly fit trumpet use, without identifying a sofa."
+C23_Y38,gen_C23_situation_far_0_1,2,0,pass,no,A brassy flourish suggests a brass instrument but does not distinguish a trumpet from other possibilities.
+C23_Y38,gen_C23_situation_medium_far_0_3,2,0,pass,no,"A bright orchestral flourish could involve a trumpet, but the clue is not instrument-specific."
+C23_Y38,gen_C23_situation_medium_near_0_4,2,0,pass,no,"A brass player accompanying carolers is relevant to brass instruments, but does not specify a trumpet."
+C23_Y38,gen_C23_situation_near_0_4,2,1,pass,no,A brass section performing at a game is instrument-related; fans rising from generic seats is only weakly related to a sofa.
+C23_Y38,gen_C23_structure_unrelated_0_2,0,0,pass,no,The clue describes a folding ladder and has no distinctive connection to either defined item.
+C23_Y39,gen_C23_action_far_0_0,3,0,pass,no,"Buzzing a mouthpiece before assembly is a characteristic brass-playing technique, though the instrument is not named."
+C23_Y39,gen_C23_action_unrelated_0_0,0,0,pass,no,This describes baking and has no evident connection to either target.
+C23_Y39,gen_C23_action_very_near_0_0,4,0,pass,no,Using valves while blowing to change pitches directly describes trumpet-playing mechanics.
+C23_Y39,gen_C23_action_very_near_0_2,3,0,pass,no,Fingers operating controls alongside steady breath strongly suggests a valved wind instrument.
+C23_Y39,gen_C23_function_medium_far_0_3,2,0,pass,no,Expressive scoops and phrasing are associated with trumpet playing but also occur on other instruments.
+C23_Y39,gen_C23_function_medium_near_0_3,2,0,pass,no,"Cheerful notes at a gathering could be played on a trumpet, but the musical context is not instrument-specific."
+C23_Y39,gen_C23_function_near_0_2,3,0,pass,no,"Brass fanfares and formal announcements are strongly associated with trumpets, without naming one."
+C23_Y39,gen_C23_situation_far_0_1,2,0,pass,no,"A brassy flourish in a circus procession is compatible with trumpet, but could involve other brass instruments."
+C23_Y39,gen_C23_situation_medium_far_0_3,1,0,pass,no,"A bright orchestral flourish could include trumpet, but the clue does not identify a particular instrument."
+C23_Y39,gen_C23_situation_medium_near_0_4,2,0,pass,no,"A brass player accompanying carolers is relevant to the broader brass family, not specifically a trumpet."
+C23_Y39,gen_C23_situation_near_0_4,2,0,pass,no,A brass section playing at a football game is compatible with trumpet but is not instrument-specific.
+C23_Y39,gen_C23_structure_unrelated_0_2,0,0,pass,no,This describes a ladder and has no evident connection to either target.
+C23_anchor,gen_C23_action_far_0_0,2,2,pass,no,"Mouthpiece buzzing before assembly is relevant to brass instruments generally, not distinctively to either instrument; neither name is present."
+C23_anchor,gen_C23_action_unrelated_0_0,0,0,pass,no,"Baking has no meaningful connection to either instrument, and neither name is present."
+C23_anchor,gen_C23_action_very_near_0_0,4,1,pass,no,Changing pitch with valve buttons closely matches the trumpet’s valve mechanism; it does not describe the trombone’s characteristic slide. Neither name is present.
+C23_anchor,gen_C23_action_very_near_0_2,3,1,pass,no,"Shifting fingers among controls while blowing strongly suggests valve operation, though it does not name the trumpet. It does not describe a trombone-specific feature."
+C23_anchor,gen_C23_function_medium_far_0_3,2,2,pass,no,Scooping notes is an expressive technique available to both instruments; the clue gives no specifically trombone-related detail or instrument name.
+C23_anchor,gen_C23_function_medium_near_0_3,1,1,pass,no,The celebratory musical setting only indirectly suggests an instrument; it does not identify either brass instrument or describe a trombone-specific fact.
+C23_anchor,gen_C23_function_near_0_2,3,2,pass,no,"Military fanfares and clear carrying notes are strongly associated with trumpets, but are not exclusive to them; the clue does not describe a trombone-specific feature or name either instrument."
+C23_anchor,gen_C23_situation_far_0_1,2,2,pass,no,"A brassy flourish in a circus procession evokes brass instruments generally, not either one distinctively; neither name is present."
+C23_anchor,gen_C23_situation_medium_far_0_3,1,1,pass,no,An orchestral flourish is only a broad musical context and does not identify either instrument or describe a trombone-specific fact.
+C23_anchor,gen_C23_situation_medium_near_0_4,2,2,pass,no,"A brass player accompanying carolers indicates the shared brass-instrument context, without distinguishing trumpet from trombone."
+C23_anchor,gen_C23_situation_near_0_4,2,2,pass,no,"A brass section playing at a football game is shared context for both instruments, not a trombone-specific fact."
+C23_anchor,gen_C23_structure_unrelated_0_2,0,0,pass,no,The clue describes a ladder and has no meaningful connection to either instrument; neither name is present.
+C37_Y01,gen_C37_action_medium_far_0_0,4,1,pass,no,Turning a cross-shaped fastener with a steel tip strongly indicates screwdriver use; cabinetmaking is only a weak shared context with hammer use.
+C37_Y01,gen_C37_action_medium_far_0_1,4,0,pass,no,Loosening slotted fasteners strongly indicates screwdriver use; no hammer-specific fact is described.
+C37_Y01,gen_C37_action_near_0_0,4,1,pass,no,Rotating a pointed blade in a screw head is distinctive screwdriver use; cabinet assembly is only weakly shared context.
+C37_Y01,gen_C37_action_near_0_1,3,1,pass,no,"Turning a handle to drive a threaded fastener strongly suggests a screwdriver, though the tool is unnamed; the wooden-board setting is weak shared context."
+C37_Y01,gen_C37_action_unrelated_0_0,0,0,pass,no,"The clue concerns rainwater and garden beds, with no relevant tool or tool-use connection."
+C37_Y01,gen_C37_action_very_near_0_0,4,1,pass,no,Twisting a blade in a slotted screw is distinctive screwdriver use; timber is only weak shared context.
+C37_Y01,gen_C37_action_very_near_0_1,3,0,pass,no,"Backing a screw out by rotation strongly suggests screwdriver use, but no hammer-related fact is present."
+C37_Y01,gen_C37_situation_far_0_1,1,1,pass,no,"A loose screw is weakly associated with screwdriver use, while an antique desk gives only weak furniture-repair context for a hammer."
+C37_Y01,gen_C37_situation_medium_near_0_0,3,1,pass,no,Turning a slotted fastener during assembly strongly suggests screwdriver use; bookshelf assembly is only weak shared context.
+C37_Y01,gen_C37_situation_medium_near_0_2,3,1,pass,no,Turning fasteners to secure a hinge strongly suggests screwdriver use; the workbench and door setting is weak shared context.
+C37_Y01,gen_C37_structure_far_0_0,3,0,pass,no,"Cross-patterned recessed fastener heads are strongly associated with screwdriver compatibility, but the clue says nothing specific about hammers."
+C37_Y01,gen_C37_structure_unrelated_0_2,0,0,pass,no,The clue describes pomegranate structure and has no relevant tool connection.
+C37_Y13,gen_C37_action_medium_far_0_0,4,1,pass,no,Turning a cross-patterned fastener directly evokes screwdriver use; the cabinetmaking context is only weakly related to an awl. Neither target name or an obvious alias appears.
+C37_Y13,gen_C37_action_medium_far_0_1,4,1,pass,no,Loosening slotted fasteners directly evokes screwdriver use; the electrical repair context is only weakly related to an awl. Neither target name or an obvious alias appears.
+C37_Y13,gen_C37_action_near_0_0,4,1,pass,no,Aligning a blade with a screw head and rotating it to fasten directly evokes screwdriver use; the woodworking context is only weakly related to an awl. Neither target name or an obvious alias appears.
+C37_Y13,gen_C37_action_near_0_1,3,2,pass,no,"Driving a threaded fastener into a pilot hole strongly suggests screwdriver use; the pilot-hole detail makes an awl explainably related, but the clue does not describe using one. Neither target name or an obvious alias appears."
+C37_Y13,gen_C37_action_unrelated_0_0,0,0,pass,no,"The clue concerns water and garden beds, with no relevant tool or use described. Neither target name or an obvious alias appears."
+C37_Y13,gen_C37_action_very_near_0_0,4,1,pass,no,Twisting a blade in a slotted screw head directly evokes screwdriver use; the timber context is only weakly related to an awl. Neither target name or an obvious alias appears.
+C37_Y13,gen_C37_action_very_near_0_1,3,1,pass,no,Backing a screw out by rotation strongly suggests screwdriver use; camera disassembly is only weakly related to an awl. Neither target name or an obvious alias appears.
+C37_Y13,gen_C37_situation_far_0_1,2,1,pass,no,"A loose screw makes screwdriver use explainable, though the clue does not describe the tool being used; the desk context is only weakly related to an awl. Neither target name or an obvious alias appears."
+C37_Y13,gen_C37_situation_medium_near_0_0,3,1,pass,no,Turning a slotted fastener during furniture assembly strongly suggests screwdriver use; the woodworking context is only weakly related to an awl. Neither target name or an obvious alias appears.
+C37_Y13,gen_C37_situation_medium_near_0_2,3,1,pass,no,Turning fasteners to secure a cabinet hinge strongly suggests screwdriver use; the carpentry context is only weakly related to an awl. Neither target name or an obvious alias appears.
+C37_Y13,gen_C37_structure_far_0_0,2,0,pass,no,"Cross-patterned fastener heads make screwdriver use explainable, but the clue describes hardware rather than the tool; it gives no awl-specific fact. Neither target name or an obvious alias appears."
+C37_Y13,gen_C37_structure_unrelated_0_2,0,0,pass,no,"The clue describes pomegranate seeds and membranes, with no relevant tool or use described. Neither target name or an obvious alias appears."
+C37_Y14,gen_C37_action_medium_far_0_0,3,0,pass,no,"Describes turning a cross-headed fastener with a tool, strongly suggesting screwdriver use; no soldering-iron details."
+C37_Y14,gen_C37_action_medium_far_0_1,3,0,pass,no,Loosening slotted fasteners is strongly associated with screwdriver use; no soldering-iron details.
+C37_Y14,gen_C37_action_near_0_0,4,0,pass,no,"A pointed blade is placed in a screw head and its handle is rotated to fasten it, directly describing screwdriver use."
+C37_Y14,gen_C37_action_near_0_1,3,0,pass,no,Turning a handle to drive a threaded fastener into wood strongly suggests screwdriver use.
+C37_Y14,gen_C37_action_unrelated_0_0,0,0,pass,no,"Describes rainwater and garden drainage, unrelated to either tool."
+C37_Y14,gen_C37_action_very_near_0_0,4,0,pass,no,Pressing a blade into a slotted screw head and twisting it directly describes screwdriver use.
+C37_Y14,gen_C37_action_very_near_0_1,3,0,pass,no,Counterclockwise turns removing a screw strongly suggest screwdriver use.
+C37_Y14,gen_C37_situation_far_0_1,2,0,pass,no,Mentions a loose screw but does not describe a tool or its use.
+C37_Y14,gen_C37_situation_medium_near_0_0,3,0,pass,no,Turning a slotted fastener during assembly strongly suggests screwdriver use.
+C37_Y14,gen_C37_situation_medium_near_0_2,3,0,pass,no,Turning fasteners to secure a hinge strongly suggests screwdriver use.
+C37_Y14,gen_C37_structure_far_0_0,2,1,pass,no,"Describes cross-patterned fastener heads, which can be used with a screwdriver; electronic housings provide only broad contextual overlap with soldering irons."
+C37_Y14,gen_C37_structure_unrelated_0_2,0,0,pass,no,"Describes pomegranate structure, unrelated to either tool."
+C37_Y18,gen_C37_action_medium_far_0_0,3,0,pass,no,"The steel tip seated in a cross-shaped fastener and turned strongly evokes screwdriver use, but does not name it. No rake-related content."
+C37_Y18,gen_C37_action_medium_far_0_1,2,0,pass,no,"Loosening slotted fasteners is explainably related to screwdriver use, though no tool is specified. No rake-related content."
+C37_Y18,gen_C37_action_near_0_0,4,0,pass,no,A blade placed in a screw head and a rotating handle directly and distinctly describe screwdriver use. No rake-related content.
+C37_Y18,gen_C37_action_near_0_1,3,0,pass,no,"Turning a handle to drive a threaded fastener into wood strongly suggests screwdriver use, though the tool is not named. No rake-related content."
+C37_Y18,gen_C37_action_unrelated_0_0,0,1,pass,no,Garden beds and soil provide only weak shared gardening context with a rake; no rake-specific implement or activity is described.
+C37_Y18,gen_C37_action_very_near_0_0,4,0,pass,no,A blade pressed into a slotted screw head and twisted directly and distinctly describes screwdriver use. No rake-related content.
+C37_Y18,gen_C37_action_very_near_0_1,2,0,pass,no,"Rotating a tiny screw out of a casing is explainably related to screwdriver use, but the tool is not specified. No rake-related content."
+C37_Y18,gen_C37_situation_far_0_1,1,0,pass,no,"A loose screw is weakly associated with the tool that might tighten it, but no tool use is described. No rake-related content."
+C37_Y18,gen_C37_situation_medium_near_0_0,2,0,pass,no,"Turning a slotted fastener while assembling wood panels is explainably related to screwdriver use, though the tool is not named. No rake-related content."
+C37_Y18,gen_C37_situation_medium_near_0_2,2,0,pass,no,"Turning fasteners into a door is explainably related to screwdriver use, though the tool is not specified. No rake-related content."
+C37_Y18,gen_C37_structure_far_0_0,2,0,pass,no,"Recessed cross-patterned fastener heads are explainably associated with screwdriver use, but no tool is described. No rake-related content."
+C37_Y18,gen_C37_structure_unrelated_0_2,0,0,pass,no,"The clue concerns pomegranate seeds and membranes, with no screwdriver- or rake-related content."
+C37_Y20,gen_C37_action_medium_far_0_0,3,0,pass,no,"A steel tip engaging a cross-shaped fastener and turning it strongly implies a screwdriver, but does not name it. No broom-specific fact."
+C37_Y20,gen_C37_action_medium_far_0_1,2,0,pass,no,"Loosening slotted fasteners is explainably associated with screwdriver use, though no tool is named. No broom-specific fact."
+C37_Y20,gen_C37_action_near_0_0,3,0,pass,no,"A blade aligned with a screw head and a rotating handle strongly describes screwdriver use, without naming the tool. No broom-specific fact."
+C37_Y20,gen_C37_action_near_0_1,2,0,pass,no,"Turning a handle to drive a threaded fastener into wood is explainably associated with a screwdriver, but the tool is not identified. No broom-specific fact."
+C37_Y20,gen_C37_action_unrelated_0_0,0,0,pass,no,"Describes rainwater and garden beds, with no meaningful connection to either tool."
+C37_Y20,gen_C37_action_very_near_0_0,3,0,pass,no,"A blade pressed into a slotted screw head and twisted strongly implies screwdriver use, but does not name it. No broom-specific fact."
+C37_Y20,gen_C37_action_very_near_0_1,2,0,pass,no,"Backing a screw out by repeated rotations is explainably associated with screwdriver use, though no tool is named. No broom-specific fact."
+C37_Y20,gen_C37_situation_far_0_1,1,0,pass,no,"A loose screw is weakly associated with screwdriver use, but the clue describes no tool or tool action. No broom-specific fact."
+C37_Y20,gen_C37_situation_medium_near_0_0,2,0,pass,no,"Turning a slotted fastener during assembly is explainably associated with screwdriver use, though no tool is named. No broom-specific fact."
+C37_Y20,gen_C37_situation_medium_near_0_2,2,0,pass,no,"Turning small fasteners to secure a hinge is explainably associated with screwdriver use, but the tool is not identified. No broom-specific fact."
+C37_Y20,gen_C37_structure_far_0_0,2,0,pass,no,"Recessed cross-patterned fastener heads are explainably associated with screwdriver-compatible screws, but the tool is not named. No broom-specific fact."
+C37_Y20,gen_C37_structure_unrelated_0_2,0,0,pass,no,"Describes pomegranate seeds and membranes, with no meaningful connection to either tool."
+C37_Y21,gen_C37_action_medium_far_0_0,3,0,pass,no,"Describes seating a tool tip in a cross-shaped fastener and turning it; neither target name or alias appears, and it gives no ladder-specific facts."
+C37_Y21,gen_C37_action_medium_far_0_1,3,0,pass,no,"Loosening slotted fasteners strongly suggests screwdriver use; neither target name or alias appears, and it gives no ladder-specific facts."
+C37_Y21,gen_C37_action_near_0_0,4,0,pass,no,"A blade is placed in a screw head and the handle is rotated to fasten it, a distinctive description of screwdriver use; no target name or alias appears, and there are no ladder-specific facts."
+C37_Y21,gen_C37_action_near_0_1,3,0,pass,no,"Turning a handle to drive a threaded fastener into wood strongly suggests screwdriver use; neither target name or alias appears, and it gives no ladder-specific facts."
+C37_Y21,gen_C37_action_unrelated_0_0,0,0,pass,no,"Describes water flowing through garden beds into a pond, with no target name or alias and no ladder-specific facts."
+C37_Y21,gen_C37_action_very_near_0_0,4,0,pass,no,"Pressing a blade into a slotted screw head and twisting it into timber distinctly describes screwdriver use; neither target name or alias appears, and there are no ladder-specific facts."
+C37_Y21,gen_C37_action_very_near_0_1,3,0,pass,no,"Repeated counterclockwise turns to remove a screw strongly suggest screwdriver use; neither target name or alias appears, and it gives no ladder-specific facts."
+C37_Y21,gen_C37_situation_far_0_1,1,0,pass,no,"Mentions a loose screw but does not describe a screwdriver or its use; neither target name or alias appears, and there are no ladder-specific facts."
+C37_Y21,gen_C37_situation_medium_near_0_0,3,0,pass,no,"Turning a slotted fastener during furniture assembly strongly suggests screwdriver use; neither target name or alias appears, and it gives no ladder-specific facts."
+C37_Y21,gen_C37_situation_medium_near_0_2,2,0,pass,no,"Turning small fasteners to secure a hinge is explainably related to screwdriver use, though the tool is not specified; neither target name or alias appears, and there are no ladder-specific facts."
+C37_Y21,gen_C37_structure_far_0_0,2,0,pass,no,"Cross-patterned fastener heads are compatible with screwdriver use but do not describe the tool itself; neither target name or alias appears, and there are no ladder-specific facts."
+C37_Y21,gen_C37_structure_unrelated_0_2,0,0,pass,no,"Describes pomegranate seeds and membranes, with no target name or alias and no ladder-specific facts."
+C37_Y22,gen_C37_action_medium_far_0_0,3,0,pass,no,"Describes a tip turning a cross-shaped fastener, strongly consistent with screwdriver use; it does not name a screwdriver or wheelbarrow."
+C37_Y22,gen_C37_action_medium_far_0_1,2,0,pass,no,"Loosening slotted fasteners suggests screwdriver use, but the tool is not specified; no wheelbarrow facts or names appear."
+C37_Y22,gen_C37_action_near_0_0,4,0,pass,no,"Directly describes aligning a blade with a screw head and rotating a handle to fasten it, a distinctive screwdriver operation; no wheelbarrow facts or names appear."
+C37_Y22,gen_C37_action_near_0_1,2,0,pass,no,Turning a handle to drive a threaded fastener is consistent with screwdriver use but does not identify the tool; no wheelbarrow facts or names appear.
+C37_Y22,gen_C37_action_unrelated_0_0,0,0,pass,no,Describes water flow and garden soil without screwdriver- or wheelbarrow-related content.
+C37_Y22,gen_C37_action_very_near_0_0,4,0,pass,no,"Directly describes pressing a blade into a screw head and twisting, a distinctive screwdriver operation; no wheelbarrow facts or names appear."
+C37_Y22,gen_C37_action_very_near_0_1,2,0,pass,no,"Rotating a screw out suggests screwdriver use, but the tool is not specified; no wheelbarrow facts or names appear."
+C37_Y22,gen_C37_situation_far_0_1,1,0,pass,no,"A loose screw is mentioned, but no screwdriver use is described; no wheelbarrow facts or names appear."
+C37_Y22,gen_C37_situation_medium_near_0_0,2,0,pass,no,"Turning a slotted fastener during assembly is consistent with screwdriver use, though the tool is not specified; no wheelbarrow facts or names appear."
+C37_Y22,gen_C37_situation_medium_near_0_2,2,0,pass,no,"Turning fasteners to secure a hinge suggests screwdriver use, but the tool is not specified; no wheelbarrow facts or names appear."
+C37_Y22,gen_C37_structure_far_0_0,2,0,pass,no,"Describes cross-patterned fastener heads compatible with screwdriver use, without naming the tool; no wheelbarrow facts or names appear."
+C37_Y22,gen_C37_structure_unrelated_0_2,0,0,pass,no,Describes pomegranate seeds and membranes without screwdriver- or wheelbarrow-related content.
+C37_Y23,gen_C37_action_medium_far_0_0,4,0,pass,no,"Describes turning a cross-shaped screw fastener, a distinctive screwdriver use; neither tool name appears."
+C37_Y23,gen_C37_action_medium_far_0_1,4,0,pass,no,Loosening slotted fasteners is a distinctive screwdriver use; neither tool name appears.
+C37_Y23,gen_C37_action_near_0_0,4,0,pass,no,Explicitly describes a blade engaging a screw head and turning a handle to fasten it; neither tool name appears.
+C37_Y23,gen_C37_action_near_0_1,3,0,pass,no,"Turning a handle to drive a threaded fastener strongly suggests screwdriver use, though the implement is not specified."
+C37_Y23,gen_C37_action_unrelated_0_0,0,1,pass,no,"Describes garden soil and water, only weakly associated with a possible trowel use; it gives no trowel-specific fact."
+C37_Y23,gen_C37_action_very_near_0_0,4,0,pass,no,Describes twisting a blade in a slotted screw head to drive the screw into timber; neither tool name appears.
+C37_Y23,gen_C37_action_very_near_0_1,4,0,pass,no,Backing a screw out by rotation is a distinctive screwdriver use; neither tool name appears.
+C37_Y23,gen_C37_situation_far_0_1,2,0,pass,no,"A loose screw makes screwdriver use explainable, but the clue does not describe using one."
+C37_Y23,gen_C37_situation_medium_near_0_0,3,0,pass,no,"Turning a slotted fastener during assembly strongly suggests screwdriver use, though the implement is not specified."
+C37_Y23,gen_C37_situation_medium_near_0_2,3,0,pass,no,"Turning fasteners to secure a hinge strongly suggests screwdriver use, though the implement is not specified."
+C37_Y23,gen_C37_structure_far_0_0,3,0,pass,no,"Cross-patterned fastener heads are strongly associated with screwdrivers, but the clue describes the fasteners rather than the tool."
+C37_Y23,gen_C37_structure_unrelated_0_2,0,0,pass,no,Describes pomegranate anatomy with no meaningful connection to either tool.
+C37_Y25,gen_C37_action_medium_far_0_0,4,1,pass,no,Turning a cross-patterned fastener with a steel tip distinctly describes screwdriver use. Cabinetmaking is only a weak furniture-context link to chairs; no chair-specific fact is given.
+C37_Y25,gen_C37_action_medium_far_0_1,3,0,pass,no,Loosening slotted fasteners strongly implies screwdriver use. The outlet-cover context is not chair-related.
+C37_Y25,gen_C37_action_near_0_0,4,1,pass,no,A blade aligned with a screw head and a rotating handle distinctly describes screwdriver use. The cabinet hinge provides only a weak furniture-context link.
+C37_Y25,gen_C37_action_near_0_1,3,0,pass,no,"Turning a handle to drive a threaded fastener strongly implies screwdriver use, but does not specify the tool. A wooden board is not a chair-specific fact."
+C37_Y25,gen_C37_action_unrelated_0_0,0,0,pass,no,"The clue concerns water and garden beds, with no relevant tool or chair connection."
+C37_Y25,gen_C37_action_very_near_0_0,4,0,pass,no,A blade pressed into a slotted screw head and twisted distinctly describes screwdriver use. Timber alone does not establish a chair connection.
+C37_Y25,gen_C37_action_very_near_0_1,3,0,pass,no,Backing a screw out by repeated rotations strongly implies screwdriver use. The camera-casing context is not chair-related.
+C37_Y25,gen_C37_situation_far_0_1,2,1,pass,no,"A loose screw makes the tool connection explainable but does not describe screwdriver use. An antique desk is furniture, only weakly related to chairs."
+C37_Y25,gen_C37_situation_medium_near_0_0,3,1,pass,no,"Turning a slotted fastener during assembly strongly implies screwdriver use. A bookshelf is furniture, but the clue gives no chair-specific fact."
+C37_Y25,gen_C37_situation_medium_near_0_2,3,1,pass,no,Securing a hinge by turning fasteners strongly implies screwdriver use. The cabinet context is only weakly related to chairs as furniture.
+C37_Y25,gen_C37_structure_far_0_0,2,0,pass,no,"Recessed cross-patterned fastener heads make a screwdriver connection explainable, though no tool use is described. Electronic housings are not chair-related."
+C37_Y25,gen_C37_structure_unrelated_0_2,0,0,pass,no,"The clue describes pomegranate seeds and membranes, unrelated to either target."
+C37_Y26,gen_C37_action_medium_far_0_0,3,1,pass,no,"Describes turning a cross-shaped fastener with a tool tip, strongly implying X; a cabinet is only weakly related to Y."
+C37_Y26,gen_C37_action_medium_far_0_1,3,0,pass,no,Loosening slotted fasteners strongly implies X; the outlet-cover context does not relate to Y.
+C37_Y26,gen_C37_action_near_0_0,4,1,pass,no,A blade engaging a screw head and rotating a handle directly describes X; a cabinet hinge is only weakly related to Y.
+C37_Y26,gen_C37_action_near_0_1,3,1,pass,no,Turning a handle to drive a threaded fastener strongly implies X; a wooden board is only weakly related to Y.
+C37_Y26,gen_C37_action_unrelated_0_0,0,0,pass,no,"Describes rainwater, garden beds, soil, and a pond, with no meaningful connection to X or Y."
+C37_Y26,gen_C37_action_very_near_0_0,4,1,pass,no,A blade in a slotted screw head being twisted directly describes X; timber is only weakly related to Y.
+C37_Y26,gen_C37_action_very_near_0_1,3,0,pass,no,Repeated rotations backing out a screw strongly imply X; the camera-casing context does not relate to Y.
+C37_Y26,gen_C37_situation_far_0_1,2,2,pass,no,"A loose screw makes the clue explainably related to X; an antique desk is furniture related to Y, but the clue states no table-specific fact."
+C37_Y26,gen_C37_situation_medium_near_0_0,2,1,pass,no,Turning a slotted fastener during assembly makes X explainably relevant; a bookshelf is furniture but not a table-specific fact.
+C37_Y26,gen_C37_situation_medium_near_0_2,2,1,pass,no,"Turning fasteners to secure a hinge makes X explainably relevant; a workbench is only a related setting, not a Y-specific fact."
+C37_Y26,gen_C37_structure_far_0_0,2,0,pass,no,Cross-patterned fastener heads are compatible with X and make it explainably relevant; electronic housings do not relate to Y.
+C37_Y26,gen_C37_structure_unrelated_0_2,0,0,pass,no,"Describes pomegranate seeds and membranes, with no meaningful connection to X or Y."
+C37_Y27,gen_C37_action_medium_far_0_0,3,1,pass,no,A tip engaging a cross-shaped fastener strongly implies a screwdriver; the cabinet context is only loosely related to desk furniture.
+C37_Y27,gen_C37_action_medium_far_0_1,3,0,pass,no,Loosening slotted fasteners strongly implies a screwdriver; an outlet cover has no notable desk connection.
+C37_Y27,gen_C37_action_near_0_0,4,1,pass,no,A blade turning a screw to fasten a hinge is directly distinctive of screwdriver use; the cabinet context is only loosely related to desk furniture.
+C37_Y27,gen_C37_action_near_0_1,3,1,pass,no,Turning a handle to drive a threaded fastener strongly suggests a screwdriver; the wooden-board context is only weakly related to desk furniture.
+C37_Y27,gen_C37_action_unrelated_0_0,0,0,pass,no,"The clue describes rainwater and a pond, with no notable connection to either target."
+C37_Y27,gen_C37_action_very_near_0_0,4,1,pass,no,Pressing a blade into a slotted screw and twisting it is directly distinctive of screwdriver use; timber is only weakly related to desk furniture.
+C37_Y27,gen_C37_action_very_near_0_1,3,0,pass,no,Repeated counterclockwise turns backing out a screw strongly suggest screwdriver use; a camera casing has no notable desk connection.
+C37_Y27,gen_C37_situation_far_0_1,2,4,fail,yes,The screw provides an explainable but indirect screwdriver connection. The clue directly names an antique desk and describes a fact about it.
+C37_Y27,gen_C37_situation_medium_near_0_0,3,1,pass,no,Turning a slotted fastener to assemble panels strongly suggests screwdriver use; a bookshelf is only loosely related to desk furniture.
+C37_Y27,gen_C37_situation_medium_near_0_2,3,1,pass,no,Turning fasteners to secure a hinge strongly suggests screwdriver use; a cabinet and door are only loosely related to desk furniture.
+C37_Y27,gen_C37_structure_far_0_0,3,0,pass,no,Cross-patterned recessed fasteners strongly suggest screwdriver use; electronic housings have no notable desk connection.
+C37_Y27,gen_C37_structure_unrelated_0_2,0,0,pass,no,"The clue describes pomegranate seeds and membranes, with no notable connection to either target."
+C37_Y32,gen_C37_action_medium_far_0_0,3,0,pass,no,"A steel tip turning a cross-shaped fastener strongly suggests the tool, but does not name it; no stool-specific fact."
+C37_Y32,gen_C37_action_medium_far_0_1,3,0,pass,no,"Loosening slotted fasteners strongly suggests use of the tool, without naming it; no stool-specific fact."
+C37_Y32,gen_C37_action_near_0_0,4,0,pass,no,A blade in a screw head rotated by a handle directly and distinctively describes the tool's use; no stool-specific fact.
+C37_Y32,gen_C37_action_near_0_1,2,0,pass,no,"Turning a handle to drive a threaded fastener is explainably related, but the tool is not identified; no stool-specific fact."
+C37_Y32,gen_C37_action_unrelated_0_0,0,0,pass,no,"Describes rainwater and garden beds, with no relevant tool or stool connection."
+C37_Y32,gen_C37_action_very_near_0_0,4,0,pass,no,A blade pressed into a slotted screw head and twisted directly and distinctively describes the tool's use; no stool-specific fact.
+C37_Y32,gen_C37_action_very_near_0_1,3,0,pass,no,"Rotating a screw to remove it strongly suggests the tool, though it is not named; no stool-specific fact."
+C37_Y32,gen_C37_situation_far_0_1,2,0,pass,no,"Mentions a loose screw, which is explainably related to the tool but does not describe its use; no stool-specific fact."
+C37_Y32,gen_C37_situation_medium_near_0_0,3,0,pass,no,"Turning a slotted fastener during assembly strongly suggests the tool, without naming it; no stool-specific fact."
+C37_Y32,gen_C37_situation_medium_near_0_2,3,0,pass,no,"Turning fasteners to secure a hinge strongly suggests the tool, without naming it; no stool-specific fact."
+C37_Y32,gen_C37_structure_far_0_0,2,0,pass,no,"Describes recessed cross-patterned fastener heads that can be used with the tool, but not the tool itself; no stool-specific fact."
+C37_Y32,gen_C37_structure_unrelated_0_2,0,0,pass,no,"Describes pomegranate seeds and membranes, with no relevant tool or stool connection."
+C37_Y35,gen_C37_action_medium_far_0_0,3,0,pass,no,"Turning a cross-shaped fastener with a steel tip strongly suggests a screwdriver, but does not name it. No orange-specific facts."
+C37_Y35,gen_C37_action_medium_far_0_1,3,0,pass,no,"Loosening slotted fasteners with an implied tool strongly suggests a screwdriver, but does not name it. No orange-specific facts."
+C37_Y35,gen_C37_action_near_0_0,4,0,pass,no,"A blade engaging a screw head and turning a handle to fasten it is a distinctive description of screwdriver use, without naming the tool. No orange-specific facts."
+C37_Y35,gen_C37_action_near_0_1,2,0,pass,no,"Turning a handle to drive a threaded fastener is compatible with screwdriver use, but does not specify the tool. No orange-specific facts."
+C37_Y35,gen_C37_action_unrelated_0_0,0,0,pass,no,"Describes water and garden beds, with no clear connection to either defined term."
+C37_Y35,gen_C37_action_very_near_0_0,4,0,pass,no,"Pressing a blade into a slotted screw head and twisting is a distinctive description of screwdriver use, without naming the tool. No orange-specific facts."
+C37_Y35,gen_C37_action_very_near_0_1,2,0,pass,no,"Rotating a tool to back out a screw is compatible with screwdriver use, but the tool itself is not specified. No orange-specific facts."
+C37_Y35,gen_C37_situation_far_0_1,1,0,pass,no,"A loose screw is weakly associated with screwdrivers, but the clue does not describe using one. No orange-specific facts."
+C37_Y35,gen_C37_situation_medium_near_0_0,3,0,pass,no,"Turning a slotted fastener during assembly strongly suggests screwdriver use, though the tool is not named. No orange-specific facts."
+C37_Y35,gen_C37_situation_medium_near_0_2,3,0,pass,no,"Turning fasteners to secure a cabinet hinge strongly suggests screwdriver use, though the tool is not named. No orange-specific facts."
+C37_Y35,gen_C37_structure_far_0_0,2,0,pass,no,"Cross-patterned fastener heads are associated with screwdriver-compatible screws, but the clue does not describe the tool itself. No orange-specific facts."
+C37_Y35,gen_C37_structure_unrelated_0_2,0,1,pass,no,"Pomegranate seeds have a weak, general fruit association with orange, but are not orange-specific. No defined term or alias is named."
+C37_Y36,gen_C37_action_medium_far_0_0,3,0,pass,no,Describes inserting a tool tip into a screw head and turning it; no screwdriver or grape name or alias appears.
+C37_Y36,gen_C37_action_medium_far_0_1,2,0,pass,no,"Loosening slotted fasteners is compatible with screwdriver use, but the tool is not specified."
+C37_Y36,gen_C37_action_near_0_0,3,0,pass,no,"Describes aligning a blade with a screw head and rotating a handle to fasten it, strongly indicating screwdriver use without naming it."
+C37_Y36,gen_C37_action_near_0_1,3,0,pass,no,"Describes turning a handle to drive a threaded fastener, strongly consistent with screwdriver use."
+C37_Y36,gen_C37_action_unrelated_0_0,0,0,pass,no,Describes water flowing through garden beds; no relevant tool or grape facts.
+C37_Y36,gen_C37_action_very_near_0_0,3,0,pass,no,"Describes pressing a blade into a screw head and twisting it, strongly indicating screwdriver use without naming it."
+C37_Y36,gen_C37_action_very_near_0_1,3,0,pass,no,"Describes rotating to remove a screw, strongly consistent with screwdriver use, though the tool is not named."
+C37_Y36,gen_C37_situation_far_0_1,2,0,pass,no,"A loose screw is explainably related to screwdriver use, but no tool or grape facts are described."
+C37_Y36,gen_C37_situation_medium_near_0_0,2,0,pass,no,"Turning a slotted fastener during assembly is compatible with screwdriver use, but does not specify the tool."
+C37_Y36,gen_C37_situation_medium_near_0_2,2,0,pass,no,"Turning fasteners to secure a hinge is compatible with screwdriver use, but does not specify the tool."
+C37_Y36,gen_C37_structure_far_0_0,2,0,pass,no,"Cross-patterned fastener heads are relevant to tools used on screws, but no screwdriver or grape facts are stated."
+C37_Y36,gen_C37_structure_unrelated_0_2,0,1,pass,no,"Describes pomegranate seeds, sharing only a broad fruit-and-cluster association with grapes; it does not describe grape-specific facts."
+C37_Y38,gen_C37_action_medium_far_0_0,3,0,pass,no,"The steel tip turning a cross-shaped fastener strongly implies a screwdriver, but no X name or alias appears."
+C37_Y38,gen_C37_action_medium_far_0_1,3,0,pass,no,"Loosening slotted fasteners strongly suggests screwdriver use, without naming X or Y."
+C37_Y38,gen_C37_action_near_0_0,4,0,pass,no,"A blade in a screw head turned by a handle directly and distinctively describes screwdriver use, without naming it."
+C37_Y38,gen_C37_action_near_0_1,2,0,pass,no,"Turning a handle to drive a threaded fastener is explainably related to screwdriver use, but the tool is not specified."
+C37_Y38,gen_C37_action_unrelated_0_0,0,0,pass,no,"The clue concerns water and garden beds, with no relevant tool or peach facts."
+C37_Y38,gen_C37_action_very_near_0_0,4,0,pass,no,"Twisting a blade in a slotted screw head directly and distinctively describes screwdriver use, without naming it."
+C37_Y38,gen_C37_action_very_near_0_1,3,0,pass,no,"Counterclockwise turns to remove a screw strongly imply screwdriver use, but do not name X."
+C37_Y38,gen_C37_situation_far_0_1,1,0,pass,no,"A loose screw is weakly related to screwdriver use, but the clue does not describe using the tool."
+C37_Y38,gen_C37_situation_medium_near_0_0,2,0,pass,no,"Turning a slotted fastener during assembly is explainably related to screwdriver use, without specifying the tool."
+C37_Y38,gen_C37_situation_medium_near_0_2,2,0,pass,no,"Turning fasteners to secure a hinge is explainably related to screwdriver use, but the tool is not identified."
+C37_Y38,gen_C37_structure_far_0_0,2,0,pass,no,"Recessed cross-patterned fastener heads are compatible with screwdriver use, but the clue describes fastener design rather than the tool."
+C37_Y38,gen_C37_structure_unrelated_0_2,0,1,pass,no,"The clue describes pomegranate seeds, giving only a weak shared fruit context with peach, not peach-specific facts."
+C37_anchor,gen_C37_action_medium_far_0_0,3,1,pass,no,A steel tip turning a cross-shaped fastener strongly suggests screwdriver use; no wrench-specific fact or target name appears.
+C37_anchor,gen_C37_action_medium_far_0_1,3,1,pass,no,Loosening slotted fasteners strongly suggests screwdriver use; it does not describe a wrench-specific fact.
+C37_anchor,gen_C37_action_near_0_0,4,1,pass,no,"A blade aligned with a screw head and a rotating handle directly describes screwdriver use, without naming it; no wrench-specific fact appears."
+C37_anchor,gen_C37_action_near_0_1,3,1,pass,no,"Turning a threaded fastener into wood strongly evokes screwdriver use, though the tool is not stated; this is not wrench-specific."
+C37_anchor,gen_C37_action_unrelated_0_0,0,0,pass,no,"The clue concerns water and garden beds, with no tool-related content."
+C37_anchor,gen_C37_action_very_near_0_0,4,1,pass,no,A blade pressed into a slotted head and twisted to drive a screw directly describes screwdriver use; no wrench-specific fact appears.
+C37_anchor,gen_C37_action_very_near_0_1,3,1,pass,no,Counterclockwise rotation backing a screw out strongly suggests screwdriver use; it is not specific to a wrench.
+C37_anchor,gen_C37_situation_far_0_1,2,1,pass,no,"A loose screw is relevant to screwdriver use, but the clue does not describe operating a tool; it is not wrench-specific."
+C37_anchor,gen_C37_situation_medium_near_0_0,3,1,pass,no,Turning a slotted fastener during assembly strongly suggests screwdriver use; no wrench-specific fact appears.
+C37_anchor,gen_C37_situation_medium_near_0_2,3,1,pass,no,Turning small fasteners to secure a hinge strongly suggests screwdriver use; it does not describe a wrench-specific fact.
+C37_anchor,gen_C37_structure_far_0_0,3,1,pass,no,Recessed cross-patterned fastener heads strongly evoke screws and screwdriver use; no wrench-specific fact appears.
+C37_anchor,gen_C37_structure_unrelated_0_2,0,0,pass,no,"The clue describes pomegranate seeds and membranes, with no tool-related content."
