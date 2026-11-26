@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "e298283deab5549c6b9d5b0b9ccf1cadc8a4c97fa0824a2cd9d5fa195895bd6c",
+    "items": [
+      {
+        "id": "7bcd880ecb94256ac63e",
+        "label": "no",
+        "reason": "An insect worker is a broad category or role, not specifically an ant."
+      },
+      {
+        "id": "7534220d52ce0e9f7c85",
+        "label": "yes",
+        "reason": "The answer names the target directly."
+      },
+      {
+        "id": "bf0d8983d5a2dae49a73",
+        "label": "yes",
+        "reason": "“Cacti” is the plural of cactus."
+      },
+      {
+        "id": "ef18640340003a789a80",
+        "label": "no",
+        "reason": "A bookcase is related furniture, but not specifically a cabinet."
+      },
+      {
+        "id": "20a9c86e36568f84fdd0",
+        "label": "no",
+        "reason": "The answer describes scissors, a different cutting tool."
+      },
+      {
+        "id": "63512b4909412f2d7749",
+        "label": "no",
+        "reason": "“Smoothie Magic” is associated with pineapple but does not identify it."
+      },
+      {
+        "id": "7933d4449b290fae1f03",
+        "label": "no",
+        "reason": "A jellyfish is a different animal from an octopus."
+      },
+      {
+        "id": "a9c967daa0bb6ff69d9b",
+        "label": "no",
+        "reason": "The answer identifies an elephant, not a lion."
+      },
+      {
+        "id": "e9ee27a0749b0928aa76",
+        "label": "yes",
+        "reason": "“Cacti” is the plural of cactus."
+      },
+      {
+        "id": "62d3a62b99614a3762ea",
+        "label": "yes",
+        "reason": "A submarine is an underwater vehicle."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"7bcd880ecb94256ac63e\",\"label\":\"no\",\"reason\":\"An insect worker is a broad category or role, not specifically an ant.\"},{\"id\":\"7534220d52ce0e9f7c85\",\"label\":\"yes\",\"reason\":\"The answer names the target directly.\"},{\"id\":\"bf0d8983d5a2dae49a73\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural of cactus.\"},{\"id\":\"ef18640340003a789a80\",\"label\":\"no\",\"reason\":\"A bookcase is related furniture, but not specifically a cabinet.\"},{\"id\":\"20a9c86e36568f84fdd0\",\"label\":\"no\",\"reason\":\"The answer describes scissors, a different cutting tool.\"},{\"id\":\"63512b4909412f2d7749\",\"label\":\"no\",\"reason\":\"“Smoothie Magic” is associated with pineapple but does not identify it.\"},{\"id\":\"7933d4449b290fae1f03\",\"label\":\"no\",\"reason\":\"A jellyfish is a different animal from an octopus.\"},{\"id\":\"a9c967daa0bb6ff69d9b\",\"label\":\"no\",\"reason\":\"The answer identifies an elephant, not a lion.\"},{\"id\":\"e9ee27a0749b0928aa76\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural of cactus.\"},{\"id\":\"62d3a62b99614a3762ea\",\"label\":\"yes\",\"reason\":\"A submarine is an underwater vehicle.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 430,
+    "started": "2026-11-26T08:22:36.041456+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 563,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 218,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 519,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1082
+    }
+  }
+}
