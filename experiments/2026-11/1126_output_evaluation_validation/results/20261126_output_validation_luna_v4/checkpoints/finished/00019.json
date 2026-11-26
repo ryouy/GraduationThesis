@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "021a69a4d55e9201f2f7d25f949c76fb8c7a1e70978ca010bedb0cb32414a641",
+    "items": [
+      {
+        "id": "cd8ebb6c0756344717ec",
+        "label": "no",
+        "reason": "Describes an elephant's memory ability, not the elephant itself."
+      },
+      {
+        "id": "1ff247272490189d0da4",
+        "label": "yes",
+        "reason": "Identifies bicycles, the target, with a speed-related modifier."
+      },
+      {
+        "id": "f71312d1856e02bcd3f8",
+        "label": "no",
+        "reason": "A lion is a different animal."
+      },
+      {
+        "id": "644cbe457e802a3983e5",
+        "label": "no",
+        "reason": "Describes drumming as an activity, not a tambourine."
+      },
+      {
+        "id": "050c683e05aa2c145c0c",
+        "label": "yes",
+        "reason": "The phrase identifies a drum."
+      },
+      {
+        "id": "2c3bef455e4976ac058e",
+        "label": "no",
+        "reason": "A shelf is related furniture, but is not a cabinet."
+      },
+      {
+        "id": "4a5aaf8eefc6e6b55297",
+        "label": "no",
+        "reason": "Mindfulness is unrelated to a cabinet."
+      },
+      {
+        "id": "fe2397e1859d93f3da1c",
+        "label": "yes",
+        "reason": "Directly names the target."
+      },
+      {
+        "id": "be1844809cddae9434a4",
+        "label": "no",
+        "reason": "A jellyfish is a different animal."
+      },
+      {
+        "id": "a551be30ae4919a5f613",
+        "label": "no",
+        "reason": "A grazer is a broad category, not a dragonfly."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"cd8ebb6c0756344717ec\",\"label\":\"no\",\"reason\":\"Describes an elephant's memory ability, not the elephant itself.\"},{\"id\":\"1ff247272490189d0da4\",\"label\":\"yes\",\"reason\":\"Identifies bicycles, the target, with a speed-related modifier.\"},{\"id\":\"f71312d1856e02bcd3f8\",\"label\":\"no\",\"reason\":\"A lion is a different animal.\"},{\"id\":\"644cbe457e802a3983e5\",\"label\":\"no\",\"reason\":\"Describes drumming as an activity, not a tambourine.\"},{\"id\":\"050c683e05aa2c145c0c\",\"label\":\"yes\",\"reason\":\"The phrase identifies a drum.\"},{\"id\":\"2c3bef455e4976ac058e\",\"label\":\"no\",\"reason\":\"A shelf is related furniture, but is not a cabinet.\"},{\"id\":\"4a5aaf8eefc6e6b55297\",\"label\":\"no\",\"reason\":\"Mindfulness is unrelated to a cabinet.\"},{\"id\":\"fe2397e1859d93f3da1c\",\"label\":\"yes\",\"reason\":\"Directly names the target.\"},{\"id\":\"be1844809cddae9434a4\",\"label\":\"no\",\"reason\":\"A jellyfish is a different animal.\"},{\"id\":\"a551be30ae4919a5f613\",\"label\":\"no\",\"reason\":\"A grazer is a broad category, not a dragonfly.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 190,
+    "started": "2026-11-26T08:19:00.525434+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 541,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 208,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 531,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1072
+    }
+  }
+}
