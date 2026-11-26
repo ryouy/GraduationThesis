@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "salsa_rhythmic_figures",
+      "sentence": "In salsa arrangements, it often contributes repeated rhythmic figures and short answering phrases beneath or between vocal lines."
+    },
+    {
+      "fact_key": "church_service_ensemble",
+      "sentence": "Church services may feature it in a small brass ensemble that supports hymn singing or ceremonial processions."
+    },
+    {
+      "fact_key": "piano_accompanied_recital",
+      "sentence": "A piano accompanist can support its solo recital repertoire, allowing a player to perform outside a larger ensemble."
+    },
+    {
+      "fact_key": "symphony_seating",
+      "sentence": "Symphony seating usually groups it with the brass behind the woodwinds, although the exact layout depends on the hall and score."
+    },
+    {
+      "fact_key": "rock_horn_section",
+      "sentence": "Rock bands with horn sections may use it in punchy ensemble riffs between vocal lines."
+    },
+    {
+      "fact_key": "film_score_overdubbing",
+      "sentence": "For a film score, players may record separate parts in multiple takes to build a larger-sounding section."
+    },
+    {
+      "fact_key": "organ_chamber_pairing",
+      "sentence": "Some chamber works pair it with an organ, whose sustained tones complement its changing melodic lines."
+    },
+    {
+      "fact_key": "community_brass_concerts",
+      "sentence": "At community concerts, it may perform familiar melodies in an informal brass ensemble alongside other local musicians."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In salsa arrangements, it often contributes repeated rhythmic figures and short answering phrases beneath or between vocal lines.\",\"fact_key\":\"salsa_rhythmic_figures\"},{\"sentence\":\"Church services may feature it in a small brass ensemble that supports hymn singing or ceremonial processions.\",\"fact_key\":\"church_service_ensemble\"},{\"sentence\":\"A piano accompanist can support its solo recital repertoire, allowing a player to perform outside a larger ensemble.\",\"fact_key\":\"piano_accompanied_recital\"},{\"sentence\":\"Symphony seating usually groups it with the brass behind the woodwinds, although the exact layout depends on the hall and score.\",\"fact_key\":\"symphony_seating\"},{\"sentence\":\"Rock bands with horn sections may use it in punchy ensemble riffs between vocal lines.\",\"fact_key\":\"rock_horn_section\"},{\"sentence\":\"For a film score, players may record separate parts in multiple takes to build a larger-sounding section.\",\"fact_key\":\"film_score_overdubbing\"},{\"sentence\":\"Some chamber works pair it with an organ, whose sustained tones complement its changing melodic lines.\",\"fact_key\":\"organ_chamber_pairing\"},{\"sentence\":\"At community concerts, it may perform familiar melodies in an informal brass ensemble alongside other local musicians.\",\"fact_key\":\"community_brass_concerts\"}]}",
+  "rejected": [],
+  "request_hash": "c2864e02276291f06bf3a6a200203537ccb1508d66d8e4d24d5db87205d3d060",
+  "usage": {
+    "completion_tokens": 2853,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2559,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1631,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1628,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4484
+  }
+}
