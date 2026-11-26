@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "license_plate_installation",
+      "sentence": "At a vehicle service bay, a hand tool secures license plates to their mounting points during replacement."
+    },
+    {
+      "fact_key": "mailbox_mounting",
+      "sentence": "When mounting a wall mailbox, installers turn fasteners into the supporting surface to hold its bracket firmly in place."
+    },
+    {
+      "fact_key": "ski_binding_installation",
+      "sentence": "Ski technicians use a hand tool to attach bindings to skis, following the specified placement and fastening pattern."
+    },
+    {
+      "fact_key": "duct_access_panel_service",
+      "sentence": "During heating-system maintenance, workers remove fasteners from duct access panels before inspecting equipment inside."
+    },
+    {
+      "fact_key": "smoke_detector_mounting",
+      "sentence": "Installers attach a smoke detector's mounting plate to the ceiling with fasteners before fitting the alarm unit."
+    },
+    {
+      "fact_key": "picture_frame_hardware",
+      "sentence": "At a picture-framing bench, a hand tool secures hanging hardware to the back of a frame."
+    },
+    {
+      "fact_key": "doorbell_button_installation",
+      "sentence": "When fitting a doorbell button, workers may tighten its small mounting fasteners against the exterior wall."
+    },
+    {
+      "fact_key": "farm_gate_latch_repair",
+      "sentence": "On a farm, a hand tool can tighten the fasteners that hold a gate latch to its wooden frame."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"At a vehicle service bay, a hand tool secures license plates to their mounting points during replacement.\",\"fact_key\":\"license_plate_installation\"},{\"sentence\":\"When mounting a wall mailbox, installers turn fasteners into the supporting surface to hold its bracket firmly in place.\",\"fact_key\":\"mailbox_mounting\"},{\"sentence\":\"Ski technicians use a hand tool to attach bindings to skis, following the specified placement and fastening pattern.\",\"fact_key\":\"ski_binding_installation\"},{\"sentence\":\"During heating-system maintenance, workers remove fasteners from duct access panels before inspecting equipment inside.\",\"fact_key\":\"duct_access_panel_service\"},{\"sentence\":\"Installers attach a smoke detector's mounting plate to the ceiling with fasteners before fitting the alarm unit.\",\"fact_key\":\"smoke_detector_mounting\"},{\"sentence\":\"At a picture-framing bench, a hand tool secures hanging hardware to the back of a frame.\",\"fact_key\":\"picture_frame_hardware\"},{\"sentence\":\"When fitting a doorbell button, workers may tighten its small mounting fasteners against the exterior wall.\",\"fact_key\":\"doorbell_button_installation\"},{\"sentence\":\"On a farm, a hand tool can tighten the fasteners that hold a gate latch to its wooden frame.\",\"fact_key\":\"farm_gate_latch_repair\"}]}",
+  "rejected": [],
+  "request_hash": "0817321914a195d5047d3be448b94c1ac35426e03e11cd440bb49e5ec705ed93",
+  "usage": {
+    "completion_tokens": 1069,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 797,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2903,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2900,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3972
+  }
+}
