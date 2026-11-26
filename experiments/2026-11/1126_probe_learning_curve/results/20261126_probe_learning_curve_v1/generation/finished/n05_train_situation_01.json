@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "computer_assembly",
+      "sentence": "On a computer assembly bench, a small hand tool is kept nearby for securing case panels and internal brackets."
+    },
+    {
+      "fact_key": "eyeglass_repair",
+      "sentence": "In an eyeglass repair shop, a precision-sized version helps tighten tiny screws in hinges and frame joints."
+    },
+    {
+      "fact_key": "toy_battery_compartment",
+      "sentence": "When replacing a child's toy batteries, a household kit may include one for opening the compartment's small fastened cover."
+    },
+    {
+      "fact_key": "cabinet_installation",
+      "sentence": "Cabinet installers carry one to attach drawer slides and hinges where factory-drilled mounting holes meet threaded hardware."
+    },
+    {
+      "fact_key": "instrument_repair",
+      "sentence": "A musical-instrument repair bench may keep one ready for adjusting cover plates and other screw-fastened fittings."
+    },
+    {
+      "fact_key": "automotive_trim_work",
+      "sentence": "In automotive trim work, technicians remove small fasteners securing interior panels before inspecting clips and wiring."
+    },
+    {
+      "fact_key": "plumbing_fixture_installation",
+      "sentence": "During plumbing fixture installation, one can secure handles or trim plates after the underlying valve assembly is mounted."
+    },
+    {
+      "fact_key": "scenery_panel_assembly",
+      "sentence": "At a stage set, crew members use one to secure hinges on lightweight scenery panels before a scene change."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"On a computer assembly bench, a small hand tool is kept nearby for securing case panels and internal brackets.\",\"fact_key\":\"computer_assembly\"},{\"sentence\":\"In an eyeglass repair shop, a precision-sized version helps tighten tiny screws in hinges and frame joints.\",\"fact_key\":\"eyeglass_repair\"},{\"sentence\":\"When replacing a child's toy batteries, a household kit may include one for opening the compartment's small fastened cover.\",\"fact_key\":\"toy_battery_compartment\"},{\"sentence\":\"Cabinet installers carry one to attach drawer slides and hinges where factory-drilled mounting holes meet threaded hardware.\",\"fact_key\":\"cabinet_installation\"},{\"sentence\":\"A musical-instrument repair bench may keep one ready for adjusting cover plates and other screw-fastened fittings.\",\"fact_key\":\"instrument_repair\"},{\"sentence\":\"In automotive trim work, technicians remove small fasteners securing interior panels before inspecting clips and wiring.\",\"fact_key\":\"automotive_trim_work\"},{\"sentence\":\"During plumbing fixture installation, one can secure handles or trim plates after the underlying valve assembly is mounted.\",\"fact_key\":\"plumbing_fixture_installation\"},{\"sentence\":\"At a stage set, crew members use one to secure hinges on lightweight scenery panels before a scene change.\",\"fact_key\":\"scenery_panel_assembly\"}]}",
+  "rejected": [],
+  "request_hash": "6f32229117be485ad05922e8b0d261203f3d1b92a896b0c2c29cb14892d4b22f",
+  "usage": {
+    "completion_tokens": 779,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 512,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1516,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1513,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2295
+  }
+}
