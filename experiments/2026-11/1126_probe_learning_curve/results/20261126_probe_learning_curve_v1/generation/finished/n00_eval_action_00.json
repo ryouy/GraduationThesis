@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "tissue_culture_propagation",
+      "sentence": "Commercial nurseries multiply selected plants in sterile laboratory culture, producing large numbers of uniform planting specimens."
+    },
+    {
+      "fact_key": "bunch_sleeving",
+      "sentence": "Developing bunches are often enclosed in perforated sleeves to reduce insect damage and scarring on the fruit surfaces."
+    },
+    {
+      "fact_key": "bunch_support",
+      "sentence": "Growers may brace a heavy fruit stalk with a pole or rope to keep the loaded plant from leaning or toppling."
+    },
+    {
+      "fact_key": "postharvest_dehanding_and_washing",
+      "sentence": "At packing stations, workers separate harvested bunches into smaller groups and wash away sap and field debris before grading."
+    },
+    {
+      "fact_key": "flower_stalk_emergence",
+      "sentence": "The flower stalk emerges from the plant’s center and bends downward, while protective bracts open successively to expose rows of flowers."
+    },
+    {
+      "fact_key": "parthenocarpic_fruit_set",
+      "sentence": "Many edible cultivars develop fruit without fertilization, as their ovaries enlarge even though mature seeds do not form."
+    },
+    {
+      "fact_key": "climacteric_respiration",
+      "sentence": "During ripening, respiration briefly rises sharply in a climacteric phase that accompanies rapid softening."
+    },
+    {
+      "fact_key": "split_fertilizer_applications",
+      "sentence": "Growers commonly replenish nutrient-demanding fields with split fertilizer applications, often supplying nitrogen and potassium during active growth."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Commercial nurseries multiply selected plants in sterile laboratory culture, producing large numbers of uniform planting specimens.\",\"fact_key\":\"tissue_culture_propagation\"},{\"sentence\":\"Developing bunches are often enclosed in perforated sleeves to reduce insect damage and scarring on the fruit surfaces.\",\"fact_key\":\"bunch_sleeving\"},{\"sentence\":\"Growers may brace a heavy fruit stalk with a pole or rope to keep the loaded plant from leaning or toppling.\",\"fact_key\":\"bunch_support\"},{\"sentence\":\"At packing stations, workers separate harvested bunches into smaller groups and wash away sap and field debris before grading.\",\"fact_key\":\"postharvest_dehanding_and_washing\"},{\"sentence\":\"The flower stalk emerges from the plant’s center and bends downward, while protective bracts open successively to expose rows of flowers.\",\"fact_key\":\"flower_stalk_emergence\"},{\"sentence\":\"Many edible cultivars develop fruit without fertilization, as their ovaries enlarge even though mature seeds do not form.\",\"fact_key\":\"parthenocarpic_fruit_set\"},{\"sentence\":\"During ripening, respiration briefly rises sharply in a climacteric phase that accompanies rapid softening.\",\"fact_key\":\"climacteric_respiration\"},{\"sentence\":\"Growers commonly replenish nutrient-demanding fields with split fertilizer applications, often supplying nitrogen and potassium during active growth.\",\"fact_key\":\"split_fertilizer_applications\"}]}",
+  "rejected": [],
+  "request_hash": "aa7e87c08d1c21a32085d706a65f01ccf8e270fa933a739c8102fad1df54dd3c",
+  "usage": {
+    "completion_tokens": 1687,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1381,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2743,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2740,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4430
+  }
+}
