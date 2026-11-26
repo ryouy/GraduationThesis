@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "mexican_banda_riffs",
+      "sentence": "In Mexican banda ensembles, this instrument often joins other low-brass voices in harmonized riffs that drive dance arrangements."
+    },
+    {
+      "fact_key": "balkan_dance_music",
+      "sentence": "Balkan brass ensembles may use its broad low-register tone to reinforce fast dance melodies and rhythmic accents."
+    },
+    {
+      "fact_key": "funk_syncopation",
+      "sentence": "Funk arrangements use its clipped, syncopated phrases to give horn-section passages a punchy rhythmic edge."
+    },
+    {
+      "fact_key": "microtonal_composition",
+      "sentence": "Contemporary composers exploit its continuously adjustable pitch for microtonal inflections between conventional semitone steps."
+    },
+    {
+      "fact_key": "live_electronics",
+      "sentence": "Some chamber composers pair it with live electronics, processing sustained tones into layered or spatial sound textures."
+    },
+    {
+      "fact_key": "pep_band_rallies",
+      "sentence": "Pep bands use short repeated figures from it to rally spectators during breaks in sporting events."
+    },
+    {
+      "fact_key": "brass_band_test_piece",
+      "sentence": "In a brass-band test piece, its part may expose a player's control through sustained melodic lines and technical passages."
+    },
+    {
+      "fact_key": "string_quartet_contrast",
+      "sentence": "Composers sometimes place it beside a string quartet, using its sustained brass color to contrast with bowed textures."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In Mexican banda ensembles, this instrument often joins other low-brass voices in harmonized riffs that drive dance arrangements.\",\"fact_key\":\"mexican_banda_riffs\"},{\"sentence\":\"Balkan brass ensembles may use its broad low-register tone to reinforce fast dance melodies and rhythmic accents.\",\"fact_key\":\"balkan_dance_music\"},{\"sentence\":\"Funk arrangements use its clipped, syncopated phrases to give horn-section passages a punchy rhythmic edge.\",\"fact_key\":\"funk_syncopation\"},{\"sentence\":\"Contemporary composers exploit its continuously adjustable pitch for microtonal inflections between conventional semitone steps.\",\"fact_key\":\"microtonal_composition\"},{\"sentence\":\"Some chamber composers pair it with live electronics, processing sustained tones into layered or spatial sound textures.\",\"fact_key\":\"live_electronics\"},{\"sentence\":\"Pep bands use short repeated figures from it to rally spectators during breaks in sporting events.\",\"fact_key\":\"pep_band_rallies\"},{\"sentence\":\"In a brass-band test piece, its part may expose a player's control through sustained melodic lines and technical passages.\",\"fact_key\":\"brass_band_test_piece\"},{\"sentence\":\"Composers sometimes place it beside a string quartet, using its sustained brass color to contrast with bowed textures.\",\"fact_key\":\"string_quartet_contrast\"}]}",
+  "rejected": [],
+  "request_hash": "8d3e9373c371e1041b880cc41c46ae6b6bbb3e9a030986f44f72460cc59d9a8c",
+  "usage": {
+    "completion_tokens": 2717,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2423,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 3425,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 3422,
+      "cached_tokens": 0
+    },
+    "total_tokens": 6142
+  }
+}
