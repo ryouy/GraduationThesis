@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "18c851004357099302019df53909c0cb3be99a29dc7422c2720a0684eeba31b4",
+    "items": [
+      {
+        "id": "5b1f8aaecfa02bde570a",
+        "label": "no",
+        "reason": "Raindrops are rain, not snow."
+      },
+      {
+        "id": "c42e415e7e6b46b0fac2",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from pineapple."
+      },
+      {
+        "id": "9ad2e9c6b2cffdbb8e90",
+        "label": "yes",
+        "reason": "The answer explicitly identifies scissors."
+      },
+      {
+        "id": "a9825bab405e3452c243",
+        "label": "no",
+        "reason": "A jellyfish is not an octopus."
+      },
+      {
+        "id": "006ceef2da53b1e637e6",
+        "label": "no",
+        "reason": "A bookcase is a different type of furniture from a cabinet."
+      },
+      {
+        "id": "c8ed4d4dde1410244db1",
+        "label": "yes",
+        "reason": "Cacti is the plural of cactus."
+      },
+      {
+        "id": "bb8a39afcd40181f7ca8",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from pineapple."
+      },
+      {
+        "id": "55b21b9e24170da2bbcf",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from pineapple."
+      },
+      {
+        "id": "6f7ecb6d776f51de265f",
+        "label": "no",
+        "reason": "A desert succulent is a broad category, not necessarily a cactus."
+      },
+      {
+        "id": "724399dec018777200b4",
+        "label": "no",
+        "reason": "A guitar is a different instrument from a drum."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"5b1f8aaecfa02bde570a\",\"label\":\"no\",\"reason\":\"Raindrops are rain, not snow.\"},{\"id\":\"c42e415e7e6b46b0fac2\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from pineapple.\"},{\"id\":\"9ad2e9c6b2cffdbb8e90\",\"label\":\"yes\",\"reason\":\"The answer explicitly identifies scissors.\"},{\"id\":\"a9825bab405e3452c243\",\"label\":\"no\",\"reason\":\"A jellyfish is not an octopus.\"},{\"id\":\"006ceef2da53b1e637e6\",\"label\":\"no\",\"reason\":\"A bookcase is a different type of furniture from a cabinet.\"},{\"id\":\"c8ed4d4dde1410244db1\",\"label\":\"yes\",\"reason\":\"Cacti is the plural of cactus.\"},{\"id\":\"bb8a39afcd40181f7ca8\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from pineapple.\"},{\"id\":\"55b21b9e24170da2bbcf\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from pineapple.\"},{\"id\":\"6f7ecb6d776f51de265f\",\"label\":\"no\",\"reason\":\"A desert succulent is a broad category, not necessarily a cactus.\"},{\"id\":\"724399dec018777200b4\",\"label\":\"no\",\"reason\":\"A guitar is a different instrument from a drum.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 210,
+    "started": "2026-11-26T08:19:18.074859+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 429,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 93,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 537,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 966
+    }
+  }
+}
