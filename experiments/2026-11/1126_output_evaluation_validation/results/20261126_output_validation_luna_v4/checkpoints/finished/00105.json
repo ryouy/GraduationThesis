@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "c4e538d1241d1d7c6f83b4e1fa1a7d151ead7f5a68bd621c2b76c17b895ebbd8",
+    "items": [
+      {
+        "id": "c90d2c254fa9fd1ebb0b",
+        "label": "1",
+        "reason": "Jellyfish have flexible tentacles, but they do not typically manipulate their surroundings with precision."
+      },
+      {
+        "id": "46eb06336fb5f67b6f2d",
+        "label": "0",
+        "reason": "“Beast of the Beast” does not identify a plausible creature matching the segmented body and cooperative foraging clues."
+      },
+      {
+        "id": "1ef3a55de2c62568b2da",
+        "label": "1",
+        "reason": "It refers to elephant conservation campaigns rather than identifying the creature featured in them."
+      },
+      {
+        "id": "b7cb63da7da777e610bc",
+        "label": "2",
+        "reason": "Cacti have moisture-retaining adaptations that help them survive long periods without rain."
+      },
+      {
+        "id": "5305c54423d71d0659c8",
+        "label": "1",
+        "reason": "The answer echoes the behavior but only says “tiny creatures,” without identifying a specific colony-foraging creature such as ants."
+      },
+      {
+        "id": "cc962412b02a91e7b9fc",
+        "label": "1",
+        "reason": "A berry can be used in smoothies, but the answer does not fit the clue’s emphasis on a creamy texture."
+      },
+      {
+        "id": "9e97d29b51461fd9ee0e",
+        "label": "1",
+        "reason": "Scissors are a handheld tool for working with materials, but they are not a natural match for adjusting components during intricate tasks."
+      },
+      {
+        "id": "a48e5601591ed4813e8f",
+        "label": "1",
+        "reason": "“Carpenter” may hint at carpenter ants, but it does not clearly identify the cooperative food-carrying creature."
+      },
+      {
+        "id": "c225f6e288b5fab00647",
+        "label": "1",
+        "reason": "Scissors are used in crafting, but the clue’s emphasis on applying pressure and manipulating materials points more naturally to another tool."
+      },
+      {
+        "id": "925095cbb2b452acf81a",
+        "label": "2",
+        "reason": "Grapefruit is a fruit that can add a refreshing flavor to tropical smoothies."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"c90d2c254fa9fd1ebb0b\",\"label\":\"1\",\"reason\":\"Jellyfish have flexible tentacles, but they do not typically manipulate their surroundings with precision.\"},{\"id\":\"46eb06336fb5f67b6f2d\",\"label\":\"0\",\"reason\":\"“Beast of the Beast” does not identify a plausible creature matching the segmented body and cooperative foraging clues.\"},{\"id\":\"1ef3a55de2c62568b2da\",\"label\":\"1\",\"reason\":\"It refers to elephant conservation campaigns rather than identifying the creature featured in them.\"},{\"id\":\"b7cb63da7da777e610bc\",\"label\":\"2\",\"reason\":\"Cacti have moisture-retaining adaptations that help them survive long periods without rain.\"},{\"id\":\"5305c54423d71d0659c8\",\"label\":\"1\",\"reason\":\"The answer echoes the behavior but only says “tiny creatures,” without identifying a specific colony-foraging creature such as ants.\"},{\"id\":\"cc962412b02a91e7b9fc\",\"label\":\"1\",\"reason\":\"A berry can be used in smoothies, but the answer does not fit the clue’s emphasis on a creamy texture.\"},{\"id\":\"9e97d29b51461fd9ee0e\",\"label\":\"1\",\"reason\":\"Scissors are a handheld tool for working with materials, but they are not a natural match for adjusting components during intricate tasks.\"},{\"id\":\"a48e5601591ed4813e8f\",\"label\":\"1\",\"reason\":\"“Carpenter” may hint at carpenter ants, but it does not clearly identify the cooperative food-carrying creature.\"},{\"id\":\"c225f6e288b5fab00647\",\"label\":\"1\",\"reason\":\"Scissors are used in crafting, but the clue’s emphasis on applying pressure and manipulating materials points more naturally to another tool.\"},{\"id\":\"925095cbb2b452acf81a\",\"label\":\"2\",\"reason\":\"Grapefruit is a fruit that can add a refreshing flavor to tropical smoothies.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 40,
+    "started": "2026-11-26T08:34:48.509577+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 1223,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 692,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1915
+    }
+  }
+}
