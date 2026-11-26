@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "fa4569d7a93766338e1265771e7e0bc165162f4954508f9d2d41567e44bdddc8",
+    "items": [
+      {
+        "id": "3bbf662c4fa62466b569",
+        "label": "no",
+        "reason": "A beetle is a different kind of insect, not an ant."
+      },
+      {
+        "id": "d95cb592e43781bb3347",
+        "label": "no",
+        "reason": "A guitar is a different musical instrument, not a tambourine."
+      },
+      {
+        "id": "b4519839abcb4115f449",
+        "label": "yes",
+        "reason": "A bookcase is a synonym for a bookshelf."
+      },
+      {
+        "id": "8310a85bf5d12bd6f3f9",
+        "label": "yes",
+        "reason": "The answer explicitly describes rain."
+      },
+      {
+        "id": "9fdd9cd4d10dea065ce2",
+        "label": "yes",
+        "reason": "The answer names the target."
+      },
+      {
+        "id": "5412ed0b9d5b7bc196a1",
+        "label": "no",
+        "reason": "It describes elephant footprints, not the elephant itself."
+      },
+      {
+        "id": "624f9ff96b7cdb327fb3",
+        "label": "yes",
+        "reason": "The answer names the target."
+      },
+      {
+        "id": "7807eb3804c5476db7f0",
+        "label": "no",
+        "reason": "Scissors are a different tool, not pliers."
+      },
+      {
+        "id": "2788a4fd55f8684955cb",
+        "label": "yes",
+        "reason": "The answer names the target."
+      },
+      {
+        "id": "d26f1c44cac85d4e0bea",
+        "label": "no",
+        "reason": "A guitar is a different musical instrument, not a drum."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"3bbf662c4fa62466b569\",\"label\":\"no\",\"reason\":\"A beetle is a different kind of insect, not an ant.\"},{\"id\":\"d95cb592e43781bb3347\",\"label\":\"no\",\"reason\":\"A guitar is a different musical instrument, not a tambourine.\"},{\"id\":\"b4519839abcb4115f449\",\"label\":\"yes\",\"reason\":\"A bookcase is a synonym for a bookshelf.\"},{\"id\":\"8310a85bf5d12bd6f3f9\",\"label\":\"yes\",\"reason\":\"The answer explicitly describes rain.\"},{\"id\":\"9fdd9cd4d10dea065ce2\",\"label\":\"yes\",\"reason\":\"The answer names the target.\"},{\"id\":\"5412ed0b9d5b7bc196a1\",\"label\":\"no\",\"reason\":\"It describes elephant footprints, not the elephant itself.\"},{\"id\":\"624f9ff96b7cdb327fb3\",\"label\":\"yes\",\"reason\":\"The answer names the target.\"},{\"id\":\"7807eb3804c5476db7f0\",\"label\":\"no\",\"reason\":\"Scissors are a different tool, not pliers.\"},{\"id\":\"2788a4fd55f8684955cb\",\"label\":\"yes\",\"reason\":\"The answer names the target.\"},{\"id\":\"d26f1c44cac85d4e0bea\",\"label\":\"no\",\"reason\":\"A guitar is a different musical instrument, not a drum.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 700,
+    "started": "2026-11-26T08:26:48.916612+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 429,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 98,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 525,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 954
+    }
+  }
+}
