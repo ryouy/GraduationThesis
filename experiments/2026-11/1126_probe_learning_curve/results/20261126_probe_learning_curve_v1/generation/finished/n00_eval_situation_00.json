@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "black_leaf_streak_management",
+      "sentence": "In humid growing regions, black leaf streak can defoliate plantations, so growers remove infected leaves and use disease-management measures."
+    },
+    {
+      "fact_key": "fusarium_field_persistence",
+      "sentence": "Where Fusarium wilt has entered a field, its persistent soilborne fungus can make replanting with susceptible varieties impractical for many years."
+    },
+    {
+      "fact_key": "successor_shoot_selection",
+      "sentence": "Commercial farms often retain one vigorous basal shoot after harvest to replace the spent stem and support the next crop cycle."
+    },
+    {
+      "fact_key": "filipino_fruit_ketchup",
+      "sentence": "In the Philippines, a sweet-savory condiment made from the fruit is commonly used as an alternative to tomato ketchup."
+    },
+    {
+      "fact_key": "corm_boring_weevil",
+      "sentence": "The corm-boring weevil weakens plants by tunneling into underground tissues, so growers use clean planting material to limit its spread."
+    },
+    {
+      "fact_key": "leguminous_interrow_crops",
+      "sentence": "On some tropical farms, leguminous cover crops grow between rows, protecting bare soil while adding nitrogen through biological fixation."
+    },
+    {
+      "fact_key": "bat_pollination_of_wild_relatives",
+      "sentence": "Wild relatives may rely on bats for nighttime pollination, unlike many cultivated forms that produce fruit without fertilization."
+    },
+    {
+      "fact_key": "export_port_inspection",
+      "sentence": "At export ports, inspectors check maturity and surface condition before consignments are approved for shipment to overseas markets."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In humid growing regions, black leaf streak can defoliate plantations, so growers remove infected leaves and use disease-management measures.\",\"fact_key\":\"black_leaf_streak_management\"},{\"sentence\":\"Where Fusarium wilt has entered a field, its persistent soilborne fungus can make replanting with susceptible varieties impractical for many years.\",\"fact_key\":\"fusarium_field_persistence\"},{\"sentence\":\"Commercial farms often retain one vigorous basal shoot after harvest to replace the spent stem and support the next crop cycle.\",\"fact_key\":\"successor_shoot_selection\"},{\"sentence\":\"In the Philippines, a sweet-savory condiment made from the fruit is commonly used as an alternative to tomato ketchup.\",\"fact_key\":\"filipino_fruit_ketchup\"},{\"sentence\":\"The corm-boring weevil weakens plants by tunneling into underground tissues, so growers use clean planting material to limit its spread.\",\"fact_key\":\"corm_boring_weevil\"},{\"sentence\":\"On some tropical farms, leguminous cover crops grow between rows, protecting bare soil while adding nitrogen through biological fixation.\",\"fact_key\":\"leguminous_interrow_crops\"},{\"sentence\":\"Wild relatives may rely on bats for nighttime pollination, unlike many cultivated forms that produce fruit without fertilization.\",\"fact_key\":\"bat_pollination_of_wild_relatives\"},{\"sentence\":\"At export ports, inspectors check maturity and surface condition before consignments are approved for shipment to overseas markets.\",\"fact_key\":\"export_port_inspection\"}]}",
+  "rejected": [],
+  "request_hash": "05786b15adc9a84f009c9d480c5abb58251e25cfe86a973fc299986629c1e423",
+  "usage": {
+    "completion_tokens": 3405,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3072,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 3050,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 3047,
+      "cached_tokens": 0
+    },
+    "total_tokens": 6455
+  }
+}
