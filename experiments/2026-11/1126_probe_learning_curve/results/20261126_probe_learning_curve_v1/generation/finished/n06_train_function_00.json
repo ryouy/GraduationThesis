@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "chokepoint sea denial",
+      "sentence": "Naval forces position these vessels near strategic chokepoints to threaten hostile shipping and constrain an adversary’s movement at sea."
+    },
+    {
+      "fact_key": "offshore land attack",
+      "sentence": "Land-attack cruise missiles let some naval vessels strike inland targets from distant offshore launch positions."
+    },
+    {
+      "fact_key": "special operations insertion",
+      "sentence": "Special operations teams use these vessels for concealed transport, disembarking near shore to conduct missions ashore."
+    },
+    {
+      "fact_key": "carrier group protection",
+      "sentence": "Some protect carrier groups by helping detect and deter hostile underwater threats along the formation’s route."
+    },
+    {
+      "fact_key": "unmanned vehicle deployment",
+      "sentence": "Certain designs deploy unmanned underwater vehicles to inspect areas too hazardous or confined for the crewed craft."
+    },
+    {
+      "fact_key": "electronic intelligence collection",
+      "sentence": "Electronic intelligence missions monitor radar and radio emissions from nearby forces, revealing information about their activities."
+    },
+    {
+      "fact_key": "adversary training role",
+      "sentence": "During exercises, these vessels can act as adversaries, giving surface crews practice detecting and responding to underwater threats."
+    },
+    {
+      "fact_key": "cable route protection",
+      "sentence": "Military crews may patrol near critical undersea cables to watch for tampering and help protect communications infrastructure."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Naval forces position these vessels near strategic chokepoints to threaten hostile shipping and constrain an adversary’s movement at sea.\",\"fact_key\":\"chokepoint sea denial\"},{\"sentence\":\"Land-attack cruise missiles let some naval vessels strike inland targets from distant offshore launch positions.\",\"fact_key\":\"offshore land attack\"},{\"sentence\":\"Special operations teams use these vessels for concealed transport, disembarking near shore to conduct missions ashore.\",\"fact_key\":\"special operations insertion\"},{\"sentence\":\"Some protect carrier groups by helping detect and deter hostile underwater threats along the formation’s route.\",\"fact_key\":\"carrier group protection\"},{\"sentence\":\"Certain designs deploy unmanned underwater vehicles to inspect areas too hazardous or confined for the crewed craft.\",\"fact_key\":\"unmanned vehicle deployment\"},{\"sentence\":\"Electronic intelligence missions monitor radar and radio emissions from nearby forces, revealing information about their activities.\",\"fact_key\":\"electronic intelligence collection\"},{\"sentence\":\"During exercises, these vessels can act as adversaries, giving surface crews practice detecting and responding to underwater threats.\",\"fact_key\":\"adversary training role\"},{\"sentence\":\"Military crews may patrol near critical undersea cables to watch for tampering and help protect communications infrastructure.\",\"fact_key\":\"cable route protection\"}]}",
+  "rejected": [],
+  "request_hash": "d67716ed7318698ff6bd0fc6ba5e9de6f1fc30fbf5d261fff08c5ce761231ad3",
+  "usage": {
+    "completion_tokens": 2248,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1968,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1835,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1832,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4083
+  }
+}
