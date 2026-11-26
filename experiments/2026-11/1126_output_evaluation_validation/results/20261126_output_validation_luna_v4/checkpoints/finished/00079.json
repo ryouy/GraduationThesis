@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "8ccac2ec55973808f102627b5a86c2f0327c1ff606cdfec571e49eb746683da5",
+    "items": [
+      {
+        "id": "1f77637465f624c681b6",
+        "label": "no",
+        "reason": "Describes insects in lines, not specifically a dragonfly."
+      },
+      {
+        "id": "2bba5d2f4cca0e0fa3a9",
+        "label": "no",
+        "reason": "A bookcase is related furniture, not specifically a cabinet."
+      },
+      {
+        "id": "22c0cb068b0356101c11",
+        "label": "no",
+        "reason": "An underwater research station is unrelated to a bicycle."
+      },
+      {
+        "id": "58191d0d1522eeba28bb",
+        "label": "no",
+        "reason": "A smoothie bowl is a food preparation, not a pineapple."
+      },
+      {
+        "id": "e561cde37b8ec16711a7",
+        "label": "no",
+        "reason": "A grapefruit is a different fruit from a banana."
+      },
+      {
+        "id": "a166f48c6fce7242cd77",
+        "label": "no",
+        "reason": "A cheetah is a different animal from a lion."
+      },
+      {
+        "id": "48a55fe902eec397d0fb",
+        "label": "no",
+        "reason": "It associates scissors with cutters but does not identify scissors as the answer."
+      },
+      {
+        "id": "ccb2c31cfddf39bd73d7",
+        "label": "no",
+        "reason": "A gentle giant worker does not specifically identify an ant."
+      },
+      {
+        "id": "d65e1d7bb0bf500a549a",
+        "label": "yes",
+        "reason": "Cacti is the plural form of cactus."
+      },
+      {
+        "id": "b21cafa2d4bcc870c8ac",
+        "label": "no",
+        "reason": "Raindrops are not snow."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"1f77637465f624c681b6\",\"label\":\"no\",\"reason\":\"Describes insects in lines, not specifically a dragonfly.\"},{\"id\":\"2bba5d2f4cca0e0fa3a9\",\"label\":\"no\",\"reason\":\"A bookcase is related furniture, not specifically a cabinet.\"},{\"id\":\"22c0cb068b0356101c11\",\"label\":\"no\",\"reason\":\"An underwater research station is unrelated to a bicycle.\"},{\"id\":\"58191d0d1522eeba28bb\",\"label\":\"no\",\"reason\":\"A smoothie bowl is a food preparation, not a pineapple.\"},{\"id\":\"e561cde37b8ec16711a7\",\"label\":\"no\",\"reason\":\"A grapefruit is a different fruit from a banana.\"},{\"id\":\"a166f48c6fce7242cd77\",\"label\":\"no\",\"reason\":\"A cheetah is a different animal from a lion.\"},{\"id\":\"48a55fe902eec397d0fb\",\"label\":\"no\",\"reason\":\"It associates scissors with cutters but does not identify scissors as the answer.\"},{\"id\":\"ccb2c31cfddf39bd73d7\",\"label\":\"no\",\"reason\":\"A gentle giant worker does not specifically identify an ant.\"},{\"id\":\"d65e1d7bb0bf500a549a\",\"label\":\"yes\",\"reason\":\"Cacti is the plural form of cactus.\"},{\"id\":\"b21cafa2d4bcc870c8ac\",\"label\":\"no\",\"reason\":\"Raindrops are not snow.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 780,
+    "started": "2026-11-26T08:27:57.842322+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 717,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 370,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 523,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1240
+    }
+  }
+}
