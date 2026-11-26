@@ -1,10 +1,10 @@
+<a href="Interim_Posters/LLM%20Concept%20Probe%20Infographic.png"><img src="Interim_Posters/LLM%20Concept%20Probe%20Infographic.png" alt="LLM Concept Probe — 研究概要図" align="right" width="48%"></a>
+
 # Graduation Thesis｜LLMにおける抑制概念と意味的距離
 
 <!-- github-only:start -->
 [![Web版](https://img.shields.io/badge/Web版-2563eb?style=flat)](https://ryouy.github.io/GraduationThesis/)
 <!-- github-only:end -->
-
-<a href="Interim_Posters/LLM%20Concept%20Probe%20Infographic.png"><img src="Interim_Posters/LLM%20Concept%20Probe%20Infographic.png" alt="LLM Concept Probe — 研究概要図" align="right" width="48%"></a>
 
 LLMに対する「Xについて考えないで」という抑制指示の下で、手がかりの意味的距離と内部表現の関係をConcept Probe・Logit Lensで分析する卒業研究のリポジトリ。最終出力は内部解析との対応を見るための補助指標として扱います。
 
