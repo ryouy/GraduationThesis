@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "lip_buzzing",
+      "sentence": "The player produces sound by buzzing the lips against the mouthpiece, setting the air inside the tubing into vibration."
+    },
+    {
+      "fact_key": "rolled_bell_rim",
+      "sentence": "The bell’s outer rim is often rolled into a rounded bead that strengthens its edge and resists dents."
+    },
+    {
+      "fact_key": "nickel_silver_inner_tubes",
+      "sentence": "The moving slide is commonly made with nickel-silver inner tubes, whose hard, smooth surfaces withstand repeated motion."
+    },
+    {
+      "fact_key": "seven_slide_positions",
+      "sentence": "Seven conventional slide positions provide successive semitone steps, with the player moving the assembly by hand between them."
+    },
+    {
+      "fact_key": "rotary_valve_extension",
+      "sentence": "Some models include a rotary valve that redirects airflow through extra tubing, lowering the instrument’s fundamental pitch."
+    },
+    {
+      "fact_key": "dual_valves",
+      "sentence": "Bass versions may carry two rotary valves, offering additional tubing paths for lower notes and alternate fingerings."
+    },
+    {
+      "fact_key": "formed_bell_sections",
+      "sentence": "The bell section is assembled from shaped metal sheets joined into a tapered form that opens toward its wide rim."
+    },
+    {
+      "fact_key": "outer_slide_brace",
+      "sentence": "The slide’s outer tubes are connected by a cross brace, keeping their spacing consistent as the inner tubes move."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"The player produces sound by buzzing the lips against the mouthpiece, setting the air inside the tubing into vibration.\",\"fact_key\":\"lip_buzzing\"},{\"sentence\":\"The bell’s outer rim is often rolled into a rounded bead that strengthens its edge and resists dents.\",\"fact_key\":\"rolled_bell_rim\"},{\"sentence\":\"The moving slide is commonly made with nickel-silver inner tubes, whose hard, smooth surfaces withstand repeated motion.\",\"fact_key\":\"nickel_silver_inner_tubes\"},{\"sentence\":\"Seven conventional slide positions provide successive semitone steps, with the player moving the assembly by hand between them.\",\"fact_key\":\"seven_slide_positions\"},{\"sentence\":\"Some models include a rotary valve that redirects airflow through extra tubing, lowering the instrument’s fundamental pitch.\",\"fact_key\":\"rotary_valve_extension\"},{\"sentence\":\"Bass versions may carry two rotary valves, offering additional tubing paths for lower notes and alternate fingerings.\",\"fact_key\":\"dual_valves\"},{\"sentence\":\"The bell section is assembled from shaped metal sheets joined into a tapered form that opens toward its wide rim.\",\"fact_key\":\"formed_bell_sections\"},{\"sentence\":\"The slide’s outer tubes are connected by a cross brace, keeping their spacing consistent as the inner tubes move.\",\"fact_key\":\"outer_slide_brace\"}]}",
+  "rejected": [],
+  "request_hash": "3f26ae13bd6bca5687c0268bc13c6d2f3ecbce91f19bb6a3a19b7ef9d5933cc1",
+  "usage": {
+    "completion_tokens": 719,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 450,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 462,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1181
+  }
+}
