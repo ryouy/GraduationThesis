@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "b2e423fa25cbc05b02c05ea445769d9e03551cf47fed1737d2bbea0cd2e5f5f9",
+    "items": [
+      {
+        "id": "e82be3946522a9cfe6c6",
+        "label": "yes",
+        "reason": "Precision scissors are a specific type of scissors."
+      },
+      {
+        "id": "332eecace2e522bf5966",
+        "label": "yes",
+        "reason": "Raindrops bringing rejuvenation describe rain."
+      },
+      {
+        "id": "3479dd8a5b9962f4465a",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from banana."
+      },
+      {
+        "id": "38531f2a585e788b9e1a",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from pineapple."
+      },
+      {
+        "id": "183b78236f01cfb62dd5",
+        "label": "no",
+        "reason": "A tiger is a different animal from an elephant."
+      },
+      {
+        "id": "1af4bd11b0c6784e3b85",
+        "label": "no",
+        "reason": "Elephant Education does not identify a lion."
+      },
+      {
+        "id": "31f2a3c64fc4dd040a74",
+        "label": "yes",
+        "reason": "The answer directly names a bicycle."
+      },
+      {
+        "id": "f172809921852a8ffaf7",
+        "label": "no",
+        "reason": "Drumming is an activity and does not identify a tambourine."
+      },
+      {
+        "id": "8bd37999896fc7e14ecb",
+        "label": "no",
+        "reason": "A lemon is unrelated to a bicycle."
+      },
+      {
+        "id": "526f6130ae5991d7f70a",
+        "label": "no",
+        "reason": "Coral is not an octopus."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"e82be3946522a9cfe6c6\",\"label\":\"yes\",\"reason\":\"Precision scissors are a specific type of scissors.\"},{\"id\":\"332eecace2e522bf5966\",\"label\":\"yes\",\"reason\":\"Raindrops bringing rejuvenation describe rain.\"},{\"id\":\"3479dd8a5b9962f4465a\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from banana.\"},{\"id\":\"38531f2a585e788b9e1a\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from pineapple.\"},{\"id\":\"183b78236f01cfb62dd5\",\"label\":\"no\",\"reason\":\"A tiger is a different animal from an elephant.\"},{\"id\":\"1af4bd11b0c6784e3b85\",\"label\":\"no\",\"reason\":\"Elephant Education does not identify a lion.\"},{\"id\":\"31f2a3c64fc4dd040a74\",\"label\":\"yes\",\"reason\":\"The answer directly names a bicycle.\"},{\"id\":\"f172809921852a8ffaf7\",\"label\":\"no\",\"reason\":\"Drumming is an activity and does not identify a tambourine.\"},{\"id\":\"8bd37999896fc7e14ecb\",\"label\":\"no\",\"reason\":\"A lemon is unrelated to a bicycle.\"},{\"id\":\"526f6130ae5991d7f70a\",\"label\":\"no\",\"reason\":\"Coral is not an octopus.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 240,
+    "started": "2026-11-26T08:19:47.115966+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 398,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 67,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 527,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 925
+    }
+  }
+}
