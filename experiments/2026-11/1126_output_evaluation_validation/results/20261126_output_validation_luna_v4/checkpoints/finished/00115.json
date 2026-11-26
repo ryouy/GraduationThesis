@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "108a8043456af6196c2b12fa3c94f138262f987f8926b4b2cd468a1e528da3f8",
+    "items": [
+      {
+        "id": "59e32ea008fa15ed497e",
+        "label": "2",
+        "reason": "A cymbal is a circular percussion instrument that produces bright, energetic sounds."
+      },
+      {
+        "id": "f1b7be1844141df8eea2",
+        "label": "2",
+        "reason": "A vertical bookcase has multiple sections for keeping items organized and accessible."
+      },
+      {
+        "id": "b2d99b4d54ff57db941c",
+        "label": "2",
+        "reason": "Scissors have two sharp blades joined at a pivot for cutting."
+      },
+      {
+        "id": "54f2509d4b6a74e4a111",
+        "label": "2",
+        "reason": "Grapefruit is a juicy, tangy fruit commonly used to flavor refreshing drinks."
+      },
+      {
+        "id": "89e1df70a415bc1ce32a",
+        "label": "1",
+        "reason": "Scissors can help with precise crafting cuts, but they do not primarily provide a gentle grip for manipulating materials."
+      },
+      {
+        "id": "43568936f6183955f7d2",
+        "label": "2",
+        "reason": "Desert succulents are adapted to dry conditions and retain moisture in protective structures."
+      },
+      {
+        "id": "7d6ad674d41286ec3c05",
+        "label": "0",
+        "reason": "Cheetahs are not known for having a thick protective hide; that trait better fits animals such as rhinos or elephants."
+      },
+      {
+        "id": "93b938db81a34b4c9520",
+        "label": "2",
+        "reason": "Cacti thrive in sunny arid environments and store water in thick, fleshy structures."
+      },
+      {
+        "id": "fbf37d4432351a8c7cee",
+        "label": "1",
+        "reason": "Jellyfish pulse their bodies for movement, but expanding to enlarge their silhouette as a defense is not a characteristic fit."
+      },
+      {
+        "id": "b4e13637572bdd67b396",
+        "label": "2",
+        "reason": "Cacti commonly have fleshy stems and protective spines and grow in dry landscapes."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"59e32ea008fa15ed497e\",\"label\":\"2\",\"reason\":\"A cymbal is a circular percussion instrument that produces bright, energetic sounds.\"},{\"id\":\"f1b7be1844141df8eea2\",\"label\":\"2\",\"reason\":\"A vertical bookcase has multiple sections for keeping items organized and accessible.\"},{\"id\":\"b2d99b4d54ff57db941c\",\"label\":\"2\",\"reason\":\"Scissors have two sharp blades joined at a pivot for cutting.\"},{\"id\":\"54f2509d4b6a74e4a111\",\"label\":\"2\",\"reason\":\"Grapefruit is a juicy, tangy fruit commonly used to flavor refreshing drinks.\"},{\"id\":\"89e1df70a415bc1ce32a\",\"label\":\"1\",\"reason\":\"Scissors can help with precise crafting cuts, but they do not primarily provide a gentle grip for manipulating materials.\"},{\"id\":\"43568936f6183955f7d2\",\"label\":\"2\",\"reason\":\"Desert succulents are adapted to dry conditions and retain moisture in protective structures.\"},{\"id\":\"7d6ad674d41286ec3c05\",\"label\":\"0\",\"reason\":\"Cheetahs are not known for having a thick protective hide; that trait better fits animals such as rhinos or elephants.\"},{\"id\":\"93b938db81a34b4c9520\",\"label\":\"2\",\"reason\":\"Cacti thrive in sunny arid environments and store water in thick, fleshy structures.\"},{\"id\":\"fbf37d4432351a8c7cee\",\"label\":\"1\",\"reason\":\"Jellyfish pulse their bodies for movement, but expanding to enlarge their silhouette as a defense is not a characteristic fit.\"},{\"id\":\"b4e13637572bdd67b396\",\"label\":\"2\",\"reason\":\"Cacti commonly have fleshy stems and protective spines and grow in dry landscapes.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 130,
+    "started": "2026-11-26T08:36:37.368533+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 782,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 364,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 694,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1476
+    }
+  }
+}
