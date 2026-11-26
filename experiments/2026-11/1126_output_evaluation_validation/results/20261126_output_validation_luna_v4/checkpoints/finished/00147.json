@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "c47e2ce7f41f313987e880d418ad746ed694c88930756dace462c282dd0a3eba",
+    "items": [
+      {
+        "id": "4d2152135b5f92c89add",
+        "label": "1",
+        "reason": "Scissors are precision tools, but they cut rather than exert pressure to adjust components."
+      },
+      {
+        "id": "8c87828d6d429e24dd7d",
+        "label": "1",
+        "reason": "Bamboo is a plant that can provide shelter, but the answer does not match the clue’s emphasis on trees providing shade and oxygen."
+      },
+      {
+        "id": "b505475da05f8eaf88bf",
+        "label": "2",
+        "reason": "Cacti have thick, fleshy structures that store water and help them survive dry conditions."
+      },
+      {
+        "id": "9b49542442cdfa1bfb6f",
+        "label": "2",
+        "reason": "Jellyfish have trailing appendages that sway as they move through coastal waters."
+      },
+      {
+        "id": "092f5a7beacb47ac1369",
+        "label": "2",
+        "reason": "A bookcase is a tall unit with horizontal levels suitable for displaying collectibles and mementos."
+      },
+      {
+        "id": "b8dece414da3becc82ec",
+        "label": "1",
+        "reason": "“Garden Worker” suggests a small cooperative creature, but it does not identify the food-carrying creatures or their communal home."
+      },
+      {
+        "id": "62e6b7f0fa05ff43fb81",
+        "label": "1",
+        "reason": "A beetle is an insect, but organized food-gathering formations and teamwork for a community more naturally describe ants."
+      },
+      {
+        "id": "79e9f4427d420b2b6de9",
+        "label": "2",
+        "reason": "The answer identifies a tiger, an animal that can fit the clue’s description of intelligence and memory."
+      },
+      {
+        "id": "760e3b73b715f6daaf17",
+        "label": "1",
+        "reason": "A guitar produces sound through vibration, but the clue’s smooth, powerfully vibrating surface is not a clear description of a guitar."
+      },
+      {
+        "id": "351d8d5e661fa899b490",
+        "label": "2",
+        "reason": "Gentle rainfall naturally fits a cascade of drops that nourishes the landscape."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"4d2152135b5f92c89add\",\"label\":\"1\",\"reason\":\"Scissors are precision tools, but they cut rather than exert pressure to adjust components.\"},{\"id\":\"8c87828d6d429e24dd7d\",\"label\":\"1\",\"reason\":\"Bamboo is a plant that can provide shelter, but the answer does not match the clue’s emphasis on trees providing shade and oxygen.\"},{\"id\":\"b505475da05f8eaf88bf\",\"label\":\"2\",\"reason\":\"Cacti have thick, fleshy structures that store water and help them survive dry conditions.\"},{\"id\":\"9b49542442cdfa1bfb6f\",\"label\":\"2\",\"reason\":\"Jellyfish have trailing appendages that sway as they move through coastal waters.\"},{\"id\":\"092f5a7beacb47ac1369\",\"label\":\"2\",\"reason\":\"A bookcase is a tall unit with horizontal levels suitable for displaying collectibles and mementos.\"},{\"id\":\"b8dece414da3becc82ec\",\"label\":\"1\",\"reason\":\"“Garden Worker” suggests a small cooperative creature, but it does not identify the food-carrying creatures or their communal home.\"},{\"id\":\"62e6b7f0fa05ff43fb81\",\"label\":\"1\",\"reason\":\"A beetle is an insect, but organized food-gathering formations and teamwork for a community more naturally describe ants.\"},{\"id\":\"79e9f4427d420b2b6de9\",\"label\":\"2\",\"reason\":\"The answer identifies a tiger, an animal that can fit the clue’s description of intelligence and memory.\"},{\"id\":\"760e3b73b715f6daaf17\",\"label\":\"1\",\"reason\":\"A guitar produces sound through vibration, but the clue’s smooth, powerfully vibrating surface is not a clear description of a guitar.\"},{\"id\":\"351d8d5e661fa899b490\",\"label\":\"2\",\"reason\":\"Gentle rainfall naturally fits a cascade of drops that nourishes the landscape.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 420,
+    "started": "2026-11-26T09:34:08.926770+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 762,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 316,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 689,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1451
+    }
+  }
+}
