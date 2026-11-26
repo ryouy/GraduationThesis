@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "home_ethylene_storage",
+      "sentence": "At home, keeping this fruit beside apples can hasten softening, since both release ethylene as they ripen."
+    },
+    {
+      "fact_key": "chilling_injury",
+      "sentence": "Below roughly 13°C, chilling during storage can discolor the peel and impair normal ripening after the fruit returns to warmth."
+    },
+    {
+      "fact_key": "leaf_food_wrapping",
+      "sentence": "In many tropical kitchens, the plant’s broad leaves are used to wrap foods for cooking or serving."
+    },
+    {
+      "fact_key": "flower_bud_food",
+      "sentence": "In parts of South and Southeast Asia, the unopened flower cluster is cooked as a vegetable, often after soaking to reduce bitterness."
+    },
+    {
+      "fact_key": "latex_cross_reactivity",
+      "sentence": "People with latex allergy sometimes react to this fruit as well, because certain proteins in the two sources are structurally similar."
+    },
+    {
+      "fact_key": "infant_complementary_food",
+      "sentence": "Mashed ripe pulp is sometimes offered as an early complementary food for infants because its soft consistency is easy to swallow."
+    },
+    {
+      "fact_key": "ornamental_container_cultivation",
+      "sentence": "Dwarf cultivars are occasionally grown in large pots as ornamentals in warm conservatories or protected indoor spaces."
+    },
+    {
+      "fact_key": "staple_food_systems",
+      "sentence": "Where imported grain is costly, this crop can provide an affordable, carbohydrate-rich staple in tropical household diets."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"At home, keeping this fruit beside apples can hasten softening, since both release ethylene as they ripen.\",\"fact_key\":\"home_ethylene_storage\"},{\"sentence\":\"Below roughly 13°C, chilling during storage can discolor the peel and impair normal ripening after the fruit returns to warmth.\",\"fact_key\":\"chilling_injury\"},{\"sentence\":\"In many tropical kitchens, the plant’s broad leaves are used to wrap foods for cooking or serving.\",\"fact_key\":\"leaf_food_wrapping\"},{\"sentence\":\"In parts of South and Southeast Asia, the unopened flower cluster is cooked as a vegetable, often after soaking to reduce bitterness.\",\"fact_key\":\"flower_bud_food\"},{\"sentence\":\"People with latex allergy sometimes react to this fruit as well, because certain proteins in the two sources are structurally similar.\",\"fact_key\":\"latex_cross_reactivity\"},{\"sentence\":\"Mashed ripe pulp is sometimes offered as an early complementary food for infants because its soft consistency is easy to swallow.\",\"fact_key\":\"infant_complementary_food\"},{\"sentence\":\"Dwarf cultivars are occasionally grown in large pots as ornamentals in warm conservatories or protected indoor spaces.\",\"fact_key\":\"ornamental_container_cultivation\"},{\"sentence\":\"Where imported grain is costly, this crop can provide an affordable, carbohydrate-rich staple in tropical household diets.\",\"fact_key\":\"staple_food_systems\"}]}",
+  "rejected": [],
+  "request_hash": "d5ce06c690ca8ae4a48d7eba35e8aef8e91cc9d284fcdf2cebe9f7c81520d277",
+  "usage": {
+    "completion_tokens": 1784,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1484,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1557,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1554,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3341
+  }
+}
