@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "4abca784c2f6905654c36c40d52a6b1f01d099d514bb3eb76efc724fed60e799",
+    "items": [
+      {
+        "id": "c2dd883013fe4dd76677",
+        "label": "1",
+        "reason": "A drumming stick is associated with orchestral percussion, but it is not the instrument with the resonating circular component."
+      },
+      {
+        "id": "8f72c414277daa7b8691",
+        "label": "2",
+        "reason": "Scissors are a reliable hand-held cutting tool suitable for cutting intricate paper patterns."
+      },
+      {
+        "id": "20147e7081da05d779d0",
+        "label": "2",
+        "reason": "Cacti retain moisture and are adapted to harsh sunlight; their spines can also deter threats."
+      },
+      {
+        "id": "c1acdcea0cc17a152b33",
+        "label": "1",
+        "reason": "A tiger has a hide, but thick protective hide is not a characteristic that fits tigers well."
+      },
+      {
+        "id": "95b90cba8c96f9726162",
+        "label": "2",
+        "reason": "Many jellyfish have transparent bodies that let light pass through."
+      },
+      {
+        "id": "aad59f8327c4f7dc1973",
+        "label": "1",
+        "reason": "A bookcase has multiple sections and can enhance a room, but it is mainly for books rather than personal belongings generally."
+      },
+      {
+        "id": "287a54d173df93189687",
+        "label": "2",
+        "reason": "Jellyfish have bell-shaped bodies that pulse to move through water."
+      },
+      {
+        "id": "a281c24296b333d7e9d8",
+        "label": "1",
+        "reason": "A grazer gathers food, but the clue's small, diligent worker navigating complex environments fits an insect such as an ant better."
+      },
+      {
+        "id": "1094d1f5ea76b2e6cd06",
+        "label": "0",
+        "reason": "Cultural fusion is not an instrument or sound-producing entity that generates cheerful tones."
+      },
+      {
+        "id": "0ed892fb0e8ea5bfd500",
+        "label": "1",
+        "reason": "Cacti retain water, but their spines do not retain moisture, and the rosette of fleshy leaves points more strongly to another kind of succulent."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"c2dd883013fe4dd76677\",\"label\":\"1\",\"reason\":\"A drumming stick is associated with orchestral percussion, but it is not the instrument with the resonating circular component.\"},{\"id\":\"8f72c414277daa7b8691\",\"label\":\"2\",\"reason\":\"Scissors are a reliable hand-held cutting tool suitable for cutting intricate paper patterns.\"},{\"id\":\"20147e7081da05d779d0\",\"label\":\"2\",\"reason\":\"Cacti retain moisture and are adapted to harsh sunlight; their spines can also deter threats.\"},{\"id\":\"c1acdcea0cc17a152b33\",\"label\":\"1\",\"reason\":\"A tiger has a hide, but thick protective hide is not a characteristic that fits tigers well.\"},{\"id\":\"95b90cba8c96f9726162\",\"label\":\"2\",\"reason\":\"Many jellyfish have transparent bodies that let light pass through.\"},{\"id\":\"aad59f8327c4f7dc1973\",\"label\":\"1\",\"reason\":\"A bookcase has multiple sections and can enhance a room, but it is mainly for books rather than personal belongings generally.\"},{\"id\":\"287a54d173df93189687\",\"label\":\"2\",\"reason\":\"Jellyfish have bell-shaped bodies that pulse to move through water.\"},{\"id\":\"a281c24296b333d7e9d8\",\"label\":\"1\",\"reason\":\"A grazer gathers food, but the clue's small, diligent worker navigating complex environments fits an insect such as an ant better.\"},{\"id\":\"1094d1f5ea76b2e6cd06\",\"label\":\"0\",\"reason\":\"Cultural fusion is not an instrument or sound-producing entity that generates cheerful tones.\"},{\"id\":\"0ed892fb0e8ea5bfd500\",\"label\":\"1\",\"reason\":\"Cacti retain water, but their spines do not retain moisture, and the rosette of fleshy leaves points more strongly to another kind of succulent.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 170,
+    "started": "2026-11-26T08:38:34.790667+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 795,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 362,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 672,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1467
+    }
+  }
+}
