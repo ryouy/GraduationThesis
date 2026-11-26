@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "slide_counterweight",
+      "sentence": "On some models, a counterweight near the slide bow offsets its forward reach and improves balance in the hands."
+    },
+    {
+      "fact_key": "slide_lock_ring",
+      "sentence": "A small lock ring on the brace can immobilize the moving section during carrying or storage."
+    },
+    {
+      "fact_key": "slide_end_bumpers",
+      "sentence": "Soft bumpers at the slide’s far end cushion accidental contact and help protect the tubes when fully extended."
+    },
+    {
+      "fact_key": "inner_tube_stockings",
+      "sentence": "The inner slide tubes have slightly enlarged lower sections, called stockings, that maintain a close fit inside the outer tubes."
+    },
+    {
+      "fact_key": "interchangeable_leadpipes",
+      "sentence": "Some modern designs accept interchangeable leadpipes, letting players change the narrow passage between the mouthpiece receiver and main tubing."
+    },
+    {
+      "fact_key": "receiver_lock_collar",
+      "sentence": "A threaded lock collar joins the slide receiver to the bell section, securing the parts while allowing them to separate for storage."
+    },
+    {
+      "fact_key": "bore_size_variation",
+      "sentence": "Bass models generally have a wider bore than tenor models, making the internal tubing diameter a notable difference between these forms."
+    },
+    {
+      "fact_key": "slide_u_bow",
+      "sentence": "At the far end of the moving section, a U-shaped bow reverses the airflow between its two parallel tubes."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"On some models, a counterweight near the slide bow offsets its forward reach and improves balance in the hands.\",\"fact_key\":\"slide_counterweight\"},{\"sentence\":\"A small lock ring on the brace can immobilize the moving section during carrying or storage.\",\"fact_key\":\"slide_lock_ring\"},{\"sentence\":\"Soft bumpers at the slide’s far end cushion accidental contact and help protect the tubes when fully extended.\",\"fact_key\":\"slide_end_bumpers\"},{\"sentence\":\"The inner slide tubes have slightly enlarged lower sections, called stockings, that maintain a close fit inside the outer tubes.\",\"fact_key\":\"inner_tube_stockings\"},{\"sentence\":\"Some modern designs accept interchangeable leadpipes, letting players change the narrow passage between the mouthpiece receiver and main tubing.\",\"fact_key\":\"interchangeable_leadpipes\"},{\"sentence\":\"A threaded lock collar joins the slide receiver to the bell section, securing the parts while allowing them to separate for storage.\",\"fact_key\":\"receiver_lock_collar\"},{\"sentence\":\"Bass models generally have a wider bore than tenor models, making the internal tubing diameter a notable difference between these forms.\",\"fact_key\":\"bore_size_variation\"},{\"sentence\":\"At the far end of the moving section, a U-shaped bow reverses the airflow between its two parallel tubes.\",\"fact_key\":\"slide_u_bow\"}]}",
+  "rejected": [],
+  "request_hash": "27e7319a614235d75247b0cdc719efd655ba33219b2d67f6ab0ca637c01b20b1",
+  "usage": {
+    "completion_tokens": 1919,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1624,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2505,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2502,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4424
+  }
+}
