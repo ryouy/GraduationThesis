@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C35_3_structure_0_0",
+        "naturalness": 5,
+        "reason": "A plausible, clear description of open shelving holding books; cabinet is only weakly related as a type of furniture.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C35_3_structure_0_1",
+        "naturalness": 5,
+        "reason": "Adjustable levels and displayed books strongly suggest the target; the cabinet connection is only general furniture storage.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C35_3_structure_0_2",
+        "naturalness": 4,
+        "reason": "The phrasing is slightly compressed, but tiers holding books by height are a strong structural cue.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C35_3_structure_0_3",
+        "naturalness": 4,
+        "reason": "A plausible furniture description, with reference books providing a strong bookshelf association; “storage piece” also allows a broader cabinet connection.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C35_3_structure_0_4",
+        "naturalness": 5,
+        "reason": "Regularly spaced boards organizing books clearly indicate open book storage, not enclosed cabinet compartments.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C35_3_structure_0_5",
+        "naturalness": 4,
+        "reason": "The loaded unit, bottom tier, and dictionaries strongly evoke a bookshelf; the construction details fit the structural style.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C35_3_structure_0_6",
+        "naturalness": 5,
+        "reason": "Visible book spines and light passing between levels are distinctive cues to open shelving.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C35_3_structure_0_7",
+        "naturalness": 5,
+        "reason": "Removable planks and book collections make a plausible, strongly recognizable description of adjustable shelving.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C35_2_structure_0_0",
+        "naturalness": 5,
+        "reason": "An open wooden frame with tiers holding novels is a clear structural cue to the target.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r2_C35_2_structure_0_1",
+        "naturalness": 5,
+        "reason": "The browsing scenario plausibly suggests displayed books, but it describes use and setting rather than structure.",
+        "style": "fail",
+        "x_related": 3,
+        "y_related": 1
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1686,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1007,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 664,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2350
+  }
+}
