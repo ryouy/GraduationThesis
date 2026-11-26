@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "31b461013e78746052b083d9f3c3fe9786710955a7ac409c135dfe96a81e063b",
+    "items": [
+      {
+        "id": "ace997486aa26c500195",
+        "label": "0",
+        "reason": "Beavers do not have the slender form and jointed appendages described; those traits suggest an insect."
+      },
+      {
+        "id": "a3ff51bb24ed7591113f",
+        "label": "2",
+        "reason": "It restates the clue’s description of rain revitalizing the landscape."
+      },
+      {
+        "id": "cace1668843ce30a6d1b",
+        "label": "2",
+        "reason": "A personal collection shelf is a plausible tall unit with surfaces for displaying items."
+      },
+      {
+        "id": "6d0a7d9ae0f1ad0c2579",
+        "label": "2",
+        "reason": "An underwater craft is a vessel suited to operating underwater in challenging conditions."
+      },
+      {
+        "id": "6ceae83be74de782b36b",
+        "label": "0",
+        "reason": "A dance does not generate musical tones; the clue describes a musical instrument or sound source."
+      },
+      {
+        "id": "3e439c98857b9795051a",
+        "label": "1",
+        "reason": "Scissors can enable precise manipulation, but they do not provide a strong hold on items for bending and shaping."
+      },
+      {
+        "id": "6899afa72e0e31358b26",
+        "label": "2",
+        "reason": "Drumming produces rhythmic sounds that can energize musical performances."
+      },
+      {
+        "id": "1834ece897a01e08305c",
+        "label": "2",
+        "reason": "A bookcase is a vertical structure with multiple levels for displaying collections and essentials."
+      },
+      {
+        "id": "6b80fa2379f759064ee6",
+        "label": "2",
+        "reason": "A cactus has fleshy features and adaptations for surviving hot, harsh climates."
+      },
+      {
+        "id": "c94e7f9804baa4b3b788",
+        "label": "1",
+        "reason": "An escape vehicle could enable escape or travel, but the clue’s reference to “both” is not identified by the answer."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"ace997486aa26c500195\",\"label\":\"0\",\"reason\":\"Beavers do not have the slender form and jointed appendages described; those traits suggest an insect.\"},{\"id\":\"a3ff51bb24ed7591113f\",\"label\":\"2\",\"reason\":\"It restates the clue’s description of rain revitalizing the landscape.\"},{\"id\":\"cace1668843ce30a6d1b\",\"label\":\"2\",\"reason\":\"A personal collection shelf is a plausible tall unit with surfaces for displaying items.\"},{\"id\":\"6d0a7d9ae0f1ad0c2579\",\"label\":\"2\",\"reason\":\"An underwater craft is a vessel suited to operating underwater in challenging conditions.\"},{\"id\":\"6ceae83be74de782b36b\",\"label\":\"0\",\"reason\":\"A dance does not generate musical tones; the clue describes a musical instrument or sound source.\"},{\"id\":\"3e439c98857b9795051a\",\"label\":\"1\",\"reason\":\"Scissors can enable precise manipulation, but they do not provide a strong hold on items for bending and shaping.\"},{\"id\":\"6899afa72e0e31358b26\",\"label\":\"2\",\"reason\":\"Drumming produces rhythmic sounds that can energize musical performances.\"},{\"id\":\"1834ece897a01e08305c\",\"label\":\"2\",\"reason\":\"A bookcase is a vertical structure with multiple levels for displaying collections and essentials.\"},{\"id\":\"6b80fa2379f759064ee6\",\"label\":\"2\",\"reason\":\"A cactus has fleshy features and adaptations for surviving hot, harsh climates.\"},{\"id\":\"c94e7f9804baa4b3b788\",\"label\":\"1\",\"reason\":\"An escape vehicle could enable escape or travel, but the clue’s reference to “both” is not identified by the answer.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 140,
+    "started": "2026-11-26T08:36:48.179809+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 737,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 334,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 690,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1427
+    }
+  }
+}
