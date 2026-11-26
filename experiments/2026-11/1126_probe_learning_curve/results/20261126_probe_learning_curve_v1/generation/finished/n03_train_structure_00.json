@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "enclosed_frame_and_compartments",
+      "sentence": "This storage furniture typically has an enclosed frame with interior shelves or compartments behind one or more doors."
+    },
+    {
+      "fact_key": "hinged_doors",
+      "sentence": "Its doors often attach to the frame with hinges, allowing them to swing outward for access to stored items."
+    },
+    {
+      "fact_key": "construction_materials",
+      "sentence": "Common versions use solid wood, plywood, metal, or combinations of these materials for their panels and structural frame."
+    },
+    {
+      "fact_key": "door_and_drawer_hardware",
+      "sentence": "Small knobs or pulls are usually fixed to the doors or drawers to make opening them easier."
+    },
+    {
+      "fact_key": "rear_panel",
+      "sentence": "A thin rear panel can brace the structure and cover the back of its interior compartments."
+    },
+    {
+      "fact_key": "adjustable_shelves",
+      "sentence": "Some interiors contain movable shelves supported by pins inserted into paired rows of holes along the side walls."
+    },
+    {
+      "fact_key": "bottom_support_and_base",
+      "sentence": "A broad bottom panel supports the stored contents, while legs or a recessed base may raise the frame above the floor."
+    },
+    {
+      "fact_key": "wall_mounting",
+      "sentence": "Wall-mounted versions are secured to studs or masonry, with fasteners carrying the weight of the unit and its contents."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"This storage furniture typically has an enclosed frame with interior shelves or compartments behind one or more doors.\",\"fact_key\":\"enclosed_frame_and_compartments\"},{\"sentence\":\"Its doors often attach to the frame with hinges, allowing them to swing outward for access to stored items.\",\"fact_key\":\"hinged_doors\"},{\"sentence\":\"Common versions use solid wood, plywood, metal, or combinations of these materials for their panels and structural frame.\",\"fact_key\":\"construction_materials\"},{\"sentence\":\"Small knobs or pulls are usually fixed to the doors or drawers to make opening them easier.\",\"fact_key\":\"door_and_drawer_hardware\"},{\"sentence\":\"A thin rear panel can brace the structure and cover the back of its interior compartments.\",\"fact_key\":\"rear_panel\"},{\"sentence\":\"Some interiors contain movable shelves supported by pins inserted into paired rows of holes along the side walls.\",\"fact_key\":\"adjustable_shelves\"},{\"sentence\":\"A broad bottom panel supports the stored contents, while legs or a recessed base may raise the frame above the floor.\",\"fact_key\":\"bottom_support_and_base\"},{\"sentence\":\"Wall-mounted versions are secured to studs or masonry, with fasteners carrying the weight of the unit and its contents.\",\"fact_key\":\"wall_mounting\"}]}",
+  "rejected": [],
+  "request_hash": "9148eb12b455a2603d20dec9b581510f8aa26c25d3b7b8a39290bd5cd8c01b6d",
+  "usage": {
+    "completion_tokens": 382,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 122,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 220,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 602
+  }
+}
