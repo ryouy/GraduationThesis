@@ -67,6 +67,7 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 - [既存4概念の距離再分析](experiments/2026-11/1124_distance_representation_analysis/results/20261124_distance_reanalysis_v1/analysis_summary.md)（完了・探索的）
 - [10概念Pre-main](experiments/2026-11/1124_pre_main_experiment/README.md)（実装済み・探索的）
 - [最終出力評価・検証Colab v3（GPT-6 Luna、GitHub保存専用、未実行）](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_output_evaluation_validation/output_evaluation_validation_luna_v3.ipynb)
+- [最終出力評価・検証Colab v4（Luna API互換修正、GitHub保存専用、未実行）](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_output_evaluation_validation/output_evaluation_validation_luna_v4.ipynb)
 - **追加Probe探索・本番用Cue準備：後日実施。** 仕様・開始条件は[統合プロトコル](docs/main_experiment_protocol_v0_95.md)に記載。
 
 ## 実験へのアクセス
