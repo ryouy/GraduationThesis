@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "surplus shoot removal",
+      "sentence": "Growers often remove surplus basal shoots, retaining selected offshoots to limit crowding and reduce competition within a planting."
+    },
+    {
+      "fact_key": "split fertilizer application",
+      "sentence": "Fertilizer is often applied in small, repeated doses because shallow roots draw nutrients from a relatively limited soil volume."
+    },
+    {
+      "fact_key": "successive flower opening",
+      "sentence": "Individual blossoms open successively along the flower cluster, extending the period during which flowering and fruit development occur."
+    },
+    {
+      "fact_key": "tepache fermentation",
+      "sentence": "Fruit peel, sugar, water, and spices can ferment together to make tepache, a traditional, lightly alcoholic drink."
+    },
+    {
+      "fact_key": "fruit wine production",
+      "sentence": "Yeast fermentation of the sweet juice can produce a fruit wine, which is then strained and allowed to mature."
+    },
+    {
+      "fact_key": "dehydrated fruit leather",
+      "sentence": "Pureed flesh spread thinly and dehydrated becomes flexible fruit leather that can be stored as a snack."
+    },
+    {
+      "fact_key": "enzyme recovery from stems",
+      "sentence": "Processors can crush leftover stems and recover bromelain from the liquid for use in food production and other industries."
+    },
+    {
+      "fact_key": "delayed fruiting of young plants",
+      "sentence": "Growers may remove the first flower cluster from young plants to postpone fruiting until the plants are more established."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Growers often remove surplus basal shoots, retaining selected offshoots to limit crowding and reduce competition within a planting.\",\"fact_key\":\"surplus shoot removal\"},{\"sentence\":\"Fertilizer is often applied in small, repeated doses because shallow roots draw nutrients from a relatively limited soil volume.\",\"fact_key\":\"split fertilizer application\"},{\"sentence\":\"Individual blossoms open successively along the flower cluster, extending the period during which flowering and fruit development occur.\",\"fact_key\":\"successive flower opening\"},{\"sentence\":\"Fruit peel, sugar, water, and spices can ferment together to make tepache, a traditional, lightly alcoholic drink.\",\"fact_key\":\"tepache fermentation\"},{\"sentence\":\"Yeast fermentation of the sweet juice can produce a fruit wine, which is then strained and allowed to mature.\",\"fact_key\":\"fruit wine production\"},{\"sentence\":\"Pureed flesh spread thinly and dehydrated becomes flexible fruit leather that can be stored as a snack.\",\"fact_key\":\"dehydrated fruit leather\"},{\"sentence\":\"Processors can crush leftover stems and recover bromelain from the liquid for use in food production and other industries.\",\"fact_key\":\"enzyme recovery from stems\"},{\"sentence\":\"Growers may remove the first flower cluster from young plants to postpone fruiting until the plants are more established.\",\"fact_key\":\"delayed fruiting of young plants\"}]}",
+  "rejected": [],
+  "request_hash": "3e48fb1885558931efe92f5bda85300b1e3c3c157101981dc7c636c789510b0a",
+  "usage": {
+    "completion_tokens": 1825,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1536,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2656,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2653,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4481
+  }
+}
