@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "harvest_stage",
+      "sentence": "Growers usually cut bunches while the fruits are still green, since they continue ripening after harvest."
+    },
+    {
+      "fact_key": "commercial_ripening",
+      "sentence": "Commercial ripening rooms expose green shipments to ethylene gas to bring batches to market-ready color together."
+    },
+    {
+      "fact_key": "peeling_method",
+      "sentence": "At home, the peel is commonly split at one end and pulled away in long sections before eating."
+    },
+    {
+      "fact_key": "freezing_for_blending",
+      "sentence": "Peeled pieces can be frozen on a tray, then stored in a container for later blending into drinks."
+    },
+    {
+      "fact_key": "baking_use",
+      "sentence": "Mashing the soft flesh into baking batter adds sweetness and moisture to breads and cakes."
+    },
+    {
+      "fact_key": "shoot_propagation",
+      "sentence": "Farmers commonly raise new plants from shoots growing near the base of an established plant."
+    },
+    {
+      "fact_key": "green_fruit_cooking",
+      "sentence": "Green, firm fruits are often boiled or fried as a starchy side dish rather than eaten raw."
+    },
+    {
+      "fact_key": "careful_transport",
+      "sentence": "For transport, harvested bunches are handled gently and packed in cartons to limit bruising during shipment."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Growers usually cut bunches while the fruits are still green, since they continue ripening after harvest.\",\"fact_key\":\"harvest_stage\"},{\"sentence\":\"Commercial ripening rooms expose green shipments to ethylene gas to bring batches to market-ready color together.\",\"fact_key\":\"commercial_ripening\"},{\"sentence\":\"At home, the peel is commonly split at one end and pulled away in long sections before eating.\",\"fact_key\":\"peeling_method\"},{\"sentence\":\"Peeled pieces can be frozen on a tray, then stored in a container for later blending into drinks.\",\"fact_key\":\"freezing_for_blending\"},{\"sentence\":\"Mashing the soft flesh into baking batter adds sweetness and moisture to breads and cakes.\",\"fact_key\":\"baking_use\"},{\"sentence\":\"Farmers commonly raise new plants from shoots growing near the base of an established plant.\",\"fact_key\":\"shoot_propagation\"},{\"sentence\":\"Green, firm fruits are often boiled or fried as a starchy side dish rather than eaten raw.\",\"fact_key\":\"green_fruit_cooking\"},{\"sentence\":\"For transport, harvested bunches are handled gently and packed in cartons to limit bruising during shipment.\",\"fact_key\":\"careful_transport\"}]}",
+  "rejected": [],
+  "request_hash": "3c4d6bfdec8f709fd4c4b4e323c5f1721e832377aeef1bfdced3824f4928c65b",
+  "usage": {
+    "completion_tokens": 631,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 379,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 725,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1356
+  }
+}
