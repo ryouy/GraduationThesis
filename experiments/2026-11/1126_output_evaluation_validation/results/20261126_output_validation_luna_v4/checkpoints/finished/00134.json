@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "afc756051b3c31957b7fe14c2c3640b4439e3b817f954a9de582d0da11c0bf43",
+    "items": [
+      {
+        "id": "daeb20e5f2c0bb30acf7",
+        "label": "2",
+        "reason": "A bookcase is a tall, often wall-side structure that displays objects and keeps books and other items accessible."
+      },
+      {
+        "id": "287127da20e174bc274f",
+        "label": "1",
+        "reason": "A bicycle can symbolize human innovation and engineering, but the clue refers to “both” without the answer identifying a second thing."
+      },
+      {
+        "id": "6bc6e98e7bb043adb8d2",
+        "label": "2",
+        "reason": "Berries are sweet fruits commonly enjoyed by children and served at breakfast."
+      },
+      {
+        "id": "421c974cf4de4620b725",
+        "label": "0",
+        "reason": "A climbing tower is not a creature that coordinates with others to carry food home."
+      },
+      {
+        "id": "693a1e34f395ad73708d",
+        "label": "1",
+        "reason": "An underwater research station may serve research purposes, but it is not an underwater vessel."
+      },
+      {
+        "id": "8a7aaad3153327ff7ed8",
+        "label": "2",
+        "reason": "Grapefruit has juicy flesh and can be used in fruit salads and smoothies."
+      },
+      {
+        "id": "31016944bcf01a2e59a9",
+        "label": "1",
+        "reason": "Grapefruit can be used in smoothies and desserts, but it is more subtropical than a fruit typically associated with tropical regions."
+      },
+      {
+        "id": "2f561dd4aced6e454a1d",
+        "label": "1",
+        "reason": "Baking ingredients are relevant, but the clue emphasizes precise measurement rather than naming ingredients."
+      },
+      {
+        "id": "8c96b344036a969e8481",
+        "label": "1",
+        "reason": "The answer describes the creature’s soil-aerating role but does not identify the creature itself."
+      },
+      {
+        "id": "0bc4a9951e93a449ffdf",
+        "label": "2",
+        "reason": "Cacti have spines and moisture-storing stems, and their spines help deter herbivores."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"daeb20e5f2c0bb30acf7\",\"label\":\"2\",\"reason\":\"A bookcase is a tall, often wall-side structure that displays objects and keeps books and other items accessible.\"},{\"id\":\"287127da20e174bc274f\",\"label\":\"1\",\"reason\":\"A bicycle can symbolize human innovation and engineering, but the clue refers to “both” without the answer identifying a second thing.\"},{\"id\":\"6bc6e98e7bb043adb8d2\",\"label\":\"2\",\"reason\":\"Berries are sweet fruits commonly enjoyed by children and served at breakfast.\"},{\"id\":\"421c974cf4de4620b725\",\"label\":\"0\",\"reason\":\"A climbing tower is not a creature that coordinates with others to carry food home.\"},{\"id\":\"693a1e34f395ad73708d\",\"label\":\"1\",\"reason\":\"An underwater research station may serve research purposes, but it is not an underwater vessel.\"},{\"id\":\"8a7aaad3153327ff7ed8\",\"label\":\"2\",\"reason\":\"Grapefruit has juicy flesh and can be used in fruit salads and smoothies.\"},{\"id\":\"31016944bcf01a2e59a9\",\"label\":\"1\",\"reason\":\"Grapefruit can be used in smoothies and desserts, but it is more subtropical than a fruit typically associated with tropical regions.\"},{\"id\":\"2f561dd4aced6e454a1d\",\"label\":\"1\",\"reason\":\"Baking ingredients are relevant, but the clue emphasizes precise measurement rather than naming ingredients.\"},{\"id\":\"8c96b344036a969e8481\",\"label\":\"1\",\"reason\":\"The answer describes the creature’s soil-aerating role but does not identify the creature itself.\"},{\"id\":\"0bc4a9951e93a449ffdf\",\"label\":\"2\",\"reason\":\"Cacti have spines and moisture-storing stems, and their spines help deter herbivores.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 290,
+    "started": "2026-11-26T09:31:53.247754+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 866,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 441,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 665,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1531
+    }
+  }
+}
