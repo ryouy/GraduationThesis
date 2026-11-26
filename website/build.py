@@ -1,6 +1,7 @@
 """Build a static research viewer without editing research files."""
 from pathlib import Path
 import json
+import re
 import shutil
 import subprocess
 
@@ -48,7 +49,15 @@ def main():
         if local:
             dst = OUT / "data" / rel
             dst.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copyfile(src, dst)
+            if suffix == "md":
+                # GitHub-only content is not included in the published document.
+                md = src.read_text(encoding="utf-8")
+                md = re.sub(r"<!--\s*github-only:start\s*-->[\s\S]*?<!--\s*github-only:end\s*-->", "", md)
+                if name == "README.md":
+                    md = re.sub(r"^\s*\[Web ver\.\]\(https://ryouy\.github\.io/GraduationThesis/?\)[ \t]*(?:\r?\n|$)", "", md, flags=re.I | re.M)
+                dst.write_text(md, encoding="utf-8")
+            else:
+                shutil.copyfile(src, dst)
         files.append({"path": name, "size": size, "local": local})
     (OUT / "manifest.json").write_text(json.dumps({"commit": commit, "files": files}, ensure_ascii=False), encoding="utf-8")
     print(f"Indexed {len(files)} files; copied {sum(f['local'] for f in files)} files.")

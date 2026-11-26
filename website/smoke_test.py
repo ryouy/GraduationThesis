@@ -8,6 +8,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 HTML = (ROOT / "_site" / "index.html").read_text(encoding="utf-8")
+readme = (ROOT / "_site" / "data" / "README.md").read_text(encoding="utf-8")
+assert "github-only:start" not in readme and "[Web ver.]" not in readme and "img.shields.io/badge/Web版" not in readme
 
 # No network dependencies in the smoke test: replace third-party renderers
 # with a small fixture while retaining the actual generated CSS and viewer JS.
