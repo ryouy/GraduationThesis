@@ -1,0 +1,15 @@
+{
+  "config_sha256": "fb12198f287ac3ca81a1bdd2a0dab1a9f50524bd9f1bd261455a9f7378536f8c",
+  "files": {
+    "cue_selected_PROVISIONAL.csv": "018722adbd7077301126130050f3dd3bc3e2e9fba7bd64bdf34c627ca0331d41",
+    "distance_bounds.csv": "ce0b57df782ef6b64c8bbd4ddbc529bf9dacd817460fff1087f98d7a6b6cd0b4",
+    "human_review_pending.csv": "65c1a8995dc120a887645e00141204b2cca6add014a96a570f888051f00d4a75",
+    "selection_summary.csv": "14c28b3e0cf11480f8f0d05f26dcb57f9ba82b91d6f26beefed78ddd282053fb"
+  },
+  "input_ref": "experiments/cue-selection-luna-v1",
+  "input_sha256": "be48364c113d57171e87b4b61bced56b262ec178d2edfe4afb9c888558c2eb1f",
+  "n_candidates": 700,
+  "n_quality_pass": 622,
+  "n_selected_across_settings": 829,
+  "status": "provisional_human_and_probe_overlap_audit_pending"
+}
