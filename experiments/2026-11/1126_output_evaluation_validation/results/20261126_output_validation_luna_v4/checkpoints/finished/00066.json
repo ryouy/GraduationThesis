@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "f65dffe8ec7375978077b0e29211afc7d0184b1ac185970fa66a920ec3b26e2b",
+    "items": [
+      {
+        "id": "1c65336f10efba00c591",
+        "label": "no",
+        "reason": "Describes drumming, the activity, rather than a drum."
+      },
+      {
+        "id": "0bbca2c2524261113c67",
+        "label": "no",
+        "reason": "A smoothie-themed phrase does not identify a pineapple."
+      },
+      {
+        "id": "b50420239974f8780b43",
+        "label": "no",
+        "reason": "Cacti are related succulents, not aloe."
+      },
+      {
+        "id": "9d42038bb794bda36227",
+        "label": "yes",
+        "reason": "Directly names a jellyfish."
+      },
+      {
+        "id": "e6957d5b5ee04af02215",
+        "label": "no",
+        "reason": "A guitar is a different instrument from a tambourine."
+      },
+      {
+        "id": "3b1c1a92e4fce7bdca51",
+        "label": "yes",
+        "reason": "Raindrops are the falling precipitation that constitutes rain."
+      },
+      {
+        "id": "42950390640063d38e88",
+        "label": "no",
+        "reason": "Names ants, not a dragonfly."
+      },
+      {
+        "id": "d1426a52888fec4db358",
+        "label": "no",
+        "reason": "An underwater vehicle is not a bicycle."
+      },
+      {
+        "id": "62d4472f7f04e09f1ee9",
+        "label": "yes",
+        "reason": "“Cacti” is the plural form of cactus."
+      },
+      {
+        "id": "91283dec6457ed49c962",
+        "label": "no",
+        "reason": "Baking ingredients do not identify an elephant."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"1c65336f10efba00c591\",\"label\":\"no\",\"reason\":\"Describes drumming, the activity, rather than a drum.\"},{\"id\":\"0bbca2c2524261113c67\",\"label\":\"no\",\"reason\":\"A smoothie-themed phrase does not identify a pineapple.\"},{\"id\":\"b50420239974f8780b43\",\"label\":\"no\",\"reason\":\"Cacti are related succulents, not aloe.\"},{\"id\":\"9d42038bb794bda36227\",\"label\":\"yes\",\"reason\":\"Directly names a jellyfish.\"},{\"id\":\"e6957d5b5ee04af02215\",\"label\":\"no\",\"reason\":\"A guitar is a different instrument from a tambourine.\"},{\"id\":\"3b1c1a92e4fce7bdca51\",\"label\":\"yes\",\"reason\":\"Raindrops are the falling precipitation that constitutes rain.\"},{\"id\":\"42950390640063d38e88\",\"label\":\"no\",\"reason\":\"Names ants, not a dragonfly.\"},{\"id\":\"d1426a52888fec4db358\",\"label\":\"no\",\"reason\":\"An underwater vehicle is not a bicycle.\"},{\"id\":\"62d4472f7f04e09f1ee9\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural form of cactus.\"},{\"id\":\"91283dec6457ed49c962\",\"label\":\"no\",\"reason\":\"Baking ingredients do not identify an elephant.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 650,
+    "started": "2026-11-26T08:26:07.318244+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 446,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 118,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 536,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 982
+    }
+  }
+}
