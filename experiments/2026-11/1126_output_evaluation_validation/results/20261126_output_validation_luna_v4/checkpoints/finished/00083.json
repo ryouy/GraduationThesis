@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "22bdbd93d6ea24e5f1b8281c8ef117b00c835f3c52f7f145d58de63822e16cee",
+    "items": [
+      {
+        "id": "8c876e1febc8d4d09ac7",
+        "label": "no",
+        "reason": "Lemon is a different fruit from banana."
+      },
+      {
+        "id": "53c08106167c5ebed12b",
+        "label": "no",
+        "reason": "A jellyfish is a different marine animal from an octopus."
+      },
+      {
+        "id": "e3932c865d75df7afafd",
+        "label": "no",
+        "reason": "A smoothie enhancer is a generic role, not specifically a pineapple."
+      },
+      {
+        "id": "1516a58aa81edb7bac0b",
+        "label": "no",
+        "reason": "A circus dance is an activity, not a tambourine."
+      },
+      {
+        "id": "93e369ba21dfc8a40b2d",
+        "label": "no",
+        "reason": "The answer describes rain, not snow."
+      },
+      {
+        "id": "1a8e3d9c6c9a97c0c70c",
+        "label": "yes",
+        "reason": "It explicitly identifies ants, the target animal."
+      },
+      {
+        "id": "0514d2d53d5679846d60",
+        "label": "no",
+        "reason": "Aerating soil is an activity associated with ants, not an identification of an ant."
+      },
+      {
+        "id": "f482d8fb60a0da3055ba",
+        "label": "no",
+        "reason": "A bicycle is a different vehicle from a submarine."
+      },
+      {
+        "id": "fb14af7f582283e7e804",
+        "label": "yes",
+        "reason": "A bookcase is another name for a bookshelf."
+      },
+      {
+        "id": "77cebca7261625fdded9",
+        "label": "yes",
+        "reason": "Gentle rainfall is a clear paraphrase of rain."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"8c876e1febc8d4d09ac7\",\"label\":\"no\",\"reason\":\"Lemon is a different fruit from banana.\"},{\"id\":\"53c08106167c5ebed12b\",\"label\":\"no\",\"reason\":\"A jellyfish is a different marine animal from an octopus.\"},{\"id\":\"e3932c865d75df7afafd\",\"label\":\"no\",\"reason\":\"A smoothie enhancer is a generic role, not specifically a pineapple.\"},{\"id\":\"1516a58aa81edb7bac0b\",\"label\":\"no\",\"reason\":\"A circus dance is an activity, not a tambourine.\"},{\"id\":\"93e369ba21dfc8a40b2d\",\"label\":\"no\",\"reason\":\"The answer describes rain, not snow.\"},{\"id\":\"1a8e3d9c6c9a97c0c70c\",\"label\":\"yes\",\"reason\":\"It explicitly identifies ants, the target animal.\"},{\"id\":\"0514d2d53d5679846d60\",\"label\":\"no\",\"reason\":\"Aerating soil is an activity associated with ants, not an identification of an ant.\"},{\"id\":\"f482d8fb60a0da3055ba\",\"label\":\"no\",\"reason\":\"A bicycle is a different vehicle from a submarine.\"},{\"id\":\"fb14af7f582283e7e804\",\"label\":\"yes\",\"reason\":\"A bookcase is another name for a bookshelf.\"},{\"id\":\"77cebca7261625fdded9\",\"label\":\"yes\",\"reason\":\"Gentle rainfall is a clear paraphrase of rain.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 820,
+    "started": "2026-11-26T08:28:33.627044+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 491,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 137,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 527,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1018
+    }
+  }
+}
