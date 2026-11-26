@@ -8,6 +8,13 @@
 
 [リポジトリTOP](../README.md) · [研究概要](research_overview.md) · [パイロット解釈](../experiments/2026-11/1112_qwen_suppression_pilot/results/20261112_qwen_suppression_pilot_v1/INTERPRETATION_20261113.md) · [Neutral X結果](../experiments/2026-11/1112_qwen_suppression_pilot/results/20261124_qwen_neutral_x_addon_v1/analysis_summary.md)
 
+<details>
+<summary>実験全体のフロー図（クリックして展開）</summary>
+
+[![実験全体のフロー図 — 統合プロトコル v0.95](figures/protocol_v095_vertical_flow.png)](figures/protocol_v095_vertical_flow.png)
+
+</details>
+
 ## 最初に確認：現在地と今後の作業
 
 | 項目 | 状態・方針 |

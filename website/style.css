@@ -73,3 +73,9 @@ main{grid-area:main;min-width:0;max-width:100%;overflow-x:clip}
 @container (max-width: 420px){#content img[align="right"]{float:none;display:block;width:100%;max-width:100%;margin:8px auto 14px}}
 main{container-type:inline-size}
 
+
+/* Collapsible figures and supplementary documentation. */
+#content details{border:1px solid var(--line);border-radius:6px;padding:9px 13px;margin:16px 0}
+#content details>summary{cursor:pointer;font-weight:600;line-height:1.5}
+#content details[open]>summary{margin-bottom:12px}
+#content details img{display:block;max-width:100%;height:auto;margin:12px auto}

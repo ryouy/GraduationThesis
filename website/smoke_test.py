@@ -20,7 +20,7 @@ fixture = re.sub(r'<script defer src="https://[^"]+"></script>', '', HTML)
 fixture = re.sub(r'<link rel="stylesheet" href="https://[^"]+">', '', fixture)
 stubs = """
 <script>
-window.marked={parse:()=>'<h1>Layout regression test</h1><h2>Section</h2><p>Content</p>'};
+window.marked={parse:()=>'<h1>Layout regression test</h1><details><summary>実験全体のフロー図</summary><p>図の内容</p></details><h2>Section</h2><p>Content</p>'};
 window.DOMPurify={sanitize:x=>x};
 window.fetch=async url=>({ok:true,json:async()=>({commit:'main',files:[{path:'README.md',local:true},{path:'docs/very_long_research_document_name_to_test_fading.md',local:true},{path:'docs/sample.ipynb',local:false},{path:'docs/sample.csv',local:true}]}),text:async()=> '# Layout regression test'});
 </script>
@@ -37,6 +37,9 @@ document.addEventListener('DOMContentLoaded',async()=>{
     const main=document.querySelector('main').getBoundingClientRect();
     const desktop=innerWidth>900, mobile=innerWidth<=650;
     verify('article rendered',!!document.querySelector('#content h1'));
+    const detail=document.querySelector('#content details');
+    verify('protocol figure initially closed',!!detail&&!detail.open);
+    if(detail){detail.querySelector('summary').click();verify('protocol figure expands',detail.open);detail.querySelector('summary').click();verify('protocol figure collapses',!detail.open);}
     verify('article width',main.width>= (mobile?innerWidth-2:325));
     verify('article within viewport',main.left>=0&&main.right<=innerWidth+1);
     verify('no horizontal overflow',document.documentElement.scrollWidth<=innerWidth+1);
