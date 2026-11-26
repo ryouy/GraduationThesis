@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "alcove_placement",
+      "sentence": "In a living room alcove, the unit can fit between walls and make an otherwise unused recess practical."
+    },
+    {
+      "fact_key": "child_reachable_storage",
+      "sentence": "A low arrangement in a child’s room lets young readers reach their own stories without climbing."
+    },
+    {
+      "fact_key": "classroom_shared_supplies",
+      "sentence": "In a classroom, shared supplies can be placed within reach so pupils can collect them during activities."
+    },
+    {
+      "fact_key": "office_reference_storage",
+      "sentence": "An office may use separate sections for binders, keeping reference materials accessible near a desk."
+    },
+    {
+      "fact_key": "under_stair_placement",
+      "sentence": "Beneath a staircase, staggered heights can make use of space that would otherwise be difficult to furnish."
+    },
+    {
+      "fact_key": "retail_product_display",
+      "sentence": "In a shop, displayed merchandise can face customers, helping them browse items without opening enclosed storage."
+    },
+    {
+      "fact_key": "open_room_divider",
+      "sentence": "Set perpendicular to a wall, an open unit can divide a room while allowing light and sightlines through."
+    },
+    {
+      "fact_key": "shared_room_storage",
+      "sentence": "In a shared dormitory, personal objects can occupy separate levels, giving roommates distinct areas for belongings."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In a living room alcove, the unit can fit between walls and make an otherwise unused recess practical.\",\"fact_key\":\"alcove_placement\"},{\"sentence\":\"A low arrangement in a child’s room lets young readers reach their own stories without climbing.\",\"fact_key\":\"child_reachable_storage\"},{\"sentence\":\"In a classroom, shared supplies can be placed within reach so pupils can collect them during activities.\",\"fact_key\":\"classroom_shared_supplies\"},{\"sentence\":\"An office may use separate sections for binders, keeping reference materials accessible near a desk.\",\"fact_key\":\"office_reference_storage\"},{\"sentence\":\"Beneath a staircase, staggered heights can make use of space that would otherwise be difficult to furnish.\",\"fact_key\":\"under_stair_placement\"},{\"sentence\":\"In a shop, displayed merchandise can face customers, helping them browse items without opening enclosed storage.\",\"fact_key\":\"retail_product_display\"},{\"sentence\":\"Set perpendicular to a wall, an open unit can divide a room while allowing light and sightlines through.\",\"fact_key\":\"open_room_divider\"},{\"sentence\":\"In a shared dormitory, personal objects can occupy separate levels, giving roommates distinct areas for belongings.\",\"fact_key\":\"shared_room_storage\"}]}",
+  "rejected": [],
+  "request_hash": "7c233d514502addfee93628a922e882c9d2d2fd8a584c4e37a1140964ff3207a",
+  "usage": {
+    "completion_tokens": 828,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 567,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1326,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1323,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2154
+  }
+}
