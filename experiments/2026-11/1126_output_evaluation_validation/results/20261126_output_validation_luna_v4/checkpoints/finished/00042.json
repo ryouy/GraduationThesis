@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "e2e32f2efe4ef14f82c57570db3ad0ea8c058c6dbc7d96d4e966cbd318d58025",
+    "items": [
+      {
+        "id": "f246ae4b33f6ae50f45a",
+        "label": "no",
+        "reason": "Describes rain, not snow."
+      },
+      {
+        "id": "878226eb142e231fb5b8",
+        "label": "no",
+        "reason": "“Gentle Giant Worker” does not identify a dragonfly."
+      },
+      {
+        "id": "fd7b55c83aa1e8bc07bf",
+        "label": "no",
+        "reason": "Cacti are related plants, not aloe."
+      },
+      {
+        "id": "c91adb3eefcb9f1554d7",
+        "label": "yes",
+        "reason": "A bookcase is another name for a bookshelf."
+      },
+      {
+        "id": "c1bb9e155c33db436eb4",
+        "label": "yes",
+        "reason": "“Cacti” is the plural form of cactus."
+      },
+      {
+        "id": "3e04b30ad51ae7a6f11b",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from banana."
+      },
+      {
+        "id": "3d153ae93f3bcd4a150a",
+        "label": "no",
+        "reason": "Orange and banana are different fruits from pineapple."
+      },
+      {
+        "id": "107ee6a92dd827f3590e",
+        "label": "no",
+        "reason": "Scissors are a different cutting tool from pliers."
+      },
+      {
+        "id": "5d9b2b9a4627247fccbe",
+        "label": "no",
+        "reason": "The answer describes banana, not pineapple."
+      },
+      {
+        "id": "69cadaa2363811d36749",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from banana."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"f246ae4b33f6ae50f45a\",\"label\":\"no\",\"reason\":\"Describes rain, not snow.\"},{\"id\":\"878226eb142e231fb5b8\",\"label\":\"no\",\"reason\":\"“Gentle Giant Worker” does not identify a dragonfly.\"},{\"id\":\"fd7b55c83aa1e8bc07bf\",\"label\":\"no\",\"reason\":\"Cacti are related plants, not aloe.\"},{\"id\":\"c91adb3eefcb9f1554d7\",\"label\":\"yes\",\"reason\":\"A bookcase is another name for a bookshelf.\"},{\"id\":\"c1bb9e155c33db436eb4\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural form of cactus.\"},{\"id\":\"3e04b30ad51ae7a6f11b\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from banana.\"},{\"id\":\"3d153ae93f3bcd4a150a\",\"label\":\"no\",\"reason\":\"Orange and banana are different fruits from pineapple.\"},{\"id\":\"107ee6a92dd827f3590e\",\"label\":\"no\",\"reason\":\"Scissors are a different cutting tool from pliers.\"},{\"id\":\"5d9b2b9a4627247fccbe\",\"label\":\"no\",\"reason\":\"The answer describes banana, not pineapple.\"},{\"id\":\"69cadaa2363811d36749\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from banana.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 420,
+    "started": "2026-11-26T08:22:27.364237+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 414,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 79,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 532,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 946
+    }
+  }
+}
