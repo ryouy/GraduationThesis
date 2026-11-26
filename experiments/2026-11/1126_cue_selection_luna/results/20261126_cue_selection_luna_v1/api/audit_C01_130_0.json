@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_function_far_0_1",
+        "naturalness": 5,
+        "reason": "A touring route on rural roads is plausibly used for bicycle touring; the clue describes the route’s purpose.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_function_far_0_2",
+        "naturalness": 5,
+        "reason": "Turn signaling and traffic-gap judgment are relevant to road safety for cyclists, though the clue refers broadly to young travelers.",
+        "style": "pass",
+        "x_related": 1,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_function_far_0_3",
+        "naturalness": 4,
+        "reason": "Adaptive bicycles can support accessible outdoor travel and added stability; the wording is somewhat broad.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_function_far_0_4",
+        "naturalness": 5,
+        "reason": "A tandem bicycle lets companions contribute to propulsion together; the clue describes this use without naming the vehicle.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_function_far_0_5",
+        "naturalness": 5,
+        "reason": "Vintage bicycle restoration is plausible in this setting, but the fair and its activities could concern many kinds of collectibles.",
+        "style": "pass",
+        "x_related": 1,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_function_unrelated_0_0",
+        "naturalness": 5,
+        "reason": "A thermostat can maintain a stable temperature for houseplants; this describes a function unrelated to either vehicle.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_function_unrelated_0_1",
+        "naturalness": 5,
+        "reason": "Organizing receipts is a plausible use of color-coded folders and is unrelated to either vehicle.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_function_unrelated_0_2",
+        "naturalness": 5,
+        "reason": "Acoustic panels can reduce echoes and improve speech intelligibility; unrelated to either vehicle.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_function_unrelated_0_3",
+        "naturalness": 5,
+        "reason": "Sharp knives can slice tomatoes cleanly; this is a plausible function unrelated to either vehicle.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_function_unrelated_0_4",
+        "naturalness": 5,
+        "reason": "A well-tuned piano can produce clear notes; unrelated to either vehicle.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1835,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1180,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 625,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2460
+  }
+}
