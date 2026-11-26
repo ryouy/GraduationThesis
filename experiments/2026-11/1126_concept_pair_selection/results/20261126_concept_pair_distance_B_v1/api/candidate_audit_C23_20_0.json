@@ -1,0 +1,184 @@
+{
+  "data": {
+    "items": [
+      {
+        "aliases": [],
+        "category": "musical_instruments",
+        "id": "C23_Y21",
+        "reason": "A familiar string instrument, distinct from a trumpet and accurately defined.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "musical_instruments",
+        "id": "C23_Y22",
+        "reason": "A familiar percussion instrument, distinct from a trumpet and accurately defined.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "musical_instruments",
+        "id": "C23_Y23",
+        "reason": "A familiar tuned-bar percussion instrument, distinct from a trumpet and accurately defined.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "musical_instruments",
+        "id": "C23_Y24",
+        "reason": "A familiar plucked string instrument, distinct from a trumpet and accurately defined.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "other",
+        "id": "C23_Y25",
+        "reason": "A recognizable brass-instrument component, not an instrument itself; the definition is accurate and distinct from a trumpet.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "other",
+        "id": "C23_Y26",
+        "reason": "A recognizable brass-instrument accessory, not an instrument itself; the definition is accurate and distinct from a trumpet.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "other",
+        "id": "C23_Y27",
+        "reason": "A lubricant for instrument valves, not an instrument; the definition is clear and distinct from a trumpet.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "other",
+        "id": "C23_Y28",
+        "reason": "A protective carrying container rather than an instrument; the definition is clear and distinct from a trumpet.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "other",
+        "id": "C23_Y29",
+        "reason": "A support for reading music rather than an instrument; the definition is clear and distinct from a trumpet.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "other",
+        "id": "C23_Y30",
+        "reason": "Printed musical notation rather than an instrument; the definition is clear and distinct from a trumpet.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "other",
+        "id": "C23_Y31",
+        "reason": "A conducting aid rather than an instrument; the definition is clear and distinct from a trumpet.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "other",
+        "id": "C23_Y32",
+        "reason": "A performance venue rather than an instrument; the definition is clear and distinct from a trumpet.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "vehicles",
+        "id": "C23_Y33",
+        "reason": "A familiar human-powered vehicle, accurately defined and distinct from a trumpet.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "land_mammals",
+        "id": "C23_Y34",
+        "reason": "A familiar land mammal, accurately defined and distinct from a trumpet.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "marine_animals",
+        "id": "C23_Y35",
+        "reason": "A familiar marine mammal, accurately defined and distinct from a trumpet.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "insects",
+        "id": "C23_Y36",
+        "reason": "A familiar insect, accurately defined and distinct from a trumpet.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "fruits",
+        "id": "C23_Y37",
+        "reason": "A familiar edible fruit, accurately defined and distinct from a trumpet.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "furniture",
+        "id": "C23_Y38",
+        "reason": "A familiar upholstered seat, accurately defined and distinct from a trumpet.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "plants",
+        "id": "C23_Y39",
+        "reason": "A familiar tree, accurately defined and distinct from a trumpet.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "natural_phenomena",
+        "id": "C23_Y40",
+        "reason": "A familiar optical phenomenon, accurately defined and distinct from a trumpet.",
+        "same_category": false,
+        "verdict": "pass"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"C23_Y21\",\"verdict\":\"pass\",\"category\":\"musical_instruments\",\"same_category\":true,\"reason\":\"A familiar string instrument, distinct from a trumpet and accurately defined.\",\"aliases\":[]},{\"id\":\"C23_Y22\",\"verdict\":\"pass\",\"category\":\"musical_instruments\",\"same_category\":true,\"reason\":\"A familiar percussion instrument, distinct from a trumpet and accurately defined.\",\"aliases\":[]},{\"id\":\"C23_Y23\",\"verdict\":\"pass\",\"category\":\"musical_instruments\",\"same_category\":true,\"reason\":\"A familiar tuned-bar percussion instrument, distinct from a trumpet and accurately defined.\",\"aliases\":[]},{\"id\":\"C23_Y24\",\"verdict\":\"pass\",\"category\":\"musical_instruments\",\"same_category\":true,\"reason\":\"A familiar plucked string instrument, distinct from a trumpet and accurately defined.\",\"aliases\":[]},{\"id\":\"C23_Y25\",\"verdict\":\"pass\",\"category\":\"other\",\"same_category\":false,\"reason\":\"A recognizable brass-instrument component, not an instrument itself; the definition is accurate and distinct from a trumpet.\",\"aliases\":[]},{\"id\":\"C23_Y26\",\"verdict\":\"pass\",\"category\":\"other\",\"same_category\":false,\"reason\":\"A recognizable brass-instrument accessory, not an instrument itself; the definition is accurate and distinct from a trumpet.\",\"aliases\":[]},{\"id\":\"C23_Y27\",\"verdict\":\"pass\",\"category\":\"other\",\"same_category\":false,\"reason\":\"A lubricant for instrument valves, not an instrument; the definition is clear and distinct from a trumpet.\",\"aliases\":[]},{\"id\":\"C23_Y28\",\"verdict\":\"pass\",\"category\":\"other\",\"same_category\":false,\"reason\":\"A protective carrying container rather than an instrument; the definition is clear and distinct from a trumpet.\",\"aliases\":[]},{\"id\":\"C23_Y29\",\"verdict\":\"pass\",\"category\":\"other\",\"same_category\":false,\"reason\":\"A support for reading music rather than an instrument; the definition is clear and distinct from a trumpet.\",\"aliases\":[]},{\"id\":\"C23_Y30\",\"verdict\":\"pass\",\"category\":\"other\",\"same_category\":false,\"reason\":\"Printed musical notation rather than an instrument; the definition is clear and distinct from a trumpet.\",\"aliases\":[]},{\"id\":\"C23_Y31\",\"verdict\":\"pass\",\"category\":\"other\",\"same_category\":false,\"reason\":\"A conducting aid rather than an instrument; the definition is clear and distinct from a trumpet.\",\"aliases\":[]},{\"id\":\"C23_Y32\",\"verdict\":\"pass\",\"category\":\"other\",\"same_category\":false,\"reason\":\"A performance venue rather than an instrument; the definition is clear and distinct from a trumpet.\",\"aliases\":[]},{\"id\":\"C23_Y33\",\"verdict\":\"pass\",\"category\":\"vehicles\",\"same_category\":false,\"reason\":\"A familiar human-powered vehicle, accurately defined and distinct from a trumpet.\",\"aliases\":[]},{\"id\":\"C23_Y34\",\"verdict\":\"pass\",\"category\":\"land_mammals\",\"same_category\":false,\"reason\":\"A familiar land mammal, accurately defined and distinct from a trumpet.\",\"aliases\":[]},{\"id\":\"C23_Y35\",\"verdict\":\"pass\",\"category\":\"marine_animals\",\"same_category\":false,\"reason\":\"A familiar marine mammal, accurately defined and distinct from a trumpet.\",\"aliases\":[]},{\"id\":\"C23_Y36\",\"verdict\":\"pass\",\"category\":\"insects\",\"same_category\":false,\"reason\":\"A familiar insect, accurately defined and distinct from a trumpet.\",\"aliases\":[]},{\"id\":\"C23_Y37\",\"verdict\":\"pass\",\"category\":\"fruits\",\"same_category\":false,\"reason\":\"A familiar edible fruit, accurately defined and distinct from a trumpet.\",\"aliases\":[]},{\"id\":\"C23_Y38\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":false,\"reason\":\"A familiar upholstered seat, accurately defined and distinct from a trumpet.\",\"aliases\":[]},{\"id\":\"C23_Y39\",\"verdict\":\"pass\",\"category\":\"plants\",\"same_category\":false,\"reason\":\"A familiar tree, accurately defined and distinct from a trumpet.\",\"aliases\":[]},{\"id\":\"C23_Y40\",\"verdict\":\"pass\",\"category\":\"natural_phenomena\",\"same_category\":false,\"reason\":\"A familiar optical phenomenon, accurately defined and distinct from a trumpet.\",\"aliases\":[]}]}",
+  "usage": {
+    "completion_tokens": 1931,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1042,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 935,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2866
+  }
+}
