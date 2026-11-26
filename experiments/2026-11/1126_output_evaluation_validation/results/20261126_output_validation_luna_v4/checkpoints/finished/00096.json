@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "d04dcc9d5415dde2e3b22651835fa06f9a1cf914fb3cb0d80ae3085e1e773014",
+    "items": [
+      {
+        "id": "a9c58f24ba1699ad804a",
+        "label": "no",
+        "reason": "A beetle is a different insect, not an ant."
+      },
+      {
+        "id": "c4e45b0b31764088c1be",
+        "label": "no",
+        "reason": "Scissors are a different cutting tool, not pliers."
+      },
+      {
+        "id": "a14ce982d5e0817794f8",
+        "label": "no",
+        "reason": "Mountain rainstorms do not identify a jellyfish."
+      },
+      {
+        "id": "7f2d89fd86efb081590f",
+        "label": "no",
+        "reason": "“Ecosystem protector” is a broad role, not a specific identification of a lion."
+      },
+      {
+        "id": "7ff26583def6e3f2d5cd",
+        "label": "no",
+        "reason": "A snowflake layer does not identify rain."
+      },
+      {
+        "id": "af489e49a01d4026932f",
+        "label": "no",
+        "reason": "A lion is a different animal, not an ant."
+      },
+      {
+        "id": "61a78eb69402055ffc75",
+        "label": "no",
+        "reason": "The answer describes rain nourishing the earth, not snow."
+      },
+      {
+        "id": "ae5cb8fa21f6b1dfd15b",
+        "label": "yes",
+        "reason": "The answer directly names scissors."
+      },
+      {
+        "id": "4f9cde5223edd240d47a",
+        "label": "no",
+        "reason": "The answer describes an elephant, not a lion."
+      },
+      {
+        "id": "5793c1336a612f024860",
+        "label": "no",
+        "reason": "Cacti are not aloe."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"a9c58f24ba1699ad804a\",\"label\":\"no\",\"reason\":\"A beetle is a different insect, not an ant.\"},{\"id\":\"c4e45b0b31764088c1be\",\"label\":\"no\",\"reason\":\"Scissors are a different cutting tool, not pliers.\"},{\"id\":\"a14ce982d5e0817794f8\",\"label\":\"no\",\"reason\":\"Mountain rainstorms do not identify a jellyfish.\"},{\"id\":\"7f2d89fd86efb081590f\",\"label\":\"no\",\"reason\":\"“Ecosystem protector” is a broad role, not a specific identification of a lion.\"},{\"id\":\"7ff26583def6e3f2d5cd\",\"label\":\"no\",\"reason\":\"A snowflake layer does not identify rain.\"},{\"id\":\"af489e49a01d4026932f\",\"label\":\"no\",\"reason\":\"A lion is a different animal, not an ant.\"},{\"id\":\"61a78eb69402055ffc75\",\"label\":\"no\",\"reason\":\"The answer describes rain nourishing the earth, not snow.\"},{\"id\":\"ae5cb8fa21f6b1dfd15b\",\"label\":\"yes\",\"reason\":\"The answer directly names scissors.\"},{\"id\":\"4f9cde5223edd240d47a\",\"label\":\"no\",\"reason\":\"The answer describes an elephant, not a lion.\"},{\"id\":\"5793c1336a612f024860\",\"label\":\"no\",\"reason\":\"Cacti are not aloe.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 950,
+    "started": "2026-11-26T08:32:45.278018+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 426,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 85,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 524,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 950
+    }
+  }
+}
