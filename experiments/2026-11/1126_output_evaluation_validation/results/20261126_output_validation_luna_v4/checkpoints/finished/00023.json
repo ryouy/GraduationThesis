@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "f47c22b7b531a26bd3bb0ee7218900b129aa996316b43ac370d2892e96d35cb3",
+    "items": [
+      {
+        "id": "daaf47de41feba437b8e",
+        "label": "no",
+        "reason": "A bicycle is a different vehicle from a submarine."
+      },
+      {
+        "id": "cc3a633bca743c3e8ecd",
+        "label": "yes",
+        "reason": "The answer explicitly describes rain and its effects."
+      },
+      {
+        "id": "78216fb84dbfc62fbd72",
+        "label": "no",
+        "reason": "A bookshelf is distinct from a cabinet."
+      },
+      {
+        "id": "188e1b4026b1892067d7",
+        "label": "no",
+        "reason": "Cultural fusion is not a tambourine or a subtype of one."
+      },
+      {
+        "id": "3893c80ac37f11d68521",
+        "label": "no",
+        "reason": "Scissors are a different tool from pliers."
+      },
+      {
+        "id": "b67c726a47ee5152f7b1",
+        "label": "no",
+        "reason": "Hiking in national parks is an activity, not a lion."
+      },
+      {
+        "id": "da3b9e02c354bb230021",
+        "label": "yes",
+        "reason": "The answer directly names scissors."
+      },
+      {
+        "id": "bbd4b0468aac0666e43f",
+        "label": "yes",
+        "reason": "A vertical bookshelf is a type of bookshelf."
+      },
+      {
+        "id": "e05213e89e785142845e",
+        "label": "no",
+        "reason": "A smoothie bowl may contain pineapple, but it is not a pineapple."
+      },
+      {
+        "id": "262aa48a140ec6329cc5",
+        "label": "no",
+        "reason": "Innovation engineered does not identify a submarine."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"daaf47de41feba437b8e\",\"label\":\"no\",\"reason\":\"A bicycle is a different vehicle from a submarine.\"},{\"id\":\"cc3a633bca743c3e8ecd\",\"label\":\"yes\",\"reason\":\"The answer explicitly describes rain and its effects.\"},{\"id\":\"78216fb84dbfc62fbd72\",\"label\":\"no\",\"reason\":\"A bookshelf is distinct from a cabinet.\"},{\"id\":\"188e1b4026b1892067d7\",\"label\":\"no\",\"reason\":\"Cultural fusion is not a tambourine or a subtype of one.\"},{\"id\":\"3893c80ac37f11d68521\",\"label\":\"no\",\"reason\":\"Scissors are a different tool from pliers.\"},{\"id\":\"b67c726a47ee5152f7b1\",\"label\":\"no\",\"reason\":\"Hiking in national parks is an activity, not a lion.\"},{\"id\":\"da3b9e02c354bb230021\",\"label\":\"yes\",\"reason\":\"The answer directly names scissors.\"},{\"id\":\"bbd4b0468aac0666e43f\",\"label\":\"yes\",\"reason\":\"A vertical bookshelf is a type of bookshelf.\"},{\"id\":\"e05213e89e785142845e\",\"label\":\"no\",\"reason\":\"A smoothie bowl may contain pineapple, but it is not a pineapple.\"},{\"id\":\"262aa48a140ec6329cc5\",\"label\":\"no\",\"reason\":\"Innovation engineered does not identify a submarine.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 230,
+    "started": "2026-11-26T08:19:37.450660+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 412,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 81,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 521,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 933
+    }
+  }
+}
