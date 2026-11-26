@@ -1,0 +1,63 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C01_3_structure_0_4",
+        "naturalness": 4,
+        "reason": "Bearings and rotating parts plausibly apply to both; the drive-shaft phrasing fits submarine propulsion especially well. The clue describes mechanical structure.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 3
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C01_3_structure_0_5",
+        "naturalness": 5,
+        "reason": "A lightweight frame supporting wheels and gearing is a strong, accurate fit for a bicycle and not a submarine. The clue focuses on structural components.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C01_3_structure_0_6",
+        "naturalness": 3,
+        "reason": "The turning input and rotating drive element could describe power transmission in either vehicle, but the wording is generic and somewhat abstract. It does describe a component relationship.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C01_3_structure_0_7",
+        "naturalness": 4,
+        "reason": "Streamlining and mass balance plausibly affect both, but drag reduction is especially associated with a submarine’s shape. The clue refers to component design and arrangement.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 3
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 997,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 670,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 383,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1380
+  }
+}
