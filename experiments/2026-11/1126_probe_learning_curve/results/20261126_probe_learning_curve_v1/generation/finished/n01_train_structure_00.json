@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "frame_and_wheel_layout",
+      "sentence": "A lightweight frame connects two wheels arranged in line, allowing the rider to balance while moving."
+    },
+    {
+      "fact_key": "handlebar_and_fork_steering",
+      "sentence": "Steering is controlled by handlebars attached to a fork that turns the front wheel."
+    },
+    {
+      "fact_key": "pedal_chain_drive",
+      "sentence": "Foot pressure on paired pedals rotates a crank, commonly driving the rear wheel through a chain."
+    },
+    {
+      "fact_key": "rubber_tire_function",
+      "sentence": "Rubber tires surround the wheel rims, providing grip and cushioning over uneven surfaces."
+    },
+    {
+      "fact_key": "adjustable_saddle",
+      "sentence": "A narrow saddle supports the rider above the frame, with its height adjustable on many models."
+    },
+    {
+      "fact_key": "spoked_wheel_structure",
+      "sentence": "Spokes radiate between each hub and rim, keeping the wheels strong while limiting their weight."
+    },
+    {
+      "fact_key": "braking_components",
+      "sentence": "Hand-operated levers can tighten brake pads against rims or activate discs near the hubs."
+    },
+    {
+      "fact_key": "rear_sprocket_gearing",
+      "sentence": "The rear wheel often carries a cluster of sprockets, enabling different gear ratios for varied terrain."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"A lightweight frame connects two wheels arranged in line, allowing the rider to balance while moving.\",\"fact_key\":\"frame_and_wheel_layout\"},{\"sentence\":\"Steering is controlled by handlebars attached to a fork that turns the front wheel.\",\"fact_key\":\"handlebar_and_fork_steering\"},{\"sentence\":\"Foot pressure on paired pedals rotates a crank, commonly driving the rear wheel through a chain.\",\"fact_key\":\"pedal_chain_drive\"},{\"sentence\":\"Rubber tires surround the wheel rims, providing grip and cushioning over uneven surfaces.\",\"fact_key\":\"rubber_tire_function\"},{\"sentence\":\"A narrow saddle supports the rider above the frame, with its height adjustable on many models.\",\"fact_key\":\"adjustable_saddle\"},{\"sentence\":\"Spokes radiate between each hub and rim, keeping the wheels strong while limiting their weight.\",\"fact_key\":\"spoked_wheel_structure\"},{\"sentence\":\"Hand-operated levers can tighten brake pads against rims or activate discs near the hubs.\",\"fact_key\":\"braking_components\"},{\"sentence\":\"The rear wheel often carries a cluster of sprockets, enabling different gear ratios for varied terrain.\",\"fact_key\":\"rear_sprocket_gearing\"}]}",
+  "rejected": [],
+  "request_hash": "1b91c9b03cb32c9de816b83e96a4b3101cdc666449d1a7229938e70ef67e429f",
+  "usage": {
+    "completion_tokens": 562,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 315,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 218,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 780
+  }
+}
