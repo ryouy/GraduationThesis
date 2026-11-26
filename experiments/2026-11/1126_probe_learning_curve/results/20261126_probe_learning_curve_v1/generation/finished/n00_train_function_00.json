@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "hot_cereal_topping",
+      "sentence": "Thin slices are a familiar topping for hot cereal, adding natural sweetness and a soft contrast to grains."
+    },
+    {
+      "fact_key": "fruit_salad_ingredient",
+      "sentence": "Chopped pieces are commonly mixed into fruit salads, where their mild sweetness balances tart berries and citrus."
+    },
+    {
+      "fact_key": "nut_butter_snack",
+      "sentence": "Peeled sections paired with nut butter make a quick snack combining soft fruit with a protein-rich accompaniment."
+    },
+    {
+      "fact_key": "curry_ingredient",
+      "sentence": "In some South Asian dishes, firm green cooking varieties are simmered in spiced curries, absorbing flavors from the sauce."
+    },
+    {
+      "fact_key": "pseudostem_fiber_products",
+      "sentence": "Fibers recovered from the plant's pseudostem can be processed into cordage, paper, and woven materials."
+    },
+    {
+      "fact_key": "peel_composting",
+      "sentence": "Discarded peels can be added to compost, where they break down into organic matter that enriches soil."
+    },
+    {
+      "fact_key": "porridge_sweetener",
+      "sentence": "Mashed ripe pulp can sweeten porridge and give it body, reducing the need for added refined sugar."
+    },
+    {
+      "fact_key": "agricultural_livelihoods",
+      "sentence": "Commercial cultivation provides income and employment for farm workers and packers in many tropical producing regions."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Thin slices are a familiar topping for hot cereal, adding natural sweetness and a soft contrast to grains.\",\"fact_key\":\"hot_cereal_topping\"},{\"sentence\":\"Chopped pieces are commonly mixed into fruit salads, where their mild sweetness balances tart berries and citrus.\",\"fact_key\":\"fruit_salad_ingredient\"},{\"sentence\":\"Peeled sections paired with nut butter make a quick snack combining soft fruit with a protein-rich accompaniment.\",\"fact_key\":\"nut_butter_snack\"},{\"sentence\":\"In some South Asian dishes, firm green cooking varieties are simmered in spiced curries, absorbing flavors from the sauce.\",\"fact_key\":\"curry_ingredient\"},{\"sentence\":\"Fibers recovered from the plant's pseudostem can be processed into cordage, paper, and woven materials.\",\"fact_key\":\"pseudostem_fiber_products\"},{\"sentence\":\"Discarded peels can be added to compost, where they break down into organic matter that enriches soil.\",\"fact_key\":\"peel_composting\"},{\"sentence\":\"Mashed ripe pulp can sweeten porridge and give it body, reducing the need for added refined sugar.\",\"fact_key\":\"porridge_sweetener\"},{\"sentence\":\"Commercial cultivation provides income and employment for farm workers and packers in many tropical producing regions.\",\"fact_key\":\"agricultural_livelihoods\"}]}",
+  "rejected": [],
+  "request_hash": "04972579d9222102a8ab4323bc4acf9c5b4974e67b9ad807aea2c401d305ffd2",
+  "usage": {
+    "completion_tokens": 1641,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1349,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1862,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1859,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3503
+  }
+}
