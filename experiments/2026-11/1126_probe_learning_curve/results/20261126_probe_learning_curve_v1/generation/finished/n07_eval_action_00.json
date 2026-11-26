@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "alternate_slide_routes",
+      "sentence": "When successive notes permit multiple slide locations, players may choose an alternate route that keeps a quick passage compact and avoids awkward reaches."
+    },
+    {
+      "fact_key": "double_tonguing",
+      "sentence": "For rapid repeated notes, performers may double-tongue by alternating tongue syllables, producing more attacks than a single articulation allows."
+    },
+    {
+      "fact_key": "flutter_tonguing",
+      "sentence": "A performer can flutter-tongue by rolling the tongue while blowing, adding a rattling texture to a sustained or repeated note."
+    },
+    {
+      "fact_key": "slide_vibrato",
+      "sentence": "To create vibrato, players sometimes move the slide slightly back and forth in a regular pulse while sustaining a pitch."
+    },
+    {
+      "fact_key": "lip_slur_exercises",
+      "sentence": "Lip-slur exercises connect neighboring resonant notes without moving the slide, developing control over changes in lip vibration and airflow."
+    },
+    {
+      "fact_key": "plunger_mute_shaping",
+      "sentence": "With a plunger mute held near the bell, performers open and close the gap to shape a changing, speechlike tone."
+    },
+    {
+      "fact_key": "joining_instrument_sections",
+      "sentence": "Before playing, performers typically connect the slide and bell sections, then secure their threaded joint without forcing the parts together."
+    },
+    {
+      "fact_key": "tubing_bath_cleaning",
+      "sentence": "For periodic cleaning, players separate the sections and rinse the tubing with lukewarm water and mild soap, avoiding heat that could damage the finish."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"When successive notes permit multiple slide locations, players may choose an alternate route that keeps a quick passage compact and avoids awkward reaches.\",\"fact_key\":\"alternate_slide_routes\"},{\"sentence\":\"For rapid repeated notes, performers may double-tongue by alternating tongue syllables, producing more attacks than a single articulation allows.\",\"fact_key\":\"double_tonguing\"},{\"sentence\":\"A performer can flutter-tongue by rolling the tongue while blowing, adding a rattling texture to a sustained or repeated note.\",\"fact_key\":\"flutter_tonguing\"},{\"sentence\":\"To create vibrato, players sometimes move the slide slightly back and forth in a regular pulse while sustaining a pitch.\",\"fact_key\":\"slide_vibrato\"},{\"sentence\":\"Lip-slur exercises connect neighboring resonant notes without moving the slide, developing control over changes in lip vibration and airflow.\",\"fact_key\":\"lip_slur_exercises\"},{\"sentence\":\"With a plunger mute held near the bell, performers open and close the gap to shape a changing, speechlike tone.\",\"fact_key\":\"plunger_mute_shaping\"},{\"sentence\":\"Before playing, performers typically connect the slide and bell sections, then secure their threaded joint without forcing the parts together.\",\"fact_key\":\"joining_instrument_sections\"},{\"sentence\":\"For periodic cleaning, players separate the sections and rinse the tubing with lukewarm water and mild soap, avoiding heat that could damage the finish.\",\"fact_key\":\"tubing_bath_cleaning\"}]}",
+  "rejected": [],
+  "request_hash": "fc80b463e21952728508414caabea8219f52a2ae2074bb1859e12a1145f252f9",
+  "usage": {
+    "completion_tokens": 1492,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1177,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2797,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2794,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4289
+  }
+}
