@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "flat_blade_profile",
+      "sentence": "A narrow, flattened blade at the tip fits into a straight groove in a fastener head."
+    },
+    {
+      "fact_key": "cross_recess_profile",
+      "sentence": "A pointed tip with four tapered flutes is shaped to seat in a cross-shaped recess."
+    },
+    {
+      "fact_key": "hexagonal_shaft_surfaces",
+      "sentence": "Some shafts have a hexagonal exterior that provides flat surfaces for applying extra turning force."
+    },
+    {
+      "fact_key": "handle_hanging_hole",
+      "sentence": "A hole through the handle end can provide a place to hang the tool on a peg."
+    },
+    {
+      "fact_key": "handle_tip_storage",
+      "sentence": "Certain hollow handles contain spare interchangeable tips within a compartment."
+    },
+    {
+      "fact_key": "electrical_insulation",
+      "sentence": "Models intended for electrical work may have an insulating coating over the shaft and handle."
+    },
+    {
+      "fact_key": "compact_configuration",
+      "sentence": "A compact version pairs a short shaft with a broad handle for use in confined spaces."
+    },
+    {
+      "fact_key": "shaft_handle_collar",
+      "sentence": "A metal collar where the shaft enters the handle can reinforce the joint against impact and stress."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"A narrow, flattened blade at the tip fits into a straight groove in a fastener head.\",\"fact_key\":\"flat_blade_profile\"},{\"sentence\":\"A pointed tip with four tapered flutes is shaped to seat in a cross-shaped recess.\",\"fact_key\":\"cross_recess_profile\"},{\"sentence\":\"Some shafts have a hexagonal exterior that provides flat surfaces for applying extra turning force.\",\"fact_key\":\"hexagonal_shaft_surfaces\"},{\"sentence\":\"A hole through the handle end can provide a place to hang the tool on a peg.\",\"fact_key\":\"handle_hanging_hole\"},{\"sentence\":\"Certain hollow handles contain spare interchangeable tips within a compartment.\",\"fact_key\":\"handle_tip_storage\"},{\"sentence\":\"Models intended for electrical work may have an insulating coating over the shaft and handle.\",\"fact_key\":\"electrical_insulation\"},{\"sentence\":\"A compact version pairs a short shaft with a broad handle for use in confined spaces.\",\"fact_key\":\"compact_configuration\"},{\"sentence\":\"A metal collar where the shaft enters the handle can reinforce the joint against impact and stress.\",\"fact_key\":\"shaft_handle_collar\"}]}",
+  "rejected": [],
+  "request_hash": "06da3f41ab4d8749210a43ea90f5644f77cf092b374e981f98a2bab72096e1d7",
+  "usage": {
+    "completion_tokens": 538,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 307,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 484,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1022
+  }
+}
