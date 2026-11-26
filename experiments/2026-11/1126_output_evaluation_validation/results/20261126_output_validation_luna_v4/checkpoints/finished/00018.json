@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "bb772049da01b0d91e0c2d392ffea245a9acf77a8d9e179b41dc02246002e862",
+    "items": [
+      {
+        "id": "4ceb520e3ccb59b7aca9",
+        "label": "no",
+        "reason": "A climbing tower is unrelated to an ant."
+      },
+      {
+        "id": "dc71949fb767b9ad716b",
+        "label": "no",
+        "reason": "An insect gathering refers broadly to insects, not specifically ants."
+      },
+      {
+        "id": "88fec36b26fa373df0ca",
+        "label": "no",
+        "reason": "A cheetah is a different animal from an elephant."
+      },
+      {
+        "id": "e250bfbc56857fcd9b0a",
+        "label": "no",
+        "reason": "Underwater innovations do not identify a bicycle."
+      },
+      {
+        "id": "2baeec225044a0084200",
+        "label": "no",
+        "reason": "A beaver is a different animal from a dragonfly."
+      },
+      {
+        "id": "b8707be1af80407c7dfc",
+        "label": "no",
+        "reason": "A drum is not specifically a tambourine."
+      },
+      {
+        "id": "083407b79ae3cf95b57e",
+        "label": "no",
+        "reason": "Raindrops are not snow."
+      },
+      {
+        "id": "0b702479bbe83106d50b",
+        "label": "yes",
+        "reason": "The answer explicitly describes cacti, a plural form of cactus."
+      },
+      {
+        "id": "7afa8190faed9a633b5d",
+        "label": "no",
+        "reason": "A desert succulent is a broad category that includes plants other than cacti."
+      },
+      {
+        "id": "56dae564f0ce377940f5",
+        "label": "no",
+        "reason": "A garden ant is not a dragonfly."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"4ceb520e3ccb59b7aca9\",\"label\":\"no\",\"reason\":\"A climbing tower is unrelated to an ant.\"},{\"id\":\"dc71949fb767b9ad716b\",\"label\":\"no\",\"reason\":\"An insect gathering refers broadly to insects, not specifically ants.\"},{\"id\":\"88fec36b26fa373df0ca\",\"label\":\"no\",\"reason\":\"A cheetah is a different animal from an elephant.\"},{\"id\":\"e250bfbc56857fcd9b0a\",\"label\":\"no\",\"reason\":\"Underwater innovations do not identify a bicycle.\"},{\"id\":\"2baeec225044a0084200\",\"label\":\"no\",\"reason\":\"A beaver is a different animal from a dragonfly.\"},{\"id\":\"b8707be1af80407c7dfc\",\"label\":\"no\",\"reason\":\"A drum is not specifically a tambourine.\"},{\"id\":\"083407b79ae3cf95b57e\",\"label\":\"no\",\"reason\":\"Raindrops are not snow.\"},{\"id\":\"0b702479bbe83106d50b\",\"label\":\"yes\",\"reason\":\"The answer explicitly describes cacti, a plural form of cactus.\"},{\"id\":\"7afa8190faed9a633b5d\",\"label\":\"no\",\"reason\":\"A desert succulent is a broad category that includes plants other than cacti.\"},{\"id\":\"56dae564f0ce377940f5\",\"label\":\"no\",\"reason\":\"A garden ant is not a dragonfly.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 180,
+    "started": "2026-11-26T08:18:51.557976+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 487,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 155,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 518,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1005
+    }
+  }
+}
