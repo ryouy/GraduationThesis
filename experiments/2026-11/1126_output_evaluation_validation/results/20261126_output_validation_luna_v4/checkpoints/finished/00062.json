@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "d21e25a744656e82f7b30501c43dce466f4b3a52e9f20103f240cfc8062b7cc8",
+    "items": [
+      {
+        "id": "d32b75b87ae609bf00e5",
+        "label": "yes",
+        "reason": "A bookcase is another name for a bookshelf."
+      },
+      {
+        "id": "4c56f78d5e8804cdf6ad",
+        "label": "no",
+        "reason": "“Smoothie Berry” does not identify a banana."
+      },
+      {
+        "id": "0de9747dd597e9e4ca69",
+        "label": "no",
+        "reason": "Cacti are different plants from aloe."
+      },
+      {
+        "id": "93c875c62fb6b112ee36",
+        "label": "no",
+        "reason": "The answer mentions banana, not pineapple."
+      },
+      {
+        "id": "1d63fd7cb7d89e121edf",
+        "label": "yes",
+        "reason": "“Elephants” directly names the target animal."
+      },
+      {
+        "id": "8e42a13148aca166f19b",
+        "label": "no",
+        "reason": "A drum is a related percussion instrument, not a tambourine."
+      },
+      {
+        "id": "d72447fe7566528c7855",
+        "label": "no",
+        "reason": "Coral reefs are habitats associated with jellyfish, not jellyfish themselves."
+      },
+      {
+        "id": "924132576cc6a3a877f3",
+        "label": "no",
+        "reason": "Scissors are a different cutting tool from pliers."
+      },
+      {
+        "id": "ff139157fc1941d41989",
+        "label": "no",
+        "reason": "A bookcase is related furniture but is not a cabinet."
+      },
+      {
+        "id": "2ca70dcf1e5c3a9b510e",
+        "label": "yes",
+        "reason": "The answer exactly names scissors."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"d32b75b87ae609bf00e5\",\"label\":\"yes\",\"reason\":\"A bookcase is another name for a bookshelf.\"},{\"id\":\"4c56f78d5e8804cdf6ad\",\"label\":\"no\",\"reason\":\"“Smoothie Berry” does not identify a banana.\"},{\"id\":\"0de9747dd597e9e4ca69\",\"label\":\"no\",\"reason\":\"Cacti are different plants from aloe.\"},{\"id\":\"93c875c62fb6b112ee36\",\"label\":\"no\",\"reason\":\"The answer mentions banana, not pineapple.\"},{\"id\":\"1d63fd7cb7d89e121edf\",\"label\":\"yes\",\"reason\":\"“Elephants” directly names the target animal.\"},{\"id\":\"8e42a13148aca166f19b\",\"label\":\"no\",\"reason\":\"A drum is a related percussion instrument, not a tambourine.\"},{\"id\":\"d72447fe7566528c7855\",\"label\":\"no\",\"reason\":\"Coral reefs are habitats associated with jellyfish, not jellyfish themselves.\"},{\"id\":\"924132576cc6a3a877f3\",\"label\":\"no\",\"reason\":\"Scissors are a different cutting tool from pliers.\"},{\"id\":\"ff139157fc1941d41989\",\"label\":\"no\",\"reason\":\"A bookcase is related furniture but is not a cabinet.\"},{\"id\":\"2ca70dcf1e5c3a9b510e\",\"label\":\"yes\",\"reason\":\"The answer exactly names scissors.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 620,
+    "started": "2026-11-26T08:25:29.204654+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 472,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 134,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 522,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 994
+    }
+  }
+}
