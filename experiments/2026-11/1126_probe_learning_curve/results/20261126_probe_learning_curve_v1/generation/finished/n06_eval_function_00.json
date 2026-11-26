@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "climate records from sediment cores",
+      "sentence": "Oceanographers use crewed deep-diving vehicles to collect seabed sediment cores, preserving clues about past climates and ocean conditions."
+    },
+    {
+      "fact_key": "deep-sea coral conservation",
+      "sentence": "Marine biologists observe deep-sea coral communities in place, helping assess their vulnerability before fishing or development begins."
+    },
+    {
+      "fact_key": "offshore wind inspections",
+      "sentence": "Offshore wind operators use crewed underwater vehicles to inspect turbine foundations and moorings for damage after storms."
+    },
+    {
+      "fact_key": "deep-wreck commercial salvage",
+      "sentence": "Commercial salvage teams send crewed vehicles to locate and recover valuable cargo from wrecks lying beyond diver reach."
+    },
+    {
+      "fact_key": "aircraft recorder recovery",
+      "sentence": "After deep-water aircraft crashes, search teams may use crewed vehicles to locate recorders and assist recovery investigations."
+    },
+    {
+      "fact_key": "deep-ocean documentary filming",
+      "sentence": "Documentary teams use crewed deep-diving vehicles to film deep-ocean wildlife at depths inaccessible to ordinary scuba divers."
+    },
+    {
+      "fact_key": "seafloor landslide assessment",
+      "sentence": "Geologists use crewed vehicles to inspect seafloor landslides, documenting terrain that may pose tsunami hazards to coastal communities."
+    },
+    {
+      "fact_key": "seamount fisheries research",
+      "sentence": "Researchers pilot crewed deep-diving vehicles around seamounts to observe fish behavior, informing assessments of vulnerable fisheries."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Oceanographers use crewed deep-diving vehicles to collect seabed sediment cores, preserving clues about past climates and ocean conditions.\",\"fact_key\":\"climate records from sediment cores\"},{\"sentence\":\"Marine biologists observe deep-sea coral communities in place, helping assess their vulnerability before fishing or development begins.\",\"fact_key\":\"deep-sea coral conservation\"},{\"sentence\":\"Offshore wind operators use crewed underwater vehicles to inspect turbine foundations and moorings for damage after storms.\",\"fact_key\":\"offshore wind inspections\"},{\"sentence\":\"Commercial salvage teams send crewed vehicles to locate and recover valuable cargo from wrecks lying beyond diver reach.\",\"fact_key\":\"deep-wreck commercial salvage\"},{\"sentence\":\"After deep-water aircraft crashes, search teams may use crewed vehicles to locate recorders and assist recovery investigations.\",\"fact_key\":\"aircraft recorder recovery\"},{\"sentence\":\"Documentary teams use crewed deep-diving vehicles to film deep-ocean wildlife at depths inaccessible to ordinary scuba divers.\",\"fact_key\":\"deep-ocean documentary filming\"},{\"sentence\":\"Geologists use crewed vehicles to inspect seafloor landslides, documenting terrain that may pose tsunami hazards to coastal communities.\",\"fact_key\":\"seafloor landslide assessment\"},{\"sentence\":\"Researchers pilot crewed deep-diving vehicles around seamounts to observe fish behavior, informing assessments of vulnerable fisheries.\",\"fact_key\":\"seamount fisheries research\"}]}",
+  "rejected": [],
+  "request_hash": "20af068e0390e23fe2ce911e3028f3f307a7a5d884eba786a61c957cc43cf256",
+  "usage": {
+    "completion_tokens": 3034,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2715,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 3255,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 3252,
+      "cached_tokens": 0
+    },
+    "total_tokens": 6289
+  }
+}
