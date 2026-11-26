@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "rounded_front_corners",
+      "sentence": "Some designs have rounded front corners, reducing sharp exposed edges along the sides of projecting horizontal supports."
+    },
+    {
+      "fact_key": "transparent_glass_supports",
+      "sentence": "Tempered glass panels can serve as transparent supports, allowing light through while displaying objects above and below."
+    },
+    {
+      "fact_key": "swivel_casters",
+      "sentence": "Small swivel casters fitted beneath the base allow a loaded unit to roll across smooth floors."
+    },
+    {
+      "fact_key": "integrated_led_lighting",
+      "sentence": "An integrated LED strip beneath an upper panel can illuminate the level below without requiring a separate lamp."
+    },
+    {
+      "fact_key": "wire_grid_supports",
+      "sentence": "Open wire-grid supports leave gaps between metal strands, permitting air circulation and visibility through each level."
+    },
+    {
+      "fact_key": "crown_molding",
+      "sentence": "Decorative crown molding may cap the upper edge, adding a projecting profile beyond the main frame."
+    },
+    {
+      "fact_key": "threaded_leveling_feet",
+      "sentence": "Leveling feet can be threaded at the base corners to compensate for uneven flooring and reduce rocking."
+    },
+    {
+      "fact_key": "baseboard_clearance_notch",
+      "sentence": "A recessed notch along the lower rear edge can clear a wall's projecting baseboard."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Some designs have rounded front corners, reducing sharp exposed edges along the sides of projecting horizontal supports.\",\"fact_key\":\"rounded_front_corners\"},{\"sentence\":\"Tempered glass panels can serve as transparent supports, allowing light through while displaying objects above and below.\",\"fact_key\":\"transparent_glass_supports\"},{\"sentence\":\"Small swivel casters fitted beneath the base allow a loaded unit to roll across smooth floors.\",\"fact_key\":\"swivel_casters\"},{\"sentence\":\"An integrated LED strip beneath an upper panel can illuminate the level below without requiring a separate lamp.\",\"fact_key\":\"integrated_led_lighting\"},{\"sentence\":\"Open wire-grid supports leave gaps between metal strands, permitting air circulation and visibility through each level.\",\"fact_key\":\"wire_grid_supports\"},{\"sentence\":\"Decorative crown molding may cap the upper edge, adding a projecting profile beyond the main frame.\",\"fact_key\":\"crown_molding\"},{\"sentence\":\"Leveling feet can be threaded at the base corners to compensate for uneven flooring and reduce rocking.\",\"fact_key\":\"threaded_leveling_feet\"},{\"sentence\":\"A recessed notch along the lower rear edge can clear a wall's projecting baseboard.\",\"fact_key\":\"baseboard_clearance_notch\"}]}",
+  "rejected": [],
+  "request_hash": "10ae845392962696dcf75d4608c32724bf0c4df8305ce4fdf91258b429116e5f",
+  "usage": {
+    "completion_tokens": 1096,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 837,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2462,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2459,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3558
+  }
+}
