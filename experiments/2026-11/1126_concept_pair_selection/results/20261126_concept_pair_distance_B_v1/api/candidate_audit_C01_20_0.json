@@ -1,0 +1,184 @@
+{
+  "data": {
+    "items": [
+      {
+        "aliases": [],
+        "category": "vehicles",
+        "id": "C01_Y21",
+        "reason": "A sailboat is a distinct, familiar water vehicle; the definition is clear and factual.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "vehicles",
+        "id": "C01_Y22",
+        "reason": "A canoe is a distinct, familiar water vehicle; the definition identifies its form and propulsion.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "vehicles",
+        "id": "C01_Y23",
+        "reason": "A snowmobile is a distinct, familiar motor vehicle; the definition is clear and factual.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "vehicles",
+        "id": "C01_Y24",
+        "reason": "A delivery van is a distinct road vehicle; the definition describes its typical use.",
+        "same_category": true,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "protective equipment",
+        "id": "C01_Y25",
+        "reason": "A helmet is familiar protective headwear, distinct from a bicycle; the definition is clear and factual.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "tools",
+        "id": "C01_Y26",
+        "reason": "A wrench is a familiar hand tool, distinct from a bicycle; the definition identifies its use and form.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "tools",
+        "id": "C01_Y27",
+        "reason": "An air pump is a familiar device, distinct from a bicycle; the definition describes its function accurately.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "tools",
+        "id": "C01_Y28",
+        "reason": "A tire lever is a familiar repair tool, distinct from a bicycle; the definition is clear and factual.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "security devices",
+        "id": "C01_Y29",
+        "reason": "A lock is a familiar fastening device, distinct from a bicycle; the definition describes a recognizable sense.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "containers",
+        "id": "C01_Y30",
+        "reason": "A water bottle is a familiar container, distinct from a bicycle; the definition is clear and factual.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "clothing",
+        "id": "C01_Y31",
+        "reason": "A cycling jersey is a familiar garment, distinct from a bicycle; the definition describes its design and use.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "storage equipment",
+        "id": "C01_Y32",
+        "reason": "A bike rack is a distinct storage or securing frame, not a bicycle; the definition is clear and factual.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "plants",
+        "id": "C01_Y33",
+        "reason": "An oak tree is a familiar plant; the definition gives recognizable traits and is factual.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "plants",
+        "id": "C01_Y34",
+        "reason": "A rose is a familiar flowering plant, distinct from a bicycle; the definition is recognizable and factual.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "fruits",
+        "id": "C01_Y35",
+        "reason": "An apple is a familiar fruit, distinct from a bicycle; the definition is clear and factual.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "fruits",
+        "id": "C01_Y36",
+        "reason": "A banana is a familiar fruit, distinct from a bicycle; the definition is clear and factual.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "furniture",
+        "id": "C01_Y37",
+        "reason": "A chair is a familiar piece of furniture, distinct from a bicycle; the definition is clear and factual.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "musical_instruments",
+        "id": "C01_Y38",
+        "reason": "A violin is a familiar musical instrument, distinct from a bicycle; the definition is clear and factual.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "marine_animals",
+        "id": "C01_Y39",
+        "reason": "A dolphin is a familiar marine mammal, distinct from a bicycle; the definition is clear and factual.",
+        "same_category": false,
+        "verdict": "pass"
+      },
+      {
+        "aliases": [],
+        "category": "insects",
+        "id": "C01_Y40",
+        "reason": "An ant is a familiar insect, distinct from a bicycle; the definition is clear and factual.",
+        "same_category": false,
+        "verdict": "pass"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"C01_Y21\",\"verdict\":\"pass\",\"category\":\"vehicles\",\"same_category\":true,\"reason\":\"A sailboat is a distinct, familiar water vehicle; the definition is clear and factual.\",\"aliases\":[]},{\"id\":\"C01_Y22\",\"verdict\":\"pass\",\"category\":\"vehicles\",\"same_category\":true,\"reason\":\"A canoe is a distinct, familiar water vehicle; the definition identifies its form and propulsion.\",\"aliases\":[]},{\"id\":\"C01_Y23\",\"verdict\":\"pass\",\"category\":\"vehicles\",\"same_category\":true,\"reason\":\"A snowmobile is a distinct, familiar motor vehicle; the definition is clear and factual.\",\"aliases\":[]},{\"id\":\"C01_Y24\",\"verdict\":\"pass\",\"category\":\"vehicles\",\"same_category\":true,\"reason\":\"A delivery van is a distinct road vehicle; the definition describes its typical use.\",\"aliases\":[]},{\"id\":\"C01_Y25\",\"verdict\":\"pass\",\"category\":\"protective equipment\",\"same_category\":false,\"reason\":\"A helmet is familiar protective headwear, distinct from a bicycle; the definition is clear and factual.\",\"aliases\":[]},{\"id\":\"C01_Y26\",\"verdict\":\"pass\",\"category\":\"tools\",\"same_category\":false,\"reason\":\"A wrench is a familiar hand tool, distinct from a bicycle; the definition identifies its use and form.\",\"aliases\":[]},{\"id\":\"C01_Y27\",\"verdict\":\"pass\",\"category\":\"tools\",\"same_category\":false,\"reason\":\"An air pump is a familiar device, distinct from a bicycle; the definition describes its function accurately.\",\"aliases\":[]},{\"id\":\"C01_Y28\",\"verdict\":\"pass\",\"category\":\"tools\",\"same_category\":false,\"reason\":\"A tire lever is a familiar repair tool, distinct from a bicycle; the definition is clear and factual.\",\"aliases\":[]},{\"id\":\"C01_Y29\",\"verdict\":\"pass\",\"category\":\"security devices\",\"same_category\":false,\"reason\":\"A lock is a familiar fastening device, distinct from a bicycle; the definition describes a recognizable sense.\",\"aliases\":[]},{\"id\":\"C01_Y30\",\"verdict\":\"pass\",\"category\":\"containers\",\"same_category\":false,\"reason\":\"A water bottle is a familiar container, distinct from a bicycle; the definition is clear and factual.\",\"aliases\":[]},{\"id\":\"C01_Y31\",\"verdict\":\"pass\",\"category\":\"clothing\",\"same_category\":false,\"reason\":\"A cycling jersey is a familiar garment, distinct from a bicycle; the definition describes its design and use.\",\"aliases\":[]},{\"id\":\"C01_Y32\",\"verdict\":\"pass\",\"category\":\"storage equipment\",\"same_category\":false,\"reason\":\"A bike rack is a distinct storage or securing frame, not a bicycle; the definition is clear and factual.\",\"aliases\":[]},{\"id\":\"C01_Y33\",\"verdict\":\"pass\",\"category\":\"plants\",\"same_category\":false,\"reason\":\"An oak tree is a familiar plant; the definition gives recognizable traits and is factual.\",\"aliases\":[]},{\"id\":\"C01_Y34\",\"verdict\":\"pass\",\"category\":\"plants\",\"same_category\":false,\"reason\":\"A rose is a familiar flowering plant, distinct from a bicycle; the definition is recognizable and factual.\",\"aliases\":[]},{\"id\":\"C01_Y35\",\"verdict\":\"pass\",\"category\":\"fruits\",\"same_category\":false,\"reason\":\"An apple is a familiar fruit, distinct from a bicycle; the definition is clear and factual.\",\"aliases\":[]},{\"id\":\"C01_Y36\",\"verdict\":\"pass\",\"category\":\"fruits\",\"same_category\":false,\"reason\":\"A banana is a familiar fruit, distinct from a bicycle; the definition is clear and factual.\",\"aliases\":[]},{\"id\":\"C01_Y37\",\"verdict\":\"pass\",\"category\":\"furniture\",\"same_category\":false,\"reason\":\"A chair is a familiar piece of furniture, distinct from a bicycle; the definition is clear and factual.\",\"aliases\":[]},{\"id\":\"C01_Y38\",\"verdict\":\"pass\",\"category\":\"musical_instruments\",\"same_category\":false,\"reason\":\"A violin is a familiar musical instrument, distinct from a bicycle; the definition is clear and factual.\",\"aliases\":[]},{\"id\":\"C01_Y39\",\"verdict\":\"pass\",\"category\":\"marine_animals\",\"same_category\":false,\"reason\":\"A dolphin is a familiar marine mammal, distinct from a bicycle; the definition is clear and factual.\",\"aliases\":[]},{\"id\":\"C01_Y40\",\"verdict\":\"pass\",\"category\":\"insects\",\"same_category\":false,\"reason\":\"An ant is a familiar insect, distinct from a bicycle; the definition is clear and factual.\",\"aliases\":[]}]}",
+  "usage": {
+    "completion_tokens": 1873,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 925,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 944,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2817
+  }
+}
