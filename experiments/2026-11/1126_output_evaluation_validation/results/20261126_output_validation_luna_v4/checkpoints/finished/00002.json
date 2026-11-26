@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "dc61f7d9aa4a8f25cb447790e42e94f6414afaac6f2f37b745f0d90c394557b6",
+    "items": [
+      {
+        "id": "f7d96f7ba4bcb6aa1026",
+        "label": "no",
+        "reason": "A drumming dance is an activity, not the drum itself."
+      },
+      {
+        "id": "6bd8dee3cff62079bc69",
+        "label": "yes",
+        "reason": "The answer explicitly identifies scissors."
+      },
+      {
+        "id": "7e03f9e83e8718922d9a",
+        "label": "no",
+        "reason": "A lion is a different animal from an ant."
+      },
+      {
+        "id": "0de94d13aa7c32e99caf",
+        "label": "no",
+        "reason": "The answer describes drumming at celebrations, not a tambourine."
+      },
+      {
+        "id": "04b66a917a8c04b73412",
+        "label": "yes",
+        "reason": "It explicitly identifies a bookshelf and describes its function."
+      },
+      {
+        "id": "0b297ff32b31648a6b3f",
+        "label": "no",
+        "reason": "A cultural instrument is a broad class, not specifically a drum."
+      },
+      {
+        "id": "2c927a09f5760a48c11b",
+        "label": "yes",
+        "reason": "“Bookshelves” is the plural form of the target."
+      },
+      {
+        "id": "9232fac2feea6ccbcb8d",
+        "label": "yes",
+        "reason": "The answer explicitly identifies a banana."
+      },
+      {
+        "id": "1c73535bb1d0e474fd5f",
+        "label": "no",
+        "reason": "“Garden worker” is a related role, not a dragonfly."
+      },
+      {
+        "id": "a9702f90a5b90ffe6dc0",
+        "label": "yes",
+        "reason": "The answer explicitly identifies scissors."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"f7d96f7ba4bcb6aa1026\",\"label\":\"no\",\"reason\":\"A drumming dance is an activity, not the drum itself.\"},{\"id\":\"6bd8dee3cff62079bc69\",\"label\":\"yes\",\"reason\":\"The answer explicitly identifies scissors.\"},{\"id\":\"7e03f9e83e8718922d9a\",\"label\":\"no\",\"reason\":\"A lion is a different animal from an ant.\"},{\"id\":\"0de94d13aa7c32e99caf\",\"label\":\"no\",\"reason\":\"The answer describes drumming at celebrations, not a tambourine.\"},{\"id\":\"04b66a917a8c04b73412\",\"label\":\"yes\",\"reason\":\"It explicitly identifies a bookshelf and describes its function.\"},{\"id\":\"0b297ff32b31648a6b3f\",\"label\":\"no\",\"reason\":\"A cultural instrument is a broad class, not specifically a drum.\"},{\"id\":\"2c927a09f5760a48c11b\",\"label\":\"yes\",\"reason\":\"“Bookshelves” is the plural form of the target.\"},{\"id\":\"9232fac2feea6ccbcb8d\",\"label\":\"yes\",\"reason\":\"The answer explicitly identifies a banana.\"},{\"id\":\"1c73535bb1d0e474fd5f\",\"label\":\"no\",\"reason\":\"“Garden worker” is a related role, not a dragonfly.\"},{\"id\":\"a9702f90a5b90ffe6dc0\",\"label\":\"yes\",\"reason\":\"The answer explicitly identifies scissors.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 20,
+    "started": "2026-11-26T08:16:22.626398+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 477,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 130,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 553,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1030
+    }
+  }
+}
