@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "c23252888e6b576009ddb511840ed36adcf5f18c5cc802dcf07d9df1510f8e31",
+    "items": [
+      {
+        "id": "b6a26d5f1447ec7964fb",
+        "label": "no",
+        "reason": "Describes rain, not snow."
+      },
+      {
+        "id": "d5b168a1bef1f52325e6",
+        "label": "no",
+        "reason": "A bookcase is related furniture, but not a cabinet itself."
+      },
+      {
+        "id": "f24959888d5f398ad372",
+        "label": "no",
+        "reason": "Scissors are a different tool from pliers."
+      },
+      {
+        "id": "d2594e4973d7859bda96",
+        "label": "no",
+        "reason": "A jellyfish is a different marine animal from an octopus."
+      },
+      {
+        "id": "c9c258f015927d33eb5d",
+        "label": "no",
+        "reason": "A jellyfish is a different marine animal from an octopus."
+      },
+      {
+        "id": "60588a74833e0a3042f3",
+        "label": "no",
+        "reason": "Does not identify a bicycle; it describes an aquatic craft."
+      },
+      {
+        "id": "6eeb098ce4c4d5d8ed45",
+        "label": "no",
+        "reason": "Aloe is not a cactus; they are different succulent plants."
+      },
+      {
+        "id": "41201d551a902254c4b9",
+        "label": "yes",
+        "reason": "Explicitly identifies a cactus and describes its adaptation."
+      },
+      {
+        "id": "00a99031817a555e918e",
+        "label": "no",
+        "reason": "A safety helmet is related to bicycle use, not a bicycle."
+      },
+      {
+        "id": "a753ddb26f447debacc5",
+        "label": "no",
+        "reason": "A garden terrace is unrelated to a cabinet."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"b6a26d5f1447ec7964fb\",\"label\":\"no\",\"reason\":\"Describes rain, not snow.\"},{\"id\":\"d5b168a1bef1f52325e6\",\"label\":\"no\",\"reason\":\"A bookcase is related furniture, but not a cabinet itself.\"},{\"id\":\"f24959888d5f398ad372\",\"label\":\"no\",\"reason\":\"Scissors are a different tool from pliers.\"},{\"id\":\"d2594e4973d7859bda96\",\"label\":\"no\",\"reason\":\"A jellyfish is a different marine animal from an octopus.\"},{\"id\":\"c9c258f015927d33eb5d\",\"label\":\"no\",\"reason\":\"A jellyfish is a different marine animal from an octopus.\"},{\"id\":\"60588a74833e0a3042f3\",\"label\":\"no\",\"reason\":\"Does not identify a bicycle; it describes an aquatic craft.\"},{\"id\":\"6eeb098ce4c4d5d8ed45\",\"label\":\"no\",\"reason\":\"Aloe is not a cactus; they are different succulent plants.\"},{\"id\":\"41201d551a902254c4b9\",\"label\":\"yes\",\"reason\":\"Explicitly identifies a cactus and describes its adaptation.\"},{\"id\":\"00a99031817a555e918e\",\"label\":\"no\",\"reason\":\"A safety helmet is related to bicycle use, not a bicycle.\"},{\"id\":\"a753ddb26f447debacc5\",\"label\":\"no\",\"reason\":\"A garden terrace is unrelated to a cabinet.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 350,
+    "started": "2026-11-26T08:21:24.310710+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 512,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 166,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 535,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1047
+    }
+  }
+}
