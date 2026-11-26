@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "brass_finish",
+      "sentence": "Its tubing is commonly made from brass and finished with clear lacquer or a thin layer of silver plating."
+    },
+    {
+      "fact_key": "cup_mouthpiece",
+      "sentence": "A detachable cup-shaped mouthpiece directs the player's buzzing lips into the instrument's narrow leadpipe."
+    },
+    {
+      "fact_key": "valve_airways",
+      "sentence": "Three valves divert air through additional lengths of tubing, changing the instrument's effective tube length and pitch."
+    },
+    {
+      "fact_key": "flared_bell",
+      "sentence": "The main tube widens gradually into a flared bell that helps project the instrument's sound."
+    },
+    {
+      "fact_key": "bore_shape",
+      "sentence": "Much of its bore is cylindrical, while the tubing near the bell expands into a broader profile."
+    },
+    {
+      "fact_key": "tuning_slide",
+      "sentence": "A movable U-shaped tuning slide changes the tubing's length slightly to adjust the overall pitch."
+    },
+    {
+      "fact_key": "piston_valves",
+      "sentence": "In many models, spring-loaded piston valves sit in a row and move vertically when pressed."
+    },
+    {
+      "fact_key": "coiled_tubing",
+      "sentence": "Its long, narrow tube is bent into compact loops, making the instrument easier to hold and play."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Its tubing is commonly made from brass and finished with clear lacquer or a thin layer of silver plating.\",\"fact_key\":\"brass_finish\"},{\"sentence\":\"A detachable cup-shaped mouthpiece directs the player's buzzing lips into the instrument's narrow leadpipe.\",\"fact_key\":\"cup_mouthpiece\"},{\"sentence\":\"Three valves divert air through additional lengths of tubing, changing the instrument's effective tube length and pitch.\",\"fact_key\":\"valve_airways\"},{\"sentence\":\"The main tube widens gradually into a flared bell that helps project the instrument's sound.\",\"fact_key\":\"flared_bell\"},{\"sentence\":\"Much of its bore is cylindrical, while the tubing near the bell expands into a broader profile.\",\"fact_key\":\"bore_shape\"},{\"sentence\":\"A movable U-shaped tuning slide changes the tubing's length slightly to adjust the overall pitch.\",\"fact_key\":\"tuning_slide\"},{\"sentence\":\"In many models, spring-loaded piston valves sit in a row and move vertically when pressed.\",\"fact_key\":\"piston_valves\"},{\"sentence\":\"Its long, narrow tube is bent into compact loops, making the instrument easier to hold and play.\",\"fact_key\":\"coiled_tubing\"}]}",
+  "rejected": [],
+  "request_hash": "879013ec4b10be75c9309d4cb9a12025596c49f7071a5b1a487026f95ee8c326",
+  "usage": {
+    "completion_tokens": 600,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 352,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 203,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 803
+  }
+}
