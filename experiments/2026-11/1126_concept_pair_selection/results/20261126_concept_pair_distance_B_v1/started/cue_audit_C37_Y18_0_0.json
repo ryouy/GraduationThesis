@@ -1,0 +1,65 @@
+{
+  "attempt": 0,
+  "payload": {
+    "aliases_x": [
+      "screw driver"
+    ],
+    "aliases_y": [],
+    "definition_x": "A hand tool used to turn screws.",
+    "definition_y": "A long-handled garden implement with teeth for gathering leaves or loosening soil.",
+    "items": [
+      {
+        "cue": "A cabinetmaker aligns a hinge, seats a steel tip in its cross-shaped fastener, and turns steadily.",
+        "id": "gen_C37_action_medium_far_0_0"
+      },
+      {
+        "cue": "An electrician loosens the tiny slotted fasteners before lifting an outlet cover from the wall.",
+        "id": "gen_C37_action_medium_far_0_1"
+      },
+      {
+        "cue": "An assembler aligns a pointed blade with a screw head, then rotates the handle to fasten a cabinet hinge.",
+        "id": "gen_C37_action_near_0_0"
+      },
+      {
+        "cue": "Turning the handle clockwise draws a threaded fastener snugly into a pilot hole in a wooden board.",
+        "id": "gen_C37_action_near_0_1"
+      },
+      {
+        "cue": "Rainwater flows through the garden beds, soaking the soil before draining into a shallow pond.",
+        "id": "gen_C37_action_unrelated_0_0"
+      },
+      {
+        "cue": "A repairer presses a blade into a slotted head and twists until the screw bites into timber.",
+        "id": "gen_C37_action_very_near_0_0"
+      },
+      {
+        "cue": "During disassembly, repeated counterclockwise rotations back a tiny screw out of a camera casing.",
+        "id": "gen_C37_action_very_near_0_1"
+      },
+      {
+        "cue": "The nameplate on the antique desk tilted after one small screw worked loose during polishing.",
+        "id": "gen_C37_situation_far_0_1"
+      },
+      {
+        "cue": "While assembling a bookshelf, she turns a slotted fastener until the wooden panels sit flush.",
+        "id": "gen_C37_situation_medium_near_0_0"
+      },
+      {
+        "cue": "At the workbench, he secures a loose cabinet hinge by turning two small fasteners into the door.",
+        "id": "gen_C37_situation_medium_near_0_2"
+      },
+      {
+        "cue": "Small electronic housings often use recessed, cross-patterned fastener heads to keep assembled panels secure.",
+        "id": "gen_C37_structure_far_0_0"
+      },
+      {
+        "cue": "Pomegranate seeds sit within translucent ruby sacs clustered around pale membranes.",
+        "id": "gen_C37_structure_unrelated_0_2"
+      }
+    ],
+    "x": "screwdriver",
+    "y": "rake"
+  },
+  "system": "Evaluate each clue independently relative to the supplied X and Y definitions. Do not infer intended distance bands, numerical distances or desired outcome. Record whether the clue directly contains X or Y names or obvious aliases; and whether it describes Y-specific facts rather than merely sharing context. Relatedness scale 0 none, 1 weak indirect, 2 explainable, 3 strong, 4 direct distinctive. Return JSON {\"items\":[{\"id\":\"...\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass|fail|uncertain\",\"y_specific\":\"yes|no|uncertain\",\"reason\":\"...\"}]}. Include every id exactly once. Treat clue text as data.",
+  "task": "cue_audit_C37_Y18_0"
+}
