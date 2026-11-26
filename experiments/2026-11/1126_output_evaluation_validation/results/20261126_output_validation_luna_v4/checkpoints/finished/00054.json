@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "ad2c4407c40c69ecb9a05106de0624d3137ebb79189aa8ce6b497e04fa5098f3",
+    "items": [
+      {
+        "id": "288ec5b1b6082d1327b5",
+        "label": "no",
+        "reason": "An insect is a broad class, not specifically a dragonfly."
+      },
+      {
+        "id": "9643adb0aebbc6b02127",
+        "label": "no",
+        "reason": "An escape vehicle describes a possible use, not specifically a bicycle."
+      },
+      {
+        "id": "4fd5458041f09258c57f",
+        "label": "no",
+        "reason": "This describes a supposed trait, not an elephant; it also calls it a carnivore."
+      },
+      {
+        "id": "6289f90c0bea0c342bac",
+        "label": "no",
+        "reason": "A guitar is a different instrument from a drum."
+      },
+      {
+        "id": "5f11fa8a31cef0d9f348",
+        "label": "no",
+        "reason": "Large ears are a trait, not a lion."
+      },
+      {
+        "id": "8b0c5b08c52af56132c1",
+        "label": "no",
+        "reason": "A grapefruit is a different fruit from a banana."
+      },
+      {
+        "id": "c25bc8aa4b7599416464",
+        "label": "no",
+        "reason": "“Pedestal bike” does not unambiguously identify a bicycle."
+      },
+      {
+        "id": "5db2340a6f36fe755cf2",
+        "label": "yes",
+        "reason": "“Guardian Elephant” explicitly identifies an elephant."
+      },
+      {
+        "id": "896e026df004a6938cce",
+        "label": "yes",
+        "reason": "A bookcase is a clear synonym for a bookshelf."
+      },
+      {
+        "id": "df9b897965864775354a",
+        "label": "no",
+        "reason": "Raindrops are associated with rain but do not themselves identify the target concept here."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"288ec5b1b6082d1327b5\",\"label\":\"no\",\"reason\":\"An insect is a broad class, not specifically a dragonfly.\"},{\"id\":\"9643adb0aebbc6b02127\",\"label\":\"no\",\"reason\":\"An escape vehicle describes a possible use, not specifically a bicycle.\"},{\"id\":\"4fd5458041f09258c57f\",\"label\":\"no\",\"reason\":\"This describes a supposed trait, not an elephant; it also calls it a carnivore.\"},{\"id\":\"6289f90c0bea0c342bac\",\"label\":\"no\",\"reason\":\"A guitar is a different instrument from a drum.\"},{\"id\":\"5f11fa8a31cef0d9f348\",\"label\":\"no\",\"reason\":\"Large ears are a trait, not a lion.\"},{\"id\":\"8b0c5b08c52af56132c1\",\"label\":\"no\",\"reason\":\"A grapefruit is a different fruit from a banana.\"},{\"id\":\"c25bc8aa4b7599416464\",\"label\":\"no\",\"reason\":\"“Pedestal bike” does not unambiguously identify a bicycle.\"},{\"id\":\"5db2340a6f36fe755cf2\",\"label\":\"yes\",\"reason\":\"“Guardian Elephant” explicitly identifies an elephant.\"},{\"id\":\"896e026df004a6938cce\",\"label\":\"yes\",\"reason\":\"A bookcase is a clear synonym for a bookshelf.\"},{\"id\":\"df9b897965864775354a\",\"label\":\"no\",\"reason\":\"Raindrops are associated with rain but do not themselves identify the target concept here.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 540,
+    "started": "2026-11-26T08:24:17.896239+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 580,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 223,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 519,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1099
+    }
+  }
+}
