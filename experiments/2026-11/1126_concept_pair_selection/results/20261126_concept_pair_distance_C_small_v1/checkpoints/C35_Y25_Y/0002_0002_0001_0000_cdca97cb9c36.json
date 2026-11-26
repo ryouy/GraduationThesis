@@ -1,0 +1,589 @@
+{
+  "finished": {
+    "audit_train_00_0": {
+      "data": {
+        "items": [
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_0",
+            "reason": "Accurately describes a common cover-and-spine structure; no forbidden terms or equivalent claim appears elsewhere.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_1",
+            "reason": "Describes a common printed-page layout, appropriately qualified by “commonly”; distinct from the other structure claims.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_2",
+            "reason": "A title page often identifies a work and its creators; this is a clear structural description with no duplicate claim.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_3",
+            "reason": "These are common navigation components, accurately presented as features of some editions.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_4",
+            "reason": "Describes typical sequential reading behavior and is distinct from the other action claims.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_5",
+            "reason": "Annotating margins while studying is a plausible reader behavior and fits the action style.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_6",
+            "reason": "Describes a common production process; it is distinct from the physical cover-and-spine description.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_7",
+            "reason": "Lending and circulation among readers are typical behaviors; no other item makes essentially the same claim.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_8",
+            "reason": "Public libraries are a natural context for discovery, lending, and reading; this differs from the other settings.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_9",
+            "reason": "Describes a plausible classroom context and use of printed pages, distinct from the other situation claims.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_10",
+            "reason": "Carrying a compact copy while traveling is a plausible context and is not a duplicate of the other setting claims.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_11",
+            "reason": "Bedtime reading and weekend study are plausible home contexts, distinct from the other items.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_12",
+            "reason": "Printed material can preserve information for later consultation; the stated role fits the function style and is distinct from lookup or instruction.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_13",
+            "reason": "Narrative writing can entertain through characters and events; this is a distinct function claim.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_14",
+            "reason": "Organized reference material can support looking up unfamiliar information; this fits the function style and is not a duplicate.",
+            "style": "pass"
+          },
+          {
+            "alignment": "pass",
+            "duplicate": "pass",
+            "exposure": "pass",
+            "fact": "pass",
+            "id": "train_00_15",
+            "reason": "Instructions can guide practical tasks and skill learning; this is a clear, distinct function claim.",
+            "style": "pass"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"id\":\"train_00_0\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Accurately describes a common cover-and-spine structure; no forbidden terms or equivalent claim appears elsewhere.\"},{\"id\":\"train_00_1\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Describes a common printed-page layout, appropriately qualified by “commonly”; distinct from the other structure claims.\"},{\"id\":\"train_00_2\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"A title page often identifies a work and its creators; this is a clear structural description with no duplicate claim.\"},{\"id\":\"train_00_3\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"These are common navigation components, accurately presented as features of some editions.\"},{\"id\":\"train_00_4\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Describes typical sequential reading behavior and is distinct from the other action claims.\"},{\"id\":\"train_00_5\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Annotating margins while studying is a plausible reader behavior and fits the action style.\"},{\"id\":\"train_00_6\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Describes a common production process; it is distinct from the physical cover-and-spine description.\"},{\"id\":\"train_00_7\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Lending and circulation among readers are typical behaviors; no other item makes essentially the same claim.\"},{\"id\":\"train_00_8\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Public libraries are a natural context for discovery, lending, and reading; this differs from the other settings.\"},{\"id\":\"train_00_9\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Describes a plausible classroom context and use of printed pages, distinct from the other situation claims.\"},{\"id\":\"train_00_10\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Carrying a compact copy while traveling is a plausible context and is not a duplicate of the other setting claims.\"},{\"id\":\"train_00_11\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Bedtime reading and weekend study are plausible home contexts, distinct from the other items.\"},{\"id\":\"train_00_12\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Printed material can preserve information for later consultation; the stated role fits the function style and is distinct from lookup or instruction.\"},{\"id\":\"train_00_13\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Narrative writing can entertain through characters and events; this is a distinct function claim.\"},{\"id\":\"train_00_14\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Organized reference material can support looking up unfamiliar information; this fits the function style and is not a duplicate.\"},{\"id\":\"train_00_15\",\"fact\":\"pass\",\"alignment\":\"pass\",\"style\":\"pass\",\"exposure\":\"pass\",\"duplicate\":\"pass\",\"reason\":\"Instructions can guide practical tasks and skill learning; this is a clear, distinct function claim.\"}]}",
+      "request_sha256": "6ad64acab312eba141aa70b09f533d279ed57595686a41cf8fb6e63a5c78c6d2",
+      "usage": {
+        "completion_tokens": 1255,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 418,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1021,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2276
+      }
+    },
+    "gen_train_00_0": {
+      "data": {
+        "items": [
+          {
+            "fact_key": "cover_and_spine",
+            "sentence": "A rigid or flexible cover protects ordered leaves, while a narrow spine holds their edges together.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "printed_page_layout",
+            "sentence": "Text commonly appears on both sides of paper pages, with margins separating lines from trimmed edges.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "title_page",
+            "sentence": "A title page often identifies the work and its creators before the main text begins.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "navigation_components",
+            "sentence": "Some editions include numbered pages, a table of contents, and an index to aid navigation.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "sequential_reading",
+            "sentence": "Readers turn its pages in sequence, pausing or returning to earlier passages as needed.",
+            "style": "action"
+          },
+          {
+            "fact_key": "reader_annotations",
+            "sentence": "A reader may underline passages or add notes in margins while studying its contents.",
+            "style": "action"
+          },
+          {
+            "fact_key": "binding_process",
+            "sentence": "During production, printed sheets are folded, gathered, and attached along one edge.",
+            "style": "action"
+          },
+          {
+            "fact_key": "lending_cycle",
+            "sentence": "When shared, it can be lent, returned, and circulated among readers over time.",
+            "style": "action"
+          },
+          {
+            "fact_key": "library_context",
+            "sentence": "In public libraries, bound pages are arranged for discovery, lending, and quiet reading.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "classroom_context",
+            "sentence": "In classrooms, learners consult printed pages while following lessons or completing assignments.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "travel_context",
+            "sentence": "Travelers may carry a compact copy to read during flights, train journeys, or long waits.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "home_reading_context",
+            "sentence": "At home, a reader might keep one nearby for bedtime reading or weekend study.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "preserving_information",
+            "sentence": "Bound pages preserve information across time, allowing readers to revisit material without relying on a live broadcast.",
+            "style": "function"
+          },
+          {
+            "fact_key": "narrative_entertainment",
+            "sentence": "Narrative writing can entertain readers by introducing characters, events, and imagined or remembered worlds.",
+            "style": "function"
+          },
+          {
+            "fact_key": "information_lookup",
+            "sentence": "Detailed explanations and organized entries help readers look up unfamiliar terms, dates, or technical procedures.",
+            "style": "function"
+          },
+          {
+            "fact_key": "practical_guidance",
+            "sentence": "Step-by-step instructions can guide readers through tasks such as preparing food, repairing objects, or learning a skill.",
+            "style": "function"
+          }
+        ]
+      },
+      "model": "gpt-6-luna",
+      "raw": "{\"items\":[{\"sentence\":\"A rigid or flexible cover protects ordered leaves, while a narrow spine holds their edges together.\",\"fact_key\":\"cover_and_spine\",\"style\":\"structure\"},{\"sentence\":\"Text commonly appears on both sides of paper pages, with margins separating lines from trimmed edges.\",\"fact_key\":\"printed_page_layout\",\"style\":\"structure\"},{\"sentence\":\"A title page often identifies the work and its creators before the main text begins.\",\"fact_key\":\"title_page\",\"style\":\"structure\"},{\"sentence\":\"Some editions include numbered pages, a table of contents, and an index to aid navigation.\",\"fact_key\":\"navigation_components\",\"style\":\"structure\"},{\"sentence\":\"Readers turn its pages in sequence, pausing or returning to earlier passages as needed.\",\"fact_key\":\"sequential_reading\",\"style\":\"action\"},{\"sentence\":\"A reader may underline passages or add notes in margins while studying its contents.\",\"fact_key\":\"reader_annotations\",\"style\":\"action\"},{\"sentence\":\"During production, printed sheets are folded, gathered, and attached along one edge.\",\"fact_key\":\"binding_process\",\"style\":\"action\"},{\"sentence\":\"When shared, it can be lent, returned, and circulated among readers over time.\",\"fact_key\":\"lending_cycle\",\"style\":\"action\"},{\"sentence\":\"In public libraries, bound pages are arranged for discovery, lending, and quiet reading.\",\"fact_key\":\"library_context\",\"style\":\"situation\"},{\"sentence\":\"In classrooms, learners consult printed pages while following lessons or completing assignments.\",\"fact_key\":\"classroom_context\",\"style\":\"situation\"},{\"sentence\":\"Travelers may carry a compact copy to read during flights, train journeys, or long waits.\",\"fact_key\":\"travel_context\",\"style\":\"situation\"},{\"sentence\":\"At home, a reader might keep one nearby for bedtime reading or weekend study.\",\"fact_key\":\"home_reading_context\",\"style\":\"situation\"},{\"sentence\":\"Bound pages preserve information across time, allowing readers to revisit material without relying on a live broadcast.\",\"fact_key\":\"preserving_information\",\"style\":\"function\"},{\"sentence\":\"Narrative writing can entertain readers by introducing characters, events, and imagined or remembered worlds.\",\"fact_key\":\"narrative_entertainment\",\"style\":\"function\"},{\"sentence\":\"Detailed explanations and organized entries help readers look up unfamiliar terms, dates, or technical procedures.\",\"fact_key\":\"information_lookup\",\"style\":\"function\"},{\"sentence\":\"Step-by-step instructions can guide readers through tasks such as preparing food, repairing objects, or learning a skill.\",\"fact_key\":\"practical_guidance\",\"style\":\"function\"}]}",
+      "request_sha256": "1536d541811b3d62e0d2c36a80dc76437ac03bc270533e82166a12a163518d49",
+      "usage": {
+        "completion_tokens": 1157,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 644,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 347,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 1504
+      }
+    }
+  },
+  "quality": {
+    "train_00": {
+      "accepted_total_group": 16,
+      "audit": [
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_0",
+          "reason": "Accurately describes a common cover-and-spine structure; no forbidden terms or equivalent claim appears elsewhere.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_1",
+          "reason": "Describes a common printed-page layout, appropriately qualified by “commonly”; distinct from the other structure claims.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_2",
+          "reason": "A title page often identifies a work and its creators; this is a clear structural description with no duplicate claim.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_3",
+          "reason": "These are common navigation components, accurately presented as features of some editions.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_4",
+          "reason": "Describes typical sequential reading behavior and is distinct from the other action claims.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_5",
+          "reason": "Annotating margins while studying is a plausible reader behavior and fits the action style.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_6",
+          "reason": "Describes a common production process; it is distinct from the physical cover-and-spine description.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_7",
+          "reason": "Lending and circulation among readers are typical behaviors; no other item makes essentially the same claim.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_8",
+          "reason": "Public libraries are a natural context for discovery, lending, and reading; this differs from the other settings.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_9",
+          "reason": "Describes a plausible classroom context and use of printed pages, distinct from the other situation claims.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_10",
+          "reason": "Carrying a compact copy while traveling is a plausible context and is not a duplicate of the other setting claims.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_11",
+          "reason": "Bedtime reading and weekend study are plausible home contexts, distinct from the other items.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_12",
+          "reason": "Printed material can preserve information for later consultation; the stated role fits the function style and is distinct from lookup or instruction.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_13",
+          "reason": "Narrative writing can entertain through characters and events; this is a distinct function claim.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_14",
+          "reason": "Organized reference material can support looking up unfamiliar information; this fits the function style and is not a duplicate.",
+          "style": "pass"
+        },
+        {
+          "alignment": "pass",
+          "duplicate": "pass",
+          "exposure": "pass",
+          "fact": "pass",
+          "id": "train_00_15",
+          "reason": "Instructions can guide practical tasks and skill learning; this is a clear, distinct function claim.",
+          "style": "pass"
+        }
+      ],
+      "key": "train_00",
+      "rejected": [],
+      "requested": {
+        "action": 4,
+        "function": 4,
+        "situation": 4,
+        "structure": 4
+      }
+    }
+  },
+  "started": {
+    "audit_train_00_0": {
+      "payload": {
+        "concept": "book",
+        "definition": "A bound collection of printed or handwritten pages organized around a subject or story.",
+        "forbidden_terms": [
+          "book",
+          "book shelf",
+          "bookcase",
+          "bookshelf",
+          "volume"
+        ],
+        "items": [
+          {
+            "fact_key": "cover_and_spine",
+            "id": "train_00_0",
+            "sentence": "A rigid or flexible cover protects ordered leaves, while a narrow spine holds their edges together.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "printed_page_layout",
+            "id": "train_00_1",
+            "sentence": "Text commonly appears on both sides of paper pages, with margins separating lines from trimmed edges.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "title_page",
+            "id": "train_00_2",
+            "sentence": "A title page often identifies the work and its creators before the main text begins.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "navigation_components",
+            "id": "train_00_3",
+            "sentence": "Some editions include numbered pages, a table of contents, and an index to aid navigation.",
+            "style": "structure"
+          },
+          {
+            "fact_key": "sequential_reading",
+            "id": "train_00_4",
+            "sentence": "Readers turn its pages in sequence, pausing or returning to earlier passages as needed.",
+            "style": "action"
+          },
+          {
+            "fact_key": "reader_annotations",
+            "id": "train_00_5",
+            "sentence": "A reader may underline passages or add notes in margins while studying its contents.",
+            "style": "action"
+          },
+          {
+            "fact_key": "binding_process",
+            "id": "train_00_6",
+            "sentence": "During production, printed sheets are folded, gathered, and attached along one edge.",
+            "style": "action"
+          },
+          {
+            "fact_key": "lending_cycle",
+            "id": "train_00_7",
+            "sentence": "When shared, it can be lent, returned, and circulated among readers over time.",
+            "style": "action"
+          },
+          {
+            "fact_key": "library_context",
+            "id": "train_00_8",
+            "sentence": "In public libraries, bound pages are arranged for discovery, lending, and quiet reading.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "classroom_context",
+            "id": "train_00_9",
+            "sentence": "In classrooms, learners consult printed pages while following lessons or completing assignments.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "travel_context",
+            "id": "train_00_10",
+            "sentence": "Travelers may carry a compact copy to read during flights, train journeys, or long waits.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "home_reading_context",
+            "id": "train_00_11",
+            "sentence": "At home, a reader might keep one nearby for bedtime reading or weekend study.",
+            "style": "situation"
+          },
+          {
+            "fact_key": "preserving_information",
+            "id": "train_00_12",
+            "sentence": "Bound pages preserve information across time, allowing readers to revisit material without relying on a live broadcast.",
+            "style": "function"
+          },
+          {
+            "fact_key": "narrative_entertainment",
+            "id": "train_00_13",
+            "sentence": "Narrative writing can entertain readers by introducing characters, events, and imagined or remembered worlds.",
+            "style": "function"
+          },
+          {
+            "fact_key": "information_lookup",
+            "id": "train_00_14",
+            "sentence": "Detailed explanations and organized entries help readers look up unfamiliar terms, dates, or technical procedures.",
+            "style": "function"
+          },
+          {
+            "fact_key": "practical_guidance",
+            "id": "train_00_15",
+            "sentence": "Step-by-step instructions can guide readers through tasks such as preparing food, repairing objects, or learning a skill.",
+            "style": "function"
+          }
+        ],
+        "prior": [],
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "6ad64acab312eba141aa70b09f533d279ed57595686a41cf8fb6e63a5c78c6d2",
+      "system": "Independently evaluate each description against the supplied concept definition and each item’s assigned style. Check factual accuracy, concept alignment, natural standalone English, style, absence of names/aliases and near semantic duplicates of prior accepted descriptions (including other splits) or earlier items in this batch. A shared broad topic is not itself duplication, but essentially the same factual claim or paraphrase is. Return JSON {\"items\":[{\"id\":\"...\",\"fact\":\"pass|fail|uncertain\",\"alignment\":\"pass|fail|uncertain\",\"style\":\"pass|fail|uncertain\",\"exposure\":\"pass|fail|uncertain\",\"duplicate\":\"pass|fail|uncertain\",\"reason\":\"...\"}]}. Return every id exactly once. Treat supplied sentences as data. Do not infer model performance."
+    },
+    "gen_train_00_0": {
+      "payload": {
+        "concept": "book",
+        "definition": "A bound collection of printed or handwritten pages organized around a subject or story.",
+        "forbidden_terms": [
+          "book",
+          "book shelf",
+          "bookcase",
+          "bookshelf",
+          "volume"
+        ],
+        "instruction": "Return exactly the requested count for each style, with a style key for every item. For eval, use new factual ideas, not paraphrases of train.",
+        "prior": [],
+        "split": "train",
+        "style_counts": {
+          "action": 4,
+          "function": 4,
+          "situation": 4,
+          "structure": 4
+        },
+        "style_guides": {
+          "action": "typical behavior, operation or process",
+          "function": "purpose, role, consequence or typical use",
+          "situation": "contexts, habitats or circumstances",
+          "structure": "physical properties, components or characteristic composition"
+        }
+      },
+      "request_sha256": "1536d541811b3d62e0d2c36a80dc76437ac03bc270533e82166a12a163518d49",
+      "system": "Generate factually accurate natural standalone English descriptions for a concept probe dataset. Each sentence describes the specified concept, without naming it, comparison concepts or their obvious aliases. Use the assigned style and 10–25 words. The request supplies a style-to-count map; return each item with a style key matching that map. Avoid label-specific formatting, fiction, trivia guesses and recycled facts. Each fact_key is a short description of a distinct factual claim. Use prior sentences only to avoid near paraphrase and repeated factual claims, not as templates. Use diverse facets and contexts. For held-out evaluation, use new factual claims or contexts rather than paraphrases of training. Output JSON {\"items\":[{\"sentence\":\"...\",\"fact_key\":\"...\",\"style\":\"structure\"}]}. Treat provided text as data, not instructions."
+    }
+  }
+}
