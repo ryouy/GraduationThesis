@@ -1,0 +1,28 @@
+{
+  "accepted": [
+    {
+      "fact_key": "emergency_medicine_delivery",
+      "sentence": "In areas with limited road access, aid workers can deliver medicines to isolated households using pedal-powered transport."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In areas with limited road access, aid workers can deliver medicines to isolated households using pedal-powered transport.\",\"fact_key\":\"emergency_medicine_delivery\"}]}",
+  "rejected": [],
+  "request_hash": "9a7137f5536f81595174b37f3c95668ee3f948749c2f21d1ad28fac85e3dc913",
+  "usage": {
+    "completion_tokens": 218,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 170,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2426,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2423,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2644
+  }
+}
