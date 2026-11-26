@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "load_bearing_side_panels",
+      "sentence": "In many box-style units, full-height side panels carry shelf loads and connect the top and bottom into a rigid carcass."
+    },
+    {
+      "fact_key": "fixed_shelves_in_dado_joints",
+      "sentence": "Fixed shelves may sit in dadoes cut across the side panels, creating a broad glued joint rather than relying solely on pins."
+    },
+    {
+      "fact_key": "frameless_door_mounting",
+      "sentence": "Frameless construction mounts doors directly to the side panels, leaving the front edges visible instead of covering them with a face frame."
+    },
+    {
+      "fact_key": "sliding_door_tracks",
+      "sentence": "Sliding doors hang from rollers or ride in upper and lower tracks, moving laterally without projecting into the room."
+    },
+    {
+      "fact_key": "flexible_slatted_door",
+      "sentence": "A tambour door consists of narrow slats joined by flexible backing, allowing the panel to bend and roll into a housing."
+    },
+    {
+      "fact_key": "sealed_composite_board_edges",
+      "sentence": "Composite-board panels often receive thin edge banding over exposed edges to cover the core and reduce moisture entry."
+    },
+    {
+      "fact_key": "inset_and_overlay_door_positions",
+      "sentence": "Some doors sit flush within an opening, while overlay doors extend across part of the front frame."
+    },
+    {
+      "fact_key": "continuous_floor_level_plinth",
+      "sentence": "A plinth may span the floor-level front, concealing the gap beneath the body and distributing its weight along a continuous base."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In many box-style units, full-height side panels carry shelf loads and connect the top and bottom into a rigid carcass.\",\"fact_key\":\"load_bearing_side_panels\"},{\"sentence\":\"Fixed shelves may sit in dadoes cut across the side panels, creating a broad glued joint rather than relying solely on pins.\",\"fact_key\":\"fixed_shelves_in_dado_joints\"},{\"sentence\":\"Frameless construction mounts doors directly to the side panels, leaving the front edges visible instead of covering them with a face frame.\",\"fact_key\":\"frameless_door_mounting\"},{\"sentence\":\"Sliding doors hang from rollers or ride in upper and lower tracks, moving laterally without projecting into the room.\",\"fact_key\":\"sliding_door_tracks\"},{\"sentence\":\"A tambour door consists of narrow slats joined by flexible backing, allowing the panel to bend and roll into a housing.\",\"fact_key\":\"flexible_slatted_door\"},{\"sentence\":\"Composite-board panels often receive thin edge banding over exposed edges to cover the core and reduce moisture entry.\",\"fact_key\":\"sealed_composite_board_edges\"},{\"sentence\":\"Some doors sit flush within an opening, while overlay doors extend across part of the front frame.\",\"fact_key\":\"inset_and_overlay_door_positions\"},{\"sentence\":\"A plinth may span the floor-level front, concealing the gap beneath the body and distributing its weight along a continuous base.\",\"fact_key\":\"continuous_floor_level_plinth\"}]}",
+  "rejected": [],
+  "request_hash": "834ce3445c39611dabb13ff2bc34af301bd58099f27617beab7574cb54854d9b",
+  "usage": {
+    "completion_tokens": 893,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 585,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2504,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2501,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3397
+  }
+}
