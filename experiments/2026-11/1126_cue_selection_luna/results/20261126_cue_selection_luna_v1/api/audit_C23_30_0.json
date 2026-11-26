@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_unrelated_0_0",
+        "naturalness": 5,
+        "reason": "A natural description of a planter’s drainage; unrelated to either instrument.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_unrelated_0_1",
+        "naturalness": 5,
+        "reason": "Plausible description of countertop materials and care; unrelated to either instrument.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_unrelated_0_2",
+        "naturalness": 5,
+        "reason": "Plausible description of a ladder’s structural feature; unrelated to either instrument.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_unrelated_0_3",
+        "naturalness": 5,
+        "reason": "Natural scene description; unrelated to either instrument.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_structure_unrelated_0_4",
+        "naturalness": 5,
+        "reason": "Plausible description of a lighthouse; unrelated to either instrument.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_very_near_0_0",
+        "naturalness": 5,
+        "reason": "Pressing valves while blowing is a direct, distinctive way to change pitches on a trumpet; trombones typically change pitch with a slide.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_very_near_0_1",
+        "naturalness": 4,
+        "reason": "Tonguing articulates notes in brass playing, though the wording about touching the mouthpiece’s airflow is slightly awkward; it applies to both instruments.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 3
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_very_near_0_2",
+        "naturalness": 5,
+        "reason": "Shifting fingers among controls fits a valved instrument such as a trumpet; a trombone normally uses a slide.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_very_near_0_3",
+        "naturalness": 5,
+        "reason": "Lip tension and airflow shape sustained brass notes on both instruments.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 3
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C23_action_very_near_0_4",
+        "naturalness": 5,
+        "reason": "Fingering and steady airflow fit trumpet practice; trombone players typically coordinate slide positions rather than fingering.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1303,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 650,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 638,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1941
+  }
+}
