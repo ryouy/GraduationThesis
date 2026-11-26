@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "c5da89d45809b1aa6b0afbbe51fa53092b86bdf6c999a4bb4f2bc6ca8e187d61",
+    "items": [
+      {
+        "id": "33b64a685e321668c820",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit."
+      },
+      {
+        "id": "0a17f0c340a72851a534",
+        "label": "no",
+        "reason": "This names a conservation campaign, not an elephant."
+      },
+      {
+        "id": "4de74e9ceaa47a4665d0",
+        "label": "no",
+        "reason": "Banana is a different fruit."
+      },
+      {
+        "id": "f5a01e6b7cf761cce820",
+        "label": "no",
+        "reason": "A tower of many levels is too generic to identify a bookshelf."
+      },
+      {
+        "id": "c9759a2119c22954daad",
+        "label": "no",
+        "reason": "This describes a musical activity, not a tambourine."
+      },
+      {
+        "id": "38d116bbf25baa76a51c",
+        "label": "no",
+        "reason": "This describes cacti, not aloe."
+      },
+      {
+        "id": "911d91556142ca415722",
+        "label": "yes",
+        "reason": "It explicitly identifies a bicycle."
+      },
+      {
+        "id": "b45fa3e67978bb1f73ba",
+        "label": "no",
+        "reason": "It identifies an elephant, not a lion."
+      },
+      {
+        "id": "78992bad88aff910ef7f",
+        "label": "no",
+        "reason": "Drumming is an activity, not a tambourine."
+      },
+      {
+        "id": "69f1ab48ec10dd7e7655",
+        "label": "no",
+        "reason": "Ginger squash is not a banana."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"33b64a685e321668c820\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit.\"},{\"id\":\"0a17f0c340a72851a534\",\"label\":\"no\",\"reason\":\"This names a conservation campaign, not an elephant.\"},{\"id\":\"4de74e9ceaa47a4665d0\",\"label\":\"no\",\"reason\":\"Banana is a different fruit.\"},{\"id\":\"f5a01e6b7cf761cce820\",\"label\":\"no\",\"reason\":\"A tower of many levels is too generic to identify a bookshelf.\"},{\"id\":\"c9759a2119c22954daad\",\"label\":\"no\",\"reason\":\"This describes a musical activity, not a tambourine.\"},{\"id\":\"38d116bbf25baa76a51c\",\"label\":\"no\",\"reason\":\"This describes cacti, not aloe.\"},{\"id\":\"911d91556142ca415722\",\"label\":\"yes\",\"reason\":\"It explicitly identifies a bicycle.\"},{\"id\":\"b45fa3e67978bb1f73ba\",\"label\":\"no\",\"reason\":\"It identifies an elephant, not a lion.\"},{\"id\":\"78992bad88aff910ef7f\",\"label\":\"no\",\"reason\":\"Drumming is an activity, not a tambourine.\"},{\"id\":\"69f1ab48ec10dd7e7655\",\"label\":\"no\",\"reason\":\"Ginger squash is not a banana.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 290,
+    "started": "2026-11-26T08:20:30.228166+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 440,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 120,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 536,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 976
+    }
+  }
+}
