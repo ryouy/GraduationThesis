@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "4d11343b4bfba042b5db1de12bd6086768732aeacbb282c375dd4a7a58218b6f",
+    "items": [
+      {
+        "id": "90be929a94178d65ecc5",
+        "label": "no",
+        "reason": "A tower with many levels is not specifically a cabinet."
+      },
+      {
+        "id": "67e90c288d372afaa0d6",
+        "label": "no",
+        "reason": "An insect worker is a broad description, not specifically a dragonfly."
+      },
+      {
+        "id": "9bbafda6a0e0c5c653a3",
+        "label": "yes",
+        "reason": "The answer directly names scissors."
+      },
+      {
+        "id": "1a56ab5d1dd5489807c8",
+        "label": "no",
+        "reason": "A display cabinet is a different type of furniture, not a bookshelf."
+      },
+      {
+        "id": "6c2b062ab8a52162d7c0",
+        "label": "yes",
+        "reason": "The answer directly identifies a banana."
+      },
+      {
+        "id": "62ca6db156002096c418",
+        "label": "yes",
+        "reason": "The answer directly identifies a bookshelf."
+      },
+      {
+        "id": "474bc152deed8a2cbc87",
+        "label": "no",
+        "reason": "A grapefruit is a different fruit."
+      },
+      {
+        "id": "2abd917f886a89a99a0a",
+        "label": "no",
+        "reason": "The answer describes bicycle rides, not a submarine."
+      },
+      {
+        "id": "57d4fe598ca69d43d61c",
+        "label": "no",
+        "reason": "A tiger is a different animal from an elephant."
+      },
+      {
+        "id": "451dac298f14e1db838b",
+        "label": "no",
+        "reason": "A smoothie berry is not a banana."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"90be929a94178d65ecc5\",\"label\":\"no\",\"reason\":\"A tower with many levels is not specifically a cabinet.\"},{\"id\":\"67e90c288d372afaa0d6\",\"label\":\"no\",\"reason\":\"An insect worker is a broad description, not specifically a dragonfly.\"},{\"id\":\"9bbafda6a0e0c5c653a3\",\"label\":\"yes\",\"reason\":\"The answer directly names scissors.\"},{\"id\":\"1a56ab5d1dd5489807c8\",\"label\":\"no\",\"reason\":\"A display cabinet is a different type of furniture, not a bookshelf.\"},{\"id\":\"6c2b062ab8a52162d7c0\",\"label\":\"yes\",\"reason\":\"The answer directly identifies a banana.\"},{\"id\":\"62ca6db156002096c418\",\"label\":\"yes\",\"reason\":\"The answer directly identifies a bookshelf.\"},{\"id\":\"474bc152deed8a2cbc87\",\"label\":\"no\",\"reason\":\"A grapefruit is a different fruit.\"},{\"id\":\"2abd917f886a89a99a0a\",\"label\":\"no\",\"reason\":\"The answer describes bicycle rides, not a submarine.\"},{\"id\":\"57d4fe598ca69d43d61c\",\"label\":\"no\",\"reason\":\"A tiger is a different animal from an elephant.\"},{\"id\":\"451dac298f14e1db838b\",\"label\":\"no\",\"reason\":\"A smoothie berry is not a banana.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 590,
+    "started": "2026-11-26T08:25:03.610535+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 390,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 62,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 545,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 935
+    }
+  }
+}
