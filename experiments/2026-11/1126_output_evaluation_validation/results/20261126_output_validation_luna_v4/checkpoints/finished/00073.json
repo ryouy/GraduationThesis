@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "0d8dee99958e0f7272edc19a8ba38dc3b95578b134336a87fd2bc7d0d40d232f",
+    "items": [
+      {
+        "id": "288462725a7023bcbcad",
+        "label": "yes",
+        "reason": "“Scissors” directly names the target."
+      },
+      {
+        "id": "778736cfac351d0bda24",
+        "label": "no",
+        "reason": "An organized collective is not specifically an ant or ant colony."
+      },
+      {
+        "id": "9feff9dc9d3538546e4e",
+        "label": "yes",
+        "reason": "“Cacti” is the plural form of cactus."
+      },
+      {
+        "id": "448c62abf52624f6ce26",
+        "label": "no",
+        "reason": "Winter migration is unrelated to a submarine."
+      },
+      {
+        "id": "9eb63b42948d0d82ad56",
+        "label": "yes",
+        "reason": "“Cacti” is the plural form of cactus."
+      },
+      {
+        "id": "7acdd8f6aebf8bc485a1",
+        "label": "no",
+        "reason": "An underwater craft is not a bicycle."
+      },
+      {
+        "id": "e463d98dbee65bcacb14",
+        "label": "yes",
+        "reason": "An organizational bookcase is a bookcase, a clear synonym for bookshelf."
+      },
+      {
+        "id": "b2aa4e7e334052c85fc3",
+        "label": "yes",
+        "reason": "“Scissors” directly names the target."
+      },
+      {
+        "id": "7b868e5d22b1d1eb06ae",
+        "label": "no",
+        "reason": "This describes bicycle rides, not a bicycle itself."
+      },
+      {
+        "id": "1b198fefbef8ba581d5e",
+        "label": "no",
+        "reason": "“Bicycle” names a different thing from submarine."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"288462725a7023bcbcad\",\"label\":\"yes\",\"reason\":\"“Scissors” directly names the target.\"},{\"id\":\"778736cfac351d0bda24\",\"label\":\"no\",\"reason\":\"An organized collective is not specifically an ant or ant colony.\"},{\"id\":\"9feff9dc9d3538546e4e\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural form of cactus.\"},{\"id\":\"448c62abf52624f6ce26\",\"label\":\"no\",\"reason\":\"Winter migration is unrelated to a submarine.\"},{\"id\":\"9eb63b42948d0d82ad56\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural form of cactus.\"},{\"id\":\"7acdd8f6aebf8bc485a1\",\"label\":\"no\",\"reason\":\"An underwater craft is not a bicycle.\"},{\"id\":\"e463d98dbee65bcacb14\",\"label\":\"yes\",\"reason\":\"An organizational bookcase is a bookcase, a clear synonym for bookshelf.\"},{\"id\":\"b2aa4e7e334052c85fc3\",\"label\":\"yes\",\"reason\":\"“Scissors” directly names the target.\"},{\"id\":\"7b868e5d22b1d1eb06ae\",\"label\":\"no\",\"reason\":\"This describes bicycle rides, not a bicycle itself.\"},{\"id\":\"1b198fefbef8ba581d5e\",\"label\":\"no\",\"reason\":\"“Bicycle” names a different thing from submarine.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 720,
+    "started": "2026-11-26T08:27:05.581793+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 408,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 68,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 518,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 926
+    }
+  }
+}
