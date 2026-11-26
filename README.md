@@ -12,6 +12,8 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 
 <br clear="right">
 
+> **2026-11-26 目標更新：** 本実験は100の異なる対象X（10カテゴリー×各10を目安）を目標とする。旧v0.95の約50概念・規模は当時の計画として保持し、目標更新は[Probe学習曲線・100概念準備方針](docs/probe_learning_curve_and_scale_plan_20261126.md)を優先する。正式採択・v1.0凍結は未完了。
+
 ## 本実験の統合プロトコル（最初に読む）
 
 **[本実験・統合プロトコル v0.95](docs/main_experiment_protocol_v0_95.md)** — 現行研究方針の唯一の正本。実験設計、測定、Cue準備、統計、未完了事項を統合。実行用v1.0は未凍結。
@@ -61,6 +63,8 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 **注意**：本実験は「抑制すると必ずXが強く表現される」という結果を前提にしません。ProbeとLogit Lensは思考そのものを直接測るものではなく、読み出し可能な相対情報・語彙投影を測る手法です。旧4条件や出力中心の説明は当時のパイロットの設計経緯として保持しています。
 
 ## 本実験の準備資料
+
+- [Probe学習文数比較 v1（5組・全24層・GPT-6 Luna・未実行）](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_probe_learning_curve/probe_learning_curve_luna_v1.ipynb)
 
 - [Probe50均衡版v5：実行済み・33/50組暫定通過](experiments/2026-11/1124_probe_50pairs/results/20261124_probe50_balanced_v5/analysis_summary.md) · [Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1124_probe_50pairs/qwen_probe_50pairs_balanced_validation_v5.ipynb)
 - [初回50組の候補と選定理由](docs/concept_pair_selection_v0_1.md) · [候補CSV](docs/concept_pair_candidates_50_v0_1.csv)（正式採択ではない）
