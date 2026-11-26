@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "f16a5da7cd6cee04ebfb7a300d70df9e1bd434553d79d28d9c09378ac47925b5",
+    "items": [
+      {
+        "id": "86ddee924800e4183ce3",
+        "label": "no",
+        "reason": "Identifies a bicycle, not a submarine."
+      },
+      {
+        "id": "f139630e9f763fb50a21",
+        "label": "no",
+        "reason": "A smoothie bowl is a dish, not specifically a pineapple."
+      },
+      {
+        "id": "f5525de8f373bf9985fe",
+        "label": "no",
+        "reason": "A guitar is a different instrument from a drum."
+      },
+      {
+        "id": "382e2f473ea1a0e4ed33",
+        "label": "no",
+        "reason": "Coral is not an octopus."
+      },
+      {
+        "id": "7b6492c4e7190095a56d",
+        "label": "no",
+        "reason": "A guitar is a different instrument from a drum."
+      },
+      {
+        "id": "433113ee858b78aec577",
+        "label": "no",
+        "reason": "Identifies scissors, a different tool from pliers."
+      },
+      {
+        "id": "db642c86b130fd3d74f5",
+        "label": "yes",
+        "reason": "A garden ant is a type of ant."
+      },
+      {
+        "id": "78b0579825be5809a052",
+        "label": "yes",
+        "reason": "Directly identifies scissors."
+      },
+      {
+        "id": "5a8704fdbe76aebd8d1d",
+        "label": "yes",
+        "reason": "Directly identifies a drum."
+      },
+      {
+        "id": "c85c2e7fb2ae06edec68",
+        "label": "no",
+        "reason": "“Flexible transport” is a broad description, not specifically a bicycle."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"86ddee924800e4183ce3\",\"label\":\"no\",\"reason\":\"Identifies a bicycle, not a submarine.\"},{\"id\":\"f139630e9f763fb50a21\",\"label\":\"no\",\"reason\":\"A smoothie bowl is a dish, not specifically a pineapple.\"},{\"id\":\"f5525de8f373bf9985fe\",\"label\":\"no\",\"reason\":\"A guitar is a different instrument from a drum.\"},{\"id\":\"382e2f473ea1a0e4ed33\",\"label\":\"no\",\"reason\":\"Coral is not an octopus.\"},{\"id\":\"7b6492c4e7190095a56d\",\"label\":\"no\",\"reason\":\"A guitar is a different instrument from a drum.\"},{\"id\":\"433113ee858b78aec577\",\"label\":\"no\",\"reason\":\"Identifies scissors, a different tool from pliers.\"},{\"id\":\"db642c86b130fd3d74f5\",\"label\":\"yes\",\"reason\":\"A garden ant is a type of ant.\"},{\"id\":\"78b0579825be5809a052\",\"label\":\"yes\",\"reason\":\"Directly identifies scissors.\"},{\"id\":\"5a8704fdbe76aebd8d1d\",\"label\":\"yes\",\"reason\":\"Directly identifies a drum.\"},{\"id\":\"c85c2e7fb2ae06edec68\",\"label\":\"no\",\"reason\":\"“Flexible transport” is a broad description, not specifically a bicycle.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 300,
+    "started": "2026-11-26T08:20:38.634122+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 402,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 76,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 521,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 923
+    }
+  }
+}
