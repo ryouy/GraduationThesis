@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "rotating_corner_trays",
+      "sentence": "Corner installations may use rotating trays that swing around a central post, bringing items from deep recesses within reach."
+    },
+    {
+      "fact_key": "joining_modular_units",
+      "sentence": "Modular units are often aligned and fastened together along adjoining sides to create continuous runs of storage."
+    },
+    {
+      "fact_key": "removing_parts_for_refinishing",
+      "sentence": "During refinishing, doors and hardware are removed first so surfaces can be sanded and coated without obstructing edges."
+    },
+    {
+      "fact_key": "magnetic_door_catches",
+      "sentence": "Some doors use magnetic catches that hold them shut until a user pulls the panel open."
+    },
+    {
+      "fact_key": "dividing_drawer_contents",
+      "sentence": "Drawer organizers can divide a wide drawer into sections, preventing utensils or small objects from shifting together."
+    },
+    {
+      "fact_key": "fitting_scribed_side_strips",
+      "sentence": "On built-in installations, a scribed side strip can be trimmed to match an uneven wall and close the visible gap."
+    },
+    {
+      "fact_key": "raising_panels_above_wet_floors",
+      "sentence": "To limit damage from damp mopping, floor-standing units may have moisture-resistant feet that keep panels above wet flooring."
+    },
+    {
+      "fact_key": "pull_out_pantry_rack",
+      "sentence": "A pull-out pantry rack can bring stored containers forward on sliding rails, making supplies at the back easier to reach."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Corner installations may use rotating trays that swing around a central post, bringing items from deep recesses within reach.\",\"fact_key\":\"rotating_corner_trays\"},{\"sentence\":\"Modular units are often aligned and fastened together along adjoining sides to create continuous runs of storage.\",\"fact_key\":\"joining_modular_units\"},{\"sentence\":\"During refinishing, doors and hardware are removed first so surfaces can be sanded and coated without obstructing edges.\",\"fact_key\":\"removing_parts_for_refinishing\"},{\"sentence\":\"Some doors use magnetic catches that hold them shut until a user pulls the panel open.\",\"fact_key\":\"magnetic_door_catches\"},{\"sentence\":\"Drawer organizers can divide a wide drawer into sections, preventing utensils or small objects from shifting together.\",\"fact_key\":\"dividing_drawer_contents\"},{\"sentence\":\"On built-in installations, a scribed side strip can be trimmed to match an uneven wall and close the visible gap.\",\"fact_key\":\"fitting_scribed_side_strips\"},{\"sentence\":\"To limit damage from damp mopping, floor-standing units may have moisture-resistant feet that keep panels above wet flooring.\",\"fact_key\":\"raising_panels_above_wet_floors\"},{\"sentence\":\"A pull-out pantry rack can bring stored containers forward on sliding rails, making supplies at the back easier to reach.\",\"fact_key\":\"pull_out_pantry_rack\"}]}",
+  "rejected": [],
+  "request_hash": "794c8a6972915bf8abed024a4537d852f99d737d5b0cf1e0f6b0cfd09b88977b",
+  "usage": {
+    "completion_tokens": 1104,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 812,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2821,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2818,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3925
+  }
+}
