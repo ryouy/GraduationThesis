@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "ca409419c2ef87ea9fac8a195a09a8c23a6e5309279ed0d823c254d13d732fe2",
+    "items": [
+      {
+        "id": "0f55e8c8e313da2457b3",
+        "label": "no",
+        "reason": "Mist is a different atmospheric phenomenon, not snow."
+      },
+      {
+        "id": "45cbe8802b37d6e40ea9",
+        "label": "no",
+        "reason": "Cacti are a different group of plants, not aloe."
+      },
+      {
+        "id": "23f6efaf3877a02927a4",
+        "label": "yes",
+        "reason": "The answer explicitly identifies a jellyfish."
+      },
+      {
+        "id": "1cd08fefed93cf123d2d",
+        "label": "no",
+        "reason": "The answer describes a bicycle, not a submarine."
+      },
+      {
+        "id": "df3594bda5b835759845",
+        "label": "no",
+        "reason": "A scorching desert is not an octopus."
+      },
+      {
+        "id": "c479a90a6457aab4045a",
+        "label": "no",
+        "reason": "Insect is a broad class, not the specific target ant."
+      },
+      {
+        "id": "1e31d87e0fe421f710a4",
+        "label": "no",
+        "reason": "An organized community does not identify a dragonfly."
+      },
+      {
+        "id": "59d91ab787b6bdb692fe",
+        "label": "yes",
+        "reason": "The answer names the target cactus."
+      },
+      {
+        "id": "2b3cc054ba1ab9609a46",
+        "label": "no",
+        "reason": "The answer identifies a bicycle, not a submarine."
+      },
+      {
+        "id": "b7aa906f453921802586",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit, not banana."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"0f55e8c8e313da2457b3\",\"label\":\"no\",\"reason\":\"Mist is a different atmospheric phenomenon, not snow.\"},{\"id\":\"45cbe8802b37d6e40ea9\",\"label\":\"no\",\"reason\":\"Cacti are a different group of plants, not aloe.\"},{\"id\":\"23f6efaf3877a02927a4\",\"label\":\"yes\",\"reason\":\"The answer explicitly identifies a jellyfish.\"},{\"id\":\"1cd08fefed93cf123d2d\",\"label\":\"no\",\"reason\":\"The answer describes a bicycle, not a submarine.\"},{\"id\":\"df3594bda5b835759845\",\"label\":\"no\",\"reason\":\"A scorching desert is not an octopus.\"},{\"id\":\"c479a90a6457aab4045a\",\"label\":\"no\",\"reason\":\"Insect is a broad class, not the specific target ant.\"},{\"id\":\"1e31d87e0fe421f710a4\",\"label\":\"no\",\"reason\":\"An organized community does not identify a dragonfly.\"},{\"id\":\"59d91ab787b6bdb692fe\",\"label\":\"yes\",\"reason\":\"The answer names the target cactus.\"},{\"id\":\"2b3cc054ba1ab9609a46\",\"label\":\"no\",\"reason\":\"The answer identifies a bicycle, not a submarine.\"},{\"id\":\"b7aa906f453921802586\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit, not banana.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 770,
+    "started": "2026-11-26T08:27:49.044892+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 414,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 79,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 529,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 943
+    }
+  }
+}
