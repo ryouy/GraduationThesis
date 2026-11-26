@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "pre-lift-wheel-loosening",
+      "sentence": "Before lifting a vehicle, users often loosen wheel nuts slightly while the tire still rests on the ground."
+    },
+    {
+      "fact_key": "finish-protection-during-use",
+      "sentence": "A protective cloth between the jaws and polished plumbing can reduce marks while a fitting is turned."
+    },
+    {
+      "fact_key": "deep-socket-for-protruding-stud",
+      "sentence": "A deep socket is chosen when a long exposed stud would otherwise prevent the head from seating fully."
+    },
+    {
+      "fact_key": "counterholding-a-spinning-bolt",
+      "sentence": "When a bolt turns along with its nut, a second tool can hold the bolt head stationary."
+    },
+    {
+      "fact_key": "soaking-corroded-threads",
+      "sentence": "Penetrating oil is often given time to reach corroded threads before force is applied to a stuck fastener."
+    },
+    {
+      "fact_key": "left-pedal-thread-direction",
+      "sentence": "Some bicycle pedal threads loosen by turning clockwise on the left side, opposite the usual direction."
+    },
+    {
+      "fact_key": "hand-removal-after-loosening",
+      "sentence": "Once initial resistance has been overcome, users may remove a loose nut by hand rather than continuing repeated turns."
+    },
+    {
+      "fact_key": "extension-for-recessed-fastener",
+      "sentence": "A socket extension lets the user's turning force reach a recessed fastener behind an obstruction."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Before lifting a vehicle, users often loosen wheel nuts slightly while the tire still rests on the ground.\",\"fact_key\":\"pre-lift-wheel-loosening\"},{\"sentence\":\"A protective cloth between the jaws and polished plumbing can reduce marks while a fitting is turned.\",\"fact_key\":\"finish-protection-during-use\"},{\"sentence\":\"A deep socket is chosen when a long exposed stud would otherwise prevent the head from seating fully.\",\"fact_key\":\"deep-socket-for-protruding-stud\"},{\"sentence\":\"When a bolt turns along with its nut, a second tool can hold the bolt head stationary.\",\"fact_key\":\"counterholding-a-spinning-bolt\"},{\"sentence\":\"Penetrating oil is often given time to reach corroded threads before force is applied to a stuck fastener.\",\"fact_key\":\"soaking-corroded-threads\"},{\"sentence\":\"Some bicycle pedal threads loosen by turning clockwise on the left side, opposite the usual direction.\",\"fact_key\":\"left-pedal-thread-direction\"},{\"sentence\":\"Once initial resistance has been overcome, users may remove a loose nut by hand rather than continuing repeated turns.\",\"fact_key\":\"hand-removal-after-loosening\"},{\"sentence\":\"A socket extension lets the user's turning force reach a recessed fastener behind an obstruction.\",\"fact_key\":\"extension-for-recessed-fastener\"}]}",
+  "rejected": [],
+  "request_hash": "036a67b25f74745004c072325534e5a49429c10e3a8048b75d40443c37ed9ba4",
+  "usage": {
+    "completion_tokens": 1957,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1662,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1057,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1054,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3014
+  }
+}
