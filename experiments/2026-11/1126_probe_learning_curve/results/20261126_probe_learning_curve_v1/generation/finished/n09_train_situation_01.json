@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "vehicle-battery-terminal-repair",
+      "sentence": "At a roadside breakdown, a mechanic tightens the nut securing a replacement battery cable to its terminal."
+    },
+    {
+      "fact_key": "aircraft-access-panel-maintenance",
+      "sentence": "In an aircraft hangar, maintenance crews secure access-panel fasteners before returning an inspected plane to service."
+    },
+    {
+      "fact_key": "sailboat-cooling-line-repair",
+      "sentence": "Aboard a sailboat, deckhands tighten hose-clamp fittings while checking the vessel's cooling-water lines."
+    },
+    {
+      "fact_key": "irrigation-pipe-reconnection",
+      "sentence": "During irrigation repairs, workers tighten compression fittings to reconnect sections of a farm's water-supply piping."
+    },
+    {
+      "fact_key": "conveyor-guard-maintenance",
+      "sentence": "At a factory, maintenance staff secure conveyor guards after clearing debris from the machinery."
+    },
+    {
+      "fact_key": "laboratory-stand-assembly",
+      "sentence": "When assembling a laboratory equipment stand, technicians tighten its metal frame joints before placing instruments on it."
+    },
+    {
+      "fact_key": "table-frame-assembly",
+      "sentence": "In a flat-pack furniture workshop, assemblers tighten bolts joining a table's legs to its frame."
+    },
+    {
+      "fact_key": "rail-depot-equipment-maintenance",
+      "sentence": "At a rail depot, technicians tighten fasteners on service equipment during scheduled maintenance between train runs."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"At a roadside breakdown, a mechanic tightens the nut securing a replacement battery cable to its terminal.\",\"fact_key\":\"vehicle-battery-terminal-repair\"},{\"sentence\":\"In an aircraft hangar, maintenance crews secure access-panel fasteners before returning an inspected plane to service.\",\"fact_key\":\"aircraft-access-panel-maintenance\"},{\"sentence\":\"Aboard a sailboat, deckhands tighten hose-clamp fittings while checking the vessel's cooling-water lines.\",\"fact_key\":\"sailboat-cooling-line-repair\"},{\"sentence\":\"During irrigation repairs, workers tighten compression fittings to reconnect sections of a farm's water-supply piping.\",\"fact_key\":\"irrigation-pipe-reconnection\"},{\"sentence\":\"At a factory, maintenance staff secure conveyor guards after clearing debris from the machinery.\",\"fact_key\":\"conveyor-guard-maintenance\"},{\"sentence\":\"When assembling a laboratory equipment stand, technicians tighten its metal frame joints before placing instruments on it.\",\"fact_key\":\"laboratory-stand-assembly\"},{\"sentence\":\"In a flat-pack furniture workshop, assemblers tighten bolts joining a table's legs to its frame.\",\"fact_key\":\"table-frame-assembly\"},{\"sentence\":\"At a rail depot, technicians tighten fasteners on service equipment during scheduled maintenance between train runs.\",\"fact_key\":\"rail-depot-equipment-maintenance\"}]}",
+  "rejected": [],
+  "request_hash": "91d75d4e33a6bbd1fe5d3689aa1442c46090aeaf89b45c235419b2d1f1f30984",
+  "usage": {
+    "completion_tokens": 666,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 394,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1623,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1620,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2289
+  }
+}
