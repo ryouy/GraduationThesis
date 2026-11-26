@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "02b142f2d48af77291f097b076611a00a78bd92f1572962d5f62b9c32fe0a47d",
+    "items": [
+      {
+        "id": "54f5e623ebc72ba790e8",
+        "label": "yes",
+        "reason": "Explicitly identifies scissors."
+      },
+      {
+        "id": "778f87a5766ca7457603",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from banana."
+      },
+      {
+        "id": "d08c103618f9da78d28f",
+        "label": "no",
+        "reason": "Large ears are a trait, not a lion."
+      },
+      {
+        "id": "35237f3abb4ccead4d25",
+        "label": "no",
+        "reason": "Describes rain and waterfalls, not snow."
+      },
+      {
+        "id": "9fecd01c298de53e5c93",
+        "label": "no",
+        "reason": "A bookshelf is related storage furniture, not a cabinet."
+      },
+      {
+        "id": "3d830f63ae6c368745e7",
+        "label": "no",
+        "reason": "Describes bicycle rides, not a submarine."
+      },
+      {
+        "id": "f9856a66e0782b9de0bc",
+        "label": "no",
+        "reason": "A bookshelf is related storage furniture, not a cabinet."
+      },
+      {
+        "id": "76d7f60853bbe17c3c28",
+        "label": "no",
+        "reason": "Describes a reading and organizing space, not a cabinet."
+      },
+      {
+        "id": "6cc8c60b9c8c1d3c5551",
+        "label": "yes",
+        "reason": "Explicitly identifies rain."
+      },
+      {
+        "id": "6206a00ac8e7a3d518ef",
+        "label": "no",
+        "reason": "A jellyfish is a different animal from an octopus."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"54f5e623ebc72ba790e8\",\"label\":\"yes\",\"reason\":\"Explicitly identifies scissors.\"},{\"id\":\"778f87a5766ca7457603\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from banana.\"},{\"id\":\"d08c103618f9da78d28f\",\"label\":\"no\",\"reason\":\"Large ears are a trait, not a lion.\"},{\"id\":\"35237f3abb4ccead4d25\",\"label\":\"no\",\"reason\":\"Describes rain and waterfalls, not snow.\"},{\"id\":\"9fecd01c298de53e5c93\",\"label\":\"no\",\"reason\":\"A bookshelf is related storage furniture, not a cabinet.\"},{\"id\":\"3d830f63ae6c368745e7\",\"label\":\"no\",\"reason\":\"Describes bicycle rides, not a submarine.\"},{\"id\":\"f9856a66e0782b9de0bc\",\"label\":\"no\",\"reason\":\"A bookshelf is related storage furniture, not a cabinet.\"},{\"id\":\"76d7f60853bbe17c3c28\",\"label\":\"no\",\"reason\":\"Describes a reading and organizing space, not a cabinet.\"},{\"id\":\"6cc8c60b9c8c1d3c5551\",\"label\":\"yes\",\"reason\":\"Explicitly identifies rain.\"},{\"id\":\"6206a00ac8e7a3d518ef\",\"label\":\"no\",\"reason\":\"A jellyfish is a different animal from an octopus.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 890,
+    "started": "2026-11-26T08:31:52.751775+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 420,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 85,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 570,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 990
+    }
+  }
+}
