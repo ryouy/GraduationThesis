@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "load-against-fixed-jaw",
+      "sentence": "With an adjustable model, orient the handle so force bears against the fixed jaw rather than tending to spread the movable one."
+    },
+    {
+      "fact_key": "hand-starting-threaded-fasteners",
+      "sentence": "Starting a nut by hand for several turns before applying the tool helps prevent cross-threading."
+    },
+    {
+      "fact_key": "pulling-force-for-safety",
+      "sentence": "Pulling the handle toward the body is generally safer than pushing, since a sudden slip is less likely to cause a fall."
+    },
+    {
+      "fact_key": "right-angle-crowfoot-positioning",
+      "sentence": "When a crowfoot adapter reaches an obstructed fastener, positioning it at right angles to a calibrated handle usually preserves the stated torque."
+    },
+    {
+      "fact_key": "torque-angle-tightening",
+      "sentence": "Some fasteners are tightened to an initial torque, then rotated through a specified additional angle to achieve the required clamping force."
+    },
+    {
+      "fact_key": "click-type-storage-setting",
+      "sentence": "After using an adjustable click-type model, return its setting to the manufacturer's recommended storage value to limit long-term spring stress."
+    },
+    {
+      "fact_key": "torque-tool-recalibration",
+      "sentence": "Torque-indicating models need periodic calibration, particularly after a drop or severe overload, to keep their readings dependable."
+    },
+    {
+      "fact_key": "thread-lubrication-and-clamping",
+      "sentence": "Lubrication changes the relationship between applied torque and clamping force, so thread lubricant should follow the fastener's specified procedure."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"With an adjustable model, orient the handle so force bears against the fixed jaw rather than tending to spread the movable one.\",\"fact_key\":\"load-against-fixed-jaw\"},{\"sentence\":\"Starting a nut by hand for several turns before applying the tool helps prevent cross-threading.\",\"fact_key\":\"hand-starting-threaded-fasteners\"},{\"sentence\":\"Pulling the handle toward the body is generally safer than pushing, since a sudden slip is less likely to cause a fall.\",\"fact_key\":\"pulling-force-for-safety\"},{\"sentence\":\"When a crowfoot adapter reaches an obstructed fastener, positioning it at right angles to a calibrated handle usually preserves the stated torque.\",\"fact_key\":\"right-angle-crowfoot-positioning\"},{\"sentence\":\"Some fasteners are tightened to an initial torque, then rotated through a specified additional angle to achieve the required clamping force.\",\"fact_key\":\"torque-angle-tightening\"},{\"sentence\":\"After using an adjustable click-type model, return its setting to the manufacturer's recommended storage value to limit long-term spring stress.\",\"fact_key\":\"click-type-storage-setting\"},{\"sentence\":\"Torque-indicating models need periodic calibration, particularly after a drop or severe overload, to keep their readings dependable.\",\"fact_key\":\"torque-tool-recalibration\"},{\"sentence\":\"Lubrication changes the relationship between applied torque and clamping force, so thread lubricant should follow the fastener's specified procedure.\",\"fact_key\":\"thread-lubrication-and-clamping\"}]}",
+  "rejected": [],
+  "request_hash": "6fd2a9d62472f9f22fe4b5ee413825ce7aa67c5651e127a88d93a9ad9df9a46e",
+  "usage": {
+    "completion_tokens": 2372,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2048,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2819,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2816,
+      "cached_tokens": 0
+    },
+    "total_tokens": 5191
+  }
+}
