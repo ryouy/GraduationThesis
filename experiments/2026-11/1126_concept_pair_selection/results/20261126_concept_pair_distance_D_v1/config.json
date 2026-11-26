@@ -1,0 +1,47 @@
+{
+  "B_ref": "ada2278f06f89a9adc32c4efe2eab083935cfd68",
+  "B_root": "experiments/2026-11/1126_concept_pair_selection/results/20261126_concept_pair_distance_B_v1/",
+  "C_ref": "6eb730f8dcaf48bfce9d98825b13e41d2a4dbd25",
+  "C_root": "experiments/2026-11/1126_concept_pair_selection/results/20261126_concept_pair_distance_C_small_v1/",
+  "api_calls": 0,
+  "branch": "experiments/concept-pair-selection-v1",
+  "checkpoint_format": "one zip per X, deterministic fixed archive timestamp",
+  "duplicate_threshold": 0.8,
+  "half_width": 0.04,
+  "include_anchors": true,
+  "input_sha256": {
+    "bounds.csv": "ce0b57df782ef6b64c8bbd4ddbc529bf9dacd817460fff1087f98d7a6b6cd0b4",
+    "candidate_pairs.csv": "3b22a0157d018dcbeb9e6c847cbe12866881182c8e2c14c64697514a3e566a98",
+    "config.json": "7bdb9622d4c2925ce998d3f37ca53cf2f2ebd2b354277f986cb6908daa4c9b0f",
+    "cue_distances_all_eligible.csv": "c685baccf0c2fcddbd942f509afc1189246af4841ce38a980de51cbc807874ae",
+    "cue_semantic_audit.csv": "f72fdaaf5197a0c14b906bb697637effff38364e272ee22e003cf3593954c8bd",
+    "cue_structural_feasibility.csv": "e5821e5dc182f57a1dccfac9d424ea37cde93d707f8041e08f207295c90d7fa5",
+    "manifest.json": "26356e2e4681ce4be81950561146614383dcc8a4faab1ca2c88a317c3f7a42e3"
+  },
+  "min_gap": 0.03,
+  "objective": "baseline: maximum cardinality, then minimum sum |dX-center|; joint: maximize cardinality, prioritize all 5 related bands, then prefer meeting both diagnostic targets, then max(|rho|/.30,spread/.05)+.1*(|rho|/.30+spread/.05) + 1e-5 mean center error; no suppression data",
+  "pools": [
+    "old_quality_no_y_name",
+    "known_audit_fail_excluded"
+  ],
+  "primary_pool": "old_quality_no_y_name",
+  "repo": "ryouy/GraduationThesis",
+  "rho_target": 0.3,
+  "run_id": "20261126_concept_pair_distance_D_v1",
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "semantic_audit_rule": "B partial audit only; known failure or uncertain excluded in sensitivity; unreviewed kept and labeled",
+  "setting": "C",
+  "spread_target": 0.05,
+  "status": "exploratory",
+  "steps_per_seed": 1200,
+  "styles": [
+    "structure",
+    "action",
+    "situation",
+    "function"
+  ]
+}
