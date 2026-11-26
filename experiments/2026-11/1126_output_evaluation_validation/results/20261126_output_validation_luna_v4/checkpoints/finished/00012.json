@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "680fdbb5b276af2ef819f8657f1d5b2596a01b36e99d2856bd299c7c96261fd1",
+    "items": [
+      {
+        "id": "c692b581cd59183ad55e",
+        "label": "no",
+        "reason": "A berry is a broad fruit category, not specifically a banana."
+      },
+      {
+        "id": "66fac3df66f2a29cabc8",
+        "label": "no",
+        "reason": "A drum is a related percussion instrument, not a tambourine."
+      },
+      {
+        "id": "06eeab98cf5451fbdd85",
+        "label": "yes",
+        "reason": "The answer directly names a bookshelf."
+      },
+      {
+        "id": "d6187ba57ea3ce9d89f4",
+        "label": "yes",
+        "reason": "The answer explicitly identifies an elephant."
+      },
+      {
+        "id": "97490a4e3d7052c2a335",
+        "label": "no",
+        "reason": "A grapefruit is a different fruit from a pineapple."
+      },
+      {
+        "id": "f8b442bb47316c5db233",
+        "label": "no",
+        "reason": "A beaver is a different animal from a dragonfly."
+      },
+      {
+        "id": "9668aa800186f71e41b6",
+        "label": "no",
+        "reason": "A cactus is a different plant from aloe."
+      },
+      {
+        "id": "0b274bae5d59c382e4ae",
+        "label": "yes",
+        "reason": "The answer directly names scissors."
+      },
+      {
+        "id": "3ef7d4cfc1d8b340030d",
+        "label": "no",
+        "reason": "The answer describes rain, not snow."
+      },
+      {
+        "id": "106a6d756280eb2bab3b",
+        "label": "no",
+        "reason": "A grapefruit is a different fruit from a pineapple."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"c692b581cd59183ad55e\",\"label\":\"no\",\"reason\":\"A berry is a broad fruit category, not specifically a banana.\"},{\"id\":\"66fac3df66f2a29cabc8\",\"label\":\"no\",\"reason\":\"A drum is a related percussion instrument, not a tambourine.\"},{\"id\":\"06eeab98cf5451fbdd85\",\"label\":\"yes\",\"reason\":\"The answer directly names a bookshelf.\"},{\"id\":\"d6187ba57ea3ce9d89f4\",\"label\":\"yes\",\"reason\":\"The answer explicitly identifies an elephant.\"},{\"id\":\"97490a4e3d7052c2a335\",\"label\":\"no\",\"reason\":\"A grapefruit is a different fruit from a pineapple.\"},{\"id\":\"f8b442bb47316c5db233\",\"label\":\"no\",\"reason\":\"A beaver is a different animal from a dragonfly.\"},{\"id\":\"9668aa800186f71e41b6\",\"label\":\"no\",\"reason\":\"A cactus is a different plant from aloe.\"},{\"id\":\"0b274bae5d59c382e4ae\",\"label\":\"yes\",\"reason\":\"The answer directly names scissors.\"},{\"id\":\"3ef7d4cfc1d8b340030d\",\"label\":\"no\",\"reason\":\"The answer describes rain, not snow.\"},{\"id\":\"106a6d756280eb2bab3b\",\"label\":\"no\",\"reason\":\"A grapefruit is a different fruit from a pineapple.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 120,
+    "started": "2026-11-26T08:17:54.035046+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 431,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 101,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 531,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 962
+    }
+  }
+}
