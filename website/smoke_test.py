@@ -20,7 +20,7 @@ stubs = """
 <script>
 window.marked={parse:()=>'<h1>Layout regression test</h1><h2>Section</h2><p>Content</p>'};
 window.DOMPurify={sanitize:x=>x};
-window.fetch=async url=>({ok:true,json:async()=>({commit:'main',files:[{path:'README.md',local:true},{path:'docs/very_long_research_document_name_to_test_fading.md',local:true}]}),text:async()=> '# Layout regression test'});
+window.fetch=async url=>({ok:true,json:async()=>({commit:'main',files:[{path:'README.md',local:true},{path:'docs/very_long_research_document_name_to_test_fading.md',local:true},{path:'docs/sample.ipynb',local:false},{path:'docs/sample.csv',local:true}]}),text:async()=> '# Layout regression test'});
 </script>
 """
 fixture = fixture.replace('</head>', stubs + '</head>')
@@ -45,6 +45,10 @@ document.addEventListener('DOMContentLoaded',async()=>{
     const file=document.querySelector('#tree a');
     verify('file names do not wrap',getComputedStyle(file).whiteSpace==='nowrap');
     verify('file names fade',getComputedStyle(file).maskImage!=='none');
+    const notebook=document.querySelector('#tree [data-ext="ipynb"]'), csv=document.querySelector('#tree [data-ext="csv"]'), folder=document.querySelector('#tree .folder-entry');
+    verify('file types and folder distinct',!!notebook&&!!csv&&!!folder&&getComputedStyle(notebook).color!==getComputedStyle(csv).color&&getComputedStyle(folder).color!==getComputedStyle(notebook).color);
+    verify('notebook orange',getComputedStyle(notebook).getPropertyValue('--file-color').trim()===getComputedStyle(notebook).getPropertyValue('--file-notebook').trim());
+    verify('folder icon',getComputedStyle(folder,'::before').maskImage!=='none');
     if(mobile){
       verify('mobile sidebar initially hidden',style('sidebar').display==='none');
       get('menu').click();
