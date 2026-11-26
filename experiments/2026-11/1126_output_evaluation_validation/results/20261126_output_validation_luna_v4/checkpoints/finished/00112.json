@@ -1,0 +1,30 @@
+{
+  "batch": null,
+  "record": {
+    "attempt": 1,
+    "error": "ValueError",
+    "http_status": null,
+    "raw": "{\"items\":[{\"id\":\"7b5dad03c83dcd480211\",\"label\":\"2\",\"reason\":\"Rain fits the droplets descending and nourishing the land; the answer paraphrases this naturally.\"},{\"id\":\"ad762cfce5f46230d2ed\",\"label\":\"2\",\"reason\":\"A layer of snowflakes fits the soft white blanket described, though the phrasing is slightly awkward.\"},{\"id\":\"2972b4f0ad41c7a0f4a4\",\"label\":\"1\",\"reason\":\"It refers broadly to a craftsman's tool but does not identify the hand tool used to bend wire.\"},{\"id\":\"8a590c8b23988ba12b2f\",\"label\":\"2\",\"reason\":\"A bookcase can stand against a wall and display trinkets while keeping items accessible.\"},{\"id\":\"8b19bc3dd525ea98b11f\",\"label\":\"2\",\"reason\":\"The answer directly describes raindrops falling and refreshing the earth.\"},{\"id\":\"6b40557d615509b47532\",\"label\":\"0\",\"reason\":\"“Circumnavigation instrument” does not name a recognizable musical instrument matching the clue.\"},{\"id\":\"902ec113dc4f6580debe\",\"label\":\"2\",\"reason\":\"Elephants are found in regions of both Africa and Asia.\"},{\"id\":\"4dcdb54abfc6afe6513\",\"label\":\"1\",\"reason\":\"It mentions smoothies but does not identify the fruit or its creamy, sweet qualities.\"},{\"id\":\"e417d480e4e9c66dd5b1\",\"label\":\"2\",\"reason\":\"A bookshelf organizes items and can enhance a room's decor.\"},{\"id\":\"c71d47d9224f4856b0b0\",\"label\":\"0\",\"reason\":\"“Hot-tempered animal” does not identify an animal whose large ears regulate body temperature.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 110,
+    "started": "2026-11-26T08:36:06.070075+00:00",
+    "status": "error",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 737,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 336,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 711,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1448
+    }
+  }
+}
