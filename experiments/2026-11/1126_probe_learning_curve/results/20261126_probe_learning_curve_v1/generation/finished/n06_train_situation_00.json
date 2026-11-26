@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "navigation beneath sea ice",
+      "sentence": "In ice-covered seas, upward-looking sonar helps crews judge overhead clearance and find leads where a safe ascent may be possible."
+    },
+    {
+      "fact_key": "oceanographic sampling",
+      "sentence": "During oceanographic surveys, crews gather water samples at selected depths to measure salinity, temperature, and dissolved chemicals."
+    },
+    {
+      "fact_key": "sea-based nuclear deterrence",
+      "sentence": "Some naval vessels carry ballistic missiles on concealed patrols, providing a sea-based nuclear deterrent that can survive a first strike."
+    },
+    {
+      "fact_key": "reef tourism",
+      "sentence": "In clear tropical waters, tourist trips offer passengers views of coral reefs from inside a sealed cabin."
+    },
+    {
+      "fact_key": "rescue personnel transfer",
+      "sentence": "In rescue operations, specialized mating skirts connect at a disabled vessel’s hatch, allowing personnel to transfer between pressurized compartments."
+    },
+    {
+      "fact_key": "hydrothermal vent research",
+      "sentence": "Near deep-sea hydrothermal vents, research crews observe mineral-rich plumes and ecosystems that thrive without sunlight."
+    },
+    {
+      "fact_key": "coastal harbor surveillance",
+      "sentence": "In shallow coastal waters, naval crews may monitor harbor approaches where larger surface ships have limited maneuverability."
+    },
+    {
+      "fact_key": "deep wreck archaeology",
+      "sentence": "On underwater archaeology expeditions, crews inspect wreck sites beyond ordinary diving depths and document artifacts in place."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In ice-covered seas, upward-looking sonar helps crews judge overhead clearance and find leads where a safe ascent may be possible.\",\"fact_key\":\"navigation beneath sea ice\"},{\"sentence\":\"During oceanographic surveys, crews gather water samples at selected depths to measure salinity, temperature, and dissolved chemicals.\",\"fact_key\":\"oceanographic sampling\"},{\"sentence\":\"Some naval vessels carry ballistic missiles on concealed patrols, providing a sea-based nuclear deterrent that can survive a first strike.\",\"fact_key\":\"sea-based nuclear deterrence\"},{\"sentence\":\"In clear tropical waters, tourist trips offer passengers views of coral reefs from inside a sealed cabin.\",\"fact_key\":\"reef tourism\"},{\"sentence\":\"In rescue operations, specialized mating skirts connect at a disabled vessel’s hatch, allowing personnel to transfer between pressurized compartments.\",\"fact_key\":\"rescue personnel transfer\"},{\"sentence\":\"Near deep-sea hydrothermal vents, research crews observe mineral-rich plumes and ecosystems that thrive without sunlight.\",\"fact_key\":\"hydrothermal vent research\"},{\"sentence\":\"In shallow coastal waters, naval crews may monitor harbor approaches where larger surface ships have limited maneuverability.\",\"fact_key\":\"coastal harbor surveillance\"},{\"sentence\":\"On underwater archaeology expeditions, crews inspect wreck sites beyond ordinary diving depths and document artifacts in place.\",\"fact_key\":\"deep wreck archaeology\"}]}",
+  "rejected": [],
+  "request_hash": "45206cbb1ed63426502a7c8f52ce2e7a820ae0be721a833860d81793713b74d6",
+  "usage": {
+    "completion_tokens": 1496,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1211,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1255,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1252,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2751
+  }
+}
