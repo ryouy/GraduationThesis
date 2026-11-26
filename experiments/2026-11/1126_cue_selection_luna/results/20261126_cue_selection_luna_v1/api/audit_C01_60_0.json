@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_far_0_1",
+        "naturalness": 5,
+        "reason": "A commuter using a protected urban lane strongly suggests cycling, though no bicycle is named.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_far_0_2",
+        "naturalness": 5,
+        "reason": "A gran fondo and climbing route are strongly associated with organized cycling.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_far_0_3",
+        "naturalness": 5,
+        "reason": "Cadence training and endurance for climbs strongly suggest cycling, though cadence can apply to other sports.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_far_0_4",
+        "naturalness": 5,
+        "reason": "A request for a protected route in town is plausibly about cycling access, but could refer to other travel.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_far_0_5",
+        "naturalness": 4,
+        "reason": "A painted traffic corridor and visibility around parked cars suggest bike-lane planning, but the connection is indirect.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_unrelated_0_0",
+        "naturalness": 5,
+        "reason": "The clue describes bread-making and has no meaningful connection to either vehicle.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_unrelated_0_1",
+        "naturalness": 5,
+        "reason": "The clue describes watering seedlings and has no meaningful connection to either vehicle.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_unrelated_0_2",
+        "naturalness": 5,
+        "reason": "The clue describes tailoring and has no meaningful connection to either vehicle.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_unrelated_0_3",
+        "naturalness": 5,
+        "reason": "The clue describes cooking lentils and has no meaningful connection to either vehicle.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_unrelated_0_4",
+        "naturalness": 5,
+        "reason": "The clue describes choir rehearsal and has no meaningful connection to either vehicle.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 970,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 356,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 623,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1593
+  }
+}
