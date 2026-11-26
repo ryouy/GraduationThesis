@@ -1,0 +1,29 @@
+{
+  "data": {
+    "cues": [
+      "Before a long ride, the rider checks tire pressure with a gauge and adds air when needed.",
+      "After a puncture, the rider removes a wheel, patches the tube, and checks for escaping air.",
+      "A courier pedals through city streets, delivering parcels before rush-hour traffic builds.",
+      "Riders gather at dawn, then follow a marked route through the countryside in a group.",
+      "Before tackling a trail, the rider adjusts the seat height for comfortable, efficient leg movement.",
+      "At the end of a ride, the rider wipes mud from the frame and drivetrain with a damp cloth."
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 618,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 488,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 920,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1538
+  }
+}
