@@ -1,0 +1,81 @@
+pair,candidate_id,x,y,distance_xy,distance_band,same_category,token_diff,primary_selected,original_y
+C01,C01_Y06,bicycle,kick scooter,0.34346604347229,0,True,1,True,False
+C01,C01_Y08,bicycle,rickshaw,0.4448607563972473,0,True,2,True,False
+C01,C01_Y09,bicycle,car,0.557024359703064,1,True,0,True,False
+C01,C01_Y10,bicycle,bus,0.6256101131439209,2,True,0,True,False
+C01,C01_Y12,bicycle,van,0.5646798610687256,1,True,0,True,False
+C01,C01_Y19,bicycle,taxi,0.6196791529655457,2,True,0,True,False
+C01,C01_Y21,bicycle,sailboat,0.624698281288147,2,True,1,True,False
+C01,C01_Y23,bicycle,snowmobile,0.4386142492294311,0,True,1,True,False
+C01,C01_Y27,bicycle,air pump,0.6976362466812134,3,False,1,True,False
+C01,C01_Y31,bicycle,cycling jersey,0.7300894260406494,3,False,1,True,False
+C01,C01_Y32,bicycle,bike rack,0.5663588643074036,1,False,1,True,False
+C01,C01_Y33,bicycle,oak tree,0.8874828815460205,4,False,1,True,False
+C01,C01_Y34,bicycle,rose,0.8850640058517456,4,False,0,True,False
+C01,C01_Y37,bicycle,chair,0.7341353893280029,3,False,0,True,False
+C01,C01_Y39,bicycle,dolphin,0.8879159688949585,4,False,0,True,False
+C01,C01_anchor,bicycle,submarine,0.7300364375114441,-1,True,0,False,True
+C23,C23_Y01,trumpet,french horn,0.2912627458572387,0,True,1,True,False
+C23,C23_Y04,trumpet,flugelhorn,0.2160415649414062,0,True,3,True,False
+C23,C23_Y09,trumpet,flute,0.353824257850647,1,True,0,True,False
+C23,C23_Y10,trumpet,clarinet,0.4427352547645569,2,True,1,True,False
+C23,C23_Y11,trumpet,saxophone,0.2195167541503906,0,True,1,True,False
+C23,C23_Y13,trumpet,bassoon,0.3678018450736999,1,True,1,True,False
+C23,C23_Y14,trumpet,recorder,0.3662399649620056,1,True,0,True,False
+C23,C23_Y17,trumpet,piano,0.6191906332969666,3,True,0,True,False
+C23,C23_Y20,trumpet,guitar,0.5870480537414551,3,True,0,True,False
+C23,C23_Y23,trumpet,xylophone,0.4502744674682617,2,True,2,True,False
+C23,C23_Y26,trumpet,practice mute,0.4495121240615845,2,False,1,True,False
+C23,C23_Y31,trumpet,conductor's baton,0.5794540643692017,3,False,3,True,False
+C23,C23_Y35,trumpet,dolphin,0.7874559164047241,4,False,0,True,False
+C23,C23_Y38,trumpet,sofa,0.7717658281326294,4,False,0,True,False
+C23,C23_Y39,trumpet,oak,0.78399658203125,4,False,0,True,False
+C23,C23_anchor,trumpet,trombone,0.2664231061935425,-1,True,1,False,True
+C27,C27_Y02,banana,papaya,0.2031317353248596,0,True,1,True,False
+C27,C27_Y03,banana,guava,0.2698865532875061,2,True,1,True,False
+C27,C27_Y06,banana,lychee,0.1934231519699096,0,True,2,True,False
+C27,C27_Y09,banana,apple,0.1994081735610962,0,True,0,True,False
+C27,C27_Y10,banana,orange,0.2271010875701904,1,True,0,True,False
+C27,C27_Y12,banana,peach,0.2401539087295532,1,True,0,True,False
+C27,C27_Y13,banana,plum,0.2835780382156372,2,True,0,True,False
+C27,C27_Y15,banana,cherry,0.2899187803268432,2,True,0,True,False
+C27,C27_Y23,banana,cantaloupe,0.228272795677185,1,True,3,True,False
+C27,C27_Y25,banana,palm tree,0.5485138893127441,3,False,1,True,False
+C27,C27_Y29,banana,cutting board,0.5917942523956299,3,False,1,True,False
+C27,C27_Y31,banana,yogurt,0.5498666763305664,3,False,0,True,False
+C27,C27_Y35,banana,dolphin,0.6966987252235413,4,False,0,True,False
+C27,C27_Y36,banana,butterfly,0.7086487412452698,4,False,0,True,False
+C27,C27_Y37,banana,piano,0.7123779654502869,4,False,0,True,False
+C27,C27_anchor,banana,pineapple,0.1877373456954956,-1,True,0,False,True
+C35,C35_Y03,bookshelf,dresser,0.418461799621582,0,True,1,True,False
+C35,C35_Y04,bookshelf,sideboard,0.5110739469528198,1,True,0,True,False
+C35,C35_Y06,bookshelf,display case,0.4400476813316345,0,True,0,True,False
+C35,C35_Y08,bookshelf,secretary desk,0.5837770104408264,2,True,0,True,False
+C35,C35_Y14,bookshelf,bench,0.5774674415588379,2,True,1,True,False
+C35,C35_Y17,bookshelf,recliner,0.5078864097595215,1,True,0,True,False
+C35,C35_Y22,bookshelf,coat rack,0.5766308307647705,2,True,0,True,False
+C35,C35_Y25,bookshelf,book,0.487603485584259,1,False,1,True,False
+C35,C35_Y26,bookshelf,magazine,0.7129125595092773,3,False,1,True,False
+C35,C35_Y29,bookshelf,library,0.4533968567848205,0,False,1,True,False
+C35,C35_Y30,bookshelf,reading glasses,0.7918545007705688,4,False,0,True,False
+C35,C35_Y32,bookshelf,printer,0.7110781669616699,3,False,1,True,False
+C35,C35_Y35,bookshelf,dolphin,0.8358561992645264,4,False,1,True,False
+C35,C35_Y38,bookshelf,apple,0.8209013938903809,4,False,1,True,False
+C35,C35_Y39,bookshelf,hammer,0.7148387432098389,3,False,1,True,False
+C35,C35_anchor,bookshelf,cabinet,0.2651872038841247,-1,True,1,False,True
+C37,C37_Y01,screwdriver,hammer,0.3188217878341675,0,True,1,True,False
+C37,C37_Y13,screwdriver,awl,0.330537736415863,0,True,0,True,False
+C37,C37_Y14,screwdriver,soldering iron,0.5082358717918396,1,True,1,True,False
+C37,C37_Y18,screwdriver,rake,0.4831668138504028,1,True,1,True,False
+C37,C37_Y20,screwdriver,broom,0.5143858194351196,1,True,0,True,False
+C37,C37_Y21,screwdriver,ladder,0.6870186924934387,3,True,1,True,False
+C37,C37_Y22,screwdriver,wheelbarrow,0.5563279390335083,2,True,1,True,False
+C37,C37_Y23,screwdriver,trowel,0.3598133325576782,0,True,1,True,False
+C37,C37_Y25,screwdriver,chair,0.6960560083389282,3,False,1,True,False
+C37,C37_Y26,screwdriver,table,0.5978658199310303,2,False,1,True,False
+C37,C37_Y27,screwdriver,desk,0.6045875549316406,2,False,1,True,False
+C37,C37_Y32,screwdriver,stool,0.6911799907684326,3,False,1,True,False
+C37,C37_Y35,screwdriver,orange,0.7812830209732056,4,False,1,True,False
+C37,C37_Y36,screwdriver,grape,0.7736903429031372,4,False,1,True,False
+C37,C37_Y38,screwdriver,peach,0.7789257168769836,4,False,1,True,False
+C37,C37_anchor,screwdriver,wrench,0.1280041933059692,-1,True,1,False,True
