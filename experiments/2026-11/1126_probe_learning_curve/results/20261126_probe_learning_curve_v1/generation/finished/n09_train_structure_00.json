@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "hardened-steel-construction",
+      "sentence": "Typically forged from hardened steel, its long handle transmits torque from the user's hand to a fastener."
+    },
+    {
+      "fact_key": "open-jaw-shape",
+      "sentence": "Open-ended designs have two flat jaws separated by a gap that fits around opposing sides of a hexagonal fastener."
+    },
+    {
+      "fact_key": "enclosed-head-contact",
+      "sentence": "Some heads encircle a fastener with an internally shaped ring, distributing contact across multiple flats."
+    },
+    {
+      "fact_key": "movable-jaw-mechanism",
+      "sentence": "Adjustable models use a sliding jaw moved by a knurled worm screw along the head."
+    },
+    {
+      "fact_key": "protective-surface-finish",
+      "sentence": "Many models have a polished or chrome-plated surface that resists corrosion and makes oil easier to wipe away."
+    },
+    {
+      "fact_key": "offset-handle-clearance",
+      "sentence": "A handle may have a slight offset near its head, creating clearance from nearby surfaces."
+    },
+    {
+      "fact_key": "ratcheting-head-mechanism",
+      "sentence": "Ratcheting heads contain a reversible pawl mechanism, allowing rotation in one direction without lifting from the fastener."
+    },
+    {
+      "fact_key": "two-ended-head-design",
+      "sentence": "Some have differently sized ends, combining an open jaw at one end with a closed ring at the other."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Typically forged from hardened steel, its long handle transmits torque from the user's hand to a fastener.\",\"fact_key\":\"hardened-steel-construction\"},{\"sentence\":\"Open-ended designs have two flat jaws separated by a gap that fits around opposing sides of a hexagonal fastener.\",\"fact_key\":\"open-jaw-shape\"},{\"sentence\":\"Some heads encircle a fastener with an internally shaped ring, distributing contact across multiple flats.\",\"fact_key\":\"enclosed-head-contact\"},{\"sentence\":\"Adjustable models use a sliding jaw moved by a knurled worm screw along the head.\",\"fact_key\":\"movable-jaw-mechanism\"},{\"sentence\":\"Many models have a polished or chrome-plated surface that resists corrosion and makes oil easier to wipe away.\",\"fact_key\":\"protective-surface-finish\"},{\"sentence\":\"A handle may have a slight offset near its head, creating clearance from nearby surfaces.\",\"fact_key\":\"offset-handle-clearance\"},{\"sentence\":\"Ratcheting heads contain a reversible pawl mechanism, allowing rotation in one direction without lifting from the fastener.\",\"fact_key\":\"ratcheting-head-mechanism\"},{\"sentence\":\"Some have differently sized ends, combining an open jaw at one end with a closed ring at the other.\",\"fact_key\":\"two-ended-head-design\"}]}",
+  "rejected": [],
+  "request_hash": "7c3f2175b431fd623d1f8e91bc63e6f16383bf2b8e9dc485b1c84d414cff3266",
+  "usage": {
+    "completion_tokens": 637,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 362,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 219,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 856
+  }
+}
