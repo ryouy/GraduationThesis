@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "90e4c23f56b8765151092a4003ed009187d792cfda002276423a25bd6e70d1b4",
+    "items": [
+      {
+        "id": "2b5d274b61ff950e5981",
+        "label": "2",
+        "reason": "Snowflakes are tiny ice formations that fall from the sky in cold weather."
+      },
+      {
+        "id": "57c8759825ecefe7846d",
+        "label": "2",
+        "reason": "Grapefruit is a brightly colored citrus fruit commonly grown in tropical and subtropical regions."
+      },
+      {
+        "id": "752763fc2ca2318bd5e1",
+        "label": "2",
+        "reason": "Snowflakes fall in winter and can accumulate into a soft white layer."
+      },
+      {
+        "id": "1bde453fb7b9bacee381",
+        "label": "2",
+        "reason": "Elephant habitats are affected by climate change and human activities."
+      },
+      {
+        "id": "bbede73cdc3956f16290",
+        "label": "1",
+        "reason": "Banana can be used in summer drinks, but it is not typically tangy, which conflicts with a salient clue detail."
+      },
+      {
+        "id": "6aaebb02d9670b0ef5b3",
+        "label": "2",
+        "reason": "Elephants are used in educational contexts about wildlife conservation."
+      },
+      {
+        "id": "580c92e5528cb685e62d",
+        "label": "2",
+        "reason": "A guitar can produce bright sounds and add energy at lively gatherings."
+      },
+      {
+        "id": "fa096a96554d20a02787",
+        "label": "2",
+        "reason": "Scissors are a handheld tool used to manipulate materials in crafting and assembly tasks."
+      },
+      {
+        "id": "c6568f6810e1c17f07e3",
+        "label": "2",
+        "reason": "Cacti retain water and thrive in arid environments, often with striking forms."
+      },
+      {
+        "id": "2d327fd40d6c4f2d54a5",
+        "label": "0",
+        "reason": "A lion is a large animal that does not scuttle along the ground as described."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"2b5d274b61ff950e5981\",\"label\":\"2\",\"reason\":\"Snowflakes are tiny ice formations that fall from the sky in cold weather.\"},{\"id\":\"57c8759825ecefe7846d\",\"label\":\"2\",\"reason\":\"Grapefruit is a brightly colored citrus fruit commonly grown in tropical and subtropical regions.\"},{\"id\":\"752763fc2ca2318bd5e1\",\"label\":\"2\",\"reason\":\"Snowflakes fall in winter and can accumulate into a soft white layer.\"},{\"id\":\"1bde453fb7b9bacee381\",\"label\":\"2\",\"reason\":\"Elephant habitats are affected by climate change and human activities.\"},{\"id\":\"bbede73cdc3956f16290\",\"label\":\"1\",\"reason\":\"Banana can be used in summer drinks, but it is not typically tangy, which conflicts with a salient clue detail.\"},{\"id\":\"6aaebb02d9670b0ef5b3\",\"label\":\"2\",\"reason\":\"Elephants are used in educational contexts about wildlife conservation.\"},{\"id\":\"580c92e5528cb685e62d\",\"label\":\"2\",\"reason\":\"A guitar can produce bright sounds and add energy at lively gatherings.\"},{\"id\":\"fa096a96554d20a02787\",\"label\":\"2\",\"reason\":\"Scissors are a handheld tool used to manipulate materials in crafting and assembly tasks.\"},{\"id\":\"c6568f6810e1c17f07e3\",\"label\":\"2\",\"reason\":\"Cacti retain water and thrive in arid environments, often with striking forms.\"},{\"id\":\"2d327fd40d6c4f2d54a5\",\"label\":\"0\",\"reason\":\"A lion is a large animal that does not scuttle along the ground as described.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 0,
+    "started": "2026-11-26T08:34:08.191933+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 720,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 329,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 699,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1419
+    }
+  }
+}
