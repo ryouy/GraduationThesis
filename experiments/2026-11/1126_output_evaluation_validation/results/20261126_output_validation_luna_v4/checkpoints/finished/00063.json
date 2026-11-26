@@ -1,0 +1,30 @@
+{
+  "batch": null,
+  "record": {
+    "attempt": 1,
+    "error": "ValueError",
+    "http_status": null,
+    "raw": "{\"items\":[{\"id\":\"41be29d260a0613e4eb4\",\"label\":\"no\",\"reason\":\"Refers to education about elephants, not an elephant.\"},{\"id\":\"b7fd7a718de449bbb59b\",\"label\":\"yes\",\"reason\":\"Explicitly identifies a bicycle.\"},{\"id\":\"6151750d5fc36e93b1eb\",\"label\":\"no\",\"reason\":\"A berry is a broad fruit category, not specifically a banana.\"},{\"id\":\"0ca8dfb2ace1522fe34c\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural form of cactus.\"},{\"id\":\"deff77ffca73373fa177\",\"label\":\"no\",\"reason\":\"Cacti are different plants from aloe.\"},{\"id\":\"26732452d23d8756f485\",\"label\":\"no\",\"reason\":\"Describes scissors, a different tool from pliers.\"},{\"id\":\"cea37a38a27f20c163da\",\"label\":\"no\",\"reason\":\"A grapefruit is a different fruit from a banana.\"},{\"id\":\"e1cadd35dcbcda3940d0\",\"label\":\"yes\",\"reason\":\"A circular drum is a type of drum.\"},{\"id\":\"9bfa62995be7e4cd5ba8\",\"label\":\"no\",\"reason\":\"Describes a shelf for a collection, not specifically a bookshelf.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 630,
+    "started": "2026-11-26T08:25:37.915427+00:00",
+    "status": "error",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 474,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 173,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 529,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1003
+    }
+  }
+}
