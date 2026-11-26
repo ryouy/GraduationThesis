@@ -89,3 +89,15 @@ main{container-type:inline-size}
 .sidebar-tools #theme,.sidebar-tools .github-link{display:inline-flex;align-items:center;justify-content:center;width:27px;height:27px;padding:5px;flex:0 0 27px}
 .sidebar-tools #theme svg,.sidebar-tools .github-link svg{display:block;width:17px;height:17px}
 .sidebar-tools #theme:focus-visible,.sidebar-tools .github-link:focus-visible{outline:2px solid var(--link);outline-offset:1px}
+
+/* Explorer-style indentation guides: each expanded folder owns one vertical line. */
+#tree{--tree-indent:12px;--tree-guide:var(--line)}
+#tree details{padding-left:0;margin:0;min-width:0}
+#tree details>.tree-children{display:none}
+#tree details[open]>.tree-children{display:block}
+#tree .tree-children{min-width:0;margin-left:var(--tree-indent);padding-left:5px;border-left:1px solid var(--tree-guide)}
+#tree .tree-children:hover{border-left-color:var(--muted)}
+#tree summary.folder-entry{padding:3px 6px;border-radius:4px;line-height:1.5}
+#tree summary.folder-entry:hover{background:var(--hover)}
+#tree .file-entry,#tree .folder-view{line-height:1.5}
+#tree .folder-view{padding-left:6px}

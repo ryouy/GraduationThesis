@@ -22,7 +22,7 @@ stubs = """
 <script>
 window.marked={parse:()=>'<h1>Layout regression test</h1><details><summary>実験全体のフロー図</summary><p>図の内容</p></details><h2>Section</h2><p>Content</p>'};
 window.DOMPurify={sanitize:x=>x};
-window.fetch=async url=>({ok:true,json:async()=>({commit:'main',files:[{path:'README.md',local:true},{path:'docs/very_long_research_document_name_to_test_fading.md',local:true},{path:'docs/sample.ipynb',local:false},{path:'docs/sample.csv',local:true}]}),text:async()=> '# Layout regression test'});
+window.fetch=async url=>({ok:true,json:async()=>({commit:'main',files:[{path:'README.md',local:true},{path:'docs/very_long_research_document_name_to_test_fading.md',local:true},{path:'docs/sample.ipynb',local:false},{path:'docs/sample.csv',local:true},{path:'docs/nested/example.md',local:true}]}),text:async()=> '# Layout regression test'});
 </script>
 """
 fixture = fixture.replace('</head>', stubs + '</head>')
@@ -54,6 +54,15 @@ document.addEventListener('DOMContentLoaded',async()=>{
     verify('file types and folder distinct',!!notebook&&!!csv&&!!folder&&getComputedStyle(notebook).color!==getComputedStyle(csv).color&&getComputedStyle(folder).color!==getComputedStyle(notebook).color);
     verify('notebook orange',getComputedStyle(notebook).getPropertyValue('--file-color').trim()===getComputedStyle(notebook).getPropertyValue('--file-notebook').trim());
     verify('folder icon',getComputedStyle(folder,'::before').maskImage!=='none');
+    const branch=folder.parentElement, children=branch.querySelector(':scope > .tree-children');
+    verify('collapsed folder hides child guides',!!children&&getComputedStyle(children).display==='none');
+    folder.click();
+    verify('expanded folder shows guide',branch.open&&getComputedStyle(children).display==='block'&&getComputedStyle(children).borderLeftWidth==='1px'&&getComputedStyle(children).borderLeftStyle==='solid');
+    const nested=children.querySelector('details'), nestedChildren=nested?.querySelector(':scope > .tree-children');
+    if(nested){nested.querySelector('summary').click();verify('nested guide',nested.open&&getComputedStyle(nestedChildren).display==='block'&&parseFloat(getComputedStyle(nestedChildren).marginLeft)>0&&getComputedStyle(nestedChildren).borderLeftWidth==='1px');}
+    else verify('nested folder exists',false);
+    folder.click();
+    verify('guide hidden on collapse',!branch.open&&getComputedStyle(children).display==='none');
     if(mobile){
       verify('mobile sidebar initially hidden',style('sidebar').display==='none');
       get('menu').click();
