@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "532824936f82bff7cbb9feb004822cd32aa3ad28941f48d74d0db7406a5e0539",
+    "items": [
+      {
+        "id": "8ff7940209cf44090da2",
+        "label": "no",
+        "reason": "A beaver is a different animal from an ant."
+      },
+      {
+        "id": "4982653d4bfb27995a91",
+        "label": "yes",
+        "reason": "“Cacti” is the plural form of cactus."
+      },
+      {
+        "id": "38f57e2292a0a0d4e54f",
+        "label": "no",
+        "reason": "A jellyfish is a different sea animal from an octopus."
+      },
+      {
+        "id": "e0e5df4ff2ac0728807b",
+        "label": "no",
+        "reason": "Novels are unrelated to lions."
+      },
+      {
+        "id": "66e3bff278669f92978d",
+        "label": "no",
+        "reason": "“Escape vehicle” is a broad category, not specifically a submarine."
+      },
+      {
+        "id": "9f3de37c04623cacefa7",
+        "label": "no",
+        "reason": "A grapefruit is a different fruit from a banana."
+      },
+      {
+        "id": "ae1c8ad2c75928cf9165",
+        "label": "yes",
+        "reason": "A bicycle capable of traversing various terrains is still a bicycle."
+      },
+      {
+        "id": "36d4ad5713f05f674cd5",
+        "label": "no",
+        "reason": "A beetle is a different insect from an ant."
+      },
+      {
+        "id": "714dd6a93293d8138032",
+        "label": "no",
+        "reason": "“Smoothie Magic” does not identify a banana."
+      },
+      {
+        "id": "c03e2e0a13e6a40dc091",
+        "label": "yes",
+        "reason": "The answer describes rain and its effects."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"8ff7940209cf44090da2\",\"label\":\"no\",\"reason\":\"A beaver is a different animal from an ant.\"},{\"id\":\"4982653d4bfb27995a91\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural form of cactus.\"},{\"id\":\"38f57e2292a0a0d4e54f\",\"label\":\"no\",\"reason\":\"A jellyfish is a different sea animal from an octopus.\"},{\"id\":\"e0e5df4ff2ac0728807b\",\"label\":\"no\",\"reason\":\"Novels are unrelated to lions.\"},{\"id\":\"66e3bff278669f92978d\",\"label\":\"no\",\"reason\":\"“Escape vehicle” is a broad category, not specifically a submarine.\"},{\"id\":\"9f3de37c04623cacefa7\",\"label\":\"no\",\"reason\":\"A grapefruit is a different fruit from a banana.\"},{\"id\":\"ae1c8ad2c75928cf9165\",\"label\":\"yes\",\"reason\":\"A bicycle capable of traversing various terrains is still a bicycle.\"},{\"id\":\"36d4ad5713f05f674cd5\",\"label\":\"no\",\"reason\":\"A beetle is a different insect from an ant.\"},{\"id\":\"714dd6a93293d8138032\",\"label\":\"no\",\"reason\":\"“Smoothie Magic” does not identify a banana.\"},{\"id\":\"c03e2e0a13e6a40dc091\",\"label\":\"yes\",\"reason\":\"The answer describes rain and its effects.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 390,
+    "started": "2026-11-26T08:22:00.592484+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 445,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 99,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 538,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 983
+    }
+  }
+}
