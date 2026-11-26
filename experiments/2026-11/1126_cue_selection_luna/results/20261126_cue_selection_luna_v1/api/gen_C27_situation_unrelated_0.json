@@ -1,0 +1,28 @@
+{
+  "data": {
+    "cues": [
+      "During the morning briefing, the team reviewed revised deadlines and assigned responsibilities for each pending report.",
+      "A sudden power outage paused the rehearsal while technicians checked the building's backup generator.",
+      "At the train station, commuters studied the departure board as delays changed several platform assignments.",
+      "The laboratory logged room temperatures hourly to verify that its storage equipment stayed within specification.",
+      "After the storm passed, neighbors cleared fallen branches from the sidewalk and checked nearby streetlights."
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 307,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 204,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2181,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2178,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2488
+  }
+}
