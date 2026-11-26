@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "7689d1953cd73e671ee264957b98b89b1bbdc5f2278e0ba55d89680ce6bfcb4e",
+    "items": [
+      {
+        "id": "191332e94aa11115468a",
+        "label": "yes",
+        "reason": "A bookcase is another term for a bookshelf."
+      },
+      {
+        "id": "909325e165c4397ceabe",
+        "label": "no",
+        "reason": "A snowflake cascade describes falling snow, not rain."
+      },
+      {
+        "id": "f08ddaf8639c9878e1f7",
+        "label": "no",
+        "reason": "The answer does not identify pliers."
+      },
+      {
+        "id": "87b4be5d0c3f37064e25",
+        "label": "no",
+        "reason": "The answer does not identify a drum."
+      },
+      {
+        "id": "8b8d42fafb151fa7f10d",
+        "label": "yes",
+        "reason": "The answer explicitly identifies rain."
+      },
+      {
+        "id": "d4a21c3a33fb494be191",
+        "label": "no",
+        "reason": "An ant colony swarm is not a dragonfly."
+      },
+      {
+        "id": "5d583ce9b5c3c2be5f81",
+        "label": "yes",
+        "reason": "The answer explicitly identifies a banana."
+      },
+      {
+        "id": "b3cbdff1bb541a0efc10",
+        "label": "yes",
+        "reason": "The answer directly names scissors."
+      },
+      {
+        "id": "18243fee0da3a2c32651",
+        "label": "no",
+        "reason": "A helmeted rider is not a submarine."
+      },
+      {
+        "id": "0fd14c2eba81fe094924",
+        "label": "no",
+        "reason": "Drumming is an activity, not the drum itself."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"191332e94aa11115468a\",\"label\":\"yes\",\"reason\":\"A bookcase is another term for a bookshelf.\"},{\"id\":\"909325e165c4397ceabe\",\"label\":\"no\",\"reason\":\"A snowflake cascade describes falling snow, not rain.\"},{\"id\":\"f08ddaf8639c9878e1f7\",\"label\":\"no\",\"reason\":\"The answer does not identify pliers.\"},{\"id\":\"87b4be5d0c3f37064e25\",\"label\":\"no\",\"reason\":\"The answer does not identify a drum.\"},{\"id\":\"8b8d42fafb151fa7f10d\",\"label\":\"yes\",\"reason\":\"The answer explicitly identifies rain.\"},{\"id\":\"d4a21c3a33fb494be191\",\"label\":\"no\",\"reason\":\"An ant colony swarm is not a dragonfly.\"},{\"id\":\"5d583ce9b5c3c2be5f81\",\"label\":\"yes\",\"reason\":\"The answer explicitly identifies a banana.\"},{\"id\":\"b3cbdff1bb541a0efc10\",\"label\":\"yes\",\"reason\":\"The answer directly names scissors.\"},{\"id\":\"18243fee0da3a2c32651\",\"label\":\"no\",\"reason\":\"A helmeted rider is not a submarine.\"},{\"id\":\"0fd14c2eba81fe094924\",\"label\":\"no\",\"reason\":\"Drumming is an activity, not the drum itself.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 30,
+    "started": "2026-11-26T08:16:31.999242+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 411,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 89,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 530,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 941
+    }
+  }
+}
