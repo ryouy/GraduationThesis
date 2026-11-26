@@ -1,0 +1,29 @@
+{
+  "data": {
+    "cues": [
+      "During an indoor spin class, participants pedal steadily while an instructor cues short bursts of higher resistance.",
+      "A commuter follows a protected lane downtown, slowing where construction crews redirect traffic around a blocked intersection.",
+      "Before a gran fondo, organizers place refreshment tables at intervals along the climbing route.",
+      "A coach reviews cadence data after training, adjusting the next session to build endurance for long climbs.",
+      "At a neighborhood meeting, residents request a protected route linking the school, library, and train station.",
+      "An urban planner tests a newly painted corridor during morning traffic, noting where parked cars obstruct visibility."
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 2715,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2560,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1276,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1273,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3991
+  }
+}
