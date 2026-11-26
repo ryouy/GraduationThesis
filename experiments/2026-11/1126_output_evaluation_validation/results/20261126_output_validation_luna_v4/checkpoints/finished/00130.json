@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "74ec744561d633d1ac17d884fa053c7d437a444d9305e1ed9a66ec1fbb62e2dd",
+    "items": [
+      {
+        "id": "3b89c720e2f2b07500ab",
+        "label": "2",
+        "reason": "A bicycle requires regular maintenance to remain safe to operate."
+      },
+      {
+        "id": "bce8fe2f0ad35af245c6",
+        "label": "0",
+        "reason": "A curtain room does not naturally refer to a vertical structure for storing cherished items."
+      },
+      {
+        "id": "a77c0f9eea3433271644",
+        "label": "2",
+        "reason": "The answer describes rain flowing onto a garden, matching the clue's cascade that nourishes the landscape."
+      },
+      {
+        "id": "eebdef16594cb6f7e109",
+        "label": "2",
+        "reason": "It describes rain replenishing the land and enhancing its natural beauty, as in the clue."
+      },
+      {
+        "id": "e93fb3de6c1bba631042",
+        "label": "2",
+        "reason": "Raindrops falling peacefully fit the clue's droplets and soothing sound."
+      },
+      {
+        "id": "2214013435a6d32e2dfc",
+        "label": "1",
+        "reason": "Scissors are handheld crafting tools that apply pressure to cut materials, but are not a strong fit for broadly manipulating materials."
+      },
+      {
+        "id": "f03a34fee1c7dcbf358a",
+        "label": "2",
+        "reason": "Raindrops bringing life to the earth match the clue's rain enriching the land."
+      },
+      {
+        "id": "eef590f615a39f971617",
+        "label": "2",
+        "reason": "Desert succulents thrive in arid environments and often have adaptations for retaining moisture."
+      },
+      {
+        "id": "d579e0fe9f63e685ba19",
+        "label": "1",
+        "reason": "The answer relates to craftsmanship and handwork but does not identify the reliable hand tool described."
+      },
+      {
+        "id": "5fab9fedc60bfed7e391",
+        "label": "2",
+        "reason": "Lemons are known for their vitamin C and refreshing taste."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"3b89c720e2f2b07500ab\",\"label\":\"2\",\"reason\":\"A bicycle requires regular maintenance to remain safe to operate.\"},{\"id\":\"bce8fe2f0ad35af245c6\",\"label\":\"0\",\"reason\":\"A curtain room does not naturally refer to a vertical structure for storing cherished items.\"},{\"id\":\"a77c0f9eea3433271644\",\"label\":\"2\",\"reason\":\"The answer describes rain flowing onto a garden, matching the clue's cascade that nourishes the landscape.\"},{\"id\":\"eebdef16594cb6f7e109\",\"label\":\"2\",\"reason\":\"It describes rain replenishing the land and enhancing its natural beauty, as in the clue.\"},{\"id\":\"e93fb3de6c1bba631042\",\"label\":\"2\",\"reason\":\"Raindrops falling peacefully fit the clue's droplets and soothing sound.\"},{\"id\":\"2214013435a6d32e2dfc\",\"label\":\"1\",\"reason\":\"Scissors are handheld crafting tools that apply pressure to cut materials, but are not a strong fit for broadly manipulating materials.\"},{\"id\":\"f03a34fee1c7dcbf358a\",\"label\":\"2\",\"reason\":\"Raindrops bringing life to the earth match the clue's rain enriching the land.\"},{\"id\":\"eef590f615a39f971617\",\"label\":\"2\",\"reason\":\"Desert succulents thrive in arid environments and often have adaptations for retaining moisture.\"},{\"id\":\"d579e0fe9f63e685ba19\",\"label\":\"1\",\"reason\":\"The answer relates to craftsmanship and handwork but does not identify the reliable hand tool described.\"},{\"id\":\"5fab9fedc60bfed7e391\",\"label\":\"2\",\"reason\":\"Lemons are known for their vitamin C and refreshing taste.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 250,
+    "started": "2026-11-26T09:31:09.608835+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 719,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 316,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 704,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1423
+    }
+  }
+}
