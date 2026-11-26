@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "d9cd5b243e857fc9c89aa94ee4d8f057cc06589dbaec227b6cccfcb4f4a88671",
+    "items": [
+      {
+        "id": "0974a578d9e48c88c9d2",
+        "label": "2",
+        "reason": "A desert succulent has fleshy water-storing structures that help it survive drought."
+      },
+      {
+        "id": "d1a001374f208bbbbaa2",
+        "label": "2",
+        "reason": "Cacti have succulent stems and often protective spines, matching the clue."
+      },
+      {
+        "id": "90fd81abd56764134bdf",
+        "label": "2",
+        "reason": "Bicycles are commonly used for both recreation and exercise."
+      },
+      {
+        "id": "1d2eada8e9a2d52f514f",
+        "label": "2",
+        "reason": "Cacti store water and are well adapted to rocky, dry landscapes."
+      },
+      {
+        "id": "a24b6889856e6c5ced58",
+        "label": "2",
+        "reason": "Jellyfish have soft, pulsing bodies and drift with currents."
+      },
+      {
+        "id": "58713953f1a182e032c4",
+        "label": "2",
+        "reason": "A vertical bookshelf with multiple sections keeps items organized and accessible."
+      },
+      {
+        "id": "272d57c60bc78d641f2c",
+        "label": "1",
+        "reason": "A drum can be circular and add lively sound, but “circumnavigation drum” is not a recognizable instrument name."
+      },
+      {
+        "id": "4c7231bac344ce22a835",
+        "label": "1",
+        "reason": "Jellyfish have flexible bodies, but squeezing into tight spaces is not a characteristic fit for them."
+      },
+      {
+        "id": "c9d4ea07429194171dc4",
+        "label": "2",
+        "reason": "A guitar can produce bright sounds and contribute energy at lively gatherings."
+      },
+      {
+        "id": "10e2aad4d5248385890f",
+        "label": "2",
+        "reason": "The clue describes raindrops falling and refreshing the surroundings."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"0974a578d9e48c88c9d2\",\"label\":\"2\",\"reason\":\"A desert succulent has fleshy water-storing structures that help it survive drought.\"},{\"id\":\"d1a001374f208bbbbaa2\",\"label\":\"2\",\"reason\":\"Cacti have succulent stems and often protective spines, matching the clue.\"},{\"id\":\"90fd81abd56764134bdf\",\"label\":\"2\",\"reason\":\"Bicycles are commonly used for both recreation and exercise.\"},{\"id\":\"1d2eada8e9a2d52f514f\",\"label\":\"2\",\"reason\":\"Cacti store water and are well adapted to rocky, dry landscapes.\"},{\"id\":\"a24b6889856e6c5ced58\",\"label\":\"2\",\"reason\":\"Jellyfish have soft, pulsing bodies and drift with currents.\"},{\"id\":\"58713953f1a182e032c4\",\"label\":\"2\",\"reason\":\"A vertical bookshelf with multiple sections keeps items organized and accessible.\"},{\"id\":\"272d57c60bc78d641f2c\",\"label\":\"1\",\"reason\":\"A drum can be circular and add lively sound, but “circumnavigation drum” is not a recognizable instrument name.\"},{\"id\":\"4c7231bac344ce22a835\",\"label\":\"1\",\"reason\":\"Jellyfish have flexible bodies, but squeezing into tight spaces is not a characteristic fit for them.\"},{\"id\":\"c9d4ea07429194171dc4\",\"label\":\"2\",\"reason\":\"A guitar can produce bright sounds and contribute energy at lively gatherings.\"},{\"id\":\"10e2aad4d5248385890f\",\"label\":\"2\",\"reason\":\"The clue describes raindrops falling and refreshing the surroundings.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 440,
+    "started": "2026-11-26T09:34:30.146417+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 608,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 224,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 679,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1287
+    }
+  }
+}
