@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "warm frost-free climates",
+      "sentence": "In frost-free tropical and subtropical regions, growers cultivate this crop outdoors because prolonged cold can injure its leaves and roots."
+    },
+    {
+      "fact_key": "soil drainage and acidity",
+      "sentence": "Acidic, sandy soils suit its cultivation, while poorly drained ground can encourage root diseases."
+    },
+    {
+      "fact_key": "raised beds in wet fields",
+      "sentence": "Fields exposed to heavy rainfall may use raised beds to let excess water drain away from the roots."
+    },
+    {
+      "fact_key": "plastic mulch in fields",
+      "sentence": "Commercial growers often cover planting beds with dark plastic mulch to suppress weeds and conserve moisture around young plants."
+    },
+    {
+      "fact_key": "container growing in cool climates",
+      "sentence": "In cooler climates, gardeners may keep it in a sunny container and move it indoors before temperatures approach freezing."
+    },
+    {
+      "fact_key": "irrigation during dry seasons",
+      "sentence": "Where dry seasons interrupt rainfall, supplemental irrigation can support steady growth and dependable fruit development."
+    },
+    {
+      "fact_key": "sunny field sites",
+      "sentence": "On tropical farms, it is generally planted in open, sunny plots rather than dense shade, which can limit its growth."
+    },
+    {
+      "fact_key": "staggered planting schedules",
+      "sentence": "Because crops take months to mature, farms may stagger planting dates to spread harvesting across the year."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In frost-free tropical and subtropical regions, growers cultivate this crop outdoors because prolonged cold can injure its leaves and roots.\",\"fact_key\":\"warm frost-free climates\"},{\"sentence\":\"Acidic, sandy soils suit its cultivation, while poorly drained ground can encourage root diseases.\",\"fact_key\":\"soil drainage and acidity\"},{\"sentence\":\"Fields exposed to heavy rainfall may use raised beds to let excess water drain away from the roots.\",\"fact_key\":\"raised beds in wet fields\"},{\"sentence\":\"Commercial growers often cover planting beds with dark plastic mulch to suppress weeds and conserve moisture around young plants.\",\"fact_key\":\"plastic mulch in fields\"},{\"sentence\":\"In cooler climates, gardeners may keep it in a sunny container and move it indoors before temperatures approach freezing.\",\"fact_key\":\"container growing in cool climates\"},{\"sentence\":\"Where dry seasons interrupt rainfall, supplemental irrigation can support steady growth and dependable fruit development.\",\"fact_key\":\"irrigation during dry seasons\"},{\"sentence\":\"On tropical farms, it is generally planted in open, sunny plots rather than dense shade, which can limit its growth.\",\"fact_key\":\"sunny field sites\"},{\"sentence\":\"Because crops take months to mature, farms may stagger planting dates to spread harvesting across the year.\",\"fact_key\":\"staggered planting schedules\"}]}",
+  "rejected": [],
+  "request_hash": "c8805f6e5823f692809e88ca877bb4d023028c2b5f09dc99a3db7ac197131f59",
+  "usage": {
+    "completion_tokens": 1158,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 886,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1296,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1293,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2454
+  }
+}
