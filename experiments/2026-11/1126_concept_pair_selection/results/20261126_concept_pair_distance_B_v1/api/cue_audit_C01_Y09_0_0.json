@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C01_action_medium_far_0_0",
+        "reason": "A criterium and racers sheltering one another from wind strongly suggest bicycle racing, but neither target name nor an obvious alias appears.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_action_unrelated_0_0",
+        "reason": "The clue concerns bread making and has no evident connection to either target.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_function_far_0_2",
+        "reason": "Turn signals and judging traffic gaps can fit bicycle road-safety instruction, but the clue refers broadly to travelers and does not describe cars specifically.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_function_medium_near_0_2",
+        "reason": "Practicing balance before neighborhood street riding strongly suggests learning to ride a bicycle; no Y name or alias appears.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "fail",
+        "id": "gen_C01_function_near_0_2",
+        "reason": "Protected lanes and low-speed travelers plausibly relate to bicycles. The clue directly mentions cars, but only as shared-road context rather than describing car-specific facts.",
+        "x_related": 2,
+        "y_related": 3,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "fail",
+        "id": "gen_C01_function_very_near_0_2",
+        "reason": "Human-powered travel replacing car journeys strongly connects to bicycles, and the clue directly names cars and describes their fuel use and tailpipe pollution.",
+        "x_related": 3,
+        "y_related": 4,
+        "y_specific": "yes"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_situation_far_0_4",
+        "reason": "Rentals and paths could involve bicycles, but the clue is generic and does not identify a vehicle.",
+        "x_related": 1,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_situation_medium_near_0_4",
+        "reason": "Unlocking a rented ride for a short trip could fit bicycle sharing, but the vehicle is unspecified.",
+        "x_related": 1,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_situation_near_0_4",
+        "reason": "Loose gravel, steep descents, and maintaining balance strongly suggest bicycle trail riding, without naming the vehicle.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_situation_very_near_0_4",
+        "reason": "Pedaling home with cargo on a front-loading frame is a distinctive bicycle use, though no bicycle name or obvious alias appears.",
+        "x_related": 4,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_structure_medium_far_0_2",
+        "reason": "A folding frame could describe a folding bicycle, but the clue does not identify the kind of frame or vehicle.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_structure_unrelated_0_2",
+        "reason": "The clue describes maple-leaf structure and has no evident connection to either target.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C01_action_medium_far_0_0\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A criterium and racers sheltering one another from wind strongly suggest bicycle racing, but neither target name nor an obvious alias appears.\"},{\"id\":\"gen_C01_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The clue concerns bread making and has no evident connection to either target.\"},{\"id\":\"gen_C01_function_far_0_2\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Turn signals and judging traffic gaps can fit bicycle road-safety instruction, but the clue refers broadly to travelers and does not describe cars specifically.\"},{\"id\":\"gen_C01_function_medium_near_0_2\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Practicing balance before neighborhood street riding strongly suggests learning to ride a bicycle; no Y name or alias appears.\"},{\"id\":\"gen_C01_function_near_0_2\",\"x_related\":2,\"y_related\":3,\"exposure\":\"fail\",\"y_specific\":\"no\",\"reason\":\"Protected lanes and low-speed travelers plausibly relate to bicycles. The clue directly mentions cars, but only as shared-road context rather than describing car-specific facts.\"},{\"id\":\"gen_C01_function_very_near_0_2\",\"x_related\":3,\"y_related\":4,\"exposure\":\"fail\",\"y_specific\":\"yes\",\"reason\":\"Human-powered travel replacing car journeys strongly connects to bicycles, and the clue directly names cars and describes their fuel use and tailpipe pollution.\"},{\"id\":\"gen_C01_situation_far_0_4\",\"x_related\":1,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Rentals and paths could involve bicycles, but the clue is generic and does not identify a vehicle.\"},{\"id\":\"gen_C01_situation_medium_near_0_4\",\"x_related\":1,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Unlocking a rented ride for a short trip could fit bicycle sharing, but the vehicle is unspecified.\"},{\"id\":\"gen_C01_situation_near_0_4\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Loose gravel, steep descents, and maintaining balance strongly suggest bicycle trail riding, without naming the vehicle.\"},{\"id\":\"gen_C01_situation_very_near_0_4\",\"x_related\":4,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Pedaling home with cargo on a front-loading frame is a distinctive bicycle use, though no bicycle name or obvious alias appears.\"},{\"id\":\"gen_C01_structure_medium_far_0_2\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A folding frame could describe a folding bicycle, but the clue does not identify the kind of frame or vehicle.\"},{\"id\":\"gen_C01_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The clue describes maple-leaf structure and has no evident connection to either target.\"}]}",
+  "usage": {
+    "completion_tokens": 2311,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1564,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 692,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3003
+  }
+}
