@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "c05bb80fc7bf176b770fe8bfd9296b0ff04622ded152a074ed163be6047e83b4",
+    "items": [
+      {
+        "id": "e6bcf39b686acbdb8392",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from pineapple."
+      },
+      {
+        "id": "24f19e436f92da32325a",
+        "label": "no",
+        "reason": "A bookshelf is a different type of furniture from a cabinet."
+      },
+      {
+        "id": "739a3e4a6aa7c96ae1b6",
+        "label": "no",
+        "reason": "A bicycle is not a submarine."
+      },
+      {
+        "id": "ecf03aa3a42b0708e12d",
+        "label": "no",
+        "reason": "Raindrops describe rain, not snow."
+      },
+      {
+        "id": "279058ad842e2895b205",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from pineapple."
+      },
+      {
+        "id": "e593511d6902efc2063a",
+        "label": "no",
+        "reason": "A drumming event is an activity, not a tambourine."
+      },
+      {
+        "id": "7d4f40948519d10d2117",
+        "label": "no",
+        "reason": "A bicycle is not a submarine."
+      },
+      {
+        "id": "4ff0de26dd2abd9d3bce",
+        "label": "no",
+        "reason": "A jellyfish is a different sea animal from an octopus."
+      },
+      {
+        "id": "024e7457394e793de75d",
+        "label": "yes",
+        "reason": "The answer explicitly identifies rain."
+      },
+      {
+        "id": "f3a7d79b8a8d5a204a19",
+        "label": "no",
+        "reason": "Scissors are a different cutting tool from pliers."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"e6bcf39b686acbdb8392\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from pineapple.\"},{\"id\":\"24f19e436f92da32325a\",\"label\":\"no\",\"reason\":\"A bookshelf is a different type of furniture from a cabinet.\"},{\"id\":\"739a3e4a6aa7c96ae1b6\",\"label\":\"no\",\"reason\":\"A bicycle is not a submarine.\"},{\"id\":\"ecf03aa3a42b0708e12d\",\"label\":\"no\",\"reason\":\"Raindrops describe rain, not snow.\"},{\"id\":\"279058ad842e2895b205\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from pineapple.\"},{\"id\":\"e593511d6902efc2063a\",\"label\":\"no\",\"reason\":\"A drumming event is an activity, not a tambourine.\"},{\"id\":\"7d4f40948519d10d2117\",\"label\":\"no\",\"reason\":\"A bicycle is not a submarine.\"},{\"id\":\"4ff0de26dd2abd9d3bce\",\"label\":\"no\",\"reason\":\"A jellyfish is a different sea animal from an octopus.\"},{\"id\":\"024e7457394e793de75d\",\"label\":\"yes\",\"reason\":\"The answer explicitly identifies rain.\"},{\"id\":\"f3a7d79b8a8d5a204a19\",\"label\":\"no\",\"reason\":\"Scissors are a different cutting tool from pliers.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 670,
+    "started": "2026-11-26T08:26:24.408576+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 397,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 59,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 544,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 941
+    }
+  }
+}
