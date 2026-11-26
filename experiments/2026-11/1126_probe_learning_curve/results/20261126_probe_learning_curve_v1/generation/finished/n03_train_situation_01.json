@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "dining_room_table_linens",
+      "sentence": "In dining rooms, low enclosed units often keep table linens and serving pieces near the table without occupying much wall height."
+    },
+    {
+      "fact_key": "entryway_accessories",
+      "sentence": "Entryways often use shallow enclosed furniture to contain shoes and outdoor accessories near the door."
+    },
+    {
+      "fact_key": "bedroom_garment_storage",
+      "sentence": "In bedrooms, built-in compartments can keep folded garments and personal belongings out of sight."
+    },
+    {
+      "fact_key": "under_stair_space_use",
+      "sentence": "In under-stair spaces, custom-fitted doors conceal compartments shaped to use otherwise awkward sloping areas."
+    },
+    {
+      "fact_key": "outdoor_kitchen_weather_protection",
+      "sentence": "Outdoor kitchens may use weather-resistant enclosures to protect utensils and serving supplies from rain and airborne debris."
+    },
+    {
+      "fact_key": "childcare_cleaning_product_safety",
+      "sentence": "In childcare settings, cleaning products are kept in locked, high compartments to prevent access by young children."
+    },
+    {
+      "fact_key": "server_room_equipment_airflow",
+      "sentence": "In server rooms, ventilated enclosures organize network equipment while allowing airflow around heat-producing components."
+    },
+    {
+      "fact_key": "dining_hall_service_storage",
+      "sentence": "In dining halls, serving stations provide enclosed spaces for spare trays and tableware near food service areas."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In dining rooms, low enclosed units often keep table linens and serving pieces near the table without occupying much wall height.\",\"fact_key\":\"dining_room_table_linens\"},{\"sentence\":\"Entryways often use shallow enclosed furniture to contain shoes and outdoor accessories near the door.\",\"fact_key\":\"entryway_accessories\"},{\"sentence\":\"In bedrooms, built-in compartments can keep folded garments and personal belongings out of sight.\",\"fact_key\":\"bedroom_garment_storage\"},{\"sentence\":\"In under-stair spaces, custom-fitted doors conceal compartments shaped to use otherwise awkward sloping areas.\",\"fact_key\":\"under_stair_space_use\"},{\"sentence\":\"Outdoor kitchens may use weather-resistant enclosures to protect utensils and serving supplies from rain and airborne debris.\",\"fact_key\":\"outdoor_kitchen_weather_protection\"},{\"sentence\":\"In childcare settings, cleaning products are kept in locked, high compartments to prevent access by young children.\",\"fact_key\":\"childcare_cleaning_product_safety\"},{\"sentence\":\"In server rooms, ventilated enclosures organize network equipment while allowing airflow around heat-producing components.\",\"fact_key\":\"server_room_equipment_airflow\"},{\"sentence\":\"In dining halls, serving stations provide enclosed spaces for spare trays and tableware near food service areas.\",\"fact_key\":\"dining_hall_service_storage\"}]}",
+  "rejected": [],
+  "request_hash": "1b4818869911c0ce13668d7fa8c5808910bf2e324322bc8f2a8cc6104f457d91",
+  "usage": {
+    "completion_tokens": 1029,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 754,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1631,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1628,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2660
+  }
+}
