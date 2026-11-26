@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "measuring_placement_clearance",
+      "sentence": "Before positioning it, users often measure the wall and nearby clearance to keep doors, windows, and walkways unobstructed."
+    },
+    {
+      "fact_key": "placing_frequently_used_items",
+      "sentence": "Frequently consulted titles are often placed near eye level, while less-used references occupy higher or lower positions."
+    },
+    {
+      "fact_key": "library_call_number_order",
+      "sentence": "Library staff may assign call-number ranges to sections, then return each volume to its corresponding position after use."
+    },
+    {
+      "fact_key": "cleaning_outer_panels",
+      "sentence": "Users can wipe fingerprints from smooth outer panels with a soft cloth, avoiding abrasive cleaners that may scratch finishes."
+    },
+    {
+      "fact_key": "limiting_light_exposure",
+      "sentence": "To reduce fading from window light, people may move exposed volumes to a shaded spot or rotate their arrangement."
+    },
+    {
+      "fact_key": "reducing_moisture_damage",
+      "sentence": "In humid rooms, ventilation and distance from damp walls help limit moisture damage to stored paper and wooden panels."
+    },
+    {
+      "fact_key": "installing_anti_tip_hardware",
+      "sentence": "For added stability, users may fasten anti-tip hardware into a wall stud to reduce the risk of forward tipping."
+    },
+    {
+      "fact_key": "preparing_for_relocation",
+      "sentence": "Before relocating it, people usually empty the compartments and carry the frame upright to reduce strain on its joints."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Before positioning it, users often measure the wall and nearby clearance to keep doors, windows, and walkways unobstructed.\",\"fact_key\":\"measuring_placement_clearance\"},{\"sentence\":\"Frequently consulted titles are often placed near eye level, while less-used references occupy higher or lower positions.\",\"fact_key\":\"placing_frequently_used_items\"},{\"sentence\":\"Library staff may assign call-number ranges to sections, then return each volume to its corresponding position after use.\",\"fact_key\":\"library_call_number_order\"},{\"sentence\":\"Users can wipe fingerprints from smooth outer panels with a soft cloth, avoiding abrasive cleaners that may scratch finishes.\",\"fact_key\":\"cleaning_outer_panels\"},{\"sentence\":\"To reduce fading from window light, people may move exposed volumes to a shaded spot or rotate their arrangement.\",\"fact_key\":\"limiting_light_exposure\"},{\"sentence\":\"In humid rooms, ventilation and distance from damp walls help limit moisture damage to stored paper and wooden panels.\",\"fact_key\":\"reducing_moisture_damage\"},{\"sentence\":\"For added stability, users may fasten anti-tip hardware into a wall stud to reduce the risk of forward tipping.\",\"fact_key\":\"installing_anti_tip_hardware\"},{\"sentence\":\"Before relocating it, people usually empty the compartments and carry the frame upright to reduce strain on its joints.\",\"fact_key\":\"preparing_for_relocation\"}]}",
+  "rejected": [],
+  "request_hash": "2f2ed6f14bf474676f373f19e831962678a83d04db3230fd9bca9722385d2d50",
+  "usage": {
+    "completion_tokens": 1169,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 881,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1031,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1028,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2200
+  }
+}
