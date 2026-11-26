@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "b387b219772ebbc6a3e8d5e0b6d0bcc1d3966ebc9b133ebc75fed35c15ae31b0",
+    "items": [
+      {
+        "id": "6735c086250d48e4f30c",
+        "label": "2",
+        "reason": "Grapefruit is a colorful fruit commonly grown in tropical and subtropical regions."
+      },
+      {
+        "id": "0d3301abde47f4609e4b",
+        "label": "2",
+        "reason": "Bookshelves commonly have multiple sections and can display decorative items while organizing a space."
+      },
+      {
+        "id": "c7ab062a0f32b7a7429a",
+        "label": "2",
+        "reason": "Cacti are adapted to sunny, dry environments and store water in their distinctive forms."
+      },
+      {
+        "id": "2d13eac1a6bc0ed8b836",
+        "label": "2",
+        "reason": "The answer directly repeats the activity described in the clue."
+      },
+      {
+        "id": "a337a2a156666d8ab47b",
+        "label": "2",
+        "reason": "A drum is commonly used in orchestras and has a resonant body or circular striking surface."
+      },
+      {
+        "id": "faf00f62535285ef1b22",
+        "label": "1",
+        "reason": "Mist is moisture in the atmosphere, but it does not usually descend as liquid drops to refresh the landscape."
+      },
+      {
+        "id": "8b4cb20f1fde2c2be4eb",
+        "label": "0",
+        "reason": "Elephant footprints have no meaningful connection to enjoying summer hikes in national parks."
+      },
+      {
+        "id": "403b436a01dc0390a29e",
+        "label": "2",
+        "reason": "Jellyfish use their tentacles to capture small fish and plankton."
+      },
+      {
+        "id": "67ed30454461be963466",
+        "label": "2",
+        "reason": "Grapefruit is a fruit that can add a refreshing flavor to tropical smoothies."
+      },
+      {
+        "id": "7ae18954092554fcb56d",
+        "label": "1",
+        "reason": "The description may suggest an ant, but the answer is too vague to identify the industrious foraging creature."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"6735c086250d48e4f30c\",\"label\":\"2\",\"reason\":\"Grapefruit is a colorful fruit commonly grown in tropical and subtropical regions.\"},{\"id\":\"0d3301abde47f4609e4b\",\"label\":\"2\",\"reason\":\"Bookshelves commonly have multiple sections and can display decorative items while organizing a space.\"},{\"id\":\"c7ab062a0f32b7a7429a\",\"label\":\"2\",\"reason\":\"Cacti are adapted to sunny, dry environments and store water in their distinctive forms.\"},{\"id\":\"2d13eac1a6bc0ed8b836\",\"label\":\"2\",\"reason\":\"The answer directly repeats the activity described in the clue.\"},{\"id\":\"a337a2a156666d8ab47b\",\"label\":\"2\",\"reason\":\"A drum is commonly used in orchestras and has a resonant body or circular striking surface.\"},{\"id\":\"faf00f62535285ef1b22\",\"label\":\"1\",\"reason\":\"Mist is moisture in the atmosphere, but it does not usually descend as liquid drops to refresh the landscape.\"},{\"id\":\"8b4cb20f1fde2c2be4eb\",\"label\":\"0\",\"reason\":\"Elephant footprints have no meaningful connection to enjoying summer hikes in national parks.\"},{\"id\":\"403b436a01dc0390a29e\",\"label\":\"2\",\"reason\":\"Jellyfish use their tentacles to capture small fish and plankton.\"},{\"id\":\"67ed30454461be963466\",\"label\":\"2\",\"reason\":\"Grapefruit is a fruit that can add a refreshing flavor to tropical smoothies.\"},{\"id\":\"7ae18954092554fcb56d\",\"label\":\"1\",\"reason\":\"The description may suggest an ant, but the answer is too vague to identify the industrious foraging creature.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 10,
+    "started": "2026-11-26T08:34:18.377805+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 593,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 190,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 668,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1261
+    }
+  }
+}
