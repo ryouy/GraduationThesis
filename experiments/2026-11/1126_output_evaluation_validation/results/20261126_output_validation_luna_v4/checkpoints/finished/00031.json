@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "607eaf2fd412490f10dde855f2fef7e2ed9d2a21812ac7ad7acb9cfa54afe2cc",
+    "items": [
+      {
+        "id": "d54ccce1efc2e63a6be0",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from pineapple."
+      },
+      {
+        "id": "189352f8d4ebebaa362c",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from pineapple."
+      },
+      {
+        "id": "f0f3e6dfade49f4e3968",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from banana."
+      },
+      {
+        "id": "8efc4cc4b16ea8712d8e",
+        "label": "yes",
+        "reason": "The answer directly identifies scissors."
+      },
+      {
+        "id": "7308287c3a1f1e69bb25",
+        "label": "no",
+        "reason": "“Escape vehicle” is a broad vehicle description, not specifically a submarine."
+      },
+      {
+        "id": "a875efb6343cf36bbc92",
+        "label": "no",
+        "reason": "Cacti are a different group of plants; aloe is not a cactus."
+      },
+      {
+        "id": "539c3d702fbd2f5175c3",
+        "label": "yes",
+        "reason": "A bookcase is a clear synonym for a bookshelf."
+      },
+      {
+        "id": "c9cfd5d60064600ada38",
+        "label": "yes",
+        "reason": "“Cacti” is the plural form of cactus."
+      },
+      {
+        "id": "90382bd2e40acad99244",
+        "label": "no",
+        "reason": "A tiger is a different animal from a lion."
+      },
+      {
+        "id": "5edcfd4d8b98f41d9998",
+        "label": "no",
+        "reason": "“Beast of Order” does not identify a dragonfly."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"d54ccce1efc2e63a6be0\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from pineapple.\"},{\"id\":\"189352f8d4ebebaa362c\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from pineapple.\"},{\"id\":\"f0f3e6dfade49f4e3968\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from banana.\"},{\"id\":\"8efc4cc4b16ea8712d8e\",\"label\":\"yes\",\"reason\":\"The answer directly identifies scissors.\"},{\"id\":\"7308287c3a1f1e69bb25\",\"label\":\"no\",\"reason\":\"“Escape vehicle” is a broad vehicle description, not specifically a submarine.\"},{\"id\":\"a875efb6343cf36bbc92\",\"label\":\"no\",\"reason\":\"Cacti are a different group of plants; aloe is not a cactus.\"},{\"id\":\"539c3d702fbd2f5175c3\",\"label\":\"yes\",\"reason\":\"A bookcase is a clear synonym for a bookshelf.\"},{\"id\":\"c9cfd5d60064600ada38\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural form of cactus.\"},{\"id\":\"90382bd2e40acad99244\",\"label\":\"no\",\"reason\":\"A tiger is a different animal from a lion.\"},{\"id\":\"5edcfd4d8b98f41d9998\",\"label\":\"no\",\"reason\":\"“Beast of Order” does not identify a dragonfly.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 310,
+    "started": "2026-11-26T08:20:47.680306+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 449,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 98,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 522,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 971
+    }
+  }
+}
