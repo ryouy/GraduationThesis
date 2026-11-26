@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C35_action_far_0_1",
+        "naturalness": 5,
+        "reason": "Natural book-related activity, but it does not mention furniture or storage.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C35_action_far_0_2",
+        "naturalness": 5,
+        "reason": "A poetry reading has an indirect literary connection to books; no clear furniture or storage connection.",
+        "style": "pass",
+        "x_related": 1,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C35_action_far_0_3",
+        "naturalness": 5,
+        "reason": "Plausible description of fermentation, unrelated to either furniture item.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C35_action_far_0_4",
+        "naturalness": 5,
+        "reason": "Natural gardening activity with no meaningful connection to either item.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C35_action_far_0_5",
+        "naturalness": 5,
+        "reason": "Plausible vehicle maintenance activity, unrelated to either item.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C35_action_unrelated_0_0",
+        "naturalness": 5,
+        "reason": "Natural kayaking activity with no meaningful connection to either item.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C35_action_unrelated_0_1",
+        "naturalness": 5,
+        "reason": "Plausible rehearsal activity, with no stated connection to books or enclosed storage.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C35_action_unrelated_0_2",
+        "naturalness": 5,
+        "reason": "Plausible astronomy activity, unrelated to either item.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C35_action_unrelated_0_3",
+        "naturalness": 5,
+        "reason": "Natural description of preflight ground operations, unrelated to either item.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C35_action_unrelated_0_4",
+        "naturalness": 5,
+        "reason": "Plausible pastry preparation with no meaningful connection to either item.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 964,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 380,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 639,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1603
+  }
+}
