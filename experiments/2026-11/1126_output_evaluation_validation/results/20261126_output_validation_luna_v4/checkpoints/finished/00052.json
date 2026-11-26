@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "c745fbd833bf8adf760290c9929c7a7b77b2d7334defccf929184777478ed049",
+    "items": [
+      {
+        "id": "3d56df372d8e4257b44e",
+        "label": "yes",
+        "reason": "“Cacti” is the plural of cactus."
+      },
+      {
+        "id": "5bcc3ab5b01b17974fc3",
+        "label": "yes",
+        "reason": "The answer names cactus directly."
+      },
+      {
+        "id": "6d7c295fc7afc0b3d351",
+        "label": "yes",
+        "reason": "The answer explicitly names rain."
+      },
+      {
+        "id": "fc44c52bd6eaa1a95b73",
+        "label": "no",
+        "reason": "Drumming is a musical activity, not a tambourine."
+      },
+      {
+        "id": "f646355c1edd386ffccc",
+        "label": "no",
+        "reason": "“Carpenter” names a trade, not an ant."
+      },
+      {
+        "id": "a0928878545f016aa0f0",
+        "label": "no",
+        "reason": "The answer names an elephant conservation campaign, not a lion."
+      },
+      {
+        "id": "d1461e584e3ccf30f322",
+        "label": "no",
+        "reason": "Raindrops are associated with rain, but the answer does not identify snow."
+      },
+      {
+        "id": "a26acf2e3bb38d725f5b",
+        "label": "no",
+        "reason": "Drumming is the activity of playing a drum, not the drum itself."
+      },
+      {
+        "id": "86780f51bed2427e577b",
+        "label": "no",
+        "reason": "The answer names an elephant conservation campaign, not a lion."
+      },
+      {
+        "id": "2c3866d47dd1191d96eb",
+        "label": "yes",
+        "reason": "Falling raindrops describe rainfall."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"3d56df372d8e4257b44e\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural of cactus.\"},{\"id\":\"5bcc3ab5b01b17974fc3\",\"label\":\"yes\",\"reason\":\"The answer names cactus directly.\"},{\"id\":\"6d7c295fc7afc0b3d351\",\"label\":\"yes\",\"reason\":\"The answer explicitly names rain.\"},{\"id\":\"fc44c52bd6eaa1a95b73\",\"label\":\"no\",\"reason\":\"Drumming is a musical activity, not a tambourine.\"},{\"id\":\"f646355c1edd386ffccc\",\"label\":\"no\",\"reason\":\"“Carpenter” names a trade, not an ant.\"},{\"id\":\"a0928878545f016aa0f0\",\"label\":\"no\",\"reason\":\"The answer names an elephant conservation campaign, not a lion.\"},{\"id\":\"d1461e584e3ccf30f322\",\"label\":\"no\",\"reason\":\"Raindrops are associated with rain, but the answer does not identify snow.\"},{\"id\":\"a26acf2e3bb38d725f5b\",\"label\":\"no\",\"reason\":\"Drumming is the activity of playing a drum, not the drum itself.\"},{\"id\":\"86780f51bed2427e577b\",\"label\":\"no\",\"reason\":\"The answer names an elephant conservation campaign, not a lion.\"},{\"id\":\"2c3866d47dd1191d96eb\",\"label\":\"yes\",\"reason\":\"Falling raindrops describe rainfall.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 520,
+    "started": "2026-11-26T08:23:59.192953+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 585,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 238,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 547,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1132
+    }
+  }
+}
