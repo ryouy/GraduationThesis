@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "6593959fadbed0de9b6f507bf6d8a74bd3fd89fcbe01ed8157d68f245e8122c5",
+    "items": [
+      {
+        "id": "09177f8935620531df4b",
+        "label": "1",
+        "reason": "The clue suggests a social insect such as an ant, but “Garden Worker” is too broad to identify it."
+      },
+      {
+        "id": "2dd36a5e5f945dc231ab",
+        "label": "1",
+        "reason": "A beetle is a small ground-dwelling insect, but cooperative food gathering for a community is more characteristic of ants."
+      },
+      {
+        "id": "c375d496f2ae5c7c7142",
+        "label": "2",
+        "reason": "A bookshelf is a sturdy unit for organizing and displaying books and other items."
+      },
+      {
+        "id": "ffc0fb1ee4143bc3672b",
+        "label": "1",
+        "reason": "It fits the general idea of an instrument, but “Cultural Instrument” is too broad to identify one that makes cheerful tones for social events."
+      },
+      {
+        "id": "a31b667742f4cd01e3e0",
+        "label": "2",
+        "reason": "Garden ants commonly forage together, carrying food back to their colony."
+      },
+      {
+        "id": "7527857ab6d3985cdb54",
+        "label": "1",
+        "reason": "Grapes are refreshing fruit and contain vitamin C, but they are not especially known for having a high amount of it."
+      },
+      {
+        "id": "6960bf1c56278fde615e",
+        "label": "1",
+        "reason": "A bicycle can be an efficient mode of transportation, though the clue refers to two modes and names neither counterpart."
+      },
+      {
+        "id": "0cd815ef3e756e081ed6",
+        "label": "1",
+        "reason": "A smoothie bowl is related to smoothies, but it is not the fruit described."
+      },
+      {
+        "id": "d391c6f972c44f94bd31",
+        "label": "2",
+        "reason": "The answer describes a banana, matching the clue’s curved shape, sweetness, and use in breakfast dishes."
+      },
+      {
+        "id": "7cac3a0ed542cfabe58d",
+        "label": "2",
+        "reason": "A drum is a round percussion instrument with a taut surface and can produce a deep, resonant sound."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"09177f8935620531df4b\",\"label\":\"1\",\"reason\":\"The clue suggests a social insect such as an ant, but “Garden Worker” is too broad to identify it.\"},{\"id\":\"2dd36a5e5f945dc231ab\",\"label\":\"1\",\"reason\":\"A beetle is a small ground-dwelling insect, but cooperative food gathering for a community is more characteristic of ants.\"},{\"id\":\"c375d496f2ae5c7c7142\",\"label\":\"2\",\"reason\":\"A bookshelf is a sturdy unit for organizing and displaying books and other items.\"},{\"id\":\"ffc0fb1ee4143bc3672b\",\"label\":\"1\",\"reason\":\"It fits the general idea of an instrument, but “Cultural Instrument” is too broad to identify one that makes cheerful tones for social events.\"},{\"id\":\"a31b667742f4cd01e3e0\",\"label\":\"2\",\"reason\":\"Garden ants commonly forage together, carrying food back to their colony.\"},{\"id\":\"7527857ab6d3985cdb54\",\"label\":\"1\",\"reason\":\"Grapes are refreshing fruit and contain vitamin C, but they are not especially known for having a high amount of it.\"},{\"id\":\"6960bf1c56278fde615e\",\"label\":\"1\",\"reason\":\"A bicycle can be an efficient mode of transportation, though the clue refers to two modes and names neither counterpart.\"},{\"id\":\"0cd815ef3e756e081ed6\",\"label\":\"1\",\"reason\":\"A smoothie bowl is related to smoothies, but it is not the fruit described.\"},{\"id\":\"d391c6f972c44f94bd31\",\"label\":\"2\",\"reason\":\"The answer describes a banana, matching the clue’s curved shape, sweetness, and use in breakfast dishes.\"},{\"id\":\"7cac3a0ed542cfabe58d\",\"label\":\"2\",\"reason\":\"A drum is a round percussion instrument with a taut surface and can produce a deep, resonant sound.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 70,
+    "started": "2026-11-26T08:35:24.374904+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 680,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 239,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 689,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1369
+    }
+  }
+}
