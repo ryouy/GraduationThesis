@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_structure_very_near_0_0",
+        "naturalness": 5,
+        "reason": "A curved, elongated fruit with thick yellow peel is a direct, plausible description of X.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_structure_very_near_0_1",
+        "naturalness": 4,
+        "reason": "Soft, pale flesh fits X, though the creamy texture is not unique to it.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_structure_very_near_0_2",
+        "naturalness": 5,
+        "reason": "X grows in bunches with individual fruits attached to a shared stalk.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_structure_very_near_0_3",
+        "naturalness": 5,
+        "reason": "Brown freckles on yellowing skin are a characteristic ripening feature of X.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_structure_very_near_0_4",
+        "naturalness": 5,
+        "reason": "The crescent shape and blunt ends are plausible, recognizable structural traits of X.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_structure_very_near_0_5",
+        "naturalness": 5,
+        "reason": "X's peel is commonly removed by hand in strips.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "uncertain",
+        "id": "gen_C27_structure_near_0_0",
+        "naturalness": 4,
+        "reason": "X may split lengthwise, but describing its flesh as separating into distinct soft sections is not a consistently clear feature.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_structure_near_0_1",
+        "naturalness": 5,
+        "reason": "A stem end and dark flower remnant are plausible structural features of X, though the wording is somewhat general.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_structure_near_0_2",
+        "naturalness": 5,
+        "reason": "Stringlike fibers often cling to X after peeling.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_structure_near_0_3",
+        "naturalness": 5,
+        "reason": "The green-to-yellow color change and increasing sweetness are typical as X ripens.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1176,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 538,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 619,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1795
+  }
+}
