@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "berry_classification",
+      "sentence": "Botanically, the fleshy fruit is a berry: its ovary wall forms a soft pericarp around the pulp."
+    },
+    {
+      "fact_key": "three_chambered_ovary",
+      "sentence": "Its ovary has three chambers, reflected in faintly defined sectors sometimes visible in a cross-section."
+    },
+    {
+      "fact_key": "blossom_end_scar",
+      "sentence": "A small rough scar may remain at the blossom end where the flower’s parts detached during development."
+    },
+    {
+      "fact_key": "pulp_acidity",
+      "sentence": "Fresh pulp is mildly acidic, commonly measuring around pH 4.5 to 5.2."
+    },
+    {
+      "fact_key": "latex_exudate",
+      "sentence": "Unripe fruit may release sticky latex from cut surfaces, a milky exudate that can stain hands and tools."
+    },
+    {
+      "fact_key": "fructooligosaccharides",
+      "sentence": "The pulp contains small amounts of fructooligosaccharides, fermentable carbohydrates classified as prebiotic fibers."
+    },
+    {
+      "fact_key": "folate_content",
+      "sentence": "Its flesh provides folate, a B vitamin used in processes involved in DNA production and cell division."
+    },
+    {
+      "fact_key": "manganese_content",
+      "sentence": "The pulp contains manganese, a trace mineral needed in small amounts for normal enzyme activity."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Botanically, the fleshy fruit is a berry: its ovary wall forms a soft pericarp around the pulp.\",\"fact_key\":\"berry_classification\"},{\"sentence\":\"Its ovary has three chambers, reflected in faintly defined sectors sometimes visible in a cross-section.\",\"fact_key\":\"three_chambered_ovary\"},{\"sentence\":\"A small rough scar may remain at the blossom end where the flower’s parts detached during development.\",\"fact_key\":\"blossom_end_scar\"},{\"sentence\":\"Fresh pulp is mildly acidic, commonly measuring around pH 4.5 to 5.2.\",\"fact_key\":\"pulp_acidity\"},{\"sentence\":\"Unripe fruit may release sticky latex from cut surfaces, a milky exudate that can stain hands and tools.\",\"fact_key\":\"latex_exudate\"},{\"sentence\":\"The pulp contains small amounts of fructooligosaccharides, fermentable carbohydrates classified as prebiotic fibers.\",\"fact_key\":\"fructooligosaccharides\"},{\"sentence\":\"Its flesh provides folate, a B vitamin used in processes involved in DNA production and cell division.\",\"fact_key\":\"folate_content\"},{\"sentence\":\"The pulp contains manganese, a trace mineral needed in small amounts for normal enzyme activity.\",\"fact_key\":\"manganese_content\"}]}",
+  "rejected": [],
+  "request_hash": "5b449104ed54dff36146aa89456285e265925105c641ec0145b79429c559c295",
+  "usage": {
+    "completion_tokens": 2432,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2136,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2457,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2454,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4889
+  }
+}
