@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "8823e0a795ccd33dae9d86b0615c8fa1d523e325753bb5fb9990eec5ce4b5e67",
+    "items": [
+      {
+        "id": "41be29d260a0613e4eb4",
+        "label": "no",
+        "reason": "Refers to education about elephants, not an elephant itself."
+      },
+      {
+        "id": "b7fd7a718de449bbb59b",
+        "label": "yes",
+        "reason": "Explicitly identifies a bicycle as a mode of transportation."
+      },
+      {
+        "id": "6151750d5fc36e93b1eb",
+        "label": "no",
+        "reason": "A berry is a broad category, not specifically a banana."
+      },
+      {
+        "id": "0ca8dfb2ace1522fe34c",
+        "label": "yes",
+        "reason": "“Cacti” is the plural of cactus."
+      },
+      {
+        "id": "deff77ffca73373fa177",
+        "label": "no",
+        "reason": "Cacti are different plants from aloe."
+      },
+      {
+        "id": "26732452d23d8756f485",
+        "label": "no",
+        "reason": "Describes scissors, a different tool from pliers."
+      },
+      {
+        "id": "cea37a38a27f20c163da",
+        "label": "no",
+        "reason": "A grapefruit is a different fruit from a banana."
+      },
+      {
+        "id": "e1cadd35dcbcda3940d0",
+        "label": "yes",
+        "reason": "A circular drum is a drum."
+      },
+      {
+        "id": "c2f789440ea9b6c55cb4",
+        "label": "no",
+        "reason": "Describes cacti, not aloe."
+      },
+      {
+        "id": "9bfa62995be7e4cd5ba8",
+        "label": "no",
+        "reason": "A personal collection shelf is a generic shelf, not specifically a bookshelf."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 2,
+    "raw": "{\"items\":[{\"id\":\"41be29d260a0613e4eb4\",\"label\":\"no\",\"reason\":\"Refers to education about elephants, not an elephant itself.\"},{\"id\":\"b7fd7a718de449bbb59b\",\"label\":\"yes\",\"reason\":\"Explicitly identifies a bicycle as a mode of transportation.\"},{\"id\":\"6151750d5fc36e93b1eb\",\"label\":\"no\",\"reason\":\"A berry is a broad category, not specifically a banana.\"},{\"id\":\"0ca8dfb2ace1522fe34c\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural of cactus.\"},{\"id\":\"deff77ffca73373fa177\",\"label\":\"no\",\"reason\":\"Cacti are different plants from aloe.\"},{\"id\":\"26732452d23d8756f485\",\"label\":\"no\",\"reason\":\"Describes scissors, a different tool from pliers.\"},{\"id\":\"cea37a38a27f20c163da\",\"label\":\"no\",\"reason\":\"A grapefruit is a different fruit from a banana.\"},{\"id\":\"e1cadd35dcbcda3940d0\",\"label\":\"yes\",\"reason\":\"A circular drum is a drum.\"},{\"id\":\"c2f789440ea9b6c55cb4\",\"label\":\"no\",\"reason\":\"Describes cacti, not aloe.\"},{\"id\":\"9bfa62995be7e4cd5ba8\",\"label\":\"no\",\"reason\":\"A personal collection shelf is a generic shelf, not specifically a bookshelf.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 630,
+    "started": "2026-11-26T08:25:48.794860+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 568,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 233,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 529,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1097
+    }
+  }
+}
