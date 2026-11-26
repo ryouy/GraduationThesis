@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "efa337daf05b3a6db2b344fb3ffa7ab0ff27b8600318aab5308de1c70ee844ab",
+    "items": [
+      {
+        "id": "72f15e7c29b1500e7ca8",
+        "label": "no",
+        "reason": "Mindfulness is unrelated to a bookshelf."
+      },
+      {
+        "id": "3b51cf42dbb15792b0ae",
+        "label": "no",
+        "reason": "A cactus is a different plant, not aloe."
+      },
+      {
+        "id": "9f7edfa974fb2d8c7bdb",
+        "label": "yes",
+        "reason": "The phrase explicitly describes gentle rain falling."
+      },
+      {
+        "id": "d639116cd618c87a09d9",
+        "label": "yes",
+        "reason": "A bookcase is another term for a bookshelf."
+      },
+      {
+        "id": "3160e6c3b25bd8e9605d",
+        "label": "no",
+        "reason": "“Ecosystem protector” is a broad role and does not identify an elephant."
+      },
+      {
+        "id": "abe0f1a7c8e3df045f7e",
+        "label": "yes",
+        "reason": "It explicitly identifies an elephant."
+      },
+      {
+        "id": "ab914c6f5c3d34acfc4e",
+        "label": "yes",
+        "reason": "It names the target directly."
+      },
+      {
+        "id": "163da89cab3af89eaa41",
+        "label": "no",
+        "reason": "Scissors are a different tool from pliers."
+      },
+      {
+        "id": "bfe518d2499779fa6e7c",
+        "label": "no",
+        "reason": "Night sky paintings are unrelated to a submarine."
+      },
+      {
+        "id": "4e9d795265c565d3bbee",
+        "label": "no",
+        "reason": "A grapefruit is a different fruit from a pineapple."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"72f15e7c29b1500e7ca8\",\"label\":\"no\",\"reason\":\"Mindfulness is unrelated to a bookshelf.\"},{\"id\":\"3b51cf42dbb15792b0ae\",\"label\":\"no\",\"reason\":\"A cactus is a different plant, not aloe.\"},{\"id\":\"9f7edfa974fb2d8c7bdb\",\"label\":\"yes\",\"reason\":\"The phrase explicitly describes gentle rain falling.\"},{\"id\":\"d639116cd618c87a09d9\",\"label\":\"yes\",\"reason\":\"A bookcase is another term for a bookshelf.\"},{\"id\":\"3160e6c3b25bd8e9605d\",\"label\":\"no\",\"reason\":\"“Ecosystem protector” is a broad role and does not identify an elephant.\"},{\"id\":\"abe0f1a7c8e3df045f7e\",\"label\":\"yes\",\"reason\":\"It explicitly identifies an elephant.\"},{\"id\":\"ab914c6f5c3d34acfc4e\",\"label\":\"yes\",\"reason\":\"It names the target directly.\"},{\"id\":\"163da89cab3af89eaa41\",\"label\":\"no\",\"reason\":\"Scissors are a different tool from pliers.\"},{\"id\":\"bfe518d2499779fa6e7c\",\"label\":\"no\",\"reason\":\"Night sky paintings are unrelated to a submarine.\"},{\"id\":\"4e9d795265c565d3bbee\",\"label\":\"no\",\"reason\":\"A grapefruit is a different fruit from a pineapple.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 830,
+    "started": "2026-11-26T08:28:42.524092+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 400,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 61,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 529,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 929
+    }
+  }
+}
