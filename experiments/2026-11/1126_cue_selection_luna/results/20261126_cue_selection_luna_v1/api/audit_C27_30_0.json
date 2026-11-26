@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_structure_unrelated_0_0",
+        "naturalness": 5,
+        "reason": "A natural description of a cast-iron grate; it does not suggest either fruit.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_structure_unrelated_0_1",
+        "naturalness": 5,
+        "reason": "A plausible structural description of a glass marble, unrelated to either fruit.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_structure_unrelated_0_2",
+        "naturalness": 5,
+        "reason": "A natural description of how a folded map opens; no fruit connection.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_structure_unrelated_0_3",
+        "naturalness": 5,
+        "reason": "A plausible structural description of an adjustable desk lamp, unrelated to either fruit.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_structure_unrelated_0_4",
+        "naturalness": 5,
+        "reason": "A natural description of gear mechanics, unrelated to either fruit.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_very_near_0_0",
+        "naturalness": 5,
+        "reason": "Harvesting green bunches and washing and packing them closely fits commercial banana production.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_very_near_0_1",
+        "naturalness": 5,
+        "reason": "Controlled ethylene ripening of shipped green fruit is a distinctive, well-established banana practice; pineapple does not ripen this way.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_very_near_0_2",
+        "naturalness": 5,
+        "reason": "Frozen banana pieces blend into a creamy dairy-free soft serve; other fruit could be blended, but this is especially characteristic of banana.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "uncertain",
+        "id": "gen_C27_action_very_near_0_3",
+        "naturalness": 4,
+        "reason": "New banana shoots do emerge near the base after fruiting, but growers generally cut down the spent pseudostem rather than describing the removed part simply as the flower stalk.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_very_near_0_4",
+        "naturalness": 5,
+        "reason": "Lengthwise-fried plantain is a recognizable savory preparation of a banana relative.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1427,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 763,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 646,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2073
+  }
+}
