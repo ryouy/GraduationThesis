@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "hardwood_handle",
+      "sentence": "Hardwood handles are formed from dense timber, with wood grain visible along their outer surfaces."
+    },
+    {
+      "fact_key": "striking_end_cap",
+      "sentence": "On impact-rated versions, a metal butt cap is built into the handle's rear end."
+    },
+    {
+      "fact_key": "rotating_end_cap",
+      "sentence": "A freely turning end cap allows fingertip control while the handle body remains cradled in the palm."
+    },
+    {
+      "fact_key": "black_oxide_finish",
+      "sentence": "Some steel shafts have a black oxide surface finish that offers limited corrosion resistance."
+    },
+    {
+      "fact_key": "square_shaft_section",
+      "sentence": "A square-section shaft has four flat longitudinal faces and a distinct angular cross-section."
+    },
+    {
+      "fact_key": "chrome_plating",
+      "sentence": "Chrome plating gives some metal shafts a bright, smooth exterior surface."
+    },
+    {
+      "fact_key": "oval_handle_section",
+      "sentence": "Certain handles have an oval cross-section rather than a circular one, shaping how they sit in the hand."
+    },
+    {
+      "fact_key": "full_tang_construction",
+      "sentence": "In full-tang construction, the metal core runs through the handle to its rear end."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Hardwood handles are formed from dense timber, with wood grain visible along their outer surfaces.\",\"fact_key\":\"hardwood_handle\"},{\"sentence\":\"On impact-rated versions, a metal butt cap is built into the handle's rear end.\",\"fact_key\":\"striking_end_cap\"},{\"sentence\":\"A freely turning end cap allows fingertip control while the handle body remains cradled in the palm.\",\"fact_key\":\"rotating_end_cap\"},{\"sentence\":\"Some steel shafts have a black oxide surface finish that offers limited corrosion resistance.\",\"fact_key\":\"black_oxide_finish\"},{\"sentence\":\"A square-section shaft has four flat longitudinal faces and a distinct angular cross-section.\",\"fact_key\":\"square_shaft_section\"},{\"sentence\":\"Chrome plating gives some metal shafts a bright, smooth exterior surface.\",\"fact_key\":\"chrome_plating\"},{\"sentence\":\"Certain handles have an oval cross-section rather than a circular one, shaping how they sit in the hand.\",\"fact_key\":\"oval_handle_section\"},{\"sentence\":\"In full-tang construction, the metal core runs through the handle to its rear end.\",\"fact_key\":\"full_tang_construction\"}]}",
+  "rejected": [],
+  "request_hash": "b4b23feb5f0862271c660af8330e25bbef907da102f5cbdcf5bf2096d79bc72c",
+  "usage": {
+    "completion_tokens": 1767,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1519,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2377,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2374,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4144
+  }
+}
