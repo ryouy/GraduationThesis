@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "38f55ccafd67fd6144581fc0367b76542a27c27a092b9fbeb5c55734a18f3981",
+    "items": [
+      {
+        "id": "329a029b14c65b986ea2",
+        "label": "2",
+        "reason": "Bananas are commonly eaten fresh and add sweetness to fruit salads."
+      },
+      {
+        "id": "e8c5f910023026d28ded",
+        "label": "2",
+        "reason": "Rain is droplets falling from clouds and can nourish the earth."
+      },
+      {
+        "id": "0022701afb0acba7c09f",
+        "label": "1",
+        "reason": "Scissors are a tool, but they cut rather than securely grip and manipulate small components."
+      },
+      {
+        "id": "90cdab8001002e723411",
+        "label": "0",
+        "reason": "The clue describes a jingling instrument, while “Circumnavigation Dance” is unrelated."
+      },
+      {
+        "id": "cc6388364e7aae3949d7",
+        "label": "2",
+        "reason": "Cacti are adapted to sunny, dry areas and retain water efficiently."
+      },
+      {
+        "id": "74129264365c7a08b877",
+        "label": "1",
+        "reason": "Cacti survive with little water, but generally store it in thick stems rather than fleshy leaves."
+      },
+      {
+        "id": "6ab45f3e316f440fcc1b",
+        "label": "2",
+        "reason": "A safety helmet is the protective helmet riders wear in traffic."
+      },
+      {
+        "id": "34bb20bae29aea1b3169",
+        "label": "2",
+        "reason": "The answer correctly identifies a banana and matches its yellow color and sweet flavor."
+      },
+      {
+        "id": "bb3147b711eea47039c8",
+        "label": "1",
+        "reason": "“Memory Keeper” loosely relates to the described memory ability but does not identify what has it."
+      },
+      {
+        "id": "2987df0e43fcdd597546",
+        "label": "0",
+        "reason": "The clue describes a bright jingling instrument, not a drumming dance."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"329a029b14c65b986ea2\",\"label\":\"2\",\"reason\":\"Bananas are commonly eaten fresh and add sweetness to fruit salads.\"},{\"id\":\"e8c5f910023026d28ded\",\"label\":\"2\",\"reason\":\"Rain is droplets falling from clouds and can nourish the earth.\"},{\"id\":\"0022701afb0acba7c09f\",\"label\":\"1\",\"reason\":\"Scissors are a tool, but they cut rather than securely grip and manipulate small components.\"},{\"id\":\"90cdab8001002e723411\",\"label\":\"0\",\"reason\":\"The clue describes a jingling instrument, while “Circumnavigation Dance” is unrelated.\"},{\"id\":\"cc6388364e7aae3949d7\",\"label\":\"2\",\"reason\":\"Cacti are adapted to sunny, dry areas and retain water efficiently.\"},{\"id\":\"74129264365c7a08b877\",\"label\":\"1\",\"reason\":\"Cacti survive with little water, but generally store it in thick stems rather than fleshy leaves.\"},{\"id\":\"6ab45f3e316f440fcc1b\",\"label\":\"2\",\"reason\":\"A safety helmet is the protective helmet riders wear in traffic.\"},{\"id\":\"34bb20bae29aea1b3169\",\"label\":\"2\",\"reason\":\"The answer correctly identifies a banana and matches its yellow color and sweet flavor.\"},{\"id\":\"bb3147b711eea47039c8\",\"label\":\"1\",\"reason\":\"“Memory Keeper” loosely relates to the described memory ability but does not identify what has it.\"},{\"id\":\"2987df0e43fcdd597546\",\"label\":\"0\",\"reason\":\"The clue describes a bright jingling instrument, not a drumming dance.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 200,
+    "started": "2026-11-26T08:41:41.577905+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 637,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 258,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 696,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1333
+    }
+  }
+}
