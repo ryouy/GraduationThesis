@@ -25,12 +25,10 @@ jobs:
           /tmp/protocol-figure-venv/bin/pip install Pillow
           /tmp/protocol-figure-venv/bin/python docs/figures/generate_protocol_v095_vertical_flow.py
           test -s docs/figures/protocol_v095_vertical_flow.png
-          # Restore normal read-only Pages workflow in the same commit.
-          git show HEAD^:.github/workflows/pages.yml > .github/workflows/pages.yml
-          git add docs/figures/protocol_v095_vertical_flow.png .github/workflows/pages.yml
+          git add docs/figures/protocol_v095_vertical_flow.png
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Store protocol v0.95 flow diagram and restore standard Pages workflow"
+          git commit -m "Store protocol v0.95 flow diagram"
           git push origin HEAD:main
       - run: python3 website/build.py
       - run: python3 website/smoke_test.py
