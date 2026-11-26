@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "5a90b1a15472a386ad5c79157ec6305062b3c9e14ec5b153d0d945bec8334880",
+    "items": [
+      {
+        "id": "156d85518e6a9bf1a4c5",
+        "label": "1",
+        "reason": "It suggests a worker, but does not identify a small food-gathering creature and “Giant” conflicts with the clue."
+      },
+      {
+        "id": "4681f1e4b873e8a75a09",
+        "label": "0",
+        "reason": "A garden terrace is not a vertical structure for storing cherished items."
+      },
+      {
+        "id": "b5ac68166b505e146c2a",
+        "label": "2",
+        "reason": "A bookshelf is a tall structure that displays and stores decorative and practical items."
+      },
+      {
+        "id": "0ee08bbfd0ad9399bd42",
+        "label": "2",
+        "reason": "Insects typically have segmented bodies and six legs."
+      },
+      {
+        "id": "dee28ea0bd193b37ae97",
+        "label": "2",
+        "reason": "Grapefruit is a juicy fruit commonly used in salads and desserts."
+      },
+      {
+        "id": "a4a0b0ddb05cb10ffb8f",
+        "label": "2",
+        "reason": "A bicycle is a means of transportation that adventurers can use."
+      },
+      {
+        "id": "f38df4edfe2bfaddab2b",
+        "label": "2",
+        "reason": "A drum is commonly circular and produces resonance when struck with sticks or hands."
+      },
+      {
+        "id": "5253ef4777d7b1b16b97",
+        "label": "1",
+        "reason": "Protective instinct is relevant, but “carnivore” does not specify an animal with strong family ties."
+      },
+      {
+        "id": "3db4483a22f85a4bc042",
+        "label": "1",
+        "reason": "It relates to smoothies but names a place or phrase, not a fruit."
+      },
+      {
+        "id": "943f5acdcfe7086843a1",
+        "label": "1",
+        "reason": "It describes drumming at events, but does not identify a handheld instrument that jingles."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"156d85518e6a9bf1a4c5\",\"label\":\"1\",\"reason\":\"It suggests a worker, but does not identify a small food-gathering creature and “Giant” conflicts with the clue.\"},{\"id\":\"4681f1e4b873e8a75a09\",\"label\":\"0\",\"reason\":\"A garden terrace is not a vertical structure for storing cherished items.\"},{\"id\":\"b5ac68166b505e146c2a\",\"label\":\"2\",\"reason\":\"A bookshelf is a tall structure that displays and stores decorative and practical items.\"},{\"id\":\"0ee08bbfd0ad9399bd42\",\"label\":\"2\",\"reason\":\"Insects typically have segmented bodies and six legs.\"},{\"id\":\"dee28ea0bd193b37ae97\",\"label\":\"2\",\"reason\":\"Grapefruit is a juicy fruit commonly used in salads and desserts.\"},{\"id\":\"a4a0b0ddb05cb10ffb8f\",\"label\":\"2\",\"reason\":\"A bicycle is a means of transportation that adventurers can use.\"},{\"id\":\"f38df4edfe2bfaddab2b\",\"label\":\"2\",\"reason\":\"A drum is commonly circular and produces resonance when struck with sticks or hands.\"},{\"id\":\"5253ef4777d7b1b16b97\",\"label\":\"1\",\"reason\":\"Protective instinct is relevant, but “carnivore” does not specify an animal with strong family ties.\"},{\"id\":\"3db4483a22f85a4bc042\",\"label\":\"1\",\"reason\":\"It relates to smoothies but names a place or phrase, not a fruit.\"},{\"id\":\"943f5acdcfe7086843a1\",\"label\":\"1\",\"reason\":\"It describes drumming at events, but does not identify a handheld instrument that jingles.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 410,
+    "started": "2026-11-26T09:33:59.223791+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 637,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 236,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 701,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1338
+    }
+  }
+}
