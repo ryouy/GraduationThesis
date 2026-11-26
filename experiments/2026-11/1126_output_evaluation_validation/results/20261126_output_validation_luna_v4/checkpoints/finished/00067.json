@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "40a8d420f1a0395d8658ba9e8f735bcb7f1f087b71c1fec5501364468ce73aaa",
+    "items": [
+      {
+        "id": "1468819aa2575fbd7bff",
+        "label": "no",
+        "reason": "Scissors are a different cutting tool, not pliers."
+      },
+      {
+        "id": "d2d17ffd9ed135c8117b",
+        "label": "no",
+        "reason": "Aloe is a succulent, not a cactus."
+      },
+      {
+        "id": "2caae0c9b88f8b6a099e",
+        "label": "yes",
+        "reason": "The answer names jellyfish."
+      },
+      {
+        "id": "0baf180a65758d00e8ff",
+        "label": "no",
+        "reason": "A guitar is a different musical instrument, not a drum."
+      },
+      {
+        "id": "0f88ff308617a3971c09",
+        "label": "no",
+        "reason": "Scissors are a different cutting tool, not pliers."
+      },
+      {
+        "id": "aee4161ad2e1fd352695",
+        "label": "no",
+        "reason": "Scissors are a different cutting tool, not pliers."
+      },
+      {
+        "id": "a72df77fff69fe06f60e",
+        "label": "no",
+        "reason": "The answer describes baking precision, not an elephant."
+      },
+      {
+        "id": "9f87ce5b386f3ee33b3a",
+        "label": "yes",
+        "reason": "The answer names jellyfish."
+      },
+      {
+        "id": "da8d47ad2581b8a7c0ea",
+        "label": "yes",
+        "reason": "Raindrops bringing life to land describes rain."
+      },
+      {
+        "id": "76005709a49f270b3428",
+        "label": "no",
+        "reason": "A bicycle is a different vehicle, not a submarine."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"1468819aa2575fbd7bff\",\"label\":\"no\",\"reason\":\"Scissors are a different cutting tool, not pliers.\"},{\"id\":\"d2d17ffd9ed135c8117b\",\"label\":\"no\",\"reason\":\"Aloe is a succulent, not a cactus.\"},{\"id\":\"2caae0c9b88f8b6a099e\",\"label\":\"yes\",\"reason\":\"The answer names jellyfish.\"},{\"id\":\"0baf180a65758d00e8ff\",\"label\":\"no\",\"reason\":\"A guitar is a different musical instrument, not a drum.\"},{\"id\":\"0f88ff308617a3971c09\",\"label\":\"no\",\"reason\":\"Scissors are a different cutting tool, not pliers.\"},{\"id\":\"aee4161ad2e1fd352695\",\"label\":\"no\",\"reason\":\"Scissors are a different cutting tool, not pliers.\"},{\"id\":\"a72df77fff69fe06f60e\",\"label\":\"no\",\"reason\":\"The answer describes baking precision, not an elephant.\"},{\"id\":\"9f87ce5b386f3ee33b3a\",\"label\":\"yes\",\"reason\":\"The answer names jellyfish.\"},{\"id\":\"da8d47ad2581b8a7c0ea\",\"label\":\"yes\",\"reason\":\"Raindrops bringing life to land describes rain.\"},{\"id\":\"76005709a49f270b3428\",\"label\":\"no\",\"reason\":\"A bicycle is a different vehicle, not a submarine.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 660,
+    "started": "2026-11-26T08:26:15.719241+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 425,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 86,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 533,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 958
+    }
+  }
+}
