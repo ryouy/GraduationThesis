@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "1188380d8e4ea404de807c8c858260a0ad418478bd2a492c47d289a1a644acc0",
+    "items": [
+      {
+        "id": "93717fcb2cdc9c59d71e",
+        "label": "no",
+        "reason": "Describes rain, not snow."
+      },
+      {
+        "id": "219eec0b07c7d8885a25",
+        "label": "no",
+        "reason": "A curtain room does not identify a cabinet."
+      },
+      {
+        "id": "c0cd18b605afa69314cc",
+        "label": "yes",
+        "reason": "A bookcase is another name for a bookshelf."
+      },
+      {
+        "id": "218e52dadcfe83f2ec9d",
+        "label": "yes",
+        "reason": "Explicitly identifies a bicycle."
+      },
+      {
+        "id": "9c724fe90c50ab9552b5",
+        "label": "no",
+        "reason": "An organized collective does not identify a dragonfly."
+      },
+      {
+        "id": "3694886b9f59ea413936",
+        "label": "yes",
+        "reason": "Explicitly identifies a bicycle."
+      },
+      {
+        "id": "d5b26ac1bfb1dbe1aa44",
+        "label": "uncertain",
+        "reason": "A personal collection shelf could be a bookshelf, but it could also be a different kind of shelf."
+      },
+      {
+        "id": "be5161551d08ca8fbe7b",
+        "label": "no",
+        "reason": "Refers to an elephant's trunk and calls, not the elephant itself."
+      },
+      {
+        "id": "2415b12096f77b92eb04",
+        "label": "no",
+        "reason": "A guitar is a different instrument from a drum."
+      },
+      {
+        "id": "a361cbe37e60958dd62f",
+        "label": "no",
+        "reason": "A generic drumming instrument does not specifically identify a tambourine."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"93717fcb2cdc9c59d71e\",\"label\":\"no\",\"reason\":\"Describes rain, not snow.\"},{\"id\":\"219eec0b07c7d8885a25\",\"label\":\"no\",\"reason\":\"A curtain room does not identify a cabinet.\"},{\"id\":\"c0cd18b605afa69314cc\",\"label\":\"yes\",\"reason\":\"A bookcase is another name for a bookshelf.\"},{\"id\":\"218e52dadcfe83f2ec9d\",\"label\":\"yes\",\"reason\":\"Explicitly identifies a bicycle.\"},{\"id\":\"9c724fe90c50ab9552b5\",\"label\":\"no\",\"reason\":\"An organized collective does not identify a dragonfly.\"},{\"id\":\"3694886b9f59ea413936\",\"label\":\"yes\",\"reason\":\"Explicitly identifies a bicycle.\"},{\"id\":\"d5b26ac1bfb1dbe1aa44\",\"label\":\"uncertain\",\"reason\":\"A personal collection shelf could be a bookshelf, but it could also be a different kind of shelf.\"},{\"id\":\"be5161551d08ca8fbe7b\",\"label\":\"no\",\"reason\":\"Refers to an elephant's trunk and calls, not the elephant itself.\"},{\"id\":\"2415b12096f77b92eb04\",\"label\":\"no\",\"reason\":\"A guitar is a different instrument from a drum.\"},{\"id\":\"a361cbe37e60958dd62f\",\"label\":\"no\",\"reason\":\"A generic drumming instrument does not specifically identify a tambourine.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 500,
+    "started": "2026-11-26T08:23:40.862929+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 523,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 181,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 528,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1051
+    }
+  }
+}
