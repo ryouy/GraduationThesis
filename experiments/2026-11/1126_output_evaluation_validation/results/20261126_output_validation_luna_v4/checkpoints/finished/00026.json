@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "64bfdd1ea62afc8293af54369151687991421bd5cbb257c71da6b0bf0df15c1f",
+    "items": [
+      {
+        "id": "902817109102a996033a",
+        "label": "no",
+        "reason": "Scissors are a different tool from pliers."
+      },
+      {
+        "id": "0aa6d08ff4b6394193ca",
+        "label": "no",
+        "reason": "A bookshelf is related furniture, not a cabinet."
+      },
+      {
+        "id": "065e2e54e73d27d1f6ef",
+        "label": "yes",
+        "reason": "Cacti is the plural form of cactus."
+      },
+      {
+        "id": "361cd835c631b50fb3cf",
+        "label": "no",
+        "reason": "The answer describes drumming, an activity involving a drum, rather than the instrument itself."
+      },
+      {
+        "id": "b3a0f3d1e9b4016f8ca1",
+        "label": "no",
+        "reason": "A beetle is a different insect from an ant."
+      },
+      {
+        "id": "5b7c4a595d463cfc61cf",
+        "label": "yes",
+        "reason": "Cacti is the plural form of cactus."
+      },
+      {
+        "id": "85fbd7eb7c4006a17d20",
+        "label": "yes",
+        "reason": "The answer directly names the target."
+      },
+      {
+        "id": "0742215ca72169217ba0",
+        "label": "no",
+        "reason": "A vertical bookshelf is not a cabinet."
+      },
+      {
+        "id": "430903803df4ee9ddaf3",
+        "label": "no",
+        "reason": "Gentle rainfall is rain, not snow."
+      },
+      {
+        "id": "c323ececd140cdd952c7",
+        "label": "yes",
+        "reason": "The answer identifies banana as the fruit being described."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"902817109102a996033a\",\"label\":\"no\",\"reason\":\"Scissors are a different tool from pliers.\"},{\"id\":\"0aa6d08ff4b6394193ca\",\"label\":\"no\",\"reason\":\"A bookshelf is related furniture, not a cabinet.\"},{\"id\":\"065e2e54e73d27d1f6ef\",\"label\":\"yes\",\"reason\":\"Cacti is the plural form of cactus.\"},{\"id\":\"361cd835c631b50fb3cf\",\"label\":\"no\",\"reason\":\"The answer describes drumming, an activity involving a drum, rather than the instrument itself.\"},{\"id\":\"b3a0f3d1e9b4016f8ca1\",\"label\":\"no\",\"reason\":\"A beetle is a different insect from an ant.\"},{\"id\":\"5b7c4a595d463cfc61cf\",\"label\":\"yes\",\"reason\":\"Cacti is the plural form of cactus.\"},{\"id\":\"85fbd7eb7c4006a17d20\",\"label\":\"yes\",\"reason\":\"The answer directly names the target.\"},{\"id\":\"0742215ca72169217ba0\",\"label\":\"no\",\"reason\":\"A vertical bookshelf is not a cabinet.\"},{\"id\":\"430903803df4ee9ddaf3\",\"label\":\"no\",\"reason\":\"Gentle rainfall is rain, not snow.\"},{\"id\":\"c323ececd140cdd952c7\",\"label\":\"yes\",\"reason\":\"The answer identifies banana as the fruit being described.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 260,
+    "started": "2026-11-26T08:20:04.495909+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 447,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 113,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 528,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 975
+    }
+  }
+}
