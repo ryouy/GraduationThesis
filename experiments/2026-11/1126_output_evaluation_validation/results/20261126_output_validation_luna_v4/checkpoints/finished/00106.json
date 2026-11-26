@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "62c0fb24846cd047e0bcebe3784bb3f2beb7ac9c98c9d4c4acce2fe67ac427c1",
+    "items": [
+      {
+        "id": "c4b1e112987688fd5ad6",
+        "label": "2",
+        "reason": "Raindrops descend from above and can refresh the surroundings."
+      },
+      {
+        "id": "6a26e2750748c0654a57",
+        "label": "1",
+        "reason": "A banana can have yellow or green skin, but “Orange Banana” is an unclear or mismatched fruit name."
+      },
+      {
+        "id": "760cecf16c3dd7b658d4",
+        "label": "2",
+        "reason": "Bicycle rides naturally fit pedaling along scenic park and neighborhood routes."
+      },
+      {
+        "id": "56a6788b08d053bfa7d8",
+        "label": "2",
+        "reason": "A drum maintains tempo and can create a lively beat that encourages movement."
+      },
+      {
+        "id": "af7dff5a128790a3c993",
+        "label": "2",
+        "reason": "Elephants are herbivores and eat vegetation."
+      },
+      {
+        "id": "7f85e69c14287d36df51",
+        "label": "2",
+        "reason": "A bicycle is commonly used for recreation and exercise."
+      },
+      {
+        "id": "f8eeac6b694fb0f8db77",
+        "label": "1",
+        "reason": "It describes drumming’s effect, but does not identify the instrument that the clue asks about."
+      },
+      {
+        "id": "aad51c5defa5e739ab90",
+        "label": "0",
+        "reason": "An insectivore is an animal that eats insects, not the strong, object-lifting insect described."
+      },
+      {
+        "id": "72bea5926c1f711e75a2",
+        "label": "1",
+        "reason": "Scissors can reshape items by cutting, but they do not naturally fit the clue’s emphasis on holding items."
+      },
+      {
+        "id": "ba5f033031a5d984470d",
+        "label": "2",
+        "reason": "Raindrops falling from the sky fit the clue and can bring a fresh scent to the air."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"c4b1e112987688fd5ad6\",\"label\":\"2\",\"reason\":\"Raindrops descend from above and can refresh the surroundings.\"},{\"id\":\"6a26e2750748c0654a57\",\"label\":\"1\",\"reason\":\"A banana can have yellow or green skin, but “Orange Banana” is an unclear or mismatched fruit name.\"},{\"id\":\"760cecf16c3dd7b658d4\",\"label\":\"2\",\"reason\":\"Bicycle rides naturally fit pedaling along scenic park and neighborhood routes.\"},{\"id\":\"56a6788b08d053bfa7d8\",\"label\":\"2\",\"reason\":\"A drum maintains tempo and can create a lively beat that encourages movement.\"},{\"id\":\"af7dff5a128790a3c993\",\"label\":\"2\",\"reason\":\"Elephants are herbivores and eat vegetation.\"},{\"id\":\"7f85e69c14287d36df51\",\"label\":\"2\",\"reason\":\"A bicycle is commonly used for recreation and exercise.\"},{\"id\":\"f8eeac6b694fb0f8db77\",\"label\":\"1\",\"reason\":\"It describes drumming’s effect, but does not identify the instrument that the clue asks about.\"},{\"id\":\"aad51c5defa5e739ab90\",\"label\":\"0\",\"reason\":\"An insectivore is an animal that eats insects, not the strong, object-lifting insect described.\"},{\"id\":\"72bea5926c1f711e75a2\",\"label\":\"1\",\"reason\":\"Scissors can reshape items by cutting, but they do not naturally fit the clue’s emphasis on holding items.\"},{\"id\":\"ba5f033031a5d984470d\",\"label\":\"2\",\"reason\":\"Raindrops falling from the sky fit the clue and can bring a fresh scent to the air.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 50,
+    "started": "2026-11-26T08:35:01.729560+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 643,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 242,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 708,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1351
+    }
+  }
+}
