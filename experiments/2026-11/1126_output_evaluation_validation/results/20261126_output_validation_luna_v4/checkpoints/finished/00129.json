@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "55e5d37063f34b3747aaa2b1afe43fcdb1914fb81a48262ec88369e832f2d4ec",
+    "items": [
+      {
+        "id": "2f97d4f55b3154c5d276",
+        "label": "2",
+        "reason": "Jellyfish drift through warm, shallow ocean waters using their distinctive body form."
+      },
+      {
+        "id": "81085449d31f5e1a9b4d",
+        "label": "1",
+        "reason": "The description fits ants gathering food for a colony, but it does not identify them and remains very broad."
+      },
+      {
+        "id": "faa462961acb27e26b5a",
+        "label": "2",
+        "reason": "Scissors apply force to cut materials and change their shape."
+      },
+      {
+        "id": "36d9404a6e96efca2733",
+        "label": "2",
+        "reason": "Both pens and pencils are commonly used for writing and drawing."
+      },
+      {
+        "id": "9d816cbcafd330986a7d",
+        "label": "2",
+        "reason": "Jellyfish have soft, translucent bodies and are often seen drifting near the water's surface."
+      },
+      {
+        "id": "6bfecd81abf73f12a57f",
+        "label": "1",
+        "reason": "A pedal bike fits the clue, but “Pedestal Bike” is unclear and is not the usual name for one."
+      },
+      {
+        "id": "83fa42c09755b70f26c5",
+        "label": "2",
+        "reason": "A shelf is a tall furniture piece with levels for displaying decorative and useful items."
+      },
+      {
+        "id": "e75a901d81e15e277aea",
+        "label": "1",
+        "reason": "A guitar can be played at celebrations, but it is not typically a round instrument passed around for rhythmic participation."
+      },
+      {
+        "id": "b1ab887d97fa541f6699",
+        "label": "0",
+        "reason": "“Innovation Engineered” is a vague phrase, not a clear referent that fits the clue."
+      },
+      {
+        "id": "dee80c7859a3a551b7e8",
+        "label": "2",
+        "reason": "Grapefruit is a citrus fruit with a distinctive appearance and is commonly displayed in markets."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"2f97d4f55b3154c5d276\",\"label\":\"2\",\"reason\":\"Jellyfish drift through warm, shallow ocean waters using their distinctive body form.\"},{\"id\":\"81085449d31f5e1a9b4d\",\"label\":\"1\",\"reason\":\"The description fits ants gathering food for a colony, but it does not identify them and remains very broad.\"},{\"id\":\"faa462961acb27e26b5a\",\"label\":\"2\",\"reason\":\"Scissors apply force to cut materials and change their shape.\"},{\"id\":\"36d9404a6e96efca2733\",\"label\":\"2\",\"reason\":\"Both pens and pencils are commonly used for writing and drawing.\"},{\"id\":\"9d816cbcafd330986a7d\",\"label\":\"2\",\"reason\":\"Jellyfish have soft, translucent bodies and are often seen drifting near the water's surface.\"},{\"id\":\"6bfecd81abf73f12a57f\",\"label\":\"1\",\"reason\":\"A pedal bike fits the clue, but “Pedestal Bike” is unclear and is not the usual name for one.\"},{\"id\":\"83fa42c09755b70f26c5\",\"label\":\"2\",\"reason\":\"A shelf is a tall furniture piece with levels for displaying decorative and useful items.\"},{\"id\":\"e75a901d81e15e277aea\",\"label\":\"1\",\"reason\":\"A guitar can be played at celebrations, but it is not typically a round instrument passed around for rhythmic participation.\"},{\"id\":\"b1ab887d97fa541f6699\",\"label\":\"0\",\"reason\":\"“Innovation Engineered” is a vague phrase, not a clear referent that fits the clue.\"},{\"id\":\"dee80c7859a3a551b7e8\",\"label\":\"2\",\"reason\":\"Grapefruit is a citrus fruit with a distinctive appearance and is commonly displayed in markets.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 240,
+    "started": "2026-11-26T09:30:58.291964+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 763,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 346,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 673,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1436
+    }
+  }
+}
