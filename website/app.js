@@ -56,7 +56,7 @@ function applyPane(side,value,save=false){
   if(save){try{localStorage.setItem("thesis-pane-"+side,String(width))}catch(e){}}
 }
 for(const side of ["left","right"]){
-  try{const saved=Number(localStorage.getItem("thesis-pane-"+side));if(saved>0)paneWidths[side]=saved}catch(e){}
+  try{const saved=Number(localStorage.getItem("thesis-pane-"+side));if(Number.isFinite(saved)&&saved>0)paneWidths[side]=Math.min(700,saved)}catch(e){}
 }
 function fitPanes(){applyPane("left",paneWidths.left);applyPane("right",paneWidths.right)}
 fitPanes();

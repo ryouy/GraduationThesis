@@ -31,3 +31,13 @@ h1,h2,h3,h4{scroll-margin-top:16px}
 body.resizing{cursor:col-resize;user-select:none}
 @media(max-width:900px){.layout{grid-template-columns:var(--left-width) 5px minmax(0,1fr)}#toc,#resize-right{display:none}}
 @media(max-width:650px){.layout{display:block}#resize-left,#resize-right,#toc{display:none}#menu{display:inline-block;font-size:13px;line-height:1;padding:5px 8px;margin-bottom:9px}#sidebar{display:none;position:fixed;z-index:5;top:0;left:0;width:min(90vw,var(--left-width));box-shadow:4px 0 16px #0003}#sidebar.open{display:block}#close-menu{display:inline-block;margin-left:auto}main{padding:13px 14px 50px}h1{font-size:1.5rem}}
+
+/* Explicit placement prevents empty grid tracks from displacing the article. */
+.layout{width:100%;grid-template-areas:"sidebar left main right toc";align-items:start}
+#sidebar{grid-area:sidebar}
+#resize-left{grid-area:left}
+main{grid-area:main;min-width:0;max-width:100%;overflow-x:clip}
+#resize-right{grid-area:right}
+#toc{grid-area:toc}
+@media(max-width:900px){.layout{grid-template-areas:"sidebar left main"}}
+@media(max-width:650px){.layout{display:block;grid-template-areas:none}}

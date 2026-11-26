@@ -14,7 +14,20 @@ def main():
     if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir()
-    for name in ("index.html", "website/style.css", "website/app.js"):
+    # Inline the first-party assets as one HTML response. This avoids a stale
+    # stylesheet or script being paired with new markup by browser/CDN caches.
+    html = (ROOT / "index.html").read_text(encoding="utf-8")
+    css = (ROOT / "website/style.css").read_text(encoding="utf-8")
+    js = (ROOT / "website/app.js").read_text(encoding="utf-8")
+    css_tag = '<link rel="stylesheet" href="website/style.css">'
+    js_tag = '<script defer src="website/app.js"></script>'
+    assert html.count(css_tag) == 1 and html.count(js_tag) == 1
+    assert "</style" not in css.lower() and "</script" not in js.lower()
+    html = html.replace(css_tag, "<style>\n" + css + "\n</style>")
+    html = html.replace(js_tag, "<script>\ndocument.addEventListener('DOMContentLoaded', () => {\n" + js + "\n});\n</script>")
+    (OUT / "index.html").write_text(html, encoding="utf-8")
+    # Keep these paths working for older HTML still in browser caches.
+    for name in ("website/style.css", "website/app.js"):
         dst = OUT / name
         dst.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(ROOT / name, dst)
