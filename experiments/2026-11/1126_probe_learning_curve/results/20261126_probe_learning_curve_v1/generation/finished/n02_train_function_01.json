@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "game_box_storage",
+      "sentence": "In a family game room, broad levels keep boxed games together beside the table, making selection and cleanup easier."
+    },
+    {
+      "fact_key": "elevated_plant_display",
+      "sentence": "A sunroom arrangement raises potted plants off the floor, freeing walking space while keeping foliage visible."
+    },
+    {
+      "fact_key": "linen_supply_organization",
+      "sentence": "In a linen room, folded towels can be stacked by size, making fresh sets easy to locate during room turnover."
+    },
+    {
+      "fact_key": "workshop_manual_access",
+      "sentence": "A repair workshop can keep service manuals beside workbenches, so technicians can consult instructions without leaving their task."
+    },
+    {
+      "fact_key": "household_paperwork_sorting",
+      "sentence": "Separate tiers can hold incoming and outgoing paperwork, reducing mix-ups when household members share a drop-off point."
+    },
+    {
+      "fact_key": "music_equipment_storage",
+      "sentence": "In a music room, cases for instruments and accessories can be kept together, simplifying setup before rehearsals."
+    },
+    {
+      "fact_key": "gallery_ceramic_display",
+      "sentence": "A gallery can arrange ceramics at varied heights, giving visitors clear views of individual pieces without crowding display tables."
+    },
+    {
+      "fact_key": "sports_gear_separation",
+      "sentence": "In a sports changing area, labeled baskets can keep personal gear separated, helping players find their belongings after practice."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In a family game room, broad levels keep boxed games together beside the table, making selection and cleanup easier.\",\"fact_key\":\"game_box_storage\"},{\"sentence\":\"A sunroom arrangement raises potted plants off the floor, freeing walking space while keeping foliage visible.\",\"fact_key\":\"elevated_plant_display\"},{\"sentence\":\"In a linen room, folded towels can be stacked by size, making fresh sets easy to locate during room turnover.\",\"fact_key\":\"linen_supply_organization\"},{\"sentence\":\"A repair workshop can keep service manuals beside workbenches, so technicians can consult instructions without leaving their task.\",\"fact_key\":\"workshop_manual_access\"},{\"sentence\":\"Separate tiers can hold incoming and outgoing paperwork, reducing mix-ups when household members share a drop-off point.\",\"fact_key\":\"household_paperwork_sorting\"},{\"sentence\":\"In a music room, cases for instruments and accessories can be kept together, simplifying setup before rehearsals.\",\"fact_key\":\"music_equipment_storage\"},{\"sentence\":\"A gallery can arrange ceramics at varied heights, giving visitors clear views of individual pieces without crowding display tables.\",\"fact_key\":\"gallery_ceramic_display\"},{\"sentence\":\"In a sports changing area, labeled baskets can keep personal gear separated, helping players find their belongings after practice.\",\"fact_key\":\"sports_gear_separation\"}]}",
+  "rejected": [],
+  "request_hash": "8b3a7a951c9d3f1f4b892a29e164bee71089b967cbf6e967c790b7d6a086857a",
+  "usage": {
+    "completion_tokens": 1306,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1024,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2158,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2155,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3464
+  }
+}
