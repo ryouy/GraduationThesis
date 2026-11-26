@@ -1,0 +1,30 @@
+{
+  "repo": "ryouy/GraduationThesis",
+  "branch": "experiments/concept-pair-selection-v1",
+  "run_id": "20261126_concept_pair_distance_B_v1",
+  "source_ref": "c9f8d3d563f51d6bead9a3221dfa81554d23102d",
+  "source_A_ref": "25856eaaf00c2aa10ea104093d5b47466674d3bb",
+  "embedding": "sentence-transformers/all-mpnet-base-v2",
+  "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+  "tokenizer": "Qwen/Qwen2.5-0.5B-Instruct",
+  "tokenizer_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "medium",
+  "seed": 42,
+  "pair_ids": [
+    "C01",
+    "C27",
+    "C35",
+    "C23",
+    "C37"
+  ],
+  "candidate_target": 40,
+  "selected_per_band": 3,
+  "semantic_audit_mode": "sample",
+  "semantic_audit_per_intended_band": 2,
+  "semantic_audit_batch_size": 25,
+  "max_api_calls": 900,
+  "max_attempts": 2,
+  "setting": "C",
+  "status": "exploratory"
+}
