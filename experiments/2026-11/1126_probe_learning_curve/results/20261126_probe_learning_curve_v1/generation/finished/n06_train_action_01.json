@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "predeparture inspection",
+      "sentence": "Before departure, crew inspect hatches, valves, and seals, then test emergency systems to confirm the pressure boundary is secure."
+    },
+    {
+      "fact_key": "freshwater production",
+      "sentence": "Fresh water is produced from seawater by distillation or reverse osmosis, supplying drinking and cooking needs during extended patrols."
+    },
+    {
+      "fact_key": "rotating watches",
+      "sentence": "Crew members stand rotating watches, monitoring navigation, machinery, communications, and cabin conditions continuously."
+    },
+    {
+      "fact_key": "diver lockout",
+      "sentence": "To deploy divers, a lockout chamber is flooded and equalized with outside pressure before its outer hatch opens."
+    },
+    {
+      "fact_key": "seabed navigation",
+      "sentence": "When operating near the seabed, careful speed and depth adjustments help avoid stirring sediment that could impair visibility or sensor readings."
+    },
+    {
+      "fact_key": "towed hydrophone array",
+      "sentence": "A tow cable can stream a hydrophone array behind the vessel, placing its sensors farther from machinery noise."
+    },
+    {
+      "fact_key": "communication buoy",
+      "sentence": "A communication buoy may rise to the surface and relay messages through an antenna while the vessel remains submerged."
+    },
+    {
+      "fact_key": "fire response",
+      "sentence": "If smoke appears, personnel isolate the affected compartment, close ventilation ducts, and use extinguishers suited to the fire."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Before departure, crew inspect hatches, valves, and seals, then test emergency systems to confirm the pressure boundary is secure.\",\"fact_key\":\"predeparture inspection\"},{\"sentence\":\"Fresh water is produced from seawater by distillation or reverse osmosis, supplying drinking and cooking needs during extended patrols.\",\"fact_key\":\"freshwater production\"},{\"sentence\":\"Crew members stand rotating watches, monitoring navigation, machinery, communications, and cabin conditions continuously.\",\"fact_key\":\"rotating watches\"},{\"sentence\":\"To deploy divers, a lockout chamber is flooded and equalized with outside pressure before its outer hatch opens.\",\"fact_key\":\"diver lockout\"},{\"sentence\":\"When operating near the seabed, careful speed and depth adjustments help avoid stirring sediment that could impair visibility or sensor readings.\",\"fact_key\":\"seabed navigation\"},{\"sentence\":\"A tow cable can stream a hydrophone array behind the vessel, placing its sensors farther from machinery noise.\",\"fact_key\":\"towed hydrophone array\"},{\"sentence\":\"A communication buoy may rise to the surface and relay messages through an antenna while the vessel remains submerged.\",\"fact_key\":\"communication buoy\"},{\"sentence\":\"If smoke appears, personnel isolate the affected compartment, close ventilation ducts, and use extinguishers suited to the fire.\",\"fact_key\":\"fire response\"}]}",
+  "rejected": [],
+  "request_hash": "d1cc21325bfc00c3c456957d4983a4eb7c70cdab24a94f0274649b8d481eef05",
+  "usage": {
+    "completion_tokens": 1535,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1254,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 972,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2507
+  }
+}
