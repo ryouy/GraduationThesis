@@ -1,0 +1,50 @@
+{
+  "band_cap": 4,
+  "gaps": [
+    0.01,
+    0.02,
+    0.03
+  ],
+  "global_style_cap": 5,
+  "modes": [
+    "per_band",
+    "global"
+  ],
+  "objective": "max(abs(rho)/.30,spread/.05)+.1*(abs(rho)/.30+spread/.05)",
+  "rho_target": 0.3,
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "source_bounds_sha": "ce0b57df782ef6b64c8bbd4ddbc529bf9dacd817460fff1087f98d7a6b6cd0b4",
+  "source_initial_sha": "be48364c113d57171e87b4b61bced56b262ec178d2edfe4afb9c888558c2eb1f",
+  "source_v5_manifest": {
+    "config_sha256": "524083193e84c767466d218409b9327e79a7190f08036c28f9adb2587d222a4d",
+    "files": {
+      "human_review_pending.csv": "14218ee78f765c6a08e23e5c739f8f10277c659cc08eee8e4d0d14254d0f5846",
+      "missing_slots.csv": "9dbd208b0b19e230f512e8721897456209c2f836f000d5628e368d2572dc7e51",
+      "round1_measured.csv": "3b8b4c3a489269e83fa20312f9b3fd30dfb36d8b7912ed0fa2e872132d177201",
+      "round2_measured.csv": "d7db13d0c8e64fece6ee4e444822bdeab31860f1cc9fe32578ad44f31aba1976",
+      "search_runs.csv": "6037857e8130542a59d0af7aa8185a4449cdc3a91b0e3b6c169838c36abc00b3",
+      "selected_PROVISIONAL.csv": "0927939aac6bbee4aad2ff869d2769e54a5fcd8fcea45901dd4f3e7c7b757483",
+      "slot_inventory.csv": "f0dbe6977055f112ca6fd06e9152cf62039536a9a962ac1910fc9122b7c740e8",
+      "summary.csv": "00ee9b39df6f3b32f15b422b834ec3b346681de8e1ae302cca80b23bdb76260a"
+    },
+    "n_added1": 80,
+    "n_added2": 240,
+    "n_initial": 700,
+    "status": "exploratory_not_frozen"
+  },
+  "spread_target": 0.05,
+  "status": "exploratory",
+  "steps": 2000,
+  "unrelated_per_style": 1,
+  "widths": [
+    0.04,
+    0.06,
+    0.08
+  ]
+}
