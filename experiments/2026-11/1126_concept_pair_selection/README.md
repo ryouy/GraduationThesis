@@ -9,3 +9,8 @@ GitHub secret GITHUB_RESULTS_TOKEN（任意、なければZIP）で距離チェ�
 ## B（計画のみ）
 5 X固定、既存Yをアンカー、各Xに新規30–40 Y候補を同カテゴリー/異カテゴリーの双方から生成（GPT-6 Luna、medium）。定義統一・同義/上下位/曖昧概念除外、トークン数記録、実測距離五分位から3件ずつ距離中央値への近さで選ぶ。カテゴリー・トークン差の偏りを別集計。既存Yが選外なら別アンカーとして追加、75+最大5組。既存Cue全候補700（品質通過622）を固定、元のYを意識して生成・監査した選択偏りあり。全候補と旧品質通過のみを分け、関連・無関係を別集計。Y特有の関連や名称露出を監査し、共通Cue集合とY別監査後集合を別分析。X内相関と効果方向の一貫性を確認し、75組を独立観測としない。BはAPI未実行。
 Dは既存v4 jointのsetting C（±.04、空白.03）を継承候補とする。元の五分位中心・候補集合をX内固定、同じ探索予算/seed、欠損スロット・完全成功と診断的達成を区別。正式基準ではない。
+
+## 実験B — 実装済み・未実行（2026-11-26）
+- [実験B Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/experiments/concept-pair-selection-v1/experiments/2026-11/1126_concept_pair_selection/experiment_B_y_distance_confound.ipynb)
+- [実験Bの設計・実行手順](EXPERIMENT_B_PLAN.md)
+- [実験Aの結果](results/20261126_concept_pair_distance_A_v1/analysis_summary.md)
