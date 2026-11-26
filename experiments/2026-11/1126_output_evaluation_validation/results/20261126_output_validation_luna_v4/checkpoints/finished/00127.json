@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "e784ce4cee3dba1a83882c5409a01f4604a7df82eef1e344de44b1faabd9a7e6",
+    "items": [
+      {
+        "id": "9b348f530df024c5e90b",
+        "label": "1",
+        "reason": "Grapefruit is often eaten fresh and suits fruit salad, but it is generally tart or bitter rather than notably sweet."
+      },
+      {
+        "id": "9d164fa6f3304ff9a60b",
+        "label": "0",
+        "reason": "“Aquatic creature” is too broad and does not identify an animal known for creating waterholes."
+      },
+      {
+        "id": "0321743ed25ce0a8e432",
+        "label": "2",
+        "reason": "Raindrops falling directly matches the droplets and soothing sound described."
+      },
+      {
+        "id": "4f5b3db88e09b80994d1",
+        "label": "0",
+        "reason": "A lion is not a small creature that scuttles along the ground."
+      },
+      {
+        "id": "3695e87f8f8b37b07cee",
+        "label": "2",
+        "reason": "Cacti are adapted to arid environments with fleshy water-storing features."
+      },
+      {
+        "id": "e759658ff2e406fe900a",
+        "label": "2",
+        "reason": "A bookshelf is a tall structure used to display and store practical or decorative items."
+      },
+      {
+        "id": "1ad1b7e835feeab87dcf",
+        "label": "2",
+        "reason": "A tiger is an animal associated with intelligence and memory; the answer identifies a tiger."
+      },
+      {
+        "id": "96dc208afaaf8e89d6af",
+        "label": "2",
+        "reason": "Jellyfish have life cycles with larval and adult stages."
+      },
+      {
+        "id": "d1fab8185329f44ca796",
+        "label": "1",
+        "reason": "The answer mentions drumming and resonance but does not identify the percussion instrument described."
+      },
+      {
+        "id": "9cdb1bf900bd2bb5925a",
+        "label": "2",
+        "reason": "Cacti have stout, water-retaining features that help them thrive in arid environments."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"9b348f530df024c5e90b\",\"label\":\"1\",\"reason\":\"Grapefruit is often eaten fresh and suits fruit salad, but it is generally tart or bitter rather than notably sweet.\"},{\"id\":\"9d164fa6f3304ff9a60b\",\"label\":\"0\",\"reason\":\"“Aquatic creature” is too broad and does not identify an animal known for creating waterholes.\"},{\"id\":\"0321743ed25ce0a8e432\",\"label\":\"2\",\"reason\":\"Raindrops falling directly matches the droplets and soothing sound described.\"},{\"id\":\"4f5b3db88e09b80994d1\",\"label\":\"0\",\"reason\":\"A lion is not a small creature that scuttles along the ground.\"},{\"id\":\"3695e87f8f8b37b07cee\",\"label\":\"2\",\"reason\":\"Cacti are adapted to arid environments with fleshy water-storing features.\"},{\"id\":\"e759658ff2e406fe900a\",\"label\":\"2\",\"reason\":\"A bookshelf is a tall structure used to display and store practical or decorative items.\"},{\"id\":\"1ad1b7e835feeab87dcf\",\"label\":\"2\",\"reason\":\"A tiger is an animal associated with intelligence and memory; the answer identifies a tiger.\"},{\"id\":\"96dc208afaaf8e89d6af\",\"label\":\"2\",\"reason\":\"Jellyfish have life cycles with larval and adult stages.\"},{\"id\":\"d1fab8185329f44ca796\",\"label\":\"1\",\"reason\":\"The answer mentions drumming and resonance but does not identify the percussion instrument described.\"},{\"id\":\"9cdb1bf900bd2bb5925a\",\"label\":\"2\",\"reason\":\"Cacti have stout, water-retaining features that help them thrive in arid environments.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 220,
+    "started": "2026-11-26T09:30:36.651051+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 646,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 243,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 690,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1336
+    }
+  }
+}
