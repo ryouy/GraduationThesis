@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "1e58fed0c595565478039ac1534b7c64d58e39b5bba6e25bfb0b76e8be672848",
+    "items": [
+      {
+        "id": "12600dc2c23446f20786",
+        "label": "yes",
+        "reason": "“Cacti” is the plural form of cactus."
+      },
+      {
+        "id": "80fec51087b7fe5fbef3",
+        "label": "yes",
+        "reason": "The answer directly names a jellyfish."
+      },
+      {
+        "id": "ad410a0a90fa9b8e3acc",
+        "label": "yes",
+        "reason": "The answer directly names a bookshelf."
+      },
+      {
+        "id": "77a81d96ad1f251e42db",
+        "label": "uncertain",
+        "reason": "The description could refer to ants, but it could also describe other small garden creatures."
+      },
+      {
+        "id": "e1d223154c04c80c1ac0",
+        "label": "no",
+        "reason": "Cacti are not aloe plants."
+      },
+      {
+        "id": "57047e5cfd0d2e4f04fe",
+        "label": "no",
+        "reason": "“Garden Worker” does not identify a dragonfly."
+      },
+      {
+        "id": "fd4229a6d1ff8a256f97",
+        "label": "no",
+        "reason": "A bicycle is unrelated to and not a submarine."
+      },
+      {
+        "id": "698d440f9467a918a1fc",
+        "label": "no",
+        "reason": "Food-delivery drones do not identify dragonflies."
+      },
+      {
+        "id": "3fb67f0151a71a01b8f9",
+        "label": "no",
+        "reason": "A cyclist is a person who rides a bicycle, not the bicycle itself."
+      },
+      {
+        "id": "dd5799666b465c3e6424",
+        "label": "yes",
+        "reason": "Raindrops are the defining precipitation of rain."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"12600dc2c23446f20786\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural form of cactus.\"},{\"id\":\"80fec51087b7fe5fbef3\",\"label\":\"yes\",\"reason\":\"The answer directly names a jellyfish.\"},{\"id\":\"ad410a0a90fa9b8e3acc\",\"label\":\"yes\",\"reason\":\"The answer directly names a bookshelf.\"},{\"id\":\"77a81d96ad1f251e42db\",\"label\":\"uncertain\",\"reason\":\"The description could refer to ants, but it could also describe other small garden creatures.\"},{\"id\":\"e1d223154c04c80c1ac0\",\"label\":\"no\",\"reason\":\"Cacti are not aloe plants.\"},{\"id\":\"57047e5cfd0d2e4f04fe\",\"label\":\"no\",\"reason\":\"“Garden Worker” does not identify a dragonfly.\"},{\"id\":\"fd4229a6d1ff8a256f97\",\"label\":\"no\",\"reason\":\"A bicycle is unrelated to and not a submarine.\"},{\"id\":\"698d440f9467a918a1fc\",\"label\":\"no\",\"reason\":\"Food-delivery drones do not identify dragonflies.\"},{\"id\":\"3fb67f0151a71a01b8f9\",\"label\":\"no\",\"reason\":\"A cyclist is a person who rides a bicycle, not the bicycle itself.\"},{\"id\":\"dd5799666b465c3e6424\",\"label\":\"yes\",\"reason\":\"Raindrops are the defining precipitation of rain.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 940,
+    "started": "2026-11-26T08:32:35.728539+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 529,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 183,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 536,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1065
+    }
+  }
+}
