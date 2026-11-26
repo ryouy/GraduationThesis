@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C35_action_medium_near_0_0",
+        "reason": "Choosing a book from a collection is only indirectly associated with a bookshelf or library; no institution-specific fact is described.",
+        "x_related": 1,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_action_unrelated_0_0",
+        "reason": "The kayaking activity is unrelated to either definition.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_function_medium_far_0_2",
+        "reason": "A dedicated display for novels strongly suggests a bookshelf, while a study and literary character do not establish a library.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_function_near_0_2",
+        "reason": "Storing reading material vertically to save table space closely describes bookshelf function; it does not describe a library institution.",
+        "x_related": 4,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_function_very_near_0_3",
+        "reason": "A tiered arrangement for displaying editions or selected reading strongly suggests a bookshelf, but not a library institution.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_situation_far_0_0",
+        "reason": "A row of novels in a study is explainably associated with a bookshelf; it gives no library-specific information.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_situation_far_0_2",
+        "reason": "Moving household novels is only weakly associated with book storage and does not describe a library.",
+        "x_related": 1,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "fail",
+        "id": "gen_C35_situation_medium_far_0_4",
+        "reason": "The clue directly says “library,” so it has direct Y-name exposure; here it appears to mean an inherited book collection, not facts about a library institution. The identified books are only indirectly related to a bookshelf.",
+        "x_related": 2,
+        "y_related": 4,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_situation_near_0_4",
+        "reason": "Choosing a story from a family collection is weakly associated with book storage or organized reading materials, but is not library-specific.",
+        "x_related": 1,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_situation_very_near_0_4",
+        "reason": "Outward-facing picture books suggest a display or shelving arrangement; a museum listening station does not describe a library.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_structure_medium_near_0_2",
+        "reason": "Visible book spines arranged along a study wall strongly suggest a bookshelf; this is not a library-specific fact.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_structure_unrelated_0_2",
+        "reason": "The shell’s growth pattern is unrelated to either definition.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C35_action_medium_near_0_0\",\"x_related\":1,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Choosing a book from a collection is only indirectly associated with a bookshelf or library; no institution-specific fact is described.\"},{\"id\":\"gen_C35_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The kayaking activity is unrelated to either definition.\"},{\"id\":\"gen_C35_function_medium_far_0_2\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A dedicated display for novels strongly suggests a bookshelf, while a study and literary character do not establish a library.\"},{\"id\":\"gen_C35_function_near_0_2\",\"x_related\":4,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Storing reading material vertically to save table space closely describes bookshelf function; it does not describe a library institution.\"},{\"id\":\"gen_C35_function_very_near_0_3\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A tiered arrangement for displaying editions or selected reading strongly suggests a bookshelf, but not a library institution.\"},{\"id\":\"gen_C35_situation_far_0_0\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A row of novels in a study is explainably associated with a bookshelf; it gives no library-specific information.\"},{\"id\":\"gen_C35_situation_far_0_2\",\"x_related\":1,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Moving household novels is only weakly associated with book storage and does not describe a library.\"},{\"id\":\"gen_C35_situation_medium_far_0_4\",\"x_related\":2,\"y_related\":4,\"exposure\":\"fail\",\"y_specific\":\"no\",\"reason\":\"The clue directly says “library,” so it has direct Y-name exposure; here it appears to mean an inherited book collection, not facts about a library institution. The identified books are only indirectly related to a bookshelf.\"},{\"id\":\"gen_C35_situation_near_0_4\",\"x_related\":1,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Choosing a story from a family collection is weakly associated with book storage or organized reading materials, but is not library-specific.\"},{\"id\":\"gen_C35_situation_very_near_0_4\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Outward-facing picture books suggest a display or shelving arrangement; a museum listening station does not describe a library.\"},{\"id\":\"gen_C35_structure_medium_near_0_2\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Visible book spines arranged along a study wall strongly suggest a bookshelf; this is not a library-specific fact.\"},{\"id\":\"gen_C35_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The shell’s growth pattern is unrelated to either definition.\"}]}",
+  "usage": {
+    "completion_tokens": 1975,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1244,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 687,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2662
+  }
+}
