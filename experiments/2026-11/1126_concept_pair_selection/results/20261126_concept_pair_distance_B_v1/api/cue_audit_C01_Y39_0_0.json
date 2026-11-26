@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C01_action_medium_far_0_0",
+        "reason": "Criterium racing and sheltering from wind strongly evoke bicycle racing; no dolphin-specific content.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_action_unrelated_0_0",
+        "reason": "Describes baking, with no meaningful connection to either defined subject.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_function_far_0_2",
+        "reason": "Traffic signaling and judging gaps can apply to bicycle safety, but the clue refers broadly to young travelers.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_function_medium_near_0_2",
+        "reason": "Practicing balance in a lot before riding neighborhood streets strongly suggests bicycle skills training.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_function_near_0_2",
+        "reason": "Protected lanes and low-speed travel are associated with bicycle infrastructure, though the clue remains broadly phrased.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_function_very_near_0_2",
+        "reason": "Replacing car trips with human-powered travel strongly fits bicycle use; it says nothing specific about dolphins.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_situation_far_0_4",
+        "reason": "A rental kiosk and paths could involve bicycle rentals, but the activity is not specified.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_situation_medium_near_0_4",
+        "reason": "Unlocking a rental ride for trips between attractions is compatible with bicycle sharing, but not uniquely so.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_situation_near_0_4",
+        "reason": "Gravel, descents, and balancing on a forest trail strongly evoke bicycle trail riding.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_situation_very_near_0_4",
+        "reason": "Pedaling home with cargo on a front-loading frame strongly evokes a cargo bicycle.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_structure_medium_far_0_2",
+        "reason": "A folding frame and compact storage strongly suggest a folding bicycle.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C01_structure_unrelated_0_2",
+        "reason": "Describes maple leaf structure, unrelated to either defined subject.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C01_action_medium_far_0_0\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Criterium racing and sheltering from wind strongly evoke bicycle racing; no dolphin-specific content.\"},{\"id\":\"gen_C01_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Describes baking, with no meaningful connection to either defined subject.\"},{\"id\":\"gen_C01_function_far_0_2\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Traffic signaling and judging gaps can apply to bicycle safety, but the clue refers broadly to young travelers.\"},{\"id\":\"gen_C01_function_medium_near_0_2\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Practicing balance in a lot before riding neighborhood streets strongly suggests bicycle skills training.\"},{\"id\":\"gen_C01_function_near_0_2\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Protected lanes and low-speed travel are associated with bicycle infrastructure, though the clue remains broadly phrased.\"},{\"id\":\"gen_C01_function_very_near_0_2\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Replacing car trips with human-powered travel strongly fits bicycle use; it says nothing specific about dolphins.\"},{\"id\":\"gen_C01_situation_far_0_4\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A rental kiosk and paths could involve bicycle rentals, but the activity is not specified.\"},{\"id\":\"gen_C01_situation_medium_near_0_4\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Unlocking a rental ride for trips between attractions is compatible with bicycle sharing, but not uniquely so.\"},{\"id\":\"gen_C01_situation_near_0_4\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Gravel, descents, and balancing on a forest trail strongly evoke bicycle trail riding.\"},{\"id\":\"gen_C01_situation_very_near_0_4\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Pedaling home with cargo on a front-loading frame strongly evokes a cargo bicycle.\"},{\"id\":\"gen_C01_structure_medium_far_0_2\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A folding frame and compact storage strongly suggest a folding bicycle.\"},{\"id\":\"gen_C01_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Describes maple leaf structure, unrelated to either defined subject.\"}]}",
+  "usage": {
+    "completion_tokens": 1258,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 593,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 695,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1953
+  }
+}
