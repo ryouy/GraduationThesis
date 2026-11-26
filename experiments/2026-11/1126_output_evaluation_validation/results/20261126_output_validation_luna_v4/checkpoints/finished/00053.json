@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "5efff24a6d639856a9897e0aca8a291c07592d8565e93107f5ef653216cfbc19",
+    "items": [
+      {
+        "id": "9d40b4d2bb5f965621b9",
+        "label": "no",
+        "reason": "Cacti are related plants, but they are not aloe."
+      },
+      {
+        "id": "af921a82d333256189c7",
+        "label": "no",
+        "reason": "A bookcase is related furniture, but it is not a cabinet."
+      },
+      {
+        "id": "9261e8c8b3aa62fbcd42",
+        "label": "no",
+        "reason": "Scissors are a different cutting tool, not pliers."
+      },
+      {
+        "id": "cace642095593379094f",
+        "label": "yes",
+        "reason": "The answer directly names scissors."
+      },
+      {
+        "id": "12544812db4928403a83",
+        "label": "no",
+        "reason": "A giraffe is a different animal from a lion."
+      },
+      {
+        "id": "bf55921166496476a8bb",
+        "label": "no",
+        "reason": "The answer describes rain, not snow."
+      },
+      {
+        "id": "35c9a91b2b82b317dcd9",
+        "label": "no",
+        "reason": "A bookcase is related furniture, but it is not a cabinet."
+      },
+      {
+        "id": "ab2849c207856de11311",
+        "label": "uncertain",
+        "reason": "“Garden Worker” could refer to an ant, but could also mean a person who works in a garden."
+      },
+      {
+        "id": "8a04e2d4abe534268a8c",
+        "label": "no",
+        "reason": "A bookshelf is related furniture, but it is not a cabinet."
+      },
+      {
+        "id": "a8f9ebd9dc8dd2ce681f",
+        "label": "no",
+        "reason": "The answer describes raindrops and waterfalls, not snow."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"9d40b4d2bb5f965621b9\",\"label\":\"no\",\"reason\":\"Cacti are related plants, but they are not aloe.\"},{\"id\":\"af921a82d333256189c7\",\"label\":\"no\",\"reason\":\"A bookcase is related furniture, but it is not a cabinet.\"},{\"id\":\"9261e8c8b3aa62fbcd42\",\"label\":\"no\",\"reason\":\"Scissors are a different cutting tool, not pliers.\"},{\"id\":\"cace642095593379094f\",\"label\":\"yes\",\"reason\":\"The answer directly names scissors.\"},{\"id\":\"12544812db4928403a83\",\"label\":\"no\",\"reason\":\"A giraffe is a different animal from a lion.\"},{\"id\":\"bf55921166496476a8bb\",\"label\":\"no\",\"reason\":\"The answer describes rain, not snow.\"},{\"id\":\"35c9a91b2b82b317dcd9\",\"label\":\"no\",\"reason\":\"A bookcase is related furniture, but it is not a cabinet.\"},{\"id\":\"ab2849c207856de11311\",\"label\":\"uncertain\",\"reason\":\"“Garden Worker” could refer to an ant, but could also mean a person who works in a garden.\"},{\"id\":\"8a04e2d4abe534268a8c\",\"label\":\"no\",\"reason\":\"A bookshelf is related furniture, but it is not a cabinet.\"},{\"id\":\"a8f9ebd9dc8dd2ce681f\",\"label\":\"no\",\"reason\":\"The answer describes raindrops and waterfalls, not snow.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 530,
+    "started": "2026-11-26T08:24:08.761978+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 496,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 141,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 516,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1012
+    }
+  }
+}
