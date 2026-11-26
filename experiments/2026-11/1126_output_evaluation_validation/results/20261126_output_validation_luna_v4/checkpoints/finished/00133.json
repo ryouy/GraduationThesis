@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "636cdffcd0800b63c515821cc1de042a640067bef29480b8dd4ef37ab614b3e2",
+    "items": [
+      {
+        "id": "d38b63c7b61cf12c004b",
+        "label": "2",
+        "reason": "Grapefruit is brightly colored and commonly sliced into salads, including summer salads."
+      },
+      {
+        "id": "81b04f2c020a6b8bbede",
+        "label": "2",
+        "reason": "Cacti store moisture and have defensive features such as spines, fitting the clue."
+      },
+      {
+        "id": "90592bdf13cbcca76337",
+        "label": "1",
+        "reason": "A berry can be sweet and used at breakfast, but it does not fit the clue's distinct curve."
+      },
+      {
+        "id": "56a8057499e65102fd9d",
+        "label": "1",
+        "reason": "A bicycle navigates land, but an ordinary bicycle is not designed to travel through water."
+      },
+      {
+        "id": "309d2fd517fd0387301a",
+        "label": "2",
+        "reason": "Cacti have thick, fleshy structures that store water and help them endure dry periods."
+      },
+      {
+        "id": "6bd08168950ac9cdd532",
+        "label": "2",
+        "reason": "Jellyfish have flowing tentacles and drift with ocean currents."
+      },
+      {
+        "id": "5390c0a67323cb03a0d7",
+        "label": "2",
+        "reason": "A bicycle can typically be stored in a garage or small space when not in use."
+      },
+      {
+        "id": "0083f5adb37cbe93b347",
+        "label": "2",
+        "reason": "Jellyfish have flowing tentacles and drift with ocean currents."
+      },
+      {
+        "id": "8334254fd15fa2b734fd",
+        "label": "0",
+        "reason": "Beavers do not fit the clue's slender form and jointed appendages, nor are they known for collaborating on shared tasks."
+      },
+      {
+        "id": "6d3353ae00784b7f224d",
+        "label": "2",
+        "reason": "Scissors have two sharp blades that cross at a pivot for cutting."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"d38b63c7b61cf12c004b\",\"label\":\"2\",\"reason\":\"Grapefruit is brightly colored and commonly sliced into salads, including summer salads.\"},{\"id\":\"81b04f2c020a6b8bbede\",\"label\":\"2\",\"reason\":\"Cacti store moisture and have defensive features such as spines, fitting the clue.\"},{\"id\":\"90592bdf13cbcca76337\",\"label\":\"1\",\"reason\":\"A berry can be sweet and used at breakfast, but it does not fit the clue's distinct curve.\"},{\"id\":\"56a8057499e65102fd9d\",\"label\":\"1\",\"reason\":\"A bicycle navigates land, but an ordinary bicycle is not designed to travel through water.\"},{\"id\":\"309d2fd517fd0387301a\",\"label\":\"2\",\"reason\":\"Cacti have thick, fleshy structures that store water and help them endure dry periods.\"},{\"id\":\"6bd08168950ac9cdd532\",\"label\":\"2\",\"reason\":\"Jellyfish have flowing tentacles and drift with ocean currents.\"},{\"id\":\"5390c0a67323cb03a0d7\",\"label\":\"2\",\"reason\":\"A bicycle can typically be stored in a garage or small space when not in use.\"},{\"id\":\"0083f5adb37cbe93b347\",\"label\":\"2\",\"reason\":\"Jellyfish have flowing tentacles and drift with ocean currents.\"},{\"id\":\"8334254fd15fa2b734fd\",\"label\":\"0\",\"reason\":\"Beavers do not fit the clue's slender form and jointed appendages, nor are they known for collaborating on shared tasks.\"},{\"id\":\"6d3353ae00784b7f224d\",\"label\":\"2\",\"reason\":\"Scissors have two sharp blades that cross at a pivot for cutting.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 280,
+    "started": "2026-11-26T09:31:43.356804+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 603,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 201,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 680,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1283
+    }
+  }
+}
