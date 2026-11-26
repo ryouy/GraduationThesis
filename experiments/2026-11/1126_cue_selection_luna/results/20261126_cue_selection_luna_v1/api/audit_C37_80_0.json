@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_near_0_4",
+        "naturalness": 4,
+        "reason": "A plausible remote battery-compartment setup involving a screw; strongly related to a screwdriver and only weakly to a wrench.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_near_0_5",
+        "naturalness": 5,
+        "reason": "A realistic eyeglass repair involving a miniature screw; strongly related to a screwdriver, weakly to a wrench.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_medium_near_0_0",
+        "naturalness": 4,
+        "reason": "A plausible bookshelf-assembly action with a slotted fastener; strongly related to a screwdriver and weakly to a wrench.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_medium_near_0_1",
+        "naturalness": 4,
+        "reason": "A captive fastener in a remote battery compartment is plausible, though the wording is somewhat technical; it strongly suggests a screwdriver.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_medium_near_0_2",
+        "naturalness": 4,
+        "reason": "Securing a cabinet hinge with small fasteners is plausible and strongly associated with a screwdriver; a wrench is only weakly related.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_medium_near_0_3",
+        "naturalness": 5,
+        "reason": "A natural description of approaching rain over fields, with no meaningful connection to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_medium_near_0_4",
+        "naturalness": 5,
+        "reason": "A natural description of tea cooling beside a window, unrelated to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_medium_near_0_5",
+        "naturalness": 5,
+        "reason": "A plausible choir-practice scene with no meaningful connection to either tool.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_medium_far_0_0",
+        "naturalness": 4,
+        "reason": "Mounting a plaque with crosshead screws and masonry anchors is plausible; the screws strongly suggest a screwdriver.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C37_situation_medium_far_0_1",
+        "naturalness": 5,
+        "reason": "Slotted screws holding a guitar pickguard are plausible and strongly related to a screwdriver; only weakly related to a wrench.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1186,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 498,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 673,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1859
+  }
+}
