@@ -6,6 +6,8 @@
 
 LLMに対する「Xについて考えないで」という抑制指示の下で、手がかりの意味的距離と内部表現の関係をConcept Probe・Logit Lensで分析する卒業研究のリポジトリ。最終出力は内部解析との対応を見るための補助指標として扱います。
 
+[![LLM Concept Probe — 研究概要図](Interim_Posters/LLM%20Concept%20Probe%20Infographic.png)](Interim_Posters/LLM%20Concept%20Probe%20Infographic.png)
+
 ## 本実験の統合プロトコル（最初に読む）
 
 **[本実験・統合プロトコル v0.95](docs/main_experiment_protocol_v0_95.md)** — 現行研究方針の唯一の正本。実験設計、測定、Cue準備、統計、未完了事項を統合。実行用v1.0は未凍結。
