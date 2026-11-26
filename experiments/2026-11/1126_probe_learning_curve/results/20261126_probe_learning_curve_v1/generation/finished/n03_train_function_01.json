@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "protecting_breaker_panel",
+      "sentence": "A recessed enclosure around a household breaker panel protects switches from accidental knocks while leaving them accessible during an outage."
+    },
+    {
+      "fact_key": "securing_collected_ballots",
+      "sentence": "At polling stations, sealed compartments hold completed ballots securely between collection and counting, reducing opportunities for tampering."
+    },
+    {
+      "fact_key": "controlling_customer_keys",
+      "sentence": "In repair garages, individually lockable compartments keep customers' keys separated and controlled until their vehicles are returned."
+    },
+    {
+      "fact_key": "hotel_guest_refreshments",
+      "sentence": "Hotels may provide compact in-room enclosures for refreshments and cups, keeping guest supplies together without using much counter space."
+    },
+    {
+      "fact_key": "backstage_personal_belongings",
+      "sentence": "At theaters, numbered compartments give performers a consistent place to leave personal belongings backstage between scenes."
+    },
+    {
+      "fact_key": "washroom_towel_supplies",
+      "sentence": "Staff use enclosed wall recesses to keep replacement paper-towel rolls accessible without leaving supplies exposed in shared washrooms."
+    },
+    {
+      "fact_key": "sorting_airport_lost_property",
+      "sentence": "At airport lost-property desks, separate compartments keep recovered items sorted until passengers claim them."
+    },
+    {
+      "fact_key": "protecting_construction_tools",
+      "sentence": "At construction sites, lockable enclosures secure shared power tools overnight against theft and rain."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"A recessed enclosure around a household breaker panel protects switches from accidental knocks while leaving them accessible during an outage.\",\"fact_key\":\"protecting_breaker_panel\"},{\"sentence\":\"At polling stations, sealed compartments hold completed ballots securely between collection and counting, reducing opportunities for tampering.\",\"fact_key\":\"securing_collected_ballots\"},{\"sentence\":\"In repair garages, individually lockable compartments keep customers' keys separated and controlled until their vehicles are returned.\",\"fact_key\":\"controlling_customer_keys\"},{\"sentence\":\"Hotels may provide compact in-room enclosures for refreshments and cups, keeping guest supplies together without using much counter space.\",\"fact_key\":\"hotel_guest_refreshments\"},{\"sentence\":\"At theaters, numbered compartments give performers a consistent place to leave personal belongings backstage between scenes.\",\"fact_key\":\"backstage_personal_belongings\"},{\"sentence\":\"Staff use enclosed wall recesses to keep replacement paper-towel rolls accessible without leaving supplies exposed in shared washrooms.\",\"fact_key\":\"washroom_towel_supplies\"},{\"sentence\":\"At airport lost-property desks, separate compartments keep recovered items sorted until passengers claim them.\",\"fact_key\":\"sorting_airport_lost_property\"},{\"sentence\":\"At construction sites, lockable enclosures secure shared power tools overnight against theft and rain.\",\"fact_key\":\"protecting_construction_tools\"}]}",
+  "rejected": [],
+  "request_hash": "562e012e131840d63867f852bf99a45424e8434274448805ce7fa1a4413b5de1",
+  "usage": {
+    "completion_tokens": 1630,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1347,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2205,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2202,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3835
+  }
+}
