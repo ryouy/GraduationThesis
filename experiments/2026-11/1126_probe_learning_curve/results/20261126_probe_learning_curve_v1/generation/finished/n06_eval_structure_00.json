@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "structural materials",
+      "sentence": "High-tensile steel is commonly used in the main structural shell, while some specialized deep-diving craft employ titanium alloys."
+    },
+    {
+      "fact_key": "climate control",
+      "sentence": "An air-conditioning plant circulates cooled, dehumidified air through occupied compartments, helping control heat and moisture in the sealed interior."
+    },
+    {
+      "fact_key": "food refrigeration",
+      "sentence": "Refrigeration compressors chill insulated food stores, preserving provisions during extended deployments without frequent resupply."
+    },
+    {
+      "fact_key": "hydraulic actuation",
+      "sentence": "Hydraulic actuators can move heavy fittings such as hatch mechanisms, using pressurized fluid to deliver substantial force in confined spaces."
+    },
+    {
+      "fact_key": "wastewater handling",
+      "sentence": "Sanitation equipment directs wastewater into holding tanks for treatment or controlled discharge rather than releasing it continuously."
+    },
+    {
+      "fact_key": "galley fixtures",
+      "sentence": "Compact galley appliances are secured to counters, helping prevent cookware and supplies from shifting as the vessel maneuvers."
+    },
+    {
+      "fact_key": "machinery mounts",
+      "sentence": "Resilient mounts support machinery while limiting vibration transfer into the surrounding structure."
+    },
+    {
+      "fact_key": "corrosion protection",
+      "sentence": "Protective coatings on exposed metal fittings resist corrosion caused by prolonged contact with seawater."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"High-tensile steel is commonly used in the main structural shell, while some specialized deep-diving craft employ titanium alloys.\",\"fact_key\":\"structural materials\"},{\"sentence\":\"An air-conditioning plant circulates cooled, dehumidified air through occupied compartments, helping control heat and moisture in the sealed interior.\",\"fact_key\":\"climate control\"},{\"sentence\":\"Refrigeration compressors chill insulated food stores, preserving provisions during extended deployments without frequent resupply.\",\"fact_key\":\"food refrigeration\"},{\"sentence\":\"Hydraulic actuators can move heavy fittings such as hatch mechanisms, using pressurized fluid to deliver substantial force in confined spaces.\",\"fact_key\":\"hydraulic actuation\"},{\"sentence\":\"Sanitation equipment directs wastewater into holding tanks for treatment or controlled discharge rather than releasing it continuously.\",\"fact_key\":\"wastewater handling\"},{\"sentence\":\"Compact galley appliances are secured to counters, helping prevent cookware and supplies from shifting as the vessel maneuvers.\",\"fact_key\":\"galley fixtures\"},{\"sentence\":\"Resilient mounts support machinery while limiting vibration transfer into the surrounding structure.\",\"fact_key\":\"machinery mounts\"},{\"sentence\":\"Protective coatings on exposed metal fittings resist corrosion caused by prolonged contact with seawater.\",\"fact_key\":\"corrosion protection\"}]}",
+  "rejected": [],
+  "request_hash": "805421bfaffaff34190622480792b5a7cdc589b25f1ea091bc97e22f3d3b23d3",
+  "usage": {
+    "completion_tokens": 1612,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1341,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2404,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2401,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4016
+  }
+}
