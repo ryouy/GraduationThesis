@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "square-drive-socket-connection",
+      "sentence": "Some heads carry a square drive that accepts interchangeable sockets, letting one handle accommodate fasteners of differing sizes."
+    },
+    {
+      "fact_key": "beam-deflection-indicator",
+      "sentence": "A beam-style torque indicator places a pointer beside a calibrated scale; slight shaft deflection shows applied turning force."
+    },
+    {
+      "fact_key": "shaft-strain-gauge-sensing",
+      "sentence": "Electronic versions may embed strain gauges in the metal shaft, converting minute elastic deformation into a displayed torque value."
+    },
+    {
+      "fact_key": "molded-insulating-layer",
+      "sentence": "Insulated versions surround the conductive core with thick molded polymer, reducing the chance of electrical contact through the handle."
+    },
+    {
+      "fact_key": "hammer-striking-pad",
+      "sentence": "Certain heavy-duty forms end in a broad striking pad designed to withstand blows from a separate hammer."
+    },
+    {
+      "fact_key": "angled-jaws-for-repositioning",
+      "sentence": "Many fixed heads angle their jaws roughly fifteen degrees from the handle plane, allowing repositioning by flipping the tool."
+    },
+    {
+      "fact_key": "pin-engagement-for-retaining-rings",
+      "sentence": "Some hook-shaped heads carry a projecting pin that engages holes in circular retaining rings during adjustment."
+    },
+    {
+      "fact_key": "copper-alloy-spark-reduction",
+      "sentence": "Non-sparking versions can be made from copper-based alloys, which are softer than steel and reduce spark risk."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Some heads carry a square drive that accepts interchangeable sockets, letting one handle accommodate fasteners of differing sizes.\",\"fact_key\":\"square-drive-socket-connection\"},{\"sentence\":\"A beam-style torque indicator places a pointer beside a calibrated scale; slight shaft deflection shows applied turning force.\",\"fact_key\":\"beam-deflection-indicator\"},{\"sentence\":\"Electronic versions may embed strain gauges in the metal shaft, converting minute elastic deformation into a displayed torque value.\",\"fact_key\":\"shaft-strain-gauge-sensing\"},{\"sentence\":\"Insulated versions surround the conductive core with thick molded polymer, reducing the chance of electrical contact through the handle.\",\"fact_key\":\"molded-insulating-layer\"},{\"sentence\":\"Certain heavy-duty forms end in a broad striking pad designed to withstand blows from a separate hammer.\",\"fact_key\":\"hammer-striking-pad\"},{\"sentence\":\"Many fixed heads angle their jaws roughly fifteen degrees from the handle plane, allowing repositioning by flipping the tool.\",\"fact_key\":\"angled-jaws-for-repositioning\"},{\"sentence\":\"Some hook-shaped heads carry a projecting pin that engages holes in circular retaining rings during adjustment.\",\"fact_key\":\"pin-engagement-for-retaining-rings\"},{\"sentence\":\"Non-sparking versions can be made from copper-based alloys, which are softer than steel and reduce spark risk.\",\"fact_key\":\"copper-alloy-spark-reduction\"}]}",
+  "rejected": [],
+  "request_hash": "76b75cce93a9bfbbc1250721bef98aee9607aed5a338d8e74fb6447a28171a34",
+  "usage": {
+    "completion_tokens": 1948,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1646,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2521,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2518,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4469
+  }
+}
