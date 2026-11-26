@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "4baf745575b5266b47a564a67f53a2c742df88b748f2e2cca7889869e2876df3",
+    "items": [
+      {
+        "id": "86ae9c3f21fb98725ad9",
+        "label": "yes",
+        "reason": "Raindrops falling describes rain."
+      },
+      {
+        "id": "1e00406756c4325616c7",
+        "label": "yes",
+        "reason": "Raindrops bringing life to the earth identifies rain."
+      },
+      {
+        "id": "a2da5b36e7dd0cdf4a10",
+        "label": "no",
+        "reason": "Calmness in the sky is an associated mood, not rain itself."
+      },
+      {
+        "id": "eda1363c8d3958b16514",
+        "label": "no",
+        "reason": "Organized lines of insects do not specifically identify ants."
+      },
+      {
+        "id": "fc876bcccb0841e80a6e",
+        "label": "no",
+        "reason": "The answer describes scissors, not pliers."
+      },
+      {
+        "id": "325517d183ed31bc43a9",
+        "label": "no",
+        "reason": "Anticide is a substance used against ants, not an ant."
+      },
+      {
+        "id": "cafa28402a1f003b269b",
+        "label": "no",
+        "reason": "The answer describes a musical activity or effect, not a tambourine."
+      },
+      {
+        "id": "11cf81214d29396d0c4e",
+        "label": "no",
+        "reason": "An aerated-soil creator is not a dragonfly."
+      },
+      {
+        "id": "985982886205adf576b2",
+        "label": "no",
+        "reason": "A gathering of insects does not specifically identify a dragonfly."
+      },
+      {
+        "id": "d1f220f96033557dc204",
+        "label": "yes",
+        "reason": "It directly identifies a bookshelf."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"86ae9c3f21fb98725ad9\",\"label\":\"yes\",\"reason\":\"Raindrops falling describes rain.\"},{\"id\":\"1e00406756c4325616c7\",\"label\":\"yes\",\"reason\":\"Raindrops bringing life to the earth identifies rain.\"},{\"id\":\"a2da5b36e7dd0cdf4a10\",\"label\":\"no\",\"reason\":\"Calmness in the sky is an associated mood, not rain itself.\"},{\"id\":\"eda1363c8d3958b16514\",\"label\":\"no\",\"reason\":\"Organized lines of insects do not specifically identify ants.\"},{\"id\":\"fc876bcccb0841e80a6e\",\"label\":\"no\",\"reason\":\"The answer describes scissors, not pliers.\"},{\"id\":\"325517d183ed31bc43a9\",\"label\":\"no\",\"reason\":\"Anticide is a substance used against ants, not an ant.\"},{\"id\":\"cafa28402a1f003b269b\",\"label\":\"no\",\"reason\":\"The answer describes a musical activity or effect, not a tambourine.\"},{\"id\":\"11cf81214d29396d0c4e\",\"label\":\"no\",\"reason\":\"An aerated-soil creator is not a dragonfly.\"},{\"id\":\"985982886205adf576b2\",\"label\":\"no\",\"reason\":\"A gathering of insects does not specifically identify a dragonfly.\"},{\"id\":\"d1f220f96033557dc204\",\"label\":\"yes\",\"reason\":\"It directly identifies a bookshelf.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 140,
+    "started": "2026-11-26T08:18:13.538862+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 473,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 134,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 532,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1005
+    }
+  }
+}
