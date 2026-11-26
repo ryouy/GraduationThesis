@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "80629647f6a9384405ec776c1ea78f190be63976cdddb15b438ed7e8b1e6d730",
+    "items": [
+      {
+        "id": "7d905c9fa152122626a0",
+        "label": "no",
+        "reason": "A climbing tower is unrelated to a dragonfly."
+      },
+      {
+        "id": "d49064e83f1dbfdc32a1",
+        "label": "no",
+        "reason": "A beetle is a different insect, not a dragonfly."
+      },
+      {
+        "id": "be043ebfb6d07f1eef3e",
+        "label": "no",
+        "reason": "Falling raindrops are not snow."
+      },
+      {
+        "id": "84714f7358c7779fcd09",
+        "label": "yes",
+        "reason": "An ant colony swarm clearly refers to ants collectively."
+      },
+      {
+        "id": "cb9469e83b86a4ccbf65",
+        "label": "no",
+        "reason": "A smoothie paradise is associated with banana but does not identify a banana."
+      },
+      {
+        "id": "f53f109e86e128ebfece",
+        "label": "no",
+        "reason": "A jellyfish is a different animal, not an octopus."
+      },
+      {
+        "id": "7e5a1535b725e203c2f9",
+        "label": "yes",
+        "reason": "The answer explicitly identifies a bookshelf."
+      },
+      {
+        "id": "d0a0531fcd01d6d66d5b",
+        "label": "yes",
+        "reason": "The answer exactly names the target."
+      },
+      {
+        "id": "6190565ee6e002c6522d",
+        "label": "yes",
+        "reason": "The answer explicitly identifies scissors."
+      },
+      {
+        "id": "3d61409a981e3d9c6a01",
+        "label": "no",
+        "reason": "Glowing dewdrops are not snow."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"7d905c9fa152122626a0\",\"label\":\"no\",\"reason\":\"A climbing tower is unrelated to a dragonfly.\"},{\"id\":\"d49064e83f1dbfdc32a1\",\"label\":\"no\",\"reason\":\"A beetle is a different insect, not a dragonfly.\"},{\"id\":\"be043ebfb6d07f1eef3e\",\"label\":\"no\",\"reason\":\"Falling raindrops are not snow.\"},{\"id\":\"84714f7358c7779fcd09\",\"label\":\"yes\",\"reason\":\"An ant colony swarm clearly refers to ants collectively.\"},{\"id\":\"cb9469e83b86a4ccbf65\",\"label\":\"no\",\"reason\":\"A smoothie paradise is associated with banana but does not identify a banana.\"},{\"id\":\"f53f109e86e128ebfece\",\"label\":\"no\",\"reason\":\"A jellyfish is a different animal, not an octopus.\"},{\"id\":\"7e5a1535b725e203c2f9\",\"label\":\"yes\",\"reason\":\"The answer explicitly identifies a bookshelf.\"},{\"id\":\"d0a0531fcd01d6d66d5b\",\"label\":\"yes\",\"reason\":\"The answer exactly names the target.\"},{\"id\":\"6190565ee6e002c6522d\",\"label\":\"yes\",\"reason\":\"The answer explicitly identifies scissors.\"},{\"id\":\"3d61409a981e3d9c6a01\",\"label\":\"no\",\"reason\":\"Glowing dewdrops are not snow.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 450,
+    "started": "2026-11-26T08:22:55.461849+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 558,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 219,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 535,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1093
+    }
+  }
+}
