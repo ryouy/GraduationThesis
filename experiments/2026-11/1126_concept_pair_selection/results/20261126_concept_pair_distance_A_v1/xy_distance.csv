@@ -1,0 +1,66 @@
+candidate_id,category,target_x,comparator_y,definition_x,definition_y,definition_source,distance_xy
+C01,vehicles,bicycle,submarine,"A human-powered vehicle with two wheels, pedals and handlebars.",A vessel designed to travel and operate underwater.,uniform_draft_50,0.7139975428581238
+C02,vehicles,boat,bus,A watercraft designed to carry people or goods across water.,A road vehicle designed to transport many passengers.,uniform_draft_50,0.41785937547683716
+C03,vehicles,bus,helicopter,A road vehicle designed to transport many passengers.,An aircraft lifted and propelled by rotating overhead blades.,uniform_draft_50,0.679458737373352
+C04,vehicles,motorcycle,helicopter,A powered two-wheeled road vehicle ridden astride a seat.,An aircraft lifted and propelled by rotating overhead blades.,uniform_draft_50,0.589482307434082
+C05,vehicles,submarine,motorcycle,A vessel designed to travel and operate underwater.,A powered two-wheeled road vehicle ridden astride a seat.,uniform_draft_50,0.6801013350486755
+C06,land_mammals,elephant,lion,A large land mammal with a long trunk and broad ears.,A large social predatory cat whose males commonly have manes.,uniform_draft_50,0.47789108753204346
+C07,land_mammals,lion,tiger,A large social predatory cat whose males commonly have manes.,A large solitary predatory cat with dark stripes on its coat.,uniform_draft_50,0.2863107919692993
+C08,land_mammals,wolf,bear,A wild social canine that commonly hunts in packs.,A large sturdy mammal with thick fur and strong claws.,uniform_draft_50,0.5210310220718384
+C09,land_mammals,giraffe,zebra,A tall African mammal with a long neck and long legs.,An African hoofed mammal with a black and white striped coat.,uniform_draft_50,0.21062517166137695
+C10,land_mammals,rabbit,hare,A small long-eared mammal with powerful hind legs that often burrows.,A long-eared mammal with long hind legs that typically rests above ground.,uniform_draft_50,0.17875444889068604
+C11,marine_animals,dolphin,jellyfish,An aquatic mammal with a streamlined body and echolocation abilities.,A marine animal with a gelatinous bell and usually tentacles.,uniform_draft_50,0.4272531270980835
+C12,marine_animals,jellyfish,octopus,A marine animal with a gelatinous bell and usually tentacles.,A marine mollusk with a soft body and eight arms.,uniform_draft_50,0.28530991077423096
+C13,marine_animals,octopus,squid,A marine mollusk with a soft body and eight arms.,"A marine mollusk with an elongated body, eight arms and two tentacles.",uniform_draft_50,0.05083906650543213
+C14,marine_animals,shark,dolphin,A cartilaginous fish with gills and a streamlined predatory body.,An aquatic mammal with a streamlined body and echolocation abilities.,uniform_draft_50,0.37307775020599365
+C15,marine_animals,starfish,sea urchin,A marine echinoderm with arms radiating from a central disc.,A marine echinoderm with a rounded body covered in movable spines.,uniform_draft_50,0.13298672437667847
+C16,insects,ant,dragonfly,A social insect with a narrow waist that typically lives in colonies.,A flying insect with large eyes and two pairs of elongated wings.,uniform_draft_50,0.5005990266799927
+C17,insects,butterfly,dragonfly,A flying insect with broad scaled wings and typically clubbed antennae.,A flying insect with large eyes and two pairs of elongated wings.,uniform_draft_50,0.2395126223564148
+C18,insects,dragonfly,moth,A flying insect with large eyes and two pairs of elongated wings.,A scaled-wing insect often active at night with varied antenna shapes.,uniform_draft_50,0.28860950469970703
+C19,insects,moth,butterfly,A scaled-wing insect often active at night with varied antenna shapes.,A flying insect with broad scaled wings and typically clubbed antennae.,uniform_draft_50,0.2161993384361267
+C20,insects,beetle,butterfly,An insect whose hardened front wings cover its delicate hind wings.,A flying insect with broad scaled wings and typically clubbed antennae.,uniform_draft_50,0.30664730072021484
+C21,musical_instruments,piano,organ,A keyboard instrument whose keys trigger hammers that strike strings.,A keyboard instrument producing sustained tones through pipes or electronic mechanisms.,uniform_draft_50,0.2752798795700073
+C22,musical_instruments,violin,cello,A small bowed string instrument typically held beneath the chin.,A large bowed string instrument played upright between the knees.,uniform_draft_50,0.3274887204170227
+C23,musical_instruments,trumpet,trombone,A brass wind instrument with valves and a flared bell.,A brass wind instrument typically using a slide to change pitch.,uniform_draft_50,0.2664231061935425
+C24,musical_instruments,flute,clarinet,A wind instrument sounded by directing air across an opening.,A woodwind instrument with a single reed and cylindrical bore.,uniform_draft_50,0.39446330070495605
+C25,musical_instruments,drum,tambourine,A percussion instrument sounded by striking a surface or stretched membrane.,A handheld percussion instrument with a frame and small metal jingles.,uniform_draft_50,0.3299023509025574
+C26,fruits,apple,pear,A rounded edible fruit with a firm flesh and central seed core.,An edible fruit typically narrow near its stem and broader below.,uniform_draft_50,0.18162107467651367
+C27,fruits,banana,pineapple,An elongated edible fruit with a peel and soft flesh.,A tropical fruit with a rough patterned rind and juicy flesh.,uniform_draft_50,0.1877373456954956
+C28,fruits,strawberry,raspberry,A soft red fruit with small seedlike structures on its surface.,A soft edible fruit composed of many small clustered drupelets.,uniform_draft_50,0.33027344942092896
+C29,fruits,lemon,lime,A typically yellow citrus fruit with sour acidic juice.,A typically green citrus fruit with a small size and acidic juice.,uniform_draft_50,0.08680146932601929
+C30,fruits,pineapple,coconut,A tropical fruit with a rough patterned rind and juicy flesh.,"A tropical fruit with a fibrous husk, hard shell and edible interior.",uniform_draft_50,0.17064499855041504
+C31,furniture,chair,stool,A seat for one person typically supported by legs and a backrest.,A seat for one person typically without a backrest or armrests.,uniform_draft_50,0.0461806058883667
+C32,furniture,sofa,armchair,An upholstered seat designed to accommodate multiple people.,An upholstered seat for one person with supports for the arms.,uniform_draft_50,0.15829867124557495
+C33,furniture,bed,sofa,A piece of furniture providing a horizontal surface for sleeping.,An upholstered seat designed to accommodate multiple people.,uniform_draft_50,0.5229502320289612
+C34,furniture,desk,table,A piece of furniture providing a work surface for writing or computing.,A piece of furniture with a flat top supported above the floor.,uniform_draft_50,0.34537792205810547
+C35,furniture,bookshelf,cabinet,A piece of furniture with shelves used to hold books.,A piece of furniture with enclosed compartments for storage.,uniform_draft_50,0.26518714427948
+C36,tools,hammer,mallet,A hand tool with a weighted head used to deliver blows.,A striking tool with a broad head often made of wood or rubber.,uniform_draft_50,0.21370774507522583
+C37,tools,screwdriver,wrench,A hand tool used to turn screws.,A hand tool used to grip and turn nuts or bolts.,uniform_draft_50,0.12800419330596924
+C38,tools,scissors,pliers,A cutting tool with two blades pivoting against each other.,A handheld tool with pivoting jaws for gripping or bending objects.,uniform_draft_50,0.38466334342956543
+C39,tools,wrench,pliers,A hand tool used to grip and turn nuts or bolts.,A handheld tool with pivoting jaws for gripping or bending objects.,uniform_draft_50,0.3003237247467041
+C40,tools,power drill,electric saw,A powered tool that rotates a bit to bore holes or drive fasteners.,A powered cutting tool that moves a toothed blade through material.,uniform_draft_50,0.2928379774093628
+C41,plants,rose,tulip,A flowering shrub often bearing prickles and layered fragrant blossoms.,A bulbous plant with upright stems and typically cup-shaped flowers.,uniform_draft_50,0.3368362784385681
+C42,plants,cactus,aloe,A plant adapted to dry conditions often with succulent stems and spines.,A succulent plant typically forming rosettes of thick fleshy leaves.,uniform_draft_50,0.27409499883651733
+C43,plants,sunflower,daisy,A flowering plant with a tall stem and large composite flower heads.,A flowering plant typically bearing white ray florets around a yellow center.,uniform_draft_50,0.36122000217437744
+C44,plants,bamboo,reed,A woody grass with jointed stems that are often hollow.,A tall slender grasslike plant commonly growing near water.,uniform_draft_50,0.31074726581573486
+C45,plants,oak,maple,A tree or shrub that produces acorns and often has lobed leaves.,A tree or shrub often bearing lobed leaves and winged seeds.,uniform_draft_50,0.2331855297088623
+C46,natural_phenomena,rain,snow,Precipitation consisting of liquid water droplets falling from clouds.,Precipitation consisting of ice crystals often grouped into flakes.,uniform_draft_50,0.20143580436706543
+C47,natural_phenomena,snow,hail,Precipitation consisting of ice crystals often grouped into flakes.,Precipitation consisting of solid balls or irregular lumps of ice.,uniform_draft_50,0.10587155818939209
+C48,natural_phenomena,fog,smoke,A suspension of tiny water droplets near the ground that reduces visibility.,Airborne particles and gases produced by burning material.,uniform_draft_50,0.673339307308197
+C49,natural_phenomena,lightning,thunder,A sudden atmospheric electrical discharge producing a bright flash.,The sound produced by rapid air expansion around an atmospheric electrical discharge.,uniform_draft_50,0.3512870669364929
+C50,natural_phenomena,earthquake,volcanic eruption,A sudden shaking of the ground caused by energy released within Earth.,"An event in which magma, gases or ash escape from a volcanic vent.",uniform_draft_50,0.4702608585357666
+C01,vehicles,bicycle,submarine,"A human-powered vehicle with two wheels, pedals and handlebars.",A vessel designed to operate underwater.,existing_cue_v1,0.7300364375114441
+C23,musical_instruments,trumpet,trombone,A brass wind instrument with valves and a flared bell.,A brass wind instrument typically using a slide to change pitch.,existing_cue_v1,0.2664231061935425
+C27,fruits,banana,pineapple,An elongated edible fruit with a peel and soft flesh.,A tropical fruit with a rough patterned rind and juicy flesh.,existing_cue_v1,0.1877373456954956
+C35,furniture,bookshelf,cabinet,A piece of furniture with shelves used to hold books.,A piece of furniture with enclosed compartments for storage.,existing_cue_v1,0.26518720388412476
+C37,tools,screwdriver,wrench,A hand tool used to turn screws.,A hand tool used to grip and turn nuts or bolts.,existing_cue_v1,0.12800419330596924
+C01,vehicles,bicycle,submarine,"A bicycle is a human-powered vehicle with two wheels, pedals, a frame and handlebars.",A submarine is a vessel designed to travel and operate underwater.,existing_pre_main,0.8053534030914307
+C06,land_mammals,elephant,lion,"An elephant is a large land mammal with a long trunk, broad ears and thick skin.",A lion is a large social predatory cat that inhabits grasslands and other open environments.,existing_pre_main,0.5589151978492737
+C12,marine_animals,jellyfish,octopus,A jellyfish is a marine animal with a soft gelatinous bell and usually tentacles.,"An octopus is a marine mollusk with eight arms, a soft body and a developed nervous system.",existing_pre_main,0.3494821786880493
+C16,insects,ant,dragonfly,An ant is a social insect that typically lives in colonies and has a narrow waist and jointed antennae.,"A dragonfly is a flying insect with large eyes, an elongated body and two pairs of wings.",existing_pre_main,0.5363860726356506
+C25,musical_instruments,drum,tambourine,"A drum is a percussion instrument that produces sound when a surface, usually a stretched membrane, is struck.",A tambourine is a handheld percussion instrument with a frame and small metal jingles.,existing_pre_main,0.3961530923843384
+C27,fruits,banana,pineapple,"A banana is an elongated edible fruit with a peel and soft flesh, produced by a large herbaceous plant.","A pineapple is a tropical fruit with a rough patterned rind, leafy crown and juicy flesh.",existing_pre_main,0.48864591121673584
+C35,furniture,bookshelf,cabinet,A bookshelf is a piece of furniture with shelves intended to hold and organize books.,"A cabinet is a storage unit, often enclosed by doors, that holds and organizes objects.",existing_pre_main,0.4192975163459778
+C38,tools,scissors,pliers,Scissors are a handheld cutting tool with two pivoting blades and handles.,"Pliers are a handheld tool with pivoting jaws used to grip, bend or manipulate objects.",existing_pre_main,0.5009292960166931
+C42,plants,cactus,aloe,"A cactus is a plant adapted to storing water, commonly with succulent stems and spines.","Aloe is a succulent plant with fleshy leaves, often arranged in a rosette.",existing_pre_main,0.5560181736946106
+C46,natural_phenomena,rain,snow,Rain is precipitation consisting of liquid water droplets falling from clouds.,Snow is precipitation consisting of ice crystals that often combine into flakes.,existing_pre_main,0.42663025856018066
