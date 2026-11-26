@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "garage_hardware_organization",
+      "sentence": "In a garage, labeled containers on elevated tiers keep small hardware sorted above floor-level tools and easier to find."
+    },
+    {
+      "fact_key": "gaming_equipment_storage",
+      "sentence": "A media room can use spaced compartments for game consoles and controllers, keeping accessories near the devices they serve."
+    },
+    {
+      "fact_key": "craft_supply_separation",
+      "sentence": "In a craft area, separate containers for thread, brushes, and paper help prevent small supplies from becoming mixed."
+    },
+    {
+      "fact_key": "entryway_shoe_storage",
+      "sentence": "A low unit near an entryway provides a visible place for shoes, reducing piles around the doorway."
+    },
+    {
+      "fact_key": "visitor_brochure_access",
+      "sentence": "In a reception area, brochures arranged face-out let visitors select information while waiting without asking staff."
+    },
+    {
+      "fact_key": "mudroom_accessories",
+      "sentence": "In a mudroom, labeled baskets for gloves and hats keep seasonal accessories separated and ready when residents head outdoors."
+    },
+    {
+      "fact_key": "recording_accessory_storage",
+      "sentence": "A home studio can keep cables, microphones, and adapters together near recording equipment, shortening setup time between sessions."
+    },
+    {
+      "fact_key": "holiday_decoration_storage",
+      "sentence": "During seasonal decorating, grouped boxes on elevated tiers keep ornaments sorted and leave the floor clear for other uses."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In a garage, labeled containers on elevated tiers keep small hardware sorted above floor-level tools and easier to find.\",\"fact_key\":\"garage_hardware_organization\"},{\"sentence\":\"A media room can use spaced compartments for game consoles and controllers, keeping accessories near the devices they serve.\",\"fact_key\":\"gaming_equipment_storage\"},{\"sentence\":\"In a craft area, separate containers for thread, brushes, and paper help prevent small supplies from becoming mixed.\",\"fact_key\":\"craft_supply_separation\"},{\"sentence\":\"A low unit near an entryway provides a visible place for shoes, reducing piles around the doorway.\",\"fact_key\":\"entryway_shoe_storage\"},{\"sentence\":\"In a reception area, brochures arranged face-out let visitors select information while waiting without asking staff.\",\"fact_key\":\"visitor_brochure_access\"},{\"sentence\":\"In a mudroom, labeled baskets for gloves and hats keep seasonal accessories separated and ready when residents head outdoors.\",\"fact_key\":\"mudroom_accessories\"},{\"sentence\":\"A home studio can keep cables, microphones, and adapters together near recording equipment, shortening setup time between sessions.\",\"fact_key\":\"recording_accessory_storage\"},{\"sentence\":\"During seasonal decorating, grouped boxes on elevated tiers keep ornaments sorted and leave the floor clear for other uses.\",\"fact_key\":\"holiday_decoration_storage\"}]}",
+  "rejected": [],
+  "request_hash": "1a31f316a6826443cf673fdfe79efbc6b5c73e951ffeee617c7dc8507b3daeaa",
+  "usage": {
+    "completion_tokens": 1291,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1015,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1873,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1870,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3164
+  }
+}
