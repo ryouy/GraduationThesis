@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "f338c9c1603883beb44034503f6f28e4719e7a2d2f132ce9b5521042aba5e0cf",
+    "items": [
+      {
+        "id": "cb695d8832ccd91ef053",
+        "label": "yes",
+        "reason": "The answer names the target."
+      },
+      {
+        "id": "76678483d15a3976f359",
+        "label": "no",
+        "reason": "A jellyfish is not an octopus."
+      },
+      {
+        "id": "d18b97558fd486eadb5b",
+        "label": "no",
+        "reason": "A bicycle is not a submarine."
+      },
+      {
+        "id": "6f2da555d08d49a98f9c",
+        "label": "no",
+        "reason": "Drumming is an activity, not a tambourine."
+      },
+      {
+        "id": "b52c0827501ebfdeeff7",
+        "label": "no",
+        "reason": "A jellyfish is not an octopus."
+      },
+      {
+        "id": "4431ba00b0bdb3117dfb",
+        "label": "no",
+        "reason": "An aquatic vehicle is not a bicycle."
+      },
+      {
+        "id": "a8be32da4f816b34f16c",
+        "label": "no",
+        "reason": "Ginger is not a banana."
+      },
+      {
+        "id": "07db55c7bfd42da26cd0",
+        "label": "no",
+        "reason": "Coral is not an elephant."
+      },
+      {
+        "id": "abb99600944d6c8d87f4",
+        "label": "no",
+        "reason": "A jellyfish is not an octopus."
+      },
+      {
+        "id": "703034fcb4e111dbe3e4",
+        "label": "no",
+        "reason": "A guitar is not a tambourine."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"cb695d8832ccd91ef053\",\"label\":\"yes\",\"reason\":\"The answer names the target.\"},{\"id\":\"76678483d15a3976f359\",\"label\":\"no\",\"reason\":\"A jellyfish is not an octopus.\"},{\"id\":\"d18b97558fd486eadb5b\",\"label\":\"no\",\"reason\":\"A bicycle is not a submarine.\"},{\"id\":\"6f2da555d08d49a98f9c\",\"label\":\"no\",\"reason\":\"Drumming is an activity, not a tambourine.\"},{\"id\":\"b52c0827501ebfdeeff7\",\"label\":\"no\",\"reason\":\"A jellyfish is not an octopus.\"},{\"id\":\"4431ba00b0bdb3117dfb\",\"label\":\"no\",\"reason\":\"An aquatic vehicle is not a bicycle.\"},{\"id\":\"a8be32da4f816b34f16c\",\"label\":\"no\",\"reason\":\"Ginger is not a banana.\"},{\"id\":\"07db55c7bfd42da26cd0\",\"label\":\"no\",\"reason\":\"Coral is not an elephant.\"},{\"id\":\"abb99600944d6c8d87f4\",\"label\":\"no\",\"reason\":\"A jellyfish is not an octopus.\"},{\"id\":\"703034fcb4e111dbe3e4\",\"label\":\"no\",\"reason\":\"A guitar is not a tambourine.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 270,
+    "started": "2026-11-26T08:20:13.535647+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 343,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 29,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 514,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 857
+    }
+  }
+}
