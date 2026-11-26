@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "shape_and_layers",
+      "sentence": "Typically elongated and gently curved, this fruit has a thick peel surrounding pale, soft flesh."
+    },
+    {
+      "fact_key": "peel_color_change",
+      "sentence": "Its peel is green when unripe and commonly turns yellow as the flesh ripens."
+    },
+    {
+      "fact_key": "starch_to_sugar",
+      "sentence": "Ripening converts much of its starchy flesh into sugars, making the taste sweeter and texture softer."
+    },
+    {
+      "fact_key": "water_and_carbohydrates",
+      "sentence": "The edible interior contains substantial water alongside carbohydrates, especially starch in less-ripe specimens."
+    },
+    {
+      "fact_key": "seed_structure",
+      "sentence": "Cultivated dessert varieties usually have tiny, undeveloped seeds rather than large, hard seeds."
+    },
+    {
+      "fact_key": "protective_fibers",
+      "sentence": "The outer skin contains fibrous tissues that help protect the easily bruised interior."
+    },
+    {
+      "fact_key": "nutrient_composition",
+      "sentence": "Its flesh supplies potassium and also contains vitamin B6 and vitamin C."
+    },
+    {
+      "fact_key": "relative_texture",
+      "sentence": "A ripe interior is creamy and tender, while the peel remains tougher and more elastic."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Typically elongated and gently curved, this fruit has a thick peel surrounding pale, soft flesh.\",\"fact_key\":\"shape_and_layers\"},{\"sentence\":\"Its peel is green when unripe and commonly turns yellow as the flesh ripens.\",\"fact_key\":\"peel_color_change\"},{\"sentence\":\"Ripening converts much of its starchy flesh into sugars, making the taste sweeter and texture softer.\",\"fact_key\":\"starch_to_sugar\"},{\"sentence\":\"The edible interior contains substantial water alongside carbohydrates, especially starch in less-ripe specimens.\",\"fact_key\":\"water_and_carbohydrates\"},{\"sentence\":\"Cultivated dessert varieties usually have tiny, undeveloped seeds rather than large, hard seeds.\",\"fact_key\":\"seed_structure\"},{\"sentence\":\"The outer skin contains fibrous tissues that help protect the easily bruised interior.\",\"fact_key\":\"protective_fibers\"},{\"sentence\":\"Its flesh supplies potassium and also contains vitamin B6 and vitamin C.\",\"fact_key\":\"nutrient_composition\"},{\"sentence\":\"A ripe interior is creamy and tender, while the peel remains tougher and more elastic.\",\"fact_key\":\"relative_texture\"}]}",
+  "rejected": [],
+  "request_hash": "c42567da9f8c9e633440c6a8f7cd4b178d453939b97ea4ff469749f9ba1699a7",
+  "usage": {
+    "completion_tokens": 664,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 429,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 203,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 867
+  }
+}
