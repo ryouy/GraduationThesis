@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "c05b63ea00e92ce39bb3129e4b4c7ce23c443584fe103cf84562e9e24985c0df",
+    "items": [
+      {
+        "id": "842aa5f787e97423298c",
+        "label": "2",
+        "reason": "A bookcase commonly combines shelves and compartments to store objects neatly."
+      },
+      {
+        "id": "ee11e7b67a4ea20b4662",
+        "label": "0",
+        "reason": "Coral is generally attached to a reef rather than drifting in coastal waters."
+      },
+      {
+        "id": "ef50794b3e0224b8b010",
+        "label": "2",
+        "reason": "A bookshelf is a plausible sturdy unit for holding items and improving organization."
+      },
+      {
+        "id": "257c333eeafc2fcbccaf",
+        "label": "2",
+        "reason": "A helmeted rider naturally matches riders wearing helmets for safety in traffic."
+      },
+      {
+        "id": "b2a72c519da8b2887add",
+        "label": "1",
+        "reason": "It gestures at an ecosystem-benefiting organism, but 'Ecosystem Protector' does not identify one that creates pathways."
+      },
+      {
+        "id": "8876dfda3676e8490931",
+        "label": "2",
+        "reason": "Jellyfish drift with currents and have a distinctive, visually striking form."
+      },
+      {
+        "id": "e630837109ee9f4a06e0",
+        "label": "2",
+        "reason": "Winter migration directly names the seasonal movement described."
+      },
+      {
+        "id": "f2a87941a8b0474a0c84",
+        "label": "0",
+        "reason": "Scissors cut material; they are not typically used to grip items for bending and shaping."
+      },
+      {
+        "id": "42042dad074575801252",
+        "label": "2",
+        "reason": "Rainfall nourishes the ground and supports plant growth, matching the clue."
+      },
+      {
+        "id": "6c32b879504e85116dc2",
+        "label": "1",
+        "reason": "Elephants can be used to teach wildlife conservation, but the clue does not specify elephants."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"842aa5f787e97423298c\",\"label\":\"2\",\"reason\":\"A bookcase commonly combines shelves and compartments to store objects neatly.\"},{\"id\":\"ee11e7b67a4ea20b4662\",\"label\":\"0\",\"reason\":\"Coral is generally attached to a reef rather than drifting in coastal waters.\"},{\"id\":\"ef50794b3e0224b8b010\",\"label\":\"2\",\"reason\":\"A bookshelf is a plausible sturdy unit for holding items and improving organization.\"},{\"id\":\"257c333eeafc2fcbccaf\",\"label\":\"2\",\"reason\":\"A helmeted rider naturally matches riders wearing helmets for safety in traffic.\"},{\"id\":\"b2a72c519da8b2887add\",\"label\":\"1\",\"reason\":\"It gestures at an ecosystem-benefiting organism, but 'Ecosystem Protector' does not identify one that creates pathways.\"},{\"id\":\"8876dfda3676e8490931\",\"label\":\"2\",\"reason\":\"Jellyfish drift with currents and have a distinctive, visually striking form.\"},{\"id\":\"e630837109ee9f4a06e0\",\"label\":\"2\",\"reason\":\"Winter migration directly names the seasonal movement described.\"},{\"id\":\"f2a87941a8b0474a0c84\",\"label\":\"0\",\"reason\":\"Scissors cut material; they are not typically used to grip items for bending and shaping.\"},{\"id\":\"42042dad074575801252\",\"label\":\"2\",\"reason\":\"Rainfall nourishes the ground and supports plant growth, matching the clue.\"},{\"id\":\"6c32b879504e85116dc2\",\"label\":\"1\",\"reason\":\"Elephants can be used to teach wildlife conservation, but the clue does not specify elephants.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 80,
+    "started": "2026-11-26T08:35:34.701924+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 703,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 319,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 666,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1369
+    }
+  }
+}
