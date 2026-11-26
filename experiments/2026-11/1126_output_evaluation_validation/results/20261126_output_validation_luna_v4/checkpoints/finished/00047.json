@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "5826d970b2d40c61d2e479544e720f555461443508cf416da9b3a87cc1bee76c",
+    "items": [
+      {
+        "id": "7a9d69357842e3a89bf4",
+        "label": "no",
+        "reason": "Rain is different from snow."
+      },
+      {
+        "id": "13421988a784832d7487",
+        "label": "no",
+        "reason": "A lion is not an elephant."
+      },
+      {
+        "id": "dd3f46b0f5fb6c4d090f",
+        "label": "yes",
+        "reason": "The answer directly names a drum."
+      },
+      {
+        "id": "3f62b61bddbcdda4fa44",
+        "label": "no",
+        "reason": "A grapefruit is not a pineapple."
+      },
+      {
+        "id": "02b6fd9882bae360937f",
+        "label": "no",
+        "reason": "“Memory Keeper” is an association, not an elephant."
+      },
+      {
+        "id": "f437dd172b14ebff629d",
+        "label": "yes",
+        "reason": "It identifies scissors and describes their function."
+      },
+      {
+        "id": "8b70338a618fa3439aa4",
+        "label": "no",
+        "reason": "Scissors are different from pliers."
+      },
+      {
+        "id": "01a078987e6ba1948e48",
+        "label": "yes",
+        "reason": "“Cacti” is the plural form of cactus."
+      },
+      {
+        "id": "fe4125cd318451d5dc75",
+        "label": "yes",
+        "reason": "It identifies scissors and describes their capability."
+      },
+      {
+        "id": "6d061d4555c0720f16f5",
+        "label": "no",
+        "reason": "“Craftsmanship tool” is a broad category, not specifically scissors."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"7a9d69357842e3a89bf4\",\"label\":\"no\",\"reason\":\"Rain is different from snow.\"},{\"id\":\"13421988a784832d7487\",\"label\":\"no\",\"reason\":\"A lion is not an elephant.\"},{\"id\":\"dd3f46b0f5fb6c4d090f\",\"label\":\"yes\",\"reason\":\"The answer directly names a drum.\"},{\"id\":\"3f62b61bddbcdda4fa44\",\"label\":\"no\",\"reason\":\"A grapefruit is not a pineapple.\"},{\"id\":\"02b6fd9882bae360937f\",\"label\":\"no\",\"reason\":\"“Memory Keeper” is an association, not an elephant.\"},{\"id\":\"f437dd172b14ebff629d\",\"label\":\"yes\",\"reason\":\"It identifies scissors and describes their function.\"},{\"id\":\"8b70338a618fa3439aa4\",\"label\":\"no\",\"reason\":\"Scissors are different from pliers.\"},{\"id\":\"01a078987e6ba1948e48\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural form of cactus.\"},{\"id\":\"fe4125cd318451d5dc75\",\"label\":\"yes\",\"reason\":\"It identifies scissors and describes their capability.\"},{\"id\":\"6d061d4555c0720f16f5\",\"label\":\"no\",\"reason\":\"“Craftsmanship tool” is a broad category, not specifically scissors.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 470,
+    "started": "2026-11-26T08:23:13.133773+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 474,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 156,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 520,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 994
+    }
+  }
+}
