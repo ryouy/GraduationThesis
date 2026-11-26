@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "eating preparation",
+      "sentence": "To prepare the fruit for eating, cooks cut away its crown and base, remove the rind, and slice out the firm core."
+    },
+    {
+      "fact_key": "flowering stalk development",
+      "sentence": "A flowering stalk rises from the plant’s center, carrying a dense cluster of blossoms that later develops into one fruit."
+    },
+    {
+      "fact_key": "gelatin setting interference",
+      "sentence": "Enzymes in fresh flesh can prevent gelatin desserts from setting by breaking down gelatin proteins; heating the fruit deactivates them."
+    },
+    {
+      "fact_key": "grilling and caramelization",
+      "sentence": "When grilled, the fruit’s natural sugars brown and caramelize, creating a sweeter surface while the interior warms."
+    },
+    {
+      "fact_key": "juice extraction",
+      "sentence": "Pressing ripe flesh releases juice that can be strained for drinks or used as a liquid ingredient in cooking."
+    },
+    {
+      "fact_key": "refrigeration after cutting",
+      "sentence": "Once cut, the fruit is best kept covered in a refrigerator, where cooling slows spoilage and helps preserve its quality."
+    },
+    {
+      "fact_key": "freezing and texture change",
+      "sentence": "Freezing chunks extends their storage life, though thawed pieces often become softer as ice crystals disrupt their tissues."
+    },
+    {
+      "fact_key": "vinegar fermentation",
+      "sentence": "In vinegar making, sugars in the fruit’s juice ferment into alcohol first, then bacteria convert the alcohol into acetic acid."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"To prepare the fruit for eating, cooks cut away its crown and base, remove the rind, and slice out the firm core.\",\"fact_key\":\"eating preparation\"},{\"sentence\":\"A flowering stalk rises from the plant’s center, carrying a dense cluster of blossoms that later develops into one fruit.\",\"fact_key\":\"flowering stalk development\"},{\"sentence\":\"Enzymes in fresh flesh can prevent gelatin desserts from setting by breaking down gelatin proteins; heating the fruit deactivates them.\",\"fact_key\":\"gelatin setting interference\"},{\"sentence\":\"When grilled, the fruit’s natural sugars brown and caramelize, creating a sweeter surface while the interior warms.\",\"fact_key\":\"grilling and caramelization\"},{\"sentence\":\"Pressing ripe flesh releases juice that can be strained for drinks or used as a liquid ingredient in cooking.\",\"fact_key\":\"juice extraction\"},{\"sentence\":\"Once cut, the fruit is best kept covered in a refrigerator, where cooling slows spoilage and helps preserve its quality.\",\"fact_key\":\"refrigeration after cutting\"},{\"sentence\":\"Freezing chunks extends their storage life, though thawed pieces often become softer as ice crystals disrupt their tissues.\",\"fact_key\":\"freezing and texture change\"},{\"sentence\":\"In vinegar making, sugars in the fruit’s juice ferment into alcohol first, then bacteria convert the alcohol into acetic acid.\",\"fact_key\":\"vinegar fermentation\"}]}",
+  "rejected": [],
+  "request_hash": "9d599a0a829db79c72f87def452b8c1e361005cce662769f3f8b750f929ac3fc",
+  "usage": {
+    "completion_tokens": 1370,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1073,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 998,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2368
+  }
+}
