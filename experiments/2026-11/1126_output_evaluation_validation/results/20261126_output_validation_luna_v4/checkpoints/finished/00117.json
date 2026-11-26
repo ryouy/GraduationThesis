@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "a4f4a396a90c815e6ddd4735ac9e80137e42f49b2b67a8d3b2435e2c967931a9",
+    "items": [
+      {
+        "id": "3ad198b83e5e2b9ae430",
+        "label": "0",
+        "reason": "Coral is attached to a surface rather than a soft, translucent animal drifting near the surface."
+      },
+      {
+        "id": "ae994072cb08c9b202fa",
+        "label": "1",
+        "reason": "It repeats the clue’s behavior but does not identify what the insects are, such as ants."
+      },
+      {
+        "id": "9bb69d5197b9d27d2712",
+        "label": "2",
+        "reason": "Grapefruit is a nutritious fruit that can be eaten as a snack in warm climates."
+      },
+      {
+        "id": "b9f27b17db9e1c622f4b",
+        "label": "1",
+        "reason": "Scissors can cut and shape materials, but the clue’s emphasis on gripping and holding materials fits another tool more naturally."
+      },
+      {
+        "id": "1054c625c297d344288f",
+        "label": "2",
+        "reason": "A bookcase is a tall room fixture that can display books and decorative items."
+      },
+      {
+        "id": "8a30e097c2c0c7f4b3a5",
+        "label": "2",
+        "reason": "The answer correctly identifies the falling spheres as raindrops."
+      },
+      {
+        "id": "cfcb2368c66991a95ce6",
+        "label": "1",
+        "reason": "It describes the gathering behavior but does not identify the small insect, such as an ant."
+      },
+      {
+        "id": "344917950eaced2cc33b",
+        "label": "1",
+        "reason": "The phrase describes the soil-aerating role but does not identify the creature, such as an earthworm."
+      },
+      {
+        "id": "a024def9de602866425d",
+        "label": "1",
+        "reason": "It captures collective organization but omits the small creature described in the clue."
+      },
+      {
+        "id": "378933d12c1f950441d0",
+        "label": "2",
+        "reason": "A bookcase has compartments or shelves for arranging decorative items and essentials."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"3ad198b83e5e2b9ae430\",\"label\":\"0\",\"reason\":\"Coral is attached to a surface rather than a soft, translucent animal drifting near the surface.\"},{\"id\":\"ae994072cb08c9b202fa\",\"label\":\"1\",\"reason\":\"It repeats the clue’s behavior but does not identify what the insects are, such as ants.\"},{\"id\":\"9bb69d5197b9d27d2712\",\"label\":\"2\",\"reason\":\"Grapefruit is a nutritious fruit that can be eaten as a snack in warm climates.\"},{\"id\":\"b9f27b17db9e1c622f4b\",\"label\":\"1\",\"reason\":\"Scissors can cut and shape materials, but the clue’s emphasis on gripping and holding materials fits another tool more naturally.\"},{\"id\":\"1054c625c297d344288f\",\"label\":\"2\",\"reason\":\"A bookcase is a tall room fixture that can display books and decorative items.\"},{\"id\":\"8a30e097c2c0c7f4b3a5\",\"label\":\"2\",\"reason\":\"The answer correctly identifies the falling spheres as raindrops.\"},{\"id\":\"cfcb2368c66991a95ce6\",\"label\":\"1\",\"reason\":\"It describes the gathering behavior but does not identify the small insect, such as an ant.\"},{\"id\":\"344917950eaced2cc33b\",\"label\":\"1\",\"reason\":\"The phrase describes the soil-aerating role but does not identify the creature, such as an earthworm.\"},{\"id\":\"a024def9de602866425d\",\"label\":\"1\",\"reason\":\"It captures collective organization but omits the small creature described in the clue.\"},{\"id\":\"378933d12c1f950441d0\",\"label\":\"2\",\"reason\":\"A bookcase has compartments or shelves for arranging decorative items and essentials.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 150,
+    "started": "2026-11-26T08:36:58.889308+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 820,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 408,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 706,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1526
+    }
+  }
+}
