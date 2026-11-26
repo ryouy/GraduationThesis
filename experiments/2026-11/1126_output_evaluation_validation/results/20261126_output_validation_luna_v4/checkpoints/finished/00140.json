@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "ea4a4c081a07cec73a114ae9dd600446d822b00343cfb78fba6f4787a80518db",
+    "items": [
+      {
+        "id": "efe0239efe2182a983ec",
+        "label": "2",
+        "reason": "Large ears are the feature described, and they help regulate body temperature."
+      },
+      {
+        "id": "ae23463902c4f181d390",
+        "label": "1",
+        "reason": "A guitar is a musical instrument that can support rhythm, but it does not naturally fit the clue’s jingle-making, audience-participation description."
+      },
+      {
+        "id": "77266b905209705b619d",
+        "label": "2",
+        "reason": "A durable bookshelf can stylishly organize and provide access to personal belongings."
+      },
+      {
+        "id": "f84948e3299e60be305a",
+        "label": "1",
+        "reason": "Drumming can add rhythm and energy, but the answer does not identify the described resonant object."
+      },
+      {
+        "id": "35bdfa9b0a3abcab4d50",
+        "label": "0",
+        "reason": "“Smoothie Magic” does not identify a fruit or match the clue’s ingredient description."
+      },
+      {
+        "id": "d55dff18becbb7255701",
+        "label": "2",
+        "reason": "A personal collection shelf fits the description of displaying treasured objects across multiple surfaces."
+      },
+      {
+        "id": "25fe43f842077b6fbf3c",
+        "label": "2",
+        "reason": "Cacti thrive in dry conditions, and some produce vibrant flowers."
+      },
+      {
+        "id": "73882ba2307360ff344e",
+        "label": "0",
+        "reason": "Scissors cut materials rather than providing a strong hold on them."
+      },
+      {
+        "id": "9ae5d5d5202a944cca31",
+        "label": "2",
+        "reason": "A bookcase is a tall, multi-level structure that can display decorative items."
+      },
+      {
+        "id": "3b757bf3111dc29f987e",
+        "label": "2",
+        "reason": "A jellyfish uses its tentacles to capture small prey, including fish and plankton."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"efe0239efe2182a983ec\",\"label\":\"2\",\"reason\":\"Large ears are the feature described, and they help regulate body temperature.\"},{\"id\":\"ae23463902c4f181d390\",\"label\":\"1\",\"reason\":\"A guitar is a musical instrument that can support rhythm, but it does not naturally fit the clue’s jingle-making, audience-participation description.\"},{\"id\":\"77266b905209705b619d\",\"label\":\"2\",\"reason\":\"A durable bookshelf can stylishly organize and provide access to personal belongings.\"},{\"id\":\"f84948e3299e60be305a\",\"label\":\"1\",\"reason\":\"Drumming can add rhythm and energy, but the answer does not identify the described resonant object.\"},{\"id\":\"35bdfa9b0a3abcab4d50\",\"label\":\"0\",\"reason\":\"“Smoothie Magic” does not identify a fruit or match the clue’s ingredient description.\"},{\"id\":\"d55dff18becbb7255701\",\"label\":\"2\",\"reason\":\"A personal collection shelf fits the description of displaying treasured objects across multiple surfaces.\"},{\"id\":\"25fe43f842077b6fbf3c\",\"label\":\"2\",\"reason\":\"Cacti thrive in dry conditions, and some produce vibrant flowers.\"},{\"id\":\"73882ba2307360ff344e\",\"label\":\"0\",\"reason\":\"Scissors cut materials rather than providing a strong hold on them.\"},{\"id\":\"9ae5d5d5202a944cca31\",\"label\":\"2\",\"reason\":\"A bookcase is a tall, multi-level structure that can display decorative items.\"},{\"id\":\"3b757bf3111dc29f987e\",\"label\":\"2\",\"reason\":\"A jellyfish uses its tentacles to capture small prey, including fish and plankton.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 350,
+    "started": "2026-11-26T09:32:57.873277+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 744,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 350,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 681,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1425
+    }
+  }
+}
