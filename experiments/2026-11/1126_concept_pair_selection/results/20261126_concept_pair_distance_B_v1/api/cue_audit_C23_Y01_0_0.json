@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C23_action_far_0_0",
+        "reason": "Mouthpiece buzzing is a brass-player practice that can apply to either instrument; no target name or alias appears.",
+        "x_related": 2,
+        "y_related": 2,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_action_unrelated_0_0",
+        "reason": "The clue concerns baking and has no relevant instrument connection or target name.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_action_very_near_0_0",
+        "reason": "Using valves with breath to change pitch strongly describes playing either instrument, but is not specific to the French horn.",
+        "x_related": 3,
+        "y_related": 3,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_action_very_near_0_2",
+        "reason": "Finger controls and steady breath fit valve brass playing generally, not the French horn uniquely.",
+        "x_related": 2,
+        "y_related": 2,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_function_medium_far_0_3",
+        "reason": "Scooping notes is an expressive brass-playing technique, more associated with trumpet than French horn, but not exclusive to either.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_function_medium_near_0_3",
+        "reason": "Cheerful notes at a gathering could be played on either instrument, but the context does not identify one.",
+        "x_related": 1,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_function_near_0_2",
+        "reason": "Military fanfares are strongly associated with trumpet; the connection to French horn is only a broad brass-instrument association.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_situation_far_0_1",
+        "reason": "A brassy flourish fits either instrument at a procession, without distinguishing between them.",
+        "x_related": 2,
+        "y_related": 2,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_situation_medium_far_0_3",
+        "reason": "An orchestral flourish could involve trumpet, while the general theater-orchestra context gives only a weaker connection to French horn.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_situation_medium_near_0_4",
+        "reason": "A brass player adding harmony could be either instrument; the caroling context is not French-horn-specific.",
+        "x_related": 2,
+        "y_related": 2,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_situation_near_0_4",
+        "reason": "A brass section playing a fight-song motif is strongly associated with trumpet, though French horn can also occur in a brass section.",
+        "x_related": 3,
+        "y_related": 2,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_structure_unrelated_0_2",
+        "reason": "The clue describes ladder construction and has no relevant instrument connection or target name.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C23_action_far_0_0\",\"x_related\":2,\"y_related\":2,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Mouthpiece buzzing is a brass-player practice that can apply to either instrument; no target name or alias appears.\"},{\"id\":\"gen_C23_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The clue concerns baking and has no relevant instrument connection or target name.\"},{\"id\":\"gen_C23_action_very_near_0_0\",\"x_related\":3,\"y_related\":3,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Using valves with breath to change pitch strongly describes playing either instrument, but is not specific to the French horn.\"},{\"id\":\"gen_C23_action_very_near_0_2\",\"x_related\":2,\"y_related\":2,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Finger controls and steady breath fit valve brass playing generally, not the French horn uniquely.\"},{\"id\":\"gen_C23_function_medium_far_0_3\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Scooping notes is an expressive brass-playing technique, more associated with trumpet than French horn, but not exclusive to either.\"},{\"id\":\"gen_C23_function_medium_near_0_3\",\"x_related\":1,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Cheerful notes at a gathering could be played on either instrument, but the context does not identify one.\"},{\"id\":\"gen_C23_function_near_0_2\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Military fanfares are strongly associated with trumpet; the connection to French horn is only a broad brass-instrument association.\"},{\"id\":\"gen_C23_situation_far_0_1\",\"x_related\":2,\"y_related\":2,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A brassy flourish fits either instrument at a procession, without distinguishing between them.\"},{\"id\":\"gen_C23_situation_medium_far_0_3\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"An orchestral flourish could involve trumpet, while the general theater-orchestra context gives only a weaker connection to French horn.\"},{\"id\":\"gen_C23_situation_medium_near_0_4\",\"x_related\":2,\"y_related\":2,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A brass player adding harmony could be either instrument; the caroling context is not French-horn-specific.\"},{\"id\":\"gen_C23_situation_near_0_4\",\"x_related\":3,\"y_related\":2,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A brass section playing a fight-song motif is strongly associated with trumpet, though French horn can also occur in a brass section.\"},{\"id\":\"gen_C23_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The clue describes ladder construction and has no relevant instrument connection or target name.\"}]}",
+  "usage": {
+    "completion_tokens": 1817,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1101,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 687,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2504
+  }
+}
