@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "0caa86fcfa7b269662a410e87b02a5876517d62a92b1858001c015545f24e855",
+    "items": [
+      {
+        "id": "e3a88cc427905d652157",
+        "label": "1",
+        "reason": "It captures the lively musical energy but does not identify the small instrument with jingles."
+      },
+      {
+        "id": "826da1bc60878ee4ca80",
+        "label": "1",
+        "reason": "A jellyfish is a marine animal, but the clue's navigation adaptations are too general to point to it specifically."
+      },
+      {
+        "id": "6a745fa9f35b2277d0f8",
+        "label": "2",
+        "reason": "Ants have shiny exoskeletons, slender bodies, and commonly work together to gather food."
+      },
+      {
+        "id": "9d6ab2da37c17e04cc26",
+        "label": "1",
+        "reason": "The answer fits lively performances but does not identify the instrument whose bright jingles invite movement."
+      },
+      {
+        "id": "59ce034b562b2fb84fc0",
+        "label": "2",
+        "reason": "Jellyfish have soft bodies and flowing appendages and glide through the ocean."
+      },
+      {
+        "id": "cde70f764f716d4cec72",
+        "label": "1",
+        "reason": "A bicycle can provide transportation and adventure, but the clue says both things do so and the answer names only one."
+      },
+      {
+        "id": "9767ae675cecb0a0e561",
+        "label": "2",
+        "reason": "Giraffes are commonly found in savannas and grasslands."
+      },
+      {
+        "id": "77b9b25a23ce86376a7b",
+        "label": "0",
+        "reason": "Scissors are designed for cutting, not for bending or shaping materials with precision."
+      },
+      {
+        "id": "d9d82ba6a3913fabfa18",
+        "label": "2",
+        "reason": "Cacti have thick, fleshy structures that retain water and help them thrive in arid conditions."
+      },
+      {
+        "id": "bd0d20013bc8f5f81e03",
+        "label": "2",
+        "reason": "A bookshelf is a tall, tiered furniture piece that can display functional and decorative items."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"e3a88cc427905d652157\",\"label\":\"1\",\"reason\":\"It captures the lively musical energy but does not identify the small instrument with jingles.\"},{\"id\":\"826da1bc60878ee4ca80\",\"label\":\"1\",\"reason\":\"A jellyfish is a marine animal, but the clue's navigation adaptations are too general to point to it specifically.\"},{\"id\":\"6a745fa9f35b2277d0f8\",\"label\":\"2\",\"reason\":\"Ants have shiny exoskeletons, slender bodies, and commonly work together to gather food.\"},{\"id\":\"9d6ab2da37c17e04cc26\",\"label\":\"1\",\"reason\":\"The answer fits lively performances but does not identify the instrument whose bright jingles invite movement.\"},{\"id\":\"59ce034b562b2fb84fc0\",\"label\":\"2\",\"reason\":\"Jellyfish have soft bodies and flowing appendages and glide through the ocean.\"},{\"id\":\"cde70f764f716d4cec72\",\"label\":\"1\",\"reason\":\"A bicycle can provide transportation and adventure, but the clue says both things do so and the answer names only one.\"},{\"id\":\"9767ae675cecb0a0e561\",\"label\":\"2\",\"reason\":\"Giraffes are commonly found in savannas and grasslands.\"},{\"id\":\"77b9b25a23ce86376a7b\",\"label\":\"0\",\"reason\":\"Scissors are designed for cutting, not for bending or shaping materials with precision.\"},{\"id\":\"d9d82ba6a3913fabfa18\",\"label\":\"2\",\"reason\":\"Cacti have thick, fleshy structures that retain water and help them thrive in arid conditions.\"},{\"id\":\"bd0d20013bc8f5f81e03\",\"label\":\"2\",\"reason\":\"A bookshelf is a tall, tiered furniture piece that can display functional and decorative items.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 30,
+    "started": "2026-11-26T08:34:38.038811+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 784,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 364,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 713,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1497
+    }
+  }
+}
