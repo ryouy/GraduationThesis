@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "0de20c7099f7d37b3f9b0a5fd2f517f05dd39103f84a2a25a610e9795da414e7",
+    "items": [
+      {
+        "id": "7b5dad03c83dcd480211",
+        "label": "2",
+        "reason": "Describes rain and its nourishing effect, matching the droplets that descend and enrich the land."
+      },
+      {
+        "id": "ad762cfce5f46230d2ed",
+        "label": "2",
+        "reason": "A layer of snowflakes fits the soft white blanket formed by falling snow."
+      },
+      {
+        "id": "2972b4f0ad41c7a0f4a4",
+        "label": "1",
+        "reason": "It refers generally to a craft tool but does not identify the hand tool used to bend wire."
+      },
+      {
+        "id": "8a590c8b23988ba12b2f",
+        "label": "2",
+        "reason": "A bookcase can stand against a wall, display items, and keep frequently used things accessible."
+      },
+      {
+        "id": "8b19bc3dd525ea98b11f",
+        "label": "2",
+        "reason": "It directly describes raindrops falling from the sky and refreshing the earth."
+      },
+      {
+        "id": "6b40557d615509b47532",
+        "label": "0",
+        "reason": "“Circumnavigation instrument” is not a recognizable musical instrument and does not fit the clue."
+      },
+      {
+        "id": "902ec113dc4f6580debe",
+        "label": "2",
+        "reason": "Elephants are found in regions of both Africa and Asia."
+      },
+      {
+        "id": "4dcdb54abfc6afe6513b",
+        "label": "1",
+        "reason": "It relates to smoothies but does not identify the fruit described."
+      },
+      {
+        "id": "e417d480e4e9c66dd5b1",
+        "label": "2",
+        "reason": "A bookshelf can organize items and contribute to a room’s decor."
+      },
+      {
+        "id": "c71d47d9224f4856b0b0",
+        "label": "1",
+        "reason": "It gives only a generic animal description and does not identify an animal with large temperature-regulating ears."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 2,
+    "raw": "{\"items\":[{\"id\":\"7b5dad03c83dcd480211\",\"label\":\"2\",\"reason\":\"Describes rain and its nourishing effect, matching the droplets that descend and enrich the land.\"},{\"id\":\"ad762cfce5f46230d2ed\",\"label\":\"2\",\"reason\":\"A layer of snowflakes fits the soft white blanket formed by falling snow.\"},{\"id\":\"2972b4f0ad41c7a0f4a4\",\"label\":\"1\",\"reason\":\"It refers generally to a craft tool but does not identify the hand tool used to bend wire.\"},{\"id\":\"8a590c8b23988ba12b2f\",\"label\":\"2\",\"reason\":\"A bookcase can stand against a wall, display items, and keep frequently used things accessible.\"},{\"id\":\"8b19bc3dd525ea98b11f\",\"label\":\"2\",\"reason\":\"It directly describes raindrops falling from the sky and refreshing the earth.\"},{\"id\":\"6b40557d615509b47532\",\"label\":\"0\",\"reason\":\"“Circumnavigation instrument” is not a recognizable musical instrument and does not fit the clue.\"},{\"id\":\"902ec113dc4f6580debe\",\"label\":\"2\",\"reason\":\"Elephants are found in regions of both Africa and Asia.\"},{\"id\":\"4dcdb54abfc6afe6513b\",\"label\":\"1\",\"reason\":\"It relates to smoothies but does not identify the fruit described.\"},{\"id\":\"e417d480e4e9c66dd5b1\",\"label\":\"2\",\"reason\":\"A bookshelf can organize items and contribute to a room’s decor.\"},{\"id\":\"c71d47d9224f4856b0b0\",\"label\":\"1\",\"reason\":\"It gives only a generic animal description and does not identify an animal with large temperature-regulating ears.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 110,
+    "started": "2026-11-26T08:36:18.437182+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 598,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 197,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 711,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1309
+    }
+  }
+}
