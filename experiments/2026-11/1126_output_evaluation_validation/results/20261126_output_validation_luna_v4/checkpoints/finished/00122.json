@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "546b3057469b76f94d6ded4da6ab606dfccaafc6ebf609ccdf504a7a6fb9b14a",
+    "items": [
+      {
+        "id": "6529aa04f0ee91e8d8b8",
+        "label": "2",
+        "reason": "Raindrops are liquid droplets descending from the atmosphere and can refresh the landscape."
+      },
+      {
+        "id": "ca3d1e232dac9d59c488",
+        "label": "1",
+        "reason": "A guitar can accompany lively performances, but its sound is not characterized by bright jingling."
+      },
+      {
+        "id": "5ef85f79bb0a87d2b272",
+        "label": "2",
+        "reason": "Rain provides hydration to plants and soil and can rejuvenate the landscape."
+      },
+      {
+        "id": "91a35189e6c2253a12aa",
+        "label": "0",
+        "reason": "Jellyfish are not known for squeezing their flexible bodies into tight spaces; that trait better fits animals such as octopuses."
+      },
+      {
+        "id": "a704ce3d218027950f78",
+        "label": "1",
+        "reason": "A bicycle is often human-powered, but “pedestrian bike” is an imprecise name for it."
+      },
+      {
+        "id": "045a0813d772ae148546",
+        "label": "0",
+        "reason": "Scissors cut materials when squeezed; they do not provide a strong holding grip."
+      },
+      {
+        "id": "f33de2d3805b078bcf58",
+        "label": "2",
+        "reason": "The Sahara is indeed a scorching desert with extreme temperatures and arid conditions."
+      },
+      {
+        "id": "2d1a82b50b180a7d6437",
+        "label": "1",
+        "reason": "Grapefruit is a juicy fruit, but its flesh is typically tart rather than naturally sweet, and it is not especially associated with summer desserts."
+      },
+      {
+        "id": "1f3558e460d7a819fa4b",
+        "label": "2",
+        "reason": "A personal collection organizer can provide an organized display for treasured and decorative objects."
+      },
+      {
+        "id": "23f8a501821b586b21c2",
+        "label": "1",
+        "reason": "Grapefruit is used in smoothies and desserts, but its interior is juicy rather than soft and creamy."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"6529aa04f0ee91e8d8b8\",\"label\":\"2\",\"reason\":\"Raindrops are liquid droplets descending from the atmosphere and can refresh the landscape.\"},{\"id\":\"ca3d1e232dac9d59c488\",\"label\":\"1\",\"reason\":\"A guitar can accompany lively performances, but its sound is not characterized by bright jingling.\"},{\"id\":\"5ef85f79bb0a87d2b272\",\"label\":\"2\",\"reason\":\"Rain provides hydration to plants and soil and can rejuvenate the landscape.\"},{\"id\":\"91a35189e6c2253a12aa\",\"label\":\"0\",\"reason\":\"Jellyfish are not known for squeezing their flexible bodies into tight spaces; that trait better fits animals such as octopuses.\"},{\"id\":\"a704ce3d218027950f78\",\"label\":\"1\",\"reason\":\"A bicycle is often human-powered, but “pedestrian bike” is an imprecise name for it.\"},{\"id\":\"045a0813d772ae148546\",\"label\":\"0\",\"reason\":\"Scissors cut materials when squeezed; they do not provide a strong holding grip.\"},{\"id\":\"f33de2d3805b078bcf58\",\"label\":\"2\",\"reason\":\"The Sahara is indeed a scorching desert with extreme temperatures and arid conditions.\"},{\"id\":\"2d1a82b50b180a7d6437\",\"label\":\"1\",\"reason\":\"Grapefruit is a juicy fruit, but its flesh is typically tart rather than naturally sweet, and it is not especially associated with summer desserts.\"},{\"id\":\"1f3558e460d7a819fa4b\",\"label\":\"2\",\"reason\":\"A personal collection organizer can provide an organized display for treasured and decorative objects.\"},{\"id\":\"23f8a501821b586b21c2\",\"label\":\"1\",\"reason\":\"Grapefruit is used in smoothies and desserts, but its interior is juicy rather than soft and creamy.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 190,
+    "started": "2026-11-26T08:41:29.762473+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 782,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 352,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 678,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1460
+    }
+  }
+}
