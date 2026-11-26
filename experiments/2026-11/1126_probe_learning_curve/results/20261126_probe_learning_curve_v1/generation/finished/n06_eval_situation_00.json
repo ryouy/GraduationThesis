@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "air-independent propulsion",
+      "sentence": "With air-independent propulsion, some non-nuclear vessels can remain underwater longer without running diesel engines or raising an air intake."
+    },
+    {
+      "fact_key": "satellite position fixes",
+      "sentence": "During brief surface intervals, exposed satellite-navigation antennas can obtain position fixes that correct accumulated errors in inertial estimates."
+    },
+    {
+      "fact_key": "dry-dock maintenance",
+      "sentence": "During shipyard overhauls, a dry dock supports the hull above water, letting workers inspect and repair normally immersed surfaces."
+    },
+    {
+      "fact_key": "wave avoidance",
+      "sentence": "In heavy seas, traveling below the wave zone avoids much surface motion, though currents can still alter a vessel’s track."
+    },
+    {
+      "fact_key": "acoustic communication",
+      "sentence": "When radio contact is unavailable, nearby vessels can exchange short, low-rate messages through acoustic communication in the surrounding water."
+    },
+    {
+      "fact_key": "provisions limit patrols",
+      "sentence": "On extended patrols, food supplies often set the maximum deployment length, even when the propulsion system could operate longer."
+    },
+    {
+      "fact_key": "surface radar use",
+      "sentence": "After surfacing, crews may use radar to locate nearby ships and aircraft, since radio-frequency sensing does not work through seawater."
+    },
+    {
+      "fact_key": "tidal-current navigation",
+      "sentence": "In narrow straits with strong tidal flow, navigators compensate for water movement that can push a vessel away from its intended course."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"With air-independent propulsion, some non-nuclear vessels can remain underwater longer without running diesel engines or raising an air intake.\",\"fact_key\":\"air-independent propulsion\"},{\"sentence\":\"During brief surface intervals, exposed satellite-navigation antennas can obtain position fixes that correct accumulated errors in inertial estimates.\",\"fact_key\":\"satellite position fixes\"},{\"sentence\":\"During shipyard overhauls, a dry dock supports the hull above water, letting workers inspect and repair normally immersed surfaces.\",\"fact_key\":\"dry-dock maintenance\"},{\"sentence\":\"In heavy seas, traveling below the wave zone avoids much surface motion, though currents can still alter a vessel’s track.\",\"fact_key\":\"wave avoidance\"},{\"sentence\":\"When radio contact is unavailable, nearby vessels can exchange short, low-rate messages through acoustic communication in the surrounding water.\",\"fact_key\":\"acoustic communication\"},{\"sentence\":\"On extended patrols, food supplies often set the maximum deployment length, even when the propulsion system could operate longer.\",\"fact_key\":\"provisions limit patrols\"},{\"sentence\":\"After surfacing, crews may use radar to locate nearby ships and aircraft, since radio-frequency sensing does not work through seawater.\",\"fact_key\":\"surface radar use\"},{\"sentence\":\"In narrow straits with strong tidal flow, navigators compensate for water movement that can push a vessel away from its intended course.\",\"fact_key\":\"tidal-current navigation\"}]}",
+  "rejected": [],
+  "request_hash": "94ad8351accbb64bb41c0b2f027b45ae87cf69857873a0366f150328529dbe18",
+  "usage": {
+    "completion_tokens": 2697,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2387,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2951,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2948,
+      "cached_tokens": 0
+    },
+    "total_tokens": 5648
+  }
+}
