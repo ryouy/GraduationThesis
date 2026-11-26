@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "b98f7a15a082ded12210325137bbde5c1168f9f86d928f3079c0f742af40ffcc",
+    "items": [
+      {
+        "id": "81022689d1212a9c7d5a",
+        "label": "2",
+        "reason": "Ants commonly navigate trails and gather resources for their colony."
+      },
+      {
+        "id": "5e5b1ce8aee842a50f97",
+        "label": "0",
+        "reason": "The clue describes tiny biological workers carrying food, not delivery drones."
+      },
+      {
+        "id": "12d60308bf535af93827",
+        "label": "2",
+        "reason": "Cacti have fleshy water-storing structures that help them withstand dry conditions."
+      },
+      {
+        "id": "3a3e98705bd5b60d7b6d",
+        "label": "1",
+        "reason": "A crate is portable and can fit in small spaces, but the clue's reference to parking suggests a vehicle."
+      },
+      {
+        "id": "17719290aa3e9632cf4b",
+        "label": "2",
+        "reason": "Elephants can weigh several tons and are often described as gentle giants."
+      },
+      {
+        "id": "3eeac61c19b8faaa98b3",
+        "label": "1",
+        "reason": "The answer gestures toward a protective creature but is too generic to identify one."
+      },
+      {
+        "id": "f864ab51b0cbe4bc0c23",
+        "label": "1",
+        "reason": "It relates to rhythm and music, but describes drumming rather than identifying the smooth-surfaced resonant object in the clue."
+      },
+      {
+        "id": "ffdba3c72a8a7d53e309",
+        "label": "1",
+        "reason": "It broadly describes adaptable transport but does not identify a particular mode."
+      },
+      {
+        "id": "67d7af1d8924f6d78086",
+        "label": "1",
+        "reason": "A beetle is an insect, but organized food-gathering formations and community teamwork more strongly suggest ants."
+      },
+      {
+        "id": "d266c08a2327ecd9b793",
+        "label": "2",
+        "reason": "Cacti store moisture in fleshy structures and are adapted to intense sun and scarce water."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"81022689d1212a9c7d5a\",\"label\":\"2\",\"reason\":\"Ants commonly navigate trails and gather resources for their colony.\"},{\"id\":\"5e5b1ce8aee842a50f97\",\"label\":\"0\",\"reason\":\"The clue describes tiny biological workers carrying food, not delivery drones.\"},{\"id\":\"12d60308bf535af93827\",\"label\":\"2\",\"reason\":\"Cacti have fleshy water-storing structures that help them withstand dry conditions.\"},{\"id\":\"3a3e98705bd5b60d7b6d\",\"label\":\"1\",\"reason\":\"A crate is portable and can fit in small spaces, but the clue's reference to parking suggests a vehicle.\"},{\"id\":\"17719290aa3e9632cf4b\",\"label\":\"2\",\"reason\":\"Elephants can weigh several tons and are often described as gentle giants.\"},{\"id\":\"3eeac61c19b8faaa98b3\",\"label\":\"1\",\"reason\":\"The answer gestures toward a protective creature but is too generic to identify one.\"},{\"id\":\"f864ab51b0cbe4bc0c23\",\"label\":\"1\",\"reason\":\"It relates to rhythm and music, but describes drumming rather than identifying the smooth-surfaced resonant object in the clue.\"},{\"id\":\"ffdba3c72a8a7d53e309\",\"label\":\"1\",\"reason\":\"It broadly describes adaptable transport but does not identify a particular mode.\"},{\"id\":\"67d7af1d8924f6d78086\",\"label\":\"1\",\"reason\":\"A beetle is an insect, but organized food-gathering formations and community teamwork more strongly suggest ants.\"},{\"id\":\"d266c08a2327ecd9b793\",\"label\":\"2\",\"reason\":\"Cacti store moisture in fleshy structures and are adapted to intense sun and scarce water.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 160,
+    "started": "2026-11-26T08:37:09.986202+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 682,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 269,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 670,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1352
+    }
+  }
+}
