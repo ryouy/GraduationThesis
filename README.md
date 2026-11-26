@@ -1,5 +1,8 @@
-[Web ver.](https://ryouy.github.io/GraduationThesis/)
 # Graduation Thesis｜LLMにおける抑制概念と意味的距離
+
+<!-- github-only:start -->
+[![Web版で読む](https://img.shields.io/badge/研究資料-Web版-2563eb?style=flat&logo=readthedocs&logoColor=white)](https://ryouy.github.io/GraduationThesis/)
+<!-- github-only:end -->
 
 LLMに対する「Xについて考えないで」という抑制指示の下で、手がかりの意味的距離と内部表現の関係をConcept Probe・Logit Lensで分析する卒業研究のリポジトリ。最終出力は内部解析との対応を見るための補助指標として扱います。
 
