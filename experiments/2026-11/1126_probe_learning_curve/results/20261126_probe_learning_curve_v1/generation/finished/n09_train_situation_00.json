@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "engine-mount-repair",
+      "sentence": "In an auto repair bay, a long-handled hand tool tightens engine-mount fasteners after the powertrain has been positioned."
+    },
+    {
+      "fact_key": "sink-basin-installation",
+      "sentence": "Under a kitchen sink, a plumber turns the basin-retaining nut in the confined space around the fixture."
+    },
+    {
+      "fact_key": "farm-machinery-maintenance",
+      "sentence": "During farm equipment maintenance, technicians secure loose guards and brackets before machinery returns to field service."
+    },
+    {
+      "fact_key": "scaffold-assembly",
+      "sentence": "On construction sites, workers tighten scaffold couplers as they assemble temporary access structures."
+    },
+    {
+      "fact_key": "radiator-pipe-repair",
+      "sentence": "A heating technician turns a radiator pipe union nut while repairing a home's hot-water system."
+    },
+    {
+      "fact_key": "refrigerator-compressor-repair",
+      "sentence": "At an appliance workshop, repairers secure compressor mounting bolts after replacing a refrigerator component."
+    },
+    {
+      "fact_key": "machine-shop-fixture-setup",
+      "sentence": "In a machine shop, machinists tighten nuts on workholding fixtures before beginning a cutting operation."
+    },
+    {
+      "fact_key": "portable-generator-field-repair",
+      "sentence": "During a remote repair, a portable generator's fittings can be tightened without relying on powered equipment."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In an auto repair bay, a long-handled hand tool tightens engine-mount fasteners after the powertrain has been positioned.\",\"fact_key\":\"engine-mount-repair\"},{\"sentence\":\"Under a kitchen sink, a plumber turns the basin-retaining nut in the confined space around the fixture.\",\"fact_key\":\"sink-basin-installation\"},{\"sentence\":\"During farm equipment maintenance, technicians secure loose guards and brackets before machinery returns to field service.\",\"fact_key\":\"farm-machinery-maintenance\"},{\"sentence\":\"On construction sites, workers tighten scaffold couplers as they assemble temporary access structures.\",\"fact_key\":\"scaffold-assembly\"},{\"sentence\":\"A heating technician turns a radiator pipe union nut while repairing a home's hot-water system.\",\"fact_key\":\"radiator-pipe-repair\"},{\"sentence\":\"At an appliance workshop, repairers secure compressor mounting bolts after replacing a refrigerator component.\",\"fact_key\":\"refrigerator-compressor-repair\"},{\"sentence\":\"In a machine shop, machinists tighten nuts on workholding fixtures before beginning a cutting operation.\",\"fact_key\":\"machine-shop-fixture-setup\"},{\"sentence\":\"During a remote repair, a portable generator's fittings can be tightened without relying on powered equipment.\",\"fact_key\":\"portable-generator-field-repair\"}]}",
+  "rejected": [],
+  "request_hash": "16207076d610f0c3f84fbd6c28201c81d75653be8a8e1eaccb83948ac0fa065b",
+  "usage": {
+    "completion_tokens": 1051,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 783,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1346,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1343,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2397
+  }
+}
