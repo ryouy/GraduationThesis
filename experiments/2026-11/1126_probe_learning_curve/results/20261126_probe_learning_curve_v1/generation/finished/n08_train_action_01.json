@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "valve_oiling",
+      "sentence": "A few drops of valve oil on clean pistons help them move quickly and return smoothly after each finger press."
+    },
+    {
+      "fact_key": "double_tonguing",
+      "sentence": "In fast passages, alternating tongue syllables like “ta” and “ka” allows repeated notes to be articulated without interrupting airflow."
+    },
+    {
+      "fact_key": "flutter_tonguing",
+      "sentence": "A fluttering tongue rolled against the roof of the mouth adds a rough, buzzing effect while the player sustains a note."
+    },
+    {
+      "fact_key": "plunger_mute_motion",
+      "sentence": "Moving a plunger mute toward and away from the bell creates changing, speech-like wah effects during a phrase."
+    },
+    {
+      "fact_key": "vibrato_production",
+      "sentence": "Players produce vibrato by subtly wavering pitch or intensity, often through controlled jaw motion or changes in breath pressure."
+    },
+    {
+      "fact_key": "playing_hand_positions",
+      "sentence": "The performer typically supports the instrument with the left hand while the right fingers operate its valves."
+    },
+    {
+      "fact_key": "mouthpiece_cleaning",
+      "sentence": "After use, the mouthpiece can be removed and cleaned separately to clear saliva and residue from its narrow passage."
+    },
+    {
+      "fact_key": "lip_trill",
+      "sentence": "A lip trill alternates rapidly between neighboring harmonic notes, usually without changing valve positions."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"A few drops of valve oil on clean pistons help them move quickly and return smoothly after each finger press.\",\"fact_key\":\"valve_oiling\"},{\"sentence\":\"In fast passages, alternating tongue syllables like “ta” and “ka” allows repeated notes to be articulated without interrupting airflow.\",\"fact_key\":\"double_tonguing\"},{\"sentence\":\"A fluttering tongue rolled against the roof of the mouth adds a rough, buzzing effect while the player sustains a note.\",\"fact_key\":\"flutter_tonguing\"},{\"sentence\":\"Moving a plunger mute toward and away from the bell creates changing, speech-like wah effects during a phrase.\",\"fact_key\":\"plunger_mute_motion\"},{\"sentence\":\"Players produce vibrato by subtly wavering pitch or intensity, often through controlled jaw motion or changes in breath pressure.\",\"fact_key\":\"vibrato_production\"},{\"sentence\":\"The performer typically supports the instrument with the left hand while the right fingers operate its valves.\",\"fact_key\":\"playing_hand_positions\"},{\"sentence\":\"After use, the mouthpiece can be removed and cleaned separately to clear saliva and residue from its narrow passage.\",\"fact_key\":\"mouthpiece_cleaning\"},{\"sentence\":\"A lip trill alternates rapidly between neighboring harmonic notes, usually without changing valve positions.\",\"fact_key\":\"lip_trill\"}]}",
+  "rejected": [],
+  "request_hash": "987605c44b4ede9786a5e31650d0a927783ae18934cba05056e97257c2fa46f2",
+  "usage": {
+    "completion_tokens": 1465,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1180,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 997,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2462
+  }
+}
