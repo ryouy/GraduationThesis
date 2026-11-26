@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "8fa2c2db28f470df106d62bced63c2454942732a4cdd1fd5be648d790cc78470",
+    "items": [
+      {
+        "id": "a05d53b86c21ddc6111d",
+        "label": "no",
+        "reason": "Scissors are a different cutting tool, not pliers."
+      },
+      {
+        "id": "653153bba9759be02fa3",
+        "label": "yes",
+        "reason": "The answer directly names a bicycle."
+      },
+      {
+        "id": "d53762dc483573f232b4",
+        "label": "yes",
+        "reason": "The answer directly names a cactus."
+      },
+      {
+        "id": "263cbe35cdafaa228cb2",
+        "label": "yes",
+        "reason": "Cacti is the plural form of cactus."
+      },
+      {
+        "id": "25fd2c2c8919b48f203f",
+        "label": "yes",
+        "reason": "The answer directly names a jellyfish."
+      },
+      {
+        "id": "bfd265b28075d25b9268",
+        "label": "no",
+        "reason": "A bookshelf is a different piece of furniture, not a cabinet."
+      },
+      {
+        "id": "86d2f22c3ee863bc9d30",
+        "label": "no",
+        "reason": "A guitar is a different musical instrument."
+      },
+      {
+        "id": "a0693325ce0f45d65b25",
+        "label": "no",
+        "reason": "A jellyfish is not an octopus."
+      },
+      {
+        "id": "196e3fce1fcd5ee311f7",
+        "label": "no",
+        "reason": "The answer describes drumming generally, not a tambourine."
+      },
+      {
+        "id": "6c03d3e9817e8a48009d",
+        "label": "yes",
+        "reason": "A rain shower is a form of rain."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"a05d53b86c21ddc6111d\",\"label\":\"no\",\"reason\":\"Scissors are a different cutting tool, not pliers.\"},{\"id\":\"653153bba9759be02fa3\",\"label\":\"yes\",\"reason\":\"The answer directly names a bicycle.\"},{\"id\":\"d53762dc483573f232b4\",\"label\":\"yes\",\"reason\":\"The answer directly names a cactus.\"},{\"id\":\"263cbe35cdafaa228cb2\",\"label\":\"yes\",\"reason\":\"Cacti is the plural form of cactus.\"},{\"id\":\"25fd2c2c8919b48f203f\",\"label\":\"yes\",\"reason\":\"The answer directly names a jellyfish.\"},{\"id\":\"bfd265b28075d25b9268\",\"label\":\"no\",\"reason\":\"A bookshelf is a different piece of furniture, not a cabinet.\"},{\"id\":\"86d2f22c3ee863bc9d30\",\"label\":\"no\",\"reason\":\"A guitar is a different musical instrument.\"},{\"id\":\"a0693325ce0f45d65b25\",\"label\":\"no\",\"reason\":\"A jellyfish is not an octopus.\"},{\"id\":\"196e3fce1fcd5ee311f7\",\"label\":\"no\",\"reason\":\"The answer describes drumming generally, not a tambourine.\"},{\"id\":\"6c03d3e9817e8a48009d\",\"label\":\"yes\",\"reason\":\"A rain shower is a form of rain.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 960,
+    "started": "2026-11-26T08:32:53.476106+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 439,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 109,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 527,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 966
+    }
+  }
+}
