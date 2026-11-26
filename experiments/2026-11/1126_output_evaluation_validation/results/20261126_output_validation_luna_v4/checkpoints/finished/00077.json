@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "c2cae32c34b462cdfaa2d975a82823562c248fa5f055b17df325aba86f94ce7c",
+    "items": [
+      {
+        "id": "777622305c1a16018385",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit, not a banana."
+      },
+      {
+        "id": "43a28801a92234502977",
+        "label": "no",
+        "reason": "Describes drumming as an activity, not a drum."
+      },
+      {
+        "id": "59a025b5813004f2bbcf",
+        "label": "no",
+        "reason": "A bookcase is related storage furniture but is not itself a cabinet."
+      },
+      {
+        "id": "75fefd6e81830ee03cf3",
+        "label": "no",
+        "reason": "Describes a broad animal trait, not specifically a lion."
+      },
+      {
+        "id": "20b561c5057537372501",
+        "label": "no",
+        "reason": "Describes a broad animal trait and does not identify an elephant."
+      },
+      {
+        "id": "9a1cd6c86a200788484c",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit, not a pineapple."
+      },
+      {
+        "id": "fca3aa5b516a30a207dd",
+        "label": "no",
+        "reason": "Winter migration does not identify a bicycle."
+      },
+      {
+        "id": "cce29de2fea77ef80d30",
+        "label": "no",
+        "reason": "Mentions silence, not a tambourine."
+      },
+      {
+        "id": "9690ee8f269d54486ffa",
+        "label": "no",
+        "reason": "Scissors are a different tool from pliers."
+      },
+      {
+        "id": "243da83a35b9e9785a40",
+        "label": "no",
+        "reason": "Describes a bicycle, not a submarine."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"777622305c1a16018385\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit, not a banana.\"},{\"id\":\"43a28801a92234502977\",\"label\":\"no\",\"reason\":\"Describes drumming as an activity, not a drum.\"},{\"id\":\"59a025b5813004f2bbcf\",\"label\":\"no\",\"reason\":\"A bookcase is related storage furniture but is not itself a cabinet.\"},{\"id\":\"75fefd6e81830ee03cf3\",\"label\":\"no\",\"reason\":\"Describes a broad animal trait, not specifically a lion.\"},{\"id\":\"20b561c5057537372501\",\"label\":\"no\",\"reason\":\"Describes a broad animal trait and does not identify an elephant.\"},{\"id\":\"9a1cd6c86a200788484c\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit, not a pineapple.\"},{\"id\":\"fca3aa5b516a30a207dd\",\"label\":\"no\",\"reason\":\"Winter migration does not identify a bicycle.\"},{\"id\":\"cce29de2fea77ef80d30\",\"label\":\"no\",\"reason\":\"Mentions silence, not a tambourine.\"},{\"id\":\"9690ee8f269d54486ffa\",\"label\":\"no\",\"reason\":\"Scissors are a different tool from pliers.\"},{\"id\":\"243da83a35b9e9785a40\",\"label\":\"no\",\"reason\":\"Describes a bicycle, not a submarine.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 760,
+    "started": "2026-11-26T08:27:40.802183+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 476,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 141,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 526,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1002
+    }
+  }
+}
