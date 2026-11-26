@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "Filipino chicken stew",
+      "sentence": "In Filipino pininyahang manok, sweet, juicy chunks simmer with chicken and aromatics, giving the stew a fruity counterpoint."
+    },
+    {
+      "fact_key": "decorative serving vessel",
+      "sentence": "Some Thai-style fried rice is presented in a hollowed outer casing, which serves as a decorative bowl for the meal."
+    },
+    {
+      "fact_key": "cocktail garnish",
+      "sentence": "A fresh wedge often garnishes cocktail glasses, adding color and a tropical accent to the presentation."
+    },
+    {
+      "fact_key": "composting scraps",
+      "sentence": "Kitchen scraps can be composted, where microbial breakdown turns them into organic matter for garden soil."
+    },
+    {
+      "fact_key": "burn wound debridement",
+      "sentence": "A concentrated protease preparation from the plant’s stems is used medically to remove dead tissue from severe burns."
+    },
+    {
+      "fact_key": "chili-lime snack",
+      "sentence": "In parts of Mexico, vendors serve juicy chunks with chili powder and lime as a sweet-tart street snack."
+    },
+    {
+      "fact_key": "cocktail base",
+      "sentence": "Blended with rum and coconut cream, its juice forms the familiar base of a piña colada cocktail."
+    },
+    {
+      "fact_key": "yogurt addition",
+      "sentence": "Pieces can be stirred into plain yogurt, adding fruity sweetness and acidity to breakfast bowls or snacks."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In Filipino pininyahang manok, sweet, juicy chunks simmer with chicken and aromatics, giving the stew a fruity counterpoint.\",\"fact_key\":\"Filipino chicken stew\"},{\"sentence\":\"Some Thai-style fried rice is presented in a hollowed outer casing, which serves as a decorative bowl for the meal.\",\"fact_key\":\"decorative serving vessel\"},{\"sentence\":\"A fresh wedge often garnishes cocktail glasses, adding color and a tropical accent to the presentation.\",\"fact_key\":\"cocktail garnish\"},{\"sentence\":\"Kitchen scraps can be composted, where microbial breakdown turns them into organic matter for garden soil.\",\"fact_key\":\"composting scraps\"},{\"sentence\":\"A concentrated protease preparation from the plant’s stems is used medically to remove dead tissue from severe burns.\",\"fact_key\":\"burn wound debridement\"},{\"sentence\":\"In parts of Mexico, vendors serve juicy chunks with chili powder and lime as a sweet-tart street snack.\",\"fact_key\":\"chili-lime snack\"},{\"sentence\":\"Blended with rum and coconut cream, its juice forms the familiar base of a piña colada cocktail.\",\"fact_key\":\"cocktail base\"},{\"sentence\":\"Pieces can be stirred into plain yogurt, adding fruity sweetness and acidity to breakfast bowls or snacks.\",\"fact_key\":\"yogurt addition\"}]}",
+  "rejected": [],
+  "request_hash": "08ccc1ac2b930bcc2dbe7064910e90e3c56d561c8168fb2ba9ef976e5026d524",
+  "usage": {
+    "completion_tokens": 3373,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3072,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 3236,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 3233,
+      "cached_tokens": 0
+    },
+    "total_tokens": 6609
+  }
+}
