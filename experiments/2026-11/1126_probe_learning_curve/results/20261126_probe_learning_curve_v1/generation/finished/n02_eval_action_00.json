@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "placing_heavy_items_low",
+      "sentence": "Heavier reference volumes are usually placed on lower tiers, keeping the center of mass low and improving stability."
+    },
+    {
+      "fact_key": "allowing_removal_clearance",
+      "sentence": "Leaving a little headroom above upright volumes makes them easier to grasp and remove without scraping the level above."
+    },
+    {
+      "fact_key": "inserting_new_acquisitions",
+      "sentence": "When adding new acquisitions, staff may shift neighboring items aside before inserting each volume in its intended sequence."
+    },
+    {
+      "fact_key": "labeling_sections",
+      "sentence": "Small labels along front edges can identify subject sections, helping users return items to the correct location."
+    },
+    {
+      "fact_key": "cover_forward_promotion",
+      "sentence": "Libraries may display selected titles with their covers facing outward to draw attention to particular recommendations or new arrivals."
+    },
+    {
+      "fact_key": "checking_inventory",
+      "sentence": "During inventory, workers scan spines in sequence and compare entries with a catalog to find misplaced volumes."
+    },
+    {
+      "fact_key": "reserving_expansion_space",
+      "sentence": "Leaving an unoccupied section beside a growing collection allows new arrivals to be added without reorganizing the entire arrangement."
+    },
+    {
+      "fact_key": "checking_for_wobble",
+      "sentence": "After assembly, a gentle push at an upper corner can reveal wobbling that needs correction before the unit is loaded."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Heavier reference volumes are usually placed on lower tiers, keeping the center of mass low and improving stability.\",\"fact_key\":\"placing_heavy_items_low\"},{\"sentence\":\"Leaving a little headroom above upright volumes makes them easier to grasp and remove without scraping the level above.\",\"fact_key\":\"allowing_removal_clearance\"},{\"sentence\":\"When adding new acquisitions, staff may shift neighboring items aside before inserting each volume in its intended sequence.\",\"fact_key\":\"inserting_new_acquisitions\"},{\"sentence\":\"Small labels along front edges can identify subject sections, helping users return items to the correct location.\",\"fact_key\":\"labeling_sections\"},{\"sentence\":\"Libraries may display selected titles with their covers facing outward to draw attention to particular recommendations or new arrivals.\",\"fact_key\":\"cover_forward_promotion\"},{\"sentence\":\"During inventory, workers scan spines in sequence and compare entries with a catalog to find misplaced volumes.\",\"fact_key\":\"checking_inventory\"},{\"sentence\":\"Leaving an unoccupied section beside a growing collection allows new arrivals to be added without reorganizing the entire arrangement.\",\"fact_key\":\"reserving_expansion_space\"},{\"sentence\":\"After assembly, a gentle push at an upper corner can reveal wobbling that needs correction before the unit is loaded.\",\"fact_key\":\"checking_for_wobble\"}]}",
+  "rejected": [],
+  "request_hash": "4badf485bc83ca6e13139fa1c9d516f352fc7373941b989e223010531de90f2b",
+  "usage": {
+    "completion_tokens": 1291,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1018,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2730,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2727,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4021
+  }
+}
