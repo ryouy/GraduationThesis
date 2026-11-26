@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "inertial navigation",
+      "sentence": "An inertial navigation system estimates position by measuring acceleration and rotation, since satellite signals cannot reach operating depth."
+    },
+    {
+      "fact_key": "passive listening",
+      "sentence": "Operators often favor passive listening, locating distant activity from received sounds without transmitting detectable pulses."
+    },
+    {
+      "fact_key": "active sonar ranging",
+      "sentence": "Active sonar sends acoustic pulses and analyzes their echoes to estimate range, although transmissions can reveal the craft’s presence."
+    },
+    {
+      "fact_key": "surfacing checks",
+      "sentence": "Before rising, the crew checks for traffic and uses available sensors to confirm a safe route toward the surface."
+    },
+    {
+      "fact_key": "emergency ascent",
+      "sentence": "During an emergency ascent, compressed air can force water from ballast spaces, restoring positive buoyancy."
+    },
+    {
+      "fact_key": "diesel-electric operation",
+      "sentence": "On diesel-electric models, engines run near the surface to recharge batteries, then stop before quieter travel at depth."
+    },
+    {
+      "fact_key": "trim adjustment",
+      "sentence": "Trim tanks shift water between the bow and stern to keep the hull level as its load changes."
+    },
+    {
+      "fact_key": "acoustic decoys",
+      "sentence": "Acoustic decoys can imitate a vessel’s sound signature, drawing an incoming torpedo away from its intended target."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"An inertial navigation system estimates position by measuring acceleration and rotation, since satellite signals cannot reach operating depth.\",\"fact_key\":\"inertial navigation\"},{\"sentence\":\"Operators often favor passive listening, locating distant activity from received sounds without transmitting detectable pulses.\",\"fact_key\":\"passive listening\"},{\"sentence\":\"Active sonar sends acoustic pulses and analyzes their echoes to estimate range, although transmissions can reveal the craft’s presence.\",\"fact_key\":\"active sonar ranging\"},{\"sentence\":\"Before rising, the crew checks for traffic and uses available sensors to confirm a safe route toward the surface.\",\"fact_key\":\"surfacing checks\"},{\"sentence\":\"During an emergency ascent, compressed air can force water from ballast spaces, restoring positive buoyancy.\",\"fact_key\":\"emergency ascent\"},{\"sentence\":\"On diesel-electric models, engines run near the surface to recharge batteries, then stop before quieter travel at depth.\",\"fact_key\":\"diesel-electric operation\"},{\"sentence\":\"Trim tanks shift water between the bow and stern to keep the hull level as its load changes.\",\"fact_key\":\"trim adjustment\"},{\"sentence\":\"Acoustic decoys can imitate a vessel’s sound signature, drawing an incoming torpedo away from its intended target.\",\"fact_key\":\"acoustic decoys\"}]}",
+  "rejected": [],
+  "request_hash": "f07a20b74ba64be3f85792628242f76ddb8f47ac1b52a9461fabc2e9bcc1910c",
+  "usage": {
+    "completion_tokens": 988,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 727,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 702,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1690
+  }
+}
