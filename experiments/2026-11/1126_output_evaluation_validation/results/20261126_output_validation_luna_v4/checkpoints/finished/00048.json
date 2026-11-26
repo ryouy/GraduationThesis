@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "fad45508a4269e667460dc4102845a52f260bbab29236ef7686ee8dfcb38f131",
+    "items": [
+      {
+        "id": "dd66881b48e1d613934f",
+        "label": "no",
+        "reason": "A jellyfish is a different sea animal, not an octopus."
+      },
+      {
+        "id": "65a5158a142e2cdd59f8",
+        "label": "no",
+        "reason": "“Aquatic craft” is a broad class and does not specifically identify a submarine."
+      },
+      {
+        "id": "810c03dd37c0286d59ee",
+        "label": "no",
+        "reason": "Raindrops refer to rain, not snow."
+      },
+      {
+        "id": "4317c3d547af7f1e67f9",
+        "label": "no",
+        "reason": "A parade involving drumming is an activity, not a tambourine."
+      },
+      {
+        "id": "7fc4d7c995304d3cfba3",
+        "label": "no",
+        "reason": "A bookcase is a different kind of furniture, not a cabinet."
+      },
+      {
+        "id": "6f062a7975fb7dee03f0",
+        "label": "yes",
+        "reason": "The answer directly identifies a bicycle."
+      },
+      {
+        "id": "e19091fd4bf94a647ed4",
+        "label": "no",
+        "reason": "Drumming is an activity, not the drum itself."
+      },
+      {
+        "id": "e9f5d56c8ebec7993879",
+        "label": "yes",
+        "reason": "Raindrops are an unambiguous form of rain."
+      },
+      {
+        "id": "f3dd7b794413e95293b1",
+        "label": "yes",
+        "reason": "“Cacti” is the plural of cactus."
+      },
+      {
+        "id": "c6408ba56afde4ed9cf9",
+        "label": "no",
+        "reason": "Drumming describes an activity and does not identify a tambourine."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"dd66881b48e1d613934f\",\"label\":\"no\",\"reason\":\"A jellyfish is a different sea animal, not an octopus.\"},{\"id\":\"65a5158a142e2cdd59f8\",\"label\":\"no\",\"reason\":\"“Aquatic craft” is a broad class and does not specifically identify a submarine.\"},{\"id\":\"810c03dd37c0286d59ee\",\"label\":\"no\",\"reason\":\"Raindrops refer to rain, not snow.\"},{\"id\":\"4317c3d547af7f1e67f9\",\"label\":\"no\",\"reason\":\"A parade involving drumming is an activity, not a tambourine.\"},{\"id\":\"7fc4d7c995304d3cfba3\",\"label\":\"no\",\"reason\":\"A bookcase is a different kind of furniture, not a cabinet.\"},{\"id\":\"6f062a7975fb7dee03f0\",\"label\":\"yes\",\"reason\":\"The answer directly identifies a bicycle.\"},{\"id\":\"e19091fd4bf94a647ed4\",\"label\":\"no\",\"reason\":\"Drumming is an activity, not the drum itself.\"},{\"id\":\"e9f5d56c8ebec7993879\",\"label\":\"yes\",\"reason\":\"Raindrops are an unambiguous form of rain.\"},{\"id\":\"f3dd7b794413e95293b1\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural of cactus.\"},{\"id\":\"c6408ba56afde4ed9cf9\",\"label\":\"no\",\"reason\":\"Drumming describes an activity and does not identify a tambourine.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 480,
+    "started": "2026-11-26T08:23:21.997993+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 486,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 123,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 566,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1052
+    }
+  }
+}
