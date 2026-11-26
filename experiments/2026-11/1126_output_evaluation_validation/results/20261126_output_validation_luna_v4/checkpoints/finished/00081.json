@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "8429cffa4760cbe01ae4a68ff67c2f7c8645f134d6f3bd135f30f2e70c0c082e",
+    "items": [
+      {
+        "id": "d2462d4c655880e572f4",
+        "label": "yes",
+        "reason": "Raindrops are the defining form of rain."
+      },
+      {
+        "id": "ea06c66012f40105fa4c",
+        "label": "yes",
+        "reason": "The answer names scissors directly."
+      },
+      {
+        "id": "cc285df6be945752aeb2",
+        "label": "no",
+        "reason": "It describes scissors, not pliers."
+      },
+      {
+        "id": "6d6f84d727ad2ae5bfbc",
+        "label": "no",
+        "reason": "An underwater vehicle is a broad class, not specifically a submarine."
+      },
+      {
+        "id": "6122887bd033d409148b",
+        "label": "yes",
+        "reason": "The answer refers to raindrops, identifying rain."
+      },
+      {
+        "id": "95d2d5b73d239d033b7e",
+        "label": "yes",
+        "reason": "The answer names a lion directly."
+      },
+      {
+        "id": "3b0e8602615b577cb96b",
+        "label": "no",
+        "reason": "A guitar is a different instrument from a tambourine."
+      },
+      {
+        "id": "722381a12d8bc2cb4245",
+        "label": "no",
+        "reason": "Raindrops identify rain, not snow."
+      },
+      {
+        "id": "1c744d09532eb842615d",
+        "label": "yes",
+        "reason": "It describes raindrops falling, identifying rain."
+      },
+      {
+        "id": "536ac5418d26ba916460",
+        "label": "no",
+        "reason": "Raindrops identify rain, not snow."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"d2462d4c655880e572f4\",\"label\":\"yes\",\"reason\":\"Raindrops are the defining form of rain.\"},{\"id\":\"ea06c66012f40105fa4c\",\"label\":\"yes\",\"reason\":\"The answer names scissors directly.\"},{\"id\":\"cc285df6be945752aeb2\",\"label\":\"no\",\"reason\":\"It describes scissors, not pliers.\"},{\"id\":\"6d6f84d727ad2ae5bfbc\",\"label\":\"no\",\"reason\":\"An underwater vehicle is a broad class, not specifically a submarine.\"},{\"id\":\"6122887bd033d409148b\",\"label\":\"yes\",\"reason\":\"The answer refers to raindrops, identifying rain.\"},{\"id\":\"95d2d5b73d239d033b7e\",\"label\":\"yes\",\"reason\":\"The answer names a lion directly.\"},{\"id\":\"3b0e8602615b577cb96b\",\"label\":\"no\",\"reason\":\"A guitar is a different instrument from a tambourine.\"},{\"id\":\"722381a12d8bc2cb4245\",\"label\":\"no\",\"reason\":\"Raindrops identify rain, not snow.\"},{\"id\":\"1c744d09532eb842615d\",\"label\":\"yes\",\"reason\":\"It describes raindrops falling, identifying rain.\"},{\"id\":\"536ac5418d26ba916460\",\"label\":\"no\",\"reason\":\"Raindrops identify rain, not snow.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 800,
+    "started": "2026-11-26T08:28:17.059509+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 426,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 103,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 537,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 963
+    }
+  }
+}
