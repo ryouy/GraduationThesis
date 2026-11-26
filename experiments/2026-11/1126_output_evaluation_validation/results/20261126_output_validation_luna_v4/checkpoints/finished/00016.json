@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "099057564727814c37e067fea07090002e0ba9c8abe031a0eea1697fe6246684",
+    "items": [
+      {
+        "id": "72eaaeb8ced3abf3316a",
+        "label": "no",
+        "reason": "A berry smoothie is not a pineapple."
+      },
+      {
+        "id": "d88df6e6d21ff80f9923",
+        "label": "no",
+        "reason": "This describes a role in an ecosystem, not a lion."
+      },
+      {
+        "id": "d12a7ae104c53bf01ff7",
+        "label": "yes",
+        "reason": "A bookcase is another name for a bookshelf."
+      },
+      {
+        "id": "0c2d1f7017ca99db8788",
+        "label": "no",
+        "reason": "This describes an effect ants may have on soil, not an ant."
+      },
+      {
+        "id": "e87e6d2e3d2bfdf91a6b",
+        "label": "no",
+        "reason": "Raindrops are not snow."
+      },
+      {
+        "id": "d82c530f58f197101491",
+        "label": "yes",
+        "reason": "A bookcase is another name for a bookshelf."
+      },
+      {
+        "id": "01da2b3fcd68100b6302",
+        "label": "no",
+        "reason": "A beetle is a different insect from a dragonfly."
+      },
+      {
+        "id": "3ca541d8a9987d32e02a",
+        "label": "yes",
+        "reason": "Cacti is the plural form of cactus."
+      },
+      {
+        "id": "6c7202ba20c44b792fc8",
+        "label": "no",
+        "reason": "A drum is a broad instrument category, not specifically a tambourine."
+      },
+      {
+        "id": "f8b5cd72821b7ac27369",
+        "label": "no",
+        "reason": "Night sky paintings are unrelated to a bicycle."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"72eaaeb8ced3abf3316a\",\"label\":\"no\",\"reason\":\"A berry smoothie is not a pineapple.\"},{\"id\":\"d88df6e6d21ff80f9923\",\"label\":\"no\",\"reason\":\"This describes a role in an ecosystem, not a lion.\"},{\"id\":\"d12a7ae104c53bf01ff7\",\"label\":\"yes\",\"reason\":\"A bookcase is another name for a bookshelf.\"},{\"id\":\"0c2d1f7017ca99db8788\",\"label\":\"no\",\"reason\":\"This describes an effect ants may have on soil, not an ant.\"},{\"id\":\"e87e6d2e3d2bfdf91a6b\",\"label\":\"no\",\"reason\":\"Raindrops are not snow.\"},{\"id\":\"d82c530f58f197101491\",\"label\":\"yes\",\"reason\":\"A bookcase is another name for a bookshelf.\"},{\"id\":\"01da2b3fcd68100b6302\",\"label\":\"no\",\"reason\":\"A beetle is a different insect from a dragonfly.\"},{\"id\":\"3ca541d8a9987d32e02a\",\"label\":\"yes\",\"reason\":\"Cacti is the plural form of cactus.\"},{\"id\":\"6c7202ba20c44b792fc8\",\"label\":\"no\",\"reason\":\"A drum is a broad instrument category, not specifically a tambourine.\"},{\"id\":\"f8b5cd72821b7ac27369\",\"label\":\"no\",\"reason\":\"Night sky paintings are unrelated to a bicycle.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 160,
+    "started": "2026-11-26T08:18:32.705778+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 456,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 108,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 527,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 983
+    }
+  }
+}
