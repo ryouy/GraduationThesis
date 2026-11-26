@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "2dfa58d8c47a03c6b5926e06c5ebb206a6162f938f7384ce2660c4ca67e5646a",
+    "items": [
+      {
+        "id": "fc78def482f3f7568dfb",
+        "label": "no",
+        "reason": "A grapefruit is a different fruit from a pineapple."
+      },
+      {
+        "id": "5da167f2c38870dd595b",
+        "label": "no",
+        "reason": "The answer identifies a jellyfish, not an octopus."
+      },
+      {
+        "id": "551f60b14c27f8e84bd1",
+        "label": "yes",
+        "reason": "It explicitly identifies a bookshelf."
+      },
+      {
+        "id": "f666d20dddce65c5f98e",
+        "label": "no",
+        "reason": "This is a vague description of a beast, not specifically an ant."
+      },
+      {
+        "id": "58963f524760160d2102",
+        "label": "no",
+        "reason": "“Garden worker” is an associated role, not a specific identification of an ant."
+      },
+      {
+        "id": "f361171c097fc8224c15",
+        "label": "no",
+        "reason": "Cacti are not aloe plants."
+      },
+      {
+        "id": "301b18c38764f6b484d5",
+        "label": "no",
+        "reason": "This phrase does not specifically identify an ant."
+      },
+      {
+        "id": "4c7d1de459adcbcc5a63",
+        "label": "no",
+        "reason": "“Innovation engineered” does not identify a bicycle."
+      },
+      {
+        "id": "8e2791cddd8bc8b1f44e",
+        "label": "yes",
+        "reason": "It names the target directly."
+      },
+      {
+        "id": "8028b6df990e77b88fb9",
+        "label": "no",
+        "reason": "An underwater research station is a facility, not a submarine."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"fc78def482f3f7568dfb\",\"label\":\"no\",\"reason\":\"A grapefruit is a different fruit from a pineapple.\"},{\"id\":\"5da167f2c38870dd595b\",\"label\":\"no\",\"reason\":\"The answer identifies a jellyfish, not an octopus.\"},{\"id\":\"551f60b14c27f8e84bd1\",\"label\":\"yes\",\"reason\":\"It explicitly identifies a bookshelf.\"},{\"id\":\"f666d20dddce65c5f98e\",\"label\":\"no\",\"reason\":\"This is a vague description of a beast, not specifically an ant.\"},{\"id\":\"58963f524760160d2102\",\"label\":\"no\",\"reason\":\"“Garden worker” is an associated role, not a specific identification of an ant.\"},{\"id\":\"f361171c097fc8224c15\",\"label\":\"no\",\"reason\":\"Cacti are not aloe plants.\"},{\"id\":\"301b18c38764f6b484d5\",\"label\":\"no\",\"reason\":\"This phrase does not specifically identify an ant.\"},{\"id\":\"4c7d1de459adcbcc5a63\",\"label\":\"no\",\"reason\":\"“Innovation engineered” does not identify a bicycle.\"},{\"id\":\"8e2791cddd8bc8b1f44e\",\"label\":\"yes\",\"reason\":\"It names the target directly.\"},{\"id\":\"8028b6df990e77b88fb9\",\"label\":\"no\",\"reason\":\"An underwater research station is a facility, not a submarine.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 60,
+    "started": "2026-11-26T08:16:58.415268+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 483,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 146,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 535,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1018
+    }
+  }
+}
