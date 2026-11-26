@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "wind_ensemble_blend",
+      "sentence": "In a wind ensemble, it may provide a bright upper voice above the woodwinds, blending with the section rather than dominating as a soloist."
+    },
+    {
+      "fact_key": "military_funeral_taps",
+      "sentence": "At military funerals, performers may use it to play Taps as a final musical tribute to the deceased."
+    },
+    {
+      "fact_key": "banda_ensemble_context",
+      "sentence": "Mexican banda groups often feature it in lively brass arrangements alongside tubas, clarinets, and percussion."
+    },
+    {
+      "fact_key": "calypso_carnival_setting",
+      "sentence": "In calypso bands, its melodic phrases can contribute to the lively sound of carnival performances."
+    },
+    {
+      "fact_key": "orchestral_audition_excerpts",
+      "sentence": "At an orchestral audition, a player may perform contrasting excerpts to demonstrate control of tone, articulation, and dynamics."
+    },
+    {
+      "fact_key": "brass_band_competitions",
+      "sentence": "Brass-band competitions give players a formal setting to perform prepared works before adjudicators and other ensembles."
+    },
+    {
+      "fact_key": "cold_weather_pitch",
+      "sentence": "In cold outdoor conditions, players may warm the instrument before performing because temperature can affect its pitch and response."
+    },
+    {
+      "fact_key": "piano_accompanied_recital",
+      "sentence": "In a solo recital, it can be accompanied by piano in works written for the instrument and keyboard."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In a wind ensemble, it may provide a bright upper voice above the woodwinds, blending with the section rather than dominating as a soloist.\",\"fact_key\":\"wind_ensemble_blend\"},{\"sentence\":\"At military funerals, performers may use it to play Taps as a final musical tribute to the deceased.\",\"fact_key\":\"military_funeral_taps\"},{\"sentence\":\"Mexican banda groups often feature it in lively brass arrangements alongside tubas, clarinets, and percussion.\",\"fact_key\":\"banda_ensemble_context\"},{\"sentence\":\"In calypso bands, its melodic phrases can contribute to the lively sound of carnival performances.\",\"fact_key\":\"calypso_carnival_setting\"},{\"sentence\":\"At an orchestral audition, a player may perform contrasting excerpts to demonstrate control of tone, articulation, and dynamics.\",\"fact_key\":\"orchestral_audition_excerpts\"},{\"sentence\":\"Brass-band competitions give players a formal setting to perform prepared works before adjudicators and other ensembles.\",\"fact_key\":\"brass_band_competitions\"},{\"sentence\":\"In cold outdoor conditions, players may warm the instrument before performing because temperature can affect its pitch and response.\",\"fact_key\":\"cold_weather_pitch\"},{\"sentence\":\"In a solo recital, it can be accompanied by piano in works written for the instrument and keyboard.\",\"fact_key\":\"piano_accompanied_recital\"}]}",
+  "rejected": [],
+  "request_hash": "1faa6c69ad87dbf1e95bf84092eb28cd0497fec084ea0311ccc5b2bba15bbc42",
+  "usage": {
+    "completion_tokens": 1813,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1513,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 3048,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 3045,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4861
+  }
+}
