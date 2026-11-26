@@ -47,6 +47,10 @@ document.addEventListener('DOMContentLoaded',async()=>{
     verify('search has no placeholder',!get('search').hasAttribute('placeholder'));
     verify('no source action bar',!get('actions'));
     verify('GitHub targets current document',document.querySelector('.github-link').href.endsWith('/blob/main/README.md'));
+    const home=document.querySelector('.sidebar-tools .home-link');
+    verify('Home icon precedes theme',!!home&&home.nextElementSibling===get('theme')&&!!home.querySelector('svg')&&home.getAttribute('href')==='?file=README.md');
+    verify('root README absent from file tree',!document.querySelector('#tree a[title="README.md"]'));
+    verify('home breadcrumb contains only Home',get('crumb').textContent.trim()==='Home'&&get('crumb').querySelectorAll('a').length===1);
     const file=document.querySelector('#tree a');
     verify('file names do not wrap',getComputedStyle(file).whiteSpace==='nowrap');
     verify('file names fade',getComputedStyle(file).maskImage!=='none');
