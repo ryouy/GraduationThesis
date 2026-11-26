@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "triathlon_transition",
+      "sentence": "During a triathlon, competitors switch from swimming to riding, leave their machines in a transition area, then begin the running leg."
+    },
+    {
+      "fact_key": "overnight_touring_stops",
+      "sentence": "During multiday tours, riders often plan overnight stops near campgrounds, hostels, or towns where repairs are available."
+    },
+    {
+      "fact_key": "university_campus_travel",
+      "sentence": "On expansive university campuses, students can travel between distant lecture halls without moving a car or searching for parking."
+    },
+    {
+      "fact_key": "courtesy_on_shared_paths",
+      "sentence": "On narrow shared paths, people traveling on two wheels should slow near walkers and pass only when space allows."
+    },
+    {
+      "fact_key": "farm_utility_travel",
+      "sentence": "On farms, sturdy utility models can carry tools or feed between barns, fields, and other nearby work sites."
+    },
+    {
+      "fact_key": "ferry_connections",
+      "sentence": "On ferry routes that permit them, riders can bring personal transport across the water and continue their journey ashore."
+    },
+    {
+      "fact_key": "car_transport_to_trailheads",
+      "sentence": "At remote trailheads, travelers may secure their machines to exterior car racks before driving to routes far from home."
+    },
+    {
+      "fact_key": "outdoor_rehabilitation_use",
+      "sentence": "Some rehabilitation programs use adapted outdoor versions to help patients practice coordinated movement and build confidence."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"During a triathlon, competitors switch from swimming to riding, leave their machines in a transition area, then begin the running leg.\",\"fact_key\":\"triathlon_transition\"},{\"sentence\":\"During multiday tours, riders often plan overnight stops near campgrounds, hostels, or towns where repairs are available.\",\"fact_key\":\"overnight_touring_stops\"},{\"sentence\":\"On expansive university campuses, students can travel between distant lecture halls without moving a car or searching for parking.\",\"fact_key\":\"university_campus_travel\"},{\"sentence\":\"On narrow shared paths, people traveling on two wheels should slow near walkers and pass only when space allows.\",\"fact_key\":\"courtesy_on_shared_paths\"},{\"sentence\":\"On farms, sturdy utility models can carry tools or feed between barns, fields, and other nearby work sites.\",\"fact_key\":\"farm_utility_travel\"},{\"sentence\":\"On ferry routes that permit them, riders can bring personal transport across the water and continue their journey ashore.\",\"fact_key\":\"ferry_connections\"},{\"sentence\":\"At remote trailheads, travelers may secure their machines to exterior car racks before driving to routes far from home.\",\"fact_key\":\"car_transport_to_trailheads\"},{\"sentence\":\"Some rehabilitation programs use adapted outdoor versions to help patients practice coordinated movement and build confidence.\",\"fact_key\":\"outdoor_rehabilitation_use\"}]}",
+  "rejected": [],
+  "request_hash": "f18ea1849d2d6b44410f5e0d8282cdfb44ba196b704d2a13754c02a0ddb92e4e",
+  "usage": {
+    "completion_tokens": 1492,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1202,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1605,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1602,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3097
+  }
+}
