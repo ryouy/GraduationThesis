@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C27_2_action_0_0",
+        "naturalness": 4,
+        "reason": "Mashing soft fruit into batter for sweetness is a strong, plausible use of banana, though the cue remains generic.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C27_2_action_0_1",
+        "naturalness": 5,
+        "reason": "Brown freckles on the peel and use in quick bread strongly point to ripe banana.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C27_2_action_0_2",
+        "naturalness": 4,
+        "reason": "Sliced fruit over oatmeal is a common banana use, but the cue does not specify the fruit.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C27_2_action_0_3",
+        "naturalness": 4,
+        "reason": "Frozen fruit blended with milk and yogurt commonly suggests banana; other fruits could also fit.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C27_2_action_0_4",
+        "naturalness": 5,
+        "reason": "A portable snack that is peeled and leaves a compostable skin is strongly characteristic of banana.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C27_2_action_0_5",
+        "naturalness": 5,
+        "reason": "Mashing overripe fruit into muffins for moisture is a familiar use of banana.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C27_2_action_0_6",
+        "naturalness": 4,
+        "reason": "Adding tender fruit pieces to cereal fits banana well, though the description is not exclusive to it.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C27_2_action_0_7",
+        "naturalness": 4,
+        "reason": "Battered and fried slices plausibly describe banana, without naming it.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C27_3_action_0_0",
+        "naturalness": 4,
+        "reason": "The generic fruit-salad description could include either fruit but does not point distinctly to either.",
+        "style": "pass",
+        "x_related": 1,
+        "y_related": 1
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "add_r1_C27_3_action_0_1",
+        "naturalness": 4,
+        "reason": "A tropical fruit blended with yogurt could be banana or pineapple; neither is singled out.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 2
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1255,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 593,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 669,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1924
+  }
+}
