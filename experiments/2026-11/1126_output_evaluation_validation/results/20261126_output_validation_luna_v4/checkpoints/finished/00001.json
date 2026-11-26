@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "719a5e71c872e12fb5ebb33f92c4cf961cf2ad0ed3a79db32684284eb43347db",
+    "items": [
+      {
+        "id": "9971f606e5c563c3f4f1",
+        "label": "no",
+        "reason": "An aquatic creature is not an elephant."
+      },
+      {
+        "id": "ea6cf4cb7bb6bb545449",
+        "label": "no",
+        "reason": "A cactus is a different plant from aloe."
+      },
+      {
+        "id": "8e55a3ae8fe85d0c3991",
+        "label": "yes",
+        "reason": "The answer describes a drum and its sound."
+      },
+      {
+        "id": "86245f2082a05dbc6de4",
+        "label": "no",
+        "reason": "Bookshelves are related furniture, not a cabinet."
+      },
+      {
+        "id": "59c427b7b601938e1768",
+        "label": "yes",
+        "reason": "A durable bookshelf is still a bookshelf."
+      },
+      {
+        "id": "9aed6d5a9b4d1631501d",
+        "label": "no",
+        "reason": "A grapefruit is a different fruit from a pineapple."
+      },
+      {
+        "id": "1f67bddb059aab0d1df6",
+        "label": "no",
+        "reason": "This describes craftsmanship, not scissors themselves."
+      },
+      {
+        "id": "98b0f13278e06304ce58",
+        "label": "no",
+        "reason": "A bicycle is not a submarine."
+      },
+      {
+        "id": "406e67564b8e6c5eb07e",
+        "label": "yes",
+        "reason": "The answer identifies scissors and describes their use."
+      },
+      {
+        "id": "56906b408c2d36b04ba1",
+        "label": "no",
+        "reason": "An organized collective is not specifically an ant."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"9971f606e5c563c3f4f1\",\"label\":\"no\",\"reason\":\"An aquatic creature is not an elephant.\"},{\"id\":\"ea6cf4cb7bb6bb545449\",\"label\":\"no\",\"reason\":\"A cactus is a different plant from aloe.\"},{\"id\":\"8e55a3ae8fe85d0c3991\",\"label\":\"yes\",\"reason\":\"The answer describes a drum and its sound.\"},{\"id\":\"86245f2082a05dbc6de4\",\"label\":\"no\",\"reason\":\"Bookshelves are related furniture, not a cabinet.\"},{\"id\":\"59c427b7b601938e1768\",\"label\":\"yes\",\"reason\":\"A durable bookshelf is still a bookshelf.\"},{\"id\":\"9aed6d5a9b4d1631501d\",\"label\":\"no\",\"reason\":\"A grapefruit is a different fruit from a pineapple.\"},{\"id\":\"1f67bddb059aab0d1df6\",\"label\":\"no\",\"reason\":\"This describes craftsmanship, not scissors themselves.\"},{\"id\":\"98b0f13278e06304ce58\",\"label\":\"no\",\"reason\":\"A bicycle is not a submarine.\"},{\"id\":\"406e67564b8e6c5eb07e\",\"label\":\"yes\",\"reason\":\"The answer identifies scissors and describes their use.\"},{\"id\":\"56906b408c2d36b04ba1\",\"label\":\"no\",\"reason\":\"An organized collective is not specifically an ant.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 10,
+    "started": "2026-11-26T08:16:12.658971+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 493,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 165,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 534,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1027
+    }
+  }
+}
