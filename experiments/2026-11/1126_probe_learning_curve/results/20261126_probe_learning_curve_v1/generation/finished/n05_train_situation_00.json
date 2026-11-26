@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "appliance_servicing",
+      "sentence": "During appliance servicing, a hand-operated turning implement removes casing fasteners before technicians inspect or replace internal components."
+    },
+    {
+      "fact_key": "household_hardware",
+      "sentence": "A household repair drawer may keep one near cabinet pulls and door hinges for occasional hardware adjustments."
+    },
+    {
+      "fact_key": "bicycle_accessories",
+      "sentence": "At bicycle workshops, mechanics use one to secure accessories attached with small threaded fasteners."
+    },
+    {
+      "fact_key": "model_building",
+      "sentence": "Model-building benches often have one nearby for assembling kits with miniature screw-fastened parts."
+    },
+    {
+      "fact_key": "furniture_restoration",
+      "sentence": "During furniture restoration, it can remove old mounting hardware before hinges or handles are cleaned and reused."
+    },
+    {
+      "fact_key": "field_service",
+      "sentence": "Field service pouches may include one for minor fastener repairs away from a fully equipped workshop."
+    },
+    {
+      "fact_key": "refitting_faceplates",
+      "sentence": "After electrical work, installers may use one to refit faceplates over wall outlets and switches."
+    },
+    {
+      "fact_key": "size_selection",
+      "sentence": "A maintenance station may stock several versions of this hand implement for fasteners with different head dimensions."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"During appliance servicing, a hand-operated turning implement removes casing fasteners before technicians inspect or replace internal components.\",\"fact_key\":\"appliance_servicing\"},{\"sentence\":\"A household repair drawer may keep one near cabinet pulls and door hinges for occasional hardware adjustments.\",\"fact_key\":\"household_hardware\"},{\"sentence\":\"At bicycle workshops, mechanics use one to secure accessories attached with small threaded fasteners.\",\"fact_key\":\"bicycle_accessories\"},{\"sentence\":\"Model-building benches often have one nearby for assembling kits with miniature screw-fastened parts.\",\"fact_key\":\"model_building\"},{\"sentence\":\"During furniture restoration, it can remove old mounting hardware before hinges or handles are cleaned and reused.\",\"fact_key\":\"furniture_restoration\"},{\"sentence\":\"Field service pouches may include one for minor fastener repairs away from a fully equipped workshop.\",\"fact_key\":\"field_service\"},{\"sentence\":\"After electrical work, installers may use one to refit faceplates over wall outlets and switches.\",\"fact_key\":\"refitting_faceplates\"},{\"sentence\":\"A maintenance station may stock several versions of this hand implement for fasteners with different head dimensions.\",\"fact_key\":\"size_selection\"}]}",
+  "rejected": [],
+  "request_hash": "90c046aa668e36c2ae5710fd92a48946a3aacb19b8d820eee162008bebafd84e",
+  "usage": {
+    "completion_tokens": 1271,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1024,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1260,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1257,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2531
+  }
+}
