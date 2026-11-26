@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "c93328cc2901dabd3e880ad996f652093f1fa4e507db2fa9b4a4019c3719fe4b",
+    "items": [
+      {
+        "id": "ade6f8cb20b81ba88f47",
+        "label": "no",
+        "reason": "Aloe is a succulent, but “desert succulent” is a broad description, not the specific plant."
+      },
+      {
+        "id": "568a22160c5b2739b97f",
+        "label": "no",
+        "reason": "A mountain bike is a bicycle, not a submarine."
+      },
+      {
+        "id": "16584e86086c3b24ea92",
+        "label": "no",
+        "reason": "This describes bicycle riding in a setting, not the bicycle itself."
+      },
+      {
+        "id": "56de5655b27059fdbfed",
+        "label": "no",
+        "reason": "The answer describes rain, not snow."
+      },
+      {
+        "id": "7dbc97570bff60cd068d",
+        "label": "no",
+        "reason": "A dance is not a drum."
+      },
+      {
+        "id": "473f0f4cfb845a173e89",
+        "label": "no",
+        "reason": "“Insect” is a broad class and does not identify a dragonfly."
+      },
+      {
+        "id": "db192d6138c7906ac9fa",
+        "label": "yes",
+        "reason": "It explicitly describes the elephant’s social hierarchy and family relationships."
+      },
+      {
+        "id": "c51b1799d44115b4829a",
+        "label": "no",
+        "reason": "Cacti are a different plant group from aloe."
+      },
+      {
+        "id": "e8ebed05dba997cc905e",
+        "label": "yes",
+        "reason": "“Cacti” is the plural form of cactus."
+      },
+      {
+        "id": "3c9b83eb89259c44192d",
+        "label": "no",
+        "reason": "The answer describes a scorching desert, not a jellyfish."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"ade6f8cb20b81ba88f47\",\"label\":\"no\",\"reason\":\"Aloe is a succulent, but “desert succulent” is a broad description, not the specific plant.\"},{\"id\":\"568a22160c5b2739b97f\",\"label\":\"no\",\"reason\":\"A mountain bike is a bicycle, not a submarine.\"},{\"id\":\"16584e86086c3b24ea92\",\"label\":\"no\",\"reason\":\"This describes bicycle riding in a setting, not the bicycle itself.\"},{\"id\":\"56de5655b27059fdbfed\",\"label\":\"no\",\"reason\":\"The answer describes rain, not snow.\"},{\"id\":\"7dbc97570bff60cd068d\",\"label\":\"no\",\"reason\":\"A dance is not a drum.\"},{\"id\":\"473f0f4cfb845a173e89\",\"label\":\"no\",\"reason\":\"“Insect” is a broad class and does not identify a dragonfly.\"},{\"id\":\"db192d6138c7906ac9fa\",\"label\":\"yes\",\"reason\":\"It explicitly describes the elephant’s social hierarchy and family relationships.\"},{\"id\":\"c51b1799d44115b4829a\",\"label\":\"no\",\"reason\":\"Cacti are a different plant group from aloe.\"},{\"id\":\"e8ebed05dba997cc905e\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural form of cactus.\"},{\"id\":\"3c9b83eb89259c44192d\",\"label\":\"no\",\"reason\":\"The answer describes a scorching desert, not a jellyfish.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 600,
+    "started": "2026-11-26T08:25:11.941110+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 508,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 156,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 533,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1041
+    }
+  }
+}
