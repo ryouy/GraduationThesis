@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C27_action_far_0_0",
+        "reason": "The green cooking fruit and savory mash strongly suggest plantain or cooking banana, but no banana name or obvious alias appears; nothing points to plum.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_action_medium_far_0_0",
+        "reason": "Bracing heavily laden stems is strongly associated with banana cultivation, but the clue does not name banana or an obvious alias. It gives no plum-specific fact.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_action_unrelated_0_0",
+        "reason": "Gauge calibration has no meaningful connection to either fruit.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_function_medium_near_0_2",
+        "reason": "Mashed banana is a plausible porridge sweetener; the use is not exclusive to banana, and plum could share the broad fruit-and-sweetening context.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_function_near_0_3",
+        "reason": "Using chopped, water-rich stalk material as mulch strongly suggests banana plant residues, without naming banana. It does not describe a plum-specific fact.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_function_very_near_0_4",
+        "reason": "Starch from unripe banana is a plausible example, but the clue says only fruit and does not distinguish banana. Plum shares only the broad fruit context.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_situation_medium_near_0_4",
+        "reason": "Taking a whole fruit along without utensils strongly evokes a portable, peelable banana. Plum could also be carried whole, so that is only a broad shared context.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "fail",
+        "id": "gen_C27_situation_near_0_3",
+        "reason": "PLU 4011 directly identifies bananas through a standard produce code, though the fruit is not named. Nothing points to plum.",
+        "x_related": 4,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_situation_very_near_0_4",
+        "reason": "Banana is a plausible creamy fruit puree in this cocktail, but no fruit is named; plum has only a generic possible cocktail-fruit connection.",
+        "x_related": 2,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_structure_far_0_3",
+        "reason": "The botanical-berry classification and elongated form are distinctive banana traits, but no name or obvious alias appears. This does not describe plum.",
+        "x_related": 4,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_structure_medium_far_0_3",
+        "reason": "Tiny undeveloped seeds embedded in creamy pulp strongly suggest cultivated bananas, without naming banana. It is not a plum-specific fact.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C27_structure_unrelated_0_2",
+        "reason": "A folded paper map has no meaningful connection to either fruit.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C27_action_far_0_0\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The green cooking fruit and savory mash strongly suggest plantain or cooking banana, but no banana name or obvious alias appears; nothing points to plum.\"},{\"id\":\"gen_C27_action_medium_far_0_0\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Bracing heavily laden stems is strongly associated with banana cultivation, but the clue does not name banana or an obvious alias. It gives no plum-specific fact.\"},{\"id\":\"gen_C27_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Gauge calibration has no meaningful connection to either fruit.\"},{\"id\":\"gen_C27_function_medium_near_0_2\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Mashed banana is a plausible porridge sweetener; the use is not exclusive to banana, and plum could share the broad fruit-and-sweetening context.\"},{\"id\":\"gen_C27_function_near_0_3\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Using chopped, water-rich stalk material as mulch strongly suggests banana plant residues, without naming banana. It does not describe a plum-specific fact.\"},{\"id\":\"gen_C27_function_very_near_0_4\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Starch from unripe banana is a plausible example, but the clue says only fruit and does not distinguish banana. Plum shares only the broad fruit context.\"},{\"id\":\"gen_C27_situation_medium_near_0_4\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Taking a whole fruit along without utensils strongly evokes a portable, peelable banana. Plum could also be carried whole, so that is only a broad shared context.\"},{\"id\":\"gen_C27_situation_near_0_3\",\"x_related\":4,\"y_related\":0,\"exposure\":\"fail\",\"y_specific\":\"no\",\"reason\":\"PLU 4011 directly identifies bananas through a standard produce code, though the fruit is not named. Nothing points to plum.\"},{\"id\":\"gen_C27_situation_very_near_0_4\",\"x_related\":2,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Banana is a plausible creamy fruit puree in this cocktail, but no fruit is named; plum has only a generic possible cocktail-fruit connection.\"},{\"id\":\"gen_C27_structure_far_0_3\",\"x_related\":4,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The botanical-berry classification and elongated form are distinctive banana traits, but no name or obvious alias appears. This does not describe plum.\"},{\"id\":\"gen_C27_structure_medium_far_0_3\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Tiny undeveloped seeds embedded in creamy pulp strongly suggest cultivated bananas, without naming banana. It is not a plum-specific fact.\"},{\"id\":\"gen_C27_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A folded paper map has no meaningful connection to either fruit.\"}]}",
+  "usage": {
+    "completion_tokens": 3049,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2257,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 692,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3741
+  }
+}
