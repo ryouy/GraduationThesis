@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "5caf7e7c38422046f663e9f5ca60364bba7d9376866a150ec6b866a46017c748",
+    "items": [
+      {
+        "id": "ef651481b14ee7798901",
+        "label": "no",
+        "reason": "Drumming is an activity, not the tambourine itself."
+      },
+      {
+        "id": "4bbd89d91d7df3f22ad1",
+        "label": "yes",
+        "reason": "The answer explicitly identifies an elephant."
+      },
+      {
+        "id": "1e520acba21ae0561f04",
+        "label": "no",
+        "reason": "This describes a broad kind of insect, not specifically an ant."
+      },
+      {
+        "id": "e0aeb92f18779e0a0f31",
+        "label": "yes",
+        "reason": "The answer names the target directly."
+      },
+      {
+        "id": "71fe8211a5e7669973b0",
+        "label": "yes",
+        "reason": "Bookcase is a clear synonym for bookshelf."
+      },
+      {
+        "id": "049fe96d36ffef4ddb75",
+        "label": "no",
+        "reason": "A bookcase is a different kind of furniture, not a cabinet itself."
+      },
+      {
+        "id": "7dea27aebcd92854e38d",
+        "label": "no",
+        "reason": "The description suggests other small, diligent insects and does not identify a dragonfly."
+      },
+      {
+        "id": "9c137d210eb116d2399f",
+        "label": "no",
+        "reason": "Winter migration is unrelated to identifying a bicycle."
+      },
+      {
+        "id": "68f55ec5c5b36e0ba9de",
+        "label": "yes",
+        "reason": "Bookcase is a clear synonym for bookshelf."
+      },
+      {
+        "id": "cbe6ddf656984b8702dd",
+        "label": "no",
+        "reason": "Cacti are a different plant group; aloe is a succulent, not a cactus."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"ef651481b14ee7798901\",\"label\":\"no\",\"reason\":\"Drumming is an activity, not the tambourine itself.\"},{\"id\":\"4bbd89d91d7df3f22ad1\",\"label\":\"yes\",\"reason\":\"The answer explicitly identifies an elephant.\"},{\"id\":\"1e520acba21ae0561f04\",\"label\":\"no\",\"reason\":\"This describes a broad kind of insect, not specifically an ant.\"},{\"id\":\"e0aeb92f18779e0a0f31\",\"label\":\"yes\",\"reason\":\"The answer names the target directly.\"},{\"id\":\"71fe8211a5e7669973b0\",\"label\":\"yes\",\"reason\":\"Bookcase is a clear synonym for bookshelf.\"},{\"id\":\"049fe96d36ffef4ddb75\",\"label\":\"no\",\"reason\":\"A bookcase is a different kind of furniture, not a cabinet itself.\"},{\"id\":\"7dea27aebcd92854e38d\",\"label\":\"no\",\"reason\":\"The description suggests other small, diligent insects and does not identify a dragonfly.\"},{\"id\":\"9c137d210eb116d2399f\",\"label\":\"no\",\"reason\":\"Winter migration is unrelated to identifying a bicycle.\"},{\"id\":\"68f55ec5c5b36e0ba9de\",\"label\":\"yes\",\"reason\":\"Bookcase is a clear synonym for bookshelf.\"},{\"id\":\"cbe6ddf656984b8702dd\",\"label\":\"no\",\"reason\":\"Cacti are a different plant group; aloe is a succulent, not a cactus.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 340,
+    "started": "2026-11-26T08:21:14.620177+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 574,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 225,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 532,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1106
+    }
+  }
+}
