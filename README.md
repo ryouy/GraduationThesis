@@ -66,6 +66,7 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 - [初回50組の候補と選定理由](docs/concept_pair_selection_v0_1.md) · [候補CSV](docs/concept_pair_candidates_50_v0_1.csv)（正式採択ではない）
 - [既存4概念の距離再分析](experiments/2026-11/1124_distance_representation_analysis/results/20261124_distance_reanalysis_v1/analysis_summary.md)（完了・探索的）
 - [10概念Pre-main](experiments/2026-11/1124_pre_main_experiment/README.md)（実装済み・探索的）
+- [最終出力評価・検証Colab v3（GPT-6 Luna、GitHub保存専用、未実行）](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_output_evaluation_validation/output_evaluation_validation_luna_v3.ipynb)
 - **追加Probe探索・本番用Cue準備：後日実施。** 仕様・開始条件は[統合プロトコル](docs/main_experiment_protocol_v0_95.md)に記載。
 
 ## 実験へのアクセス
@@ -104,6 +105,7 @@ GraduationThesis/
 - 各実験フォルダには、その時点の計画・コード・結果を保存します。
 - 過去の実験記録は、後から都合よく書き換えず、実行時点の記録として保持します。
 - **ノートブックは上書きしない。** 修正・APIモデル変更・実験条件変更・実装改善は、実行前であっても新しいバージョン名の `.ipynb` を別ファイルとして作成し、旧版をそのまま保持する。新しい実験版には独立した `run_id` と結果保存先を割り当て、旧結果も上書きしない。
+- **研究データ・実験結果の保存はGitHubで完結させる。** Google Driveは使用しない。Colabのローカル領域は一時作業用とし、`GITHUB_RESULTS_TOKEN` で実験別・run別のGitHub保存先にチェックポイントと結果を保存・復元する。既存成果物は上書きせず、保存失敗時は停止する。
 - 古いREADMEは [README_previous_20261103.md](README_previous_20261103.md) に保存しています。旧状況の参照用であり、現在の方針には最新のドキュメントを優先してください。
 
 
