@@ -1,0 +1,32 @@
+{
+  "ai_complete": false,
+  "checkpoint_root": "experiments/2026-11/1126_output_evaluation_validation/results/20261126_output_validation_luna_v3/checkpoints",
+  "config_sha256": "de57b8d87034a6ce97f7c4ee0d1c6ad33bc250df10777cf7ae678ee1cf9ed393",
+  "files": {
+    "api_usage.json": "9b8107702e00171312e8e7f87e235356d0b3a811795f6a5f877b47d4f1f67650",
+    "config.json": "de57b8d87034a6ce97f7c4ee0d1c6ad33bc250df10777cf7ae678ee1cf9ed393",
+    "explicit_x_rate.png": "d6859b30ba9695d9c731dbe6059ff1601b9efb0d947cbadc406e46a92fb96bf9",
+    "format_proxy_rate.png": "9b52a2cdf751cb58a5ddf332831bdd6da7bd9d835ca0e8eea5b9a3c33085395c",
+    "graded_responses.csv": "c327f641630bf83d6ebf037a8bb84a3d807591416c793916fccd541aa82fe06f",
+    "human_format_blank.csv": "ef34dba337e25c92eae9dbf2fd751622daa4969cdc01e7063eb3d4bffaa7b43b",
+    "human_identity_blank.csv": "4754f7a46fed93f6e9bedc9943e90e529f71c4f5f4978166d129028f3ef6992d",
+    "human_relevance_blank.csv": "4608d18388c043f3640b162a128ca0f139bbcdfaf7fd4c9f0724980bb0bd888c",
+    "private_audit_format_mapping.csv": "0bd4ed361a46d1d3589787ca6217606bbb05a4499b99b2542d09aa227a03d504",
+    "private_audit_sample.csv": "1fa88e4a4852d73420cdaeee8d33969ef40e9de8bb017fff3d752d49552c246b",
+    "private_id_mapping.csv": "f513239d630c633ed468358ce90cf5358705e6c4872e0339a84c8997dd3236d2",
+    "rule_based.csv": "b801e71a848a64da9660798b5134b877f9fdb9d09d4f81adf86387e454fc126c",
+    "summary_band.csv": "598525d88783c0da520370eb136436e32ed32718a61cf9d36f9d16ae4954ee74",
+    "summary_concept.csv": "feb3a1161787139ef54c17d121f2dad2c79180a19d6fd2d6f48e6ccaf442cf12",
+    "summary_concept_band.csv": "3bf149fb82d6f75d121f973a98f09d6c4841c5343c839fd0a0d77cc3f6bb2e73",
+    "summary_condition.csv": "33ff7cd2837db8ab769c8fb0b606e165f51506f779c7442a3b9a44d0971ff7e4"
+  },
+  "git_branch": "main",
+  "human_audit_metrics": [],
+  "human_audit_present": false,
+  "reconstructed_checkpoint_files": {},
+  "run_id": "20261126_output_validation_luna_v3",
+  "source_blob": "f4976d955771f097c651715e870fcb37a30e7547",
+  "source_ref": "328e2c15a0ec64bbbd68112edf95ec7dd31485e3",
+  "source_sha256": "a665d8af10c54de66d101ff97bf3cb77199bb0cf1aeb81c5f925e240fa850b99",
+  "storage": "github_immutable_v3"
+}
