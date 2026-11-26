@@ -86,9 +86,9 @@ main{container-type:inline-size}
 
 /* Compact icon-only sidebar actions. */
 .sidebar-tools{gap:5px}
-.sidebar-tools #theme,.sidebar-tools .github-link{display:inline-flex;align-items:center;justify-content:center;width:27px;height:27px;padding:5px;flex:0 0 27px}
-.sidebar-tools #theme svg,.sidebar-tools .github-link svg{display:block;width:17px;height:17px}
-.sidebar-tools #theme:focus-visible,.sidebar-tools .github-link:focus-visible{outline:2px solid var(--link);outline-offset:1px}
+.sidebar-tools .home-link,.sidebar-tools #theme,.sidebar-tools .github-link{display:inline-flex;align-items:center;justify-content:center;width:27px;height:27px;padding:5px;flex:0 0 27px}
+.sidebar-tools .home-link svg,.sidebar-tools #theme svg,.sidebar-tools .github-link svg{display:block;width:17px;height:17px}
+.sidebar-tools .home-link:focus-visible,.sidebar-tools #theme:focus-visible,.sidebar-tools .github-link:focus-visible{outline:2px solid var(--link);outline-offset:1px}
 
 /* Explorer-style indentation guides: each expanded folder owns one vertical line. */
 #tree{--tree-indent:12px;--tree-guide:var(--line)}
