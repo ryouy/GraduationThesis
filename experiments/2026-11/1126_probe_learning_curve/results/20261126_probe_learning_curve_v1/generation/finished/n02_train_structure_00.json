@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "horizontal_levels",
+      "sentence": "Tall furniture often has horizontal platforms fixed between side panels, creating several open levels for storing reading material."
+    },
+    {
+      "fact_key": "construction_materials",
+      "sentence": "Common materials include solid timber, engineered wood, metal, or plastic, with surfaces finished in paint, veneer, or laminate."
+    },
+    {
+      "fact_key": "adjustable_platforms",
+      "sentence": "Adjustable supports let individual platforms move between predrilled holes, accommodating objects of different heights."
+    },
+    {
+      "fact_key": "stabilizing_back_panel",
+      "sentence": "A rigid back panel can reduce frame movement and keep the structure square while preventing stored items from slipping behind."
+    },
+    {
+      "fact_key": "mounting_and_modularity",
+      "sentence": "Some units stand on the floor, while others attach to a wall or connect with neighboring modular sections."
+    },
+    {
+      "fact_key": "retaining_edges",
+      "sentence": "Front edges sometimes have lips or raised rails that help keep stored volumes from sliding off."
+    },
+    {
+      "fact_key": "supports_and_enclosures",
+      "sentence": "Open-sided designs may use brackets or pins to support platforms, while enclosed versions can add doors or glass panels."
+    },
+    {
+      "fact_key": "load_capacity",
+      "sentence": "Load capacity depends on span, material thickness, support spacing, and how weight is distributed across each level."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Tall furniture often has horizontal platforms fixed between side panels, creating several open levels for storing reading material.\",\"fact_key\":\"horizontal_levels\"},{\"sentence\":\"Common materials include solid timber, engineered wood, metal, or plastic, with surfaces finished in paint, veneer, or laminate.\",\"fact_key\":\"construction_materials\"},{\"sentence\":\"Adjustable supports let individual platforms move between predrilled holes, accommodating objects of different heights.\",\"fact_key\":\"adjustable_platforms\"},{\"sentence\":\"A rigid back panel can reduce frame movement and keep the structure square while preventing stored items from slipping behind.\",\"fact_key\":\"stabilizing_back_panel\"},{\"sentence\":\"Some units stand on the floor, while others attach to a wall or connect with neighboring modular sections.\",\"fact_key\":\"mounting_and_modularity\"},{\"sentence\":\"Front edges sometimes have lips or raised rails that help keep stored volumes from sliding off.\",\"fact_key\":\"retaining_edges\"},{\"sentence\":\"Open-sided designs may use brackets or pins to support platforms, while enclosed versions can add doors or glass panels.\",\"fact_key\":\"supports_and_enclosures\"},{\"sentence\":\"Load capacity depends on span, material thickness, support spacing, and how weight is distributed across each level.\",\"fact_key\":\"load_capacity\"}]}",
+  "rejected": [],
+  "request_hash": "b8269a2d119d4df362f60335b8499b6d1634a11af2a56b9e2822e1295b158104",
+  "usage": {
+    "completion_tokens": 604,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 346,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 220,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 824
+  }
+}
