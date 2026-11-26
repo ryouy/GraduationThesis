@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "fixed-opening-size-range",
+      "sentence": "Fixed-jaw versions are manufactured with openings in different sizes to fit fasteners of specific dimensions."
+    },
+    {
+      "fact_key": "serrated-pipe-gripping-teeth",
+      "sentence": "Some pipe-gripping designs have serrated teeth that bite into rounded cylindrical surfaces."
+    },
+    {
+      "fact_key": "handle-storage-hole",
+      "sentence": "A hanging hole near the handle's end allows the tool to be stored on a peg."
+    },
+    {
+      "fact_key": "lightweight-alloy-body",
+      "sentence": "Aluminum-alloy bodies weigh less than steel versions, but may be less suitable for very high loads."
+    },
+    {
+      "fact_key": "pivoting-head-joint",
+      "sentence": "Certain models have a joint between the head and handle that lets the head pivot through a limited arc."
+    },
+    {
+      "fact_key": "etched-size-markings",
+      "sentence": "Size markings are often stamped or etched into the metal near the head."
+    },
+    {
+      "fact_key": "handle-cross-section",
+      "sentence": "A slim handle profile can fit into tight spaces, while a broader cross-section can resist bending under load."
+    },
+    {
+      "fact_key": "twelve-point-ring-interior",
+      "sentence": "Some ring-shaped heads have twelve internal points that engage a fastener at several angular positions."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Fixed-jaw versions are manufactured with openings in different sizes to fit fasteners of specific dimensions.\",\"fact_key\":\"fixed-opening-size-range\"},{\"sentence\":\"Some pipe-gripping designs have serrated teeth that bite into rounded cylindrical surfaces.\",\"fact_key\":\"serrated-pipe-gripping-teeth\"},{\"sentence\":\"A hanging hole near the handle's end allows the tool to be stored on a peg.\",\"fact_key\":\"handle-storage-hole\"},{\"sentence\":\"Aluminum-alloy bodies weigh less than steel versions, but may be less suitable for very high loads.\",\"fact_key\":\"lightweight-alloy-body\"},{\"sentence\":\"Certain models have a joint between the head and handle that lets the head pivot through a limited arc.\",\"fact_key\":\"pivoting-head-joint\"},{\"sentence\":\"Size markings are often stamped or etched into the metal near the head.\",\"fact_key\":\"etched-size-markings\"},{\"sentence\":\"A slim handle profile can fit into tight spaces, while a broader cross-section can resist bending under load.\",\"fact_key\":\"handle-cross-section\"},{\"sentence\":\"Some ring-shaped heads have twelve internal points that engage a fastener at several angular positions.\",\"fact_key\":\"twelve-point-ring-interior\"}]}",
+  "rejected": [],
+  "request_hash": "ea80c1b4ab862dc58d307feb5e305f0044598499b4aaf5e6342faa40e5317954",
+  "usage": {
+    "completion_tokens": 665,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 415,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 508,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1173
+  }
+}
