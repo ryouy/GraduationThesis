@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "lip_pitch_control",
+      "sentence": "Players change pitch by tightening or relaxing their buzzing lips, selecting different notes within the instrument’s harmonic series."
+    },
+    {
+      "fact_key": "tongued_attacks",
+      "sentence": "Brief tongue contact interrupts the airstream at note beginnings, producing clear attacks without stopping the breath completely."
+    },
+    {
+      "fact_key": "valve_harmonic_combinations",
+      "sentence": "Combining valve presses with different lip-selected harmonics provides a chromatic range across several registers."
+    },
+    {
+      "fact_key": "breath_support",
+      "sentence": "Steady abdominal airflow helps maintain a centered tone through long phrases and dynamic changes."
+    },
+    {
+      "fact_key": "high_register_airflow",
+      "sentence": "To play higher notes, performers increase lip tension and direct faster air through the mouthpiece."
+    },
+    {
+      "fact_key": "mute_tone_change",
+      "sentence": "A mute placed inside the bell alters the tone color and may reduce projection, depending on its design."
+    },
+    {
+      "fact_key": "slurred_note_transition",
+      "sentence": "For a slur, performers keep airflow continuous while changing lip vibration between notes, avoiding a fresh tongue attack."
+    },
+    {
+      "fact_key": "bb_transposition",
+      "sentence": "In the common B-flat version, written C sounds as concert B-flat, so orchestral parts are transposed for performers."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Players change pitch by tightening or relaxing their buzzing lips, selecting different notes within the instrument’s harmonic series.\",\"fact_key\":\"lip_pitch_control\"},{\"sentence\":\"Brief tongue contact interrupts the airstream at note beginnings, producing clear attacks without stopping the breath completely.\",\"fact_key\":\"tongued_attacks\"},{\"sentence\":\"Combining valve presses with different lip-selected harmonics provides a chromatic range across several registers.\",\"fact_key\":\"valve_harmonic_combinations\"},{\"sentence\":\"Steady abdominal airflow helps maintain a centered tone through long phrases and dynamic changes.\",\"fact_key\":\"breath_support\"},{\"sentence\":\"To play higher notes, performers increase lip tension and direct faster air through the mouthpiece.\",\"fact_key\":\"high_register_airflow\"},{\"sentence\":\"A mute placed inside the bell alters the tone color and may reduce projection, depending on its design.\",\"fact_key\":\"mute_tone_change\"},{\"sentence\":\"For a slur, performers keep airflow continuous while changing lip vibration between notes, avoiding a fresh tongue attack.\",\"fact_key\":\"slurred_note_transition\"},{\"sentence\":\"In the common B-flat version, written C sounds as concert B-flat, so orchestral parts are transposed for performers.\",\"fact_key\":\"bb_transposition\"}]}",
+  "rejected": [],
+  "request_hash": "a627c4f8e761e51be40ade866a126c7df8fac33e41e0ffc25186d867df6b8c9f",
+  "usage": {
+    "completion_tokens": 1029,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 764,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 723,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1752
+  }
+}
