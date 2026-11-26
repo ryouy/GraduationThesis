@@ -1,0 +1,961 @@
+fact_key,sentence,concept,split,style,style_index,text_id
+shape_and_layers,"Typically elongated and gently curved, this fruit has a thick peel surrounding pale, soft flesh.",banana,train,structure,0,T0000
+peel_color_change,Its peel is green when unripe and commonly turns yellow as the flesh ripens.,banana,train,structure,1,T0001
+starch_to_sugar,"Ripening converts much of its starchy flesh into sugars, making the taste sweeter and texture softer.",banana,train,structure,2,T0002
+water_and_carbohydrates,"The edible interior contains substantial water alongside carbohydrates, especially starch in less-ripe specimens.",banana,train,structure,3,T0003
+seed_structure,"Cultivated dessert varieties usually have tiny, undeveloped seeds rather than large, hard seeds.",banana,train,structure,4,T0004
+protective_fibers,The outer skin contains fibrous tissues that help protect the easily bruised interior.,banana,train,structure,5,T0005
+nutrient_composition,Its flesh supplies potassium and also contains vitamin B6 and vitamin C.,banana,train,structure,6,T0006
+relative_texture,"A ripe interior is creamy and tender, while the peel remains tougher and more elastic.",banana,train,structure,7,T0007
+waxy_surface,"A thin natural wax layer covers the skin, helping reduce moisture loss from the fruit's surface.",banana,train,structure,8,T0008
+pectin_content,"The edible pulp contains pectin, a soluble plant fiber present in cell walls and contributing to its soft structure.",banana,train,structure,9,T0009
+clustered_growth,"Individual fruits attach to a shared central stalk, forming compact clusters whose members often curve around one another.",banana,train,structure,10,T0010
+vascular_strands,"Fine vascular strands extend lengthwise through the pulp, connecting its tissues with the fruit's attachment point.",banana,train,structure,11,T0011
+aromatic_esters,"Ripe flesh releases volatile aromatic compounds, including esters that contribute to its sweet, fruity scent.",banana,train,structure,12,T0012
+low_fat_and_protein,"The edible interior contains very little fat or protein, making carbohydrates its predominant energy-providing nutrients.",banana,train,structure,13,T0013
+phenolic_oxidation,"When bruised or cut, exposed flesh can darken as naturally present phenolic compounds undergo oxidation.",banana,train,structure,14,T0014
+organic_acids,"Small amounts of malic and citric acids occur in the pulp, contributing mild tartness alongside its sweetness.",banana,train,structure,15,T0015
+harvest_stage,"Growers usually cut bunches while the fruits are still green, since they continue ripening after harvest.",banana,train,action,0,T0016
+commercial_ripening,Commercial ripening rooms expose green shipments to ethylene gas to bring batches to market-ready color together.,banana,train,action,1,T0017
+peeling_method,"At home, the peel is commonly split at one end and pulled away in long sections before eating.",banana,train,action,2,T0018
+freezing_for_blending,"Peeled pieces can be frozen on a tray, then stored in a container for later blending into drinks.",banana,train,action,3,T0019
+baking_use,Mashing the soft flesh into baking batter adds sweetness and moisture to breads and cakes.,banana,train,action,4,T0020
+shoot_propagation,Farmers commonly raise new plants from shoots growing near the base of an established plant.,banana,train,action,5,T0021
+green_fruit_cooking,"Green, firm fruits are often boiled or fried as a starchy side dish rather than eaten raw.",banana,train,action,6,T0022
+careful_transport,"For transport, harvested bunches are handled gently and packed in cartons to limit bruising during shipment.",banana,train,action,7,T0023
+green_flour_making,"Green fruit can be peeled, dried, and milled into a fine flour used in porridges, sauces, and baked goods.",banana,train,action,8,T0024
+dehydrated_snacks,"For dried snacks, ripe pieces are sliced evenly and dehydrated until reduced moisture makes them chewy and shelf-stable.",banana,train,action,9,T0025
+grilling_ripe_fruit,"Halved, peeled fruits can be grilled briefly, softening the centers while natural sugars brown on the exposed surfaces.",banana,train,action,10,T0026
+spiced_preserving,Very ripe flesh can be simmered with spices into a sweet sauce or preserve.,banana,train,action,11,T0027
+pulp_fermentation,"In some regions, ripe pulp is fermented with yeast, converting its sugars into alcoholic drinks.",banana,train,action,12,T0028
+leaf_unfurling,"The plant's broad leaves emerge tightly rolled from the central growing point, then gradually unfurl into long blades.",banana,train,action,13,T0029
+single_fruiting_cycle,"Each aboveground stem generally flowers and fruits once, then dies back as younger shoots continue the plant's growth.",banana,train,action,14,T0030
+baking_in_skin,"Whole fruits can be baked in their skins until the flesh softens, then opened and served warm.",banana,train,action,15,T0031
+warm_growing_regions,"Commercial fields are concentrated in warm tropical and subtropical regions, where year-round temperatures support continuous growth.",banana,train,situation,0,T0032
+frost_sensitivity,"Even brief frost can injure these plants, making frost-free locations important for dependable cultivation.",banana,train,situation,1,T0033
+soil_and_drainage,"They grow best in deep, fertile, well-drained soil; standing water around the roots can encourage disease.",banana,train,situation,2,T0034
+rainfall_and_irrigation,"In humid climates, ample rainfall supports rapid growth, while irrigation can help during prolonged dry spells.",banana,train,situation,3,T0035
+sunlight_conditions,"Open, sunny sites favor vigorous growth, whereas dense shade can slow development and reduce yields.",banana,train,situation,4,T0036
+wind_exposure,"Strong winds can shred the broad leaves or topple laden plants, so sheltered fields and windbreaks are useful.",banana,train,situation,5,T0037
+elevation_and_temperature,"Cooler conditions at higher elevations slow development, so commercial cultivation is generally concentrated at lower tropical elevations.",banana,train,situation,6,T0038
+mixed_farm_plantings,"On small farms, these plants are sometimes integrated into mixed tropical plantings alongside crops such as coffee or cacao.",banana,train,situation,7,T0039
+home_ethylene_storage,"At home, keeping this fruit beside apples can hasten softening, since both release ethylene as they ripen.",banana,train,situation,8,T0040
+chilling_injury,"Below roughly 13°C, chilling during storage can discolor the peel and impair normal ripening after the fruit returns to warmth.",banana,train,situation,9,T0041
+leaf_food_wrapping,"In many tropical kitchens, the plant’s broad leaves are used to wrap foods for cooking or serving.",banana,train,situation,10,T0042
+flower_bud_food,"In parts of South and Southeast Asia, the unopened flower cluster is cooked as a vegetable, often after soaking to reduce bitterness.",banana,train,situation,11,T0043
+latex_cross_reactivity,"People with latex allergy sometimes react to this fruit as well, because certain proteins in the two sources are structurally similar.",banana,train,situation,12,T0044
+infant_complementary_food,Mashed ripe pulp is sometimes offered as an early complementary food for infants because its soft consistency is easy to swallow.,banana,train,situation,13,T0045
+ornamental_container_cultivation,Dwarf cultivars are occasionally grown in large pots as ornamentals in warm conservatories or protected indoor spaces.,banana,train,situation,14,T0046
+staple_food_systems,"Where imported grain is costly, this crop can provide an affordable, carbohydrate-rich staple in tropical household diets.",banana,train,situation,15,T0047
+hot_cereal_topping,"Thin slices are a familiar topping for hot cereal, adding natural sweetness and a soft contrast to grains.",banana,train,function,0,T0048
+fruit_salad_ingredient,"Chopped pieces are commonly mixed into fruit salads, where their mild sweetness balances tart berries and citrus.",banana,train,function,1,T0049
+nut_butter_snack,Peeled sections paired with nut butter make a quick snack combining soft fruit with a protein-rich accompaniment.,banana,train,function,2,T0050
+curry_ingredient,"In some South Asian dishes, firm green cooking varieties are simmered in spiced curries, absorbing flavors from the sauce.",banana,train,function,3,T0051
+pseudostem_fiber_products,"Fibers recovered from the plant's pseudostem can be processed into cordage, paper, and woven materials.",banana,train,function,4,T0052
+peel_composting,"Discarded peels can be added to compost, where they break down into organic matter that enriches soil.",banana,train,function,5,T0053
+porridge_sweetener,"Mashed ripe pulp can sweeten porridge and give it body, reducing the need for added refined sugar.",banana,train,function,6,T0054
+agricultural_livelihoods,Commercial cultivation provides income and employment for farm workers and packers in many tropical producing regions.,banana,train,function,7,T0055
+exercise_fuel,Endurance athletes often eat the ripe fruit before exercise because its digestible carbohydrates provide readily available energy.,banana,train,function,8,T0056
+yogurt_topping,"Sliced over plain yogurt, the soft flesh adds sweetness and a tender contrast to its creamy base.",banana,train,function,9,T0057
+pseudostem_core_food,"In some cuisines, the tender inner core of the pseudostem is chopped and cooked as a vegetable.",banana,train,function,10,T0058
+surplus_livestock_feed,"Farmers may feed surplus or damaged harvests to livestock, converting unsold produce into animal nutrition.",banana,train,function,11,T0059
+pseudostem_field_mulch,"After harvest, chopped pseudostems can be spread over fields as mulch, returning organic matter to the soil.",banana,train,function,12,T0060
+sweet_fritters,"In some regions, ripe slices are dipped in batter and fried into sweet fritters for dessert or snacks.",banana,train,function,13,T0061
+wildlife_seed_dispersal,"Wild, seeded fruits provide food for forest animals, which can disperse seeds through their droppings.",banana,train,function,14,T0062
+convenient_between_meal_snack,A naturally sweet ripe portion can serve as a quick snack between meals without preparation beyond peeling.,banana,train,function,15,T0063
+berry_classification,"Botanically, the fleshy fruit is a berry: its ovary wall forms a soft pericarp around the pulp.",banana,eval,structure,0,T0064
+three_chambered_ovary,"Its ovary has three chambers, reflected in faintly defined sectors sometimes visible in a cross-section.",banana,eval,structure,1,T0065
+blossom_end_scar,A small rough scar may remain at the blossom end where the flower’s parts detached during development.,banana,eval,structure,2,T0066
+pulp_acidity,"Fresh pulp is mildly acidic, commonly measuring around pH 4.5 to 5.2.",banana,eval,structure,3,T0067
+latex_exudate,"Unripe fruit may release sticky latex from cut surfaces, a milky exudate that can stain hands and tools.",banana,eval,structure,4,T0068
+fructooligosaccharides,"The pulp contains small amounts of fructooligosaccharides, fermentable carbohydrates classified as prebiotic fibers.",banana,eval,structure,5,T0069
+folate_content,"Its flesh provides folate, a B vitamin used in processes involved in DNA production and cell division.",banana,eval,structure,6,T0070
+manganese_content,"The pulp contains manganese, a trace mineral needed in small amounts for normal enzyme activity.",banana,eval,structure,7,T0071
+tissue_culture_propagation,"Commercial nurseries multiply selected plants in sterile laboratory culture, producing large numbers of uniform planting specimens.",banana,eval,action,0,T0072
+bunch_sleeving,Developing bunches are often enclosed in perforated sleeves to reduce insect damage and scarring on the fruit surfaces.,banana,eval,action,1,T0073
+bunch_support,Growers may brace a heavy fruit stalk with a pole or rope to keep the loaded plant from leaning or toppling.,banana,eval,action,2,T0074
+postharvest_dehanding_and_washing,"At packing stations, workers separate harvested bunches into smaller groups and wash away sap and field debris before grading.",banana,eval,action,3,T0075
+flower_stalk_emergence,"The flower stalk emerges from the plant’s center and bends downward, while protective bracts open successively to expose rows of flowers.",banana,eval,action,4,T0076
+parthenocarpic_fruit_set,"Many edible cultivars develop fruit without fertilization, as their ovaries enlarge even though mature seeds do not form.",banana,eval,action,5,T0077
+climacteric_respiration,"During ripening, respiration briefly rises sharply in a climacteric phase that accompanies rapid softening.",banana,eval,action,6,T0078
+split_fertilizer_applications,"Growers commonly replenish nutrient-demanding fields with split fertilizer applications, often supplying nitrogen and potassium during active growth.",banana,eval,action,7,T0079
+black_leaf_streak_management,"In humid growing regions, black leaf streak can defoliate plantations, so growers remove infected leaves and use disease-management measures.",banana,eval,situation,0,T0080
+fusarium_field_persistence,"Where Fusarium wilt has entered a field, its persistent soilborne fungus can make replanting with susceptible varieties impractical for many years.",banana,eval,situation,1,T0081
+successor_shoot_selection,Commercial farms often retain one vigorous basal shoot after harvest to replace the spent stem and support the next crop cycle.,banana,eval,situation,2,T0082
+filipino_fruit_ketchup,"In the Philippines, a sweet-savory condiment made from the fruit is commonly used as an alternative to tomato ketchup.",banana,eval,situation,3,T0083
+corm_boring_weevil,"The corm-boring weevil weakens plants by tunneling into underground tissues, so growers use clean planting material to limit its spread.",banana,eval,situation,4,T0084
+leguminous_interrow_crops,"On some tropical farms, leguminous cover crops grow between rows, protecting bare soil while adding nitrogen through biological fixation.",banana,eval,situation,5,T0085
+bat_pollination_of_wild_relatives,"Wild relatives may rely on bats for nighttime pollination, unlike many cultivated forms that produce fruit without fertilization.",banana,eval,situation,6,T0086
+export_port_inspection,"At export ports, inspectors check maturity and surface condition before consignments are approved for shipment to overseas markets.",banana,eval,situation,7,T0087
+matoke_staple,"In Uganda, cooking varieties are steamed and mashed into matoke, a filling staple often served with savory sauces.",banana,eval,function,0,T0088
+unripe_fruit_chips,"Thin slices of unripe fruit are fried into crisp chips, a popular snack in several tropical countries.",banana,eval,function,1,T0089
+gluten_free_flour,"Because it contains no gluten, flour made from green fruit can help diversify baking options for people avoiding wheat.",banana,eval,function,2,T0090
+leaf_serving_plates,"In some communities, broad leaves serve as disposable plates for presenting cooked foods, reducing reliance on manufactured tableware.",banana,eval,function,3,T0091
+fruit_vinegar,"Ripe pulp can be fermented into vinegar, providing a tart condiment for cooking and seasoning.",banana,eval,function,4,T0092
+residue_biogas,"Chopped harvest residues can be fed into anaerobic digesters, where microbes produce biogas for usable energy.",banana,eval,function,5,T0093
+slope_soil_stabilization,"On tropical slopes, dense roots can help hold soil in place and reduce erosion around cultivated fields.",banana,eval,function,6,T0094
+green_fruit_potato_substitute,"In some regions, cooked green pieces provide a filling alternative to potatoes in savory meals.",banana,eval,function,7,T0095
+frame_and_wheel_layout,"A lightweight frame connects two wheels arranged in line, allowing the rider to balance while moving.",bicycle,train,structure,0,T0096
+handlebar_and_fork_steering,Steering is controlled by handlebars attached to a fork that turns the front wheel.,bicycle,train,structure,1,T0097
+pedal_chain_drive,"Foot pressure on paired pedals rotates a crank, commonly driving the rear wheel through a chain.",bicycle,train,structure,2,T0098
+rubber_tire_function,"Rubber tires surround the wheel rims, providing grip and cushioning over uneven surfaces.",bicycle,train,structure,3,T0099
+adjustable_saddle,"A narrow saddle supports the rider above the frame, with its height adjustable on many models.",bicycle,train,structure,4,T0100
+spoked_wheel_structure,"Spokes radiate between each hub and rim, keeping the wheels strong while limiting their weight.",bicycle,train,structure,5,T0101
+braking_components,Hand-operated levers can tighten brake pads against rims or activate discs near the hubs.,bicycle,train,structure,6,T0102
+rear_sprocket_gearing,"The rear wheel often carries a cluster of sprockets, enabling different gear ratios for varied terrain.",bicycle,train,structure,7,T0103
+frame_materials,"Frames are commonly made from steel, aluminum alloys, or carbon-fiber composites, balancing durability, weight, and stiffness.",bicycle,train,structure,8,T0104
+mudguard_protection,Curved mudguards mounted above the wheels help deflect water and grit away from the rider and frame.,bicycle,train,structure,9,T0105
+chain_guard,"An enclosed guard can cover the upper chain run, helping keep clothing clear of moving parts.",bicycle,train,structure,10,T0106
+inner_tube_and_valve,"In many designs, an inflated inner tube sits inside the tire and holds air through a small valve.",bicycle,train,structure,11,T0107
+parking_stand,A fold-down support leg props the machine upright when it is parked on level ground.,bicycle,train,structure,12,T0108
+reflective_components,"Small reflectors attached to the wheels or frame return light toward its source, improving visibility in darkness.",bicycle,train,structure,13,T0109
+warning_bell,A handlebar-mounted bell uses a spring-loaded striker to produce a brief warning sound.,bicycle,train,structure,14,T0110
+rear_cargo_rack,A metal or composite rack above the rear wheel provides a platform for securing bags or other cargo.,bicycle,train,structure,15,T0111
+starting_motion,"To start moving, the rider straddles the frame, places one foot on a pedal, pushes off, then begins pedaling.",bicycle,train,action,0,T0112
+coasting_without_pedaling,"On level ground, continued pedaling maintains motion, while stopping the effort allows the wheels to coast.",bicycle,train,action,1,T0113
+lower_gear_for_climbing,"Before climbing a hill, the rider may select a lower gear, making each pedal stroke easier but slower.",bicycle,train,action,2,T0114
+easing_pressure_during_shifting,Shifting gears is smoother when pedal pressure eases briefly as the chain moves between sprockets.,bicycle,train,action,3,T0115
+leaning_through_turns,"While turning, the rider steers through the curve and leans slightly to help maintain balance.",bicycle,train,action,4,T0116
+progressive_braking,Applying both brakes progressively slows the vehicle and helps the rider maintain control on slippery pavement.,bicycle,train,action,5,T0117
+slowing_before_stopping,"For a controlled stop, the rider reduces speed before placing one foot on the ground.",bicycle,train,action,6,T0118
+pre_ride_safety_checks,"Before setting out, checking tire pressure and testing the brakes can reveal problems that affect safe handling.",bicycle,train,action,7,T0119
+level_pedals_on_descents,"On a descent, riders often keep the pedals level so neither pedal catches the ground while cornering.",bicycle,train,action,8,T0120
+bent_joints_on_rough_terrain,"On bumpy trails, flexed elbows and knees absorb impacts and help keep the tires in contact with the surface.",bicycle,train,action,9,T0121
+standing_for_steep_climbs,"During a short, steep climb, a rider may stand on the pedals to apply force through each stroke.",bicycle,train,action,10,T0122
+following_distance_in_groups,"In a group, riders leave enough space ahead to react safely if the person in front slows suddenly.",bicycle,train,action,11,T0123
+arm_signals_in_traffic,"Before turning in traffic, a rider can extend an arm to communicate the intended direction to nearby road users.",bicycle,train,action,12,T0124
+low_centered_cargo,"Cargo is more stable when secured low and centered, reducing the effect of shifting weight on steering.",bicycle,train,action,13,T0125
+drying_and_lubricating_after_rain,"After riding through rain, drying exposed metal parts and lubricating the chain helps limit corrosion and wear.",bicycle,train,action,14,T0126
+walking_while_dismounted,"When walking through a crowded area, a rider dismounts and guides the frame by its handlebars.",bicycle,train,action,15,T0127
+protected_urban_commuting,"In crowded downtown districts, marked lanes give commuters a predictable route separated from faster motor traffic.",bicycle,train,situation,0,T0128
+station_based_rentals,"At public rental docks, users unlock shared machines for short trips and return them at another station.",bicycle,train,situation,1,T0129
+folding_models_on_trains,"On suburban rail journeys, compact folding models can be carried aboard where transit rules permit.",bicycle,train,situation,2,T0130
+velodrome_racing,"In velodromes, racers circle steeply banked wooden tracks on machines designed for smooth, uninterrupted laps.",bicycle,train,situation,3,T0131
+suspension_on_forest_trails,"On forest trails, sturdy suspension helps riders cross roots, loose stones, and ruts with better control.",bicycle,train,situation,4,T0132
+indoor_resistance_training,"During indoor winter training, a rear wheel can sit in a resistance trainer while the rider pedals in place.",bicycle,train,situation,5,T0133
+neighborhood_food_delivery,"In food-delivery work, insulated boxes secured behind the seat carry orders through neighborhood streets.",bicycle,train,situation,6,T0134
+studded_tires_on_ice,"In snowy regions, studded tires can improve grip on icy paths, although cautious riding remains essential.",bicycle,train,situation,7,T0135
+triathlon_transition,"During a triathlon, competitors switch from swimming to riding, leave their machines in a transition area, then begin the running leg.",bicycle,train,situation,8,T0136
+overnight_touring_stops,"During multiday tours, riders often plan overnight stops near campgrounds, hostels, or towns where repairs are available.",bicycle,train,situation,9,T0137
+university_campus_travel,"On expansive university campuses, students can travel between distant lecture halls without moving a car or searching for parking.",bicycle,train,situation,10,T0138
+courtesy_on_shared_paths,"On narrow shared paths, people traveling on two wheels should slow near walkers and pass only when space allows.",bicycle,train,situation,11,T0139
+farm_utility_travel,"On farms, sturdy utility models can carry tools or feed between barns, fields, and other nearby work sites.",bicycle,train,situation,12,T0140
+ferry_connections,"On ferry routes that permit them, riders can bring personal transport across the water and continue their journey ashore.",bicycle,train,situation,13,T0141
+car_transport_to_trailheads,"At remote trailheads, travelers may secure their machines to exterior car racks before driving to routes far from home.",bicycle,train,situation,14,T0142
+outdoor_rehabilitation_use,Some rehabilitation programs use adapted outdoor versions to help patients practice coordinated movement and build confidence.,bicycle,train,situation,15,T0143
+aerobic_fitness,Regular rides provide aerobic exercise that can strengthen the heart and improve endurance without requiring access to a gym.,bicycle,train,function,0,T0144
+guided_sightseeing,Guided sightseeing tours let visitors explore historic neighborhoods at a leisurely pace while stopping easily at points of interest.,bicycle,train,function,1,T0145
+postal_delivery,"Postal workers can carry letters and small parcels along neighborhood routes, reaching homes where vehicle access is inconvenient.",bicycle,train,function,2,T0146
+public_space_patrols,"Officers use quiet, maneuverable transport to patrol parks and crowded public events where motor vehicles may be impractical.",bicycle,train,function,3,T0147
+children_learning_balance,"Young children can practice steering and balance on small models, building coordination before learning to ride independently.",bicycle,train,function,4,T0148
+rural_access,"In rural areas, pedal-powered travel can connect residents with schools, clinics, and shops when public transit is limited.",bicycle,train,function,5,T0149
+hand_powered_mobility,"Some people use hand-powered models to travel independently when leg movement is limited, supporting everyday outings and social participation.",bicycle,train,function,6,T0150
+carrying_young_passengers,A child seat mounted behind the rider lets caregivers bring young passengers along on nearby trips.,bicycle,train,function,7,T0151
+avoiding_urban_congestion,"In congested city centers, traveling under pedal power can bypass traffic queues and save time on short journeys.",bicycle,train,function,8,T0152
+reducing_short_trip_emissions,Replacing short car trips with pedal-powered journeys can reduce fuel consumption and local tailpipe emissions.,bicycle,train,function,9,T0153
+trailer_for_passengers_and_loads,A hitched trailer can carry children or bulky loads that would be awkward to secure on the frame.,bicycle,train,function,10,T0154
+combining_rides_with_transit,Secure parking near transit stops lets commuters combine a ride with a bus or train journey.,bicycle,train,function,11,T0155
+basket_for_small_errands,"A front basket keeps small purchases close at hand, making quick grocery errands easier to manage.",bicycle,train,function,12,T0156
+low_daily_travel_costs,"Because it needs no fuel, this form of transport can help households keep everyday travel costs low.",bicycle,train,function,13,T0157
+charity_fundraising_rides,Organized charity rides bring participants together on planned routes while raising money for community causes.,bicycle,train,function,14,T0158
+emergency_medicine_delivery,"In areas with limited road access, aid workers can deliver medicines to isolated households using pedal-powered transport.",bicycle,train,function,15,T0159
+headset_bearing_support,Sealed bearings inside the head tube let the fork rotate smoothly while supporting steering loads.,bicycle,eval,structure,0,T0160
+bottom_bracket_bearings,A bottom-bracket shell houses bearings around the axle that joins the two crank arms.,bicycle,eval,structure,1,T0161
+derailleur_chain_guidance,A rear derailleur guides the chain between sprockets and uses a spring-loaded cage to maintain tension.,bicycle,eval,structure,2,T0162
+freehub_ratchet_mechanism,A ratcheting freehub engages during pedaling but lets the rear wheel turn while the pedals remain still.,bicycle,eval,structure,3,T0163
+seatpost_and_clamp,"A seatpost slides inside the frame’s seat tube, where a clamp holds it at the chosen height.",bicycle,eval,structure,4,T0164
+handlebar_tape_and_positions,Cushioned tape wrapped around drop handlebars adds grip and gives the rider several hand positions.,bicycle,eval,structure,5,T0165
+tubeless_rim_sealant,"In a tubeless setup, the tire bead seals against the rim, while liquid sealant can close small punctures.",bicycle,eval,structure,6,T0166
+reinforced_rim_eyelets,"Metal eyelets in some rims reinforce the holes where spoke nipples attach, helping distribute tension around the wheel.",bicycle,eval,structure,7,T0167
+using_lamps_after_dark,"At dusk, riders switch on front and rear lamps so other road users can see them and the path ahead.",bicycle,eval,action,0,T0168
+locking_to_fixed_object,"When locking outdoors, pass a sturdy lock through the frame and a wheel, then secure it to an immovable rack.",bicycle,eval,action,1,T0169
+repairing_a_puncture,"To repair a puncture, remove the wheel, lift one tire bead with levers, and patch or replace the damaged tube.",bicycle,eval,action,2,T0170
+crossing_railway_tracks,"Before crossing railway tracks, approach nearly at a right angle to keep narrow tires from slipping into grooves.",bicycle,eval,action,3,T0171
+checking_traffic_with_mirror,A handlebar mirror lets riders check traffic behind them with brief glances while keeping their forward view available.,bicycle,eval,action,4,T0172
+coordinating_on_a_tandem,"On a tandem, the front rider steers and brakes while both occupants coordinate pedaling to keep their effort synchronized.",bicycle,eval,action,5,T0173
+approaching_puddles_cautiously,"Before riding through a puddle, riders slow down because its depth and hidden hazards may be difficult to judge.",bicycle,eval,action,6,T0174
+rolling_over_a_curb,"At a curb, riders can unweight the front wheel slightly, then shift their weight to help the rear wheel roll over the edge.",bicycle,eval,action,7,T0175
+wide_tires_on_sand,"On sandy beaches, extra-wide, low-pressure tires help riders cross soft ground with less risk of sinking.",bicycle,eval,situation,0,T0176
+aerodynamic_time_trial_position,"During time trials, riders adopt aerodynamic positions and use specialized handlebars to reduce wind resistance.",bicycle,eval,situation,1,T0177
+grass_court_mallet_sport,"On grass courts, players wield long mallets while steering and maneuvering around opponents during matches.",bicycle,eval,situation,2,T0178
+community_repair_workshops,"At community repair workshops, volunteers teach owners to adjust gear shifting and replace worn brake cables.",bicycle,eval,situation,3,T0179
+water_carrying_on_remote_routes,"Along remote backcountry routes, frame-mounted bottle cages help touring riders carry water between refill points.",bicycle,eval,situation,4,T0180
+school_road_safety_training,"In school safety courses, children practice scanning for traffic and signaling before navigating ordinary streets.",bicycle,eval,situation,5,T0181
+walking_in_pedestrian_zones,"In crowded pedestrian zones, local rules may require riders to walk their machines through the busiest sections.",bicycle,eval,situation,6,T0182
+endurance_event_support_checkpoints,"At timed endurance events, support crews may provide food and water at designated roadside checkpoints.",bicycle,eval,situation,7,T0183
+low_impact_garden_travel,"In botanical gardens, riders can move between planting beds without causing the soil compaction associated with heavier maintenance vehicles.",bicycle,eval,function,0,T0184
+dirt_track_competition,"On purpose-built dirt tracks, riders race over rollers and berms, developing speed control and balance.",bicycle,eval,function,1,T0185
+industrial_site_inspections,"At sprawling industrial sites, staff ride between distant buildings, avoiding fuel use and freeing service vehicles for heavier loads.",bicycle,eval,function,2,T0186
+quiet_travel_on_film_sets,"During film production, crew members ride quietly between nearby sets, avoiding engine noise that could disrupt location recordings.",bicycle,eval,function,3,T0187
+emergency_device_charging,"A pedal-driven generator converts leg effort into electricity, offering a small-scale way to charge devices during power outages.",bicycle,eval,function,4,T0188
+motor_assistance_on_steep_commutes,"In mountain towns, motor assistance can make steep commutes manageable for riders who would otherwise avoid the climb.",bicycle,eval,function,5,T0189
+easier_mounting_with_step_through_frame,A low step-through frame makes mounting easier for riders who cannot comfortably swing a leg over a high top tube.,bicycle,eval,function,6,T0190
+festival_site_travel,"At large outdoor festivals, staff ride between stages and service areas without navigating vehicle traffic.",bicycle,eval,function,7,T0191
+horizontal_levels,"Tall furniture often has horizontal platforms fixed between side panels, creating several open levels for storing reading material.",bookshelf,train,structure,0,T0192
+construction_materials,"Common materials include solid timber, engineered wood, metal, or plastic, with surfaces finished in paint, veneer, or laminate.",bookshelf,train,structure,1,T0193
+adjustable_platforms,"Adjustable supports let individual platforms move between predrilled holes, accommodating objects of different heights.",bookshelf,train,structure,2,T0194
+stabilizing_back_panel,A rigid back panel can reduce frame movement and keep the structure square while preventing stored items from slipping behind.,bookshelf,train,structure,3,T0195
+mounting_and_modularity,"Some units stand on the floor, while others attach to a wall or connect with neighboring modular sections.",bookshelf,train,structure,4,T0196
+retaining_edges,Front edges sometimes have lips or raised rails that help keep stored volumes from sliding off.,bookshelf,train,structure,5,T0197
+supports_and_enclosures,"Open-sided designs may use brackets or pins to support platforms, while enclosed versions can add doors or glass panels.",bookshelf,train,structure,6,T0198
+load_capacity,"Load capacity depends on span, material thickness, support spacing, and how weight is distributed across each level.",bookshelf,train,structure,7,T0199
+vertical_partition,"A central vertical partition can split the interior into narrower bays, supporting separate arrangements of stored objects.",bookshelf,train,structure,8,T0200
+shallow_depth,"Many designs have a shallow front-to-back depth, allowing them to fit along walls without projecting far into a room.",bookshelf,train,structure,9,T0201
+flat_top_surface,"The top panel is usually broad and flat, forming an additional surface above the stacked storage levels.",bookshelf,train,structure,10,T0202
+raised_base,A bottom plinth or short legs can lift the lowest panel above the floor and provide clearance for cleaning.,bookshelf,train,structure,11,T0203
+panel_joinery,"Fasteners such as dowels, screws, and cam connectors join panels at corners and help hold the frame together.",bookshelf,train,structure,12,T0204
+edge_banding,"Edge banding may cover exposed cuts along panel edges, giving them a smoother finished perimeter.",bookshelf,train,structure,13,T0205
+lateral_bracing,Some frames include cross-bracing or diagonal tension hardware to resist side-to-side wobbling.,bookshelf,train,structure,14,T0206
+continuous_side_panels,"Continuous side panels can extend from base to top, enclosing each level laterally and defining the structure's overall height.",bookshelf,train,structure,15,T0207
+spine_facing_arrangement,"People often arrange volumes with their spines facing outward, making titles easier to scan and retrieve.",bookshelf,train,action,0,T0208
+retrieval_from_tight_rows,"To remove an item from a tightly packed row, neighboring volumes may be shifted aside before it is drawn out.",bookshelf,train,action,1,T0209
+grouping_items,"After use, items are returned to an open space, often grouped by subject, author, or size.",bookshelf,train,action,2,T0210
+displaying_decorations,Decorative objects and framed photographs may share the storage space with reading materials.,bookshelf,train,action,3,T0211
+dusting_exposed_contents,"Periodic dusting clears exposed surfaces and item tops, especially when stored contents remain uncovered.",bookshelf,train,action,4,T0212
+upright_or_flat_placement,Volumes are usually stood upright; unusually tall ones may be laid flat to avoid overhanging.,bookshelf,train,action,5,T0213
+using_end_supports,Weighted end supports can keep upright volumes from leaning into gaps at the ends of a row.,bookshelf,train,action,6,T0214
+clearing_for_rearrangement,"During rearrangement, items may be temporarily removed so the storage positions can be changed or cleaned.",bookshelf,train,action,7,T0215
+measuring_placement_clearance,"Before positioning it, users often measure the wall and nearby clearance to keep doors, windows, and walkways unobstructed.",bookshelf,train,action,8,T0216
+placing_frequently_used_items,"Frequently consulted titles are often placed near eye level, while less-used references occupy higher or lower positions.",bookshelf,train,action,9,T0217
+library_call_number_order,"Library staff may assign call-number ranges to sections, then return each volume to its corresponding position after use.",bookshelf,train,action,10,T0218
+cleaning_outer_panels,"Users can wipe fingerprints from smooth outer panels with a soft cloth, avoiding abrasive cleaners that may scratch finishes.",bookshelf,train,action,11,T0219
+limiting_light_exposure,"To reduce fading from window light, people may move exposed volumes to a shaded spot or rotate their arrangement.",bookshelf,train,action,12,T0220
+reducing_moisture_damage,"In humid rooms, ventilation and distance from damp walls help limit moisture damage to stored paper and wooden panels.",bookshelf,train,action,13,T0221
+installing_anti_tip_hardware,"For added stability, users may fasten anti-tip hardware into a wall stud to reduce the risk of forward tipping.",bookshelf,train,action,14,T0222
+preparing_for_relocation,"Before relocating it, people usually empty the compartments and carry the frame upright to reduce strain on its joints.",bookshelf,train,action,15,T0223
+alcove_placement,"In a living room alcove, the unit can fit between walls and make an otherwise unused recess practical.",bookshelf,train,situation,0,T0224
+child_reachable_storage,A low arrangement in a child’s room lets young readers reach their own stories without climbing.,bookshelf,train,situation,1,T0225
+classroom_shared_supplies,"In a classroom, shared supplies can be placed within reach so pupils can collect them during activities.",bookshelf,train,situation,2,T0226
+office_reference_storage,"An office may use separate sections for binders, keeping reference materials accessible near a desk.",bookshelf,train,situation,3,T0227
+under_stair_placement,"Beneath a staircase, staggered heights can make use of space that would otherwise be difficult to furnish.",bookshelf,train,situation,4,T0228
+retail_product_display,"In a shop, displayed merchandise can face customers, helping them browse items without opening enclosed storage.",bookshelf,train,situation,5,T0229
+open_room_divider,"Set perpendicular to a wall, an open unit can divide a room while allowing light and sightlines through.",bookshelf,train,situation,6,T0230
+shared_room_storage,"In a shared dormitory, personal objects can occupy separate levels, giving roommates distinct areas for belongings.",bookshelf,train,situation,7,T0231
+bedside_reading,"In a bedroom, a compact unit beside the bed keeps nighttime reading within reach without occupying the main walking path.",bookshelf,train,situation,8,T0232
+attic_roof_storage,"Under a pitched attic roof, a low unit can store reference volumes where full-height furniture would not fit.",bookshelf,train,situation,9,T0233
+kitchen_recipe_storage,"In a kitchen, a unit placed away from the sink keeps recipe collections accessible while reducing exposure to splashes.",bookshelf,train,situation,10,T0234
+meeting_room_documents,"During meetings, binders on a nearby unit let participants retrieve policy documents without leaving the room.",bookshelf,train,situation,11,T0235
+senior_center_access,"In a senior center, lower compartments can make large-print titles accessible to seated visitors.",bookshelf,train,situation,12,T0236
+camper_van_storage,"In a camper van, a securely fixed unit keeps travel guides and manuals organized as the vehicle moves.",bookshelf,train,situation,13,T0237
+museum_workroom_materials,"At a museum workroom, a unit can hold exhibition catalogs and handling guides near the preparation tables.",bookshelf,train,situation,14,T0238
+hotel_guest_guides,"In a hotel lounge, a low unit can hold local guides for guests to browse while waiting.",bookshelf,train,situation,15,T0239
+garage_hardware_organization,"In a garage, labeled containers on elevated tiers keep small hardware sorted above floor-level tools and easier to find.",bookshelf,train,function,0,T0240
+gaming_equipment_storage,"A media room can use spaced compartments for game consoles and controllers, keeping accessories near the devices they serve.",bookshelf,train,function,1,T0241
+craft_supply_separation,"In a craft area, separate containers for thread, brushes, and paper help prevent small supplies from becoming mixed.",bookshelf,train,function,2,T0242
+entryway_shoe_storage,"A low unit near an entryway provides a visible place for shoes, reducing piles around the doorway.",bookshelf,train,function,3,T0243
+visitor_brochure_access,"In a reception area, brochures arranged face-out let visitors select information while waiting without asking staff.",bookshelf,train,function,4,T0244
+mudroom_accessories,"In a mudroom, labeled baskets for gloves and hats keep seasonal accessories separated and ready when residents head outdoors.",bookshelf,train,function,5,T0245
+recording_accessory_storage,"A home studio can keep cables, microphones, and adapters together near recording equipment, shortening setup time between sessions.",bookshelf,train,function,6,T0246
+holiday_decoration_storage,"During seasonal decorating, grouped boxes on elevated tiers keep ornaments sorted and leave the floor clear for other uses.",bookshelf,train,function,7,T0247
+game_box_storage,"In a family game room, broad levels keep boxed games together beside the table, making selection and cleanup easier.",bookshelf,train,function,8,T0248
+elevated_plant_display,"A sunroom arrangement raises potted plants off the floor, freeing walking space while keeping foliage visible.",bookshelf,train,function,9,T0249
+linen_supply_organization,"In a linen room, folded towels can be stacked by size, making fresh sets easy to locate during room turnover.",bookshelf,train,function,10,T0250
+workshop_manual_access,"A repair workshop can keep service manuals beside workbenches, so technicians can consult instructions without leaving their task.",bookshelf,train,function,11,T0251
+household_paperwork_sorting,"Separate tiers can hold incoming and outgoing paperwork, reducing mix-ups when household members share a drop-off point.",bookshelf,train,function,12,T0252
+music_equipment_storage,"In a music room, cases for instruments and accessories can be kept together, simplifying setup before rehearsals.",bookshelf,train,function,13,T0253
+gallery_ceramic_display,"A gallery can arrange ceramics at varied heights, giving visitors clear views of individual pieces without crowding display tables.",bookshelf,train,function,14,T0254
+sports_gear_separation,"In a sports changing area, labeled baskets can keep personal gear separated, helping players find their belongings after practice.",bookshelf,train,function,15,T0255
+rounded_front_corners,"Some designs have rounded front corners, reducing sharp exposed edges along the sides of projecting horizontal supports.",bookshelf,eval,structure,0,T0256
+transparent_glass_supports,"Tempered glass panels can serve as transparent supports, allowing light through while displaying objects above and below.",bookshelf,eval,structure,1,T0257
+swivel_casters,Small swivel casters fitted beneath the base allow a loaded unit to roll across smooth floors.,bookshelf,eval,structure,2,T0258
+integrated_led_lighting,An integrated LED strip beneath an upper panel can illuminate the level below without requiring a separate lamp.,bookshelf,eval,structure,3,T0259
+wire_grid_supports,"Open wire-grid supports leave gaps between metal strands, permitting air circulation and visibility through each level.",bookshelf,eval,structure,4,T0260
+crown_molding,"Decorative crown molding may cap the upper edge, adding a projecting profile beyond the main frame.",bookshelf,eval,structure,5,T0261
+threaded_leveling_feet,Leveling feet can be threaded at the base corners to compensate for uneven flooring and reduce rocking.,bookshelf,eval,structure,6,T0262
+baseboard_clearance_notch,A recessed notch along the lower rear edge can clear a wall's projecting baseboard.,bookshelf,eval,structure,7,T0263
+placing_heavy_items_low,"Heavier reference volumes are usually placed on lower tiers, keeping the center of mass low and improving stability.",bookshelf,eval,action,0,T0264
+allowing_removal_clearance,Leaving a little headroom above upright volumes makes them easier to grasp and remove without scraping the level above.,bookshelf,eval,action,1,T0265
+inserting_new_acquisitions,"When adding new acquisitions, staff may shift neighboring items aside before inserting each volume in its intended sequence.",bookshelf,eval,action,2,T0266
+labeling_sections,"Small labels along front edges can identify subject sections, helping users return items to the correct location.",bookshelf,eval,action,3,T0267
+cover_forward_promotion,Libraries may display selected titles with their covers facing outward to draw attention to particular recommendations or new arrivals.,bookshelf,eval,action,4,T0268
+checking_inventory,"During inventory, workers scan spines in sequence and compare entries with a catalog to find misplaced volumes.",bookshelf,eval,action,5,T0269
+reserving_expansion_space,Leaving an unoccupied section beside a growing collection allows new arrivals to be added without reorganizing the entire arrangement.,bookshelf,eval,action,6,T0270
+checking_for_wobble,"After assembly, a gentle push at an upper corner can reveal wobbling that needs correction before the unit is loaded.",bookshelf,eval,action,7,T0271
+courthouse_legal_volumes,"In a courthouse records room, a tiered fixture keeps bound statute volumes close to clerks handling daily legal research.",bookshelf,eval,situation,0,T0272
+hospital_family_resources,A tiered fixture in a hospital family lounge keeps health pamphlets and caregiver guides together for visitors during long waits.,bookshelf,eval,situation,1,T0273
+language_learning_readers,"At a language institute, graded readers arranged by proficiency help learners choose material suited to their current reading level.",bookshelf,eval,situation,2,T0274
+ferry_travel_information,"On a passenger ferry, a compact tiered fixture keeps route maps and safety leaflets available in a shared cabin.",bookshelf,eval,situation,3,T0275
+community_seed_exchange,"At a community seed exchange, a tiered fixture displays labeled seed packets so gardeners can compare varieties before taking them home.",bookshelf,eval,situation,4,T0276
+chapel_hymnal_access,"In a chapel vestibule, hymnals can be kept near the entrance for worshippers to collect before services.",bookshelf,eval,situation,5,T0277
+planetarium_learning_materials,A tiered fixture in a planetarium education room keeps astronomy guides and star charts handy for visiting school groups.,bookshelf,eval,situation,6,T0278
+shelter_shared_reading,"In a disaster-relief shelter, donated children's stories can be placed in a common area for families sharing temporary accommodation.",bookshelf,eval,situation,7,T0279
+course_reserve_pickup,A tiered fixture near a campus circulation desk keeps course-reserve texts grouped by class for quick pickup between lectures.,bookshelf,eval,function,0,T0280
+archival_record_identification,"In a municipal archive, separate compartments keep boxed records from different departments identifiable when staff retrieve files for public requests.",bookshelf,eval,function,1,T0281
+theater_prop_sorting,"A theater prop room uses open tiers to separate set pieces by production, reducing last-minute searches during scene changes.",bookshelf,eval,function,2,T0282
+tool_library_inventory,"A community tool library keeps returned hand tools visible on tiered supports, helping volunteers spot missing items during inventory.",bookshelf,eval,function,3,T0283
+marine_specimen_grouping,"In a marine biology lab, trays of preserved specimens can be grouped by survey site, making comparisons across field samples easier.",bookshelf,eval,function,4,T0284
+food_pantry_stock_monitoring,"A food pantry can organize canned donations by category on accessible tiers, helping volunteers notice low stock before distribution.",bookshelf,eval,function,5,T0285
+fire_station_reference_access,"At a fire station, training binders and equipment checklists stay near the briefing area, supporting quick review between calls.",bookshelf,eval,function,6,T0286
+emergency_response_materials,An emergency operations center can keep response maps and procedure binders together for staff coordinating decisions during an unfolding incident.,bookshelf,eval,function,7,T0287
+enclosed_frame_and_compartments,This storage furniture typically has an enclosed frame with interior shelves or compartments behind one or more doors.,cabinet,train,structure,0,T0288
+hinged_doors,"Its doors often attach to the frame with hinges, allowing them to swing outward for access to stored items.",cabinet,train,structure,1,T0289
+construction_materials,"Common versions use solid wood, plywood, metal, or combinations of these materials for their panels and structural frame.",cabinet,train,structure,2,T0290
+door_and_drawer_hardware,Small knobs or pulls are usually fixed to the doors or drawers to make opening them easier.,cabinet,train,structure,3,T0291
+rear_panel,A thin rear panel can brace the structure and cover the back of its interior compartments.,cabinet,train,structure,4,T0292
+adjustable_shelves,Some interiors contain movable shelves supported by pins inserted into paired rows of holes along the side walls.,cabinet,train,structure,5,T0293
+bottom_support_and_base,"A broad bottom panel supports the stored contents, while legs or a recessed base may raise the frame above the floor.",cabinet,train,structure,6,T0294
+wall_mounting,"Wall-mounted versions are secured to studs or masonry, with fasteners carrying the weight of the unit and its contents.",cabinet,train,structure,7,T0295
+face_frame_rails_and_stiles,A face frame may use vertical stiles and horizontal rails to reinforce the front and provide mounting surfaces for doors.,cabinet,train,structure,8,T0296
+glazed_door_panels,Some door panels contain glass held in place by narrow wooden or metal retaining strips.,cabinet,train,structure,9,T0297
+drawer_box_and_runners,Pull-out drawers commonly consist of a box-shaped body that travels on side-mounted or under-mounted runners.,cabinet,train,structure,10,T0298
+door_lock_and_strike,"A small lock may be fitted to a door, with its bolt engaging a strike plate on the frame.",cabinet,train,structure,11,T0299
+exterior_surface_finishes,"Exterior surfaces may be covered with paint, clear varnish, laminate, or thin decorative veneer.",cabinet,train,structure,12,T0300
+panel_corner_joinery,"Corner joints such as dowels, screws, or interlocking cuts connect panels and help keep the frame square.",cabinet,train,structure,13,T0301
+ventilation_openings,Ventilation openings in a door or rear panel allow air to circulate through the enclosed space.,cabinet,train,structure,14,T0302
+projecting_top_and_edge_treatment,"A projecting top can provide a flat work surface, with its edges sometimes rounded or capped for protection.",cabinet,train,structure,15,T0303
+closed_storage_limits_dust,Closing its doors keeps stored household goods out of sight and can reduce their exposure to dust.,cabinet,train,action,0,T0304
+heavy_items_stored_low,People often place heavier objects on lower shelves to reduce tipping risk and make upper storage easier to reach.,cabinet,train,action,1,T0305
+emptying_before_relocation,"Before relocation, users typically remove contents and detach loose shelves to reduce weight and prevent items from shifting.",cabinet,train,action,2,T0306
+squaring_frame_during_assembly,"During assembly, builders check the frame for squareness before tightening fasteners so the doors align and close smoothly.",cabinet,train,action,3,T0307
+kitchen_supply_organization,"In kitchens, people commonly use one to keep cookware, dishes, or pantry supplies organized and within reach.",cabinet,train,action,4,T0308
+cleaning_interior_surfaces,Periodic cleaning usually involves emptying compartments and wiping interior surfaces with a damp cloth before replacing stored goods.,cabinet,train,action,5,T0309
+anti_tip_safety_strap,"Tall freestanding units are often secured to a wall with an anti-tip strap, especially where children may climb.",cabinet,train,action,6,T0310
+soft_close_door_motion,Some models use soft-close hinges that slow a door's final movement and prevent it from slamming.,cabinet,train,action,7,T0311
+grouping_similar_supplies,"People often group similar supplies in separate compartments, so routine tasks require less searching and items can be returned consistently.",cabinet,train,action,8,T0312
+placing_items_by_frequency,"Frequently used items are commonly placed around waist or eye level, while rarely needed supplies occupy less accessible spaces.",cabinet,train,action,9,T0313
+door_swing_clearance,"During installation, leave enough clearance for doors to swing fully without hitting walls, handles, or nearby appliances.",cabinet,train,action,10,T0314
+retightening_hinge_screws,"After repeated use, loose hinge screws can be retightened to restore door alignment and reduce sagging.",cabinet,train,action,11,T0315
+protective_shelf_liners,"To protect shelf surfaces, users may place washable liners beneath containers that could leak or leave marks.",cabinet,train,action,12,T0316
+securing_openings_for_moving,"Before moving one across a room, secure its doors and drawers so they do not swing open during handling.",cabinet,train,action,13,T0317
+leveling_with_adjustable_feet,"On an uneven floor, adjustable feet can be turned until the top sits level and the doors operate properly.",cabinet,train,action,14,T0318
+separating_utility_supplies,"In a workshop or utility area, people use enclosed compartments to keep small supplies separated from dust and clutter.",cabinet,train,action,15,T0319
+bathroom_toiletry_storage,"In bathrooms, wall-mounted units above sinks hold toiletries while keeping them away from splashing water.",cabinet,train,situation,0,T0320
+secure_clinical_supplies,"In clinics, lockable compartments keep medications and medical supplies inaccessible to unauthorized visitors.",cabinet,train,situation,1,T0321
+office_paperwork_filing,"In offices, shallow drawers with labeled fronts help staff sort paperwork by client, date, or project.",cabinet,train,situation,2,T0322
+retail_merchandise_display,"In shops, glass-fronted displays let customers view merchandise while limiting direct handling.",cabinet,train,situation,3,T0323
+classroom_art_materials,"In classrooms, dedicated storage for art materials helps teachers distribute supplies and return them after activities.",cabinet,train,situation,4,T0324
+laboratory_flammable_storage,Laboratories use approved flammable-liquid storage units designed to reduce fire exposure and contain hazardous vapors.,cabinet,train,situation,5,T0325
+living_room_media_storage,"In living rooms, enclosed media storage can hide electronic equipment while leaving openings for cables and remote signals.",cabinet,train,situation,6,T0326
+marine_equipment_stowage,"On boats, compact storage with secure catches keeps equipment from shifting when the vessel moves through waves.",cabinet,train,situation,7,T0327
+dining_room_table_linens,"In dining rooms, low enclosed units often keep table linens and serving pieces near the table without occupying much wall height.",cabinet,train,situation,8,T0328
+entryway_accessories,Entryways often use shallow enclosed furniture to contain shoes and outdoor accessories near the door.,cabinet,train,situation,9,T0329
+bedroom_garment_storage,"In bedrooms, built-in compartments can keep folded garments and personal belongings out of sight.",cabinet,train,situation,10,T0330
+under_stair_space_use,"In under-stair spaces, custom-fitted doors conceal compartments shaped to use otherwise awkward sloping areas.",cabinet,train,situation,11,T0331
+outdoor_kitchen_weather_protection,Outdoor kitchens may use weather-resistant enclosures to protect utensils and serving supplies from rain and airborne debris.,cabinet,train,situation,12,T0332
+childcare_cleaning_product_safety,"In childcare settings, cleaning products are kept in locked, high compartments to prevent access by young children.",cabinet,train,situation,13,T0333
+server_room_equipment_airflow,"In server rooms, ventilated enclosures organize network equipment while allowing airflow around heat-producing components.",cabinet,train,situation,14,T0334
+dining_hall_service_storage,"In dining halls, serving stations provide enclosed spaces for spare trays and tableware near food service areas.",cabinet,train,situation,15,T0335
+concealed_recycling_sorting,"In kitchens, a pull-out waste bin can separate recycling from general rubbish while keeping containers out of sight.",cabinet,train,function,0,T0336
+two_sided_room_divider,"Placed between work areas, a two-sided unit can divide a room while remaining accessible from either side.",cabinet,train,function,1,T0337
+concealing_sink_plumbing,A fitted enclosure can conceal plumbing beneath a sink while leaving doors available for routine repairs.,cabinet,train,function,2,T0338
+keeping_tools_above_workbenches,"In workshops, wall-mounted compartments keep hand tools reachable above benches, preserving scarce work surface.",cabinet,train,function,3,T0339
+separating_kitchen_chemicals,"In commercial kitchens, separate locked compartments can keep cleaning chemicals apart from food-contact equipment and utensils.",cabinet,train,function,4,T0340
+securing_important_documents,"At home, a lockable unit can keep passports and other important documents together but inaccessible to casual visitors.",cabinet,train,function,5,T0341
+salon_supplies_near_stations,A salon may use enclosed storage near styling stations to keep spare towels and hair products close at hand.,cabinet,train,function,6,T0342
+protecting_museum_objects,"In museums, enclosed display spaces can limit visitors' direct contact with fragile objects while keeping them visible.",cabinet,train,function,7,T0343
+protecting_breaker_panel,A recessed enclosure around a household breaker panel protects switches from accidental knocks while leaving them accessible during an outage.,cabinet,train,function,8,T0344
+securing_collected_ballots,"At polling stations, sealed compartments hold completed ballots securely between collection and counting, reducing opportunities for tampering.",cabinet,train,function,9,T0345
+controlling_customer_keys,"In repair garages, individually lockable compartments keep customers' keys separated and controlled until their vehicles are returned.",cabinet,train,function,10,T0346
+hotel_guest_refreshments,"Hotels may provide compact in-room enclosures for refreshments and cups, keeping guest supplies together without using much counter space.",cabinet,train,function,11,T0347
+backstage_personal_belongings,"At theaters, numbered compartments give performers a consistent place to leave personal belongings backstage between scenes.",cabinet,train,function,12,T0348
+washroom_towel_supplies,Staff use enclosed wall recesses to keep replacement paper-towel rolls accessible without leaving supplies exposed in shared washrooms.,cabinet,train,function,13,T0349
+sorting_airport_lost_property,"At airport lost-property desks, separate compartments keep recovered items sorted until passengers claim them.",cabinet,train,function,14,T0350
+protecting_construction_tools,"At construction sites, lockable enclosures secure shared power tools overnight against theft and rain.",cabinet,train,function,15,T0351
+load_bearing_side_panels,"In many box-style units, full-height side panels carry shelf loads and connect the top and bottom into a rigid carcass.",cabinet,eval,structure,0,T0352
+fixed_shelves_in_dado_joints,"Fixed shelves may sit in dadoes cut across the side panels, creating a broad glued joint rather than relying solely on pins.",cabinet,eval,structure,1,T0353
+frameless_door_mounting,"Frameless construction mounts doors directly to the side panels, leaving the front edges visible instead of covering them with a face frame.",cabinet,eval,structure,2,T0354
+sliding_door_tracks,"Sliding doors hang from rollers or ride in upper and lower tracks, moving laterally without projecting into the room.",cabinet,eval,structure,3,T0355
+flexible_slatted_door,"A tambour door consists of narrow slats joined by flexible backing, allowing the panel to bend and roll into a housing.",cabinet,eval,structure,4,T0356
+sealed_composite_board_edges,Composite-board panels often receive thin edge banding over exposed edges to cover the core and reduce moisture entry.,cabinet,eval,structure,5,T0357
+inset_and_overlay_door_positions,"Some doors sit flush within an opening, while overlay doors extend across part of the front frame.",cabinet,eval,structure,6,T0358
+continuous_floor_level_plinth,"A plinth may span the floor-level front, concealing the gap beneath the body and distributing its weight along a continuous base.",cabinet,eval,structure,7,T0359
+rotating_corner_trays,"Corner installations may use rotating trays that swing around a central post, bringing items from deep recesses within reach.",cabinet,eval,action,0,T0360
+joining_modular_units,Modular units are often aligned and fastened together along adjoining sides to create continuous runs of storage.,cabinet,eval,action,1,T0361
+removing_parts_for_refinishing,"During refinishing, doors and hardware are removed first so surfaces can be sanded and coated without obstructing edges.",cabinet,eval,action,2,T0362
+magnetic_door_catches,Some doors use magnetic catches that hold them shut until a user pulls the panel open.,cabinet,eval,action,3,T0363
+dividing_drawer_contents,"Drawer organizers can divide a wide drawer into sections, preventing utensils or small objects from shifting together.",cabinet,eval,action,4,T0364
+fitting_scribed_side_strips,"On built-in installations, a scribed side strip can be trimmed to match an uneven wall and close the visible gap.",cabinet,eval,action,5,T0365
+raising_panels_above_wet_floors,"To limit damage from damp mopping, floor-standing units may have moisture-resistant feet that keep panels above wet flooring.",cabinet,eval,action,6,T0366
+pull_out_pantry_rack,"A pull-out pantry rack can bring stored containers forward on sliding rails, making supplies at the back easier to reach.",cabinet,eval,action,7,T0367
+fire_station_gear_drying,"In fire stations, ventilated storage compartments let damp turnout clothing dry between calls while keeping protective gear near vehicle bays.",cabinet,eval,situation,0,T0368
+laundromat_supply_storage,"In laundromats, closed storage keeps detergent refills and cleaning supplies away from customer work surfaces.",cabinet,eval,situation,1,T0369
+gymnasium_sports_equipment,"In gymnasiums, lockable compartments hold balls and practice equipment between scheduled classes and community events.",cabinet,eval,situation,2,T0370
+darkroom_light_protection,"In photographic darkrooms, opaque drawers shield unexposed paper from stray light until prints are prepared.",cabinet,eval,situation,3,T0371
+greenhouse_gardening_supplies,"In greenhouses, enclosed spaces keep seed packets and hand tools together and away from damp work benches.",cabinet,eval,situation,4,T0372
+dental_instrument_storage,"In dental practices, enclosed storage protects sterilized instruments until staff prepare treatment rooms.",cabinet,eval,situation,5,T0373
+substation_control_relays,"In electrical substations, weather-resistant enclosures shelter control relays from rain and restrict access to authorized maintenance workers.",cabinet,eval,situation,6,T0374
+hotel_housekeeping_linen,"In hotel housekeeping rooms, enclosed storage keeps spare bedding sorted by size and ready for room turnover.",cabinet,eval,situation,7,T0375
+aquarium_support_and_equipment,An enclosed base supports a heavy aquarium while concealing its filtration equipment and water-treatment supplies.,cabinet,eval,function,0,T0376
+integrated_oven_positioning,A fitted kitchen enclosure holds a built-in oven at a convenient height while keeping its controls accessible.,cabinet,eval,function,1,T0377
+housing_laundry_appliances,An enclosure beneath a laundry worktop can house a front-loading washer while preserving access for repairs.,cabinet,eval,function,2,T0378
+sacristy_vestment_storage,"In a church sacristy, enclosed storage protects ceremonial vessels and vestments between services.",cabinet,eval,function,3,T0379
+science_room_glassware_access,School science preparation rooms use fitted storage to keep glassware close at hand and leave benches clear for experiments.,cabinet,eval,function,4,T0380
+rehearsal_room_instrument_cases,"Music rehearsal rooms use tall enclosed storage to keep instrument cases upright and separated, reducing accidental knocks between sessions.",cabinet,eval,function,5,T0381
+hearth_fuel_containment,A fitted enclosure beside a fireplace keeps logs and kindling nearby while containing loose bark and wood debris.,cabinet,eval,function,6,T0382
+taproom_glassware_storage,"In a brewery taproom, enclosed storage keeps clean glassware near serving taps and shielded from dust between uses.",cabinet,eval,function,7,T0383
+textured rind,"Its thick rind is covered with tough, polygonal sections that create a rough, armor-like surface.",pineapple,train,structure,0,T0384
+leafy crown,"A compact crown of stiff, pointed leaves grows from the fruit’s upper end.",pineapple,train,structure,1,T0385
+flesh color and texture,"The edible flesh is usually golden yellow, juicy, and threaded with fine fibers.",pineapple,train,structure,2,T0386
+central core,"A firm, pale central core runs lengthwise through the softer flesh.",pineapple,train,structure,3,T0387
+fused fruitlets,The fruit develops from many small flowers whose individual fruitlets fuse into one structure.,pineapple,train,structure,4,T0388
+rind eyes,"Small depressions called eyes mark the rind, often forming diagonal rows around the fruit.",pineapple,train,structure,5,T0389
+protein-digesting enzymes,"Its tissues contain bromelain, a group of enzymes that can break down proteins.",pineapple,train,structure,6,T0390
+sugars and acids,"The juicy flesh combines natural sugars with organic acids, giving it both sweetness and tartness.",pineapple,train,structure,7,T0391
+overall shape,"The fruit’s outline is generally cylindrical or oval, often narrowing slightly toward the end opposite its leafy top.",pineapple,train,structure,8,T0392
+rind color variation,"The rind may remain green or develop yellow-orange patches as the fruit matures, depending on variety and growing conditions.",pineapple,train,structure,9,T0393
+high moisture content,"Fresh flesh has a high water content, which contributes to its notably juicy consistency when cut.",pineapple,train,structure,10,T0394
+nutrient composition,"Edible portions provide vitamin C and manganese, while containing little fat and a modest amount of dietary fiber.",pineapple,train,structure,11,T0395
+stem attachment,"A short, stout stem connects the fruit to the plant, with a cut stalk often visible at its base.",pineapple,train,structure,12,T0396
+leaf arrangement,"Long, sword-shaped leaves grow in a dense basal rosette around the plant’s central stem.",pineapple,train,structure,13,T0397
+fruit position on plant,"Each plant typically produces a single large fruit at a time, elevated above its low-growing leaf rosette.",pineapple,train,structure,14,T0398
+size variation,"Fruit dimensions vary among cultivated types, with some forms much smaller and lighter than commercial market specimens.",pineapple,train,structure,15,T0399
+vegetative propagation,"Growers commonly start new plants from crowns, slips, or basal shoots, preserving cultivated traits without relying on seed.",pineapple,train,action,0,T0400
+flowering induction,"Ethylene-releasing treatments can trigger flowering more uniformly, helping growers coordinate fruit development and harvest timing.",pineapple,train,action,1,T0401
+nighttime carbon uptake,"This drought-adapted plant takes in much of its carbon dioxide at night, storing it for photosynthesis during daylight.",pineapple,train,action,2,T0402
+harvesting,"At harvest, workers cut mature fruit from its stalk by hand or with tools, then sort it for shipment.",pineapple,train,action,3,T0403
+canning process,"For canning, prepared pieces are heated and sealed in containers, often packed with juice or a sweetened liquid.",pineapple,train,action,4,T0404
+temperature-controlled transport,"Shipments are kept cool but not excessively cold, since chilling can damage the flesh and outer tissues.",pineapple,train,action,5,T0405
+limited postharvest sweetening,"It gains little sweetness after picking, so harvest maturity strongly influences the fruit’s eventual eating quality.",pineapple,train,action,6,T0406
+pollination and seed formation,"Cross-pollination can lead to seed formation in developing fruit, so commercial growers may limit access by pollinating animals.",pineapple,train,action,7,T0407
+eating preparation,"To prepare the fruit for eating, cooks cut away its crown and base, remove the rind, and slice out the firm core.",pineapple,train,action,8,T0408
+flowering stalk development,"A flowering stalk rises from the plant’s center, carrying a dense cluster of blossoms that later develops into one fruit.",pineapple,train,action,9,T0409
+gelatin setting interference,Enzymes in fresh flesh can prevent gelatin desserts from setting by breaking down gelatin proteins; heating the fruit deactivates them.,pineapple,train,action,10,T0410
+grilling and caramelization,"When grilled, the fruit’s natural sugars brown and caramelize, creating a sweeter surface while the interior warms.",pineapple,train,action,11,T0411
+juice extraction,Pressing ripe flesh releases juice that can be strained for drinks or used as a liquid ingredient in cooking.,pineapple,train,action,12,T0412
+refrigeration after cutting,"Once cut, the fruit is best kept covered in a refrigerator, where cooling slows spoilage and helps preserve its quality.",pineapple,train,action,13,T0413
+freezing and texture change,"Freezing chunks extends their storage life, though thawed pieces often become softer as ice crystals disrupt their tissues.",pineapple,train,action,14,T0414
+vinegar fermentation,"In vinegar making, sugars in the fruit’s juice ferment into alcohol first, then bacteria convert the alcohol into acetic acid.",pineapple,train,action,15,T0415
+warm frost-free climates,"In frost-free tropical and subtropical regions, growers cultivate this crop outdoors because prolonged cold can injure its leaves and roots.",pineapple,train,situation,0,T0416
+soil drainage and acidity,"Acidic, sandy soils suit its cultivation, while poorly drained ground can encourage root diseases.",pineapple,train,situation,1,T0417
+raised beds in wet fields,Fields exposed to heavy rainfall may use raised beds to let excess water drain away from the roots.,pineapple,train,situation,2,T0418
+plastic mulch in fields,Commercial growers often cover planting beds with dark plastic mulch to suppress weeds and conserve moisture around young plants.,pineapple,train,situation,3,T0419
+container growing in cool climates,"In cooler climates, gardeners may keep it in a sunny container and move it indoors before temperatures approach freezing.",pineapple,train,situation,4,T0420
+irrigation during dry seasons,"Where dry seasons interrupt rainfall, supplemental irrigation can support steady growth and dependable fruit development.",pineapple,train,situation,5,T0421
+sunny field sites,"On tropical farms, it is generally planted in open, sunny plots rather than dense shade, which can limit its growth.",pineapple,train,situation,6,T0422
+staggered planting schedules,"Because crops take months to mature, farms may stagger planting dates to spread harvesting across the year.",pineapple,train,situation,7,T0423
+smoke-induced flowering,"Before chemical flowering agents became common, some growers used smoke exposure to synchronize flowering across fields.",pineapple,train,situation,8,T0424
+ratoon cropping,"After the first harvest, farmers may leave side shoots in place for a ratoon crop before replanting the field.",pineapple,train,situation,9,T0425
+double-row field layout,"Commercial fields often use closely spaced double rows, with wider alleys left for workers and equipment.",pineapple,train,situation,10,T0426
+careful shallow weeding,"Because roots are shallow, workers weed young fields carefully to avoid cutting roots with hoes or machinery.",pineapple,train,situation,11,T0427
+sunburn protection,"During periods of intense sun, growers may shield developing fruits to reduce sunburn damage to the exposed surface.",pineapple,train,situation,12,T0428
+contour planting,"On sloping tropical fields, planting along contours can slow runoff and limit soil loss during heavy rains.",pineapple,train,situation,13,T0429
+conservatory cultivation,"In warm, bright conservatories, it can be maintained as an ornamental bromeliad where outdoor winters are too cold.",pineapple,train,situation,14,T0430
+South American domestication,"Its cultivation began in tropical South America, where Indigenous peoples selected and spread the crop long before global commercial farming.",pineapple,train,situation,15,T0431
+savory dish ingredient,"Chopped pieces add a bright sweet-and-tart contrast to savory rice dishes, curries, and stir-fries.",pineapple,train,function,0,T0432
+fresh salsa ingredient,"Diced flesh mixed with peppers, onion, and herbs makes a fruit salsa for grilled foods or tacos.",pineapple,train,function,1,T0433
+baking ingredient,Pureed flesh can flavor cake batter while adding moisture to baked desserts.,pineapple,train,function,2,T0434
+dried snack,"Dried rings provide a chewy, shelf-stable snack that is easy to pack for travel.",pineapple,train,function,3,T0435
+smoothie ingredient,"Frozen chunks blend smoothly into drinks, contributing both fruit flavor and a thick texture.",pineapple,train,function,4,T0436
+fruit preserve,Cooking the fruit with sugar produces a preserve that can be spread on toast or served with cheese.,pineapple,train,function,5,T0437
+sweet-and-sour sauce ingredient,Its sweet acidity gives sweet-and-sour sauces a fruity counterpoint to savory ingredients.,pineapple,train,function,6,T0438
+ham topping,"Slices can be arranged over glazed ham, where they contribute flavor and an attractive edible topping.",pineapple,train,function,7,T0439
+fruit salad ingredient,"Fresh chunks are often mixed with other fruits to add a tart, juicy contrast to fruit salads.",pineapple,train,function,8,T0440
+pizza topping,"Small pieces serve as a sweet, tangy topping on some pizzas, especially alongside savory ingredients.",pineapple,train,function,9,T0441
+spiced chutney,"Cooked with spices, the fruit forms a chutney that pairs with curries, grilled meats, or cheese.",pineapple,train,function,10,T0442
+upside-down cake,"Rings are baked beneath soft cake batter, then inverted to create a glazed upside-down dessert.",pineapple,train,function,11,T0443
+sorbet base,"Its puree can be churned into sorbet, where sugar and freezing turn it into a refreshing dairy-free dessert.",pineapple,train,function,12,T0444
+roasted side dish,"Roasted wedges can accompany pork or poultry as a warm, sweet-tart side dish.",pineapple,train,function,13,T0445
+leaf fiber textiles,Long leaves supply tough fibers that artisans process into textiles and other woven materials.,pineapple,train,function,14,T0446
+processing waste as animal feed,Juice and peel left from commercial processing can be converted into feed ingredients for livestock.,pineapple,train,function,15,T0447
+carotenoid pigments,"Yellow-fleshed forms contain carotenoid pigments, including beta-carotene, that contribute to the pulp’s golden coloration.",pineapple,eval,structure,0,T0448
+aromatic esters,"Volatile esters in the fresh flesh, including ethyl butanoate, contribute to its sweet, fruity aroma.",pineapple,eval,structure,1,T0449
+spiny leaf margins,"Leaf margins may bear sharply pointed spines, although some cultivated forms have nearly smooth edges.",pineapple,eval,structure,2,T0450
+three-part flower structure,"Each individual flower has three petals and three sepals, giving its floral structure a repeated three-part organization.",pineapple,eval,structure,3,T0451
+persistent floral bracts,Small bracts beneath individual flowers persist as scale-like units across the mature fruit’s exterior.,pineapple,eval,structure,4,T0452
+leaf cuticle,A waxy cuticle covers the leaf blades and helps limit water loss from their exposed surfaces.,pineapple,eval,structure,5,T0453
+bisexual flowers,"Individual flowers are bisexual, containing both male and female reproductive organs within each blossom.",pineapple,eval,structure,6,T0454
+cloudy unfiltered juice,Unfiltered juice is naturally cloudy because tiny suspended particles of flesh remain dispersed in the liquid.,pineapple,eval,structure,7,T0455
+surplus shoot removal,"Growers often remove surplus basal shoots, retaining selected offshoots to limit crowding and reduce competition within a planting.",pineapple,eval,action,0,T0456
+split fertilizer application,"Fertilizer is often applied in small, repeated doses because shallow roots draw nutrients from a relatively limited soil volume.",pineapple,eval,action,1,T0457
+successive flower opening,"Individual blossoms open successively along the flower cluster, extending the period during which flowering and fruit development occur.",pineapple,eval,action,2,T0458
+tepache fermentation,"Fruit peel, sugar, water, and spices can ferment together to make tepache, a traditional, lightly alcoholic drink.",pineapple,eval,action,3,T0459
+fruit wine production,"Yeast fermentation of the sweet juice can produce a fruit wine, which is then strained and allowed to mature.",pineapple,eval,action,4,T0460
+dehydrated fruit leather,Pureed flesh spread thinly and dehydrated becomes flexible fruit leather that can be stored as a snack.,pineapple,eval,action,5,T0461
+enzyme recovery from stems,Processors can crush leftover stems and recover bromelain from the liquid for use in food production and other industries.,pineapple,eval,action,6,T0462
+delayed fruiting of young plants,Growers may remove the first flower cluster from young plants to postpone fruiting until the plants are more established.,pineapple,eval,action,7,T0463
+open native habitats,"In its native range, wild populations occur in open, seasonally dry habitats rather than beneath dense forest canopy.",pineapple,eval,situation,0,T0464
+living barriers,"In some tropical homesteads, dense rows are planted as living barriers, their sharply edged leaves discouraging passage.",pineapple,eval,situation,1,T0465
+meat marinade tenderizing,"Fresh puree is sometimes used in meat marinades, where its enzymes tenderize protein during a brief soak.",pineapple,eval,situation,2,T0466
+uneven natural flowering,"Without flowering treatments, plants may bloom at uneven times, spreading fruit maturity and complicating a coordinated harvest.",pineapple,eval,situation,3,T0467
+heart rot risk,"In warm, rain-soaked fields, heart rot can damage the plant’s growing point and threaten the developing crop.",pineapple,eval,situation,4,T0468
+lowland cultivation,"Commercial cultivation is concentrated in lowland tropical belts, since cool highland conditions can slow growth and delay fruiting.",pineapple,eval,situation,5,T0469
+whole fruit room-temperature storage,"When kept whole at moderate room temperature, harvested fruit can remain usable for several days without immediate refrigeration.",pineapple,eval,situation,6,T0470
+roadside fresh-cut sales,"At roadside markets in growing regions, vendors may sell freshly cut portions as ready-to-eat snacks for passersby.",pineapple,eval,situation,7,T0471
+Filipino chicken stew,"In Filipino pininyahang manok, sweet, juicy chunks simmer with chicken and aromatics, giving the stew a fruity counterpoint.",pineapple,eval,function,0,T0472
+decorative serving vessel,"Some Thai-style fried rice is presented in a hollowed outer casing, which serves as a decorative bowl for the meal.",pineapple,eval,function,1,T0473
+cocktail garnish,"A fresh wedge often garnishes cocktail glasses, adding color and a tropical accent to the presentation.",pineapple,eval,function,2,T0474
+composting scraps,"Kitchen scraps can be composted, where microbial breakdown turns them into organic matter for garden soil.",pineapple,eval,function,3,T0475
+burn wound debridement,A concentrated protease preparation from the plant’s stems is used medically to remove dead tissue from severe burns.,pineapple,eval,function,4,T0476
+chili-lime snack,"In parts of Mexico, vendors serve juicy chunks with chili powder and lime as a sweet-tart street snack.",pineapple,eval,function,5,T0477
+cocktail base,"Blended with rum and coconut cream, its juice forms the familiar base of a piña colada cocktail.",pineapple,eval,function,6,T0478
+yogurt addition,"Pieces can be stirred into plain yogurt, adding fruity sweetness and acidity to breakfast bowls or snacks.",pineapple,eval,function,7,T0479
+shaft_and_tip,"A rigid metal shaft extends from a thicker handle, ending in a tip shaped to engage a fastener.",screwdriver,train,structure,0,T0480
+handle_material,"The handle is commonly molded from plastic, sometimes with a soft rubberized layer for improved grip.",screwdriver,train,structure,1,T0481
+hardened_steel,The working shaft is often made of hardened steel to resist bending and wear during use.,screwdriver,train,structure,2,T0482
+grip_texture,Raised ribs or textured patterns on the handle surface can help prevent a hand from slipping.,screwdriver,train,structure,3,T0483
+replaceable_tips,"Some models accept removable tips that attach to the shaft, allowing different working profiles to be fitted.",screwdriver,train,structure,4,T0484
+magnetized_tip,A magnetized tip can hold a small metal fastener in place while it is being positioned.,screwdriver,train,structure,5,T0485
+ratcheting_mechanism,"In some designs, an internal mechanism lets the handle turn while the shaft remains engaged with a fastener.",screwdriver,train,structure,6,T0486
+shaft_geometry,"The shaft may be straight or bent near its handle, changing the angle at which its tip reaches a fastener.",screwdriver,train,structure,7,T0487
+flat_blade_profile,"A narrow, flattened blade at the tip fits into a straight groove in a fastener head.",screwdriver,train,structure,8,T0488
+cross_recess_profile,A pointed tip with four tapered flutes is shaped to seat in a cross-shaped recess.,screwdriver,train,structure,9,T0489
+hexagonal_shaft_surfaces,Some shafts have a hexagonal exterior that provides flat surfaces for applying extra turning force.,screwdriver,train,structure,10,T0490
+handle_hanging_hole,A hole through the handle end can provide a place to hang the tool on a peg.,screwdriver,train,structure,11,T0491
+handle_tip_storage,Certain hollow handles contain spare interchangeable tips within a compartment.,screwdriver,train,structure,12,T0492
+electrical_insulation,Models intended for electrical work may have an insulating coating over the shaft and handle.,screwdriver,train,structure,13,T0493
+compact_configuration,A compact version pairs a short shaft with a broad handle for use in confined spaces.,screwdriver,train,structure,14,T0494
+shaft_handle_collar,A metal collar where the shaft enters the handle can reinforce the joint against impact and stress.,screwdriver,train,structure,15,T0495
+fastener_turning,It tightens or loosens threaded fasteners by turning the tool against their heads.,screwdriver,train,action,0,T0496
+matching_tip_to_recess,"During assembly, users choose a tip that fits the head recess to reduce slipping and damage.",screwdriver,train,action,1,T0497
+seating_before_turning,Seat the tip fully in the recess before applying turning force.,screwdriver,train,action,2,T0498
+maintaining_alignment,Keeping the shaft aligned with the fastener helps prevent the tip from slipping out.,screwdriver,train,action,3,T0499
+steady_engagement_pressure,Steady pressure against the fastener helps keep the tip engaged as the handle turns.,screwdriver,train,action,4,T0500
+removing_fastener_from_material,"When removing a fastener, users continue turning until its threads clear the material.",screwdriver,train,action,5,T0501
+thread_direction,"With standard right-handed threads, turning clockwise usually tightens a fastener, while turning counterclockwise loosens it.",screwdriver,train,action,6,T0502
+handle_leverage,"A longer handle gives the hand more leverage, helping turn a fastener that resists movement.",screwdriver,train,action,7,T0503
+short_strokes,"In a cramped spot, short turns with repeated grip adjustments can advance a fastener where a full rotation is impossible.",screwdriver,train,action,8,T0504
+controlled_tightening,"For delicate assembly, users make small turns and check how firmly the fastener is seated before continuing.",screwdriver,train,action,9,T0505
+stopping_at_surface,"When a fastener becomes flush with the surface, users stop turning to avoid driving it too deeply.",screwdriver,train,action,10,T0506
+pilot_hole_guidance,A pilot hole in wood can guide a fastener and reduce the chance of splitting as it is driven.,screwdriver,train,action,11,T0507
+breaking_stiction,"To loosen a stuck fastener, a brief push in the tightening direction may help break its resistance before reversal.",screwdriver,train,action,12,T0508
+lifting_removed_fastener,"After removing a fastener, users lift it clear of the workpiece once its threads have disengaged.",screwdriver,train,action,13,T0509
+hand_starting_fastener,"Users often start a fastener by hand before applying the tool, helping ensure its threads engage without crossing.",screwdriver,train,action,14,T0510
+changing_interchangeable_tip,"To change an interchangeable tip, users remove the current one and seat its replacement firmly in the holder.",screwdriver,train,action,15,T0511
+appliance_servicing,"During appliance servicing, a hand-operated turning implement removes casing fasteners before technicians inspect or replace internal components.",screwdriver,train,situation,0,T0512
+household_hardware,A household repair drawer may keep one near cabinet pulls and door hinges for occasional hardware adjustments.,screwdriver,train,situation,1,T0513
+bicycle_accessories,"At bicycle workshops, mechanics use one to secure accessories attached with small threaded fasteners.",screwdriver,train,situation,2,T0514
+model_building,Model-building benches often have one nearby for assembling kits with miniature screw-fastened parts.,screwdriver,train,situation,3,T0515
+furniture_restoration,"During furniture restoration, it can remove old mounting hardware before hinges or handles are cleaned and reused.",screwdriver,train,situation,4,T0516
+field_service,Field service pouches may include one for minor fastener repairs away from a fully equipped workshop.,screwdriver,train,situation,5,T0517
+refitting_faceplates,"After electrical work, installers may use one to refit faceplates over wall outlets and switches.",screwdriver,train,situation,6,T0518
+size_selection,A maintenance station may stock several versions of this hand implement for fasteners with different head dimensions.,screwdriver,train,situation,7,T0519
+computer_assembly,"On a computer assembly bench, a small hand tool is kept nearby for securing case panels and internal brackets.",screwdriver,train,situation,8,T0520
+eyeglass_repair,"In an eyeglass repair shop, a precision-sized version helps tighten tiny screws in hinges and frame joints.",screwdriver,train,situation,9,T0521
+toy_battery_compartment,"When replacing a child's toy batteries, a household kit may include one for opening the compartment's small fastened cover.",screwdriver,train,situation,10,T0522
+cabinet_installation,Cabinet installers carry one to attach drawer slides and hinges where factory-drilled mounting holes meet threaded hardware.,screwdriver,train,situation,11,T0523
+instrument_repair,A musical-instrument repair bench may keep one ready for adjusting cover plates and other screw-fastened fittings.,screwdriver,train,situation,12,T0524
+automotive_trim_work,"In automotive trim work, technicians remove small fasteners securing interior panels before inspecting clips and wiring.",screwdriver,train,situation,13,T0525
+plumbing_fixture_installation,"During plumbing fixture installation, one can secure handles or trim plates after the underlying valve assembly is mounted.",screwdriver,train,situation,14,T0526
+scenery_panel_assembly,"At a stage set, crew members use one to secure hinges on lightweight scenery panels before a scene change.",screwdriver,train,situation,15,T0527
+lock_case_access,"During lock servicing, a hand tool removes the small fasteners holding a lock case together so its mechanism can be inspected.",screwdriver,train,function,0,T0528
+curtain_rod_mounting,"To mount curtain rods, installers turn fasteners through brackets into wall anchors, securing supports above windows.",screwdriver,train,function,1,T0529
+boat_hatch_latches,"On a boat, crew members use a hand-operated implement to secure hatch latches with threaded fasteners.",screwdriver,train,function,2,T0530
+flat_pack_shelving,Flat-pack shelving assembly often requires turning supplied fasteners through connector plates to join upright panels and shelves.,screwdriver,train,function,3,T0531
+exercise_equipment_service,An exercise-equipment technician tightens the small fasteners that hold a console housing to its support arm.,screwdriver,train,function,4,T0532
+greenhouse_rack_assembly,"At a greenhouse, workers use a hand tool to fasten braces and panels when assembling metal growing racks.",screwdriver,train,function,5,T0533
+pool_ladder_fittings,Pool maintenance crews may use one to secure ladder fittings after checking that their mounting hardware is sound.,screwdriver,train,function,6,T0534
+fishing_reel_repair,A repair technician removes housing fasteners from a fishing reel to reach its internal gears for inspection.,screwdriver,train,function,7,T0535
+watch_case_access,"In watch repair, a precision-sized tip turns tiny case fasteners without disturbing nearby delicate components.",screwdriver,train,function,8,T0536
+faucet_handle_removal,"When replacing a faucet handle, loosening its concealed retaining fastener allows the handle to lift from the valve stem.",screwdriver,train,function,9,T0537
+camera_casing_access,"During camera repair, removing casing fasteners opens joined panels for internal cleaning or component replacement.",screwdriver,train,function,10,T0538
+solar_panel_clamping,"Installers turn fasteners through solar-panel clamps into support rails, securing each module in place.",screwdriver,train,function,11,T0539
+sewing_machine_service,"At a sewing-machine service bench, removing cover fasteners provides access for lint removal and mechanism maintenance.",screwdriver,train,function,12,T0540
+extinguisher_bracket_mounting,"To secure a fire-extinguisher bracket, installers turn fasteners into anchors embedded in masonry.",screwdriver,train,function,13,T0541
+skateboard_truck_attachment,Tightening the fasteners joining skateboard trucks to the deck helps keep the assembly stable during use.,screwdriver,train,function,14,T0542
+drone_housing_access,"During a drone repair, removing small housing fasteners lets technicians reach the flight-control components inside.",screwdriver,train,function,15,T0543
+hardwood_handle,"Hardwood handles are formed from dense timber, with wood grain visible along their outer surfaces.",screwdriver,eval,structure,0,T0544
+striking_end_cap,"On impact-rated versions, a metal butt cap is built into the handle's rear end.",screwdriver,eval,structure,1,T0545
+rotating_end_cap,A freely turning end cap allows fingertip control while the handle body remains cradled in the palm.,screwdriver,eval,structure,2,T0546
+black_oxide_finish,Some steel shafts have a black oxide surface finish that offers limited corrosion resistance.,screwdriver,eval,structure,3,T0547
+square_shaft_section,A square-section shaft has four flat longitudinal faces and a distinct angular cross-section.,screwdriver,eval,structure,4,T0548
+chrome_plating,"Chrome plating gives some metal shafts a bright, smooth exterior surface.",screwdriver,eval,structure,5,T0549
+oval_handle_section,"Certain handles have an oval cross-section rather than a circular one, shaping how they sit in the hand.",screwdriver,eval,structure,6,T0550
+full_tang_construction,"In full-tang construction, the metal core runs through the handle to its rear end.",screwdriver,eval,structure,7,T0551
+preset_torque_signal,"A torque-limiting handle clicks or slips at a preset force, signaling that a fastener has reached its intended tightness.",screwdriver,eval,action,0,T0552
+extension_reach,An extension transfers rotation from a handle outside a narrow opening to a tip seated deeper inside.,screwdriver,eval,action,1,T0553
+recessed_fastener_access,A long-shaft version reaches a recessed fastener below a panel surface without the handle touching surrounding material.,screwdriver,eval,action,2,T0554
+offset_access,An offset version turns fasteners where a wall or neighboring component blocks a straight approach.,screwdriver,eval,action,3,T0555
+flexible_extension,A flexible extension transmits hand rotation around a bend to a fastener hidden behind an obstruction.,screwdriver,eval,action,4,T0556
+alternating_fastening_sequence,"When fastening a broad panel at several points, alternating among fasteners helps draw the panel evenly against its support.",screwdriver,eval,action,5,T0557
+ordered_fastener_storage,"During disassembly, setting removed fasteners in their original order can simplify returning each to its former location.",screwdriver,eval,action,6,T0558
+fastener_guide_sleeve,A guide sleeve around the tip can steady a small fastener as its threads first enter a hole.,screwdriver,eval,action,7,T0559
+license_plate_installation,"At a vehicle service bay, a hand tool secures license plates to their mounting points during replacement.",screwdriver,eval,situation,0,T0560
+mailbox_mounting,"When mounting a wall mailbox, installers turn fasteners into the supporting surface to hold its bracket firmly in place.",screwdriver,eval,situation,1,T0561
+ski_binding_installation,"Ski technicians use a hand tool to attach bindings to skis, following the specified placement and fastening pattern.",screwdriver,eval,situation,2,T0562
+duct_access_panel_service,"During heating-system maintenance, workers remove fasteners from duct access panels before inspecting equipment inside.",screwdriver,eval,situation,3,T0563
+smoke_detector_mounting,Installers attach a smoke detector's mounting plate to the ceiling with fasteners before fitting the alarm unit.,screwdriver,eval,situation,4,T0564
+picture_frame_hardware,"At a picture-framing bench, a hand tool secures hanging hardware to the back of a frame.",screwdriver,eval,situation,5,T0565
+doorbell_button_installation,"When fitting a doorbell button, workers may tighten its small mounting fasteners against the exterior wall.",screwdriver,eval,situation,6,T0566
+farm_gate_latch_repair,"On a farm, a hand tool can tighten the fasteners that hold a gate latch to its wooden frame.",screwdriver,eval,situation,7,T0567
+hose_clamp_tightening,"When a worm-drive hose clamp loosens, a flat-tipped hand implement tightens its screw band around the hose, helping reduce leakage.",screwdriver,eval,function,0,T0568
+birdhouse_assembly,"During wooden birdhouse assembly, a narrow-tipped hand implement secures the roof panels with small threaded fasteners, holding the joints together.",screwdriver,eval,function,1,T0569
+machine_identification_plates,"At a machine shop, workers use a hand-turning implement to fasten identification plates onto equipment housings for clear maintenance labeling.",screwdriver,eval,function,2,T0570
+sprinkler_adjustment,"On adjustable sprinkler heads, a hand implement turns the adjustment screw to redirect or shut off the spray pattern.",screwdriver,eval,function,3,T0571
+table_leveling_feet,"A furniture maker can attach screw-fastened leveling feet to a table, helping compensate for an uneven floor.",screwdriver,eval,function,4,T0572
+towel_rail_mounting,"For a wall-mounted towel rail, installers tighten bracket fasteners into anchors so the fixture can withstand routine pulling loads.",screwdriver,eval,function,5,T0573
+control_panel_terminals,"A technician tightens terminal screws in a low-voltage control panel, clamping conductors in place for reliable electrical connections.",screwdriver,eval,function,6,T0574
+carburetor_access,"During carburetor service, a mechanic removes small cover fasteners to reach the metering components inside the housing.",screwdriver,eval,function,7,T0575
+pressure hull,"A thick pressure hull withstands immense water pressure, while an outer casing streamlines the vessel’s shape.",submarine,train,structure,0,T0576
+ballast tanks,Floodable ballast tanks fill with water or air to adjust buoyancy and depth.,submarine,train,structure,1,T0577
+propulsion components,A stern propeller or enclosed pump-jet provides thrust through the surrounding water.,submarine,train,structure,2,T0578
+optical masts,Retractable optical masts carry cameras and viewing instruments above the waterline.,submarine,train,structure,3,T0579
+sonar transducers,Hull-mounted sonar transducers transmit sound pulses and detect returning echoes.,submarine,train,structure,4,T0580
+watertight bulkheads,"Watertight bulkheads divide the interior into compartments, limiting flooding if one section is damaged.",submarine,train,structure,5,T0581
+battery storage,Batteries store electrical energy for quiet propulsion and onboard equipment when engines are not running.,submarine,train,structure,6,T0582
+reactor and turbines,"A nuclear reactor heats coolant to generate steam, driving turbines that supply propulsion and electricity.",submarine,train,structure,7,T0583
+raised sail,A raised sail houses access hatches and retractable equipment above the main hull.,submarine,train,structure,8,T0584
+control surfaces,"Horizontal diving planes alter pitch and help control depth, while vertical rudders steer the craft.",submarine,train,structure,9,T0585
+acoustic tiles,Sound-absorbing tiles on the outer casing reduce noise radiated into surrounding water.,submarine,train,structure,10,T0586
+snorkel,An extendable snorkel admits air and vents exhaust while the vessel travels just below the surface.,submarine,train,structure,11,T0587
+torpedo tubes,Sealed torpedo tubes launch weapons and can also release underwater listening devices.,submarine,train,structure,12,T0588
+atmosphere systems,"Electrolyzers replenish breathable oxygen, while chemical scrubbers remove carbon dioxide from sealed living spaces.",submarine,train,structure,13,T0589
+escape trunk,A pressure-lock escape trunk allows crew members to leave through a controlled sequence of sealed hatches.,submarine,train,structure,14,T0590
+control room,"The compact control room groups navigation displays, steering controls, and machinery indicators within easy reach.",submarine,train,structure,15,T0591
+inertial navigation,"An inertial navigation system estimates position by measuring acceleration and rotation, since satellite signals cannot reach operating depth.",submarine,train,action,0,T0592
+passive listening,"Operators often favor passive listening, locating distant activity from received sounds without transmitting detectable pulses.",submarine,train,action,1,T0593
+active sonar ranging,"Active sonar sends acoustic pulses and analyzes their echoes to estimate range, although transmissions can reveal the craft’s presence.",submarine,train,action,2,T0594
+surfacing checks,"Before rising, the crew checks for traffic and uses available sensors to confirm a safe route toward the surface.",submarine,train,action,3,T0595
+emergency ascent,"During an emergency ascent, compressed air can force water from ballast spaces, restoring positive buoyancy.",submarine,train,action,4,T0596
+diesel-electric operation,"On diesel-electric models, engines run near the surface to recharge batteries, then stop before quieter travel at depth.",submarine,train,action,5,T0597
+trim adjustment,Trim tanks shift water between the bow and stern to keep the hull level as its load changes.,submarine,train,action,6,T0598
+acoustic decoys,"Acoustic decoys can imitate a vessel’s sound signature, drawing an incoming torpedo away from its intended target.",submarine,train,action,7,T0599
+predeparture inspection,"Before departure, crew inspect hatches, valves, and seals, then test emergency systems to confirm the pressure boundary is secure.",submarine,train,action,8,T0600
+freshwater production,"Fresh water is produced from seawater by distillation or reverse osmosis, supplying drinking and cooking needs during extended patrols.",submarine,train,action,9,T0601
+rotating watches,"Crew members stand rotating watches, monitoring navigation, machinery, communications, and cabin conditions continuously.",submarine,train,action,10,T0602
+diver lockout,"To deploy divers, a lockout chamber is flooded and equalized with outside pressure before its outer hatch opens.",submarine,train,action,11,T0603
+seabed navigation,"When operating near the seabed, careful speed and depth adjustments help avoid stirring sediment that could impair visibility or sensor readings.",submarine,train,action,12,T0604
+towed hydrophone array,"A tow cable can stream a hydrophone array behind the vessel, placing its sensors farther from machinery noise.",submarine,train,action,13,T0605
+communication buoy,A communication buoy may rise to the surface and relay messages through an antenna while the vessel remains submerged.,submarine,train,action,14,T0606
+fire response,"If smoke appears, personnel isolate the affected compartment, close ventilation ducts, and use extinguishers suited to the fire.",submarine,train,action,15,T0607
+navigation beneath sea ice,"In ice-covered seas, upward-looking sonar helps crews judge overhead clearance and find leads where a safe ascent may be possible.",submarine,train,situation,0,T0608
+oceanographic sampling,"During oceanographic surveys, crews gather water samples at selected depths to measure salinity, temperature, and dissolved chemicals.",submarine,train,situation,1,T0609
+sea-based nuclear deterrence,"Some naval vessels carry ballistic missiles on concealed patrols, providing a sea-based nuclear deterrent that can survive a first strike.",submarine,train,situation,2,T0610
+reef tourism,"In clear tropical waters, tourist trips offer passengers views of coral reefs from inside a sealed cabin.",submarine,train,situation,3,T0611
+rescue personnel transfer,"In rescue operations, specialized mating skirts connect at a disabled vessel’s hatch, allowing personnel to transfer between pressurized compartments.",submarine,train,situation,4,T0612
+hydrothermal vent research,"Near deep-sea hydrothermal vents, research crews observe mineral-rich plumes and ecosystems that thrive without sunlight.",submarine,train,situation,5,T0613
+coastal harbor surveillance,"In shallow coastal waters, naval crews may monitor harbor approaches where larger surface ships have limited maneuverability.",submarine,train,situation,6,T0614
+deep wreck archaeology,"On underwater archaeology expeditions, crews inspect wreck sites beyond ordinary diving depths and document artifacts in place.",submarine,train,situation,7,T0615
+trench exploration,"In ocean trenches, crewed research craft can descend beyond sunlight to document geological features under crushing ambient pressure.",submarine,train,situation,8,T0616
+fleet communications drills,"During fleet exercises, crews rehearse coordinating with surface ships through brief radio transmissions when antennas reach the air.",submarine,train,situation,9,T0617
+confined living conditions,"On long patrols, compact living quarters require careful scheduling for meals, sleep, exercise, and hygiene among a confined crew.",submarine,train,situation,10,T0618
+deep-water rescue response,"After an onboard casualty, nearby naval forces may deploy a rescue vehicle to reach survivors trapped at great depth.",submarine,train,situation,11,T0619
+shallow-water mapping,"For coastal mapping, research teams chart channels and sediment patterns in shallow water that larger survey ships cannot safely enter.",submarine,train,situation,12,T0620
+harbor mine-laying,"In wartime mine-laying missions, crews may place explosives along an enemy harbor approach before withdrawing undetected.",submarine,train,situation,13,T0621
+volcanic geology research,"At underwater volcanoes, scientists use crewed craft to inspect fresh lava formations and collect rock samples beyond ordinary diving limits.",submarine,train,situation,14,T0622
+heat management in warm waters,"In warm seas, crews face greater cooling demands because machinery and people release heat into sealed living spaces.",submarine,train,situation,15,T0623
+chokepoint sea denial,Naval forces position these vessels near strategic chokepoints to threaten hostile shipping and constrain an adversary’s movement at sea.,submarine,train,function,0,T0624
+offshore land attack,Land-attack cruise missiles let some naval vessels strike inland targets from distant offshore launch positions.,submarine,train,function,1,T0625
+special operations insertion,"Special operations teams use these vessels for concealed transport, disembarking near shore to conduct missions ashore.",submarine,train,function,2,T0626
+carrier group protection,Some protect carrier groups by helping detect and deter hostile underwater threats along the formation’s route.,submarine,train,function,3,T0627
+unmanned vehicle deployment,Certain designs deploy unmanned underwater vehicles to inspect areas too hazardous or confined for the crewed craft.,submarine,train,function,4,T0628
+electronic intelligence collection,"Electronic intelligence missions monitor radar and radio emissions from nearby forces, revealing information about their activities.",submarine,train,function,5,T0629
+adversary training role,"During exercises, these vessels can act as adversaries, giving surface crews practice detecting and responding to underwater threats.",submarine,train,function,6,T0630
+cable route protection,Military crews may patrol near critical undersea cables to watch for tampering and help protect communications infrastructure.,submarine,train,function,7,T0631
+covert fleet observation,"In naval reconnaissance, quiet underwater craft can observe opposing fleets while remaining difficult to detect from the surface.",submarine,train,function,8,T0632
+blockade supply runs,"During blockades, some military underwater vessels have carried essential supplies into ports that surface ships could not safely reach.",submarine,train,function,9,T0633
+deep-current measurement,Research crews use these craft to deploy instruments that record deep-ocean currents where surface-based measurements provide little detail.,submarine,train,function,10,T0634
+pipeline inspection,"Specialized vessels inspect submerged pipelines for damage, helping operators locate leaks before they disrupt offshore production.",submarine,train,function,11,T0635
+maritime approach warning,Naval planners may use underwater patrols to monitor maritime approaches and provide warning of approaching hostile forces.,submarine,train,function,12,T0636
+seafloor sensor deployment,"Crews can place scientific sensors on the seafloor, returning later to retrieve records of earthquakes or other activity.",submarine,train,function,13,T0637
+deep-habitat observation,"Underwater craft give researchers access to deep habitats, where direct observation can reveal how organisms respond to extreme pressure.",submarine,train,function,14,T0638
+evasion training,"In military exercises, crews practice evading detection, helping evaluate tactics for surviving in waters monitored by opposing forces.",submarine,train,function,15,T0639
+structural materials,"High-tensile steel is commonly used in the main structural shell, while some specialized deep-diving craft employ titanium alloys.",submarine,eval,structure,0,T0640
+climate control,"An air-conditioning plant circulates cooled, dehumidified air through occupied compartments, helping control heat and moisture in the sealed interior.",submarine,eval,structure,1,T0641
+food refrigeration,"Refrigeration compressors chill insulated food stores, preserving provisions during extended deployments without frequent resupply.",submarine,eval,structure,2,T0642
+hydraulic actuation,"Hydraulic actuators can move heavy fittings such as hatch mechanisms, using pressurized fluid to deliver substantial force in confined spaces.",submarine,eval,structure,3,T0643
+wastewater handling,Sanitation equipment directs wastewater into holding tanks for treatment or controlled discharge rather than releasing it continuously.,submarine,eval,structure,4,T0644
+galley fixtures,"Compact galley appliances are secured to counters, helping prevent cookware and supplies from shifting as the vessel maneuvers.",submarine,eval,structure,5,T0645
+machinery mounts,Resilient mounts support machinery while limiting vibration transfer into the surrounding structure.,submarine,eval,structure,6,T0646
+corrosion protection,Protective coatings on exposed metal fittings resist corrosion caused by prolonged contact with seawater.,submarine,eval,structure,7,T0647
+torpedo firing solution,"Before releasing a torpedo, fire-control equipment combines target range, bearing, course, and speed to calculate an aiming solution.",submarine,eval,action,0,T0648
+sonar refraction layers,Sonar operators may change search depth to account for temperature layers that bend sound and affect detection ranges.,submarine,eval,action,1,T0649
+silent-running procedures,"During silent running, the crew limits avoidable noise by securing loose equipment and reducing machinery activity.",submarine,eval,action,2,T0650
+gyrocompass heading reference,"A gyrocompass provides a heading reference independent of Earth’s magnetic field, supporting navigation underwater.",submarine,eval,action,3,T0651
+magnetic signature reduction,Degaussing coils generate a controlled magnetic field to reduce the vessel’s magnetic signature.,submarine,eval,action,4,T0652
+shore power connection,"While alongside, shore connections can supply electrical power, allowing onboard generators to be shut down for maintenance.",submarine,eval,action,5,T0653
+torpedo reloading,"After a torpedo launch, reload crews move replacement weapons through the interior on handling rails for storage in launch tubes.",submarine,eval,action,6,T0654
+sea trials,"Before operational deployment, crews use sea trials to test diving, steering, and emergency procedures under real operating conditions.",submarine,eval,action,7,T0655
+air-independent propulsion,"With air-independent propulsion, some non-nuclear vessels can remain underwater longer without running diesel engines or raising an air intake.",submarine,eval,situation,0,T0656
+satellite position fixes,"During brief surface intervals, exposed satellite-navigation antennas can obtain position fixes that correct accumulated errors in inertial estimates.",submarine,eval,situation,1,T0657
+dry-dock maintenance,"During shipyard overhauls, a dry dock supports the hull above water, letting workers inspect and repair normally immersed surfaces.",submarine,eval,situation,2,T0658
+wave avoidance,"In heavy seas, traveling below the wave zone avoids much surface motion, though currents can still alter a vessel’s track.",submarine,eval,situation,3,T0659
+acoustic communication,"When radio contact is unavailable, nearby vessels can exchange short, low-rate messages through acoustic communication in the surrounding water.",submarine,eval,situation,4,T0660
+provisions limit patrols,"On extended patrols, food supplies often set the maximum deployment length, even when the propulsion system could operate longer.",submarine,eval,situation,5,T0661
+surface radar use,"After surfacing, crews may use radar to locate nearby ships and aircraft, since radio-frequency sensing does not work through seawater.",submarine,eval,situation,6,T0662
+tidal-current navigation,"In narrow straits with strong tidal flow, navigators compensate for water movement that can push a vessel away from its intended course.",submarine,eval,situation,7,T0663
+climate records from sediment cores,"Oceanographers use crewed deep-diving vehicles to collect seabed sediment cores, preserving clues about past climates and ocean conditions.",submarine,eval,function,0,T0664
+deep-sea coral conservation,"Marine biologists observe deep-sea coral communities in place, helping assess their vulnerability before fishing or development begins.",submarine,eval,function,1,T0665
+offshore wind inspections,Offshore wind operators use crewed underwater vehicles to inspect turbine foundations and moorings for damage after storms.,submarine,eval,function,2,T0666
+deep-wreck commercial salvage,Commercial salvage teams send crewed vehicles to locate and recover valuable cargo from wrecks lying beyond diver reach.,submarine,eval,function,3,T0667
+aircraft recorder recovery,"After deep-water aircraft crashes, search teams may use crewed vehicles to locate recorders and assist recovery investigations.",submarine,eval,function,4,T0668
+deep-ocean documentary filming,Documentary teams use crewed deep-diving vehicles to film deep-ocean wildlife at depths inaccessible to ordinary scuba divers.,submarine,eval,function,5,T0669
+seafloor landslide assessment,"Geologists use crewed vehicles to inspect seafloor landslides, documenting terrain that may pose tsunami hazards to coastal communities.",submarine,eval,function,6,T0670
+seamount fisheries research,"Researchers pilot crewed deep-diving vehicles around seamounts to observe fish behavior, informing assessments of vulnerable fisheries.",submarine,eval,function,7,T0671
+brass_tubing_and_flare,"Its brass tubing forms a long bore that gradually expands into a broad, outward-flaring bell.",trombone,train,structure,0,T0672
+telescoping_slide,"A telescoping hand-operated slide changes the tubing length, altering the resonating air column.",trombone,train,structure,1,T0673
+mouthpiece_shape,The removable mouthpiece has a cup-shaped rim and narrow throat that channels air into the tubing.,trombone,train,structure,2,T0674
+slide_alignment,"Two parallel tubes are joined by a crosspiece, helping keep the moving slide assembly aligned during extension.",trombone,train,structure,3,T0675
+supporting_brace,A curved brace connects the moving section to the bell section and gives the supporting hand a grip.,trombone,train,structure,4,T0676
+water_key,A small water key lets accumulated condensation drain through an opening in the slide assembly.,trombone,train,structure,5,T0677
+tuning_slide,A tuning slide made from nested tubing allows small adjustments to the instrument’s overall length and pitch.,trombone,train,structure,6,T0678
+surface_finishes,"Many models have lacquered or plated brass surfaces, while the inner slide tubes are finished to move smoothly.",trombone,train,structure,7,T0679
+lip_buzzing,"The player produces sound by buzzing the lips against the mouthpiece, setting the air inside the tubing into vibration.",trombone,train,structure,8,T0680
+rolled_bell_rim,The bell’s outer rim is often rolled into a rounded bead that strengthens its edge and resists dents.,trombone,train,structure,9,T0681
+nickel_silver_inner_tubes,"The moving slide is commonly made with nickel-silver inner tubes, whose hard, smooth surfaces withstand repeated motion.",trombone,train,structure,10,T0682
+seven_slide_positions,"Seven conventional slide positions provide successive semitone steps, with the player moving the assembly by hand between them.",trombone,train,structure,11,T0683
+rotary_valve_extension,"Some models include a rotary valve that redirects airflow through extra tubing, lowering the instrument’s fundamental pitch.",trombone,train,structure,12,T0684
+dual_valves,"Bass versions may carry two rotary valves, offering additional tubing paths for lower notes and alternate fingerings.",trombone,train,structure,13,T0685
+formed_bell_sections,The bell section is assembled from shaped metal sheets joined into a tapered form that opens toward its wide rim.,trombone,train,structure,14,T0686
+outer_slide_brace,"The slide’s outer tubes are connected by a cross brace, keeping their spacing consistent as the inner tubes move.",trombone,train,structure,15,T0687
+playing_hand_roles,"During a passage, the performer supports the fixed section with the left hand and guides the moving assembly with the right.",trombone,train,action,0,T0688
+continuous_pitch_glides,"Moving the slide gradually between note positions can create a continuous pitch sweep, a characteristic gliding effect.",trombone,train,action,1,T0689
+tongued_articulation,The tongue briefly interrupts the airstream at the mouthpiece to separate notes or shape crisp musical attacks.,trombone,train,action,2,T0690
+register_and_lip_tension,"Higher pitches generally require firmer, faster lip vibration, while lower pitches use a looser embouchure and slower vibration.",trombone,train,action,3,T0691
+mute_effect,"A mute placed inside the flared end changes the tone and often reduces volume, depending on its design.",trombone,train,action,4,T0692
+phrase_breathing,"Players take breaths between phrases, planning airflow so sustained notes and connected passages remain steady.",trombone,train,action,5,T0693
+orchestral_harmonic_role,"In orchestral music, it commonly supplies harmonic inner parts or reinforces low lines beneath brighter melodic instruments.",trombone,train,action,6,T0694
+playing_clearance,"Because the moving assembly reaches well forward, performers need clear space in front of them while playing.",trombone,train,action,7,T0695
+partials_at_fixed_position,"At one slide location, changing lip tension selects different resonant partials, so the same tubing length can produce a series of notes.",trombone,train,action,8,T0696
+fine_intonation_adjustments,"Small slide adjustments beyond customary positions help correct intonation, since exact placement varies with pitch, instrument, and the player's embouchure.",trombone,train,action,9,T0697
+slide_lubrication,"Before playing, performers commonly apply lubricant to the inner slide tubes and spread it with gentle movement for smooth travel.",trombone,train,action,10,T0698
+jazz_improvisation,"Jazz performers often use it for improvised solo lines, shaping phrases with expressive bends and varied articulation.",trombone,train,action,11,T0699
+written_clef_choices,"Printed parts may use tenor clef for the middle register and bass clef for lower passages, depending on the player's range.",trombone,train,action,12,T0700
+slurred_note_changes,"During a slur, the player changes notes by coordinating lip vibration and slide movement while keeping the airflow continuous.",trombone,train,action,13,T0701
+written_at_sounding_pitch,"Parts are generally written at sounding pitch rather than transposed, so each written note corresponds to the pitch produced.",trombone,train,action,14,T0702
+warming_and_pitch_shift,"After warming from breath and room conditions, its pitch can shift, prompting players to check tuning again.",trombone,train,action,15,T0703
+concert_band_parts,"In a concert band, it usually belongs to the low-brass section, where parts may support harmonies or answer melodic phrases.",trombone,train,situation,0,T0704
+big_band_section_writing,Big-band charts often assign the instrument harmonized riffs and rhythmic accents behind a featured soloist.,trombone,train,situation,1,T0705
+brass_quintet_middle_voice,"In brass quintet writing, its middle-register line can connect higher brass parts with the tuba’s bass foundation.",trombone,train,situation,2,T0706
+marching_band_arrangements,"Marching-band arrangements use its bold, projecting sound for melodic calls and rhythmic figures that remain audible outdoors.",trombone,train,situation,3,T0707
+second_line_parades,New Orleans second-line parades often include it among the brass voices carrying layered melodies over a steady street beat.,trombone,train,situation,4,T0708
+musical_theater_pit,"In musical-theater pit orchestras, its parts may shift among lyrical lines, rhythmic accents, and sustained ensemble support as scenes change.",trombone,train,situation,5,T0709
+ensemble_choir_setting,"A choir made entirely of this instrument can range from bass foundations to high melodic lines, producing a unified brass texture.",trombone,train,situation,6,T0710
+studio_microphone_placement,"In recording studios, engineers may place a microphone near its bell for direct sound, then adjust distance to blend room ambience.",trombone,train,situation,7,T0711
+salsa_rhythmic_figures,"In salsa arrangements, it often contributes repeated rhythmic figures and short answering phrases beneath or between vocal lines.",trombone,train,situation,8,T0712
+church_service_ensemble,Church services may feature it in a small brass ensemble that supports hymn singing or ceremonial processions.,trombone,train,situation,9,T0713
+piano_accompanied_recital,"A piano accompanist can support its solo recital repertoire, allowing a player to perform outside a larger ensemble.",trombone,train,situation,10,T0714
+symphony_seating,"Symphony seating usually groups it with the brass behind the woodwinds, although the exact layout depends on the hall and score.",trombone,train,situation,11,T0715
+rock_horn_section,Rock bands with horn sections may use it in punchy ensemble riffs between vocal lines.,trombone,train,situation,12,T0716
+film_score_overdubbing,"For a film score, players may record separate parts in multiple takes to build a larger-sounding section.",trombone,train,situation,13,T0717
+organ_chamber_pairing,"Some chamber works pair it with an organ, whose sustained tones complement its changing melodic lines.",trombone,train,situation,14,T0718
+community_brass_concerts,"At community concerts, it may perform familiar melodies in an informal brass ensemble alongside other local musicians.",trombone,train,situation,15,T0719
+ceremonial_fanfare_calls,"In fanfare writing, its forceful attacks can announce arrivals or mark ceremonial moments with a projecting brass sound.",trombone,train,function,0,T0720
+vocal_style_lyrical_solos,"A rounded, sustained tone suits lyrical solos that draw on the broad, expressive phrasing of a human singing voice.",trombone,train,function,1,T0721
+early_music_reproductions,Historical reproductions help early-music groups recreate the brass sonorities associated with Renaissance and Baroque repertoire.,trombone,train,function,2,T0722
+singing_while_playing,"Some contemporary works ask players to sing while sounding notes, creating rough, beating textures for unusual musical effects.",trombone,train,function,3,T0723
+section_attack_clarity,Coordinated attacks across a section can give full-ensemble chords a sharply defined edge.,trombone,train,function,4,T0724
+film_score_suspense,"Low notes can underpin suspenseful film passages, adding weight beneath quieter orchestral textures.",trombone,train,function,5,T0725
+opera_scene_support,"In opera orchestras, sustained chords can reinforce dramatic scenes while careful balancing keeps the singers audible.",trombone,train,function,6,T0726
+bass_line_doubling,"A low-register line can double the bass part, strengthening harmonic roots during full-ensemble passages.",trombone,train,function,7,T0727
+ska_offbeat_chords,Ska arrangements often use its clipped offbeat chords to add rhythmic punctuation between vocal phrases.,trombone,train,function,8,T0728
+british_brass_band_harmony,"In British brass bands, its section helps fill out the middle harmonies between the high parts and the bass foundation.",trombone,train,function,9,T0729
+student_ensemble_practice,"School ensemble practice gives beginners a chance to coordinate slide placement, breath, and pitch by ear.",trombone,train,function,10,T0730
+dixieland_answering_fills,Dixieland groups may use its sliding fills to answer other players’ melodies and enliven improvised passages.,trombone,train,function,11,T0731
+orchestral_concerto_role,A solo concerto can place its expressive melodic line against the contrasting colors of an orchestra.,trombone,train,function,12,T0732
+march_countermelody,"In a brass-band march, it can carry a countermelody that moves independently beneath the main tune.",trombone,train,function,13,T0733
+choral_lower_voice_support,"A section can reinforce a choir’s lower vocal parts, adding sustained brass support to large-scale choral works.",trombone,train,function,14,T0734
+dynamic_contrast,Its broad dynamic range lets arrangers build from a restrained accompaniment to a forceful contribution at a musical climax.,trombone,train,function,15,T0735
+slide_counterweight,"On some models, a counterweight near the slide bow offsets its forward reach and improves balance in the hands.",trombone,eval,structure,0,T0736
+slide_lock_ring,A small lock ring on the brace can immobilize the moving section during carrying or storage.,trombone,eval,structure,1,T0737
+slide_end_bumpers,Soft bumpers at the slide’s far end cushion accidental contact and help protect the tubes when fully extended.,trombone,eval,structure,2,T0738
+inner_tube_stockings,"The inner slide tubes have slightly enlarged lower sections, called stockings, that maintain a close fit inside the outer tubes.",trombone,eval,structure,3,T0739
+interchangeable_leadpipes,"Some modern designs accept interchangeable leadpipes, letting players change the narrow passage between the mouthpiece receiver and main tubing.",trombone,eval,structure,4,T0740
+receiver_lock_collar,"A threaded lock collar joins the slide receiver to the bell section, securing the parts while allowing them to separate for storage.",trombone,eval,structure,5,T0741
+bore_size_variation,"Bass models generally have a wider bore than tenor models, making the internal tubing diameter a notable difference between these forms.",trombone,eval,structure,6,T0742
+slide_u_bow,"At the far end of the moving section, a U-shaped bow reverses the airflow between its two parallel tubes.",trombone,eval,structure,7,T0743
+alternate_slide_routes,"When successive notes permit multiple slide locations, players may choose an alternate route that keeps a quick passage compact and avoids awkward reaches.",trombone,eval,action,0,T0744
+double_tonguing,"For rapid repeated notes, performers may double-tongue by alternating tongue syllables, producing more attacks than a single articulation allows.",trombone,eval,action,1,T0745
+flutter_tonguing,"A performer can flutter-tongue by rolling the tongue while blowing, adding a rattling texture to a sustained or repeated note.",trombone,eval,action,2,T0746
+slide_vibrato,"To create vibrato, players sometimes move the slide slightly back and forth in a regular pulse while sustaining a pitch.",trombone,eval,action,3,T0747
+lip_slur_exercises,"Lip-slur exercises connect neighboring resonant notes without moving the slide, developing control over changes in lip vibration and airflow.",trombone,eval,action,4,T0748
+plunger_mute_shaping,"With a plunger mute held near the bell, performers open and close the gap to shape a changing, speechlike tone.",trombone,eval,action,5,T0749
+joining_instrument_sections,"Before playing, performers typically connect the slide and bell sections, then secure their threaded joint without forcing the parts together.",trombone,eval,action,6,T0750
+tubing_bath_cleaning,"For periodic cleaning, players separate the sections and rinse the tubing with lukewarm water and mild soap, avoiding heat that could damage the finish.",trombone,eval,action,7,T0751
+unaccompanied_audition,"At a conservatory audition, a candidate may play an exposed excerpt alone, letting evaluators hear phrasing and intonation without ensemble cover.",trombone,eval,situation,0,T0752
+reverberant_hall_articulation,"In a highly reverberant hall, performers may shorten note lengths so rapid passages remain clear rather than blurred by lingering reflections.",trombone,eval,situation,1,T0753
+individual_lesson_passage_work,"A private lesson may isolate troublesome slide changes, with an instructor slowing a passage before restoring its intended tempo.",trombone,eval,situation,2,T0754
+cold_weather_hand_comfort,"At a winter outdoor ceremony, keeping the instrument sheltered until shortly before playing helps prevent the metal from chilling the hands.",trombone,eval,situation,3,T0755
+workshop_slide_inspection,"In a repair workshop, technicians may test the slide’s travel to locate spots where movement catches.",trombone,eval,situation,4,T0756
+solo_competition_sight_reading,"A judged solo competition may require a prepared work and sight-reading, placing performance under unfamiliar musical demands.",trombone,eval,situation,5,T0757
+stage_monitoring,"On an amplified stage, a monitor speaker can help the player hear their own part amid electric instruments and drums.",trombone,eval,situation,6,T0758
+windy_performance_score_security,"Windy outdoor concerts can send loose score pages flying, so performers commonly secure sheet music with clips or weights.",trombone,eval,situation,7,T0759
+mexican_banda_riffs,"In Mexican banda ensembles, this instrument often joins other low-brass voices in harmonized riffs that drive dance arrangements.",trombone,eval,function,0,T0760
+balkan_dance_music,Balkan brass ensembles may use its broad low-register tone to reinforce fast dance melodies and rhythmic accents.,trombone,eval,function,1,T0761
+funk_syncopation,"Funk arrangements use its clipped, syncopated phrases to give horn-section passages a punchy rhythmic edge.",trombone,eval,function,2,T0762
+microtonal_composition,Contemporary composers exploit its continuously adjustable pitch for microtonal inflections between conventional semitone steps.,trombone,eval,function,3,T0763
+live_electronics,"Some chamber composers pair it with live electronics, processing sustained tones into layered or spatial sound textures.",trombone,eval,function,4,T0764
+pep_band_rallies,Pep bands use short repeated figures from it to rally spectators during breaks in sporting events.,trombone,eval,function,5,T0765
+brass_band_test_piece,"In a brass-band test piece, its part may expose a player's control through sustained melodic lines and technical passages.",trombone,eval,function,6,T0766
+string_quartet_contrast,"Composers sometimes place it beside a string quartet, using its sustained brass color to contrast with bowed textures.",trombone,eval,function,7,T0767
+brass_finish,Its tubing is commonly made from brass and finished with clear lacquer or a thin layer of silver plating.,trumpet,train,structure,0,T0768
+cup_mouthpiece,A detachable cup-shaped mouthpiece directs the player's buzzing lips into the instrument's narrow leadpipe.,trumpet,train,structure,1,T0769
+valve_airways,"Three valves divert air through additional lengths of tubing, changing the instrument's effective tube length and pitch.",trumpet,train,structure,2,T0770
+flared_bell,The main tube widens gradually into a flared bell that helps project the instrument's sound.,trumpet,train,structure,3,T0771
+bore_shape,"Much of its bore is cylindrical, while the tubing near the bell expands into a broader profile.",trumpet,train,structure,4,T0772
+tuning_slide,A movable U-shaped tuning slide changes the tubing's length slightly to adjust the overall pitch.,trumpet,train,structure,5,T0773
+piston_valves,"In many models, spring-loaded piston valves sit in a row and move vertically when pressed.",trumpet,train,structure,6,T0774
+coiled_tubing,"Its long, narrow tube is bent into compact loops, making the instrument easier to hold and play.",trumpet,train,structure,7,T0775
+water_key,Small drain keys at low points in the tubing open to let accumulated moisture escape.,trumpet,train,structure,8,T0776
+bottom_caps,Removable caps at the bottoms of the valve casings provide access for cleaning and lubrication.,trumpet,train,structure,9,T0777
+tubing_braces,"Braces connect separate runs of tubing, helping keep the coiled assembly aligned and rigid.",trumpet,train,structure,10,T0778
+thumb_saddle,A thumb saddle beside the first valve gives the player's right hand a stable resting position.,trumpet,train,structure,11,T0779
+third_slide_ring,A movable ring on the third-valve slide gives the left hand leverage for small intonation adjustments.,trumpet,train,structure,12,T0780
+rolled_bell_rim,The bell's edge is often reinforced with a rolled rim that stiffens the thin metal.,trumpet,train,structure,13,T0781
+threaded_button_stems,Threaded stems connect the finger buttons to their pistons and can be unscrewed for servicing.,trumpet,train,structure,14,T0782
+valve_travel_pads,Felt or cork pads beneath the valve buttons cushion the pistons at the ends of their travel.,trumpet,train,structure,15,T0783
+lip_pitch_control,"Players change pitch by tightening or relaxing their buzzing lips, selecting different notes within the instrument’s harmonic series.",trumpet,train,action,0,T0784
+tongued_attacks,"Brief tongue contact interrupts the airstream at note beginnings, producing clear attacks without stopping the breath completely.",trumpet,train,action,1,T0785
+valve_harmonic_combinations,Combining valve presses with different lip-selected harmonics provides a chromatic range across several registers.,trumpet,train,action,2,T0786
+breath_support,Steady abdominal airflow helps maintain a centered tone through long phrases and dynamic changes.,trumpet,train,action,3,T0787
+high_register_airflow,"To play higher notes, performers increase lip tension and direct faster air through the mouthpiece.",trumpet,train,action,4,T0788
+mute_tone_change,"A mute placed inside the bell alters the tone color and may reduce projection, depending on its design.",trumpet,train,action,5,T0789
+slurred_note_transition,"For a slur, performers keep airflow continuous while changing lip vibration between notes, avoiding a fresh tongue attack.",trumpet,train,action,6,T0790
+bb_transposition,"In the common B-flat version, written C sounds as concert B-flat, so orchestral parts are transposed for performers.",trumpet,train,action,7,T0791
+valve_oiling,A few drops of valve oil on clean pistons help them move quickly and return smoothly after each finger press.,trumpet,train,action,8,T0792
+double_tonguing,"In fast passages, alternating tongue syllables like “ta” and “ka” allows repeated notes to be articulated without interrupting airflow.",trumpet,train,action,9,T0793
+flutter_tonguing,"A fluttering tongue rolled against the roof of the mouth adds a rough, buzzing effect while the player sustains a note.",trumpet,train,action,10,T0794
+plunger_mute_motion,"Moving a plunger mute toward and away from the bell creates changing, speech-like wah effects during a phrase.",trumpet,train,action,11,T0795
+vibrato_production,"Players produce vibrato by subtly wavering pitch or intensity, often through controlled jaw motion or changes in breath pressure.",trumpet,train,action,12,T0796
+playing_hand_positions,The performer typically supports the instrument with the left hand while the right fingers operate its valves.,trumpet,train,action,13,T0797
+mouthpiece_cleaning,"After use, the mouthpiece can be removed and cleaned separately to clear saliva and residue from its narrow passage.",trumpet,train,action,14,T0798
+lip_trill,"A lip trill alternates rapidly between neighboring harmonic notes, usually without changing valve positions.",trumpet,train,action,15,T0799
+orchestral_melody,"In symphony orchestras, this instrument often carries the upper brass melody, shifting between sustained lines and emphatic fanfares.",trumpet,train,situation,0,T0800
+jazz_improvisation,"In small jazz groups, the instrument is often used for improvised solos, with its bright tone cutting through piano, bass, and drums.",trumpet,train,situation,1,T0801
+marching_projection,"Marching bands often aim its bell toward spectators, helping the sound project across open fields and parade routes.",trumpet,train,situation,2,T0802
+ceremonial_calls,"At civic ceremonies, short calls from the instrument can announce an entrance, punctuate a formal procession, or introduce a speaker.",trumpet,train,situation,3,T0803
+concerto_soloist,"In classical concertos, it may appear as a soloist while an orchestra provides the accompaniment.",trumpet,train,situation,4,T0804
+theater_accentuation,Musical-theater pit scores often use it for crisp accents and fanfare-like passages that reinforce dramatic moments onstage.,trumpet,train,situation,5,T0805
+salsa_ensemble_figures,"In salsa ensembles, it contributes tightly synchronized rhythmic figures and bright responses around the singer's vocal lines.",trumpet,train,situation,6,T0806
+church_hymn_melodies,"In church brass ensembles, it can play hymn melodies above lower parts, supporting congregational singing.",trumpet,train,situation,7,T0807
+brass_quintet_role,"In a brass quintet, it often carries the upper melodic line, balancing against the ensemble’s lower brass voices.",trumpet,train,situation,8,T0808
+mariachi_responses,Mariachi groups use its ringing phrases to answer singers and carry melodies above the strings and rhythmic accompaniment.,trumpet,train,situation,9,T0809
+big_band_section,"In big-band charts, section players deliver coordinated, harmonized accents alongside saxophones and the rhythm section.",trumpet,train,situation,10,T0810
+stadium_chants,"At football games, brief blasts can energize spectators and punctuate chants from the stands.",trumpet,train,situation,11,T0811
+baroque_valveless_performance,"On early-music programs, a valveless form performs Baroque parts through lip adjustments rather than mechanical pitch-changing valves.",trumpet,train,situation,12,T0812
+film_score_layers,"In film-score sessions, studio musicians may record separate parts to build a layered brass passage around the orchestra.",trumpet,train,situation,13,T0813
+funk_offbeat_phrases,"Funk arrangements often place its clipped offbeat phrases between vocal lines, adding sharp accents to the groove.",trumpet,train,situation,14,T0814
+school_band_practice,"In school band classes, beginners often practice long tones and scales before learning ensemble parts.",trumpet,train,situation,15,T0815
+ska_riffs,"In ska arrangements, its bright, penetrating sound carries short riffs that punctuate the offbeat rhythm.",trumpet,train,function,0,T0816
+reggae_vocal_fills,"Reggae bands often use its brief melodic fills between vocal phrases, adding contrast without crowding the steady groove.",trumpet,train,function,1,T0817
+soul_ensemble_accents,Soul ensembles can combine several of its parts into synchronized accents that reinforce a singer's lines.,trumpet,train,function,2,T0818
+blues_call_response,"In blues performances, it can answer a singer with expressive phrases, creating a musical call-and-response exchange.",trumpet,train,function,3,T0819
+second_line_melodies,"New Orleans brass bands use it to lead melodies through second-line parades, where its sound carries over percussion and crowds.",trumpet,train,function,4,T0820
+balkan_dance_melodies,"Balkan brass groups feature its agile melodic lines in lively dance music, where quick phrases help drive the performance.",trumpet,train,function,5,T0821
+opera_fanfare_drama,"In opera, its forceful fanfares can heighten dramatic scenes and lend musical weight to moments of arrival or triumph.",trumpet,train,function,6,T0822
+layered_pop_hook,"Pop producers sometimes layer several recorded parts to build a bright, harmonized hook that stands out in a song.",trumpet,train,function,7,T0823
+orchestral_climax,"At orchestral climaxes, its bright upper line can reinforce the ensemble's peak and make the passage feel more expansive.",trumpet,train,function,8,T0824
+melody_doubling,"Arrangers sometimes have it double a singer's melody, strengthening the tune without changing its contour.",trumpet,train,function,9,T0825
+dixieland_tune_lead,"In Dixieland combos, it often states the tune while other players weave improvised counterlines around it.",trumpet,train,function,10,T0826
+klezmer_vocal_inflection,"In klezmer dance bands, players shape its ornamented phrases to echo the bends and inflections of expressive singing.",trumpet,train,function,11,T0827
+mambo_riffs,Mambo arrangements often use its repeated riffs to intensify dance sections and cue transitions between musical ideas.,trumpet,train,function,12,T0828
+jazz_trading_fours,"During jazz trading fours, its player may exchange brief improvised passages with the drummer in a compact musical conversation.",trumpet,train,function,13,T0829
+gospel_vocal_responses,Gospel arrangements may use its short responses between vocal phrases to add punctuating accents to the choir's performance.,trumpet,train,function,14,T0830
+ensemble_countermelody,"In ensemble writing, it can play a countermelody that threads between the main tune and the supporting harmony.",trumpet,train,function,15,T0831
+piston_materials,"Pistons may be made from nickel-plated brass or corrosion-resistant alloys such as Monel, chosen to withstand repeated movement.",trumpet,eval,structure,0,T0832
+rotary_valve_design,"Some versions use rotary valves, whose lever-operated cylinders turn to redirect airflow instead of moving vertically.",trumpet,eval,structure,1,T0833
+piccolo_fourth_valve,"Piccolo models often add a fourth valve, which extends the playable range downward by roughly a perfect fourth.",trumpet,eval,structure,2,T0834
+mouthpiece_receiver,A tapered receiver at the leadpipe's end holds the mouthpiece securely through a snug friction fit.,trumpet,eval,structure,3,T0835
+first_slide_trigger,"Some models use a first-slide trigger, letting the player make quick adjustments to correct the pitch of low notes.",trumpet,eval,structure,4,T0836
+piston_port_alignment,A guide on each piston keeps its air ports aligned with the casing's passages as the button moves.,trumpet,eval,structure,5,T0837
+telescoping_slide_tubes,Nested inner and outer slide tubes fit closely together while allowing the movable sections to extend and retract.,trumpet,eval,structure,6,T0838
+one_piece_bell,Some models have a one-piece bell formed from a single metal blank rather than from joined bell sections.,trumpet,eval,structure,7,T0839
+mouthpiece_buzzing_practice,"Players often buzz melodies on the detached mouthpiece as a warm-up, practicing steady tone and accurate pitch without the full assembly.",trumpet,eval,action,0,T0840
+practice_mute_use,"For quiet practice, a compact mute fitted into the bell reduces volume, though it can increase resistance and alter response.",trumpet,eval,action,1,T0841
+stemmed_mute_adjustment,"With a stemmed mute, removing or repositioning its central stem changes resonance and produces contrasting nasal tone colors.",trumpet,eval,action,2,T0842
+vocal_growl_effect,"Growling while blowing adds a rough, distorted quality while the pitched sound continues.",trumpet,eval,action,3,T0843
+half_valve_glissando,"Partially depressing the valves while sustaining a note can create a sliding, smeared effect between pitches.",trumpet,eval,action,4,T0844
+alternate_fingerings,Players may choose alternate valve combinations for particular notes to improve intonation or make rapid passages easier.,trumpet,eval,action,5,T0845
+slide_greasing,Applying slide grease lets removable tuning slides move smoothly while helping maintain an airtight fit.,trumpet,eval,action,6,T0846
+pedal_tone_production,Low pedal tones are produced by relaxing the embouchure and adjusting airflow to vibrate below the ordinary playable register.,trumpet,eval,action,7,T0847
+wind_ensemble_blend,"In a wind ensemble, it may provide a bright upper voice above the woodwinds, blending with the section rather than dominating as a soloist.",trumpet,eval,situation,0,T0848
+military_funeral_taps,"At military funerals, performers may use it to play Taps as a final musical tribute to the deceased.",trumpet,eval,situation,1,T0849
+banda_ensemble_context,"Mexican banda groups often feature it in lively brass arrangements alongside tubas, clarinets, and percussion.",trumpet,eval,situation,2,T0850
+calypso_carnival_setting,"In calypso bands, its melodic phrases can contribute to the lively sound of carnival performances.",trumpet,eval,situation,3,T0851
+orchestral_audition_excerpts,"At an orchestral audition, a player may perform contrasting excerpts to demonstrate control of tone, articulation, and dynamics.",trumpet,eval,situation,4,T0852
+brass_band_competitions,Brass-band competitions give players a formal setting to perform prepared works before adjudicators and other ensembles.,trumpet,eval,situation,5,T0853
+cold_weather_pitch,"In cold outdoor conditions, players may warm the instrument before performing because temperature can affect its pitch and response.",trumpet,eval,situation,6,T0854
+piano_accompanied_recital,"In a solo recital, it can be accompanied by piano in works written for the instrument and keyboard.",trumpet,eval,situation,7,T0855
+afrobeat_interlocking_grooves,"In Afrobeat arrangements, short repeated phrases from the upper brass line lock with guitars and percussion to build interwoven grooves.",trumpet,eval,function,0,T0856
+bebop_improvised_runs,"During bebop performances, its player can answer a theme with fast improvised runs, contrasting with the tune's composed melody.",trumpet,eval,function,1,T0857
+hiphop_sampled_stabs,"Hip-hop producers sometimes sample its sharply attacked notes, using them as rhythmic stabs beneath vocals.",trumpet,eval,function,2,T0858
+polka_dance_melody,Polka ensembles often use it to carry lively dance tunes above accordion and low brass accompaniment.,trumpet,eval,function,3,T0859
+circus_act_announcement,Circus bands can use its fanfare-like phrases to announce an act and build anticipation for the performance.,trumpet,eval,function,4,T0860
+graduation_procession,"At graduation ceremonies, its sustained processional phrases can accompany the formal entrance of students and faculty.",trumpet,eval,function,5,T0861
+off_axis_recording,Sound engineers may position microphones slightly off-axis to soften harshness while still capturing its strong attack.,trumpet,eval,function,6,T0862
+game_soundtrack_motifs,"In game soundtracks, short high brass motifs can make moments of victory or discovery feel triumphant and unmistakable.",trumpet,eval,function,7,T0863
+hardened-steel-construction,"Typically forged from hardened steel, its long handle transmits torque from the user's hand to a fastener.",wrench,train,structure,0,T0864
+open-jaw-shape,Open-ended designs have two flat jaws separated by a gap that fits around opposing sides of a hexagonal fastener.,wrench,train,structure,1,T0865
+enclosed-head-contact,"Some heads encircle a fastener with an internally shaped ring, distributing contact across multiple flats.",wrench,train,structure,2,T0866
+movable-jaw-mechanism,Adjustable models use a sliding jaw moved by a knurled worm screw along the head.,wrench,train,structure,3,T0867
+protective-surface-finish,Many models have a polished or chrome-plated surface that resists corrosion and makes oil easier to wipe away.,wrench,train,structure,4,T0868
+offset-handle-clearance,"A handle may have a slight offset near its head, creating clearance from nearby surfaces.",wrench,train,structure,5,T0869
+ratcheting-head-mechanism,"Ratcheting heads contain a reversible pawl mechanism, allowing rotation in one direction without lifting from the fastener.",wrench,train,structure,6,T0870
+two-ended-head-design,"Some have differently sized ends, combining an open jaw at one end with a closed ring at the other.",wrench,train,structure,7,T0871
+fixed-opening-size-range,Fixed-jaw versions are manufactured with openings in different sizes to fit fasteners of specific dimensions.,wrench,train,structure,8,T0872
+serrated-pipe-gripping-teeth,Some pipe-gripping designs have serrated teeth that bite into rounded cylindrical surfaces.,wrench,train,structure,9,T0873
+handle-storage-hole,A hanging hole near the handle's end allows the tool to be stored on a peg.,wrench,train,structure,10,T0874
+lightweight-alloy-body,"Aluminum-alloy bodies weigh less than steel versions, but may be less suitable for very high loads.",wrench,train,structure,11,T0875
+pivoting-head-joint,Certain models have a joint between the head and handle that lets the head pivot through a limited arc.,wrench,train,structure,12,T0876
+etched-size-markings,Size markings are often stamped or etched into the metal near the head.,wrench,train,structure,13,T0877
+handle-cross-section,"A slim handle profile can fit into tight spaces, while a broader cross-section can resist bending under load.",wrench,train,structure,14,T0878
+twelve-point-ring-interior,Some ring-shaped heads have twelve internal points that engage a fastener at several angular positions.,wrench,train,structure,15,T0879
+counterclockwise-loosening,"To loosen a tight nut, the user seats the jaws fully on its flats and turns the handle counterclockwise.",wrench,train,action,0,T0880
+thread-direction-operation,"Turning the handle clockwise usually advances a conventional right-hand threaded fastener, while reverse rotation backs it out.",wrench,train,action,1,T0881
+short-stroke-repositioning,"In a confined area, users make short strokes and reposition the head between turns.",wrench,train,action,2,T0882
+close-size-fit,Matching the opening closely to the fastener prevents excess play that can damage its corners.,wrench,train,action,3,T0883
+tubing-fitting-access,"For a flare-nut fitting, a split-ring head can pass over attached tubing before engaging the fastener's flats.",wrench,train,action,4,T0884
+preset-torque-limit,A preset torque mechanism can signal or release when the applied turning force reaches its selected limit.,wrench,train,action,5,T0885
+alternating-tightening-sequence,"When several fasteners hold a joint, tightening them in a gradual alternating sequence helps distribute clamping pressure evenly.",wrench,train,action,6,T0886
+controlled-turns-after-breakaway,"After loosening a seized fastener, users often make shorter, controlled turns to avoid sudden movement as it breaks free.",wrench,train,action,7,T0887
+pre-lift-wheel-loosening,"Before lifting a vehicle, users often loosen wheel nuts slightly while the tire still rests on the ground.",wrench,train,action,8,T0888
+finish-protection-during-use,A protective cloth between the jaws and polished plumbing can reduce marks while a fitting is turned.,wrench,train,action,9,T0889
+deep-socket-for-protruding-stud,A deep socket is chosen when a long exposed stud would otherwise prevent the head from seating fully.,wrench,train,action,10,T0890
+counterholding-a-spinning-bolt,"When a bolt turns along with its nut, a second tool can hold the bolt head stationary.",wrench,train,action,11,T0891
+soaking-corroded-threads,Penetrating oil is often given time to reach corroded threads before force is applied to a stuck fastener.,wrench,train,action,12,T0892
+left-pedal-thread-direction,"Some bicycle pedal threads loosen by turning clockwise on the left side, opposite the usual direction.",wrench,train,action,13,T0893
+hand-removal-after-loosening,"Once initial resistance has been overcome, users may remove a loose nut by hand rather than continuing repeated turns.",wrench,train,action,14,T0894
+extension-for-recessed-fastener,A socket extension lets the user's turning force reach a recessed fastener behind an obstruction.,wrench,train,action,15,T0895
+engine-mount-repair,"In an auto repair bay, a long-handled hand tool tightens engine-mount fasteners after the powertrain has been positioned.",wrench,train,situation,0,T0896
+sink-basin-installation,"Under a kitchen sink, a plumber turns the basin-retaining nut in the confined space around the fixture.",wrench,train,situation,1,T0897
+farm-machinery-maintenance,"During farm equipment maintenance, technicians secure loose guards and brackets before machinery returns to field service.",wrench,train,situation,2,T0898
+scaffold-assembly,"On construction sites, workers tighten scaffold couplers as they assemble temporary access structures.",wrench,train,situation,3,T0899
+radiator-pipe-repair,A heating technician turns a radiator pipe union nut while repairing a home's hot-water system.,wrench,train,situation,4,T0900
+refrigerator-compressor-repair,"At an appliance workshop, repairers secure compressor mounting bolts after replacing a refrigerator component.",wrench,train,situation,5,T0901
+machine-shop-fixture-setup,"In a machine shop, machinists tighten nuts on workholding fixtures before beginning a cutting operation.",wrench,train,situation,6,T0902
+portable-generator-field-repair,"During a remote repair, a portable generator's fittings can be tightened without relying on powered equipment.",wrench,train,situation,7,T0903
+vehicle-battery-terminal-repair,"At a roadside breakdown, a mechanic tightens the nut securing a replacement battery cable to its terminal.",wrench,train,situation,8,T0904
+aircraft-access-panel-maintenance,"In an aircraft hangar, maintenance crews secure access-panel fasteners before returning an inspected plane to service.",wrench,train,situation,9,T0905
+sailboat-cooling-line-repair,"Aboard a sailboat, deckhands tighten hose-clamp fittings while checking the vessel's cooling-water lines.",wrench,train,situation,10,T0906
+irrigation-pipe-reconnection,"During irrigation repairs, workers tighten compression fittings to reconnect sections of a farm's water-supply piping.",wrench,train,situation,11,T0907
+conveyor-guard-maintenance,"At a factory, maintenance staff secure conveyor guards after clearing debris from the machinery.",wrench,train,situation,12,T0908
+laboratory-stand-assembly,"When assembling a laboratory equipment stand, technicians tighten its metal frame joints before placing instruments on it.",wrench,train,situation,13,T0909
+table-frame-assembly,"In a flat-pack furniture workshop, assemblers tighten bolts joining a table's legs to its frame.",wrench,train,situation,14,T0910
+rail-depot-equipment-maintenance,"At a rail depot, technicians tighten fasteners on service equipment during scheduled maintenance between train runs.",wrench,train,situation,15,T0911
+bicycle-axle-removal,A mechanic loosens the axle nut to remove a bicycle wheel for a tire repair or hub service.,wrench,train,function,0,T0912
+valve-packing-nut-seal,"During plumbing repairs, tightening a valve's packing nut can compress the seal and stop a leak around its stem.",wrench,train,function,1,T0913
+alternator-belt-service,"To replace an alternator, technicians loosen its mounting fasteners so the unit can shift and its drive belt can be removed.",wrench,train,function,2,T0914
+vise-bench-mounting,"In a woodshop, tightening the mounting nuts secures a bench vise firmly to the workbench.",wrench,train,function,3,T0915
+motorcycle-chain-adjustment,"When servicing a motorcycle chain, loosening the rear axle nut allows the wheel to move for tension adjustment.",wrench,train,function,4,T0916
+mower-blade-removal,"Before sharpening a lawn mower blade, a repairer loosens its retaining bolt to remove the blade from the spindle.",wrench,train,function,5,T0917
+trailer-hitch-ball-installation,"During trailer assembly, tightening the hitch ball's mounting nut secures the coupling point for towing.",wrench,train,function,6,T0918
+compressor-foundation-anchoring,"At an equipment installation, technicians tighten anchor nuts to hold a compressor's feet firmly against its foundation.",wrench,train,function,7,T0919
+tie-rod-alignment-adjustment,"During vehicle alignment, technicians loosen tie-rod locknuts so the adjuster can be rotated to correct wheel toe.",wrench,train,function,8,T0920
+standing-rigging-tension,Sailboat crews secure turnbuckle adjustments with locknuts to maintain tension in the standing rigging.,wrench,train,function,9,T0921
+solar-panel-clamp-installation,"When installing rooftop solar panels, crews tighten module-clamp nuts to keep the panels fixed against wind loads.",wrench,train,function,10,T0922
+bicycle-crank-removal,A mechanic loosens the crank-arm retaining bolt when removing a bicycle crank for bottom-bracket service.,wrench,train,function,11,T0923
+garage-door-track-alignment,"On a garage door, technicians tighten track-bracket nuts to keep the guides aligned as the rollers travel.",wrench,train,function,12,T0924
+toilet-supply-line-connection,"After replacing a toilet fill valve, a plumber tightens the tank's supply-line coupling nut to prevent leaks.",wrench,train,function,13,T0925
+rail-joint-fastening,Railway maintenance crews tighten fishplate bolts to keep adjoining rail sections joined under repeated wheel loads.,wrench,train,function,14,T0926
+gas-line-connection-check,"A licensed installer tightens gas-line fittings after assembly, then checks the joints for leaks before use.",wrench,train,function,15,T0927
+square-drive-socket-connection,"Some heads carry a square drive that accepts interchangeable sockets, letting one handle accommodate fasteners of differing sizes.",wrench,eval,structure,0,T0928
+beam-deflection-indicator,A beam-style torque indicator places a pointer beside a calibrated scale; slight shaft deflection shows applied turning force.,wrench,eval,structure,1,T0929
+shaft-strain-gauge-sensing,"Electronic versions may embed strain gauges in the metal shaft, converting minute elastic deformation into a displayed torque value.",wrench,eval,structure,2,T0930
+molded-insulating-layer,"Insulated versions surround the conductive core with thick molded polymer, reducing the chance of electrical contact through the handle.",wrench,eval,structure,3,T0931
+hammer-striking-pad,Certain heavy-duty forms end in a broad striking pad designed to withstand blows from a separate hammer.,wrench,eval,structure,4,T0932
+angled-jaws-for-repositioning,"Many fixed heads angle their jaws roughly fifteen degrees from the handle plane, allowing repositioning by flipping the tool.",wrench,eval,structure,5,T0933
+pin-engagement-for-retaining-rings,Some hook-shaped heads carry a projecting pin that engages holes in circular retaining rings during adjustment.,wrench,eval,structure,6,T0934
+copper-alloy-spark-reduction,"Non-sparking versions can be made from copper-based alloys, which are softer than steel and reduce spark risk.",wrench,eval,structure,7,T0935
+load-against-fixed-jaw,"With an adjustable model, orient the handle so force bears against the fixed jaw rather than tending to spread the movable one.",wrench,eval,action,0,T0936
+hand-starting-threaded-fasteners,Starting a nut by hand for several turns before applying the tool helps prevent cross-threading.,wrench,eval,action,1,T0937
+pulling-force-for-safety,"Pulling the handle toward the body is generally safer than pushing, since a sudden slip is less likely to cause a fall.",wrench,eval,action,2,T0938
+right-angle-crowfoot-positioning,"When a crowfoot adapter reaches an obstructed fastener, positioning it at right angles to a calibrated handle usually preserves the stated torque.",wrench,eval,action,3,T0939
+torque-angle-tightening,"Some fasteners are tightened to an initial torque, then rotated through a specified additional angle to achieve the required clamping force.",wrench,eval,action,4,T0940
+click-type-storage-setting,"After using an adjustable click-type model, return its setting to the manufacturer's recommended storage value to limit long-term spring stress.",wrench,eval,action,5,T0941
+torque-tool-recalibration,"Torque-indicating models need periodic calibration, particularly after a drop or severe overload, to keep their readings dependable.",wrench,eval,action,6,T0942
+thread-lubrication-and-clamping,"Lubrication changes the relationship between applied torque and clamping force, so thread lubricant should follow the fastener's specified procedure.",wrench,eval,action,7,T0943
+theater-lighting-rigging,"During theater setup, a crew member tightens the nuts securing a lighting fixture's clamp to overhead rigging.",wrench,eval,situation,0,T0944
+telescope-mount-setup,"At an observatory, technicians secure mounting bolts on a telescope's support structure before balancing its optical tube.",wrench,eval,situation,1,T0945
+bakery-mixer-maintenance,"In a commercial bakery, a repairer tightens fasteners on a stand mixer after servicing its bowl-support assembly.",wrench,eval,situation,2,T0946
+fire-engine-hose-coupling,"During a fire engine equipment check, a crew member tightens the large coupling that joins a hose to the pump.",wrench,eval,situation,3,T0947
+playground-frame-assembly,"At a playground installation, workers tighten the nuts joining climbing-frame braces before the site opens to visitors.",wrench,eval,situation,4,T0948
+wind-turbine-rotor-maintenance,"At a wind farm, technicians tighten accessible rotor-hub fasteners during scheduled maintenance on a turbine.",wrench,eval,situation,5,T0949
+outboard-propeller-service,"In a marina workshop, a mechanic loosens an outboard motor's propeller-retaining nut before removing the propeller for inspection.",wrench,eval,situation,6,T0950
+wheelchair-wheel-replacement,"During wheelchair repairs, a technician tightens the axle fasteners that hold a replacement rear wheel in place.",wrench,eval,situation,7,T0951
+spark-plug-servicing,"During an engine tune-up, a mechanic removes spark plugs for inspection and fits replacements without damaging their threaded shells.",wrench,eval,function,0,T0952
+sway-bar-link-replacement,"When replacing worn suspension links, technicians loosen the sway-bar nuts while leaving the vehicle's steering alignment undisturbed.",wrench,eval,function,1,T0953
+bicycle-spoke-tensioning,"On a bicycle wheel, turning spoke nipples changes spoke tension and can correct a rim that wobbles from side to side.",wrench,eval,function,2,T0954
+microphone-stand-boom-adjustment,A technician tightens a microphone stand's clamp fastener to keep its extended boom from slipping during a performance.,wrench,eval,function,3,T0955
+rooftop-hvac-panel-service,"During rooftop heating and cooling maintenance, workers secure access-panel fasteners before returning the unit to operation.",wrench,eval,function,4,T0956
+printing-press-bearing-maintenance,"At a printing plant, maintenance workers tighten roller-bearing locknuts to keep press components in their intended positions.",wrench,eval,function,5,T0957
+brake-caliper-pad-service,"During brake service, technicians loosen caliper mounting fasteners so the caliper can be moved aside to replace worn pads.",wrench,eval,function,6,T0958
+trailer-wheel-bearing-adjustment,"When adjusting a trailer's wheel bearing, a mechanic turns the spindle nut to set bearing play before securing it with a retainer.",wrench,eval,function,7,T0959
