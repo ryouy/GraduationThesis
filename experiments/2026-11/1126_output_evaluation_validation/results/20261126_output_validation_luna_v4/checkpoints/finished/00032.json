@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "e4ed280a04a2fd57caaa1172827379ccd32beb2df0ed604f00d71393dce7e922",
+    "items": [
+      {
+        "id": "b526a5aa2dbe8d66813e",
+        "label": "no",
+        "reason": "A guitar is a different musical instrument from a drum."
+      },
+      {
+        "id": "ab445047c90dd4750aa1",
+        "label": "no",
+        "reason": "Mist is suspended water droplets, not rain falling from clouds."
+      },
+      {
+        "id": "a9231b6c2d503df1bdc4",
+        "label": "no",
+        "reason": "A cactus is a different type of plant from aloe."
+      },
+      {
+        "id": "53badadd15fcf57bb49d",
+        "label": "yes",
+        "reason": "The answer directly names the target."
+      },
+      {
+        "id": "2cd780b8646008fa78b5",
+        "label": "yes",
+        "reason": "A vertical bookcase is a type of bookshelf."
+      },
+      {
+        "id": "7f5c602335eee37cd914",
+        "label": "no",
+        "reason": "An insectivore is an animal that eats insects, not an ant."
+      },
+      {
+        "id": "2dd3f33442aad0e83a24",
+        "label": "yes",
+        "reason": "The answer directly names the target."
+      },
+      {
+        "id": "231836db6832e360fe34",
+        "label": "no",
+        "reason": "A guitar is a different musical instrument from a tambourine."
+      },
+      {
+        "id": "14d2d0573e84662a7418",
+        "label": "no",
+        "reason": "Cacti are a different group of plants from aloe."
+      },
+      {
+        "id": "6bbd03f5cf448b3c6f45",
+        "label": "no",
+        "reason": "A beaver is a different animal from an ant."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"b526a5aa2dbe8d66813e\",\"label\":\"no\",\"reason\":\"A guitar is a different musical instrument from a drum.\"},{\"id\":\"ab445047c90dd4750aa1\",\"label\":\"no\",\"reason\":\"Mist is suspended water droplets, not rain falling from clouds.\"},{\"id\":\"a9231b6c2d503df1bdc4\",\"label\":\"no\",\"reason\":\"A cactus is a different type of plant from aloe.\"},{\"id\":\"53badadd15fcf57bb49d\",\"label\":\"yes\",\"reason\":\"The answer directly names the target.\"},{\"id\":\"2cd780b8646008fa78b5\",\"label\":\"yes\",\"reason\":\"A vertical bookcase is a type of bookshelf.\"},{\"id\":\"7f5c602335eee37cd914\",\"label\":\"no\",\"reason\":\"An insectivore is an animal that eats insects, not an ant.\"},{\"id\":\"2dd3f33442aad0e83a24\",\"label\":\"yes\",\"reason\":\"The answer directly names the target.\"},{\"id\":\"231836db6832e360fe34\",\"label\":\"no\",\"reason\":\"A guitar is a different musical instrument from a tambourine.\"},{\"id\":\"14d2d0573e84662a7418\",\"label\":\"no\",\"reason\":\"Cacti are a different group of plants from aloe.\"},{\"id\":\"6bbd03f5cf448b3c6f45\",\"label\":\"no\",\"reason\":\"A beaver is a different animal from an ant.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 320,
+    "started": "2026-11-26T08:20:56.822565+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 386,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 47,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 504,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 890
+    }
+  }
+}
