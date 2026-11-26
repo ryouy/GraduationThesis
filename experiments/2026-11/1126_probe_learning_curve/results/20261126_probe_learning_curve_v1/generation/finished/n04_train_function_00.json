@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "savory dish ingredient",
+      "sentence": "Chopped pieces add a bright sweet-and-tart contrast to savory rice dishes, curries, and stir-fries."
+    },
+    {
+      "fact_key": "fresh salsa ingredient",
+      "sentence": "Diced flesh mixed with peppers, onion, and herbs makes a fruit salsa for grilled foods or tacos."
+    },
+    {
+      "fact_key": "baking ingredient",
+      "sentence": "Pureed flesh can flavor cake batter while adding moisture to baked desserts."
+    },
+    {
+      "fact_key": "dried snack",
+      "sentence": "Dried rings provide a chewy, shelf-stable snack that is easy to pack for travel."
+    },
+    {
+      "fact_key": "smoothie ingredient",
+      "sentence": "Frozen chunks blend smoothly into drinks, contributing both fruit flavor and a thick texture."
+    },
+    {
+      "fact_key": "fruit preserve",
+      "sentence": "Cooking the fruit with sugar produces a preserve that can be spread on toast or served with cheese."
+    },
+    {
+      "fact_key": "sweet-and-sour sauce ingredient",
+      "sentence": "Its sweet acidity gives sweet-and-sour sauces a fruity counterpoint to savory ingredients."
+    },
+    {
+      "fact_key": "ham topping",
+      "sentence": "Slices can be arranged over glazed ham, where they contribute flavor and an attractive edible topping."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Chopped pieces add a bright sweet-and-tart contrast to savory rice dishes, curries, and stir-fries.\",\"fact_key\":\"savory dish ingredient\"},{\"sentence\":\"Diced flesh mixed with peppers, onion, and herbs makes a fruit salsa for grilled foods or tacos.\",\"fact_key\":\"fresh salsa ingredient\"},{\"sentence\":\"Pureed flesh can flavor cake batter while adding moisture to baked desserts.\",\"fact_key\":\"baking ingredient\"},{\"sentence\":\"Dried rings provide a chewy, shelf-stable snack that is easy to pack for travel.\",\"fact_key\":\"dried snack\"},{\"sentence\":\"Frozen chunks blend smoothly into drinks, contributing both fruit flavor and a thick texture.\",\"fact_key\":\"smoothie ingredient\"},{\"sentence\":\"Cooking the fruit with sugar produces a preserve that can be spread on toast or served with cheese.\",\"fact_key\":\"fruit preserve\"},{\"sentence\":\"Its sweet acidity gives sweet-and-sour sauces a fruity counterpoint to savory ingredients.\",\"fact_key\":\"sweet-and-sour sauce ingredient\"},{\"sentence\":\"Slices can be arranged over glazed ham, where they contribute flavor and an attractive edible topping.\",\"fact_key\":\"ham topping\"}]}",
+  "rejected": [],
+  "request_hash": "5d7c849c1c69061475643a45196fc764757a04239da257077729ea18b574ff9d",
+  "usage": {
+    "completion_tokens": 635,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 396,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1857,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1854,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2492
+  }
+}
