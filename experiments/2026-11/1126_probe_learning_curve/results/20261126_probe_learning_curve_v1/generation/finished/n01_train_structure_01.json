@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "frame_materials",
+      "sentence": "Frames are commonly made from steel, aluminum alloys, or carbon-fiber composites, balancing durability, weight, and stiffness."
+    },
+    {
+      "fact_key": "mudguard_protection",
+      "sentence": "Curved mudguards mounted above the wheels help deflect water and grit away from the rider and frame."
+    },
+    {
+      "fact_key": "chain_guard",
+      "sentence": "An enclosed guard can cover the upper chain run, helping keep clothing clear of moving parts."
+    },
+    {
+      "fact_key": "inner_tube_and_valve",
+      "sentence": "In many designs, an inflated inner tube sits inside the tire and holds air through a small valve."
+    },
+    {
+      "fact_key": "parking_stand",
+      "sentence": "A fold-down support leg props the machine upright when it is parked on level ground."
+    },
+    {
+      "fact_key": "reflective_components",
+      "sentence": "Small reflectors attached to the wheels or frame return light toward its source, improving visibility in darkness."
+    },
+    {
+      "fact_key": "warning_bell",
+      "sentence": "A handlebar-mounted bell uses a spring-loaded striker to produce a brief warning sound."
+    },
+    {
+      "fact_key": "rear_cargo_rack",
+      "sentence": "A metal or composite rack above the rear wheel provides a platform for securing bags or other cargo."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Frames are commonly made from steel, aluminum alloys, or carbon-fiber composites, balancing durability, weight, and stiffness.\",\"fact_key\":\"frame_materials\"},{\"sentence\":\"Curved mudguards mounted above the wheels help deflect water and grit away from the rider and frame.\",\"fact_key\":\"mudguard_protection\"},{\"sentence\":\"An enclosed guard can cover the upper chain run, helping keep clothing clear of moving parts.\",\"fact_key\":\"chain_guard\"},{\"sentence\":\"In many designs, an inflated inner tube sits inside the tire and holds air through a small valve.\",\"fact_key\":\"inner_tube_and_valve\"},{\"sentence\":\"A fold-down support leg props the machine upright when it is parked on level ground.\",\"fact_key\":\"parking_stand\"},{\"sentence\":\"Small reflectors attached to the wheels or frame return light toward its source, improving visibility in darkness.\",\"fact_key\":\"reflective_components\"},{\"sentence\":\"A handlebar-mounted bell uses a spring-loaded striker to produce a brief warning sound.\",\"fact_key\":\"warning_bell\"},{\"sentence\":\"A metal or composite rack above the rear wheel provides a platform for securing bags or other cargo.\",\"fact_key\":\"rear_cargo_rack\"}]}",
+  "rejected": [],
+  "request_hash": "2974bd43cb5ee7c92426bddd9b0e0aefb4b0204aeb9636f3ba28e0338eca013e",
+  "usage": {
+    "completion_tokens": 926,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 670,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 479,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1405
+  }
+}
