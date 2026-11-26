@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "25c43125d5c9175e036101e6d232996f3cda55bed5e51ebb5dd3f9cda6a64330",
+    "items": [
+      {
+        "id": "a11ec133060b8062507a",
+        "label": "no",
+        "reason": "A shelf is related to storage but is not specifically a cabinet."
+      },
+      {
+        "id": "1b017df1e9b812677a48",
+        "label": "yes",
+        "reason": "“Orange Banana” identifies a banana, with a color modifier."
+      },
+      {
+        "id": "a52a7554c5aeaff0ad2d",
+        "label": "yes",
+        "reason": "The answer directly identifies a jellyfish."
+      },
+      {
+        "id": "6219094cc6487c41dd38",
+        "label": "no",
+        "reason": "This describes insects behaving in lines, not specifically ants."
+      },
+      {
+        "id": "e23c4870d42713fb4634",
+        "label": "no",
+        "reason": "The answer identifies an elephant, not a lion."
+      },
+      {
+        "id": "6e7b2ea3c431311652d6",
+        "label": "no",
+        "reason": "A grapefruit is a different fruit from a banana."
+      },
+      {
+        "id": "99c6e66cfa1bf1c6225d",
+        "label": "no",
+        "reason": "This describes a soil-related role, not a dragonfly."
+      },
+      {
+        "id": "75b1981817f9a9568792",
+        "label": "no",
+        "reason": "A guitar is a different musical instrument from a tambourine."
+      },
+      {
+        "id": "c82ee911c8420dfc51d6",
+        "label": "no",
+        "reason": "A bike is not a submarine."
+      },
+      {
+        "id": "ad850e9b9332470371f8",
+        "label": "no",
+        "reason": "The answer describes drumming as an activity, not a drum itself."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"a11ec133060b8062507a\",\"label\":\"no\",\"reason\":\"A shelf is related to storage but is not specifically a cabinet.\"},{\"id\":\"1b017df1e9b812677a48\",\"label\":\"yes\",\"reason\":\"“Orange Banana” identifies a banana, with a color modifier.\"},{\"id\":\"a52a7554c5aeaff0ad2d\",\"label\":\"yes\",\"reason\":\"The answer directly identifies a jellyfish.\"},{\"id\":\"6219094cc6487c41dd38\",\"label\":\"no\",\"reason\":\"This describes insects behaving in lines, not specifically ants.\"},{\"id\":\"e23c4870d42713fb4634\",\"label\":\"no\",\"reason\":\"The answer identifies an elephant, not a lion.\"},{\"id\":\"6e7b2ea3c431311652d6\",\"label\":\"no\",\"reason\":\"A grapefruit is a different fruit from a banana.\"},{\"id\":\"99c6e66cfa1bf1c6225d\",\"label\":\"no\",\"reason\":\"This describes a soil-related role, not a dragonfly.\"},{\"id\":\"75b1981817f9a9568792\",\"label\":\"no\",\"reason\":\"A guitar is a different musical instrument from a tambourine.\"},{\"id\":\"c82ee911c8420dfc51d6\",\"label\":\"no\",\"reason\":\"A bike is not a submarine.\"},{\"id\":\"ad850e9b9332470371f8\",\"label\":\"no\",\"reason\":\"The answer describes drumming as an activity, not a drum itself.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 490,
+    "started": "2026-11-26T08:23:30.968054+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 545,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 200,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 537,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1082
+    }
+  }
+}
