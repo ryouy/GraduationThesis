@@ -1,0 +1,63 @@
+{
+  "accepted": [
+    {
+      "fact_key": "fastener_turning",
+      "sentence": "It tightens or loosens threaded fasteners by turning the tool against their heads."
+    },
+    {
+      "fact_key": "matching_tip_to_recess",
+      "sentence": "During assembly, users choose a tip that fits the head recess to reduce slipping and damage."
+    },
+    {
+      "fact_key": "seating_before_turning",
+      "sentence": "Seat the tip fully in the recess before applying turning force."
+    },
+    {
+      "fact_key": "maintaining_alignment",
+      "sentence": "Keeping the shaft aligned with the fastener helps prevent the tip from slipping out."
+    },
+    {
+      "fact_key": "steady_engagement_pressure",
+      "sentence": "Steady pressure against the fastener helps keep the tip engaged as the handle turns."
+    },
+    {
+      "fact_key": "removing_fastener_from_material",
+      "sentence": "When removing a fastener, users continue turning until its threads clear the material."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"It tightens or loosens threaded fasteners by turning the tool against their heads.\",\"fact_key\":\"fastener_turning\"},{\"sentence\":\"During assembly, users choose a tip that fits the head recess to reduce slipping and damage.\",\"fact_key\":\"matching_tip_to_recess\"},{\"sentence\":\"Seat the tip fully in the recess before applying turning force.\",\"fact_key\":\"seating_before_turning\"},{\"sentence\":\"Turning clockwise generally tightens a standard right-hand threaded fastener.\",\"fact_key\":\"clockwise_tightening\"},{\"sentence\":\"Turning counterclockwise generally loosens a standard right-hand threaded fastener.\",\"fact_key\":\"counterclockwise_loosening\"},{\"sentence\":\"Keeping the shaft aligned with the fastener helps prevent the tip from slipping out.\",\"fact_key\":\"maintaining_alignment\"},{\"sentence\":\"Steady pressure against the fastener helps keep the tip engaged as the handle turns.\",\"fact_key\":\"steady_engagement_pressure\"},{\"sentence\":\"When removing a fastener, users continue turning until its threads clear the material.\",\"fact_key\":\"removing_fastener_from_material\"}]}",
+  "rejected": [
+    {
+      "item": {
+        "fact_key": "clockwise_tightening",
+        "sentence": "Turning clockwise generally tightens a standard right-hand threaded fastener."
+      },
+      "reason": "length"
+    },
+    {
+      "item": {
+        "fact_key": "counterclockwise_loosening",
+        "sentence": "Turning counterclockwise generally loosens a standard right-hand threaded fastener."
+      },
+      "reason": "length"
+    }
+  ],
+  "request_hash": "464e814ab5767e6e5ed81e4f8e48ea67d808098d2a26c4983b19424b52e75702",
+  "usage": {
+    "completion_tokens": 668,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 441,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 730,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1398
+  }
+}
