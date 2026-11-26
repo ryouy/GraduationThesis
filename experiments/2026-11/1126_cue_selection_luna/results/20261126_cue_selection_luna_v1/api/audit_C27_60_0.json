@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_far_0_1",
+        "naturalness": 4,
+        "reason": "Banana sticky rice is a plausible Southeast Asian preparation; the clue describes an action naturally.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_far_0_2",
+        "naturalness": 5,
+        "reason": "Pairing sliced banana with peanut butter is a familiar snack; the action is clearly described.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_far_0_3",
+        "naturalness": 5,
+        "reason": "A plausible carpentry task, unrelated to either fruit.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_far_0_4",
+        "naturalness": 5,
+        "reason": "A plausible baking process, unrelated to either fruit.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_far_0_5",
+        "naturalness": 5,
+        "reason": "A plausible bicycle maintenance task, unrelated to either fruit.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_unrelated_0_0",
+        "naturalness": 5,
+        "reason": "A plausible instrument calibration task, unrelated to either fruit.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_unrelated_0_1",
+        "naturalness": 5,
+        "reason": "A plausible pottery-making action, unrelated to either fruit.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_unrelated_0_2",
+        "naturalness": 5,
+        "reason": "A plausible locksmithing task, unrelated to either fruit.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_unrelated_0_3",
+        "naturalness": 5,
+        "reason": "A plausible archival digitization task, unrelated to either fruit.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C27_action_unrelated_0_4",
+        "naturalness": 5,
+        "reason": "A plausible electrical repair procedure, unrelated to either fruit.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 876,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 300,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 640,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1516
+  }
+}
