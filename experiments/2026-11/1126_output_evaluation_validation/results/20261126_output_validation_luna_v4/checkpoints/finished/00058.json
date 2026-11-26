@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "7ba7272a391faa39956db795646d2e33cdf3feabe74580d9b268b25cf13baff3",
+    "items": [
+      {
+        "id": "327284ae619c2e6059a3",
+        "label": "no",
+        "reason": "Raindrops are drops of rain, not rain itself."
+      },
+      {
+        "id": "675d74485c885e5f4fcd",
+        "label": "yes",
+        "reason": "A mountain bike is a type of bicycle."
+      },
+      {
+        "id": "653e199377258d9022c9",
+        "label": "yes",
+        "reason": "The answer names the target directly."
+      },
+      {
+        "id": "679c53a38edde02033da",
+        "label": "no",
+        "reason": "An insect community gathering is not a dragonfly."
+      },
+      {
+        "id": "7719be448031ac1dbdf8",
+        "label": "yes",
+        "reason": "The answer names the target directly."
+      },
+      {
+        "id": "24d69a75ee4bfa157d54",
+        "label": "no",
+        "reason": "Precision scissors are a different tool from pliers."
+      },
+      {
+        "id": "8fb94840748b6623f43d",
+        "label": "yes",
+        "reason": "A bookcase is another name for a bookshelf."
+      },
+      {
+        "id": "d448ecdc32bf905eec10",
+        "label": "no",
+        "reason": "A jellyfish is a different animal from an octopus."
+      },
+      {
+        "id": "cef167718152d47efd40",
+        "label": "no",
+        "reason": "A beetle is a different insect from an ant."
+      },
+      {
+        "id": "0031f13c89fc9b46d6c6",
+        "label": "no",
+        "reason": "Aloe is a succulent, but it is not a cactus."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"327284ae619c2e6059a3\",\"label\":\"no\",\"reason\":\"Raindrops are drops of rain, not rain itself.\"},{\"id\":\"675d74485c885e5f4fcd\",\"label\":\"yes\",\"reason\":\"A mountain bike is a type of bicycle.\"},{\"id\":\"653e199377258d9022c9\",\"label\":\"yes\",\"reason\":\"The answer names the target directly.\"},{\"id\":\"679c53a38edde02033da\",\"label\":\"no\",\"reason\":\"An insect community gathering is not a dragonfly.\"},{\"id\":\"7719be448031ac1dbdf8\",\"label\":\"yes\",\"reason\":\"The answer names the target directly.\"},{\"id\":\"24d69a75ee4bfa157d54\",\"label\":\"no\",\"reason\":\"Precision scissors are a different tool from pliers.\"},{\"id\":\"8fb94840748b6623f43d\",\"label\":\"yes\",\"reason\":\"A bookcase is another name for a bookshelf.\"},{\"id\":\"d448ecdc32bf905eec10\",\"label\":\"no\",\"reason\":\"A jellyfish is a different animal from an octopus.\"},{\"id\":\"cef167718152d47efd40\",\"label\":\"no\",\"reason\":\"A beetle is a different insect from an ant.\"},{\"id\":\"0031f13c89fc9b46d6c6\",\"label\":\"no\",\"reason\":\"Aloe is a succulent, but it is not a cactus.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 580,
+    "started": "2026-11-26T08:24:54.965732+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 468,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 143,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 499,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 967
+    }
+  }
+}
