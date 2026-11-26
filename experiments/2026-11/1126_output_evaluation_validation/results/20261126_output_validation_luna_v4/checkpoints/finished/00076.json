@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "f9cf5ccbd7a62b16544249f873b17a08ed96bd787b06d85338145807921c5e87",
+    "items": [
+      {
+        "id": "0c7e92dd44e91c1401d0",
+        "label": "no",
+        "reason": "A jellyfish is a different animal from an octopus."
+      },
+      {
+        "id": "242a49a15ce8657c9765",
+        "label": "yes",
+        "reason": "The answer names scissors directly."
+      },
+      {
+        "id": "828ab787dcfc6842e707",
+        "label": "yes",
+        "reason": "Raindrops are a direct reference to rain."
+      },
+      {
+        "id": "ce9a768f5300c6a94220",
+        "label": "no",
+        "reason": "A precision crafting machine does not specifically identify scissors."
+      },
+      {
+        "id": "c4e36e632fb0e34fc8b1",
+        "label": "yes",
+        "reason": "Cacti is the plural form of cactus."
+      },
+      {
+        "id": "fd2c1ca2966d3a7d528a",
+        "label": "no",
+        "reason": "The answer describes drumming generally, not a tambourine."
+      },
+      {
+        "id": "0d783e2f517441717687",
+        "label": "yes",
+        "reason": "A display cabinet is a type of cabinet."
+      },
+      {
+        "id": "682f013a879724ad441b",
+        "label": "no",
+        "reason": "A smoothie enhancer could be many ingredients and does not specifically identify a banana."
+      },
+      {
+        "id": "9373aef9ec48a6a2ebc4",
+        "label": "no",
+        "reason": "Cacti are different plants from aloe."
+      },
+      {
+        "id": "bc2cec6e43767c1fea22",
+        "label": "no",
+        "reason": "Baking ingredients do not identify a lion."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"0c7e92dd44e91c1401d0\",\"label\":\"no\",\"reason\":\"A jellyfish is a different animal from an octopus.\"},{\"id\":\"242a49a15ce8657c9765\",\"label\":\"yes\",\"reason\":\"The answer names scissors directly.\"},{\"id\":\"828ab787dcfc6842e707\",\"label\":\"yes\",\"reason\":\"Raindrops are a direct reference to rain.\"},{\"id\":\"ce9a768f5300c6a94220\",\"label\":\"no\",\"reason\":\"A precision crafting machine does not specifically identify scissors.\"},{\"id\":\"c4e36e632fb0e34fc8b1\",\"label\":\"yes\",\"reason\":\"Cacti is the plural form of cactus.\"},{\"id\":\"fd2c1ca2966d3a7d528a\",\"label\":\"no\",\"reason\":\"The answer describes drumming generally, not a tambourine.\"},{\"id\":\"0d783e2f517441717687\",\"label\":\"yes\",\"reason\":\"A display cabinet is a type of cabinet.\"},{\"id\":\"682f013a879724ad441b\",\"label\":\"no\",\"reason\":\"A smoothie enhancer could be many ingredients and does not specifically identify a banana.\"},{\"id\":\"9373aef9ec48a6a2ebc4\",\"label\":\"no\",\"reason\":\"Cacti are different plants from aloe.\"},{\"id\":\"bc2cec6e43767c1fea22\",\"label\":\"no\",\"reason\":\"Baking ingredients do not identify a lion.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 750,
+    "started": "2026-11-26T08:27:31.368359+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 447,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 111,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 535,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 982
+    }
+  }
+}
