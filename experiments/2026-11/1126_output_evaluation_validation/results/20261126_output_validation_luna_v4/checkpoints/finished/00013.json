@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "c40c31217f03bb543a73debf70f831a54e05aea373e20618be7058a09d3809e4",
+    "items": [
+      {
+        "id": "f3c86fe1ab259c221205",
+        "label": "yes",
+        "reason": "“Cacti” is the plural of cactus."
+      },
+      {
+        "id": "d45eeba9cdb78ae12545",
+        "label": "yes",
+        "reason": "“Cacti” is the plural of cactus."
+      },
+      {
+        "id": "de5b1199d95638ae258b",
+        "label": "no",
+        "reason": "Cacti are not aloe."
+      },
+      {
+        "id": "36e3e2fd94a29350d609",
+        "label": "no",
+        "reason": "“Insect worker” is a broad description, not a dragonfly."
+      },
+      {
+        "id": "3a69913e2cb63a23c3e8",
+        "label": "no",
+        "reason": "A smoothie venue or phrase does not identify a banana."
+      },
+      {
+        "id": "8083f04b612d39dc4100",
+        "label": "yes",
+        "reason": "The answer directly names scissors."
+      },
+      {
+        "id": "35707cdb9a7f9b9ff4b7",
+        "label": "no",
+        "reason": "“Elephant Education” names an education-related phrase, not an elephant."
+      },
+      {
+        "id": "29b8c4f97a468128a1ab",
+        "label": "yes",
+        "reason": "The answer directly identifies a bicycle."
+      },
+      {
+        "id": "0c06d7c5ac790f48859f",
+        "label": "no",
+        "reason": "It describes small garden creatures generally, not specifically dragonflies."
+      },
+      {
+        "id": "d6c81e20f919aba20599",
+        "label": "no",
+        "reason": "It identifies scissors, not pliers."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"f3c86fe1ab259c221205\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural of cactus.\"},{\"id\":\"d45eeba9cdb78ae12545\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural of cactus.\"},{\"id\":\"de5b1199d95638ae258b\",\"label\":\"no\",\"reason\":\"Cacti are not aloe.\"},{\"id\":\"36e3e2fd94a29350d609\",\"label\":\"no\",\"reason\":\"“Insect worker” is a broad description, not a dragonfly.\"},{\"id\":\"3a69913e2cb63a23c3e8\",\"label\":\"no\",\"reason\":\"A smoothie venue or phrase does not identify a banana.\"},{\"id\":\"8083f04b612d39dc4100\",\"label\":\"yes\",\"reason\":\"The answer directly names scissors.\"},{\"id\":\"35707cdb9a7f9b9ff4b7\",\"label\":\"no\",\"reason\":\"“Elephant Education” names an education-related phrase, not an elephant.\"},{\"id\":\"29b8c4f97a468128a1ab\",\"label\":\"yes\",\"reason\":\"The answer directly identifies a bicycle.\"},{\"id\":\"0c06d7c5ac790f48859f\",\"label\":\"no\",\"reason\":\"It describes small garden creatures generally, not specifically dragonflies.\"},{\"id\":\"d6c81e20f919aba20599\",\"label\":\"no\",\"reason\":\"It identifies scissors, not pliers.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 130,
+    "started": "2026-11-26T08:18:03.444449+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 467,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 537,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1004
+    }
+  }
+}
