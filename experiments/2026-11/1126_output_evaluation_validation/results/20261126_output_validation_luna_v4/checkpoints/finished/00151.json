@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "c9f1348b84dd0439967f80940c17821b1aa53e2a682a487fccbe027a4919d4c6",
+    "items": [
+      {
+        "id": "503e6ceec059bc42e2e1",
+        "label": "0",
+        "reason": "A cyclist is unrelated to the sunset and evening colors described."
+      },
+      {
+        "id": "92013a88c479ae8707b6",
+        "label": "2",
+        "reason": "A bicycle can be parked in small spaces and transported, matching the clue."
+      },
+      {
+        "id": "0b54928a832775c6b3c4",
+        "label": "2",
+        "reason": "The answer identifies a bike needing regular maintenance for safe operation."
+      },
+      {
+        "id": "0cc2fe1a7a809bc9b9af",
+        "label": "1",
+        "reason": "A parade with drumming is related, but the clue specifically describes a shaken jingling instrument."
+      },
+      {
+        "id": "572c7f58014a7f83dfb0",
+        "label": "1",
+        "reason": "It captures the multiple levels, but does not clearly identify a structure used to display items, such as a shelf or rack."
+      },
+      {
+        "id": "69d5e0d56813200532b0",
+        "label": "1",
+        "reason": "Underwater innovations are related to advanced technology, but the answer does not identify the underwater craft."
+      },
+      {
+        "id": "fae88a8e5ff6b81d0b84",
+        "label": "1",
+        "reason": "A smoothie bowl is related to smoothies, but it does not name the fruit described."
+      },
+      {
+        "id": "5e2c51277aff161605f0",
+        "label": "2",
+        "reason": "The answer correctly describes rain watering the land and enhancing its beauty."
+      },
+      {
+        "id": "53bf771423c1fb1ef619",
+        "label": "2",
+        "reason": "The answer describes raindrops refreshing and nourishing the earth."
+      },
+      {
+        "id": "9f64a50a0781ab66d656",
+        "label": "2",
+        "reason": "Scissors with two handles make clean cuts through paper or fabric."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"503e6ceec059bc42e2e1\",\"label\":\"0\",\"reason\":\"A cyclist is unrelated to the sunset and evening colors described.\"},{\"id\":\"92013a88c479ae8707b6\",\"label\":\"2\",\"reason\":\"A bicycle can be parked in small spaces and transported, matching the clue.\"},{\"id\":\"0b54928a832775c6b3c4\",\"label\":\"2\",\"reason\":\"The answer identifies a bike needing regular maintenance for safe operation.\"},{\"id\":\"0cc2fe1a7a809bc9b9af\",\"label\":\"1\",\"reason\":\"A parade with drumming is related, but the clue specifically describes a shaken jingling instrument.\"},{\"id\":\"572c7f58014a7f83dfb0\",\"label\":\"1\",\"reason\":\"It captures the multiple levels, but does not clearly identify a structure used to display items, such as a shelf or rack.\"},{\"id\":\"69d5e0d56813200532b0\",\"label\":\"1\",\"reason\":\"Underwater innovations are related to advanced technology, but the answer does not identify the underwater craft.\"},{\"id\":\"fae88a8e5ff6b81d0b84\",\"label\":\"1\",\"reason\":\"A smoothie bowl is related to smoothies, but it does not name the fruit described.\"},{\"id\":\"5e2c51277aff161605f0\",\"label\":\"2\",\"reason\":\"The answer correctly describes rain watering the land and enhancing its beauty.\"},{\"id\":\"53bf771423c1fb1ef619\",\"label\":\"2\",\"reason\":\"The answer describes raindrops refreshing and nourishing the earth.\"},{\"id\":\"9f64a50a0781ab66d656\",\"label\":\"2\",\"reason\":\"Scissors with two handles make clean cuts through paper or fabric.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 460,
+    "started": "2026-11-26T09:34:50.638009+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 579,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 182,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 694,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1273
+    }
+  }
+}
