@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "ska_riffs",
+      "sentence": "In ska arrangements, its bright, penetrating sound carries short riffs that punctuate the offbeat rhythm."
+    },
+    {
+      "fact_key": "reggae_vocal_fills",
+      "sentence": "Reggae bands often use its brief melodic fills between vocal phrases, adding contrast without crowding the steady groove."
+    },
+    {
+      "fact_key": "soul_ensemble_accents",
+      "sentence": "Soul ensembles can combine several of its parts into synchronized accents that reinforce a singer's lines."
+    },
+    {
+      "fact_key": "blues_call_response",
+      "sentence": "In blues performances, it can answer a singer with expressive phrases, creating a musical call-and-response exchange."
+    },
+    {
+      "fact_key": "second_line_melodies",
+      "sentence": "New Orleans brass bands use it to lead melodies through second-line parades, where its sound carries over percussion and crowds."
+    },
+    {
+      "fact_key": "balkan_dance_melodies",
+      "sentence": "Balkan brass groups feature its agile melodic lines in lively dance music, where quick phrases help drive the performance."
+    },
+    {
+      "fact_key": "opera_fanfare_drama",
+      "sentence": "In opera, its forceful fanfares can heighten dramatic scenes and lend musical weight to moments of arrival or triumph."
+    },
+    {
+      "fact_key": "layered_pop_hook",
+      "sentence": "Pop producers sometimes layer several recorded parts to build a bright, harmonized hook that stands out in a song."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In ska arrangements, its bright, penetrating sound carries short riffs that punctuate the offbeat rhythm.\",\"fact_key\":\"ska_riffs\"},{\"sentence\":\"Reggae bands often use its brief melodic fills between vocal phrases, adding contrast without crowding the steady groove.\",\"fact_key\":\"reggae_vocal_fills\"},{\"sentence\":\"Soul ensembles can combine several of its parts into synchronized accents that reinforce a singer's lines.\",\"fact_key\":\"soul_ensemble_accents\"},{\"sentence\":\"In blues performances, it can answer a singer with expressive phrases, creating a musical call-and-response exchange.\",\"fact_key\":\"blues_call_response\"},{\"sentence\":\"New Orleans brass bands use it to lead melodies through second-line parades, where its sound carries over percussion and crowds.\",\"fact_key\":\"second_line_melodies\"},{\"sentence\":\"Balkan brass groups feature its agile melodic lines in lively dance music, where quick phrases help drive the performance.\",\"fact_key\":\"balkan_dance_melodies\"},{\"sentence\":\"In opera, its forceful fanfares can heighten dramatic scenes and lend musical weight to moments of arrival or triumph.\",\"fact_key\":\"opera_fanfare_drama\"},{\"sentence\":\"Pop producers sometimes layer several recorded parts to build a bright, harmonized hook that stands out in a song.\",\"fact_key\":\"layered_pop_hook\"}]}",
+  "rejected": [],
+  "request_hash": "664f8fba1a018cf3eb4bb1cac626f2e0d3f4bb1a7df27bb964691c98bd4f3025",
+  "usage": {
+    "completion_tokens": 1916,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1617,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1872,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1869,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3788
+  }
+}
