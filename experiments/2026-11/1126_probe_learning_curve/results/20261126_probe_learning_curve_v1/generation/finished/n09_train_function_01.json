@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "tie-rod-alignment-adjustment",
+      "sentence": "During vehicle alignment, technicians loosen tie-rod locknuts so the adjuster can be rotated to correct wheel toe."
+    },
+    {
+      "fact_key": "standing-rigging-tension",
+      "sentence": "Sailboat crews secure turnbuckle adjustments with locknuts to maintain tension in the standing rigging."
+    },
+    {
+      "fact_key": "solar-panel-clamp-installation",
+      "sentence": "When installing rooftop solar panels, crews tighten module-clamp nuts to keep the panels fixed against wind loads."
+    },
+    {
+      "fact_key": "bicycle-crank-removal",
+      "sentence": "A mechanic loosens the crank-arm retaining bolt when removing a bicycle crank for bottom-bracket service."
+    },
+    {
+      "fact_key": "garage-door-track-alignment",
+      "sentence": "On a garage door, technicians tighten track-bracket nuts to keep the guides aligned as the rollers travel."
+    },
+    {
+      "fact_key": "toilet-supply-line-connection",
+      "sentence": "After replacing a toilet fill valve, a plumber tightens the tank's supply-line coupling nut to prevent leaks."
+    },
+    {
+      "fact_key": "rail-joint-fastening",
+      "sentence": "Railway maintenance crews tighten fishplate bolts to keep adjoining rail sections joined under repeated wheel loads."
+    },
+    {
+      "fact_key": "gas-line-connection-check",
+      "sentence": "A licensed installer tightens gas-line fittings after assembly, then checks the joints for leaks before use."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"During vehicle alignment, technicians loosen tie-rod locknuts so the adjuster can be rotated to correct wheel toe.\",\"fact_key\":\"tie-rod-alignment-adjustment\"},{\"sentence\":\"Sailboat crews secure turnbuckle adjustments with locknuts to maintain tension in the standing rigging.\",\"fact_key\":\"standing-rigging-tension\"},{\"sentence\":\"When installing rooftop solar panels, crews tighten module-clamp nuts to keep the panels fixed against wind loads.\",\"fact_key\":\"solar-panel-clamp-installation\"},{\"sentence\":\"A mechanic loosens the crank-arm retaining bolt when removing a bicycle crank for bottom-bracket service.\",\"fact_key\":\"bicycle-crank-removal\"},{\"sentence\":\"On a garage door, technicians tighten track-bracket nuts to keep the guides aligned as the rollers travel.\",\"fact_key\":\"garage-door-track-alignment\"},{\"sentence\":\"After replacing a toilet fill valve, a plumber tightens the tank's supply-line coupling nut to prevent leaks.\",\"fact_key\":\"toilet-supply-line-connection\"},{\"sentence\":\"Railway maintenance crews tighten fishplate bolts to keep adjoining rail sections joined under repeated wheel loads.\",\"fact_key\":\"rail-joint-fastening\"},{\"sentence\":\"A licensed installer tightens gas-line fittings after assembly, then checks the joints for leaks before use.\",\"fact_key\":\"gas-line-connection-check\"}]}",
+  "rejected": [],
+  "request_hash": "55c392e2e94aa1405a5c2db60577fb4ad0126298417ce1e971f1b16c265f144a",
+  "usage": {
+    "completion_tokens": 1183,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 898,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2214,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2211,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3397
+  }
+}
