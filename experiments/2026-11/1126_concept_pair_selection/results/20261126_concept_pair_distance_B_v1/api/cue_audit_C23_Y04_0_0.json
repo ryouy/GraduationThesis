@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C23_action_far_0_0",
+        "reason": "Mouthpiece buzzing is a general brass practice technique, not specific to either instrument.",
+        "x_related": 2,
+        "y_related": 2,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_action_unrelated_0_0",
+        "reason": "Describes baking, with no relevant instrument connection.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_action_very_near_0_0",
+        "reason": "Valve use and breath control strongly fit both instruments, which have valves; the clue does not distinguish them.",
+        "x_related": 3,
+        "y_related": 3,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_action_very_near_0_2",
+        "reason": "Finger controls and steady breath strongly fit both valve brass instruments, without distinguishing either one.",
+        "x_related": 3,
+        "y_related": 3,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_function_medium_far_0_3",
+        "reason": "Expressive jazz phrasing is compatible with both instruments but is not specific to either.",
+        "x_related": 2,
+        "y_related": 2,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_function_medium_near_0_3",
+        "reason": "Cheerful musical notes at a gathering are only weakly connected to either instrument.",
+        "x_related": 1,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_function_near_0_2",
+        "reason": "A clear, carrying fanfare fits trumpet strongly and is also explainable for another brass instrument; it gives no flugelhorn-specific fact.",
+        "x_related": 3,
+        "y_related": 2,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_situation_far_0_1",
+        "reason": "A brassy flourish in a procession is compatible with either instrument but does not identify one.",
+        "x_related": 2,
+        "y_related": 2,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_situation_medium_far_0_3",
+        "reason": "A bright orchestral flourish is broadly compatible with both instruments, not distinctive of either.",
+        "x_related": 2,
+        "y_related": 2,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_situation_medium_near_0_4",
+        "reason": "A brass player providing harmony strongly points to the shared brass-instrument category, without distinguishing the two.",
+        "x_related": 3,
+        "y_related": 3,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_situation_near_0_4",
+        "reason": "A brass section playing a fight-song motif strongly fits both instruments but is not specific to flugelhorn.",
+        "x_related": 3,
+        "y_related": 3,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C23_structure_unrelated_0_2",
+        "reason": "Describes ladder construction, with no relevant instrument connection.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C23_action_far_0_0\",\"x_related\":2,\"y_related\":2,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Mouthpiece buzzing is a general brass practice technique, not specific to either instrument.\"},{\"id\":\"gen_C23_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Describes baking, with no relevant instrument connection.\"},{\"id\":\"gen_C23_action_very_near_0_0\",\"x_related\":3,\"y_related\":3,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Valve use and breath control strongly fit both instruments, which have valves; the clue does not distinguish them.\"},{\"id\":\"gen_C23_action_very_near_0_2\",\"x_related\":3,\"y_related\":3,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Finger controls and steady breath strongly fit both valve brass instruments, without distinguishing either one.\"},{\"id\":\"gen_C23_function_medium_far_0_3\",\"x_related\":2,\"y_related\":2,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Expressive jazz phrasing is compatible with both instruments but is not specific to either.\"},{\"id\":\"gen_C23_function_medium_near_0_3\",\"x_related\":1,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Cheerful musical notes at a gathering are only weakly connected to either instrument.\"},{\"id\":\"gen_C23_function_near_0_2\",\"x_related\":3,\"y_related\":2,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A clear, carrying fanfare fits trumpet strongly and is also explainable for another brass instrument; it gives no flugelhorn-specific fact.\"},{\"id\":\"gen_C23_situation_far_0_1\",\"x_related\":2,\"y_related\":2,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A brassy flourish in a procession is compatible with either instrument but does not identify one.\"},{\"id\":\"gen_C23_situation_medium_far_0_3\",\"x_related\":2,\"y_related\":2,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A bright orchestral flourish is broadly compatible with both instruments, not distinctive of either.\"},{\"id\":\"gen_C23_situation_medium_near_0_4\",\"x_related\":3,\"y_related\":3,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A brass player providing harmony strongly points to the shared brass-instrument category, without distinguishing the two.\"},{\"id\":\"gen_C23_situation_near_0_4\",\"x_related\":3,\"y_related\":3,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A brass section playing a fight-song motif strongly fits both instruments but is not specific to flugelhorn.\"},{\"id\":\"gen_C23_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Describes ladder construction, with no relevant instrument connection.\"}]}",
+  "usage": {
+    "completion_tokens": 1898,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1212,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 691,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2589
+  }
+}
