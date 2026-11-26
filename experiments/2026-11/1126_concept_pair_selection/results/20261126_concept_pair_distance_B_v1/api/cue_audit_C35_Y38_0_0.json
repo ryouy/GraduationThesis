@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C35_action_medium_near_0_0",
+        "reason": "Mentions choosing a mystery from a collection, indirectly associated with storing books; no X or Y name or alias.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_action_unrelated_0_0",
+        "reason": "Describes kayaking and contains no relevant book or apple details.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_function_medium_far_0_2",
+        "reason": "Describes a dedicated display for novels, a distinctive description of X without naming it.",
+        "x_related": 4,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_function_near_0_2",
+        "reason": "Describes vertically arranging reading material for storage and access, a distinctive function of X.",
+        "x_related": 4,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_function_very_near_0_3",
+        "reason": "Describes tiered positions for editions and reading, strongly suggesting furniture for books without naming X.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_situation_far_0_0",
+        "reason": "A search near novels in a study is indirectly associated with X, but does not describe it specifically.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_situation_far_0_2",
+        "reason": "Mentions moving novels during a repair, only weakly associated with X.",
+        "x_related": 1,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_situation_medium_far_0_4",
+        "reason": "A professor’s library and its books are indirectly associated with X, but no storage furniture is described.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_situation_near_0_4",
+        "reason": "Choosing a story from a family collection is indirectly associated with X, without describing it.",
+        "x_related": 2,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_situation_very_near_0_4",
+        "reason": "Picture books facing outward suggests a book-display arrangement, strongly related to X but not a direct name or alias.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_structure_medium_near_0_2",
+        "reason": "Book spines forming a colorful focal point on a study wall strongly suggests X without naming it.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C35_structure_unrelated_0_2",
+        "reason": "Describes a nautilus shell’s growth and contains no relevant book or apple details.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C35_action_medium_near_0_0\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Mentions choosing a mystery from a collection, indirectly associated with storing books; no X or Y name or alias.\"},{\"id\":\"gen_C35_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Describes kayaking and contains no relevant book or apple details.\"},{\"id\":\"gen_C35_function_medium_far_0_2\",\"x_related\":4,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Describes a dedicated display for novels, a distinctive description of X without naming it.\"},{\"id\":\"gen_C35_function_near_0_2\",\"x_related\":4,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Describes vertically arranging reading material for storage and access, a distinctive function of X.\"},{\"id\":\"gen_C35_function_very_near_0_3\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Describes tiered positions for editions and reading, strongly suggesting furniture for books without naming X.\"},{\"id\":\"gen_C35_situation_far_0_0\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A search near novels in a study is indirectly associated with X, but does not describe it specifically.\"},{\"id\":\"gen_C35_situation_far_0_2\",\"x_related\":1,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Mentions moving novels during a repair, only weakly associated with X.\"},{\"id\":\"gen_C35_situation_medium_far_0_4\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A professor’s library and its books are indirectly associated with X, but no storage furniture is described.\"},{\"id\":\"gen_C35_situation_near_0_4\",\"x_related\":2,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Choosing a story from a family collection is indirectly associated with X, without describing it.\"},{\"id\":\"gen_C35_situation_very_near_0_4\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Picture books facing outward suggests a book-display arrangement, strongly related to X but not a direct name or alias.\"},{\"id\":\"gen_C35_structure_medium_near_0_2\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Book spines forming a colorful focal point on a study wall strongly suggests X without naming it.\"},{\"id\":\"gen_C35_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Describes a nautilus shell’s growth and contains no relevant book or apple details.\"}]}",
+  "usage": {
+    "completion_tokens": 1286,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 603,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 694,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1980
+  }
+}
