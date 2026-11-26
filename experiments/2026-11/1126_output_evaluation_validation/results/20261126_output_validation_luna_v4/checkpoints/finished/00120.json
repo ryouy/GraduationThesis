@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "60ccb9c016da047c57f6170d9c3aaf25a88d5dfd927f3b301efa69fea9b7ad8a",
+    "items": [
+      {
+        "id": "51341e907098b156977c",
+        "label": "2",
+        "reason": "An organizer with shelves and compartments is a natural fit for storing assorted objects neatly."
+      },
+      {
+        "id": "59dcdcb78f6716444dd9",
+        "label": "0",
+        "reason": "Scissors are used for cutting, not for bending or shaping materials with leverage."
+      },
+      {
+        "id": "f88ccd5fd61a32dc409f",
+        "label": "2",
+        "reason": "Grapefruits have smooth yellow or green skin, matching the clue."
+      },
+      {
+        "id": "b92697686d71defe0bad",
+        "label": "0",
+        "reason": "The clue describes a shaken jingling instrument, such as a tambourine; circumnavigation dance does not fit."
+      },
+      {
+        "id": "d713f36ea3d1cefc23c3",
+        "label": "1",
+        "reason": "An aquatic vehicle fits water travel but does not capture the clue's ability to travel on land as well."
+      },
+      {
+        "id": "3fe0f86b07137de8c1ae",
+        "label": "1",
+        "reason": "Grapefruit can be used in smoothies and desserts, but the clue's tropical-fruit description is not a strong match."
+      },
+      {
+        "id": "3ca42f23b3f64f50c806",
+        "label": "1",
+        "reason": "Cacti are adapted to arid environments, but their spines do not themselves retain moisture."
+      },
+      {
+        "id": "df6ee7964e50b3475379",
+        "label": "2",
+        "reason": "A bookcase has multiple sections and can neatly display books and decorative pieces."
+      },
+      {
+        "id": "181433df7959a5d7d8db",
+        "label": "0",
+        "reason": "A guitar is not typically shaken by hand to produce the cheerful jingles described."
+      },
+      {
+        "id": "630f9681ec0ef857380a",
+        "label": "1",
+        "reason": "The phrase relates broadly to skilled work, but it does not identify the metal-bending action or implement."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"51341e907098b156977c\",\"label\":\"2\",\"reason\":\"An organizer with shelves and compartments is a natural fit for storing assorted objects neatly.\"},{\"id\":\"59dcdcb78f6716444dd9\",\"label\":\"0\",\"reason\":\"Scissors are used for cutting, not for bending or shaping materials with leverage.\"},{\"id\":\"f88ccd5fd61a32dc409f\",\"label\":\"2\",\"reason\":\"Grapefruits have smooth yellow or green skin, matching the clue.\"},{\"id\":\"b92697686d71defe0bad\",\"label\":\"0\",\"reason\":\"The clue describes a shaken jingling instrument, such as a tambourine; circumnavigation dance does not fit.\"},{\"id\":\"d713f36ea3d1cefc23c3\",\"label\":\"1\",\"reason\":\"An aquatic vehicle fits water travel but does not capture the clue's ability to travel on land as well.\"},{\"id\":\"3fe0f86b07137de8c1ae\",\"label\":\"1\",\"reason\":\"Grapefruit can be used in smoothies and desserts, but the clue's tropical-fruit description is not a strong match.\"},{\"id\":\"3ca42f23b3f64f50c806\",\"label\":\"1\",\"reason\":\"Cacti are adapted to arid environments, but their spines do not themselves retain moisture.\"},{\"id\":\"df6ee7964e50b3475379\",\"label\":\"2\",\"reason\":\"A bookcase has multiple sections and can neatly display books and decorative pieces.\"},{\"id\":\"181433df7959a5d7d8db\",\"label\":\"0\",\"reason\":\"A guitar is not typically shaken by hand to produce the cheerful jingles described.\"},{\"id\":\"630f9681ec0ef857380a\",\"label\":\"1\",\"reason\":\"The phrase relates broadly to skilled work, but it does not identify the metal-bending action or implement.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 180,
+    "started": "2026-11-26T08:38:47.162066+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 896,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 478,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 694,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1590
+    }
+  }
+}
