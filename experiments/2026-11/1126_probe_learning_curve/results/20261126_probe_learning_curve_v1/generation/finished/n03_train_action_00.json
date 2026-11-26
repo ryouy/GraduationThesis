@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "closed_storage_limits_dust",
+      "sentence": "Closing its doors keeps stored household goods out of sight and can reduce their exposure to dust."
+    },
+    {
+      "fact_key": "heavy_items_stored_low",
+      "sentence": "People often place heavier objects on lower shelves to reduce tipping risk and make upper storage easier to reach."
+    },
+    {
+      "fact_key": "emptying_before_relocation",
+      "sentence": "Before relocation, users typically remove contents and detach loose shelves to reduce weight and prevent items from shifting."
+    },
+    {
+      "fact_key": "squaring_frame_during_assembly",
+      "sentence": "During assembly, builders check the frame for squareness before tightening fasteners so the doors align and close smoothly."
+    },
+    {
+      "fact_key": "kitchen_supply_organization",
+      "sentence": "In kitchens, people commonly use one to keep cookware, dishes, or pantry supplies organized and within reach."
+    },
+    {
+      "fact_key": "cleaning_interior_surfaces",
+      "sentence": "Periodic cleaning usually involves emptying compartments and wiping interior surfaces with a damp cloth before replacing stored goods."
+    },
+    {
+      "fact_key": "anti_tip_safety_strap",
+      "sentence": "Tall freestanding units are often secured to a wall with an anti-tip strap, especially where children may climb."
+    },
+    {
+      "fact_key": "soft_close_door_motion",
+      "sentence": "Some models use soft-close hinges that slow a door's final movement and prevent it from slamming."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Closing its doors keeps stored household goods out of sight and can reduce their exposure to dust.\",\"fact_key\":\"closed_storage_limits_dust\"},{\"sentence\":\"People often place heavier objects on lower shelves to reduce tipping risk and make upper storage easier to reach.\",\"fact_key\":\"heavy_items_stored_low\"},{\"sentence\":\"Before relocation, users typically remove contents and detach loose shelves to reduce weight and prevent items from shifting.\",\"fact_key\":\"emptying_before_relocation\"},{\"sentence\":\"During assembly, builders check the frame for squareness before tightening fasteners so the doors align and close smoothly.\",\"fact_key\":\"squaring_frame_during_assembly\"},{\"sentence\":\"In kitchens, people commonly use one to keep cookware, dishes, or pantry supplies organized and within reach.\",\"fact_key\":\"kitchen_supply_organization\"},{\"sentence\":\"Periodic cleaning usually involves emptying compartments and wiping interior surfaces with a damp cloth before replacing stored goods.\",\"fact_key\":\"cleaning_interior_surfaces\"},{\"sentence\":\"Tall freestanding units are often secured to a wall with an anti-tip strap, especially where children may climb.\",\"fact_key\":\"anti_tip_safety_strap\"},{\"sentence\":\"Some models use soft-close hinges that slow a door's final movement and prevent it from slamming.\",\"fact_key\":\"soft_close_door_motion\"}]}",
+  "rejected": [],
+  "request_hash": "a9b3565e2f7075834485456581ecb6d1b68ba44a48e56eef4a73f46d4e84fe74",
+  "usage": {
+    "completion_tokens": 930,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 651,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 775,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1705
+  }
+}
