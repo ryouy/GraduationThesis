@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "carotenoid pigments",
+      "sentence": "Yellow-fleshed forms contain carotenoid pigments, including beta-carotene, that contribute to the pulp’s golden coloration."
+    },
+    {
+      "fact_key": "aromatic esters",
+      "sentence": "Volatile esters in the fresh flesh, including ethyl butanoate, contribute to its sweet, fruity aroma."
+    },
+    {
+      "fact_key": "spiny leaf margins",
+      "sentence": "Leaf margins may bear sharply pointed spines, although some cultivated forms have nearly smooth edges."
+    },
+    {
+      "fact_key": "three-part flower structure",
+      "sentence": "Each individual flower has three petals and three sepals, giving its floral structure a repeated three-part organization."
+    },
+    {
+      "fact_key": "persistent floral bracts",
+      "sentence": "Small bracts beneath individual flowers persist as scale-like units across the mature fruit’s exterior."
+    },
+    {
+      "fact_key": "leaf cuticle",
+      "sentence": "A waxy cuticle covers the leaf blades and helps limit water loss from their exposed surfaces."
+    },
+    {
+      "fact_key": "bisexual flowers",
+      "sentence": "Individual flowers are bisexual, containing both male and female reproductive organs within each blossom."
+    },
+    {
+      "fact_key": "cloudy unfiltered juice",
+      "sentence": "Unfiltered juice is naturally cloudy because tiny suspended particles of flesh remain dispersed in the liquid."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Yellow-fleshed forms contain carotenoid pigments, including beta-carotene, that contribute to the pulp’s golden coloration.\",\"fact_key\":\"carotenoid pigments\"},{\"sentence\":\"Volatile esters in the fresh flesh, including ethyl butanoate, contribute to its sweet, fruity aroma.\",\"fact_key\":\"aromatic esters\"},{\"sentence\":\"Leaf margins may bear sharply pointed spines, although some cultivated forms have nearly smooth edges.\",\"fact_key\":\"spiny leaf margins\"},{\"sentence\":\"Each individual flower has three petals and three sepals, giving its floral structure a repeated three-part organization.\",\"fact_key\":\"three-part flower structure\"},{\"sentence\":\"Small bracts beneath individual flowers persist as scale-like units across the mature fruit’s exterior.\",\"fact_key\":\"persistent floral bracts\"},{\"sentence\":\"A waxy cuticle covers the leaf blades and helps limit water loss from their exposed surfaces.\",\"fact_key\":\"leaf cuticle\"},{\"sentence\":\"Individual flowers are bisexual, containing both male and female reproductive organs within each blossom.\",\"fact_key\":\"bisexual flowers\"},{\"sentence\":\"Unfiltered juice is naturally cloudy because tiny suspended particles of flesh remain dispersed in the liquid.\",\"fact_key\":\"cloudy unfiltered juice\"}]}",
+  "rejected": [],
+  "request_hash": "eb07d2c9432e2db533451aedeb7f039d8447389d297063e9dd9989f6bb0d2723",
+  "usage": {
+    "completion_tokens": 3149,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2865,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2386,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2383,
+      "cached_tokens": 0
+    },
+    "total_tokens": 5535
+  }
+}
