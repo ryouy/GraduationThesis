@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "fruit salad ingredient",
+      "sentence": "Fresh chunks are often mixed with other fruits to add a tart, juicy contrast to fruit salads."
+    },
+    {
+      "fact_key": "pizza topping",
+      "sentence": "Small pieces serve as a sweet, tangy topping on some pizzas, especially alongside savory ingredients."
+    },
+    {
+      "fact_key": "spiced chutney",
+      "sentence": "Cooked with spices, the fruit forms a chutney that pairs with curries, grilled meats, or cheese."
+    },
+    {
+      "fact_key": "upside-down cake",
+      "sentence": "Rings are baked beneath soft cake batter, then inverted to create a glazed upside-down dessert."
+    },
+    {
+      "fact_key": "sorbet base",
+      "sentence": "Its puree can be churned into sorbet, where sugar and freezing turn it into a refreshing dairy-free dessert."
+    },
+    {
+      "fact_key": "roasted side dish",
+      "sentence": "Roasted wedges can accompany pork or poultry as a warm, sweet-tart side dish."
+    },
+    {
+      "fact_key": "leaf fiber textiles",
+      "sentence": "Long leaves supply tough fibers that artisans process into textiles and other woven materials."
+    },
+    {
+      "fact_key": "processing waste as animal feed",
+      "sentence": "Juice and peel left from commercial processing can be converted into feed ingredients for livestock."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Fresh chunks are often mixed with other fruits to add a tart, juicy contrast to fruit salads.\",\"fact_key\":\"fruit salad ingredient\"},{\"sentence\":\"Small pieces serve as a sweet, tangy topping on some pizzas, especially alongside savory ingredients.\",\"fact_key\":\"pizza topping\"},{\"sentence\":\"Cooked with spices, the fruit forms a chutney that pairs with curries, grilled meats, or cheese.\",\"fact_key\":\"spiced chutney\"},{\"sentence\":\"Rings are baked beneath soft cake batter, then inverted to create a glazed upside-down dessert.\",\"fact_key\":\"upside-down cake\"},{\"sentence\":\"Its puree can be churned into sorbet, where sugar and freezing turn it into a refreshing dairy-free dessert.\",\"fact_key\":\"sorbet base\"},{\"sentence\":\"Roasted wedges can accompany pork or poultry as a warm, sweet-tart side dish.\",\"fact_key\":\"roasted side dish\"},{\"sentence\":\"Long leaves supply tough fibers that artisans process into textiles and other woven materials.\",\"fact_key\":\"leaf fiber textiles\"},{\"sentence\":\"Juice and peel left from commercial processing can be converted into feed ingredients for livestock.\",\"fact_key\":\"processing waste as animal feed\"}]}",
+  "rejected": [],
+  "request_hash": "c6a950cf1eff45bc81e39f673c8ad0f172fd3f3f0970b04fa9d214beb2cbf4c9",
+  "usage": {
+    "completion_tokens": 1116,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 863,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2111,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2108,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3227
+  }
+}
