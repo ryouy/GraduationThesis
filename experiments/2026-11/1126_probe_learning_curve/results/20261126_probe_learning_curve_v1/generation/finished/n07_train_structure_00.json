@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "brass_tubing_and_flare",
+      "sentence": "Its brass tubing forms a long bore that gradually expands into a broad, outward-flaring bell."
+    },
+    {
+      "fact_key": "telescoping_slide",
+      "sentence": "A telescoping hand-operated slide changes the tubing length, altering the resonating air column."
+    },
+    {
+      "fact_key": "mouthpiece_shape",
+      "sentence": "The removable mouthpiece has a cup-shaped rim and narrow throat that channels air into the tubing."
+    },
+    {
+      "fact_key": "slide_alignment",
+      "sentence": "Two parallel tubes are joined by a crosspiece, helping keep the moving slide assembly aligned during extension."
+    },
+    {
+      "fact_key": "supporting_brace",
+      "sentence": "A curved brace connects the moving section to the bell section and gives the supporting hand a grip."
+    },
+    {
+      "fact_key": "water_key",
+      "sentence": "A small water key lets accumulated condensation drain through an opening in the slide assembly."
+    },
+    {
+      "fact_key": "tuning_slide",
+      "sentence": "A tuning slide made from nested tubing allows small adjustments to the instrument’s overall length and pitch."
+    },
+    {
+      "fact_key": "surface_finishes",
+      "sentence": "Many models have lacquered or plated brass surfaces, while the inner slide tubes are finished to move smoothly."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Its brass tubing forms a long bore that gradually expands into a broad, outward-flaring bell.\",\"fact_key\":\"brass_tubing_and_flare\"},{\"sentence\":\"A telescoping hand-operated slide changes the tubing length, altering the resonating air column.\",\"fact_key\":\"telescoping_slide\"},{\"sentence\":\"The removable mouthpiece has a cup-shaped rim and narrow throat that channels air into the tubing.\",\"fact_key\":\"mouthpiece_shape\"},{\"sentence\":\"Two parallel tubes are joined by a crosspiece, helping keep the moving slide assembly aligned during extension.\",\"fact_key\":\"slide_alignment\"},{\"sentence\":\"A curved brace connects the moving section to the bell section and gives the supporting hand a grip.\",\"fact_key\":\"supporting_brace\"},{\"sentence\":\"A small water key lets accumulated condensation drain through an opening in the slide assembly.\",\"fact_key\":\"water_key\"},{\"sentence\":\"A tuning slide made from nested tubing allows small adjustments to the instrument’s overall length and pitch.\",\"fact_key\":\"tuning_slide\"},{\"sentence\":\"Many models have lacquered or plated brass surfaces, while the inner slide tubes are finished to move smoothly.\",\"fact_key\":\"surface_finishes\"}]}",
+  "rejected": [],
+  "request_hash": "e64619ee68a38cefd8ffcc7489ddb9ed4f783f0bff4ccbb7311b82b7d060a789",
+  "usage": {
+    "completion_tokens": 980,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 729,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 203,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1183
+  }
+}
