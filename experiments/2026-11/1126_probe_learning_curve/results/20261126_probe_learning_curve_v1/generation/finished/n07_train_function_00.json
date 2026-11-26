@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "ceremonial_fanfare_calls",
+      "sentence": "In fanfare writing, its forceful attacks can announce arrivals or mark ceremonial moments with a projecting brass sound."
+    },
+    {
+      "fact_key": "vocal_style_lyrical_solos",
+      "sentence": "A rounded, sustained tone suits lyrical solos that draw on the broad, expressive phrasing of a human singing voice."
+    },
+    {
+      "fact_key": "early_music_reproductions",
+      "sentence": "Historical reproductions help early-music groups recreate the brass sonorities associated with Renaissance and Baroque repertoire."
+    },
+    {
+      "fact_key": "singing_while_playing",
+      "sentence": "Some contemporary works ask players to sing while sounding notes, creating rough, beating textures for unusual musical effects."
+    },
+    {
+      "fact_key": "section_attack_clarity",
+      "sentence": "Coordinated attacks across a section can give full-ensemble chords a sharply defined edge."
+    },
+    {
+      "fact_key": "film_score_suspense",
+      "sentence": "Low notes can underpin suspenseful film passages, adding weight beneath quieter orchestral textures."
+    },
+    {
+      "fact_key": "opera_scene_support",
+      "sentence": "In opera orchestras, sustained chords can reinforce dramatic scenes while careful balancing keeps the singers audible."
+    },
+    {
+      "fact_key": "bass_line_doubling",
+      "sentence": "A low-register line can double the bass part, strengthening harmonic roots during full-ensemble passages."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In fanfare writing, its forceful attacks can announce arrivals or mark ceremonial moments with a projecting brass sound.\",\"fact_key\":\"ceremonial_fanfare_calls\"},{\"sentence\":\"A rounded, sustained tone suits lyrical solos that draw on the broad, expressive phrasing of a human singing voice.\",\"fact_key\":\"vocal_style_lyrical_solos\"},{\"sentence\":\"Historical reproductions help early-music groups recreate the brass sonorities associated with Renaissance and Baroque repertoire.\",\"fact_key\":\"early_music_reproductions\"},{\"sentence\":\"Some contemporary works ask players to sing while sounding notes, creating rough, beating textures for unusual musical effects.\",\"fact_key\":\"singing_while_playing\"},{\"sentence\":\"Coordinated attacks across a section can give full-ensemble chords a sharply defined edge.\",\"fact_key\":\"section_attack_clarity\"},{\"sentence\":\"Low notes can underpin suspenseful film passages, adding weight beneath quieter orchestral textures.\",\"fact_key\":\"film_score_suspense\"},{\"sentence\":\"In opera orchestras, sustained chords can reinforce dramatic scenes while careful balancing keeps the singers audible.\",\"fact_key\":\"opera_scene_support\"},{\"sentence\":\"A low-register line can double the bass part, strengthening harmonic roots during full-ensemble passages.\",\"fact_key\":\"bass_line_doubling\"}]}",
+  "rejected": [],
+  "request_hash": "d51cf47fb92571b68483ec87011187ef0763ccb8aac11e0cf0fb3c65dbb7cf5e",
+  "usage": {
+    "completion_tokens": 1660,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1379,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1918,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1915,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3578
+  }
+}
