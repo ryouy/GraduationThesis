@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "bathroom_toiletry_storage",
+      "sentence": "In bathrooms, wall-mounted units above sinks hold toiletries while keeping them away from splashing water."
+    },
+    {
+      "fact_key": "secure_clinical_supplies",
+      "sentence": "In clinics, lockable compartments keep medications and medical supplies inaccessible to unauthorized visitors."
+    },
+    {
+      "fact_key": "office_paperwork_filing",
+      "sentence": "In offices, shallow drawers with labeled fronts help staff sort paperwork by client, date, or project."
+    },
+    {
+      "fact_key": "retail_merchandise_display",
+      "sentence": "In shops, glass-fronted displays let customers view merchandise while limiting direct handling."
+    },
+    {
+      "fact_key": "classroom_art_materials",
+      "sentence": "In classrooms, dedicated storage for art materials helps teachers distribute supplies and return them after activities."
+    },
+    {
+      "fact_key": "laboratory_flammable_storage",
+      "sentence": "Laboratories use approved flammable-liquid storage units designed to reduce fire exposure and contain hazardous vapors."
+    },
+    {
+      "fact_key": "living_room_media_storage",
+      "sentence": "In living rooms, enclosed media storage can hide electronic equipment while leaving openings for cables and remote signals."
+    },
+    {
+      "fact_key": "marine_equipment_stowage",
+      "sentence": "On boats, compact storage with secure catches keeps equipment from shifting when the vessel moves through waves."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In bathrooms, wall-mounted units above sinks hold toiletries while keeping them away from splashing water.\",\"fact_key\":\"bathroom_toiletry_storage\"},{\"sentence\":\"In clinics, lockable compartments keep medications and medical supplies inaccessible to unauthorized visitors.\",\"fact_key\":\"secure_clinical_supplies\"},{\"sentence\":\"In offices, shallow drawers with labeled fronts help staff sort paperwork by client, date, or project.\",\"fact_key\":\"office_paperwork_filing\"},{\"sentence\":\"In shops, glass-fronted displays let customers view merchandise while limiting direct handling.\",\"fact_key\":\"retail_merchandise_display\"},{\"sentence\":\"In classrooms, dedicated storage for art materials helps teachers distribute supplies and return them after activities.\",\"fact_key\":\"classroom_art_materials\"},{\"sentence\":\"Laboratories use approved flammable-liquid storage units designed to reduce fire exposure and contain hazardous vapors.\",\"fact_key\":\"laboratory_flammable_storage\"},{\"sentence\":\"In living rooms, enclosed media storage can hide electronic equipment while leaving openings for cables and remote signals.\",\"fact_key\":\"living_room_media_storage\"},{\"sentence\":\"On boats, compact storage with secure catches keeps equipment from shifting when the vessel moves through waves.\",\"fact_key\":\"marine_equipment_stowage\"}]}",
+  "rejected": [],
+  "request_hash": "7f974f9c57066f5900e6968c5a2a69a5c38ce8aed38bcf52abfaddc5b6c3427e",
+  "usage": {
+    "completion_tokens": 714,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 457,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1359,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1356,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2073
+  }
+}
