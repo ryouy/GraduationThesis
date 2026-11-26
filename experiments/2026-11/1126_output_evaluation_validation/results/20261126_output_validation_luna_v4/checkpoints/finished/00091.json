@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "08f038f22e6e1cdd2faf82a19648a3aaa66ecb829e86d2129d83af57b6d77c40",
+    "items": [
+      {
+        "id": "71d684ea2b66c74aa523",
+        "label": "yes",
+        "reason": "A bookcase is another name for a bookshelf."
+      },
+      {
+        "id": "ab6ae3024ad7740526fb",
+        "label": "yes",
+        "reason": "The answer explicitly identifies jellyfish."
+      },
+      {
+        "id": "86a2b5fea52014e0d116",
+        "label": "no",
+        "reason": "A beetle is a different insect from a dragonfly."
+      },
+      {
+        "id": "dc9a519aad8ef4b67c86",
+        "label": "no",
+        "reason": "A beetle is a different insect from a dragonfly."
+      },
+      {
+        "id": "727650a15df474d6790f",
+        "label": "no",
+        "reason": "Carnivore describes a dietary category, not an elephant."
+      },
+      {
+        "id": "0618a64529fd120e3f2c",
+        "label": "no",
+        "reason": "A garden ant is a different insect from a dragonfly."
+      },
+      {
+        "id": "f3dc61180caaa1540a02",
+        "label": "yes",
+        "reason": "Cacti is the plural form of cactus."
+      },
+      {
+        "id": "33fa30ed5248fd01d636",
+        "label": "yes",
+        "reason": "A bookcase is another name for a bookshelf."
+      },
+      {
+        "id": "83b4f5b862d7a296501c",
+        "label": "no",
+        "reason": "A guitar is a different musical instrument from a drum."
+      },
+      {
+        "id": "e6309ed14b0327328d18",
+        "label": "yes",
+        "reason": "Raindrops falling together are rain; the phrase describes that precipitation."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"71d684ea2b66c74aa523\",\"label\":\"yes\",\"reason\":\"A bookcase is another name for a bookshelf.\"},{\"id\":\"ab6ae3024ad7740526fb\",\"label\":\"yes\",\"reason\":\"The answer explicitly identifies jellyfish.\"},{\"id\":\"86a2b5fea52014e0d116\",\"label\":\"no\",\"reason\":\"A beetle is a different insect from a dragonfly.\"},{\"id\":\"dc9a519aad8ef4b67c86\",\"label\":\"no\",\"reason\":\"A beetle is a different insect from a dragonfly.\"},{\"id\":\"727650a15df474d6790f\",\"label\":\"no\",\"reason\":\"Carnivore describes a dietary category, not an elephant.\"},{\"id\":\"0618a64529fd120e3f2c\",\"label\":\"no\",\"reason\":\"A garden ant is a different insect from a dragonfly.\"},{\"id\":\"f3dc61180caaa1540a02\",\"label\":\"yes\",\"reason\":\"Cacti is the plural form of cactus.\"},{\"id\":\"33fa30ed5248fd01d636\",\"label\":\"yes\",\"reason\":\"A bookcase is another name for a bookshelf.\"},{\"id\":\"83b4f5b862d7a296501c\",\"label\":\"no\",\"reason\":\"A guitar is a different musical instrument from a drum.\"},{\"id\":\"e6309ed14b0327328d18\",\"label\":\"yes\",\"reason\":\"Raindrops falling together are rain; the phrase describes that precipitation.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 900,
+    "started": "2026-11-26T08:32:01.684039+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 521,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 184,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 531,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1052
+    }
+  }
+}
