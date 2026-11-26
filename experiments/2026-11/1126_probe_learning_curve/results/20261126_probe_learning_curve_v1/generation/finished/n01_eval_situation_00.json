@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "wide_tires_on_sand",
+      "sentence": "On sandy beaches, extra-wide, low-pressure tires help riders cross soft ground with less risk of sinking."
+    },
+    {
+      "fact_key": "aerodynamic_time_trial_position",
+      "sentence": "During time trials, riders adopt aerodynamic positions and use specialized handlebars to reduce wind resistance."
+    },
+    {
+      "fact_key": "grass_court_mallet_sport",
+      "sentence": "On grass courts, players wield long mallets while steering and maneuvering around opponents during matches."
+    },
+    {
+      "fact_key": "community_repair_workshops",
+      "sentence": "At community repair workshops, volunteers teach owners to adjust gear shifting and replace worn brake cables."
+    },
+    {
+      "fact_key": "water_carrying_on_remote_routes",
+      "sentence": "Along remote backcountry routes, frame-mounted bottle cages help touring riders carry water between refill points."
+    },
+    {
+      "fact_key": "school_road_safety_training",
+      "sentence": "In school safety courses, children practice scanning for traffic and signaling before navigating ordinary streets."
+    },
+    {
+      "fact_key": "walking_in_pedestrian_zones",
+      "sentence": "In crowded pedestrian zones, local rules may require riders to walk their machines through the busiest sections."
+    },
+    {
+      "fact_key": "endurance_event_support_checkpoints",
+      "sentence": "At timed endurance events, support crews may provide food and water at designated roadside checkpoints."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"On sandy beaches, extra-wide, low-pressure tires help riders cross soft ground with less risk of sinking.\",\"fact_key\":\"wide_tires_on_sand\"},{\"sentence\":\"During time trials, riders adopt aerodynamic positions and use specialized handlebars to reduce wind resistance.\",\"fact_key\":\"aerodynamic_time_trial_position\"},{\"sentence\":\"On grass courts, players wield long mallets while steering and maneuvering around opponents during matches.\",\"fact_key\":\"grass_court_mallet_sport\"},{\"sentence\":\"At community repair workshops, volunteers teach owners to adjust gear shifting and replace worn brake cables.\",\"fact_key\":\"community_repair_workshops\"},{\"sentence\":\"Along remote backcountry routes, frame-mounted bottle cages help touring riders carry water between refill points.\",\"fact_key\":\"water_carrying_on_remote_routes\"},{\"sentence\":\"In school safety courses, children practice scanning for traffic and signaling before navigating ordinary streets.\",\"fact_key\":\"school_road_safety_training\"},{\"sentence\":\"In crowded pedestrian zones, local rules may require riders to walk their machines through the busiest sections.\",\"fact_key\":\"walking_in_pedestrian_zones\"},{\"sentence\":\"At timed endurance events, support crews may provide food and water at designated roadside checkpoints.\",\"fact_key\":\"endurance_event_support_checkpoints\"}]}",
+  "rejected": [],
+  "request_hash": "51ca6804b3c61ca51deffdc899f635e3c761cc8feaf44d394055b07f8bb3eba7",
+  "usage": {
+    "completion_tokens": 774,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 512,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 3075,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 3072,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3849
+  }
+}
