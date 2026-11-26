@@ -1,0 +1,120 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_medium_far_0_0",
+        "reason": "A tip engaging a cross-shaped fastener strongly implies a screwdriver; the cabinet context is only loosely related to desk furniture.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_medium_far_0_1",
+        "reason": "Loosening slotted fasteners strongly implies a screwdriver; an outlet cover has no notable desk connection.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_near_0_0",
+        "reason": "A blade turning a screw to fasten a hinge is directly distinctive of screwdriver use; the cabinet context is only loosely related to desk furniture.",
+        "x_related": 4,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_near_0_1",
+        "reason": "Turning a handle to drive a threaded fastener strongly suggests a screwdriver; the wooden-board context is only weakly related to desk furniture.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_unrelated_0_0",
+        "reason": "The clue describes rainwater and a pond, with no notable connection to either target.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_very_near_0_0",
+        "reason": "Pressing a blade into a slotted screw and twisting it is directly distinctive of screwdriver use; timber is only weakly related to desk furniture.",
+        "x_related": 4,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_action_very_near_0_1",
+        "reason": "Repeated counterclockwise turns backing out a screw strongly suggest screwdriver use; a camera casing has no notable desk connection.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "fail",
+        "id": "gen_C37_situation_far_0_1",
+        "reason": "The screw provides an explainable but indirect screwdriver connection. The clue directly names an antique desk and describes a fact about it.",
+        "x_related": 2,
+        "y_related": 4,
+        "y_specific": "yes"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_situation_medium_near_0_0",
+        "reason": "Turning a slotted fastener to assemble panels strongly suggests screwdriver use; a bookshelf is only loosely related to desk furniture.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_situation_medium_near_0_2",
+        "reason": "Turning fasteners to secure a hinge strongly suggests screwdriver use; a cabinet and door are only loosely related to desk furniture.",
+        "x_related": 3,
+        "y_related": 1,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_structure_far_0_0",
+        "reason": "Cross-patterned recessed fasteners strongly suggest screwdriver use; electronic housings have no notable desk connection.",
+        "x_related": 3,
+        "y_related": 0,
+        "y_specific": "no"
+      },
+      {
+        "exposure": "pass",
+        "id": "gen_C37_structure_unrelated_0_2",
+        "reason": "The clue describes pomegranate seeds and membranes, with no notable connection to either target.",
+        "x_related": 0,
+        "y_related": 0,
+        "y_specific": "no"
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "raw_content": "{\"items\":[{\"id\":\"gen_C37_action_medium_far_0_0\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A tip engaging a cross-shaped fastener strongly implies a screwdriver; the cabinet context is only loosely related to desk furniture.\"},{\"id\":\"gen_C37_action_medium_far_0_1\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Loosening slotted fasteners strongly implies a screwdriver; an outlet cover has no notable desk connection.\"},{\"id\":\"gen_C37_action_near_0_0\",\"x_related\":4,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"A blade turning a screw to fasten a hinge is directly distinctive of screwdriver use; the cabinet context is only loosely related to desk furniture.\"},{\"id\":\"gen_C37_action_near_0_1\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Turning a handle to drive a threaded fastener strongly suggests a screwdriver; the wooden-board context is only weakly related to desk furniture.\"},{\"id\":\"gen_C37_action_unrelated_0_0\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The clue describes rainwater and a pond, with no notable connection to either target.\"},{\"id\":\"gen_C37_action_very_near_0_0\",\"x_related\":4,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Pressing a blade into a slotted screw and twisting it is directly distinctive of screwdriver use; timber is only weakly related to desk furniture.\"},{\"id\":\"gen_C37_action_very_near_0_1\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Repeated counterclockwise turns backing out a screw strongly suggest screwdriver use; a camera casing has no notable desk connection.\"},{\"id\":\"gen_C37_situation_far_0_1\",\"x_related\":2,\"y_related\":4,\"exposure\":\"fail\",\"y_specific\":\"yes\",\"reason\":\"The screw provides an explainable but indirect screwdriver connection. The clue directly names an antique desk and describes a fact about it.\"},{\"id\":\"gen_C37_situation_medium_near_0_0\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Turning a slotted fastener to assemble panels strongly suggests screwdriver use; a bookshelf is only loosely related to desk furniture.\"},{\"id\":\"gen_C37_situation_medium_near_0_2\",\"x_related\":3,\"y_related\":1,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Turning fasteners to secure a hinge strongly suggests screwdriver use; a cabinet and door are only loosely related to desk furniture.\"},{\"id\":\"gen_C37_structure_far_0_0\",\"x_related\":3,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"Cross-patterned recessed fasteners strongly suggest screwdriver use; electronic housings have no notable desk connection.\"},{\"id\":\"gen_C37_structure_unrelated_0_2\",\"x_related\":0,\"y_related\":0,\"exposure\":\"pass\",\"y_specific\":\"no\",\"reason\":\"The clue describes pomegranate seeds and membranes, with no notable connection to either target.\"}]}",
+  "usage": {
+    "completion_tokens": 1987,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1240,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 692,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2679
+  }
+}
