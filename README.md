@@ -8,7 +8,7 @@
 
 LLMに対する「Xについて考えないで」という抑制指示の下で、対象概念Xと手がかり（Cue）の意味的距離が内部表現とどのように関係するかを調べる卒業研究のリポジトリです。
 
-本実験では、抑制指示（Avoid X）と中立的な指示（Neutral X）を比較し、約50の対象概念について、意味的に近い手がかりから無関係な手がかりまでを段階的に提示する計画です。生成直前の内部表現をConcept Probe・Logit Lensで層ごとに分析し、最終出力における対象概念の言及は、内部解析との対応を見るための補助指標として扱います。
+本実験では、抑制指示（Avoid X）と中立的な指示（Neutral X）を比較し、100の異なる対象概念を目標に、意味的に近い手がかりから無関係な手がかりまでを段階的に提示する計画です。生成直前の内部表現をConcept Probe・Logit Lensで層ごとに分析し、最終出力における対象概念の言及は、内部解析との対応を見るための補助指標として扱います。
 
 <br clear="right">
 
@@ -16,15 +16,19 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 
 ## 本実験の統合プロトコル（最初に読む）
 
-**[本実験・統合プロトコル v0.95](docs/main_experiment_protocol_v0_95.md)** — 現行研究方針の唯一の正本。実験設計、測定、Cue準備、統計、未完了事項を統合。実行用v1.0は未凍結。
+**[本実験・統合プロトコル v0.98](docs/main_experiment_protocol_v0_98.md)** — 現行の準備プロトコル。概念ペア・Cue選定の統合検証を反映。実行用v1.0は未凍結。
 
-現在：初回50組中33組のProbeが暫定基準通過。**後日、採択可能な異なるXを合計約50にする追加探索と、本番用Cueの独立準備を行う。** Probeは今後全24層に拡張するが、概念採択は従来の第24層基準を維持する。追加実験・実装は未実施。過去の設計・実験データは保存する。
+[採用根拠・検証記録](docs/main_experiment_protocol_v0_98_evidence.md) ｜ [旧v0.97（保存）](docs/main_experiment_protocol_v0_97.md)
+
+現在：初回50組中33組は旧基準の暫定通過。Probe学習・評価方法、概念ペア選定、Cue生成・選定の主要予備検証を終了した。**100 Xに向けた正式候補探索・独立確認・刺激準備は未実施。** 品質監査・停止規則・出力評価・統計・実装照合を経てv1.0を凍結する。
 
 ## はじめに読む
 
 | ページ | 内容 |
 |---|---|
-| **[統合プロトコル v0.95（現行の正本）](docs/main_experiment_protocol_v0_95.md)** | **Probe採択可能な約50概念を目標・6区分・Avoid X中心／Neutral X対照・Probe／Logit Lens主解析**。追加探索・Cue準備を含む |
+| **[統合プロトコル v0.98（現行）](docs/main_experiment_protocol_v0_98.md)** | 100 X目標・Avoid X中心／Neutral X対照・Probe／Logit Lens主解析、刺激設計・残作業 |
+| [採用根拠・検証記録](docs/main_experiment_protocol_v0_98_evidence.md) | 選定理由・実験方法・実測値・限界・原資料 |
+| [旧統合プロトコル v0.97](docs/main_experiment_protocol_v0_97.md) | 旧版・Probe確定の経緯（保存） |
 | [旧統合設計 v0.9](docs/main_experiment_protocol_v0_9.md) | 2026-11-24までの設計記録（保存） |
 | [研究概要](docs/research_overview.md) | 研究動機・背景・当初の研究質問 |
 | [分析手法と測定指標](docs/methods.md) | Probe・Logit Lens・出力解析・意味的距離の解説（過去の測定計画も含む） |
@@ -36,23 +40,23 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 | [月別の実験一覧](experiments/README.md) | 月別・日付別に実験を探す |
 | [実験記録・資料一覧](docs/experiment_index.md) | 目的別に実験コードと結果へアクセス |
 
-## 現在の本実験の概要（2026年11月24日）
+## 現在の本実験の概要（v0.98）
 
 > **研究質問：** 「Xについて考えないで」という指示を与えたLLMで、対象概念XとCueとの意味的距離は、内部表現に読み出されるX/Y相対情報とどのような関係を持つか？
 
 | 項目 | 現在の設計案 |
 |---|---|
 | 主たる指示条件 | **Avoid X**（Neutral Xは比較対照） |
-| 対象概念 | **Probe採択可能な異なるXを約50**（現在33組暫定通過・追加探索予定） |
+| 対象概念 | **10カテゴリー×10 X＝100目標**（旧基準33/50暫定通過・正式探索予定） |
 | Cue | **関連5距離帯×各4文＋無関係4文＝24 Cue／概念** |
 | 主説明変数 | 関連Cueの連続的な埋め込みコサイン距離 |
 | 主解析① | 固定Concept Probe（第24層が主解析・全24層を学習／評価して層別分析）と距離の関連 |
 | 主解析② | Logit Lens（第24層の要約・全24層の推移） |
 | 副次解析 | Neutral Xでの距離傾向、距離×条件の違い |
 | 補助解析 | 生成出力におけるXの明示的な言及 |
-| 入力規模 | 最終50概念なら**2,500入力**（Cueあり2,400＋Cueなし100） |
+| 入力規模 | 100概念なら**5,000入力・25,000回答**（Cueあり4,800＋Cueなし200、各入力5回） |
 
-これは**実施前の統合設計**です。追加Probe探索、正式採択、本番用Cueの作成・凍結、統計推定法、GPU本実験・CPU分析Colabの最終固定は未完了です。詳細は[統合プロトコルv0.95](docs/main_experiment_protocol_v0_95.md)を参照してください。
+これは**実施前の統合設計**です。追加Probe探索、正式採択、本番用Cueの作成・凍結、統計推定法、GPU本実験・CPU分析Colabの最終固定は未完了です。詳細は[統合プロトコルv0.98](docs/main_experiment_protocol_v0_98.md)を参照してください。
 
 ### これまでの予備実験
 
@@ -64,15 +68,15 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 
 ## 本実験の準備資料
 
-- [Probe学習文数比較 v1（5組・全24層・GPT-6 Luna・未実行）](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_probe_learning_curve/probe_learning_curve_luna_v1.ipynb)
+- [Probe学習文数比較 v1（5組・全24層・GPT-6 Luna・実行済み）](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_probe_learning_curve/probe_learning_curve_luna_v1.ipynb)
 
 - [Probe50均衡版v5：実行済み・33/50組暫定通過](experiments/2026-11/1124_probe_50pairs/results/20261124_probe50_balanced_v5/analysis_summary.md) · [Colab](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1124_probe_50pairs/qwen_probe_50pairs_balanced_validation_v5.ipynb)
 - [初回50組の候補と選定理由](docs/concept_pair_selection_v0_1.md) · [候補CSV](docs/concept_pair_candidates_50_v0_1.csv)（正式採択ではない）
 - [既存4概念の距離再分析](experiments/2026-11/1124_distance_representation_analysis/results/20261124_distance_reanalysis_v1/analysis_summary.md)（完了・探索的）
 - [10概念Pre-main](experiments/2026-11/1124_pre_main_experiment/README.md)（実装済み・探索的）
 - [最終出力評価・検証Colab v3（GPT-6 Luna、GitHub保存専用、未実行）](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_output_evaluation_validation/output_evaluation_validation_luna_v3.ipynb)
-- [最終出力評価・検証Colab v4（Luna API互換修正、GitHub保存専用、未実行）](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_output_evaluation_validation/output_evaluation_validation_luna_v4.ipynb)
-- **追加Probe探索・本番用Cue準備：後日実施。** 仕様・開始条件は[統合プロトコル](docs/main_experiment_protocol_v0_95.md)に記載。
+- [最終出力評価・検証Colab v4（実行済み・正式採点は未確定）](https://colab.research.google.com/github/ryouy/GraduationThesis/blob/main/experiments/2026-11/1126_output_evaluation_validation/output_evaluation_validation_luna_v4.ipynb)
+- **追加Probe探索・本番用Cue準備：後日実施。** 仕様・開始条件は[統合プロトコル](docs/main_experiment_protocol_v0_98.md)に記載。
 
 ## 実験へのアクセス
 
@@ -90,7 +94,10 @@ GraduationThesis/
 │   ├── methods.md             # 分析手法・測定指標
 │   ├── reference/             # 研究理解のための参考資料
 │   ├── experimental_design.md # 実験条件・分析計画
-│   ├── main_experiment_protocol_v0_95.md # 現行の統合プロトコル（正本）
+│   ├── main_experiment_protocol_v0_98.md # 現行の準備プロトコル
+│   ├── main_experiment_protocol_v0_98_evidence.md # 採用根拠・検証記録
+│   ├── main_experiment_protocol_v0_97.md # 旧版（保存）
+│   ├── main_experiment_protocol_v0_95.md # 旧版（保存）
 │   ├── main_experiment_protocol_v0_9.md # 旧統合設計（保存）
 │   ├── main_experiment_protocol.md # 以前のプロトコル（保存）
 │   ├── main_experiment_design_v0_5.md # 設計議論v0.7の記録
@@ -106,7 +113,7 @@ GraduationThesis/
 
 ## 記録の扱い
 
-- **本実験の最新方針は [統合プロトコル v0.95](docs/main_experiment_protocol_v0_95.md) を参照してください。**
+- **本実験の最新方針は [統合プロトコル v0.98](docs/main_experiment_protocol_v0_98.md) を参照してください。**
 - 各実験フォルダには、その時点の計画・コード・結果を保存します。
 - 過去の実験記録は、後から都合よく書き換えず、実行時点の記録として保持します。
 - **ノートブックは上書きしない。** 修正・APIモデル変更・実験条件変更・実装改善は、実行前であっても新しいバージョン名の `.ipynb` を別ファイルとして作成し、旧版をそのまま保持する。新しい実験版には独立した `run_id` と結果保存先を割り当て、旧結果も上書きしない。
