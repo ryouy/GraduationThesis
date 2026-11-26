@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "piston_materials",
+      "sentence": "Pistons may be made from nickel-plated brass or corrosion-resistant alloys such as Monel, chosen to withstand repeated movement."
+    },
+    {
+      "fact_key": "rotary_valve_design",
+      "sentence": "Some versions use rotary valves, whose lever-operated cylinders turn to redirect airflow instead of moving vertically."
+    },
+    {
+      "fact_key": "piccolo_fourth_valve",
+      "sentence": "Piccolo models often add a fourth valve, which extends the playable range downward by roughly a perfect fourth."
+    },
+    {
+      "fact_key": "mouthpiece_receiver",
+      "sentence": "A tapered receiver at the leadpipe's end holds the mouthpiece securely through a snug friction fit."
+    },
+    {
+      "fact_key": "first_slide_trigger",
+      "sentence": "Some models use a first-slide trigger, letting the player make quick adjustments to correct the pitch of low notes."
+    },
+    {
+      "fact_key": "piston_port_alignment",
+      "sentence": "A guide on each piston keeps its air ports aligned with the casing's passages as the button moves."
+    },
+    {
+      "fact_key": "telescoping_slide_tubes",
+      "sentence": "Nested inner and outer slide tubes fit closely together while allowing the movable sections to extend and retract."
+    },
+    {
+      "fact_key": "one_piece_bell",
+      "sentence": "Some models have a one-piece bell formed from a single metal blank rather than from joined bell sections."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Pistons may be made from nickel-plated brass or corrosion-resistant alloys such as Monel, chosen to withstand repeated movement.\",\"fact_key\":\"piston_materials\"},{\"sentence\":\"Some versions use rotary valves, whose lever-operated cylinders turn to redirect airflow instead of moving vertically.\",\"fact_key\":\"rotary_valve_design\"},{\"sentence\":\"Piccolo models often add a fourth valve, which extends the playable range downward by roughly a perfect fourth.\",\"fact_key\":\"piccolo_fourth_valve\"},{\"sentence\":\"A tapered receiver at the leadpipe's end holds the mouthpiece securely through a snug friction fit.\",\"fact_key\":\"mouthpiece_receiver\"},{\"sentence\":\"Some models use a first-slide trigger, letting the player make quick adjustments to correct the pitch of low notes.\",\"fact_key\":\"first_slide_trigger\"},{\"sentence\":\"A guide on each piston keeps its air ports aligned with the casing's passages as the button moves.\",\"fact_key\":\"piston_port_alignment\"},{\"sentence\":\"Nested inner and outer slide tubes fit closely together while allowing the movable sections to extend and retract.\",\"fact_key\":\"telescoping_slide_tubes\"},{\"sentence\":\"Some models have a one-piece bell formed from a single metal blank rather than from joined bell sections.\",\"fact_key\":\"one_piece_bell\"}]}",
+  "rejected": [],
+  "request_hash": "ad04c12b396b9e172de8dbeae69db72415eeb0f4f339f90689f51fe72649a88f",
+  "usage": {
+    "completion_tokens": 1815,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1536,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2481,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2478,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4296
+  }
+}
