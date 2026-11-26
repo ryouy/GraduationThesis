@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "ff1d377bda55817c5632f073cf123bad231b180b6000a1b365ee87fd9c180a2d",
+    "items": [
+      {
+        "id": "e900c5aebce4da4d25a7",
+        "label": "no",
+        "reason": "Describes a calm sky, not snow."
+      },
+      {
+        "id": "f6e4459107d8f2edb7b4",
+        "label": "yes",
+        "reason": "A drum is a drumming instrument."
+      },
+      {
+        "id": "8ae2b38d502d11c03bcd",
+        "label": "no",
+        "reason": "A grazer is not an ant."
+      },
+      {
+        "id": "f015ffa34bac9c26fbed",
+        "label": "no",
+        "reason": "Pen and pencil are unrelated objects, not an elephant."
+      },
+      {
+        "id": "bfd64530dba48e39f487",
+        "label": "no",
+        "reason": "A cymbal is a different percussion instrument, not a tambourine."
+      },
+      {
+        "id": "f6d0b4042984628bc85c",
+        "label": "yes",
+        "reason": "The answer directly names the cactus."
+      },
+      {
+        "id": "e8925e72dd062193459a",
+        "label": "yes",
+        "reason": "Raindrops falling describes rain."
+      },
+      {
+        "id": "ad714a8aa69d362bd5bd",
+        "label": "no",
+        "reason": "Describes the activity of drumming, not the drum itself."
+      },
+      {
+        "id": "56e39602c81f22627041",
+        "label": "no",
+        "reason": "Raindrops are rain, not snow."
+      },
+      {
+        "id": "f066ba4647d894e057e4",
+        "label": "no",
+        "reason": "Scissors are a different tool, not pliers."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"e900c5aebce4da4d25a7\",\"label\":\"no\",\"reason\":\"Describes a calm sky, not snow.\"},{\"id\":\"f6e4459107d8f2edb7b4\",\"label\":\"yes\",\"reason\":\"A drum is a drumming instrument.\"},{\"id\":\"8ae2b38d502d11c03bcd\",\"label\":\"no\",\"reason\":\"A grazer is not an ant.\"},{\"id\":\"f015ffa34bac9c26fbed\",\"label\":\"no\",\"reason\":\"Pen and pencil are unrelated objects, not an elephant.\"},{\"id\":\"bfd64530dba48e39f487\",\"label\":\"no\",\"reason\":\"A cymbal is a different percussion instrument, not a tambourine.\"},{\"id\":\"f6d0b4042984628bc85c\",\"label\":\"yes\",\"reason\":\"The answer directly names the cactus.\"},{\"id\":\"e8925e72dd062193459a\",\"label\":\"yes\",\"reason\":\"Raindrops falling describes rain.\"},{\"id\":\"ad714a8aa69d362bd5bd\",\"label\":\"no\",\"reason\":\"Describes the activity of drumming, not the drum itself.\"},{\"id\":\"56e39602c81f22627041\",\"label\":\"no\",\"reason\":\"Raindrops are rain, not snow.\"},{\"id\":\"f066ba4647d894e057e4\",\"label\":\"no\",\"reason\":\"Scissors are a different tool, not pliers.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 360,
+    "started": "2026-11-26T08:21:34.238941+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 443,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 112,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 531,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 974
+    }
+  }
+}
