@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "matoke_staple",
+      "sentence": "In Uganda, cooking varieties are steamed and mashed into matoke, a filling staple often served with savory sauces."
+    },
+    {
+      "fact_key": "unripe_fruit_chips",
+      "sentence": "Thin slices of unripe fruit are fried into crisp chips, a popular snack in several tropical countries."
+    },
+    {
+      "fact_key": "gluten_free_flour",
+      "sentence": "Because it contains no gluten, flour made from green fruit can help diversify baking options for people avoiding wheat."
+    },
+    {
+      "fact_key": "leaf_serving_plates",
+      "sentence": "In some communities, broad leaves serve as disposable plates for presenting cooked foods, reducing reliance on manufactured tableware."
+    },
+    {
+      "fact_key": "fruit_vinegar",
+      "sentence": "Ripe pulp can be fermented into vinegar, providing a tart condiment for cooking and seasoning."
+    },
+    {
+      "fact_key": "residue_biogas",
+      "sentence": "Chopped harvest residues can be fed into anaerobic digesters, where microbes produce biogas for usable energy."
+    },
+    {
+      "fact_key": "slope_soil_stabilization",
+      "sentence": "On tropical slopes, dense roots can help hold soil in place and reduce erosion around cultivated fields."
+    },
+    {
+      "fact_key": "green_fruit_potato_substitute",
+      "sentence": "In some regions, cooked green pieces provide a filling alternative to potatoes in savory meals."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In Uganda, cooking varieties are steamed and mashed into matoke, a filling staple often served with savory sauces.\",\"fact_key\":\"matoke_staple\"},{\"sentence\":\"Thin slices of unripe fruit are fried into crisp chips, a popular snack in several tropical countries.\",\"fact_key\":\"unripe_fruit_chips\"},{\"sentence\":\"Because it contains no gluten, flour made from green fruit can help diversify baking options for people avoiding wheat.\",\"fact_key\":\"gluten_free_flour\"},{\"sentence\":\"In some communities, broad leaves serve as disposable plates for presenting cooked foods, reducing reliance on manufactured tableware.\",\"fact_key\":\"leaf_serving_plates\"},{\"sentence\":\"Ripe pulp can be fermented into vinegar, providing a tart condiment for cooking and seasoning.\",\"fact_key\":\"fruit_vinegar\"},{\"sentence\":\"Chopped harvest residues can be fed into anaerobic digesters, where microbes produce biogas for usable energy.\",\"fact_key\":\"residue_biogas\"},{\"sentence\":\"On tropical slopes, dense roots can help hold soil in place and reduce erosion around cultivated fields.\",\"fact_key\":\"slope_soil_stabilization\"},{\"sentence\":\"In some regions, cooked green pieces provide a filling alternative to potatoes in savory meals.\",\"fact_key\":\"green_fruit_potato_substitute\"}]}",
+  "rejected": [],
+  "request_hash": "14e9844aef6cfce6d66390078c3e159dfffdf0c906045e08e9ac55087f0f647f",
+  "usage": {
+    "completion_tokens": 1821,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1536,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 3371,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 3368,
+      "cached_tokens": 0
+    },
+    "total_tokens": 5192
+  }
+}
