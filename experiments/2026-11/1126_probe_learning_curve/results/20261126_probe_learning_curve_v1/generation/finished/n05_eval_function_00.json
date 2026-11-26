@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "hose_clamp_tightening",
+      "sentence": "When a worm-drive hose clamp loosens, a flat-tipped hand implement tightens its screw band around the hose, helping reduce leakage."
+    },
+    {
+      "fact_key": "birdhouse_assembly",
+      "sentence": "During wooden birdhouse assembly, a narrow-tipped hand implement secures the roof panels with small threaded fasteners, holding the joints together."
+    },
+    {
+      "fact_key": "machine_identification_plates",
+      "sentence": "At a machine shop, workers use a hand-turning implement to fasten identification plates onto equipment housings for clear maintenance labeling."
+    },
+    {
+      "fact_key": "sprinkler_adjustment",
+      "sentence": "On adjustable sprinkler heads, a hand implement turns the adjustment screw to redirect or shut off the spray pattern."
+    },
+    {
+      "fact_key": "table_leveling_feet",
+      "sentence": "A furniture maker can attach screw-fastened leveling feet to a table, helping compensate for an uneven floor."
+    },
+    {
+      "fact_key": "towel_rail_mounting",
+      "sentence": "For a wall-mounted towel rail, installers tighten bracket fasteners into anchors so the fixture can withstand routine pulling loads."
+    },
+    {
+      "fact_key": "control_panel_terminals",
+      "sentence": "A technician tightens terminal screws in a low-voltage control panel, clamping conductors in place for reliable electrical connections."
+    },
+    {
+      "fact_key": "carburetor_access",
+      "sentence": "During carburetor service, a mechanic removes small cover fasteners to reach the metering components inside the housing."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"When a worm-drive hose clamp loosens, a flat-tipped hand implement tightens its screw band around the hose, helping reduce leakage.\",\"fact_key\":\"hose_clamp_tightening\"},{\"sentence\":\"During wooden birdhouse assembly, a narrow-tipped hand implement secures the roof panels with small threaded fasteners, holding the joints together.\",\"fact_key\":\"birdhouse_assembly\"},{\"sentence\":\"At a machine shop, workers use a hand-turning implement to fasten identification plates onto equipment housings for clear maintenance labeling.\",\"fact_key\":\"machine_identification_plates\"},{\"sentence\":\"On adjustable sprinkler heads, a hand implement turns the adjustment screw to redirect or shut off the spray pattern.\",\"fact_key\":\"sprinkler_adjustment\"},{\"sentence\":\"A furniture maker can attach screw-fastened leveling feet to a table, helping compensate for an uneven floor.\",\"fact_key\":\"table_leveling_feet\"},{\"sentence\":\"For a wall-mounted towel rail, installers tighten bracket fasteners into anchors so the fixture can withstand routine pulling loads.\",\"fact_key\":\"towel_rail_mounting\"},{\"sentence\":\"A technician tightens terminal screws in a low-voltage control panel, clamping conductors in place for reliable electrical connections.\",\"fact_key\":\"control_panel_terminals\"},{\"sentence\":\"During carburetor service, a mechanic removes small cover fasteners to reach the metering components inside the housing.\",\"fact_key\":\"carburetor_access\"}]}",
+  "rejected": [],
+  "request_hash": "ee63375f63b465398f39185bc4766c72af8b49fedf2e227cf05d55fd92ca0341",
+  "usage": {
+    "completion_tokens": 2197,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1879,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 3187,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 3184,
+      "cached_tokens": 0
+    },
+    "total_tokens": 5384
+  }
+}
