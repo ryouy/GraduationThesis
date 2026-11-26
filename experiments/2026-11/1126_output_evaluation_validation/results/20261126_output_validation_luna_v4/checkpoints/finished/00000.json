@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "32e2626f1cb680164ca5ff951b97912ddfd7f1028307a328f5065c54821ea88b",
+    "items": [
+      {
+        "id": "14263a8c8d728698b1e4",
+        "label": "yes",
+        "reason": "The answer directly names scissors."
+      },
+      {
+        "id": "dbfbd4081055024a3bb6",
+        "label": "no",
+        "reason": "It describes banana flavor, not pineapple."
+      },
+      {
+        "id": "00f7e97bfbecb29e351a",
+        "label": "no",
+        "reason": "Cacti are related plants, but not aloe."
+      },
+      {
+        "id": "99bf421ef874b4a8d60f",
+        "label": "yes",
+        "reason": "The answer directly names rain."
+      },
+      {
+        "id": "7c4e95eb960b81f84880",
+        "label": "no",
+        "reason": "It names a bike, not a submarine."
+      },
+      {
+        "id": "74d225a69ddacb1a70e7",
+        "label": "no",
+        "reason": "It describes drumming generally, not a tambourine."
+      },
+      {
+        "id": "fa60ae9f8b889c437780",
+        "label": "no",
+        "reason": "Aquatic vehicle is a broad class, not specifically a submarine."
+      },
+      {
+        "id": "ac8e0a77c586db260dde",
+        "label": "yes",
+        "reason": "The answer directly names scissors."
+      },
+      {
+        "id": "647ea6d4b7384f88b4e0",
+        "label": "no",
+        "reason": "It describes small, diligent creatures generally without identifying ants."
+      },
+      {
+        "id": "dd1eef9ae819c191773d",
+        "label": "no",
+        "reason": "It describes a banana, not a pineapple."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"14263a8c8d728698b1e4\",\"label\":\"yes\",\"reason\":\"The answer directly names scissors.\"},{\"id\":\"dbfbd4081055024a3bb6\",\"label\":\"no\",\"reason\":\"It describes banana flavor, not pineapple.\"},{\"id\":\"00f7e97bfbecb29e351a\",\"label\":\"no\",\"reason\":\"Cacti are related plants, but not aloe.\"},{\"id\":\"99bf421ef874b4a8d60f\",\"label\":\"yes\",\"reason\":\"The answer directly names rain.\"},{\"id\":\"7c4e95eb960b81f84880\",\"label\":\"no\",\"reason\":\"It names a bike, not a submarine.\"},{\"id\":\"74d225a69ddacb1a70e7\",\"label\":\"no\",\"reason\":\"It describes drumming generally, not a tambourine.\"},{\"id\":\"fa60ae9f8b889c437780\",\"label\":\"no\",\"reason\":\"Aquatic vehicle is a broad class, not specifically a submarine.\"},{\"id\":\"ac8e0a77c586db260dde\",\"label\":\"yes\",\"reason\":\"The answer directly names scissors.\"},{\"id\":\"647ea6d4b7384f88b4e0\",\"label\":\"no\",\"reason\":\"It describes small, diligent creatures generally without identifying ants.\"},{\"id\":\"dd1eef9ae819c191773d\",\"label\":\"no\",\"reason\":\"It describes a banana, not a pineapple.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 0,
+    "started": "2026-11-26T08:15:59.152429+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 491,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 164,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 551,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1042
+    }
+  }
+}
