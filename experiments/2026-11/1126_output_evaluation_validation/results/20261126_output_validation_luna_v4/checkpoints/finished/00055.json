@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "5834f311879c38dd544916afd334655b788a12a4fde3d1a3b14c5f79454ef99c",
+    "items": [
+      {
+        "id": "3711ba9b99f671d692cc",
+        "label": "no",
+        "reason": "A bookshelf is a different type of furniture, not a cabinet."
+      },
+      {
+        "id": "399c567b3d9d566a0f23",
+        "label": "no",
+        "reason": "A cultural fusion dance is an activity, not a tambourine."
+      },
+      {
+        "id": "6a375cd395c3d72a0d04",
+        "label": "no",
+        "reason": "A community drumming event is an activity, not a drum."
+      },
+      {
+        "id": "6657dd6388549ef29153",
+        "label": "no",
+        "reason": "A precision crafting machine is not pliers."
+      },
+      {
+        "id": "5128d3fc1008c1243dc8",
+        "label": "no",
+        "reason": "Coral is a different marine organism, not a jellyfish."
+      },
+      {
+        "id": "a927c70c05c29d55911b",
+        "label": "no",
+        "reason": "The answer refers to elephants, not lions."
+      },
+      {
+        "id": "5010e63aad63f620cbd6",
+        "label": "no",
+        "reason": "A carpenter is a person or trade, not a dragonfly."
+      },
+      {
+        "id": "04d47a6bff3d5fdf25be",
+        "label": "no",
+        "reason": "A cactus is a different plant, not aloe."
+      },
+      {
+        "id": "352a3ac9f552ab7d1b63",
+        "label": "no",
+        "reason": "The answer describes bamboo, not a submarine."
+      },
+      {
+        "id": "c523e8ff51b5c9a8510c",
+        "label": "no",
+        "reason": "A jellyfish is a different animal, not an octopus."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"3711ba9b99f671d692cc\",\"label\":\"no\",\"reason\":\"A bookshelf is a different type of furniture, not a cabinet.\"},{\"id\":\"399c567b3d9d566a0f23\",\"label\":\"no\",\"reason\":\"A cultural fusion dance is an activity, not a tambourine.\"},{\"id\":\"6a375cd395c3d72a0d04\",\"label\":\"no\",\"reason\":\"A community drumming event is an activity, not a drum.\"},{\"id\":\"6657dd6388549ef29153\",\"label\":\"no\",\"reason\":\"A precision crafting machine is not pliers.\"},{\"id\":\"5128d3fc1008c1243dc8\",\"label\":\"no\",\"reason\":\"Coral is a different marine organism, not a jellyfish.\"},{\"id\":\"a927c70c05c29d55911b\",\"label\":\"no\",\"reason\":\"The answer refers to elephants, not lions.\"},{\"id\":\"5010e63aad63f620cbd6\",\"label\":\"no\",\"reason\":\"A carpenter is a person or trade, not a dragonfly.\"},{\"id\":\"04d47a6bff3d5fdf25be\",\"label\":\"no\",\"reason\":\"A cactus is a different plant, not aloe.\"},{\"id\":\"352a3ac9f552ab7d1b63\",\"label\":\"no\",\"reason\":\"The answer describes bamboo, not a submarine.\"},{\"id\":\"c523e8ff51b5c9a8510c\",\"label\":\"no\",\"reason\":\"A jellyfish is a different animal, not an octopus.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 550,
+    "started": "2026-11-26T08:24:27.956883+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 448,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 93,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 532,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 980
+    }
+  }
+}
