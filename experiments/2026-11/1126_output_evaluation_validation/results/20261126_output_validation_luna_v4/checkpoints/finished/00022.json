@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "0f4168174341a35081d5966751dd70d91eee6d125ce8d2d9534edadb8a74b95e",
+    "items": [
+      {
+        "id": "2679522194e6cd72f37a",
+        "label": "no",
+        "reason": "Elephant calls are associated with elephants, not lions."
+      },
+      {
+        "id": "d36243f560826a30f21a",
+        "label": "no",
+        "reason": "A tambourine is an instrument, but “cultural instrument” is only a broad class."
+      },
+      {
+        "id": "467a04927de14d98e765",
+        "label": "no",
+        "reason": "Novels do not identify elephants."
+      },
+      {
+        "id": "1a9466b18dbdd45e9ffb",
+        "label": "no",
+        "reason": "A crate is a different object from a submarine."
+      },
+      {
+        "id": "9d8543468846bc84bd31",
+        "label": "yes",
+        "reason": "Raindrops are drops of rain, a direct manifestation of rain."
+      },
+      {
+        "id": "b93e644821585d6baf3f",
+        "label": "no",
+        "reason": "The answer discusses elephant habitat, not lions."
+      },
+      {
+        "id": "3a1c69117ec555089d06",
+        "label": "no",
+        "reason": "A bookcase is related furniture but does not specifically identify a cabinet."
+      },
+      {
+        "id": "64444367f49481bba39e",
+        "label": "yes",
+        "reason": "An underwater craft is a clear paraphrase of a submarine."
+      },
+      {
+        "id": "c23823e69e859b15b0a2",
+        "label": "no",
+        "reason": "Aloe is a succulent, not a cactus."
+      },
+      {
+        "id": "9319f50d0225b557c01d",
+        "label": "no",
+        "reason": "A grapefruit is a different fruit from a banana."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"2679522194e6cd72f37a\",\"label\":\"no\",\"reason\":\"Elephant calls are associated with elephants, not lions.\"},{\"id\":\"d36243f560826a30f21a\",\"label\":\"no\",\"reason\":\"A tambourine is an instrument, but “cultural instrument” is only a broad class.\"},{\"id\":\"467a04927de14d98e765\",\"label\":\"no\",\"reason\":\"Novels do not identify elephants.\"},{\"id\":\"1a9466b18dbdd45e9ffb\",\"label\":\"no\",\"reason\":\"A crate is a different object from a submarine.\"},{\"id\":\"9d8543468846bc84bd31\",\"label\":\"yes\",\"reason\":\"Raindrops are drops of rain, a direct manifestation of rain.\"},{\"id\":\"b93e644821585d6baf3f\",\"label\":\"no\",\"reason\":\"The answer discusses elephant habitat, not lions.\"},{\"id\":\"3a1c69117ec555089d06\",\"label\":\"no\",\"reason\":\"A bookcase is related furniture but does not specifically identify a cabinet.\"},{\"id\":\"64444367f49481bba39e\",\"label\":\"yes\",\"reason\":\"An underwater craft is a clear paraphrase of a submarine.\"},{\"id\":\"c23823e69e859b15b0a2\",\"label\":\"no\",\"reason\":\"Aloe is a succulent, not a cactus.\"},{\"id\":\"9319f50d0225b557c01d\",\"label\":\"no\",\"reason\":\"A grapefruit is a different fruit from a banana.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 220,
+    "started": "2026-11-26T08:19:27.172318+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 574,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 227,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 523,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1097
+    }
+  }
+}
