@@ -1,0 +1,60 @@
+{
+  "accepted": [
+    {
+      "fact_key": "aerobic_fitness",
+      "sentence": "Regular rides provide aerobic exercise that can strengthen the heart and improve endurance without requiring access to a gym."
+    },
+    {
+      "fact_key": "guided_sightseeing",
+      "sentence": "Guided sightseeing tours let visitors explore historic neighborhoods at a leisurely pace while stopping easily at points of interest."
+    },
+    {
+      "fact_key": "postal_delivery",
+      "sentence": "Postal workers can carry letters and small parcels along neighborhood routes, reaching homes where vehicle access is inconvenient."
+    },
+    {
+      "fact_key": "public_space_patrols",
+      "sentence": "Officers use quiet, maneuverable transport to patrol parks and crowded public events where motor vehicles may be impractical."
+    },
+    {
+      "fact_key": "children_learning_balance",
+      "sentence": "Young children can practice steering and balance on small models, building coordination before learning to ride independently."
+    },
+    {
+      "fact_key": "rural_access",
+      "sentence": "In rural areas, pedal-powered travel can connect residents with schools, clinics, and shops when public transit is limited."
+    },
+    {
+      "fact_key": "hand_powered_mobility",
+      "sentence": "Some people use hand-powered models to travel independently when leg movement is limited, supporting everyday outings and social participation."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Regular rides provide aerobic exercise that can strengthen the heart and improve endurance without requiring access to a gym.\",\"fact_key\":\"aerobic_fitness\"},{\"sentence\":\"Guided sightseeing tours let visitors explore historic neighborhoods at a leisurely pace while stopping easily at points of interest.\",\"fact_key\":\"guided_sightseeing\"},{\"sentence\":\"Postal workers can carry letters and small parcels along neighborhood routes, reaching homes where vehicle access is inconvenient.\",\"fact_key\":\"postal_delivery\"},{\"sentence\":\"Officers use quiet, maneuverable transport to patrol parks and crowded public events where motor vehicles may be impractical.\",\"fact_key\":\"public_space_patrols\"},{\"sentence\":\"Young children can practice steering and balance on small models, building coordination before learning to ride independently.\",\"fact_key\":\"children_learning_balance\"},{\"sentence\":\"In rural areas, pedal-powered travel can connect residents with schools, clinics, and shops when public transit is limited.\",\"fact_key\":\"rural_access\"},{\"sentence\":\"In bicycle polo, teams maneuver a ball with mallets, combining precise handling with strategy in a fast-paced sport.\",\"fact_key\":\"bicycle_polo\"},{\"sentence\":\"Some people use hand-powered models to travel independently when leg movement is limited, supporting everyday outings and social participation.\",\"fact_key\":\"hand_powered_mobility\"}]}",
+  "rejected": [
+    {
+      "item": {
+        "fact_key": "bicycle_polo",
+        "sentence": "In bicycle polo, teams maneuver a ball with mallets, combining precise handling with strategy in a fast-paced sport."
+      },
+      "reason": "name"
+    }
+  ],
+  "request_hash": "a9627dbeff743ccd4bf5ed93184725403e2fc45bb3bb078c2e3d2b349bc58a87",
+  "usage": {
+    "completion_tokens": 829,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 555,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1902,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1899,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2731
+  }
+}
