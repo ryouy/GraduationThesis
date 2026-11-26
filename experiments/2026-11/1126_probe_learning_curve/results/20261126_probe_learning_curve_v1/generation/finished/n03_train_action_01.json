@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "grouping_similar_supplies",
+      "sentence": "People often group similar supplies in separate compartments, so routine tasks require less searching and items can be returned consistently."
+    },
+    {
+      "fact_key": "placing_items_by_frequency",
+      "sentence": "Frequently used items are commonly placed around waist or eye level, while rarely needed supplies occupy less accessible spaces."
+    },
+    {
+      "fact_key": "door_swing_clearance",
+      "sentence": "During installation, leave enough clearance for doors to swing fully without hitting walls, handles, or nearby appliances."
+    },
+    {
+      "fact_key": "retightening_hinge_screws",
+      "sentence": "After repeated use, loose hinge screws can be retightened to restore door alignment and reduce sagging."
+    },
+    {
+      "fact_key": "protective_shelf_liners",
+      "sentence": "To protect shelf surfaces, users may place washable liners beneath containers that could leak or leave marks."
+    },
+    {
+      "fact_key": "securing_openings_for_moving",
+      "sentence": "Before moving one across a room, secure its doors and drawers so they do not swing open during handling."
+    },
+    {
+      "fact_key": "leveling_with_adjustable_feet",
+      "sentence": "On an uneven floor, adjustable feet can be turned until the top sits level and the doors operate properly."
+    },
+    {
+      "fact_key": "separating_utility_supplies",
+      "sentence": "In a workshop or utility area, people use enclosed compartments to keep small supplies separated from dust and clutter."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"People often group similar supplies in separate compartments, so routine tasks require less searching and items can be returned consistently.\",\"fact_key\":\"grouping_similar_supplies\"},{\"sentence\":\"Frequently used items are commonly placed around waist or eye level, while rarely needed supplies occupy less accessible spaces.\",\"fact_key\":\"placing_items_by_frequency\"},{\"sentence\":\"During installation, leave enough clearance for doors to swing fully without hitting walls, handles, or nearby appliances.\",\"fact_key\":\"door_swing_clearance\"},{\"sentence\":\"After repeated use, loose hinge screws can be retightened to restore door alignment and reduce sagging.\",\"fact_key\":\"retightening_hinge_screws\"},{\"sentence\":\"To protect shelf surfaces, users may place washable liners beneath containers that could leak or leave marks.\",\"fact_key\":\"protective_shelf_liners\"},{\"sentence\":\"Before moving one across a room, secure its doors and drawers so they do not swing open during handling.\",\"fact_key\":\"securing_openings_for_moving\"},{\"sentence\":\"On an uneven floor, adjustable feet can be turned until the top sits level and the doors operate properly.\",\"fact_key\":\"leveling_with_adjustable_feet\"},{\"sentence\":\"In a workshop or utility area, people use enclosed compartments to keep small supplies separated from dust and clutter.\",\"fact_key\":\"separating_utility_supplies\"}]}",
+  "rejected": [],
+  "request_hash": "750cf804976f6f084e241446dbe3564402c1519438af7b227a33f6ceefb248c8",
+  "usage": {
+    "completion_tokens": 1264,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 975,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1063,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1060,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2327
+  }
+}
