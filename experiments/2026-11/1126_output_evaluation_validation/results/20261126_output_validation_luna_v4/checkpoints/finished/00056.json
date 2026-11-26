@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "3398d7be79726a086c5a79515dfb17d7d4089cde27e2beb64992bbb3cf91bbef",
+    "items": [
+      {
+        "id": "02cbfd1d7eae24c6920d",
+        "label": "yes",
+        "reason": "“Bookshelves” is the plural form of bookshelf."
+      },
+      {
+        "id": "5dc798115ce8f060cbe6",
+        "label": "yes",
+        "reason": "The answer directly identifies rain as the thing watering the land."
+      },
+      {
+        "id": "edfd0dc0f660f664d4a6",
+        "label": "no",
+        "reason": "A helmeted rider is a person associated with riding a bicycle, not a bicycle."
+      },
+      {
+        "id": "c90b530729b7d2cbe8e7",
+        "label": "no",
+        "reason": "Cacti are a different group of plants, not aloe."
+      },
+      {
+        "id": "d2a5a90bd51f2d44cdc4",
+        "label": "no",
+        "reason": "Scissors are a different tool from pliers."
+      },
+      {
+        "id": "e366fd14264d65da62c4",
+        "label": "no",
+        "reason": "The answer identifies rain, not snow."
+      },
+      {
+        "id": "134c1e40cbc7b0e5de03",
+        "label": "no",
+        "reason": "A banana is a different fruit from a pineapple."
+      },
+      {
+        "id": "dbe0a3664d5e9b65575d",
+        "label": "no",
+        "reason": "Coral is not a jellyfish."
+      },
+      {
+        "id": "122bbfe35a094ffa9d04",
+        "label": "no",
+        "reason": "A lion is a different animal from a dragonfly."
+      },
+      {
+        "id": "e56160254ab3491585ca",
+        "label": "no",
+        "reason": "The answer identifies jellyfish, not an octopus."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"02cbfd1d7eae24c6920d\",\"label\":\"yes\",\"reason\":\"“Bookshelves” is the plural form of bookshelf.\"},{\"id\":\"5dc798115ce8f060cbe6\",\"label\":\"yes\",\"reason\":\"The answer directly identifies rain as the thing watering the land.\"},{\"id\":\"edfd0dc0f660f664d4a6\",\"label\":\"no\",\"reason\":\"A helmeted rider is a person associated with riding a bicycle, not a bicycle.\"},{\"id\":\"c90b530729b7d2cbe8e7\",\"label\":\"no\",\"reason\":\"Cacti are a different group of plants, not aloe.\"},{\"id\":\"d2a5a90bd51f2d44cdc4\",\"label\":\"no\",\"reason\":\"Scissors are a different tool from pliers.\"},{\"id\":\"e366fd14264d65da62c4\",\"label\":\"no\",\"reason\":\"The answer identifies rain, not snow.\"},{\"id\":\"134c1e40cbc7b0e5de03\",\"label\":\"no\",\"reason\":\"A banana is a different fruit from a pineapple.\"},{\"id\":\"dbe0a3664d5e9b65575d\",\"label\":\"no\",\"reason\":\"Coral is not a jellyfish.\"},{\"id\":\"122bbfe35a094ffa9d04\",\"label\":\"no\",\"reason\":\"A lion is a different animal from a dragonfly.\"},{\"id\":\"e56160254ab3491585ca\",\"label\":\"no\",\"reason\":\"The answer identifies jellyfish, not an octopus.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 560,
+    "started": "2026-11-26T08:24:36.788020+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 425,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 76,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 564,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 989
+    }
+  }
+}
