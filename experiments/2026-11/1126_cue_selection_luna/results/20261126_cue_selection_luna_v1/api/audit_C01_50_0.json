@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_medium_near_0_3",
+        "naturalness": 4,
+        "reason": "A commuter pedaling along streets strongly suggests cycling; nothing points to an underwater vessel.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_medium_near_0_4",
+        "naturalness": 4,
+        "reason": "Children taking turns riding in a driveway strongly suggests bicycles, though other ride-on activities are possible; unrelated to a submarine.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_medium_near_0_5",
+        "naturalness": 4,
+        "reason": "Coasting down a hill fits a bicycle ride but could describe other ways of traveling; no submarine connection.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_medium_far_0_0",
+        "naturalness": 4,
+        "reason": "A criterium, cornering racers, and teammates sheltering one another from wind are distinctive cycling-race details; unrelated to a submarine.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_medium_far_0_1",
+        "naturalness": 4,
+        "reason": "A velodrome’s banking and sprinters’ racing line directly evoke track cycling; unrelated to a submarine.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_medium_far_0_2",
+        "naturalness": 4,
+        "reason": "Taking turns at the front while traveling single file is a familiar cycling-group tactic; no submarine connection.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_medium_far_0_3",
+        "naturalness": 4,
+        "reason": "A peloton following marshals at a charity ride strongly suggests cyclists; checkpoint stamps are plausible, and there is no submarine connection.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_medium_far_0_4",
+        "naturalness": 4,
+        "reason": "A teammate handing a bottle to the leader during a stage race is a distinctive cycling-race scene; unrelated to a submarine.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_medium_far_0_5",
+        "naturalness": 4,
+        "reason": "Spectators, mountain roads, cowbells, and a climbing race caravan strongly suggest a major cycling race; no submarine connection.",
+        "style": "pass",
+        "x_related": 3,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_far_0_0",
+        "naturalness": 4,
+        "reason": "Pedaling against resistance in a spin class is closely associated with stationary cycling, though not specifically with a bicycle as a vehicle; unrelated to a submarine.",
+        "style": "pass",
+        "x_related": 2,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 1383,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 679,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 646,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2029
+  }
+}
