@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "10a69f87a2636fe14eacb9049d28a2673b29f3a1388d876319db0426e1f8b9fd",
+    "items": [
+      {
+        "id": "f32dfaf4c21af29db2c8",
+        "label": "no",
+        "reason": "A giraffe is a different animal."
+      },
+      {
+        "id": "cb89af11437ca7ed12b9",
+        "label": "yes",
+        "reason": "The answer explicitly identifies scissors."
+      },
+      {
+        "id": "a755f08884145171aa16",
+        "label": "yes",
+        "reason": "The answer explicitly identifies an elephant."
+      },
+      {
+        "id": "17a10b76a11ff7fb2b99",
+        "label": "yes",
+        "reason": "The answer names a jellyfish."
+      },
+      {
+        "id": "c8b746f97d11a638a5d4",
+        "label": "yes",
+        "reason": "The answer names a jellyfish."
+      },
+      {
+        "id": "bf943a266f994fb9637a",
+        "label": "no",
+        "reason": "A jellyfish is not an octopus."
+      },
+      {
+        "id": "879ff97c08b588ff2f6d",
+        "label": "no",
+        "reason": "This refers vaguely to hand craftsmanship, not pliers."
+      },
+      {
+        "id": "0e5aac126e4079fcf341",
+        "label": "no",
+        "reason": "A speedster is not a submarine."
+      },
+      {
+        "id": "3469a1a5cf5bd4017475",
+        "label": "yes",
+        "reason": "“Giant Elephant” identifies an elephant."
+      },
+      {
+        "id": "1092b96bcd9b68d3eabc",
+        "label": "yes",
+        "reason": "“Bookshelves” is the plural form of bookshelf."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"f32dfaf4c21af29db2c8\",\"label\":\"no\",\"reason\":\"A giraffe is a different animal.\"},{\"id\":\"cb89af11437ca7ed12b9\",\"label\":\"yes\",\"reason\":\"The answer explicitly identifies scissors.\"},{\"id\":\"a755f08884145171aa16\",\"label\":\"yes\",\"reason\":\"The answer explicitly identifies an elephant.\"},{\"id\":\"17a10b76a11ff7fb2b99\",\"label\":\"yes\",\"reason\":\"The answer names a jellyfish.\"},{\"id\":\"c8b746f97d11a638a5d4\",\"label\":\"yes\",\"reason\":\"The answer names a jellyfish.\"},{\"id\":\"bf943a266f994fb9637a\",\"label\":\"no\",\"reason\":\"A jellyfish is not an octopus.\"},{\"id\":\"879ff97c08b588ff2f6d\",\"label\":\"no\",\"reason\":\"This refers vaguely to hand craftsmanship, not pliers.\"},{\"id\":\"0e5aac126e4079fcf341\",\"label\":\"no\",\"reason\":\"A speedster is not a submarine.\"},{\"id\":\"3469a1a5cf5bd4017475\",\"label\":\"yes\",\"reason\":\"“Giant Elephant” identifies an elephant.\"},{\"id\":\"1092b96bcd9b68d3eabc\",\"label\":\"yes\",\"reason\":\"“Bookshelves” is the plural form of bookshelf.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 990,
+    "started": "2026-11-26T08:33:20.971211+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 397,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 79,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 532,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 929
+    }
+  }
+}
