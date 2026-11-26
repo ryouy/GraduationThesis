@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "4587f0745bbd4e22433a946aeaf1ca0adfe9331528a99d83fc81c97dbc9a7c51",
+    "items": [
+      {
+        "id": "eddd6f7e8e2ab9266e15",
+        "label": "yes",
+        "reason": "The answer directly names scissors."
+      },
+      {
+        "id": "db87e1bd82d32bc920fc",
+        "label": "no",
+        "reason": "Raindrops are rain, not snow."
+      },
+      {
+        "id": "36eb67c8b511cdd63044",
+        "label": "no",
+        "reason": "A guitar is a different musical instrument."
+      },
+      {
+        "id": "00fede9e6f4589de1982",
+        "label": "yes",
+        "reason": "The answer directly names a banana."
+      },
+      {
+        "id": "4f61ecfb29663be193b2",
+        "label": "no",
+        "reason": "A bookcase is related furniture, but not a cabinet."
+      },
+      {
+        "id": "329df3d9ddb1455e756a",
+        "label": "no",
+        "reason": "A cymbal is a different percussion instrument, not a drum."
+      },
+      {
+        "id": "d772a5f5d739fa82a63c",
+        "label": "no",
+        "reason": "The answer describes elephant footprints, not a lion."
+      },
+      {
+        "id": "c3e09e52fa061399eb24",
+        "label": "yes",
+        "reason": "The answer directly names a jellyfish."
+      },
+      {
+        "id": "54164e1aa895e7738b53",
+        "label": "no",
+        "reason": "A personal collection organizer is a generic description, not specifically a cabinet."
+      },
+      {
+        "id": "3698b7e9bcc2fba9ea93",
+        "label": "no",
+        "reason": "A precision tool is a broad category and does not identify scissors."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"eddd6f7e8e2ab9266e15\",\"label\":\"yes\",\"reason\":\"The answer directly names scissors.\"},{\"id\":\"db87e1bd82d32bc920fc\",\"label\":\"no\",\"reason\":\"Raindrops are rain, not snow.\"},{\"id\":\"36eb67c8b511cdd63044\",\"label\":\"no\",\"reason\":\"A guitar is a different musical instrument.\"},{\"id\":\"00fede9e6f4589de1982\",\"label\":\"yes\",\"reason\":\"The answer directly names a banana.\"},{\"id\":\"4f61ecfb29663be193b2\",\"label\":\"no\",\"reason\":\"A bookcase is related furniture, but not a cabinet.\"},{\"id\":\"329df3d9ddb1455e756a\",\"label\":\"no\",\"reason\":\"A cymbal is a different percussion instrument, not a drum.\"},{\"id\":\"d772a5f5d739fa82a63c\",\"label\":\"no\",\"reason\":\"The answer describes elephant footprints, not a lion.\"},{\"id\":\"c3e09e52fa061399eb24\",\"label\":\"yes\",\"reason\":\"The answer directly names a jellyfish.\"},{\"id\":\"54164e1aa895e7738b53\",\"label\":\"no\",\"reason\":\"A personal collection organizer is a generic description, not specifically a cabinet.\"},{\"id\":\"3698b7e9bcc2fba9ea93\",\"label\":\"no\",\"reason\":\"A precision tool is a broad category and does not identify scissors.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 150,
+    "started": "2026-11-26T08:18:23.594734+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 402,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 67,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 525,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 927
+    }
+  }
+}
