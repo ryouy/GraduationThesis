@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "10f0b3f2f38d77baa0cc32aa70838e73f019a383f6d76c5beea9876fa7c29038",
+    "items": [
+      {
+        "id": "1ab9b7ae971a34062038",
+        "label": "no",
+        "reason": "An insectivore is an animal that eats insects, not a dragonfly."
+      },
+      {
+        "id": "931fd5bcd73c791c007f",
+        "label": "yes",
+        "reason": "“Cacti” is the plural of cactus."
+      },
+      {
+        "id": "ea8f70122be1edefd65b",
+        "label": "yes",
+        "reason": "The sentence directly identifies rain."
+      },
+      {
+        "id": "f9ee413f30c3f5b5fdfc",
+        "label": "no",
+        "reason": "A desert succulent is a broad plant category, not specifically aloe."
+      },
+      {
+        "id": "294049045f9d908d7967",
+        "label": "yes",
+        "reason": "The answer names a jellyfish."
+      },
+      {
+        "id": "a3c5d8eac18ee9b91fd9",
+        "label": "no",
+        "reason": "A crate is not a submarine."
+      },
+      {
+        "id": "2de7bcda2896098f3579",
+        "label": "yes",
+        "reason": "The answer names scissors."
+      },
+      {
+        "id": "1d07540dfc0d9c725885",
+        "label": "yes",
+        "reason": "Precision scissors are a specific type of scissors."
+      },
+      {
+        "id": "6cb67e03ce96e6b17edd",
+        "label": "no",
+        "reason": "It describes a cactus adaptation, not aloe."
+      },
+      {
+        "id": "2f1f5ee26f0b8386bf6b",
+        "label": "no",
+        "reason": "“Beast of the Beast” does not identify an ant."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"1ab9b7ae971a34062038\",\"label\":\"no\",\"reason\":\"An insectivore is an animal that eats insects, not a dragonfly.\"},{\"id\":\"931fd5bcd73c791c007f\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural of cactus.\"},{\"id\":\"ea8f70122be1edefd65b\",\"label\":\"yes\",\"reason\":\"The sentence directly identifies rain.\"},{\"id\":\"f9ee413f30c3f5b5fdfc\",\"label\":\"no\",\"reason\":\"A desert succulent is a broad plant category, not specifically aloe.\"},{\"id\":\"294049045f9d908d7967\",\"label\":\"yes\",\"reason\":\"The answer names a jellyfish.\"},{\"id\":\"a3c5d8eac18ee9b91fd9\",\"label\":\"no\",\"reason\":\"A crate is not a submarine.\"},{\"id\":\"2de7bcda2896098f3579\",\"label\":\"yes\",\"reason\":\"The answer names scissors.\"},{\"id\":\"1d07540dfc0d9c725885\",\"label\":\"yes\",\"reason\":\"Precision scissors are a specific type of scissors.\"},{\"id\":\"6cb67e03ce96e6b17edd\",\"label\":\"no\",\"reason\":\"It describes a cactus adaptation, not aloe.\"},{\"id\":\"2f1f5ee26f0b8386bf6b\",\"label\":\"no\",\"reason\":\"“Beast of the Beast” does not identify an ant.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 870,
+    "started": "2026-11-26T08:29:15.727388+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 431,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 97,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 534,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 965
+    }
+  }
+}
