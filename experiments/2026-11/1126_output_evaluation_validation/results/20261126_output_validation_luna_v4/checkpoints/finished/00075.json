@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "f879b61815f3d55411db09d622c0d07d17e2ae0705eef4887c9cdbd572bee03b",
+    "items": [
+      {
+        "id": "9433f0187dcb8e9edc85",
+        "label": "no",
+        "reason": "Elephants are a different animal from lions."
+      },
+      {
+        "id": "560993c1ecd3ba7640f4",
+        "label": "no",
+        "reason": "Describes the activity of drumming, not the drum itself."
+      },
+      {
+        "id": "b257d44b52c5c3fa464e",
+        "label": "no",
+        "reason": "A smoothie reference does not identify a pineapple."
+      },
+      {
+        "id": "06104af8000f863cb4b4",
+        "label": "no",
+        "reason": "A drumming parade is an activity or event, not a drum."
+      },
+      {
+        "id": "f2b92a3b46ac0c8d27c2",
+        "label": "no",
+        "reason": "Cacti are not aloe plants."
+      },
+      {
+        "id": "f56be1e0c2fd895f320d",
+        "label": "no",
+        "reason": "Rain is different from snow."
+      },
+      {
+        "id": "1e6c072284a6b4cadd9a",
+        "label": "no",
+        "reason": "A bookcase is related furniture but is not a cabinet."
+      },
+      {
+        "id": "dad2418272d34376e7ca",
+        "label": "yes",
+        "reason": "“Cacti” is the plural form of cactus."
+      },
+      {
+        "id": "8ac2f4f81b432d52df9f",
+        "label": "no",
+        "reason": "A giant ant is a different insect from a dragonfly."
+      },
+      {
+        "id": "67d2c8f2912c888a1db2",
+        "label": "yes",
+        "reason": "The answer directly identifies scissors."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"9433f0187dcb8e9edc85\",\"label\":\"no\",\"reason\":\"Elephants are a different animal from lions.\"},{\"id\":\"560993c1ecd3ba7640f4\",\"label\":\"no\",\"reason\":\"Describes the activity of drumming, not the drum itself.\"},{\"id\":\"b257d44b52c5c3fa464e\",\"label\":\"no\",\"reason\":\"A smoothie reference does not identify a pineapple.\"},{\"id\":\"06104af8000f863cb4b4\",\"label\":\"no\",\"reason\":\"A drumming parade is an activity or event, not a drum.\"},{\"id\":\"f2b92a3b46ac0c8d27c2\",\"label\":\"no\",\"reason\":\"Cacti are not aloe plants.\"},{\"id\":\"f56be1e0c2fd895f320d\",\"label\":\"no\",\"reason\":\"Rain is different from snow.\"},{\"id\":\"1e6c072284a6b4cadd9a\",\"label\":\"no\",\"reason\":\"A bookcase is related furniture but is not a cabinet.\"},{\"id\":\"dad2418272d34376e7ca\",\"label\":\"yes\",\"reason\":\"“Cacti” is the plural form of cactus.\"},{\"id\":\"8ac2f4f81b432d52df9f\",\"label\":\"no\",\"reason\":\"A giant ant is a different insect from a dragonfly.\"},{\"id\":\"67d2c8f2912c888a1db2\",\"label\":\"yes\",\"reason\":\"The answer directly identifies scissors.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 740,
+    "started": "2026-11-26T08:27:23.147179+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 419,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 74,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 538,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 957
+    }
+  }
+}
