@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "f3473791ad3a38928df05c5b26d8b3db219c5aecf160485a9dee7b4d279edd81",
+    "items": [
+      {
+        "id": "336dc5aa90e763874168",
+        "label": "no",
+        "reason": "A personal collection shelf is a shelf, not specifically a cabinet."
+      },
+      {
+        "id": "5bcb6835531f1357a4ef",
+        "label": "no",
+        "reason": "Coral is a different marine organism, not an octopus."
+      },
+      {
+        "id": "2bd3d0d2600aeaf39213",
+        "label": "no",
+        "reason": "A jellyfish is a different marine animal, not an octopus."
+      },
+      {
+        "id": "5afb76b087ec792d6695",
+        "label": "yes",
+        "reason": "Cacti is the plural form of cactus."
+      },
+      {
+        "id": "cefce496cfa4c41d4476",
+        "label": "no",
+        "reason": "Ginger squash is not a pineapple."
+      },
+      {
+        "id": "164ea24f1b6c8d22ba33",
+        "label": "no",
+        "reason": "A smoothie bowl may contain banana, but it is a dish rather than the fruit itself."
+      },
+      {
+        "id": "a7d71e9d7d5948c16375",
+        "label": "no",
+        "reason": "Cacti are a different plant group from aloe."
+      },
+      {
+        "id": "20fec34ee876096e26b6",
+        "label": "yes",
+        "reason": "Raindrops bringing life and renewal clearly describes rain."
+      },
+      {
+        "id": "3c5cf56f44e3dce9902d",
+        "label": "no",
+        "reason": "The answer identifies a bicycle, not a submarine."
+      },
+      {
+        "id": "35cef8229d91e4445a5c",
+        "label": "no",
+        "reason": "“Escape vehicle” is a broad description and does not specifically identify a bicycle."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"336dc5aa90e763874168\",\"label\":\"no\",\"reason\":\"A personal collection shelf is a shelf, not specifically a cabinet.\"},{\"id\":\"5bcb6835531f1357a4ef\",\"label\":\"no\",\"reason\":\"Coral is a different marine organism, not an octopus.\"},{\"id\":\"2bd3d0d2600aeaf39213\",\"label\":\"no\",\"reason\":\"A jellyfish is a different marine animal, not an octopus.\"},{\"id\":\"5afb76b087ec792d6695\",\"label\":\"yes\",\"reason\":\"Cacti is the plural form of cactus.\"},{\"id\":\"cefce496cfa4c41d4476\",\"label\":\"no\",\"reason\":\"Ginger squash is not a pineapple.\"},{\"id\":\"164ea24f1b6c8d22ba33\",\"label\":\"no\",\"reason\":\"A smoothie bowl may contain banana, but it is a dish rather than the fruit itself.\"},{\"id\":\"a7d71e9d7d5948c16375\",\"label\":\"no\",\"reason\":\"Cacti are a different plant group from aloe.\"},{\"id\":\"20fec34ee876096e26b6\",\"label\":\"yes\",\"reason\":\"Raindrops bringing life and renewal clearly describes rain.\"},{\"id\":\"3c5cf56f44e3dce9902d\",\"label\":\"no\",\"reason\":\"The answer identifies a bicycle, not a submarine.\"},{\"id\":\"35cef8229d91e4445a5c\",\"label\":\"no\",\"reason\":\"“Escape vehicle” is a broad description and does not specifically identify a bicycle.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 610,
+    "started": "2026-11-26T08:25:20.711336+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 457,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 101,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 528,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 985
+    }
+  }
+}
