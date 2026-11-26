@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "course_reserve_pickup",
+      "sentence": "A tiered fixture near a campus circulation desk keeps course-reserve texts grouped by class for quick pickup between lectures."
+    },
+    {
+      "fact_key": "archival_record_identification",
+      "sentence": "In a municipal archive, separate compartments keep boxed records from different departments identifiable when staff retrieve files for public requests."
+    },
+    {
+      "fact_key": "theater_prop_sorting",
+      "sentence": "A theater prop room uses open tiers to separate set pieces by production, reducing last-minute searches during scene changes."
+    },
+    {
+      "fact_key": "tool_library_inventory",
+      "sentence": "A community tool library keeps returned hand tools visible on tiered supports, helping volunteers spot missing items during inventory."
+    },
+    {
+      "fact_key": "marine_specimen_grouping",
+      "sentence": "In a marine biology lab, trays of preserved specimens can be grouped by survey site, making comparisons across field samples easier."
+    },
+    {
+      "fact_key": "food_pantry_stock_monitoring",
+      "sentence": "A food pantry can organize canned donations by category on accessible tiers, helping volunteers notice low stock before distribution."
+    },
+    {
+      "fact_key": "fire_station_reference_access",
+      "sentence": "At a fire station, training binders and equipment checklists stay near the briefing area, supporting quick review between calls."
+    },
+    {
+      "fact_key": "emergency_response_materials",
+      "sentence": "An emergency operations center can keep response maps and procedure binders together for staff coordinating decisions during an unfolding incident."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"A tiered fixture near a campus circulation desk keeps course-reserve texts grouped by class for quick pickup between lectures.\",\"fact_key\":\"course_reserve_pickup\"},{\"sentence\":\"In a municipal archive, separate compartments keep boxed records from different departments identifiable when staff retrieve files for public requests.\",\"fact_key\":\"archival_record_identification\"},{\"sentence\":\"A theater prop room uses open tiers to separate set pieces by production, reducing last-minute searches during scene changes.\",\"fact_key\":\"theater_prop_sorting\"},{\"sentence\":\"A community tool library keeps returned hand tools visible on tiered supports, helping volunteers spot missing items during inventory.\",\"fact_key\":\"tool_library_inventory\"},{\"sentence\":\"In a marine biology lab, trays of preserved specimens can be grouped by survey site, making comparisons across field samples easier.\",\"fact_key\":\"marine_specimen_grouping\"},{\"sentence\":\"A food pantry can organize canned donations by category on accessible tiers, helping volunteers notice low stock before distribution.\",\"fact_key\":\"food_pantry_stock_monitoring\"},{\"sentence\":\"At a fire station, training binders and equipment checklists stay near the briefing area, supporting quick review between calls.\",\"fact_key\":\"fire_station_reference_access\"},{\"sentence\":\"An emergency operations center can keep response maps and procedure binders together for staff coordinating decisions during an unfolding incident.\",\"fact_key\":\"emergency_response_materials\"}]}",
+  "rejected": [],
+  "request_hash": "92a08894c914acb68396e015c78ce2e26df38f5688c054d9983a3620e2aa5177",
+  "usage": {
+    "completion_tokens": 1823,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1528,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 3312,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 3309,
+      "cached_tokens": 0
+    },
+    "total_tokens": 5135
+  }
+}
