@@ -1,0 +1,123 @@
+{
+  "data": {
+    "items": [
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_structure_unrelated_0_0",
+        "naturalness": 5,
+        "reason": "A plausible description of a bowl’s shape; unrelated to either defined vehicle.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_structure_unrelated_0_1",
+        "naturalness": 5,
+        "reason": "Plausible description of basalt column formations and fits the structure style.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_structure_unrelated_0_2",
+        "naturalness": 5,
+        "reason": "Plausible description of leaf structure; unrelated to either vehicle.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_structure_unrelated_0_3",
+        "naturalness": 5,
+        "reason": "Thin films and shifting colors are plausible features of soap bubbles; fits the structure style.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_structure_unrelated_0_4",
+        "naturalness": 5,
+        "reason": "Plausible description of an ice cube melting; unrelated to either vehicle.",
+        "style": "pass",
+        "x_related": 0,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_very_near_0_0",
+        "naturalness": 5,
+        "reason": "Mounting over the frame and settling onto a saddle directly describes getting onto a bicycle.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_very_near_0_1",
+        "naturalness": 5,
+        "reason": "Pressing pedals to move forward strongly and distinctively describes riding a bicycle.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_very_near_0_2",
+        "naturalness": 5,
+        "reason": "A rider signaling a turn with an arm is a recognizable cycling action.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_very_near_0_3",
+        "naturalness": 5,
+        "reason": "Leaning into a bend while steering the front wheel is a plausible cycling action.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      },
+      {
+        "exposure": "pass",
+        "fact": "pass",
+        "id": "gen_C01_action_very_near_0_4",
+        "naturalness": 5,
+        "reason": "Lifting the front wheel to cross a curb is a plausible bicycle-riding maneuver.",
+        "style": "pass",
+        "x_related": 4,
+        "y_related": 0
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "usage": {
+    "completion_tokens": 821,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 201,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 630,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1451
+  }
+}
