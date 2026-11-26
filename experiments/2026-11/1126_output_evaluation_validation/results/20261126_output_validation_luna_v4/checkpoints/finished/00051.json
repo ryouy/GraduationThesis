@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "2afa5d2d7e305c97e4cbb6f7b93abb1ebc3b03175d47c9c7048915851fe9620c",
+    "items": [
+      {
+        "id": "74895c022d559267898a",
+        "label": "no",
+        "reason": "A cactus is a different plant, not aloe."
+      },
+      {
+        "id": "9766d5ef9d97cdf627d5",
+        "label": "no",
+        "reason": "An ant is an insect, but “insect” is a broader class."
+      },
+      {
+        "id": "ebcd11f0e72202b5514a",
+        "label": "uncertain",
+        "reason": "“Insect worker” could describe a worker ant, but it could also refer to other social insects."
+      },
+      {
+        "id": "4e3b48cba636f646165c",
+        "label": "no",
+        "reason": "This names a dance, not a tambourine."
+      },
+      {
+        "id": "651d7422c572d880518d",
+        "label": "yes",
+        "reason": "The answer exactly names the target."
+      },
+      {
+        "id": "cae14520e69c092430a7",
+        "label": "no",
+        "reason": "A jellyfish is different from an octopus."
+      },
+      {
+        "id": "cbcba9cdf4d864bc2714",
+        "label": "no",
+        "reason": "It describes drumming in general, not a tambourine."
+      },
+      {
+        "id": "f29b0eea29b9eb634796",
+        "label": "no",
+        "reason": "A pedestrian bike is not a submarine."
+      },
+      {
+        "id": "834dc3b15dc98670ef51",
+        "label": "no",
+        "reason": "This describes ant behavior, not a dragonfly."
+      },
+      {
+        "id": "c901f4c1a0e23bc43af2",
+        "label": "yes",
+        "reason": "The answer identifies an elephant, even though it adds a fact about what it eats."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"74895c022d559267898a\",\"label\":\"no\",\"reason\":\"A cactus is a different plant, not aloe.\"},{\"id\":\"9766d5ef9d97cdf627d5\",\"label\":\"no\",\"reason\":\"An ant is an insect, but “insect” is a broader class.\"},{\"id\":\"ebcd11f0e72202b5514a\",\"label\":\"uncertain\",\"reason\":\"“Insect worker” could describe a worker ant, but it could also refer to other social insects.\"},{\"id\":\"4e3b48cba636f646165c\",\"label\":\"no\",\"reason\":\"This names a dance, not a tambourine.\"},{\"id\":\"651d7422c572d880518d\",\"label\":\"yes\",\"reason\":\"The answer exactly names the target.\"},{\"id\":\"cae14520e69c092430a7\",\"label\":\"no\",\"reason\":\"A jellyfish is different from an octopus.\"},{\"id\":\"cbcba9cdf4d864bc2714\",\"label\":\"no\",\"reason\":\"It describes drumming in general, not a tambourine.\"},{\"id\":\"f29b0eea29b9eb634796\",\"label\":\"no\",\"reason\":\"A pedestrian bike is not a submarine.\"},{\"id\":\"834dc3b15dc98670ef51\",\"label\":\"no\",\"reason\":\"This describes ant behavior, not a dragonfly.\"},{\"id\":\"c901f4c1a0e23bc43af2\",\"label\":\"yes\",\"reason\":\"The answer identifies an elephant, even though it adds a fact about what it eats.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 510,
+    "started": "2026-11-26T08:23:49.976015+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 506,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 153,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 525,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1031
+    }
+  }
+}
