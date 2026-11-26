@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "using_lamps_after_dark",
+      "sentence": "At dusk, riders switch on front and rear lamps so other road users can see them and the path ahead."
+    },
+    {
+      "fact_key": "locking_to_fixed_object",
+      "sentence": "When locking outdoors, pass a sturdy lock through the frame and a wheel, then secure it to an immovable rack."
+    },
+    {
+      "fact_key": "repairing_a_puncture",
+      "sentence": "To repair a puncture, remove the wheel, lift one tire bead with levers, and patch or replace the damaged tube."
+    },
+    {
+      "fact_key": "crossing_railway_tracks",
+      "sentence": "Before crossing railway tracks, approach nearly at a right angle to keep narrow tires from slipping into grooves."
+    },
+    {
+      "fact_key": "checking_traffic_with_mirror",
+      "sentence": "A handlebar mirror lets riders check traffic behind them with brief glances while keeping their forward view available."
+    },
+    {
+      "fact_key": "coordinating_on_a_tandem",
+      "sentence": "On a tandem, the front rider steers and brakes while both occupants coordinate pedaling to keep their effort synchronized."
+    },
+    {
+      "fact_key": "approaching_puddles_cautiously",
+      "sentence": "Before riding through a puddle, riders slow down because its depth and hidden hazards may be difficult to judge."
+    },
+    {
+      "fact_key": "rolling_over_a_curb",
+      "sentence": "At a curb, riders can unweight the front wheel slightly, then shift their weight to help the rear wheel roll over the edge."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"At dusk, riders switch on front and rear lamps so other road users can see them and the path ahead.\",\"fact_key\":\"using_lamps_after_dark\"},{\"sentence\":\"When locking outdoors, pass a sturdy lock through the frame and a wheel, then secure it to an immovable rack.\",\"fact_key\":\"locking_to_fixed_object\"},{\"sentence\":\"To repair a puncture, remove the wheel, lift one tire bead with levers, and patch or replace the damaged tube.\",\"fact_key\":\"repairing_a_puncture\"},{\"sentence\":\"Before crossing railway tracks, approach nearly at a right angle to keep narrow tires from slipping into grooves.\",\"fact_key\":\"crossing_railway_tracks\"},{\"sentence\":\"A handlebar mirror lets riders check traffic behind them with brief glances while keeping their forward view available.\",\"fact_key\":\"checking_traffic_with_mirror\"},{\"sentence\":\"On a tandem, the front rider steers and brakes while both occupants coordinate pedaling to keep their effort synchronized.\",\"fact_key\":\"coordinating_on_a_tandem\"},{\"sentence\":\"Before riding through a puddle, riders slow down because its depth and hidden hazards may be difficult to judge.\",\"fact_key\":\"approaching_puddles_cautiously\"},{\"sentence\":\"At a curb, riders can unweight the front wheel slightly, then shift their weight to help the rear wheel roll over the edge.\",\"fact_key\":\"rolling_over_a_curb\"}]}",
+  "rejected": [],
+  "request_hash": "f79e3a20c81ff78ddbed07c1d2c7b0c752752e5fab3699703504726da90d08cd",
+  "usage": {
+    "completion_tokens": 1392,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1082,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2764,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2761,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4156
+  }
+}
