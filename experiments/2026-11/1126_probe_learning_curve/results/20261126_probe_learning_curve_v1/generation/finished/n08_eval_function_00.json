@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "afrobeat_interlocking_grooves",
+      "sentence": "In Afrobeat arrangements, short repeated phrases from the upper brass line lock with guitars and percussion to build interwoven grooves."
+    },
+    {
+      "fact_key": "bebop_improvised_runs",
+      "sentence": "During bebop performances, its player can answer a theme with fast improvised runs, contrasting with the tune's composed melody."
+    },
+    {
+      "fact_key": "hiphop_sampled_stabs",
+      "sentence": "Hip-hop producers sometimes sample its sharply attacked notes, using them as rhythmic stabs beneath vocals."
+    },
+    {
+      "fact_key": "polka_dance_melody",
+      "sentence": "Polka ensembles often use it to carry lively dance tunes above accordion and low brass accompaniment."
+    },
+    {
+      "fact_key": "circus_act_announcement",
+      "sentence": "Circus bands can use its fanfare-like phrases to announce an act and build anticipation for the performance."
+    },
+    {
+      "fact_key": "graduation_procession",
+      "sentence": "At graduation ceremonies, its sustained processional phrases can accompany the formal entrance of students and faculty."
+    },
+    {
+      "fact_key": "off_axis_recording",
+      "sentence": "Sound engineers may position microphones slightly off-axis to soften harshness while still capturing its strong attack."
+    },
+    {
+      "fact_key": "game_soundtrack_motifs",
+      "sentence": "In game soundtracks, short high brass motifs can make moments of victory or discovery feel triumphant and unmistakable."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In Afrobeat arrangements, short repeated phrases from the upper brass line lock with guitars and percussion to build interwoven grooves.\",\"fact_key\":\"afrobeat_interlocking_grooves\"},{\"sentence\":\"During bebop performances, its player can answer a theme with fast improvised runs, contrasting with the tune's composed melody.\",\"fact_key\":\"bebop_improvised_runs\"},{\"sentence\":\"Hip-hop producers sometimes sample its sharply attacked notes, using them as rhythmic stabs beneath vocals.\",\"fact_key\":\"hiphop_sampled_stabs\"},{\"sentence\":\"Polka ensembles often use it to carry lively dance tunes above accordion and low brass accompaniment.\",\"fact_key\":\"polka_dance_melody\"},{\"sentence\":\"Circus bands can use its fanfare-like phrases to announce an act and build anticipation for the performance.\",\"fact_key\":\"circus_act_announcement\"},{\"sentence\":\"At graduation ceremonies, its sustained processional phrases can accompany the formal entrance of students and faculty.\",\"fact_key\":\"graduation_procession\"},{\"sentence\":\"Sound engineers may position microphones slightly off-axis to soften harshness while still capturing its strong attack.\",\"fact_key\":\"off_axis_recording\"},{\"sentence\":\"In game soundtracks, short high brass motifs can make moments of victory or discovery feel triumphant and unmistakable.\",\"fact_key\":\"game_soundtrack_motifs\"}]}",
+  "rejected": [],
+  "request_hash": "8bc5423593669927aff080d94ba1deab2b8e06667b59058fa5d22a450426b313",
+  "usage": {
+    "completion_tokens": 4141,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 3819,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 3354,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 3351,
+      "cached_tokens": 0
+    },
+    "total_tokens": 7495
+  }
+}
