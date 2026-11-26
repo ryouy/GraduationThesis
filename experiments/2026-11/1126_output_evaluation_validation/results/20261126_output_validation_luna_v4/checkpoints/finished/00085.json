@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "84f74cb29ecf76f4fbf6ecb0563f3293993e5f9e440cbb95ac2fe239cdaac9f2",
+    "items": [
+      {
+        "id": "6f8859a85b8ac4eb8075",
+        "label": "no",
+        "reason": "A berry is a broad fruit category, not specifically a pineapple."
+      },
+      {
+        "id": "a17235defda5c2cdf370",
+        "label": "no",
+        "reason": "An elephant is a different animal from a lion."
+      },
+      {
+        "id": "dc77bed87d1d61398396",
+        "label": "no",
+        "reason": "Cacti are a different plant group, not aloe."
+      },
+      {
+        "id": "b50bc1f0597d37b4f508",
+        "label": "no",
+        "reason": "The answer describes rain, not snow."
+      },
+      {
+        "id": "b76251ad395980c7d09a",
+        "label": "no",
+        "reason": "Drumming is an activity involving drums, not the drum itself."
+      },
+      {
+        "id": "4c9653df5ceb8f3cc731",
+        "label": "no",
+        "reason": "The answer identifies a banana, not a pineapple."
+      },
+      {
+        "id": "b273f546ce12abe183b1",
+        "label": "no",
+        "reason": "Cultural fusion is not a drum."
+      },
+      {
+        "id": "0b6a961a064b45d8481d",
+        "label": "yes",
+        "reason": "The answer explicitly identifies banana."
+      },
+      {
+        "id": "36c04b8f7445f2a66a49",
+        "label": "yes",
+        "reason": "The answer explicitly names scissors."
+      },
+      {
+        "id": "ae8e05328309d979807a",
+        "label": "no",
+        "reason": "Coral is a different marine organism, not an octopus."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"6f8859a85b8ac4eb8075\",\"label\":\"no\",\"reason\":\"A berry is a broad fruit category, not specifically a pineapple.\"},{\"id\":\"a17235defda5c2cdf370\",\"label\":\"no\",\"reason\":\"An elephant is a different animal from a lion.\"},{\"id\":\"dc77bed87d1d61398396\",\"label\":\"no\",\"reason\":\"Cacti are a different plant group, not aloe.\"},{\"id\":\"b50bc1f0597d37b4f508\",\"label\":\"no\",\"reason\":\"The answer describes rain, not snow.\"},{\"id\":\"b76251ad395980c7d09a\",\"label\":\"no\",\"reason\":\"Drumming is an activity involving drums, not the drum itself.\"},{\"id\":\"4c9653df5ceb8f3cc731\",\"label\":\"no\",\"reason\":\"The answer identifies a banana, not a pineapple.\"},{\"id\":\"b273f546ce12abe183b1\",\"label\":\"no\",\"reason\":\"Cultural fusion is not a drum.\"},{\"id\":\"0b6a961a064b45d8481d\",\"label\":\"yes\",\"reason\":\"The answer explicitly identifies banana.\"},{\"id\":\"36c04b8f7445f2a66a49\",\"label\":\"yes\",\"reason\":\"The answer explicitly names scissors.\"},{\"id\":\"ae8e05328309d979807a\",\"label\":\"no\",\"reason\":\"Coral is a different marine organism, not an octopus.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 840,
+    "started": "2026-11-26T08:28:50.819431+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 439,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 108,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 525,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 964
+    }
+  }
+}
