@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "warm_growing_regions",
+      "sentence": "Commercial fields are concentrated in warm tropical and subtropical regions, where year-round temperatures support continuous growth."
+    },
+    {
+      "fact_key": "frost_sensitivity",
+      "sentence": "Even brief frost can injure these plants, making frost-free locations important for dependable cultivation."
+    },
+    {
+      "fact_key": "soil_and_drainage",
+      "sentence": "They grow best in deep, fertile, well-drained soil; standing water around the roots can encourage disease."
+    },
+    {
+      "fact_key": "rainfall_and_irrigation",
+      "sentence": "In humid climates, ample rainfall supports rapid growth, while irrigation can help during prolonged dry spells."
+    },
+    {
+      "fact_key": "sunlight_conditions",
+      "sentence": "Open, sunny sites favor vigorous growth, whereas dense shade can slow development and reduce yields."
+    },
+    {
+      "fact_key": "wind_exposure",
+      "sentence": "Strong winds can shred the broad leaves or topple laden plants, so sheltered fields and windbreaks are useful."
+    },
+    {
+      "fact_key": "elevation_and_temperature",
+      "sentence": "Cooler conditions at higher elevations slow development, so commercial cultivation is generally concentrated at lower tropical elevations."
+    },
+    {
+      "fact_key": "mixed_farm_plantings",
+      "sentence": "On small farms, these plants are sometimes integrated into mixed tropical plantings alongside crops such as coffee or cacao."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Commercial fields are concentrated in warm tropical and subtropical regions, where year-round temperatures support continuous growth.\",\"fact_key\":\"warm_growing_regions\"},{\"sentence\":\"Even brief frost can injure these plants, making frost-free locations important for dependable cultivation.\",\"fact_key\":\"frost_sensitivity\"},{\"sentence\":\"They grow best in deep, fertile, well-drained soil; standing water around the roots can encourage disease.\",\"fact_key\":\"soil_and_drainage\"},{\"sentence\":\"In humid climates, ample rainfall supports rapid growth, while irrigation can help during prolonged dry spells.\",\"fact_key\":\"rainfall_and_irrigation\"},{\"sentence\":\"Open, sunny sites favor vigorous growth, whereas dense shade can slow development and reduce yields.\",\"fact_key\":\"sunlight_conditions\"},{\"sentence\":\"Strong winds can shred the broad leaves or topple laden plants, so sheltered fields and windbreaks are useful.\",\"fact_key\":\"wind_exposure\"},{\"sentence\":\"Cooler conditions at higher elevations slow development, so commercial cultivation is generally concentrated at lower tropical elevations.\",\"fact_key\":\"elevation_and_temperature\"},{\"sentence\":\"On small farms, these plants are sometimes integrated into mixed tropical plantings alongside crops such as coffee or cacao.\",\"fact_key\":\"mixed_farm_plantings\"}]}",
+  "rejected": [],
+  "request_hash": "ca957300f923917cf7ce33da42df66fa46f18d237eef2f3e6034b8f7ddef38ef",
+  "usage": {
+    "completion_tokens": 925,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 657,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 1280,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 1277,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2205
+  }
+}
