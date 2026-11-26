@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "counterclockwise-loosening",
+      "sentence": "To loosen a tight nut, the user seats the jaws fully on its flats and turns the handle counterclockwise."
+    },
+    {
+      "fact_key": "thread-direction-operation",
+      "sentence": "Turning the handle clockwise usually advances a conventional right-hand threaded fastener, while reverse rotation backs it out."
+    },
+    {
+      "fact_key": "short-stroke-repositioning",
+      "sentence": "In a confined area, users make short strokes and reposition the head between turns."
+    },
+    {
+      "fact_key": "close-size-fit",
+      "sentence": "Matching the opening closely to the fastener prevents excess play that can damage its corners."
+    },
+    {
+      "fact_key": "tubing-fitting-access",
+      "sentence": "For a flare-nut fitting, a split-ring head can pass over attached tubing before engaging the fastener's flats."
+    },
+    {
+      "fact_key": "preset-torque-limit",
+      "sentence": "A preset torque mechanism can signal or release when the applied turning force reaches its selected limit."
+    },
+    {
+      "fact_key": "alternating-tightening-sequence",
+      "sentence": "When several fasteners hold a joint, tightening them in a gradual alternating sequence helps distribute clamping pressure evenly."
+    },
+    {
+      "fact_key": "controlled-turns-after-breakaway",
+      "sentence": "After loosening a seized fastener, users often make shorter, controlled turns to avoid sudden movement as it breaks free."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"To loosen a tight nut, the user seats the jaws fully on its flats and turns the handle counterclockwise.\",\"fact_key\":\"counterclockwise-loosening\"},{\"sentence\":\"Turning the handle clockwise usually advances a conventional right-hand threaded fastener, while reverse rotation backs it out.\",\"fact_key\":\"thread-direction-operation\"},{\"sentence\":\"In a confined area, users make short strokes and reposition the head between turns.\",\"fact_key\":\"short-stroke-repositioning\"},{\"sentence\":\"Matching the opening closely to the fastener prevents excess play that can damage its corners.\",\"fact_key\":\"close-size-fit\"},{\"sentence\":\"For a flare-nut fitting, a split-ring head can pass over attached tubing before engaging the fastener's flats.\",\"fact_key\":\"tubing-fitting-access\"},{\"sentence\":\"A preset torque mechanism can signal or release when the applied turning force reaches its selected limit.\",\"fact_key\":\"preset-torque-limit\"},{\"sentence\":\"When several fasteners hold a joint, tightening them in a gradual alternating sequence helps distribute clamping pressure evenly.\",\"fact_key\":\"alternating-tightening-sequence\"},{\"sentence\":\"After loosening a seized fastener, users often make shorter, controlled turns to avoid sudden movement as it breaks free.\",\"fact_key\":\"controlled-turns-after-breakaway\"}]}",
+  "rejected": [],
+  "request_hash": "2b5a50abeffe1728b22d394c2cba1bb75387f474fadacfd516855fe64539a86e",
+  "usage": {
+    "completion_tokens": 989,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 714,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 773,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1762
+  }
+}
