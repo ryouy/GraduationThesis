@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "green_flour_making",
+      "sentence": "Green fruit can be peeled, dried, and milled into a fine flour used in porridges, sauces, and baked goods."
+    },
+    {
+      "fact_key": "dehydrated_snacks",
+      "sentence": "For dried snacks, ripe pieces are sliced evenly and dehydrated until reduced moisture makes them chewy and shelf-stable."
+    },
+    {
+      "fact_key": "grilling_ripe_fruit",
+      "sentence": "Halved, peeled fruits can be grilled briefly, softening the centers while natural sugars brown on the exposed surfaces."
+    },
+    {
+      "fact_key": "spiced_preserving",
+      "sentence": "Very ripe flesh can be simmered with spices into a sweet sauce or preserve."
+    },
+    {
+      "fact_key": "pulp_fermentation",
+      "sentence": "In some regions, ripe pulp is fermented with yeast, converting its sugars into alcoholic drinks."
+    },
+    {
+      "fact_key": "leaf_unfurling",
+      "sentence": "The plant's broad leaves emerge tightly rolled from the central growing point, then gradually unfurl into long blades."
+    },
+    {
+      "fact_key": "single_fruiting_cycle",
+      "sentence": "Each aboveground stem generally flowers and fruits once, then dies back as younger shoots continue the plant's growth."
+    },
+    {
+      "fact_key": "baking_in_skin",
+      "sentence": "Whole fruits can be baked in their skins until the flesh softens, then opened and served warm."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Green fruit can be peeled, dried, and milled into a fine flour used in porridges, sauces, and baked goods.\",\"fact_key\":\"green_flour_making\"},{\"sentence\":\"For dried snacks, ripe pieces are sliced evenly and dehydrated until reduced moisture makes them chewy and shelf-stable.\",\"fact_key\":\"dehydrated_snacks\"},{\"sentence\":\"Halved, peeled fruits can be grilled briefly, softening the centers while natural sugars brown on the exposed surfaces.\",\"fact_key\":\"grilling_ripe_fruit\"},{\"sentence\":\"Very ripe flesh can be simmered with spices into a sweet sauce or preserve.\",\"fact_key\":\"spiced_preserving\"},{\"sentence\":\"In some regions, ripe pulp is fermented with yeast, converting its sugars into alcoholic drinks.\",\"fact_key\":\"pulp_fermentation\"},{\"sentence\":\"The plant's broad leaves emerge tightly rolled from the central growing point, then gradually unfurl into long blades.\",\"fact_key\":\"leaf_unfurling\"},{\"sentence\":\"Each aboveground stem generally flowers and fruits once, then dies back as younger shoots continue the plant's growth.\",\"fact_key\":\"single_fruiting_cycle\"},{\"sentence\":\"Whole fruits can be baked in their skins until the flesh softens, then opened and served warm.\",\"fact_key\":\"baking_in_skin\"}]}",
+  "rejected": [],
+  "request_hash": "b16a148d24ae49ba142b799e4fca05d4fec9a750ff20299f919cf00cc48e697c",
+  "usage": {
+    "completion_tokens": 2053,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1760,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 992,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3045
+  }
+}
