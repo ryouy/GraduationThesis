@@ -82,6 +82,16 @@ document.addEventListener('DOMContentLoaded',async()=>{
         verify('right pane resizes',rect('toc').width>right);
       }else verify('tablet toc hidden',style('toc').display==='none');
     }
+    // A long file list must scroll independently of the toolbar and search.
+    if(mobile)get('menu').click();
+    const sidebar=get('sidebar'), tree=get('tree'), tools=sidebar.querySelector('.sidebar-tools'), search=sidebar.querySelector('.search-row');
+    const extra=document.createElement('div');extra.style.height='2000px';tree.append(extra);
+    const toolsTop=tools.getBoundingClientRect().top, searchTop=search.getBoundingClientRect().top;
+    tree.scrollTop=300;
+    verify('file tree scrolls independently',tree.scrollTop>0&&sidebar.scrollTop===0);
+    verify('sidebar controls stay fixed',tools.getBoundingClientRect().top===toolsTop&&search.getBoundingClientRect().top===searchTop);
+    extra.remove();tree.scrollTop=0;
+    if(mobile)get('close-menu').click();
   }catch(e){checks.push([String(e),false])}
   const output=document.createElement('pre');output.id='smoke-result';
   output.textContent=checks.every(x=>x[1])?'PASS':JSON.stringify(checks);
