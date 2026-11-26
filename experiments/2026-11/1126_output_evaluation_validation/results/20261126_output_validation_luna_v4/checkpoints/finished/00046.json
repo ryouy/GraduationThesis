@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "bf9599af4dcb807c6ba2f901fda4d5327e1be58292da362428f7efc3a3ebab96",
+    "items": [
+      {
+        "id": "0eec2c8bf35b056bf07f",
+        "label": "no",
+        "reason": "Ginger is a different plant, not pineapple."
+      },
+      {
+        "id": "f3869ed314371a4a2dd9",
+        "label": "no",
+        "reason": "Grapes are a fruit, not a bicycle."
+      },
+      {
+        "id": "4bd25138d893f4059845",
+        "label": "no",
+        "reason": "A smoothie bowl is a dish, not a banana."
+      },
+      {
+        "id": "2ce6eb9566448b04a68b",
+        "label": "no",
+        "reason": "A bicycle is a different vehicle, not a submarine."
+      },
+      {
+        "id": "d113306398755b1c0899",
+        "label": "no",
+        "reason": "A jellyfish is a different sea animal, not an octopus."
+      },
+      {
+        "id": "9422d1ddaee7e2f5c58e",
+        "label": "no",
+        "reason": "A guitar is a different instrument, not a drum."
+      },
+      {
+        "id": "3e18764b57d3e0b44183",
+        "label": "no",
+        "reason": "The answer refers to an elephant, not a lion."
+      },
+      {
+        "id": "1629bbda3756c8294855",
+        "label": "no",
+        "reason": "Scissors are a different cutting tool, not pliers."
+      },
+      {
+        "id": "a7553fc8a3469bae5f84",
+        "label": "no",
+        "reason": "The answer describes a jellyfish, not an octopus."
+      },
+      {
+        "id": "a4f2c5424cc1ae9e7b69",
+        "label": "no",
+        "reason": "An insect community gathering is not an ant."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"0eec2c8bf35b056bf07f\",\"label\":\"no\",\"reason\":\"Ginger is a different plant, not pineapple.\"},{\"id\":\"f3869ed314371a4a2dd9\",\"label\":\"no\",\"reason\":\"Grapes are a fruit, not a bicycle.\"},{\"id\":\"4bd25138d893f4059845\",\"label\":\"no\",\"reason\":\"A smoothie bowl is a dish, not a banana.\"},{\"id\":\"2ce6eb9566448b04a68b\",\"label\":\"no\",\"reason\":\"A bicycle is a different vehicle, not a submarine.\"},{\"id\":\"d113306398755b1c0899\",\"label\":\"no\",\"reason\":\"A jellyfish is a different sea animal, not an octopus.\"},{\"id\":\"9422d1ddaee7e2f5c58e\",\"label\":\"no\",\"reason\":\"A guitar is a different instrument, not a drum.\"},{\"id\":\"3e18764b57d3e0b44183\",\"label\":\"no\",\"reason\":\"The answer refers to an elephant, not a lion.\"},{\"id\":\"1629bbda3756c8294855\",\"label\":\"no\",\"reason\":\"Scissors are a different cutting tool, not pliers.\"},{\"id\":\"a7553fc8a3469bae5f84\",\"label\":\"no\",\"reason\":\"The answer describes a jellyfish, not an octopus.\"},{\"id\":\"a4f2c5424cc1ae9e7b69\",\"label\":\"no\",\"reason\":\"An insect community gathering is not an ant.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 460,
+    "started": "2026-11-26T08:23:04.954296+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 389,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 39,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 530,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 919
+    }
+  }
+}
