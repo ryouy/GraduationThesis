@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "vertical_partition",
+      "sentence": "A central vertical partition can split the interior into narrower bays, supporting separate arrangements of stored objects."
+    },
+    {
+      "fact_key": "shallow_depth",
+      "sentence": "Many designs have a shallow front-to-back depth, allowing them to fit along walls without projecting far into a room."
+    },
+    {
+      "fact_key": "flat_top_surface",
+      "sentence": "The top panel is usually broad and flat, forming an additional surface above the stacked storage levels."
+    },
+    {
+      "fact_key": "raised_base",
+      "sentence": "A bottom plinth or short legs can lift the lowest panel above the floor and provide clearance for cleaning."
+    },
+    {
+      "fact_key": "panel_joinery",
+      "sentence": "Fasteners such as dowels, screws, and cam connectors join panels at corners and help hold the frame together."
+    },
+    {
+      "fact_key": "edge_banding",
+      "sentence": "Edge banding may cover exposed cuts along panel edges, giving them a smoother finished perimeter."
+    },
+    {
+      "fact_key": "lateral_bracing",
+      "sentence": "Some frames include cross-bracing or diagonal tension hardware to resist side-to-side wobbling."
+    },
+    {
+      "fact_key": "continuous_side_panels",
+      "sentence": "Continuous side panels can extend from base to top, enclosing each level laterally and defining the structure's overall height."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"A central vertical partition can split the interior into narrower bays, supporting separate arrangements of stored objects.\",\"fact_key\":\"vertical_partition\"},{\"sentence\":\"Many designs have a shallow front-to-back depth, allowing them to fit along walls without projecting far into a room.\",\"fact_key\":\"shallow_depth\"},{\"sentence\":\"The top panel is usually broad and flat, forming an additional surface above the stacked storage levels.\",\"fact_key\":\"flat_top_surface\"},{\"sentence\":\"A bottom plinth or short legs can lift the lowest panel above the floor and provide clearance for cleaning.\",\"fact_key\":\"raised_base\"},{\"sentence\":\"Fasteners such as dowels, screws, and cam connectors join panels at corners and help hold the frame together.\",\"fact_key\":\"panel_joinery\"},{\"sentence\":\"Edge banding may cover exposed cuts along panel edges, giving them a smoother finished perimeter.\",\"fact_key\":\"edge_banding\"},{\"sentence\":\"Some frames include cross-bracing or diagonal tension hardware to resist side-to-side wobbling.\",\"fact_key\":\"lateral_bracing\"},{\"sentence\":\"Continuous side panels can extend from base to top, enclosing each level laterally and defining the structure's overall height.\",\"fact_key\":\"continuous_side_panels\"}]}",
+  "rejected": [],
+  "request_hash": "d1999886a8a6d7b22bbe9f435c47b4d3780468e40f1c82a8127360f94fdbd1c0",
+  "usage": {
+    "completion_tokens": 952,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 694,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 492,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1444
+  }
+}
