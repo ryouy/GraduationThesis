@@ -65,3 +65,10 @@ main{grid-area:main;min-width:0;max-width:100%;overflow-x:clip}
 #tree .folder-entry::before{content:"";display:inline-block;width:13px;height:13px;vertical-align:-2px;margin-right:5px;background:currentColor;mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='black' stroke-width='2' stroke-linejoin='round' d='M3 6a2 2 0 0 1 2-2h5l2 3h7a2 2 0 0 1 2 2v10H3z'/%3E%3C/svg%3E") center/contain no-repeat}
 #tree details[open]>.folder-entry::before{mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='black' stroke-width='2' stroke-linejoin='round' d='M3 19V5h7l2 3h8v3M3 19l4-8h15l-4 8z'/%3E%3C/svg%3E")}
 #tree .folder-view{font-size:11px;color:var(--muted)}
+
+/* README overview illustration: text wraps on its left, sections below remain full width. */
+#content img[align="right"]{float:right;width:48%;max-width:48%;height:auto;margin:0 0 12px 20px}
+#content br[clear="right"]{clear:right;display:block}
+#content:has(img[align="right"]) h2{clear:both}
+@container (max-width: 420px){#content img[align="right"]{float:none;display:block;width:100%;max-width:100%;margin:8px auto 14px}}
+main{container-type:inline-size}
