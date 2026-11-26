@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "fbc7485744c15b0fd9d67d569dba4c95e6af1e83b28e8911726d47c25e8e6b21",
+    "items": [
+      {
+        "id": "0b0bfe112a617b625012",
+        "label": "no",
+        "reason": "A guitar is a different musical instrument, not a tambourine."
+      },
+      {
+        "id": "93e79e30b5b1610b495c",
+        "label": "no",
+        "reason": "The answer explicitly identifies an elephant, not a lion."
+      },
+      {
+        "id": "6c9863841d75439f2407",
+        "label": "no",
+        "reason": "A desert succulent is a broad category, not specifically a cactus."
+      },
+      {
+        "id": "b0ae6f4844d08622a503",
+        "label": "no",
+        "reason": "This generic description of a protective beast does not identify a lion."
+      },
+      {
+        "id": "30d806fa03da94efde6b",
+        "label": "no",
+        "reason": "A guitar is a different musical instrument, not a drum."
+      },
+      {
+        "id": "7f3ace27206d56998d91",
+        "label": "yes",
+        "reason": "The answer directly names a jellyfish."
+      },
+      {
+        "id": "9234fd6c60b3b21fb45a",
+        "label": "no",
+        "reason": "A jellyfish is a different animal, not an octopus."
+      },
+      {
+        "id": "6fe78aa75ab99d37cb49",
+        "label": "no",
+        "reason": "This generic description does not specifically identify an elephant."
+      },
+      {
+        "id": "102aee59d03ab2b3d670",
+        "label": "no",
+        "reason": "A grapefruit is a different fruit, not a pineapple."
+      },
+      {
+        "id": "acebd77ecc5d97368fd2",
+        "label": "no",
+        "reason": "A craftsmanship tool is a broad category and does not specifically identify pliers."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"0b0bfe112a617b625012\",\"label\":\"no\",\"reason\":\"A guitar is a different musical instrument, not a tambourine.\"},{\"id\":\"93e79e30b5b1610b495c\",\"label\":\"no\",\"reason\":\"The answer explicitly identifies an elephant, not a lion.\"},{\"id\":\"6c9863841d75439f2407\",\"label\":\"no\",\"reason\":\"A desert succulent is a broad category, not specifically a cactus.\"},{\"id\":\"b0ae6f4844d08622a503\",\"label\":\"no\",\"reason\":\"This generic description of a protective beast does not identify a lion.\"},{\"id\":\"30d806fa03da94efde6b\",\"label\":\"no\",\"reason\":\"A guitar is a different musical instrument, not a drum.\"},{\"id\":\"7f3ace27206d56998d91\",\"label\":\"yes\",\"reason\":\"The answer directly names a jellyfish.\"},{\"id\":\"9234fd6c60b3b21fb45a\",\"label\":\"no\",\"reason\":\"A jellyfish is a different animal, not an octopus.\"},{\"id\":\"6fe78aa75ab99d37cb49\",\"label\":\"no\",\"reason\":\"This generic description does not specifically identify an elephant.\"},{\"id\":\"102aee59d03ab2b3d670\",\"label\":\"no\",\"reason\":\"A grapefruit is a different fruit, not a pineapple.\"},{\"id\":\"acebd77ecc5d97368fd2\",\"label\":\"no\",\"reason\":\"A craftsmanship tool is a broad category and does not specifically identify pliers.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 410,
+    "started": "2026-11-26T08:22:18.014243+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 491,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 139,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 525,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1016
+    }
+  }
+}
