@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "shaft_and_tip",
+      "sentence": "A rigid metal shaft extends from a thicker handle, ending in a tip shaped to engage a fastener."
+    },
+    {
+      "fact_key": "handle_material",
+      "sentence": "The handle is commonly molded from plastic, sometimes with a soft rubberized layer for improved grip."
+    },
+    {
+      "fact_key": "hardened_steel",
+      "sentence": "The working shaft is often made of hardened steel to resist bending and wear during use."
+    },
+    {
+      "fact_key": "grip_texture",
+      "sentence": "Raised ribs or textured patterns on the handle surface can help prevent a hand from slipping."
+    },
+    {
+      "fact_key": "replaceable_tips",
+      "sentence": "Some models accept removable tips that attach to the shaft, allowing different working profiles to be fitted."
+    },
+    {
+      "fact_key": "magnetized_tip",
+      "sentence": "A magnetized tip can hold a small metal fastener in place while it is being positioned."
+    },
+    {
+      "fact_key": "ratcheting_mechanism",
+      "sentence": "In some designs, an internal mechanism lets the handle turn while the shaft remains engaged with a fastener."
+    },
+    {
+      "fact_key": "shaft_geometry",
+      "sentence": "The shaft may be straight or bent near its handle, changing the angle at which its tip reaches a fastener."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"A rigid metal shaft extends from a thicker handle, ending in a tip shaped to engage a fastener.\",\"fact_key\":\"shaft_and_tip\"},{\"sentence\":\"The handle is commonly molded from plastic, sometimes with a soft rubberized layer for improved grip.\",\"fact_key\":\"handle_material\"},{\"sentence\":\"The working shaft is often made of hardened steel to resist bending and wear during use.\",\"fact_key\":\"hardened_steel\"},{\"sentence\":\"Raised ribs or textured patterns on the handle surface can help prevent a hand from slipping.\",\"fact_key\":\"grip_texture\"},{\"sentence\":\"Some models accept removable tips that attach to the shaft, allowing different working profiles to be fitted.\",\"fact_key\":\"replaceable_tips\"},{\"sentence\":\"A magnetized tip can hold a small metal fastener in place while it is being positioned.\",\"fact_key\":\"magnetized_tip\"},{\"sentence\":\"In some designs, an internal mechanism lets the handle turn while the shaft remains engaged with a fastener.\",\"fact_key\":\"ratcheting_mechanism\"},{\"sentence\":\"The shaft may be straight or bent near its handle, changing the angle at which its tip reaches a fastener.\",\"fact_key\":\"shaft_geometry\"}]}",
+  "rejected": [],
+  "request_hash": "6526aa1924a6096f15ff40cf1e7f17cfaa55001f9c28d18ada3581120f342bcf",
+  "usage": {
+    "completion_tokens": 517,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 267,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 220,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 737
+  }
+}
