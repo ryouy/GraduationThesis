@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "014d601d1c0dc511f97728341800dfdcadfaef0662cecc137dc0f6277de719a9",
+    "items": [
+      {
+        "id": "c67c93ec19c0572e93fb",
+        "label": "1",
+        "reason": "Jellyfish have tentacles, but they are not known for precisely manipulating their surroundings; the clue fits creatures like octopuses better."
+      },
+      {
+        "id": "6c3de7bd006adbc62307",
+        "label": "2",
+        "reason": "Grapefruit is a juicy fruit that can be used in fruit salads and smoothies, though it is often tart."
+      },
+      {
+        "id": "a351fcc2276530813e12",
+        "label": "2",
+        "reason": "A guitar is typically held in hand and can produce cheerful music suitable for festive occasions."
+      },
+      {
+        "id": "f51e1478dcd7b5150db5",
+        "label": "1",
+        "reason": "Scissors apply pressure to cut materials, but they are not typically used to adjust components with precision."
+      },
+      {
+        "id": "6f37f37124d32a4c4f9b",
+        "label": "2",
+        "reason": "A drum has a surface that vibrates when struck and contributes to a musical piece."
+      },
+      {
+        "id": "47a1a0b6fc98ab85e53b",
+        "label": "2",
+        "reason": "The answer accurately describes drumming as providing rhythm and a beat across musical styles."
+      },
+      {
+        "id": "3198bee00d2c344c1f18",
+        "label": "2",
+        "reason": "A bicycle is a means of transportation, fitting the clue's reference to travel in different environments."
+      },
+      {
+        "id": "b58732880a0be3bf7206",
+        "label": "2",
+        "reason": "A bookcase is a tall structure that holds objects and helps organize a room."
+      },
+      {
+        "id": "99285856528ab89b1bc8",
+        "label": "2",
+        "reason": "The answer identifies raindrops and describes their renewing effect, matching the clue."
+      },
+      {
+        "id": "9a501b39f2bcda03f533",
+        "label": "2",
+        "reason": "The answer identifies raindrops and their rejuvenating effect, matching the clue."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"c67c93ec19c0572e93fb\",\"label\":\"1\",\"reason\":\"Jellyfish have tentacles, but they are not known for precisely manipulating their surroundings; the clue fits creatures like octopuses better.\"},{\"id\":\"6c3de7bd006adbc62307\",\"label\":\"2\",\"reason\":\"Grapefruit is a juicy fruit that can be used in fruit salads and smoothies, though it is often tart.\"},{\"id\":\"a351fcc2276530813e12\",\"label\":\"2\",\"reason\":\"A guitar is typically held in hand and can produce cheerful music suitable for festive occasions.\"},{\"id\":\"f51e1478dcd7b5150db5\",\"label\":\"1\",\"reason\":\"Scissors apply pressure to cut materials, but they are not typically used to adjust components with precision.\"},{\"id\":\"6f37f37124d32a4c4f9b\",\"label\":\"2\",\"reason\":\"A drum has a surface that vibrates when struck and contributes to a musical piece.\"},{\"id\":\"47a1a0b6fc98ab85e53b\",\"label\":\"2\",\"reason\":\"The answer accurately describes drumming as providing rhythm and a beat across musical styles.\"},{\"id\":\"3198bee00d2c344c1f18\",\"label\":\"2\",\"reason\":\"A bicycle is a means of transportation, fitting the clue's reference to travel in different environments.\"},{\"id\":\"b58732880a0be3bf7206\",\"label\":\"2\",\"reason\":\"A bookcase is a tall structure that holds objects and helps organize a room.\"},{\"id\":\"99285856528ab89b1bc8\",\"label\":\"2\",\"reason\":\"The answer identifies raindrops and describes their renewing effect, matching the clue.\"},{\"id\":\"9a501b39f2bcda03f533\",\"label\":\"2\",\"reason\":\"The answer identifies raindrops and their rejuvenating effect, matching the clue.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 320,
+    "started": "2026-11-26T09:32:26.565055+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 865,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 441,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 714,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1579
+    }
+  }
+}
