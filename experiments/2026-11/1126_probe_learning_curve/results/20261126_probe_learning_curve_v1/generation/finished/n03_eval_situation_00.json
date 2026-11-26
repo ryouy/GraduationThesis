@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "fire_station_gear_drying",
+      "sentence": "In fire stations, ventilated storage compartments let damp turnout clothing dry between calls while keeping protective gear near vehicle bays."
+    },
+    {
+      "fact_key": "laundromat_supply_storage",
+      "sentence": "In laundromats, closed storage keeps detergent refills and cleaning supplies away from customer work surfaces."
+    },
+    {
+      "fact_key": "gymnasium_sports_equipment",
+      "sentence": "In gymnasiums, lockable compartments hold balls and practice equipment between scheduled classes and community events."
+    },
+    {
+      "fact_key": "darkroom_light_protection",
+      "sentence": "In photographic darkrooms, opaque drawers shield unexposed paper from stray light until prints are prepared."
+    },
+    {
+      "fact_key": "greenhouse_gardening_supplies",
+      "sentence": "In greenhouses, enclosed spaces keep seed packets and hand tools together and away from damp work benches."
+    },
+    {
+      "fact_key": "dental_instrument_storage",
+      "sentence": "In dental practices, enclosed storage protects sterilized instruments until staff prepare treatment rooms."
+    },
+    {
+      "fact_key": "substation_control_relays",
+      "sentence": "In electrical substations, weather-resistant enclosures shelter control relays from rain and restrict access to authorized maintenance workers."
+    },
+    {
+      "fact_key": "hotel_housekeeping_linen",
+      "sentence": "In hotel housekeeping rooms, enclosed storage keeps spare bedding sorted by size and ready for room turnover."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"In fire stations, ventilated storage compartments let damp turnout clothing dry between calls while keeping protective gear near vehicle bays.\",\"fact_key\":\"fire_station_gear_drying\"},{\"sentence\":\"In laundromats, closed storage keeps detergent refills and cleaning supplies away from customer work surfaces.\",\"fact_key\":\"laundromat_supply_storage\"},{\"sentence\":\"In gymnasiums, lockable compartments hold balls and practice equipment between scheduled classes and community events.\",\"fact_key\":\"gymnasium_sports_equipment\"},{\"sentence\":\"In photographic darkrooms, opaque drawers shield unexposed paper from stray light until prints are prepared.\",\"fact_key\":\"darkroom_light_protection\"},{\"sentence\":\"In greenhouses, enclosed spaces keep seed packets and hand tools together and away from damp work benches.\",\"fact_key\":\"greenhouse_gardening_supplies\"},{\"sentence\":\"In dental practices, enclosed storage protects sterilized instruments until staff prepare treatment rooms.\",\"fact_key\":\"dental_instrument_storage\"},{\"sentence\":\"In electrical substations, weather-resistant enclosures shelter control relays from rain and restrict access to authorized maintenance workers.\",\"fact_key\":\"substation_control_relays\"},{\"sentence\":\"In hotel housekeeping rooms, enclosed storage keeps spare bedding sorted by size and ready for room turnover.\",\"fact_key\":\"hotel_housekeeping_linen\"}]}",
+  "rejected": [],
+  "request_hash": "69caf90a093dae2d049cd2124fca834f16f14b026d614d00f7d432a0e826dc0b",
+  "usage": {
+    "completion_tokens": 1299,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1022,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 3120,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 3117,
+      "cached_tokens": 0
+    },
+    "total_tokens": 4419
+  }
+}
