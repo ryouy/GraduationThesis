@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "0b1ecb9f6b66da46a957c40da2b8911cf1cdbf50a7373c9fd36797b2c9f676a7",
+    "items": [
+      {
+        "id": "e6d54bff35affd4128e9",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from pineapple."
+      },
+      {
+        "id": "58ae693f34d575212942",
+        "label": "yes",
+        "reason": "Raindrops are the defining precipitation of rain."
+      },
+      {
+        "id": "2635fffe688c73f23aba",
+        "label": "no",
+        "reason": "Craftsmanship is an activity, not scissors."
+      },
+      {
+        "id": "f8aeee40d2f650c8f8e8",
+        "label": "yes",
+        "reason": "The answer names jellyfish directly."
+      },
+      {
+        "id": "fb4c9726ea8edf01ab53",
+        "label": "yes",
+        "reason": "Raindrops are the defining precipitation of rain."
+      },
+      {
+        "id": "54e0d040ad177ed85e0f",
+        "label": "no",
+        "reason": "A jellyfish is a different animal from an octopus."
+      },
+      {
+        "id": "a4a47166a52a41708ac2",
+        "label": "no",
+        "reason": "Reading enthusiasts are unrelated to elephants."
+      },
+      {
+        "id": "521c242b833f0f197f55",
+        "label": "no",
+        "reason": "Circumnavigation dance does not identify a tambourine."
+      },
+      {
+        "id": "379c73e4fb8a03b47228",
+        "label": "no",
+        "reason": "A curtain room does not identify a bookshelf."
+      },
+      {
+        "id": "c5190a4734b5b30bc9ff",
+        "label": "no",
+        "reason": "A guitar is a different musical instrument from a tambourine."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"e6d54bff35affd4128e9\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from pineapple.\"},{\"id\":\"58ae693f34d575212942\",\"label\":\"yes\",\"reason\":\"Raindrops are the defining precipitation of rain.\"},{\"id\":\"2635fffe688c73f23aba\",\"label\":\"no\",\"reason\":\"Craftsmanship is an activity, not scissors.\"},{\"id\":\"f8aeee40d2f650c8f8e8\",\"label\":\"yes\",\"reason\":\"The answer names jellyfish directly.\"},{\"id\":\"fb4c9726ea8edf01ab53\",\"label\":\"yes\",\"reason\":\"Raindrops are the defining precipitation of rain.\"},{\"id\":\"54e0d040ad177ed85e0f\",\"label\":\"no\",\"reason\":\"A jellyfish is a different animal from an octopus.\"},{\"id\":\"a4a47166a52a41708ac2\",\"label\":\"no\",\"reason\":\"Reading enthusiasts are unrelated to elephants.\"},{\"id\":\"521c242b833f0f197f55\",\"label\":\"no\",\"reason\":\"Circumnavigation dance does not identify a tambourine.\"},{\"id\":\"379c73e4fb8a03b47228\",\"label\":\"no\",\"reason\":\"A curtain room does not identify a bookshelf.\"},{\"id\":\"c5190a4734b5b30bc9ff\",\"label\":\"no\",\"reason\":\"A guitar is a different musical instrument from a tambourine.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 850,
+    "started": "2026-11-26T08:28:59.215559+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 392,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 58,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 531,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 923
+    }
+  }
+}
