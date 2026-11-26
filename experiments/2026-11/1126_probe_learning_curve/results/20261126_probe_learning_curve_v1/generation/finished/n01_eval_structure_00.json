@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "headset_bearing_support",
+      "sentence": "Sealed bearings inside the head tube let the fork rotate smoothly while supporting steering loads."
+    },
+    {
+      "fact_key": "bottom_bracket_bearings",
+      "sentence": "A bottom-bracket shell houses bearings around the axle that joins the two crank arms."
+    },
+    {
+      "fact_key": "derailleur_chain_guidance",
+      "sentence": "A rear derailleur guides the chain between sprockets and uses a spring-loaded cage to maintain tension."
+    },
+    {
+      "fact_key": "freehub_ratchet_mechanism",
+      "sentence": "A ratcheting freehub engages during pedaling but lets the rear wheel turn while the pedals remain still."
+    },
+    {
+      "fact_key": "seatpost_and_clamp",
+      "sentence": "A seatpost slides inside the frame’s seat tube, where a clamp holds it at the chosen height."
+    },
+    {
+      "fact_key": "handlebar_tape_and_positions",
+      "sentence": "Cushioned tape wrapped around drop handlebars adds grip and gives the rider several hand positions."
+    },
+    {
+      "fact_key": "tubeless_rim_sealant",
+      "sentence": "In a tubeless setup, the tire bead seals against the rim, while liquid sealant can close small punctures."
+    },
+    {
+      "fact_key": "reinforced_rim_eyelets",
+      "sentence": "Metal eyelets in some rims reinforce the holes where spoke nipples attach, helping distribute tension around the wheel."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"Sealed bearings inside the head tube let the fork rotate smoothly while supporting steering loads.\",\"fact_key\":\"headset_bearing_support\"},{\"sentence\":\"A bottom-bracket shell houses bearings around the axle that joins the two crank arms.\",\"fact_key\":\"bottom_bracket_bearings\"},{\"sentence\":\"A rear derailleur guides the chain between sprockets and uses a spring-loaded cage to maintain tension.\",\"fact_key\":\"derailleur_chain_guidance\"},{\"sentence\":\"A ratcheting freehub engages during pedaling but lets the rear wheel turn while the pedals remain still.\",\"fact_key\":\"freehub_ratchet_mechanism\"},{\"sentence\":\"A seatpost slides inside the frame’s seat tube, where a clamp holds it at the chosen height.\",\"fact_key\":\"seatpost_and_clamp\"},{\"sentence\":\"Cushioned tape wrapped around drop handlebars adds grip and gives the rider several hand positions.\",\"fact_key\":\"handlebar_tape_and_positions\"},{\"sentence\":\"In a tubeless setup, the tire bead seals against the rim, while liquid sealant can close small punctures.\",\"fact_key\":\"tubeless_rim_sealant\"},{\"sentence\":\"Metal eyelets in some rims reinforce the holes where spoke nipples attach, helping distribute tension around the wheel.\",\"fact_key\":\"reinforced_rim_eyelets\"}]}",
+  "rejected": [],
+  "request_hash": "e6c39d7b891415c008bc34a24779ac38c7a5cb977fa1ed15d0b021b0017717dd",
+  "usage": {
+    "completion_tokens": 660,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 385,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2474,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2471,
+      "cached_tokens": 0
+    },
+    "total_tokens": 3134
+  }
+}
