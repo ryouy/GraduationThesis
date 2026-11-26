@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "594587911bac10168052b5360edd9259396e5e6bd0754e1ef82c811b78e142ba",
+    "items": [
+      {
+        "id": "72942b859a54d0b789c1",
+        "label": "2",
+        "reason": "Insects typically have segmented bodies and six legs."
+      },
+      {
+        "id": "b8a37d4a1e3a763718c1",
+        "label": "1",
+        "reason": "Cacti store water, but mainly in their fleshy stems rather than thick leaves."
+      },
+      {
+        "id": "05df7be7ddaefe1da243",
+        "label": "2",
+        "reason": "Scissors have handles users grip to apply force and manipulate material while cutting."
+      },
+      {
+        "id": "eebbfc5e45e5b19b6225",
+        "label": "2",
+        "reason": "Raindrops fall from moisture-laden clouds and provide water to ecosystems."
+      },
+      {
+        "id": "ac5e18f7ee27960aa83e",
+        "label": "1",
+        "reason": "Grapefruit is used in desserts and smoothies, but its interior is juicy rather than soft and creamy."
+      },
+      {
+        "id": "07da5d9fa348759da322",
+        "label": "1",
+        "reason": "The clue describes an organized creature such as an ant, while the answer names a community rather than the creature."
+      },
+      {
+        "id": "c6a3eedea252359c5a68",
+        "label": "2",
+        "reason": "Scissors have two sharp edges joined at a pivot for cutting."
+      },
+      {
+        "id": "3937f19bc22796b8ae6d",
+        "label": "1",
+        "reason": "The answer repeats the thermoregulating feature, but does not identify the creature with large ears."
+      },
+      {
+        "id": "6e549e7524b88ae75462",
+        "label": "0",
+        "reason": "An insectivore is an animal that eats insects, not the industrious insect described."
+      },
+      {
+        "id": "d1d1affbeeb908e04589",
+        "label": "2",
+        "reason": "A jellyfish can expand and contract its bell, changing its silhouette and aiding movement."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"72942b859a54d0b789c1\",\"label\":\"2\",\"reason\":\"Insects typically have segmented bodies and six legs.\"},{\"id\":\"b8a37d4a1e3a763718c1\",\"label\":\"1\",\"reason\":\"Cacti store water, but mainly in their fleshy stems rather than thick leaves.\"},{\"id\":\"05df7be7ddaefe1da243\",\"label\":\"2\",\"reason\":\"Scissors have handles users grip to apply force and manipulate material while cutting.\"},{\"id\":\"eebbfc5e45e5b19b6225\",\"label\":\"2\",\"reason\":\"Raindrops fall from moisture-laden clouds and provide water to ecosystems.\"},{\"id\":\"ac5e18f7ee27960aa83e\",\"label\":\"1\",\"reason\":\"Grapefruit is used in desserts and smoothies, but its interior is juicy rather than soft and creamy.\"},{\"id\":\"07da5d9fa348759da322\",\"label\":\"1\",\"reason\":\"The clue describes an organized creature such as an ant, while the answer names a community rather than the creature.\"},{\"id\":\"c6a3eedea252359c5a68\",\"label\":\"2\",\"reason\":\"Scissors have two sharp edges joined at a pivot for cutting.\"},{\"id\":\"3937f19bc22796b8ae6d\",\"label\":\"1\",\"reason\":\"The answer repeats the thermoregulating feature, but does not identify the creature with large ears.\"},{\"id\":\"6e549e7524b88ae75462\",\"label\":\"0\",\"reason\":\"An insectivore is an animal that eats insects, not the industrious insect described.\"},{\"id\":\"d1d1affbeeb908e04589\",\"label\":\"2\",\"reason\":\"A jellyfish can expand and contract its bell, changing its silhouette and aiding movement.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 90,
+    "started": "2026-11-26T08:35:45.194873+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 706,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 304,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 687,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1393
+    }
+  }
+}
