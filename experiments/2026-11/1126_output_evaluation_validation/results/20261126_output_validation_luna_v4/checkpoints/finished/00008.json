@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "fe77dd05c8f6e079f7681d40f165329e6f8e73615b7a81afcf0eba896114741f",
+    "items": [
+      {
+        "id": "ce144c74bec4f7fb67d9",
+        "label": "yes",
+        "reason": "The answer directly names scissors."
+      },
+      {
+        "id": "9eecafd892873a6e8925",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from banana."
+      },
+      {
+        "id": "a9ece2467c4adbbb62d5",
+        "label": "no",
+        "reason": "“Memory Keeper” does not identify a lion."
+      },
+      {
+        "id": "0f813384efb9a4a06eec",
+        "label": "yes",
+        "reason": "The statement describes cacti, a subtype of cactus."
+      },
+      {
+        "id": "5569033a3f8cbadca8df",
+        "label": "yes",
+        "reason": "The answer directly names jellyfish."
+      },
+      {
+        "id": "cb3b5ebfeae9f22218ef",
+        "label": "no",
+        "reason": "Scissors are a different tool from pliers."
+      },
+      {
+        "id": "8b7c8f22d9dee35caf1a",
+        "label": "no",
+        "reason": "The answer describes raindrops, not snow."
+      },
+      {
+        "id": "757ac143d8772788c74c",
+        "label": "no",
+        "reason": "Jellyfish are a different animal from octopus."
+      },
+      {
+        "id": "ed3b11c69715424c2be6",
+        "label": "no",
+        "reason": "Grapefruit is a different fruit from banana."
+      },
+      {
+        "id": "cf3ffabd873ec25e1495",
+        "label": "no",
+        "reason": "“Speedster” does not specifically identify a bicycle."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"ce144c74bec4f7fb67d9\",\"label\":\"yes\",\"reason\":\"The answer directly names scissors.\"},{\"id\":\"9eecafd892873a6e8925\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from banana.\"},{\"id\":\"a9ece2467c4adbbb62d5\",\"label\":\"no\",\"reason\":\"“Memory Keeper” does not identify a lion.\"},{\"id\":\"0f813384efb9a4a06eec\",\"label\":\"yes\",\"reason\":\"The statement describes cacti, a subtype of cactus.\"},{\"id\":\"5569033a3f8cbadca8df\",\"label\":\"yes\",\"reason\":\"The answer directly names jellyfish.\"},{\"id\":\"cb3b5ebfeae9f22218ef\",\"label\":\"no\",\"reason\":\"Scissors are a different tool from pliers.\"},{\"id\":\"8b7c8f22d9dee35caf1a\",\"label\":\"no\",\"reason\":\"The answer describes raindrops, not snow.\"},{\"id\":\"757ac143d8772788c74c\",\"label\":\"no\",\"reason\":\"Jellyfish are a different animal from octopus.\"},{\"id\":\"ed3b11c69715424c2be6\",\"label\":\"no\",\"reason\":\"Grapefruit is a different fruit from banana.\"},{\"id\":\"cf3ffabd873ec25e1495\",\"label\":\"no\",\"reason\":\"“Speedster” does not specifically identify a bicycle.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 80,
+    "started": "2026-11-26T08:17:17.660627+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 391,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 60,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 522,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 913
+    }
+  }
+}
