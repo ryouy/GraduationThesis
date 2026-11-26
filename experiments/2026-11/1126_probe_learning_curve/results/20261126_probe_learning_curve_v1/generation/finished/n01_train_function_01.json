@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "carrying_young_passengers",
+      "sentence": "A child seat mounted behind the rider lets caregivers bring young passengers along on nearby trips."
+    },
+    {
+      "fact_key": "avoiding_urban_congestion",
+      "sentence": "In congested city centers, traveling under pedal power can bypass traffic queues and save time on short journeys."
+    },
+    {
+      "fact_key": "reducing_short_trip_emissions",
+      "sentence": "Replacing short car trips with pedal-powered journeys can reduce fuel consumption and local tailpipe emissions."
+    },
+    {
+      "fact_key": "trailer_for_passengers_and_loads",
+      "sentence": "A hitched trailer can carry children or bulky loads that would be awkward to secure on the frame."
+    },
+    {
+      "fact_key": "combining_rides_with_transit",
+      "sentence": "Secure parking near transit stops lets commuters combine a ride with a bus or train journey."
+    },
+    {
+      "fact_key": "basket_for_small_errands",
+      "sentence": "A front basket keeps small purchases close at hand, making quick grocery errands easier to manage."
+    },
+    {
+      "fact_key": "low_daily_travel_costs",
+      "sentence": "Because it needs no fuel, this form of transport can help households keep everyday travel costs low."
+    },
+    {
+      "fact_key": "charity_fundraising_rides",
+      "sentence": "Organized charity rides bring participants together on planned routes while raising money for community causes."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"A child seat mounted behind the rider lets caregivers bring young passengers along on nearby trips.\",\"fact_key\":\"carrying_young_passengers\"},{\"sentence\":\"In congested city centers, traveling under pedal power can bypass traffic queues and save time on short journeys.\",\"fact_key\":\"avoiding_urban_congestion\"},{\"sentence\":\"Replacing short car trips with pedal-powered journeys can reduce fuel consumption and local tailpipe emissions.\",\"fact_key\":\"reducing_short_trip_emissions\"},{\"sentence\":\"A hitched trailer can carry children or bulky loads that would be awkward to secure on the frame.\",\"fact_key\":\"trailer_for_passengers_and_loads\"},{\"sentence\":\"Secure parking near transit stops lets commuters combine a ride with a bus or train journey.\",\"fact_key\":\"combining_rides_with_transit\"},{\"sentence\":\"A front basket keeps small purchases close at hand, making quick grocery errands easier to manage.\",\"fact_key\":\"basket_for_small_errands\"},{\"sentence\":\"Because it needs no fuel, this form of transport can help households keep everyday travel costs low.\",\"fact_key\":\"low_daily_travel_costs\"},{\"sentence\":\"Organized charity rides bring participants together on planned routes while raising money for community causes.\",\"fact_key\":\"charity_fundraising_rides\"}]}",
+  "rejected": [],
+  "request_hash": "677e2e87ad0cc3569a4e4dfc4d45408fcc14450700ba961e2dfaf4dd2c00ed42",
+  "usage": {
+    "completion_tokens": 775,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 512,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 2148,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 2145,
+      "cached_tokens": 0
+    },
+    "total_tokens": 2923
+  }
+}
