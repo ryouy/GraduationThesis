@@ -1,0 +1,56 @@
+{
+  "accepted": [
+    {
+      "fact_key": "spine_facing_arrangement",
+      "sentence": "People often arrange volumes with their spines facing outward, making titles easier to scan and retrieve."
+    },
+    {
+      "fact_key": "retrieval_from_tight_rows",
+      "sentence": "To remove an item from a tightly packed row, neighboring volumes may be shifted aside before it is drawn out."
+    },
+    {
+      "fact_key": "grouping_items",
+      "sentence": "After use, items are returned to an open space, often grouped by subject, author, or size."
+    },
+    {
+      "fact_key": "displaying_decorations",
+      "sentence": "Decorative objects and framed photographs may share the storage space with reading materials."
+    },
+    {
+      "fact_key": "dusting_exposed_contents",
+      "sentence": "Periodic dusting clears exposed surfaces and item tops, especially when stored contents remain uncovered."
+    },
+    {
+      "fact_key": "upright_or_flat_placement",
+      "sentence": "Volumes are usually stood upright; unusually tall ones may be laid flat to avoid overhanging."
+    },
+    {
+      "fact_key": "using_end_supports",
+      "sentence": "Weighted end supports can keep upright volumes from leaning into gaps at the ends of a row."
+    },
+    {
+      "fact_key": "clearing_for_rearrangement",
+      "sentence": "During rearrangement, items may be temporarily removed so the storage positions can be changed or cleaned."
+    }
+  ],
+  "model": "gpt-6-luna",
+  "raw": "{\"items\":[{\"sentence\":\"People often arrange volumes with their spines facing outward, making titles easier to scan and retrieve.\",\"fact_key\":\"spine_facing_arrangement\"},{\"sentence\":\"To remove an item from a tightly packed row, neighboring volumes may be shifted aside before it is drawn out.\",\"fact_key\":\"retrieval_from_tight_rows\"},{\"sentence\":\"After use, items are returned to an open space, often grouped by subject, author, or size.\",\"fact_key\":\"grouping_items\"},{\"sentence\":\"Decorative objects and framed photographs may share the storage space with reading materials.\",\"fact_key\":\"displaying_decorations\"},{\"sentence\":\"Periodic dusting clears exposed surfaces and item tops, especially when stored contents remain uncovered.\",\"fact_key\":\"dusting_exposed_contents\"},{\"sentence\":\"Volumes are usually stood upright; unusually tall ones may be laid flat to avoid overhanging.\",\"fact_key\":\"upright_or_flat_placement\"},{\"sentence\":\"Weighted end supports can keep upright volumes from leaning into gaps at the ends of a row.\",\"fact_key\":\"using_end_supports\"},{\"sentence\":\"During rearrangement, items may be temporarily removed so the storage positions can be changed or cleaned.\",\"fact_key\":\"clearing_for_rearrangement\"}]}",
+  "rejected": [],
+  "request_hash": "bb3dde3961ca269be207f92a68a301460f70838e67902fc0e9d03af5fe47ccc4",
+  "usage": {
+    "completion_tokens": 801,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 539,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 760,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 1561
+  }
+}
