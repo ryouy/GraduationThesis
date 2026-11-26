@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "bd4fa78bbf230a9e2460882e91dc9c605fd6470b1dc2481346d670c8b5c5997a",
+    "items": [
+      {
+        "id": "a6cf53f83998ef718934",
+        "label": "2",
+        "reason": "It identifies the elephant and matches the clue’s memory and individual-recognition traits."
+      },
+      {
+        "id": "bdc656cccec1a9e61f99",
+        "label": "2",
+        "reason": "Cacti are adapted to arid regions and commonly have sharp features."
+      },
+      {
+        "id": "e0985d602d2fd86e427d",
+        "label": "2",
+        "reason": "An organizational bookcase can have compartments for arranging decorative items and essentials."
+      },
+      {
+        "id": "16b11f63e351fad4ef73",
+        "label": "2",
+        "reason": "Bicycle rides through parks and neighborhoods fit the scenic-route clue."
+      },
+      {
+        "id": "33a180204900a8c2ccdc",
+        "label": "2",
+        "reason": "A bookcase is a tall, multi-level unit for displaying and organizing collections."
+      },
+      {
+        "id": "6999ea302ea4b1473f34",
+        "label": "1",
+        "reason": "Scissors exert force and can alter material by cutting, but the clue’s reshaping and adjustment description is broader than their usual function."
+      },
+      {
+        "id": "64768bf32f55bdaf3ce0",
+        "label": "1",
+        "reason": "Dewdrops are liquid droplets, but the clue describes falling precipitation, not dew."
+      },
+      {
+        "id": "c81ccdf153ac1337262b",
+        "label": "2",
+        "reason": "Jellyfish can pulsate rhythmically as they move through water."
+      },
+      {
+        "id": "06326ccae21015d7fce4",
+        "label": "2",
+        "reason": "Scissors have two blades that pass one another to make cuts."
+      },
+      {
+        "id": "4a30467482a7680ceed8",
+        "label": "0",
+        "reason": "The answer concerns jellyfish and turbulent seas, not mountains shaping local weather patterns."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"a6cf53f83998ef718934\",\"label\":\"2\",\"reason\":\"It identifies the elephant and matches the clue’s memory and individual-recognition traits.\"},{\"id\":\"bdc656cccec1a9e61f99\",\"label\":\"2\",\"reason\":\"Cacti are adapted to arid regions and commonly have sharp features.\"},{\"id\":\"e0985d602d2fd86e427d\",\"label\":\"2\",\"reason\":\"An organizational bookcase can have compartments for arranging decorative items and essentials.\"},{\"id\":\"16b11f63e351fad4ef73\",\"label\":\"2\",\"reason\":\"Bicycle rides through parks and neighborhoods fit the scenic-route clue.\"},{\"id\":\"33a180204900a8c2ccdc\",\"label\":\"2\",\"reason\":\"A bookcase is a tall, multi-level unit for displaying and organizing collections.\"},{\"id\":\"6999ea302ea4b1473f34\",\"label\":\"1\",\"reason\":\"Scissors exert force and can alter material by cutting, but the clue’s reshaping and adjustment description is broader than their usual function.\"},{\"id\":\"64768bf32f55bdaf3ce0\",\"label\":\"1\",\"reason\":\"Dewdrops are liquid droplets, but the clue describes falling precipitation, not dew.\"},{\"id\":\"c81ccdf153ac1337262b\",\"label\":\"2\",\"reason\":\"Jellyfish can pulsate rhythmically as they move through water.\"},{\"id\":\"06326ccae21015d7fce4\",\"label\":\"2\",\"reason\":\"Scissors have two blades that pass one another to make cuts.\"},{\"id\":\"4a30467482a7680ceed8\",\"label\":\"0\",\"reason\":\"The answer concerns jellyfish and turbulent seas, not mountains shaping local weather patterns.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 380,
+    "started": "2026-11-26T09:33:30.208539+00:00",
+    "status": "success",
+    "task": "relevance",
+    "usage": {
+      "completion_tokens": 606,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 220,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 686,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1292
+    }
+  }
+}
