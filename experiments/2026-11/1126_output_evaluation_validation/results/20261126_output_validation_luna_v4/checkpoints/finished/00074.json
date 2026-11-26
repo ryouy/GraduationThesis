@@ -1,0 +1,83 @@
+{
+  "batch": {
+    "fingerprint": "ca600d9f068d1cb10a6d3841c369d1c0e0810a4be5c006b0f149746b4010c295",
+    "items": [
+      {
+        "id": "f4e7776b14f3abf15158",
+        "label": "no",
+        "reason": "A snowflake is a related ice crystal, not snow itself."
+      },
+      {
+        "id": "1eceac3a7c67bc235793",
+        "label": "yes",
+        "reason": "The answer explicitly identifies scissors."
+      },
+      {
+        "id": "57e17fe0191fc9437912",
+        "label": "no",
+        "reason": "A jellyfish is a different animal from an octopus."
+      },
+      {
+        "id": "930d7e193abfcb59f296",
+        "label": "no",
+        "reason": "A lemon is a different fruit from a pineapple."
+      },
+      {
+        "id": "f063c620925248224c6d",
+        "label": "yes",
+        "reason": "The answer identifies a bookshelf, modified by the mention of a sticky note."
+      },
+      {
+        "id": "cbc8a77fa33d5bd06a02",
+        "label": "no",
+        "reason": "A lemon is not a submarine."
+      },
+      {
+        "id": "1320b89c4e5dd6ceba0b",
+        "label": "no",
+        "reason": "A beetle is a different insect from an ant."
+      },
+      {
+        "id": "ec86de5f3c119335da1c",
+        "label": "no",
+        "reason": "Cacti are a different kind of plant, not aloe."
+      },
+      {
+        "id": "f3774b64039888d930c0",
+        "label": "yes",
+        "reason": "The answer explicitly identifies a jellyfish."
+      },
+      {
+        "id": "ed9cab7024dc3986efc9",
+        "label": "no",
+        "reason": "A jellyfish is a different animal from an octopus."
+      }
+    ],
+    "model": "gpt-6-luna"
+  },
+  "record": {
+    "attempt": 1,
+    "raw": "{\"items\":[{\"id\":\"f4e7776b14f3abf15158\",\"label\":\"no\",\"reason\":\"A snowflake is a related ice crystal, not snow itself.\"},{\"id\":\"1eceac3a7c67bc235793\",\"label\":\"yes\",\"reason\":\"The answer explicitly identifies scissors.\"},{\"id\":\"57e17fe0191fc9437912\",\"label\":\"no\",\"reason\":\"A jellyfish is a different animal from an octopus.\"},{\"id\":\"930d7e193abfcb59f296\",\"label\":\"no\",\"reason\":\"A lemon is a different fruit from a pineapple.\"},{\"id\":\"f063c620925248224c6d\",\"label\":\"yes\",\"reason\":\"The answer identifies a bookshelf, modified by the mention of a sticky note.\"},{\"id\":\"cbc8a77fa33d5bd06a02\",\"label\":\"no\",\"reason\":\"A lemon is not a submarine.\"},{\"id\":\"1320b89c4e5dd6ceba0b\",\"label\":\"no\",\"reason\":\"A beetle is a different insect from an ant.\"},{\"id\":\"ec86de5f3c119335da1c\",\"label\":\"no\",\"reason\":\"Cacti are a different kind of plant, not aloe.\"},{\"id\":\"f3774b64039888d930c0\",\"label\":\"yes\",\"reason\":\"The answer explicitly identifies a jellyfish.\"},{\"id\":\"ed9cab7024dc3986efc9\",\"label\":\"no\",\"reason\":\"A jellyfish is a different animal from an octopus.\"}]}",
+    "returned_model": "gpt-6-luna",
+    "start": 730,
+    "started": "2026-11-26T08:27:13.970970+00:00",
+    "status": "success",
+    "task": "identity",
+    "usage": {
+      "completion_tokens": 545,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 207,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 527,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1072
+    }
+  }
+}
