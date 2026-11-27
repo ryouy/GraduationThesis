@@ -18,7 +18,7 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 
 **[本実験・統合プロトコル v0.98](docs/main_experiment_protocol_v0_98.md)** — 現行の準備プロトコル。概念ペア・Cue選定の統合検証を反映。実行用v1.0は未凍結。
 
-[採用根拠・検証記録](docs/main_experiment_protocol_v0_98_evidence.md) ｜ [旧v0.97（保存）](docs/main_experiment_protocol_v0_97.md)
+[採用根拠・検証記録](docs/main_experiment_protocol_v0_98_evidence.md) ｜ [研究テーマ・実験の歩み（詳細・具体例つき）](docs/research_history.md) ｜ [旧v0.97（保存）](docs/main_experiment_protocol_v0_97.md)
 
 現在：初回50組中33組は旧基準の暫定通過。Probe学習・評価方法、概念ペア選定、Cue生成・選定の主要予備検証を終了した。**100 Xに向けた正式候補探索・独立確認・刺激準備は未実施。** 品質監査・停止規則・出力評価・統計・実装照合を経てv1.0を凍結する。
 
