@@ -28,6 +28,7 @@ LLMに対する「Xについて考えないで」という抑制指示の下で�
 |---|---|
 | **[統合プロトコル v0.98（現行）](docs/main_experiment_protocol_v0_98.md)** | 100 X目標・Avoid X中心／Neutral X対照・Probe／Logit Lens主解析、刺激設計・残作業 |
 | [採用根拠・検証記録](docs/main_experiment_protocol_v0_98_evidence.md) | 選定理由・実験方法・実測値・限界・原資料 |
+| **[研究テーマ・実験の歩み（詳細・具体例つき）](docs/research_history.md)** | テーマ候補の比較から予備実験・現行v0.98までを時系列で整理 |
 | [旧統合プロトコル v0.97](docs/main_experiment_protocol_v0_97.md) | 旧版・Probe確定の経緯（保存） |
 | [旧統合設計 v0.9](docs/main_experiment_protocol_v0_9.md) | 2026-11-24までの設計記録（保存） |
 | [研究概要](docs/research_overview.md) | 研究動機・背景・当初の研究質問 |
